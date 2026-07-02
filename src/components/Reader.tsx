@@ -19,6 +19,7 @@ interface Props {
   entry: CatalogEntry
   onBack: () => void
   onOpenLibrary: () => void
+  onOpenAppearance: () => void
 }
 
 interface OpenNote {
@@ -42,7 +43,7 @@ function noteHtml(label: string): string {
   return clone.innerHTML
 }
 
-export function Reader({ entry, onBack, onOpenLibrary }: Props) {
+export function Reader({ entry, onBack, onOpenLibrary, onOpenAppearance }: Props) {
   const [parsed, setParsed] = useState<ParsedBook | null>(null)
   const [error, setError] = useState<string | null>(null)
   const [note, setNote] = useState<OpenNote | null>(null)
@@ -270,6 +271,10 @@ export function Reader({ entry, onBack, onOpenLibrary }: Props) {
         }
         onExpandAll={() => setCollapsed(new Set())}
         onCopy={requestCopy}
+        onAppearance={() => {
+          setTocOpen(false)
+          onOpenAppearance()
+        }}
         onSelectName={(name) => {
           // Tap num nome do índice: joga o nome na busca — todas as
           // ocorrências destacadas e navegáveis

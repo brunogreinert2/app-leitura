@@ -5,9 +5,10 @@ interface Props {
   error: string | null
   onSelect: (entry: CatalogEntry) => void
   onOpenLibrary: () => void
+  onOpenAppearance: () => void
 }
 
-export function Catalog({ catalog, error, onSelect, onOpenLibrary }: Props) {
+export function Catalog({ catalog, error, onSelect, onOpenLibrary, onOpenAppearance }: Props) {
   return (
     <div className="catalog">
       <header className="catalog-header">
@@ -18,10 +19,17 @@ export function Catalog({ catalog, error, onSelect, onOpenLibrary }: Props) {
         >
           ☰
         </button>
-        <div>
+        <div className="catalog-header-title">
           <h1>Biblioteca</h1>
           <p className="catalog-subtitle">Pedra Angular</p>
         </div>
+        <button
+          className="library-button"
+          onClick={onOpenAppearance}
+          aria-label="Aparência (esquemas de cor)"
+        >
+          ◐
+        </button>
       </header>
 
       {error && <p className="catalog-error">Não foi possível carregar o catálogo: {error}</p>}

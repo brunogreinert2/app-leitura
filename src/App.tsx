@@ -2,6 +2,7 @@ import { useEffect, useState } from 'react'
 import { Catalog } from './components/Catalog'
 import { Reader } from './components/Reader'
 import { LibraryDrawer } from './components/LibraryDrawer'
+import { ThemeDialog, useTheme } from './components/ThemeDialog'
 import type { Catalog as CatalogData, CatalogEntry } from './types'
 
 export function App() {
@@ -9,6 +10,8 @@ export function App() {
   const [error, setError] = useState<string | null>(null)
   const [book, setBook] = useState<CatalogEntry | null>(null)
   const [libraryOpen, setLibraryOpen] = useState(false)
+  const [themeOpen, setThemeOpen] = useState(false)
+  const { theme, setTheme } = useTheme()
 
   useEffect(() => {
     fetch(`${import.meta.env.BASE_URL}livros/catalogo.json`)
@@ -33,11 +36,18 @@ export function App() {
         onClose={() => setLibraryOpen(false)}
         onSelect={openBook}
       />
+      <ThemeDialog
+        open={themeOpen}
+        theme={theme}
+        onSelect={setTheme}
+        onClose={() => setThemeOpen(false)}
+      />
       {book ? (
         <Reader
           entry={book}
           onBack={() => setBook(null)}
           onOpenLibrary={() => setLibraryOpen(true)}
+          onOpenAppearance={() => setThemeOpen(true)}
         />
       ) : (
         <Catalog
@@ -45,6 +55,7 @@ export function App() {
           error={error}
           onSelect={openBook}
           onOpenLibrary={() => setLibraryOpen(true)}
+          onOpenAppearance={() => setThemeOpen(true)}
         />
       )}
     </>
