@@ -1,29 +1,27 @@
-import { useEffect, useState } from 'react'
 import type { Catalog as CatalogData, CatalogEntry } from '../types'
 
 interface Props {
+  catalog: CatalogData | null
+  error: string | null
   onSelect: (entry: CatalogEntry) => void
+  onOpenLibrary: () => void
 }
 
-export function Catalog({ onSelect }: Props) {
-  const [catalog, setCatalog] = useState<CatalogData | null>(null)
-  const [error, setError] = useState<string | null>(null)
-
-  useEffect(() => {
-    fetch(`${import.meta.env.BASE_URL}livros/catalogo.json`)
-      .then((r) => {
-        if (!r.ok) throw new Error(`HTTP ${r.status}`)
-        return r.json()
-      })
-      .then(setCatalog)
-      .catch((e: unknown) => setError(String(e)))
-  }, [])
-
+export function Catalog({ catalog, error, onSelect, onOpenLibrary }: Props) {
   return (
     <div className="catalog">
       <header className="catalog-header">
-        <h1>Biblioteca</h1>
-        <p className="catalog-subtitle">Pedra Angular</p>
+        <button
+          className="library-button"
+          onClick={onOpenLibrary}
+          aria-label="Abrir biblioteca (pastas e pesquisa)"
+        >
+          ☰
+        </button>
+        <div>
+          <h1>Biblioteca</h1>
+          <p className="catalog-subtitle">Pedra Angular</p>
+        </div>
       </header>
 
       {error && <p className="catalog-error">Não foi possível carregar o catálogo: {error}</p>}

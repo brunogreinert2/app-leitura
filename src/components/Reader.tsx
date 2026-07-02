@@ -4,10 +4,12 @@ import { parseBook } from '../lib/markdown'
 import { FootnoteContext, type FootnoteActions } from './footnoteContext'
 import { Sidebar } from './Sidebar'
 import { FontControls, useFontSize, usePinchFontSize } from './FontControls'
+import { TextSearch } from './TextSearch'
 
 interface Props {
   entry: CatalogEntry
   onBack: () => void
+  onOpenLibrary: () => void
 }
 
 interface OpenNote {
@@ -26,14 +28,27 @@ function noteHtml(label: string): string {
   return clone.innerHTML
 }
 
-export function Reader({ entry, onBack }: Props) {
+export function Reader({ entry, onBack, onOpenLibrary }: Props) {
   const [raw, setRaw] = useState<string | null>(null)
   const [error, setError] = useState<string | null>(null)
   const [note, setNote] = useState<OpenNote | null>(null)
   const [tocOpen, setTocOpen] = useState(false)
+  const [searchOpen, setSearchOpen] = useState(false)
   const { px, setPx, decrease, increase } = useFontSize()
   const bodyRef = useRef<HTMLElement>(null)
   usePinchFontSize(bodyRef, px, setPx)
+
+  // Ctrl+F abre a busca interna em vez da do navegador
+  useEffect(() => {
+    const onKey = (e: KeyboardEvent) => {
+      if ((e.ctrlKey || e.metaKey) && e.key.toLowerCase() === 'f') {
+        e.preventDefault()
+        setSearchOpen(true)
+      }
+    }
+    window.addEventListener('keydown', onKey)
+    return () => window.removeEventListener('keydown', onKey)
+  }, [])
 
   useEffect(() => {
     let cancelled = false
@@ -84,10 +99,24 @@ export function Reader({ entry, onBack }: Props) {
   return (
     <div className="reader">
       <header className="reader-header">
+        <button
+          className="library-button"
+          onClick={onOpenLibrary}
+          aria-label="Abrir biblioteca (pastas e pesquisa)"
+        >
+          📚
+        </button>
         <button className="back-button" onClick={onBack} aria-label="Voltar ao catálogo">
-          ← Catálogo
+          ←
         </button>
         <span className="reader-title">{entry.titulo}</span>
+        <button
+          className="search-button"
+          onClick={() => setSearchOpen((v) => !v)}
+          aria-label="Buscar no texto"
+        >
+          🔍
+        </button>
         <FontControls decrease={decrease} increase={increase} />
         <button
           className="toc-button"
@@ -97,6 +126,13 @@ export function Reader({ entry, onBack }: Props) {
           ☰
         </button>
       </header>
+
+      <TextSearch
+        bodyRef={bodyRef}
+        open={searchOpen}
+        onClose={() => setSearchOpen(false)}
+        contentVersion={`${entry.id}:${px}:${raw !== null}`}
+      />
 
       <Sidebar
         headings={parsed?.headings ?? []}

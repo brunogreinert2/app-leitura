@@ -1,1 +1,0 @@
-{"root":["./src/app.tsx","./src/main.tsx","./src/types.ts","./src/components/catalog.tsx","./src/components/fontcontrols.tsx","./src/components/footnoteref.tsx","./src/components/reader.tsx","./src/components/sidebar.tsx","./src/components/footnotecontext.ts","./src/lib/frontmatter.ts","./src/lib/markdown.tsx","./src/lib/remarkmarkers.ts"],"version":"6.0.3"}

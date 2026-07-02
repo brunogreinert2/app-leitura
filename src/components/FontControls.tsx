@@ -65,15 +65,25 @@ export function usePinchFontSize(
       startDist = 0
     }
 
+    // Desktop: ctrl+roda / pinch de trackpad sobre o texto também vira
+    // ajuste de fonte com reflow — o zoom nunca escala o header do app.
+    const onWheel = (e: WheelEvent) => {
+      if (!e.ctrlKey) return
+      e.preventDefault()
+      setPx(px * (e.deltaY < 0 ? 1.06 : 1 / 1.06))
+    }
+
     el.addEventListener('touchstart', onTouchStart, { passive: true })
     el.addEventListener('touchmove', onTouchMove, { passive: false })
     el.addEventListener('touchend', onTouchEnd, { passive: true })
     el.addEventListener('touchcancel', onTouchEnd, { passive: true })
+    el.addEventListener('wheel', onWheel, { passive: false })
     return () => {
       el.removeEventListener('touchstart', onTouchStart)
       el.removeEventListener('touchmove', onTouchMove)
       el.removeEventListener('touchend', onTouchEnd)
       el.removeEventListener('touchcancel', onTouchEnd)
+      el.removeEventListener('wheel', onWheel)
     }
   }, [ref, px, setPx])
 }

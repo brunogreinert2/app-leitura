@@ -1,14 +1,52 @@
-import { useState } from 'react'
+import { useEffect, useState } from 'react'
 import { Catalog } from './components/Catalog'
 import { Reader } from './components/Reader'
-import type { CatalogEntry } from './types'
+import { LibraryDrawer } from './components/LibraryDrawer'
+import type { Catalog as CatalogData, CatalogEntry } from './types'
 
 export function App() {
+  const [catalog, setCatalog] = useState<CatalogData | null>(null)
+  const [error, setError] = useState<string | null>(null)
   const [book, setBook] = useState<CatalogEntry | null>(null)
+  const [libraryOpen, setLibraryOpen] = useState(false)
 
-  return book ? (
-    <Reader entry={book} onBack={() => setBook(null)} />
-  ) : (
-    <Catalog onSelect={setBook} />
+  useEffect(() => {
+    fetch(`${import.meta.env.BASE_URL}livros/catalogo.json`)
+      .then((r) => {
+        if (!r.ok) throw new Error(`HTTP ${r.status}`)
+        return r.json()
+      })
+      .then(setCatalog)
+      .catch((e: unknown) => setError(String(e)))
+  }, [])
+
+  const openBook = (entry: CatalogEntry) => {
+    setBook(entry)
+    setLibraryOpen(false)
+  }
+
+  return (
+    <>
+      <LibraryDrawer
+        catalog={catalog}
+        open={libraryOpen}
+        onClose={() => setLibraryOpen(false)}
+        onSelect={openBook}
+      />
+      {book ? (
+        <Reader
+          entry={book}
+          onBack={() => setBook(null)}
+          onOpenLibrary={() => setLibraryOpen(true)}
+        />
+      ) : (
+        <Catalog
+          catalog={catalog}
+          error={error}
+          onSelect={openBook}
+          onOpenLibrary={() => setLibraryOpen(true)}
+        />
+      )}
+    </>
   )
 }
