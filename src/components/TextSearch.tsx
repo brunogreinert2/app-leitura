@@ -6,6 +6,8 @@ interface Props {
   onClose: () => void
   /** Muda quando o corpo re-renderiza (livro/fonte), para refazer os destaques. */
   contentVersion: unknown
+  /** Busca disparada de fora (ex.: índice de nomes); nonce força reaplicar. */
+  seed?: { query: string; nonce: number }
 }
 
 const MARKS_RE = /[̀-ͯ]/g
@@ -48,7 +50,7 @@ function findRanges(root: HTMLElement, query: string): Range[] {
 
 const supportsHighlight = typeof CSS !== 'undefined' && 'highlights' in CSS
 
-export function TextSearch({ bodyRef, open, onClose, contentVersion }: Props) {
+export function TextSearch({ bodyRef, open, onClose, contentVersion, seed }: Props) {
   const [query, setQuery] = useState('')
   const [matches, setMatches] = useState<Range[]>([])
   const [current, setCurrent] = useState(0)
@@ -57,6 +59,10 @@ export function TextSearch({ bodyRef, open, onClose, contentVersion }: Props) {
   useEffect(() => {
     if (open) inputRef.current?.focus()
   }, [open])
+
+  useEffect(() => {
+    if (seed && seed.nonce > 0) setQuery(seed.query)
+  }, [seed])
 
   // Busca (com debounce) e destaque de todas as ocorrências
   useEffect(() => {

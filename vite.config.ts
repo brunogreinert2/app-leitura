@@ -10,6 +10,8 @@ export default defineConfig({
       workbox: {
         // Pré-cacheia o app e os livros embarcados (offline completo)
         globPatterns: ['**/*.{js,css,html,svg,png,md,json,woff2}'],
+        // O rolo da Bíblia (4,4 MB) passa do limite padrão de 2 MiB
+        maximumFileSizeToCacheInBytes: 8 * 1024 * 1024,
       },
       manifest: {
         name: 'Leitura — Pedra Angular',

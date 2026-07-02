@@ -6,6 +6,26 @@
       "autor": "Epicteto",
       "arquivo": "FILOSOFIA/Estoicismo/Epicteto/Encheiridion/Epiteto_Encheiridion_grc-pt_Dinucci-Julien_2012.md",
       "sistema_referencia": "capitulo-secao"
+    },
+    {
+      "id": "platao-sofista",
+      "titulo": "O Sofista",
+      "autor": "Platão",
+      "arquivo": "FILOSOFIA/Platonismo/Platao/Sofista/Platao_Sofista_pt_Paleikat-Cruz-Costa_sd.md"
+    },
+    {
+      "id": "eclesiastes-interlinear",
+      "titulo": "Eclesiastes — Interlinear Hebraico/Português",
+      "autor": "Qohélet",
+      "arquivo": "00-referencias/Escrituras Hebraicas/Eclesiastes_interlinear_cap1.md",
+      "sistema_referencia": "versiculo"
+    },
+    {
+      "id": "biblia-tb-1917",
+      "titulo": "Bíblia Sagrada — Tradução Brasileira (1917)",
+      "autor": "Tradução Brasileira",
+      "arquivo": "ROLOS/ROLO_Biblia_TB_1917.md",
+      "sistema_referencia": "versiculo"
     }
   ]
 }

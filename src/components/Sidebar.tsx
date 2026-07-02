@@ -1,14 +1,17 @@
 import { useState } from 'react'
-import type { HeadingInfo } from '../lib/markdown'
+import type { HeadingInfo, NameEntry } from '../lib/markdown'
 
 interface Props {
   headings: HeadingInfo[]
+  /** Índice de nomes auto-gerado dos wikilinks (vazio = sem seção). */
+  names: NameEntry[]
   open: boolean
   onClose: () => void
   onNavigate: (id: string) => void
   onCollapseAll: () => void
   onExpandAll: () => void
   onCopy: () => void
+  onSelectName: (name: string) => void
 }
 
 interface TocGroup {
@@ -31,13 +34,16 @@ function buildGroups(headings: HeadingInfo[]): TocGroup[] {
 
 export function Sidebar({
   headings,
+  names,
   open,
   onClose,
   onNavigate,
   onCollapseAll,
   onExpandAll,
   onCopy,
+  onSelectName,
 }: Props) {
+  const [namesOpen, setNamesOpen] = useState(false)
   const [expanded, setExpanded] = useState<Set<string>>(new Set())
   const groups = buildGroups(headings)
 
@@ -112,6 +118,35 @@ export function Sidebar({
               )}
             </li>
           ))}
+
+          {names.length > 0 && (
+            <li>
+              <div className="toc-row">
+                <button className="toc-item toc-depth-2" onClick={() => setNamesOpen((v) => !v)}>
+                  Índice de nomes
+                </button>
+                <button
+                  className="toc-toggle"
+                  onClick={() => setNamesOpen((v) => !v)}
+                  aria-expanded={namesOpen}
+                  aria-label={namesOpen ? 'Recolher índice de nomes' : 'Expandir índice de nomes'}
+                >
+                  {namesOpen ? '▾' : '▸'}
+                </button>
+              </div>
+              {namesOpen && (
+                <ul className="toc-children">
+                  {names.map(({ name, count }) => (
+                    <li key={name}>
+                      <button className="toc-item toc-depth-3" onClick={() => onSelectName(name)}>
+                        {name} <span className="toc-name-count">({count})</span>
+                      </button>
+                    </li>
+                  ))}
+                </ul>
+              )}
+            </li>
+          )}
         </ul>
       </nav>
     </>

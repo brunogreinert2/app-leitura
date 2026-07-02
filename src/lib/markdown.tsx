@@ -9,8 +9,12 @@ import type { Root as HastRoot } from 'hast'
 import type { Element as HastElement, ElementContent } from 'hast'
 import { splitFrontmatter, type BookMeta } from './frontmatter'
 import { remarkMarkers } from './remarkMarkers'
+import { remarkWikilinks } from './remarkWikilinks'
+import { remarkBlockAnchors } from './remarkBlockAnchors'
+import { remarkHebrew } from './remarkHebrew'
 import { FootnoteRef } from '../components/FootnoteRef'
 import { CollapsibleSection } from '../components/CollapsibleSection'
+import { WikilinkRef } from '../components/WikilinkRef'
 
 export interface ParsedBook {
   meta: BookMeta | null
@@ -18,6 +22,13 @@ export interface ParsedBook {
   headings: HeadingInfo[]
   /** Markdown fonte sem o front matter (base do copiar limpo). */
   source: string
+  /** Índice de nomes: alvos de wikilinks e nº de ocorrências. */
+  names: NameEntry[]
+}
+
+export interface NameEntry {
+  name: string
+  count: number
 }
 
 export interface HeadingInfo {
@@ -31,7 +42,10 @@ export interface HeadingInfo {
 const processor = unified()
   .use(remarkParse)
   .use(remarkGfm)
+  .use(remarkBlockAnchors)
+  .use(remarkWikilinks)
   .use(remarkMarkers)
+  .use(remarkHebrew)
   .use(remarkRehype, {
     footnoteLabel: 'Notas',
     footnoteLabelTagName: 'h2',
@@ -157,11 +171,28 @@ function labelFootnoteList(tree: HastRoot) {
   }
 }
 
+/** Varre os wikilinks do texto e monta o índice de nomes (F4). */
+function collectNames(tree: HastRoot): NameEntry[] {
+  const counts = new Map<string, number>()
+  const walk = (node: { children?: unknown[]; properties?: Record<string, unknown> }) => {
+    const target = node.properties?.dataTarget
+    if (typeof target === 'string') counts.set(target, (counts.get(target) ?? 0) + 1)
+    if (Array.isArray(node.children)) {
+      for (const child of node.children) walk(child as typeof node)
+    }
+  }
+  walk(tree as unknown as { children?: unknown[] })
+  return [...counts.entries()]
+    .map(([name, count]) => ({ name, count }))
+    .sort((a, b) => a.name.localeCompare(b.name, 'pt'))
+}
+
 export function parseBook(raw: string): ParsedBook {
   const { meta, content } = splitFrontmatter(raw)
   const mdast = processor.parse(content)
   const hast = processor.runSync(mdast) as HastRoot
   const headings = collectHeadings(hast)
+  const names = collectNames(hast)
   labelFootnoteList(hast)
   nestSections(hast)
 
@@ -182,8 +213,14 @@ export function parseBook(raw: string): ParsedBook {
         ) : (
           <section {...(props as React.HTMLAttributes<HTMLElement>)} />
         ),
+      span: (props: Record<string, unknown>) =>
+        props['data-target'] != null ? (
+          <WikilinkRef {...props} />
+        ) : (
+          <span {...(props as React.HTMLAttributes<HTMLSpanElement>)} />
+        ),
     },
   })
 
-  return { meta, body, headings, source: content }
+  return { meta, body, headings, source: content, names }
 }
