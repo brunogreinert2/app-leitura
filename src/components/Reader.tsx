@@ -225,6 +225,17 @@ export function Reader({ entry, onBack, onOpenLibrary }: Props) {
         onClose={() => setSearchOpen(false)}
         contentVersion={`${entry.id}:${px}:${parsed !== null}:${[...collapsed].sort().join(',')}`}
         seed={searchSeed}
+        bookId={entry.id}
+        source={parsed?.source ?? ''}
+        headings={parsed?.headings ?? []}
+        collapsed={collapsed}
+        expandChain={(ids) =>
+          setCollapsed((prev) => {
+            const next = new Set(prev)
+            for (const id of ids) next.delete(id)
+            return next
+          })
+        }
       />
 
       <Sidebar

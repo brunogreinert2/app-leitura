@@ -224,6 +224,21 @@ button {
   min-width: 2.75rem;
 }
 
+/* Salto de referência canônica: destaque temporário do bloco alvo */
+.ref-flash {
+  animation: ref-flash 1.6s ease-out;
+}
+
+@keyframes ref-flash {
+  0%,
+  40% {
+    background: #f5d76e;
+  }
+  100% {
+    background: transparent;
+  }
+}
+
 ::highlight(busca) {
   background-color: #f5d76e;
   color: #2b2620;
