@@ -1,0 +1,11 @@
+{
+  "livros": [
+    {
+      "id": "epicteto-encheiridion",
+      "titulo": "O Encheirídion de Epicteto",
+      "autor": "Epicteto",
+      "arquivo": "epicteto-encheiridion.md",
+      "sistema_referencia": "capitulo-secao"
+    }
+  ]
+}
