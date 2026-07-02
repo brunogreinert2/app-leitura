@@ -6,6 +6,9 @@ interface Props {
   open: boolean
   onClose: () => void
   onNavigate: (id: string) => void
+  onCollapseAll: () => void
+  onExpandAll: () => void
+  onCopy: () => void
 }
 
 interface TocGroup {
@@ -26,7 +29,15 @@ function buildGroups(headings: HeadingInfo[]): TocGroup[] {
   return groups
 }
 
-export function Sidebar({ headings, open, onClose, onNavigate }: Props) {
+export function Sidebar({
+  headings,
+  open,
+  onClose,
+  onNavigate,
+  onCollapseAll,
+  onExpandAll,
+  onCopy,
+}: Props) {
   const [expanded, setExpanded] = useState<Set<string>>(new Set())
   const groups = buildGroups(headings)
 
@@ -47,6 +58,17 @@ export function Sidebar({ headings, open, onClose, onNavigate }: Props) {
           <h2>Sumário</h2>
           <button className="sidebar-close" onClick={onClose} aria-label="Fechar sumário">
             ✕
+          </button>
+        </div>
+        <div className="toc-actions">
+          <button className="toc-action" onClick={onCollapseAll}>
+            Recolher tudo
+          </button>
+          <button className="toc-action" onClick={onExpandAll}>
+            Expandir tudo
+          </button>
+          <button className="toc-action" onClick={onCopy}>
+            Copiar livro
           </button>
         </div>
         <ul className="toc">

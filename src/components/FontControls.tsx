@@ -65,8 +65,9 @@ export function usePinchFontSize(
       startDist = 0
     }
 
-    // Desktop: ctrl+roda / pinch de trackpad sobre o texto também vira
-    // ajuste de fonte com reflow — o zoom nunca escala o header do app.
+    // Desktop: ctrl+roda / pinch de trackpad vira ajuste de fonte com
+    // reflow. No window inteiro da tela de leitura, para o navegador
+    // não capturar o gesto como zoom global (Chrome é insistente).
     const onWheel = (e: WheelEvent) => {
       if (!e.ctrlKey) return
       e.preventDefault()
@@ -77,13 +78,13 @@ export function usePinchFontSize(
     el.addEventListener('touchmove', onTouchMove, { passive: false })
     el.addEventListener('touchend', onTouchEnd, { passive: true })
     el.addEventListener('touchcancel', onTouchEnd, { passive: true })
-    el.addEventListener('wheel', onWheel, { passive: false })
+    window.addEventListener('wheel', onWheel, { passive: false })
     return () => {
       el.removeEventListener('touchstart', onTouchStart)
       el.removeEventListener('touchmove', onTouchMove)
       el.removeEventListener('touchend', onTouchEnd)
       el.removeEventListener('touchcancel', onTouchEnd)
-      el.removeEventListener('wheel', onWheel)
+      window.removeEventListener('wheel', onWheel)
     }
   }, [ref, px, setPx])
 }

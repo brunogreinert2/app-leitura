@@ -6,20 +6,26 @@ import { toJsxRuntime } from 'hast-util-to-jsx-runtime'
 import { Fragment, jsx, jsxs } from 'react/jsx-runtime'
 import type { ReactNode } from 'react'
 import type { Root as HastRoot } from 'hast'
+import type { Element as HastElement, ElementContent } from 'hast'
 import { splitFrontmatter, type BookMeta } from './frontmatter'
 import { remarkMarkers } from './remarkMarkers'
 import { FootnoteRef } from '../components/FootnoteRef'
+import { CollapsibleSection } from '../components/CollapsibleSection'
 
 export interface ParsedBook {
   meta: BookMeta | null
   body: ReactNode
   headings: HeadingInfo[]
+  /** Markdown fonte sem o front matter (base do copiar limpo). */
+  source: string
 }
 
 export interface HeadingInfo {
   depth: number
   text: string
   id: string
+  /** Linha (1-based) do heading no markdown fonte. */
+  line?: number
 }
 
 const processor = unified()
@@ -67,9 +73,61 @@ function collectHeadings(tree: HastRoot): HeadingInfo[] {
     const text = hastText(node)
     const id = slugify(text, seen)
     node.properties = { ...node.properties, id }
-    headings.push({ depth: Number(node.tagName[1]), text, id })
+    headings.push({ depth: Number(node.tagName[1]), text, id, line: node.position?.start.line })
   }
   return headings
+}
+
+/**
+ * Agrupa o conteúdo em <section data-collapsible> aninhadas por heading
+ * (h2–h4), cada uma com exatamente dois filhos: o heading e um div com
+ * o conteúdo até o próximo heading de nível igual ou superior.
+ * O título (h1) e a lista de notas do GFM ficam fora.
+ */
+function nestSections(tree: HastRoot) {
+  const rootOut: ElementContent[] = []
+  const stack: { depth: number; content: ElementContent[] }[] = []
+  const push = (node: ElementContent) =>
+    (stack.length ? stack[stack.length - 1].content : rootOut).push(node)
+
+  for (const node of tree.children as ElementContent[]) {
+    const isFootnotes =
+      node.type === 'element' && node.properties?.dataFootnotes !== undefined
+    if (isFootnotes) {
+      stack.length = 0
+      rootOut.push(node)
+      continue
+    }
+    const isHeading =
+      node.type === 'element' &&
+      /^h[2-4]$/.test(node.tagName) &&
+      typeof node.properties?.id === 'string' &&
+      node.properties.id !== 'footnote-label'
+    if (!isHeading) {
+      push(node)
+      continue
+    }
+    const depth = Number((node as HastElement).tagName[1])
+    while (stack.length && stack[stack.length - 1].depth >= depth) stack.pop()
+    const contentDiv: HastElement = {
+      type: 'element',
+      tagName: 'div',
+      properties: { className: ['section-content'] },
+      children: [],
+    }
+    const section: HastElement = {
+      type: 'element',
+      tagName: 'section',
+      properties: {
+        dataCollapsible: String((node as HastElement).properties.id),
+        dataDepth: depth,
+      },
+      children: [node, contentDiv],
+    }
+    push(section)
+    stack.push({ depth, content: contentDiv.children })
+  }
+  tree.children = rootOut
 }
 
 /**
@@ -105,6 +163,7 @@ export function parseBook(raw: string): ParsedBook {
   const hast = processor.runSync(mdast) as HastRoot
   const headings = collectHeadings(hast)
   labelFootnoteList(hast)
+  nestSections(hast)
 
   const body = toJsxRuntime(hast, {
     Fragment,
@@ -117,8 +176,14 @@ export function parseBook(raw: string): ParsedBook {
         ) : (
           <a {...(props as React.AnchorHTMLAttributes<HTMLAnchorElement>)} />
         ),
+      section: (props: Record<string, unknown>) =>
+        props['data-collapsible'] != null ? (
+          <CollapsibleSection {...props} />
+        ) : (
+          <section {...(props as React.HTMLAttributes<HTMLElement>)} />
+        ),
     },
   })
 
-  return { meta, body, headings }
+  return { meta, body, headings, source: content }
 }

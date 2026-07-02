@@ -5,6 +5,8 @@ import { FootnoteContext, type FootnoteActions } from './footnoteContext'
 import { Sidebar } from './Sidebar'
 import { FontControls, useFontSize, usePinchFontSize } from './FontControls'
 import { TextSearch } from './TextSearch'
+import { CollapseContext } from './collapseContext'
+import { buildCopyText } from '../lib/copyBook'
 
 interface Props {
   entry: CatalogEntry
@@ -34,6 +36,9 @@ export function Reader({ entry, onBack, onOpenLibrary }: Props) {
   const [note, setNote] = useState<OpenNote | null>(null)
   const [tocOpen, setTocOpen] = useState(false)
   const [searchOpen, setSearchOpen] = useState(false)
+  const [collapsed, setCollapsed] = useState<Set<string>>(new Set())
+  const [copyDialogOpen, setCopyDialogOpen] = useState(false)
+  const [toast, setToast] = useState<string | null>(null)
   const { px, setPx, decrease, increase } = useFontSize()
   const bodyRef = useRef<HTMLElement>(null)
   usePinchFontSize(bodyRef, px, setPx)
@@ -69,6 +74,42 @@ export function Reader({ entry, onBack, onOpenLibrary }: Props) {
   }, [entry])
 
   const parsed = useMemo(() => (raw !== null ? parseBook(raw) : null), [raw])
+
+  const collapseState = useMemo(
+    () => ({
+      collapsed,
+      toggle: (id: string) =>
+        setCollapsed((prev) => {
+          const next = new Set(prev)
+          if (next.has(id)) next.delete(id)
+          else next.add(id)
+          return next
+        }),
+    }),
+    [collapsed],
+  )
+
+  const showToast = (msg: string) => {
+    setToast(msg)
+    window.setTimeout(() => setToast(null), 2000)
+  }
+
+  const doCopy = (onlyVisible: boolean) => {
+    if (!parsed) return
+    const text = buildCopyText(parsed.source, parsed.headings, collapsed, onlyVisible)
+    navigator.clipboard
+      .writeText(text)
+      .then(() => showToast('Copiado!'))
+      .catch(() => showToast('Não foi possível copiar'))
+    setCopyDialogOpen(false)
+  }
+
+  const requestCopy = () => {
+    setTocOpen(false)
+    // Sem seção recolhida não há o que perguntar: copia tudo
+    if (collapsed.size === 0) doCopy(false)
+    else setCopyDialogOpen(true)
+  }
 
   const footnoteActions = useMemo<FootnoteActions>(
     () => ({
@@ -131,7 +172,7 @@ export function Reader({ entry, onBack, onOpenLibrary }: Props) {
         bodyRef={bodyRef}
         open={searchOpen}
         onClose={() => setSearchOpen(false)}
-        contentVersion={`${entry.id}:${px}:${raw !== null}`}
+        contentVersion={`${entry.id}:${px}:${raw !== null}:${[...collapsed].sort().join(',')}`}
       />
 
       <Sidebar
@@ -140,11 +181,35 @@ export function Reader({ entry, onBack, onOpenLibrary }: Props) {
         onClose={() => setTocOpen(false)}
         onNavigate={(id) => {
           setTocOpen(false)
-          document.getElementById(id)?.scrollIntoView()
+          // Navegar para uma seção recolhida (ou dentro de uma) reabre
+          // o alvo e todos os seus ancestrais
+          const headings = parsed?.headings ?? []
+          const toExpand = new Set<string>([id])
+          const stack: { depth: number; id: string }[] = []
+          for (const h of headings) {
+            while (stack.length && stack[stack.length - 1].depth >= h.depth) stack.pop()
+            if (h.id === id) {
+              for (const a of stack) toExpand.add(a.id)
+              break
+            }
+            stack.push({ depth: h.depth, id: h.id })
+          }
+          setCollapsed((prev) => {
+            const next = new Set(prev)
+            for (const e of toExpand) next.delete(e)
+            return next
+          })
+          requestAnimationFrame(() => document.getElementById(id)?.scrollIntoView())
         }}
+        onCollapseAll={() =>
+          setCollapsed(new Set((parsed?.headings ?? []).filter((h) => h.depth >= 2).map((h) => h.id)))
+        }
+        onExpandAll={() => setCollapsed(new Set())}
+        onCopy={requestCopy}
       />
 
       <FootnoteContext.Provider value={footnoteActions}>
+        <CollapseContext.Provider value={collapseState}>
         <article
           className="reader-body"
           ref={bodyRef}
@@ -175,7 +240,39 @@ export function Reader({ entry, onBack, onOpenLibrary }: Props) {
             </aside>
           )}
         </article>
+        </CollapseContext.Provider>
       </FootnoteContext.Provider>
+
+      {copyDialogOpen && (
+        <>
+          <div
+            className="sidebar-backdrop"
+            onClick={() => setCopyDialogOpen(false)}
+            aria-hidden="true"
+          />
+          <div className="copy-dialog" role="dialog" aria-label="O que copiar?">
+            <h2>Copiar livro</h2>
+            <p>Há seções recolhidas. O que copiar?</p>
+            <button className="copy-dialog-option" onClick={() => doCopy(true)}>
+              Só o visível
+              <span className="copy-dialog-hint">seções recolhidas entram só com o título</span>
+            </button>
+            <button className="copy-dialog-option" onClick={() => doCopy(false)}>
+              Todo o conteúdo
+              <span className="copy-dialog-hint">ignora o recolhimento</span>
+            </button>
+            <button className="copy-dialog-cancel" onClick={() => setCopyDialogOpen(false)}>
+              Cancelar
+            </button>
+          </div>
+        </>
+      )}
+
+      {toast && (
+        <div className="toast" role="status">
+          {toast}
+        </div>
+      )}
     </div>
   )
 }

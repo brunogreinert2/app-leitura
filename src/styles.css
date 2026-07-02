@@ -384,6 +384,29 @@ button {
   color: var(--color-accent);
 }
 
+.toc-actions {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.4rem;
+  padding: 0.75rem 1rem;
+  border-bottom: 1px solid var(--color-border);
+}
+
+.toc-action {
+  flex: 1;
+  min-height: 2.75rem;
+  padding: 0.5rem 0.6rem;
+  border: 1px solid var(--color-border);
+  border-radius: 0.375rem;
+  color: var(--color-accent);
+  font-size: 0.9rem;
+  white-space: nowrap;
+}
+
+.toc-action:active {
+  background: var(--color-bg);
+}
+
 .toc,
 .toc-children {
   list-style: none;
@@ -506,6 +529,106 @@ button {
   color: var(--color-accent);
   font-weight: bold;
   scroll-margin-top: 4rem;
+}
+
+/* ===== Colapso de seção no corpo do texto ===== */
+
+.section-heading {
+  display: flex;
+  align-items: baseline;
+  gap: 0.5rem;
+  cursor: pointer;
+  -webkit-tap-highlight-color: transparent;
+}
+
+.section-heading h2,
+.section-heading h3,
+.section-heading h4 {
+  flex: 1;
+}
+
+.section-arrow {
+  color: var(--color-accent);
+  font-size: 0.85em;
+  /* Acompanha a margem superior do heading ao lado */
+  align-self: center;
+}
+
+.text-section-collapsed .section-heading {
+  opacity: 0.85;
+}
+
+/* ===== Diálogo de cópia e toast ===== */
+
+.copy-dialog {
+  position: fixed;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 50;
+  width: min(24rem, calc(100vw - 2rem));
+  background: var(--color-surface);
+  border: 2px solid var(--color-accent);
+  border-radius: 0.75rem;
+  padding: 1.25rem;
+  box-shadow: 0 8px 32px rgba(43, 38, 32, 0.35);
+}
+
+.copy-dialog h2 {
+  margin: 0 0 0.5rem;
+  font-size: 1.25rem;
+}
+
+.copy-dialog p {
+  margin: 0 0 1rem;
+  color: var(--color-muted);
+}
+
+.copy-dialog-option {
+  display: flex;
+  flex-direction: column;
+  gap: 0.2rem;
+  width: 100%;
+  text-align: left;
+  padding: 0.9rem 1rem;
+  margin-bottom: 0.6rem;
+  min-height: 3rem;
+  background: var(--color-bg);
+  border: 1px solid var(--color-border);
+  border-radius: 0.5rem;
+  font-weight: bold;
+}
+
+.copy-dialog-option:active {
+  background: var(--color-border);
+}
+
+.copy-dialog-hint {
+  font-weight: normal;
+  font-size: 0.85em;
+  color: var(--color-muted);
+}
+
+.copy-dialog-cancel {
+  display: block;
+  width: 100%;
+  padding: 0.75rem;
+  min-height: 2.75rem;
+  color: var(--color-accent);
+  text-align: center;
+}
+
+.toast {
+  position: fixed;
+  bottom: 2rem;
+  left: 50%;
+  transform: translateX(-50%);
+  z-index: 60;
+  background: var(--color-text);
+  color: var(--color-bg);
+  padding: 0.75rem 1.5rem;
+  border-radius: 2rem;
+  box-shadow: 0 4px 16px rgba(43, 38, 32, 0.3);
 }
 
 /* ===== Notas de rodapé ===== */
