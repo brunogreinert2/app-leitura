@@ -140,13 +140,17 @@
   color-scheme: light;
 }
 
-/* Pergaminho: manchas sutis de papel envelhecido */
+/* Pergaminho de verdade: centro claro, bordas queimadas, manchas fortes */
 [data-theme='pergaminho'] body {
   background-image:
-    radial-gradient(ellipse 40rem 30rem at 15% 10%, rgba(138, 111, 60, 0.14), transparent 70%),
-    radial-gradient(ellipse 30rem 24rem at 85% 35%, rgba(120, 92, 44, 0.1), transparent 70%),
-    radial-gradient(ellipse 36rem 28rem at 40% 80%, rgba(150, 122, 70, 0.12), transparent 70%),
-    radial-gradient(ellipse 20rem 16rem at 70% 95%, rgba(110, 84, 40, 0.09), transparent 70%);
+    radial-gradient(ellipse 60% 45% at 50% 40%, rgba(255, 248, 224, 0.55), transparent 75%),
+    radial-gradient(ellipse 22rem 18rem at 4% 4%, rgba(104, 70, 22, 0.4), transparent 70%),
+    radial-gradient(ellipse 16rem 22rem at 98% 12%, rgba(96, 62, 20, 0.32), transparent 70%),
+    radial-gradient(ellipse 26rem 14rem at 12% 99%, rgba(92, 60, 18, 0.38), transparent 70%),
+    radial-gradient(ellipse 12rem 10rem at 82% 70%, rgba(122, 88, 36, 0.22), transparent 70%),
+    radial-gradient(ellipse 8rem 7rem at 30% 45%, rgba(130, 96, 44, 0.16), transparent 70%),
+    radial-gradient(ellipse 10rem 8rem at 62% 22%, rgba(118, 84, 34, 0.18), transparent 70%),
+    radial-gradient(ellipse at 50% 50%, transparent 52%, rgba(78, 50, 14, 0.42) 100%);
   background-attachment: fixed;
 }
 
@@ -823,6 +827,29 @@ button {
 /* Efeito escada: seções aninham no DOM, cada nível desce um degrau */
 .text-section .text-section {
   margin-left: 1rem;
+}
+
+.text-section {
+  scroll-margin-top: 4rem;
+}
+
+/* Flecha de fim de seção: fecha o capítulo lido e volta ao título */
+.section-close {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  padding: 0.6rem 0.9rem;
+  margin: 0.5rem 0 1rem;
+  min-height: 2.75rem;
+  border: 1px solid var(--color-border);
+  border-radius: 0.5rem;
+  color: var(--color-accent);
+  font-size: 0.85em;
+}
+
+.section-close-arrow {
+  font-size: 1.3em;
+  line-height: 1;
 }
 
 .text-section-collapsed .section-heading {

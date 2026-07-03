@@ -9,6 +9,13 @@ import { TextSearch } from './TextSearch'
 import { CollapseContext } from './collapseContext'
 import { WikilinkContext, type WikilinkActions } from './wikilinkContext'
 import { buildCopyText } from '../lib/copyBook'
+import { getBookIndex, chainForLine } from '../lib/searchIndex'
+
+/** Destaque temporário no bloco alvo de um salto. */
+function flash(el: Element) {
+  el.classList.add('ref-flash')
+  window.setTimeout(() => el.classList.remove('ref-flash'), 1600)
+}
 
 /** Parse de livro grande é caro: reabrir na mesma sessão sai do cache. */
 const parseCache = new Map<string, ParsedBook>()
@@ -75,6 +82,8 @@ export function Reader({
   const { px, setPx, decrease, increase } = useFontSize()
   const bodyRef = useRef<HTMLElement>(null)
   usePinchFontSize(bodyRef, px, setPx)
+  // Estado mais recente para callbacks estáveis (backToRef)
+  const parsedRef = useRef<ParsedBook | null>(null)
 
   // Ctrl+F abre a busca interna em vez da do navegador
   useEffect(() => {
@@ -170,6 +179,8 @@ export function Reader({
     [personRegistry, onOpenPerson],
   )
 
+  parsedRef.current = parsed
+
   const collapseState = useMemo(
     () => ({
       collapsed,
@@ -215,12 +226,59 @@ export function Reader({
           anchor.getBoundingClientRect().bottom - container.getBoundingClientRect().top + 8
         setNote({ label, top, html: noteHtml(label) })
       },
-      openList: () => {
+      openList: (label) => {
+        // Long press: direto NESTA nota na lista (não no topo da lista)
         setNote(null)
-        document.getElementById('footnote-label')?.scrollIntoView()
+        const el = document.getElementById(`user-content-fn-${label}`)
+        if (el) {
+          el.scrollIntoView({ block: 'center' })
+          flash(el)
+        }
+      },
+      backToRef: (refElementId) => {
+        setNote(null)
+        const book = parsedRef.current
+        if (!book) return
+        // A chamada pode estar em seção recolhida: acha a linha da
+        // 1ª ocorrência de [^label] no fonte e expande a cadeia
+        const el = document.getElementById(refElementId)
+        if (!el) {
+          let label = refElementId.replace(/^user-content-fnref-/, '')
+          const index = getBookIndex(entry.id, book.source, book.headings)
+          const findLine = (lab: string) =>
+            index.lines.findIndex(
+              (l) => l.includes(`[^${lab}]`) && !l.trimStart().startsWith(`[^${lab}]:`),
+            )
+          let lineIdx = findLine(label)
+          if (lineIdx === -1 && /-\d+$/.test(label)) {
+            // chamadas repetidas ganham sufixo -2, -3... do renderizador
+            label = label.replace(/-\d+$/, '')
+            lineIdx = findLine(label)
+          }
+          if (lineIdx !== -1) {
+            const chain = chainForLine(book.headings, lineIdx + 1)
+            setCollapsed((prev) => {
+              const next = new Set(prev)
+              for (const id of chain) next.delete(id)
+              return next
+            })
+          }
+        }
+        // Aguarda a seção montar e rola até a chamada
+        let tries = 0
+        const attempt = () => {
+          const target = document.getElementById(refElementId)
+          if (target) {
+            target.scrollIntoView({ block: 'center' })
+            flash(target.closest('p') ?? target)
+          } else if (tries++ < 15) {
+            window.setTimeout(attempt, 80)
+          }
+        }
+        attempt()
       },
     }),
-    [],
+    [entry.id],
   )
 
   useEffect(() => {

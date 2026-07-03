@@ -11,14 +11,15 @@ interface Props {
 
 interface FolderProps {
   node: FolderNode
-  collapsed: Set<string>
+  expanded: Set<string>
   onToggle: (path: string) => void
   onSelect: (entry: CatalogEntry) => void
   forceOpen: boolean
 }
 
-function Folder({ node, collapsed, onToggle, onSelect, forceOpen }: FolderProps) {
-  const isOpen = forceOpen || !collapsed.has(node.path)
+function Folder({ node, expanded, onToggle, onSelect, forceOpen }: FolderProps) {
+  // Pastas começam recolhidas: abrem só com toque (ou busca ativa)
+  const isOpen = forceOpen || expanded.has(node.path)
   return (
     <li>
       <button
@@ -35,7 +36,7 @@ function Folder({ node, collapsed, onToggle, onSelect, forceOpen }: FolderProps)
             <Folder
               key={f.path}
               node={f}
-              collapsed={collapsed}
+              expanded={expanded}
               onToggle={onToggle}
               onSelect={onSelect}
               forceOpen={forceOpen}
@@ -57,7 +58,7 @@ function Folder({ node, collapsed, onToggle, onSelect, forceOpen }: FolderProps)
 
 export function LibraryDrawer({ catalog, open, onClose, onSelect }: Props) {
   const [query, setQuery] = useState('')
-  const [collapsed, setCollapsed] = useState<Set<string>>(new Set())
+  const [expanded, setExpanded] = useState<Set<string>>(new Set())
 
   const tree = useMemo(() => {
     if (!catalog) return null
@@ -66,7 +67,7 @@ export function LibraryDrawer({ catalog, open, onClose, onSelect }: Props) {
   }, [catalog, query])
 
   const toggle = (path: string) => {
-    setCollapsed((prev) => {
+    setExpanded((prev) => {
       const next = new Set(prev)
       if (next.has(path)) next.delete(path)
       else next.add(path)
@@ -108,7 +109,7 @@ export function LibraryDrawer({ catalog, open, onClose, onSelect }: Props) {
               <Folder
                 key={f.path}
                 node={f}
-                collapsed={collapsed}
+                expanded={expanded}
                 onToggle={toggle}
                 onSelect={onSelect}
                 forceOpen={forceOpen}

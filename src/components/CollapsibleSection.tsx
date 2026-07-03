@@ -1,4 +1,4 @@
-import { Children, useContext, type ReactNode } from 'react'
+import { Children, useContext, useRef, type ReactNode } from 'react'
 import { CollapseContext } from './collapseContext'
 
 /**
@@ -7,10 +7,19 @@ import { CollapseContext } from './collapseContext'
  */
 export function CollapsibleSection(props: Record<string, unknown>) {
   const { collapsed, toggle } = useContext(CollapseContext)
+  const sectionRef = useRef<HTMLElement>(null)
   const id = String(props['data-collapsible'])
   const depth = Number(props['data-depth'] ?? 2)
   const isCollapsed = collapsed.has(id)
   const [heading, ...content] = Children.toArray(props.children as ReactNode)
+
+  // Flecha no fim da seção (estilo backref de nota): fecha o que acabou
+  // de ser lido e devolve a vista ao título — o próximo capítulo fica
+  // logo abaixo
+  const closeSection = () => {
+    toggle(id)
+    requestAnimationFrame(() => sectionRef.current?.scrollIntoView({ block: 'start' }))
+  }
 
   // Efeito escada: # é a âncora base; cada nível soma margem à direita
   const classes = `text-section section-depth-${depth}${
@@ -18,7 +27,7 @@ export function CollapsibleSection(props: Record<string, unknown>) {
   }`
 
   return (
-    <section className={classes}>
+    <section className={classes} ref={sectionRef}>
       <div
         className="section-heading"
         role="button"
@@ -38,6 +47,14 @@ export function CollapsibleSection(props: Record<string, unknown>) {
         {heading}
       </div>
       {!isCollapsed && content}
+      {!isCollapsed && (
+        <button className="section-close" onClick={closeSection}>
+          <span className="section-close-arrow" aria-hidden="true">
+            ↩
+          </span>{' '}
+          Fechar seção
+        </button>
+      )}
     </section>
   )
 }

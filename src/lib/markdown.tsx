@@ -13,6 +13,7 @@ import { remarkWikilinks } from './remarkWikilinks'
 import { remarkBlockAnchors } from './remarkBlockAnchors'
 import { remarkHebrew } from './remarkHebrew'
 import { FootnoteRef } from '../components/FootnoteRef'
+import { BackrefLink } from '../components/BackrefLink'
 import { CollapsibleSection } from '../components/CollapsibleSection'
 import { WikilinkRef } from '../components/WikilinkRef'
 
@@ -204,6 +205,8 @@ export function parseBook(raw: string): ParsedBook {
       a: (props: Record<string, unknown>) =>
         props['data-footnote-ref'] != null ? (
           <FootnoteRef {...props} />
+        ) : props['data-footnote-backref'] != null ? (
+          <BackrefLink {...props} />
         ) : (
           <a {...(props as React.AnchorHTMLAttributes<HTMLAnchorElement>)} />
         ),

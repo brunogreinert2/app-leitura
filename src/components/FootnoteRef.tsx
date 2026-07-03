@@ -40,7 +40,7 @@ export function FootnoteRef(props: Record<string, unknown>) {
         firedLongPress.current = false
         timerRef.current = window.setTimeout(() => {
           firedLongPress.current = true
-          openList()
+          openList(label)
         }, LONG_PRESS_MS)
       }}
       onPointerUp={cancelTimer}
