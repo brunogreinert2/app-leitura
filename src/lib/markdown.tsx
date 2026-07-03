@@ -229,3 +229,20 @@ export function parseBook(raw: string): ParsedBook {
 
   return { meta, body, headings, source: content, names, bytes: new Blob([raw]).size }
 }
+
+/**
+ * Fallback degradado para .txt (SPEC): sem YAML, sem notas, sem
+ * capítulos — mostra o que der, sem forçar estrutura. Quebras de
+ * linha do arquivo são preservadas.
+ */
+export function parseTxt(raw: string): ParsedBook {
+  const paragraphs = raw.split(/\r?\n\s*\r?\n/).filter((p) => p.trim())
+  const body = (
+    <div className="txt-body">
+      {paragraphs.map((p, i) => (
+        <p key={i}>{p}</p>
+      ))}
+    </div>
+  )
+  return { meta: null, body, headings: [], source: raw, names: [], bytes: new Blob([raw]).size }
+}

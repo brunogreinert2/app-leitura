@@ -4,6 +4,7 @@ import { Reader } from './components/Reader'
 import { LibraryDrawer } from './components/LibraryDrawer'
 import { ThemeDialog, useTheme } from './components/ThemeDialog'
 import { buildPersonRegistry } from './lib/persons'
+import { addLocalFiles, listLocalFiles, removeLocalFile, type LocalFile } from './lib/localFiles'
 import type { Catalog as CatalogData, CatalogEntry, PersonManifest } from './types'
 
 /** O app abre lendo: guia de boas-vindas como primeiro texto ativo. */
@@ -23,7 +24,12 @@ export function App() {
   const [stack, setStack] = useState<CatalogEntry[]>([WELCOME_ENTRY])
   const [libraryOpen, setLibraryOpen] = useState(false)
   const [themeOpen, setThemeOpen] = useState(false)
+  const [localFiles, setLocalFiles] = useState<LocalFile[]>([])
   const { theme, setTheme } = useTheme()
+
+  useEffect(() => {
+    listLocalFiles().then(setLocalFiles).catch(() => {})
+  }, [])
 
   useEffect(() => {
     fetch(`${import.meta.env.BASE_URL}livros/catalogo.json`)
@@ -44,7 +50,7 @@ export function App() {
     [persons],
   )
 
-  /** Catálogo do drawer inclui os verbetes de personagens (pasta própria). */
+  /** Biblioteca completa: embarcados + personagens + arquivos do usuário. */
   const libraryCatalog = useMemo<CatalogData | null>(() => {
     if (!catalog) return null
     const personEntries: CatalogEntry[] = (persons?.personagens ?? []).map((p) => ({
@@ -53,8 +59,32 @@ export function App() {
       autor: 'Personagem',
       arquivo: p.arquivo,
     }))
-    return { livros: [...catalog.livros, ...personEntries] }
-  }, [catalog, persons])
+    const localEntries: CatalogEntry[] = localFiles.map((f) => ({
+      id: f.id,
+      titulo: f.titulo,
+      autor: f.autor,
+      arquivo: `Meus arquivos/${f.nome}`,
+      local: true,
+    }))
+    return { livros: [...catalog.livros, ...personEntries, ...localEntries] }
+  }, [catalog, persons, localFiles])
+
+  const handleAddFiles = (files: File[]) => {
+    addLocalFiles(files)
+      .then(() => listLocalFiles())
+      .then(setLocalFiles)
+      .catch(() => {})
+  }
+
+  const handleRemoveLocal = (entry: CatalogEntry) => {
+    if (!window.confirm(`Remover “${entry.titulo}” dos seus arquivos?`)) return
+    removeLocalFile(entry.id)
+      .then(() => listLocalFiles())
+      .then(setLocalFiles)
+      .catch(() => {})
+    // Se estava aberto, sai da leitura dele
+    setStack((s) => s.filter((e) => e.id !== entry.id))
+  }
 
   const book = stack.length ? stack[stack.length - 1] : null
 
@@ -78,6 +108,8 @@ export function App() {
         open={libraryOpen}
         onClose={() => setLibraryOpen(false)}
         onSelect={openBook}
+        onAddFiles={handleAddFiles}
+        onRemoveLocal={handleRemoveLocal}
       />
       <ThemeDialog
         open={themeOpen}
@@ -97,7 +129,7 @@ export function App() {
         />
       ) : (
         <Catalog
-          catalog={catalog}
+          catalog={libraryCatalog}
           error={error}
           onSelect={openBook}
           onOpenLibrary={() => setLibraryOpen(true)}

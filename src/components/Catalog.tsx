@@ -1,4 +1,5 @@
 import type { Catalog as CatalogData, CatalogEntry } from '../types'
+import { LibraryTree } from './LibraryTree'
 
 interface Props {
   catalog: CatalogData | null
@@ -8,6 +9,10 @@ interface Props {
   onOpenAppearance: () => void
 }
 
+/**
+ * Página da biblioteca: a mesma árvore de pastas recolhida do drawer —
+ * coleções grandes ficam numa linha, nada de lista quilométrica.
+ */
 export function Catalog({ catalog, error, onSelect, onOpenLibrary, onOpenAppearance }: Props) {
   return (
     <div className="catalog">
@@ -36,16 +41,9 @@ export function Catalog({ catalog, error, onSelect, onOpenLibrary, onOpenAppeara
       {!catalog && !error && <p className="catalog-loading">Carregando catálogo…</p>}
 
       {catalog && (
-        <ul className="catalog-list">
-          {catalog.livros.map((livro) => (
-            <li key={livro.id}>
-              <button className="catalog-item" onClick={() => onSelect(livro)}>
-                <span className="catalog-item-title">{livro.titulo}</span>
-                <span className="catalog-item-author">{livro.autor}</span>
-              </button>
-            </li>
-          ))}
-        </ul>
+        <div className="catalog-tree">
+          <LibraryTree entries={catalog.livros} onSelect={onSelect} />
+        </div>
       )}
     </div>
   )

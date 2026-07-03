@@ -20,6 +20,21 @@ Quer que ROLOS vire "Bíblias"? Renomeie a pasta `ROLOS` para `Bíblias`
 e ajuste o campo `arquivo` dos livros dela no `catalogo.json`
 (ex.: `"ROLOS/ROLO_Biblia_TB_1917.md"` → `"Bíblias/ROLO_Biblia_TB_1917.md"`).
 
+## Adicionar uma COLEÇÃO inteira (o jeito rápido)
+
+1. Crie uma pasta em `public/livros/` (ex.: `CLASSICOS_GREGO_LATIM/`)
+   e despeje os `.md`/`.txt` dentro (subpastas à vontade).
+2. Rode:
+
+```
+npm run gera:catalogo
+```
+
+Ele acrescenta ao catálogo tudo que ainda não estiver listado, lendo
+título/autor do YAML de cada arquivo. As entradas que você já ajustou
+à mão não são tocadas. Na biblioteca, a coleção aparece como UMA pasta
+fechada — não polui nada, por maior que seja.
+
 ## Adicionar um livro novo
 
 1. Copie o `.md` (cópia de leitura do vault) para a pasta desejada

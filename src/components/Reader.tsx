@@ -1,6 +1,7 @@
 import { useEffect, useMemo, useRef, useState, type ReactNode } from 'react'
 import type { CatalogEntry, PersonEntry } from '../types'
-import { parseBook, type ParsedBook } from '../lib/markdown'
+import { parseBook, parseTxt, type ParsedBook } from '../lib/markdown'
+import { getLocalFile } from '../lib/localFiles'
 import { resolvePerson, type PersonRegistry } from '../lib/persons'
 import { FootnoteContext, type FootnoteActions } from './footnoteContext'
 import { Sidebar } from './Sidebar'
@@ -107,16 +108,28 @@ export function Reader({
     setNote(null)
     setWikilink(null)
     setCollapsed(new Set())
-    fetch(`${import.meta.env.BASE_URL}livros/${entry.arquivo}`)
-      .then((r) => {
-        if (!r.ok) throw new Error(`HTTP ${r.status}`)
-        return r.text()
-      })
-      .then((text) => {
+    // Arquivos importados vêm do IndexedDB; embarcados, da rede/cache
+    const load: Promise<{ text: string; tipo: 'md' | 'txt' }> = entry.local
+      ? getLocalFile(entry.id).then((f) => {
+          if (!f) throw new Error('Arquivo removido do aparelho')
+          return { text: f.conteudo, tipo: f.tipo }
+        })
+      : fetch(`${import.meta.env.BASE_URL}livros/${entry.arquivo}`)
+          .then((r) => {
+            if (!r.ok) throw new Error(`HTTP ${r.status}`)
+            return r.text()
+          })
+          .then((text) => ({
+            text,
+            tipo: /\.txt$/i.test(entry.arquivo) ? ('txt' as const) : ('md' as const),
+          }))
+
+    load
+      .then(({ text, tipo }) => {
         if (cancelled) return
         let book = parseCache.get(entry.id)
         if (!book) {
-          book = parseBook(text)
+          book = tipo === 'txt' ? parseTxt(text) : parseBook(text)
           parseCache.set(entry.id, book)
         }
         // TODO heading inicia SEMPRE recolhido (sem exceções): conteúdo

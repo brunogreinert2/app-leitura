@@ -7,10 +7,12 @@
     "dev": "vite",
     "build": "tsc -b && vite build",
     "preview": "vite preview",
-    "gera:personagens": "node scripts/gera-personagens.mjs"
+    "gera:personagens": "node scripts/gera-personagens.mjs",
+    "gera:catalogo": "node scripts/gera-catalogo.mjs"
   },
   "dependencies": {
     "hast-util-to-jsx-runtime": "^2.3.6",
+    "idb": "^8.0.3",
     "react": "^19.2.7",
     "react-dom": "^19.2.7",
     "remark-gfm": "^4.0.1",

@@ -454,6 +454,46 @@ button {
   color: var(--color-muted);
 }
 
+.lib-import {
+  padding: 0.6rem 1rem;
+  border-bottom: 1px solid var(--color-border);
+}
+
+.lib-import .toc-action {
+  width: 100%;
+}
+
+.lib-book-row {
+  display: flex;
+  align-items: stretch;
+}
+
+.lib-book-row .lib-book {
+  flex: 1;
+  min-width: 0;
+}
+
+.lib-book-remove {
+  padding: 0.5rem 0.9rem;
+  color: var(--color-error);
+  min-width: 2.75rem;
+}
+
+.lib-folder-count {
+  margin-left: 0.35rem;
+  font-weight: normal;
+  font-size: 0.85em;
+  color: var(--color-muted);
+}
+
+.catalog-tree {
+  margin-top: 1rem;
+  background: var(--color-surface);
+  border: 1px solid var(--color-border);
+  border-radius: 0.5rem;
+  padding: 0.25rem 0;
+}
+
 .lib-tree,
 .lib-children {
   list-style: none;
@@ -673,6 +713,11 @@ button {
 
 .reader-error {
   color: var(--color-error);
+}
+
+/* .txt: fallback degradado, quebras de linha do arquivo preservadas */
+.txt-body p {
+  white-space: pre-wrap;
 }
 
 /* ===== Tipografia do texto ===== */

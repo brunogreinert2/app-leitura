@@ -1,82 +1,20 @@
-import { useMemo, useState } from 'react'
+import { useRef, useState } from 'react'
 import type { Catalog as CatalogData, CatalogEntry } from '../types'
-import { buildLibraryTree, filterTree, type FolderNode } from '../lib/libraryTree'
+import { LibraryTree } from './LibraryTree'
 
 interface Props {
   catalog: CatalogData | null
   open: boolean
   onClose: () => void
   onSelect: (entry: CatalogEntry) => void
+  /** Importa .md/.txt do aparelho para o IndexedDB. */
+  onAddFiles: (files: File[]) => void
+  onRemoveLocal: (entry: CatalogEntry) => void
 }
 
-interface FolderProps {
-  node: FolderNode
-  expanded: Set<string>
-  onToggle: (path: string) => void
-  onSelect: (entry: CatalogEntry) => void
-  forceOpen: boolean
-}
-
-function Folder({ node, expanded, onToggle, onSelect, forceOpen }: FolderProps) {
-  // Pastas começam recolhidas: abrem só com toque (ou busca ativa)
-  const isOpen = forceOpen || expanded.has(node.path)
-  return (
-    <li>
-      <button
-        className="lib-folder"
-        onClick={() => onToggle(node.path)}
-        aria-expanded={isOpen}
-      >
-        <span className="lib-folder-arrow">{isOpen ? '▾' : '▸'}</span>
-        {node.name}
-      </button>
-      {isOpen && (
-        <ul className="lib-children">
-          {node.folders.map((f) => (
-            <Folder
-              key={f.path}
-              node={f}
-              expanded={expanded}
-              onToggle={onToggle}
-              onSelect={onSelect}
-              forceOpen={forceOpen}
-            />
-          ))}
-          {node.books.map((b) => (
-            <li key={b.id}>
-              <button className="lib-book" onClick={() => onSelect(b)}>
-                <span className="lib-book-title">{b.titulo}</span>
-                <span className="lib-book-author">{b.autor}</span>
-              </button>
-            </li>
-          ))}
-        </ul>
-      )}
-    </li>
-  )
-}
-
-export function LibraryDrawer({ catalog, open, onClose, onSelect }: Props) {
+export function LibraryDrawer({ catalog, open, onClose, onSelect, onAddFiles, onRemoveLocal }: Props) {
   const [query, setQuery] = useState('')
-  const [expanded, setExpanded] = useState<Set<string>>(new Set())
-
-  const tree = useMemo(() => {
-    if (!catalog) return null
-    const full = buildLibraryTree(catalog.livros)
-    return query.trim() ? filterTree(full, query.trim()) : full
-  }, [catalog, query])
-
-  const toggle = (path: string) => {
-    setExpanded((prev) => {
-      const next = new Set(prev)
-      if (next.has(path)) next.delete(path)
-      else next.add(path)
-      return next
-    })
-  }
-
-  // Com busca ativa, tudo fica aberto para mostrar os resultados
-  const forceOpen = query.trim().length > 0
+  const fileInputRef = useRef<HTMLInputElement>(null)
 
   return (
     <>
@@ -101,29 +39,33 @@ export function LibraryDrawer({ catalog, open, onClose, onSelect }: Props) {
             aria-label="Pesquisar na biblioteca"
           />
         </div>
-        {!tree && catalog && <p className="lib-empty">Nada encontrado para “{query}”.</p>}
+        <div className="lib-import">
+          <button className="toc-action" onClick={() => fileInputRef.current?.click()}>
+            + Adicionar arquivos (.md/.txt)
+          </button>
+          <input
+            ref={fileInputRef}
+            type="file"
+            accept=".md,.txt,text/markdown,text/plain"
+            multiple
+            hidden
+            onChange={(e) => {
+              // FileList é "viva": copia ANTES de limpar o campo,
+              // senão a leitura assíncrona encontra a lista vazia
+              const files = Array.from(e.target.files ?? [])
+              e.target.value = ''
+              if (files.length) onAddFiles(files)
+            }}
+          />
+        </div>
         {!catalog && <p className="lib-empty">Carregando catálogo…</p>}
-        {tree && (
-          <ul className="lib-tree">
-            {tree.folders.map((f) => (
-              <Folder
-                key={f.path}
-                node={f}
-                expanded={expanded}
-                onToggle={toggle}
-                onSelect={onSelect}
-                forceOpen={forceOpen}
-              />
-            ))}
-            {tree.books.map((b) => (
-              <li key={b.id}>
-                <button className="lib-book" onClick={() => onSelect(b)}>
-                  <span className="lib-book-title">{b.titulo}</span>
-                  <span className="lib-book-author">{b.autor}</span>
-                </button>
-              </li>
-            ))}
-          </ul>
+        {catalog && (
+          <LibraryTree
+            entries={catalog.livros}
+            onSelect={onSelect}
+            onRemove={onRemoveLocal}
+            query={query}
+          />
         )}
       </nav>
     </>

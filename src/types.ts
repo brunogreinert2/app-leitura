@@ -5,6 +5,8 @@ export interface CatalogEntry {
   /** Caminho do .md relativo a public/livros/ */
   arquivo: string
   sistema_referencia?: string
+  /** Arquivo importado pelo usuário (vive no IndexedDB do aparelho). */
+  local?: boolean
 }
 
 export interface Catalog {
