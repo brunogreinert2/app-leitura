@@ -6,7 +6,8 @@
   "scripts": {
     "dev": "vite",
     "build": "tsc -b && vite build",
-    "preview": "vite preview"
+    "preview": "vite preview",
+    "gera:personagens": "node scripts/gera-personagens.mjs"
   },
   "dependencies": {
     "hast-util-to-jsx-runtime": "^2.3.6",

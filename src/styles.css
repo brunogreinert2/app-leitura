@@ -668,6 +668,37 @@ button {
   font-size: 0.95em;
 }
 
+/* Preview do verbete: scroll interno, conteúdo compacto */
+.wikilink-box-content {
+  max-height: 45vh;
+  overflow-y: auto;
+  font-size: 0.9em;
+  line-height: 1.55;
+}
+
+.wikilink-box-content h1 {
+  font-size: 1.2em;
+  margin: 0 0 0.5em;
+}
+
+.wikilink-box-content p {
+  margin: 0 0 0.75em;
+}
+
+.wikilink-box-open {
+  display: block;
+  width: 100%;
+  margin-top: 0.75rem;
+  padding: 0.9rem;
+  min-height: 3rem;
+  border: 2px solid var(--color-accent);
+  color: var(--color-accent);
+  border-radius: 0.5rem;
+  font-size: 1em;
+  font-weight: bold;
+  text-align: center;
+}
+
 /* ===== Hebraico (interlinear) ===== */
 
 /* Run hebraico isolado: RTL por dentro, parágrafo LTR por fora */

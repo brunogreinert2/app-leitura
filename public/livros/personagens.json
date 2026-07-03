@@ -1,0 +1,151 @@
+{
+  "personagens": [
+    {
+      "id": "personagem-aristoteles-estagira",
+      "nome": "Aristóteles",
+      "titulo": "Arquivo Mestre: Aristóteles de Estagira",
+      "arquivo": "PERSONAGENS/Aristóteles.md",
+      "aliases": []
+    },
+    {
+      "id": "personagem-davi-rei-de-israel",
+      "nome": "Davi",
+      "titulo": "Arquivo Mestre: Davi, Rei de Israel",
+      "arquivo": "PERSONAGENS/Davi.md",
+      "aliases": []
+    },
+    {
+      "id": "personagem-rene-descartes",
+      "nome": "Descartes",
+      "titulo": "Arquivo Mestre: René Descartes",
+      "arquivo": "PERSONAGENS/Descartes.md",
+      "aliases": []
+    },
+    {
+      "id": "personagem-epicteto",
+      "nome": "Epicteto",
+      "titulo": "Arquivo Mestre: Epicteto de Hierápolis",
+      "arquivo": "PERSONAGENS/Epicteto.md",
+      "aliases": []
+    },
+    {
+      "id": "personagem-frantz-fanon",
+      "nome": "Fanon",
+      "titulo": "Arquivo Mestre: Frantz Fanon",
+      "arquivo": "PERSONAGENS/Fanon.md",
+      "aliases": []
+    },
+    {
+      "id": "personagem-michel-foucault",
+      "nome": "Foucault",
+      "titulo": "Arquivo Mestre: Michel Foucault",
+      "arquivo": "PERSONAGENS/Foucault.md",
+      "aliases": []
+    },
+    {
+      "id": "personagem-miranda-fricker",
+      "nome": "Fricker",
+      "titulo": "Arquivo Mestre: Miranda Fricker",
+      "arquivo": "PERSONAGENS/Fricker.md",
+      "aliases": []
+    },
+    {
+      "id": "personagem-homero",
+      "nome": "Homero",
+      "titulo": "Arquivo Mestre: Homero",
+      "arquivo": "PERSONAGENS/Homero.md",
+      "aliases": []
+    },
+    {
+      "id": "personagem-ailton-krenak",
+      "nome": "Krenak",
+      "titulo": "Arquivo Mestre: Ailton Krenak",
+      "arquivo": "PERSONAGENS/Krenak.md",
+      "aliases": []
+    },
+    {
+      "id": "personagem-marco-aurelio",
+      "nome": "Marco Aurélio",
+      "titulo": "Arquivo Mestre: Marco Aurélio Antonino",
+      "arquivo": "PERSONAGENS/Marco Aurélio.md",
+      "aliases": []
+    },
+    {
+      "id": "personagem-friedrich-nietzsche",
+      "nome": "Nietzsche",
+      "titulo": "Arquivo Mestre: Friedrich Nietzsche",
+      "arquivo": "PERSONAGENS/Nietzsche.md",
+      "aliases": []
+    },
+    {
+      "id": "personagem-parmenides-de-eleia",
+      "nome": "Parmênides",
+      "titulo": "Arquivo Mestre: Parmênides de Eleia",
+      "arquivo": "PERSONAGENS/Parmênides.md",
+      "aliases": []
+    },
+    {
+      "id": "personagem-platao-de-atenas",
+      "nome": "Platão",
+      "titulo": "Arquivo Mestre: Platão de Atenas",
+      "arquivo": "PERSONAGENS/Platão.md",
+      "aliases": []
+    },
+    {
+      "id": "personagem-arthur-schopenhauer",
+      "nome": "Schopenhauer",
+      "titulo": "Arquivo Mestre: Arthur Schopenhauer",
+      "arquivo": "PERSONAGENS/Schopenhauer.md",
+      "aliases": []
+    },
+    {
+      "id": "personagem-seneca-lucio-anneo",
+      "nome": "Sêneca",
+      "titulo": "Arquivo Mestre: Sêneca, Lúcio Anneo",
+      "arquivo": "PERSONAGENS/Sêneca.md",
+      "aliases": []
+    },
+    {
+      "id": "personagem-seneca-maior",
+      "nome": "Sêneca, o velho",
+      "titulo": "Arquivo Mestre: Sêneca, o Velho (Sêneca Maior)",
+      "arquivo": "PERSONAGENS/Sêneca, o velho.md",
+      "aliases": []
+    },
+    {
+      "id": "personagem-silvestre-pinheiro-ferreira",
+      "nome": "Silvestre Pinheiro Ferreira",
+      "titulo": "Silvestre Pinheiro Ferreira",
+      "arquivo": "PERSONAGENS/Silvestre Pinheiro Ferreira.md",
+      "aliases": []
+    },
+    {
+      "id": "personagem-socrates-de-atenas",
+      "nome": "Sócrates",
+      "titulo": "Arquivo Mestre: Sócrates de Atenas",
+      "arquivo": "PERSONAGENS/Sócrates.md",
+      "aliases": []
+    },
+    {
+      "id": "personagem-baruch-espinosa",
+      "nome": "Spinoza",
+      "titulo": "Arquivo Mestre: Baruch de Espinosa",
+      "arquivo": "PERSONAGENS/Spinoza.md",
+      "aliases": []
+    },
+    {
+      "id": "personagem-teodoro-de-cirene",
+      "nome": "Teodoro",
+      "titulo": "Arquivo Mestre: Teodoro de Cirene",
+      "arquivo": "PERSONAGENS/Teodoro.md",
+      "aliases": []
+    },
+    {
+      "id": "personagem-voltaire",
+      "nome": "Voltaire",
+      "titulo": "Arquivo Mestre: Voltaire (François-Marie Arouet)",
+      "arquivo": "PERSONAGENS/Voltaire.md",
+      "aliases": []
+    }
+  ]
+}

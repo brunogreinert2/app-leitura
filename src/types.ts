@@ -10,3 +10,16 @@ export interface CatalogEntry {
 export interface Catalog {
   livros: CatalogEntry[]
 }
+
+export interface PersonEntry {
+  id: string
+  /** Nome do arquivo sem .md — alvo canônico do wikilink (Obsidian). */
+  nome: string
+  titulo: string
+  arquivo: string
+  aliases: string[]
+}
+
+export interface PersonManifest {
+  personagens: PersonEntry[]
+}

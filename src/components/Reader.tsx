@@ -1,6 +1,7 @@
-import { useEffect, useMemo, useRef, useState } from 'react'
-import type { CatalogEntry } from '../types'
+import { useEffect, useMemo, useRef, useState, type ReactNode } from 'react'
+import type { CatalogEntry, PersonEntry } from '../types'
 import { parseBook, type ParsedBook } from '../lib/markdown'
+import { resolvePerson, type PersonRegistry } from '../lib/persons'
 import { FootnoteContext, type FootnoteActions } from './footnoteContext'
 import { Sidebar } from './Sidebar'
 import { FontControls, useFontSize, usePinchFontSize } from './FontControls'
@@ -17,9 +18,15 @@ const parseCache = new Map<string, ParsedBook>()
 
 interface Props {
   entry: CatalogEntry
+  personRegistry: PersonRegistry
   onBack: () => void
+  onOpenPerson: (entry: CatalogEntry) => void
   onOpenLibrary: () => void
   onOpenAppearance: () => void
+}
+
+function personToEntry(p: PersonEntry): CatalogEntry {
+  return { id: p.id, titulo: p.nome, autor: 'Personagem', arquivo: p.arquivo }
 }
 
 interface OpenNote {
@@ -32,6 +39,10 @@ interface OpenNote {
 interface OpenWikilink {
   target: string
   top: number
+  /** Verbete resolvido (null = alvo fora do app). */
+  person: PersonEntry | null
+  /** Conteúdo renderizado do verbete (null = carregando). */
+  body: ReactNode | null
 }
 
 /** Conteúdo renderizado da nota, sem o backref (a caixa tem o próprio fechar). */
@@ -43,7 +54,14 @@ function noteHtml(label: string): string {
   return clone.innerHTML
 }
 
-export function Reader({ entry, onBack, onOpenLibrary, onOpenAppearance }: Props) {
+export function Reader({
+  entry,
+  personRegistry,
+  onBack,
+  onOpenPerson,
+  onOpenLibrary,
+  onOpenAppearance,
+}: Props) {
   const [parsed, setParsed] = useState<ParsedBook | null>(null)
   const [error, setError] = useState<string | null>(null)
   const [note, setNote] = useState<OpenNote | null>(null)
@@ -116,15 +134,45 @@ export function Reader({ entry, onBack, onOpenLibrary, onOpenAppearance }: Props
         if (!container) return
         const top =
           anchor.getBoundingClientRect().bottom - container.getBoundingClientRect().top + 8
-        setWikilink({ target, top })
+        const person = resolvePerson(personRegistry, target)
+        setWikilink({ target, top, person, body: null })
+        if (!person) return
+        // Carrega o verbete e injeta o conteúdo renderizado no preview
+        const cached = parseCache.get(person.id)
+        const load = cached
+          ? Promise.resolve(cached)
+          : fetch(`${import.meta.env.BASE_URL}livros/${person.arquivo}`)
+              .then((r) => {
+                if (!r.ok) throw new Error(`HTTP ${r.status}`)
+                return r.text()
+              })
+              .then((text) => {
+                const parsed = parseBook(text)
+                parseCache.set(person.id, parsed)
+                return parsed
+              })
+        load
+          .then((parsed) => {
+            setWikilink((w) =>
+              w && w.target === target ? { ...w, body: parsed.body } : w,
+            )
+          })
+          .catch(() => {
+            setWikilink((w) => (w && w.target === target ? { ...w, person: null } : w))
+          })
       },
       navigate: (target) => {
-        // Navegação real chega com a importação de verbetes (Fase 3)
-        setToast(`“${target}” ainda não está disponível no app`)
-        window.setTimeout(() => setToast(null), 2000)
+        const person = resolvePerson(personRegistry, target)
+        if (person) {
+          setWikilink(null)
+          onOpenPerson(personToEntry(person))
+        } else {
+          setToast(`“${target}” ainda não está disponível no app`)
+          window.setTimeout(() => setToast(null), 2000)
+        }
       },
     }),
-    [],
+    [personRegistry, onOpenPerson],
   )
 
   const collapseState = useMemo(
@@ -324,11 +372,30 @@ export function Reader({ entry, onBack, onOpenLibrary, onOpenAppearance }: Props
               role="dialog"
               aria-label={`Verbete ${wikilink.target}`}
             >
-              <p className="wikilink-box-title">{wikilink.target}</p>
-              <p className="wikilink-box-note">
-                Verbete do vault — ainda não incluído no app. A importação de verbetes chega
-                numa próxima fase.
-              </p>
+              {wikilink.person ? (
+                <>
+                  <div className="wikilink-box-content">
+                    {wikilink.body ?? <p className="wikilink-box-note">Carregando verbete…</p>}
+                  </div>
+                  <button
+                    className="wikilink-box-open"
+                    onClick={() => {
+                      const person = wikilink.person!
+                      setWikilink(null)
+                      onOpenPerson(personToEntry(person))
+                    }}
+                  >
+                    Abrir completo
+                  </button>
+                </>
+              ) : (
+                <>
+                  <p className="wikilink-box-title">{wikilink.target}</p>
+                  <p className="wikilink-box-note">
+                    Verbete ainda não incluído no app.
+                  </p>
+                </>
+              )}
               <button
                 className="footnote-box-close"
                 onClick={() => setWikilink(null)}
