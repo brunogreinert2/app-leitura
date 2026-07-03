@@ -9,11 +9,14 @@ import { useEffect, useState } from 'react'
  */
 export const THEMES = [
   { id: 'sepia', label: 'Sépia', bg: '#faf7f2', fg: '#2b2620' },
+  { id: 'pergaminho', label: 'Pergaminho', bg: '#ccbc9d', fg: '#241a08' },
   { id: 'claro', label: 'Preto sobre branco', bg: '#ffffff', fg: '#000000' },
   { id: 'escuro', label: 'Branco sobre preto', bg: '#000000', fg: '#ffffff' },
   { id: 'amarelo', label: 'Amarelo sobre preto', bg: '#000000', fg: '#ffe600' },
   { id: 'verde', label: 'Verde sobre preto', bg: '#000000', fg: '#33ff33' },
   { id: 'amarelo-azul', label: 'Amarelo sobre azul', bg: '#001862', fg: '#ffe600' },
+  { id: 'azul-noite', label: 'Azul-noite', bg: '#0a1128', fg: '#f2e8d5' },
+  { id: 'azul-petroleo', label: 'Azul-petróleo', bg: '#062a30', fg: '#e8f4f1' },
 ] as const
 
 export type ThemeId = (typeof THEMES)[number]['id']

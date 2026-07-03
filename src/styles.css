@@ -92,6 +92,64 @@
   color-scheme: dark;
 }
 
+[data-theme='azul-noite'] {
+  --color-bg: #0a1128;
+  --color-text: #f2e8d5;
+  --color-muted: #cfc4ae;
+  --color-accent: #ffd75e;
+  --color-surface: #0d1633;
+  --color-border: #3a4a7a;
+  --shadow-color: rgba(0, 0, 0, 0.6);
+  --hl-bg: #ffd75e;
+  --hl-fg: #0a1128;
+  --hl-cur-bg: #ff8c00;
+  --hl-cur-fg: #000000;
+  --color-error: #ffb4a2;
+  color-scheme: dark;
+}
+
+[data-theme='azul-petroleo'] {
+  --color-bg: #062a30;
+  --color-text: #e8f4f1;
+  --color-muted: #c0dcd6;
+  --color-accent: #7fe0d0;
+  --color-surface: #08343c;
+  --color-border: #2a6b74;
+  --shadow-color: rgba(0, 0, 0, 0.55);
+  --hl-bg: #ffe600;
+  --hl-fg: #062a30;
+  --hl-cur-bg: #ff8c00;
+  --hl-cur-fg: #000000;
+  --color-error: #ffb4a2;
+  color-scheme: dark;
+}
+
+[data-theme='pergaminho'] {
+  --color-bg: #ccbc9d;
+  --color-text: #241a08;
+  --color-muted: #453519;
+  --color-accent: #4a2a0c;
+  --color-surface: #d5c7aa;
+  --color-border: #a08d66;
+  --shadow-color: rgba(58, 42, 16, 0.35);
+  --hl-bg: #f5e08a;
+  --hl-fg: #241a08;
+  --hl-cur-bg: #4a2a0c;
+  --hl-cur-fg: #f5ecd8;
+  --color-error: #7a1f00;
+  color-scheme: light;
+}
+
+/* Pergaminho: manchas sutis de papel envelhecido */
+[data-theme='pergaminho'] body {
+  background-image:
+    radial-gradient(ellipse 40rem 30rem at 15% 10%, rgba(138, 111, 60, 0.14), transparent 70%),
+    radial-gradient(ellipse 30rem 24rem at 85% 35%, rgba(120, 92, 44, 0.1), transparent 70%),
+    radial-gradient(ellipse 36rem 28rem at 40% 80%, rgba(150, 122, 70, 0.12), transparent 70%),
+    radial-gradient(ellipse 20rem 16rem at 70% 95%, rgba(110, 84, 40, 0.09), transparent 70%);
+  background-attachment: fixed;
+}
+
 [data-theme='amarelo-azul'] {
   --color-bg: #001862;
   --color-text: #ffe600;
@@ -251,19 +309,21 @@ button {
   gap: 0.25rem;
 }
 
+/* Símbolos matemáticos puros, grandes, em alto contraste */
 .font-button {
-  padding: 0.5rem 0.6rem;
+  padding: 0.25rem 0.6rem;
   border-radius: 0.375rem;
-  border: 1px solid var(--color-border);
-  color: var(--color-accent);
-  font-size: 0.9rem;
+  border: 2px solid var(--color-text);
+  color: var(--color-text);
+  font-size: 1.5rem;
   font-weight: bold;
+  line-height: 1;
   min-height: 2.75rem;
   min-width: 2.75rem;
 }
 
 .font-button-big {
-  font-size: 1.15rem;
+  font-size: 1.7rem;
 }
 
 .toc-button {
@@ -490,6 +550,20 @@ button {
   font-size: 1.2rem;
 }
 
+/* Botão Aparência no lugar do título do drawer: alto contraste */
+.appearance-button {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  padding: 0.6rem 1rem;
+  min-height: 2.75rem;
+  border: 2px solid var(--color-text);
+  border-radius: 0.5rem;
+  color: var(--color-text);
+  font-size: 1.1rem;
+  font-weight: bold;
+}
+
 .sidebar-close {
   padding: 0.5rem 0.85rem;
   font-size: 1.2rem;
@@ -571,9 +645,9 @@ button {
 /* Alvo de toque generoso para recolher/expandir capítulo */
 .toc-toggle {
   padding: 0.75rem 1.1rem;
-  font-size: 1.1rem;
+  font-size: 1.5rem;
   color: var(--color-accent);
-  min-width: 3rem;
+  min-width: 3.5rem;
 }
 
 .reader-body {
@@ -727,17 +801,28 @@ button {
   -webkit-tap-highlight-color: transparent;
 }
 
+.section-heading h1,
 .section-heading h2,
 .section-heading h3,
-.section-heading h4 {
+.section-heading h4,
+.section-heading h5,
+.section-heading h6 {
   flex: 1;
 }
 
+/* Seta de expansão GRANDE: alvo amplo, erro motor mínimo */
 .section-arrow {
   color: var(--color-accent);
-  font-size: 0.85em;
-  /* Acompanha a margem superior do heading ao lado */
+  font-size: 1.4em;
   align-self: center;
+  padding: 0.3em 0.45em;
+  margin: -0.3em 0;
+  line-height: 1;
+}
+
+/* Efeito escada: seções aninham no DOM, cada nível desce um degrau */
+.text-section .text-section {
+  margin-left: 1rem;
 }
 
 .text-section-collapsed .section-heading {

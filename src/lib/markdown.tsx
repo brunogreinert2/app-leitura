@@ -94,9 +94,9 @@ function collectHeadings(tree: HastRoot): HeadingInfo[] {
 
 /**
  * Agrupa o conteúdo em <section data-collapsible> aninhadas por heading
- * (h2–h4), cada uma com exatamente dois filhos: o heading e um div com
+ * (h1–h6), cada uma com exatamente dois filhos: o heading e um div com
  * o conteúdo até o próximo heading de nível igual ou superior.
- * O título (h1) e a lista de notas do GFM ficam fora.
+ * Só a lista de notas do GFM fica fora.
  */
 function nestSections(tree: HastRoot) {
   const rootOut: ElementContent[] = []
@@ -114,7 +114,7 @@ function nestSections(tree: HastRoot) {
     }
     const isHeading =
       node.type === 'element' &&
-      /^h[2-4]$/.test(node.tagName) &&
+      /^h[1-6]$/.test(node.tagName) &&
       typeof node.properties?.id === 'string' &&
       node.properties.id !== 'footnote-label'
     if (!isHeading) {

@@ -123,10 +123,10 @@ export function FontControls({ decrease, increase }: Props) {
   return (
     <div className="font-controls">
       <button className="font-button" onClick={decrease} aria-label="Diminuir letra">
-        A−
+        −
       </button>
       <button className="font-button font-button-big" onClick={increase} aria-label="Aumentar letra">
-        A+
+        +
       </button>
     </div>
   )

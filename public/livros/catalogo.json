@@ -1,6 +1,12 @@
 {
   "livros": [
     {
+      "id": "impressoes-app",
+      "titulo": "Bem-vindo ao Leitor",
+      "autor": "Pedra Angular",
+      "arquivo": "IMPRESSOES_APP.md"
+    },
+    {
       "id": "epicteto-encheiridion",
       "titulo": "O Encheirídion de Epicteto",
       "autor": "Epicteto",

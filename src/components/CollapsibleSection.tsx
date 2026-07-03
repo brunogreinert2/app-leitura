@@ -8,11 +8,17 @@ import { CollapseContext } from './collapseContext'
 export function CollapsibleSection(props: Record<string, unknown>) {
   const { collapsed, toggle } = useContext(CollapseContext)
   const id = String(props['data-collapsible'])
+  const depth = Number(props['data-depth'] ?? 2)
   const isCollapsed = collapsed.has(id)
   const [heading, ...content] = Children.toArray(props.children as ReactNode)
 
+  // Efeito escada: # é a âncora base; cada nível soma margem à direita
+  const classes = `text-section section-depth-${depth}${
+    isCollapsed ? ' text-section-collapsed' : ''
+  }`
+
   return (
-    <section className={isCollapsed ? 'text-section text-section-collapsed' : 'text-section'}>
+    <section className={classes}>
       <div
         className="section-heading"
         role="button"

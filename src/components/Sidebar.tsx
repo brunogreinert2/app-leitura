@@ -110,7 +110,9 @@ export function Sidebar({
         aria-hidden={!open}
       >
         <div className="sidebar-header">
-          <h2>Sumário</h2>
+          <button className="appearance-button" onClick={onAppearance}>
+            <span aria-hidden="true">◐</span> Aparência
+          </button>
           <button className="sidebar-close" onClick={onClose} aria-label="Fechar sumário">
             ✕
           </button>
@@ -127,9 +129,6 @@ export function Sidebar({
           </button>
           <button className="toc-action" onClick={onCopy}>
             Copiar livro
-          </button>
-          <button className="toc-action" onClick={onAppearance}>
-            Aparência
           </button>
         </div>
 

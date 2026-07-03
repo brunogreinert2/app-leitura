@@ -6,13 +6,21 @@ import { ThemeDialog, useTheme } from './components/ThemeDialog'
 import { buildPersonRegistry } from './lib/persons'
 import type { Catalog as CatalogData, CatalogEntry, PersonManifest } from './types'
 
+/** O app abre lendo: guia de boas-vindas como primeiro texto ativo. */
+const WELCOME_ENTRY: CatalogEntry = {
+  id: 'impressoes-app',
+  titulo: 'Bem-vindo ao Leitor',
+  autor: 'Pedra Angular',
+  arquivo: 'IMPRESSOES_APP.md',
+}
+
 export function App() {
   const [catalog, setCatalog] = useState<CatalogData | null>(null)
   const [persons, setPersons] = useState<PersonManifest | null>(null)
   const [error, setError] = useState<string | null>(null)
   // Pilha de leitura: long press num wikilink empilha o verbete;
   // ← volta ao texto anterior (topo vazio = catálogo)
-  const [stack, setStack] = useState<CatalogEntry[]>([])
+  const [stack, setStack] = useState<CatalogEntry[]>([WELCOME_ENTRY])
   const [libraryOpen, setLibraryOpen] = useState(false)
   const [themeOpen, setThemeOpen] = useState(false)
   const { theme, setTheme } = useTheme()

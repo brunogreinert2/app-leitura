@@ -10,9 +10,6 @@ import { CollapseContext } from './collapseContext'
 import { WikilinkContext, type WikilinkActions } from './wikilinkContext'
 import { buildCopyText } from '../lib/copyBook'
 
-/** Acima deste tamanho o livro abre com as seções recolhidas (performance). */
-const LARGE_BOOK_CHARS = 400_000
-
 /** Parse de livro grande é caro: reabrir na mesma sessão sai do cache. */
 const parseCache = new Map<string, ParsedBook>()
 
@@ -111,12 +108,10 @@ export function Reader({
           book = parseBook(text)
           parseCache.set(entry.id, book)
         }
-        // Livro grande (ex.: Bíblia completa) precisa nascer com as
-        // seções de topo recolhidas, ANTES do primeiro render do corpo:
-        // só os títulos montam no DOM — abrir e rolar ficam leves
-        if (book.source.length > LARGE_BOOK_CHARS) {
-          setCollapsed(new Set(book.headings.filter((h) => h.depth === 2).map((h) => h.id)))
-        }
+        // TODO heading inicia SEMPRE recolhido (sem exceções): conteúdo
+        // só aparece com toque explícito. Aplicado ANTES do primeiro
+        // render — de quebra, a Bíblia inteira abre leve.
+        setCollapsed(new Set(book.headings.map((h) => h.id)))
         setParsed(book)
       })
       .catch((e: unknown) => {
@@ -315,7 +310,7 @@ export function Reader({
           requestAnimationFrame(() => document.getElementById(id)?.scrollIntoView())
         }}
         onCollapseAll={() =>
-          setCollapsed(new Set((parsed?.headings ?? []).filter((h) => h.depth >= 2).map((h) => h.id)))
+          setCollapsed(new Set((parsed?.headings ?? []).map((h) => h.id)))
         }
         onExpandAll={() => setCollapsed(new Set())}
         onCopy={requestCopy}
