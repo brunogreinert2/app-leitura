@@ -1,4 +1,5 @@
 import { useEffect, useState, type RefObject } from 'react'
+import { flushSync } from 'react-dom'
 
 const STORAGE_KEY = 'reading-font-px'
 const DEFAULT_PX = 18
@@ -8,6 +9,30 @@ const MAX_PX = 256
 const STEP = 1.125
 
 const clamp = (v: number) => Math.min(MAX_PX, Math.max(MIN_PX, Math.round(v)))
+
+/**
+ * Mudar a fonte refui o texto e deslocaria o ponto de leitura.
+ * Ancora o elemento visível no alto da tela e o devolve à mesma
+ * posição depois do reflow: o leitor continua exatamente onde estava.
+ */
+function withReadingAnchor(update: () => void) {
+  const probeY = Math.min(160, window.innerHeight / 3)
+  let anchor: Element | null = null
+  for (const el of document.elementsFromPoint(window.innerWidth / 2, probeY)) {
+    if (el !== document.body && el.closest('.reader-body')) {
+      anchor = el
+      break
+    }
+  }
+  if (!anchor) {
+    update()
+    return
+  }
+  const before = anchor.getBoundingClientRect().top
+  flushSync(update)
+  const after = anchor.getBoundingClientRect().top
+  window.scrollBy({ top: after - before })
+}
 
 export function useFontSize() {
   const [px, setPx] = useState<number>(() => {
@@ -21,9 +46,9 @@ export function useFontSize() {
 
   return {
     px,
-    setPx: (v: number) => setPx(clamp(v)),
-    decrease: () => setPx((v) => clamp(v / STEP)),
-    increase: () => setPx((v) => clamp(v * STEP)),
+    setPx: (v: number) => withReadingAnchor(() => setPx(clamp(v))),
+    decrease: () => withReadingAnchor(() => setPx((v) => clamp(v / STEP))),
+    increase: () => withReadingAnchor(() => setPx((v) => clamp(v * STEP))),
   }
 }
 

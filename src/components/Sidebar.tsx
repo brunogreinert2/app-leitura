@@ -49,6 +49,10 @@ export function Sidebar({
   const [expanded, setExpanded] = useState<Set<string>>(new Set())
   const groups = buildGroups(headings)
 
+  // Título do livro (h1) fica acima das ações; seções/capítulos abaixo
+  const titleGroup = groups.length && groups[0].heading.depth === 1 ? groups[0] : null
+  const sectionGroups = titleGroup ? groups.slice(1) : groups
+
   const toggle = (id: string) => {
     setExpanded((prev) => {
       const next = new Set(prev)
@@ -58,16 +62,62 @@ export function Sidebar({
     })
   }
 
+  const renderGroup = ({ heading, children }: TocGroup) => (
+    <li key={heading.id}>
+      <div className="toc-row">
+        <button
+          className={`toc-item toc-depth-${heading.depth}`}
+          onClick={() => onNavigate(heading.id)}
+        >
+          {heading.text}
+        </button>
+        {children.length > 0 && (
+          <button
+            className="toc-toggle"
+            onClick={() => toggle(heading.id)}
+            aria-expanded={expanded.has(heading.id)}
+            aria-label={
+              expanded.has(heading.id) ? `Recolher ${heading.text}` : `Expandir ${heading.text}`
+            }
+          >
+            {expanded.has(heading.id) ? '▾' : '▸'}
+          </button>
+        )}
+      </div>
+      {children.length > 0 && expanded.has(heading.id) && (
+        <ul className="toc-children">
+          {children.map((child) => (
+            <li key={child.id}>
+              <button
+                className={`toc-item toc-depth-${child.depth}`}
+                onClick={() => onNavigate(child.id)}
+              >
+                {child.text}
+              </button>
+            </li>
+          ))}
+        </ul>
+      )}
+    </li>
+  )
+
   return (
     <>
       {open && <div className="sidebar-backdrop" onClick={onClose} aria-hidden="true" />}
-      <nav className={`sidebar${open ? ' sidebar-open' : ''}`} aria-label="Sumário" aria-hidden={!open}>
+      <nav
+        className={`sidebar${open ? ' sidebar-open' : ''}`}
+        aria-label="Sumário"
+        aria-hidden={!open}
+      >
         <div className="sidebar-header">
           <h2>Sumário</h2>
           <button className="sidebar-close" onClick={onClose} aria-label="Fechar sumário">
             ✕
           </button>
         </div>
+
+        {titleGroup && <ul className="toc toc-title">{renderGroup(titleGroup)}</ul>}
+
         <div className="toc-actions">
           <button className="toc-action" onClick={onCollapseAll}>
             Recolher tudo
@@ -82,47 +132,9 @@ export function Sidebar({
             Aparência
           </button>
         </div>
+
         <ul className="toc">
-          {groups.map(({ heading, children }) => (
-            <li key={heading.id}>
-              <div className="toc-row">
-                <button
-                  className={`toc-item toc-depth-${heading.depth}`}
-                  onClick={() => onNavigate(heading.id)}
-                >
-                  {heading.text}
-                </button>
-                {children.length > 0 && (
-                  <button
-                    className="toc-toggle"
-                    onClick={() => toggle(heading.id)}
-                    aria-expanded={expanded.has(heading.id)}
-                    aria-label={
-                      expanded.has(heading.id)
-                        ? `Recolher ${heading.text}`
-                        : `Expandir ${heading.text}`
-                    }
-                  >
-                    {expanded.has(heading.id) ? '▾' : '▸'}
-                  </button>
-                )}
-              </div>
-              {children.length > 0 && expanded.has(heading.id) && (
-                <ul className="toc-children">
-                  {children.map((child) => (
-                    <li key={child.id}>
-                      <button
-                        className={`toc-item toc-depth-${child.depth}`}
-                        onClick={() => onNavigate(child.id)}
-                      >
-                        {child.text}
-                      </button>
-                    </li>
-                  ))}
-                </ul>
-              )}
-            </li>
-          ))}
+          {sectionGroups.map(renderGroup)}
 
           {names.length > 0 && (
             <li>

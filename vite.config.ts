@@ -18,6 +18,11 @@ export default defineConfig({
         short_name: 'Leitura',
         description: 'Leitor offline do corpus Pedra Angular e Sapiencial',
         lang: 'pt-BR',
+        // Relativos ao manifest: funcionam em / (dev) e /app-leitura/ (Pages).
+        // Sem start_url o Chrome não oferece a instalação.
+        id: '.',
+        start_url: '.',
+        scope: '.',
         display: 'standalone',
         theme_color: '#2b2620',
         background_color: '#faf7f2',
