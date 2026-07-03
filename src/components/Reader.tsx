@@ -6,6 +6,7 @@ import { FootnoteContext, type FootnoteActions } from './footnoteContext'
 import { Sidebar } from './Sidebar'
 import { FontControls, useFontSize, usePinchFontSize } from './FontControls'
 import { TextSearch } from './TextSearch'
+import { DetailsDialog } from './DetailsDialog'
 import { CollapseContext } from './collapseContext'
 import { WikilinkContext, type WikilinkActions } from './wikilinkContext'
 import { buildCopyText } from '../lib/copyBook'
@@ -73,6 +74,7 @@ export function Reader({
   const [searchOpen, setSearchOpen] = useState(false)
   const [collapsed, setCollapsed] = useState<Set<string>>(new Set())
   const [copyDialogOpen, setCopyDialogOpen] = useState(false)
+  const [detailsOpen, setDetailsOpen] = useState(false)
   const [toast, setToast] = useState<string | null>(null)
   const [wikilink, setWikilink] = useState<OpenWikilink | null>(null)
   const [searchSeed, setSearchSeed] = useState<{ query: string; nonce: number }>({
@@ -376,6 +378,10 @@ export function Reader({
           setTocOpen(false)
           onOpenAppearance()
         }}
+        onDetails={() => {
+          setTocOpen(false)
+          setDetailsOpen(true)
+        }}
         onSelectName={(name) => {
           // Tap num nome do índice: joga o nome na busca — todas as
           // ocorrências destacadas e navegáveis
@@ -408,6 +414,20 @@ export function Reader({
                 className="footnote-box-content"
                 dangerouslySetInnerHTML={{ __html: note.html }}
               />
+              <button
+                className="wikilink-box-open"
+                onClick={() => {
+                  const label = note.label
+                  setNote(null)
+                  const el = document.getElementById(`user-content-fn-${label}`)
+                  if (el) {
+                    el.scrollIntoView({ block: 'center' })
+                    flash(el)
+                  }
+                }}
+              >
+                Abrir completo
+              </button>
               <button
                 className="footnote-box-close"
                 onClick={() => setNote(null)}
@@ -487,6 +507,13 @@ export function Reader({
           </div>
         </>
       )}
+
+      <DetailsDialog
+        open={detailsOpen}
+        onClose={() => setDetailsOpen(false)}
+        entry={entry}
+        parsed={parsed}
+      />
 
       {toast && (
         <div className="toast" role="status">

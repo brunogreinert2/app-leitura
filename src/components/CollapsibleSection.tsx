@@ -52,7 +52,7 @@ export function CollapsibleSection(props: Record<string, unknown>) {
           <span className="section-close-arrow" aria-hidden="true">
             ↩
           </span>{' '}
-          Fechar seção
+          Recolher
         </button>
       )}
     </section>

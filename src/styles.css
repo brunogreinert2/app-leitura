@@ -814,14 +814,23 @@ button {
   flex: 1;
 }
 
-/* Seta de expansão GRANDE: alvo amplo, erro motor mínimo */
+/* Seta de expansão estilo figurinha: chip com borda de destaque,
+   alvo amplo, erro motor mínimo */
 .section-arrow {
   color: var(--color-accent);
-  font-size: 1.4em;
+  font-size: 1.1em;
   align-self: center;
-  padding: 0.3em 0.45em;
-  margin: -0.3em 0;
+  padding: 0.3em 0.5em;
   line-height: 1;
+  border: 2px solid var(--color-accent);
+  border-radius: 0.4em;
+  background: var(--color-surface);
+}
+
+.text-section-collapsed .section-arrow {
+  /* Fechada: chip invertido chama para o toque */
+  color: var(--color-surface);
+  background: var(--color-accent);
 }
 
 /* Efeito escada: seções aninham no DOM, cada nível desce um degrau */
@@ -831,6 +840,35 @@ button {
 
 .text-section {
   scroll-margin-top: 4rem;
+}
+
+/* Ficha de detalhes do arquivo (YAML + tamanho) */
+.details-dialog {
+  max-height: calc(100vh - 3rem);
+  overflow-y: auto;
+}
+
+.details-list {
+  margin: 0 0 1rem;
+}
+
+.details-row {
+  display: flex;
+  gap: 0.75rem;
+  padding: 0.5rem 0;
+  border-bottom: 1px solid var(--color-border);
+}
+
+.details-row dt {
+  flex: 0 0 38%;
+  font-weight: bold;
+  color: var(--color-muted);
+}
+
+.details-row dd {
+  margin: 0;
+  overflow-wrap: break-word;
+  min-width: 0;
 }
 
 /* Flecha de fim de seção: fecha o capítulo lido e volta ao título */

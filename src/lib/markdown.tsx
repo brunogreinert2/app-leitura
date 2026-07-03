@@ -25,6 +25,8 @@ export interface ParsedBook {
   source: string
   /** Índice de nomes: alvos de wikilinks e nº de ocorrências. */
   names: NameEntry[]
+  /** Tamanho do arquivo original em bytes (para os Detalhes). */
+  bytes: number
 }
 
 export interface NameEntry {
@@ -225,5 +227,5 @@ export function parseBook(raw: string): ParsedBook {
     },
   })
 
-  return { meta, body, headings, source: content, names }
+  return { meta, body, headings, source: content, names, bytes: new Blob([raw]).size }
 }

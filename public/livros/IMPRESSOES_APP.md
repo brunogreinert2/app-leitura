@@ -8,6 +8,36 @@ status: vivo
 
 Este é um leitor de textos clássicos que funciona **inteiro no seu aparelho**: depois da primeira visita, não precisa de internet para nada. Toque nos títulos abaixo para abrir cada assunto — no corpo do texto, todo título começa fechado e abre com um toque.
 
+# Instalar o app no seu aparelho
+
+Este site É o app: instalar significa ganhar um ícone próprio (a letra grega Φ) e abrir em tela cheia, sem cara de navegador. Depois de instalado, funciona sem internet.
+
+## No iPhone e iPad
+
+Só o **Safari** instala apps deste tipo (regra da Apple — o Chrome de iPhone não consegue).
+
+1. Abra este endereço no **Safari**
+2. Toque no botão **Compartilhar** (o quadrado com a seta para cima, no rodapé)
+3. Role a lista e toque em **"Adicionar à Tela de Início"**
+4. Confirme o nome e toque em **Adicionar**
+
+## No Android
+
+1. Abra este endereço no **Chrome**
+2. Toque no menu **⋮** (três pontinhos, no canto de cima)
+3. Toque em **"Instalar app"** ou **"Adicionar à tela inicial"**
+4. Confirme
+
+Em alguns aparelhos o próprio Chrome oferece a instalação numa faixa no rodapé — é só aceitar.
+
+## No computador
+
+1. Abra este endereço no **Chrome** ou **Edge**
+2. Na barra de endereço, à direita, aparece um ícone de **instalar** (um monitor com uma seta, ou "⊕")
+3. Clique nele e confirme
+
+O app vira uma janela própria, com atalho no menu iniciar / área de trabalho.
+
 # Como usar o leitor
 
 ## Ler

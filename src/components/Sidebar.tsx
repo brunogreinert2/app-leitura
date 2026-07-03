@@ -12,6 +12,7 @@ interface Props {
   onExpandAll: () => void
   onCopy: () => void
   onAppearance: () => void
+  onDetails: () => void
   onSelectName: (name: string) => void
 }
 
@@ -43,6 +44,7 @@ export function Sidebar({
   onExpandAll,
   onCopy,
   onAppearance,
+  onDetails,
   onSelectName,
 }: Props) {
   const [namesOpen, setNamesOpen] = useState(false)
@@ -129,6 +131,9 @@ export function Sidebar({
           </button>
           <button className="toc-action" onClick={onCopy}>
             Copiar livro
+          </button>
+          <button className="toc-action" onClick={onDetails}>
+            Detalhes
           </button>
         </div>
 
