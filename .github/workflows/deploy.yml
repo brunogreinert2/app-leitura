@@ -27,14 +27,8 @@ jobs:
           cache: npm
       - run: npm ci
       - run: npx tsc -b
-      # O site vive em usuario.github.io/<repo>/ — o base acompanha o
-      # nome do repo. Repositórios chamados *.github.io publicam na RAIZ.
-      - run: |
-          if [[ "${{ github.event.repository.name }}" == *.github.io ]]; then
-            npx vite build --base=/
-          else
-            npx vite build --base=/${{ github.event.repository.name }}/
-          fi
+      # Domínio próprio (pedraangular.app.br) serve na RAIZ do site
+      - run: npx vite build --base=/
       - uses: actions/upload-pages-artifact@v3
         with:
           path: dist
