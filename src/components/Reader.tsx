@@ -11,7 +11,7 @@ import { DetailsDialog } from './DetailsDialog'
 import { CollapseContext } from './collapseContext'
 import { WikilinkContext, type WikilinkActions } from './wikilinkContext'
 import { buildCopyText } from '../lib/copyBook'
-import { getBookIndex, chainForLine } from '../lib/searchIndex'
+import { getBookIndex, chainForLine, resolveReference } from '../lib/searchIndex'
 
 /** Destaque temporário no bloco alvo de um salto. */
 function flash(el: Element) {
@@ -24,6 +24,8 @@ const parseCache = new Map<string, ParsedBook>()
 
 interface Props {
   entry: CatalogEntry
+  /** Referência canônica vinda de um link permanente (#/livro/id/ref). */
+  initialRef?: string
   personRegistry: PersonRegistry
   onBack: () => void
   onOpenPerson: (entry: CatalogEntry) => void
@@ -62,6 +64,7 @@ function noteHtml(label: string): string {
 
 export function Reader({
   entry,
+  initialRef,
   personRegistry,
   onBack,
   onOpenPerson,
@@ -196,6 +199,32 @@ export function Reader({
 
   parsedRef.current = parsed
 
+  // Link permanente com passagem (#/livro/id/Sl 23:1): salta ao alvo
+  const initialRefDone = useRef(false)
+  useEffect(() => {
+    if (!parsed || !initialRef || initialRefDone.current) return
+    initialRefDone.current = true
+    const index = getBookIndex(entry.id, parsed.source, parsed.headings)
+    const target = resolveReference(index, initialRef)
+    if (!target) return
+    setCollapsed((prev) => {
+      const next = new Set(prev)
+      for (const id of chainForLine(parsed.headings, target.line)) next.delete(id)
+      return next
+    })
+    let tries = 0
+    const attempt = () => {
+      const el = document.getElementById(target.elementId)
+      if (el) {
+        el.scrollIntoView({ block: 'center' })
+        flash(el)
+      } else if (tries++ < 15) {
+        window.setTimeout(attempt, 80)
+      }
+    }
+    attempt()
+  }, [parsed, initialRef, entry.id])
+
   const collapseState = useMemo(
     () => ({
       collapsed,
@@ -309,11 +338,11 @@ export function Reader({
     <div className="reader">
       <header className="reader-header">
         <button
-          className="library-button"
+          className="library-button phi-button"
           onClick={onOpenLibrary}
           aria-label="Abrir biblioteca (pastas e pesquisa)"
         >
-          📚
+          Φ
         </button>
         <button className="back-button" onClick={onBack} aria-label="Voltar ao catálogo">
           ←

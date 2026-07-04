@@ -1,4 +1,4 @@
-import { useEffect, useMemo, useState } from 'react'
+import { useEffect, useMemo, useRef, useState } from 'react'
 import { Catalog } from './components/Catalog'
 import { Reader } from './components/Reader'
 import { LibraryDrawer } from './components/LibraryDrawer'
@@ -15,6 +15,16 @@ const WELCOME_ENTRY: CatalogEntry = {
   arquivo: 'IMPRESSOES_APP.md',
 }
 
+/**
+ * Links permanentes (citação acadêmica): #/livro/<id> abre a obra;
+ * #/livro/<id>/<ref> salta à passagem canônica (ex.: Sl 23:1, 5.4).
+ */
+function parseHash(): { bookId: string; ref?: string } | null {
+  const m = /^#\/livro\/([^/]+)(?:\/(.+))?$/.exec(window.location.hash)
+  if (!m) return null
+  return { bookId: decodeURIComponent(m[1]), ref: m[2] ? decodeURIComponent(m[2]) : undefined }
+}
+
 export function App() {
   const [catalog, setCatalog] = useState<CatalogData | null>(null)
   const [persons, setPersons] = useState<PersonManifest | null>(null)
@@ -26,6 +36,9 @@ export function App() {
   const [themeOpen, setThemeOpen] = useState(false)
   const [localFiles, setLocalFiles] = useState<LocalFile[]>([])
   const { theme, setTheme } = useTheme()
+  // Alvo do link permanente com que o app foi aberto (consumido 1x)
+  const initialTarget = useRef(parseHash())
+  const [initialRef, setInitialRef] = useState<string | undefined>(undefined)
 
   useEffect(() => {
     listLocalFiles().then(setLocalFiles).catch(() => {})
@@ -88,6 +101,24 @@ export function App() {
 
   const book = stack.length ? stack[stack.length - 1] : null
 
+  // Aberto por link permanente: troca o guia pela obra citada
+  useEffect(() => {
+    const target = initialTarget.current
+    if (!target || !libraryCatalog) return
+    const entry = libraryCatalog.livros.find((l) => l.id === target.bookId)
+    if (entry) {
+      setInitialRef(target.ref)
+      setStack([entry])
+    }
+    initialTarget.current = null
+  }, [libraryCatalog])
+
+  // A barra de endereço acompanha a obra aberta (link citável sempre à mão)
+  useEffect(() => {
+    const hash = book ? `#/livro/${encodeURIComponent(book.id)}` : '#/biblioteca'
+    window.history.replaceState(null, '', hash)
+  }, [book])
+
   const openBook = (entry: CatalogEntry) => {
     setStack([entry])
     setLibraryOpen(false)
@@ -121,6 +152,7 @@ export function App() {
         <Reader
           key={`${book.id}:${stack.length}`}
           entry={book}
+          initialRef={book.id === stack[0]?.id && stack.length === 1 ? initialRef : undefined}
           personRegistry={personRegistry}
           onBack={popBook}
           onOpenPerson={pushBook}

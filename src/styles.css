@@ -226,6 +226,16 @@ button {
   min-width: 2.75rem;
 }
 
+/* Φ — a marca do app (filosofia, filologia, filantropia), sempre em
+   cena e clicável: abre a biblioteca */
+.phi-button {
+  font-family: Georgia, serif;
+  font-weight: bold;
+  font-size: 1.5rem;
+  color: var(--color-accent);
+  line-height: 1;
+}
+
 .catalog-subtitle {
   color: var(--color-muted);
   margin: 0.25rem 0 0;

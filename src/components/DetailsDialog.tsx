@@ -1,3 +1,4 @@
+import { useState } from 'react'
 import type { CatalogEntry } from '../types'
 import type { ParsedBook } from '../lib/markdown'
 
@@ -49,7 +50,16 @@ interface Props {
 
 /** Ficha do arquivo: os campos do YAML (que nunca aparecem no texto). */
 export function DetailsDialog({ open, onClose, entry, parsed }: Props) {
+  const [copied, setCopied] = useState(false)
   if (!open) return null
+
+  const permalink = `${window.location.origin}${window.location.pathname}#/livro/${encodeURIComponent(entry.id)}`
+  const copyLink = () => {
+    navigator.clipboard.writeText(permalink).then(() => {
+      setCopied(true)
+      window.setTimeout(() => setCopied(false), 2000)
+    })
+  }
 
   const meta = parsed?.meta ?? {}
   const rows: [string, string][] = []
@@ -82,6 +92,11 @@ export function DetailsDialog({ open, onClose, entry, parsed }: Props) {
             </div>
           ))}
         </dl>
+        {!entry.local && (
+          <button className="wikilink-box-open" onClick={copyLink}>
+            {copied ? 'Copiado ✓' : 'Copiar link desta obra'}
+          </button>
+        )}
         <button className="copy-dialog-cancel" onClick={onClose}>
           Fechar
         </button>

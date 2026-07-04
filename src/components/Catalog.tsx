@@ -18,11 +18,11 @@ export function Catalog({ catalog, error, onSelect, onOpenLibrary, onOpenAppeara
     <div className="catalog">
       <header className="catalog-header">
         <button
-          className="library-button"
+          className="library-button phi-button"
           onClick={onOpenLibrary}
           aria-label="Abrir biblioteca (pastas e pesquisa)"
         >
-          ☰
+          Φ
         </button>
         <div className="catalog-header-title">
           <h1>Biblioteca</h1>
