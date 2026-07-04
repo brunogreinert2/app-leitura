@@ -54,7 +54,7 @@ Use os botões **+** e **−** no alto da tela, ou o gesto de pinça com dois de
 
 ## Cores e contraste
 
-No sumário (☰) toque em **Aparência** e escolha o esquema que descansar seus olhos: sépia, preto no branco, branco no preto, amarelo no preto, verde no preto, tons de azul ou pergaminho. A escolha fica gravada no aparelho.
+No sumário (Ξ) toque em **Aparência** e escolha o esquema que descansar seus olhos: sépia, pergaminho, preto no branco, branco no preto, amarelo no preto, verde no preto ou tons de azul. A escolha fica gravada no aparelho.
 
 ## Buscar
 
@@ -65,7 +65,7 @@ Toque na lupa 🔍 e digite:
 
 ## Sumário e biblioteca
 
-O botão ☰ abre o **sumário** do livro, com os capítulos e as ações do livro. O botão 📚 abre a **biblioteca**, com a estrutura de pastas e uma pesquisa por título, autor ou pasta.
+O botão **Ξ** (xi grega) abre o **sumário** do livro, com os capítulos e as ações do livro. O botão **Φ** (phi grega, a marca do app) abre a **biblioteca**, com a estrutura de pastas e uma pesquisa por título, autor ou pasta.
 
 ## Copiar
 

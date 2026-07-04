@@ -357,11 +357,11 @@ export function Reader({
         </button>
         <FontControls decrease={decrease} increase={increase} />
         <button
-          className="toc-button"
+          className="toc-button phi-button"
           onClick={() => setTocOpen(true)}
           aria-label="Abrir sumário"
         >
-          ☰
+          Ξ
         </button>
       </header>
 

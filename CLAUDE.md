@@ -44,7 +44,32 @@ Textos longos (capítulos bíblicos inteiros, verbetes extensos) precisam rolar 
 - Commits pequenos e frequentes, mensagens em português.
 - Antes de concluir qualquer fase: rodar build, testar offline, testar num viewport mobile.
 
+## Operação (como mexer no site publicado)
+
+- **Site**: https://pedraangular.app.br (GitHub Pages, repo
+  `brunogreinert2/app-leitura`, domínio via registro.br). Deploy é
+  automático: `git push` na master → GitHub Actions builda e publica
+  em ~1 min. Se o passo "deploy" falhar com "try again later", é
+  soluço do Pages: `gh run rerun <id> --failed`.
+- **Adicionar livros**: copiar `.md`/`.txt` para `public/livros/<PASTA>/`
+  (pasta = menu da biblioteca) e rodar `npm run gera:catalogo` (lê
+  título/autor/sistema_referencia do YAML; não toca entradas já
+  ajustadas). Personagens: `.md` em `public/livros/PERSONAGENS/` +
+  `npm run gera:personagens`. Guia completo: `docs/COMO_EDITAR.md`.
+- **Cores/temas**: variáveis CSS por `[data-theme]` no topo de
+  `src/styles.css`; lista de temas (com preview) em
+  `src/components/ThemeDialog.tsx`. Contraste mínimo 7:1 (WCAG
+  reforçado) — nunca "cinza escuro sobre preto".
+- **Links permanentes**: `#/livro/<id>` e `#/livro/<id>/<ref>` (ref
+  canônica, ex. `Sl 23:1`, `5.4`). O `id` do catálogo é eterno: nunca
+  renomear ids publicados.
+- **Ícones gregos da toolbar**: Φ abre a biblioteca (marca do app),
+  Ξ abre o sumário — manter a identidade grega.
+- **Testar local**: `npm run dev` (localhost:5173). Antes de publicar:
+  `npm run build` precisa passar limpo.
+
 ## Documentos
 
 - `docs/SPEC.md` — especificação consolidada (fonte: briefs do vault + decisões de 2026-07-02)
+- `docs/COMO_EDITAR.md` — guia de edição para o dono do corpus
 - Manual do corpus: `_META/CONVENCOES.md` no vault Segundo Cérebro (formato dos arquivos que o app consome)
