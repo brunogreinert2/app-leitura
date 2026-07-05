@@ -5204,6 +5204,12 @@
       "autor": "null",
       "arquivo": "HEBRAICO/Biblia_Hebraica_WLC/39_Malaquias_heb_wlc_sd.md",
       "sistema_referencia": "versiculo"
+    },
+    {
+      "id": "voltaire-dicionario-filosofico-jahr",
+      "titulo": "Dicionário Filosófico",
+      "autor": "Voltaire",
+      "arquivo": "FILOSOFIA/Iluminismo/Voltaire/Dicionario_Filosofico/voltaire-dicionario-filosofico-jahr.md"
     }
   ]
 }
