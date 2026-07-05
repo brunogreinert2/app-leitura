@@ -1,10 +1,18 @@
 import { useEffect, useMemo, useRef, useState } from 'react'
 import { Catalog } from './components/Catalog'
-import { Reader } from './components/Reader'
+import { Reader, invalidateBookCache } from './components/Reader'
+import { TextEditor } from './components/TextEditor'
 import { LibraryDrawer } from './components/LibraryDrawer'
 import { ThemeDialog, useTheme } from './components/ThemeDialog'
 import { buildPersonRegistry } from './lib/persons'
-import { addLocalFiles, listLocalFiles, removeLocalFile, type LocalFile } from './lib/localFiles'
+import {
+  addLocalFiles,
+  getLocalFile,
+  listLocalFiles,
+  removeLocalFile,
+  saveLocalText,
+  type LocalFile,
+} from './lib/localFiles'
 import type { Catalog as CatalogData, CatalogEntry, PersonManifest } from './types'
 
 /** O app abre lendo: guia de boas-vindas como primeiro texto ativo. */
@@ -35,6 +43,10 @@ export function App() {
   const [libraryOpen, setLibraryOpen] = useState(false)
   const [themeOpen, setThemeOpen] = useState(false)
   const [localFiles, setLocalFiles] = useState<LocalFile[]>([])
+  // Editor de textos próprios: null | novo | edição de um LocalFile
+  const [editor, setEditor] = useState<{ file: LocalFile | null } | null>(null)
+  // Muda a key do Reader após salvar edição (re-parseia o conteúdo)
+  const [bookVersion, setBookVersion] = useState(0)
   const { theme, setTheme } = useTheme()
   // Alvo do link permanente com que o app foi aberto (consumido 1x)
   const initialTarget = useRef(parseHash())
@@ -89,6 +101,30 @@ export function App() {
       .catch(() => {})
   }
 
+  const handleSaveText = (titulo: string, conteudo: string) => {
+    const existingId = editor?.file?.id
+    saveLocalText(titulo, conteudo, existingId)
+      .then((file) => {
+        if (existingId) invalidateBookCache(existingId)
+        setEditor(null)
+        setBookVersion((v) => v + 1)
+        // Abre o texto salvo para leitura imediata
+        setStack([
+          { id: file.id, titulo: file.titulo, autor: file.autor, arquivo: `Meus arquivos/${file.nome}`, local: true },
+        ])
+        return listLocalFiles()
+      })
+      .then(setLocalFiles)
+      .catch(() => {})
+  }
+
+  const handleEditLocal = () => {
+    if (!book?.local) return
+    getLocalFile(book.id).then((file) => {
+      if (file) setEditor({ file })
+    })
+  }
+
   const handleRemoveLocal = (entry: CatalogEntry) => {
     if (!window.confirm(`Remover “${entry.titulo}” dos seus arquivos?`)) return
     removeLocalFile(entry.id)
@@ -141,6 +177,17 @@ export function App() {
         onSelect={openBook}
         onAddFiles={handleAddFiles}
         onRemoveLocal={handleRemoveLocal}
+        onNewText={() => {
+          setLibraryOpen(false)
+          setEditor({ file: null })
+        }}
+      />
+      <TextEditor
+        open={editor !== null}
+        initialTitle={editor?.file?.titulo ?? ''}
+        initialContent={editor?.file?.conteudo ?? ''}
+        onSave={handleSaveText}
+        onCancel={() => setEditor(null)}
       />
       <ThemeDialog
         open={themeOpen}
@@ -150,9 +197,10 @@ export function App() {
       />
       {book ? (
         <Reader
-          key={`${book.id}:${stack.length}`}
+          key={`${book.id}:${stack.length}:${bookVersion}`}
           entry={book}
           initialRef={book.id === stack[0]?.id && stack.length === 1 ? initialRef : undefined}
+          onEditLocal={book.local ? handleEditLocal : undefined}
           personRegistry={personRegistry}
           onBack={popBook}
           onOpenPerson={pushBook}

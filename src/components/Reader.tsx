@@ -22,10 +22,17 @@ function flash(el: Element) {
 /** Parse de livro grande é caro: reabrir na mesma sessão sai do cache. */
 const parseCache = new Map<string, ParsedBook>()
 
+/** Texto local editado: o próximo open re-parseia. */
+export function invalidateBookCache(id: string) {
+  parseCache.delete(id)
+}
+
 interface Props {
   entry: CatalogEntry
   /** Referência canônica vinda de um link permanente (#/livro/id/ref). */
   initialRef?: string
+  /** Presente quando o texto é do usuário: habilita a ação Editar. */
+  onEditLocal?: () => void
   personRegistry: PersonRegistry
   onBack: () => void
   onOpenPerson: (entry: CatalogEntry) => void
@@ -65,6 +72,7 @@ function noteHtml(label: string): string {
 export function Reader({
   entry,
   initialRef,
+  onEditLocal,
   personRegistry,
   onBack,
   onOpenPerson,
@@ -424,6 +432,14 @@ export function Reader({
           setTocOpen(false)
           setDetailsOpen(true)
         }}
+        onEdit={
+          onEditLocal
+            ? () => {
+                setTocOpen(false)
+                onEditLocal()
+              }
+            : undefined
+        }
         onSelectName={(name) => {
           // Tap num nome do índice: joga o nome na busca — todas as
           // ocorrências destacadas e navegáveis

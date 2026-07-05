@@ -10,9 +10,19 @@ interface Props {
   /** Importa .md/.txt do aparelho para o IndexedDB. */
   onAddFiles: (files: File[]) => void
   onRemoveLocal: (entry: CatalogEntry) => void
+  /** Abre o editor para digitar/colar um texto novo. */
+  onNewText: () => void
 }
 
-export function LibraryDrawer({ catalog, open, onClose, onSelect, onAddFiles, onRemoveLocal }: Props) {
+export function LibraryDrawer({
+  catalog,
+  open,
+  onClose,
+  onSelect,
+  onAddFiles,
+  onRemoveLocal,
+  onNewText,
+}: Props) {
   const [query, setQuery] = useState('')
   const fileInputRef = useRef<HTMLInputElement>(null)
 
@@ -41,7 +51,10 @@ export function LibraryDrawer({ catalog, open, onClose, onSelect, onAddFiles, on
         </div>
         <div className="lib-import">
           <button className="toc-action" onClick={() => fileInputRef.current?.click()}>
-            + Adicionar arquivos (.md/.txt)
+            + Adicionar arquivos
+          </button>
+          <button className="toc-action" onClick={onNewText}>
+            ✏ Novo texto
           </button>
           <input
             ref={fileInputRef}

@@ -78,3 +78,31 @@ export async function addLocalFiles(files: Iterable<File>): Promise<number> {
 export async function removeLocalFile(id: string): Promise<void> {
   await (await db()).delete('arquivos', id)
 }
+
+/**
+ * Texto digitado/colado pelo usuário no próprio app (a "área de
+ * transferência" vira documento legível). Salvo como .md: o que vier
+ * do chat do Claude ou de qualquer lugar rende títulos/negrito de
+ * graça, e texto puro continua texto puro. Só textos do usuário são
+ * editáveis — o corpus permanece intocável.
+ */
+export async function saveLocalText(
+  titulo: string,
+  conteudo: string,
+  existingId?: string,
+): Promise<LocalFile> {
+  const d = await db()
+  const nome = `${titulo.replace(/[\\/:*?"<>|]/g, '')}.md`
+  const existing = existingId ? await d.get('arquivos', existingId) : undefined
+  const file: LocalFile = {
+    id: existing?.id ?? `texto-${Date.now().toString(36)}`,
+    nome,
+    titulo,
+    autor: existing?.autor ?? 'Texto próprio',
+    tipo: 'md',
+    conteudo,
+    criadoEm: existing?.criadoEm ?? Date.now(),
+  }
+  await d.put('arquivos', file)
+  return file
+}

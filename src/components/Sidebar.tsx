@@ -13,6 +13,8 @@ interface Props {
   onCopy: () => void
   onAppearance: () => void
   onDetails: () => void
+  /** Presente só para textos do usuário (o corpus é intocável). */
+  onEdit?: () => void
   onSelectName: (name: string) => void
 }
 
@@ -45,6 +47,7 @@ export function Sidebar({
   onCopy,
   onAppearance,
   onDetails,
+  onEdit,
   onSelectName,
 }: Props) {
   const [namesOpen, setNamesOpen] = useState(false)
@@ -135,6 +138,11 @@ export function Sidebar({
           <button className="toc-action" onClick={onDetails}>
             Detalhes
           </button>
+          {onEdit && (
+            <button className="toc-action" onClick={onEdit}>
+              ✏ Editar
+            </button>
+          )}
         </div>
 
         <ul className="toc">

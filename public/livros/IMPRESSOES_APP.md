@@ -67,6 +67,15 @@ Toque na lupa 🔍 e digite:
 
 O botão **Ξ** (xi grega) abre o **sumário** do livro, com os capítulos e as ações do livro. O botão **Φ** (phi grega, a marca do app) abre a **biblioteca**, com a estrutura de pastas e uma pesquisa por título, autor ou pasta.
 
+## Seus próprios textos
+
+Na biblioteca (Φ) há dois botões:
+
+- **+ Adicionar arquivos** — traz arquivos `.md` ou `.txt` do seu aparelho para dentro do app.
+- **✏ Novo texto** — abre uma folha em branco para **digitar ou colar** qualquer coisa: uma conversa, um artigo, uma anotação. Salvou, virou leitura com tudo que o app oferece — zoom, temas, títulos recolhíveis, busca.
+
+Seus textos ficam na pasta "Meus arquivos", **só no seu aparelho** (não sobem para lugar nenhum), funcionam sem internet e podem ser editados depois: abra o texto, toque em Ξ e em **✏ Editar**. Os livros da biblioteca não podem ser editados — o acervo é intocável.
+
 ## Copiar
 
 No sumário, "Copiar livro" copia o texto **limpo** — sem marcação do app, exatamente como no arquivo original. Se houver seções fechadas, o app pergunta se copia só o visível ou tudo.
