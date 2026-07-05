@@ -4931,6 +4931,279 @@
       "titulo": "Oratio de Hominis Dignitate",
       "autor": "Giovanni Pico della Mirandola",
       "arquivo": "LATIM/Renascimento/Pico_della_Mirandola/Oratio_de_Hominis_Dignitate/Oratio_de_Hominis_Dignitate_lat_latinlibrary_sd.md"
+    },
+    {
+      "id": "biblia-hebraica-wlc-01-genesis",
+      "titulo": "Gênesis (Bíblia Hebraica — WLC)",
+      "autor": "null",
+      "arquivo": "HEBRAICO/Biblia_Hebraica_WLC/01_Genesis_heb_wlc_sd.md",
+      "sistema_referencia": "versiculo"
+    },
+    {
+      "id": "biblia-hebraica-wlc-02-exodo",
+      "titulo": "Êxodo (Bíblia Hebraica — WLC)",
+      "autor": "null",
+      "arquivo": "HEBRAICO/Biblia_Hebraica_WLC/02_Exodo_heb_wlc_sd.md",
+      "sistema_referencia": "versiculo"
+    },
+    {
+      "id": "biblia-hebraica-wlc-03-levitico",
+      "titulo": "Levítico (Bíblia Hebraica — WLC)",
+      "autor": "null",
+      "arquivo": "HEBRAICO/Biblia_Hebraica_WLC/03_Levitico_heb_wlc_sd.md",
+      "sistema_referencia": "versiculo"
+    },
+    {
+      "id": "biblia-hebraica-wlc-04-numeros",
+      "titulo": "Números (Bíblia Hebraica — WLC)",
+      "autor": "null",
+      "arquivo": "HEBRAICO/Biblia_Hebraica_WLC/04_Numeros_heb_wlc_sd.md",
+      "sistema_referencia": "versiculo"
+    },
+    {
+      "id": "biblia-hebraica-wlc-05-deuteronomio",
+      "titulo": "Deuteronômio (Bíblia Hebraica — WLC)",
+      "autor": "null",
+      "arquivo": "HEBRAICO/Biblia_Hebraica_WLC/05_Deuteronomio_heb_wlc_sd.md",
+      "sistema_referencia": "versiculo"
+    },
+    {
+      "id": "biblia-hebraica-wlc-06-josue",
+      "titulo": "Josué (Bíblia Hebraica — WLC)",
+      "autor": "null",
+      "arquivo": "HEBRAICO/Biblia_Hebraica_WLC/06_Josue_heb_wlc_sd.md",
+      "sistema_referencia": "versiculo"
+    },
+    {
+      "id": "biblia-hebraica-wlc-07-juizes",
+      "titulo": "Juízes (Bíblia Hebraica — WLC)",
+      "autor": "null",
+      "arquivo": "HEBRAICO/Biblia_Hebraica_WLC/07_Juizes_heb_wlc_sd.md",
+      "sistema_referencia": "versiculo"
+    },
+    {
+      "id": "biblia-hebraica-wlc-08-rute",
+      "titulo": "Rute (Bíblia Hebraica — WLC)",
+      "autor": "null",
+      "arquivo": "HEBRAICO/Biblia_Hebraica_WLC/08_Rute_heb_wlc_sd.md",
+      "sistema_referencia": "versiculo"
+    },
+    {
+      "id": "biblia-hebraica-wlc-09-1_samuel",
+      "titulo": "1 Samuel (Bíblia Hebraica — WLC)",
+      "autor": "null",
+      "arquivo": "HEBRAICO/Biblia_Hebraica_WLC/09_1_Samuel_heb_wlc_sd.md",
+      "sistema_referencia": "versiculo"
+    },
+    {
+      "id": "biblia-hebraica-wlc-10-2_samuel",
+      "titulo": "2 Samuel (Bíblia Hebraica — WLC)",
+      "autor": "null",
+      "arquivo": "HEBRAICO/Biblia_Hebraica_WLC/10_2_Samuel_heb_wlc_sd.md",
+      "sistema_referencia": "versiculo"
+    },
+    {
+      "id": "biblia-hebraica-wlc-11-1_reis",
+      "titulo": "1 Reis (Bíblia Hebraica — WLC)",
+      "autor": "null",
+      "arquivo": "HEBRAICO/Biblia_Hebraica_WLC/11_1_Reis_heb_wlc_sd.md",
+      "sistema_referencia": "versiculo"
+    },
+    {
+      "id": "biblia-hebraica-wlc-12-2_reis",
+      "titulo": "2 Reis (Bíblia Hebraica — WLC)",
+      "autor": "null",
+      "arquivo": "HEBRAICO/Biblia_Hebraica_WLC/12_2_Reis_heb_wlc_sd.md",
+      "sistema_referencia": "versiculo"
+    },
+    {
+      "id": "biblia-hebraica-wlc-13-1_cronicas",
+      "titulo": "1 Crônicas (Bíblia Hebraica — WLC)",
+      "autor": "null",
+      "arquivo": "HEBRAICO/Biblia_Hebraica_WLC/13_1_Cronicas_heb_wlc_sd.md",
+      "sistema_referencia": "versiculo"
+    },
+    {
+      "id": "biblia-hebraica-wlc-14-2_cronicas",
+      "titulo": "2 Crônicas (Bíblia Hebraica — WLC)",
+      "autor": "null",
+      "arquivo": "HEBRAICO/Biblia_Hebraica_WLC/14_2_Cronicas_heb_wlc_sd.md",
+      "sistema_referencia": "versiculo"
+    },
+    {
+      "id": "biblia-hebraica-wlc-15-esdras",
+      "titulo": "Esdras (Bíblia Hebraica — WLC)",
+      "autor": "null",
+      "arquivo": "HEBRAICO/Biblia_Hebraica_WLC/15_Esdras_heb_wlc_sd.md",
+      "sistema_referencia": "versiculo"
+    },
+    {
+      "id": "biblia-hebraica-wlc-16-neemias",
+      "titulo": "Neemias (Bíblia Hebraica — WLC)",
+      "autor": "null",
+      "arquivo": "HEBRAICO/Biblia_Hebraica_WLC/16_Neemias_heb_wlc_sd.md",
+      "sistema_referencia": "versiculo"
+    },
+    {
+      "id": "biblia-hebraica-wlc-17-ester",
+      "titulo": "Ester (Bíblia Hebraica — WLC)",
+      "autor": "null",
+      "arquivo": "HEBRAICO/Biblia_Hebraica_WLC/17_Ester_heb_wlc_sd.md",
+      "sistema_referencia": "versiculo"
+    },
+    {
+      "id": "biblia-hebraica-wlc-18-jo",
+      "titulo": "Jó (Bíblia Hebraica — WLC)",
+      "autor": "null",
+      "arquivo": "HEBRAICO/Biblia_Hebraica_WLC/18_Jo_heb_wlc_sd.md",
+      "sistema_referencia": "versiculo"
+    },
+    {
+      "id": "biblia-hebraica-wlc-19-salmos",
+      "titulo": "Salmos (Bíblia Hebraica — WLC)",
+      "autor": "null",
+      "arquivo": "HEBRAICO/Biblia_Hebraica_WLC/19_Salmos_heb_wlc_sd.md",
+      "sistema_referencia": "versiculo"
+    },
+    {
+      "id": "biblia-hebraica-wlc-20-proverbios",
+      "titulo": "Provérbios (Bíblia Hebraica — WLC)",
+      "autor": "null",
+      "arquivo": "HEBRAICO/Biblia_Hebraica_WLC/20_Proverbios_heb_wlc_sd.md",
+      "sistema_referencia": "versiculo"
+    },
+    {
+      "id": "biblia-hebraica-wlc-21-eclesiastes",
+      "titulo": "Eclesiastes (Bíblia Hebraica — WLC)",
+      "autor": "null",
+      "arquivo": "HEBRAICO/Biblia_Hebraica_WLC/21_Eclesiastes_heb_wlc_sd.md",
+      "sistema_referencia": "versiculo"
+    },
+    {
+      "id": "biblia-hebraica-wlc-22-cantico_dos_canticos",
+      "titulo": "Cântico dos Cânticos (Bíblia Hebraica — WLC)",
+      "autor": "null",
+      "arquivo": "HEBRAICO/Biblia_Hebraica_WLC/22_Cantico_dos_Canticos_heb_wlc_sd.md",
+      "sistema_referencia": "versiculo"
+    },
+    {
+      "id": "biblia-hebraica-wlc-23-isaias",
+      "titulo": "Isaías (Bíblia Hebraica — WLC)",
+      "autor": "null",
+      "arquivo": "HEBRAICO/Biblia_Hebraica_WLC/23_Isaias_heb_wlc_sd.md",
+      "sistema_referencia": "versiculo"
+    },
+    {
+      "id": "biblia-hebraica-wlc-24-jeremias",
+      "titulo": "Jeremias (Bíblia Hebraica — WLC)",
+      "autor": "null",
+      "arquivo": "HEBRAICO/Biblia_Hebraica_WLC/24_Jeremias_heb_wlc_sd.md",
+      "sistema_referencia": "versiculo"
+    },
+    {
+      "id": "biblia-hebraica-wlc-25-lamentacoes",
+      "titulo": "Lamentações (Bíblia Hebraica — WLC)",
+      "autor": "null",
+      "arquivo": "HEBRAICO/Biblia_Hebraica_WLC/25_Lamentacoes_heb_wlc_sd.md",
+      "sistema_referencia": "versiculo"
+    },
+    {
+      "id": "biblia-hebraica-wlc-26-ezequiel",
+      "titulo": "Ezequiel (Bíblia Hebraica — WLC)",
+      "autor": "null",
+      "arquivo": "HEBRAICO/Biblia_Hebraica_WLC/26_Ezequiel_heb_wlc_sd.md",
+      "sistema_referencia": "versiculo"
+    },
+    {
+      "id": "biblia-hebraica-wlc-27-daniel",
+      "titulo": "Daniel (Bíblia Hebraica — WLC)",
+      "autor": "null",
+      "arquivo": "HEBRAICO/Biblia_Hebraica_WLC/27_Daniel_heb_wlc_sd.md",
+      "sistema_referencia": "versiculo"
+    },
+    {
+      "id": "biblia-hebraica-wlc-28-oseias",
+      "titulo": "Oseias (Bíblia Hebraica — WLC)",
+      "autor": "null",
+      "arquivo": "HEBRAICO/Biblia_Hebraica_WLC/28_Oseias_heb_wlc_sd.md",
+      "sistema_referencia": "versiculo"
+    },
+    {
+      "id": "biblia-hebraica-wlc-29-joel",
+      "titulo": "Joel (Bíblia Hebraica — WLC)",
+      "autor": "null",
+      "arquivo": "HEBRAICO/Biblia_Hebraica_WLC/29_Joel_heb_wlc_sd.md",
+      "sistema_referencia": "versiculo"
+    },
+    {
+      "id": "biblia-hebraica-wlc-30-amos",
+      "titulo": "Amós (Bíblia Hebraica — WLC)",
+      "autor": "null",
+      "arquivo": "HEBRAICO/Biblia_Hebraica_WLC/30_Amos_heb_wlc_sd.md",
+      "sistema_referencia": "versiculo"
+    },
+    {
+      "id": "biblia-hebraica-wlc-31-obadias",
+      "titulo": "Obadias (Bíblia Hebraica — WLC)",
+      "autor": "null",
+      "arquivo": "HEBRAICO/Biblia_Hebraica_WLC/31_Obadias_heb_wlc_sd.md",
+      "sistema_referencia": "versiculo"
+    },
+    {
+      "id": "biblia-hebraica-wlc-32-jonas",
+      "titulo": "Jonas (Bíblia Hebraica — WLC)",
+      "autor": "null",
+      "arquivo": "HEBRAICO/Biblia_Hebraica_WLC/32_Jonas_heb_wlc_sd.md",
+      "sistema_referencia": "versiculo"
+    },
+    {
+      "id": "biblia-hebraica-wlc-33-miqueias",
+      "titulo": "Miqueias (Bíblia Hebraica — WLC)",
+      "autor": "null",
+      "arquivo": "HEBRAICO/Biblia_Hebraica_WLC/33_Miqueias_heb_wlc_sd.md",
+      "sistema_referencia": "versiculo"
+    },
+    {
+      "id": "biblia-hebraica-wlc-34-naum",
+      "titulo": "Naum (Bíblia Hebraica — WLC)",
+      "autor": "null",
+      "arquivo": "HEBRAICO/Biblia_Hebraica_WLC/34_Naum_heb_wlc_sd.md",
+      "sistema_referencia": "versiculo"
+    },
+    {
+      "id": "biblia-hebraica-wlc-35-habacuque",
+      "titulo": "Habacuque (Bíblia Hebraica — WLC)",
+      "autor": "null",
+      "arquivo": "HEBRAICO/Biblia_Hebraica_WLC/35_Habacuque_heb_wlc_sd.md",
+      "sistema_referencia": "versiculo"
+    },
+    {
+      "id": "biblia-hebraica-wlc-36-sofonias",
+      "titulo": "Sofonias (Bíblia Hebraica — WLC)",
+      "autor": "null",
+      "arquivo": "HEBRAICO/Biblia_Hebraica_WLC/36_Sofonias_heb_wlc_sd.md",
+      "sistema_referencia": "versiculo"
+    },
+    {
+      "id": "biblia-hebraica-wlc-37-ageu",
+      "titulo": "Ageu (Bíblia Hebraica — WLC)",
+      "autor": "null",
+      "arquivo": "HEBRAICO/Biblia_Hebraica_WLC/37_Ageu_heb_wlc_sd.md",
+      "sistema_referencia": "versiculo"
+    },
+    {
+      "id": "biblia-hebraica-wlc-38-zacarias",
+      "titulo": "Zacarias (Bíblia Hebraica — WLC)",
+      "autor": "null",
+      "arquivo": "HEBRAICO/Biblia_Hebraica_WLC/38_Zacarias_heb_wlc_sd.md",
+      "sistema_referencia": "versiculo"
+    },
+    {
+      "id": "biblia-hebraica-wlc-39-malaquias",
+      "titulo": "Malaquias (Bíblia Hebraica — WLC)",
+      "autor": "null",
+      "arquivo": "HEBRAICO/Biblia_Hebraica_WLC/39_Malaquias_heb_wlc_sd.md",
+      "sistema_referencia": "versiculo"
     }
   ]
 }
