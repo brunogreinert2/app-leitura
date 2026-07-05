@@ -1,0 +1,140 @@
+---
+id: biblia-35-habacuque-por-alm1911-1911
+type: texto_primario
+title: "Habacuque (Almeida Revista e Corrigida 1911)"
+author: null
+language: por
+translator: "João Ferreira de Almeida (revisão de 1911)"
+editor: null
+year_original: null
+publisher: null
+source: "Almeida Revista e Corrigida 1911, 1911. Via github.com/damarals/biblias (JSON canônico), 2026."
+license: "dominio_publico"
+publishable: true
+status: rascunho
+project: pedra_angular
+livro_numero: 35
+abrev: Hc
+related: []
+tags: [biblia]
+---
+
+# Habacuque
+
+## Capítulo 1
+
+**1** A carga que viu o propheta Habacuc. ^hc-1-1
+
+**2** Até quando, Senhor, clamarei eu, e tu não me escutarás? até quando gritarei a ti: Violencia! e não salvarás? ^hc-1-2
+
+**3** Por que razão me fazes vêr a iniquidade, e vês a vexação? porque a destruição e a violencia estão diante de mim, havendo tambem quem suscite a contenda e o litigio ^hc-1-3
+
+**4** Por esta causa a lei se afrouxa, e a sentença nunca sae; porque o impio cérca o justo, e sae a sentença torcida. ^hc-1-4
+
+**5** Vêde entre as nações, e olhae, e maravilhae-vos, e estae maravilhados; porque obro uma obra em vossos dias que não crereis, quando se vos contar. ^hc-1-5
+
+**6** Porque eis que suscito os chaldeos, nação amarga e apressada, que marcha sobre a largura da terra, para possuir moradas que não são suas. ^hc-1-6
+
+**7** Horrivel e terrivel é; d'ella mesma sairá o seu juizo e a sua grandeza. ^hc-1-7
+
+**8** E os seus cavallos são mais ligeiros do que os leopardos, e mais perspicazes do que os lobos á tarde, e os seus cavalleiros se espalham: os seus cavalleiros virão de longe; voarão como aguias que se apressam á comida. ^hc-1-8
+
+**9** Elles todos virão a fim de obrar violencia: os seus rostos buscarão o oriente, e congregará os captivos como areia. ^hc-1-9
+
+**10** E escarnecerão dos reis, e dos principes farão zombaria: elles se rirão de todas as fortalezas, porque amontoarão terra, e as tomarão. ^hc-1-10
+
+**11** Então passará como vento, e traspassará, e se fará culpada, attribuindo este seu poder ao seu deus, ^hc-1-11
+
+**12** Porventura não és tu desde sempre, ó Senhor meu Deus, meu Sancto? nós não morreremos: ó Senhor, para juizo o pozeste, e tu, ó Rocha, o fundaste para castigar. ^hc-1-12
+
+**13** Tu és tão puro de olhos, que não podes vêr o mal, e a vexação não podes contemplar: porque olhas para os que obram aleivosamente? porque te calas quando o impio devora aquelle que é mais justo do que elle? ^hc-1-13
+
+**14** E porque farias os homens como os peixes do mar, como os reptis, que não teem quem os governe? ^hc-1-14
+
+**15** Elle a todos tira com o anzol, apanhal-os-ha com a sua rede, e os ajunta na sua varredoura: por isso elle se alegra e se regozija. ^hc-1-15
+
+**16** Por isso sacrifica á sua rede, e queima incenso á sua varredoura; porque com ellas se engordou a sua porção, e se engrossou a sua comida. ^hc-1-16
+
+**17** Porventura por isso vazará a sua rede, e não poupará de matar os povos continuamente?  ^hc-1-17
+
+## Capítulo 2
+
+**1** Sobre a minha guarda estarei, e sobre a fortaleza me apresentarei e vigiarei, para vêr o que fallaria em mim, e o que eu responderei, quando eu fôr arguido. ^hc-2-1
+
+**2** Então o Senhor me respondeu, e disse: Escreve a visão, e declara-a em taboas, para que n'ellas leia o que correndo passa. ^hc-2-2
+
+**3** Porque a visão ainda está para o tempo determinado, pois até ao fim fallará, e não mentirá: se tardar, espera-o, porque certamente virá, nem tardará. ^hc-2-3
+
+**4** Eis que de preguiça se retira, não é recta n'elle; mas o justo pela sua fé viverá. ^hc-2-4
+
+**5** Quanto mais se é dado ao vinho mais desleal se é; aquelle homem soberbo, que alarga como o sepulchro a sua alma, não permanecerá e é como a morte que não se farta, e ajunta a si todas as nações, e congrega a si todos os povos. ^hc-2-5
+
+**6** Não levantariam pois todos estes contra elle uma parabola e dito agudo com enigmas para elle? e se dirá: Ai d'aquelle que multiplica o que não é seu! (até quando!) e d'aquelle que carrega sobre si divida! ^hc-2-6
+
+**7** Porventura não se levantarão de repente os que te morderão? e não despertarão os que te abalarão? e não lhes servirás tu de despojo ^hc-2-7
+
+**8** Porquanto despojaste a muitas nações, todos os mais povos te despojarão a ti, por causa do sangue dos homens, e da violencia ácerca da terra da cidade, e de todos os que habitam n'ella. ^hc-2-8
+
+**9** Ai d'aquelle que ajunta bens para a sua casa, por uma avareza criminosa, para que ponha o seu ninho no alto, a fim de se livrar da mão do mal! ^hc-2-9
+
+**10** Vergonha maquinaste para a tua casa; destruindo tu a muitos povos, peccaste contra a tua alma. ^hc-2-10
+
+**11** Porque a pedra clamará da parede, e a trave lhe responderá do madeiramento. ^hc-2-11
+
+**12** Ai d'aquelle que edifica a cidade com sangue, e que funda a cidade com iniquidade! ^hc-2-12
+
+**13** Eis que porventura não vem do Senhor dos Exercitos que os povos trabalham pelo fogo e os homens se cançam em vão? ^hc-2-13
+
+**14** Porque a terra sera cheia do conhecimento da gloria do Senhor, como as aguas cobrem o mar. ^hc-2-14
+
+**15** Ai d'aquelle que dá de beber ao seu companheiro! tu, que lhe chegas o teu odre, e o embebedas, para vêr a sua nudez! ^hc-2-15
+
+**16** Tambem tu serás farto de ignominia em logar de honra: bebe tu tambem, e descobre o prepucio: o calix da mão direita do Senhor voltará a ti, e vomito ignominioso cairá sobre a tua gloria. ^hc-2-16
+
+**17** Porque a violencia commettida contra o Libano te cobrirá, e a destruição das bestas os assombrará, por causa do sangue dos homens, e da violencia feita á terra, á cidade, e a todos os moradores. ^hc-2-17
+
+**18** Que aproveitará a imagem de esculptura, depois de que a esculpiu o seu artifice? ou a imagem de fundição, que ensina a mentira, para que o artifice confie na obra, fazendo idolos mudos? ^hc-2-18
+
+**19** Ai d'aquelle que diz ao pau: Acorda; e á pedra muda: Desperta: porventura ensinará? eis que está coberto de oiro e de prata, mas no meio d'elle não ha espirito algum. ^hc-2-19
+
+**20** Porém o Senhor está no seu sancto templo: cale-se diante d'elle toda a terra.  ^hc-2-20
+
+## Capítulo 3
+
+**1** Oração do propheta Habacuc sobre Shigionoth. ^hc-3-1
+
+**2** Ouvi, Senhor, a tua palavra, e temi: aviva, ó Senhor, a tua obra no meio dos annos, no meio dos annos a notifica: na tua ira lembra-te de misericordia. ^hc-3-2
+
+**3** Deus veiu de Teman, e o Sancto do monte de Paran (Selah). A sua gloria cobriu os céus, e a terra foi cheia do seu louvor. ^hc-3-3
+
+**4** E o resplandor se fez como a luz, raios brilhantes lhe sahiam da sua mão, e ali estava o esconderijo da sua força. ^hc-3-4
+
+**5** Diante d'elle ia a peste, e queimaduras passavam diante dos seus pés. ^hc-3-5
+
+**6** Parou, e mediu a terra: olhou, e fez sair as nações: e os montes perpetuos foram esmiuçados; os outeiros eternos se encurvaram, porque o andar eterno é seu ^hc-3-6
+
+**7** Vi as tendas de Cusan debaixo da vaidade: as cortinas da terra de Midian tremiam. ^hc-3-7
+
+**8** Acaso é contra os rios, Senhor, que tu estás irado? contra os ribeiros foi a tua ira? contra o mar foi o teu furor, quando andaste montado sobre os teus cavallos? os teus carros foram a salvação? ^hc-3-8
+
+**9** Descoberto se despertou o teu arco, pelos juramentos feitos ás tribus, pela tua palavra (Selah). Tu fendeste a terra com rios. ^hc-3-9
+
+**10** Os montes te viram, e tremeram: a inundação das aguas passou; deu o abysmo a sua voz, levantou as suas mãos ao alto. ^hc-3-10
+
+**11** O sol e a lua pararam nas suas moradas: andaram á luz das tuas frechas, ao resplandor do relampago da tua lança. ^hc-3-11
+
+**12** Com indignação marchaste pela terra, com ira trilhaste as nações. ^hc-3-12
+
+**13** Tu saiste para salvamento do teu povo, para salvamento do teu ungido: tu feriste a cabeça da casa do impio, descobrindo o alicerce até ao pescoço (Selah). ^hc-3-13
+
+**14** Tu furaste com os teus cajados a cabeça das suas aldeias; elles me accommetteram tempestuosos para me espalharem: alegravam-se, como se estivessem para devorar o pobre em segredo. ^hc-3-14
+
+**15** Tu com os teus cavallos marchaste pelo mar, pelo montão de grandes aguas. ^hc-3-15
+
+**16** Ouvindo-o eu, o meu ventre se commoveu, á sua voz tremeram os meus labios; entrou a podridão nos meus ossos, e estremeci dentro de mim; no dia da angustia descançarei, quando subir contra o povo que nos destruirá. ^hc-3-16
+
+**17** Porque ainda que a figueira não floresça, nem haja fructo na vide; o producto da oliveira minta, e os campos não produzam mantimento; as ovelhas da malhada sejam arrebatadas, e nos curraes não haja vaccas: ^hc-3-17
+
+**18** Todavia eu me alegrarei no Senhor: gozar-me-hei no Deus da minha salvação. ^hc-3-18
+
+**19** Jehovah, o Senhor, é minha força, e fará os meus pés como os das cervas, e me fará andar sobre as minhas alturas. Para o cantor-mór sobre os meus instrumentos de musica.   ^hc-3-19

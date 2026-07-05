@@ -1,0 +1,73 @@
+---
+id: plutarco-comparison-of-timoleon-and-aemilius-eng-bernadotte-perrin-1918
+type: texto_primario
+title: "Comparison of Timoleon and Aemilius"
+subtitle: null
+author: Plutarch
+year_original: null
+language: eng
+translation:
+  - Bernadotte Perrin
+publisher: Harvard University Press
+area: null
+era: null
+tags: []
+status: rascunho
+project: pedra_angular
+source: "Plutarch. Comparison of Timoleon and Aemilius. Ed. Bernadotte Perrin. Cambridge, MA: Harvard University Press, 1918. Perseus Digital Library, Tufts University (CC BY-SA 4.0). URN: null"
+related: []
+---
+
+# Comparison of Timoleon and Aemilius
+
+**Plutarch**
+
+Cambridge, MA: Harvard University Press, 1918.
+Perseus Digital Library, Tufts University (CC BY-SA 4.0).
+URN: `null`
+
+---
+
+## Texto
+
+### Capítulo 1
+
+[1.1] SUCH being the history of these men, it is clear that our comparison of them will have few points of difference or dissimilarity to show.
+
+[1.2] For the wars which both conducted were against notable antagonists; in the one case against the Macedonians, in the other against the Carthaginians. Their victories, too, were far-famed: the one took Macedonia and brought the royal line of Antigonus to an end in its seventh king; the other abolished all the tyrannies in Sicily and set the island free.
+
+[1.3] One might, indeed, argue otherwise, and say that Perseus was strong and victorious over the Romans when Aemilius engaged him, while Dionysius, when Timoleon engaged him, was altogether crushed and desperate.
+
+[1.4] And, again, it might be said in favour of Timoleon that he conquered many tyrants and the force of the Carthaginians, large as it was, with what soldiers he could get, not having at his service, as Aemilius had, men who were experienced in war and taught to obey orders, but men who were hirelings and disorderly soldiers, accustomed to consult their own pleasure in their campaigns.
+
+[1.5] For when equal successes follow an unequal equipment, the greater credit accrues to the commander.
+
+### Capítulo 2
+
+[2.1] Further, in their administration of affairs both were just and incorruptible; but Aemilius, it would seem, was made so from the outset of his career by the laws and customs of his country, while Timoleon’s great probity was due to himself.
+
+[2.2] There is proof of this in the fact that the Romans in the time of Aemilius were, all alike, orderly in their lives, observant of usage, and wholesomely fearful of the laws and of their fellow citizens; whereas, of the Greek leaders and generals who took part in Sicilian affairs during the time of Timoleon, not one was free from corruption except Dion.
+
+[2.3] And Dion was suspected by many of being ambitious for a monarchy and dreaming of a kingdom like that in Sparta.
+
+[2.4] Furthermore, Timaeus says that even Gylippus was sent away in ignominy and dishonour by the Syracusans, because they found him guilty of avarice and greed while he was their general.See the Nicias, xxviii. 2 f.
+
+[2.5] And how Pharax the Spartan and Callippus the Athenian violated laws and treaties in their hopes of ruling Sicily, has been told by many writers.See the Timoleon, xi. 4.
+
+[2.6] And yet who were these men, or of how large resources were they masters, that they entertained such hopes? One of them was a servile follower of Dionysius after he had been driven out of Syracuse, and Callippus was one of Dion’s captains of mercenaries.
+
+[2.7] But Timoleon, at the earnest request of the Syracusans, was sent to be their general, and needed not to seek power from them, but only to hold that which they had given him of their own free will, and yet he laid down his office and command when he had overthrown their unlawful rulers.
+
+[2.8] It is, however, worthy of admiration in Aemilius that, although he had subdued so great a kingdom, he did not add one drachma to his substance, nor would he touch or even look upon the conquered treasure; and yet he made many liberal gifts to others.
+
+[2.9] Now, I do not say that Timoleon is to be blamed for accepting a fine house and country estate, for acceptance under such circumstances is not disgraceful; but not to accept is better, and that is a surpassing virtue which shows that it does not want what it might lawfully have.
+
+[2.10] Furthermore, a body that can endure only heat or cold is less powerful than one that is well adapted by nature to withstand both extremes alike. In like manner a spirit is absolutely vigorous and strong if it is neither spoiled and elated by the insolence which prosperity brings, nor humbled by adversity. The character of Aemilius, therefore, was manifestly more perfect, since in the grievous misfortune and great sorrow brought upon him by the death of his sons he was seen to have no less greatness and no less dignity than in the midst of his successes;
+
+[2.11] whereas Timoleon, although he had acted in a noble way with regard to his brother, could not reason down his sorrow, but was prostrated with grief and repentance, and for twenty years could not endure the sight of bema or market-place.
+
+[2.12] One should scrupulously shun disgraceful deeds; but the anxious fear of every kind of ill report among men argues a nature which is indeed kindly and sensitive, but has not greatness.
+
+---
+
+*Ὁ Διαφορεύς παρῆν*
