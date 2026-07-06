@@ -13,6 +13,7 @@ import {
   saveLocalText,
   type LocalFile,
 } from './lib/localFiles'
+import { loadLastBook } from './lib/bookState'
 import type { Catalog as CatalogData, CatalogEntry, PersonManifest } from './types'
 
 /** O app abre lendo: guia de boas-vindas como primeiro texto ativo. */
@@ -33,6 +34,20 @@ function parseHash(): { bookId: string; ref?: string } | null {
   return { bookId: decodeURIComponent(m[1]), ref: m[2] ? decodeURIComponent(m[2]) : undefined }
 }
 
+/**
+ * Compartilhamento nativo (share_target do manifest): o app aparece no
+ * menu "Compartilhar" do sistema. O SO abre esta URL com o texto nos
+ * parâmetros de busca — sem rede, sem servidor, só o próprio navegador.
+ */
+function parseShareTarget(): { title?: string; text?: string; url?: string } | null {
+  const params = new URLSearchParams(window.location.search)
+  const title = params.get('title') ?? undefined
+  const text = params.get('text') ?? undefined
+  const url = params.get('url') ?? undefined
+  if (!title && !text && !url) return null
+  return { title, text, url }
+}
+
 export function App() {
   const [catalog, setCatalog] = useState<CatalogData | null>(null)
   const [persons, setPersons] = useState<PersonManifest | null>(null)
@@ -51,9 +66,40 @@ export function App() {
   // Alvo do link permanente com que o app foi aberto (consumido 1x)
   const initialTarget = useRef(parseHash())
   const [initialRef, setInitialRef] = useState<string | undefined>(undefined)
+  // Texto recebido via "Compartilhar" do sistema (consumido 1x)
+  const initialShare = useRef(parseShareTarget())
+  // Link permanente ou compartilhamento têm prioridade sobre a memória
+  // do último livro — capturado uma única vez, antes de qualquer um dos
+  // dois efeitos abaixo consumir (zerar) sua própria referência.
+  const skipLastBookRestore = useRef(
+    initialTarget.current !== null || initialShare.current !== null,
+  ).current
+  const lastBookRestored = useRef(false)
 
   useEffect(() => {
     listLocalFiles().then(setLocalFiles).catch(() => {})
+  }, [])
+
+  // Compartilhado de outro app (ex.: chat de IA): salva como texto
+  // próprio e abre direto na leitura — nenhuma rede envolvida.
+  useEffect(() => {
+    const share = initialShare.current
+    if (!share) return
+    initialShare.current = null
+    const conteudo = [share.text, share.url].filter(Boolean).join('\n\n').trim()
+    if (!conteudo) return
+    const titulo = share.title?.trim() || `Compartilhado ${new Date().toLocaleString('pt-BR')}`
+    saveLocalText(titulo, conteudo)
+      .then((file) => {
+        setStack([
+          { id: file.id, titulo: file.titulo, autor: file.autor, arquivo: `Meus arquivos/${file.nome}`, local: true },
+        ])
+        return listLocalFiles()
+      })
+      .then(setLocalFiles)
+      .catch(() => {})
+    // Limpa os parâmetros da URL: um F5 não reimporta o mesmo texto
+    window.history.replaceState(null, '', window.location.pathname + window.location.hash)
   }, [])
 
   useEffect(() => {
@@ -148,6 +194,18 @@ export function App() {
     }
     initialTarget.current = null
   }, [libraryCatalog])
+
+  // Livro de cabeceira: sem link permanente nem compartilhamento, reabre
+  // exatamente a última obra lida — o guia de boas-vindas só aparece
+  // mesmo na primeiríssima visita.
+  useEffect(() => {
+    if (skipLastBookRestore || lastBookRestored.current || !libraryCatalog) return
+    lastBookRestored.current = true
+    const lastId = loadLastBook()
+    if (!lastId || lastId === WELCOME_ENTRY.id) return
+    const entry = libraryCatalog.livros.find((l) => l.id === lastId)
+    if (entry) setStack([entry])
+  }, [skipLastBookRestore, libraryCatalog])
 
   // A barra de endereço acompanha a obra aberta (link citável sempre à mão)
   useEffect(() => {

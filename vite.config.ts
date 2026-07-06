@@ -31,6 +31,18 @@ export default defineConfig({
           { src: 'icon-512.png', sizes: '512x512', type: 'image/png' },
           { src: 'icon-512.png', sizes: '512x512', type: 'image/png', purpose: 'maskable' },
         ],
+        // Aparece no menu nativo de compartilhar (iOS/Android/Windows):
+        // o SO abre o app com o texto já nos parâmetros da URL — sem
+        // service worker, sem POST, sem rede.
+        share_target: {
+          action: '.',
+          method: 'GET',
+          params: {
+            title: 'title',
+            text: 'text',
+            url: 'url',
+          },
+        },
       },
     }),
   ],

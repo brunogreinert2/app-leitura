@@ -3,6 +3,8 @@ import type { CatalogEntry, PersonEntry } from '../types'
 import { parseBook, parseTxt, type ParsedBook } from '../lib/markdown'
 import { getLocalFile } from '../lib/localFiles'
 import { resolvePerson, type PersonRegistry } from '../lib/persons'
+import { loadBookState, saveBookState, saveLastBook } from '../lib/bookState'
+import { useWakeLock } from '../lib/useWakeLock'
 import { FootnoteContext, type FootnoteActions } from './footnoteContext'
 import { Sidebar } from './Sidebar'
 import { FontControls, useFontSize, usePinchFontSize } from './FontControls'
@@ -97,6 +99,8 @@ export function Reader({
   const { px, setPx, decrease, increase } = useFontSize()
   const bodyRef = useRef<HTMLElement>(null)
   usePinchFontSize(bodyRef, px, setPx)
+  // Livro aberto na tela: tela não escurece nem bloqueia sozinha
+  useWakeLock()
   // Estado mais recente para callbacks estáveis (backToRef)
   const parsedRef = useRef<ParsedBook | null>(null)
 
@@ -120,6 +124,8 @@ export function Reader({
     setNote(null)
     setWikilink(null)
     setCollapsed(new Set())
+    // Memória de livro de cabeceira: este é agora o último livro aberto
+    saveLastBook(entry.id)
     // Arquivos importados vêm do IndexedDB; embarcados, da rede/cache
     const load: Promise<{ text: string; tipo: 'md' | 'txt' }> = entry.local
       ? getLocalFile(entry.id).then((f) => {
@@ -144,10 +150,18 @@ export function Reader({
           book = tipo === 'txt' ? parseTxt(text) : parseBook(text)
           parseCache.set(entry.id, book)
         }
-        // TODO heading inicia SEMPRE recolhido (sem exceções): conteúdo
-        // só aparece com toque explícito. Aplicado ANTES do primeiro
-        // render — de quebra, a Bíblia inteira abre leve.
-        setCollapsed(new Set(book.headings.map((h) => h.id)))
+        // Heading inicia recolhido por padrão (conteúdo só aparece com
+        // toque explícito — de quebra, a Bíblia inteira abre leve), MAS
+        // se o usuário já leu este livro antes, reabre exatamente as
+        // seções que ele deixou abertas.
+        const allIds = book.headings.map((h) => h.id)
+        const saved = loadBookState(entry.id)
+        if (saved) {
+          const expanded = new Set(saved.expanded)
+          setCollapsed(new Set(allIds.filter((id) => !expanded.has(id))))
+        } else {
+          setCollapsed(new Set(allIds))
+        }
         setParsed(book)
       })
       .catch((e: unknown) => {
@@ -233,6 +247,55 @@ export function Reader({
     }
     attempt()
   }, [parsed, initialRef, entry.id])
+
+  // Sem link permanente: volta exatamente à rolagem de onde parou
+  useEffect(() => {
+    if (!parsed || initialRef) return
+    const saved = loadBookState(entry.id)
+    if (!saved?.scroll) return
+    // Duplo rAF: espera o layout assentar (seções restauradas) antes de rolar
+    requestAnimationFrame(() => {
+      requestAnimationFrame(() => window.scrollTo({ top: saved.scroll }))
+    })
+  }, [parsed, initialRef, entry.id])
+
+  // Salva rolagem + seções abertas continuamente (livro de cabeceira)
+  const collapsedRef = useRef(collapsed)
+  collapsedRef.current = collapsed
+  useEffect(() => {
+    if (!parsed) return
+    const headingIds = parsed.headings.map((h) => h.id)
+    const persist = () => {
+      const expanded = headingIds.filter((id) => !collapsedRef.current.has(id))
+      saveBookState(entry.id, { scroll: window.scrollY, expanded })
+    }
+    let raf = 0
+    const onScroll = () => {
+      if (raf) return
+      raf = window.requestAnimationFrame(() => {
+        raf = 0
+        persist()
+      })
+    }
+    window.addEventListener('scroll', onScroll, { passive: true })
+    document.addEventListener('visibilitychange', persist)
+    window.addEventListener('pagehide', persist)
+    return () => {
+      window.removeEventListener('scroll', onScroll)
+      document.removeEventListener('visibilitychange', persist)
+      window.removeEventListener('pagehide', persist)
+      if (raf) window.cancelAnimationFrame(raf)
+      persist()
+    }
+  }, [parsed, entry.id])
+
+  // Recolher/expandir seção conta como progresso: salva na hora, sem esperar rolar
+  useEffect(() => {
+    if (!parsed) return
+    const headingIds = parsed.headings.map((h) => h.id)
+    const expanded = headingIds.filter((id) => !collapsed.has(id))
+    saveBookState(entry.id, { scroll: window.scrollY, expanded })
+  }, [collapsed, parsed, entry.id])
 
   const collapseState = useMemo(
     () => ({
