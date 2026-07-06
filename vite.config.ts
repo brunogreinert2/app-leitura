@@ -6,7 +6,11 @@ export default defineConfig({
   plugins: [
     react(),
     VitePWA({
-      registerType: 'autoUpdate',
+      // 'prompt' (não 'autoUpdate'): o app avisa quando há versão nova
+      // em vez de trocar o código por baixo do usuário em silêncio —
+      // sem isso, quem já tinha a aba aberta ficava preso em JS velho
+      // achando que um bug corrigido ainda existia.
+      registerType: 'prompt',
       workbox: {
         // Pré-cacheia o app e os livros embarcados (offline completo)
         globPatterns: ['**/*.{js,css,html,svg,png,md,json,woff2}'],

@@ -12,6 +12,10 @@ interface Props {
   onRemoveLocal: (entry: CatalogEntry) => void
   /** Abre o editor para digitar/colar um texto novo. */
   onNewText: () => void
+  /** Baixa tema, fontes, memória de leitura e textos próprios num .json. */
+  onExportData: () => void
+  /** Restaura um .json exportado anteriormente (deste ou de outro aparelho). */
+  onImportData: (file: File) => void
 }
 
 export function LibraryDrawer({
@@ -22,9 +26,12 @@ export function LibraryDrawer({
   onAddFiles,
   onRemoveLocal,
   onNewText,
+  onExportData,
+  onImportData,
 }: Props) {
   const [query, setQuery] = useState('')
   const fileInputRef = useRef<HTMLInputElement>(null)
+  const backupInputRef = useRef<HTMLInputElement>(null)
 
   return (
     <>
@@ -68,6 +75,25 @@ export function LibraryDrawer({
               const files = Array.from(e.target.files ?? [])
               e.target.value = ''
               if (files.length) onAddFiles(files)
+            }}
+          />
+        </div>
+        <div className="lib-import">
+          <button className="toc-action" onClick={onExportData}>
+            ⇩ Exportar meus dados
+          </button>
+          <button className="toc-action" onClick={() => backupInputRef.current?.click()}>
+            ⇧ Importar dados
+          </button>
+          <input
+            ref={backupInputRef}
+            type="file"
+            accept=".json,application/json"
+            hidden
+            onChange={(e) => {
+              const file = e.target.files?.[0]
+              e.target.value = ''
+              if (file) onImportData(file)
             }}
           />
         </div>

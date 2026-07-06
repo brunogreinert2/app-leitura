@@ -3,7 +3,7 @@ import { Catalog } from './components/Catalog'
 import { Reader, invalidateBookCache } from './components/Reader'
 import { TextEditor } from './components/TextEditor'
 import { LibraryDrawer } from './components/LibraryDrawer'
-import { ThemeDialog, useTheme } from './components/ThemeDialog'
+import { ThemeDialog, useTheme, useFontFamily } from './components/ThemeDialog'
 import { buildPersonRegistry } from './lib/persons'
 import {
   addLocalFiles,
@@ -14,6 +14,8 @@ import {
   type LocalFile,
 } from './lib/localFiles'
 import { loadLastBook } from './lib/bookState'
+import { useAppUpdate } from './lib/useAppUpdate'
+import { exportBackup, importBackup } from './lib/backup'
 import type { Catalog as CatalogData, CatalogEntry, PersonManifest } from './types'
 
 /** O app abre lendo: guia de boas-vindas como primeiro texto ativo. */
@@ -63,6 +65,8 @@ export function App() {
   // Muda a key do Reader após salvar edição (re-parseia o conteúdo)
   const [bookVersion, setBookVersion] = useState(0)
   const { theme, setTheme } = useTheme()
+  const { fontFamily, setFontFamily } = useFontFamily()
+  const { needRefresh, applyUpdate } = useAppUpdate()
   // Alvo do link permanente com que o app foi aberto (consumido 1x)
   const initialTarget = useRef(parseHash())
   const [initialRef, setInitialRef] = useState<string | undefined>(undefined)
@@ -181,6 +185,22 @@ export function App() {
     setStack((s) => s.filter((e) => e.id !== entry.id))
   }
 
+  const handleExportData = () => {
+    exportBackup().catch(() => window.alert('Não foi possível gerar o arquivo de backup.'))
+  }
+
+  const handleImportData = (file: File) => {
+    if (
+      !window.confirm(
+        'Importar substitui o tema, o tamanho de letra e a memória de leitura salvos neste aparelho pelos do arquivo. Seus textos próprios são somados (mesmo id substitui). Continuar?',
+      )
+    )
+      return
+    importBackup(file)
+      .then(() => window.location.reload())
+      .catch(() => window.alert('Não foi possível importar: arquivo inválido ou de outro app.'))
+  }
+
   const book = stack.length ? stack[stack.length - 1] : null
 
   // Aberto por link permanente: troca o guia pela obra citada
@@ -232,6 +252,14 @@ export function App() {
 
   return (
     <>
+      {needRefresh && (
+        <div className="update-banner" role="status">
+          <span>Nova versão do app disponível.</span>
+          <button className="update-banner-button" onClick={applyUpdate}>
+            Atualizar agora
+          </button>
+        </div>
+      )}
       <LibraryDrawer
         catalog={libraryCatalog}
         open={libraryOpen}
@@ -243,6 +271,8 @@ export function App() {
           setLibraryOpen(false)
           setEditor({ file: null })
         }}
+        onExportData={handleExportData}
+        onImportData={handleImportData}
       />
       <TextEditor
         open={editor !== null}
@@ -255,6 +285,8 @@ export function App() {
         open={themeOpen}
         theme={theme}
         onSelect={setTheme}
+        fontFamily={fontFamily}
+        onSelectFontFamily={setFontFamily}
         onClose={() => setThemeOpen(false)}
       />
       {book ? (

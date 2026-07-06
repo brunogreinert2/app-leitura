@@ -79,6 +79,11 @@ export async function removeLocalFile(id: string): Promise<void> {
   await (await db()).delete('arquivos', id)
 }
 
+/** Restaura um arquivo exatamente como veio de um backup (mesmo id: reimportar substitui). */
+export async function restoreLocalFile(file: LocalFile): Promise<void> {
+  await (await db()).put('arquivos', file)
+}
+
 /**
  * Texto digitado/colado pelo usuário no próprio app (a "área de
  * transferência" vira documento legível). Salvo como .md: o que vier

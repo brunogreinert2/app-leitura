@@ -523,7 +523,7 @@ export function Reader({
       <FootnoteContext.Provider value={footnoteActions}>
         <WikilinkContext.Provider value={wikilinkActions}>
         <CollapseContext.Provider value={collapseState}>
-        <article className="reader-body" ref={bodyRef}>
+        <main className="reader-body" aria-label={`Texto: ${entry.titulo}`} ref={bodyRef}>
           {error && <p className="reader-error">Não foi possível carregar o livro: {error}</p>}
           {!parsed && !error && <p className="reader-loading">Carregando…</p>}
           {parsed?.body}
@@ -603,7 +603,7 @@ export function Reader({
               </button>
             </aside>
           )}
-        </article>
+        </main>
         </CollapseContext.Provider>
         </WikilinkContext.Provider>
       </FootnoteContext.Provider>

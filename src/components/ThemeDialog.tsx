@@ -42,15 +42,57 @@ export function useTheme() {
   return { theme, setTheme }
 }
 
+/**
+ * Atkinson Hyperlegible (Braille Institute of America): desenhada para
+ * baixa visão, letras que não se confundem entre si ("l", "I", "1").
+ * Embutida localmente (@font-face em styles.css) — sem CDN.
+ */
+export const FONTS = [
+  { id: 'georgia', label: 'Serifada (padrão)', stack: "Georgia, 'Times New Roman', serif" },
+  {
+    id: 'atkinson',
+    label: 'Atkinson Hyperlegible',
+    stack: "'Atkinson Hyperlegible', Georgia, 'Times New Roman', serif",
+  },
+] as const
+
+export type FontFamilyId = (typeof FONTS)[number]['id']
+
+const FONT_STORAGE_KEY = 'app-font-family'
+
+export function useFontFamily() {
+  const [fontFamily, setFontFamily] = useState<FontFamilyId>(() => {
+    const saved = localStorage.getItem(FONT_STORAGE_KEY)
+    return FONTS.some((f) => f.id === saved) ? (saved as FontFamilyId) : 'georgia'
+  })
+
+  useEffect(() => {
+    localStorage.setItem(FONT_STORAGE_KEY, fontFamily)
+    const def = FONTS.find((f) => f.id === fontFamily) ?? FONTS[0]
+    document.documentElement.style.setProperty('--reading-font-family', def.stack)
+  }, [fontFamily])
+
+  return { fontFamily, setFontFamily }
+}
+
 interface Props {
   open: boolean
   theme: ThemeId
   onSelect: (id: ThemeId) => void
+  fontFamily: FontFamilyId
+  onSelectFontFamily: (id: FontFamilyId) => void
   onClose: () => void
 }
 
 /** O diálogo fica aberto ao escolher: o usuário compara os temas ao vivo. */
-export function ThemeDialog({ open, theme, onSelect, onClose }: Props) {
+export function ThemeDialog({
+  open,
+  theme,
+  onSelect,
+  fontFamily,
+  onSelectFontFamily,
+  onClose,
+}: Props) {
   if (!open) return null
   return (
     <>
@@ -73,6 +115,24 @@ export function ThemeDialog({ open, theme, onSelect, onClose }: Props) {
             {theme === t.id && <span className="theme-option-check"> ✓</span>}
           </button>
         ))}
+
+        <h2 className="theme-dialog-section-title">Fonte de leitura</h2>
+        <p>Atkinson Hyperlegible (Braille Institute of America) distingue melhor letras parecidas.</p>
+        {FONTS.map((f) => (
+          <button
+            key={f.id}
+            className="theme-option font-option"
+            onClick={() => onSelectFontFamily(f.id)}
+            aria-pressed={fontFamily === f.id}
+          >
+            <span className="theme-option-sample" style={{ fontFamily: f.stack }} aria-hidden="true">
+              Aa
+            </span>
+            {f.label}
+            {fontFamily === f.id && <span className="theme-option-check"> ✓</span>}
+          </button>
+        ))}
+
         <button className="copy-dialog-cancel" onClick={onClose}>
           Fechar
         </button>

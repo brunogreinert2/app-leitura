@@ -37,14 +37,16 @@ export function Catalog({ catalog, error, onSelect, onOpenLibrary, onOpenAppeara
         </button>
       </header>
 
-      {error && <p className="catalog-error">Não foi possível carregar o catálogo: {error}</p>}
-      {!catalog && !error && <p className="catalog-loading">Carregando catálogo…</p>}
+      <main aria-label="Biblioteca">
+        {error && <p className="catalog-error">Não foi possível carregar o catálogo: {error}</p>}
+        {!catalog && !error && <p className="catalog-loading">Carregando catálogo…</p>}
 
-      {catalog && (
-        <div className="catalog-tree">
-          <LibraryTree entries={catalog.livros} onSelect={onSelect} />
-        </div>
-      )}
+        {catalog && (
+          <div className="catalog-tree">
+            <LibraryTree entries={catalog.livros} onSelect={onSelect} />
+          </div>
+        )}
+      </main>
     </div>
   )
 }
