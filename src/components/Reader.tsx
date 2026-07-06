@@ -8,6 +8,7 @@ import { Sidebar } from './Sidebar'
 import { FontControls, useFontSize, usePinchFontSize } from './FontControls'
 import { TextSearch } from './TextSearch'
 import { DetailsDialog } from './DetailsDialog'
+import { TtsControl } from './TtsControl'
 import { CollapseContext } from './collapseContext'
 import { WikilinkContext, type WikilinkActions } from './wikilinkContext'
 import { buildCopyText } from '../lib/copyBook'
@@ -452,11 +453,7 @@ export function Reader({
       <FootnoteContext.Provider value={footnoteActions}>
         <WikilinkContext.Provider value={wikilinkActions}>
         <CollapseContext.Provider value={collapseState}>
-        <article
-          className="reader-body"
-          ref={bodyRef}
-          style={{ '--reading-font-size': `${px}px` } as React.CSSProperties}
-        >
+        <article className="reader-body" ref={bodyRef}>
           {error && <p className="reader-error">Não foi possível carregar o livro: {error}</p>}
           {!parsed && !error && <p className="reader-loading">Carregando…</p>}
           {parsed?.body}
@@ -572,6 +569,8 @@ export function Reader({
         entry={entry}
         parsed={parsed}
       />
+
+      <TtsControl bodyRef={bodyRef} />
 
       {toast && (
         <div className="toast" role="status">

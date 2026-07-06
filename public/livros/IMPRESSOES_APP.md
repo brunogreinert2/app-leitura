@@ -67,6 +67,10 @@ Toque na lupa 🔍 e digite:
 
 O botão **Ξ** (xi grega) abre o **sumário** do livro, com os capítulos e as ações do livro. O botão **Φ** (phi grega, a marca do app) abre a **biblioteca**, com a estrutura de pastas e uma pesquisa por título, autor ou pasta.
 
+## Ouvir o texto
+
+O botão 🔊 no canto de baixo abre o leitor de voz: **Ouvir** lê em voz alta o que está aberto na tela, a partir do ponto em que você parou, destacando o parágrafo falado. Dá para pausar, retomar, parar, escolher a voz (as do seu aparelho) e ajustar a velocidade. Tudo acontece no aparelho — funciona offline com as vozes instaladas.
+
 ## Seus próprios textos
 
 Na biblioteca (Φ) há dois botões:

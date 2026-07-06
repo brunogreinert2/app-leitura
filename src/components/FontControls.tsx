@@ -42,6 +42,8 @@ export function useFontSize() {
 
   useEffect(() => {
     localStorage.setItem(STORAGE_KEY, String(px))
+    // Global: sumário, biblioteca, diálogos e caixas acompanham o zoom
+    document.documentElement.style.setProperty('--reading-font-size', `${px}px`)
   }, [px])
 
   return {
