@@ -34,6 +34,12 @@ interface Props {
   entry: CatalogEntry
   /** Referência canônica vinda de um link permanente (#/livro/id/ref). */
   initialRef?: string
+  /**
+   * false para o guia de boas-vindas: ele é só a tela inicial transitória,
+   * nunca deve contar como "o último livro lido" (senão apaga a memória
+   * do livro de cabeceira real a cada abertura do app).
+   */
+  trackAsLastBook?: boolean
   /** Presente quando o texto é do usuário: habilita a ação Editar. */
   onEditLocal?: () => void
   personRegistry: PersonRegistry
@@ -75,6 +81,7 @@ function noteHtml(label: string): string {
 export function Reader({
   entry,
   initialRef,
+  trackAsLastBook = true,
   onEditLocal,
   personRegistry,
   onBack,
@@ -125,7 +132,7 @@ export function Reader({
     setWikilink(null)
     setCollapsed(new Set())
     // Memória de livro de cabeceira: este é agora o último livro aberto
-    saveLastBook(entry.id)
+    if (trackAsLastBook) saveLastBook(entry.id)
     // Arquivos importados vêm do IndexedDB; embarcados, da rede/cache
     const load: Promise<{ text: string; tipo: 'md' | 'txt' }> = entry.local
       ? getLocalFile(entry.id).then((f) => {
@@ -170,7 +177,7 @@ export function Reader({
     return () => {
       cancelled = true
     }
-  }, [entry])
+  }, [entry, trackAsLastBook])
 
   const wikilinkActions = useMemo<WikilinkActions>(
     () => ({

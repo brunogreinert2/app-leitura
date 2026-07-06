@@ -207,9 +207,13 @@ export function App() {
     if (entry) setStack([entry])
   }, [skipLastBookRestore, libraryCatalog])
 
-  // A barra de endereço acompanha a obra aberta (link citável sempre à mão)
+  // A barra de endereço acompanha a obra aberta (link citável sempre à mão).
+  // O guia de boas-vindas nunca vira link permanente: senão, ao reabrir o
+  // app com esse hash residual (comum no modo standalone do iOS, que
+  // reaproveita a última URL), o app pensaria que é um link explícito e
+  // deixaria de restaurar o último livro de verdade.
   useEffect(() => {
-    const hash = book ? `#/livro/${encodeURIComponent(book.id)}` : '#/biblioteca'
+    const hash = book && book.id !== WELCOME_ENTRY.id ? `#/livro/${encodeURIComponent(book.id)}` : '#/biblioteca'
     window.history.replaceState(null, '', hash)
   }, [book])
 
@@ -258,6 +262,7 @@ export function App() {
           key={`${book.id}:${stack.length}:${bookVersion}`}
           entry={book}
           initialRef={book.id === stack[0]?.id && stack.length === 1 ? initialRef : undefined}
+          trackAsLastBook={book.id !== WELCOME_ENTRY.id}
           onEditLocal={book.local ? handleEditLocal : undefined}
           personRegistry={personRegistry}
           onBack={popBook}
