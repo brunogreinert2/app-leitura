@@ -66,7 +66,7 @@ export function App() {
   const [bookVersion, setBookVersion] = useState(0)
   const { theme, setTheme } = useTheme()
   const { fontFamily, setFontFamily } = useFontFamily()
-  const { needRefresh, applyUpdate } = useAppUpdate()
+  const { needRefresh, applyUpdate, checkResult, checkNow } = useAppUpdate()
   // Alvo do link permanente com que o app foi aberto (consumido 1x)
   const initialTarget = useRef(parseHash())
   const [initialRef, setInitialRef] = useState<string | undefined>(undefined)
@@ -260,6 +260,13 @@ export function App() {
           </button>
         </div>
       )}
+      {checkResult !== 'idle' && (
+        <div className="toast" role="status">
+          {checkResult === 'checking'
+            ? 'Procurando atualização…'
+            : 'Você já está na versão mais recente'}
+        </div>
+      )}
       <LibraryDrawer
         catalog={libraryCatalog}
         open={libraryOpen}
@@ -273,6 +280,7 @@ export function App() {
         }}
         onExportData={handleExportData}
         onImportData={handleImportData}
+        onCheckUpdate={checkNow}
       />
       <TextEditor
         open={editor !== null}

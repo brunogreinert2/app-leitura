@@ -10,7 +10,12 @@ import { registerSW } from 'virtual:pwa-register'
  */
 export function useAppUpdate() {
   const [needRefresh, setNeedRefresh] = useState(false)
+  const [checkResult, setCheckResult] = useState<'idle' | 'checking' | 'up-to-date'>('idle')
   const updateRef = useRef<((reloadPage?: boolean) => Promise<void>) | null>(null)
+  // Lido dentro de um setTimeout: precisa do valor mais recente, não o
+  // capturado no momento em que checkNow foi chamado
+  const needRefreshRef = useRef(false)
+  needRefreshRef.current = needRefresh
 
   useEffect(() => {
     updateRef.current = registerSW({
@@ -21,10 +26,32 @@ export function useAppUpdate() {
     })
   }, [])
 
+  /** Botão manual: sem isso, só dá pra saber que existe versão nova esperando a próxima. */
+  const checkNow = () => {
+    if (!('serviceWorker' in navigator)) return
+    setCheckResult('checking')
+    navigator.serviceWorker
+      .getRegistration()
+      .then((reg) => reg?.update())
+      .catch(() => {})
+      .then(() => {
+        window.setTimeout(() => {
+          if (needRefreshRef.current) {
+            setCheckResult('idle') // o banner de "nova versão" já assume o aviso
+            return
+          }
+          setCheckResult('up-to-date')
+          window.setTimeout(() => setCheckResult('idle'), 2500)
+        }, 1200)
+      })
+  }
+
   return {
     needRefresh,
     applyUpdate: () => {
       void updateRef.current?.(true)
     },
+    checkResult,
+    checkNow,
   }
 }

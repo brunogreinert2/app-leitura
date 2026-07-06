@@ -16,6 +16,8 @@ interface Props {
   onExportData: () => void
   /** Restaura um .json exportado anteriormente (deste ou de outro aparelho). */
   onImportData: (file: File) => void
+  /** Força checar se há versão nova do app agora, sem esperar a checagem automática. */
+  onCheckUpdate: () => void
 }
 
 export function LibraryDrawer({
@@ -28,6 +30,7 @@ export function LibraryDrawer({
   onNewText,
   onExportData,
   onImportData,
+  onCheckUpdate,
 }: Props) {
   const [query, setQuery] = useState('')
   const fileInputRef = useRef<HTMLInputElement>(null)
@@ -96,6 +99,11 @@ export function LibraryDrawer({
               if (file) onImportData(file)
             }}
           />
+        </div>
+        <div className="lib-import">
+          <button className="toc-action" onClick={onCheckUpdate}>
+            ⟳ Verificar atualização
+          </button>
         </div>
         {!catalog && <p className="lib-empty">Carregando catálogo…</p>}
         {catalog && (
