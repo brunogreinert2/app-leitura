@@ -5210,6 +5210,60 @@
       "titulo": "Dicionário Filosófico",
       "autor": "Voltaire",
       "arquivo": "FILOSOFIA/Iluminismo/Voltaire/Dicionario_Filosofico/voltaire-dicionario-filosofico-jahr.md"
+    },
+    {
+      "id": "voltaire-breves-contos-1-jahr",
+      "titulo": "Breves Contos",
+      "autor": "Voltaire",
+      "arquivo": "FILOSOFIA/Iluminismo/Voltaire/Breves_Contos/voltaire-breves-contos-1-jahr.md"
+    },
+    {
+      "id": "voltaire-breves-contos-2-jahr",
+      "titulo": "Breves Contos",
+      "autor": "Voltaire",
+      "arquivo": "FILOSOFIA/Iluminismo/Voltaire/Breves_Contos/voltaire-breves-contos-2-jahr.md"
+    },
+    {
+      "id": "voltaire-breves-contos-3-jahr",
+      "titulo": "Breves Contos",
+      "autor": "Voltaire",
+      "arquivo": "FILOSOFIA/Iluminismo/Voltaire/Breves_Contos/voltaire-breves-contos-3-jahr.md"
+    },
+    {
+      "id": "voltaire-candido-jahr",
+      "titulo": "Cândido",
+      "autor": "Voltaire",
+      "arquivo": "FILOSOFIA/Iluminismo/Voltaire/Candido/voltaire-candido-jahr.md"
+    },
+    {
+      "id": "voltaire-ouvidos-conde-chesterfield-jahr",
+      "titulo": "Os Ouvidos do Conde de Chesterfield e o Capelão Goudman",
+      "autor": "Voltaire",
+      "arquivo": "FILOSOFIA/Iluminismo/Voltaire/Chesterfield/voltaire-ouvidos-conde-chesterfield-jahr.md"
+    },
+    {
+      "id": "voltaire-historia-de-jenni-jahr",
+      "titulo": "História de Jenni",
+      "autor": "Voltaire",
+      "arquivo": "FILOSOFIA/Iluminismo/Voltaire/Historia_de_Jenni/voltaire-historia-de-jenni-jahr.md"
+    },
+    {
+      "id": "voltaire-micromegas-jahr",
+      "titulo": "Micrômegas",
+      "autor": "Voltaire",
+      "arquivo": "FILOSOFIA/Iluminismo/Voltaire/Micromegas/voltaire-micromegas-jahr.md"
+    },
+    {
+      "id": "voltaire-o-ingenuo-jahr",
+      "titulo": "O Ingênuo",
+      "autor": "Voltaire",
+      "arquivo": "FILOSOFIA/Iluminismo/Voltaire/O_Ingenuo/voltaire-o-ingenuo-jahr.md"
+    },
+    {
+      "id": "voltaire-zadig-jahr",
+      "titulo": "Zadig",
+      "autor": "Voltaire",
+      "arquivo": "FILOSOFIA/Iluminismo/Voltaire/Zadig/voltaire-zadig-jahr.md"
     }
   ]
 }
