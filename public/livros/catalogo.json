@@ -5264,6 +5264,24 @@
       "titulo": "Zadig",
       "autor": "Voltaire",
       "arquivo": "FILOSOFIA/Iluminismo/Voltaire/Zadig/voltaire-zadig-jahr.md"
+    },
+    {
+      "id": "platao-sofista-interlinear-pt-grc",
+      "titulo": "O Sofista (Interlinear Português–Grego)",
+      "autor": "Platão",
+      "arquivo": "FILOSOFIA/Platonismo/Platao/Sophist/platao-sofista_interlinear_pt-grc_Diaphoreus.md"
+    },
+    {
+      "id": "platao-o-sofista-odialetico",
+      "titulo": "O Sofista",
+      "autor": "Platão",
+      "arquivo": "FILOSOFIA/Platonismo/Platao/Sophist/Sofista_por_odialetico.md"
+    },
+    {
+      "id": "hobbes-leviathan-latin-1668",
+      "titulo": "Leviathan",
+      "autor": "Thomas Hobbes",
+      "arquivo": "LATIM/Moderna/Hobbes/Leviathan/Hobbes_Leviathan_latin_1668.md"
     }
   ]
 }

@@ -3,3 +3,7 @@ dist/
 dev-dist/
 *.local
 tsconfig.tsbuildinfo
+
+# arquivos pessoais do Bruno, nunca sobem pro GitHub
+publicar.ps1
+PESSOAL_atalhos.md

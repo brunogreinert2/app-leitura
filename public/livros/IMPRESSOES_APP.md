@@ -89,3 +89,5 @@ No sumário, "Copiar livro" copia o texto **limpo** — sem marcação do app, e
 Este leitor faz parte do projeto **Pedra Angular**: um corpus de textos clássicos — filosofia antiga e moderna, Escrituras — preservado em texto puro, feito para durar e para ser lido por qualquer pessoa, em qualquer aparelho, com qualquer visão.
 
 Os livros embarcados são de domínio público ou de tradução própria do projeto. O app não coleta nada, não pede conta, não mostra anúncio: é só você e o texto.
+
+> Ὁ Διαφορεύς παρῆν.
