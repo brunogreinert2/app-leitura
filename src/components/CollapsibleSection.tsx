@@ -1,5 +1,6 @@
 import { Children, useContext, useRef, type ReactNode } from 'react'
 import { CollapseContext } from './collapseContext'
+import { HeadingMenu } from './HeadingMenu'
 
 /**
  * Seção (##/###) recolhível no corpo do texto: tap no título alterna.
@@ -28,23 +29,36 @@ export function CollapsibleSection(props: Record<string, unknown>) {
 
   return (
     <section className={classes} ref={sectionRef}>
-      <div
-        className="section-heading"
-        role="button"
-        tabIndex={0}
-        aria-expanded={!isCollapsed}
-        onClick={() => toggle(id)}
-        onKeyDown={(e) => {
-          if (e.key === 'Enter' || e.key === ' ') {
-            e.preventDefault()
-            toggle(id)
-          }
-        }}
-      >
-        <span className="section-arrow" aria-hidden="true">
-          {isCollapsed ? '▸' : '▾'}
-        </span>
-        {heading}
+      <div className="section-heading-row">
+        <div
+          className="section-heading"
+          role="button"
+          tabIndex={0}
+          aria-expanded={!isCollapsed}
+          // Única fonte de recuo/escala por profundidade (sem teto de 6
+          // níveis): o contêiner de filhos abaixo não soma padding-left
+          // próprio nenhum, senão dobra o efeito a cada nível real do DOM.
+          style={{ '--nivel': depth } as React.CSSProperties}
+          onClick={() => toggle(id)}
+          onKeyDown={(e) => {
+            if (e.key === 'Enter' || e.key === ' ') {
+              e.preventDefault()
+              toggle(id)
+            }
+          }}
+        >
+          <span className="section-arrow" aria-hidden="true">
+            {isCollapsed ? '▸' : '▾'}
+          </span>
+          {heading}
+        </div>
+        {/* Irmão do toggle acima, nunca aninhado nele — ⋯ some/aparece
+            por renderização condicional do React, não por CSS display
+            competindo com outra lógica de visibilidade. */}
+        <HeadingMenu
+          id={id}
+          getTitle={() => sectionRef.current?.querySelector('.reading-heading')?.textContent ?? ''}
+        />
       </div>
       {!isCollapsed && content}
       {!isCollapsed && (

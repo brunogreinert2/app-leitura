@@ -12,6 +12,7 @@ import { remarkMarkers } from './remarkMarkers'
 import { remarkWikilinks } from './remarkWikilinks'
 import { remarkBlockAnchors } from './remarkBlockAnchors'
 import { remarkHebrew } from './remarkHebrew'
+import { liftDeepHeadingMarkers, remarkDeepHeadingDepth } from './remarkDeepHeadings'
 import { FootnoteRef } from '../components/FootnoteRef'
 import { BackrefLink } from '../components/BackrefLink'
 import { CollapsibleSection } from '../components/CollapsibleSection'
@@ -45,6 +46,7 @@ export interface HeadingInfo {
 const processor = unified()
   .use(remarkParse)
   .use(remarkGfm)
+  .use(remarkDeepHeadingDepth)
   .use(remarkBlockAnchors)
   .use(remarkWikilinks)
   .use(remarkMarkers)
@@ -85,12 +87,32 @@ function collectHeadings(tree: HastRoot): HeadingInfo[] {
   const headings: HeadingInfo[] = []
   const seen = new Map<string, number>()
   for (const node of tree.children) {
-    if (node.type !== 'element' || !/^h[1-6]$/.test(node.tagName)) continue
+    // Sem teto de 6: CommonMark só permite até "######" na ATIX, mas
+    // remarkDeepHeadingDepth já reescreveu node.depth pra profundidade
+    // real antes daqui — "h7", "h12", "h48" chegam intactos.
+    if (node.type !== 'element' || !/^h[1-9]\d*$/.test(node.tagName)) continue
     if (node.properties?.id === 'footnote-label') continue
     const text = hastText(node)
     const id = slugify(text, seen)
-    node.properties = { ...node.properties, id }
-    headings.push({ depth: Number(node.tagName[1]), text, id, line: node.position?.start.line })
+    // .slice(1), não [1]: tagName[1] só pega 1 caractere e trunca
+    // profundidades de 2 dígitos ("h10" virava depth 1).
+    const depth = Number(node.tagName.slice(1))
+    const properties: Record<string, unknown> = {
+      ...node.properties,
+      id,
+      className: [...((node.properties?.className as string[]) ?? []), 'reading-heading'],
+    }
+    // HTML só tem h1-h6 de verdade; h7+ não existe e leitor de tela não
+    // reconhece como heading nenhum (CSS não depende do nome da tag,
+    // mas a árvore de acessibilidade depende). aria-level é o mecanismo
+    // ARIA pra sobrescrever o nível implícito — nestSections lê dali
+    // (não do tagName) pra manter a profundidade real no aninhamento.
+    if (depth > 6) {
+      node.tagName = 'h6'
+      properties.ariaLevel = depth
+    }
+    node.properties = properties as typeof node.properties
+    headings.push({ depth, text, id, line: node.position?.start.line })
   }
   return headings
 }
@@ -117,14 +139,19 @@ function nestSections(tree: HastRoot) {
     }
     const isHeading =
       node.type === 'element' &&
-      /^h[1-6]$/.test(node.tagName) &&
+      /^h[1-9]\d*$/.test(node.tagName) &&
       typeof node.properties?.id === 'string' &&
       node.properties.id !== 'footnote-label'
     if (!isHeading) {
       push(node)
       continue
     }
-    const depth = Number((node as HastElement).tagName[1])
+    // collectHeadings já rodou e pode ter capado a tag em h6 (com
+    // aria-level guardando a profundidade real) — prioriza aria-level
+    // pra não perder o nível de verdade no aninhamento.
+    const el = node as HastElement
+    const ariaLevel = el.properties?.ariaLevel
+    const depth = typeof ariaLevel === 'number' ? ariaLevel : Number(el.tagName.slice(1))
     while (stack.length && stack[stack.length - 1].depth >= depth) stack.pop()
     const contentDiv: HastElement = {
       type: 'element',
@@ -192,7 +219,7 @@ function collectNames(tree: HastRoot): NameEntry[] {
 
 export function parseBook(raw: string): ParsedBook {
   const { meta, content } = splitFrontmatter(raw)
-  const mdast = processor.parse(content)
+  const mdast = processor.parse(liftDeepHeadingMarkers(content))
   const hast = processor.runSync(mdast) as HastRoot
   const headings = collectHeadings(hast)
   const names = collectNames(hast)

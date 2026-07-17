@@ -54,7 +54,10 @@ function chunks(text: string): string[] {
 
 /** Blocos legíveis visíveis, do ponto atual da tela até o fim do aberto. */
 function collectItems(root: HTMLElement): SpeechItem[] {
-  const blocks = [...root.querySelectorAll<HTMLElement>('p, h1, h2, h3, h4, h5, h6, li')].filter(
+  // .reading-heading (não h1..h6 fixo): headings além do 6º nível não
+  // têm nome de tag previsível (CommonMark trava ATX em 6 "#", a
+  // profundidade real vem por outro caminho — ver remarkDeepHeadings).
+  const blocks = [...root.querySelectorAll<HTMLElement>('p, .reading-heading, li')].filter(
     (el) =>
       !el.closest('.footnote-box') &&
       !(el.tagName === 'LI' && el.querySelector('p')) &&

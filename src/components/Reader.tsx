@@ -13,7 +13,9 @@ import { DetailsDialog } from './DetailsDialog'
 import { TtsControl } from './TtsControl'
 import { CollapseContext } from './collapseContext'
 import { WikilinkContext, type WikilinkActions } from './wikilinkContext'
-import { buildCopyText } from '../lib/copyBook'
+import { HeadingActionsContext, type HeadingActions } from './headingActionsContext'
+import { buildCopyText, buildSectionCopyText } from '../lib/copyBook'
+import { printMarkdownText } from '../lib/printSection'
 import { getBookIndex, chainForLine, resolveReference } from '../lib/searchIndex'
 
 /** Destaque temporário no bloco alvo de um salto. */
@@ -323,6 +325,27 @@ export function Reader({
     window.setTimeout(() => setToast(null), 2000)
   }
 
+  // Menu "⋯" de cada heading (não só o "Copiar livro" global do
+  // sumário): mesma distinção tudo/só-visível, escopada a UM título.
+  const headingActions = useMemo<HeadingActions>(
+    () => ({
+      copySection: (id, onlyVisible) => {
+        if (!parsed) return
+        const text = buildSectionCopyText(parsed.source, parsed.headings, collapsed, onlyVisible, id)
+        navigator.clipboard
+          .writeText(text)
+          .then(() => showToast('Copiado!'))
+          .catch(() => showToast('Não foi possível copiar'))
+      },
+      printSection: (id, onlyVisible, title) => {
+        if (!parsed) return
+        const text = buildSectionCopyText(parsed.source, parsed.headings, collapsed, onlyVisible, id)
+        printMarkdownText(title || entry.titulo, text)
+      },
+    }),
+    [parsed, collapsed, entry.titulo],
+  )
+
   const doCopy = (onlyVisible: boolean) => {
     if (!parsed) return
     const text = buildCopyText(parsed.source, parsed.headings, collapsed, onlyVisible)
@@ -523,6 +546,7 @@ export function Reader({
       <FootnoteContext.Provider value={footnoteActions}>
         <WikilinkContext.Provider value={wikilinkActions}>
         <CollapseContext.Provider value={collapseState}>
+        <HeadingActionsContext.Provider value={headingActions}>
         <main className="reader-body" aria-label={`Texto: ${entry.titulo}`} ref={bodyRef}>
           {error && <p className="reader-error">Não foi possível carregar o livro: {error}</p>}
           {!parsed && !error && <p className="reader-loading">Carregando…</p>}
@@ -604,6 +628,7 @@ export function Reader({
             </aside>
           )}
         </main>
+        </HeadingActionsContext.Provider>
         </CollapseContext.Provider>
         </WikilinkContext.Provider>
       </FootnoteContext.Provider>

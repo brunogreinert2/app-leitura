@@ -6,7 +6,9 @@ import type { Root, Text } from 'mdast'
  * saem do texto visível e viram id do bloco — endereços canônicos
  * de versículo, navegáveis e alvo futuro da busca canônica.
  */
-const ANCHOR_RE = /\s*\^([A-Za-z0-9][A-Za-z0-9-]*)\s*$/
+/** Exportado: copyBook.ts reaproveita para não vazar a âncora ao copiar
+ * (o copiar lê o markdown fonte bruto, não a árvore já processada). */
+export const ANCHOR_RE = /\s*\^([A-Za-z0-9][A-Za-z0-9-]*)\s*$/
 
 export function remarkBlockAnchors() {
   return (tree: Root) => {

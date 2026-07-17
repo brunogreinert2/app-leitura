@@ -970,21 +970,48 @@ button {
 
 /* ===== Colapso de seção no corpo do texto ===== */
 
+/* Toggle (título) e menu "⋯" são IRMÃOS aqui — nunca um <button>
+   aninhado dentro do outro elemento interativo (quebra foco/
+   acessibilidade de forma imprevisível). */
+.section-heading-row {
+  display: flex;
+  align-items: flex-start;
+  gap: 0.25rem;
+}
+
 .section-heading {
+  --nivel: 1;
   display: flex;
   align-items: baseline;
   gap: 0.5rem;
+  flex: 1;
+  min-width: 0;
   cursor: pointer;
   -webkit-tap-highlight-color: transparent;
+  /* Única fonte de recuo por profundidade, com teto: nível 9 e nível
+     900 recuam igual (~3.2rem). O contêiner de filhos (.section-content,
+     abaixo) NÃO soma nada — sem isso, cada nível real de aninhamento do
+     DOM dobra o recuo (bug de dupla contagem). */
+  padding-left: calc(0.6rem + min(var(--nivel) - 1, 8) * 0.32rem);
 }
 
-.section-heading h1,
-.section-heading h2,
-.section-heading h3,
-.section-heading h4,
-.section-heading h5,
-.section-heading h6 {
+/* Heading de qualquer profundidade (h1..h6 e além — CommonMark trava
+   ATX em 6 "#", mas remarkDeepHeadingDepth já corrige node.depth pra
+   profundidade real; h7+ não tem estilo padrão do navegador, então
+   "display: block" aqui não é opcional). Sempre o último filho de
+   .section-heading (o primeiro é a seta ▸/▾) — funciona pra qualquer
+   nome de tag, sem enumerar h1..h6. */
+.section-heading > *:last-child {
   flex: 1;
+  display: block;
+  font-size: calc(1.28rem - min(var(--nivel) - 1, 10) * 0.045rem);
+  opacity: calc(1 - min(var(--nivel) - 1, 14) * 0.035);
+  /* h1-h6 chegam com margin-top/bottom herdado de quando eram bloco
+     solto no fluxo (ex.: h2 tinha 2em de margin-top). Dentro da linha
+     flexível do toggle isso empurra o texto pra baixo e infla a área
+     inteira — o espaçamento entre seções vem de .text-section abaixo,
+     não do heading. */
+  margin: 0;
 }
 
 /* Seta de expansão estilo figurinha: chip com borda de destaque,
@@ -1006,13 +1033,70 @@ button {
   background: var(--color-accent);
 }
 
-/* Efeito escada: seções aninham no DOM, cada nível desce um degrau */
-.text-section .text-section {
-  margin-left: 1rem;
-}
-
 .text-section {
   scroll-margin-top: 4rem;
+}
+
+/* Espaço entre seções irmãs (capítulos, subseções): vive aqui agora,
+   não mais no margin-top do heading — ver .section-heading > *:last-child. */
+.text-section + .text-section {
+  margin-top: 1.75rem;
+}
+
+/* Menu "⋯" de cada heading: copiar/imprimir, tudo ou só o visível. O
+   painel abre por renderização condicional do React (não display:flex
+   incondicional brigando com estado) — não tem como ele "ficar aberto
+   sozinho" por CSS. */
+.heading-menu {
+  position: relative;
+  flex-shrink: 0;
+}
+
+.heading-menu-button {
+  padding: 0.4rem 0.6rem;
+  min-width: 2.75rem;
+  min-height: 2.75rem;
+  font-size: 1.2em;
+  color: var(--color-muted);
+  border-radius: 0.4em;
+}
+
+.heading-menu-list {
+  position: absolute;
+  right: 0;
+  top: 100%;
+  z-index: 40;
+  min-width: 12rem;
+  margin: 0.25rem 0 0;
+  padding: 0.4rem;
+  list-style: none;
+  background: var(--color-surface);
+  border: 1px solid var(--color-border);
+  border-radius: 0.5rem;
+  box-shadow: 0 4px 16px var(--shadow-color);
+}
+
+.heading-menu-list button {
+  display: block;
+  width: 100%;
+  min-height: 2.75rem;
+  padding: 0.6rem 0.75rem;
+  text-align: left;
+  border-radius: 0.375rem;
+  font-size: 0.9em;
+}
+
+.heading-menu-list button:hover,
+.heading-menu-list button:focus-visible {
+  background: var(--color-bg);
+}
+
+/* O contêiner de filhos nunca soma recuo próprio — só .section-heading
+   (acima) marca profundidade, numa fórmula única com teto. Explícito
+   mesmo parecendo redundante: é o que evita a dupla contagem quando um
+   nível aninha estruturalmente dentro do anterior no DOM. */
+.section-content {
+  padding-left: 0;
 }
 
 /* Ficha de detalhes do arquivo (YAML + tamanho) */

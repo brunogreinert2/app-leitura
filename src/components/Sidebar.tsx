@@ -71,7 +71,7 @@ export function Sidebar({
     <li key={heading.id}>
       <div className="toc-row">
         <button
-          className={`toc-item toc-depth-${heading.depth}`}
+          className={`toc-item toc-depth-${Math.min(heading.depth, 6)}`}
           onClick={() => onNavigate(heading.id)}
         >
           {heading.text}
@@ -94,7 +94,7 @@ export function Sidebar({
           {children.map((child) => (
             <li key={child.id}>
               <button
-                className={`toc-item toc-depth-${child.depth}`}
+                className={`toc-item toc-depth-${Math.min(child.depth, 6)}`}
                 onClick={() => onNavigate(child.id)}
               >
                 {child.text}
