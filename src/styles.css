@@ -832,6 +832,14 @@ button {
   /* Em fontes muito grandes (baixa visão), palavra nunca estoura a tela */
   overflow-wrap: break-word;
   hyphens: auto;
+  /* CommonMark estrito funde linha solta (Enter sem linha em branco)
+     num espaço só — mas o \n do fonte já chega intacto até aqui (só o
+     navegador que colapsa por padrão). Faz a tela respeitar o Enter
+     como o Obsidian faz, sem mexer no parser nem no "copiar limpo"
+     (que lê o markdown fonte, não a tela) — herda pra <p>/<li>/
+     blockquote, exceto onde o próprio elemento já define o seu (ex.
+     bloco de código, que continua "pre"). */
+  white-space: pre-line;
 }
 
 .reader-loading,
@@ -939,6 +947,7 @@ button {
   overflow-y: auto;
   font-size: 0.9em;
   line-height: 1.55;
+  white-space: pre-line; /* mesma regra do corpo do texto — ver .reader-body */
 }
 
 .wikilink-box-content h1 {
@@ -1426,6 +1435,7 @@ button {
 
 .footnote-box-content {
   font-size: 0.95em;
+  white-space: pre-line; /* mesma regra do corpo do texto — ver .reader-body */
 }
 
 .footnote-box-content p {
