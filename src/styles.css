@@ -1004,7 +1004,9 @@ button {
 .section-heading > *:last-child {
   flex: 1;
   display: block;
-  font-size: calc(1.28rem - min(var(--nivel) - 1, 10) * 0.045rem);
+  /* Proporcional a --reading-font-size (não rem fixo): senão o título
+     fica surdo ao A+/A- e ao pinça de zoom — só o corpo do texto cresce. */
+  font-size: calc(var(--reading-font-size) * (1.28 - min(var(--nivel) - 1, 10) * 0.045));
   opacity: calc(1 - min(var(--nivel) - 1, 14) * 0.035);
   /* h1-h6 chegam com margin-top/bottom herdado de quando eram bloco
      solto no fluxo (ex.: h2 tinha 2em de margin-top). Dentro da linha
