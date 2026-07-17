@@ -8,6 +8,7 @@ import { remarkInterlinear } from './remarkInterlinear'
 import { remarkBlockAnchors } from './remarkBlockAnchors'
 import { remarkWikilinks } from './remarkWikilinks'
 import { remarkMarkers } from './remarkMarkers'
+import { remarkHighlight } from './remarkHighlight'
 import { remarkHebrew } from './remarkHebrew'
 
 /**
@@ -25,6 +26,7 @@ const printProcessor = unified()
   .use(remarkBlockAnchors)
   .use(remarkWikilinks)
   .use(remarkMarkers)
+  .use(remarkHighlight)
   .use(remarkHebrew)
   .use(remarkRehype, {
     footnoteLabel: 'Notas',

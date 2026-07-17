@@ -37,6 +37,15 @@ de cada vez, e registrada aqui:
   arquivo vira seu próprio parágrafo — aditivo, não substitui nada: fora
   do bloco, o resto do arquivo continua CommonMark estrito.
 
+Além disso, o app já usa GFM (`remark-gfm`) por cima do CommonMark
+puro — tabela (`| a | b |`), checklist (`- [ ] tarefa`), tachado
+(`~~texto~~`) e nota de rodapé (`[^n]`) já funcionam, sem precisar
+derrubar nada (GFM já resolve). O único recurso popular que faltava e
+não é nem CommonMark nem GFM — realce de texto (`==marca-texto==`,
+convenção do Obsidian/MultiMarkdown) — foi adicionado via plugin
+próprio (`remarkHighlight.ts`), critério igual ao de cima: não
+atrapalha leitura crua (nem no Notepad) e resolve um caso real.
+
 ## Decisões de plataforma
 
 - **PWA** (web app instalável): sem loja, funciona em qualquer aparelho, instala pelo navegador.
@@ -66,6 +75,7 @@ O corpus existe em duas camadas com papéis distintos:
 - Edições bilíngues: blocos original/tradução como estão no arquivo, sem rótulos extras.
 - Profundidade de heading sem teto de 6 (ver "CommonMark é base, não teto" acima).
 - Bloco interlinear opt-in (```` ```interlinear ````): cada linha vira parágrafo próprio, sem fundir (ver "CommonMark é base, não teto" acima).
+- GFM (tabela, checklist, tachado, nota de rodapé) + realce de texto (`==marca-texto==`) — ver seção acima.
 
 ### F2 — Wikilinks (quando presentes)
 - Tap → preview inline flutuante sobre o texto, fecha no X, sem trocar de página.
