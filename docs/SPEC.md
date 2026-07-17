@@ -12,6 +12,31 @@ EPUB foi considerado e descartado porque não resolve quatro requisitos centrais
 3. **Colapso de seção no corpo do texto + copiar respeitando (ou não) o recolhimento** — não existe no formato; o sumário EPUB recolhe na navegação, não no corpo. "Recolher tudo e copiar o livro inteiro numa passada" é requisito.
 4. **YAML** — não existe no formato; viraria Dublin Core (mais pobre) ou seria descartado.
 
+## Princípio de formato: CommonMark é base, não teto
+
+O corpus usa CommonMark como fundação — não como limite. Onde a
+especificação já resolve bem, ela é preservada: notas de rodapé sempre
+em `[^n]`, nunca asterisco, letra, ou reinício por capítulo — um padrão
+universal em vez de convenção idiossincrática de cada autor/digitador.
+Onde uma convenção herdada atrapalha o texto real, ela é derrubada, uma
+de cada vez, e registrada aqui:
+
+- **Teto de 6 níveis de heading** (`#` até `######`) — herdado do HTML
+  de 1991 (`<h1>`–`<h6>`), não do Markdown como ideia. CommonMark trava
+  a sintaxe ATX em 6 `#` por especificação (não é bug de parser: é a
+  gramática). Derrubado via pré-processamento (`remarkDeepHeadings.ts`):
+  capa em 6 `#` só para o tokenizador, embute a profundidade real, e
+  corrige depois na árvore já parseada. `aria-level` cobre a
+  acessibilidade que a tag HTML sozinha não daria além de h6 (h7+ não é
+  tag válida; leitor de tela não reconheceria como heading).
+- **Bloco interlinear** (```` ```interlinear ````) — CommonMark funde
+  linhas soltas (sem linha em branco entre elas) num único parágrafo,
+  o que atrapalha texto empilhado por idioma (hebraico/transliteração/
+  grego/latim/tradução por versículo): colar direto de um chat de IA
+  gruda tudo numa linha só. Dentro dessa cerca opcional, cada linha do
+  arquivo vira seu próprio parágrafo — aditivo, não substitui nada: fora
+  do bloco, o resto do arquivo continua CommonMark estrito.
+
 ## Decisões de plataforma
 
 - **PWA** (web app instalável): sem loja, funciona em qualquer aparelho, instala pelo navegador.
@@ -39,6 +64,8 @@ O corpus existe em duas camadas com papéis distintos:
 - CommonMark estrito + notas de rodapé + YAML front matter.
 - Marcadores `[n.n]` preservados literalmente e indexados como âncoras endereçáveis.
 - Edições bilíngues: blocos original/tradução como estão no arquivo, sem rótulos extras.
+- Profundidade de heading sem teto de 6 (ver "CommonMark é base, não teto" acima).
+- Bloco interlinear opt-in (```` ```interlinear ````): cada linha vira parágrafo próprio, sem fundir (ver "CommonMark é base, não teto" acima).
 
 ### F2 — Wikilinks (quando presentes)
 - Tap → preview inline flutuante sobre o texto, fecha no X, sem trocar de página.

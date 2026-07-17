@@ -4,6 +4,7 @@ import remarkGfm from 'remark-gfm'
 import remarkRehype from 'remark-rehype'
 import rehypeStringify from 'rehype-stringify'
 import { liftDeepHeadingMarkers, remarkDeepHeadingDepth } from './remarkDeepHeadings'
+import { remarkInterlinear } from './remarkInterlinear'
 import { remarkBlockAnchors } from './remarkBlockAnchors'
 import { remarkWikilinks } from './remarkWikilinks'
 import { remarkMarkers } from './remarkMarkers'
@@ -20,6 +21,7 @@ const printProcessor = unified()
   .use(remarkParse)
   .use(remarkGfm)
   .use(remarkDeepHeadingDepth)
+  .use(remarkInterlinear)
   .use(remarkBlockAnchors)
   .use(remarkWikilinks)
   .use(remarkMarkers)
