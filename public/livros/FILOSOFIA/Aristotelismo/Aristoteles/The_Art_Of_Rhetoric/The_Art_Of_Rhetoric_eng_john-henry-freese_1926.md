@@ -14,7 +14,7 @@ era: null
 tags: []
 status: rascunho
 project: pedra_angular
-source: "Aristotle. The "Art" of Rhetoric. Ed. John Henry Freese. London: William Heinemann, Ltd., 1926. Perseus Digital Library, Tufts University (CC BY-SA 4.0). URN: null"
+source: "Aristotle. The Art of Rhetoric. Ed. John Henry Freese. London: William Heinemann, Ltd., 1926. Perseus Digital Library, Tufts University (CC BY-SA 4.0). URN: null"
 related: []
 ---
 
