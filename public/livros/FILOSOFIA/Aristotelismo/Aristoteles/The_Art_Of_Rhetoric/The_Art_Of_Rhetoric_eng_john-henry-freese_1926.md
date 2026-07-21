@@ -1,7 +1,7 @@
 ---
 id: aristoteles-the-art-of-rhetoric-eng-john-henry-freese-1926
 type: texto_primario
-title: "The "Art" of Rhetoric"
+title: "The Art of Rhetoric"
 subtitle: null
 author: Aristotle
 year_original: null
