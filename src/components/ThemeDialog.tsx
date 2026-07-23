@@ -54,6 +54,11 @@ export const FONTS = [
     label: 'Atkinson Hyperlegible',
     stack: "'Atkinson Hyperlegible', Georgia, 'Times New Roman', serif",
   },
+  {
+    id: 'opendyslexic',
+    label: 'OpenDyslexic',
+    stack: "'OpenDyslexic', Georgia, 'Times New Roman', serif",
+  },
 ] as const
 
 export type FontFamilyId = (typeof FONTS)[number]['id']

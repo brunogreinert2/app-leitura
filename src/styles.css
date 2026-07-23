@@ -33,6 +33,42 @@
   src: url('/fonts/atkinson-hyperlegible-700i.woff2') format('woff2');
 }
 
+/*
+ * OpenDyslexic (Abbie Gonzalez, OFL): alternativa de fonte desenhada
+ * para dislexia — base das letras mais pesada e formas assimétricas
+ * pensadas para reduzir troca/espelhamento de caracteres (b/d, p/q).
+ * Embutida localmente (subset latino), nada de CDN em tempo de
+ * execução. Grego/hebraico caem no fallback.
+ */
+@font-face {
+  font-family: 'OpenDyslexic';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url('/fonts/opendyslexic-400.woff2') format('woff2');
+}
+@font-face {
+  font-family: 'OpenDyslexic';
+  font-style: normal;
+  font-weight: 700;
+  font-display: swap;
+  src: url('/fonts/opendyslexic-700.woff2') format('woff2');
+}
+@font-face {
+  font-family: 'OpenDyslexic';
+  font-style: italic;
+  font-weight: 400;
+  font-display: swap;
+  src: url('/fonts/opendyslexic-400i.woff2') format('woff2');
+}
+@font-face {
+  font-family: 'OpenDyslexic';
+  font-style: italic;
+  font-weight: 700;
+  font-display: swap;
+  src: url('/fonts/opendyslexic-700i.woff2') format('woff2');
+}
+
 /* ===== Base ===== */
 
 :root {
