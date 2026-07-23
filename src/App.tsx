@@ -284,6 +284,7 @@ export function App() {
       />
       <TextEditor
         open={editor !== null}
+        fileId={editor?.file?.id ?? null}
         initialTitle={editor?.file?.titulo ?? ''}
         initialContent={editor?.file?.conteudo ?? ''}
         onSave={handleSaveText}
