@@ -324,6 +324,7 @@ def gerar_obra(entrada: dict, raiz_corpus: Path, template: str, saida: Path, css
         "titulo": titulo,
         "autor": autor,
         "colecao": entrada["arquivo"].split("/")[0],
+        "sub": "/".join(entrada["arquivo"].split("/")[1:-1]),
         "idioma": lang,
         "bytes": destino.stat().st_size,
         "headings": n_head,
@@ -415,26 +416,72 @@ def gerar_colecao(nome: str, entradas: list[dict], raiz_corpus: Path, template: 
             "headings": n_head, "arquivo": destino.name}
 
 # ---------------------------------------------------------------- índice
-def gerar_indice(fichas: list[dict], saida: Path, colecoes: list[dict]) -> None:
-    por_colecao: dict[str, list[dict]] = {}
-    for f in fichas:
-        por_colecao.setdefault(f["colecao"], []).append(f)
-    linhas = [
+ESTILO_INDICE = (
+    "<style>body{background:#0A1220;color:#EAE3D3;font-family:Georgia,serif;margin:0;padding:2rem 1rem 5rem;}"
+    ".w{max-width:760px;margin:0 auto;}h1{color:#C9A227;font-size:1.6rem;}"
+    "h2{font-size:1.1rem;border-bottom:1px dashed rgba(255,255,255,.16);padding-bottom:.3rem;margin-top:2.2rem;}"
+    "ul{list-style:none;padding:0;}li{padding:.45rem 0;border-bottom:1px dotted rgba(255,255,255,.09);}"
+    "a{color:#EAE3D3;text-decoration:none;}a:hover{color:#C9A227;}"
+    "pre{font-family:ui-monospace,Consolas,monospace;font-size:.78rem;line-height:1.6;white-space:pre-wrap;"
+    "background:rgba(255,255,255,.04);border-left:2px solid #8a7527;padding:.9rem 1rem;overflow-wrap:anywhere;}"
+    ".md{font-family:ui-monospace,monospace;font-size:.68rem;opacity:.45;margin-left:.5rem;}"
+    ".n{font-family:ui-monospace,monospace;font-size:.7rem;opacity:.5;}</style>"
+)
+
+def cabeca(titulo: str) -> list[str]:
+    return [
         "<!DOCTYPE html><html lang=pt-BR><head><meta charset=UTF-8>",
         '<meta name="viewport" content="width=device-width, initial-scale=1.0">',
-        "<title>Rolos · Pedra Angular</title>",
-        "<style>body{background:#0A1220;color:#EAE3D3;font-family:Georgia,serif;margin:0;padding:2rem 1rem 5rem;}",
-        ".w{max-width:760px;margin:0 auto;}h1{color:#C9A227;font-size:1.6rem;}",
-        "h2{font-size:1.1rem;border-bottom:1px dashed rgba(255,255,255,.16);padding-bottom:.3rem;margin-top:2.2rem;}",
-        "ul{list-style:none;padding:0;}li{padding:.45rem 0;border-bottom:1px dotted rgba(255,255,255,.09);}",
-        "a{color:#EAE3D3;text-decoration:none;}a:hover{color:#C9A227;}",
-        ".md{font-family:ui-monospace,monospace;font-size:.68rem;opacity:.45;margin-left:.5rem;}",
-        ".n{font-family:ui-monospace,monospace;font-size:.7rem;opacity:.5;}</style></head><body><div class=w>",
-        "<h1>Φ Rolos — Pedra Angular</h1>",
-        "<p>Cada rolo é um arquivo estático: o texto vem escrito no HTML, legível por humano, "
-        "por navegador e por qualquer ferramenta que só busque a URL. Ao lado de cada um, "
-        "o <code>.md</code> de origem.</p>",
+        f"<title>{html.escape(titulo)} · Pedra Angular</title>",
+        ESTILO_INDICE,
+        "</head><body><div class=w>",
     ]
+
+def gerar_indice(fichas: list[dict], saida: Path, colecoes: list[dict]) -> None:
+    """Índice em dois andares, e o mapa antes da lista.
+
+    Listar 893 obras custa ~66 mil caracteres mesmo no formato mais enxuto —
+    o tamanho É a quantidade de obras, e não há compressão que resolva. Quem lê
+    a página com orçamento limitado (um modelo de linguagem, tipicamente) corta
+    no meio e sai com uma lista parcial achando que viu tudo.
+
+    A saída é não depender da lista: os primeiros parágrafos ensinam o PADRÃO
+    dos endereços. Quem lê só o começo já sabe montar a URL de qualquer obra e
+    de qualquer passagem — e sabe em qual sub-índice procurar o resto."""
+    por_colecao: dict[str, list[dict]] = {}
+    for f in fichas:
+        # obra solta na raiz de livros/ não é um acervo: seu "acervo" seria o
+        # próprio nome do arquivo, e viraria um IMPRESSOES_APP.md.html
+        chave = "GERAL" if f["colecao"].endswith(".md") else f["colecao"]
+        por_colecao.setdefault(chave, []).append(f)
+
+    total = len(fichas)
+    exemplo = next((f for f in fichas if f["slug"].startswith("biblia-")), fichas[0] if fichas else None)
+    slug_ex = exemplo["slug"] if exemplo else "id-da-obra"
+
+    # ---------------- índice-raiz: mapa + sete linhas ----------------
+    linhas = cabeca("Rolos")
+    linhas.append("<h1>Φ Rolos — Pedra Angular</h1>")
+    linhas.append(
+        f"<p>{total} obras em português, grego, latim e hebraico. Cada obra é um arquivo "
+        "estático com o texto escrito no corpo da página: legível sem JavaScript, por "
+        "humano, por navegador e por qualquer ferramenta que só busque a URL.</p>"
+    )
+    mapa = [
+        "COMO MONTAR UM ENDEREÇO (sem precisar ler a lista inteira)",
+        "",
+        f"  obra .............. /rolo/<id>.html          ex.: /rolo/{slug_ex}.html",
+        "  passagem .......... /rolo/<id>.html#anchor-<referência>",
+        "                      ex.: #anchor-gn-1-1 (Gênesis 1:1), #anchor-ec-3-1 (Eclesiastes 3:1)",
+        "  marcador canônico . /rolo/<id>.html#marker-<endereço>",
+        "                      ex.: #marker-327a (Stephanus), #marker-1094a1 (Bekker)",
+        "  markdown de origem  /livros/<caminho>.md",
+        "  catálogo em JSON .. /livros/catalogo.json",
+        "",
+        "O <id> é o mesmo do catálogo e nunca muda depois de publicado.",
+    ]
+    linhas.append("<pre>" + html.escape("\n".join(mapa)) + "</pre>")
+
     if colecoes:
         linhas.append("<h2>Coleções (arquivo único, offline, fonte embutida)</h2><ul>")
         for c in colecoes:
@@ -443,20 +490,60 @@ def gerar_indice(fichas: list[dict], saida: Path, colecoes: list[dict]) -> None:
                 f' <span class=n>{c["obras"]} obras · {c["bytes"]/1e6:.1f} MB</span></li>'
             )
         linhas.append("</ul>")
+
+    linhas.append("<h2>Acervos</h2><ul>")
     for colecao in sorted(por_colecao):
-        obras = sorted(por_colecao[colecao], key=lambda x: x["titulo"])
-        linhas.append(f"<h2>{html.escape(colecao)} <span class=n>{len(obras)}</span></h2><ul>")
-        for o in obras:
-            autor = f' <span class=n>— {html.escape(o["autor"])}</span>' if o["autor"] else ""
-            md = (
-                f'<a class=md href="{atributo(o["md_href"])}">md</a>' if o.get("md_href") else ""
-            )
-            linhas.append(
-                f'<li><a href="{atributo(o["slug"])}.html">{html.escape(o["titulo"])}</a>{autor}{md}</li>'
-            )
-        linhas.append("</ul>")
+        obras = por_colecao[colecao]
+        # só o primeiro nível: "Aristotelismo", não
+        # "Aristotelismo/Aristoteles/Etica_a_Nicomaco" — aqui a função é dar a
+        # feição do acervo em uma linha, não enumerar a estante
+        subs = sorted({(o.get("sub") or "").split("/")[0] for o in obras} - {""})
+        subs = [nome_bonito(s) for s in subs]
+        detalhe = (
+            f" <span class=n>— {', '.join(subs[:7])}{'…' if len(subs) > 7 else ''}</span>"
+            if subs else ""
+        )
+        plural = "obra" if len(obras) == 1 else "obras"
+        linhas.append(
+            f'<li><a href="{atributo(colecao)}.html">{html.escape(colecao)}</a>'
+            f' <span class=n>{len(obras)} {plural}</span>{detalhe}</li>'
+        )
+    linhas.append("</ul>")
     linhas.append("<p class=n style='margin-top:3rem'>Ὁ Διαφορεύς παρῆν</p></div></body></html>")
     (saida / "index.html").write_text("\n".join(linhas), encoding="utf-8")
+
+    # ---------------- um índice por acervo ----------------
+    for colecao in sorted(por_colecao):
+        obras = por_colecao[colecao]
+        sub_linhas = cabeca(colecao)
+        sub_linhas.append(f"<h1>Φ {html.escape(colecao)}</h1>")
+        sub_linhas.append(
+            f'<p>{len(obras)} {"obra" if len(obras)==1 else "obras"}. <a href="index.html">← todos os acervos</a></p>'
+        )
+        sub_linhas.append(
+            "<pre>" + html.escape(
+                f"obra ....... /rolo/<id>.html\n"
+                f"passagem ... /rolo/<id>.html#anchor-<referência>\n"
+                f"marcador ... /rolo/<id>.html#marker-<endereço>"
+            ) + "</pre>"
+        )
+        por_sub: dict[str, list[dict]] = {}
+        for o in obras:
+            por_sub.setdefault(o.get("sub") or colecao, []).append(o)
+        for sub in sorted(por_sub):
+            itens = sorted(por_sub[sub], key=lambda x: x["titulo"])
+            sub_linhas.append(
+                f"<h2>{html.escape(nome_bonito(sub))} <span class=n>{len(itens)}</span></h2><ul>"
+            )
+            for o in itens:
+                autor = f' <span class=n>— {html.escape(o["autor"])}</span>' if o["autor"] else ""
+                md = f'<a class=md href="{atributo(o["md_href"])}">md</a>' if o.get("md_href") else ""
+                sub_linhas.append(
+                    f'<li><a href="{atributo(o["slug"])}.html">{html.escape(o["titulo"])}</a>{autor}{md}</li>'
+                )
+            sub_linhas.append("</ul>")
+        sub_linhas.append("<p class=n style='margin-top:3rem'>Ὁ Διαφορεύς παρῆν</p></div></body></html>")
+        (saida / f"{colecao}.html").write_text("\n".join(sub_linhas), encoding="utf-8")
 
 # ---------------------------------------------------------------- piloto
 PILOTO = [
