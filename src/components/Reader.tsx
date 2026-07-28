@@ -17,6 +17,7 @@ import { HeadingActionsContext, type HeadingActions } from './headingActionsCont
 import { buildCopyText, buildSectionCopyText } from '../lib/copyBook'
 import { printMarkdownText } from '../lib/printSection'
 import { getBookIndex, chainForLine, resolveReference } from '../lib/searchIndex'
+import { roloUrl } from '../lib/rolo'
 
 /** Destaque temporário no bloco alvo de um salto. */
 function flash(el: Element) {
@@ -346,6 +347,33 @@ export function Reader({
     [parsed, collapsed, entry.titulo],
   )
 
+  /**
+   * Um toque no número do versículo (ou no marcador canônico) copia o link do
+   * rolo estático até aquele ponto exato — o que se cola num chat de IA para
+   * dizer "leia ISTO", não "leia este livro".
+   *
+   * Delegação num ouvinte só, no <main>: um livro tem milhares de versículos, e
+   * pendurar um ouvinte em cada um seria pagar caro por um gesto raro. Só
+   * intercepta cliques que caem sobre esses dois alvos; todo o resto do texto
+   * continua selecionável como sempre.
+   */
+  const copiarLinkDaPassagem = (e: React.MouseEvent<HTMLElement>) => {
+    const alvo = (e.target as HTMLElement).closest<HTMLElement>('.verse-number, .marker')
+    if (!alvo) return
+    // Selecionar texto que começa no número não pode virar cópia de link
+    if (!window.getSelection()?.isCollapsed) return
+    if (entry.local) {
+      showToast('Arquivo do aparelho: não tem rolo publicado')
+      return
+    }
+    const ancora = alvo.dataset.anchor || alvo.id
+    if (!ancora) return
+    navigator.clipboard
+      .writeText(roloUrl(entry.id, ancora))
+      .then(() => showToast('Link da passagem copiado'))
+      .catch(() => showToast('Não foi possível copiar'))
+  }
+
   const doCopy = (onlyVisible: boolean) => {
     if (!parsed) return
     const text = buildCopyText(parsed.source, parsed.headings, collapsed, onlyVisible)
@@ -547,7 +575,12 @@ export function Reader({
         <WikilinkContext.Provider value={wikilinkActions}>
         <CollapseContext.Provider value={collapseState}>
         <HeadingActionsContext.Provider value={headingActions}>
-        <main className="reader-body" aria-label={`Texto: ${entry.titulo}`} ref={bodyRef}>
+        <main
+          className="reader-body"
+          aria-label={`Texto: ${entry.titulo}`}
+          ref={bodyRef}
+          onClick={copiarLinkDaPassagem}
+        >
           {error && <p className="reader-error">Não foi possível carregar o livro: {error}</p>}
           {!parsed && !error && <p className="reader-loading">Carregando…</p>}
           {parsed?.body}

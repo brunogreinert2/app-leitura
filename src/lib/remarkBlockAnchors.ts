@@ -36,8 +36,31 @@ export function remarkBlockAnchors() {
 
       const data = (block.data ??= {})
       const hProperties = ((data.hProperties as Record<string, unknown>) ??= {})
-      hProperties.id = `anchor-${m[1]}`
+      const id = `anchor-${m[1]}`
+      hProperties.id = id
       data.hProperties = hProperties
+
+      // O «1» que abre o versículo já É o endereço dele — só não era clicável.
+      // Marcá-lo não altera o texto nem o que o copiar devolve (o copiar lê o
+      // markdown fonte, não esta árvore): apenas dá ao Reader onde pendurar o
+      // gesto de copiar o link da passagem. Só no parágrafo direto: no
+      // blockquote o número mora na linha de cima, não neste bloco.
+      if (node.type === 'paragraph') {
+        const primeiro = block.children[0] as {
+          type?: string
+          children?: unknown[]
+          data?: Record<string, unknown>
+        }
+        const unico = primeiro?.children?.length === 1 ? (primeiro.children[0] as Text) : null
+        if (primeiro?.type === 'strong' && unico?.type === 'text' && /^\d+[a-z]?$/.test(unico.value.trim())) {
+          const d = (primeiro.data ??= {})
+          const hp = ((d.hProperties as Record<string, unknown>) ??= {})
+          hp.className = ['verse-number']
+          hp['data-anchor'] = id
+          hp.title = 'Tocar para copiar o link desta passagem'
+          d.hProperties = hp
+        }
+      }
     })
   }
 }

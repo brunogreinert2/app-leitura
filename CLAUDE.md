@@ -67,6 +67,20 @@ Textos longos (capítulos bíblicos inteiros, verbetes extensos) precisam rolar 
   Ξ abre o sumário — manter a identidade grega.
 - **Testar local**: `npm run dev` (localhost:5173). Antes de publicar:
   `npm run build` precisa passar limpo.
+- **Rolos estáticos** (`/rolo/<id>.html`): cópia de cada obra com o texto
+  escrito no `<body>`, para quem lê a URL sem executar JS — crawler, e a
+  maioria dos agentes de IA. A SPA entrega casca vazia para esses; o rolo
+  entrega a obra. Gerado por `scripts/rolo/gerador_rolo.py`, rodado pelo
+  `deploy.yml` a cada publicação (~13s para as 872 obras, ~144 MB). São
+  derivados: **nunca** commitar `dist/rolo/`.
+  - O nome do arquivo é o `id` do catálogo; os ids de elemento (`anchor-gn-1-1`,
+    `marker-327a`) são os mesmos que `remarkBlockAnchors.ts` e
+    `remarkMarkers.ts` calculam aqui. Não há tabela de conversão, de propósito.
+    Se um dia essas regex divergirem, os links do app passam a apontar para o
+    nada sem avisar — mexeu numa, confira a outra.
+  - No app: "Copiar link para IA" na ficha da obra (obra inteira) e um toque no
+    número do versículo ou no marcador canônico (passagem exata). Ambos passam
+    por `src/lib/rolo.ts`.
 
 ## Documentos
 

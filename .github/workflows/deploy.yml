@@ -29,6 +29,29 @@ jobs:
       - run: npx tsc -b
       # Domínio próprio (pedraangular.app.br) serve na RAIZ do site
       - run: npx vite build --base=/
+
+      # ---- rolos estáticos: a mesma obra numa porta que dispensa JavaScript ----
+      # O app é uma SPA: quem só busca a URL (crawler, agente de IA) recebe a
+      # casca vazia. Os rolos são a cópia com o texto escrito no <body>.
+      #
+      # São DERIVADOS do corpus e por isso nascem aqui, no build, e não no git:
+      # commitá-los engordaria o repositório para sempre e faria de cada correção
+      # de vírgula num .md um diff de centenas de arquivos.
+      #
+      # --sem-gemeo-md porque o corpus já é servido em /livros/ — copiá-lo para
+      # dentro de /rolo/ duplicaria 98 MB no site sem ganhar nada.
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - name: Gerar rolos estáticos em /rolo/
+        run: |
+          python scripts/rolo/gerador_rolo.py --tudo --sem-gemeo-md \
+            --corpus public/livros \
+            --template scripts/rolo/rolo_template.html \
+            --fontes scripts/rolo/fontes \
+            --saida dist/rolo
+          echo "rolos gerados: $(ls dist/rolo/*.html | wc -l) · $(du -sh dist/rolo | cut -f1)"
+
       - uses: actions/upload-pages-artifact@v3
         with:
           path: dist

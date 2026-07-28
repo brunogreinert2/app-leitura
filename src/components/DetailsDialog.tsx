@@ -1,6 +1,7 @@
 import { useState } from 'react'
 import type { CatalogEntry } from '../types'
 import type { ParsedBook } from '../lib/markdown'
+import { roloUrl } from '../lib/rolo'
 
 /** Rótulos em português para os campos conhecidos do YAML do corpus. */
 const META_LABELS: [key: string, label: string][] = [
@@ -50,14 +51,14 @@ interface Props {
 
 /** Ficha do arquivo: os campos do YAML (que nunca aparecem no texto). */
 export function DetailsDialog({ open, onClose, entry, parsed }: Props) {
-  const [copied, setCopied] = useState(false)
+  const [copied, setCopied] = useState<'app' | 'rolo' | null>(null)
   if (!open) return null
 
   const permalink = `${window.location.origin}${window.location.pathname}#/livro/${encodeURIComponent(entry.id)}`
-  const copyLink = () => {
-    navigator.clipboard.writeText(permalink).then(() => {
-      setCopied(true)
-      window.setTimeout(() => setCopied(false), 2000)
+  const copiar = (texto: string, qual: 'app' | 'rolo') => {
+    navigator.clipboard.writeText(texto).then(() => {
+      setCopied(qual)
+      window.setTimeout(() => setCopied(null), 2000)
     })
   }
 
@@ -93,9 +94,18 @@ export function DetailsDialog({ open, onClose, entry, parsed }: Props) {
           ))}
         </dl>
         {!entry.local && (
-          <button className="wikilink-box-open" onClick={copyLink}>
-            {copied ? 'Copiado ✓' : 'Copiar link desta obra'}
-          </button>
+          <>
+            <button className="wikilink-box-open" onClick={() => copiar(permalink, 'app')}>
+              {copied === 'app' ? 'Copiado ✓' : 'Copiar link desta obra'}
+            </button>
+            {/* Dois links para a mesma obra, porque são dois leitores diferentes.
+                O de cima abre no app, com tudo que o app tem. O de baixo é o rolo
+                estático: texto escrito no HTML, que uma IA consegue ler ao buscar
+                a URL — coisa que a rota #/livro/… não permite, por ser SPA. */}
+            <button className="wikilink-box-open" onClick={() => copiar(roloUrl(entry.id), 'rolo')}>
+              {copied === 'rolo' ? 'Copiado ✓' : 'Copiar link para IA'}
+            </button>
+          </>
         )}
         <button className="copy-dialog-cancel" onClick={onClose}>
           Fechar

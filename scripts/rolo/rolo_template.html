@@ -1,0 +1,583 @@
+<!DOCTYPE html>
+<html lang="{{HTML_LANG}}">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>{{TITULO}} · Pedra Angular</title>
+<meta name="description" content="{{DESCRICAO}}">
+{{META_TAGS}}
+<link rel="alternate" type="text/markdown" href="{{MD_HREF}}" title="Fonte em Markdown">
+<script>
+/* Marca o documento como "tem JavaScript" ANTES de o navegador desenhar
+   qualquer coisa. É o interruptor que decide quem lê o texto-fonte:
+
+     sem JS  -> esta linha nunca roda, não há classe, o texto fica visível
+                e a obra é legível como qualquer página estática;
+     com JS  -> a classe entra, o CSS tira o texto-fonte do fluxo no mesmo
+                instante, e o navegador não gasta um milissegundo desenhando
+                um texto que o motor vai recolher meio segundo depois.
+
+   Uma ferramenta que só busca a URL não executa nem JS nem CSS: para ela o
+   texto está lá, escrito, do mesmo jeito. */
+document.documentElement.classList.add('js');
+</script>
+<style>
+  /* Atkinson Hyperlegible (Braille Institute, OFL) */
+{{FONTE_CSS}}
+
+  :root{
+    --bg-noite:#0A1220;--ink-noite:#EAE3D3;--bg-pergaminho:#EAE3D3;--ink-pergaminho:#241E14;
+    --bg-petroleo:#0E2E33;--ink-petroleo:#DCEEEF;--accent:#C9A227;--accent-soft:#8a7527;
+    --surface:rgba(255,255,255,0.04);--line:rgba(255,255,255,0.14);--font-scale:1;
+    --bg:var(--bg-noite);--ink:var(--ink-noite);
+    --mono:ui-monospace,Consolas,'Courier New',monospace;
+    --leitura:'Atkinson Hyperlegible',Georgia,serif;
+  }
+  [data-theme="pergaminho"]{--bg:var(--bg-pergaminho);--ink:var(--ink-pergaminho);--surface:rgba(0,0,0,.045);--line:rgba(0,0,0,.16);}
+  [data-theme="petroleo"]{--bg:var(--bg-petroleo);--ink:var(--ink-petroleo);--surface:rgba(255,255,255,.05);--line:rgba(255,255,255,.14);}
+  *{box-sizing:border-box;}
+  html,body{margin:0;padding:0;}
+  body{background:var(--bg);color:var(--ink);font-family:var(--leitura);
+    transition:background .5s,color .5s;min-height:100vh;display:flex;justify-content:center;padding:1rem 1rem 7rem;}
+  @media (prefers-reduced-motion:reduce){*{transition:none!important;animation:none!important;}}
+  a.pular{position:absolute;left:-999px;background:var(--accent);color:#0A1220;padding:.6rem 1rem;border-radius:0 0 8px 0;z-index:50;}
+  a.pular:focus{left:0;}
+  .rolo{width:100%;max-width:720px;}
+  .barra-topo{position:sticky;top:0;z-index:20;display:flex;gap:.4rem;flex-wrap:wrap;align-items:center;
+    padding:.55rem .35rem;margin-bottom:.4rem;background:var(--bg);border-bottom:1px solid var(--line);}
+  .barra-topo button{flex:1 1 auto;min-height:44px;min-width:44px;font-family:var(--mono);font-size:.8rem;color:var(--ink);
+    background:var(--surface);border:1px solid var(--line);border-radius:9px;cursor:pointer;padding:.4rem .5rem;-webkit-tap-highlight-color:transparent;}
+  .barra-topo button:active{background:rgba(201,162,39,.16);}
+  .barra-topo button:focus-visible{outline:2px solid var(--accent);outline-offset:2px;}
+  .barra-topo button[aria-pressed="true"]{border-color:var(--accent);background:rgba(201,162,39,.12);}
+  .grupo{display:flex;gap:.3rem;flex:1 1 100%;}
+  .fita{background:var(--surface);border:1px solid var(--line);border-radius:2px;}
+  .cabecalho-app{text-align:center;padding:1.4rem 1.2rem 1.6rem;border-bottom:1px dashed var(--line);}
+  .cabecalho-app .phi{font-size:2.4rem;color:var(--accent);line-height:1;font-family:Georgia,serif;}
+  .cabecalho-app h1{font-weight:700;font-size:calc(1.5rem*var(--font-scale));margin:.2rem 0 .1rem;}
+  .cabecalho-app .autor{margin:.1rem 0 .5rem;font-size:calc(.95rem*var(--font-scale));opacity:.8;font-style:italic;}
+  .cabecalho-app .selo{margin:0;font-family:var(--mono);font-size:.72rem;letter-spacing:.08em;text-transform:uppercase;opacity:.55;}
+
+  /* ---- ficha de metadados: visível para humano E para máquina que só lê texto ---- */
+  .ficha{margin:1rem auto 0;max-width:38rem;text-align:left;font-family:var(--mono);font-size:.7rem;
+    line-height:1.55;opacity:.66;display:grid;grid-template-columns:auto 1fr;gap:.1rem .8rem;}
+  .ficha dt{color:var(--accent);opacity:.85;white-space:nowrap;}
+  .ficha dd{margin:0;overflow-wrap:anywhere;}
+  .ficha a{color:inherit;}
+
+  .secao{border-bottom:1px dashed var(--line);}
+  .secao:last-child{border-bottom:none;}
+  .heading-row{display:flex;align-items:center;gap:.3rem;width:100%;position:relative;}
+  .titulo-toggle{display:flex;align-items:center;gap:.6rem;flex:1 1 auto;min-width:0;background:none;border:none;color:var(--ink);
+    text-align:left;cursor:pointer;font-family:var(--leitura);padding:1rem .5rem 1rem 1.1rem;min-height:44px;-webkit-tap-highlight-color:transparent;}
+  .titulo-toggle:focus-visible{outline:2px solid var(--accent);outline-offset:-2px;}
+  .titulo-toggle .titulo{overflow-wrap:anywhere;}
+  /* ÚNICA fonte de indentação: calculada uma vez por --nivel, direto no título. */
+  .titulo-toggle{
+    font-size:calc((1.28rem - min(var(--nivel,1) - 1, 10) * 0.045rem) * var(--font-scale));
+    opacity:calc(1 - min(var(--nivel,1) - 1, 8) * 0.055);
+    padding-left:calc(0.6rem + min(var(--nivel,1) - 1, 8) * 0.32rem);
+    border-left:2px solid var(--accent-soft);
+  }
+  .secao[data-par="1"] > .heading-row .titulo-toggle{font-weight:700;}
+  .secao[data-par="0"] > .heading-row .titulo-toggle{font-weight:400;font-style:italic;}
+  .secao[data-nivel="1"] > .heading-row .titulo-toggle{font-weight:700;font-size:calc(1.28rem*var(--font-scale));opacity:1;border-left:none;}
+  .titulo-toggle:active{background:var(--surface);}
+  .caret{font-family:var(--mono);font-size:.85em;color:var(--accent);transition:transform .25s;flex-shrink:0;width:1em;}
+  .secao.aberto>.heading-row .caret{transform:rotate(90deg);}
+  .filhos-inner{padding-left:0;}
+  .paragrafo{font-size:calc(1.02rem*var(--font-scale));line-height:1.68;padding:.3rem 1.2rem 1rem 1.7rem;margin:0;}
+  .paragrafo[dir="rtl"]{padding:.3rem 1.7rem 1rem 1.2rem;}
+  .paragrafo.citacao{border-left:3px solid var(--accent-soft);margin-left:1.2rem;padding-left:1rem;opacity:.9;font-style:italic;}
+  .paragrafo.item::before{content:"· ";color:var(--accent);}
+  .regua{border:none;border-top:1px dashed var(--line);margin:1rem 1.7rem;}
+  .idioma-tag{font-family:var(--mono);font-size:.68em;color:var(--accent);opacity:.75;
+    border:1px solid var(--accent-soft);border-radius:5px;padding:.05rem .35rem;margin-inline-end:.4rem;
+    display:inline-block;vertical-align:.1em;}
+  .paragrafo .versiculo{font-family:var(--mono);font-size:.72em;color:var(--accent);vertical-align:.15em;margin-right:.25em;}
+  /* marcador canônico literal ([327a], [1.327], 1094a1): NUNCA reformatado — só destacado */
+  .paragrafo .marcador{font-family:var(--mono);font-size:.74em;color:var(--accent);opacity:.85;white-space:nowrap;}
+  .paragrafo code{font-family:var(--mono);font-size:.85em;opacity:.85;}
+  .paragrafo a.wikilink{color:var(--accent);text-decoration:underline;text-decoration-color:var(--accent-soft);text-underline-offset:3px;cursor:pointer;}
+  .paragrafo:target{background:rgba(201,162,39,.14);border-radius:6px;}
+  .coordenada{display:flex;align-items:center;gap:.5rem;flex-wrap:wrap;padding:.5rem 1.2rem .2rem 2.2rem;margin-top:.4rem;}
+  .coordenada.rtl{flex-direction:row-reverse;justify-content:flex-end;padding:.5rem 2.2rem .2rem 1.2rem;}
+  .coordenada .marca-coord{font-family:var(--mono);font-size:.8rem;font-weight:500;color:var(--accent);border:1px solid var(--accent-soft);border-radius:6px;padding:.15rem .5rem;}
+  .coordenada .copiar{min-height:38px;font-family:var(--mono);font-size:.7rem;color:var(--ink);background:var(--surface);border:1px solid var(--line);border-radius:7px;padding:.2rem .6rem;cursor:pointer;}
+  .coordenada .copiar:active{background:rgba(201,162,39,.16);}
+  .coordenada .copiar:focus-visible{outline:2px solid var(--accent);outline-offset:2px;}
+  .ouvir-secao{display:inline-flex;align-items:center;gap:.4rem;min-height:38px;margin-left:auto;font-family:var(--mono);font-size:.68rem;
+    color:var(--ink);background:transparent;border:1px solid var(--line);border-radius:999px;padding:.2rem .7rem;cursor:pointer;opacity:.75;}
+  .ouvir-secao:hover{opacity:1;}
+  .ouvir-secao:focus-visible{outline:2px solid var(--accent);outline-offset:2px;}
+  @media print{
+    body.imprimir-parcial .secao:not([data-no-caminho="1"]){display:none!important;}
+    body.imprimir-parcial .cabecalho-app,body.imprimir-parcial .rodape-nota{display:none!important;}
+  }
+  .menu-secao{display:inline-flex;align-items:center;justify-content:center;min-width:38px;min-height:38px;margin-left:.3rem;
+    font-family:var(--mono);font-size:.95rem;color:var(--ink);background:transparent;border:1px solid var(--line);
+    border-radius:999px;cursor:pointer;opacity:.65;position:relative;}
+  .menu-secao:hover{opacity:1;}
+  .menu-secao:focus-visible{outline:2px solid var(--accent);outline-offset:2px;}
+  .painel-acoes[hidden]{display:none!important;}
+  .painel-acoes{position:absolute;right:1.1rem;top:calc(100% - .3rem);z-index:30;min-width:180px;
+    background:var(--bg);border:1px solid var(--line);border-radius:10px;box-shadow:0 6px 20px rgba(0,0,0,.35);
+    display:flex;flex-direction:column;padding:.3rem;}
+  .item-acao{display:block;width:100%;text-align:left;background:none;border:none;color:var(--ink);
+    font-family:var(--leitura);font-size:.85rem;padding:.55rem .7rem;border-radius:7px;cursor:pointer;min-height:40px;}
+  .item-acao:hover,.item-acao:focus-visible{background:var(--surface);outline:none;}
+  .botao-cmd{display:block;width:calc(100% - 1.6rem);margin:.35rem .8rem .6rem 2rem;padding:1rem 1.1rem;font-family:var(--leitura);
+    font-size:calc(1.02rem*var(--font-scale));font-weight:500;text-align:left;color:var(--ink);background:var(--surface);border:1px solid var(--line);border-radius:10px;cursor:pointer;}
+  .botao-cmd:active{transform:scale(.985);background:rgba(201,162,39,.16);border-color:var(--accent-soft);}
+  .botao-cmd:focus-visible{outline:2px solid var(--accent);outline-offset:2px;}
+  .botao-cmd .marca{display:block;font-family:var(--mono);font-size:.66rem;color:var(--accent);opacity:.6;margin-bottom:.25rem;}
+  .botao-cmd[aria-pressed="true"]{border-color:var(--accent);background:rgba(201,162,39,.12);}
+  .botao-cmd[aria-pressed="true"] .rotulo::after{content:" ✓";color:var(--accent);}
+  .rodape-nota{text-align:center;padding:1.4rem 1.2rem .6rem;font-family:var(--mono);font-size:.66rem;opacity:.4;}
+  .lendo-agora{background:rgba(201,162,39,.14);border-radius:6px;}
+  .flash{position:fixed;left:50%;bottom:1.4rem;transform:translateX(-50%) translateY(10px);background:var(--ink);color:var(--bg);
+    font-family:var(--mono);font-size:.75rem;padding:.6rem 1rem;border-radius:999px;opacity:0;pointer-events:none;transition:opacity .25s,transform .25s;white-space:nowrap;z-index:40;}
+  .flash.show{opacity:.95;transform:translateX(-50%) translateY(0);}
+  .sr-only{position:absolute;width:1px;height:1px;padding:0;margin:-1px;overflow:hidden;clip:rect(0,0,0,0);white-space:nowrap;border:0;}
+
+  /* ================= TEXTO-FONTE PRÉ-RENDERIZADO =================
+     Este bloco é o texto da obra, escrito no HTML como caracteres reais.
+     Sem JavaScript, é isto que se lê — e é isto que uma IA lê ao buscar a URL.
+     Com JavaScript, o motor consome estes mesmos elementos e os reorganiza
+     na árvore recolhível: o texto existe UMA vez só nos bytes do arquivo. */
+  .fonte-texto{padding:.4rem 0 1rem;}
+  /* O custo de ter o texto no <body> é o navegador precisar desenhá-lo todo
+     antes de o motor conseguir recolher as seções — num rolo de 27 MB isso é a
+     espera que se vê na tela. `display:none` não impede a leitura por máquina
+     (o texto continua escrito no arquivo) mas dispensa o navegador de calcular
+     a posição de cada linha. O motor tira os elementos daqui um a um, sob
+     demanda: é a mesma preguiça de sempre, agora começando antes do primeiro
+     desenho em vez de depois. */
+  html.js .fonte-texto{display:none;}
+  .fonte-texto h1,.fonte-texto h2,.fonte-texto h3,.fonte-texto h4,.fonte-texto h5,.fonte-texto h6,
+  .fonte-texto [role="heading"]{
+    font-family:var(--leitura);margin:1.4rem 0 .3rem;padding:0 1.2rem;line-height:1.3;
+    font-size:calc((1.28rem - min(var(--n,1) - 1, 10) * 0.045rem) * var(--font-scale));
+    opacity:calc(1 - min(var(--n,1) - 1, 8) * 0.055);
+  }
+  .fonte-texto h1{border-bottom:1px dashed var(--line);padding-bottom:.5rem;}
+  .barra-topo.sem-js{display:none;}
+  @media print{
+    .barra-topo,.flash,a.pular,.caret,.ouvir-secao,.menu-secao,.coordenada .copiar,.menu-ajustes{display:none!important;}
+    body{background:#fff;color:#000;padding:0;}.fita{background:none;border:none;}.secao{border-color:#ccc;}
+  }
+</style>
+</head>
+<body data-theme="noite">
+<a class="pular" href="#texto">Pular para o texto</a>
+<div class="rolo">
+  <nav class="barra-topo" aria-label="Controles de leitura" id="barra">
+    <div class="grupo" role="group" aria-label="Ouvir">
+      <button id="btn-ouvir-tudo" aria-pressed="false">▶ Ouvir o rolo</button>
+      <button id="btn-parar">■ Parar</button>
+    </div>
+    <div class="grupo" role="group" aria-label="Fundo">
+      <button data-cmd="tema:noite" aria-pressed="true">Noite</button>
+      <button data-cmd="tema:pergaminho" aria-pressed="false">Pergaminho</button>
+      <button data-cmd="tema:petroleo" aria-pressed="false">Petróleo</button>
+    </div>
+    <div class="grupo" role="group" aria-label="Letra e navegação">
+      <button data-cmd="fonte:menos" aria-label="Diminuir a letra">A−</button>
+      <button data-cmd="fonte:mais" aria-label="Aumentar a letra">A+</button>
+      <button data-cmd="expandir:tudo">Abrir tudo</button>
+      <button data-cmd="recolher:tudo">Recolher tudo</button>
+    </div>
+  </nav>
+  <div class="fita" id="conteudo">
+    <header class="cabecalho-app">
+      <div class="phi" aria-hidden="true">Φ</div>
+      <h1>{{TITULO}}</h1>
+      <p class="autor">{{AUTOR}}</p>
+      <p class="selo">rolo estático · Pedra Angular</p>
+      <dl class="ficha">
+{{FICHA}}
+      </dl>
+    </header>
+<article id="texto" class="fonte-texto" lang="{{HTML_LANG}}">
+{{CORPO}}
+</article>
+    <div class="rodape-nota">Ὁ Διαφορεύς παρῆν — um arquivo: o texto, a fonte, o programa e a voz.</div>
+  </div>
+</div>
+<div class="flash" id="flash" role="status" aria-live="polite"></div>
+<div class="sr-only" id="anuncio" aria-live="assertive"></div>
+
+<script>
+/* ================================================================
+   ROLO — motor de leitura (progressive enhancement)
+
+   O texto NÃO nasce aqui. Ele já está no <body>, escrito como HTML
+   visível dentro de #texto. Este script apenas o LÊ, monta a árvore
+   de seções recolhíveis e reaproveita os MESMOS elementos <p> — não
+   recria nem duplica nenhum caractere. Se este script não rodar, o
+   leitor (humano ou máquina) continua vendo a obra inteira.
+   ================================================================ */
+const TITULO = document.querySelector('.cabecalho-app h1')?.textContent || 'Pedra Angular';
+const MENU_MD = `
+# Ajustes
+Tudo aqui é texto. A configuração É o rolo.
+## Aparência
+[[cmd:tema:noite|Fundo azul-noite]]
+[[cmd:tema:pergaminho|Fundo pergaminho]]
+[[cmd:tema:petroleo|Fundo azul-petróleo]]
+## Sobre
+Ὁ Διαφορεύς παρῆν. Este arquivo carrega o texto, a fonte, o programa e a voz — tudo num só lugar.
+`.trim();
+
+/* ---------- parser A: DOM pré-renderizado -> árvore (sem copiar texto) ---------- */
+function parseDOM(raiz_el){
+  const raiz={tipo:'raiz',nivel:0,filhos:[]};
+  const pilha=[raiz];
+  for(const el of [...raiz_el.children]){
+    const n = parseInt(el.dataset.n||'0',10);
+    if(n>0){
+      const no={tipo:'heading',nivel:n,texto:el.textContent.trim(),filhos:[],el};
+      while(pilha.length && pilha[pilha.length-1].nivel>=n) pilha.pop();
+      no.pai=pilha[pilha.length-1];
+      pilha[pilha.length-1].filhos.push(no);
+      pilha.push(no);
+    }else{
+      const no={tipo:'linha',el,pai:pilha[pilha.length-1]};
+      Object.defineProperty(no,'texto',{get(){return el.textContent.trim();}});
+      pilha[pilha.length-1].filhos.push(no);
+    }
+  }
+  return raiz;
+}
+/* ---------- parser B: markdown -> árvore (só para o menu de ajustes) ---------- */
+function parseMD(md){
+  const raiz={tipo:'raiz',nivel:0,filhos:[]}; const pilha=[raiz];
+  for(const linha of md.split('\n')){
+    if(!linha.trim()) continue;
+    const m=linha.match(/^(#{1,})\s+(.*)$/);
+    if(m){
+      const no={tipo:'heading',nivel:m[1].length,texto:m[2],filhos:[]};
+      while(pilha.length && pilha[pilha.length-1].nivel>=no.nivel) pilha.pop();
+      no.pai=pilha[pilha.length-1]; pilha[pilha.length-1].filhos.push(no); pilha.push(no);
+    }else{
+      pilha[pilha.length-1].filhos.push({tipo:'cmd',texto:linha,pai:pilha[pilha.length-1]});
+    }
+  }
+  return raiz;
+}
+
+/* ============ comandos ============ */
+const acoes={
+  'tema:noite':()=>aplicarTema('noite','azul-noite'),
+  'tema:pergaminho':()=>aplicarTema('pergaminho','pergaminho'),
+  'tema:petroleo':()=>aplicarTema('petroleo','azul-petróleo'),
+  'fonte:mais':()=>ajustarFonte(.1,'Letra maior'),
+  'fonte:menos':()=>ajustarFonte(-.1,'Letra menor'),
+  'expandir:tudo':()=>{abrirTudo(true);flash('Rolo aberto');},
+  'recolher:tudo':()=>{abrirTudo(false);flash('Rolo recolhido');},
+};
+function guardar(k,v){try{localStorage.setItem(k,v);}catch(e){}}
+function ler(k){try{return localStorage.getItem(k);}catch(e){return null;}}
+function aplicarTema(nome,label){
+  document.body.setAttribute('data-theme',nome); guardar('pa:tema',nome);
+  document.querySelectorAll('[data-cmd^="tema:"]').forEach(b=>b.setAttribute('aria-pressed',b.dataset.cmd==='tema:'+nome?'true':'false'));
+  if(label) flash('Fundo: '+label);
+}
+function ajustarFonte(delta,msg){
+  const atual=parseFloat(getComputedStyle(document.documentElement).getPropertyValue('--font-scale'))||1;
+  const novo=Math.min(2.6,Math.max(.8,+(atual+delta).toFixed(2)));
+  document.documentElement.style.setProperty('--font-scale',novo); guardar('pa:fonte',novo);
+  if(msg) flash(msg+' ('+Math.round(novo*100)+'%)');
+}
+
+/* ============ render PREGUIÇOSO ============ */
+const RX_COORD=/^(\d+[a-e]?|§\s?\d+|\d+:\d+|\d+\.\d+)$/;
+const RX_HEBRAICO=/[֐-׿]/;
+let seq=0;
+function citacaoDe(no){
+  let autor='',obra='',p=no.pai;
+  while(p){ if(p.nivel===3&&!obra)obra=p.texto; if(p.nivel===2&&!autor)autor=p.texto; p=p.pai; }
+  const partes=[autor||AUTOR_OBRA,obra||TITULO].filter(Boolean).join(', ');
+  return (partes?partes+' ':'')+no.texto+'  ·  '+location.href.split('#')[0]+'  ·  Pedra Angular — Ὁ Διαφορεύς παρῆν';
+}
+const AUTOR_OBRA=(document.querySelector('.cabecalho-app .autor')?.textContent||'').trim();
+function idiomaDoTexto(t){
+  if(RX_HEBRAICO.test(t)) return {lang:'he',dir:'rtl',voz:'he-IL'};
+  if(/[Ͱ-Ͽἀ-῿]/.test(t)) return {lang:'grc',dir:'ltr',voz:'el-GR'};
+  return {lang:'pt-BR',dir:'ltr',voz:'pt-BR'};
+}
+/* botão de comando do menu de ajustes (único conteúdo ainda vindo de markdown) */
+function renderCmd(texto){
+  const cmd=texto.match(/^\[\[cmd:([^\|\]]+)\|([^\]]+)\]\]$/);
+  if(cmd){
+    const [_,id,rot]=cmd;
+    const b=document.createElement('button');b.className='botao-cmd';b.dataset.cmd=id;
+    if(id.startsWith('tema:'))b.setAttribute('aria-pressed',id==='tema:'+(document.body.getAttribute('data-theme')||'noite')?'true':'false');
+    b.innerHTML='<span class="marca">[[cmd:'+id+']]</span><span class="rotulo">'+rot+'</span>';
+    b.addEventListener('click',()=>acoes[id]&&acoes[id]());
+    return b;
+  }
+  const p=document.createElement('p');p.className='paragrafo';p.textContent=texto;return p;
+}
+function renderFilho(no){
+  if(no.tipo==='cmd') return renderCmd(no.texto);
+  if(no.tipo==='linha') return no.el;            // reaproveita o elemento pré-renderizado
+  if(no.nivel>=4 && RX_COORD.test(no.texto)){
+    const wrap=document.createElement('div');wrap.className='coord-wrap';
+    const c=document.createElement('div');c.className='coordenada';
+    const primeira=no.filhos.find(f=>f.tipo==='linha');
+    if(primeira && RX_HEBRAICO.test(primeira.texto)) c.classList.add('rtl');
+    const m=document.createElement('span');m.className='marca-coord';m.textContent=no.texto;
+    const cp=document.createElement('button');cp.className='copiar';cp.textContent='copiar referência';
+    cp.setAttribute('aria-label','Copiar referência de '+no.texto);
+    cp.addEventListener('click',async()=>{const r=citacaoDe(no);
+      try{await navigator.clipboard.writeText(r);flash('Referência copiada');}catch(e){flash(r);}});
+    c.appendChild(m);c.appendChild(cp);wrap.appendChild(c);
+    if(no.el && no.el.id) wrap.id=no.el.id;
+    no.filhos.forEach(f=>wrap.appendChild(renderFilho(f)));
+    return wrap;
+  }
+  return renderHeading(no);
+}
+function renderHeading(no){
+  const secao=document.createElement('div');secao.className='secao';secao._no=no;secao._built=false;
+  secao.dataset.nivel=no.nivel; secao.dataset.par=(no.nivel%2===0)?'1':'0';
+  secao.style.setProperty('--nivel', no.nivel);
+  if(no.el && no.el.id) secao.id=no.el.id;
+  const id='sec-'+(seq++);
+  no._secao=secao;
+
+  const row=document.createElement('div');row.className='heading-row';
+  const toggleBtn=document.createElement('button');toggleBtn.type='button';toggleBtn.className='titulo-toggle';
+  toggleBtn.setAttribute('aria-expanded','false');toggleBtn.setAttribute('aria-controls',id);
+  const caret=document.createElement('span');caret.className='caret';caret.setAttribute('aria-hidden','true');caret.textContent='▸';
+  const tit=document.createElement('span');tit.className='titulo';tit.textContent=no.texto;
+  toggleBtn.appendChild(caret);toggleBtn.appendChild(tit);
+  toggleBtn.addEventListener('click',()=>toggle(secao));
+  row.appendChild(toggleBtn);
+
+  const ouvir=document.createElement('button');ouvir.type='button';ouvir.className='ouvir-secao';
+  ouvir.textContent='ouvir';ouvir.setAttribute('aria-label','Ouvir '+no.texto);
+  ouvir.addEventListener('click',e=>{e.stopPropagation();lerSecao(no);});
+  row.appendChild(ouvir);
+
+  const menuBtn=document.createElement('button');menuBtn.type='button';menuBtn.className='menu-secao';
+  menuBtn.textContent='⋯';menuBtn.setAttribute('aria-label','Mais ações para '+no.texto);
+  menuBtn.setAttribute('aria-haspopup','true');menuBtn.setAttribute('aria-expanded','false');
+  const painel=document.createElement('div');painel.className='painel-acoes';painel.hidden=true;
+  [['Copiar — tudo',()=>copiarSecao(secao,no,true)],
+   ['Copiar — só visível',()=>copiarSecao(secao,no,false)],
+   ['Copiar link desta seção',()=>copiarLink(secao,no)],
+   ['Imprimir — tudo',()=>imprimirSecao(secao,no,true)],
+   ['Imprimir — só visível',()=>imprimirSecao(secao,no,false)],
+  ].forEach(([rotulo,fn])=>{
+    const b=document.createElement('button');b.type='button';b.className='item-acao';b.textContent=rotulo;
+    b.addEventListener('click',e=>{e.stopPropagation();fecharPainel();fn();});
+    painel.appendChild(b);
+  });
+  function fecharPainel(){painel.hidden=true;menuBtn.setAttribute('aria-expanded','false');document.removeEventListener('click',foraDoPainel);}
+  function foraDoPainel(e){if(!painel.contains(e.target)&&e.target!==menuBtn)fecharPainel();}
+  menuBtn.addEventListener('click',e=>{
+    e.stopPropagation();
+    const abrir=painel.hidden;
+    document.querySelectorAll('.painel-acoes').forEach(p=>{if(p!==painel)p.hidden=true;});
+    painel.hidden=!abrir;
+    menuBtn.setAttribute('aria-expanded',abrir?'true':'false');
+    if(abrir) setTimeout(()=>document.addEventListener('click',foraDoPainel),0);
+  });
+  row.appendChild(menuBtn);row.appendChild(painel);
+
+  const inner=document.createElement('div');inner.className='filhos-inner';inner.id=id;inner.hidden=true;
+  secao._inner=inner;secao._row=row;secao._toggleBtn=toggleBtn;
+  secao.appendChild(row);secao.appendChild(inner);
+  return secao;
+}
+function construir(secao){
+  if(secao._built) return;
+  secao._no.filhos.forEach(f=>secao._inner.appendChild(renderFilho(f)));
+  secao._built=true;
+}
+function construirRecursivo(secao){
+  construir(secao);
+  secao._inner.querySelectorAll(':scope > .secao').forEach(construirRecursivo);
+}
+function marcarCaminho(secaoEl){
+  let el=secaoEl;
+  while(el && el.classList && el.classList.contains('secao')){
+    el.dataset.noCaminho='1';
+    el=el.parentElement && el.parentElement.closest('.secao');
+  }
+}
+function abrirRecursivo(secaoEl){
+  toggle(secaoEl,true);
+  secaoEl._inner.querySelectorAll(':scope > .secao').forEach(abrirRecursivo);
+}
+function imprimirSecao(secaoEl,no,modoTudo){
+  if(modoTudo){construirRecursivo(secaoEl);abrirRecursivo(secaoEl);}
+  marcarCaminho(secaoEl);
+  document.body.classList.add('imprimir-parcial');
+  flash((modoTudo?'Imprimindo tudo: ':'Imprimindo só o visível: ')+no.texto);
+  setTimeout(()=>window.print(),200);
+}
+window.addEventListener('afterprint',()=>{
+  document.body.classList.remove('imprimir-parcial');
+  document.querySelectorAll('[data-no-caminho]').forEach(e=>delete e.dataset.noCaminho);
+});
+
+/* ---------- copiar ---------- */
+function textoDeNo(no){
+  const linhas=[];
+  const percorrer=(n,nivel)=>{
+    if(n.tipo==='heading'){
+      linhas.push('#'.repeat(Math.max(1,nivel))+' '+n.texto);
+      (n.filhos||[]).forEach(f=>percorrer(f,nivel+1));
+    }else if(n.tipo==='linha'){
+      linhas.push(n.texto);
+    }else if(n.filhos){ n.filhos.forEach(f=>percorrer(f,nivel)); }
+  };
+  percorrer(no,no.nivel||1);
+  return linhas.join('\n');
+}
+function textoVisivelDoDOM(elInicial){
+  const linhas=[];
+  const percorrerFilhosDe=(container)=>{
+    if(!container) return;
+    [...container.children].forEach(child=>{
+      if(child.classList.contains('secao')) percorrerSecao(child);
+      else if(child.classList.contains('coord-wrap')) percorrerCoordWrap(child);
+    });
+  };
+  const percorrerSecao=(el)=>{
+    const titulo=el.querySelector(':scope > .heading-row .titulo');
+    if(titulo) linhas.push('#'.repeat(Math.max(1,+el.dataset.nivel||1))+' '+titulo.textContent);
+    const inner=el.querySelector(':scope > .filhos-inner');
+    if(!inner||inner.hidden) return;
+    inner.querySelectorAll(':scope > .paragrafo').forEach(p=>linhas.push(p.textContent.trim()));
+    percorrerFilhosDe(inner);
+  };
+  const percorrerCoordWrap=(wrap)=>{
+    const marca=wrap.querySelector(':scope > .coordenada .marca-coord');
+    if(marca) linhas.push('['+marca.textContent+']');
+    wrap.querySelectorAll(':scope > .paragrafo').forEach(p=>linhas.push(p.textContent.trim()));
+    percorrerFilhosDe(wrap);
+  };
+  if(elInicial.classList.contains('secao')) percorrerSecao(elInicial);
+  else percorrerCoordWrap(elInicial);
+  return linhas.join('\n');
+}
+async function copiarSecao(secaoEl,no,modoTudo){
+  const texto=modoTudo?textoDeNo(no):textoVisivelDoDOM(secaoEl);
+  if(!texto.trim()){flash('Nada visível para copiar — abra a seção primeiro');return;}
+  try{await navigator.clipboard.writeText(texto);flash((modoTudo?'Copiado (tudo): ':'Copiado (visível): ')+no.texto);}
+  catch(e){flash('Não foi possível copiar automaticamente');}
+}
+async function copiarLink(secaoEl,no){
+  const base=location.href.split('#')[0];
+  const url=secaoEl.id?base+'#'+secaoEl.id:base;
+  try{await navigator.clipboard.writeText(url);flash('Link copiado');}catch(e){flash(url);}
+}
+
+function toggle(secao,forcar){
+  const abrir=forcar!==undefined?forcar:!secao.classList.contains('aberto');
+  if(abrir) construir(secao);
+  secao.classList.toggle('aberto',abrir);
+  secao._inner.hidden=!abrir;
+  secao._toggleBtn.setAttribute('aria-expanded',abrir?'true':'false');
+}
+function abrirTudo(abrir){
+  if(!raizEl) return;
+  const pilha=[...raizEl.querySelectorAll(':scope > .secao')];
+  while(pilha.length){
+    const s=pilha.pop(); toggle(s,abrir);
+    if(abrir) pilha.push(...s._inner.querySelectorAll(':scope > .secao'));
+    else s._inner.querySelectorAll('.secao').forEach(x=>toggle(x,false));
+  }
+}
+
+/* ---------- link permanente: abre o caminho até a âncora ---------- */
+function irParaAncora(hash){
+  if(!hash||hash.length<2) return false;
+  const alvo=hash.slice(1);
+  const caminho=[];
+  const achar=(no)=>{
+    for(const f of (no.filhos||[])){
+      if(f.el && f.el.id===alvo){caminho.push(f);return true;}
+      if(f.tipo==='heading'){caminho.push(f); if(achar(f)) return true; caminho.pop();}
+    }
+    return false;
+  };
+  if(!achar(arvore)) return false;
+  for(const no of caminho){ if(no._secao) toggle(no._secao,true); else if(no.pai&&no.pai._secao) toggle(no.pai._secao,true); }
+  const el=document.getElementById(alvo);
+  if(el){el.scrollIntoView({block:'center'});el.classList.add('lendo-agora');setTimeout(()=>el.classList.remove('lendo-agora'),2500);return true;}
+  return false;
+}
+
+/* ============ TTS ============ */
+let fila=[],idx=0,lendo=false;
+function coletar(no,out){
+  if(no.tipo==='heading') out.push(no.texto);
+  else if(no.tipo==='linha') out.push(no.texto);
+  (no.filhos||[]).forEach(f=>coletar(f,out));
+  return out;
+}
+function falar(txt,fim){
+  if(!('speechSynthesis' in window)){flash('Sem leitura em voz alta neste navegador');return;}
+  const u=new SpeechSynthesisUtterance(txt);
+  u.lang=idiomaDoTexto(txt).voz;u.rate=.98;u.onend=fim;speechSynthesis.speak(u);
+}
+function lerSecao(no){parar();fila=coletar(no,[]);idx=0;lendo=true;anunciar('Lendo '+no.texto);proximo();}
+function lerTudo(){parar();fila=coletar(arvore,[]);idx=0;lendo=true;
+  document.getElementById('btn-ouvir-tudo').setAttribute('aria-pressed','true');anunciar('Lendo o rolo');proximo();}
+function proximo(){if(!lendo||idx>=fila.length){parar();return;}falar(fila[idx++],proximo);}
+function parar(){lendo=false;if('speechSynthesis'in window)speechSynthesis.cancel();
+  document.getElementById('btn-ouvir-tudo')?.setAttribute('aria-pressed','false');}
+
+let ft;function flash(m){const e=document.getElementById('flash');e.textContent=m;e.classList.add('show');clearTimeout(ft);ft=setTimeout(()=>e.classList.remove('show'),1600);}
+function anunciar(m){document.getElementById('anuncio').textContent=m;}
+
+/* ============ montagem ============ */
+let arvore, raizEl;
+function montar(){
+  const fonte=document.getElementById('texto');
+  if(!fonte) return;
+  arvore=parseDOM(fonte);
+  raizEl=document.createElement('div');
+  raizEl.id='texto';                       // o link "pular para o texto" continua valendo
+  fonte.replaceWith(raizEl);               // o texto sai do documento e passa a viver na árvore
+  arvore.filhos.forEach(no=>raizEl.appendChild(renderFilho(no)));
+  // o menu de ajustes é do motor, não da obra: fica fora do texto, e fora da cópia/impressão
+  const menu=document.createElement('div');menu.className='menu-ajustes';
+  parseMD(MENU_MD).filhos.forEach(no=>menu.appendChild(renderFilho(no)));
+  raizEl.parentNode.insertBefore(menu,raizEl.nextSibling);
+
+  document.querySelectorAll('.barra-topo [data-cmd]').forEach(b=>b.addEventListener('click',()=>acoes[b.dataset.cmd]&&acoes[b.dataset.cmd]()));
+  document.getElementById('btn-ouvir-tudo').addEventListener('click',lerTudo);
+  document.getElementById('btn-parar').addEventListener('click',()=>{parar();flash('Leitura parada');});
+
+  const t=ler('pa:tema'); if(t) aplicarTema(t,'');
+  const f=ler('pa:fonte'); if(f) document.documentElement.style.setProperty('--font-scale',f);
+
+  // primeiro nível sempre aberto: quem chega vê o começo da obra, não uma lista de gavetas
+  const primeira=raizEl.querySelector(':scope > .secao');
+  if(primeira) toggle(primeira,true);
+
+  if(!irParaAncora(location.hash) && location.hash) {/* âncora inexistente: silêncio */}
+  window.addEventListener('hashchange',()=>irParaAncora(location.hash));
+  window.addEventListener('beforeprint',()=>abrirTudo(true));
+}
+/* Rede de segurança: como o texto-fonte está escondido por CSS assim que há
+   JavaScript, uma falha aqui deixaria a tela em branco — o pior desfecho
+   possível para um arquivo cuja razão de existir é ser legível. Se o motor cair
+   por qualquer motivo, a classe sai e o texto reaparece: perde-se o recolhimento
+   e a voz, não se perde a obra. */
+try{ montar(); }
+catch(e){
+  document.documentElement.classList.remove('js');
+  const el=document.getElementById('texto');
+  if(el && !el.classList.contains('fonte-texto')) el.className='fonte-texto';
+  console.error('Motor do rolo falhou; texto-fonte restaurado.',e);
+}
+</script>
+</body>
+</html>

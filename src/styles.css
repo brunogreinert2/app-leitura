@@ -943,6 +943,30 @@ button {
   scroll-margin-top: 4rem;
 }
 
+/* Endereços tocáveis: o marcador canônico e o número do versículo copiam o
+   link do rolo até aquela passagem. Não viram <button> de propósito — um livro
+   tem milhares deles, e milhares de paradas de tabulação atrapalhariam quem
+   navega por teclado muito mais do que ajudariam. O alvo de toque é ampliado
+   por padding, não por tamanho de fonte: o texto não pode dançar. */
+.verse-number,
+.marker {
+  cursor: pointer;
+  padding: 0.25em 0.15em;
+  margin: -0.25em -0.15em;
+  border-radius: 0.25em;
+  -webkit-tap-highlight-color: transparent;
+}
+.verse-number:hover,
+.marker:hover,
+.verse-number:active,
+.marker:active {
+  background: var(--hl-bg);
+  color: var(--hl-fg);
+}
+.verse-number {
+  scroll-margin-top: 4rem;
+}
+
 /* Realce de texto (==marca-texto==): mesma cor da busca em tela
    (--hl-bg/--hl-fg), já calibrada por tema — reseta o amarelo padrão
    do navegador pra não brigar com o resto da paleta. */

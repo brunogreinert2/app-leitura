@@ -15,7 +15,7 @@ interface MarkerNode {
   type: 'canonicalMarker'
   data: {
     hName: 'span'
-    hProperties: { id: string; className: string[] }
+    hProperties: { id: string; className: string[]; title: string }
     hChildren: [{ type: 'text'; value: string }]
   }
 }
@@ -30,7 +30,12 @@ function markerNode(literal: string, address: string, seen: Map<string, number>)
     type: 'canonicalMarker',
     data: {
       hName: 'span',
-      hProperties: { id, className: ['marker'] },
+      hProperties: {
+        id,
+        className: ['marker'],
+        // O marcador é endereço: tocá-lo copia o link do rolo até este ponto.
+        title: 'Tocar para copiar o link desta passagem',
+      },
       hChildren: [{ type: 'text', value: literal }],
     },
   }
