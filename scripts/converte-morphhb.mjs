@@ -13,7 +13,7 @@ const outDir = join(
   '..',
   'public',
   'livros',
-  'HEBRAICO',
+  'BIBLIAS',
   'Biblia_Hebraica_WLC',
 )
 
