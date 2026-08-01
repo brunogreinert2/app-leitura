@@ -4,6 +4,10 @@ dev-dist/
 *.local
 tsconfig.tsbuildinfo
 
+# bytecode dos scripts Python (gerador de rolo) — regenerado sozinho
+__pycache__/
+*.pyc
+
 # arquivos pessoais do Bruno, nunca sobem pro GitHub
 publicar.ps1
 PESSOAL_atalhos.md

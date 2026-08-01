@@ -93,6 +93,12 @@ RX_CODIGO = re.compile(r"`([^`\n]+?)`")
 # src/lib/remarkMarkers.ts, pelo mesmo motivo da âncora acima.
 RX_MARCADOR = re.compile(r"\[(\d+(?:[a-z]\d*)?(?:\.[0-9a-z]+)?)\]")
 RX_NOTA_REF = re.compile(r"\[\^([A-Za-z0-9\-_]+)\]")
+# Quebra dura do CommonMark: dois ou mais espaços no fim da linha. O remark do
+# app já a respeita — o versículo continua UM parágrafo e a âncora fica no lugar.
+# Aqui ela precisa ser lida antes de qualquer rstrip(), senão o sinal se perde e
+# cada linha do poema vira um <p> solto, com o id caindo na última em vez da
+# primeira. É o caso da Vulgata (28.858 quebras) e de qualquer texto em verso.
+RX_QUEBRA_DURA = re.compile(r"\S {2,}$")
 
 def inline(txt: str, marcadores: dict[str, int] | None = None) -> str:
     """Converte uma linha de markdown em HTML. O texto é escapado ANTES de
@@ -128,6 +134,29 @@ def atributo(valor: str) -> str:
     return html.escape(valor, quote=True)
 
 # ---------------------------------------------------------------- markdown -> corpo HTML
+def blocos_logicos(md: str) -> list[list[str]]:
+    """Agrupa as linhas físicas em blocos lógicos.
+
+    Linha terminada em quebra dura (dois espaços) continua na seguinte; linha em
+    branco sempre fecha o bloco. Quase todo bloco tem um segmento só — nesse caso
+    o caminho de renderização é exatamente o de antes."""
+    blocos: list[list[str]] = []
+    atual: list[str] = []
+    for linha in md.splitlines():
+        if not linha.strip():
+            if atual:
+                blocos.append(atual)
+                atual = []
+            continue
+        atual.append(linha)
+        if not RX_QUEBRA_DURA.search(linha):
+            blocos.append(atual)
+            atual = []
+    if atual:
+        blocos.append(atual)
+    return blocos
+
+
 def corpo_html(md: str, prefixo_id: str = "") -> tuple[str, int]:
     """Emite uma sequência PLANA de elementos. A hierarquia fica em data-n —
     o motor a reconstrói. Plano no HTML significa que qualquer leitor ingênuo
@@ -147,16 +176,18 @@ def corpo_html(md: str, prefixo_id: str = "") -> tuple[str, int]:
         usados.add(cand)
         return cand
 
-    for linha in md.splitlines():
-        crua = linha.rstrip()
-        if not crua.strip():
-            continue
+    for bloco in blocos_logicos(md):
+        segmentos = [l.rstrip() for l in bloco]
+        crua = segmentos[0]
 
+        # A âncora fecha o bloco, então vive no último segmento.
         ancora = ""
-        m = RX_ANCORA.search(crua)
+        m = RX_ANCORA.search(segmentos[-1])
         if m:
             ancora = id_unico(m.group(1))
-            crua = crua[: m.start()].rstrip()
+            segmentos[-1] = segmentos[-1][: m.start()].rstrip()
+            if len(segmentos) == 1:
+                crua = segmentos[0]
 
         attr_id = f' id="{atributo(ancora)}"' if ancora else ""
 
@@ -192,6 +223,19 @@ def corpo_html(md: str, prefixo_id: str = "") -> tuple[str, int]:
             corpo = re.sub(r"^\s*[-*+]\s+", "", corpo)
         elif re.match(r"^\s*\d+[.)]\s+", corpo):
             classes.append("item")
+
+        if len(segmentos) > 1:
+            # Bloco ligado por quebra dura: UM parágrafo, <br> entre as linhas.
+            # O primeiro segmento já perdeu o prefixo de citação/lista acima.
+            partes = [corpo] + segmentos[1:]
+            lang, direcao = idioma_da_linha(" ".join(partes))
+            attr_lang = f' lang="{lang}"' if lang else ""
+            attr_dir = ' dir="rtl"' if direcao == "rtl" else ""
+            miolo = "<br>".join(inline(p, marcadores) for p in partes if p)
+            saida.append(
+                f'<p class="{" ".join(classes)}"{attr_lang}{attr_dir}{attr_id}>{miolo}</p>'
+            )
+            continue
 
         lang, direcao = idioma_da_linha(corpo)
         attr_lang = f' lang="{lang}"' if lang else ""
