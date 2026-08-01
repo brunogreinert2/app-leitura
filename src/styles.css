@@ -932,6 +932,47 @@ button {
   margin: 2em 0;
 }
 
+/* Tabelas do corpus (índices, quadros de correspondência). Sem regra nenhuma
+   o navegador desenha sem borda e as colunas colam umas nas outras. Só cor de
+   borda e de superfície do tema — o texto continua em --color-text, então o
+   contraste de 7:1 vale em todos os [data-theme] sem exceção.
+
+   Tabela larga demais para a tela rola na horizontal: o wrapper vem do CSS,
+   não do markdown, para o arquivo do acervo seguir CommonMark puro. */
+.reader-body table {
+  display: block;
+  width: max-content;
+  max-width: 100%;
+  overflow-x: auto;
+  border-collapse: collapse;
+  margin: 1.25em 0;
+  font-size: inherit;
+}
+
+.reader-body th,
+.reader-body td {
+  border: 1px solid var(--color-border);
+  padding: 0.35em 0.7em;
+  text-align: left;
+  vertical-align: top;
+}
+
+.reader-body thead th {
+  background: var(--color-surface);
+  font-weight: 700;
+}
+
+/* Alinhamento vindo do markdown (|---:|) prevalece sobre o padrão acima. */
+.reader-body th[align='right'],
+.reader-body td[align='right'] {
+  text-align: right;
+}
+
+.reader-body th[align='center'],
+.reader-body td[align='center'] {
+  text-align: center;
+}
+
 .reader-body a {
   color: var(--color-accent);
 }
