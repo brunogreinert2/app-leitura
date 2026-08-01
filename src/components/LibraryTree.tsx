@@ -55,7 +55,9 @@ function Folder({ node, expanded, onToggle, onSelect, onRemove, forceOpen }: Fol
       <button className="lib-folder" onClick={() => onToggle(node.path)} aria-expanded={isOpen}>
         <span className="lib-folder-arrow">{isOpen ? '▾' : '▸'}</span>
         {node.name}
-        <span className="lib-folder-count">({countBooks(node)})</span>
+        <span className="lib-folder-count">
+          {node.folders.length > 0 && `(${node.folders.length}) `}({countBooks(node)})
+        </span>
       </button>
       {isOpen && (
         <ul className="lib-children">
