@@ -52,6 +52,51 @@ def idioma_da_linha(t: str) -> tuple[str, str]:
         return "ru", "ltr"
     return "", "ltr"
 
+# ---------------------------------------------------------------- idioma da página
+# O front matter usa ISO 639-2/B ("eng", "grc"); o atributo lang do HTML precisa
+# de BCP 47 ("en", "grc"). Sem esta tabela o código cai num padrão e a página
+# MENTE: um leitor de tela lê inglês com fonética portuguesa. Era o caso de 326
+# páginas — inglês é o maior idioma do acervo e não estava no mapa.
+#
+# O corpus tem grafias mistas para o mesmo idioma ("por" e "pt-BR", "lat" e
+# "la"): as duas entram aqui de propósito, porque normalizar 1043 arquivos é
+# outro trabalho e a página não pode esperar por ele.
+IDIOMAS_BCP47 = {
+    "por": "pt-BR", "pt": "pt-BR", "pt-br": "pt-BR",
+    "eng": "en", "en": "en",
+    "grc": "grc",  # grego ANTIGO — "el" é o moderno, outra fonética
+    "ell": "el", "el": "el",
+    "lat": "la", "la": "la",
+    "heb": "he", "he": "he",
+    "ara": "ar", "ar": "ar",
+    "rus": "ru", "ru": "ru",
+    "fra": "fr", "fre": "fr", "fr": "fr",
+    "deu": "de", "ger": "de", "de": "de",
+    "spa": "es", "es": "es",
+    "ita": "it", "it": "it",
+}
+
+# Código que o mapa não conhece não pode sumir em silêncio: some daqui e
+# reaparece como página mentindo o idioma. Relatado no fim da execução.
+IDIOMAS_DESCONHECIDOS: dict[str, int] = {}
+
+
+def idioma_bcp47(bruto: str | None) -> str:
+    """`language:` do front matter -> atributo lang válido.
+
+    Edição bilíngue ("pt-BR/grc") vale pelo idioma primário: os trechos na outra
+    escrita já recebem lang próprio por linha, em corpo_html()."""
+    if not bruto or not bruto.strip():
+        IDIOMAS_DESCONHECIDOS["(sem campo language)"] = (
+            IDIOMAS_DESCONHECIDOS.get("(sem campo language)", 0) + 1
+        )
+        return "pt-BR"
+    chave = bruto.strip().split("/")[0].strip().lower()
+    if chave in IDIOMAS_BCP47:
+        return IDIOMAS_BCP47[chave]
+    IDIOMAS_DESCONHECIDOS[bruto] = IDIOMAS_DESCONHECIDOS.get(bruto, 0) + 1
+    return "pt-BR"
+
 # ---------------------------------------------------------------- front matter
 def separar_yaml(texto: str) -> tuple[dict, str]:
     """YAML simples (chave: valor). Não usa PyYAML: o front matter do corpus é raso
@@ -332,8 +377,7 @@ def gerar_obra(entrada: dict, raiz_corpus: Path, template: str, saida: Path, css
     if autor in ("—", "-", "null"):
         autor = meta.get("translator", "")
     corpo, n_head = corpo_html(md)
-    lang = (meta.get("language") or "pt")[:3]
-    lang_html = {"por": "pt-BR", "grc": "grc", "heb": "he", "lat": "la"}.get(lang, "pt-BR")
+    lang_html = idioma_bcp47(meta.get("language"))
     descricao = " · ".join(
         [p for p in [titulo, autor, meta.get("source", "")[:120]] if p]
     )
@@ -369,7 +413,7 @@ def gerar_obra(entrada: dict, raiz_corpus: Path, template: str, saida: Path, css
         "autor": autor,
         "colecao": entrada["arquivo"].split("/")[0],
         "sub": "/".join(entrada["arquivo"].split("/")[1:-1]),
-        "idioma": lang,
+        "idioma": lang_html,
         "bytes": destino.stat().st_size,
         "headings": n_head,
         "md_href": md_href,
@@ -472,6 +516,50 @@ ESTILO_INDICE = (
     ".n{font-family:ui-monospace,monospace;font-size:.7rem;opacity:.5;}</style>"
 )
 
+def agrupar_por_pasta(obras: list[dict], colecao: str) -> dict[str, list[dict]]:
+    """Agrupa as obras por pasta, subindo enquanto a pasta embrulhar uma só.
+
+    470 das 547 pastas do corpus (86%) guardam um arquivo único. Agrupando pelo
+    caminho literal, cada uma vira um título de seção que só repete — logo
+    abaixo, sozinho — o título da própria obra: "Epicteto/Diatribes (1)",
+    "Epicteto/Encheiridion (1)", cinco vezes seguidas.
+
+    Pior quando o nome da pasta perdeu o título no slug: a pasta
+    "Grego/Moralistas/Plutarco/The" é Περὶ τοῦ Ε τοῦ ἐν Δελφοῖς, e o índice
+    anunciava "Plutarco/The". Subindo um nível, a pasta-invólucro desaparece do
+    índice e a obra aparece pelo título que está no seu YAML.
+
+    Sobe em cadeia, contando as obras AO NÍVEL OU ABAIXO de cada prefixo — por
+    isso não pára num avô que também embrulha um só."""
+    from collections import Counter
+
+    ao_nivel_ou_abaixo: Counter[str] = Counter()
+    for o in obras:
+        sub = o.get("sub") or ""
+        partes = sub.split("/") if sub else []
+        for i in range(len(partes) + 1):
+            ao_nivel_ou_abaixo["/".join(partes[:i])] += 1
+
+    grupos: dict[str, list[dict]] = {}
+    for o in obras:
+        chave = o.get("sub") or ""
+        while "/" in chave and ao_nivel_ou_abaixo[chave] <= 1:
+            chave = chave.rsplit("/", 1)[0]
+        # último nível que ainda embrulha uma obra só: cai na raiz do acervo
+        if chave and "/" not in chave and ao_nivel_ou_abaixo[chave] <= 1:
+            chave = ""
+        grupos.setdefault(chave or colecao, []).append(o)
+    return grupos
+
+
+def rotulo_grupo(chave: str) -> str:
+    """"Grego/Estoicismo/Epicteto" -> "Grego / Estoicismo / Epicteto".
+
+    Barra colada lê como uma palavra só; com espaço, o leitor de tela faz a
+    pausa e o olho separa os níveis."""
+    return " / ".join(nome_bonito(p) for p in chave.split("/"))
+
+
 def cabeca(titulo: str) -> list[str]:
     return [
         "<!DOCTYPE html><html lang=pt-BR><head><meta charset=UTF-8>",
@@ -571,19 +659,32 @@ def gerar_indice(fichas: list[dict], saida: Path, colecoes: list[dict]) -> None:
                 f"marcador ... /rolo/<id>.html#marker-<endereço>"
             ) + "</pre>"
         )
-        por_sub: dict[str, list[dict]] = {}
-        for o in obras:
-            por_sub.setdefault(o.get("sub") or colecao, []).append(o)
+        por_sub = agrupar_por_pasta(obras, colecao)
         for sub in sorted(por_sub):
             itens = sorted(por_sub[sub], key=lambda x: x["titulo"])
+            plural_g = "obra" if len(itens) == 1 else "obras"
+            # A contagem sai do <h2>: quem navega título a título (leitor de
+            # tela, sumário do navegador) ouvia "…Diatribes 1" e não sabia se o
+            # 1 fazia parte do nome da seção.
+            # quebra de linha entre o título e a contagem: são blocos separados
+            # para o navegador de qualquer jeito, mas quem extrai texto puro
+            # (o leitor-alvo desta página) concatenaria "Estoicismo1 obra"
             sub_linhas.append(
-                f"<h2>{html.escape(nome_bonito(sub))} <span class=n>{len(itens)}</span></h2><ul>"
+                f"<h2>{html.escape(rotulo_grupo(sub))}</h2>\n"
+                f"<p class=n>{len(itens)} {plural_g}</p>\n<ul>"
             )
             for o in itens:
                 autor = f' <span class=n>— {html.escape(o["autor"])}</span>' if o["autor"] else ""
-                md = f'<a class=md href="{atributo(o["md_href"])}">md</a>' if o.get("md_href") else ""
+                # separador antes do link .md: sem ele o texto extraído da
+                # página fecha "— Epictetusmd", nome e rótulo grudados
+                md = (
+                    f' <span class=n>·</span> <a class=md href="{atributo(o["md_href"])}">md</a>'
+                    if o.get("md_href")
+                    else ""
+                )
+                lang_obra = f' lang="{atributo(o["idioma"])}"' if o.get("idioma") else ""
                 sub_linhas.append(
-                    f'<li><a href="{atributo(o["slug"])}.html">{html.escape(o["titulo"])}</a>{autor}{md}</li>'
+                    f'<li><a href="{atributo(o["slug"])}.html"{lang_obra}>{html.escape(o["titulo"])}</a>{autor}{md}</li>'
                 )
             sub_linhas.append("</ul>")
         sub_linhas.append("<p class=n style='margin-top:3rem'>Ὁ Διαφορεύς παρῆν</p></div></body></html>")
@@ -726,6 +827,18 @@ def main() -> int:
     gerar_indice(fichas, args.saida, colecoes)
     total = sum(f["bytes"] for f in fichas)
     print(f"\n✓ {len(fichas)} rolos · {total/1e6:.1f} MB · índice em {args.saida/'index.html'}")
+
+    from collections import Counter
+    idiomas = Counter(f["idioma"] for f in fichas)
+    print("  idiomas: " + ", ".join(f"{k} {v}" for k, v in idiomas.most_common()))
+    if IDIOMAS_DESCONHECIDOS:
+        # Não interrompe a publicação — mas a página desses arquivos herdou
+        # pt-BR sem ser português, e isso precisa aparecer em algum lugar.
+        print("\n  ! idioma não reconhecido (página ficou com lang=pt-BR):", file=sys.stderr)
+        for codigo, n in sorted(IDIOMAS_DESCONHECIDOS.items(), key=lambda x: -x[1]):
+            print(f"      {codigo!r}: {n} obra(s)", file=sys.stderr)
+        print("    → acrescente o código a IDIOMAS_BCP47 ou corrija o front matter.",
+              file=sys.stderr)
     return 0
 
 if __name__ == "__main__":
