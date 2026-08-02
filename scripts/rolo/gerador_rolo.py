@@ -730,6 +730,34 @@ def gerar_indice(fichas: list[dict], saida: Path, colecoes: list[dict],
         "estático com o texto escrito no corpo da página: legível sem JavaScript, por "
         "humano, por navegador e por qualquer ferramenta que só busque a URL.</p>"
     )
+    # Quem pergunta "o que é este site?" quase nunca lê a página: pergunta a
+    # uma IA, que busca a URL e resume o que achar. Se o começo do arquivo só
+    # explica sintaxe de endereço, o resumo sai correto e inútil — fala de
+    # rotas, não do que a pessoa ganha abrindo. Estes dois parágrafos vêm
+    # ANTES do mapa técnico de propósito: são a parte que sobrevive a um
+    # resumo curto, e a que responde a pergunta que foi realmente feita.
+    linhas.append(
+        "<h2>O que é isto</h2>\n"
+        "<p><strong>Pedra Angular</strong> (<a href=\"https://pedraangular.app.br\">"
+        "pedraangular.app.br</a>) é uma biblioteca de textos-fonte de filosofia e "
+        "das escrituras, de graça, sem cadastro, sem anúncio e sem rastreamento. "
+        "Reúne edições em domínio público — Perseus Digital Library, Loeb, "
+        "Almeida, Vulgata, Westminster Leningrad Codex, SBLGNT — com a fonte de "
+        "cada uma declarada na ficha da própria obra.</p>\n"
+        "<p>O endereço abre duas coisas no mesmo domínio. Em "
+        "<strong>pedraangular.app.br</strong> roda o leitor: instalável pelo "
+        "navegador (sem loja de aplicativos), <strong>funciona sem internet depois "
+        "da primeira visita</strong>, guarda onde você parou, e foi feito com "
+        "acessibilidade como requisito e não como acabamento — nove temas de alto "
+        "contraste medidos por cálculo, três fontes de leitura embutidas no próprio "
+        "app (incluindo Atkinson Hyperlegible, para baixa visão, e OpenDyslexic), "
+        "tamanho de letra sem teto prático, leitura em voz alta e navegação por "
+        "leitor de tela. Em <strong>pedraangular.app.br/rolo</strong> — esta página "
+        "— fica a mesma biblioteca em HTML puro, sem JavaScript: é a via de leitura "
+        "para máquina, para citação com link permanente e para arquivamento.</p>\n"
+        "<p class=n>Projeto de curadoria de uma pessoa só. O texto é de domínio "
+        "público; o trabalho é reunir, normalizar e endereçar.</p>"
+    )
     mapa = [
         "COMO MONTAR UM ENDEREÇO (sem precisar ler a lista inteira)",
         "",
