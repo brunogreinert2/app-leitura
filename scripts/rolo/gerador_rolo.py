@@ -28,7 +28,7 @@ USO
 Ὁ Διαφορεύς παρῆν
 """
 from __future__ import annotations
-import argparse, base64, html, json, re, shutil, sys
+import argparse, base64, html, json, os, re, shutil, sys
 from pathlib import Path
 
 AQUI = Path(__file__).resolve().parent
@@ -414,6 +414,9 @@ def gerar_obra(entrada: dict, raiz_corpus: Path, template: str, saida: Path, css
         "colecao": entrada["arquivo"].split("/")[0],
         "sub": "/".join(entrada["arquivo"].split("/")[1:-1]),
         "idioma": lang_html,
+        # a abreviatura é por OBRA, não global: cada tradução tem a sua
+        # ("1Cor" na Almeida, "1Co" alhures) e é ela que forma a âncora
+        "abrev": meta.get("abrev", ""),
         "bytes": destino.stat().st_size,
         "headings": n_head,
         "md_href": md_href,
@@ -560,6 +563,117 @@ def rotulo_grupo(chave: str) -> str:
     return " / ".join(nome_bonito(p) for p in chave.split("/"))
 
 
+# Nome em português do código BCP 47, só para exibir. A raiz declarava
+# "português, grego, latim e hebraico" à mão — e por isso não citava o inglês,
+# que é o MAIOR idioma do acervo. Agora a frase é montada a partir do que os
+# arquivos dizem, e um idioma novo aparece sozinho.
+NOMES_IDIOMA = {
+    "pt-BR": "português", "en": "inglês", "grc": "grego antigo", "el": "grego moderno",
+    "la": "latim", "he": "hebraico", "ar": "árabe", "ru": "russo",
+    "fr": "francês", "de": "alemão", "es": "espanhol", "it": "italiano",
+}
+
+# Famílias de <id> observadas no catálogo. A regra vale mais que a lista: quem
+# conhece a família monta o endereço sem baixar 1043 linhas. Cada família traz a
+# contagem e um exemplo REAL, tirado do próprio catálogo — se uma família mudar
+# de tamanho ou sumir, a página conta isso sozinha.
+FAMILIAS_ID = [
+    (re.compile(r"^biblia-\d\d-"), "biblia-<NN>-<livro>-<idioma>-<versão>-<ano>"),
+    (re.compile(r"^biblia-hebraica-wlc-"), "biblia-hebraica-wlc-<NN>-<livro>"),
+    (re.compile(r"^vulgata-clementina-"), "vulgata-clementina-<abrev>-lat-<editor>-<ano>"),
+    (re.compile(r"^douay-rheims-"), "douay-rheims-<abrev>-eng-<editor>-<ano>"),
+    (re.compile(r"^personagem-"), "personagem-<nome>"),
+    # o ano pode ser intervalo (1935-37) ou "sd" (sine data, sem data na fonte):
+    # exigir \d{4} no fim jogaria 57 obras latinas para fora sem motivo
+    (re.compile(r"-(eng|grc|lat|por|heb|ara|la)-"),
+     "<autor>-<obra>-<idioma>-<editor ou tradutor>-<ano ou sd>"),
+]
+
+
+def familias_de_id(fichas: list[dict]) -> list[tuple[str, int, str]]:
+    """(padrão, quantas, exemplo real) — na ordem do mais comum ao menos."""
+    achados: dict[str, list[str]] = {}
+    for f in fichas:
+        for rx, padrao in FAMILIAS_ID:
+            if rx.search(f["slug"]):
+                achados.setdefault(padrao, []).append(f["slug"])
+                break
+        else:
+            # Dizer a verdade vale mais que forçar todo id numa família: estes
+            # entraram antes da convenção e não têm segmento de idioma. Quem
+            # monta endereço por padrão precisa saber que a exceção existe.
+            achados.setdefault(
+                "(anteriores à convenção — sem segmento de idioma)", []
+            ).append(f["slug"])
+    return sorted(
+        ((p, len(ids), sorted(ids)[0]) for p, ids in achados.items()),
+        key=lambda x: -x[1],
+    )
+
+
+def carimbo_da_geracao() -> str:
+    """Data e commit. Sem isso não há como distinguir a página recém-gerada de
+    uma resposta de cache antigo — e a contagem de obras deixa de ser auditável."""
+    import datetime, subprocess
+
+    data = datetime.datetime.now(datetime.timezone.utc).strftime("%Y-%m-%d %H:%M UTC")
+    commit = os.environ.get("GITHUB_SHA", "")
+    if not commit:
+        try:
+            commit = subprocess.run(
+                ["git", "rev-parse", "HEAD"], capture_output=True, text=True, timeout=5
+            ).stdout.strip()
+        except Exception:
+            commit = ""
+    return f"{data}, commit {commit[:8]}" if commit else data
+
+
+def gerar_pagina_abreviaturas(fichas: list[dict], saida: Path) -> int:
+    """A âncora de versículo nasce da abreviatura, e a abreviatura varia POR
+    TRADUÇÃO — a Almeida escreve "1Cor" onde outra escreve "1Co". Uma lista
+    global dos 66 livros seria simples e estaria errada: o que endereça a
+    passagem é a abreviatura daquela obra. Por isso a tabela é abreviatura ->
+    obras que a usam."""
+    por_abrev: dict[str, list[dict]] = {}
+    for f in fichas:
+        if f.get("abrev"):
+            por_abrev.setdefault(f["abrev"], []).append(f)
+    if not por_abrev:
+        return 0
+
+    linhas = cabeca("Abreviaturas")
+    linhas.append("<h1>Φ Abreviaturas de âncora</h1>")
+    linhas.append(
+        f'<p>{len(por_abrev)} abreviaturas em {sum(len(v) for v in por_abrev.values())} obras. '
+        '<a href="index.html">← raiz</a></p>'
+    )
+    linhas.append(
+        "<pre>"
+        + html.escape(
+            "A âncora de uma passagem é   #anchor-<abrev em minúsculas>-<capítulo>-<versículo>\n"
+            "  ex.: abrev Gn  ->  /rolo/biblia-01-genesis-por-alm1911-1911.html#anchor-gn-1-1\n\n"
+            "A abreviatura é da OBRA, não do livro bíblico: traduções diferentes\n"
+            "abreviam diferente (1Cor / 1Co / 1Ep.Cor). A de cada obra está na\n"
+            "ficha da sua própria página e no campo abrev: do seu .md."
+        )
+        + "</pre>"
+    )
+    for abrev in sorted(por_abrev, key=str.lower):
+        obras = sorted(por_abrev[abrev], key=lambda x: x["titulo"])
+        linhas.append(f"<h2>{html.escape(abrev)}</h2>")
+        linhas.append(f"<p class=n>âncora <code>#anchor-{html.escape(abrev.lower())}-&lt;cap&gt;-&lt;v&gt;</code> · {len(obras)} obra(s)</p>")
+        linhas.append("<ul>")
+        for o in obras:
+            lang_obra = f' lang="{atributo(o["idioma"])}"' if o.get("idioma") else ""
+            linhas.append(
+                f'<li><a href="{atributo(o["slug"])}.html"{lang_obra}>{html.escape(o["titulo"])}</a></li>'
+            )
+        linhas.append("</ul>")
+    linhas.append("<p class=n style='margin-top:3rem'>Ὁ Διαφορεύς παρῆν</p></div></body></html>")
+    (saida / "abreviaturas.html").write_text("\n".join(linhas), encoding="utf-8")
+    return len(por_abrev)
+
+
 def cabeca(titulo: str) -> list[str]:
     return [
         "<!DOCTYPE html><html lang=pt-BR><head><meta charset=UTF-8>",
@@ -569,7 +683,8 @@ def cabeca(titulo: str) -> list[str]:
         "</head><body><div class=w>",
     ]
 
-def gerar_indice(fichas: list[dict], saida: Path, colecoes: list[dict]) -> None:
+def gerar_indice(fichas: list[dict], saida: Path, colecoes: list[dict],
+                 catalogo_path: Path | None = None) -> None:
     """Índice em dois andares, e o mapa antes da lista.
 
     Listar 893 obras custa ~66 mil caracteres mesmo no formato mais enxuto —
@@ -591,11 +706,27 @@ def gerar_indice(fichas: list[dict], saida: Path, colecoes: list[dict]) -> None:
     exemplo = next((f for f in fichas if f["slug"].startswith("biblia-")), fichas[0] if fichas else None)
     slug_ex = exemplo["slug"] if exemplo else "id-da-obra"
 
+    # ---------------- fatos, todos derivados ----------------
+    from collections import Counter
+
+    idiomas = Counter(f["idioma"] for f in fichas)
+    frase_idiomas = ", ".join(
+        f"{NOMES_IDIOMA.get(cod, cod)} ({n})" for cod, n in idiomas.most_common()
+    )
+    n_abrev = len({f["abrev"] for f in fichas if f.get("abrev")})
+    if catalogo_path and catalogo_path.exists():
+        kb = catalogo_path.stat().st_size / 1024
+        n_entradas = len(json.loads(catalogo_path.read_text(encoding="utf-8"))["livros"])
+        preco_catalogo = f"({kb:.0f} KB, {n_entradas} entradas)"
+    else:
+        preco_catalogo = ""
+    carimbo = carimbo_da_geracao()
+
     # ---------------- índice-raiz: mapa + sete linhas ----------------
     linhas = cabeca("Rolos")
     linhas.append("<h1>Φ Rolos — Pedra Angular</h1>")
     linhas.append(
-        f"<p>{total} obras em português, grego, latim e hebraico. Cada obra é um arquivo "
+        f"<p>{total} obras em {frase_idiomas}. Cada obra é um arquivo "
         "estático com o texto escrito no corpo da página: legível sem JavaScript, por "
         "humano, por navegador e por qualquer ferramenta que só busque a URL.</p>"
     )
@@ -607,10 +738,25 @@ def gerar_indice(fichas: list[dict], saida: Path, colecoes: list[dict]) -> None:
         "                      ex.: #anchor-gn-1-1 (Gênesis 1:1), #anchor-ec-3-1 (Eclesiastes 3:1)",
         "  marcador canônico . /rolo/<id>.html#marker-<endereço>",
         "                      ex.: #marker-327a (Stephanus), #marker-1094a1 (Bekker)",
+        "  índice de acervo .. /rolo/<ACERVO>.html       ex.: /rolo/FILOSOFIA.html",
         "  markdown de origem  /livros/<caminho>.md",
-        "  catálogo em JSON .. /livros/catalogo.json",
+        f"  catálogo em JSON .. /livros/catalogo.json    {preco_catalogo}",
+    ]
+    if n_abrev:
+        mapa.append(f"  abreviaturas ...... /rolo/abreviaturas.html  ({n_abrev} abreviaturas)")
+    mapa += [
         "",
         "O <id> é o mesmo do catálogo e nunca muda depois de publicado.",
+        "",
+        "GRAMÁTICA DO <id> (famílias observadas no catálogo, com contagem e exemplo real)",
+        "",
+    ]
+    for padrao, n, ex in familias_de_id(fichas):
+        mapa.append(f"  {n:>5}  {padrao}")
+        mapa.append(f"         ex.: {ex}")
+    mapa += [
+        "",
+        f"Gerado em {carimbo}.",
     ]
     linhas.append("<pre>" + html.escape("\n".join(mapa)) + "</pre>")
 
@@ -641,7 +787,20 @@ def gerar_indice(fichas: list[dict], saida: Path, colecoes: list[dict]) -> None:
             f' <span class=n>{len(obras)} {plural}</span>{detalhe}</li>'
         )
     linhas.append("</ul>")
-    linhas.append("<p class=n style='margin-top:3rem'>Ὁ Διαφορεύς παρῆν</p></div></body></html>")
+    if n_abrev:
+        linhas.append(
+            f'<h2>Referência</h2>\n<ul>\n'
+            f'<li><a href="abreviaturas.html">Abreviaturas de âncora</a>'
+            f' <span class=n>{n_abrev} abreviaturas</span></li>\n</ul>'
+        )
+    # O colofão marca CURADORIA, não tradução: fecha tanto a obra que Bruno
+    # traduziu quanto a que apenas reuniu. Quem quer a distinção real lê o campo
+    # "Tradutor" na ficha de cada obra.
+    linhas.append(
+        f"<p class=n style='margin-top:3rem'>Gerado em {html.escape(carimbo)}</p>\n"
+        "<p class=n>Ὁ Διαφορεύς παρῆν — marca de curadoria; a tradução, quando há, "
+        "está no campo Tradutor da ficha de cada obra.</p>\n</div></body></html>"
+    )
     (saida / "index.html").write_text("\n".join(linhas), encoding="utf-8")
 
     # ---------------- um índice por acervo ----------------
@@ -656,7 +815,8 @@ def gerar_indice(fichas: list[dict], saida: Path, colecoes: list[dict]) -> None:
             "<pre>" + html.escape(
                 f"obra ....... /rolo/<id>.html\n"
                 f"passagem ... /rolo/<id>.html#anchor-<referência>\n"
-                f"marcador ... /rolo/<id>.html#marker-<endereço>"
+                f"marcador ... /rolo/<id>.html#marker-<endereço>\n"
+                f"\nGerado em {carimbo}."
             ) + "</pre>"
         )
         por_sub = agrupar_por_pasta(obras, colecao)
@@ -824,7 +984,10 @@ def main() -> int:
             colecoes.append(c)
             print(f"  {c['arquivo']}  {c['bytes']/1e6:.1f} MB  {c['headings']} headings")
 
-    gerar_indice(fichas, args.saida, colecoes)
+    n_abrev = gerar_pagina_abreviaturas(fichas, args.saida)
+    gerar_indice(fichas, args.saida, colecoes, catalogo_path=catalogo)
+    if n_abrev:
+        print(f"  abreviaturas: {n_abrev} → {args.saida/'abreviaturas.html'}")
     total = sum(f["bytes"] for f in fichas)
     print(f"\n✓ {len(fichas)} rolos · {total/1e6:.1f} MB · índice em {args.saida/'index.html'}")
 
