@@ -80,15 +80,16 @@
   /* Tema Sépia (padrão): leitura confortável, ~13:1 */
   --color-bg: #faf7f2;
   --color-text: #2b2620;
-  --color-muted: #5f564c;
+  --color-muted: #585049;
   --color-accent: #6b3e15;
   --color-surface: #ffffff;
   --color-border: #e0d8cc;
+  --color-borda-ui: #8a8377;
   --shadow-color: rgba(43, 38, 32, 0.25);
   --color-error: #8b2500;
   --hl-bg: #f5d76e;
   --hl-fg: #2b2620;
-  --hl-cur-bg: #d97c2b;
+  --hl-cur-bg: #8a4408;
   --hl-cur-fg: #ffffff;
 
   color-scheme: light;
@@ -107,6 +108,7 @@
   --color-accent: #0000b4;
   --color-surface: #ffffff;
   --color-border: #5a5a5a;
+  --color-borda-ui: #5a5a5a;
   --shadow-color: rgba(0, 0, 0, 0.4);
   --hl-bg: #ffe600;
   --hl-fg: #000000;
@@ -123,6 +125,7 @@
   --color-accent: #8ecbff;
   --color-surface: #0d0d0d;
   --color-border: #8a8a8a;
+  --color-borda-ui: #8a8a8a;
   --shadow-color: rgba(255, 255, 255, 0.15);
   --hl-bg: #ffe600;
   --hl-fg: #000000;
@@ -139,6 +142,7 @@
   --color-accent: #ffffff;
   --color-surface: #0d0c00;
   --color-border: #a89b00;
+  --color-borda-ui: #a89b00;
   --shadow-color: rgba(255, 230, 0, 0.2);
   --hl-bg: #ffffff;
   --hl-fg: #000000;
@@ -155,10 +159,15 @@
   --color-accent: #ffffff;
   --color-surface: #001200;
   --color-border: #1f9e1f;
+  --color-borda-ui: #1f9e1f;
   --shadow-color: rgba(51, 255, 51, 0.2);
   --hl-bg: #ffffff;
   --hl-fg: #000000;
-  --hl-cur-bg: #ffe600;
+  /* Laranja, não amarelo: sob tritanopia o amarelo (#ffe600) chega quase
+     branco, e a ocorrência atual da busca deixava de se distinguir das
+     outras — os dois fundos colapsavam num só. Medido em
+     scripts/medir_contraste.py. */
+  --hl-cur-bg: #ff8c00;
   --hl-cur-fg: #000000;
   --color-error: #ffffff;
   color-scheme: dark;
@@ -171,6 +180,7 @@
   --color-accent: #ffd75e;
   --color-surface: #0d1633;
   --color-border: #3a4a7a;
+  --color-borda-ui: #7789b8;
   --shadow-color: rgba(0, 0, 0, 0.6);
   --hl-bg: #ffd75e;
   --hl-fg: #0a1128;
@@ -187,6 +197,7 @@
   --color-accent: #7fe0d0;
   --color-surface: #08343c;
   --color-border: #2a6b74;
+  --color-borda-ui: #66aab4;
   --shadow-color: rgba(0, 0, 0, 0.55);
   --hl-bg: #ffe600;
   --hl-fg: #062a30;
@@ -199,10 +210,11 @@
 [data-theme='pergaminho'] {
   --color-bg: #ccbc9d;
   --color-text: #241a08;
-  --color-muted: #453519;
+  --color-muted: #392b13;
   --color-accent: #4a2a0c;
   --color-surface: #d5c7aa;
   --color-border: #a08d66;
+  --color-borda-ui: #63542f;
   --shadow-color: rgba(58, 42, 16, 0.35);
   --hl-bg: #f5e08a;
   --hl-fg: #241a08;
@@ -233,6 +245,7 @@
   --color-accent: #ffffff;
   --color-surface: #001048;
   --color-border: #5a6cb4;
+  --color-borda-ui: #8c9ad6;
   --shadow-color: rgba(0, 0, 0, 0.5);
   --hl-bg: #ffffff;
   --hl-fg: #001862;
@@ -331,7 +344,7 @@ button {
   text-align: left;
   padding: 1rem 1.25rem;
   background: var(--color-surface);
-  border: 1px solid var(--color-border);
+  border: 1px solid var(--color-borda-ui);
   border-radius: 0.5rem;
   /* Alvo de toque generoso */
   min-height: 4rem;
@@ -448,7 +461,7 @@ button {
   min-width: 0;
   padding: 0.6rem 0.75rem;
   font: inherit;
-  border: 1px solid var(--color-border);
+  border: 1px solid var(--color-borda-ui);
   border-radius: 0.375rem;
   background: var(--color-bg);
   color: var(--color-text);
@@ -528,7 +541,7 @@ button {
   width: 100%;
   padding: 0.6rem 0.75rem;
   font: inherit;
-  border: 1px solid var(--color-border);
+  border: 1px solid var(--color-borda-ui);
   border-radius: 0.375rem;
   background: var(--color-bg);
   color: var(--color-text);
@@ -583,7 +596,7 @@ button {
   padding: 0.6rem 0.75rem;
   font: inherit;
   font-weight: bold;
-  border: 1px solid var(--color-border);
+  border: 1px solid var(--color-borda-ui);
   border-radius: 0.375rem;
   background: var(--color-surface);
   color: var(--color-text);
@@ -784,14 +797,14 @@ button {
   flex-wrap: wrap;
   gap: 0.4rem;
   padding: 0.75rem 1rem;
-  border-bottom: 1px solid var(--color-border);
+  border-bottom: 1px solid var(--color-borda-ui);
 }
 
 .toc-action {
   flex: 1;
   min-height: 2.75rem;
   padding: 0.5rem 0.6rem;
-  border: 1px solid var(--color-border);
+  border: 1px solid var(--color-borda-ui);
   border-radius: 0.375rem;
   color: var(--color-accent);
   font-size: 0.85em;
@@ -951,7 +964,7 @@ button {
 
 .reader-body th,
 .reader-body td {
-  border: 1px solid var(--color-border);
+  border: 1px solid var(--color-borda-ui);
   padding: 0.35em 0.7em;
   text-align: left;
   vertical-align: top;
@@ -1193,7 +1206,7 @@ button {
   padding: 0.4rem;
   list-style: none;
   background: var(--color-surface);
-  border: 1px solid var(--color-border);
+  border: 1px solid var(--color-borda-ui);
   border-radius: 0.5rem;
   box-shadow: 0 4px 16px var(--shadow-color);
 }
@@ -1258,7 +1271,7 @@ button {
   padding: 0.6rem 0.9rem;
   margin: 0.5rem 0 1rem;
   min-height: 2.75rem;
-  border: 1px solid var(--color-border);
+  border: 1px solid var(--color-borda-ui);
   border-radius: 0.5rem;
   color: var(--color-accent);
   font-size: 0.85em;
@@ -1310,7 +1323,7 @@ button {
   margin-bottom: 0.6rem;
   min-height: 3rem;
   background: var(--color-bg);
-  border: 1px solid var(--color-border);
+  border: 1px solid var(--color-borda-ui);
   border-radius: 0.5rem;
   font-weight: bold;
 }
@@ -1338,7 +1351,7 @@ button {
 .font-option {
   background: var(--color-surface);
   color: var(--color-text);
-  border-color: var(--color-border);
+  border-color: var(--color-borda-ui);
 }
 
 .theme-option { /* herda o zoom do diálogo */
@@ -1453,7 +1466,7 @@ button {
   width: min(19rem, calc(100vw - 2rem));
   padding: 0.9rem 1rem;
   background: var(--color-surface);
-  border: 1px solid var(--color-border);
+  border: 1px solid var(--color-borda-ui);
   border-radius: 0.75rem;
   box-shadow: 0 4px 16px var(--shadow-color);
 }
@@ -1475,7 +1488,7 @@ button {
 .tts-stop {
   min-height: 2.75rem;
   padding: 0 0.9rem;
-  border: 1px solid var(--color-border);
+  border: 1px solid var(--color-borda-ui);
   border-radius: 0.5rem;
   color: var(--color-error);
 }
@@ -1494,7 +1507,7 @@ button {
   font: inherit;
   color: var(--color-text);
   background: var(--color-bg);
-  border: 1px solid var(--color-border);
+  border: 1px solid var(--color-borda-ui);
   border-radius: 0.375rem;
   padding: 0.4rem;
   accent-color: var(--color-accent);
