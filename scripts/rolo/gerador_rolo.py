@@ -803,52 +803,153 @@ def gerar_indice(fichas: list[dict], saida: Path, colecoes: list[dict],
     )
     (saida / "index.html").write_text("\n".join(linhas), encoding="utf-8")
 
-    # ---------------- um índice por acervo ----------------
+    # ---------------- a árvore de índices por acervo ----------------
+    paginas = 0
     for colecao in sorted(por_colecao):
-        obras = por_colecao[colecao]
-        sub_linhas = cabeca(colecao)
-        sub_linhas.append(f"<h1>Φ {html.escape(colecao)}</h1>")
-        sub_linhas.append(
-            f'<p>{len(obras)} {"obra" if len(obras)==1 else "obras"}. <a href="index.html">← todos os acervos</a></p>'
-        )
-        sub_linhas.append(
-            "<pre>" + html.escape(
-                f"obra ....... /rolo/<id>.html\n"
-                f"passagem ... /rolo/<id>.html#anchor-<referência>\n"
-                f"marcador ... /rolo/<id>.html#marker-<endereço>\n"
-                f"\nGerado em {carimbo}."
-            ) + "</pre>"
-        )
-        por_sub = agrupar_por_pasta(obras, colecao)
-        for sub in sorted(por_sub):
-            itens = sorted(por_sub[sub], key=lambda x: x["titulo"])
+        paginas += gerar_no_indice(por_colecao[colecao], colecao, (), saida, carimbo)
+    print(f"  índices: {paginas} páginas (raiz + árvore de acervos)")
+
+
+# Uma página de índice que não cabe na leitura é uma página que mente por
+# omissão: em agosto de 2026 uma instância externa leu FILOSOFIA.html (232 KB,
+# 609 obras em lista plana), recebeu o conteúdo truncado no meio dos Moralistas
+# em inglês e concluiu, com confiança, que "Plutarco em grego, nesse site,
+# aparentemente não existe" — e que o catálogo estaria defasado, com obras
+# "escondidas". Nenhuma das duas coisas era verdade: o texto acabou antes da
+# leitura chegar lá.
+#
+# Orçamento em BYTES, não em número de obras: o que trunca é o tamanho. ~350 B
+# por obra listada, então 80 KB comportam ~200 obras — e o corte cai onde o
+# acervo realmente se ramifica, sem inventar um nível a mais só para obedecer a
+# uma contagem redonda.
+ORCAMENTO_INDICE = 80_000
+
+
+def gerar_no_indice(obras: list[dict], colecao: str, caminho: tuple[str, ...],
+                    saida: Path, carimbo: str) -> int:
+    """Escreve a página deste nó e, se ele delegar, a dos filhos. Devolve
+    quantas páginas escreveu.
+
+    Lista as OBRAS quando a página resultante cabe no orçamento; senão lista os
+    FILHOS com suas contagens — é o comportamento de `listar_filhos` do MCP
+    virando arquivo estático. Um nó sem filhos sempre lista as obras, custe o
+    que custar: melhor uma página grande que uma página que não leva a lugar
+    nenhum."""
+    profundidade = len(caminho)
+    prefixo = "../" * profundidade  # de volta à raiz /rolo/
+    titulo = " / ".join([colecao] + [nome_bonito(p) for p in caminho])
+
+    # filhos = próximo segmento de `sub` depois de `caminho`
+    filhos: dict[str, list[dict]] = {}
+    proprias: list[dict] = []  # obras que moram exatamente aqui
+    for o in obras:
+        partes = [p for p in (o.get("sub") or "").split("/") if p]
+        if len(partes) > profundidade:
+            filhos.setdefault(partes[profundidade], []).append(o)
+        else:
+            proprias.append(o)
+
+    linhas = cabeca(titulo)
+    linhas.append(f"<h1>Φ {html.escape(titulo)}</h1>")
+
+    # trilha: cada nível clicável, para subir sem adivinhar a URL
+    trilha = [f'<a href="{prefixo}index.html">Rolos</a>']
+    for i in range(profundidade + 1):
+        alvo = "../" * (profundidade - i) + ((colecao + ".html") if i == 0 else caminho[i - 1] + ".html")
+        rotulo = colecao if i == 0 else nome_bonito(caminho[i - 1])
+        trilha.append(f'<a href="{atributo(alvo)}">{html.escape(rotulo)}</a>'
+                      if i < profundidade else html.escape(rotulo))
+    plural = "obra" if len(obras) == 1 else "obras"
+    linhas.append(f'<p>{len(obras)} {plural} · ' + " / ".join(trilha) + "</p>")
+    linhas.append(
+        "<pre>" + html.escape(
+            "obra ....... /rolo/<id>.html\n"
+            "passagem ... /rolo/<id>.html#anchor-<referência>\n"
+            "marcador ... /rolo/<id>.html#marker-<endereço>\n"
+            f"\nGerado em {carimbo}."
+        ) + "</pre>"
+    )
+
+    def linhas_das_obras() -> list[str]:
+        fora: list[str] = []
+        for sub, itens in sorted(agrupar_por_pasta(obras, colecao).items()):
+            itens = sorted(itens, key=lambda x: x["titulo"])
+            # o rótulo do grupo é relativo a este nó: repetir "Grego /
+            # Moralistas" em toda seção de uma página que já se chama assim
+            # gasta linha e não informa nada
+            relativo = "/".join(sub.split("/")[profundidade:]) if sub != colecao else ""
             plural_g = "obra" if len(itens) == 1 else "obras"
-            # A contagem sai do <h2>: quem navega título a título (leitor de
-            # tela, sumário do navegador) ouvia "…Diatribes 1" e não sabia se o
-            # 1 fazia parte do nome da seção.
-            # quebra de linha entre o título e a contagem: são blocos separados
-            # para o navegador de qualquer jeito, mas quem extrai texto puro
-            # (o leitor-alvo desta página) concatenaria "Estoicismo1 obra"
-            sub_linhas.append(
-                f"<h2>{html.escape(rotulo_grupo(sub))}</h2>\n"
-                f"<p class=n>{len(itens)} {plural_g}</p>\n<ul>"
-            )
+            if relativo:
+                fora.append(f"<h2>{html.escape(rotulo_grupo(relativo))}</h2>")
+                fora.append(f"<p class=n>{len(itens)} {plural_g}</p>")
+            fora.append("<ul>")
             for o in itens:
                 autor = f' <span class=n>— {html.escape(o["autor"])}</span>' if o["autor"] else ""
                 # separador antes do link .md: sem ele o texto extraído da
                 # página fecha "— Epictetusmd", nome e rótulo grudados
                 md = (
-                    f' <span class=n>·</span> <a class=md href="{atributo(o["md_href"])}">md</a>'
-                    if o.get("md_href")
-                    else ""
+                    f' <span class=n>·</span> '
+                    f'<a class=md href="{atributo(prefixo + o["md_href"])}">md</a>'
+                    if o.get("md_href") else ""
                 )
                 lang_obra = f' lang="{atributo(o["idioma"])}"' if o.get("idioma") else ""
-                sub_linhas.append(
-                    f'<li><a href="{atributo(o["slug"])}.html"{lang_obra}>{html.escape(o["titulo"])}</a>{autor}{md}</li>'
+                fora.append(
+                    f'<li><a href="{atributo(prefixo + o["slug"])}.html"{lang_obra}>'
+                    f'{html.escape(o["titulo"])}</a>{autor}{md}</li>'
                 )
-            sub_linhas.append("</ul>")
-        sub_linhas.append("<p class=n style='margin-top:3rem'>Ὁ Διαφορεύς παρῆν</p></div></body></html>")
-        (saida / f"{colecao}.html").write_text("\n".join(sub_linhas), encoding="utf-8")
+            fora.append("</ul>")
+        return fora
+
+    corpo_obras = linhas_das_obras()
+    tamanho = len("\n".join(linhas + corpo_obras).encode("utf-8"))
+    delega = bool(filhos) and tamanho > ORCAMENTO_INDICE
+
+    escritas = 1
+    if not delega:
+        linhas += corpo_obras
+    else:
+        # pasta do nó atual, onde as páginas-filhas vão morar
+        pasta = colecao if profundidade == 0 else caminho[-1]
+        linhas.append("<h2>Ramos</h2>")
+        linhas.append(
+            f"<p class=n>Esta página lista os ramos, não as obras: em lista plana "
+            f"seriam {len(obras)} itens ({tamanho/1024:.0f} KB), e leitura por "
+            f"ferramenta costuma truncar antes do fim.</p>"
+        )
+        linhas.append("<ul>")
+        for nome in sorted(filhos):
+            n = len(filhos[nome])
+            linhas.append(
+                f'<li><a href="{atributo(pasta)}/{atributo(nome)}.html">'
+                f'{html.escape(nome_bonito(nome))}</a> '
+                f'<span class=n>{n} {"obra" if n == 1 else "obras"}</span></li>'
+            )
+        linhas.append("</ul>")
+        if proprias:
+            # obra que mora no próprio nó não tem ramo para onde ir
+            linhas.append("<h2>Nesta pasta</h2>")
+            linhas.append("<ul>")
+            for o in sorted(proprias, key=lambda x: x["titulo"]):
+                lang_obra = f' lang="{atributo(o["idioma"])}"' if o.get("idioma") else ""
+                autor = f' <span class=n>— {html.escape(o["autor"])}</span>' if o["autor"] else ""
+                linhas.append(
+                    f'<li><a href="{atributo(prefixo + o["slug"])}.html"{lang_obra}>'
+                    f'{html.escape(o["titulo"])}</a>{autor}</li>'
+                )
+            linhas.append("</ul>")
+
+    linhas.append(f"<p class=n style='margin-top:3rem'>Gerado em {html.escape(carimbo)}</p>")
+    linhas.append("<p class=n>Ὁ Διαφορεύς παρῆν</p></div></body></html>")
+
+    destino = saida / (f"{colecao}.html" if profundidade == 0
+                       else Path(colecao, *caminho[:-1], f"{caminho[-1]}.html"))
+    destino.parent.mkdir(parents=True, exist_ok=True)
+    destino.write_text("\n".join(linhas), encoding="utf-8")
+
+    if delega:
+        for nome, filhas in filhos.items():
+            escritas += gerar_no_indice(filhas, colecao, caminho + (nome,), saida, carimbo)
+    return escritas
 
 # ---------------------------------------------------------------- piloto
 PILOTO = [
