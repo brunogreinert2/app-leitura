@@ -1,3 +1,8 @@
+> **Superada.** Esta é a v1 (2026-07-04) — registrada por histórico. A
+> estrutura em vigor é `ESTRUTURA_BIBLIOTECA_v2_idioma.md` (idioma como
+> 1º nível dentro de cada seção; Grego/Latim deixaram de ser seções de
+> topo e viraram subpasta de Filosofia).
+
 # Estrutura da Biblioteca — Proposta de Organização da Sidebar
 
 > Como dividir o menu lateral (Φ) do app para caber tudo o que já temos e o

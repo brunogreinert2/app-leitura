@@ -14,6 +14,7 @@ const outDir = join(
   'public',
   'livros',
   'BIBLIAS',
+  'Hebraico',
   'Biblia_Hebraica_WLC',
 )
 

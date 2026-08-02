@@ -10,15 +10,17 @@ public/livros/
 ├── catalogo.json            ← a lista de livros do app
 ├── personagens.json         ← gerado automaticamente (não editar à mão)
 ├── IMPRESSOES_APP.md        ← o texto de boas-vindas
-├── FILOSOFIA/…              ← pastas espelhando o vault
-├── ROLOS/…
+├── BIBLIAS/…                ← Portugues/, Latim/, Ingles/, Grego/,
+│                                Hebraico/, Interlineares_Hebraico/
+├── FILOSOFIA/…               ← Portugues/, Ingles/, Grego/, Latim/
 └── PERSONAGENS/…            ← um .md por personagem
 ```
 
-**Os nomes dos "menus" da biblioteca são os nomes das pastas.**
-Quer que ROLOS vire "Bíblias"? Renomeie a pasta `ROLOS` para `Bíblias`
-e ajuste o campo `arquivo` dos livros dela no `catalogo.json`
-(ex.: `"ROLOS/ROLO_Biblia_TB_1917.md"` → `"Bíblias/ROLO_Biblia_TB_1917.md"`).
+**Os nomes dos "menus" da biblioteca são os nomes das pastas.** Dentro
+de BIBLIAS e FILOSOFIA, o 1º nível é sempre o idioma da edição
+(Portugues/Latim/Ingles/Grego/Hebraico) — ver
+`ESTRUTURA_BIBLIOTECA_v2_idioma.md` pra entender por quê antes de criar
+pasta nova fora desse padrão.
 
 ## Adicionar uma COLEÇÃO inteira (o jeito rápido)
 

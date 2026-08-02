@@ -8,74 +8,63 @@ status: rascunho
 
 # Tradução do menu para inglês
 
-Rascunho pra revisão — nada foi mexido no código ou nos arquivos. Projeto separado da reorganização de BIBLIAS/HEBRAICO.
+Rascunho pra revisão — nada foi mexido no código ou nos arquivos. Projeto separado. Atualizado em 2026-08-01 pra refletir a estrutura v2 (`ESTRUTURA_BIBLIOTECA_v2_idioma.md`) — idioma como 1º nível dentro de BIBLIAS e FILOSOFIA; HEBRAICO, GREGO e LATIM deixaram de ser categorias de topo.
 
 ## 1. Categorias de topo
 
 | PT (atual) | EN proposto | Nota |
 |---|---|---|
 | BIBLIAS | BIBLES | |
-| HEBRAICO | HEBREW | |
 | FILOSOFIA | PHILOSOPHY | |
-| GREGO | GREEK | |
-| LATIM | LATIN | |
 | PERSONAGENS | FIGURES | "Characters" soa ficção; "Figures" cobre pessoa histórica/filosófica |
 | Meus arquivos | My Files | pasta virtual dos uploads locais |
 
-## 2. Subpastas de BIBLIAS
+## 2. Idiomas (1º nível dentro de BIBLIAS e FILOSOFIA)
+
+| PT (atual, nome da pasta) | EN proposto |
+|---|---|
+| Portugues | Portuguese |
+| Latim | Latin |
+| Ingles | English |
+| Grego | Greek |
+| Hebraico | Hebrew |
+
+## 3. Subpastas de BIBLIAS/{Idioma}
 
 | PT (atual, nome da pasta) | EN proposto | Nota |
 |---|---|---|
-| Almeida_1911 | Almeida 1911 | nome próprio da tradução — não traduz |
-| Biblia_Livre | Bíblia Livre (Free Bible) | nome próprio; glosa em inglês entre parênteses |
-| Traducao_Brasileira_1917 | Tradução Brasileira 1917 (Brazilian Translation) | idem |
-| Vulgata_Clementina | Clementine Vulgate | termo padrão em inglês, não é "nome próprio" no mesmo sentido |
-| Douay_Rheims | Douay-Rheims | já em inglês |
-| Novo_Testamento_Grego | Greek New Testament (SBLGNT) | |
-| Biblia_Hebraica_WLC | Hebrew Bible (WLC) | |
+| Portugues/Almeida_1911 | Almeida 1911 | nome próprio da tradução — não traduz |
+| Portugues/Biblia_Livre | Bíblia Livre (Free Bible) | nome próprio; glosa em inglês entre parênteses |
+| Portugues/Traducao_Brasileira_1917 | Tradução Brasileira 1917 (Brazilian Translation) | idem |
+| Latim/Vulgata_Clementina | Clementine Vulgate | termo padrão em inglês, não é "nome próprio" no mesmo sentido |
+| Ingles/Douay_Rheims | Douay-Rheims | já em inglês |
+| Grego/Novo_Testamento_Grego | Greek New Testament (SBLGNT) | |
+| Hebraico/Biblia_Hebraica_WLC | Hebrew Bible (WLC) | |
+| Interlineares_Hebraico | Hebrew Interlinear Texts | categoria própria, fora do eixo de idioma (mistura hebraico+português) |
 
-## 3. Subpastas de HEBRAICO
+## 4. Subpastas de FILOSOFIA/{Idioma}
 
-| PT (atual) | EN proposto |
-|---|---|
-| Escrituras_Hebraicas | Hebrew Scriptures |
+| PT (atual) | EN proposto | Em qual idioma hoje |
+|---|---|---|
+| Aristotelismo | Aristotelianism | Ingles |
+| Biografia_e_Doxografia | Biography and Doxography | Ingles |
+| Estoicismo | Stoicism | Ingles + Grego + Latim (Estoicismo_Latino) |
+| Iluminismo | Enlightenment | Portugues |
+| Moralistas | Moralists | Ingles + Grego |
+| Patristica | Patristics | Ingles + Grego + Latim |
+| Platonismo | Platonism | Ingles (+ 2 arquivos em Portugues, ver nota) |
+| Filosofia_Classica | Classical Philosophy | Grego |
+| Neoplatonismo_e_Tardia | Neoplatonism and Late Antiquity | Grego |
+| Escolastica | Scholasticism | Latim |
+| Espiritualidade | Spirituality | Latim |
+| Filosofia_Republicana | Republican Philosophy | Latim |
+| Moderna | Modern | Latim |
+| Platonismo_Medio | Middle Platonism | Latim |
+| Renascimento | Renaissance | Latim |
 
-## 4. Subpastas de FILOSOFIA
+Nota: `FILOSOFIA/Portugues/Platonismo/Platao/Sophist/` tem a tradução e o interlinear português/grego do Sofista — puxados pra fora de `Ingles/Platonismo` mesmo esse ainda existindo lá (edição Fowler, inglês).
 
-| PT (atual) | EN proposto |
-|---|---|
-| Aristotelismo | Aristotelianism |
-| Biografia_e_Doxografia | Biography and Doxography |
-| Estoicismo | Stoicism |
-| Iluminismo | Enlightenment |
-| Moralistas | Moralists |
-| Patristica | Patristics |
-| Platonismo | Platonism |
-
-## 5. Subpastas de GREGO
-
-| PT (atual) | EN proposto |
-|---|---|
-| Estoicismo | Stoicism |
-| Filosofia_Classica | Classical Philosophy |
-| Moralistas | Moralists |
-| Neoplatonismo_e_Tardia | Neoplatonism and Late Antiquity |
-| Patristica | Patristics |
-
-## 6. Subpastas de LATIM
-
-| PT (atual) | EN proposto |
-|---|---|
-| Escolastica | Scholasticism |
-| Espiritualidade | Spirituality |
-| Estoicismo_Latino | Latin Stoicism |
-| Filosofia_Republicana | Republican Philosophy |
-| Moderna | Modern |
-| Patristica | Patristics |
-| Platonismo_Medio | Middle Platonism |
-| Renascimento | Renaissance |
-
-## 7. Textos fixos da interface (chrome)
+## 5. Textos fixos da interface (chrome)
 
 ### Página Biblioteca (Catalog)
 
