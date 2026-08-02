@@ -1,19 +1,37 @@
 import type { Catalog as CatalogData, CatalogEntry } from '../types'
 import { LibraryTree } from './LibraryTree'
+import { FontControls } from './FontControls'
 
 interface Props {
   catalog: CatalogData | null
   error: string | null
   onSelect: (entry: CatalogEntry) => void
   onOpenLibrary: () => void
-  onOpenAppearance: () => void
+  onOpenMenu: () => void
+  decreaseFont: () => void
+  increaseFont: () => void
 }
 
 /**
  * Página da biblioteca: a mesma árvore de pastas recolhida do drawer —
  * coleções grandes ficam numa linha, nada de lista quilométrica.
+ *
+ * A barra do topo é a MESMA da leitura, na mesma ordem: Φ à esquerda, Ξ à
+ * direita, letra no meio. Antes esta tela trocava o layout — sumiam o Ξ e o
+ * ajuste de letra, e a aparência aparecia num botão ◐ que só existia aqui.
+ * Quem aumentou a letra para ler tinha que aumentar de novo ao voltar, e quem
+ * procurava o Ξ não o achava. Barra constante: o mesmo gesto no mesmo lugar,
+ * com livro aberto ou sem.
  */
-export function Catalog({ catalog, error, onSelect, onOpenLibrary, onOpenAppearance }: Props) {
+export function Catalog({
+  catalog,
+  error,
+  onSelect,
+  onOpenLibrary,
+  onOpenMenu,
+  decreaseFont,
+  increaseFont,
+}: Props) {
   return (
     <div className="catalog">
       <header className="catalog-header">
@@ -28,12 +46,13 @@ export function Catalog({ catalog, error, onSelect, onOpenLibrary, onOpenAppeara
           <h1>Biblioteca</h1>
           <p className="catalog-subtitle">Pedra Angular</p>
         </div>
+        <FontControls decrease={decreaseFont} increase={increaseFont} />
         <button
-          className="library-button"
-          onClick={onOpenAppearance}
-          aria-label="Aparência (esquemas de cor)"
+          className="toc-button phi-button"
+          onClick={onOpenMenu}
+          aria-label="Abrir menu (aparência e detalhes do acervo)"
         >
-          ◐
+          Ξ
         </button>
       </header>
 

@@ -7,15 +7,20 @@ interface Props {
   names: NameEntry[]
   open: boolean
   onClose: () => void
-  onNavigate: (id: string) => void
-  onCollapseAll: () => void
-  onExpandAll: () => void
-  onCopy: () => void
   onAppearance: () => void
   onDetails: () => void
+  /**
+   * Ações que só existem com um livro aberto. Ausentes na tela da
+   * biblioteca, onde este mesmo Ξ abriga só aparência e detalhes do acervo —
+   * a barra do topo é a mesma nos dois lugares, o que ela oferece é que muda.
+   */
+  onNavigate?: (id: string) => void
+  onCollapseAll?: () => void
+  onExpandAll?: () => void
+  onCopy?: () => void
   /** Presente só para textos do usuário (o corpus é intocável). */
   onEdit?: () => void
-  onSelectName: (name: string) => void
+  onSelectName?: (name: string) => void
 }
 
 interface TocGroup {
@@ -72,7 +77,7 @@ export function Sidebar({
       <div className="toc-row">
         <button
           className={`toc-item toc-depth-${Math.min(heading.depth, 6)}`}
-          onClick={() => onNavigate(heading.id)}
+          onClick={() => onNavigate?.(heading.id)}
         >
           {heading.text}
         </button>
@@ -95,7 +100,7 @@ export function Sidebar({
             <li key={child.id}>
               <button
                 className={`toc-item toc-depth-${Math.min(child.depth, 6)}`}
-                onClick={() => onNavigate(child.id)}
+                onClick={() => onNavigate?.(child.id)}
               >
                 {child.text}
               </button>
@@ -126,15 +131,21 @@ export function Sidebar({
         {titleGroup && <ul className="toc toc-title">{renderGroup(titleGroup)}</ul>}
 
         <div className="toc-actions">
-          <button className="toc-action" onClick={onCollapseAll}>
-            Recolher tudo
-          </button>
-          <button className="toc-action" onClick={onExpandAll}>
-            Expandir tudo
-          </button>
-          <button className="toc-action" onClick={onCopy}>
-            Copiar livro
-          </button>
+          {onCollapseAll && (
+            <button className="toc-action" onClick={onCollapseAll}>
+              Recolher tudo
+            </button>
+          )}
+          {onExpandAll && (
+            <button className="toc-action" onClick={onExpandAll}>
+              Expandir tudo
+            </button>
+          )}
+          {onCopy && (
+            <button className="toc-action" onClick={onCopy}>
+              Copiar livro
+            </button>
+          )}
           <button className="toc-action" onClick={onDetails}>
             Detalhes
           </button>
@@ -167,7 +178,7 @@ export function Sidebar({
                 <ul className="toc-children">
                   {names.map(({ name, count }) => (
                     <li key={name}>
-                      <button className="toc-item toc-depth-3" onClick={() => onSelectName(name)}>
+                      <button className="toc-item toc-depth-3" onClick={() => onSelectName?.(name)}>
                         {name} <span className="toc-name-count">({count})</span>
                       </button>
                     </li>

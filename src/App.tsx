@@ -4,6 +4,9 @@ import { Reader, invalidateBookCache } from './components/Reader'
 import { TextEditor } from './components/TextEditor'
 import { LibraryDrawer } from './components/LibraryDrawer'
 import { ThemeDialog, useTheme, useFontFamily } from './components/ThemeDialog'
+import { Sidebar } from './components/Sidebar'
+import { DetailsDialog } from './components/DetailsDialog'
+import { useFontSize } from './components/FontControls'
 import { buildPersonRegistry } from './lib/persons'
 import {
   addLocalFiles,
@@ -67,6 +70,11 @@ export function App() {
   const { theme, setTheme } = useTheme()
   const { fontFamily, setFontFamily } = useFontFamily()
   const { needRefresh, applyUpdate, checkResult, checkNow } = useAppUpdate()
+  // Barra do topo constante: a tela da biblioteca tem o mesmo Ξ e o mesmo
+  // ajuste de letra da leitura, com o estado guardado no mesmo lugar.
+  const { decrease: decreaseFont, increase: increaseFont } = useFontSize()
+  const [menuOpen, setMenuOpen] = useState(false)
+  const [acervoDetailsOpen, setAcervoDetailsOpen] = useState(false)
   // Alvo do link permanente com que o app foi aberto (consumido 1x)
   const initialTarget = useRef(parseHash())
   const [initialRef, setInitialRef] = useState<string | undefined>(undefined)
@@ -312,13 +320,41 @@ export function App() {
           onOpenAppearance={() => setThemeOpen(true)}
         />
       ) : (
-        <Catalog
-          catalog={libraryCatalog}
-          error={error}
-          onSelect={openBook}
-          onOpenLibrary={() => setLibraryOpen(true)}
-          onOpenAppearance={() => setThemeOpen(true)}
-        />
+        <>
+          <Catalog
+            catalog={libraryCatalog}
+            error={error}
+            onSelect={openBook}
+            onOpenLibrary={() => setLibraryOpen(true)}
+            onOpenMenu={() => setMenuOpen(true)}
+            decreaseFont={decreaseFont}
+            increaseFont={increaseFont}
+          />
+          {/* O mesmo Ξ da leitura. Sem livro aberto ele não tem sumário para
+              mostrar, então abriga o que continua fazendo sentido: aparência e
+              a ficha do acervo. */}
+          <Sidebar
+            headings={[]}
+            names={[]}
+            open={menuOpen}
+            onClose={() => setMenuOpen(false)}
+            onAppearance={() => {
+              setMenuOpen(false)
+              setThemeOpen(true)
+            }}
+            onDetails={() => {
+              setMenuOpen(false)
+              setAcervoDetailsOpen(true)
+            }}
+          />
+          <DetailsDialog
+            open={acervoDetailsOpen}
+            onClose={() => setAcervoDetailsOpen(false)}
+            entry={null}
+            parsed={null}
+            catalog={libraryCatalog}
+          />
+        </>
       )}
     </>
   )
