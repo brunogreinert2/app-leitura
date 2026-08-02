@@ -417,6 +417,9 @@ def gerar_obra(entrada: dict, raiz_corpus: Path, template: str, saida: Path, css
         # a abreviatura é por OBRA, não global: cada tradução tem a sua
         # ("1Cor" na Almeida, "1Co" alhures) e é ela que forma a âncora
         "abrev": meta.get("abrev", ""),
+        # estantes extras onde a obra também deve ser encontrada — ver
+        # gerar_indice(). O arquivo continua morando num lugar só.
+        "tambem_em": entrada.get("tambem_em") or [],
         "bytes": destino.stat().st_size,
         "headings": n_head,
         "md_href": md_href,
@@ -628,6 +631,50 @@ def carimbo_da_geracao() -> str:
     return f"{data}, commit {commit[:8]}" if commit else data
 
 
+def gerar_redirecionamentos(mapa: dict[str, str], fichas: list[dict], saida: Path) -> int:
+    """Páginas de id aposentado.
+
+    A Regra 0 diz que id publicado não muda — e não muda mesmo: ele continua
+    respondendo. O que muda é o que ele responde. Um id que nasceu por engano
+    (a mesma obra catalogada duas vezes, uma por estante) não pode simplesmente
+    sumir, porque links já podem estar circulando; mas também não deve seguir
+    fingindo ser uma obra à parte e inflando a contagem do acervo.
+
+    A página diz em TEXTO para onde ir, antes de redirecionar: quem lê sem
+    executar nada — que é o leitor-alvo do /rolo — precisa da resposta no
+    corpo, não num cabeçalho que não vai seguir."""
+    por_slug = {f["slug"]: f for f in fichas}
+    escritas = 0
+    for velho, canonico in mapa.items():
+        destino = por_slug.get(canonico)
+        if not destino:
+            print(f"  ! redirecionamento sem destino: {velho} -> {canonico}", file=sys.stderr)
+            continue
+        linhas = [
+            "<!DOCTYPE html><html lang=pt-BR><head><meta charset=UTF-8>",
+            '<meta name="viewport" content="width=device-width, initial-scale=1.0">',
+            f'<link rel="canonical" href="{atributo(canonico)}.html">',
+            f'<meta http-equiv="refresh" content="3; url={atributo(canonico)}.html">',
+            '<meta name="robots" content="noindex">',
+            f"<title>{html.escape(destino['titulo'])} · Pedra Angular</title>",
+            ESTILO_INDICE,
+            "</head><body><div class=w>",
+            "<h1>Φ Endereço antigo</h1>",
+            f"<p>Esta obra tem um endereço canônico: "
+            f'<a href="{atributo(canonico)}.html">{html.escape(destino["titulo"])}</a> '
+            f"(<code>{html.escape(canonico)}</code>).</p>",
+            f"<p class=n>O identificador <code>{html.escape(velho)}</code> apontava para o "
+            "mesmo texto, catalogado duas vezes por aparecer em duas estantes. Continua "
+            "respondendo para não quebrar links já feitos, mas não conta como obra à parte "
+            "no acervo.</p>",
+            f'<p><a href="{atributo(canonico)}.html">Ir para a obra →</a></p>',
+            "<p class=n style='margin-top:3rem'>Ὁ Διαφορεύς παρῆν</p></div></body></html>",
+        ]
+        (saida / f"{velho}.html").write_text("\n".join(linhas), encoding="utf-8")
+        escritas += 1
+    return escritas
+
+
 def gerar_pagina_abreviaturas(fichas: list[dict], saida: Path) -> int:
     """A âncora de versículo nasce da abreviatura, e a abreviatura varia POR
     TRADUÇÃO — a Almeida escreve "1Cor" onde outra escreve "1Co". Uma lista
@@ -701,6 +748,27 @@ def gerar_indice(fichas: list[dict], saida: Path, colecoes: list[dict],
         # próprio nome do arquivo, e viraria um IMPRESSOES_APP.md.html
         chave = "GERAL" if f["colecao"].endswith(".md") else f["colecao"]
         por_colecao.setdefault(chave, []).append(f)
+
+        # FICHA DE REMISSÃO. Um interlinear hebraico-português pertence às duas
+        # estantes: quem chega pelo hebraico e quem chega pelo português têm que
+        # achá-lo. Antes isso era feito catalogando a obra duas vezes — dois ids
+        # para um arquivo, e o acervo relatando uma obra a mais do que tem.
+        #
+        # Aqui a obra continua sendo UMA (um id, um arquivo, uma contagem) e
+        # ganha uma entrada extra no índice da outra estante, apontando para o
+        # mesmo endereço. É o que uma biblioteca faz com um cartão de remissão:
+        # o livro está numa prateleira só, a ficha está em duas.
+        for extra in f.get("tambem_em") or []:
+            partes = [p for p in extra.split("/") if p]
+            if not partes:
+                continue
+            copia = dict(f)
+            copia["colecao"] = partes[0]
+            copia["sub"] = "/".join(partes[1:])
+            copia["remissao"] = True
+            # onde o arquivo realmente mora, para a ficha poder dizer de onde veio
+            copia["colecao_real"] = "/".join(x for x in (f["colecao"], f["sub"]) if x)
+            por_colecao.setdefault(partes[0], []).append(copia)
 
     total = len(fichas)
     exemplo = next((f for f in fichas if f["slug"].startswith("biblia-")), fichas[0] if fichas else None)
@@ -809,10 +877,9 @@ def gerar_indice(fichas: list[dict], saida: Path, colecoes: list[dict],
             f" <span class=n>— {', '.join(subs[:7])}{'…' if len(subs) > 7 else ''}</span>"
             if subs else ""
         )
-        plural = "obra" if len(obras) == 1 else "obras"
         linhas.append(
             f'<li><a href="{atributo(colecao)}.html">{html.escape(colecao)}</a>'
-            f' <span class=n>{len(obras)} {plural}</span>{detalhe}</li>'
+            f' <span class=n>{contagem(obras)}</span>{detalhe}</li>'
         )
     linhas.append("</ul>")
     if n_abrev:
@@ -853,6 +920,20 @@ def gerar_indice(fichas: list[dict], saida: Path, colecoes: list[dict],
 ORCAMENTO_INDICE = 80_000
 
 
+def contagem(itens: list[dict]) -> str:
+    """"154 obras" ou "154 obras · 1 remissão".
+
+    Remissão não é obra: se entrasse na mesma soma, a contagem dos ramos
+    passaria a somar mais que o acervo, e não haveria como saber qual dos dois
+    números está errado."""
+    n = sum(1 for o in itens if not o.get("remissao"))
+    r = len(itens) - n
+    fora = f"{n} {'obra' if n == 1 else 'obras'}"
+    if r:
+        fora += f" · {r} {'remissão' if r == 1 else 'remissões'}"
+    return fora
+
+
 def gerar_no_indice(obras: list[dict], colecao: str, caminho: tuple[str, ...],
                     saida: Path, carimbo: str) -> int:
     """Escreve a página deste nó e, se ele delegar, a dos filhos. Devolve
@@ -887,8 +968,7 @@ def gerar_no_indice(obras: list[dict], colecao: str, caminho: tuple[str, ...],
         rotulo = colecao if i == 0 else nome_bonito(caminho[i - 1])
         trilha.append(f'<a href="{atributo(alvo)}">{html.escape(rotulo)}</a>'
                       if i < profundidade else html.escape(rotulo))
-    plural = "obra" if len(obras) == 1 else "obras"
-    linhas.append(f'<p>{len(obras)} {plural} · ' + " / ".join(trilha) + "</p>")
+    linhas.append(f"<p>{contagem(obras)} · " + " / ".join(trilha) + "</p>")
     linhas.append(
         "<pre>" + html.escape(
             "obra ....... /rolo/<id>.html\n"
@@ -906,10 +986,9 @@ def gerar_no_indice(obras: list[dict], colecao: str, caminho: tuple[str, ...],
             # Moralistas" em toda seção de uma página que já se chama assim
             # gasta linha e não informa nada
             relativo = "/".join(sub.split("/")[profundidade:]) if sub != colecao else ""
-            plural_g = "obra" if len(itens) == 1 else "obras"
             if relativo:
                 fora.append(f"<h2>{html.escape(rotulo_grupo(relativo))}</h2>")
-                fora.append(f"<p class=n>{len(itens)} {plural_g}</p>")
+                fora.append(f"<p class=n>{contagem(itens)}</p>")
             fora.append("<ul>")
             for o in itens:
                 autor = f' <span class=n>— {html.escape(o["autor"])}</span>' if o["autor"] else ""
@@ -921,9 +1000,16 @@ def gerar_no_indice(obras: list[dict], colecao: str, caminho: tuple[str, ...],
                     if o.get("md_href") else ""
                 )
                 lang_obra = f' lang="{atributo(o["idioma"])}"' if o.get("idioma") else ""
+                # a remissao se declara: e a mesma obra da outra estante, nao
+                # uma segunda edicao. Sem isso, quem le a lista conta duas.
+                marca = (
+                    ' <span class=n>· também em '
+                    + html.escape(rotulo_grupo(o["colecao_real"]))
+                    + "</span>"
+                ) if o.get("remissao") else ""
                 fora.append(
                     f'<li><a href="{atributo(prefixo + o["slug"])}.html"{lang_obra}>'
-                    f'{html.escape(o["titulo"])}</a>{autor}{md}</li>'
+                    f'{html.escape(o["titulo"])}</a>{autor}{marca}{md}</li>'
                 )
             fora.append("</ul>")
         return fora
@@ -946,11 +1032,10 @@ def gerar_no_indice(obras: list[dict], colecao: str, caminho: tuple[str, ...],
         )
         linhas.append("<ul>")
         for nome in sorted(filhos):
-            n = len(filhos[nome])
             linhas.append(
                 f'<li><a href="{atributo(pasta)}/{atributo(nome)}.html">'
                 f'{html.escape(nome_bonito(nome))}</a> '
-                f'<span class=n>{n} {"obra" if n == 1 else "obras"}</span></li>'
+                f'<span class=n>{contagem(filhos[nome])}</span></li>'
             )
         linhas.append("</ul>")
         if proprias:
@@ -1113,6 +1198,10 @@ def main() -> int:
             colecoes.append(c)
             print(f"  {c['arquivo']}  {c['bytes']/1e6:.1f} MB  {c['headings']} headings")
 
+    redirs = json.loads(catalogo.read_text(encoding="utf-8")).get("redirecionamentos") or {}
+    if redirs:
+        n_red = gerar_redirecionamentos(redirs, fichas, args.saida)
+        print(f"  redirecionamentos: {n_red} id(s) aposentado(s) continuam respondendo")
     n_abrev = gerar_pagina_abreviaturas(fichas, args.saida)
     gerar_indice(fichas, args.saida, colecoes, catalogo_path=catalogo)
     if n_abrev:

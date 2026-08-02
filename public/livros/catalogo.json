@@ -1360,7 +1360,10 @@
       "id": "eclesiastes_interlinear_heb-pt",
       "titulo": "Eclesiastes — Interlinear Hebraico/Português",
       "autor": "—",
-      "arquivo": "BIBLIAS/Hebraico/Interlineares_Hebraico/Eclesiastes_interlinear_cap1.md"
+      "arquivo": "BIBLIAS/Hebraico/Interlineares_Hebraico/Eclesiastes_interlinear_cap1.md",
+      "tambem_em": [
+        "BIBLIAS/Portugues/Interlineares_Hebraico"
+      ]
     },
     {
       "id": "aristoteles-economics-eng-george-cyril-armstrong-1935",
@@ -5257,7 +5260,10 @@
       "id": "platao-sofista-interlinear-pt-grc",
       "titulo": "O Sofista (Interlinear Português–Grego)",
       "autor": "Platão",
-      "arquivo": "FILOSOFIA/Grego/Interlineares_Grego/Platonismo/Platao/Sophist/platao-sofista_interlinear_pt-grc_Diaphoreus.md"
+      "arquivo": "FILOSOFIA/Grego/Interlineares_Grego/Platonismo/Platao/Sophist/platao-sofista_interlinear_pt-grc_Diaphoreus.md",
+      "tambem_em": [
+        "FILOSOFIA/Portugues/Interlineares_Grego/Platonismo/Platao/Sophist"
+      ]
     },
     {
       "id": "platao-o-sofista-odialetico",
@@ -6306,18 +6312,10 @@
       "autor": "—",
       "arquivo": "BIBLIAS/Ingles/Douay_Rheims/73_Apocalypse_Apc_eng_douay-rheims_1752.md",
       "sistema_referencia": "versiculo"
-    },
-    {
-      "id": "eclesiastes_interlinear_heb-pt-via-portugues",
-      "titulo": "Eclesiastes — Interlinear Hebraico/Português",
-      "autor": "—",
-      "arquivo": "BIBLIAS/Portugues/Interlineares_Hebraico/Eclesiastes_interlinear_cap1.md"
-    },
-    {
-      "id": "platao-sofista-interlinear-pt-grc-via-portugues",
-      "titulo": "O Sofista (Interlinear Português–Grego)",
-      "autor": "Platão",
-      "arquivo": "FILOSOFIA/Portugues/Interlineares_Grego/Platonismo/Platao/Sophist/platao-sofista_interlinear_pt-grc_Diaphoreus.md"
     }
-  ]
+  ],
+  "redirecionamentos": {
+    "eclesiastes_interlinear_heb-pt-via-portugues": "eclesiastes_interlinear_heb-pt",
+    "platao-sofista-interlinear-pt-grc-via-portugues": "platao-sofista-interlinear-pt-grc"
+  }
 }
