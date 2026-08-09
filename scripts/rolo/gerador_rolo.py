@@ -510,17 +510,132 @@ def gerar_colecao(nome: str, entradas: list[dict], raiz_corpus: Path, template: 
             "headings": n_head, "arquivo": destino.name}
 
 # ---------------------------------------------------------------- índice
-ESTILO_INDICE = (
-    "<style>body{background:#0A1220;color:#EAE3D3;font-family:Georgia,serif;margin:0;padding:2rem 1rem 5rem;}"
-    ".w{max-width:760px;margin:0 auto;}h1{color:#C9A227;font-size:1.6rem;}"
-    "h2{font-size:1.1rem;border-bottom:1px dashed rgba(255,255,255,.16);padding-bottom:.3rem;margin-top:2.2rem;}"
-    "ul{list-style:none;padding:0;}li{padding:.45rem 0;border-bottom:1px dotted rgba(255,255,255,.09);}"
-    "a{color:#EAE3D3;text-decoration:none;}a:hover{color:#C9A227;}"
-    "pre{font-family:ui-monospace,Consolas,monospace;font-size:.78rem;line-height:1.6;white-space:pre-wrap;"
-    "background:rgba(255,255,255,.04);border-left:2px solid #8a7527;padding:.9rem 1rem;overflow-wrap:anywhere;}"
-    ".md{font-family:ui-monospace,monospace;font-size:.68rem;opacity:.45;margin-left:.5rem;}"
-    ".n{font-family:ui-monospace,monospace;font-size:.7rem;opacity:.5;}</style>"
-)
+# A CASCA das páginas de índice. Antes daqui elas eram texto sobre fundo fixo:
+# sem troca de tema, sem A−/A+, sem sumário, sem foco de teclado — enquanto a
+# página de uma obra tinha tudo isso. Quem chegava por /rolo/BIBLIAS/Grego.html
+# não tinha os controles que tinha em /rolo/<obra>.html, e a diferença não se
+# explicava por nada: as duas são páginas do mesmo rolo.
+#
+# Agora as duas usam os mesmos tokens, os mesmos três temas e a mesma Barra
+# Angular (Φ · A− · A+ · Ξ). As chaves de localStorage são as MESMAS do motor
+# das obras (`pa:tema`, `pa:fonte`), então o tema e o corpo de letra escolhidos
+# no índice seguem a pessoa para dentro da obra, e vice-versa.
+#
+# Corpo de letra é MULTIPLICADOR (--ui-escala-fonte), nunca pixel fixo: quem
+# aumentou a letra no aparelho não é ignorado.
+CASCA_CSS = """<style>
+:root{
+  --ui-fundo:#0A1220;--ui-texto:#EAE3D3;--ui-acento:#C9A227;
+  --ui-superficie:rgba(255,255,255,.05);--ui-linha:rgba(255,255,255,.16);
+  --ui-escala-fonte:1;
+  --ui-mono:ui-monospace,Consolas,'Courier New',monospace;
+}
+/* Acento próprio do pergaminho: o #C9A227 dos outros dois dá 1,89:1 sobre
+   este fundo claro — abaixo até do piso de 3:1 para elemento não textual, e
+   é a cor do anel de foco. #5c4710 é o mesmo ouro escurecido até 6,95:1. */
+[data-theme=pergaminho]{--ui-fundo:#EAE3D3;--ui-texto:#241E14;--ui-acento:#5c4710;
+  --ui-superficie:rgba(0,0,0,.045);--ui-linha:rgba(0,0,0,.16);}
+[data-theme=petroleo]{--ui-fundo:#0E2E33;--ui-texto:#DCEEEF;
+  --ui-superficie:rgba(255,255,255,.05);--ui-linha:rgba(255,255,255,.14);}
+*{box-sizing:border-box;}
+body{background:var(--ui-fundo);color:var(--ui-texto);font-family:Georgia,serif;
+  margin:0;padding:0 0 5rem;font-size:calc(1rem*var(--ui-escala-fonte));}
+.w{max-width:760px;margin:0 auto;padding:0 1rem;}
+h1{color:var(--ui-acento);font-size:calc(1.6rem*var(--ui-escala-fonte));}
+h2{font-size:calc(1.1rem*var(--ui-escala-fonte));border-bottom:1px dashed var(--ui-linha);
+  padding-bottom:.3rem;margin-top:2.2rem;scroll-margin-top:5rem;}
+ul{list-style:none;padding:0;}
+li{padding:.45rem 0;border-bottom:1px dotted var(--ui-linha);}
+a{color:var(--ui-texto);}
+a:hover{color:var(--ui-acento);}
+pre{font-family:var(--ui-mono);font-size:calc(.78rem*var(--ui-escala-fonte));line-height:1.6;
+  white-space:pre-wrap;background:var(--ui-superficie);border-left:2px solid var(--ui-acento);
+  padding:.9rem 1rem;overflow-wrap:anywhere;}
+.md{font-family:var(--ui-mono);font-size:calc(.68rem*var(--ui-escala-fonte));opacity:.6;margin-left:.5rem;}
+.n{font-family:var(--ui-mono);font-size:calc(.7rem*var(--ui-escala-fonte));opacity:.65;}
+
+/* ---- Barra Angular: Φ · A− · A+ · (temas) · Ξ ---- */
+.barra-angular{position:sticky;top:0;z-index:20;background:var(--ui-fundo);
+  border-bottom:1px solid var(--ui-linha);}
+.barra-angular>div{max-width:760px;margin:0 auto;display:flex;align-items:center;
+  gap:.4rem;flex-wrap:wrap;padding:.5rem 1rem;}
+.ui-botao-barra{min-width:2.75rem;min-height:2.75rem;padding:.4rem .6rem;
+  border:2px solid currentColor;border-radius:.5rem;background:none;color:var(--ui-acento);
+  font-family:Georgia,serif;font-size:calc(1.25rem*var(--ui-escala-fonte));font-weight:700;
+  line-height:1;cursor:pointer;display:inline-flex;align-items:center;justify-content:center;
+  text-decoration:none;-webkit-tap-highlight-color:transparent;}
+.ui-botao-barra--tema{font-family:var(--ui-mono);font-weight:400;
+  font-size:calc(.78rem*var(--ui-escala-fonte));}
+.ui-botao-barra[aria-pressed=true]{background:var(--ui-superficie);}
+.barra-espaco{flex:1 1 0;}
+:focus-visible{outline:2px solid var(--ui-acento);outline-offset:2px;}
+.pular{position:absolute;left:-9999px;}
+.pular:focus{left:0;top:0;z-index:50;padding:.6rem 1rem;background:var(--ui-acento);
+  color:var(--ui-fundo);border-radius:0 0 .5rem 0;}
+.sumario{max-width:760px;margin:.75rem auto 0;padding:.6rem 1rem;background:var(--ui-superficie);
+  border:1px solid var(--ui-linha);border-radius:.5rem;}
+.sumario[hidden]{display:none;}
+.sumario ul{margin:0;}
+.sumario li{border:none;padding:.3rem 0;}
+@media (prefers-reduced-motion:reduce){
+  *,*::before,*::after{animation-duration:.01ms!important;animation-iteration-count:1!important;
+    transition-duration:.01ms!important;scroll-behavior:auto!important;}
+}
+</style>"""
+
+CASCA_JS = """<script>
+(function(){
+  var R=document.documentElement;
+  function ler(k){try{return localStorage.getItem(k);}catch(e){return null;}}
+  function guardar(k,v){try{localStorage.setItem(k,v);}catch(e){}}
+  /* tema e corpo aplicados ANTES do primeiro desenho: sem piscar */
+  var t=ler('pa:tema'); if(t) R.setAttribute('data-theme',t);
+  var f=parseFloat(ler('pa:fonte')); if(f) R.style.setProperty('--ui-escala-fonte',f);
+
+  document.addEventListener('DOMContentLoaded',function(){
+    function aplicarTema(nome){
+      R.setAttribute('data-theme',nome); guardar('pa:tema',nome);
+      document.querySelectorAll('[data-tema]').forEach(function(b){
+        b.setAttribute('aria-pressed', b.dataset.tema===nome?'true':'false');
+      });
+    }
+    document.querySelectorAll('[data-tema]').forEach(function(b){
+      b.addEventListener('click',function(){aplicarTema(b.dataset.tema);});
+    });
+    aplicarTema(R.getAttribute('data-theme')||'noite');
+
+    /* A− / A+ : multiplicador entre 0,8 e 2,6 — nunca pixel fixo */
+    function ajustar(d){
+      var a=parseFloat(getComputedStyle(R).getPropertyValue('--ui-escala-fonte'))||1;
+      var n=Math.min(2.6,Math.max(.8,+(a+d).toFixed(2)));
+      R.style.setProperty('--ui-escala-fonte',n); guardar('pa:fonte',n);
+    }
+    var bm=document.getElementById('ui-menos'); if(bm) bm.addEventListener('click',function(){ajustar(-.1);});
+    var bM=document.getElementById('ui-mais');  if(bM) bM.addEventListener('click',function(){ajustar(.1);});
+
+    /* Ξ = a estrutura desta página, montada a partir dos <h2> que já existem.
+       Sem <h2> na página, o botão se retira em vez de abrir um painel vazio. */
+    var painel=document.getElementById('ui-sumario'), botao=document.getElementById('ui-xi');
+    if(painel&&botao){
+      var hs=[].slice.call(document.querySelectorAll('.w h2'));
+      if(!hs.length){ botao.hidden=true; return; }
+      var ul=document.createElement('ul');
+      hs.forEach(function(h,i){
+        if(!h.id) h.id='secao-'+i;
+        var li=document.createElement('li'), a=document.createElement('a');
+        a.href='#'+h.id; a.textContent=h.textContent;
+        li.appendChild(a); ul.appendChild(li);
+      });
+      painel.appendChild(ul);
+      botao.addEventListener('click',function(){
+        var abrir=painel.hidden;
+        painel.hidden=!abrir;
+        botao.setAttribute('aria-expanded',abrir?'true':'false');
+      });
+    }
+  });
+})();
+</script>"""
 
 def agrupar_por_pasta(obras: list[dict], colecao: str) -> dict[str, list[dict]]:
     """Agrupa as obras por pasta, subindo enquanto a pasta embrulhar uma só.
@@ -721,13 +836,51 @@ def gerar_pagina_abreviaturas(fichas: list[dict], saida: Path) -> int:
     return len(por_abrev)
 
 
-def cabeca(titulo: str) -> list[str]:
+def barra_angular(prefixo: str = "") -> str:
+    """A Barra Angular — Φ · A− · A+ · (temas) · Ξ.
+
+    Ordem fixa e não negociável (NORMAS.md, LEI 8 e N61): Φ na extremidade
+    esquerda, Ξ na direita, o corpo do texto no meio, e o que for específico
+    desta superfície (os três temas) entre A+ e Ξ.
+
+    Φ é a coleção: leva ao índice-raiz dos rolos, de qualquer profundidade.
+    Ξ é a estrutura desta página: o sumário montado pelo script da casca.
+    Os dois são LETRAS, não ícones — acompanham tema e corpo de graça."""
+    return (
+        '<nav class="barra-angular" aria-label="Controles de leitura"><div>'
+        f'<a class="ui-botao-barra" href="{atributo(prefixo)}index.html"'
+        ' aria-label="Abrir o índice dos rolos">Φ</a>'
+        '<button class="ui-botao-barra" id="ui-menos" type="button"'
+        ' aria-label="Diminuir letra">A−</button>'
+        '<button class="ui-botao-barra" id="ui-mais" type="button"'
+        ' aria-label="Aumentar letra">A+</button>'
+        '<span class="barra-espaco"></span>'
+        '<button class="ui-botao-barra ui-botao-barra--tema" type="button"'
+        ' data-tema="noite" aria-pressed="false">Noite</button>'
+        '<button class="ui-botao-barra ui-botao-barra--tema" type="button"'
+        ' data-tema="pergaminho" aria-pressed="false">Pergaminho</button>'
+        '<button class="ui-botao-barra ui-botao-barra--tema" type="button"'
+        ' data-tema="petroleo" aria-pressed="false">Petróleo</button>'
+        '<button class="ui-botao-barra" id="ui-xi" type="button" aria-label="Abrir sumário"'
+        ' aria-expanded="false" aria-controls="ui-sumario">Ξ</button>'
+        "</div></nav>"
+    )
+
+
+def cabeca(titulo: str, prefixo: str = "") -> list[str]:
+    """Abre a página de índice já com a casca inteira. Fecha com
+    `</div></body></html>` — um `</div>` só, o do `.w`, como antes."""
     return [
-        "<!DOCTYPE html><html lang=pt-BR><head><meta charset=UTF-8>",
+        "<!DOCTYPE html><html lang=pt-BR data-theme=noite><head><meta charset=UTF-8>",
         '<meta name="viewport" content="width=device-width, initial-scale=1.0">',
         f"<title>{html.escape(titulo)} · Pedra Angular</title>",
-        ESTILO_INDICE,
-        "</head><body><div class=w>",
+        CASCA_CSS,
+        CASCA_JS,
+        "</head><body>",
+        '<a class=pular href="#conteudo">Pular para o conteúdo</a>',
+        barra_angular(prefixo),
+        '<nav id="ui-sumario" class="sumario" hidden aria-label="Sumário desta página"></nav>',
+        '<div class=w id=conteudo>',
     ]
 
 def gerar_indice(fichas: list[dict], saida: Path, colecoes: list[dict],
@@ -792,7 +945,7 @@ def gerar_indice(fichas: list[dict], saida: Path, colecoes: list[dict],
 
     # ---------------- índice-raiz: mapa + sete linhas ----------------
     linhas = cabeca("Rolos")
-    linhas.append("<h1>Φ Rolos — Pedra Angular</h1>")
+    linhas.append("<h1>Rolos — Pedra Angular</h1>")
     linhas.append(
         f"<p>{total} obras em {frase_idiomas}. Cada obra é um arquivo "
         "estático com o texto escrito no corpo da página: legível sem JavaScript, por "
@@ -958,8 +1111,10 @@ def gerar_no_indice(obras: list[dict], colecao: str, caminho: tuple[str, ...],
         else:
             proprias.append(o)
 
-    linhas = cabeca(titulo)
-    linhas.append(f"<h1>Φ {html.escape(titulo)}</h1>")
+    linhas = cabeca(titulo, prefixo)
+    # O Φ saiu do <h1> e virou botão na barra: aqui ele era enfeite mudo, lá
+    # ele abre a coleção. Um Φ por página, e ele faz alguma coisa.
+    linhas.append(f"<h1>{html.escape(titulo)}</h1>")
 
     # trilha: cada nível clicável, para subir sem adivinhar a URL
     trilha = [f'<a href="{prefixo}index.html">Rolos</a>']
