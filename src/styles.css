@@ -34,6 +34,43 @@
 }
 
 /*
+ * Cardo (David J. Perry, OFL): a SERIFADA CANÔNICA do ecossistema, e o piso de
+ * cobertura de todas as outras (NORMAS.md N72). Desenhada para filologia
+ * clássica: latim com macrons e breves, grego politônico e hebraico com niqud
+ * — as três escritas do acervo, no mesmo desenho.
+ *
+ * Ela substitui a Georgia como padrão de leitura. A Georgia é do sistema
+ * operacional: existe no Windows e no iPhone, NÃO existe no Android. O mesmo
+ * versículo em hebraico saía com uma letra no computador, outra no tablet e
+ * outra no celular, e nada disso era escolha nossa.
+ *
+ * Medida contra a EB Garamond antes de escolher: a Garamond ganha em cirílico
+ * (87% contra 0%) e em latim estendido, mas não tem UM caractere hebraico. São
+ * 39 obras em hebraico no acervo e nenhuma em russo — por isso Cardo.
+ */
+@font-face {
+  font-family: 'Cardo';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url('/fonts/cardo-regular.woff2') format('woff2');
+}
+@font-face {
+  font-family: 'Cardo';
+  font-style: italic;
+  font-weight: 400;
+  font-display: swap;
+  src: url('/fonts/cardo-italic.woff2') format('woff2');
+}
+@font-face {
+  font-family: 'Cardo';
+  font-style: normal;
+  font-weight: 700;
+  font-display: swap;
+  src: url('/fonts/cardo-bold.woff2') format('woff2');
+}
+
+/*
  * OpenDyslexic (OFL): alternativa desenhada para dislexia — base das letras
  * mais pesada e formas assimétricas, para reduzir troca/espelhamento (b/d,
  * p/q). Embutida localmente, nada de CDN em tempo de execução.
@@ -136,7 +173,9 @@
   /* Tamanho de leitura ajustável pelo usuário (passo d) */
   --reading-font-size: 1.125rem;
   --reading-line-height: 1.7;
-  --reading-font-family: Georgia, 'Times New Roman', serif;
+  /* Cardo primeiro, Georgia só se algo der errado: o padrão de leitura é fonte
+     nossa, não do aparelho. Ver o bloco @font-face da Cardo, acima. */
+  --reading-font-family: 'Cardo', Georgia, 'Times New Roman', serif;
 
   /* Tema Sépia (padrão): leitura confortável, ~13:1 */
   --color-bg: #faf7f2;

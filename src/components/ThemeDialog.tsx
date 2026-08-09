@@ -66,17 +66,34 @@ export function useTheme() {
  * baixa visão, letras que não se confundem entre si ("l", "I", "1").
  * Embutida localmente (@font-face em styles.css) — sem CDN.
  */
+/**
+ * Toda pilha termina em fonte NOSSA antes de chegar ao sistema operacional
+ * (NORMAS.md N72). A Cardo é o piso: cobre latim com macrons, grego politônico
+ * e hebraico com niqud — as três escritas do acervo. Georgia e Times New Roman
+ * ficam como último recurso, e não como o desenho que a pessoa vê.
+ *
+ * Sem isso, quem escolhia Atkinson ou OpenDyslexic lia todo o Novo Testamento
+ * grego numa fonte do aparelho, porque nenhuma das duas tem grego — e o
+ * resultado mudava de um aparelho para o outro.
+ *
+ * O id `georgia` continua o mesmo por ser id publicado (LEI 6): está gravado no
+ * localStorage de quem já usa o app. Só o rótulo e a pilha mudaram.
+ */
 export const FONTS = [
-  { id: 'georgia', label: 'Serifada (padrão)', stack: "Georgia, 'Times New Roman', serif" },
+  {
+    id: 'georgia',
+    label: 'Serifada (padrão)',
+    stack: "'Cardo', Georgia, 'Times New Roman', serif",
+  },
   {
     id: 'atkinson',
     label: 'Atkinson Hyperlegible',
-    stack: "'Atkinson Hyperlegible', Georgia, 'Times New Roman', serif",
+    stack: "'Atkinson Hyperlegible', 'Cardo', Georgia, serif",
   },
   {
     id: 'opendyslexic',
     label: 'OpenDyslexic',
-    stack: "'OpenDyslexic', Georgia, 'Times New Roman', serif",
+    stack: "'OpenDyslexic', 'Cardo', Georgia, serif",
   },
 ] as const
 
