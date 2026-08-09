@@ -34,39 +34,100 @@
 }
 
 /*
- * OpenDyslexic (Abbie Gonzalez, OFL): alternativa de fonte desenhada
- * para dislexia — base das letras mais pesada e formas assimétricas
- * pensadas para reduzir troca/espelhamento de caracteres (b/d, p/q).
- * Embutida localmente (subset latino), nada de CDN em tempo de
- * execução. Grego/hebraico caem no fallback.
+ * OpenDyslexic (OFL): alternativa desenhada para dislexia — base das letras
+ * mais pesada e formas assimétricas, para reduzir troca/espelhamento (b/d,
+ * p/q). Embutida localmente, nada de CDN em tempo de execução.
+ *
+ * SÃO DOIS BUILDS DA MESMA FAMÍLIA, e é de propósito (NORMAS.md N70):
+ *
+ *   opendyslexic-*.woff             build 2.001 · 233 glifos · só latim
+ *                                   letras justas e encorpadas — é o desenho
+ *                                   que o ecossistema adota
+ *   opendyslexic-suplemento-*.woff2 build 0.920 · 1927 glifos
+ *                                   finas e bem mais espaçadas; entra apenas
+ *                                   onde o 2.001 não tem o caractere
+ *
+ * O número engana: 0.920 é POSTERIOR a 2.001 (o projeto renumerou depois de
+ * reescrever a fonte). Conferir a tabela `name` do arquivo, nunca o número.
+ *
+ * As faixas do suplemento foram medidas com fontTools: são exatamente os
+ * blocos que o 2.001 não cobre e o 0.920 cobre — 868 caracteres que antes
+ * caíam numa fonte de sistema no meio da página. Travessão, aspas curvas,
+ * reticências e apóstrofo ficam DE FORA da lista de propósito: o 2.001 os
+ * tem, e desviá-los trocaria o desenho no meio de uma frase em português.
+ *
+ * Hebraico e árabe não estão em nenhum dos dois builds e seguem no fallback.
  */
 @font-face {
   font-family: 'OpenDyslexic';
   font-style: normal;
   font-weight: 400;
   font-display: swap;
-  src: url('/fonts/opendyslexic-400.woff2') format('woff2');
+  src: url('/fonts/opendyslexic-400.woff') format('woff');
 }
 @font-face {
   font-family: 'OpenDyslexic';
   font-style: normal;
   font-weight: 700;
   font-display: swap;
-  src: url('/fonts/opendyslexic-700.woff2') format('woff2');
+  src: url('/fonts/opendyslexic-700.woff') format('woff');
 }
 @font-face {
   font-family: 'OpenDyslexic';
   font-style: italic;
   font-weight: 400;
   font-display: swap;
-  src: url('/fonts/opendyslexic-400i.woff2') format('woff2');
+  src: url('/fonts/opendyslexic-400i.woff') format('woff');
 }
 @font-face {
   font-family: 'OpenDyslexic';
   font-style: italic;
   font-weight: 700;
   font-display: swap;
-  src: url('/fonts/opendyslexic-700i.woff2') format('woff2');
+  src: url('/fonts/opendyslexic-700i.woff') format('woff');
+}
+
+/* Suplemento. Declarado DEPOIS: para um caractere dentro das faixas as duas
+   faces casam, e o algoritmo do CSS fica com a última. */
+@font-face {
+  font-family: 'OpenDyslexic';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url('/fonts/opendyslexic-suplemento-400.woff2') format('woff2');
+  unicode-range: U+0100-024F, U+0370-03FF, U+0400-052F, U+1F00-1FFF,
+    U+2020-2021, U+2070-209F, U+2150-218F, U+2190-21FF, U+2200-22FF,
+    U+27E8-27E9;
+}
+@font-face {
+  font-family: 'OpenDyslexic';
+  font-style: normal;
+  font-weight: 700;
+  font-display: swap;
+  src: url('/fonts/opendyslexic-suplemento-700.woff2') format('woff2');
+  unicode-range: U+0100-024F, U+0370-03FF, U+0400-052F, U+1F00-1FFF,
+    U+2020-2021, U+2070-209F, U+2150-218F, U+2190-21FF, U+2200-22FF,
+    U+27E8-27E9;
+}
+@font-face {
+  font-family: 'OpenDyslexic';
+  font-style: italic;
+  font-weight: 400;
+  font-display: swap;
+  src: url('/fonts/opendyslexic-suplemento-400i.woff2') format('woff2');
+  unicode-range: U+0100-024F, U+0370-03FF, U+0400-052F, U+1F00-1FFF,
+    U+2020-2021, U+2070-209F, U+2150-218F, U+2190-21FF, U+2200-22FF,
+    U+27E8-27E9;
+}
+@font-face {
+  font-family: 'OpenDyslexic';
+  font-style: italic;
+  font-weight: 700;
+  font-display: swap;
+  src: url('/fonts/opendyslexic-suplemento-700i.woff2') format('woff2');
+  unicode-range: U+0100-024F, U+0370-03FF, U+0400-052F, U+1F00-1FFF,
+    U+2020-2021, U+2070-209F, U+2150-218F, U+2190-21FF, U+2200-22FF,
+    U+27E8-27E9;
 }
 
 /* ===== Base ===== */
