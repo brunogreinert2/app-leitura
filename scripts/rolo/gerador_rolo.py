@@ -765,16 +765,17 @@ def gerar_redirecionamentos(mapa: dict[str, str], fichas: list[dict], saida: Pat
         if not destino:
             print(f"  ! redirecionamento sem destino: {velho} -> {canonico}", file=sys.stderr)
             continue
-        linhas = [
-            "<!DOCTYPE html><html lang=pt-BR><head><meta charset=UTF-8>",
-            '<meta name="viewport" content="width=device-width, initial-scale=1.0">',
-            f'<link rel="canonical" href="{atributo(canonico)}.html">',
-            f'<meta http-equiv="refresh" content="3; url={atributo(canonico)}.html">',
-            '<meta name="robots" content="noindex">',
-            f"<title>{html.escape(destino['titulo'])} · Pedra Angular</title>",
-            ESTILO_INDICE,
-            "</head><body><div class=w>",
-            "<h1>Φ Endereço antigo</h1>",
+        linhas = cabeca(
+            destino["titulo"],
+            extra_head=(
+                f'<link rel="canonical" href="{atributo(canonico)}.html">'
+                f'<meta http-equiv="refresh" content="3; url={atributo(canonico)}.html">'
+                '<meta name="robots" content="noindex">'
+            ),
+        )
+        linhas += [
+            # o Φ saiu do <h1> e virou botão na barra, como nas demais páginas
+            "<h1>Endereço antigo</h1>",
             f"<p>Esta obra tem um endereço canônico: "
             f'<a href="{atributo(canonico)}.html">{html.escape(destino["titulo"])}</a> '
             f"(<code>{html.escape(canonico)}</code>).</p>",
@@ -867,13 +868,19 @@ def barra_angular(prefixo: str = "") -> str:
     )
 
 
-def cabeca(titulo: str, prefixo: str = "") -> list[str]:
+def cabeca(titulo: str, prefixo: str = "", extra_head: str = "") -> list[str]:
     """Abre a página de índice já com a casca inteira. Fecha com
-    `</div></body></html>` — um `</div>` só, o do `.w`, como antes."""
+    `</div></body></html>` — um `</div>` só, o do `.w`, como antes.
+
+    `extra_head` entra logo depois do <title>: é por onde as páginas de
+    redirecionamento passam canonical, refresh e noindex sem precisar montar
+    um <head> próprio — foi um <head> montado à mão que ficou para trás na
+    primeira versão desta casca e derrubou o deploy."""
     return [
         "<!DOCTYPE html><html lang=pt-BR data-theme=noite><head><meta charset=UTF-8>",
         '<meta name="viewport" content="width=device-width, initial-scale=1.0">',
         f"<title>{html.escape(titulo)} · Pedra Angular</title>",
+        extra_head,
         CASCA_CSS,
         CASCA_JS,
         "</head><body>",
