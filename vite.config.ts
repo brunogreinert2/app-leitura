@@ -16,6 +16,21 @@ export default defineConfig({
         globPatterns: ['**/*.{js,css,html,svg,png,md,json,woff2}'],
         // O rolo da Bíblia (4,4 MB) passa do limite padrão de 2 MiB
         maximumFileSizeToCacheInBytes: 8 * 1024 * 1024,
+
+        // SEM ISTO O /rolo FICA INALCANÇÁVEL PARA GENTE. O generateSW registra
+        // uma NavigationRoute que devolve index.html para TODA navegação; como
+        // os rolos nascem depois do `vite build` (ver deploy.yml), eles não
+        // estão no manifesto de precache, então nada os intercepta antes — e a
+        // navegação cai na casca da SPA. Quem já visitou o site uma vez tem o
+        // service worker instalado e nunca mais chega em /rolo: o navegador
+        // devolve o app. Uma IA com fetch simples passava, porque fetch não
+        // tem service worker — o que escondeu o bug, já que o rolo existe
+        // justamente para ela.
+        //
+        // A lista abaixo tira essas rotas da NavigationRoute e as devolve à
+        // rede. /livros entra por precaução: hoje o precache o cobre, mas um
+        // livro que passe de 8 MB ficaria de fora e cairia no mesmo buraco.
+        navigateFallbackDenylist: [/^\/rolo(\/|$)/, /^\/livros(\/|$)/],
       },
       manifest: {
         name: 'Leitura — Pedra Angular',

@@ -92,6 +92,15 @@
   --hl-cur-bg: #8a4408;
   --hl-cur-fg: #ffffff;
 
+  /* Anel de foco de teclado. Segue o acento de cada tema por herança: como
+     --color-accent é redefinido em todo [data-theme], este token acompanha
+     sozinho, sem precisar de uma linha por tema. Medido em 2026-08-08 — o
+     acento fica entre 6,91:1 (pergaminho) e 21:1 (amarelo/verde) contra o
+     fundo, e entre 7,73:1 e 19,63:1 contra a superfície; o piso do WCAG
+     1.4.11 para elemento não textual é 3:1. Onde o próprio fundo for o
+     acento, o token é reescrito localmente (ver .update-banner). */
+  --ui-foco: var(--color-accent);
+
   color-scheme: light;
 }
 
@@ -278,6 +287,47 @@ button {
   background: none;
   border: none;
   cursor: pointer;
+}
+
+/* Foco de teclado SEMPRE visível, em todos os temas (piso de acessibilidade).
+   Sem esta regra o app dependia do anel padrão do navegador, que é preto e
+   branco, não conhece o tema, e some sobre #000000 (escuro, amarelo, verde) e
+   sobre #ffffff (claro, sépia) — justamente os fundos de contraste máximo.
+   O offset joga o anel para FORA do elemento, então ele continua visível
+   mesmo num botão cujo próprio fundo é o acento. */
+:focus-visible {
+  outline: 2px solid var(--ui-foco);
+  outline-offset: 2px;
+}
+
+/* Faixa de versão nova: aqui o FUNDO já é o acento, e o anel do acento
+   sumiria dentro dele. Reescrever o token num ponto só resolve para tudo o
+   que estiver dentro — é a vantagem de o anel ser variável, não valor. */
+.update-banner {
+  --ui-foco: var(--color-bg);
+}
+
+/* Movimento reduzido: preferência do sistema, respeitada sem exceção.
+   Não usa `animation: none` porque isso impede o disparo de animationend e
+   quebraria qualquer JavaScript que espere o fim da animação; a duração
+   quase nula tem o mesmo efeito visual e mantém os eventos.
+   O pulso de referência (.ref-flash) NÃO desaparece sem substituto: vira
+   realce estático, que o mesmo temporizador de 1,6 s do Reader/TextSearch
+   retira depois. Movimento nunca é a única forma de dizer alguma coisa. */
+@media (prefers-reduced-motion: reduce) {
+  *,
+  *::before,
+  *::after {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+    scroll-behavior: auto !important;
+  }
+
+  .ref-flash {
+    background: var(--hl-bg);
+    color: var(--hl-fg);
+  }
 }
 
 /* ===== Catálogo ===== */
@@ -630,7 +680,10 @@ button {
   width: 100%;
   padding: 1rem;
   border: none;
-  outline: none;
+  /* Sem `outline: none` aqui: apagava o anel de foco e não punha nada no
+     lugar — quem escreve por teclado ficava sem saber onde estava. O
+     :focus-visible global cuida disso e só desenha no foco por teclado, de
+     modo que clicar com o mouse continua sem anel. */
   resize: none;
   background: var(--color-bg);
   color: var(--color-text);
