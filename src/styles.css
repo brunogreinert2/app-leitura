@@ -71,6 +71,43 @@
 }
 
 /*
+ * DejaVu Sans (Bitstream Vera + domínio público): a GUARNIÇÃO do ecossistema
+ * (NORMAS.md N73). É a última fonte de toda pilha, antes da genérica — e a
+ * primeira que NÃO é do sistema operacional a ser alcançada por um caractere
+ * que nenhuma das outras tem.
+ *
+ * Existe por causa do imprevisível: o app importa arquivos e aceita texto
+ * colado, então o corpus não é fechado. Um caractere que ninguém previu tinha
+ * duas saídas ruins — sair como caixa vazia, ou sair com o desenho do aparelho,
+ * diferente em cada um. Agora cai sempre na mesma letra.
+ *
+ * Sai daqui a 'Times New Roman', que é proprietária da Monotype e não existe
+ * no Android: estava numa pilha de um projeto que se quer livre e offline.
+ *
+ * 5955 caracteres. Cobre latim, grego politônico, cirílico (100%), armênio,
+ * georgiano, hebraico (48% + 90% das formas de apresentação) e árabe (64%) —
+ * exatamente o que hoje caía no sistema. É sans e a leitura é serifada: o
+ * contraste de desenho é proposital, porque é sinal de que ali entrou algo
+ * fora do previsto.
+ *
+ * Só é baixada se um caractere realmente precisar dela.
+ */
+@font-face {
+  font-family: 'DejaVu Guarnicao';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url('/fonts/dejavu-sans.woff2') format('woff2');
+}
+@font-face {
+  font-family: 'DejaVu Guarnicao';
+  font-style: normal;
+  font-weight: 700;
+  font-display: swap;
+  src: url('/fonts/dejavu-sans-bold.woff2') format('woff2');
+}
+
+/*
  * OpenDyslexic (OFL): alternativa desenhada para dislexia — base das letras
  * mais pesada e formas assimétricas, para reduzir troca/espelhamento (b/d,
  * p/q). Embutida localmente, nada de CDN em tempo de execução.
@@ -173,9 +210,15 @@
   /* Tamanho de leitura ajustável pelo usuário (passo d) */
   --reading-font-size: 1.125rem;
   --reading-line-height: 1.7;
-  /* Cardo primeiro, Georgia só se algo der errado: o padrão de leitura é fonte
-     nossa, não do aparelho. Ver o bloco @font-face da Cardo, acima. */
-  --reading-font-family: 'Cardo', Georgia, 'Times New Roman', serif;
+  /* Cardo lê, DejaVu guarnece, e nenhuma fonte do sistema entra na conta.
+     Ver os blocos @font-face da Cardo e da DejaVu, acima. */
+  --reading-font-family: 'Cardo', 'DejaVu Guarnicao', serif;
+
+  /* Peso do traço. A Cardo é uma face filológica, mais leve que a Georgia que
+     ela substituiu — medido: 111,7 contra 134,0 de tinta. O contorno devolve
+     esse corpo sem trocar de fonte e sem pular para o negrito (Cardo Bold é
+     161,5, longe demais para texto corrido). Controlado pelo usuário. */
+  --reading-stroke: 0.019em;
 
   /* Tema Sépia (padrão): leitura confortável, ~13:1 */
   --color-bg: #faf7f2;
@@ -465,7 +508,10 @@ button {
 /* Φ — a marca do app (filosofia, filologia, filantropia), sempre em
    cena e clicável: abre a biblioteca */
 .phi-button {
-  font-family: Georgia, serif;
+  /* Φ e Ξ são a marca do app e são LETRAS GREGAS: desenhá-las com a fonte do
+     aparelho fazia a marca mudar de forma entre o computador e o celular.
+     Cardo tem o grego inteiro (NORMAS.md N72). */
+  font-family: 'Cardo', serif;
   font-weight: bold;
   font-size: 1.5rem;
   color: var(--color-accent);
@@ -1024,6 +1070,18 @@ button {
   min-width: 3.5rem;
 }
 
+/* O contorno vai só no corpo do texto e nas caixas de leitura — não na moldura
+   do app, que já tem peso próprio. `paint-order: stroke fill` desenha o traço
+   ANTES do preenchimento, então ele engrossa por fora e não fecha o buraco do
+   a, do e e do o. Sem isso, contorno em corpo pequeno vira borrão. */
+.reader-body,
+.footnote-box-content,
+.wikilink-box-content,
+.editor-area {
+  -webkit-text-stroke: var(--reading-stroke) currentColor;
+  paint-order: stroke fill;
+}
+
 .reader-body {
   position: relative; /* referência para a caixa de nota inline */
   max-width: 42rem;
@@ -1524,7 +1582,7 @@ button {
 
 .theme-option-sample {
   font-size: 1.3em;
-  font-family: Georgia, serif;
+  font-family: 'Cardo', serif;
 }
 
 .theme-option-check {

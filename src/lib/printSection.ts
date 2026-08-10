@@ -35,8 +35,23 @@ const printProcessor = unified()
   })
   .use(rehypeStringify)
 
-const PRINT_STYLE = `
-  body { font-family: Georgia, 'Times New Roman', serif; max-width: 42rem;
+/* A aba de impressão é um documento novo: as @font-face do app não valem lá
+   dentro. Sem redeclarar, o grego e o hebraico saíam na fonte do sistema — no
+   papel, onde não há como corrigir depois. Mesmo caminho `/fonts/`, mesma
+   origem (NORMAS.md N72 e N73). */
+const PRINT_FONTS = `
+  @font-face { font-family:'Cardo'; font-style:normal; font-weight:400;
+    src:url('/fonts/cardo-regular.woff2') format('woff2'); }
+  @font-face { font-family:'Cardo'; font-style:italic; font-weight:400;
+    src:url('/fonts/cardo-italic.woff2') format('woff2'); }
+  @font-face { font-family:'Cardo'; font-style:normal; font-weight:700;
+    src:url('/fonts/cardo-bold.woff2') format('woff2'); }
+  @font-face { font-family:'DejaVu Guarnicao'; font-style:normal; font-weight:400;
+    src:url('/fonts/dejavu-sans.woff2') format('woff2'); }
+`
+
+const PRINT_STYLE = PRINT_FONTS + `
+  body { font-family: 'Cardo', 'DejaVu Guarnicao', serif; max-width: 42rem;
          margin: 2rem auto; padding: 0 1rem; line-height: 1.6; color: #1a1a1a; }
   h1, h2, h3, h4, h5, h6 { font-weight: bold; line-height: 1.3; margin: 1.4em 0 0.5em; }
   h1 { font-size: 1.6em; } h2 { font-size: 1.35em; } h3 { font-size: 1.15em; }

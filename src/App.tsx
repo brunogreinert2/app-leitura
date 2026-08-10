@@ -3,7 +3,7 @@ import { Catalog } from './components/Catalog'
 import { Reader, invalidateBookCache } from './components/Reader'
 import { TextEditor } from './components/TextEditor'
 import { LibraryDrawer } from './components/LibraryDrawer'
-import { ThemeDialog, useTheme, useFontFamily } from './components/ThemeDialog'
+import { ThemeDialog, useTheme, useFontFamily, usePesoTraco } from './components/ThemeDialog'
 import { Sidebar } from './components/Sidebar'
 import { DetailsDialog } from './components/DetailsDialog'
 import { useFontSize } from './components/FontControls'
@@ -69,6 +69,7 @@ export function App() {
   const [bookVersion, setBookVersion] = useState(0)
   const { theme, setTheme } = useTheme()
   const { fontFamily, setFontFamily } = useFontFamily()
+  const { peso, setPeso } = usePesoTraco()
   const { needRefresh, applyUpdate, checkResult, checkNow } = useAppUpdate()
   // Barra do topo constante: a tela da biblioteca tem o mesmo Ξ e o mesmo
   // ajuste de letra da leitura, com o estado guardado no mesmo lugar.
@@ -304,6 +305,8 @@ export function App() {
         onSelect={setTheme}
         fontFamily={fontFamily}
         onSelectFontFamily={setFontFamily}
+        peso={peso}
+        onSelectPeso={setPeso}
         onClose={() => setThemeOpen(false)}
       />
       {book ? (

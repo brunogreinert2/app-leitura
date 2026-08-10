@@ -67,10 +67,17 @@ export function useTheme() {
  * Embutida localmente (@font-face em styles.css) — sem CDN.
  */
 /**
- * Toda pilha termina em fonte NOSSA antes de chegar ao sistema operacional
- * (NORMAS.md N72). A Cardo é o piso: cobre latim com macrons, grego politônico
- * e hebraico com niqud — as três escritas do acervo. Georgia e Times New Roman
- * ficam como último recurso, e não como o desenho que a pessoa vê.
+ * Nenhuma pilha alcança o sistema operacional (NORMAS.md N72 e N73). Duas
+ * fontes nossas seguram tudo, nesta ordem:
+ *
+ *   Cardo             — o piso de leitura: latim com macrons, grego politônico
+ *                       e hebraico com niqud, as três escritas do acervo
+ *   DejaVu Guarnicao  — a última linha: cirílico, armênio, georgiano, árabe e
+ *                       o que ninguém previu, já que o app importa arquivos
+ *
+ * Georgia e Times New Roman saíram das pilhas. A primeira não existe no
+ * Android; a segunda é proprietária da Monotype, e não cabe num projeto que se
+ * quer livre e offline.
  *
  * Sem isso, quem escolhia Atkinson ou OpenDyslexic lia todo o Novo Testamento
  * grego numa fonte do aparelho, porque nenhuma das duas tem grego — e o
@@ -83,19 +90,55 @@ export const FONTS = [
   {
     id: 'georgia',
     label: 'Serifada (padrão)',
-    stack: "'Cardo', Georgia, 'Times New Roman', serif",
+    stack: "'Cardo', 'DejaVu Guarnicao', serif",
   },
   {
     id: 'atkinson',
     label: 'Atkinson Hyperlegible',
-    stack: "'Atkinson Hyperlegible', 'Cardo', Georgia, serif",
+    stack: "'Atkinson Hyperlegible', 'Cardo', 'DejaVu Guarnicao', serif",
   },
   {
     id: 'opendyslexic',
     label: 'OpenDyslexic',
-    stack: "'OpenDyslexic', 'Cardo', Georgia, serif",
+    stack: "'OpenDyslexic', 'Cardo', 'DejaVu Guarnicao', serif",
   },
 ] as const
+
+/**
+ * Peso do traço. A Cardo é face filológica e tem menos tinta que a Georgia que
+ * ela substituiu (111,7 contra 134,0, medido pela área do desenho). Quem vem da
+ * Georgia sente o texto fino.
+ *
+ * Não dá para resolver com `font-weight`: a Cardo só tem 400 e 700, e o 700 tem
+ * 161,5 de tinta — negrito, não corpo de texto. O contorno preenche o vão sem
+ * trocar de fonte e sem pular de degrau.
+ *
+ * `medio` é o padrão porque é o que devolve o peso que o app tinha antes.
+ */
+export const PESOS = [
+  { id: 'fino', label: 'Fina', stroke: '0' },
+  { id: 'medio', label: 'Média', stroke: '0.019em' },
+  { id: 'grosso', label: 'Grossa', stroke: '0.038em' },
+] as const
+
+export type PesoId = (typeof PESOS)[number]['id']
+
+const PESO_STORAGE_KEY = 'app-peso-traco'
+
+export function usePesoTraco() {
+  const [peso, setPeso] = useState<PesoId>(() => {
+    const saved = localStorage.getItem(PESO_STORAGE_KEY)
+    return PESOS.some((p) => p.id === saved) ? (saved as PesoId) : 'medio'
+  })
+
+  useEffect(() => {
+    localStorage.setItem(PESO_STORAGE_KEY, peso)
+    const def = PESOS.find((p) => p.id === peso) ?? PESOS[1]
+    document.documentElement.style.setProperty('--reading-stroke', def.stroke)
+  }, [peso])
+
+  return { peso, setPeso }
+}
 
 export type FontFamilyId = (typeof FONTS)[number]['id']
 
@@ -122,6 +165,8 @@ interface Props {
   onSelect: (id: ThemeId) => void
   fontFamily: FontFamilyId
   onSelectFontFamily: (id: FontFamilyId) => void
+  peso: PesoId
+  onSelectPeso: (id: PesoId) => void
   onClose: () => void
 }
 
@@ -132,6 +177,8 @@ export function ThemeDialog({
   onSelect,
   fontFamily,
   onSelectFontFamily,
+  peso,
+  onSelectPeso,
   onClose,
 }: Props) {
   if (!open) return null
@@ -171,6 +218,27 @@ export function ThemeDialog({
             </span>
             {f.label}
             {fontFamily === f.id && <span className="theme-option-check"> ✓</span>}
+          </button>
+        ))}
+
+        <h2 className="theme-dialog-section-title">Peso da letra</h2>
+        <p>Mais grossa costuma ler melhor em tela; mais fina cansa menos no papel branco.</p>
+        {PESOS.map((p) => (
+          <button
+            key={p.id}
+            className="theme-option font-option"
+            onClick={() => onSelectPeso(p.id)}
+            aria-pressed={peso === p.id}
+          >
+            <span
+              className="theme-option-sample"
+              style={{ WebkitTextStroke: `${p.stroke} currentColor`, paintOrder: 'stroke fill' }}
+              aria-hidden="true"
+            >
+              Aa
+            </span>
+            {p.label}
+            {peso === p.id && <span className="theme-option-check"> ✓</span>}
           </button>
         ))}
 
