@@ -8,6 +8,8 @@ interface Props {
   initialTitle: string
   initialContent: string
   onSave: (titulo: string, conteudo: string) => void
+  /** Título derivado do que foi colado (front matter). Ver App.sugerirTitulo. */
+  sugerirTitulo?: (conteudo: string) => string | null
   onCancel: () => void
 }
 
@@ -61,7 +63,15 @@ const LIST_RE = /^(\s*)([-*+]|\d+\.)(\s+)(\[[ xX]\]\s+)?(.*)$/
  * continua o marcador (vazio sai da lista); Ctrl+B/I/K envolvem a
  * seleção sem tirar a mão do teclado.
  */
-export function TextEditor({ open, fileId, initialTitle, initialContent, onSave, onCancel }: Props) {
+export function TextEditor({
+  open,
+  fileId,
+  initialTitle,
+  initialContent,
+  onSave,
+  onCancel,
+  sugerirTitulo,
+}: Props) {
   const [titulo, setTitulo] = useState(initialTitle)
   const [conteudo, setConteudo] = useState(initialContent)
   const areaRef = useRef<HTMLTextAreaElement>(null)
@@ -106,7 +116,10 @@ export function TextEditor({ open, fileId, initialTitle, initialContent, onSave,
   }
 
   const save = () => {
-    const t = titulo.trim() || `Texto de ${new Date().toLocaleDateString('pt-BR')}`
+    const t =
+      titulo.trim() ||
+      sugerirTitulo?.(conteudo) ||
+      `Texto de ${new Date().toLocaleDateString('pt-BR')}`
     clearDraft()
     onSave(t, conteudo)
   }

@@ -246,6 +246,31 @@ export function App() {
     window.history.replaceState(null, '', hash)
   }, [book])
 
+  /**
+   * Quando se cola um arquivo do corpus no editor, o título não deveria ser
+   * "Texto de 11/08/2026": o arquivo já se apresenta no próprio cabeçalho.
+   *
+   * Preferimos o NOME DO ARQUIVO original (achado pelo `id` do YAML no
+   * catálogo) e não o título da obra, porque é ele que faz o "⇩ Baixar .md"
+   * sair pronto para substituir o original na pasta — sem renomear nada. Se o
+   * id não estiver no catálogo, cai no `title:` do YAML.
+   */
+  const sugerirTitulo = (conteudo: string): string | null => {
+    const fm = /^---\r?\n([\s\S]*?)\r?\n---/.exec(conteudo)
+    if (!fm) return null
+    const campo = (nome: string) => {
+      const m = new RegExp(`^${nome}:\\s*["']?(.+?)["']?\\s*$`, 'm').exec(fm[1])
+      return m ? m[1].trim() : null
+    }
+    const id = campo('id')
+    if (id) {
+      const doCatalogo = libraryCatalog?.livros.find((l) => l.id === id)
+      const arquivo = doCatalogo?.arquivo
+      if (arquivo) return arquivo.split('/').pop()!.replace(/\.md$/i, '')
+    }
+    return campo('title') ?? campo('titulo')
+  }
+
   const openBook = (entry: CatalogEntry) => {
     setStack([entry])
     setLibraryOpen(false)
@@ -292,6 +317,7 @@ export function App() {
         onCheckUpdate={checkNow}
       />
       <TextEditor
+        sugerirTitulo={sugerirTitulo}
         open={editor !== null}
         fileId={editor?.file?.id ?? null}
         initialTitle={editor?.file?.titulo ?? ''}
