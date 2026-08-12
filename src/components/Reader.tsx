@@ -381,6 +381,24 @@ export function Reader({
    * Gravar isso por cima do arquivo original apagaria o catálogo e quebraria
    * todo link publicado (LEI 6). Aqui o byte que sai é o byte que entrou.
    */
+  /**
+   * O arquivo inteiro, como está, para a área de transferência — o mesmo
+   * conteúdo do baixar, para quem prefere colar direto no editor.
+   *
+   * SEMPRE o livro TODO, nunca uma seção. Copiar fielmente só um capítulo e
+   * colar por cima do arquivo apagaria todos os outros: "fiel" e "parcial"
+   * juntos são uma armadilha. Para levar um trecho, use "Copiar livro", que
+   * é texto limpo e não se destina a voltar para a pasta.
+   */
+  const copiarFiel = () => {
+    if (!parsed) return
+    navigator.clipboard
+      .writeText(parsed.raw)
+      .then(() => showToast('Arquivo copiado — com cabeçalho e âncoras'))
+      .catch(() => showToast('Não foi possível copiar'))
+    setTocOpen(false)
+  }
+
   const baixarMd = () => {
     if (!parsed) return
     const nome = entry.arquivo?.split('/').pop() || `${entry.id}.md`
@@ -566,6 +584,7 @@ export function Reader({
         }
         onExpandAll={() => setCollapsed(new Set())}
         onCopy={requestCopy}
+        onCopyRaw={copiarFiel}
         onDownload={baixarMd}
         onAppearance={() => {
           setTocOpen(false)

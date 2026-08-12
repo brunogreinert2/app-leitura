@@ -20,6 +20,8 @@ interface Props {
   onCopy?: () => void
   /** Baixa o .md fiel ao original (com YAML e âncoras) — ver Reader.baixarMd. */
   onDownload?: () => void
+  /** Mesmo conteúdo do baixar, na área de transferência — ver Reader.copiarFiel. */
+  onCopyRaw?: () => void
   /** Presente só para textos do usuário (o corpus é intocável). */
   onEdit?: () => void
   onSelectName?: (name: string) => void
@@ -53,6 +55,7 @@ export function Sidebar({
   onExpandAll,
   onCopy,
   onDownload,
+  onCopyRaw,
   onAppearance,
   onDetails,
   onEdit,
@@ -147,6 +150,11 @@ export function Sidebar({
           {onCopy && (
             <button className="toc-action" onClick={onCopy}>
               Copiar livro
+            </button>
+          )}
+          {onCopyRaw && (
+            <button className="toc-action" onClick={onCopyRaw}>
+              ⧉ Copiar fiel
             </button>
           )}
           {onDownload && (
