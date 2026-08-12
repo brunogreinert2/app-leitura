@@ -374,6 +374,26 @@ export function Reader({
       .catch(() => showToast('Não foi possível copiar'))
   }
 
+  /**
+   * Baixa o arquivo COMO ESTÁ — com front matter e com as âncoras `^id`.
+   * Não passa por buildCopyText de propósito: aquele caminho existe para
+   * COLAR em outro lugar e por isso tira as âncoras e já vem sem o YAML.
+   * Gravar isso por cima do arquivo original apagaria o catálogo e quebraria
+   * todo link publicado (LEI 6). Aqui o byte que sai é o byte que entrou.
+   */
+  const baixarMd = () => {
+    if (!parsed) return
+    const nome = entry.arquivo?.split('/').pop() || `${entry.id}.md`
+    const blob = new Blob([parsed.raw], { type: 'text/markdown;charset=utf-8' })
+    const url = URL.createObjectURL(blob)
+    const a = document.createElement('a')
+    a.href = url
+    a.download = nome
+    a.click()
+    URL.revokeObjectURL(url)
+    setCopyDialogOpen(false)
+  }
+
   const doCopy = (onlyVisible: boolean) => {
     if (!parsed) return
     const text = buildCopyText(parsed.source, parsed.headings, collapsed, onlyVisible)
@@ -546,6 +566,7 @@ export function Reader({
         }
         onExpandAll={() => setCollapsed(new Set())}
         onCopy={requestCopy}
+        onDownload={baixarMd}
         onAppearance={() => {
           setTocOpen(false)
           onOpenAppearance()

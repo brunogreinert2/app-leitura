@@ -26,6 +26,14 @@ export interface ParsedBook {
   headings: HeadingInfo[]
   /** Markdown fonte sem o front matter (base do copiar limpo). */
   source: string
+  /**
+   * O arquivo COMO ESTÁ no disco: com front matter e com as âncoras `^id`.
+   * Separado de `source` de propósito — `source` perde o YAML e o copiar
+   * ainda tira as âncoras, o que é certo para colar em outro lugar e
+   * DESTRUIDOR para gravar por cima do original. Quem salva arquivo usa
+   * este campo; quem copia texto usa o outro.
+   */
+  raw: string
   /** Índice de nomes: alvos de wikilinks e nº de ocorrências. */
   names: NameEntry[]
   /** Tamanho do arquivo original em bytes (para os Detalhes). */
@@ -258,7 +266,7 @@ export function parseBook(raw: string): ParsedBook {
     },
   })
 
-  return { meta, body, headings, source: content, names, bytes: new Blob([raw]).size }
+  return { meta, body, headings, source: content, raw, names, bytes: new Blob([raw]).size }
 }
 
 /**
@@ -275,5 +283,5 @@ export function parseTxt(raw: string): ParsedBook {
       ))}
     </div>
   )
-  return { meta: null, body, headings: [], source: raw, names: [], bytes: new Blob([raw]).size }
+  return { meta: null, body, headings: [], source: raw, raw, names: [], bytes: new Blob([raw]).size }
 }
