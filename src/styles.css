@@ -1092,13 +1092,25 @@ button {
   /* Em fontes muito grandes (baixa visão), palavra nunca estoura a tela */
   overflow-wrap: break-word;
   hyphens: auto;
-  /* CommonMark estrito funde linha solta (Enter sem linha em branco)
-     num espaço só — mas o \n do fonte já chega intacto até aqui (só o
-     navegador que colapsa por padrão). Faz a tela respeitar o Enter
-     como o Obsidian faz, sem mexer no parser nem no "copiar limpo"
-     (que lê o markdown fonte, não a tela) — herda pra <p>/<li>/
-     blockquote, exceto onde o próprio elemento já define o seu (ex.
-     bloco de código, que continua "pre"). */
+}
+
+/* CommonMark estrito funde linha solta (Enter sem linha em branco) num espaço
+   só — mas o \n do fonte chega intacto até aqui. `pre-line` faz a tela
+   respeitar o Enter como o Obsidian faz, sem mexer no parser nem no "copiar
+   limpo" (que lê o markdown fonte, não a tela).
+
+   A regra vive nos BLOCOS DE TEXTO, nunca no contêiner. Quando estava em
+   `.reader-body`, ela também tornava visíveis as quebras de linha que o HTML
+   traz ENTRE um <p> e o seguinte: cada parágrafo ganhava uma linha em branco
+   que ninguém pediu. Medido em 2026-08-14 — o vão entre versículos era 66,6px
+   onde a margem manda 18px, ou seja 48,6px de nada, 1,6 linha inteira. Num
+   capítulo de 51 versículos isso são ~2500px de rolagem inventada, e o número
+   cresce junto com o corpo da letra: a 60px o fantasma vira ~162px por
+   versículo. Era isso que obrigava a folhear. */
+.reader-body p,
+.reader-body li,
+.reader-body blockquote,
+.reader-body dd {
   white-space: pre-line;
 }
 
@@ -1272,7 +1284,8 @@ button {
   overflow-y: auto;
   font-size: 0.9em;
   line-height: 1.55;
-  white-space: pre-line; /* mesma regra do corpo do texto — ver .reader-body */
+  /* pre-line NÃO vai aqui: ver .reader-body p — no contêiner ele inventa
+     uma linha em branco entre os blocos. Desce para os <p>, abaixo. */
 }
 
 .wikilink-box-content h1 {
@@ -1282,6 +1295,7 @@ button {
 
 .wikilink-box-content p {
   margin: 0 0 0.75em;
+  white-space: pre-line;
 }
 
 .wikilink-box-open {
@@ -1760,11 +1774,13 @@ button {
 
 .footnote-box-content {
   font-size: 0.95em;
-  white-space: pre-line; /* mesma regra do corpo do texto — ver .reader-body */
+  /* pre-line NÃO vai aqui: ver .reader-body p — no contêiner ele inventa
+     uma linha em branco entre os blocos. Desce para os <p>, abaixo. */
 }
 
 .footnote-box-content p {
   margin: 0 0 0.5em;
+  white-space: pre-line;
 }
 
 .footnote-box-content p:last-child {
