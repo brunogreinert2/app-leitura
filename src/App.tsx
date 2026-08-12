@@ -257,7 +257,13 @@ export function App() {
    */
   const sugerirTitulo = (conteudo: string): string | null => {
     const fm = /^---\r?\n([\s\S]*?)\r?\n---/.exec(conteudo)
-    if (!fm) return null
+    if (!fm) {
+      // Sem front matter — é o caso de colar UM capítulo, que vem pelo menu
+      // "⋯" e por decisão nossa não carrega YAML. O primeiro cabeçalho é o
+      // nome que o próprio trecho se dá; melhor que a data de hoje.
+      const h = /^#{1,6}\s+(.+?)\s*$/m.exec(conteudo)
+      return h ? h[1].trim() : null
+    }
     const campo = (nome: string) => {
       const m = new RegExp(`^${nome}:\\s*["']?(.+?)["']?\\s*$`, 'm').exec(fm[1])
       return m ? m[1].trim() : null
