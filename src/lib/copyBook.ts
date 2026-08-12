@@ -15,53 +15,19 @@ function stripAnchors(text: string): string {
 }
 
 /**
- * Monta o texto a copiar a partir do MARKDOWN FONTE (copiar limpo, F8):
- * sem artefatos de renderização, marcadores e notas como no arquivo.
+ * Escopado a UM heading (menu "⋯" de cada título). Duas intenções, e a
+ * diferença entre elas é a diferença entre citar e devolver ao arquivo:
  *
- * Com `onlyVisible`, as seções recolhidas entram só com a linha do
- * título — recolher tudo + copiar = esqueleto do livro numa ação.
- */
-export function buildCopyText(
-  source: string,
-  headings: HeadingInfo[],
-  collapsedIds: Set<string>,
-  onlyVisible: boolean,
-): string {
-  if (!onlyVisible || collapsedIds.size === 0) return stripAnchors(source)
-
-  const lines = source.split('\n')
-  const keep = new Array<boolean>(lines.length).fill(true)
-
-  for (let i = 0; i < headings.length; i++) {
-    const h = headings[i]
-    if (!collapsedIds.has(h.id) || h.line === undefined) continue
-    // Fim da seção: linha do próximo heading de nível igual ou superior
-    let endLine = lines.length + 1
-    for (let j = i + 1; j < headings.length; j++) {
-      const nextLine = headings[j].line
-      if (headings[j].depth <= h.depth && nextLine !== undefined) {
-        endLine = nextLine
-        break
-      }
-    }
-    // Mantém a linha do título (índice h.line - 1); remove o conteúdo
-    for (let k = h.line; k < endLine - 1; k++) keep[k] = false
-  }
-
-  return stripAnchors(
-    lines
-      .filter((_, i) => keep[i])
-      .join('\n')
-      .replace(/\n{3,}/g, '\n\n'),
-  )
-}
-
-/**
- * Igual a buildCopyText, mas escopado a UM heading (menu "⋯" de cada
- * título, não só o "Copiar livro" global do sumário): "tudo" lê da
- * árvore de headings (pega mesmo o que está recolhido na tela); "só
- * visível" lê do que está de fato aberto agora — se o próprio heading
- * estiver recolhido, sobra só a linha do título.
+ *   só visível  o que está de fato aberto na tela, texto limpo, SEM âncoras
+ *               — é para citar; se o heading estiver recolhido, sobra o título
+ *   tudo        a seção como está no arquivo, COM as âncoras `^id` — TUDO
+ *               significa tudo, inclusive o que é endereço e não texto
+ *
+ * O front matter NÃO entra nem numa nem noutra: ele pertence ao arquivo, não
+ * a um capítulo. Um capítulo com YAML na frente não é arquivo válido nem
+ * trecho limpo — seria meio arquivo, e meio arquivo colado por cima do
+ * original apaga o resto. Para levar o arquivo inteiro existe o "Copiar
+ * livro" do Ξ, que é fiel byte a byte.
  */
 export function buildSectionCopyText(
   source: string,
@@ -86,7 +52,9 @@ export function buildSectionCopyText(
   }
   const sectionLines = lines.slice(rootLine - 1, endLine - 1)
 
-  if (!onlyVisible) return stripAnchors(sectionLines.join('\n'))
+  // "tudo" é tudo: a seção como está no arquivo, com as âncoras `^id`.
+  // Só o "só visível", abaixo, tira — porque aquele é para citar.
+  if (!onlyVisible) return sectionLines.join('\n')
 
   // Mesmo algoritmo de buildCopyText, mas em coordenadas absolutas do
   // livro inteiro (evita reindexar `line` na hora de recortar) — só no

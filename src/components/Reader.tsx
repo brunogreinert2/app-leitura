@@ -14,7 +14,7 @@ import { TtsControl } from './TtsControl'
 import { CollapseContext } from './collapseContext'
 import { WikilinkContext, type WikilinkActions } from './wikilinkContext'
 import { HeadingActionsContext, type HeadingActions } from './headingActionsContext'
-import { buildCopyText, buildSectionCopyText } from '../lib/copyBook'
+import { buildSectionCopyText } from '../lib/copyBook'
 import { printMarkdownText } from '../lib/printSection'
 import { getBookIndex, chainForLine, resolveReference } from '../lib/searchIndex'
 import { roloUrl } from '../lib/rolo'
@@ -98,7 +98,6 @@ export function Reader({
   const [tocOpen, setTocOpen] = useState(false)
   const [searchOpen, setSearchOpen] = useState(false)
   const [collapsed, setCollapsed] = useState<Set<string>>(new Set())
-  const [copyDialogOpen, setCopyDialogOpen] = useState(false)
   const [detailsOpen, setDetailsOpen] = useState(false)
   const [toast, setToast] = useState<string | null>(null)
   const [wikilink, setWikilink] = useState<OpenWikilink | null>(null)
@@ -381,24 +380,6 @@ export function Reader({
    * Gravar isso por cima do arquivo original apagaria o catálogo e quebraria
    * todo link publicado (LEI 6). Aqui o byte que sai é o byte que entrou.
    */
-  /**
-   * O arquivo inteiro, como está, para a área de transferência — o mesmo
-   * conteúdo do baixar, para quem prefere colar direto no editor.
-   *
-   * SEMPRE o livro TODO, nunca uma seção. Copiar fielmente só um capítulo e
-   * colar por cima do arquivo apagaria todos os outros: "fiel" e "parcial"
-   * juntos são uma armadilha. Para levar um trecho, use "Copiar livro", que
-   * é texto limpo e não se destina a voltar para a pasta.
-   */
-  const copiarFiel = () => {
-    if (!parsed) return
-    navigator.clipboard
-      .writeText(parsed.raw)
-      .then(() => showToast('Arquivo copiado — com cabeçalho e âncoras'))
-      .catch(() => showToast('Não foi possível copiar'))
-    setTocOpen(false)
-  }
-
   const baixarMd = () => {
     if (!parsed) return
     const nome = entry.arquivo?.split('/').pop() || `${entry.id}.md`
@@ -409,24 +390,23 @@ export function Reader({
     a.download = nome
     a.click()
     URL.revokeObjectURL(url)
-    setCopyDialogOpen(false)
-  }
-
-  const doCopy = (onlyVisible: boolean) => {
-    if (!parsed) return
-    const text = buildCopyText(parsed.source, parsed.headings, collapsed, onlyVisible)
-    navigator.clipboard
-      .writeText(text)
-      .then(() => showToast('Copiado!'))
-      .catch(() => showToast('Não foi possível copiar'))
-    setCopyDialogOpen(false)
-  }
-
-  const requestCopy = () => {
     setTocOpen(false)
-    // Sem seção recolhida não há o que perguntar: copia tudo
-    if (collapsed.size === 0) doCopy(false)
-    else setCopyDialogOpen(true)
+  }
+
+  /**
+   * "Copiar livro" copia o ARQUIVO, byte por byte: cabeçalho YAML, âncoras,
+   * tudo. É a saída para editar e devolver à pasta, e por isso não tem
+   * variante "só o visível" — meio arquivo colado por cima do original apaga
+   * o resto. Para levar um trecho, o menu "⋯" de cada capítulo tem as duas
+   * intenções separadas.
+   */
+  const requestCopy = () => {
+    if (!parsed) return
+    setTocOpen(false)
+    navigator.clipboard
+      .writeText(parsed.raw)
+      .then(() => showToast('Livro copiado — arquivo inteiro, com cabeçalho e âncoras'))
+      .catch(() => showToast('Não foi possível copiar'))
   }
 
   const footnoteActions = useMemo<FootnoteActions>(
@@ -584,7 +564,6 @@ export function Reader({
         }
         onExpandAll={() => setCollapsed(new Set())}
         onCopy={requestCopy}
-        onCopyRaw={copiarFiel}
         onDownload={baixarMd}
         onAppearance={() => {
           setTocOpen(false)
@@ -706,30 +685,6 @@ export function Reader({
         </WikilinkContext.Provider>
       </FootnoteContext.Provider>
 
-      {copyDialogOpen && (
-        <>
-          <div
-            className="sidebar-backdrop"
-            onClick={() => setCopyDialogOpen(false)}
-            aria-hidden="true"
-          />
-          <div className="copy-dialog" role="dialog" aria-label="O que copiar?">
-            <h2>Copiar livro</h2>
-            <p>Há seções recolhidas. O que copiar?</p>
-            <button className="copy-dialog-option" onClick={() => doCopy(true)}>
-              Só o visível
-              <span className="copy-dialog-hint">seções recolhidas entram só com o título</span>
-            </button>
-            <button className="copy-dialog-option" onClick={() => doCopy(false)}>
-              Todo o conteúdo
-              <span className="copy-dialog-hint">ignora o recolhimento</span>
-            </button>
-            <button className="copy-dialog-cancel" onClick={() => setCopyDialogOpen(false)}>
-              Cancelar
-            </button>
-          </div>
-        </>
-      )}
 
       <DetailsDialog
         open={detailsOpen}
