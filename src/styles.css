@@ -1162,6 +1162,20 @@ button {
   color: var(--color-muted);
 }
 
+/* A barra da citação media 75,6px para um texto de 30,6px — dois e meio o
+   tamanho, e o excesso lia como espaço vazio a rolar. Causa: a citação tem
+   padding, então a margem de 1em do <p> de dentro não colapsa para fora;
+   fica presa e estica a barra em 2em (18+18+4,5+4,5 = os 45px de sobra).
+   Zerar só nas pontas mantém o respiro ENTRE parágrafos de uma citação
+   longa e tira o excesso das extremidades. */
+.reader-body blockquote > :first-child {
+  margin-top: 0;
+}
+
+.reader-body blockquote > :last-child {
+  margin-bottom: 0;
+}
+
 .reader-body hr {
   border: none;
   border-top: 1px solid var(--color-border);
