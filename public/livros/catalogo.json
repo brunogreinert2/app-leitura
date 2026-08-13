@@ -6312,6 +6312,342 @@
       "autor": "—",
       "arquivo": "BIBLIAS/Ingles/Douay_Rheims/73_Apocalypse_Apc_eng_douay-rheims_1752.md",
       "sistema_referencia": "versiculo"
+    },
+    {
+      "id": "genesis-grc-lxx-swe",
+      "titulo": "Gênesis",
+      "autor": "null",
+      "arquivo": "BIBLIAS/Grego/Antigo_Testamento_Grego/01_Genesis_grc_swete_1901.md"
+    },
+    {
+      "id": "exodo-grc-lxx-swe",
+      "titulo": "Êxodo",
+      "autor": "null",
+      "arquivo": "BIBLIAS/Grego/Antigo_Testamento_Grego/02_Exodo_grc_swete_1901.md"
+    },
+    {
+      "id": "levitico-grc-lxx-swe",
+      "titulo": "Levítico",
+      "autor": "null",
+      "arquivo": "BIBLIAS/Grego/Antigo_Testamento_Grego/03_Levitico_grc_swete_1901.md"
+    },
+    {
+      "id": "numeros-grc-lxx-swe",
+      "titulo": "Números",
+      "autor": "null",
+      "arquivo": "BIBLIAS/Grego/Antigo_Testamento_Grego/04_Numeros_grc_swete_1901.md"
+    },
+    {
+      "id": "deuteronomio-grc-lxx-swe",
+      "titulo": "Deuteronômio",
+      "autor": "null",
+      "arquivo": "BIBLIAS/Grego/Antigo_Testamento_Grego/05_Deuteronomio_grc_swete_1901.md"
+    },
+    {
+      "id": "josue-grc-lxx-swe-vat-alex",
+      "titulo": "Josué",
+      "autor": "null",
+      "arquivo": "BIBLIAS/Grego/Antigo_Testamento_Grego/06_Josue_grc_swete_1901.md"
+    },
+    {
+      "id": "juizes-grc-lxx-swe-alex",
+      "titulo": "Juízes",
+      "autor": "null",
+      "arquivo": "BIBLIAS/Grego/Antigo_Testamento_Grego/07_Juizes_grc_swete_1901.md"
+    },
+    {
+      "id": "rute-grc-lxx-swe",
+      "titulo": "Rute",
+      "autor": "null",
+      "arquivo": "BIBLIAS/Grego/Antigo_Testamento_Grego/08_Rute_grc_swete_1901.md"
+    },
+    {
+      "id": "1-reinos-grc-lxx-swe",
+      "titulo": "1 Reinos (1 Samuel no texto masorético)",
+      "autor": "null",
+      "arquivo": "BIBLIAS/Grego/Antigo_Testamento_Grego/09_1_Reinos_grc_swete_1901.md"
+    },
+    {
+      "id": "2-reinos-grc-lxx-swe",
+      "titulo": "2 Reinos (2 Samuel no texto masorético)",
+      "autor": "null",
+      "arquivo": "BIBLIAS/Grego/Antigo_Testamento_Grego/10_2_Reinos_grc_swete_1901.md"
+    },
+    {
+      "id": "3-reinos-grc-lxx-swe",
+      "titulo": "3 Reinos (1 Reis no texto masorético)",
+      "autor": "null",
+      "arquivo": "BIBLIAS/Grego/Antigo_Testamento_Grego/11_3_Reinos_grc_swete_1901.md"
+    },
+    {
+      "id": "4-reinos-grc-lxx-swe",
+      "titulo": "4 Reinos (2 Reis no texto masorético)",
+      "autor": "null",
+      "arquivo": "BIBLIAS/Grego/Antigo_Testamento_Grego/12_4_Reinos_grc_swete_1901.md"
+    },
+    {
+      "id": "1-paralipomenos-grc-lxx-swe",
+      "titulo": "1 Paralipômenos (1 Crônicas)",
+      "autor": "null",
+      "arquivo": "BIBLIAS/Grego/Antigo_Testamento_Grego/13_1_Paralipomenos_grc_swete_1901.md"
+    },
+    {
+      "id": "2-paralipomenos-grc-lxx-swe",
+      "titulo": "2 Paralipômenos (2 Crônicas)",
+      "autor": "null",
+      "arquivo": "BIBLIAS/Grego/Antigo_Testamento_Grego/14_2_Paralipomenos_grc_swete_1901.md"
+    },
+    {
+      "id": "1-esdras-grc-lxx-swe",
+      "titulo": "1 Esdras (livro apócrifo)",
+      "autor": "null",
+      "arquivo": "BIBLIAS/Grego/Antigo_Testamento_Grego/15_1_Esdras_grc_swete_1901.md"
+    },
+    {
+      "id": "2-esdras-grc-lxx-swe",
+      "titulo": "2 Esdras (Esdras-Neemias no texto masorético)",
+      "autor": "null",
+      "arquivo": "BIBLIAS/Grego/Antigo_Testamento_Grego/16_2_Esdras_grc_swete_1901.md"
+    },
+    {
+      "id": "ester-grc-lxx-swe",
+      "titulo": "Ester",
+      "autor": "null",
+      "arquivo": "BIBLIAS/Grego/Antigo_Testamento_Grego/17_Ester_grc_swete_1901.md"
+    },
+    {
+      "id": "judite-grc-lxx-swe",
+      "titulo": "Judite",
+      "autor": "null",
+      "arquivo": "BIBLIAS/Grego/Antigo_Testamento_Grego/18_Judite_grc_swete_1901.md"
+    },
+    {
+      "id": "tobias-grc-lxx-swe-vat-alex",
+      "titulo": "Tobias",
+      "autor": "null",
+      "arquivo": "BIBLIAS/Grego/Antigo_Testamento_Grego/19_Tobias_grc_swete_1901.md"
+    },
+    {
+      "id": "1-macabeus-grc-lxx-swe",
+      "titulo": "1 Macabeus",
+      "autor": "null",
+      "arquivo": "BIBLIAS/Grego/Antigo_Testamento_Grego/20_1_Macabeus_grc_swete_1901.md"
+    },
+    {
+      "id": "2-macabeus-grc-lxx-swe",
+      "titulo": "2 Macabeus",
+      "autor": "null",
+      "arquivo": "BIBLIAS/Grego/Antigo_Testamento_Grego/21_2_Macabeus_grc_swete_1901.md"
+    },
+    {
+      "id": "3-macabeus-grc-lxx-swe",
+      "titulo": "3 Macabeus",
+      "autor": "null",
+      "arquivo": "BIBLIAS/Grego/Antigo_Testamento_Grego/22_3_Macabeus_grc_swete_1901.md"
+    },
+    {
+      "id": "4-macabeus-grc-lxx-swe",
+      "titulo": "4 Macabeus",
+      "autor": "null",
+      "arquivo": "BIBLIAS/Grego/Antigo_Testamento_Grego/23_4_Macabeus_grc_swete_1901.md"
+    },
+    {
+      "id": "salmos-grc-lxx-swe",
+      "titulo": "Salmos",
+      "autor": "null",
+      "arquivo": "BIBLIAS/Grego/Antigo_Testamento_Grego/24_Salmos_grc_swete_1901.md"
+    },
+    {
+      "id": "odes-grc-lxx-swe",
+      "titulo": "Odes",
+      "autor": "null",
+      "arquivo": "BIBLIAS/Grego/Antigo_Testamento_Grego/25_Odes_grc_swete_1901.md"
+    },
+    {
+      "id": "proverbios-grc-lxx-swe",
+      "titulo": "Provérbios",
+      "autor": "null",
+      "arquivo": "BIBLIAS/Grego/Antigo_Testamento_Grego/26_Proverbios_grc_swete_1901.md"
+    },
+    {
+      "id": "cantico-dos-canticos-grc-lxx-swe",
+      "titulo": "Cântico dos Cânticos",
+      "autor": "null",
+      "arquivo": "BIBLIAS/Grego/Antigo_Testamento_Grego/28_Cantico_dos_Canticos_grc_swete_1901.md"
+    },
+    {
+      "id": "jo-grc-lxx-swe",
+      "titulo": "Jó",
+      "autor": "null",
+      "arquivo": "BIBLIAS/Grego/Antigo_Testamento_Grego/29_Jo_grc_swete_1901.md"
+    },
+    {
+      "id": "sabedoria-grc-lxx-swe",
+      "titulo": "Sabedoria de Salomão",
+      "autor": "null",
+      "arquivo": "BIBLIAS/Grego/Antigo_Testamento_Grego/30_Sabedoria_grc_swete_1901.md"
+    },
+    {
+      "id": "eclesiastico-sirach-grc-lxx-swe",
+      "titulo": "Eclesiástico (Sirácida)",
+      "autor": "null",
+      "arquivo": "BIBLIAS/Grego/Antigo_Testamento_Grego/31_Eclesiastico_Sirach_grc_swete_1901.md"
+    },
+    {
+      "id": "salmos-de-salomao-grc-lxx-swe",
+      "titulo": "Salmos de Salomão",
+      "autor": "null",
+      "arquivo": "BIBLIAS/Grego/Antigo_Testamento_Grego/32_Salmos_de_Salomao_grc_swete_1901.md"
+    },
+    {
+      "id": "oseias-grc-lxx-swe",
+      "titulo": "Oséias",
+      "autor": "null",
+      "arquivo": "BIBLIAS/Grego/Antigo_Testamento_Grego/33_Oseias_grc_swete_1901.md"
+    },
+    {
+      "id": "amos-grc-lxx-swe",
+      "titulo": "Amós",
+      "autor": "null",
+      "arquivo": "BIBLIAS/Grego/Antigo_Testamento_Grego/34_Amos_grc_swete_1901.md"
+    },
+    {
+      "id": "miqueias-grc-lxx-swe",
+      "titulo": "Miquéias",
+      "autor": "null",
+      "arquivo": "BIBLIAS/Grego/Antigo_Testamento_Grego/35_Miqueias_grc_swete_1901.md"
+    },
+    {
+      "id": "joel-grc-lxx-swe",
+      "titulo": "Joel",
+      "autor": "null",
+      "arquivo": "BIBLIAS/Grego/Antigo_Testamento_Grego/36_Joel_grc_swete_1901.md"
+    },
+    {
+      "id": "obadias-grc-lxx-swe",
+      "titulo": "Obadias",
+      "autor": "null",
+      "arquivo": "BIBLIAS/Grego/Antigo_Testamento_Grego/37_Obadias_grc_swete_1901.md"
+    },
+    {
+      "id": "jonas-grc-lxx-swe",
+      "titulo": "Jonas",
+      "autor": "null",
+      "arquivo": "BIBLIAS/Grego/Antigo_Testamento_Grego/38_Jonas_grc_swete_1901.md"
+    },
+    {
+      "id": "naum-grc-lxx-swe",
+      "titulo": "Naum",
+      "autor": "null",
+      "arquivo": "BIBLIAS/Grego/Antigo_Testamento_Grego/39_Naum_grc_swete_1901.md"
+    },
+    {
+      "id": "habacuque-grc-lxx-swe",
+      "titulo": "Habacuque",
+      "autor": "null",
+      "arquivo": "BIBLIAS/Grego/Antigo_Testamento_Grego/40_Habacuque_grc_swete_1901.md"
+    },
+    {
+      "id": "sofonias-grc-lxx-swe",
+      "titulo": "Sofonias",
+      "autor": "null",
+      "arquivo": "BIBLIAS/Grego/Antigo_Testamento_Grego/41_Sofonias_grc_swete_1901.md"
+    },
+    {
+      "id": "ageu-grc-lxx-swe",
+      "titulo": "Ageu",
+      "autor": "null",
+      "arquivo": "BIBLIAS/Grego/Antigo_Testamento_Grego/42_Ageu_grc_swete_1901.md"
+    },
+    {
+      "id": "zacarias-grc-lxx-swe",
+      "titulo": "Zacarias",
+      "autor": "null",
+      "arquivo": "BIBLIAS/Grego/Antigo_Testamento_Grego/43_Zacarias_grc_swete_1901.md"
+    },
+    {
+      "id": "malaquias-grc-lxx-swe",
+      "titulo": "Malaquias",
+      "autor": "null",
+      "arquivo": "BIBLIAS/Grego/Antigo_Testamento_Grego/44_Malaquias_grc_swete_1901.md"
+    },
+    {
+      "id": "isaias-grc-lxx-swe",
+      "titulo": "Isaías",
+      "autor": "null",
+      "arquivo": "BIBLIAS/Grego/Antigo_Testamento_Grego/45_Isaias_grc_swete_1901.md"
+    },
+    {
+      "id": "jeremias-grc-lxx-swe",
+      "titulo": "Jeremias",
+      "autor": "null",
+      "arquivo": "BIBLIAS/Grego/Antigo_Testamento_Grego/46_Jeremias_grc_swete_1901.md"
+    },
+    {
+      "id": "baruc-grc-lxx-swe",
+      "titulo": "Baruc",
+      "autor": "null",
+      "arquivo": "BIBLIAS/Grego/Antigo_Testamento_Grego/47_Baruc_grc_swete_1901.md"
+    },
+    {
+      "id": "lamentacoes-grc-lxx-swe",
+      "titulo": "Lamentações",
+      "autor": "null",
+      "arquivo": "BIBLIAS/Grego/Antigo_Testamento_Grego/48_Lamentacoes_grc_swete_1901.md"
+    },
+    {
+      "id": "carta-de-jeremias-grc-lxx-swe",
+      "titulo": "Carta de Jeremias",
+      "autor": "null",
+      "arquivo": "BIBLIAS/Grego/Antigo_Testamento_Grego/49_Carta_de_Jeremias_grc_swete_1901.md"
+    },
+    {
+      "id": "ezequiel-grc-lxx-swe",
+      "titulo": "Ezequiel",
+      "autor": "null",
+      "arquivo": "BIBLIAS/Grego/Antigo_Testamento_Grego/50_Ezequiel_grc_swete_1901.md"
+    },
+    {
+      "id": "susana-grc-lxx-swe-og",
+      "titulo": "Susana",
+      "autor": "null",
+      "arquivo": "BIBLIAS/Grego/Antigo_Testamento_Grego/51_Susana_TextoAntigo_grc_swete_1901.md"
+    },
+    {
+      "id": "susana-grc-lxx-swe-teod",
+      "titulo": "Susana",
+      "autor": "null",
+      "arquivo": "BIBLIAS/Grego/Antigo_Testamento_Grego/52_Susana_Teodocio_grc_swete_1901.md"
+    },
+    {
+      "id": "daniel-grc-lxx-swe-og",
+      "titulo": "Daniel",
+      "autor": "null",
+      "arquivo": "BIBLIAS/Grego/Antigo_Testamento_Grego/53_Daniel_TextoAntigo_grc_swete_1901.md"
+    },
+    {
+      "id": "daniel-grc-lxx-swe-teod",
+      "titulo": "Daniel",
+      "autor": "null",
+      "arquivo": "BIBLIAS/Grego/Antigo_Testamento_Grego/54_Daniel_Teodocio_grc_swete_1901.md"
+    },
+    {
+      "id": "bel-e-o-dragao-grc-lxx-swe-og",
+      "titulo": "Bel e o Dragão",
+      "autor": "null",
+      "arquivo": "BIBLIAS/Grego/Antigo_Testamento_Grego/55_Bel_e_o_Dragao_TextoAntigo_grc_swete_1901.md"
+    },
+    {
+      "id": "bel-e-o-dragao-grc-lxx-swe-teod",
+      "titulo": "Bel e o Dragão",
+      "autor": "null",
+      "arquivo": "BIBLIAS/Grego/Antigo_Testamento_Grego/56_Bel_e_o_Dragao_Teodocio_grc_swete_1901.md"
+    },
+    {
+      "id": "eclesiastes-grc-lxx-sts",
+      "titulo": "Eclesiastes",
+      "autor": "null",
+      "arquivo": "BIBLIAS/Grego/Antigo_Testamento_Grego/27_Eclesiastes_grc_stx_indeterminado.md"
     }
   ],
   "redirecionamentos": {
