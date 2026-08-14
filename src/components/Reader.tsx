@@ -693,7 +693,7 @@ export function Reader({
         parsed={parsed}
       />
 
-      <TtsControl bodyRef={bodyRef} />
+      <TtsControl bodyRef={bodyRef} escritaPadrao={parsed?.escritaPadrao ?? 'pt-BR'} />
 
       {toast && (
         <div className="toast" role="status">

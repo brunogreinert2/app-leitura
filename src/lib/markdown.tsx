@@ -8,6 +8,7 @@ import type { ReactNode } from 'react'
 import type { Root as HastRoot } from 'hast'
 import type { Element as HastElement, ElementContent } from 'hast'
 import { splitFrontmatter, type BookMeta } from './frontmatter'
+import { escritaDoCabecalho, type Escrita } from './idioma'
 import { remarkMarkers } from './remarkMarkers'
 import { remarkWikilinks } from './remarkWikilinks'
 import { remarkBlockAnchors } from './remarkBlockAnchors'
@@ -39,6 +40,13 @@ export interface ParsedBook {
   names: NameEntry[]
   /** Tamanho do arquivo original em bytes (para os Detalhes). */
   bytes: number
+  /**
+   * Idioma declarado em `language:`. É o PADRÃO de cada trecho: português,
+   * inglês e latim usam o mesmo alfabeto e não se distinguem por código de
+   * caractere, então quando a contagem de palavras não decide, quem manda é
+   * o que o arquivo declara. Ver lib/idioma.ts.
+   */
+  escritaPadrao: Escrita
 }
 
 export interface NameEntry {
@@ -268,7 +276,8 @@ export function parseBook(raw: string): ParsedBook {
     },
   })
 
-  return { meta, body, headings, source: content, raw, names, bytes: new Blob([raw]).size }
+  return { meta, body, headings, source: content, raw, names, bytes: new Blob([raw]).size,
+    escritaPadrao: escritaDoCabecalho(meta?.language) }
 }
 
 /**
@@ -285,5 +294,6 @@ export function parseTxt(raw: string): ParsedBook {
       ))}
     </div>
   )
-  return { meta: null, body, headings: [], source: raw, raw, names: [], bytes: new Blob([raw]).size }
+  return { meta: null, body, headings: [], source: raw, raw, names: [], bytes: new Blob([raw]).size,
+    escritaPadrao: 'pt-BR' }
 }

@@ -17,6 +17,8 @@ const MAX_CHUNK = 260
 
 interface Props {
   bodyRef: RefObject<HTMLElement | null>
+  /** Idioma declarado no cabeçalho do arquivo — padrão de cada trecho. */
+  escritaPadrao: Escrita
 }
 
 type Status = 'idle' | 'speaking' | 'paused'
@@ -56,7 +58,7 @@ function chunks(text: string): string[] {
 }
 
 /** Blocos legíveis visíveis, do ponto atual da tela até o fim do aberto. */
-function collectItems(root: HTMLElement): SpeechItem[] {
+function collectItems(root: HTMLElement, padrao: Escrita): SpeechItem[] {
   // .reading-heading (não h1..h6 fixo): headings além do 6º nível não
   // têm nome de tag previsível (CommonMark trava ATX em 6 "#", a
   // profundidade real vem por outro caminho — ver remarkDeepHeadings).
@@ -72,13 +74,13 @@ function collectItems(root: HTMLElement): SpeechItem[] {
   for (const el of visible) {
     const text = speakableText(el)
     if (!text) continue
-    const escrita = idiomaDoTexto(text)
+    const escrita = idiomaDoTexto(text, padrao)
     chunks(text).forEach((t, i) => items.push({ el, text: t, first: i === 0, escrita }))
   }
   return items
 }
 
-export function TtsControl({ bodyRef }: Props) {
+export function TtsControl({ bodyRef, escritaPadrao }: Props) {
   const [open, setOpen] = useState(false)
   const [status, setStatus] = useState<Status>('idle')
   const [voices, setVoices] = useState<SpeechSynthesisVoice[]>([])
@@ -167,10 +169,20 @@ export function TtsControl({ bodyRef }: Props) {
        mandava grego para uma voz portuguesa: o motor não produzia som, o
        onerror avançava, e só os números dos versículos saíam falados. */
     const utter = new SpeechSynthesisUtterance(item.text)
-    const voice = item.escrita === 'pt-BR' ? pickVoice() : vozPara(item.escrita, voices)
+    const achada = item.escrita === 'pt-BR' ? null : vozPara(item.escrita, voices)
+    const voice = item.escrita === 'pt-BR' ? pickVoice() : achada?.voz ?? null
     if (voice) {
       utter.voice = voice
       utter.lang = voice.lang
+      /* Voz aproximada não é voz certa: avisa uma vez, para quem ouve saber
+         que aquele latim está saindo com fonética emprestada. */
+      if (achada?.aproximada && !avisadosRef.current.has(item.escrita)) {
+        avisadosRef.current.add(item.escrita)
+        setAviso(
+          `Sem voz de ${NOME_DA_ESCRITA[item.escrita]} neste aparelho — lendo com ` +
+            `${voice.name}, que é a aproximação mais próxima instalada.`,
+        )
+      }
     } else {
       /* Sem voz instalada para essa escrita: melhor pular do que ler com a
          fonética errada. Avisa uma vez e segue. */
@@ -200,7 +212,7 @@ export function TtsControl({ bodyRef }: Props) {
     stoppedRef.current = false
     avisadosRef.current.clear()
     setAviso('')
-    queueRef.current = collectItems(bodyRef.current)
+    queueRef.current = collectItems(bodyRef.current, escritaPadrao)
     indexRef.current = 0
     if (!queueRef.current.length) return
     setStatus('speaking')
