@@ -1753,6 +1753,15 @@ button {
 }
 
 /* Parágrafo sendo falado */
+/* Aviso do TTS: aparece quando falta voz de uma escrita no aparelho. */
+.tts-aviso {
+  margin: 0;
+  padding: 0.4rem 0.6rem;
+  border-left: 3px solid var(--color-error);
+  color: var(--color-muted);
+  font-size: 0.85em;
+}
+
 .tts-current {
   background: var(--hl-bg);
   color: var(--hl-fg);

@@ -339,12 +339,23 @@ def meta_tags(meta: dict) -> str:
     return "\n".join(saida)
 
 # ---------------------------------------------------------------- montagem do arquivo
+# A Cardo entra como SUPLEMENTO, restrita ao grego e ao hebraico: a Atkinson
+# tem 4 dos 144 caracteres do bloco grego, então o Novo Testamento inteiro saía
+# desenhado por uma fonte do aparelho — diferente no Windows, no Android e no
+# iPhone, e diferente do que o app-leitura mostra. É a mesma montagem do app
+# (NORMAS.md N70 e N72): mesma família não, mas mesmo mecanismo — o navegador
+# escolhe por caractere, e o arquivo só é baixado se aparecer grego ou hebraico.
+FAIXA_SUPLEMENTO = "U+0370-03FF,U+1F00-1FFF,U+0590-05FF,U+FB1D-FB4F"
+
 def css_fonte_local(rel: str = "fontes") -> str:
     return (
         f"  @font-face{{font-family:'Atkinson Hyperlegible';font-weight:400;font-style:normal;font-display:swap;\n"
         f"    src:url({rel}/Atkinson-Regular.woff2) format('woff2');}}\n"
         f"  @font-face{{font-family:'Atkinson Hyperlegible';font-weight:700;font-style:normal;font-display:swap;\n"
-        f"    src:url({rel}/Atkinson-Bold.woff2) format('woff2');}}"
+        f"    src:url({rel}/Atkinson-Bold.woff2) format('woff2');}}\n"
+        f"  @font-face{{font-family:'Cardo';font-weight:400;font-style:normal;font-display:swap;\n"
+        f"    src:url({rel}/Cardo-Regular.woff2) format('woff2');\n"
+        f"    unicode-range:{FAIXA_SUPLEMENTO};}}"
     )
 
 def css_fonte_embutida(dir_fontes: Path) -> str:
@@ -354,7 +365,10 @@ def css_fonte_embutida(dir_fontes: Path) -> str:
         f"  @font-face{{font-family:'Atkinson Hyperlegible';font-weight:400;font-style:normal;font-display:swap;\n"
         f"    src:url(data:font/woff2;base64,{b64('Atkinson-Regular.woff2')}) format('woff2');}}\n"
         f"  @font-face{{font-family:'Atkinson Hyperlegible';font-weight:700;font-style:normal;font-display:swap;\n"
-        f"    src:url(data:font/woff2;base64,{b64('Atkinson-Bold.woff2')}) format('woff2');}}"
+        f"    src:url(data:font/woff2;base64,{b64('Atkinson-Bold.woff2')}) format('woff2');}}\n"
+        f"  @font-face{{font-family:'Cardo';font-weight:400;font-style:normal;font-display:swap;\n"
+        f"    src:url(data:font/woff2;base64,{b64('Cardo-Regular.woff2')}) format('woff2');\n"
+        f"    unicode-range:{FAIXA_SUPLEMENTO};}}"
     )
 
 def preencher(template: str, campos: dict) -> str:
@@ -523,7 +537,11 @@ def gerar_colecao(nome: str, entradas: list[dict], raiz_corpus: Path, template: 
 #
 # Corpo de letra é MULTIPLICADOR (--ui-escala-fonte), nunca pixel fixo: quem
 # aumentou a letra no aparelho não é ignorado.
-CASCA_CSS = """<style>
+def casca_css(prefixo: str = "") -> str:
+    return """<style>
+@font-face{font-family:'Cardo';font-weight:400;font-style:normal;font-display:swap;
+  src:url(""" + prefixo + """fontes/Cardo-Regular.woff2) format('woff2');
+  unicode-range:""" + FAIXA_SUPLEMENTO + """;}
 :root{
   --ui-fundo:#0A1220;--ui-texto:#EAE3D3;--ui-acento:#C9A227;
   --ui-superficie:rgba(255,255,255,.05);--ui-linha:rgba(255,255,255,.16);
@@ -538,7 +556,7 @@ CASCA_CSS = """<style>
 [data-theme=petroleo]{--ui-fundo:#0E2E33;--ui-texto:#DCEEEF;
   --ui-superficie:rgba(255,255,255,.05);--ui-linha:rgba(255,255,255,.14);}
 *{box-sizing:border-box;}
-body{background:var(--ui-fundo);color:var(--ui-texto);font-family:Georgia,serif;
+body{background:var(--ui-fundo);color:var(--ui-texto);font-family:'Cardo',Georgia,serif;
   margin:0;padding:0 0 5rem;font-size:calc(1rem*var(--ui-escala-fonte));}
 .w{max-width:760px;margin:0 auto;padding:0 1rem;}
 h1{color:var(--ui-acento);font-size:calc(1.6rem*var(--ui-escala-fonte));}
@@ -561,7 +579,7 @@ pre{font-family:var(--ui-mono);font-size:calc(.78rem*var(--ui-escala-fonte));lin
   gap:.4rem;flex-wrap:wrap;padding:.5rem 1rem;}
 .ui-botao-barra{min-width:2.75rem;min-height:2.75rem;padding:.4rem .6rem;
   border:2px solid currentColor;border-radius:.5rem;background:none;color:var(--ui-acento);
-  font-family:Georgia,serif;font-size:calc(1.25rem*var(--ui-escala-fonte));font-weight:700;
+  font-family:'Cardo',Georgia,serif;font-size:calc(1.25rem*var(--ui-escala-fonte));font-weight:700;
   line-height:1;cursor:pointer;display:inline-flex;align-items:center;justify-content:center;
   text-decoration:none;-webkit-tap-highlight-color:transparent;}
 .ui-botao-barra--tema{font-family:var(--ui-mono);font-weight:400;
@@ -881,7 +899,7 @@ def cabeca(titulo: str, prefixo: str = "", extra_head: str = "") -> list[str]:
         '<meta name="viewport" content="width=device-width, initial-scale=1.0">',
         f"<title>{html.escape(titulo)} · Pedra Angular</title>",
         extra_head,
-        CASCA_CSS,
+        casca_css(prefixo),
         CASCA_JS,
         "</head><body>",
         '<a class=pular href="#conteudo">Pular para o conteúdo</a>',
@@ -1328,7 +1346,10 @@ def main() -> int:
     args.saida.mkdir(parents=True, exist_ok=True)
     dir_fontes_saida = args.saida / "fontes"
     dir_fontes_saida.mkdir(exist_ok=True)
-    for nome in ("Atkinson-Regular.woff2", "Atkinson-Bold.woff2"):
+    # Cardo vai junto: é o suplemento de grego e hebraico do rolo. Sem ela
+    # copiada, o @font-face aponta para um arquivo que não existe e o grego
+    # volta a cair na fonte do aparelho — em silêncio.
+    for nome in ("Atkinson-Regular.woff2", "Atkinson-Bold.woff2", "Cardo-Regular.woff2"):
         origem = args.fontes / nome
         if origem.exists():
             shutil.copy2(origem, dir_fontes_saida / nome)

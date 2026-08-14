@@ -12,6 +12,7 @@ import { remarkMarkers } from './remarkMarkers'
 import { remarkWikilinks } from './remarkWikilinks'
 import { remarkBlockAnchors } from './remarkBlockAnchors'
 import { remarkHebrew } from './remarkHebrew'
+import { remarkGrego } from './remarkGrego'
 import { remarkHighlight } from './remarkHighlight'
 import { remarkInterlinear } from './remarkInterlinear'
 import { liftDeepHeadingMarkers, remarkDeepHeadingDepth } from './remarkDeepHeadings'
@@ -63,6 +64,7 @@ const processor = unified()
   .use(remarkMarkers)
   .use(remarkHighlight)
   .use(remarkHebrew)
+  .use(remarkGrego)
   .use(remarkRehype, {
     footnoteLabel: 'Notas',
     footnoteLabelTagName: 'h2',

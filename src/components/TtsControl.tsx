@@ -1,4 +1,5 @@
 import { useEffect, useRef, useState, type RefObject } from 'react'
+import { idiomaDoTexto, vozPara, NOME_DA_ESCRITA, type Escrita } from '../lib/idioma'
 
 /**
  * Leitura em voz alta via Web Speech API (SpeechSynthesis) — 100% do
@@ -21,6 +22,8 @@ interface Props {
 type Status = 'idle' | 'speaking' | 'paused'
 
 interface SpeechItem {
+  /** Escrita do trecho — decide a VOZ. Ver lib/idioma.ts. */
+  escrita: Escrita
   el: HTMLElement
   text: string
   first: boolean
@@ -69,7 +72,8 @@ function collectItems(root: HTMLElement): SpeechItem[] {
   for (const el of visible) {
     const text = speakableText(el)
     if (!text) continue
-    chunks(text).forEach((t, i) => items.push({ el, text: t, first: i === 0 }))
+    const escrita = idiomaDoTexto(text)
+    chunks(text).forEach((t, i) => items.push({ el, text: t, first: i === 0, escrita }))
   }
   return items
 }
@@ -87,6 +91,9 @@ export function TtsControl({ bodyRef }: Props) {
   const indexRef = useRef(0)
   const currentElRef = useRef<HTMLElement | null>(null)
   const stoppedRef = useRef(false)
+  /** Escritas já avisadas como sem voz — o aviso aparece uma vez por leitura. */
+  const avisadosRef = useRef<Set<Escrita>>(new Set())
+  const [aviso, setAviso] = useState('')
 
   const supported = typeof window !== 'undefined' && 'speechSynthesis' in window
 
@@ -156,11 +163,24 @@ export function TtsControl({ bodyRef }: Props) {
         item.el.scrollIntoView({ block: 'center' })
       }
     }
+    /* A voz sai da ESCRITA do trecho, não do documento. Antes daqui o app
+       mandava grego para uma voz portuguesa: o motor não produzia som, o
+       onerror avançava, e só os números dos versículos saíam falados. */
     const utter = new SpeechSynthesisUtterance(item.text)
-    const voice = pickVoice()
+    const voice = item.escrita === 'pt-BR' ? pickVoice() : vozPara(item.escrita, voices)
     if (voice) {
       utter.voice = voice
       utter.lang = voice.lang
+    } else {
+      /* Sem voz instalada para essa escrita: melhor pular do que ler com a
+         fonética errada. Avisa uma vez e segue. */
+      if (!avisadosRef.current.has(item.escrita)) {
+        avisadosRef.current.add(item.escrita)
+        setAviso(`Sem voz de ${NOME_DA_ESCRITA[item.escrita]} neste aparelho — trechos pulados.`)
+      }
+      indexRef.current++
+      speakNext()
+      return
     }
     utter.rate = rate
     utter.onend = () => {
@@ -178,6 +198,8 @@ export function TtsControl({ bodyRef }: Props) {
     if (!bodyRef.current) return
     speechSynthesis.cancel()
     stoppedRef.current = false
+    avisadosRef.current.clear()
+    setAviso('')
     queueRef.current = collectItems(bodyRef.current)
     indexRef.current = 0
     if (!queueRef.current.length) return
@@ -201,6 +223,11 @@ export function TtsControl({ bodyRef }: Props) {
     <div className="tts">
       {open && (
         <div className="tts-panel" role="group" aria-label="Leitura em voz alta">
+          {aviso && (
+            <p className="tts-aviso" role="status">
+              {aviso}
+            </p>
+          )}
           <div className="tts-row">
             {status === 'idle' && (
               <button className="tts-main" onClick={play}>

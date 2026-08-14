@@ -10,6 +10,7 @@ import { remarkWikilinks } from './remarkWikilinks'
 import { remarkMarkers } from './remarkMarkers'
 import { remarkHighlight } from './remarkHighlight'
 import { remarkHebrew } from './remarkHebrew'
+import { remarkGrego } from './remarkGrego'
 
 /**
  * Pipeline separado do processor interativo de markdown.tsx: aqui não
@@ -28,6 +29,7 @@ const printProcessor = unified()
   .use(remarkMarkers)
   .use(remarkHighlight)
   .use(remarkHebrew)
+  .use(remarkGrego)
   .use(remarkRehype, {
     footnoteLabel: 'Notas',
     footnoteLabelTagName: 'h2',

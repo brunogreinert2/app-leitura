@@ -28,7 +28,7 @@ export function remarkHebrew() {
           type: 'hebrewRun',
           data: {
             hName: 'span',
-            hProperties: { className: ['hebrew'], dir: 'rtl' },
+            hProperties: { className: ['hebrew'], lang: 'he', dir: 'rtl' },
             hChildren: [{ type: 'text', value: m[0] }],
           },
         } as unknown as PhrasingContent)
