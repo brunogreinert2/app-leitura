@@ -6,6 +6,7 @@ import rehypeStringify from 'rehype-stringify'
 import { liftDeepHeadingMarkers, remarkDeepHeadingDepth } from './remarkDeepHeadings'
 import { remarkInterlinear } from './remarkInterlinear'
 import { remarkBlockAnchors } from './remarkBlockAnchors'
+import { remarkIdiomaAncora } from './remarkIdiomaAncora'
 import { remarkWikilinks } from './remarkWikilinks'
 import { remarkMarkers } from './remarkMarkers'
 import { remarkHighlight } from './remarkHighlight'
@@ -24,6 +25,7 @@ const printProcessor = unified()
   .use(remarkGfm)
   .use(remarkDeepHeadingDepth)
   .use(remarkInterlinear)
+  .use(remarkIdiomaAncora)
   .use(remarkBlockAnchors)
   .use(remarkWikilinks)
   .use(remarkMarkers)

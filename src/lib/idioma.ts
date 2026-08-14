@@ -12,10 +12,6 @@
 
 export type Escrita = 'he' | 'grc' | 'ru' | 'pt-BR' | 'en' | 'la'
 
-const RX_HEBRAICO = /[֐-׿יִ-ﭏ]/
-const RX_GREGO = /[Ͱ-Ͽἀ-῿]/
-const RX_CIRILICO = /[Ѐ-ӿ]/
-
 /**
  * Português, inglês e latim escrevem com o MESMO alfabeto — o código dos
  * caracteres não os separa, ao contrário do grego e do hebraico, que têm
@@ -42,6 +38,39 @@ function contar(texto: string, re: RegExp): number {
 }
 
 /**
+ * Fatia mínima de letras numa escrita para ela mandar na linha inteira.
+ *
+ * Sem isto, UM caractere basta. E o ecossistema escreve Φ e Ξ em português o
+ * tempo todo — são os nomes dos próprios botões da barra. O resultado era a
+ * página de boas-vindas, escrita inteiramente em português, ser lida com voz
+ * grega por causa de "o botão Φ (phi grega)". Trinta por cento separa uma
+ * linha que É grega de uma linha que apenas CITA uma letra grega.
+ */
+const LIMIAR_ESCRITA = 0.3
+/* Faixas com \u, nunca com o caractere literal — ver a nota longa em
+   remarkHebrew.ts: um U+FB1D decomposto no arquivo transformou a classe do
+   hebraico numa faixa de 25 mil pontos que engolia o grego politônico. */
+const RX_LETRA = /\p{L}/gu
+const RX_HEBRAICO = new RegExp('[\\u0590-\\u05FF\\uFB1D-\\uFB4F]', 'g')
+const RX_GREGO = new RegExp('[\\u0370-\\u03FF\\u1F00-\\u1FFF]', 'g')
+const RX_CIRILICO = new RegExp('[\\u0400-\\u04FF]', 'g')
+
+/** Escrita própria que domina o trecho, ou `null` se nenhuma alcança o limiar. */
+function dominante(texto: string): Escrita | null {
+  const letras = contar(texto, RX_LETRA)
+  if (!letras) return null
+  const pares: [RegExp, Escrita][] = [
+    [RX_HEBRAICO, 'he'],
+    [RX_GREGO, 'grc'],
+    [RX_CIRILICO, 'ru'],
+  ]
+  for (const [rx, escrita] of pares) {
+    if (contar(texto, rx) / letras >= LIMIAR_ESCRITA) return escrita
+  }
+  return null
+}
+
+/**
  * Escrita de um trecho.
  *
  * `padrao` é o idioma declarado no cabeçalho do arquivo (`language:`), não um
@@ -50,9 +79,8 @@ function contar(texto: string, re: RegExp): number {
  * sotaque brasileiro.
  */
 export function idiomaDoTexto(texto: string, padrao: Escrita = 'pt-BR'): Escrita {
-  if (RX_HEBRAICO.test(texto)) return 'he'
-  if (RX_GREGO.test(texto)) return 'grc'
-  if (RX_CIRILICO.test(texto)) return 'ru'
+  const escritaDominante = dominante(texto)
+  if (escritaDominante) return escritaDominante
 
   // Trecho curto não dá amostra: número de versículo, título de uma palavra.
   if (texto.trim().split(/\s+/).length < 6) return padrao
@@ -75,18 +103,34 @@ export function idiomaDoTexto(texto: string, padrao: Escrita = 'pt-BR'): Escrita
  * `language:` do front matter (o corpus tem ISO 639-2/B e BCP 47 misturados)
  * para a escrita usada aqui. Mesma tabela do `gerador_rolo.py`.
  */
+const CODIGOS: Record<string, Escrita> = {
+  por: 'pt-BR', pt: 'pt-BR', 'pt-br': 'pt-BR',
+  eng: 'en', en: 'en',
+  lat: 'la', la: 'la',
+  grc: 'grc', ell: 'grc', el: 'grc',
+  heb: 'he', he: 'he',
+  rus: 'ru', ru: 'ru',
+}
+
 export function escritaDoCabecalho(bruto: unknown): Escrita {
   if (typeof bruto !== 'string' || !bruto.trim()) return 'pt-BR'
-  const chave = bruto.trim().split('/')[0].trim().toLowerCase()
-  const mapa: Record<string, Escrita> = {
-    por: 'pt-BR', pt: 'pt-BR', 'pt-br': 'pt-BR',
-    eng: 'en', en: 'en',
-    lat: 'la', la: 'la',
-    grc: 'grc', ell: 'grc', el: 'grc',
-    heb: 'he', he: 'he',
-    rus: 'ru', ru: 'ru',
-  }
-  return mapa[chave] ?? 'pt-BR'
+  return CODIGOS[bruto.trim().split('/')[0].trim().toLowerCase()] ?? 'pt-BR'
+}
+
+/**
+ * Um `^por` no fim de uma linha é ETIQUETA DE IDIOMA, não endereço.
+ *
+ * A lista é FECHADA de propósito: só estes códigos viram idioma, e qualquer
+ * outra âncora continua sendo endereço de passagem, como sempre foi. Sem lista
+ * fechada, o dia em que alguém marcasse um versículo com `^ab` o app trocaria
+ * a voz sem motivo — e não há aviso para um erro desses, só uma frase saindo
+ * com sotaque errado.
+ *
+ * Verificado em 2026-08-16: o corpus não tem nenhuma âncora de 2 a 4 letras,
+ * então a convenção nasce sem colisão.
+ */
+export function escritaDaAncora(codigo: string): Escrita | null {
+  return CODIGOS[codigo.trim().toLowerCase()] ?? null
 }
 
 export function ehRtl(escrita: Escrita): boolean {

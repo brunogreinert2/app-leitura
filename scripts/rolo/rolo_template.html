@@ -347,8 +347,14 @@ function citacaoDe(no){
 }
 const AUTOR_OBRA=(document.querySelector('.cabecalho-app .autor')?.textContent||'').trim();
 function idiomaDoTexto(t){
-  if(RX_HEBRAICO.test(t)) return {lang:'he',dir:'rtl',voz:'he-IL'};
-  if(/[Ͱ-Ͽἀ-῿]/.test(t)) return {lang:'grc',dir:'ltr',voz:'el-GR'};
+  /* Limiar de 30%: sem ele UM caractere manda na linha inteira, e o site
+     escreve Φ e Ξ em portugues o tempo todo (sao os nomes dos botoes).
+     Mesma regra do app, em src/lib/idioma.ts. */
+  const letras=(t.match(/\p{L}/gu)||[]).length; if(!letras) return {lang:'pt-BR',dir:'ltr',voz:'pt-BR'};
+  const conta=rx=>(t.match(rx)||[]).length/letras;
+  if(conta(/[\u0590-\u05FF\uFB1D-\uFB4F]/g)>=.3) return {lang:'he',dir:'rtl',voz:'he-IL'};
+  if(conta(/[\u0370-\u03FF\u1F00-\u1FFF]/g)>=.3) return {lang:'grc',dir:'ltr',voz:'el-GR'};
+  if(conta(/[\u0400-\u04FF]/g)>=.3) return {lang:'ru',dir:'ltr',voz:'ru-RU'};
   return {lang:'pt-BR',dir:'ltr',voz:'pt-BR'};
 }
 /* botão de comando do menu de ajustes (único conteúdo ainda vindo de markdown) */
@@ -560,16 +566,26 @@ function irParaAncora(hash){
 
 /* ============ TTS ============ */
 let fila=[],idx=0,lendo=false;
+/* Voz para o idioma DECLARADO na linha (etiqueta `^eng` no .md, virada em
+   lang= pelo gerador). Latim não tem voz em sistema nenhum: o italiano é a
+   aproximação viva mais próxima da pronúncia eclesiástica — mesma escolha do
+   app, em src/lib/idioma.ts. */
+const VOZ_DE={'pt-BR':'pt-BR','en':'en-US','la':'it-IT','grc':'el-GR','he':'he-IL','ru':'ru-RU'};
 function coletar(no,out){
-  if(no.tipo==='heading') out.push(no.texto);
-  else if(no.tipo==='linha') out.push(no.texto);
+  /* Carrega o lang junto com o texto: sem ele a etiqueta de idioma marcaria o
+     HTML mas não trocaria a voz, e a linha em inglês sairia com sotaque
+     brasileiro — que é exatamente o problema que a etiqueta veio resolver. */
+  const declarado=no.el&&no.el.getAttribute?no.el.getAttribute('lang'):null;
+  if(no.tipo==='heading'||no.tipo==='linha') out.push({texto:no.texto,lang:declarado});
   (no.filhos||[]).forEach(f=>coletar(f,out));
   return out;
 }
-function falar(txt,fim){
+function falar(item,fim){
   if(!('speechSynthesis' in window)){flash('Sem leitura em voz alta neste navegador');return;}
-  const u=new SpeechSynthesisUtterance(txt);
-  u.lang=idiomaDoTexto(txt).voz;u.rate=.98;u.onend=fim;speechSynthesis.speak(u);
+  const u=new SpeechSynthesisUtterance(item.texto);
+  // Declarado vence detectado: o que o autor escreveu não se discute.
+  u.lang=(item.lang&&VOZ_DE[item.lang])||idiomaDoTexto(item.texto).voz;
+  u.rate=.98;u.onend=fim;speechSynthesis.speak(u);
 }
 function lerSecao(no){parar();fila=coletar(no,[]);idx=0;lendo=true;anunciar('Lendo '+no.texto);proximo();}
 function lerTudo(){parar();fila=coletar(arvore,[]);idx=0;lendo=true;

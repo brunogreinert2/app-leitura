@@ -1,5 +1,11 @@
 import { useEffect, useRef, useState, type RefObject } from 'react'
-import { idiomaDoTexto, vozPara, NOME_DA_ESCRITA, type Escrita } from '../lib/idioma'
+import {
+  idiomaDoTexto,
+  escritaDaAncora,
+  vozPara,
+  NOME_DA_ESCRITA,
+  type Escrita,
+} from '../lib/idioma'
 
 /**
  * Leitura em voz alta via Web Speech API (SpeechSynthesis) — 100% do
@@ -74,7 +80,16 @@ function collectItems(root: HTMLElement, padrao: Escrita): SpeechItem[] {
   for (const el of visible) {
     const text = speakableText(el)
     if (!text) continue
-    const escrita = idiomaDoTexto(text, padrao)
+    /* Etiqueta escrita no arquivo (`^por`, `^eng`) vence a detecção: o que o
+       autor declarou não se discute.
+
+       O `closest` PRECISA parar dentro do corpo do livro. O documento tem
+       `<html lang="pt-BR">`, então uma busca solta acharia sempre pt-BR e
+       desligaria a detecção automática no texto inteiro — o bug de sotaque de
+       volta, agora sem sintoma visível no código. */
+    const marcado = el.closest<HTMLElement>('[lang]')
+    const declarado = marcado && root.contains(marcado) ? marcado.getAttribute('lang') : null
+    const escrita = (declarado && escritaDaAncora(declarado)) || idiomaDoTexto(text, padrao)
     chunks(text).forEach((t, i) => items.push({ el, text: t, first: i === 0, escrita }))
   }
   return items

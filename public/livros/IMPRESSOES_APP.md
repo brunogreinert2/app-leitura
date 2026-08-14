@@ -71,6 +71,14 @@ O botão **Ξ** (xi grega) abre o **sumário** do livro, com os capítulos e as 
 
 O botão 🔊 no canto de baixo abre o leitor de voz: **Ouvir** lê em voz alta o que está aberto na tela, a partir do ponto em que você parou, destacando o parágrafo falado. Dá para pausar, retomar, parar, escolher a voz (as do seu aparelho) e ajustar a velocidade. Tudo acontece no aparelho — funciona offline com as vozes instaladas.
 
+A voz muda sozinha conforme a língua de cada trecho: grego é lido com voz grega, hebraico com voz hebraica, inglês com voz inglesa. Quando falta a voz certa no aparelho, o app avisa e usa a mais próxima — latim, que nenhum sistema tem, sai em italiano.
+
+## Marcar a língua de uma linha
+
+Às vezes o app não tem como adivinhar: uma linha de duas palavras, um verso solto, um interlinear que alterna português e inglês a cada linha. Nesses casos você escreve a língua no fim da linha, com o mesmo `^` das âncoras — `In the beginning was the Word. ^eng` faz aquela linha sair em voz inglesa.
+
+Os códigos são `^por`, `^eng`, `^lat`, `^grc`, `^heb` e `^rus`. A marca não aparece na leitura, e o que está escrito sempre vence o que o app adivinharia. Uma linha pode ter as duas coisas — endereço e língua, nesta ordem: `Texto. ^gn-1-1 ^eng`. Qualquer outra âncora continua sendo só endereço, como sempre.
+
 ## Seus próprios textos
 
 Na biblioteca (Φ) há dois botões:
@@ -82,7 +90,9 @@ Seus textos ficam na pasta "Meus arquivos", **só no seu aparelho** (não sobem 
 
 ## Copiar
 
-No sumário, "Copiar livro" copia o texto **limpo** — sem marcação do app, exatamente como no arquivo original. Se houver seções fechadas, o app pergunta se copia só o visível ou tudo.
+No sumário (Ξ), **"Copiar livro"** copia o arquivo inteiro, byte a byte — com front matter, âncoras e tudo. É a cópia fiel, feita para você colar num editor, mexer e devolver o arquivo à pasta.
+
+No menu **⋯** há a cópia de trecho, com duas opções: **só o visível**, que ignora as seções fechadas e sai limpo de marcação, e **tudo**, que sai como está no arquivo.
 
 # Sobre este projeto
 

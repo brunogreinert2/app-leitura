@@ -12,6 +12,7 @@ import { escritaDoCabecalho, type Escrita } from './idioma'
 import { remarkMarkers } from './remarkMarkers'
 import { remarkWikilinks } from './remarkWikilinks'
 import { remarkBlockAnchors } from './remarkBlockAnchors'
+import { remarkIdiomaAncora } from './remarkIdiomaAncora'
 import { remarkHebrew } from './remarkHebrew'
 import { remarkGrego } from './remarkGrego'
 import { remarkHighlight } from './remarkHighlight'
@@ -67,6 +68,7 @@ const processor = unified()
   .use(remarkGfm)
   .use(remarkDeepHeadingDepth)
   .use(remarkInterlinear)
+  .use(remarkIdiomaAncora)
   .use(remarkBlockAnchors)
   .use(remarkWikilinks)
   .use(remarkMarkers)

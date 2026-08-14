@@ -42,14 +42,61 @@ RX_HEBRAICO = re.compile(r"[\u0590-\u05FF]")
 RX_GREGO = re.compile(r"[\u0370-\u03FF\u1F00-\u1FFF]")
 RX_CIRILICO = re.compile(r"[\u0400-\u04FF]")
 
+# Etiqueta de idioma no fim da linha: `Curto ^eng`. Existe porque a detecção
+# por faixa Unicode só separa hebraico, grego e cirílico — português, inglês e
+# latim dividem o alfabeto e, numa linha curta, nada os distingue. É a mesma
+# convenção do app (src/lib/idioma.ts, CODIGOS) e a lista aqui tem de ficar
+# IGUAL à de lá: é o MESMO arquivo .md sendo lido nas duas superfícies, e uma
+# lista que diverge faz o rolo e o app lerem o mesmo texto em vozes diferentes.
+#
+# A lista é FECHADA de propósito. Qualquer outra âncora continua sendo endereço
+# de passagem, como sempre foi; se fosse aberta, um `^ab` qualquer trocaria o
+# idioma da linha sem que nada no texto denunciasse o erro.
+ETIQUETAS_IDIOMA = {
+    "por": "pt-BR", "pt": "pt-BR", "pt-br": "pt-BR",
+    "eng": "en", "en": "en",
+    "lat": "la", "la": "la",
+    "grc": "grc", "ell": "grc", "el": "grc",
+    "heb": "he", "he": "he",
+    "rus": "ru", "ru": "ru",
+}
+RX_ETIQUETA_IDIOMA = re.compile(r"\s*\^([A-Za-z-]{2,6})\s*$")
+
+
+def etiqueta_idioma(t: str) -> tuple[str, str, str]:
+    """(texto sem a etiqueta, lang, dir). Sem etiqueta, devolve o texto intacto."""
+    m = RX_ETIQUETA_IDIOMA.search(t)
+    if not m:
+        return t, "", ""
+    lang = ETIQUETAS_IDIOMA.get(m.group(1).lower(), "")
+    if not lang:
+        return t, "", ""  # âncora comum: é endereço, não idioma
+    return t[: m.start()].rstrip(), lang, "rtl" if lang == "he" else "ltr"
+
+
+# Fatia mínima de letras numa escrita para ela mandar na linha inteira.
+#
+# Sem isto, UM caractere basta. E o ecossistema escreve Φ e Ξ em português o
+# tempo todo — os nomes dos próprios botões. O resultado era a página de
+# boas-vindas, escrita inteiramente em português, marcada `lang="grc"` e lida
+# com voz grega por causa de "o botão Φ (phi grega)". Trinta por cento separa
+# uma linha que É grega de uma linha que apenas CITA uma letra grega.
+LIMIAR_ESCRITA = 0.30
+RX_LETRA = re.compile(r"[^\W\d_]", re.UNICODE)
+
+
 def idioma_da_linha(t: str) -> tuple[str, str]:
     """(lang, dir) — mesma heurística do motor, para o HTML já nascer certo."""
-    if RX_HEBRAICO.search(t):
-        return "he", "rtl"
-    if RX_GREGO.search(t):
-        return "grc", "ltr"
-    if RX_CIRILICO.search(t):
-        return "ru", "ltr"
+    letras = len(RX_LETRA.findall(t))
+    if not letras:
+        return "", "ltr"
+    for rx, lang, direcao in (
+        (RX_HEBRAICO, "he", "rtl"),
+        (RX_GREGO, "grc", "ltr"),
+        (RX_CIRILICO, "ru", "ltr"),
+    ):
+        if len(rx.findall(t)) / letras >= LIMIAR_ESCRITA:
+            return lang, direcao
     return "", "ltr"
 
 # ---------------------------------------------------------------- idioma da página
@@ -225,6 +272,13 @@ def corpo_html(md: str, prefixo_id: str = "") -> tuple[str, int]:
         segmentos = [l.rstrip() for l in bloco]
         crua = segmentos[0]
 
+        # A etiqueta de idioma sai ANTES da âncora de endereço: as duas fecham o
+        # bloco e podem estar na mesma linha (`texto ^gn-1-1 ^por`). Retirada
+        # nesta ordem, o endereço fica intacto para o RX_ANCORA logo abaixo.
+        segmentos[-1], lang_marcado, dir_marcado = etiqueta_idioma(segmentos[-1])
+        if len(segmentos) == 1:
+            crua = segmentos[0]
+
         # A âncora fecha o bloco, então vive no último segmento.
         ancora = ""
         m = RX_ANCORA.search(segmentos[-1])
@@ -250,11 +304,15 @@ def corpo_html(md: str, prefixo_id: str = "") -> tuple[str, int]:
             texto = mh.group(2).strip()
             n_headings += 1
             conteudo = inline(texto, marcadores)
+            # Título também aceita etiqueta: é justamente onde a detecção falha,
+            # porque título costuma ter duas ou três palavras.
+            hl, hd = (lang_marcado, dir_marcado) if lang_marcado else idioma_da_linha(texto)
+            attr_h = (f' lang="{hl}"' if hl else "") + (' dir="rtl"' if hd == "rtl" else "")
             if n <= 6:
-                saida.append(f'<h{n} data-n="{n}" style="--n:{n}"{attr_id}>{conteudo}</h{n}>')
+                saida.append(f'<h{n} data-n="{n}" style="--n:{n}"{attr_h}{attr_id}>{conteudo}</h{n}>')
             else:
                 saida.append(
-                    f'<div role="heading" aria-level="{n}" data-n="{n}" style="--n:{n}"{attr_id}>{conteudo}</div>'
+                    f'<div role="heading" aria-level="{n}" data-n="{n}" style="--n:{n}"{attr_h}{attr_id}>{conteudo}</div>'
                 )
             continue
 
@@ -273,7 +331,8 @@ def corpo_html(md: str, prefixo_id: str = "") -> tuple[str, int]:
             # Bloco ligado por quebra dura: UM parágrafo, <br> entre as linhas.
             # O primeiro segmento já perdeu o prefixo de citação/lista acima.
             partes = [corpo] + segmentos[1:]
-            lang, direcao = idioma_da_linha(" ".join(partes))
+            # Etiqueta escrita vence detecção: o que o autor declarou não se discute.
+            lang, direcao = (lang_marcado, dir_marcado) if lang_marcado else idioma_da_linha(" ".join(partes))
             attr_lang = f' lang="{lang}"' if lang else ""
             attr_dir = ' dir="rtl"' if direcao == "rtl" else ""
             miolo = "<br>".join(inline(p, marcadores) for p in partes if p)
@@ -282,7 +341,7 @@ def corpo_html(md: str, prefixo_id: str = "") -> tuple[str, int]:
             )
             continue
 
-        lang, direcao = idioma_da_linha(corpo)
+        lang, direcao = (lang_marcado, dir_marcado) if lang_marcado else idioma_da_linha(corpo)
         attr_lang = f' lang="{lang}"' if lang else ""
         attr_dir = ' dir="rtl"' if direcao == "rtl" else ""
         saida.append(
