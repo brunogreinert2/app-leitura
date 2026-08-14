@@ -126,7 +126,7 @@ export function escritaDoCabecalho(bruto: unknown): Escrita {
  * a voz sem motivo — e não há aviso para um erro desses, só uma frase saindo
  * com sotaque errado.
  *
- * Verificado em 2026-08-16: o corpus não tem nenhuma âncora de 2 a 4 letras,
+ * Verificado em 2026-08-14: o corpus não tem nenhuma âncora de 2 a 4 letras,
  * então a convenção nasce sem colisão.
  */
 export function escritaDaAncora(codigo: string): Escrita | null {
