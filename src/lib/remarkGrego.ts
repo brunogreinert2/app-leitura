@@ -19,7 +19,7 @@ import type { Root, Text, PhrasingContent } from 'mdast'
 // Espaços e pontuação são permitidos DENTRO de um run, para não picar uma
 // frase inteira em dezenas de spans — mas o run precisa começar e terminar em
 // letra grega.
-const GREGO = 'Ͱ-Ͽἀ-῿'
+const GREGO = '\\u0370-\\u03FF\\u1F00-\\u1FFF'
 const GREEK_RUN_RE = new RegExp(
   `[${GREGO}](?:[${GREGO}]|[\\s.,··;:!?()'’’·;-]+(?=[${GREGO}]))*`,
   'g',
