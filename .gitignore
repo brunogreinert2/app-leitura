@@ -11,3 +11,8 @@ __pycache__/
 # arquivos pessoais do Bruno, nunca sobem pro GitHub
 publicar.ps1
 PESSOAL_atalhos.md
+
+# rolo gerado localmente para conferir o gerador antes do deploy (N68).
+# O site nunca usa esta pasta: o CI gera em dist/rolo, que já está ignorado
+# acima. São ~300 MB e 2200 arquivos regenerados a cada execução.
+scripts/rolo/rolo/
