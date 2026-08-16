@@ -534,7 +534,12 @@ function celulaRazao (v, piso) {
 }
 
 function recalcular () {
-  let piorGlobal = Infinity
+  // Duas contas separadas DE PROPÓSITO. Juntar num "pior número" só mistura
+  // réguas: um contorno em 5.27 passa folgado no piso de 3:1, mas exibido ao
+  // lado de "régua do projeto: 7:1" ele parece texto reprovado. O instrumento
+  // fica dizendo a verdade e comunicando mentira.
+  let piorTexto = Infinity      // só entre os pares cujo piso é 7:1
+  let maisApertado = null       // o par com a menor folga em relação ao PRÓPRIO piso
   let reprovas = 0
   const linhas = []
 
@@ -546,7 +551,13 @@ function recalcular () {
     const pior = Math.min(normal, ...sims)
     const passa = piso === null ? null : pior >= piso
     if (passa === false) reprovas++
-    if (piso !== null && pior < piorGlobal) piorGlobal = pior
+    if (piso === ALVO_TEXTO && pior < piorTexto) piorTexto = pior
+    if (piso !== null) {
+      const folga = pior / piso
+      if (!maisApertado || folga < maisApertado.folga) {
+        maisApertado = { folga: folga, par: rotulo, valor: pior, piso: piso }
+      }
+    }
 
     linhas.push(
       '<tr' + (passa === false ? ' class="reprova"' : '') + '>' +
@@ -588,12 +599,19 @@ function recalcular () {
   const total = reprovas + reprovasDist
   const v = $('#veredicto')
   v.className = 'veredicto ' + (total ? 'nao' : 'ok')
-  v.innerHTML = total
-    ? '<strong>' + total + (total === 1 ? ' par reprova' : ' pares reprovam') + '</strong>' +
-      '<span class="pior">pior razão de texto: ' + (isFinite(piorGlobal) ? piorGlobal.toFixed(2) + ':1' : '—') + '</span>'
-    : '<strong>Passa em tudo</strong>' +
-      '<span class="pior">pior razão medida: ' + (isFinite(piorGlobal) ? piorGlobal.toFixed(2) + ':1' : '—') + '</span>' +
-      '<span class="pior" style="color:var(--fosco)">régua do projeto: 7:1</span>'
+  const linhaTexto = '<span class="pior">pior texto: ' +
+    (isFinite(piorTexto) ? piorTexto.toFixed(2) + ':1' : '—') +
+    ' <span style="color:var(--fosco)">(piso 7:1)</span></span>'
+  // Nomear o par mais apertado diz ONDE está o gelo fino — e deixa claro que
+  // cada piso é o do seu próprio par, não uma régua única para tudo.
+  const linhaApertado = maisApertado
+    ? '<span class="pior">mais perto do piso: ' + maisApertado.par + ' ' +
+      maisApertado.valor.toFixed(2) + ':1 <span style="color:var(--fosco)">(piso ' +
+      maisApertado.piso.toFixed(1) + ':1)</span></span>'
+    : ''
+  v.innerHTML = (total
+    ? '<strong>' + total + (total === 1 ? ' par reprova' : ' pares reprovam') + '</strong>'
+    : '<strong>Passa em tudo</strong>') + linhaTexto + linhaApertado
 
   desenharEspecime()
   gerarCss()
