@@ -203,8 +203,17 @@ export function App() {
       arquivo: `Meus arquivos/${f.nome}`,
       local: true,
     }))
-    return { livros: [...catalog.livros, ...personEntries, ...localEntries] }
-  }, [catalog, persons, localFiles])
+    // O guia de boas-vindas é a única obra do catálogo que fala pelo APP, e
+    // não pelo acervo: ele existe em dois arquivos sob o mesmo id. O
+    // catalogo.json guarda a versão portuguesa, então aqui ele é substituído
+    // pela do idioma corrente — senão a lista da biblioteca diria
+    // "Bem-vindo ao Leitor" enquanto a barra de cima diz "Welcome to the
+    // Reader", para o mesmo texto aberto. Toda outra obra passa intacta.
+    const embarcados = catalog.livros.map((l) =>
+      l.id === WELCOME_ENTRY.id ? guiaDoIdioma(idioma, t) : l,
+    )
+    return { livros: [...embarcados, ...personEntries, ...localEntries] }
+  }, [catalog, persons, localFiles, idioma, t])
 
   const handleAddFiles = (files: File[]) => {
     addLocalFiles(files)
