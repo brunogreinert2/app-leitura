@@ -758,6 +758,43 @@ def rotulo_grupo(chave: str) -> str:
     return " / ".join(nome_bonito(p) for p in chave.split("/"))
 
 
+# ------------------------------------------------------ rótulos bilíngues
+# O rolo é a via de leitura de quem chega pela URL crua, e nem todo mundo que
+# chega lê português. Os nomes ESTRUTURAIS de pasta — o acervo e o idioma —
+# ganham o par em inglês, porque são eles que dizem onde a pessoa está.
+#
+# É a mesma ideia de `rotuloDaPasta` em src/lib/i18n.ts, e pela mesma razão: a
+# pasta é navegação, não conteúdo. As obras seguem intocadas, cada uma na
+# língua em que foi escrita.
+#
+# LISTA FECHADA DE PROPÓSITO. Nome que não estiver aqui sai só em português,
+# porque do terceiro nível em diante as pastas são nomes próprios — Epicteto,
+# Platão, Moralistas — e "traduzir" isso seria estragá-los. Acervo novo aparece
+# com o próprio nome, como no app.
+ROTULO_EN = {
+    "BIBLIAS": "Bibles",
+    "FILOSOFIA": "Philosophy",
+    "PERSONAGENS": "Figures",
+    "HEBRAICO": "Hebrew",
+    "GERAL": "General",
+    # segundo nível: os idiomas em que o acervo se divide
+    "Ingles": "English",
+    "Grego": "Greek",
+    "Portugues": "Portuguese",
+    "Latim": "Latin",
+    "Arabe": "Arabic",
+}
+
+
+def bilingue(nome: str) -> str:
+    """"FILOSOFIA" -> "FILOSOFIA · Philosophy"; desconhecido -> só o nome.
+
+    O separador é o mesmo "·" que o app usa em "Idioma · Language", e o
+    português vem primeiro: o projeto é brasileiro, o inglês é o alcance."""
+    en = ROTULO_EN.get(nome) or ROTULO_EN.get(nome_bonito(nome))
+    return f"{nome} · {en}" if en and en.lower() != nome.lower() else nome
+
+
 # Nome em português do código BCP 47, só para exibir. A raiz declarava
 # "português, grego, latim e hebraico" à mão — e por isso não citava o inglês,
 # que é o MAIOR idioma do acervo. Agora a frase é montada a partir do que os
@@ -1042,7 +1079,7 @@ def gerar_indice(fichas: list[dict], saida: Path, colecoes: list[dict],
     # ANTES do mapa técnico de propósito: são a parte que sobrevive a um
     # resumo curto, e a que responde a pergunta que foi realmente feita.
     linhas.append(
-        "<h2>O que é isto</h2>\n"
+        "<h2>O que é isto · What this is</h2>\n"
         "<p><strong>Pedra Angular</strong> (<a href=\"https://pedraangular.app.br\">"
         "pedraangular.app.br</a>) é uma biblioteca de textos-fonte de filosofia e "
         "das escrituras, de graça, sem cadastro, sem anúncio e sem rastreamento. "
@@ -1064,16 +1101,16 @@ def gerar_indice(fichas: list[dict], saida: Path, colecoes: list[dict],
         "público; o trabalho é reunir, normalizar e endereçar.</p>"
     )
     mapa = [
-        "COMO MONTAR UM ENDEREÇO (sem precisar ler a lista inteira)",
+        "COMO MONTAR UM ENDEREÇO · HOW TO BUILD AN ADDRESS (sem ler a lista inteira)",
         "",
-        f"  obra .............. /rolo/<id>.html          ex.: /rolo/{slug_ex}.html",
-        "  passagem .......... /rolo/<id>.html#anchor-<referência>",
+        f"  obra · work ....... /rolo/<id>.html          ex.: /rolo/{slug_ex}.html",
+        "  passagem · passage  /rolo/<id>.html#anchor-<referência>",
         "                      ex.: #anchor-gn-1-1 (Gênesis 1:1), #anchor-ec-3-1 (Eclesiastes 3:1)",
-        "  marcador canônico . /rolo/<id>.html#marker-<endereço>",
+        "  marcador · marker . /rolo/<id>.html#marker-<endereço>",
         "                      ex.: #marker-327a (Stephanus), #marker-1094a1 (Bekker)",
-        "  índice de acervo .. /rolo/<ACERVO>.html       ex.: /rolo/FILOSOFIA.html",
+        "  índice · index .... /rolo/<ACERVO>.html       ex.: /rolo/FILOSOFIA.html",
         "  markdown de origem  /livros/<caminho>.md",
-        f"  catálogo em JSON .. /livros/catalogo.json    {preco_catalogo}",
+        f"  catálogo · catalogue  /livros/catalogo.json    {preco_catalogo}",
     ]
     if n_abrev:
         mapa.append(f"  abreviaturas ...... /rolo/abreviaturas.html  ({n_abrev} abreviaturas)")
@@ -1094,7 +1131,7 @@ def gerar_indice(fichas: list[dict], saida: Path, colecoes: list[dict],
     linhas.append("<pre>" + html.escape("\n".join(mapa)) + "</pre>")
 
     if colecoes:
-        linhas.append("<h2>Coleções (arquivo único, offline, fonte embutida)</h2><ul>")
+        linhas.append("<h2>Coleções · Bundles <span class=n>(arquivo único, offline, fonte embutida)</span></h2><ul>")
         for c in colecoes:
             linhas.append(
                 f'<li><a href="colecoes/{html.escape(c["arquivo"])}">{html.escape(c["nome"])}</a>'
@@ -1102,26 +1139,26 @@ def gerar_indice(fichas: list[dict], saida: Path, colecoes: list[dict],
             )
         linhas.append("</ul>")
 
-    linhas.append("<h2>Acervos</h2><ul>")
+    linhas.append("<h2>Acervos · Collections</h2><ul>")
     for colecao in sorted(por_colecao):
         obras = por_colecao[colecao]
         # só o primeiro nível: "Aristotelismo", não
         # "Aristotelismo/Aristoteles/Etica_a_Nicomaco" — aqui a função é dar a
         # feição do acervo em uma linha, não enumerar a estante
         subs = sorted({(o.get("sub") or "").split("/")[0] for o in obras} - {""})
-        subs = [nome_bonito(s) for s in subs]
+        subs = [bilingue(nome_bonito(s)) for s in subs]
         detalhe = (
             f" <span class=n>— {', '.join(subs[:7])}{'…' if len(subs) > 7 else ''}</span>"
             if subs else ""
         )
         linhas.append(
-            f'<li><a href="{atributo(colecao)}.html">{html.escape(colecao)}</a>'
+            f'<li><a href="{atributo(colecao)}.html">{html.escape(bilingue(colecao))}</a>'
             f' <span class=n>{contagem(obras)}</span>{detalhe}</li>'
         )
     linhas.append("</ul>")
     if n_abrev:
         linhas.append(
-            f'<h2>Referência</h2>\n<ul>\n'
+            f'<h2>Referência · Reference</h2>\n<ul>\n'
             f'<li><a href="abreviaturas.html">Abreviaturas de âncora</a>'
             f' <span class=n>{n_abrev} abreviaturas</span></li>\n</ul>'
         )
@@ -1183,7 +1220,7 @@ def gerar_no_indice(obras: list[dict], colecao: str, caminho: tuple[str, ...],
     nenhum."""
     profundidade = len(caminho)
     prefixo = "../" * profundidade  # de volta à raiz /rolo/
-    titulo = " / ".join([colecao] + [nome_bonito(p) for p in caminho])
+    titulo = " / ".join([bilingue(colecao)] + [bilingue(nome_bonito(p)) for p in caminho])
 
     # filhos = próximo segmento de `sub` depois de `caminho`
     filhos: dict[str, list[dict]] = {}
@@ -1210,9 +1247,9 @@ def gerar_no_indice(obras: list[dict], colecao: str, caminho: tuple[str, ...],
     linhas.append(f"<p>{contagem(obras)} · " + " / ".join(trilha) + "</p>")
     linhas.append(
         "<pre>" + html.escape(
-            "obra ....... /rolo/<id>.html\n"
-            "passagem ... /rolo/<id>.html#anchor-<referência>\n"
-            "marcador ... /rolo/<id>.html#marker-<endereço>\n"
+            "obra · work ....... /rolo/<id>.html\n"
+            "passagem · passage  /rolo/<id>.html#anchor-<referência>\n"
+            "marcador · marker . /rolo/<id>.html#marker-<endereço>\n"
             f"\nGerado em {carimbo}."
         ) + "</pre>"
     )
@@ -1263,7 +1300,7 @@ def gerar_no_indice(obras: list[dict], colecao: str, caminho: tuple[str, ...],
     else:
         # pasta do nó atual, onde as páginas-filhas vão morar
         pasta = colecao if profundidade == 0 else caminho[-1]
-        linhas.append("<h2>Ramos</h2>")
+        linhas.append("<h2>Ramos · Branches</h2>")
         linhas.append(
             f"<p class=n>Esta página lista os ramos, não as obras: em lista plana "
             f"seriam {len(obras)} itens ({tamanho/1024:.0f} KB), e leitura por "
