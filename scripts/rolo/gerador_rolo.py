@@ -755,7 +755,7 @@ def rotulo_grupo(chave: str) -> str:
 
     Barra colada lê como uma palavra só; com espaço, o leitor de tela faz a
     pausa e o olho separa os níveis."""
-    return " / ".join(nome_bonito(p) for p in chave.split("/"))
+    return " / ".join(bilingue(nome_bonito(p)) for p in chave.split("/"))
 
 
 # ------------------------------------------------------ rótulos bilíngues
@@ -772,27 +772,59 @@ def rotulo_grupo(chave: str) -> str:
 # Platão, Moralistas — e "traduzir" isso seria estragá-los. Acervo novo aparece
 # com o próprio nome, como no app.
 ROTULO_EN = {
+    # acervo
     "BIBLIAS": "Bibles",
     "FILOSOFIA": "Philosophy",
     "PERSONAGENS": "Figures",
-    "HEBRAICO": "Hebrew",
     "GERAL": "General",
-    # segundo nível: os idiomas em que o acervo se divide
+    # idioma (o segundo nível de todo acervo)
     "Ingles": "English",
     "Grego": "Greek",
     "Portugues": "Portuguese",
     "Latim": "Latin",
+    "Hebraico": "Hebrew",
     "Arabe": "Arabic",
+    # escola e categoria (terceiro nível): substantivos comuns, traduzem limpo
+    "Aristotelismo": "Aristotelianism",
+    "Biografia e Doxografia": "Biography and Doxography",
+    "Escolastica": "Scholasticism",
+    "Espiritualidade": "Spirituality",
+    "Estoicismo": "Stoicism",
+    "Estoicismo Latino": "Latin Stoicism",
+    "Filosofia Classica": "Classical Philosophy",
+    "Filosofia Republicana": "Republican Philosophy",
+    "Iluminismo": "Enlightenment",
+    "Moderna": "Modern",
+    "Moralistas": "Moralia",
+    "Neoplatonismo e Tardia": "Neoplatonism and Late Antiquity",
+    "Patristica": "Patristics",
+    "Platonismo": "Platonism",
+    "Platonismo Medio": "Middle Platonism",
+    "Renascimento": "Renaissance",
+    "Interlineares Grego": "Greek Interlinears",
+    "Interlineares Hebraico": "Hebrew Interlinears",
+    "Antigo Testamento Grego": "Greek Old Testament",
+    "Novo Testamento Grego": "Greek New Testament",
+    # NAO ENTRAM AQUI as edicoes -- Almeida 1911, Vulgata Clementina,
+    # Douay Rheims, Biblia Hebraica WLC, Biblia Livre, Traducao Brasileira
+    # 1917. Sao nomes proprios de edicao; "traduzi-los" seria inventar uma
+    # edicao que nao existe. Idem autor e titulo de obra, do quarto nivel
+    # em diante.
 }
+
+# Busca achatada (sem acento, sem caixa, sem pontuacao) porque a mesma pasta
+# aparece como BIBLIAS no caminho e Biblias no titulo, e como
+# "Estoicismo_Latino" no disco e "Estoicismo Latino" depois do nome_bonito.
+_ROTULO_EN_ACHATADO = {achatar(k): v for k, v in ROTULO_EN.items()}
 
 
 def bilingue(nome: str) -> str:
-    """"FILOSOFIA" -> "FILOSOFIA · Philosophy"; desconhecido -> só o nome.
+    """"Grego" -> "Grego · Greek"; desconhecido -> só o nome.
 
     O separador é o mesmo "·" que o app usa em "Idioma · Language", e o
     português vem primeiro: o projeto é brasileiro, o inglês é o alcance."""
-    en = ROTULO_EN.get(nome) or ROTULO_EN.get(nome_bonito(nome))
-    return f"{nome} · {en}" if en and en.lower() != nome.lower() else nome
+    en = _ROTULO_EN_ACHATADO.get(achatar(nome))
+    return f"{nome} · {en}" if en and achatar(en) != achatar(nome) else nome
 
 
 # Nome em português do código BCP 47, só para exibir. A raiz declarava
@@ -1241,7 +1273,7 @@ def gerar_no_indice(obras: list[dict], colecao: str, caminho: tuple[str, ...],
     trilha = [f'<a href="{prefixo}index.html">Rolos</a>']
     for i in range(profundidade + 1):
         alvo = "../" * (profundidade - i) + ((colecao + ".html") if i == 0 else caminho[i - 1] + ".html")
-        rotulo = colecao if i == 0 else nome_bonito(caminho[i - 1])
+        rotulo = bilingue(colecao) if i == 0 else bilingue(nome_bonito(caminho[i - 1]))
         trilha.append(f'<a href="{atributo(alvo)}">{html.escape(rotulo)}</a>'
                       if i < profundidade else html.escape(rotulo))
     linhas.append(f"<p>{contagem(obras)} · " + " / ".join(trilha) + "</p>")
@@ -1310,13 +1342,13 @@ def gerar_no_indice(obras: list[dict], colecao: str, caminho: tuple[str, ...],
         for nome in sorted(filhos):
             linhas.append(
                 f'<li><a href="{atributo(pasta)}/{atributo(nome)}.html">'
-                f'{html.escape(nome_bonito(nome))}</a> '
+                f'{html.escape(bilingue(nome_bonito(nome)))}</a> '
                 f'<span class=n>{contagem(filhos[nome])}</span></li>'
             )
         linhas.append("</ul>")
         if proprias:
             # obra que mora no próprio nó não tem ramo para onde ir
-            linhas.append("<h2>Nesta pasta</h2>")
+            linhas.append("<h2>Nesta pasta · In this folder</h2>")
             linhas.append("<ul>")
             for o in sorted(proprias, key=lambda x: x["titulo"]):
                 lang_obra = f' lang="{atributo(o["idioma"])}"' if o.get("idioma") else ""
