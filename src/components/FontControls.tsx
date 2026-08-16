@@ -3,6 +3,31 @@ import { flushSync } from 'react-dom'
 
 const STORAGE_KEY = 'reading-font-px'
 const DEFAULT_PX = 18
+/**
+ * Padrao maior quando ha tela para isso.
+ *
+ * NAO se detecta o sistema operacional para decidir isso, e nao seria melhor:
+ * a pergunta util nao e "Windows ou Android?", e "quanto espaco existe agora?".
+ * Um notebook com a janela em meia tela tem espaco de celular; um tablet
+ * deitado tem espaco de desktop; e o mesmo aparelho muda ao girar. Alem disso,
+ * detectar SO significa ler o user agent, que mente por padrao — iPad se
+ * declara Mac desde 2019. A largura responde a pergunta certa e acompanha o
+ * giro do aparelho sem recarregar.
+ *
+ * Letra maior no desktop nao e so conforto: com a coluna em `ch` (ver
+ * .reader-body), corpo maior alarga a coluna na mesma proporcao. Ganha-se tela
+ * SEM alongar a linha — medido, 21px da 75 caracteres onde 18px dava 85.
+ */
+const DEFAULT_PX_TELA_LARGA = 21
+const TELA_LARGA = '(min-width: 64rem)'
+
+function padraoParaEstaTela(): number {
+  try {
+    return window.matchMedia(TELA_LARGA).matches ? DEFAULT_PX_TELA_LARGA : DEFAULT_PX
+  } catch {
+    return DEFAULT_PX
+  }
+}
 const MIN_PX = 12
 // Sem teto tímido: baixa visão pode querer pouquíssimas palavras por tela
 const MAX_PX = 256
@@ -99,7 +124,9 @@ function encaixarNaGradeDePixels(px: number): void {
 export function useFontSize() {
   const [px, setPx] = useState<number>(() => {
     const saved = Number(localStorage.getItem(STORAGE_KEY))
-    return saved >= MIN_PX && saved <= MAX_PX ? saved : DEFAULT_PX
+    // Escolha do usuario manda sempre: o padrao por tela so vale em aparelho
+    // onde ele ainda nao ajustou nada.
+    return saved >= MIN_PX && saved <= MAX_PX ? saved : padraoParaEstaTela()
   })
 
   useEffect(() => {

@@ -1084,7 +1084,28 @@ button {
 
 .reader-body {
   position: relative; /* referência para a caixa de nota inline */
-  max-width: 42rem;
+  /*
+   * A LARGURA SEGUE A LETRA, não o contrário.
+   *
+   * Antes era `42rem` fixo, ancorado no corpo RAIZ do navegador (16px) e não
+   * no corpo de leitura. Consequência medida: no desktop, 640px com letra de
+   * 18px dava 85 caracteres por linha. A faixa confortável é 45-75; acima de
+   * ~80 a vista erra o começo da linha seguinte no retorno — e erra mais quem
+   * tem baixa visão, que é a prioridade do app. Alargar a coluna sem mexer na
+   * letra só piora isso.
+   *
+   * Em `ch` a medida é que fica constante: ~75 caracteres de prosa, em
+   * qualquer corpo de letra e em qualquer tela. Quem aumenta a letra no + faz
+   * a coluna crescer junto (ganha tela, mantém a medida) em vez de espremer
+   * texto grande numa fita estreita. Quem lê no celular não vê diferença: lá
+   * a largura da tela é menor que isso e continua mandando.
+   *
+   * `ch` é a largura do "0", ~1,23x a largura média da prosa portuguesa nesta
+   * fonte — daí 61ch para 75 caracteres. Como a unidade é por fonte, trocar
+   * para Atkinson ou OpenDyslexic (mais largas) reajusta a medida sozinho.
+   * O +2rem devolve o padding, que `box-sizing: border-box` desconta.
+   */
+  max-width: calc(61ch + 2rem);
   margin: 0 auto;
   padding: 1rem 1rem 4rem;
   font-size: var(--reading-font-size);
