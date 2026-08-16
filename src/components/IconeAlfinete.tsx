@@ -35,21 +35,21 @@ export function IconeAlfinete({ className }: { className?: string }) {
     >
       <g transform="rotate(45 12 12)">
         {/* capitel: faixa grossa e faixa fina */}
-        <rect x="5.2" y="1.1" width="13.6" height="2.4" rx="1.2" />
-        <rect x="6.9" y="4.1" width="10.2" height="1.6" rx="0.8" />
+        <rect x="4.3" y="0.6" width="15.4" height="3.1" rx="1.55" />
+        <rect x="6.2" y="4.4" width="11.6" height="2.2" rx="1.1" />
 
         {/* corpo, com o meandro aberto como buraco (evenodd) */}
         <path
           fillRule="evenodd"
           clipRule="evenodd"
-          d="M8.2 6.3h7.6v5.4H8.2V6.3zm1.4 1.3v2.8h1.2V8.9h1.9v1.9h1.7V7.6H9.6z"
+          d="M7.2 7.3h9.6v6.1H7.2V7.3zm2 2v2.1h1.6v-1.5h2.4v2.1h1.6V9.3H9.2z"
         />
 
         {/* saia flarada */}
-        <path d="M8.2 11.5h7.6l3.5 2.9q.2.2 0 .4c-4.6 1.9-10 1.9-14.6 0q-.2-.2 0-.4z" />
+        <path d="M7.2 13.2h9.6l3.9 3.1q.3.25 0 .45c-5.4 2.2-12 2.2-17.4 0q-.3-.2 0-.45z" />
 
         {/* agulha */}
-        <path d="M11.1 15.4h1.8l-.9 8.1z" />
+        <path d="M10.7 17.6h2.6l-1.3 6.1z" />
       </g>
     </svg>
   )

@@ -1007,8 +1007,15 @@ button {
   padding: 0.4rem 0.6rem;
   border-radius: 0.375rem;
   color: var(--color-accent);
-  font-size: 1.1rem;
+  /* O ícone mede 1em, então é este font-size que o dimensiona. A 1,1rem ele
+     saía com 18px dentro de um alvo de toque de 44px — traços de pouco mais
+     de um pixel, que somem em vez de desenhar. 1,5rem dá 24px, proporção
+     normal de ícone dentro do alvo. */
+  font-size: 1.5rem;
   line-height: 1;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
 }
 
 .painel-alfinete[aria-pressed='true'] {
