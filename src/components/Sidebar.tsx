@@ -1,5 +1,6 @@
 import { useState } from 'react'
 import type { HeadingInfo, NameEntry } from '../lib/markdown'
+import { IconeAlfinete } from './IconeAlfinete'
 
 interface Props {
   headings: HeadingInfo[]
@@ -151,7 +152,7 @@ export function Sidebar({
               aria-label={fixo ? 'Soltar o sumário' : 'Fixar o sumário ao lado do texto'}
               title={fixo ? 'Soltar o sumário' : 'Fixar ao lado do texto'}
             >
-              {fixo ? '📌' : '📍'}
+              <IconeAlfinete />
             </button>
           )}
           <button className="sidebar-close" onClick={onClose} aria-label="Fechar sumário">

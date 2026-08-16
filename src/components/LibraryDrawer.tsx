@@ -1,6 +1,7 @@
 import { useRef, useState } from 'react'
 import type { Catalog as CatalogData, CatalogEntry } from '../types'
 import { LibraryTree } from './LibraryTree'
+import { IconeAlfinete } from './IconeAlfinete'
 
 interface Props {
   catalog: CatalogData | null
@@ -71,7 +72,7 @@ export function LibraryDrawer({
               aria-label={fixo ? 'Soltar a biblioteca' : 'Fixar a biblioteca ao lado do texto'}
               title={fixo ? 'Soltar a biblioteca' : 'Fixar ao lado do texto'}
             >
-              {fixo ? '📌' : '📍'}
+              <IconeAlfinete />
             </button>
           )}
           <button className="sidebar-close" onClick={onClose} aria-label="Fechar biblioteca">
