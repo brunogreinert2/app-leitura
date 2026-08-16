@@ -136,8 +136,28 @@ export const FONTS = [
  * deixa de crescer junto com a letra, o que é o certo: contorno é acabamento
  * do desenho da letra, não parte do tamanho dela.
  */
+/**
+ * "Fina" NÃO é zero — é um fio de 0,02 pixel, invisível de propósito.
+ *
+ * Medido no iPhone: em "Média" e "Grossa" o texto sai uniforme; em "Fina"
+ * aparecem faixas de linhas mais grossas e mais finas. Nas três fontes, igual.
+ * Ou seja, o contorno ESCONDIA o problema em vez de causá-lo.
+ *
+ * A razão é o caminho de desenho. Com contorno, o WebKit traça o contorno da
+ * letra como vetor — resultado igual em toda linha. Com contorno zero, ele usa
+ * o cache de bitmaps de glifo, que guarda versões ligeiramente diferentes
+ * conforme a fração de pixel em que a linha cai. E as linhas caem em frações
+ * diferentes porque o ritmo vertical não fecha em pixel inteiro: a seta de
+ * expansão tem medidas em `em`, o título tem corpo × 1,28, e cada seção termina
+ * meio pixel fora da grade, empurrando a seguinte.
+ *
+ * Fechar toda essa geometria em pixel inteiro é um poço sem fundo — são dezenas
+ * de medidas em `em`, e qualquer estilo novo reabre o buraco. Um fio de contorno
+ * resolve na origem: obriga o mesmo caminho de desenho dos outros dois pesos, e
+ * 0,02 pixel de tinta não é visível por ninguém.
+ */
 export const PESOS = [
-  { id: 'fino', chave: 'peso.fino', pixels: 0 },
+  { id: 'fino', chave: 'peso.fino', pixels: 0.02 },
   { id: 'medio', chave: 'peso.medio', pixels: 1 },
   { id: 'grosso', chave: 'peso.grosso', pixels: 2 },
 ] as const

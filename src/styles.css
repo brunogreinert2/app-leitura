@@ -1569,6 +1569,12 @@ button {
      fica surdo ao A+/A- e ao pinça de zoom — só o corpo do texto cresce. */
   font-size: calc(var(--reading-font-size) * (1.28 - min(var(--nivel) - 1, 10) * 0.045));
   opacity: calc(1 - min(var(--nivel) - 1, 14) * 0.035);
+  /* Entrelinha encaixada na grade de pixels, a MESMA da prosa.
+     O corpo do título é fracionário por construção (× 1,28), e com ele a
+     altura da linha: cada seção terminava 0,484px fora da grade e empurrava
+     tudo o que vem depois. Isso não muda o tamanho do título — só faz a
+     caixa dele fechar num número inteiro de pixels do aparelho. */
+  line-height: var(--reading-entrelinha-px, var(--reading-line-height));
   /* h1-h6 chegam com margin-top/bottom herdado de quando eram bloco
      solto no fluxo (ex.: h2 tinha 2em de margin-top). Dentro da linha
      flexível do toggle isso empurra o texto pra baixo e infla a área
