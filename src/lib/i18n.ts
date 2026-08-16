@@ -209,9 +209,37 @@ const PT = {
   // depender desta lista.
   'pasta.BIBLIAS': 'Bíblias',
   'pasta.FILOSOFIA': 'Filosofia',
-  'pasta.HEBRAICO': 'Hebraico',
   'pasta.PERSONAGENS': 'Personagens',
+  'pasta.GERAL': 'Geral',
   'pasta.MEUS ARQUIVOS': 'Meus arquivos',
+  // — idioma (o segundo nível de todo acervo) —
+  'pasta.INGLES': 'Inglês',
+  'pasta.GREGO': 'Grego',
+  'pasta.PORTUGUES': 'Português',
+  'pasta.LATIM': 'Latim',
+  'pasta.HEBRAICO': 'Hebraico',
+  'pasta.ARABE': 'Árabe',
+  // — escola e categoria (terceiro nível) —
+  'pasta.ARISTOTELISMO': 'Aristotelismo',
+  'pasta.BIOGRAFIA E DOXOGRAFIA': 'Biografia e Doxografia',
+  'pasta.ESCOLASTICA': 'Escolástica',
+  'pasta.ESPIRITUALIDADE': 'Espiritualidade',
+  'pasta.ESTOICISMO': 'Estoicismo',
+  'pasta.ESTOICISMO LATINO': 'Estoicismo Latino',
+  'pasta.FILOSOFIA CLASSICA': 'Filosofia Clássica',
+  'pasta.FILOSOFIA REPUBLICANA': 'Filosofia Republicana',
+  'pasta.ILUMINISMO': 'Iluminismo',
+  'pasta.MODERNA': 'Moderna',
+  'pasta.MORALISTAS': 'Moralistas',
+  'pasta.NEOPLATONISMO E TARDIA': 'Neoplatonismo e Tardia',
+  'pasta.PATRISTICA': 'Patrística',
+  'pasta.PLATONISMO': 'Platonismo',
+  'pasta.PLATONISMO MEDIO': 'Platonismo Médio',
+  'pasta.RENASCIMENTO': 'Renascimento',
+  'pasta.INTERLINEARES GREGO': 'Interlineares Grego',
+  'pasta.INTERLINEARES HEBRAICO': 'Interlineares Hebraico',
+  'pasta.ANTIGO TESTAMENTO GREGO': 'Antigo Testamento Grego',
+  'pasta.NOVO TESTAMENTO GREGO': 'Novo Testamento Grego',
 
   // — guia de boas-vindas (obra de id fixo, arquivo por idioma) —
   'guia.titulo': 'Bem-vindo ao Leitor',
@@ -385,9 +413,37 @@ const EN: Record<Chave, string> = {
 
   'pasta.BIBLIAS': 'Bibles',
   'pasta.FILOSOFIA': 'Philosophy',
-  'pasta.HEBRAICO': 'Hebrew',
   'pasta.PERSONAGENS': 'Figures',
+  'pasta.GERAL': 'General',
   'pasta.MEUS ARQUIVOS': 'My files',
+  // — idioma (o segundo nível de todo acervo) —
+  'pasta.INGLES': 'English',
+  'pasta.GREGO': 'Greek',
+  'pasta.PORTUGUES': 'Portuguese',
+  'pasta.LATIM': 'Latin',
+  'pasta.HEBRAICO': 'Hebrew',
+  'pasta.ARABE': 'Arabic',
+  // — escola e categoria (terceiro nível) —
+  'pasta.ARISTOTELISMO': 'Aristotelianism',
+  'pasta.BIOGRAFIA E DOXOGRAFIA': 'Biography and Doxography',
+  'pasta.ESCOLASTICA': 'Scholasticism',
+  'pasta.ESPIRITUALIDADE': 'Spirituality',
+  'pasta.ESTOICISMO': 'Stoicism',
+  'pasta.ESTOICISMO LATINO': 'Latin Stoicism',
+  'pasta.FILOSOFIA CLASSICA': 'Classical Philosophy',
+  'pasta.FILOSOFIA REPUBLICANA': 'Republican Philosophy',
+  'pasta.ILUMINISMO': 'Enlightenment',
+  'pasta.MODERNA': 'Modern',
+  'pasta.MORALISTAS': 'Moralia',
+  'pasta.NEOPLATONISMO E TARDIA': 'Neoplatonism and Late Antiquity',
+  'pasta.PATRISTICA': 'Patristics',
+  'pasta.PLATONISMO': 'Platonism',
+  'pasta.PLATONISMO MEDIO': 'Middle Platonism',
+  'pasta.RENASCIMENTO': 'Renaissance',
+  'pasta.INTERLINEARES GREGO': 'Greek Interlinears',
+  'pasta.INTERLINEARES HEBRAICO': 'Hebrew Interlinears',
+  'pasta.ANTIGO TESTAMENTO GREGO': 'Greek Old Testament',
+  'pasta.NOVO TESTAMENTO GREGO': 'Greek New Testament',
 
   'guia.titulo': 'Welcome to the Reader',
   'guia.autor': 'Pedra Angular',
@@ -409,6 +465,18 @@ export function traduzir(
 }
 
 /**
+ * Nome de pasta legível: `Novo_Testamento_Grego` -> `Novo Testamento Grego`.
+ *
+ * Pasta no disco não leva espaço sem custo, então o corpus usa underscore.
+ * Isso é detalhe de sistema de arquivos e não tem por que aparecer na tela.
+ * Espelha `nome_bonito()` do gerador_rolo.py, inclusive na remoção do prefixo
+ * numérico de ordenação (`01_`, `02_`).
+ */
+function nomeBonito(bruto: string): string {
+  return bruto.replace(/^\d+[_\-.\s]+/, '').replace(/[_-]+/g, ' ').trim() || bruto
+}
+
+/**
  * Nome de pasta da biblioteca no idioma do menu.
  *
  * Diferente de `traduzir`, aqui a chave NÃO é fixa: ela vem do caminho do
@@ -420,11 +488,17 @@ export function traduzir(
  * e Bíblias no catálogo. A faixa de diacríticos vai escrita com \u de
  * propósito: caractere combinante literal numa regex é invisível no editor e
  * some numa cópia mal codificada.
+ *
+ * AS DUAS LISTAS ANDAM JUNTAS. A mesma tabela existe como `ROTULO_EN` em
+ * scripts/rolo/gerador_rolo.py, porque o rolo mostra as mesmas pastas para
+ * quem chega pela URL crua. Mexeu numa, confira a outra — é a mesma regra
+ * que já vale para os códigos de idioma e para as regex de âncora.
  */
 export function rotuloDaPasta(idioma: Idioma, nome: string): string {
-  const chave = `pasta.${nome.normalize('NFD').replace(/[\u0300-\u036f]/g, '').toUpperCase()}`
+  const legivel = nomeBonito(nome)
+  const chave = `pasta.${legivel.normalize('NFD').replace(/[\u0300-\u036f]/g, '').toUpperCase()}`
   const dicionario = TEXTOS[idioma] as Record<string, string | undefined>
-  return dicionario[chave] ?? nome
+  return dicionario[chave] ?? legivel
 }
 
 const CHAVE_GUARDADA = 'app-idioma'

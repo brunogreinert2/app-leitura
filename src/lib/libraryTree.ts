@@ -29,12 +29,20 @@ export function buildLibraryTree(entries: CatalogEntry[]): FolderNode {
   return root
 }
 
-/** Busca sem acentos e sem caixa (título, autor e caminho). */
+/**
+ * Busca sem acentos, sem caixa e sem underscore (título, autor e caminho).
+ *
+ * O underscore entra porque a tela e o caminho divergiram: a pasta aparece
+ * como "Novo Testamento Grego" e no `arquivo` continua sendo
+ * `Novo_Testamento_Grego`. Sem isso, procurar exatamente o que está escrito
+ * na tela não acharia nada.
+ */
 export function normalize(text: string): string {
   return text
     .toLowerCase()
     .normalize('NFD')
     .replace(/[\u0300-\u036f]/g, '')
+    .replace(/[_-]+/g, ' ')
 }
 
 export function entryMatches(entry: CatalogEntry, query: string): boolean {
