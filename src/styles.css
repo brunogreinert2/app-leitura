@@ -972,7 +972,7 @@ button {
  * Tudo dentro da media query de propósito: se a janela encolher, o padding
  * some, o painel volta a ser sobreposto e nada fica preso fora da tela.
  */
-@media (min-width: 64rem) {
+@media (min-width: 50rem) {
   .painel-fixo {
     box-shadow: none;
     transition: none; /* móvel da bancada não desliza toda vez que a tela muda */

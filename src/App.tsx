@@ -19,7 +19,7 @@ import {
 import { loadLastBook } from './lib/bookState'
 import { useAppUpdate } from './lib/useAppUpdate'
 import { exportBackup, importBackup } from './lib/backup'
-import { useTelaLarga, usePaineisFixos } from './lib/useTelaLarga'
+import { useTelaLarga, useCabemDoisPaineis, usePaineisFixos } from './lib/useTelaLarga'
 import type { Catalog as CatalogData, CatalogEntry, PersonManifest } from './types'
 
 /** O app abre lendo: guia de boas-vindas como primeiro texto ativo. */
@@ -79,7 +79,18 @@ export function App() {
   // Painel fixo so faz sentido onde ha espaco: abaixo de 64rem, os dois
   // abertos deixariam menos de 25rem para a coluna de leitura.
   const telaLarga = useTelaLarga()
+  const cabemDois = useCabemDoisPaineis()
   const { fixos, alternar: alternarFixo, soltar: soltarPainel } = usePaineisFixos()
+  // Onde so cabe UM painel, fixar um solta o outro. Sem isso, os dois
+  // fixados numa janela de 900px deixariam a coluna com menos de 20rem —
+  // abaixo do proprio piso de leitura.
+  const fixar = (qual: 'biblioteca' | 'sumario') => {
+    if (!cabemDois) {
+      const outro = qual === 'biblioteca' ? 'sumario' : 'biblioteca'
+      if (fixos[outro]) soltarPainel(outro)
+    }
+    alternarFixo(qual)
+  }
   const bibliotecaFixa = telaLarga && fixos.biblioteca
   const sumarioFixo = telaLarga && fixos.sumario
   const [acervoDetailsOpen, setAcervoDetailsOpen] = useState(false)
@@ -343,7 +354,7 @@ export function App() {
           setLibraryOpen(false)
         }}
         fixo={bibliotecaFixa}
-        onAlternarFixo={telaLarga ? () => alternarFixo('biblioteca') : undefined}
+        onAlternarFixo={telaLarga ? () => fixar('biblioteca') : undefined}
         onSelect={openBook}
         onAddFiles={handleAddFiles}
         onRemoveLocal={handleRemoveLocal}
@@ -387,7 +398,7 @@ export function App() {
           onOpenLibrary={() => setLibraryOpen(true)}
           onOpenAppearance={() => setThemeOpen(true)}
           sumarioFixo={sumarioFixo}
-          onAlternarSumarioFixo={telaLarga ? () => alternarFixo('sumario') : undefined}
+          onAlternarSumarioFixo={telaLarga ? () => fixar('sumario') : undefined}
         />
       ) : (
         <>
@@ -408,7 +419,7 @@ export function App() {
             names={[]}
             open={menuOpen || sumarioFixo}
             fixo={sumarioFixo}
-            onAlternarFixo={telaLarga ? () => alternarFixo('sumario') : undefined}
+            onAlternarFixo={telaLarga ? () => fixar('sumario') : undefined}
             onClose={() => {
               soltarPainel('sumario')
               setMenuOpen(false)

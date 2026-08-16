@@ -8,22 +8,35 @@ import { useEffect, useState } from 'react'
  * encaixar dois painéis; tablet deitado tem. E muda ao girar, sem recarregar:
  * por isso escuta a mudança em vez de medir uma vez só.
  *
- * 64rem = 1024px. Abaixo disso, painel fixo comeria a coluna de leitura: com
- * os dois abertos sobrariam menos de 25rem para o texto.
+ * SÃO DOIS LIMITES, não um. O primeiro corte usava só 64rem, pensando nos dois
+ * painéis abertos — e com isso escondia o alfinete inteiro em janela de 900px,
+ * onde UM painel caberia folgado. O sintoma: o botão simplesmente não existia
+ * no app instalado do desktop, e a busca foi parar (erradamente) na
+ * renderização do ícone.
+ *
+ * A conta é a mesma nos dois casos: painel de 20rem + o piso de 30rem da
+ * coluna de leitura (ver .reader-body).
+ *   um painel   -> 20 + 30 = 50rem (800px)
+ *   dois        -> 40 + 30 = 70rem (1120px)
+ * O 64rem antigo era permissivo demais para dois: deixava a coluna abaixo do
+ * próprio piso.
  */
-const TELA_LARGA = '(min-width: 64rem)'
+const CABE_UM_PAINEL = '(min-width: 50rem)'
+const CABEM_DOIS_PAINEIS = '(min-width: 70rem)'
+
+function combina(consulta: string): boolean {
+  try {
+    return window.matchMedia(consulta).matches
+  } catch {
+    return false
+  }
+}
 
 export function useTelaLarga(): boolean {
-  const [larga, setLarga] = useState(() => {
-    try {
-      return window.matchMedia(TELA_LARGA).matches
-    } catch {
-      return false
-    }
-  })
+  const [larga, setLarga] = useState(() => combina(CABE_UM_PAINEL))
 
   useEffect(() => {
-    const mq = window.matchMedia(TELA_LARGA)
+    const mq = window.matchMedia(CABE_UM_PAINEL)
     const reavaliar = () => setLarga(mq.matches)
     mq.addEventListener('change', reavaliar)
     // `resize` por garantia: o evento `change` da media query é o certo, mas
@@ -40,6 +53,25 @@ export function useTelaLarga(): boolean {
   }, [])
 
   return larga
+}
+
+/** Cabem os DOIS painéis fixos ao mesmo tempo? */
+export function useCabemDoisPaineis(): boolean {
+  const [cabem, setCabem] = useState(() => combina(CABEM_DOIS_PAINEIS))
+
+  useEffect(() => {
+    const mq = window.matchMedia(CABEM_DOIS_PAINEIS)
+    const reavaliar = () => setCabem(mq.matches)
+    mq.addEventListener('change', reavaliar)
+    window.addEventListener('resize', reavaliar)
+    reavaliar()
+    return () => {
+      mq.removeEventListener('change', reavaliar)
+      window.removeEventListener('resize', reavaliar)
+    }
+  }, [])
+
+  return cabem
 }
 
 const CHAVE = 'paineis-fixos'
