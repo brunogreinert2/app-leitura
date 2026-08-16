@@ -2,8 +2,8 @@ import { useState } from 'react'
 import type { Catalog as CatalogData, CatalogEntry } from '../types'
 import type { ParsedBook } from '../lib/markdown'
 import { roloUrl } from '../lib/rolo'
-import { useT } from './idiomaContext'
-import type { Tradutor } from '../lib/i18n'
+import { useT, useIdiomaAtual } from './idiomaContext'
+import { rotuloDaPasta, type Tradutor, type Idioma } from '../lib/i18n'
 
 /**
  * Campos conhecidos do YAML do corpus, na ordem em que aparecem na ficha.
@@ -38,7 +38,11 @@ function formatBytes(bytes: number): string {
  * Tudo contado do catálogo já carregado — nenhum número escrito à mão, para
  * não envelhecer em silêncio quando o acervo crescer.
  */
-function linhasDoAcervo(catalog: CatalogData | null | undefined, t: Tradutor): [string, string][] {
+function linhasDoAcervo(
+  catalog: CatalogData | null | undefined,
+  t: Tradutor,
+  idioma: Idioma,
+): [string, string][] {
   if (!catalog) return [[t('biblioteca'), t('detalhes.carregando')]]
   const livros = catalog.livros
   const proprios = livros.filter((l) => l.local)
@@ -59,7 +63,7 @@ function linhasDoAcervo(catalog: CatalogData | null | undefined, t: Tradutor): [
     [t('detalhes.obrasNoAcervo'), String(doCorpus.length + personagens.length)],
   ]
   for (const [nome, n] of [...porAcervo].sort((a, b) => b[1] - a[1])) {
-    linhas.push([nome, String(n)])
+    linhas.push([rotuloDaPasta(idioma, nome), String(n)])
   }
   if (personagens.length) linhas.push([t('detalhes.personagens'), String(personagens.length)])
   linhas.push([t('detalhes.seusTextos'), proprios.length ? String(proprios.length) : t('detalhes.nenhumAinda')])
@@ -81,6 +85,7 @@ interface Props {
 /** Ficha do arquivo: os campos do YAML (que nunca aparecem no texto). */
 export function DetailsDialog({ open, onClose, entry, parsed, catalog }: Props) {
   const t = useT()
+  const { idioma } = useIdiomaAtual()
   const [copied, setCopied] = useState<'app' | 'rolo' | null>(null)
   if (!open) return null
 
@@ -100,7 +105,7 @@ export function DetailsDialog({ open, onClose, entry, parsed, catalog }: Props) 
         <div className="copy-dialog details-dialog" role="dialog" aria-label={t('detalhes.acervo')}>
           <h2>{t('detalhes.acervo')}</h2>
           <dl className="details-list">
-            {linhasDoAcervo(catalog, t).map(([label, value]) => (
+            {linhasDoAcervo(catalog, t, idioma).map(([label, value]) => (
               <div key={label} className="details-row">
                 <dt>{label}</dt>
                 <dd>{value}</dd>

@@ -187,6 +187,7 @@ const PT = {
 
   // — arquivos do usuário —
   'arquivos.remover': 'Remover “{titulo}” dos seus arquivos?',
+  'arquivos.removerRotulo': 'Remover {titulo}',
   'arquivos.exportarFalhou': 'Não foi possível gerar o arquivo de backup.',
   'arquivos.importarAviso':
     'Importar substitui o tema, o tamanho de letra e a memória de leitura salvos neste aparelho pelos do arquivo. Seus textos próprios são somados (mesmo id substitui). Continuar?',
@@ -198,6 +199,19 @@ const PT = {
   'atualizacao.agora': 'Atualizar agora',
   'atualizacao.procurando': 'Procurando atualização…',
   'atualizacao.emDia': 'Você já está na versão mais recente',
+
+  // — nomes das pastas da biblioteca —
+  // A pasta é uma estrutura do app, não conteúdo do acervo: o leitor precisa
+  // dela para NAVEGAR, então ela fala a língua do menu. As obras dentro dela
+  // continuam intocadas. A chave é o nome da pasta sem acento e em maiúscula,
+  // porque no disco ela é BIBLIAS e na tela pode ser Bíblias. Pasta que não
+  // estiver aqui aparece com o próprio nome — o acervo pode crescer sem
+  // depender desta lista.
+  'pasta.BIBLIAS': 'Bíblias',
+  'pasta.FILOSOFIA': 'Filosofia',
+  'pasta.HEBRAICO': 'Hebraico',
+  'pasta.PERSONAGENS': 'Personagens',
+  'pasta.MEUS ARQUIVOS': 'Meus arquivos',
 
   // — guia de boas-vindas (obra de id fixo, arquivo por idioma) —
   'guia.titulo': 'Bem-vindo ao Leitor',
@@ -357,6 +371,7 @@ const EN: Record<Chave, string> = {
   'voz.parar': 'Stop reading',
 
   'arquivos.remover': 'Remove “{titulo}” from your files?',
+  'arquivos.removerRotulo': 'Remove {titulo}',
   'arquivos.exportarFalhou': 'Could not create the backup file.',
   'arquivos.importarAviso':
     'Importing replaces the theme, text size and reading memory saved on this device with the ones in the file. Your own texts are added (same id replaces). Continue?',
@@ -367,6 +382,12 @@ const EN: Record<Chave, string> = {
   'atualizacao.agora': 'Update now',
   'atualizacao.procurando': 'Checking for updates…',
   'atualizacao.emDia': 'You already have the latest version',
+
+  'pasta.BIBLIAS': 'Bibles',
+  'pasta.FILOSOFIA': 'Philosophy',
+  'pasta.HEBRAICO': 'Hebrew',
+  'pasta.PERSONAGENS': 'Figures',
+  'pasta.MEUS ARQUIVOS': 'My files',
 
   'guia.titulo': 'Welcome to the Reader',
   'guia.autor': 'Pedra Angular',
@@ -385,6 +406,25 @@ export function traduzir(
   return bruto.replace(/\{(\w+)\}/g, (inteiro, nome: string) =>
     nome in params ? String(params[nome]) : inteiro,
   )
+}
+
+/**
+ * Nome de pasta da biblioteca no idioma do menu.
+ *
+ * Diferente de `traduzir`, aqui a chave NÃO é fixa: ela vem do caminho do
+ * arquivo, que muda quando o acervo cresce. Por isso a busca é tolerante e o
+ * padrão é devolver o nome cru — pasta nova aparece com o próprio nome em vez
+ * de sumir ou mostrar `pasta.ALGO` na tela.
+ *
+ * A normalização tira acento e caixa porque a mesma pasta é BIBLIAS no disco
+ * e Bíblias no catálogo. A faixa de diacríticos vai escrita com \u de
+ * propósito: caractere combinante literal numa regex é invisível no editor e
+ * some numa cópia mal codificada.
+ */
+export function rotuloDaPasta(idioma: Idioma, nome: string): string {
+  const chave = `pasta.${nome.normalize('NFD').replace(/[\u0300-\u036f]/g, '').toUpperCase()}`
+  const dicionario = TEXTOS[idioma] as Record<string, string | undefined>
+  return dicionario[chave] ?? nome
 }
 
 const CHAVE_GUARDADA = 'app-idioma'

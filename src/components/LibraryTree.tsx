@@ -1,6 +1,8 @@
 import { useMemo, useState } from 'react'
 import type { CatalogEntry } from '../types'
 import { buildLibraryTree, filterTree, type FolderNode } from '../lib/libraryTree'
+import { rotuloDaPasta } from '../lib/i18n'
+import { useIdiomaAtual, useT } from './idiomaContext'
 
 interface Props {
   entries: CatalogEntry[]
@@ -27,6 +29,7 @@ function BookButton({
   onSelect: (e: CatalogEntry) => void
   onRemove?: (e: CatalogEntry) => void
 }) {
+  const t = useT()
   return (
     <div className="lib-book-row">
       <button className="lib-book" onClick={() => onSelect(book)}>
@@ -37,7 +40,7 @@ function BookButton({
         <button
           className="lib-book-remove"
           onClick={() => onRemove(book)}
-          aria-label={`Remover ${book.titulo}`}
+          aria-label={t('arquivos.removerRotulo', { titulo: book.titulo })}
         >
           ✕
         </button>
@@ -47,6 +50,7 @@ function BookButton({
 }
 
 function Folder({ node, expanded, onToggle, onSelect, onRemove, forceOpen }: FolderProps) {
+  const { idioma } = useIdiomaAtual()
   // Pastas começam recolhidas: uma coleção de centenas de obras é UMA
   // linha fechada — abre só com toque (ou busca ativa)
   const isOpen = forceOpen || expanded.has(node.path)
@@ -54,7 +58,7 @@ function Folder({ node, expanded, onToggle, onSelect, onRemove, forceOpen }: Fol
     <li>
       <button className="lib-folder" onClick={() => onToggle(node.path)} aria-expanded={isOpen}>
         <span className="lib-folder-arrow">{isOpen ? '▾' : '▸'}</span>
-        {node.name}
+        {rotuloDaPasta(idioma, node.name)}
         <span className="lib-folder-count">
           {node.folders.length > 0 && `(${node.folders.length}) `}({countBooks(node)})
         </span>
