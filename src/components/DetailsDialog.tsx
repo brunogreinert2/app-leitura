@@ -2,30 +2,21 @@ import { useState } from 'react'
 import type { Catalog as CatalogData, CatalogEntry } from '../types'
 import type { ParsedBook } from '../lib/markdown'
 import { roloUrl } from '../lib/rolo'
+import { useT } from './idiomaContext'
+import type { Tradutor } from '../lib/i18n'
 
-/** Rótulos em português para os campos conhecidos do YAML do corpus. */
-const META_LABELS: [key: string, label: string][] = [
-  ['title', 'Título'],
-  ['subtitle', 'Subtítulo'],
-  ['original_title', 'Título original'],
-  ['author', 'Autor'],
-  ['translation', 'Tradução'],
-  ['year_original', 'Ano original'],
-  ['publisher', 'Editora'],
-  ['publication_year', 'Ano da edição'],
-  ['language', 'Idioma'],
-  ['area', 'Área'],
-  ['era', 'Época'],
-  ['born', 'Nascimento'],
-  ['died', 'Morte'],
-  ['nationality', 'Nacionalidade'],
-  ['source', 'Fonte'],
-  ['tags', 'Tags'],
-  ['coautoria', 'Coautoria'],
-  ['status', 'Status'],
-  ['type', 'Tipo'],
-  ['project', 'Projeto'],
-]
+/**
+ * Campos conhecidos do YAML do corpus, na ordem em que aparecem na ficha.
+ * A chave do YAML é a mesma em qualquer idioma (é o formato do arquivo); só
+ * o rótulo mostrado ao leitor é traduzido. Campo fora desta lista aparece
+ * com o próprio nome cru do YAML — de propósito, para nada sumir da ficha.
+ */
+const META_LABELS = [
+  'title', 'subtitle', 'original_title', 'author', 'translation',
+  'year_original', 'publisher', 'publication_year', 'language', 'area',
+  'era', 'born', 'died', 'nationality', 'source', 'tags', 'coautoria',
+  'status', 'type', 'project',
+] as const
 
 function formatValue(value: unknown): string | null {
   if (value === null || value === undefined || value === '') return null
@@ -47,8 +38,8 @@ function formatBytes(bytes: number): string {
  * Tudo contado do catálogo já carregado — nenhum número escrito à mão, para
  * não envelhecer em silêncio quando o acervo crescer.
  */
-function linhasDoAcervo(catalog: CatalogData | null | undefined): [string, string][] {
-  if (!catalog) return [['Catálogo', 'ainda carregando…']]
+function linhasDoAcervo(catalog: CatalogData | null | undefined, t: Tradutor): [string, string][] {
+  if (!catalog) return [[t('biblioteca'), t('detalhes.carregando')]]
   const livros = catalog.livros
   const proprios = livros.filter((l) => l.local)
   const personagens = livros.filter((l) => l.autor === 'Personagem')
@@ -65,15 +56,15 @@ function linhasDoAcervo(catalog: CatalogData | null | undefined): [string, strin
   }
 
   const linhas: [string, string][] = [
-    ['Obras no acervo', String(doCorpus.length + personagens.length)],
+    [t('detalhes.obrasNoAcervo'), String(doCorpus.length + personagens.length)],
   ]
   for (const [nome, n] of [...porAcervo].sort((a, b) => b[1] - a[1])) {
-    linhas.push([nome, `${n} ${n === 1 ? 'obra' : 'obras'}`])
+    linhas.push([nome, String(n)])
   }
-  if (personagens.length) linhas.push(['Personagens', String(personagens.length)])
-  linhas.push(['Seus textos', proprios.length ? String(proprios.length) : 'nenhum ainda'])
-  linhas.push(['Leitura', 'offline depois da primeira visita'])
-  linhas.push(['Texto-fonte', 'Markdown, em domínio público'])
+  if (personagens.length) linhas.push([t('detalhes.personagens'), String(personagens.length)])
+  linhas.push([t('detalhes.seusTextos'), proprios.length ? String(proprios.length) : t('detalhes.nenhumAinda')])
+  linhas.push([t('detalhes.leitura'), t('detalhes.offline')])
+  linhas.push([t('detalhes.textoFonte'), t('detalhes.dominioPublico')])
   return linhas
 }
 
@@ -89,6 +80,7 @@ interface Props {
 
 /** Ficha do arquivo: os campos do YAML (que nunca aparecem no texto). */
 export function DetailsDialog({ open, onClose, entry, parsed, catalog }: Props) {
+  const t = useT()
   const [copied, setCopied] = useState<'app' | 'rolo' | null>(null)
   if (!open) return null
 
@@ -105,10 +97,10 @@ export function DetailsDialog({ open, onClose, entry, parsed, catalog }: Props) 
     return (
       <>
         <div className="sidebar-backdrop" onClick={onClose} aria-hidden="true" />
-        <div className="copy-dialog details-dialog" role="dialog" aria-label="Detalhes do acervo">
-          <h2>Detalhes do acervo</h2>
+        <div className="copy-dialog details-dialog" role="dialog" aria-label={t('detalhes.acervo')}>
+          <h2>{t('detalhes.acervo')}</h2>
           <dl className="details-list">
-            {linhasDoAcervo(catalog).map(([label, value]) => (
+            {linhasDoAcervo(catalog, t).map(([label, value]) => (
               <div key={label} className="details-row">
                 <dt>{label}</dt>
                 <dd>{value}</dd>
@@ -119,13 +111,13 @@ export function DetailsDialog({ open, onClose, entry, parsed, catalog }: Props) 
               cima abre o app; o de baixo é a via estática que uma IA consegue
               ler ao buscar a URL. */}
           <button className="wikilink-box-open" onClick={() => copiar(window.location.origin, 'app')}>
-            {copied === 'app' ? 'Copiado ✓' : 'Copiar link do app'}
+            {t(copied === 'app' ? 'detalhes.copiado' : 'detalhes.copiarLinkApp')}
           </button>
           <button className="wikilink-box-open" onClick={() => copiar(rolo, 'rolo')}>
-            {copied === 'rolo' ? 'Copiado ✓' : 'Copiar link do acervo para IA'}
+            {t(copied === 'rolo' ? 'detalhes.copiado' : 'detalhes.copiarLinkAcervoIA')}
           </button>
           <button className="copy-dialog-cancel" onClick={onClose}>
-            Fechar
+            {t('aparencia.fechar')}
           </button>
         </div>
       </>
@@ -137,26 +129,26 @@ export function DetailsDialog({ open, onClose, entry, parsed, catalog }: Props) 
   const meta = parsed?.meta ?? {}
   const rows: [string, string][] = []
   const used = new Set<string>()
-  for (const [key, label] of META_LABELS) {
+  for (const key of META_LABELS) {
     const v = formatValue(meta[key])
     used.add(key)
-    if (v) rows.push([label, v])
+    if (v) rows.push([t(`campo.${key}`), v])
   }
   for (const [key, value] of Object.entries(meta)) {
     if (used.has(key) || key === 'id' || key === 'related') continue
     const v = formatValue(value)
     if (v) rows.push([key, v])
   }
-  if (rows.length === 0) rows.push(['Título', entry.titulo], ['Autor', entry.autor])
-  if (parsed) rows.push(['Tamanho do arquivo', formatBytes(parsed.bytes)])
-  if (parsed?.headings.length) rows.push(['Seções', String(parsed.headings.length)])
-  rows.push(['Arquivo', entry.arquivo])
+  if (rows.length === 0) rows.push([t('campo.title'), entry.titulo], [t('campo.author'), entry.autor])
+  if (parsed) rows.push([t('detalhes.tamanho'), formatBytes(parsed.bytes)])
+  if (parsed?.headings.length) rows.push([t('detalhes.secoes'), String(parsed.headings.length)])
+  rows.push([t('detalhes.caminho'), entry.arquivo])
 
   return (
     <>
       <div className="sidebar-backdrop" onClick={onClose} aria-hidden="true" />
-      <div className="copy-dialog details-dialog" role="dialog" aria-label="Detalhes do arquivo">
-        <h2>Detalhes</h2>
+      <div className="copy-dialog details-dialog" role="dialog" aria-label={t('detalhes.arquivo')}>
+        <h2>{t('detalhes')}</h2>
         <dl className="details-list">
           {rows.map(([label, value]) => (
             <div key={label} className="details-row">
@@ -168,19 +160,19 @@ export function DetailsDialog({ open, onClose, entry, parsed, catalog }: Props) 
         {!entry.local && (
           <>
             <button className="wikilink-box-open" onClick={() => copiar(permalink, 'app')}>
-              {copied === 'app' ? 'Copiado ✓' : 'Copiar link desta obra'}
+              {t(copied === 'app' ? 'detalhes.copiado' : 'detalhes.copiarLink')}
             </button>
             {/* Dois links para a mesma obra, porque são dois leitores diferentes.
                 O de cima abre no app, com tudo que o app tem. O de baixo é o rolo
                 estático: texto escrito no HTML, que uma IA consegue ler ao buscar
                 a URL — coisa que a rota #/livro/… não permite, por ser SPA. */}
             <button className="wikilink-box-open" onClick={() => copiar(roloUrl(entry.id), 'rolo')}>
-              {copied === 'rolo' ? 'Copiado ✓' : 'Copiar link para IA'}
+              {t(copied === 'rolo' ? 'detalhes.copiado' : 'detalhes.copiarLinkIA')}
             </button>
           </>
         )}
         <button className="copy-dialog-cancel" onClick={onClose}>
-          Fechar
+          {t('aparencia.fechar')}
         </button>
       </div>
     </>

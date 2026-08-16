@@ -1,5 +1,6 @@
 import { useEffect, useMemo, useRef, useState, type RefObject } from 'react'
 import type { HeadingInfo } from '../lib/markdown'
+import { useT } from './idiomaContext'
 import {
   getBookIndex,
   searchSource,
@@ -88,6 +89,7 @@ export function TextSearch({
   collapsed,
   expandChain,
 }: Props) {
+  const t = useT()
   const [query, setQuery] = useState('')
   const [matches, setMatches] = useState<SourceMatch[]>([])
   const [chains, setChains] = useState<string[][]>([])
@@ -248,19 +250,19 @@ export function TextSearch({
           }
           if (e.key === 'Escape') onClose()
         }}
-        placeholder="Buscar no texto ou referência (Gn 1:1)…"
-        aria-label="Buscar no texto ou por referência canônica"
+        placeholder={t('busca.dica')}
+        aria-label={t('busca.rotulo')}
       />
       <span className="text-search-count" aria-live="polite">
         {countLabel}
       </span>
-      <button className="text-search-button" onClick={prev} aria-label="Ocorrência anterior">
+      <button className="text-search-button" onClick={prev} aria-label={t('busca.anterior')}>
         ▲
       </button>
-      <button className="text-search-button" onClick={next} aria-label="Próxima ocorrência">
+      <button className="text-search-button" onClick={next} aria-label={t('busca.proxima')}>
         ▼
       </button>
-      <button className="text-search-button" onClick={onClose} aria-label="Fechar busca">
+      <button className="text-search-button" onClick={onClose} aria-label={t('busca.fechar')}>
         ✕
       </button>
     </div>

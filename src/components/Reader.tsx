@@ -14,6 +14,7 @@ import { TtsControl } from './TtsControl'
 import { CollapseContext } from './collapseContext'
 import { WikilinkContext, type WikilinkActions } from './wikilinkContext'
 import { HeadingActionsContext, type HeadingActions } from './headingActionsContext'
+import { useT } from './idiomaContext'
 import { buildSectionCopyText } from '../lib/copyBook'
 import { printMarkdownText } from '../lib/printSection'
 import { getBookIndex, chainForLine, resolveReference } from '../lib/searchIndex'
@@ -97,6 +98,7 @@ export function Reader({
   sumarioFixo,
   onAlternarSumarioFixo,
 }: Props) {
+  const t = useT()
   const [parsed, setParsed] = useState<ParsedBook | null>(null)
   const [error, setError] = useState<string | null>(null)
   const [note, setNote] = useState<OpenNote | null>(null)
@@ -226,7 +228,7 @@ export function Reader({
           setWikilink(null)
           onOpenPerson(personToEntry(person))
         } else {
-          setToast(`“${target}” ainda não está disponível no app`)
+          setToast(t('leitura.alvoIndisponivel', { alvo: target }))
           window.setTimeout(() => setToast(null), 2000)
         }
       },
@@ -339,8 +341,8 @@ export function Reader({
         const text = buildSectionCopyText(parsed.source, parsed.headings, collapsed, onlyVisible, id)
         navigator.clipboard
           .writeText(text)
-          .then(() => showToast('Copiado!'))
-          .catch(() => showToast('Não foi possível copiar'))
+          .then(() => showToast(t('copiar.feito')))
+          .catch(() => showToast(t('copiar.falhou')))
       },
       printSection: (id, onlyVisible, title) => {
         if (!parsed) return
@@ -375,7 +377,7 @@ export function Reader({
     navigator.clipboard
       .writeText(roloUrl(entry.id, ancora))
       .then(() => showToast('Link da passagem copiado'))
-      .catch(() => showToast('Não foi possível copiar'))
+      .catch(() => showToast(t('copiar.falhou')))
   }
 
   /**
@@ -411,7 +413,7 @@ export function Reader({
     navigator.clipboard
       .writeText(parsed.raw)
       .then(() => showToast('Livro copiado — arquivo inteiro, com cabeçalho e âncoras'))
-      .catch(() => showToast('Não foi possível copiar'))
+      .catch(() => showToast(t('copiar.falhou')))
   }
 
   const footnoteActions = useMemo<FootnoteActions>(
@@ -493,18 +495,18 @@ export function Reader({
         <button
           className="library-button phi-button"
           onClick={onOpenLibrary}
-          aria-label="Abrir biblioteca (pastas e pesquisa)"
+          aria-label={t('biblioteca.abrir')}
         >
           Φ
         </button>
-        <button className="back-button" onClick={onBack} aria-label="Voltar ao catálogo">
+        <button className="back-button" onClick={onBack} aria-label={t('catalogo.voltar')}>
           ←
         </button>
         <span className="reader-title">{entry.titulo}</span>
         <button
           className="search-button"
           onClick={() => setSearchOpen((v) => !v)}
-          aria-label="Buscar no texto"
+          aria-label={t('leitura.buscar')}
         >
           🔍
         </button>
@@ -512,7 +514,7 @@ export function Reader({
         <button
           className="toc-button phi-button"
           onClick={() => setTocOpen(true)}
-          aria-label="Abrir sumário"
+          aria-label={t('sumario.abrir')}
         >
           Ξ
         </button>
@@ -607,14 +609,27 @@ export function Reader({
         <WikilinkContext.Provider value={wikilinkActions}>
         <CollapseContext.Provider value={collapseState}>
         <HeadingActionsContext.Provider value={headingActions}>
+        {/*
+          O CORPO DO TEXTO DECLARA O PRÓPRIO IDIOMA, e isso passou a ser
+          obrigatório quando a interface ganhou inglês. Antes o `<html lang>`
+          era sempre pt-BR e cobria os dois; agora ele segue o MENU, e sem
+          este `lang` um Gênesis em português herdaria `lang="en"` — leitor de
+          tela lendo português com fonética inglesa. É o mesmo defeito que
+          corrigimos em 326 páginas do /rolo, entrando pela porta do app.
+
+          `escritaPadrao` vem do `language:` do próprio arquivo, então cada
+          obra se anuncia na língua em que foi escrita, independente do idioma
+          do menu — que é a regra do acervo poliglota.
+        */}
         <main
           className="reader-body"
-          aria-label={`Texto: ${entry.titulo}`}
+          lang={parsed?.escritaPadrao ?? undefined}
+          aria-label={entry.titulo}
           ref={bodyRef}
           onClick={copiarLinkDaPassagem}
         >
-          {error && <p className="reader-error">Não foi possível carregar o livro: {error}</p>}
-          {!parsed && !error && <p className="reader-loading">Carregando…</p>}
+          {error && <p className="reader-error">{t('leitura.erro', { erro: error })}</p>}
+          {!parsed && !error && <p className="reader-loading">{t('leitura.carregando')}</p>}
           {parsed?.body}
 
           {note && (
@@ -622,7 +637,7 @@ export function Reader({
               className="footnote-box"
               style={{ top: note.top }}
               role="dialog"
-              aria-label={`Nota ${note.label}`}
+              aria-label={`${t('detalhes')} ${note.label}`}
             >
               <div
                 className="footnote-box-content"
@@ -640,14 +655,14 @@ export function Reader({
                   }
                 }}
               >
-                Abrir completo
+                {t('leitura.abrirCompleto')}
               </button>
               <button
                 className="footnote-box-close"
                 onClick={() => setNote(null)}
-                aria-label="Voltar ao texto"
+                aria-label={t('leitura.voltarAoTexto')}
               >
-                ✕ Voltar ao texto
+                {t('leitura.voltarAoTexto')}
               </button>
             </aside>
           )}
@@ -662,7 +677,7 @@ export function Reader({
               {wikilink.person ? (
                 <>
                   <div className="wikilink-box-content">
-                    {wikilink.body ?? <p className="wikilink-box-note">Carregando verbete…</p>}
+                    {wikilink.body ?? <p className="wikilink-box-note">{t('leitura.carregandoVerbete')}</p>}
                   </div>
                   <button
                     className="wikilink-box-open"
@@ -672,23 +687,23 @@ export function Reader({
                       onOpenPerson(personToEntry(person))
                     }}
                   >
-                    Abrir completo
+                    {t('leitura.abrirCompleto')}
                   </button>
                 </>
               ) : (
                 <>
                   <p className="wikilink-box-title">{wikilink.target}</p>
                   <p className="wikilink-box-note">
-                    Verbete ainda não incluído no app.
+                    {t('leitura.verbeteAusente')}
                   </p>
                 </>
               )}
               <button
                 className="footnote-box-close"
                 onClick={() => setWikilink(null)}
-                aria-label="Voltar ao texto"
+                aria-label={t('leitura.voltarAoTexto')}
               >
-                ✕ Voltar ao texto
+                {t('leitura.voltarAoTexto')}
               </button>
             </aside>
           )}

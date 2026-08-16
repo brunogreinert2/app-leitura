@@ -6,6 +6,7 @@ import {
   NOME_DA_ESCRITA,
   type Escrita,
 } from '../lib/idioma'
+import { useT } from './idiomaContext'
 
 /**
  * Leitura em voz alta via Web Speech API (SpeechSynthesis) — 100% do
@@ -96,6 +97,7 @@ function collectItems(root: HTMLElement, padrao: Escrita): SpeechItem[] {
 }
 
 export function TtsControl({ bodyRef, escritaPadrao }: Props) {
+  const t = useT()
   const [open, setOpen] = useState(false)
   const [status, setStatus] = useState<Status>('idle')
   const [voices, setVoices] = useState<SpeechSynthesisVoice[]>([])
@@ -249,7 +251,7 @@ export function TtsControl({ bodyRef, escritaPadrao }: Props) {
   return (
     <div className="tts">
       {open && (
-        <div className="tts-panel" role="group" aria-label="Leitura em voz alta">
+        <div className="tts-panel" role="group" aria-label={t('voz.ouvir')}>
           {aviso && (
             <p className="tts-aviso" role="status">
               {aviso}
@@ -272,7 +274,7 @@ export function TtsControl({ bodyRef, escritaPadrao }: Props) {
               </button>
             )}
             {status !== 'idle' && (
-              <button className="tts-stop" onClick={stop} aria-label="Parar leitura">
+              <button className="tts-stop" onClick={stop} aria-label={t('voz.parar')}>
                 ■ Parar
               </button>
             )}
@@ -307,7 +309,7 @@ export function TtsControl({ bodyRef, escritaPadrao }: Props) {
       <button
         className={`tts-fab${status === 'speaking' ? ' tts-fab-active' : ''}`}
         onClick={() => setOpen((v) => !v)}
-        aria-label="Leitura em voz alta"
+        aria-label={t('voz.ouvir')}
         aria-expanded={open}
       >
         🔊

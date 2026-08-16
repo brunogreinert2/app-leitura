@@ -20,9 +20,26 @@ import { loadLastBook } from './lib/bookState'
 import { useAppUpdate } from './lib/useAppUpdate'
 import { exportBackup, importBackup } from './lib/backup'
 import { useTelaLarga, useCabemDoisPaineis, usePaineisFixos } from './lib/useTelaLarga'
+import { useIdioma } from './lib/i18n'
+import { IdiomaContext } from './components/idiomaContext'
 import type { Catalog as CatalogData, CatalogEntry, PersonManifest } from './types'
 
 /** O app abre lendo: guia de boas-vindas como primeiro texto ativo. */
+/**
+ * O guia é documentação do APP entregue como arquivo de corpus. Por isso ele
+ * traduz — mas mantendo o id `impressoes-app`, que é publicado e citável: o
+ * endereço não muda, só o arquivo servido. Tradução de OBRA continua sendo
+ * obra nova com id próprio; isto aqui é interface em forma de texto.
+ */
+function guiaDoIdioma(idioma: string, t: (c: 'guia.titulo' | 'guia.autor') => string): CatalogEntry {
+  return {
+    id: 'impressoes-app',
+    titulo: t('guia.titulo'),
+    autor: t('guia.autor'),
+    arquivo: idioma === 'en' ? 'IMPRESSOES_APP.en.md' : 'IMPRESSOES_APP.md',
+  }
+}
+
 const WELCOME_ENTRY: CatalogEntry = {
   id: 'impressoes-app',
   titulo: 'Bem-vindo ao Leitor',
@@ -68,6 +85,7 @@ export function App() {
   const [editor, setEditor] = useState<{ file: LocalFile | null } | null>(null)
   // Muda a key do Reader após salvar edição (re-parseia o conteúdo)
   const [bookVersion, setBookVersion] = useState(0)
+  const { idioma, setIdioma, t } = useIdioma()
   const { theme, setTheme } = useTheme()
   const { fontFamily, setFontFamily } = useFontFamily()
   const { peso, setPeso } = usePesoTraco()
@@ -136,7 +154,7 @@ export function App() {
     initialShare.current = null
     const conteudo = [share.text, share.url].filter(Boolean).join('\n\n').trim()
     if (!conteudo) return
-    const titulo = share.title?.trim() || `Compartilhado ${new Date().toLocaleString('pt-BR')}`
+    const titulo = share.title?.trim() || t('arquivos.compartilhado', { data: new Date().toLocaleString() })
     saveLocalText(titulo, conteudo)
       .then((file) => {
         setStack([
@@ -220,7 +238,7 @@ export function App() {
   }
 
   const handleRemoveLocal = (entry: CatalogEntry) => {
-    if (!window.confirm(`Remover “${entry.titulo}” dos seus arquivos?`)) return
+    if (!window.confirm(t('arquivos.remover', { titulo: entry.titulo }))) return
     removeLocalFile(entry.id)
       .then(() => listLocalFiles())
       .then(setLocalFiles)
@@ -230,22 +248,25 @@ export function App() {
   }
 
   const handleExportData = () => {
-    exportBackup().catch(() => window.alert('Não foi possível gerar o arquivo de backup.'))
+    exportBackup().catch(() => window.alert(t('arquivos.exportarFalhou')))
   }
 
   const handleImportData = (file: File) => {
     if (
       !window.confirm(
-        'Importar substitui o tema, o tamanho de letra e a memória de leitura salvos neste aparelho pelos do arquivo. Seus textos próprios são somados (mesmo id substitui). Continuar?',
+        t('arquivos.importarAviso'),
       )
     )
       return
     importBackup(file)
       .then(() => window.location.reload())
-      .catch(() => window.alert('Não foi possível importar: arquivo inválido ou de outro app.'))
+      .catch(() => window.alert(t('arquivos.importarFalhou')))
   }
 
-  const book = stack.length ? stack[stack.length - 1] : null
+  const noTopo = stack.length ? stack[stack.length - 1] : null
+  // O guia é o único texto que troca de arquivo com o idioma. O id não muda,
+  // então memória de leitura, link permanente e comparações seguem valendo.
+  const book = noTopo?.id === WELCOME_ENTRY.id ? guiaDoIdioma(idioma, t) : noTopo
 
   // Aberto por link permanente: troca o guia pela obra citada
   useEffect(() => {
@@ -326,22 +347,22 @@ export function App() {
   }
 
   return (
-    <>
+    <IdiomaContext.Provider value={{ idioma, setIdioma, t }}>
       {needRefresh && (
         <div className="update-banner" role="status">
-          <span>Nova versão do app disponível.</span>
+          <span>{t('atualizacao.disponivel')}</span>
           <button className="update-banner-button" onClick={applyUpdate}>
-            Atualizar agora
+            {t('atualizacao.agora')}
           </button>
         </div>
       )}
       {checkResult !== 'idle' && (
         <div className="toast" role="status">
           {checkResult === 'checking'
-            ? 'Procurando atualização…'
+            ? t('atualizacao.procurando')
             : checkResult === 'demorando'
               ? 'A verificação está demorando. O app pode estar guardando livros para leitura offline — dá para continuar lendo normalmente.'
-              : 'Você já está na versão mais recente'}
+              : t('atualizacao.emDia')}
         </div>
       )}
       <LibraryDrawer
@@ -387,7 +408,7 @@ export function App() {
       />
       {book ? (
         <Reader
-          key={`${book.id}:${stack.length}:${bookVersion}`}
+          key={`${book.id}:${book.arquivo}:${stack.length}:${bookVersion}`}
           entry={book}
           initialRef={book.id === stack[0]?.id && stack.length === 1 ? initialRef : undefined}
           trackAsLastBook={book.id !== WELCOME_ENTRY.id}
@@ -442,6 +463,6 @@ export function App() {
           />
         </>
       )}
-    </>
+    </IdiomaContext.Provider>
   )
 }

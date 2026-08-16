@@ -2,6 +2,7 @@ import { useRef, useState } from 'react'
 import type { Catalog as CatalogData, CatalogEntry } from '../types'
 import { LibraryTree } from './LibraryTree'
 import { IconeAlfinete } from './IconeAlfinete'
+import { useT } from './idiomaContext'
 
 interface Props {
   catalog: CatalogData | null
@@ -38,6 +39,7 @@ export function LibraryDrawer({
   fixo,
   onAlternarFixo,
 }: Props) {
+  const t = useT()
   const [query, setQuery] = useState('')
   const fileInputRef = useRef<HTMLInputElement>(null)
   const backupInputRef = useRef<HTMLInputElement>(null)
@@ -59,23 +61,23 @@ export function LibraryDrawer({
       )}
       <nav
         className={`library-drawer${open ? ' library-drawer-open' : ''}${fixo ? ' painel-fixo' : ''}`}
-        aria-label="Biblioteca"
+        aria-label={t('biblioteca')}
         aria-hidden={!open}
       >
         <div className="sidebar-header">
-          <h2>Biblioteca</h2>
+          <h2>{t('biblioteca')}</h2>
           {onAlternarFixo && (
             <button
               className="painel-alfinete"
               onClick={onAlternarFixo}
               aria-pressed={!!fixo}
-              aria-label={fixo ? 'Soltar a biblioteca' : 'Fixar a biblioteca ao lado do texto'}
-              title={fixo ? 'Soltar a biblioteca' : 'Fixar ao lado do texto'}
+              aria-label={t(fixo ? 'painel.soltarBiblioteca' : 'painel.fixarBiblioteca')}
+              title={t(fixo ? 'painel.soltarBiblioteca' : 'painel.fixar')}
             >
               <IconeAlfinete />
             </button>
           )}
-          <button className="sidebar-close" onClick={onClose} aria-label="Fechar biblioteca">
+          <button className="sidebar-close" onClick={onClose} aria-label={t('biblioteca.fechar')}>
             ✕
           </button>
         </div>
@@ -84,16 +86,16 @@ export function LibraryDrawer({
             type="search"
             value={query}
             onChange={(e) => setQuery(e.target.value)}
-            placeholder="Pesquisar livro, autor, pasta…"
-            aria-label="Pesquisar na biblioteca"
+            placeholder={t('biblioteca.pesquisarDica')}
+            aria-label={t('biblioteca.pesquisar')}
           />
         </div>
         <div className="lib-import">
           <button className="toc-action" onClick={() => fileInputRef.current?.click()}>
-            + Adicionar arquivos
+            {t('biblioteca.adicionar')}
           </button>
           <button className="toc-action" onClick={onNewText}>
-            ✏ Novo texto
+            {t('biblioteca.novoTexto')}
           </button>
           <input
             ref={fileInputRef}
@@ -112,10 +114,10 @@ export function LibraryDrawer({
         </div>
         <div className="lib-import">
           <button className="toc-action" onClick={onExportData}>
-            ⇩ Exportar meus dados
+            {t('biblioteca.exportar')}
           </button>
           <button className="toc-action" onClick={() => backupInputRef.current?.click()}>
-            ⇧ Importar dados
+            {t('biblioteca.importar')}
           </button>
           <input
             ref={backupInputRef}
@@ -131,10 +133,10 @@ export function LibraryDrawer({
         </div>
         <div className="lib-import">
           <button className="toc-action" onClick={onCheckUpdate}>
-            ⟳ Verificar atualização
+            {t('biblioteca.verificarAtualizacao')}
           </button>
         </div>
-        {!catalog && <p className="lib-empty">Carregando catálogo…</p>}
+        {!catalog && <p className="lib-empty">{t('biblioteca.carregando')}</p>}
         {catalog && (
           <LibraryTree
             entries={catalog.livros}

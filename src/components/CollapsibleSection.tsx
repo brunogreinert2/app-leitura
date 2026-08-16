@@ -1,12 +1,14 @@
 import { Children, useContext, useRef, type ReactNode } from 'react'
 import { CollapseContext } from './collapseContext'
 import { HeadingMenu } from './HeadingMenu'
+import { useT } from './idiomaContext'
 
 /**
  * Seção (##/###) recolhível no corpo do texto: tap no título alterna.
  * Recebe do pipeline exatamente dois filhos: o heading e o conteúdo.
  */
 export function CollapsibleSection(props: Record<string, unknown>) {
+  const t = useT()
   const { collapsed, toggle } = useContext(CollapseContext)
   const sectionRef = useRef<HTMLElement>(null)
   const id = String(props['data-collapsible'])
@@ -66,7 +68,7 @@ export function CollapsibleSection(props: Record<string, unknown>) {
           <span className="section-close-arrow" aria-hidden="true">
             ↩
           </span>{' '}
-          Recolher
+          {t('leitura.recolher')}
         </button>
       )}
     </section>

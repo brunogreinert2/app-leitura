@@ -1,5 +1,6 @@
 import { useEffect, useState, type RefObject } from 'react'
 import { flushSync } from 'react-dom'
+import { useT } from './idiomaContext'
 
 const STORAGE_KEY = 'reading-font-px'
 const DEFAULT_PX = 18
@@ -219,12 +220,13 @@ interface Props {
 }
 
 export function FontControls({ decrease, increase }: Props) {
+  const t = useT()
   return (
     <div className="font-controls">
-      <button className="font-button" onClick={decrease} aria-label="Diminuir letra">
+      <button className="font-button" onClick={decrease} aria-label={t('leitura.diminuirLetra')}>
         −
       </button>
-      <button className="font-button font-button-big" onClick={increase} aria-label="Aumentar letra">
+      <button className="font-button font-button-big" onClick={increase} aria-label={t('leitura.aumentarLetra')}>
         +
       </button>
     </div>

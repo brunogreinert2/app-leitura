@@ -1,6 +1,7 @@
 import type { Catalog as CatalogData, CatalogEntry } from '../types'
 import { LibraryTree } from './LibraryTree'
 import { FontControls } from './FontControls'
+import { useT } from './idiomaContext'
 
 interface Props {
   catalog: CatalogData | null
@@ -32,33 +33,34 @@ export function Catalog({
   decreaseFont,
   increaseFont,
 }: Props) {
+  const t = useT()
   return (
     <div className="catalog">
       <header className="catalog-header">
         <button
           className="library-button phi-button"
           onClick={onOpenLibrary}
-          aria-label="Abrir biblioteca (pastas e pesquisa)"
+          aria-label={t('biblioteca.abrir')}
         >
           Φ
         </button>
         <div className="catalog-header-title">
-          <h1>Biblioteca</h1>
-          <p className="catalog-subtitle">Pedra Angular</p>
+          <h1>{t('biblioteca')}</h1>
+          <p className="catalog-subtitle">{t('catalogo.subtitulo')}</p>
         </div>
         <FontControls decrease={decreaseFont} increase={increaseFont} />
         <button
           className="toc-button phi-button"
           onClick={onOpenMenu}
-          aria-label="Abrir menu (aparência e detalhes do acervo)"
+          aria-label={t('sumario.abrirMenu')}
         >
           Ξ
         </button>
       </header>
 
-      <main aria-label="Biblioteca">
-        {error && <p className="catalog-error">Não foi possível carregar o catálogo: {error}</p>}
-        {!catalog && !error && <p className="catalog-loading">Carregando catálogo…</p>}
+      <main aria-label={t('biblioteca')}>
+        {error && <p className="catalog-error">{t('biblioteca.erro', { erro: error })}</p>}
+        {!catalog && !error && <p className="catalog-loading">{t('biblioteca.carregando')}</p>}
 
         {catalog && (
           <div className="catalog-tree">

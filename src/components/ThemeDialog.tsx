@@ -1,4 +1,6 @@
 import { useEffect, useState } from 'react'
+import { useT, useIdiomaAtual } from './idiomaContext'
+import { IDIOMAS } from '../lib/i18n'
 
 /**
  * Esquemas de cor para baixa visão (referência: Perkins School for the
@@ -25,17 +27,17 @@ import { useEffect, useState } from 'react'
  */
 export const THEMES = [
   // Baixa visão: os pares clássicos, contraste máximo
-  { id: 'claro', label: 'Preto sobre branco', bg: '#ffffff', fg: '#000000' },
-  { id: 'escuro', label: 'Branco sobre preto', bg: '#000000', fg: '#ffffff' },
-  { id: 'amarelo', label: 'Amarelo sobre preto', bg: '#000000', fg: '#ffe600' },
-  { id: 'verde', label: 'Verde sobre preto', bg: '#000000', fg: '#33ff33' },
-  { id: 'amarelo-azul', label: 'Amarelo sobre azul', bg: '#001862', fg: '#ffe600' },
+  { id: 'claro', chave: 'tema.claro', bg: '#ffffff', fg: '#000000' },
+  { id: 'escuro', chave: 'tema.escuro', bg: '#000000', fg: '#ffffff' },
+  { id: 'amarelo', chave: 'tema.amarelo', bg: '#000000', fg: '#ffe600' },
+  { id: 'verde', chave: 'tema.verde', bg: '#000000', fg: '#33ff33' },
+  { id: 'amarelo-azul', chave: 'tema.amarelo-azul', bg: '#001862', fg: '#ffe600' },
   // Conforto de leitura prolongada
-  { id: 'sepia', label: 'Sépia', bg: '#faf7f2', fg: '#2b2620' },
-  { id: 'azul-noite', label: 'Azul-noite', bg: '#0a1128', fg: '#f2e8d5' },
-  { id: 'azul-petroleo', label: 'Azul-petróleo', bg: '#062a30', fg: '#e8f4f1' },
+  { id: 'sepia', chave: 'tema.sepia', bg: '#faf7f2', fg: '#2b2620' },
+  { id: 'azul-noite', chave: 'tema.azul-noite', bg: '#0a1128', fg: '#f2e8d5' },
+  { id: 'azul-petroleo', chave: 'tema.azul-petroleo', bg: '#062a30', fg: '#e8f4f1' },
   // Decorativo
-  { id: 'pergaminho', label: 'Pergaminho', bg: '#ccbc9d', fg: '#241a08' },
+  { id: 'pergaminho', chave: 'tema.pergaminho', bg: '#ccbc9d', fg: '#241a08' },
 ] as const
 
 export type ThemeId = (typeof THEMES)[number]['id']
@@ -89,17 +91,17 @@ export function useTheme() {
 export const FONTS = [
   {
     id: 'georgia',
-    label: 'Serifada (padrão)',
+    chave: 'fonte.georgia' as const,
     stack: "'Cardo', 'DejaVu Guarnicao', serif",
   },
   {
     id: 'atkinson',
-    label: 'Atkinson Hyperlegible',
+    rotulo: 'Atkinson Hyperlegible',
     stack: "'Atkinson Hyperlegible', 'Cardo', 'DejaVu Guarnicao', serif",
   },
   {
     id: 'opendyslexic',
-    label: 'OpenDyslexic',
+    rotulo: 'OpenDyslexic',
     stack: "'OpenDyslexic', 'Cardo', 'DejaVu Guarnicao', serif",
   },
 ] as const
@@ -135,9 +137,9 @@ export const FONTS = [
  * do desenho da letra, não parte do tamanho dela.
  */
 export const PESOS = [
-  { id: 'fino', label: 'Fina', pixels: 0 },
-  { id: 'medio', label: 'Média', pixels: 1 },
-  { id: 'grosso', label: 'Grossa', pixels: 2 },
+  { id: 'fino', chave: 'peso.fino', pixels: 0 },
+  { id: 'medio', chave: 'peso.medio', pixels: 1 },
+  { id: 'grosso', chave: 'peso.grosso', pixels: 2 },
 ] as const
 
 export type PesoId = (typeof PESOS)[number]['id']
@@ -214,31 +216,33 @@ export function ThemeDialog({
   onSelectPeso,
   onClose,
 }: Props) {
+  const t = useT()
+  const { idioma, setIdioma } = useIdiomaAtual()
   if (!open) return null
   return (
     <>
       <div className="sidebar-backdrop" onClick={onClose} aria-hidden="true" />
-      <div className="copy-dialog theme-dialog" role="dialog" aria-label="Aparência">
-        <h2>Aparência</h2>
-        <p>Esquemas de alto contraste para baixa visão.</p>
-        {THEMES.map((t) => (
+      <div className="copy-dialog theme-dialog" role="dialog" aria-label={t('aparencia')}>
+        <h2>{t('aparencia')}</h2>
+        <p>{t('aparencia.subtitulo')}</p>
+        {THEMES.map((tema) => (
           <button
-            key={t.id}
+            key={tema.id}
             className="theme-option"
-            style={{ background: t.bg, color: t.fg, borderColor: t.fg }}
-            onClick={() => onSelect(t.id)}
-            aria-pressed={theme === t.id}
+            style={{ background: tema.bg, color: tema.fg, borderColor: tema.fg }}
+            onClick={() => onSelect(tema.id)}
+            aria-pressed={theme === tema.id}
           >
             <span className="theme-option-sample" aria-hidden="true">
               Aa
             </span>
-            {t.label}
-            {theme === t.id && <span className="theme-option-check"> ✓</span>}
+            {t(tema.chave)}
+            {theme === tema.id && <span className="theme-option-check"> ✓</span>}
           </button>
         ))}
 
-        <h2 className="theme-dialog-section-title">Fonte de leitura</h2>
-        <p>Atkinson Hyperlegible (Braille Institute of America) distingue melhor letras parecidas.</p>
+        <h2 className="theme-dialog-section-title">{t('aparencia.fonte')}</h2>
+        <p>{t('aparencia.fonteNota')}</p>
         {FONTS.map((f) => (
           <button
             key={f.id}
@@ -249,13 +253,13 @@ export function ThemeDialog({
             <span className="theme-option-sample" style={{ fontFamily: f.stack }} aria-hidden="true">
               Aa
             </span>
-            {f.label}
+            {'chave' in f ? t(f.chave) : f.rotulo}
             {fontFamily === f.id && <span className="theme-option-check"> ✓</span>}
           </button>
         ))}
 
-        <h2 className="theme-dialog-section-title">Peso da letra</h2>
-        <p>Mais grossa costuma ler melhor em tela; mais fina cansa menos no papel branco.</p>
+        <h2 className="theme-dialog-section-title">{t('aparencia.peso')}</h2>
+        <p>{t('aparencia.pesoNota')}</p>
         {PESOS.map((p) => (
           <button
             key={p.id}
@@ -274,13 +278,32 @@ export function ThemeDialog({
             >
               Aa
             </span>
-            {p.label}
+            {t(p.chave)}
             {peso === p.id && <span className="theme-option-check"> ✓</span>}
           </button>
         ))}
 
+        {/* Rótulo bilíngue de propósito: quem precisa TROCAR de idioma é
+            justamente quem não está lendo o idioma atual. */}
+        <h2 className="theme-dialog-section-title">{t('aparencia.idioma')}</h2>
+        {IDIOMAS.map((i) => (
+          <button
+            key={i.id}
+            className="theme-option font-option"
+            onClick={() => setIdioma(i.id)}
+            aria-pressed={idioma === i.id}
+            lang={i.id === 'pt' ? 'pt-BR' : 'en'}
+          >
+            <span className="theme-option-sample" aria-hidden="true">
+              {i.id === 'pt' ? 'pt' : 'en'}
+            </span>
+            {i.nome}
+            {idioma === i.id && <span className="theme-option-check"> ✓</span>}
+          </button>
+        ))}
+
         <button className="copy-dialog-cancel" onClick={onClose}>
-          Fechar
+          {t('aparencia.fechar')}
         </button>
       </div>
     </>

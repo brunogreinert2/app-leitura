@@ -1,4 +1,5 @@
 import { useEffect, useRef, useState, type KeyboardEvent } from 'react'
+import { useT } from './idiomaContext'
 
 interface Props {
   open: boolean
@@ -72,6 +73,7 @@ export function TextEditor({
   onCancel,
   sugerirTitulo,
 }: Props) {
+  const t = useT()
   const [titulo, setTitulo] = useState(initialTitle)
   const [conteudo, setConteudo] = useState(initialContent)
   const areaRef = useRef<HTMLTextAreaElement>(null)
@@ -110,18 +112,18 @@ export function TextEditor({
   const dirty = conteudo !== initialContent || titulo !== initialTitle
 
   const cancel = () => {
-    if (dirty && !window.confirm('Descartar o que foi digitado?')) return
+    if (dirty && !window.confirm(t('editor.descartar'))) return
     clearDraft()
     onCancel()
   }
 
   const save = () => {
-    const t =
+    const nome =
       titulo.trim() ||
       sugerirTitulo?.(conteudo) ||
-      `Texto de ${new Date().toLocaleDateString('pt-BR')}`
+      t('editor.textoDe', { data: new Date().toLocaleDateString() })
     clearDraft()
-    onSave(t, conteudo)
+    onSave(nome, conteudo)
   }
 
   /** Cola a área de transferência na posição do cursor. */
@@ -138,7 +140,7 @@ export function TextEditor({
         area.selectionStart = area.selectionEnd = start + text.length
       }, 0)
     } catch {
-      window.alert('O navegador bloqueou a leitura da área de transferência. Toque na caixa de texto e cole (Ctrl+V ou segurar → Colar).')
+      window.alert(t('editor.colarBloqueado'))
     }
   }
 
@@ -230,25 +232,25 @@ export function TextEditor({
   }
 
   return (
-    <div className="editor-overlay" role="dialog" aria-label="Editor de texto">
+    <div className="editor-overlay" role="dialog" aria-label={t('editor')}>
       <header className="editor-header">
-        <button className="editor-cancel" onClick={cancel} aria-label="Cancelar">
+        <button className="editor-cancel" onClick={cancel} aria-label={t('editor.cancelar')}>
           ✕
         </button>
         <input
           className="editor-title"
           value={titulo}
           onChange={(e) => setTitulo(e.target.value)}
-          placeholder="Título do texto"
-          aria-label="Título do texto"
+          placeholder={t('editor.titulo')}
+          aria-label={t('editor.titulo')}
         />
         <button className="editor-save" onClick={save} disabled={!conteudo.trim()}>
-          Salvar
+          {t('editor.salvar')}
         </button>
       </header>
       <div className="editor-toolbar">
         <button className="toc-action" onClick={pasteFromClipboard}>
-          📋 Colar da área de transferência
+          {t('editor.colar')}
         </button>
       </div>
       <textarea
@@ -257,7 +259,7 @@ export function TextEditor({
         value={conteudo}
         onChange={(e) => setConteudo(e.target.value)}
         onKeyDown={onKeyDown}
-        placeholder="Digite ou cole seu texto aqui. Pode ser texto simples ou markdown — títulos com #, negrito com **, tudo vira leitura bonita."
+        placeholder={t('editor.dica')}
       />
     </div>
   )

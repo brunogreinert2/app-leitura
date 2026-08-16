@@ -1,5 +1,6 @@
 import { useContext, useEffect, useRef, useState } from 'react'
 import { HeadingActionsContext } from './headingActionsContext'
+import { useT } from './idiomaContext'
 
 interface Props {
   id: string
@@ -14,6 +15,7 @@ interface Props {
  * quebra foco/acessibilidade de forma imprevisível.
  */
 export function HeadingMenu({ id, getTitle }: Props) {
+  const t = useT()
   const [open, setOpen] = useState(false)
   const { copySection, printSection } = useContext(HeadingActionsContext)
   const ref = useRef<HTMLDivElement>(null)
@@ -41,7 +43,7 @@ export function HeadingMenu({ id, getTitle }: Props) {
         onClick={() => setOpen((v) => !v)}
         aria-haspopup="menu"
         aria-expanded={open}
-        aria-label="Mais ações deste título"
+        aria-label={t('titulo.maisAcoes')}
       >
         ⋯
       </button>
@@ -49,12 +51,12 @@ export function HeadingMenu({ id, getTitle }: Props) {
         <ul className="heading-menu-list" role="menu">
           <li role="none">
             <button role="menuitem" onClick={() => { setOpen(false); copySection(id, false) }}>
-              Copiar — tudo
+              {t('titulo.copiarTudo')}
             </button>
           </li>
           <li role="none">
             <button role="menuitem" onClick={() => { setOpen(false); copySection(id, true) }}>
-              Copiar — só visível
+              {t('titulo.copiarVisivel')}
             </button>
           </li>
           <li role="none">
@@ -62,7 +64,7 @@ export function HeadingMenu({ id, getTitle }: Props) {
               role="menuitem"
               onClick={() => { setOpen(false); printSection(id, false, getTitle()) }}
             >
-              Imprimir — tudo
+              {t('titulo.imprimirTudo')}
             </button>
           </li>
           <li role="none">
@@ -70,7 +72,7 @@ export function HeadingMenu({ id, getTitle }: Props) {
               role="menuitem"
               onClick={() => { setOpen(false); printSection(id, true, getTitle()) }}
             >
-              Imprimir — só visível
+              {t('titulo.imprimirVisivel')}
             </button>
           </li>
         </ul>

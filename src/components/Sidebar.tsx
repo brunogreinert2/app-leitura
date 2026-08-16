@@ -1,5 +1,6 @@
 import { useState } from 'react'
 import type { HeadingInfo, NameEntry } from '../lib/markdown'
+import { useT } from './idiomaContext'
 import { IconeAlfinete } from './IconeAlfinete'
 
 interface Props {
@@ -64,6 +65,7 @@ export function Sidebar({
   onEdit,
   onSelectName,
 }: Props) {
+  const t = useT()
   const [namesOpen, setNamesOpen] = useState(false)
   const [expanded, setExpanded] = useState<Set<string>>(new Set())
   const groups = buildGroups(headings)
@@ -96,7 +98,9 @@ export function Sidebar({
             onClick={() => toggle(heading.id)}
             aria-expanded={expanded.has(heading.id)}
             aria-label={
-              expanded.has(heading.id) ? `Recolher ${heading.text}` : `Expandir ${heading.text}`
+              t(expanded.has(heading.id) ? 'sumario.recolherItem' : 'sumario.expandirItem', {
+                nome: heading.text,
+              })
             }
           >
             {expanded.has(heading.id) ? '▾' : '▸'}
@@ -137,25 +141,25 @@ export function Sidebar({
       )}
       <nav
         className={`sidebar${open ? ' sidebar-open' : ''}${fixo ? ' painel-fixo' : ''}`}
-        aria-label="Sumário"
+        aria-label={t('sumario')}
         aria-hidden={!open}
       >
         <div className="sidebar-header">
           <button className="appearance-button" onClick={onAppearance}>
-            <span aria-hidden="true">◐</span> Aparência
+            <span aria-hidden="true">◐</span> {t('aparencia')}
           </button>
           {onAlternarFixo && (
             <button
               className="painel-alfinete"
               onClick={onAlternarFixo}
               aria-pressed={!!fixo}
-              aria-label={fixo ? 'Soltar o sumário' : 'Fixar o sumário ao lado do texto'}
-              title={fixo ? 'Soltar o sumário' : 'Fixar ao lado do texto'}
+              aria-label={t(fixo ? 'painel.soltarSumario' : 'painel.fixarSumario')}
+              title={t(fixo ? 'painel.soltarSumario' : 'painel.fixar')}
             >
               <IconeAlfinete />
             </button>
           )}
-          <button className="sidebar-close" onClick={onClose} aria-label="Fechar sumário">
+          <button className="sidebar-close" onClick={onClose} aria-label={t('sumario.fechar')}>
             ✕
           </button>
         </div>
@@ -165,30 +169,30 @@ export function Sidebar({
         <div className="toc-actions">
           {onCollapseAll && (
             <button className="toc-action" onClick={onCollapseAll}>
-              Recolher tudo
+              {t('sumario.recolherTudo')}
             </button>
           )}
           {onExpandAll && (
             <button className="toc-action" onClick={onExpandAll}>
-              Expandir tudo
+              {t('sumario.expandirTudo')}
             </button>
           )}
           {onCopy && (
             <button className="toc-action" onClick={onCopy}>
-              Copiar livro
+              {t('sumario.copiarLivro')}
             </button>
           )}
           {onDownload && (
             <button className="toc-action" onClick={onDownload}>
-              ⇩ Baixar .md
+              {t('sumario.baixar')}
             </button>
           )}
           <button className="toc-action" onClick={onDetails}>
-            Detalhes
+            {t('sumario.detalhes')}
           </button>
           {onEdit && (
             <button className="toc-action" onClick={onEdit}>
-              ✏ Editar
+              {t('sumario.editar')}
             </button>
           )}
         </div>
@@ -200,13 +204,13 @@ export function Sidebar({
             <li>
               <div className="toc-row">
                 <button className="toc-item toc-depth-2" onClick={() => setNamesOpen((v) => !v)}>
-                  Índice de nomes
+                  {t('sumario.indiceDeNomes')}
                 </button>
                 <button
                   className="toc-toggle"
                   onClick={() => setNamesOpen((v) => !v)}
                   aria-expanded={namesOpen}
-                  aria-label={namesOpen ? 'Recolher índice de nomes' : 'Expandir índice de nomes'}
+                  aria-label={t(namesOpen ? 'sumario.recolherNomes' : 'sumario.expandirNomes')}
                 >
                   {namesOpen ? '▾' : '▸'}
                 </button>
