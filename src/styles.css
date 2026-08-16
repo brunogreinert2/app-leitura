@@ -1128,6 +1128,47 @@ button {
   white-space: pre-wrap;
 }
 
+/* Crase e linha indentada viram `code` e `pre` no Markdown. Sem regra nenhuma
+   aqui, os dois caíam no monospace DO SISTEMA — outra fonte, outro peso, e
+   ainda encolhida (o navegador aplica um fator próprio a monospace). Numa
+   página de leitura isso aparece como linhas mais finas e mais grossas se
+   misturando no meio do texto, e some ao piscar entre um aparelho e outro.
+   Viola a N72: a pilha termina em fonte nossa.
+
+   No acervo passava despercebido porque há ~1,3 crase por arquivo, e quase
+   nenhuma é código de verdade — são resíduos de extração (`aër`, `poëtae`,
+   ` por `). Num texto que o leitor cola de uma conversa, crase aparece a cada
+   duas frases, e aí o texto inteiro fica remendado.
+
+   Por isso `code` aqui NÃO é monospace: é a mesma fonte da leitura, no mesmo
+   corpo, apenas com um fundo de leve para não perder a marcação. Numa página
+   de prosa, o que a crase marca é um termo, não um programa. */
+.reader-body code,
+.reader-body pre,
+.footnote-box-content code,
+.wikilink-box-content code {
+  font-family: var(--reading-font-family);
+  font-size: inherit;
+  background: var(--color-code-bg, rgba(128, 128, 128, 0.12));
+  border-radius: 0.2em;
+  padding: 0.05em 0.25em;
+}
+
+.reader-body pre {
+  display: block;
+  padding: 0.6em 0.8em;
+  overflow-x: auto;
+  white-space: pre-wrap;
+}
+
+/* `pre > code` já está dentro da caixa do `pre`: sem isto o fundo entra duas
+   vezes e a moldura fica com duas bordas. */
+.reader-body pre code {
+  background: none;
+  padding: 0;
+  border-radius: 0;
+}
+
 /* ===== Tipografia do texto ===== */
 
 .reader-body h1 {
