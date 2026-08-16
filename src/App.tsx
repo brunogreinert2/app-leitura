@@ -19,6 +19,7 @@ import {
 import { loadLastBook } from './lib/bookState'
 import { useAppUpdate } from './lib/useAppUpdate'
 import { exportBackup, importBackup } from './lib/backup'
+import { useTelaLarga, usePaineisFixos } from './lib/useTelaLarga'
 import type { Catalog as CatalogData, CatalogEntry, PersonManifest } from './types'
 
 /** O app abre lendo: guia de boas-vindas como primeiro texto ativo. */
@@ -75,6 +76,12 @@ export function App() {
   // ajuste de letra da leitura, com o estado guardado no mesmo lugar.
   const { decrease: decreaseFont, increase: increaseFont } = useFontSize()
   const [menuOpen, setMenuOpen] = useState(false)
+  // Painel fixo so faz sentido onde ha espaco: abaixo de 64rem, os dois
+  // abertos deixariam menos de 25rem para a coluna de leitura.
+  const telaLarga = useTelaLarga()
+  const { fixos, alternar: alternarFixo, soltar: soltarPainel } = usePaineisFixos()
+  const bibliotecaFixa = telaLarga && fixos.biblioteca
+  const sumarioFixo = telaLarga && fixos.sumario
   const [acervoDetailsOpen, setAcervoDetailsOpen] = useState(false)
   // Alvo do link permanente com que o app foi aberto (consumido 1x)
   const initialTarget = useRef(parseHash())
@@ -92,6 +99,23 @@ export function App() {
   useEffect(() => {
     listLocalFiles().then(setLocalFiles).catch(() => {})
   }, [])
+
+  // O CSS e quem empurra o conteudo (padding no body). Aqui so se declara o
+  // estado: assim, se a janela encolher, a media query desliga o padding
+  // sozinha e o painel volta a ser sobreposto, sem nada preso fora da tela.
+  useEffect(() => {
+    const b = document.body
+    if (bibliotecaFixa) b.dataset.fixoEsq = '1'
+    else delete b.dataset.fixoEsq
+    if (sumarioFixo) b.dataset.fixoDir = '1'
+    else delete b.dataset.fixoDir
+  }, [bibliotecaFixa, sumarioFixo])
+
+  // Painel fixo esta sempre visivel: fixar sem abrir seria reservar espaco
+  // para o vazio.
+  useEffect(() => {
+    if (bibliotecaFixa) setLibraryOpen(true)
+  }, [bibliotecaFixa])
 
   // Compartilhado de outro app (ex.: chat de IA): salva como texto
   // próprio e abre direto na leitura — nenhuma rede envolvida.
@@ -312,7 +336,14 @@ export function App() {
       <LibraryDrawer
         catalog={libraryCatalog}
         open={libraryOpen}
-        onClose={() => setLibraryOpen(false)}
+        // Fechar tambem solta o alfinete: senao o painel reabriria sozinho no
+        // efeito acima, e o X pareceria nao funcionar.
+        onClose={() => {
+          soltarPainel('biblioteca')
+          setLibraryOpen(false)
+        }}
+        fixo={bibliotecaFixa}
+        onAlternarFixo={telaLarga ? () => alternarFixo('biblioteca') : undefined}
         onSelect={openBook}
         onAddFiles={handleAddFiles}
         onRemoveLocal={handleRemoveLocal}
@@ -355,6 +386,8 @@ export function App() {
           onOpenPerson={pushBook}
           onOpenLibrary={() => setLibraryOpen(true)}
           onOpenAppearance={() => setThemeOpen(true)}
+          sumarioFixo={sumarioFixo}
+          onAlternarSumarioFixo={telaLarga ? () => alternarFixo('sumario') : undefined}
         />
       ) : (
         <>
@@ -373,8 +406,13 @@ export function App() {
           <Sidebar
             headings={[]}
             names={[]}
-            open={menuOpen}
-            onClose={() => setMenuOpen(false)}
+            open={menuOpen || sumarioFixo}
+            fixo={sumarioFixo}
+            onAlternarFixo={telaLarga ? () => alternarFixo('sumario') : undefined}
+            onClose={() => {
+              soltarPainel('sumario')
+              setMenuOpen(false)
+            }}
             onAppearance={() => {
               setMenuOpen(false)
               setThemeOpen(true)

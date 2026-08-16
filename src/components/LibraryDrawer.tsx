@@ -18,6 +18,9 @@ interface Props {
   onImportData: (file: File) => void
   /** Força checar se há versão nova do app agora, sem esperar a checagem automática. */
   onCheckUpdate: () => void
+  /** Fixar na bancada: só oferecido onde há espaço (ver useTelaLarga). */
+  fixo?: boolean
+  onAlternarFixo?: () => void
 }
 
 export function LibraryDrawer({
@@ -31,6 +34,8 @@ export function LibraryDrawer({
   onExportData,
   onImportData,
   onCheckUpdate,
+  fixo,
+  onAlternarFixo,
 }: Props) {
   const [query, setQuery] = useState('')
   const fileInputRef = useRef<HTMLInputElement>(null)
@@ -38,14 +43,37 @@ export function LibraryDrawer({
 
   return (
     <>
-      {open && <div className="sidebar-backdrop" onClick={onClose} aria-hidden="true" />}
+      {/* Fixo não tem véu — mas quem o esconde é o CSS, dentro da media query
+          de tela larga. Se a janela encolher e o painel deixar de caber ao
+          lado, o véu reaparece sozinho e ele volta a ser uma sobreposição
+          comum, com toque fora para fechar. Decidir isso aqui em JS deixaria
+          o estado do React podendo discordar do CSS — e a discordância seria
+          um painel cobrindo o texto sem como fechá-lo. */}
+      {open && (
+        <div
+          className={`sidebar-backdrop${fixo ? ' veu-de-painel-fixo' : ''}`}
+          onClick={onClose}
+          aria-hidden="true"
+        />
+      )}
       <nav
-        className={`library-drawer${open ? ' library-drawer-open' : ''}`}
+        className={`library-drawer${open ? ' library-drawer-open' : ''}${fixo ? ' painel-fixo' : ''}`}
         aria-label="Biblioteca"
         aria-hidden={!open}
       >
         <div className="sidebar-header">
           <h2>Biblioteca</h2>
+          {onAlternarFixo && (
+            <button
+              className="painel-alfinete"
+              onClick={onAlternarFixo}
+              aria-pressed={!!fixo}
+              aria-label={fixo ? 'Soltar a biblioteca' : 'Fixar a biblioteca ao lado do texto'}
+              title={fixo ? 'Soltar a biblioteca' : 'Fixar ao lado do texto'}
+            >
+              {fixo ? '📌' : '📍'}
+            </button>
+          )}
           <button className="sidebar-close" onClick={onClose} aria-label="Fechar biblioteca">
             ✕
           </button>

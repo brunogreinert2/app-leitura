@@ -9,6 +9,9 @@ interface Props {
   onClose: () => void
   onAppearance: () => void
   onDetails: () => void
+  /** Fixar na bancada: só oferecido onde há espaço (ver useTelaLarga). */
+  fixo?: boolean
+  onAlternarFixo?: () => void
   /**
    * Ações que só existem com um livro aberto. Ausentes na tela da
    * biblioteca, onde este mesmo Ξ abriga só aparência e detalhes do acervo —
@@ -55,6 +58,8 @@ export function Sidebar({
   onDownload,
   onAppearance,
   onDetails,
+  fixo,
+  onAlternarFixo,
   onEdit,
   onSelectName,
 }: Props) {
@@ -116,9 +121,21 @@ export function Sidebar({
 
   return (
     <>
-      {open && <div className="sidebar-backdrop" onClick={onClose} aria-hidden="true" />}
+      {/* Fixo não tem véu — mas quem o esconde é o CSS, dentro da media query
+          de tela larga. Se a janela encolher e o painel deixar de caber ao
+          lado, o véu reaparece sozinho e ele volta a ser uma sobreposição
+          comum, com toque fora para fechar. Decidir isso aqui em JS deixaria
+          o estado do React podendo discordar do CSS — e a discordância seria
+          um painel cobrindo o texto sem como fechá-lo. */}
+      {open && (
+        <div
+          className={`sidebar-backdrop${fixo ? ' veu-de-painel-fixo' : ''}`}
+          onClick={onClose}
+          aria-hidden="true"
+        />
+      )}
       <nav
-        className={`sidebar${open ? ' sidebar-open' : ''}`}
+        className={`sidebar${open ? ' sidebar-open' : ''}${fixo ? ' painel-fixo' : ''}`}
         aria-label="Sumário"
         aria-hidden={!open}
       >
@@ -126,6 +143,17 @@ export function Sidebar({
           <button className="appearance-button" onClick={onAppearance}>
             <span aria-hidden="true">◐</span> Aparência
           </button>
+          {onAlternarFixo && (
+            <button
+              className="painel-alfinete"
+              onClick={onAlternarFixo}
+              aria-pressed={!!fixo}
+              aria-label={fixo ? 'Soltar o sumário' : 'Fixar o sumário ao lado do texto'}
+              title={fixo ? 'Soltar o sumário' : 'Fixar ao lado do texto'}
+            >
+              {fixo ? '📌' : '📍'}
+            </button>
+          )}
           <button className="sidebar-close" onClick={onClose} aria-label="Fechar sumário">
             ✕
           </button>

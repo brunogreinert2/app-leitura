@@ -957,6 +957,64 @@ button {
   visibility: visible;
 }
 
+/* ===== Painéis fixos (bancada de trabalho, só onde há espaço) =====
+ *
+ * Aberto por cima do texto, o painel é uma interrupção: escurece o que se
+ * estava lendo e cobra um fechamento antes de voltar. Fixo, ele vira parte da
+ * bancada — dá para consultar o sumário enquanto se lê, ou deixar a biblioteca
+ * aberta para pular de obra sem fechar nada.
+ *
+ * Por isso, fixo: sem sombra projetada e sem véu atrás (o véu nem é
+ * renderizado). O texto não é coberto — ele se muda: o padding do body empurra
+ * a coluna, e como a largura de leitura é medida em `ch`, ela reencaixa
+ * sozinha na sobra sem alongar a linha.
+ *
+ * Tudo dentro da media query de propósito: se a janela encolher, o padding
+ * some, o painel volta a ser sobreposto e nada fica preso fora da tela.
+ */
+@media (min-width: 64rem) {
+  .painel-fixo {
+    box-shadow: none;
+    transition: none; /* móvel da bancada não desliza toda vez que a tela muda */
+  }
+
+  /* Só AQUI o véu do painel fixo some. Abaixo desta largura ele reaparece
+     sozinho, e o painel volta a ser sobreposição comum — com toque fora para
+     fechar, como sempre foi. É a CSS que decide, e por isso não há como o
+     estado do React discordar e deixar o texto coberto sem saída. */
+  .veu-de-painel-fixo {
+    display: none;
+  }
+
+  body[data-fixo-esq='1'] {
+    padding-left: min(20rem, 85vw);
+  }
+
+  body[data-fixo-dir='1'] {
+    padding-right: min(20rem, 85vw);
+  }
+
+  /* A barra do topo é sticky e vive no fluxo, então já anda com o padding do
+     body. A caixa de nota inline é posicionada pelo .reader-body, que também
+     andou. Nada mais precisa saber que o painel existe. */
+}
+
+/* Alfinete: o próprio botão diz em que estado está (aria-pressed), então não
+   precisa de rótulo que mude de texto. */
+.painel-alfinete {
+  min-width: 2.75rem;
+  min-height: 2.75rem;
+  padding: 0.4rem 0.6rem;
+  border-radius: 0.375rem;
+  color: var(--color-accent);
+  font-size: 1.1rem;
+  line-height: 1;
+}
+
+.painel-alfinete[aria-pressed='true'] {
+  background: var(--color-border);
+}
+
 .sidebar-header {
   display: flex;
   align-items: center;

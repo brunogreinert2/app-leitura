@@ -50,6 +50,9 @@ interface Props {
   onOpenPerson: (entry: CatalogEntry) => void
   onOpenLibrary: () => void
   onOpenAppearance: () => void
+  /** Sumario fixo na bancada (so onde ha espaco). */
+  sumarioFixo?: boolean
+  onAlternarSumarioFixo?: () => void
 }
 
 function personToEntry(p: PersonEntry): CatalogEntry {
@@ -91,6 +94,8 @@ export function Reader({
   onOpenPerson,
   onOpenLibrary,
   onOpenAppearance,
+  sumarioFixo,
+  onAlternarSumarioFixo,
 }: Props) {
   const [parsed, setParsed] = useState<ParsedBook | null>(null)
   const [error, setError] = useState<string | null>(null)
@@ -535,10 +540,18 @@ export function Reader({
       <Sidebar
         headings={parsed?.headings ?? []}
         names={parsed?.names ?? []}
-        open={tocOpen}
-        onClose={() => setTocOpen(false)}
-        onNavigate={(id) => {
+        open={tocOpen || !!sumarioFixo}
+        fixo={sumarioFixo}
+        onAlternarFixo={onAlternarSumarioFixo}
+        // Fechar solta o alfinete: senao o X nao teria efeito visivel.
+        onClose={() => {
+          if (sumarioFixo) onAlternarSumarioFixo?.()
           setTocOpen(false)
+        }}
+        onNavigate={(id) => {
+          // Fixo, o sumario e bancada: clicar num capitulo navega e o painel
+          // fica onde estava, pronto para o proximo salto.
+          if (!sumarioFixo) setTocOpen(false)
           // Navegar para uma seção recolhida (ou dentro de uma) reabre
           // o alvo e todos os seus ancestrais
           const headings = parsed?.headings ?? []
