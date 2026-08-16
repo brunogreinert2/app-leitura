@@ -1162,8 +1162,24 @@ button {
    * fonte — daí 61ch para 75 caracteres. Como a unidade é por fonte, trocar
    * para Atkinson ou OpenDyslexic (mais largas) reajusta a medida sozinho.
    * O +2rem devolve o padding, que `box-sizing: border-box` desconta.
+   *
+   * E TEM PISO, porque a fórmula é simétrica: se a coluna cresce com a letra,
+   * ela também encolhe. Na letra mínima (12px) os 61ch davam 407px — 37% da
+   * tela, com 340px vazios de cada lado, justamente o vazio que se queria
+   * evitar.
+   *
+   * O piso é 30rem por medida, não por gosto. Ele só age abaixo de ~13px, e
+   * ali leva a linha a 88 caracteres — perto dos 85 que o app tinha antes de
+   * a coluna virar `ch`, ou seja, um patamar já conhecido e tolerado. Pisos
+   * maiores compram pouca tela e custam caro: 34rem daria 50% da tela ao preço
+   * de 103 caracteres por linha, e 38rem daria 56% ao preço de 115. De 14,4px
+   * para cima o piso não encosta em nada — a medida segue em 74.
+   *
+   * Para quem lê em letra pequena e ainda assim quer a tela ocupada, a
+   * resposta boa não é alargar a coluna, é fixar os painéis ao lado (📍): aí
+   * a sobra vira sumário e biblioteca em vez de margem vazia.
    */
-  max-width: calc(61ch + 2rem);
+  max-width: max(30rem, calc(61ch + 2rem));
   margin: 0 auto;
   padding: 1rem 1rem 4rem;
   font-size: var(--reading-font-size);
