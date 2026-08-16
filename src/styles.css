@@ -1007,15 +1007,26 @@ button {
   padding: 0.4rem 0.6rem;
   border-radius: 0.375rem;
   color: var(--color-accent);
-  /* O ícone mede 1em, então é este font-size que o dimensiona. A 1,1rem ele
-     saía com 18px dentro de um alvo de toque de 44px — traços de pouco mais
-     de um pixel, que somem em vez de desenhar. 1,5rem dá 24px, proporção
-     normal de ícone dentro do alvo. */
-  font-size: 1.5rem;
   line-height: 1;
   display: inline-flex;
   align-items: center;
   justify-content: center;
+}
+
+/* O TAMANHO DO ÍCONE VIVE AQUI, em unidade absoluta.
+   Antes o SVG pedia `width="1em"` no próprio atributo: o WebKit não resolve
+   `em` ali de forma confiável e o elemento colapsava para zero — o alfinete
+   sumia por completo no iPhone (inclusive no navegador, o que descartou
+   cache) e aparecia no Windows. `flex-shrink: 0` cobre a segunda armadilha:
+   SVG sem dimensão explícita dentro de contêiner flex também encolhe a zero
+   no Safari.
+   24px num alvo de toque de 44px é a proporção normal de ícone; a 18px os
+   traços ficavam com pouco mais de um pixel e sumiam mesmo onde renderizavam. */
+.painel-alfinete svg {
+  display: block;
+  width: 1.5rem;
+  height: 1.5rem;
+  flex-shrink: 0;
 }
 
 .painel-alfinete[aria-pressed='true'] {
