@@ -161,6 +161,20 @@ PARES = [
 # com a de componente ao ler a tabela.
 PARES_INFORMATIVOS = [("separador decorativo", "color-border", "color-bg")]
 
+# A régua media tudo contra o FUNDO e nada contra os outros elementos — e foi
+# esse buraco que deixou passar três propostas de tema em que o link ficava da
+# cor do texto para quem tem dicromacia.
+#
+# Sem piso, de propósito: no app o wikilink também é sublinhado (pontilhado), e
+# a mensagem de erro vem com texto próprio, então a cor não carrega sozinha a
+# informação — que é o que a WCAG 1.4.1 cobra. Número baixo aqui não é reprova;
+# é aviso de que aquele tema está confiando na pista não-cromática.
+DISTINCOES_INFORMATIVAS = [
+    ("link x texto", "color-accent", "color-text"),
+    ("erro x texto", "color-error", "color-text"),
+    ("link x erro", "color-accent", "color-error"),
+]
+
 # Pares que precisam ser DISTINGUÍVEIS entre si, não apenas legíveis: se o
 # fundo do achado e o da ocorrência atual colapsam, a busca perde a noção de
 # "onde estou" — e é exatamente o que o daltonismo faz com amarelo/laranja.
@@ -210,6 +224,14 @@ def medir(temas: dict[str, dict[str, str]]) -> list[dict]:
                 informativos.append(
                     {"par": rotulo, "fg": v[a], "bg": v[b], "razao": contraste(v[a], v[b])}
                 )
+        informais = []
+        for rotulo, a, b in DISTINCOES_INFORMATIVAS:
+            if a in v and b in v:
+                d = {"par": rotulo, "normal": distancia_percebida(v[a], v[b])}
+                for tipo in MATRIZ_DICROMACIA:
+                    d[tipo] = distancia_percebida(v[a], v[b], tipo)
+                d["pior"] = min([d["normal"]] + [d[t] for t in MATRIZ_DICROMACIA])
+                informais.append(d)
         distincoes = []
         for rotulo, a, b in PARES_DISTINCAO:
             if a not in v or b not in v:
@@ -231,6 +253,7 @@ def medir(temas: dict[str, dict[str, str]]) -> list[dict]:
                 "linhas": linhas,
                 "informativos": informativos,
                 "distincoes": distincoes,
+                "informais": informais,
                 "cvd": sob_cvd,
                 "reprovas": [l for l in linhas if not l["passa"]]
                 + [d for d in distincoes if not d["passa"]],
@@ -268,6 +291,12 @@ def imprimir(resultados: list[dict]) -> None:
                 f"     {d['par']:26} normal {d['normal']:5.0f} · "
                 f"prot {d['protanopia']:5.0f} · deut {d['deuteranopia']:5.0f} · "
                 f"trit {d['tritanopia']:5.0f}  (piso {LIMIAR_DISTINCAO:.0f}) {sinal}"
+            )
+        for d in t["informais"]:
+            aviso = "  " if d["pior"] >= LIMIAR_DISTINCAO else "~ "
+            print(
+                f"     {d['par']:26} pior {d['pior']:5.0f}  "
+                f"(sem piso: a cor não está sozinha) {aviso}"
             )
         c = t["cvd"]
         print(
