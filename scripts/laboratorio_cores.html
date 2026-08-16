@@ -254,10 +254,10 @@
       <div class="linha-controles" style="margin-bottom:0.75rem">
         <label for="visao">Ver o espécime como</label>
         <select id="visao">
-          <option value="">visão tricromática</option>
-          <option value="protanopia">protanopia (sem cone L)</option>
-          <option value="deuteranopia">deuteranopia (sem cone M)</option>
-          <option value="tritanopia">tritanopia (sem cone S)</option>
+          <option value="">Visão tricromática</option>
+          <option value="protanopia">R — Protanopia (sem cone L)</option>
+          <option value="deuteranopia">G — Deuteranopia (sem cone M)</option>
+          <option value="tritanopia">B — Tritanopia (sem cone S)</option>
         </select>
       </div>
 
@@ -414,8 +414,9 @@ const PARES = [
   ['texto no fundo', 'color-text', 'color-bg', ALVO_TEXTO],
   ['texto secundário', 'color-muted', 'color-bg', ALVO_TEXTO],
   ['texto na superfície', 'color-text', 'color-surface', ALVO_TEXTO],
-  ['link / destaque', 'color-accent', 'color-bg', MINIMO_AA],
-  ['erro', 'color-error', 'color-bg', MINIMO_AA],
+  // Link e mensagem de erro SÃO TEXTO: régua do projeto, não o AA de 4.5.
+  ['link / destaque', 'color-accent', 'color-bg', ALVO_TEXTO],
+  ['erro', 'color-error', 'color-bg', ALVO_TEXTO],
   ['busca: achado', 'hl-fg', 'hl-bg', ALVO_TEXTO],
   ['busca: ocorrência atual', 'hl-cur-fg', 'hl-cur-bg', ALVO_TEXTO],
   ['contorno de componente', 'color-borda-ui', 'color-bg', MINIMO_NAO_TEXTO],
@@ -433,7 +434,7 @@ const PARES_DISTINCAO = [
    É conveniência, NÃO é a autoridade: quando o CSS mudar, este retrato
    fica velho em silêncio. Para medir o que está no ar, use a caixa
    "Trazer do app" e cole o bloco de verdade. */
-const RETRATO = {"sepia":{"color-bg":"#faf7f2","color-text":"#2b2620","color-muted":"#585049","color-surface":"#ffffff","color-accent":"#6b3e15","color-error":"#8b2500","color-borda-ui":"#8a8377","color-border":"#e0d8cc","hl-fg":"#2b2620","hl-bg":"#f5d76e","hl-cur-fg":"#ffffff","hl-cur-bg":"#8a4408"},"claro":{"color-bg":"#ffffff","color-text":"#000000","color-muted":"#2e2e2e","color-surface":"#ffffff","color-accent":"#0000b4","color-error":"#b40000","color-borda-ui":"#5a5a5a","color-border":"#5a5a5a","hl-fg":"#000000","hl-bg":"#ffe600","hl-cur-fg":"#ffffff","hl-cur-bg":"#0000b4"},"escuro":{"color-bg":"#000000","color-text":"#ffffff","color-muted":"#d6d6d6","color-surface":"#0d0d0d","color-accent":"#8ecbff","color-error":"#ffffff","color-borda-ui":"#8a8a8a","color-border":"#8a8a8a","hl-fg":"#000000","hl-bg":"#ffe600","hl-cur-fg":"#000000","hl-cur-bg":"#ff8c00"},"amarelo":{"color-bg":"#000000","color-text":"#ffe600","color-muted":"#e6d24a","color-surface":"#0d0c00","color-accent":"#ffffff","color-error":"#ffffff","color-borda-ui":"#a89b00","color-border":"#a89b00","hl-fg":"#000000","hl-bg":"#ffffff","hl-cur-fg":"#000000","hl-cur-bg":"#ff8c00"},"verde":{"color-bg":"#000000","color-text":"#33ff33","color-muted":"#4ada4a","color-surface":"#001200","color-accent":"#ffffff","color-error":"#ffffff","color-borda-ui":"#1f9e1f","color-border":"#1f9e1f","hl-fg":"#000000","hl-bg":"#ffffff","hl-cur-fg":"#000000","hl-cur-bg":"#ff8c00"},"azul-noite":{"color-bg":"#0a1128","color-text":"#f2e8d5","color-muted":"#cfc4ae","color-surface":"#0d1633","color-accent":"#ffd75e","color-error":"#ffb4a2","color-borda-ui":"#7789b8","color-border":"#3a4a7a","hl-fg":"#0a1128","hl-bg":"#ffd75e","hl-cur-fg":"#000000","hl-cur-bg":"#ff8c00"},"azul-petroleo":{"color-bg":"#062a30","color-text":"#e8f4f1","color-muted":"#c0dcd6","color-surface":"#08343c","color-accent":"#7fe0d0","color-error":"#ffb4a2","color-borda-ui":"#66aab4","color-border":"#2a6b74","hl-fg":"#062a30","hl-bg":"#ffe600","hl-cur-fg":"#000000","hl-cur-bg":"#ff8c00"},"pergaminho":{"color-bg":"#ccbc9d","color-text":"#241a08","color-muted":"#392b13","color-surface":"#d5c7aa","color-accent":"#4a2a0c","color-error":"#7a1f00","color-borda-ui":"#63542f","color-border":"#a08d66","hl-fg":"#241a08","hl-bg":"#f5e08a","hl-cur-fg":"#f5ecd8","hl-cur-bg":"#4a2a0c"},"amarelo-azul":{"color-bg":"#001862","color-text":"#ffe600","color-muted":"#f0dc6e","color-surface":"#001048","color-accent":"#ffffff","color-error":"#ffffff","color-borda-ui":"#8c9ad6","color-border":"#5a6cb4","hl-fg":"#001862","hl-bg":"#ffffff","hl-cur-fg":"#000000","hl-cur-bg":"#ff8c00"}}
+const RETRATO = {"sepia":{"color-bg":"#faf7f2","color-text":"#2b2620","color-muted":"#585049","color-surface":"#ffffff","color-accent":"#6b3e15","color-error":"#8b2500","color-borda-ui":"#8a8377","color-border":"#e0d8cc","hl-fg":"#2b2620","hl-bg":"#f5d76e","hl-cur-fg":"#ffffff","hl-cur-bg":"#7a3a05"},"claro":{"color-bg":"#ffffff","color-text":"#000000","color-muted":"#2e2e2e","color-surface":"#ffffff","color-accent":"#0000b4","color-error":"#8f0000","color-borda-ui":"#5a5a5a","color-border":"#5a5a5a","hl-fg":"#000000","hl-bg":"#ffe600","hl-cur-fg":"#ffffff","hl-cur-bg":"#0000b4"},"escuro":{"color-bg":"#000000","color-text":"#ffffff","color-muted":"#d6d6d6","color-surface":"#0d0d0d","color-accent":"#8ecbff","color-error":"#ffffff","color-borda-ui":"#8a8a8a","color-border":"#8a8a8a","hl-fg":"#000000","hl-bg":"#ffe600","hl-cur-fg":"#000000","hl-cur-bg":"#ff8c00"},"amarelo":{"color-bg":"#000000","color-text":"#ffe600","color-muted":"#e6d24a","color-surface":"#0d0c00","color-accent":"#ffffff","color-error":"#ffffff","color-borda-ui":"#a89b00","color-border":"#a89b00","hl-fg":"#000000","hl-bg":"#ffffff","hl-cur-fg":"#000000","hl-cur-bg":"#ff8c00"},"verde":{"color-bg":"#000000","color-text":"#33ff33","color-muted":"#4ada4a","color-surface":"#001200","color-accent":"#ffffff","color-error":"#ffffff","color-borda-ui":"#1f9e1f","color-border":"#1f9e1f","hl-fg":"#000000","hl-bg":"#ffffff","hl-cur-fg":"#000000","hl-cur-bg":"#ff8c00"},"azul-noite":{"color-bg":"#0a1128","color-text":"#f2e8d5","color-muted":"#cfc4ae","color-surface":"#0d1633","color-accent":"#ffd75e","color-error":"#ffb4a2","color-borda-ui":"#7789b8","color-border":"#3a4a7a","hl-fg":"#0a1128","hl-bg":"#ffd75e","hl-cur-fg":"#000000","hl-cur-bg":"#ff8c00"},"azul-petroleo":{"color-bg":"#062a30","color-text":"#e8f4f1","color-muted":"#c0dcd6","color-surface":"#08343c","color-accent":"#7fe0d0","color-error":"#ffb4a2","color-borda-ui":"#66aab4","color-border":"#2a6b74","hl-fg":"#062a30","hl-bg":"#ffe600","hl-cur-fg":"#000000","hl-cur-bg":"#ff8c00"},"pergaminho":{"color-bg":"#ccbc9d","color-text":"#241a08","color-muted":"#392b13","color-surface":"#d5c7aa","color-accent":"#3d2208","color-error":"#4d1200","color-borda-ui":"#63542f","color-border":"#a08d66","hl-fg":"#241a08","hl-bg":"#f5e08a","hl-cur-fg":"#f5ecd8","hl-cur-bg":"#3d2208"},"amarelo-azul":{"color-bg":"#001862","color-text":"#ffe600","color-muted":"#f0dc6e","color-surface":"#001048","color-accent":"#ffffff","color-error":"#ffffff","color-borda-ui":"#8c9ad6","color-border":"#5a6cb4","hl-fg":"#001862","hl-bg":"#ffffff","hl-cur-fg":"#000000","hl-cur-bg":"#ff8c00"}}
 
 /* Propostas externas entram como qualquer outra: só o que o retrato
    não define é herdado do sépia, para nada medir contra `undefined`. */
@@ -538,8 +539,14 @@ function recalcular () {
   // réguas: um contorno em 5.27 passa folgado no piso de 3:1, mas exibido ao
   // lado de "régua do projeto: 7:1" ele parece texto reprovado. O instrumento
   // fica dizendo a verdade e comunicando mentira.
-  let piorTexto = Infinity      // só entre os pares cujo piso é 7:1
-  let maisApertado = null       // o par com a menor folga em relação ao PRÓPRIO piso
+  // Uma lista só de conferências, cada uma com o SEU piso e a sua unidade.
+  // A folga (valor ÷ piso) é adimensional, então razão e distância podem ser
+  // comparadas entre si — e a formatação volta a respeitar a unidade na hora
+  // de escrever na tela.
+  const conferencias = []
+  const registrar = (rotulo, valor, piso, unidade) => {
+    if (piso !== null) conferencias.push({ rotulo, valor, piso, unidade, folga: valor / piso })
+  }
   let reprovas = 0
   const linhas = []
 
@@ -551,13 +558,7 @@ function recalcular () {
     const pior = Math.min(normal, ...sims)
     const passa = piso === null ? null : pior >= piso
     if (passa === false) reprovas++
-    if (piso === ALVO_TEXTO && pior < piorTexto) piorTexto = pior
-    if (piso !== null) {
-      const folga = pior / piso
-      if (!maisApertado || folga < maisApertado.folga) {
-        maisApertado = { folga: folga, par: rotulo, valor: pior, piso: piso }
-      }
-    }
+    registrar(rotulo, pior, piso, 'razao')
 
     linhas.push(
       '<tr' + (passa === false ? ' class="reprova"' : '') + '>' +
@@ -583,6 +584,7 @@ function recalcular () {
     const pior = Math.min(normal, ...sims)
     const passa = pior >= LIMIAR_DISTINCAO
     if (!passa) reprovasDist++
+    registrar(rotulo, pior, LIMIAR_DISTINCAO, 'distancia')
     const cel = v => '<td class="n' + (v < LIMIAR_DISTINCAO ? ' fraco' : '') + '">' + v.toFixed(0) + '</td>'
     dist.push(
       '<tr' + (passa ? '' : ' class="reprova"') + '>' +
@@ -599,19 +601,23 @@ function recalcular () {
   const total = reprovas + reprovasDist
   const v = $('#veredicto')
   v.className = 'veredicto ' + (total ? 'nao' : 'ok')
-  const linhaTexto = '<span class="pior">pior texto: ' +
-    (isFinite(piorTexto) ? piorTexto.toFixed(2) + ':1' : '—') +
-    ' <span style="color:var(--fosco)">(piso 7:1)</span></span>'
-  // Nomear o par mais apertado diz ONDE está o gelo fino — e deixa claro que
-  // cada piso é o do seu próprio par, não uma régua única para tudo.
-  const linhaApertado = maisApertado
-    ? '<span class="pior">mais perto do piso: ' + maisApertado.par + ' ' +
-      maisApertado.valor.toFixed(2) + ':1 <span style="color:var(--fosco)">(piso ' +
-      maisApertado.piso.toFixed(1) + ':1)</span></span>'
+  // UMA frase, UM número. A versão anterior mostrava "pior texto: 8.17" e
+  // logo abaixo "mais perto do piso: … 8.17" — o mesmo valor duas vezes, com
+  // dois nomes, o que lia como duas medidas que por acaso coincidiram.
+  // O que se quer saber quando tudo passa é uma coisa só: qual par está mais
+  // perto de cair, e de quanto é a folga dele.
+  conferencias.sort((a, b) => a.folga - b.folga)
+  const critico = conferencias[0]
+  const escrever = c => c.unidade === 'razao'
+    ? c.valor.toFixed(2) + ':1 para um piso de ' + c.piso.toFixed(0) + ':1'
+    : 'distância ' + c.valor.toFixed(0) + ' para um piso de ' + c.piso.toFixed(0)
+  const detalhe = critico
+    ? '<span class="pior">' + (total ? 'o pior é ' : 'o mais justo é ') +
+      '<b>' + critico.rotulo + '</b> — ' + escrever(critico) + '</span>'
     : ''
   v.innerHTML = (total
     ? '<strong>' + total + (total === 1 ? ' par reprova' : ' pares reprovam') + '</strong>'
-    : '<strong>Passa em tudo</strong>') + linhaTexto + linhaApertado
+    : '<strong>Passa em tudo</strong>') + detalhe
 
   desenharEspecime()
   gerarCss()

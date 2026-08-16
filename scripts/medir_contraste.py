@@ -142,8 +142,12 @@ def ler_temas(css: Path) -> dict[str, dict[str, str]]:
 PARES = [
     ("texto no fundo", "color-text", "color-bg", ALVO_TEXTO),
     ("texto secundário", "color-muted", "color-bg", ALVO_TEXTO),
-    ("link//destaque", "color-accent", "color-bg", MINIMO_AA),
-    ("erro", "color-error", "color-bg", MINIMO_AA),
+    # Link e mensagem de erro SÃO TEXTO, e por isso sobem para a régua do
+    # projeto. Estavam em 4.5 (AA) por herança da configuração inicial — o
+    # que fazia o relatório dizer "OK" para um link que o dono do acervo
+    # jamais aceitaria no corpo do texto.
+    ("link//destaque", "color-accent", "color-bg", ALVO_TEXTO),
+    ("erro", "color-error", "color-bg", ALVO_TEXTO),
     ("busca: achado", "hl-fg", "hl-bg", ALVO_TEXTO),
     ("busca: ocorrência atual", "hl-cur-fg", "hl-cur-bg", ALVO_TEXTO),
     # WCAG 1.4.11 cobra 3:1 do que IDENTIFICA um componente — a borda de um

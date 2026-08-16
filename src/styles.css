@@ -232,7 +232,7 @@
   --color-error: #8b2500;
   --hl-bg: #f5d76e;
   --hl-fg: #2b2620;
-  --hl-cur-bg: #8a4408;
+  --hl-cur-bg: #7a3a05;
   --hl-cur-fg: #ffffff;
 
   /* Anel de foco de teclado. Segue o acento de cada tema por herança: como
@@ -266,7 +266,7 @@
   --hl-fg: #000000;
   --hl-cur-bg: #0000b4;
   --hl-cur-fg: #ffffff;
-  --color-error: #b40000;
+  --color-error: #8f0000;
   color-scheme: light;
 }
 
@@ -363,16 +363,16 @@
   --color-bg: #ccbc9d;
   --color-text: #241a08;
   --color-muted: #392b13;
-  --color-accent: #4a2a0c;
+  --color-accent: #3d2208;
   --color-surface: #d5c7aa;
   --color-border: #a08d66;
   --color-borda-ui: #63542f;
   --shadow-color: rgba(58, 42, 16, 0.35);
   --hl-bg: #f5e08a;
   --hl-fg: #241a08;
-  --hl-cur-bg: #4a2a0c;
+  --hl-cur-bg: #3d2208;
   --hl-cur-fg: #f5ecd8;
-  --color-error: #7a1f00;
+  --color-error: #4d1200;
   color-scheme: light;
 }
 
