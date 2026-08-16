@@ -12,6 +12,19 @@ export default defineConfig({
       // achando que um bug corrigido ainda existia.
       registerType: 'prompt',
       workbox: {
+        // O service worker novo assume as janelas JÁ ABERTAS assim que ativa.
+        // Sem isto, o app instalado continuava servido pelo worker antigo
+        // mesmo depois de "Atualizar agora": a página recarregava, o worker
+        // velho respondia, e voltava o mesmo pacote de sempre — sintoma
+        // visto ao vivo (ícone novo aparecia em aba anônima, que não tem
+        // worker, e não aparecia no app instalado).
+        //
+        // Anda junto com registerType: 'prompt', que mantém skipWaiting
+        // desligado: quem decide a hora da troca continua sendo o usuário,
+        // pelo aviso. O clientsClaim só garante que, decidida a troca, ela
+        // valha de fato para a janela que está na frente.
+        clientsClaim: true,
+
         // Pré-cacheia o app e os livros embarcados (offline completo)
         globPatterns: ['**/*.{js,css,html,svg,png,md,json,woff2}'],
         // O rolo da Bíblia (4,4 MB) passa do limite padrão de 2 MiB
