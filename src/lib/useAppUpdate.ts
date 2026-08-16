@@ -30,20 +30,33 @@ export function useAppUpdate() {
   const checkNow = () => {
     if (!('serviceWorker' in navigator)) return
     setCheckResult('checking')
-    navigator.serviceWorker
+
+    /* `registration.update()` pode NUNCA se resolver — não é erro, é uma
+       promessa que fica pendurada, e por isso o `.catch` não a alcança.
+       Acontece quando o service worker novo está instalando algo grande ou a
+       rede engasga no meio. Sem o prazo abaixo, o aviso "Procurando
+       atualização…" ficava na tela para sempre e o app inteiro parecia travado.
+
+       Uma tela de espera precisa de um fim garantido, mesmo que a resposta
+       seja "não sei". Dez segundos: folgado para uma rede lenta, curto o
+       bastante para não parecer travamento. */
+    const prazo = new Promise<void>((resolve) => window.setTimeout(resolve, 10_000))
+    const consulta = navigator.serviceWorker
       .getRegistration()
       .then((reg) => reg?.update())
-      .catch(() => {})
-      .then(() => {
-        window.setTimeout(() => {
-          if (needRefreshRef.current) {
-            setCheckResult('idle') // o banner de "nova versão" já assume o aviso
-            return
-          }
-          setCheckResult('up-to-date')
-          window.setTimeout(() => setCheckResult('idle'), 2500)
-        }, 1200)
-      })
+      .then(() => undefined)
+      .catch(() => undefined)
+
+    void Promise.race([consulta, prazo]).then(() => {
+      window.setTimeout(() => {
+        if (needRefreshRef.current) {
+          setCheckResult('idle') // o banner de "nova versão" já assume o aviso
+          return
+        }
+        setCheckResult('up-to-date')
+        window.setTimeout(() => setCheckResult('idle'), 2500)
+      }, 1200)
+    })
   }
 
   return {
