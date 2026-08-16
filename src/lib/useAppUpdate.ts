@@ -10,7 +10,9 @@ import { registerSW } from 'virtual:pwa-register'
  */
 export function useAppUpdate() {
   const [needRefresh, setNeedRefresh] = useState(false)
-  const [checkResult, setCheckResult] = useState<'idle' | 'checking' | 'up-to-date'>('idle')
+  const [checkResult, setCheckResult] = useState<'idle' | 'checking' | 'up-to-date' | 'demorando'>(
+    'idle',
+  )
   const updateRef = useRef<((reloadPage?: boolean) => Promise<void>) | null>(null)
   // Lido dentro de um setTimeout: precisa do valor mais recente, não o
   // capturado no momento em que checkNow foi chamado
@@ -33,19 +35,27 @@ export function useAppUpdate() {
 
     /* `registration.update()` pode NUNCA se resolver — não é erro, é uma
        promessa que fica pendurada, e por isso o `.catch` não a alcança.
-       Acontece quando o service worker novo está instalando algo grande ou a
-       rede engasga no meio. Sem o prazo abaixo, o aviso "Procurando
-       atualização…" ficava na tela para sempre e o app inteiro parecia travado.
+       Acontece enquanto o service worker novo ainda está guardando o acervo:
+       são 1097 arquivos e ~115 MB, de propósito, porque este app é offline
+       primeiro e cada leitor carrega o corpus inteiro. Numa instalação do zero
+       isso leva o tempo que levar.
 
-       Uma tela de espera precisa de um fim garantido, mesmo que a resposta
-       seja "não sei". Dez segundos: folgado para uma rede lenta, curto o
-       bastante para não parecer travamento. */
+       Sem o prazo abaixo o aviso "Procurando atualização…" ficava na tela para
+       sempre e o app parecia travado. Uma tela de espera precisa de um fim
+       garantido, mesmo que a resposta seja "ainda não sei" — e é isso que ela
+       diz, porque afirmar "você já está atualizado" quando a consulta não
+       respondeu seria mentira. */
+    let respondeu = false
     const prazo = new Promise<void>((resolve) => window.setTimeout(resolve, 10_000))
     const consulta = navigator.serviceWorker
       .getRegistration()
       .then((reg) => reg?.update())
-      .then(() => undefined)
-      .catch(() => undefined)
+      .then(() => {
+        respondeu = true
+      })
+      .catch(() => {
+        respondeu = true
+      })
 
     void Promise.race([consulta, prazo]).then(() => {
       window.setTimeout(() => {
@@ -53,8 +63,8 @@ export function useAppUpdate() {
           setCheckResult('idle') // o banner de "nova versão" já assume o aviso
           return
         }
-        setCheckResult('up-to-date')
-        window.setTimeout(() => setCheckResult('idle'), 2500)
+        setCheckResult(respondeu ? 'up-to-date' : 'demorando')
+        window.setTimeout(() => setCheckResult('idle'), respondeu ? 2500 : 6000)
       }, 1200)
     })
   }

@@ -304,7 +304,9 @@ export function App() {
         <div className="toast" role="status">
           {checkResult === 'checking'
             ? 'Procurando atualização…'
-            : 'Você já está na versão mais recente'}
+            : checkResult === 'demorando'
+              ? 'A verificação está demorando. O app pode estar guardando livros para leitura offline — dá para continuar lendo normalmente.'
+              : 'Você já está na versão mais recente'}
         </div>
       )}
       <LibraryDrawer
