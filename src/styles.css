@@ -417,11 +417,39 @@ body {
   padding: 0;
 }
 
+/* No `html`, não no `body`.
+   O WebKit do iPhone tem um mecanismo próprio que AUMENTA o corpo da letra de
+   alguns blocos e não de outros, para caber melhor em tela estreita. Ele liga
+   por largura de tela: pega no iPhone e não pega no iPad, com o mesmo iOS. O
+   resultado são faixas de letra maior e menor sem relação nenhuma com o texto.
+   A propriedade que o desliga vale a partir da raiz do documento. */
+html {
+  -webkit-text-size-adjust: 100%;
+  text-size-adjust: 100%;
+}
+
 body {
   background: var(--color-bg);
   color: var(--color-text);
   font-family: var(--reading-font-family);
   -webkit-text-size-adjust: 100%;
+}
+
+/* Suavização igual em toda a página.
+   O Safari desenha a tela em faixas horizontais e compõe cada uma por conta
+   própria. Quando duas faixas vizinhas caem em modos de suavização diferentes,
+   o MESMO texto aparece mais grosso numa e mais fino na outra — em bandas cujos
+   limites não têm relação com o conteúdo, e que se remexem a cada requebra do
+   texto. Fixar o modo tira a decisão do compositor.
+
+   Vale mais aqui do que em qualquer outro app: o texto é o produto, e o leitor
+   é alguém que enxerga mal e não deveria estar comparando peso de linha. */
+.reader-body,
+.footnote-box-content,
+.wikilink-box-content,
+.editor-area {
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
 }
 
 button {
