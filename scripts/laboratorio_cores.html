@@ -1,0 +1,668 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Laboratório de Cores — Pedra Angular</title>
+<!--
+  Bancada de temas do app de leitura.
+
+  IRMÃO DO scripts/medir_contraste.py. A matemática aqui é a MESMA, copiada
+  linha por linha: linearização sRGB, luminância WCAG, e a dicromacia de
+  Viénot, Brettel & Mollon (1999) no espaço LMS de Hunt-Pointer-Estevez.
+  Se um dia divergirem, um tema aprovado aqui reprova lá e ninguém saberá
+  qual dos dois está certo. Mexeu num, confira o outro.
+
+  Autônomo de propósito: abre com dois cliques, sem servidor e sem rede,
+  igual ao app que ele serve.
+-->
+<style>
+  /* ---------------------------------------------------------------
+     A MOLDURA É ACROMÁTICA DE PROPÓSITO.
+
+     Este é um instrumento de medir cor. Cromatismo na moldura desloca a
+     percepção da amostra por contraste simultâneo — o mesmo cinza parece
+     esverdeado ao lado de magenta. Fotógrafo cerca a prova de cinza 18%
+     pela mesma razão. A única cor saturada da interface é a marca, e ela
+     só aparece em coisa que se clica.
+     --------------------------------------------------------------- */
+  :root {
+    --papel: #ededeb;
+    --painel: #fafaf9;
+    --tinta: #1a1a18;
+    --fosco: #63615c;
+    --regua: #d4d4d0;
+    --marca: #6b3e15;
+    --bom: #2c6b43;
+    --ruim: #a32a16;
+    --serifada: Georgia, 'Iowan Old Style', 'Times New Roman', serif;
+    --interface: system-ui, -apple-system, 'Segoe UI', sans-serif;
+    --dados: ui-monospace, 'SF Mono', 'Cascadia Mono', Menlo, Consolas, monospace;
+  }
+  @media (prefers-color-scheme: dark) {
+    :root:not([data-theme="light"]) {
+      --papel: #1a1a19;
+      --painel: #232322;
+      --tinta: #e9e9e6;
+      --fosco: #97958e;
+      --regua: #34342f;
+      --marca: #d8a46a;
+      --bom: #7cc49b;
+      --ruim: #f0947c;
+    }
+  }
+  :root[data-theme="dark"] {
+    --papel: #1a1a19;
+    --painel: #232322;
+    --tinta: #e9e9e6;
+    --fosco: #97958e;
+    --regua: #34342f;
+    --marca: #d8a46a;
+    --bom: #7cc49b;
+    --ruim: #f0947c;
+  }
+
+  * { box-sizing: border-box; }
+  body {
+    margin: 0;
+    background: var(--papel);
+    color: var(--tinta);
+    font-family: var(--interface);
+    font-size: 15px;
+    line-height: 1.5;
+  }
+  h1, h2, h3 { font-family: var(--serifada); text-wrap: balance; margin: 0; }
+
+  .topo {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: baseline;
+    gap: 0.75rem 1.5rem;
+    padding: 1.25rem 1.5rem;
+    border-bottom: 1px solid var(--regua);
+    background: var(--painel);
+  }
+  .topo h1 { font-size: 1.35rem; }
+  .topo p { margin: 0; color: var(--fosco); font-size: 0.85rem; max-width: 46ch; }
+
+  .bancada {
+    display: grid;
+    grid-template-columns: minmax(0, 20rem) minmax(0, 1fr);
+    gap: 1.5rem;
+    padding: 1.5rem;
+    align-items: start;
+  }
+  @media (max-width: 60rem) { .bancada { grid-template-columns: minmax(0, 1fr); } }
+
+  .cartao {
+    background: var(--painel);
+    border: 1px solid var(--regua);
+    border-radius: 0.5rem;
+    padding: 1.1rem 1.25rem;
+  }
+  .cartao + .cartao { margin-top: 1.25rem; }
+  .cartao > h2 {
+    font-size: 1.05rem;
+    margin-bottom: 0.2rem;
+  }
+  .cartao > h2 + p {
+    margin: 0 0 1rem;
+    color: var(--fosco);
+    font-size: 0.82rem;
+  }
+
+  .rotulo-secao {
+    font-size: 0.68rem;
+    text-transform: uppercase;
+    letter-spacing: 0.09em;
+    color: var(--fosco);
+    margin: 1.1rem 0 0.5rem;
+    font-weight: 600;
+  }
+  .rotulo-secao:first-of-type { margin-top: 0; }
+
+  /* --- entrada de um token --- */
+  .campos { display: flex; flex-direction: column; gap: 0.4rem; }
+  .campo { display: grid; grid-template-columns: 2rem 1fr auto; align-items: center; gap: 0.6rem; }
+  .campo input[type=color] {
+    width: 2rem; height: 2rem; padding: 0; border: 1px solid var(--regua);
+    border-radius: 0.25rem; background: none; cursor: pointer;
+  }
+  .campo label { font-size: 0.82rem; min-width: 0; }
+  .campo label small { display: block; color: var(--fosco); font-size: 0.72rem; }
+  .campo input[type=text] {
+    width: 6.5rem; padding: 0.35rem 0.5rem; font-family: var(--dados);
+    font-size: 0.82rem; text-transform: lowercase;
+    border: 1px solid var(--regua); border-radius: 0.25rem;
+    background: var(--papel); color: var(--tinta);
+  }
+
+  select, button, textarea {
+    font-family: inherit; font-size: 0.85rem; color: var(--tinta);
+    background: var(--papel); border: 1px solid var(--regua);
+    border-radius: 0.3rem; padding: 0.4rem 0.6rem;
+  }
+  button { cursor: pointer; border-color: var(--marca); color: var(--marca); font-weight: 600; }
+  button:hover { background: var(--painel); }
+  :is(button, select, input, textarea, a):focus-visible {
+    outline: 2px solid var(--marca); outline-offset: 2px;
+  }
+
+  .linha-controles { display: flex; flex-wrap: wrap; gap: 0.5rem; align-items: center; }
+  .linha-controles label { font-size: 0.8rem; color: var(--fosco); }
+
+  /* --- veredicto --- */
+  .veredicto {
+    display: flex; flex-wrap: wrap; align-items: center; gap: 0.75rem 1.25rem;
+    padding: 0.9rem 1.1rem; border-radius: 0.4rem; margin-bottom: 1rem;
+    border: 1px solid var(--regua); background: var(--papel);
+  }
+  .veredicto.ok { border-left: 5px solid var(--bom); }
+  .veredicto.nao { border-left: 5px solid var(--ruim); }
+  .veredicto strong { font-size: 1.05rem; font-family: var(--serifada); }
+  .veredicto .pior { font-family: var(--dados); font-variant-numeric: tabular-nums; }
+
+  /* --- espécime: o tema sendo julgado, visto por dentro --- */
+  .especime {
+    border: 1px solid var(--regua); border-radius: 0.4rem; overflow: hidden;
+  }
+  .especime-corpo { padding: 1.5rem; font-family: var(--serifada); line-height: 1.65; }
+  .especime-corpo h3 { font-size: 1.2rem; margin-bottom: 0.6rem; }
+  .especime-corpo p { margin: 0 0 0.9rem; max-width: 62ch; }
+  .especime-corpo p:last-child { margin-bottom: 0; }
+  .especime-corpo .fosco { font-size: 0.9em; }
+  .especime-corpo .caixa {
+    margin-top: 1rem; padding: 0.7rem 0.9rem; border-radius: 0.35rem;
+    font-family: var(--interface); font-size: 0.85rem;
+  }
+
+  /* --- tabela --- */
+  .rolagem { overflow-x: auto; }
+  table { border-collapse: collapse; width: 100%; font-size: 0.83rem; }
+  th, td { text-align: left; padding: 0.45rem 0.6rem; border-bottom: 1px solid var(--regua); }
+  th {
+    font-size: 0.68rem; text-transform: uppercase; letter-spacing: 0.07em;
+    color: var(--fosco); font-weight: 600; white-space: nowrap;
+  }
+  td.n { font-family: var(--dados); font-variant-numeric: tabular-nums; text-align: right; white-space: nowrap; }
+  td.par { white-space: nowrap; }
+  tr.reprova td { background: color-mix(in srgb, var(--ruim) 9%, transparent); }
+  .selo {
+    display: inline-block; padding: 0.1rem 0.45rem; border-radius: 0.2rem;
+    font-size: 0.7rem; font-weight: 700; letter-spacing: 0.03em;
+    border: 1px solid currentColor;
+  }
+  .selo.ok { color: var(--bom); }
+  .selo.nao { color: var(--ruim); }
+  td.n.fraco { color: var(--ruim); font-weight: 700; }
+
+  .nota { color: var(--fosco); font-size: 0.78rem; margin: 0.8rem 0 0; }
+  textarea { width: 100%; min-height: 7rem; font-family: var(--dados); font-size: 0.78rem; }
+  @media (prefers-reduced-motion: reduce) { * { transition: none !important; } }
+</style>
+</head>
+<body>
+
+<header class="topo">
+  <h1>Laboratório de Cores</h1>
+  <p>Bancada de temas do Pedra Angular. Mede o que o projeto exige de verdade — os doze tokens, não só texto sobre fundo, e cada par também como ele chega a quem tem dicromacia.</p>
+</header>
+
+<div class="bancada">
+
+  <!-- ============ coluna da esquerda: os tokens ============ -->
+  <div>
+    <section class="cartao">
+      <h2>Tokens</h2>
+      <p>Comece de um tema existente e mexa, ou digite do zero.</p>
+
+      <div class="linha-controles" style="margin-bottom:1rem">
+        <label for="base">Partir de</label>
+        <select id="base"></select>
+      </div>
+
+      <div id="campos"></div>
+    </section>
+
+    <section class="cartao">
+      <h2>Levar para o app</h2>
+      <p>Bloco pronto para colar em <code>src/styles.css</code>.</p>
+      <div class="linha-controles" style="margin-bottom:0.6rem">
+        <label for="nome-tema">Nome</label>
+        <input type="text" id="nome-tema" value="novo-tema" style="width:9rem;padding:0.35rem 0.5rem;font-family:var(--dados);font-size:0.82rem;border:1px solid var(--regua);border-radius:0.25rem;background:var(--papel);color:var(--tinta)">
+        <button type="button" id="copiar">Copiar CSS</button>
+      </div>
+      <textarea id="saida" readonly aria-label="CSS gerado"></textarea>
+
+      <p class="rotulo-secao">Trazer do app</p>
+      <p class="nota" style="margin-top:0">Cole aqui um bloco <code>[data-theme=…]</code> do CSS para medir os valores que estão publicados agora — o retrato embutido nesta página envelhece, o arquivo não.</p>
+      <textarea id="entrada" placeholder="[data-theme='verde'] { --color-bg: #000000; … }" aria-label="CSS para importar"></textarea>
+      <div class="linha-controles" style="margin-top:0.5rem">
+        <button type="button" id="importar">Ler este CSS</button>
+        <span id="aviso-import" class="nota" style="margin:0"></span>
+      </div>
+    </section>
+  </div>
+
+  <!-- ============ coluna da direita: o veredicto ============ -->
+  <div>
+    <section class="cartao">
+      <h2>Veredicto</h2>
+      <p>Governa o pior caso entre visão normal e as três dicromacias. Um tema que só passa para quem enxerga tudo não passa.</p>
+      <div id="veredicto" class="veredicto"></div>
+
+      <div class="linha-controles" style="margin-bottom:0.75rem">
+        <label for="visao">Ver o espécime como</label>
+        <select id="visao">
+          <option value="">visão tricromática</option>
+          <option value="protanopia">protanopia (sem cone L)</option>
+          <option value="deuteranopia">deuteranopia (sem cone M)</option>
+          <option value="tritanopia">tritanopia (sem cone S)</option>
+        </select>
+      </div>
+
+      <div class="especime">
+        <div class="especime-corpo" id="especime">
+          <h3 id="e-titulo">Da natureza das coisas</h3>
+          <p id="e-p1">O texto corrido é o que o leitor encara por horas, e é por ele que um tema se justifica. Aqui uma <mark id="e-hl">ocorrência encontrada</mark> pela busca, e aqui a <mark id="e-hlcur">ocorrência atual</mark>, que precisa se distinguir das outras — não basta ser legível, precisa ser <em>outra</em> coisa.</p>
+          <p class="fosco" id="e-fosco">Linha secundária: nome do autor, data da edição, contagem de seções. Texto de apoio ainda é texto, e cai na mesma régua de 7:1.</p>
+          <p id="e-p2">Um <a href="#" id="e-link">endereço canônico</a> leva ao marcador exato. <span id="e-erro">Aviso de erro</span> aparece quando o arquivo não abre.</p>
+          <div class="caixa" id="e-caixa">Contorno de componente — a borda que diz onde um campo começa e outro termina.</div>
+        </div>
+      </div>
+      <p class="nota">O espécime desenha os doze tokens em uso. Trocar a visão acima simula cada cor pelo modelo de Viénot-Brettel-Mollon: não é tirar a cor da tela, é confundir duas cores em uma, que é o que a dicromacia faz.</p>
+    </section>
+
+    <section class="cartao">
+      <h2>Pares medidos</h2>
+      <p>Cada par com o piso que lhe cabe: texto na régua de 7:1 do projeto, contorno de componente no mínimo de 3:1 da WCAG.</p>
+      <div class="rolagem">
+        <table>
+          <thead>
+            <tr>
+              <th>Par</th><th>Normal</th><th>Protan</th><th>Deuter</th><th>Tritan</th><th>Piso</th><th>Veredicto</th>
+            </tr>
+          </thead>
+          <tbody id="tabela"></tbody>
+        </table>
+      </div>
+
+      <p class="rotulo-secao">Ainda são duas cores?</p>
+      <p class="nota" style="margin-top:0">Contraste de luminância não responde isto. Dois fundos de busca podem ter ótima razão contra o texto e mesmo assim colapsarem um no outro para quem tem dicromacia — foi exatamente o que aconteceu com o tema verde, onde o amarelo do achado encostava no branco sob tritanopia.</p>
+      <div class="rolagem">
+        <table>
+          <thead>
+            <tr><th>Par</th><th>Normal</th><th>Protan</th><th>Deuter</th><th>Tritan</th><th>Piso</th><th>Veredicto</th></tr>
+          </thead>
+          <tbody id="tabela-distancia"></tbody>
+        </table>
+      </div>
+      <p class="nota">Distância euclidiana em sRGB, de 0 a 441. Grosseira de propósito: serve só para responder “estas duas ainda são cores diferentes?”.</p>
+    </section>
+  </div>
+</div>
+
+<script>
+'use strict'
+
+/* =================================================================
+   MATEMÁTICA — espelho de scripts/medir_contraste.py.
+   Qualquer divergência aqui faz as duas ferramentas discordarem
+   sobre o mesmo tema, sem ninguém saber qual está certa.
+   ================================================================= */
+
+const ALVO_TEXTO = 7.0
+const MINIMO_AA = 4.5
+const MINIMO_NAO_TEXTO = 3.0
+const LIMIAR_DISTINCAO = 60.0
+
+function hexParaRgb (c) {
+  c = String(c).trim().replace(/^#/, '')
+  if (c.length === 3) c = c.split('').map(x => x + x).join('')
+  if (!/^[0-9a-f]{6}$/i.test(c)) return null
+  return [0, 2, 4].map(i => parseInt(c.slice(i, i + 2), 16) / 255)
+}
+
+/* sRGB -> linear. É aqui que mora a diferença entre "parece claro" e "é
+   claro": o olho responde de forma não-linear, e a fórmula do WCAG corrige. */
+function linearizar (v) {
+  return v <= 0.04045 ? v / 12.92 : Math.pow((v + 0.055) / 1.055, 2.4)
+}
+
+function luminancia (rgb) {
+  const [r, g, b] = rgb.map(linearizar)
+  return 0.2126 * r + 0.7152 * g + 0.0722 * b
+}
+
+function contraste (c1, c2) {
+  const a = hexParaRgb(c1); const b = hexParaRgb(c2)
+  if (!a || !b) return null
+  const l1 = luminancia(a); const l2 = luminancia(b)
+  return (Math.max(l1, l2) + 0.05) / (Math.min(l1, l2) + 0.05)
+}
+
+/* Viénot, Brettel & Mollon (1999), no espaço LMS de Hunt-Pointer-Estevez.
+   Dicromacia: um dos três cones ausente. O eixo perdido é projetado sobre o
+   plano que sobra — não é "tirar a cor", é confundir duas cores em uma. */
+const RGB_PARA_LMS = [
+  [0.31399022, 0.63951294, 0.04649755],
+  [0.15537241, 0.75789446, 0.08670142],
+  [0.01775239, 0.10944209, 0.87256922]
+]
+const LMS_PARA_RGB = [
+  [5.47221206, -4.6419601, 0.16963708],
+  [-1.1252419, 2.29317094, -0.1678952],
+  [0.02980165, -0.19318073, 1.16364789]
+]
+const MATRIZ_DICROMACIA = {
+  protanopia: [[0.0, 1.05118294, -0.05116099], [0.0, 1.0, 0.0], [0.0, 0.0, 1.0]],
+  deuteranopia: [[1.0, 0.0, 0.0], [0.9513092, 0.0, 0.04866992], [0.0, 0.0, 1.0]],
+  tritanopia: [[1.0, 0.0, 0.0], [0.0, 1.0, 0.0], [-0.86744736, 1.86727089, 0.0]]
+}
+const TIPOS = ['protanopia', 'deuteranopia', 'tritanopia']
+
+function mul (m, v) {
+  return [0, 1, 2].map(i => m[i][0] * v[0] + m[i][1] * v[1] + m[i][2] * v[2])
+}
+
+/** Devolve a cor como ela chega a quem tem aquela dicromacia. */
+function simular (cor, tipo) {
+  const rgb = hexParaRgb(cor)
+  if (!rgb || !tipo) return cor
+  let v = mul(RGB_PARA_LMS, rgb.map(linearizar))
+  v = mul(MATRIZ_DICROMACIA[tipo], v)
+  v = mul(LMS_PARA_RGB, v)
+  const fora = v.map(x => {
+    x = Math.min(1, Math.max(0, x))
+    x = x <= 0.0031308 ? 12.92 * x : 1.055 * Math.pow(x, 1 / 2.4) - 0.055
+    return Math.round(Math.min(1, Math.max(0, x)) * 255)
+  })
+  return '#' + fora.map(n => n.toString(16).padStart(2, '0')).join('')
+}
+
+/** Distância euclidiana em sRGB (0–441). */
+function distanciaPercebida (c1, c2, tipo) {
+  const a = hexParaRgb(tipo ? simular(c1, tipo) : c1)
+  const b = hexParaRgb(tipo ? simular(c2, tipo) : c2)
+  if (!a || !b) return null
+  return Math.sqrt(a.reduce((s, x, i) => s + Math.pow(x - b[i], 2), 0)) * 255
+}
+
+/* =================================================================
+   OS TOKENS E OS PARES — mesma lista do medir_contraste.py
+   ================================================================= */
+
+const TOKENS = [
+  { grupo: 'Leitura' },
+  { id: 'color-bg', nome: 'Fundo', ajuda: 'a página' },
+  { id: 'color-text', nome: 'Texto', ajuda: 'o texto corrido' },
+  { id: 'color-muted', nome: 'Texto secundário', ajuda: 'autor, data, contagem' },
+  { id: 'color-surface', nome: 'Superfície', ajuda: 'diálogo, barra, cartão' },
+  { grupo: 'Interface' },
+  { id: 'color-accent', nome: 'Destaque', ajuda: 'link e marca' },
+  { id: 'color-error', nome: 'Erro', ajuda: 'aviso de falha' },
+  { id: 'color-borda-ui', nome: 'Contorno de componente', ajuda: 'borda de campo e botão' },
+  { id: 'color-border', nome: 'Separador decorativo', ajuda: 'sem piso — só relatado' },
+  { grupo: 'Busca' },
+  { id: 'hl-bg', nome: 'Achado — fundo', ajuda: '' },
+  { id: 'hl-fg', nome: 'Achado — texto', ajuda: '' },
+  { id: 'hl-cur-bg', nome: 'Ocorrência atual — fundo', ajuda: '' },
+  { id: 'hl-cur-fg', nome: 'Ocorrência atual — texto', ajuda: '' }
+]
+
+const PARES = [
+  ['texto no fundo', 'color-text', 'color-bg', ALVO_TEXTO],
+  ['texto secundário', 'color-muted', 'color-bg', ALVO_TEXTO],
+  ['texto na superfície', 'color-text', 'color-surface', ALVO_TEXTO],
+  ['link / destaque', 'color-accent', 'color-bg', MINIMO_AA],
+  ['erro', 'color-error', 'color-bg', MINIMO_AA],
+  ['busca: achado', 'hl-fg', 'hl-bg', ALVO_TEXTO],
+  ['busca: ocorrência atual', 'hl-cur-fg', 'hl-cur-bg', ALVO_TEXTO],
+  ['contorno de componente', 'color-borda-ui', 'color-bg', MINIMO_NAO_TEXTO],
+  ['separador decorativo', 'color-border', 'color-bg', null]
+]
+
+/* Pares que precisam ser DISTINGUÍVEIS entre si, não apenas legíveis. */
+const PARES_DISTINCAO = [
+  ['fundo do achado × da ocorrência atual', 'hl-bg', 'hl-cur-bg'],
+  ['achado × fundo da página', 'hl-bg', 'color-bg'],
+  ['ocorrência atual × fundo da página', 'hl-cur-bg', 'color-bg']
+]
+
+/* Retrato dos temas publicados, tirado de src/styles.css.
+   É conveniência, NÃO é a autoridade: quando o CSS mudar, este retrato
+   fica velho em silêncio. Para medir o que está no ar, use a caixa
+   "Trazer do app" e cole o bloco de verdade. */
+const RETRATO = {"sepia":{"color-bg":"#faf7f2","color-text":"#2b2620","color-muted":"#585049","color-surface":"#ffffff","color-accent":"#6b3e15","color-error":"#8b2500","color-borda-ui":"#8a8377","color-border":"#e0d8cc","hl-fg":"#2b2620","hl-bg":"#f5d76e","hl-cur-fg":"#ffffff","hl-cur-bg":"#8a4408"},"claro":{"color-bg":"#ffffff","color-text":"#000000","color-muted":"#2e2e2e","color-surface":"#ffffff","color-accent":"#0000b4","color-error":"#b40000","color-borda-ui":"#5a5a5a","color-border":"#5a5a5a","hl-fg":"#000000","hl-bg":"#ffe600","hl-cur-fg":"#ffffff","hl-cur-bg":"#0000b4"},"escuro":{"color-bg":"#000000","color-text":"#ffffff","color-muted":"#d6d6d6","color-surface":"#0d0d0d","color-accent":"#8ecbff","color-error":"#ffffff","color-borda-ui":"#8a8a8a","color-border":"#8a8a8a","hl-fg":"#000000","hl-bg":"#ffe600","hl-cur-fg":"#000000","hl-cur-bg":"#ff8c00"},"amarelo":{"color-bg":"#000000","color-text":"#ffe600","color-muted":"#e6d24a","color-surface":"#0d0c00","color-accent":"#ffffff","color-error":"#ffffff","color-borda-ui":"#a89b00","color-border":"#a89b00","hl-fg":"#000000","hl-bg":"#ffffff","hl-cur-fg":"#000000","hl-cur-bg":"#ff8c00"},"verde":{"color-bg":"#000000","color-text":"#33ff33","color-muted":"#4ada4a","color-surface":"#001200","color-accent":"#ffffff","color-error":"#ffffff","color-borda-ui":"#1f9e1f","color-border":"#1f9e1f","hl-fg":"#000000","hl-bg":"#ffffff","hl-cur-fg":"#000000","hl-cur-bg":"#ff8c00"},"azul-noite":{"color-bg":"#0a1128","color-text":"#f2e8d5","color-muted":"#cfc4ae","color-surface":"#0d1633","color-accent":"#ffd75e","color-error":"#ffb4a2","color-borda-ui":"#7789b8","color-border":"#3a4a7a","hl-fg":"#0a1128","hl-bg":"#ffd75e","hl-cur-fg":"#000000","hl-cur-bg":"#ff8c00"},"azul-petroleo":{"color-bg":"#062a30","color-text":"#e8f4f1","color-muted":"#c0dcd6","color-surface":"#08343c","color-accent":"#7fe0d0","color-error":"#ffb4a2","color-borda-ui":"#66aab4","color-border":"#2a6b74","hl-fg":"#062a30","hl-bg":"#ffe600","hl-cur-fg":"#000000","hl-cur-bg":"#ff8c00"},"pergaminho":{"color-bg":"#ccbc9d","color-text":"#241a08","color-muted":"#392b13","color-surface":"#d5c7aa","color-accent":"#4a2a0c","color-error":"#7a1f00","color-borda-ui":"#63542f","color-border":"#a08d66","hl-fg":"#241a08","hl-bg":"#f5e08a","hl-cur-fg":"#f5ecd8","hl-cur-bg":"#4a2a0c"},"amarelo-azul":{"color-bg":"#001862","color-text":"#ffe600","color-muted":"#f0dc6e","color-surface":"#001048","color-accent":"#ffffff","color-error":"#ffffff","color-borda-ui":"#8c9ad6","color-border":"#5a6cb4","hl-fg":"#001862","hl-bg":"#ffffff","hl-cur-fg":"#000000","hl-cur-bg":"#ff8c00"}}
+
+/* Propostas externas entram como qualquer outra: só o que o retrato
+   não define é herdado do sépia, para nada medir contra `undefined`. */
+const PROPOSTAS = {
+  'proposta: Grafite & Osso': { 'color-bg': '#1a1a1c', 'color-text': '#f0ead6' },
+  'proposta: Café Torrado': { 'color-bg': '#1a1108', 'color-text': '#e8dcc4' },
+  'proposta: Berinjela': { 'color-bg': '#160a1a', 'color-text': '#e6e0e8' },
+  'proposta: Musgo & Areia': { 'color-bg': '#111a13', 'color-text': '#e3dac9' }
+}
+
+/* =================================================================
+   BANCADA
+   ================================================================= */
+
+const atual = {}
+const $ = s => document.querySelector(s)
+
+function montarCampos () {
+  const alvo = $('#campos')
+  alvo.innerHTML = ''
+  let caixa = null
+  for (const t of TOKENS) {
+    if (t.grupo) {
+      const h = document.createElement('p')
+      h.className = 'rotulo-secao'
+      h.textContent = t.grupo
+      alvo.appendChild(h)
+      caixa = document.createElement('div')
+      caixa.className = 'campos'
+      alvo.appendChild(caixa)
+      continue
+    }
+    const linha = document.createElement('div')
+    linha.className = 'campo'
+    linha.innerHTML =
+      '<input type="color" id="c-' + t.id + '" aria-label="' + t.nome + ', seletor">' +
+      '<label for="t-' + t.id + '">' + t.nome +
+        (t.ajuda ? '<small>' + t.ajuda + '</small>' : '') + '</label>' +
+      '<input type="text" id="t-' + t.id + '" spellcheck="false" aria-label="' + t.nome + ', hexadecimal">'
+    caixa.appendChild(linha)
+
+    const cor = linha.querySelector('input[type=color]')
+    const txt = linha.querySelector('input[type=text]')
+    cor.addEventListener('input', () => { txt.value = cor.value; atual[t.id] = cor.value; recalcular() })
+    txt.addEventListener('input', () => {
+      const v = txt.value.trim()
+      if (hexParaRgb(v)) { const h = normalizar(v); cor.value = h; atual[t.id] = h; recalcular() }
+    })
+  }
+}
+
+function normalizar (v) {
+  v = v.trim().replace(/^#/, '')
+  if (v.length === 3) v = v.split('').map(x => x + x).join('')
+  return '#' + v.toLowerCase()
+}
+
+function aplicarTema (vals) {
+  for (const t of TOKENS) {
+    if (t.grupo) continue
+    const v = vals[t.id]
+    if (!v) continue
+    atual[t.id] = normalizar(v)
+    $('#c-' + t.id).value = atual[t.id]
+    $('#t-' + t.id).value = atual[t.id]
+  }
+  recalcular()
+}
+
+function montarSeletorDeBase () {
+  const sel = $('#base')
+  const grupos = [['Temas publicados', RETRATO], ['Propostas', PROPOSTAS]]
+  for (const [rotulo, conjunto] of grupos) {
+    const og = document.createElement('optgroup')
+    og.label = rotulo
+    for (const nome of Object.keys(conjunto)) {
+      const o = document.createElement('option')
+      o.value = nome; o.textContent = nome
+      og.appendChild(o)
+    }
+    sel.appendChild(og)
+  }
+  sel.addEventListener('change', () => {
+    const n = sel.value
+    // proposta define só fundo e texto: o resto vem do sépia para nada
+    // ficar indefinido e a tabela medir contra o vazio
+    const base = RETRATO[n] || Object.assign({}, RETRATO.sepia, PROPOSTAS[n])
+    aplicarTema(base)
+    $('#nome-tema').value = n.replace(/^proposta:\s*/, '').toLowerCase()
+      .normalize('NFD').replace(/[\u0300-\u036f]/g, '').replace(/[^a-z0-9]+/g, '-').replace(/^-|-$/g, '')
+  })
+}
+
+function celulaRazao (v, piso) {
+  if (v === null) return '<td class="n">—</td>'
+  const fraco = piso !== null && v < piso
+  return '<td class="n' + (fraco ? ' fraco' : '') + '">' + v.toFixed(2) + '</td>'
+}
+
+function recalcular () {
+  let piorGlobal = Infinity
+  let reprovas = 0
+  const linhas = []
+
+  for (const [rotulo, a, b, piso] of PARES) {
+    const ca = atual[a]; const cb = atual[b]
+    if (!ca || !cb) continue
+    const normal = contraste(ca, cb)
+    const sims = TIPOS.map(t => contraste(simular(ca, t), simular(cb, t)))
+    const pior = Math.min(normal, ...sims)
+    const passa = piso === null ? null : pior >= piso
+    if (passa === false) reprovas++
+    if (piso !== null && pior < piorGlobal) piorGlobal = pior
+
+    linhas.push(
+      '<tr' + (passa === false ? ' class="reprova"' : '') + '>' +
+      '<td class="par">' + rotulo + '</td>' +
+      celulaRazao(normal, piso) + sims.map(v => celulaRazao(v, piso)).join('') +
+      '<td class="n">' + (piso === null ? '—' : piso.toFixed(1) + ':1') + '</td>' +
+      '<td>' + (passa === null
+        ? '<span class="selo">informativo</span>'
+        : '<span class="selo ' + (passa ? 'ok' : 'nao') + '">' + (passa ? 'passa' : 'reprova') + '</span>') +
+      '</td></tr>'
+    )
+  }
+  $('#tabela').innerHTML = linhas.join('')
+
+  // --- distinção ---
+  const dist = []
+  let reprovasDist = 0
+  for (const [rotulo, a, b] of PARES_DISTINCAO) {
+    const ca = atual[a]; const cb = atual[b]
+    if (!ca || !cb) continue
+    const normal = distanciaPercebida(ca, cb, null)
+    const sims = TIPOS.map(t => distanciaPercebida(ca, cb, t))
+    const pior = Math.min(normal, ...sims)
+    const passa = pior >= LIMIAR_DISTINCAO
+    if (!passa) reprovasDist++
+    const cel = v => '<td class="n' + (v < LIMIAR_DISTINCAO ? ' fraco' : '') + '">' + v.toFixed(0) + '</td>'
+    dist.push(
+      '<tr' + (passa ? '' : ' class="reprova"') + '>' +
+      '<td class="par">' + rotulo + '</td>' +
+      cel(normal) + sims.map(cel).join('') +
+      '<td class="n">' + LIMIAR_DISTINCAO.toFixed(0) + '</td>' +
+      '<td><span class="selo ' + (passa ? 'ok' : 'nao') + '">' + (passa ? 'passa' : 'reprova') + '</span></td>' +
+      '</tr>'
+    )
+  }
+  $('#tabela-distancia').innerHTML = dist.join('')
+
+  // --- veredicto ---
+  const total = reprovas + reprovasDist
+  const v = $('#veredicto')
+  v.className = 'veredicto ' + (total ? 'nao' : 'ok')
+  v.innerHTML = total
+    ? '<strong>' + total + (total === 1 ? ' par reprova' : ' pares reprovam') + '</strong>' +
+      '<span class="pior">pior razão de texto: ' + (isFinite(piorGlobal) ? piorGlobal.toFixed(2) + ':1' : '—') + '</span>'
+    : '<strong>Passa em tudo</strong>' +
+      '<span class="pior">pior razão medida: ' + (isFinite(piorGlobal) ? piorGlobal.toFixed(2) + ':1' : '—') + '</span>' +
+      '<span class="pior" style="color:var(--fosco)">régua do projeto: 7:1</span>'
+
+  desenharEspecime()
+  gerarCss()
+}
+
+/** O espécime desenhado com os tokens — e, se pedido, como a dicromacia o entrega. */
+function desenharEspecime () {
+  const tipo = $('#visao').value || null
+  const c = id => simular(atual[id] || '#000000', tipo)
+  const corpo = $('#especime')
+  corpo.style.background = c('color-bg')
+  corpo.style.color = c('color-text')
+  $('#e-titulo').style.color = c('color-text')
+  $('#e-fosco').style.color = c('color-muted')
+  const hl = $('#e-hl')
+  hl.style.background = c('hl-bg'); hl.style.color = c('hl-fg')
+  const hlc = $('#e-hlcur')
+  hlc.style.background = c('hl-cur-bg'); hlc.style.color = c('hl-cur-fg')
+  const link = $('#e-link')
+  link.style.color = c('color-accent')
+  $('#e-erro').style.color = c('color-error')
+  const caixa = $('#e-caixa')
+  caixa.style.background = c('color-surface')
+  caixa.style.color = c('color-text')
+  caixa.style.border = '1px solid ' + c('color-borda-ui')
+}
+
+function gerarCss () {
+  const nome = ($('#nome-tema').value || 'novo-tema').trim()
+  const linhas = TOKENS.filter(t => !t.grupo && atual[t.id])
+    .map(t => '  --' + t.id + ': ' + atual[t.id] + ';')
+  $('#saida').value = "[data-theme='" + nome + "'] {\n" + linhas.join('\n') + '\n}'
+}
+
+/* --- trazer do app: lê as variáveis de um bloco CSS colado --- */
+function importarCss () {
+  const texto = $('#entrada').value
+  const achadas = {}
+  for (const m of texto.matchAll(/--([a-z0-9-]+)\s*:\s*(#[0-9a-fA-F]{3,8})\s*;/g)) achadas[m[1]] = m[2]
+  const conhecidas = TOKENS.filter(t => !t.grupo).map(t => t.id)
+  const usadas = Object.keys(achadas).filter(k => conhecidas.includes(k))
+  const aviso = $('#aviso-import')
+  if (!usadas.length) {
+    aviso.textContent = 'Nenhuma variável conhecida encontrada.'
+    aviso.style.color = 'var(--ruim)'
+    return
+  }
+  aplicarTema(achadas)
+  const faltando = conhecidas.filter(k => !achadas[k])
+  aviso.style.color = 'var(--fosco)'
+  aviso.textContent = usadas.length + ' de ' + conhecidas.length + ' lidas' +
+    (faltando.length ? ' — mantidas as anteriores em: ' + faltando.join(', ') : '')
+  const nome = texto.match(/\[data-theme=['"]?([a-z0-9-]+)/i)
+  if (nome) $('#nome-tema').value = nome[1]
+}
+
+montarCampos()
+montarSeletorDeBase()
+aplicarTema(RETRATO.sepia)
+$('#visao').addEventListener('change', desenharEspecime)
+$('#nome-tema').addEventListener('input', gerarCss)
+$('#importar').addEventListener('click', importarCss)
+$('#copiar').addEventListener('click', () => {
+  const b = $('#copiar')
+  navigator.clipboard.writeText($('#saida').value).then(
+    () => { b.textContent = 'Copiado'; setTimeout(() => { b.textContent = 'Copiar CSS' }, 1600) },
+    () => { $('#saida').select() }
+  )
+})
+</script>
+</body>
+</html>

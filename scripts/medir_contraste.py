@@ -162,6 +162,11 @@ PARES_INFORMATIVOS = [("separador decorativo", "color-border", "color-bg")]
 # "onde estou" — e é exatamente o que o daltonismo faz com amarelo/laranja.
 PARES_DISTINCAO = [
     ("fundo do achado x da ocorrência atual", "hl-bg", "hl-cur-bg"),
+    # O destaque também precisa se separar do FUNDO DA PÁGINA. Se ele encosta,
+    # o leitor não vê que achou nada — e é o que o amarelo faz sob tritanopia,
+    # onde ele vira quase o branco do papel.
+    ("fundo do achado x fundo da página", "hl-bg", "color-bg"),
+    ("fundo da ocorrência atual x fundo da página", "hl-cur-bg", "color-bg"),
 ]
 
 LIMIAR_DISTINCAO = 60.0  # distância sRGB mínima para "ainda são duas cores"
@@ -175,14 +180,24 @@ def medir(temas: dict[str, dict[str, str]]) -> list[dict]:
             if a not in v or b not in v:
                 continue
             r = contraste(v[a], v[b])
+            # QUEM GOVERNA É O PIOR CASO, não a visão tricromática. Medir só
+            # o normal deixa passar par que desaba para quem tem dicromacia:
+            # o branco sobre #8a4408 do sépia dá 7.21:1 no olho comum e
+            # 6.43:1 sob deuteranopia — reprovado na régua do projeto, e o
+            # script dizia OK.
+            sob = {t: contraste(simular(v[a], t), simular(v[b], t))
+                   for t in MATRIZ_DICROMACIA}
+            pior = min([r] + list(sob.values()))
             linhas.append(
                 {
                     "par": rotulo,
                     "fg": v[a],
                     "bg": v[b],
                     "razao": r,
+                    "sob": sob,
+                    "pior": pior,
                     "piso": piso,
-                    "passa": r >= piso,
+                    "passa": pior >= piso,
                 }
             )
         informativos = []
@@ -198,7 +213,7 @@ def medir(temas: dict[str, dict[str, str]]) -> list[dict]:
             d = {"par": rotulo, "c1": v[a], "c2": v[b], "normal": distancia_percebida(v[a], v[b])}
             for tipo in MATRIZ_DICROMACIA:
                 d[tipo] = distancia_percebida(v[a], v[b], tipo)
-            d["pior"] = min(d[t] for t in MATRIZ_DICROMACIA)
+            d["pior"] = min([d["normal"]] + [d[t] for t in MATRIZ_DICROMACIA])
             d["passa"] = d["pior"] >= LIMIAR_DISTINCAO
             distincoes.append(d)
         # contraste sob daltonismo: a razão de luminância muda pouco, mas
@@ -226,9 +241,17 @@ def imprimir(resultados: list[dict]) -> None:
         print(f"\n{marca}{t['tema']}")
         for l in t["linhas"]:
             sinal = "  " if l["passa"] else "<-"
+            # Quando o pior caso NÃO é a visão normal, mostrar só o normal
+            # faria a linha exibir um número que passa ao lado da marca de
+            # reprovação. Nomeia-se então quem mandou.
+            culpado = min(l["sob"], key=lambda k: l["sob"][k])
+            extra = (
+                f"  pior {l['pior']:.2f} sob {culpado}"
+                if l["pior"] < l["razao"] - 0.005 else ""
+            )
             print(
                 f"     {l['par']:26} {l['fg']} sobre {l['bg']}  "
-                f"{l['razao']:6.2f}:1  (piso {l['piso']}) {sinal}"
+                f"{l['razao']:6.2f}:1  (piso {l['piso']}) {sinal}{extra}"
             )
         for l in t["informativos"]:
             print(
