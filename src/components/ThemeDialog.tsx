@@ -115,15 +115,40 @@ export const FONTS = [
  *
  * `medio` é o padrão porque é o que devolve o peso que o app tinha antes.
  */
+/**
+ * Peso do traço em PIXELS FÍSICOS do aparelho, não em `em`.
+ *
+ * Era `0.019em`, que num corpo de 18px dá 0,342px. Parece inofensivo, mas num
+ * iPhone — três pixels físicos por ponto — isso vira 1,03 pixel físico. Logo
+ * ACIMA de 1, que é o pior valor possível: dependendo de onde a linha cai na
+ * grade de pixels, o mesmo traço arredonda ora para 1 pixel, ora para 2. O
+ * texto sai em faixas, umas linhas mais grossas que as outras, sem ordem
+ * aparente — e reembaralhando a cada mudança de corpo da letra, porque muda a
+ * entrelinha e com ela a posição de cada linha na grade.
+ *
+ * Em `em` o problema ainda piorava com o zoom: a 60px o traço ia a 1,14px, que
+ * em pixels físicos é 3,4 — fracionário de novo, e mais visível.
+ *
+ * Agora o número é inteiro em pixels do aparelho por construção: 0, 1 ou 2. O
+ * mesmo traço em toda linha, em todo corpo de letra, em qualquer tela. O peso
+ * deixa de crescer junto com a letra, o que é o certo: contorno é acabamento
+ * do desenho da letra, não parte do tamanho dela.
+ */
 export const PESOS = [
-  { id: 'fino', label: 'Fina', stroke: '0' },
-  { id: 'medio', label: 'Média', stroke: '0.019em' },
-  { id: 'grosso', label: 'Grossa', stroke: '0.038em' },
+  { id: 'fino', label: 'Fina', pixels: 0 },
+  { id: 'medio', label: 'Média', pixels: 1 },
+  { id: 'grosso', label: 'Grossa', pixels: 2 },
 ] as const
 
 export type PesoId = (typeof PESOS)[number]['id']
 
 const PESO_STORAGE_KEY = 'app-peso-traco'
+
+/** Traduz "quantos pixels do aparelho" para o valor em CSS daquela tela. */
+function aplicarPeso(pixels: number): void {
+  const dpr = window.devicePixelRatio || 1
+  document.documentElement.style.setProperty('--reading-stroke', `${pixels / dpr}px`)
+}
 
 export function usePesoTraco() {
   const [peso, setPeso] = useState<PesoId>(() => {
@@ -134,7 +159,15 @@ export function usePesoTraco() {
   useEffect(() => {
     localStorage.setItem(PESO_STORAGE_KEY, peso)
     const def = PESOS.find((p) => p.id === peso) ?? PESOS[1]
-    document.documentElement.style.setProperty('--reading-stroke', def.stroke)
+    aplicarPeso(def.pixels)
+  }, [peso])
+
+  // Trocar de monitor ou mudar o zoom do navegador muda quantos pixels
+  // físicos cabem num ponto — o traço precisa ser recalculado.
+  useEffect(() => {
+    const refazer = () => aplicarPeso((PESOS.find((p) => p.id === peso) ?? PESOS[1]).pixels)
+    window.addEventListener('resize', refazer)
+    return () => window.removeEventListener('resize', refazer)
   }, [peso])
 
   return { peso, setPeso }
@@ -232,7 +265,11 @@ export function ThemeDialog({
           >
             <span
               className="theme-option-sample"
-              style={{ WebkitTextStroke: `${p.stroke} currentColor`, paintOrder: 'stroke fill' }}
+              style={{
+                // Mesma conta do texto: pixels do aparelho, não `em`.
+                WebkitTextStroke: `${p.pixels / (window.devicePixelRatio || 1)}px currentColor`,
+                paintOrder: 'stroke fill',
+              }}
               aria-hidden="true"
             >
               Aa

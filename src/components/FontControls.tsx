@@ -68,11 +68,32 @@ const ENTRELINHA = 1.7
  * de verbete, célula de tabela — herdaria a entrelinha do texto normal em vez
  * da sua própria. Os blocos de prosa têm o mesmo corpo do `.reader-body`, então
  * para eles o valor em pixels é exato.
+ *
+ * O CORPO DA LETRA TAMBÉM ENTRA NA GRADE, e por isso a faixa sobreviveu à
+ * primeira correção. Encaixar a entrelinha alinha as linhas DENTRO de um
+ * parágrafo, mas cada parágrafo ainda COMEÇAVA num ponto diferente da grade:
+ * medido, seis a oito posições distintas entre os parágrafos de uma tela. O
+ * bloco inteiro saía mais grosso ou mais fino que o vizinho — a faixa que
+ * restou.
+ *
+ * A causa é a margem. O `<p>` usa a margem padrão do navegador, `1em`, que é o
+ * próprio corpo da letra; e o A+ multiplica o corpo por 1,125, então 18px vira
+ * 20,25px e depois 22,78px. Corpo fracionário, margem fracionária, cada
+ * parágrafo empurrado para uma fase diferente.
+ *
+ * Encaixando o CORPO num número inteiro de pixels do aparelho, a margem `1em`
+ * vira inteira de graça, e com ela todo o ritmo vertical. O valor guardado
+ * continua sendo o fracionário — senão o A+ emperraria, arredondando sempre
+ * para o mesmo número —; só o que vai para a tela é encaixado.
  */
-function encaixarEntrelinhaNaGrade(px: number): void {
+function encaixarNaGradeDePixels(px: number): void {
   const dpr = window.devicePixelRatio || 1
-  const encaixada = Math.round(px * ENTRELINHA * dpr) / dpr
-  document.documentElement.style.setProperty('--reading-entrelinha-px', `${encaixada}px`)
+  const naGrade = (v: number) => Math.round(v * dpr) / dpr
+  document.documentElement.style.setProperty('--reading-font-size', `${naGrade(px)}px`)
+  document.documentElement.style.setProperty(
+    '--reading-entrelinha-px',
+    `${naGrade(px * ENTRELINHA)}px`,
+  )
 }
 
 export function useFontSize() {
@@ -84,14 +105,13 @@ export function useFontSize() {
   useEffect(() => {
     localStorage.setItem(STORAGE_KEY, String(px))
     // Global: sumário, biblioteca, diálogos e caixas acompanham o zoom
-    document.documentElement.style.setProperty('--reading-font-size', `${px}px`)
-    encaixarEntrelinhaNaGrade(px)
+    encaixarNaGradeDePixels(px)
   }, [px])
 
   // A grade de pixels muda quando a janela vai para um monitor de outra
   // densidade, ou quando o navegador troca de zoom.
   useEffect(() => {
-    const refazer = () => encaixarEntrelinhaNaGrade(px)
+    const refazer = () => encaixarNaGradeDePixels(px)
     window.addEventListener('resize', refazer)
     return () => window.removeEventListener('resize', refazer)
   }, [px])
