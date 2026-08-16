@@ -34,6 +34,47 @@ function withReadingAnchor(update: () => void) {
   window.scrollBy({ top: after - before })
 }
 
+/** Entrelinha desejada, em múltiplos do corpo da letra (era o valor do CSS). */
+const ENTRELINHA = 1.7
+
+/**
+ * Encaixa a entrelinha na grade de pixels do aparelho.
+ *
+ * O PROBLEMA. `line-height: 1.7` num corpo de 18px dá 30,6px — fracionário. A
+ * primeira linha do parágrafo cai numa posição da grade, a segunda 0,6px
+ * adiante, a terceira 0,2px, e assim por diante, num ciclo que só fecha a cada
+ * cinco linhas. Cada linha, portanto, é desenhada num ponto DIFERENTE da grade
+ * de pixels.
+ *
+ * Enquanto o texto é só preenchimento isso não aparece. Mas o contorno do peso
+ * "média" tem 0,342px — menos de um pixel. Um traço de meio pixel desenhado em
+ * posições diferentes da grade cobre quantidades diferentes de pixel: algumas
+ * linhas saem mais grossas, outras mais finas, em faixas que parecem aleatórias
+ * e SE REEMBARALHAM a cada mudança de corpo da letra, porque a entrelinha muda
+ * junto e o ciclo vira outro.
+ *
+ * Aparecia mais no iPhone: três pixels físicos por ponto e traço mais nítido.
+ * E mais nos textos do próprio leitor do que no acervo, porque nota colada de
+ * conversa é prosa corrida — muitas linhas seguidas, que é onde a faixa se vê.
+ *
+ * A CORREÇÃO. Arredondar a entrelinha para um número inteiro de pixels DO
+ * APARELHO. Aí todas as linhas caem na mesma posição da grade, o contorno é
+ * desenhado igual em todas, e a faixa desaparece. O preço é a entrelinha mudar
+ * no máximo meio pixel do pedido — invisível.
+ *
+ * VAI NUMA VARIÁVEL SEPARADA, e o CSS a usa só nos blocos de prosa. Entrelinha
+ * em `px` herda como valor FIXO: se substituísse o multiplicador `1.7` em
+ * `.reader-body`, todo descendente de corpo diferente — nota de rodapé, título
+ * de verbete, célula de tabela — herdaria a entrelinha do texto normal em vez
+ * da sua própria. Os blocos de prosa têm o mesmo corpo do `.reader-body`, então
+ * para eles o valor em pixels é exato.
+ */
+function encaixarEntrelinhaNaGrade(px: number): void {
+  const dpr = window.devicePixelRatio || 1
+  const encaixada = Math.round(px * ENTRELINHA * dpr) / dpr
+  document.documentElement.style.setProperty('--reading-entrelinha-px', `${encaixada}px`)
+}
+
 export function useFontSize() {
   const [px, setPx] = useState<number>(() => {
     const saved = Number(localStorage.getItem(STORAGE_KEY))
@@ -44,6 +85,15 @@ export function useFontSize() {
     localStorage.setItem(STORAGE_KEY, String(px))
     // Global: sumário, biblioteca, diálogos e caixas acompanham o zoom
     document.documentElement.style.setProperty('--reading-font-size', `${px}px`)
+    encaixarEntrelinhaNaGrade(px)
+  }, [px])
+
+  // A grade de pixels muda quando a janela vai para um monitor de outra
+  // densidade, ou quando o navegador troca de zoom.
+  useEffect(() => {
+    const refazer = () => encaixarEntrelinhaNaGrade(px)
+    window.addEventListener('resize', refazer)
+    return () => window.removeEventListener('resize', refazer)
   }, [px])
 
   return {

@@ -1112,6 +1112,13 @@ button {
 .reader-body blockquote,
 .reader-body dd {
   white-space: pre-line;
+  /* Entrelinha encaixada na grade de pixels do aparelho — ver a nota longa em
+     FontControls.tsx. Sem isso, cada linha cai numa posição diferente da grade
+     e o contorno de meio pixel do peso "média" desenha faixas mais grossas e
+     mais finas, que se reembaralham a cada mudança de corpo da letra.
+     O fallback é o multiplicador de sempre, para o primeiro quadro antes de o
+     JavaScript medir a tela — e para quem abrir sem JavaScript. */
+  line-height: var(--reading-entrelinha-px, var(--reading-line-height));
 }
 
 .reader-loading,
