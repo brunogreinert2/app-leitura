@@ -1779,13 +1779,72 @@ button {
   font-size: 1.2em;
 }
 
+/* O fechar de baixo era só texto na cor de destaque: lia como legenda, não
+   como botão.
+
+   A caixa é carregada pela BORDA, não pelo preenchimento: medindo os nove
+   temas, --color-bg e --color-surface ficam em ~1.0:1 entre si, então um
+   fundo diferente não apareceria. A borda usa --color-accent porque
+   --color-borda-ui cai a 3.75:1 justamente no sépia, que é o tema padrão;
+   accent fica em 7.73:1 no pior caso (pergaminho) e passa a régua de 7:1 do
+   projeto até para contorno de controle, onde a WCAG só exigiria 3:1. */
 .copy-dialog-cancel {
   display: block;
   width: 100%;
   padding: 0.75rem;
   min-height: 2.75rem;
-  color: var(--color-accent);
+  color: var(--color-text);
+  background: var(--color-bg);
+  border: 1px solid var(--color-accent);
+  border-radius: 0.5rem;
+  font-weight: bold;
   text-align: center;
+}
+
+/* Cabeçalho preso no topo do diálogo.
+
+   No computador se fecha clicando fora, mas no celular não sobra margem
+   lateral para isso: o gesto simplesmente não existe lá, e o único fechar
+   ficava depois de rolar a lista inteira. Sendo `sticky` dentro do próprio
+   diálogo (que é quem rola), ele fica à mão o tempo todo, não só antes de
+   rolar.
+
+   As margens negativas anulam o padding do diálogo para a faixa encostar nas
+   bordas — senão o conteúdo aparece por baixo pelos lados ao rolar. */
+.dialog-topo {
+  position: sticky;
+  top: 0;
+  z-index: 1;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 0.75rem;
+  margin: -1.25rem -1.25rem 0.75rem;
+  padding: 1.25rem 1.25rem 0.6rem;
+  background: var(--color-surface);
+  border-bottom: 1px solid var(--color-borda-ui);
+}
+
+.dialog-topo h2 {
+  margin: 0;
+}
+
+/* Χ é QUI, não xis: a mesma família de Φ (biblioteca) e Ξ (sumário). O
+   desenho é o do fechar que todo mundo conhece, a letra é grega — que é
+   exatamente a piada. 2.75rem = 44px, o alvo de toque mínimo. */
+.dialog-fechar {
+  flex-shrink: 0;
+  width: 2.75rem;
+  height: 2.75rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 1.15em;
+  line-height: 1;
+  color: var(--color-text);
+  background: var(--color-bg);
+  border: 1px solid var(--color-accent);
+  border-radius: 0.5rem;
 }
 
 .toast {

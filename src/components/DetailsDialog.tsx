@@ -103,7 +103,12 @@ export function DetailsDialog({ open, onClose, entry, parsed, catalog }: Props) 
       <>
         <div className="sidebar-backdrop" onClick={onClose} aria-hidden="true" />
         <div className="copy-dialog details-dialog" role="dialog" aria-label={t('detalhes.acervo')}>
-          <h2>{t('detalhes.acervo')}</h2>
+          <div className="dialog-topo">
+            <h2>{t('detalhes.acervo')}</h2>
+            <button className="dialog-fechar" onClick={onClose} aria-label={t('aparencia.fechar')}>
+              <span aria-hidden="true">Χ</span>
+            </button>
+          </div>
           <dl className="details-list">
             {linhasDoAcervo(catalog, t, idioma).map(([label, value]) => (
               <div key={label} className="details-row">
@@ -153,7 +158,12 @@ export function DetailsDialog({ open, onClose, entry, parsed, catalog }: Props) 
     <>
       <div className="sidebar-backdrop" onClick={onClose} aria-hidden="true" />
       <div className="copy-dialog details-dialog" role="dialog" aria-label={t('detalhes.arquivo')}>
-        <h2>{t('detalhes')}</h2>
+        <div className="dialog-topo">
+          <h2>{t('detalhes')}</h2>
+          <button className="dialog-fechar" onClick={onClose} aria-label={t('aparencia.fechar')}>
+            <span aria-hidden="true">Χ</span>
+          </button>
+        </div>
         <dl className="details-list">
           {rows.map(([label, value]) => (
             <div key={label} className="details-row">

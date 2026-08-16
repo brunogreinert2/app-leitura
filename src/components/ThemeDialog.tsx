@@ -223,7 +223,12 @@ export function ThemeDialog({
     <>
       <div className="sidebar-backdrop" onClick={onClose} aria-hidden="true" />
       <div className="copy-dialog theme-dialog" role="dialog" aria-label={t('aparencia')}>
-        <h2>{t('aparencia')}</h2>
+        <div className="dialog-topo">
+          <h2>{t('aparencia')}</h2>
+          <button className="dialog-fechar" onClick={onClose} aria-label={t('aparencia.fechar')}>
+            <span aria-hidden="true">Χ</span>
+          </button>
+        </div>
         <p>{t('aparencia.subtitulo')}</p>
         {THEMES.map((tema) => (
           <button
