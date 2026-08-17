@@ -144,8 +144,11 @@
   }
   button { cursor: pointer; border-color: var(--marca); color: var(--marca); font-weight: 600; }
   button:hover { background: var(--painel); }
+  /* Foco de teclado pelo mesmo princípio: luminância, não matiz. */
   :is(button, select, input, textarea, a):focus-visible {
-    outline: 2px solid var(--marca); outline-offset: 2px;
+    outline: 3px solid var(--tinta);
+    outline-offset: 2px;
+    box-shadow: 0 0 0 6px var(--papel);
   }
 
   .linha-controles { display: flex; flex-wrap: wrap; gap: 0.5rem; align-items: center; }
@@ -196,12 +199,29 @@
   .selo.nao { color: var(--ruim); }
   td.n.fraco { color: var(--ruim); font-weight: 700; }
 
-  /* Acende no espécime a peça que aquele token pinta. O nome já é o mesmo
-     nos dois lugares; isto fecha a ligação para quem prefere ver a apontar. */
+  /* Acende no espécime a peça que aquele token pinta.
+
+     SEM MATIZ NENHUM, e por dois motivos que se somam. O primeiro: o sinal
+     cai em cima do espécime, cujo fundo é arbitrário — pode ser papel branco
+     ou preto absoluto, e nenhuma cor única sobrevive aos dois. O segundo, que
+     manda: este é um instrumento de daltonismo. Se o ponteiro dele depende de
+     cor, ele falha justamente para quem mais precisa dele — e a primeira
+     versão era tracejado fino e AVERMELHADO, o pior caso possível para
+     protanomalia.
+
+     Dois anéis, branco por dentro e preto por fora: em fundo claro some o
+     branco e fica o preto, em fundo escuro some o preto e fica o branco.
+     Sempre sobra um, por luminância pura. 7px no total, sólido, sem
+     tracejado — traço quebrado em corpo pequeno lê como cintilação. */
   .aceso {
-    outline: 3px dashed var(--marca);
-    outline-offset: 3px;
-    border-radius: 2px;
+    box-shadow: 0 0 0 3px #ffffff, 0 0 0 7px #000000;
+    border-radius: 3px;
+    position: relative;
+    z-index: 1;
+  }
+  /* O corpo do espécime tem overflow escondido: aí os anéis vão para dentro. */
+  #especime.aceso {
+    box-shadow: inset 0 0 0 3px #ffffff, inset 0 0 0 7px #000000;
   }
 
   /* Mesmo par −/+ dos outros apps: o menor primeiro, o maior com corpo maior,
