@@ -1,4 +1,5 @@
 import { useRef, useState } from 'react'
+import { useDialogoAcessivel } from '../lib/useDialogoAcessivel'
 import type { Catalog as CatalogData, CatalogEntry } from '../types'
 import { LibraryTree } from './LibraryTree'
 import { IconeAlfinete } from './IconeAlfinete'
@@ -39,6 +40,11 @@ export function LibraryDrawer({
   fixo,
   onAlternarFixo,
 }: Props) {
+  /* Painel SOBREPOSTO se comporta como dialogo: o foco entra ao abrir, Esc
+     fecha e o foco volta ao botao. Painel FIXADO nao: ali ele faz parte do
+     layout, e prender o foco dentro impediria de sair para o texto. */
+  const caixaRef = useRef<HTMLElement>(null)
+  useDialogoAcessivel(open && !fixo, onClose, caixaRef)
   const t = useT()
   const [query, setQuery] = useState('')
   const fileInputRef = useRef<HTMLInputElement>(null)
@@ -59,10 +65,18 @@ export function LibraryDrawer({
           aria-hidden="true"
         />
       )}
+      {/* `inert` quando fechado: o painel continua no DOM (a animacao de
+          deslizar depende disso), mas sai do caminho do Tab e do leitor de
+          tela. Sem isto, medido, 33 botoes de paineis FECHADOS ficavam
+          tabulaveis — quem navega por teclado atravessava dezenas de controles
+          invisiveis antes de chegar ao texto. `aria-hidden` sozinho nao tira do
+          Tab; `inert` tira as duas coisas de uma vez. */}
       <nav
         className={`library-drawer${open ? ' library-drawer-open' : ''}${fixo ? ' painel-fixo' : ''}`}
         aria-label={t('biblioteca')}
         aria-hidden={!open}
+        inert={!open}
+        ref={caixaRef}
       >
         <div className="sidebar-header">
           <h2>{t('biblioteca')}</h2>

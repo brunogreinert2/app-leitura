@@ -383,6 +383,7 @@ export function App() {
        outro sem reabrir o painel toda vez. Sem alfinete, fecha como antes —
        ali o painel esta por cima do texto e precisa sair da frente. */
     if (!bibliotecaFixa) setLibraryOpen(false)
+    // O foco vai para o texto quando ele fica pronto — ver Reader.
   }
 
   const pushBook = (entry: CatalogEntry) => {

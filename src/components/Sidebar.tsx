@@ -1,4 +1,5 @@
-import { useState } from 'react'
+import { useRef, useState } from 'react'
+import { useDialogoAcessivel } from '../lib/useDialogoAcessivel'
 import type { HeadingInfo, NameEntry } from '../lib/markdown'
 import { useT } from './idiomaContext'
 import { IconeAlfinete } from './IconeAlfinete'
@@ -65,6 +66,11 @@ export function Sidebar({
   onEdit,
   onSelectName,
 }: Props) {
+  /* Painel SOBREPOSTO se comporta como dialogo: o foco entra ao abrir, Esc
+     fecha e o foco volta ao botao. Painel FIXADO nao: ali ele faz parte do
+     layout, e prender o foco dentro impediria de sair para o texto. */
+  const caixaRef = useRef<HTMLElement>(null)
+  useDialogoAcessivel(open && !fixo, onClose, caixaRef)
   const t = useT()
   const [namesOpen, setNamesOpen] = useState(false)
   const [expanded, setExpanded] = useState<Set<string>>(new Set())
@@ -139,10 +145,18 @@ export function Sidebar({
           aria-hidden="true"
         />
       )}
+      {/* `inert` quando fechado: o painel continua no DOM (a animacao de
+          deslizar depende disso), mas sai do caminho do Tab e do leitor de
+          tela. Sem isto, medido, 33 botoes de paineis FECHADOS ficavam
+          tabulaveis — quem navega por teclado atravessava dezenas de controles
+          invisiveis antes de chegar ao texto. `aria-hidden` sozinho nao tira do
+          Tab; `inert` tira as duas coisas de uma vez. */}
       <nav
         className={`sidebar${open ? ' sidebar-open' : ''}${fixo ? ' painel-fixo' : ''}`}
         aria-label={t('sumario')}
         aria-hidden={!open}
+        inert={!open}
+        ref={caixaRef}
       >
         <div className="sidebar-header">
           <button className="appearance-button" onClick={onAppearance}>
