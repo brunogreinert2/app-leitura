@@ -196,6 +196,23 @@
   .selo.nao { color: var(--ruim); }
   td.n.fraco { color: var(--ruim); font-weight: 700; }
 
+  /* Acende no espécime a peça que aquele token pinta. O nome já é o mesmo
+     nos dois lugares; isto fecha a ligação para quem prefere ver a apontar. */
+  .aceso {
+    outline: 3px dashed var(--marca);
+    outline-offset: 3px;
+    border-radius: 2px;
+  }
+
+  /* Mesmo par −/+ dos outros apps: o menor primeiro, o maior com corpo maior,
+     alvo de toque de 44px nos dois. */
+  .letras { display: flex; gap: 0.35rem; margin-left: auto; }
+  .letras button {
+    width: 2.75rem; height: 2.75rem; line-height: 1;
+    display: flex; align-items: center; justify-content: center;
+  }
+  .letras button:last-child { font-size: 1.25rem; }
+
   .nota { color: var(--fosco); font-size: 0.78rem; margin: 0.8rem 0 0; }
   textarea { width: 100%; min-height: 7rem; font-family: var(--dados); font-size: 0.78rem; }
   @media (prefers-reduced-motion: reduce) { * { transition: none !important; } }
@@ -205,6 +222,10 @@
 
 <header class="topo">
   <h1>Laboratório de Cores</h1>
+  <div class="letras">
+    <button type="button" id="menor" aria-label="Diminuir letra">−</button>
+    <button type="button" id="maior" aria-label="Aumentar letra">+</button>
+  </div>
   <p>Bancada de temas do Pedra Angular. Mede o que o projeto exige de verdade — os doze tokens, não só texto sobre fundo, e cada par também como ele chega a quem tem dicromacia.</p>
 </header>
 
@@ -264,11 +285,11 @@
       <div class="especime">
         <div class="especime-corpo" id="especime">
           <h3 id="e-titulo">Da natureza das coisas</h3>
-          <p id="e-p1">O texto corrido é o que o leitor encara por horas, e é por ele que um tema se justifica. Aqui uma <mark id="e-hl">ocorrência encontrada</mark> pela busca, e aqui a <mark id="e-hlcur">ocorrência atual</mark>, que precisa se distinguir das outras — não basta ser legível, precisa ser <em>outra</em> coisa.</p>
-          <p class="fosco" id="e-fosco">Linha secundária: nome do autor, data da edição, contagem de seções. Texto de apoio ainda é texto, e cai na mesma régua de 7:1.</p>
-          <p id="e-p2">Um <a href="#" id="e-link">endereço canônico</a> leva ao marcador exato. <span id="e-erro">Aviso de erro</span> aparece quando o arquivo não abre.</p>
-          <div class="caixa" id="e-caixa">Contorno de componente — a borda que diz onde um campo começa e outro termina.</div>
-        </div>
+          <p id="e-p1">Isto é <b>texto corrido</b> sobre o <b>fundo da página</b> — o que o leitor encara por horas, e por onde um tema se justifica. Aqui uma <mark id="e-hl">ocorrência encontrada</mark> pela busca, e aqui a <mark id="e-hlcur">ocorrência atual</mark>, que precisa se distinguir das outras: não basta ser legível, precisa ser <em>outra</em> coisa.</p>
+          <hr id="e-separador">
+          <p class="fosco" id="e-fosco">Texto secundário: nome do autor, data da edição, contagem de seções. Texto de apoio ainda é texto, e cai na mesma régua de 7:1.</p>
+          <p id="e-p2">Um <a href="#" id="e-link">link</a> leva ao marcador exato. <span id="e-erro">Aviso de erro</span> aparece quando o arquivo não abre.</p>
+          <div class="caixa" id="e-caixa">Fundo da caixa, cercado pelo contorno de componente — a borda que diz onde um campo começa e outro termina.</div>
       </div>
       <p class="nota">O espécime desenha os doze tokens em uso. Trocar a visão acima simula cada cor pelo modelo de Viénot-Brettel-Mollon: não é tirar a cor da tela, é confundir duas cores em uma, que é o que a dicromacia faz.</p>
     </section>
@@ -392,43 +413,71 @@ function distanciaPercebida (c1, c2, tipo) {
    OS TOKENS E OS PARES — mesma lista do medir_contraste.py
    ================================================================= */
 
+/* O NOME DE CADA TOKEN É A ÚNICA FONTE.
+   Rótulo da lista, rótulo da tabela e palavra escrita no espécime saem todos
+   daqui. Antes o espécime dizia "ocorrência encontrada" e a lista dizia
+   "achado — fundo": duas palavras para a mesma cor, e o leitor tinha que
+   adivinhar o vínculo. Agora as tabelas montam o rótulo a partir destes
+   nomes, então divergir virou impossível.
+   `onde` aponta o pedaço do espécime que aquele token pinta — é o que acende
+   a peça quando o campo recebe o foco ou o ponteiro. */
 const TOKENS = [
   { grupo: 'Leitura' },
-  { id: 'color-bg', nome: 'Fundo', ajuda: 'a página' },
-  { id: 'color-text', nome: 'Texto', ajuda: 'o texto corrido' },
-  { id: 'color-muted', nome: 'Texto secundário', ajuda: 'autor, data, contagem' },
-  { id: 'color-surface', nome: 'Superfície', ajuda: 'diálogo, barra, cartão' },
+  { id: 'color-bg', nome: 'Fundo da página', onde: 'especime' },
+  { id: 'color-text', nome: 'Texto corrido', onde: 'e-p1' },
+  { id: 'color-muted', nome: 'Texto secundário', onde: 'e-fosco' },
+  { id: 'color-surface', nome: 'Fundo da caixa', onde: 'e-caixa' },
   { grupo: 'Interface' },
-  { id: 'color-accent', nome: 'Destaque', ajuda: 'link e marca' },
-  { id: 'color-error', nome: 'Erro', ajuda: 'aviso de falha' },
-  { id: 'color-borda-ui', nome: 'Contorno de componente', ajuda: 'borda de campo e botão' },
-  { id: 'color-border', nome: 'Separador decorativo', ajuda: 'sem piso — só relatado' },
+  { id: 'color-accent', nome: 'Link', onde: 'e-link' },
+  { id: 'color-error', nome: 'Aviso de erro', onde: 'e-erro' },
+  { id: 'color-borda-ui', nome: 'Contorno de componente', onde: 'e-caixa' },
+  { id: 'color-border', nome: 'Separador decorativo', onde: 'e-separador' },
   { grupo: 'Busca' },
-  { id: 'hl-bg', nome: 'Achado — fundo', ajuda: '' },
-  { id: 'hl-fg', nome: 'Achado — texto', ajuda: '' },
-  { id: 'hl-cur-bg', nome: 'Ocorrência atual — fundo', ajuda: '' },
-  { id: 'hl-cur-fg', nome: 'Ocorrência atual — texto', ajuda: '' }
+  { id: 'hl-bg', nome: 'Ocorrência encontrada — fundo', onde: 'e-hl' },
+  { id: 'hl-fg', nome: 'Ocorrência encontrada — letra', onde: 'e-hl' },
+  { id: 'hl-cur-bg', nome: 'Ocorrência atual — fundo', onde: 'e-hlcur' },
+  { id: 'hl-cur-fg', nome: 'Ocorrência atual — letra', onde: 'e-hlcur' }
 ]
 
+/** Nome literal de um token — o mesmo em toda a página. */
+const NOME = {}
+for (const t of TOKENS) if (!t.grupo) NOME[t.id] = t.nome
+
+/**
+ * Rótulo de um par, sempre a partir dos nomes dos tokens.
+ *
+ * Quando os dois pertencem à mesma família, o prefixo é dito UMA vez:
+ * "Ocorrência encontrada: letra sobre fundo" em vez de repetir o nome
+ * inteiro dos dois lados. Continua literal — só deixa de gaguejar.
+ */
+function rotuloDoPar (a, b, liga) {
+  const pa = NOME[a].split(' — ')
+  const pb = NOME[b].split(' — ')
+  if (pa.length === 2 && pb.length === 2 && pa[0] === pb[0]) {
+    return pa[0] + ': ' + pa[1] + liga + pb[1]
+  }
+  return NOME[a] + liga + NOME[b]
+}
+
+/* Rótulo derivado, nunca escrito à mão: "<letra> sobre <fundo>". */
 const PARES = [
-  ['texto no fundo', 'color-text', 'color-bg', ALVO_TEXTO],
-  ['texto secundário', 'color-muted', 'color-bg', ALVO_TEXTO],
-  ['texto na superfície', 'color-text', 'color-surface', ALVO_TEXTO],
-  // Link e mensagem de erro SÃO TEXTO: régua do projeto, não o AA de 4.5.
-  ['link / destaque', 'color-accent', 'color-bg', ALVO_TEXTO],
-  ['erro', 'color-error', 'color-bg', ALVO_TEXTO],
-  ['busca: achado', 'hl-fg', 'hl-bg', ALVO_TEXTO],
-  ['busca: ocorrência atual', 'hl-cur-fg', 'hl-cur-bg', ALVO_TEXTO],
-  ['contorno de componente', 'color-borda-ui', 'color-bg', MINIMO_NAO_TEXTO],
-  ['separador decorativo', 'color-border', 'color-bg', null]
-]
+  ['color-text', 'color-bg', ALVO_TEXTO],
+  ['color-muted', 'color-bg', ALVO_TEXTO],
+  ['color-text', 'color-surface', ALVO_TEXTO],
+  ['color-accent', 'color-bg', ALVO_TEXTO],
+  ['color-error', 'color-bg', ALVO_TEXTO],
+  ['hl-fg', 'hl-bg', ALVO_TEXTO],
+  ['hl-cur-fg', 'hl-cur-bg', ALVO_TEXTO],
+  ['color-borda-ui', 'color-bg', MINIMO_NAO_TEXTO],
+  ['color-border', 'color-bg', null]
+].map(([a, b, piso]) => ({ a, b, piso, rotulo: rotuloDoPar(a, b, ' sobre ') }))
 
 /* Pares que precisam ser DISTINGUÍVEIS entre si, não apenas legíveis. */
 const PARES_DISTINCAO = [
-  ['fundo do achado × da ocorrência atual', 'hl-bg', 'hl-cur-bg'],
-  ['achado × fundo da página', 'hl-bg', 'color-bg'],
-  ['ocorrência atual × fundo da página', 'hl-cur-bg', 'color-bg']
-]
+  ['hl-bg', 'hl-cur-bg'],
+  ['hl-bg', 'color-bg'],
+  ['hl-cur-bg', 'color-bg']
+].map(([a, b]) => ({ a, b, rotulo: rotuloDoPar(a, b, '  ×  ') }))
 
 /* Retrato dos temas publicados, tirado de src/styles.css.
    É conveniência, NÃO é a autoridade: quando o CSS mudar, este retrato
@@ -478,6 +527,12 @@ function montarCampos () {
 
     const cor = linha.querySelector('input[type=color]')
     const txt = linha.querySelector('input[type=text]')
+    for (const alvo of [linha, cor, txt]) {
+      alvo.addEventListener('pointerenter', () => acender(t.onde, true))
+      alvo.addEventListener('pointerleave', () => acender(t.onde, false))
+      alvo.addEventListener('focusin', () => acender(t.onde, true))
+      alvo.addEventListener('focusout', () => acender(t.onde, false))
+    }
     cor.addEventListener('input', () => { txt.value = cor.value; atual[t.id] = cor.value; recalcular() })
     txt.addEventListener('input', () => {
       const v = txt.value.trim()
@@ -550,7 +605,7 @@ function recalcular () {
   let reprovas = 0
   const linhas = []
 
-  for (const [rotulo, a, b, piso] of PARES) {
+  for (const { rotulo, a, b, piso } of PARES) {
     const ca = atual[a]; const cb = atual[b]
     if (!ca || !cb) continue
     const normal = contraste(ca, cb)
@@ -576,7 +631,7 @@ function recalcular () {
   // --- distinção ---
   const dist = []
   let reprovasDist = 0
-  for (const [rotulo, a, b] of PARES_DISTINCAO) {
+  for (const { rotulo, a, b } of PARES_DISTINCAO) {
     const ca = atual[a]; const cb = atual[b]
     if (!ca || !cb) continue
     const normal = distanciaPercebida(ca, cb, null)
@@ -643,6 +698,9 @@ function desenharEspecime () {
   caixa.style.background = c('color-surface')
   caixa.style.color = c('color-text')
   caixa.style.border = '1px solid ' + c('color-borda-ui')
+  const sep = $('#e-separador')
+  sep.style.border = 'none'
+  sep.style.borderTop = '1px solid ' + c('color-border')
 }
 
 function gerarCss () {
@@ -672,6 +730,28 @@ function importarCss () {
     (faltando.length ? ' — mantidas as anteriores em: ' + faltando.join(', ') : '')
   const nome = texto.match(/\[data-theme=['"]?([a-z0-9-]+)/i)
   if (nome) $('#nome-tema').value = nome[1]
+}
+
+/* Escala de letra da página inteira, guardada como nos outros apps: quem
+   precisa de letra grande precisa dela toda vez, não uma vez. O espécime
+   escala junto, que é o caso de uso de quem lê em corpo pequeno e quer ver
+   como a cor se comporta nesse tamanho. */
+const GUARDADO = 'lab-cores-corpo'
+let corpo = Number(localStorage.getItem(GUARDADO)) || 15
+function aplicarCorpo () {
+  corpo = Math.min(30, Math.max(10, corpo))
+  document.body.style.fontSize = corpo + 'px'
+  localStorage.setItem(GUARDADO, String(corpo))
+}
+$('#menor').addEventListener('click', () => { corpo -= 1; aplicarCorpo() })
+$('#maior').addEventListener('click', () => { corpo += 1; aplicarCorpo() })
+aplicarCorpo()
+
+/** Acende no espécime a peça que este token pinta. */
+function acender (onde, ligado) {
+  if (!onde) return
+  const el = $('#' + onde)
+  if (el) el.classList.toggle('aceso', ligado)
 }
 
 montarCampos()
