@@ -1,4 +1,5 @@
-import { useEffect, useState } from 'react'
+import { useEffect, useRef, useState } from 'react'
+import { useDialogoAcessivel } from '../lib/useDialogoAcessivel'
 import { definirEntrelinha } from './FontControls'
 import { useT, useIdiomaAtual } from './idiomaContext'
 import { IDIOMAS } from '../lib/i18n'
@@ -332,11 +333,20 @@ export function ThemeDialog({
 }: Props) {
   const t = useT()
   const { idioma, setIdioma } = useIdiomaAtual()
+  // ANTES do `return null`: hook não pode ficar atrás de saída antecipada.
+  const caixaRef = useRef<HTMLDivElement>(null)
+  useDialogoAcessivel(open, onClose, caixaRef)
   if (!open) return null
   return (
     <>
       <div className="sidebar-backdrop" onClick={onClose} aria-hidden="true" />
-      <div className="copy-dialog theme-dialog" role="dialog" aria-label={t('aparencia')}>
+      <div
+        className="copy-dialog theme-dialog"
+        role="dialog"
+        aria-modal="true"
+        aria-label={t('aparencia')}
+        ref={caixaRef}
+      >
         <div className="dialog-topo">
           <h2>{t('aparencia')}</h2>
           <button className="dialog-fechar" onClick={onClose} aria-label={t('aparencia.fechar')}>

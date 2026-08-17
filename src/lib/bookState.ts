@@ -27,18 +27,36 @@ export function loadLastBook(): string | null {
   return localStorage.getItem(LAST_KEY)
 }
 
-export function saveBookState(id: string, state: Omit<BookState, 't'>) {
+/**
+ * Chave do estado: o ARQUIVO, não o id.
+ *
+ * O guia e o "Sobre este projeto" existem em dois idiomas com o MESMO id — de
+ * propósito, porque o endereço é publicado e citável. Só que o estado guardado
+ * traz a lista de seções abertas, e os identificadores de seção vêm do título:
+ * outros títulos, outros identificadores. Lido em inglês, o app recebia a lista
+ * do português e abria uma seção sim, outra não, sem padrão visível.
+ *
+ * O arquivo identifica o TEXTO, que é o que a posição de leitura descreve. Dois
+ * idiomas são dois textos.
+ */
+function chave(id: string, arquivo?: string): string {
+  return PREFIX + (arquivo ?? id)
+}
+
+export function saveBookState(id: string, state: Omit<BookState, 't'>, arquivo?: string) {
   try {
-    localStorage.setItem(PREFIX + id, JSON.stringify({ ...state, t: Date.now() }))
+    localStorage.setItem(chave(id, arquivo), JSON.stringify({ ...state, t: Date.now() }))
     prune()
   } catch {
     /* idem */
   }
 }
 
-export function loadBookState(id: string): BookState | null {
+export function loadBookState(id: string, arquivo?: string): BookState | null {
   try {
-    const raw = localStorage.getItem(PREFIX + id)
+    // Sem estado na chave nova, aceita a antiga (por id): quem já lia antes
+    // desta mudança não perde a posição de leitura.
+    const raw = localStorage.getItem(chave(id, arquivo)) ?? localStorage.getItem(PREFIX + id)
     if (!raw) return null
     const parsed = JSON.parse(raw) as BookState
     return typeof parsed.scroll === 'number' && Array.isArray(parsed.expanded) ? parsed : null

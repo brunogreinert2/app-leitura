@@ -621,6 +621,9 @@ button {
 }
 
 .back-button {
+  /* 44px nos DOIS lados: min-height ja garantia a altura, a largura nao.
+     Medido: 36 a 43px de largura. WCAG 2.5.5, nivel AAA. */
+  min-width: 2.75rem;
   padding: 0.5rem 0.75rem;
   border-radius: 0.375rem;
   color: var(--color-accent);
@@ -660,6 +663,9 @@ button {
 }
 
 .toc-button {
+  /* 44px nos DOIS lados: min-height ja garantia a altura, a largura nao.
+     Medido: 36 a 43px de largura. WCAG 2.5.5, nivel AAA. */
+  min-width: 2.75rem;
   padding: 0.5rem 0.85rem;
   border-radius: 0.375rem;
   font-size: 1.3rem;
@@ -668,6 +674,9 @@ button {
 }
 
 .search-button {
+  /* 44px nos DOIS lados: min-height ja garantia a altura, a largura nao.
+     Medido: 36 a 43px de largura. WCAG 2.5.5, nivel AAA. */
+  min-width: 2.75rem;
   padding: 0.5rem 0.6rem;
   border-radius: 0.375rem;
   font-size: 1.1rem;
@@ -1098,6 +1107,9 @@ button {
 }
 
 .sidebar-close {
+  /* 44px nos DOIS lados: min-height ja garantia a altura, a largura nao.
+     Medido: 36 a 43px de largura. WCAG 2.5.5, nivel AAA. */
+  min-width: 2.75rem;
   padding: 0.5rem 0.85rem;
   font-size: 1.2rem;
   min-height: 2.75rem;
@@ -1821,6 +1833,35 @@ button {
    A frase é o ponto: quem tem astigmatismo raramente sabe que afastar letra é
    o que lhe falta — sabe que "embaralha". O nome sozinho não alcança essa
    pessoa. Por isso a dica não é decoração: é o que torna o ajuste encontrável. */
+/* Atalho de teclado para o texto (WCAG 2.4.1).
+   Fora da tela até receber o foco: quem usa mouse nunca o vê, quem usa teclado
+   o encontra na primeira tabulação. Alvo de 44px como todo o resto. */
+.pular-para-o-texto {
+  position: absolute;
+  left: -999px;
+  top: 0;
+  z-index: 100;
+  min-height: 44px;
+  display: inline-flex;
+  align-items: center;
+  padding: 0.6rem 1rem;
+  background: var(--color-accent);
+  color: var(--color-bg);
+  border-radius: 0 0 0.5rem 0;
+  font-weight: bold;
+  text-decoration: none;
+}
+
+.pular-para-o-texto:focus {
+  left: 0;
+}
+
+/* O corpo do texto recebe foco pelo atalho, mas não é um controle: nada de
+   anel permanente quando o alvo é só um destino de salto. */
+.reader-body:focus {
+  outline: none;
+}
+
 .theme-option-texto {
   display: flex;
   flex-direction: column;

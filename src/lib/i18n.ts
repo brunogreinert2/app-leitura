@@ -138,6 +138,7 @@ const PT = {
   'aparencia.idioma': 'Idioma · Language',
   'aparencia.qualEscolher': 'Qual ajuste é melhor para mim?',
   'aparencia.qualEscolherDica': 'Sugestões por condição de visão: baixa visão, presbiopia, miopia, astigmatismo, ceratocone, daltonismo, dislexia.',
+  'pularParaOTexto': 'Pular para o texto',
   'aparencia.fechar': 'Fechar',
 
   // — copiar —
@@ -386,6 +387,7 @@ const EN: Record<Chave, string> = {
   'aparencia.idioma': 'Idioma · Language',
   'aparencia.qualEscolher': 'Which settings are right for me?',
   'aparencia.qualEscolherDica': 'Suggestions by eye condition: low vision, presbyopia, short sight, astigmatism, keratoconus, colour blindness, dyslexia.',
+  'pularParaOTexto': 'Skip to the text',
   'aparencia.fechar': 'Close',
 
   'copiar.feito': 'Copied!',

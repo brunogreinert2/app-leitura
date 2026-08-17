@@ -1,4 +1,5 @@
-import { useState } from 'react'
+import { useRef, useState } from 'react'
+import { useDialogoAcessivel } from '../lib/useDialogoAcessivel'
 import type { Catalog as CatalogData, CatalogEntry } from '../types'
 import type { ParsedBook } from '../lib/markdown'
 import { roloUrl } from '../lib/rolo'
@@ -85,6 +86,8 @@ interface Props {
 /** Ficha do arquivo: os campos do YAML (que nunca aparecem no texto). */
 export function DetailsDialog({ open, onClose, entry, parsed, catalog }: Props) {
   const t = useT()
+  const caixaRef = useRef<HTMLDivElement>(null)
+  useDialogoAcessivel(open, onClose, caixaRef)
   const { idioma } = useIdiomaAtual()
   const [copied, setCopied] = useState<'app' | 'rolo' | null>(null)
   if (!open) return null
@@ -102,7 +105,7 @@ export function DetailsDialog({ open, onClose, entry, parsed, catalog }: Props) 
     return (
       <>
         <div className="sidebar-backdrop" onClick={onClose} aria-hidden="true" />
-        <div className="copy-dialog details-dialog" role="dialog" aria-label={t('detalhes.acervo')}>
+        <div className="copy-dialog details-dialog" role="dialog" aria-modal="true" aria-label={t('detalhes.acervo')} ref={caixaRef}>
           <div className="dialog-topo">
             <h2>{t('detalhes.acervo')}</h2>
             <button className="dialog-fechar" onClick={onClose} aria-label={t('aparencia.fechar')}>
@@ -157,7 +160,7 @@ export function DetailsDialog({ open, onClose, entry, parsed, catalog }: Props) 
   return (
     <>
       <div className="sidebar-backdrop" onClick={onClose} aria-hidden="true" />
-      <div className="copy-dialog details-dialog" role="dialog" aria-label={t('detalhes.arquivo')}>
+      <div className="copy-dialog details-dialog" role="dialog" aria-modal="true" aria-label={t('detalhes.arquivo')} ref={caixaRef}>
         <div className="dialog-topo">
           <h2>{t('detalhes')}</h2>
           <button className="dialog-fechar" onClick={onClose} aria-label={t('aparencia.fechar')}>

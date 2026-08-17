@@ -1,4 +1,5 @@
 import { useEffect, useRef, useState, type KeyboardEvent } from 'react'
+import { useDialogoAcessivel } from '../lib/useDialogoAcessivel'
 import { useT } from './idiomaContext'
 
 interface Props {
@@ -74,6 +75,8 @@ export function TextEditor({
   sugerirTitulo,
 }: Props) {
   const t = useT()
+  const caixaRef = useRef<HTMLDivElement>(null)
+  useDialogoAcessivel(open, onCancel, caixaRef)
   const [titulo, setTitulo] = useState(initialTitle)
   const [conteudo, setConteudo] = useState(initialContent)
   const areaRef = useRef<HTMLTextAreaElement>(null)
@@ -232,7 +235,13 @@ export function TextEditor({
   }
 
   return (
-    <div className="editor-overlay" role="dialog" aria-label={t('editor')}>
+    <div
+      className="editor-overlay"
+      role="dialog"
+      aria-modal="true"
+      aria-label={t('editor')}
+      ref={caixaRef}
+    >
       <header className="editor-header">
         <button className="editor-cancel" onClick={cancel} aria-label={t('editor.cancelar')}>
           ✕

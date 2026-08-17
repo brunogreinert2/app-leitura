@@ -378,7 +378,11 @@ export function App() {
 
   const openBook = (entry: CatalogEntry) => {
     setStack([entry])
-    setLibraryOpen(false)
+    /* Alfinete fincado = painel fica. Fechar aqui contrariava o proprio
+       alfinete: o usuario fixou justamente para escolher um livro atras do
+       outro sem reabrir o painel toda vez. Sem alfinete, fecha como antes —
+       ali o painel esta por cima do texto e precisa sair da frente. */
+    if (!bibliotecaFixa) setLibraryOpen(false)
   }
 
   const pushBook = (entry: CatalogEntry) => {
@@ -391,6 +395,13 @@ export function App() {
 
   return (
     <IdiomaContext.Provider value={{ idioma, setIdioma, t }}>
+      {/* Primeira parada do Tab: pular a barra e cair no texto.
+          Sem isto, quem navega por teclado atravessa a barra do topo INTEIRA
+          a cada troca de livro para chegar na primeira palavra. Fica escondido
+          ate receber o foco — e ai aparece, como manda a norma (WCAG 2.4.1). */}
+      <a className="pular-para-o-texto" href="#texto-da-leitura">
+        {t('pularParaOTexto')}
+      </a>
       {needRefresh && (
         <div className="update-banner" role="status">
           <span>{t('atualizacao.disponivel')}</span>
