@@ -93,16 +93,19 @@ export const FONTS = [
   {
     id: 'georgia',
     chave: 'fonte.georgia' as const,
+    dica: 'fonte.georgia.dica' as const,
     stack: "'Cardo', 'DejaVu Guarnicao', serif",
   },
   {
     id: 'atkinson',
     rotulo: 'Atkinson Hyperlegible',
+    dica: 'fonte.atkinson.dica' as const,
     stack: "'Atkinson Hyperlegible', 'Cardo', 'DejaVu Guarnicao', serif",
   },
   {
     id: 'opendyslexic',
     rotulo: 'OpenDyslexic',
+    dica: 'fonte.opendyslexic.dica' as const,
     stack: "'OpenDyslexic', 'Cardo', 'DejaVu Guarnicao', serif",
   },
 ] as const
@@ -158,9 +161,9 @@ export const FONTS = [
  * 0,02 pixel de tinta não é visível por ninguém.
  */
 export const PESOS = [
-  { id: 'fino', chave: 'peso.fino', pixels: 0.02 },
-  { id: 'medio', chave: 'peso.medio', pixels: 1 },
-  { id: 'grosso', chave: 'peso.grosso', pixels: 2 },
+  { id: 'fino', chave: 'peso.fino', dica: 'peso.fino.dica', pixels: 0.02 },
+  { id: 'medio', chave: 'peso.medio', dica: 'peso.medio.dica', pixels: 1 },
+  { id: 'grosso', chave: 'peso.grosso', dica: 'peso.grosso.dica', pixels: 2 },
 ] as const
 
 export type PesoId = (typeof PESOS)[number]['id']
@@ -209,9 +212,9 @@ export function usePesoTraco() {
  * cresce ~3x o de letra, que é o que mantém a palavra como um bloco visual.
  */
 export const ESPACAMENTOS = [
-  { id: 'normal', chave: 'espacamento.normal', letra: 0, palavra: 0 },
-  { id: 'amplo', chave: 'espacamento.amplo', letra: 0.06, palavra: 0.18 },
-  { id: 'muito-amplo', chave: 'espacamento.muitoAmplo', letra: 0.12, palavra: 0.36 },
+  { id: 'normal', chave: 'espacamento.normal', dica: 'espacamento.normal.dica', letra: 0, palavra: 0 },
+  { id: 'amplo', chave: 'espacamento.amplo', dica: 'espacamento.amplo.dica', letra: 0.06, palavra: 0.18 },
+  { id: 'muito-amplo', chave: 'espacamento.muitoAmplo', dica: 'espacamento.muitoAmplo.dica', letra: 0.12, palavra: 0.36 },
 ] as const
 
 export type EspacamentoId = (typeof ESPACAMENTOS)[number]['id']
@@ -246,9 +249,14 @@ export function useEspacamento() {
  * 1,7 continua o padrão, que é o valor que o app sempre teve.
  */
 export const ENTRELINHAS = [
-  { id: 'compacta', chave: 'entrelinha.compacta', mult: 1.4 },
-  { id: 'normal', chave: 'entrelinha.normal', mult: 1.7 },
-  { id: 'ampla', chave: 'entrelinha.ampla', mult: 2.2 },
+  /* 1,2 e o piso, e o motivo e o acervo: grego politonico e hebraico com niqud
+     tem sinais acima E abaixo da letra. Abaixo disso os sinais de uma linha
+     encostam nos da outra, e um texto vocalizado fica ilegivel justamente para
+     quem depende do sinal. Em alfabeto latino daria para fechar mais. */
+  { id: 'minima', chave: 'entrelinha.minima', dica: 'entrelinha.minima.dica', mult: 1.2 },
+  { id: 'compacta', chave: 'entrelinha.compacta', dica: 'entrelinha.compacta.dica', mult: 1.4 },
+  { id: 'normal', chave: 'entrelinha.normal', dica: 'entrelinha.normal.dica', mult: 1.7 },
+  { id: 'ampla', chave: 'entrelinha.ampla', dica: 'entrelinha.ampla.dica', mult: 2.2 },
 ] as const
 
 export type EntrelinhaId = (typeof ENTRELINHAS)[number]['id']
@@ -263,7 +271,7 @@ export function useEntrelinha(corpoAtual: number) {
 
   useEffect(() => {
     localStorage.setItem(ENTRELINHA_STORAGE_KEY, entrelinha)
-    const def = ENTRELINHAS.find((e) => e.id === entrelinha) ?? ENTRELINHAS[1]
+    const def = ENTRELINHAS.find((e) => e.id === entrelinha) ?? ENTRELINHAS[2]
     // Passa pelo encaixe na grade de pixels — ver FontControls.
     definirEntrelinha(def.mult, corpoAtual)
   }, [entrelinha, corpoAtual])
@@ -302,6 +310,7 @@ interface Props {
   onSelectEspacamento: (id: EspacamentoId) => void
   entrelinha: EntrelinhaId
   onSelectEntrelinha: (id: EntrelinhaId) => void
+  onAbrirSobre: () => void
   onClose: () => void
 }
 
@@ -318,6 +327,7 @@ export function ThemeDialog({
   onSelectEspacamento,
   entrelinha,
   onSelectEntrelinha,
+  onAbrirSobre,
   onClose,
 }: Props) {
   const t = useT()
@@ -362,7 +372,10 @@ export function ThemeDialog({
             <span className="theme-option-sample" style={{ fontFamily: f.stack }} aria-hidden="true">
               Aa
             </span>
-            {'chave' in f ? t(f.chave) : f.rotulo}
+            <span className="theme-option-texto">
+              {'chave' in f ? t(f.chave) : f.rotulo}
+              <span className="theme-option-dica">{t(f.dica)}</span>
+            </span>
             {fontFamily === f.id && <span className="theme-option-check"> ✓</span>}
           </button>
         ))}
@@ -387,7 +400,10 @@ export function ThemeDialog({
             >
               Aa
             </span>
-            {t(p.chave)}
+            <span className="theme-option-texto">
+              {t(p.chave)}
+              <span className="theme-option-dica">{t(p.dica)}</span>
+            </span>
             {peso === p.id && <span className="theme-option-check"> ✓</span>}
           </button>
         ))}
@@ -408,7 +424,10 @@ export function ThemeDialog({
             >
               Aa
             </span>
-            {t(e.chave)}
+            <span className="theme-option-texto">
+              {t(e.chave)}
+              <span className="theme-option-dica">{t(e.dica)}</span>
+            </span>
             {espacamento === e.id && <span className="theme-option-check"> ✓</span>}
           </button>
         ))}
@@ -430,7 +449,10 @@ export function ThemeDialog({
               A
               <br />a
             </span>
-            {t(e.chave)}
+            <span className="theme-option-texto">
+              {t(e.chave)}
+              <span className="theme-option-dica">{t(e.dica)}</span>
+            </span>
             {entrelinha === e.id && <span className="theme-option-check"> ✓</span>}
           </button>
         ))}
@@ -453,6 +475,19 @@ export function ThemeDialog({
             {idioma === i.id && <span className="theme-option-check"> ✓</span>}
           </button>
         ))}
+
+        {/* Guia completo, no fim e nao no comeco: quem sabe o que quer ja
+            resolveu acima; quem nao sabe chega aqui depois de olhar as opcoes
+            e nao reconhecer nenhuma. */}
+        <button className="theme-option font-option" onClick={onAbrirSobre}>
+          <span className="theme-option-sample" aria-hidden="true">
+            ?
+          </span>
+          <span className="theme-option-texto">
+            {t('aparencia.qualEscolher')}
+            <span className="theme-option-dica">{t('aparencia.qualEscolherDica')}</span>
+          </span>
+        </button>
 
         <button className="copy-dialog-cancel" onClick={onClose}>
           {t('aparencia.fechar')}

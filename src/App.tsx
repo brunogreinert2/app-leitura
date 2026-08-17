@@ -47,6 +47,24 @@ function guiaDoIdioma(idioma: string, t: (c: 'guia.titulo' | 'guia.autor') => st
   }
 }
 
+/**
+ * "Sobre este projeto" segue a mesma regra do guia: e documentacao do APP
+ * entregue como arquivo de corpus, entao traduz — mantendo o id, que e
+ * publicado e citavel. E o texto vive no acervo, e nao numa tela propria, por
+ * um motivo pratico: quem chega nele para descobrir qual ajuste lhe serve
+ * consegue TESTAR os ajustes ali mesmo, lendo a pagina que os explica.
+ */
+export const SOBRE_ID = 'sobre-o-projeto'
+
+export function sobreDoIdioma(idioma: string): CatalogEntry {
+  return {
+    id: SOBRE_ID,
+    titulo: idioma === 'en' ? 'About this project' : 'Sobre este projeto',
+    autor: 'Pedra Angular',
+    arquivo: idioma === 'en' ? 'SOBRE_O_PROJETO.en.md' : 'SOBRE_O_PROJETO.md',
+  }
+}
+
 const WELCOME_ENTRY: CatalogEntry = {
   id: 'impressoes-app',
   titulo: 'Bem-vindo ao Leitor',
@@ -286,7 +304,12 @@ export function App() {
   const noTopo = stack.length ? stack[stack.length - 1] : null
   // O guia é o único texto que troca de arquivo com o idioma. O id não muda,
   // então memória de leitura, link permanente e comparações seguem valendo.
-  const book = noTopo?.id === WELCOME_ENTRY.id ? guiaDoIdioma(idioma, t) : noTopo
+  const book =
+    noTopo?.id === WELCOME_ENTRY.id
+      ? guiaDoIdioma(idioma, t)
+      : noTopo?.id === SOBRE_ID
+        ? sobreDoIdioma(idioma)
+        : noTopo
 
   // Aberto por link permanente: troca o guia pela obra citada
   useEffect(() => {
@@ -428,6 +451,10 @@ export function App() {
         onSelectEspacamento={setEspacamento}
         entrelinha={entrelinha}
         onSelectEntrelinha={setEntrelinha}
+        onAbrirSobre={() => {
+          setThemeOpen(false)
+          setStack([sobreDoIdioma(idioma)])
+        }}
         onClose={() => setThemeOpen(false)}
       />
       {book ? (

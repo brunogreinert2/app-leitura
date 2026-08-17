@@ -1817,6 +1817,28 @@ button {
   font-size: 1em;
 }
 
+/* Nome do ajuste + a frase que diz PARA QUE ele serve.
+   A frase é o ponto: quem tem astigmatismo raramente sabe que afastar letra é
+   o que lhe falta — sabe que "embaralha". O nome sozinho não alcança essa
+   pessoa. Por isso a dica não é decoração: é o que torna o ajuste encontrável. */
+.theme-option-texto {
+  display: flex;
+  flex-direction: column;
+  gap: 0.15rem;
+  flex: 1;
+  min-width: 0;
+}
+
+.theme-option-dica {
+  font-weight: normal;
+  font-size: 0.82em;
+  line-height: 1.35;
+  color: var(--color-muted);
+  /* O botão tem alvo de toque grande; a dica pode quebrar em duas linhas sem
+     brigar com isso. */
+  white-space: normal;
+}
+
 .theme-option-sample {
   font-size: 1.3em;
   font-family: 'Cardo', serif;

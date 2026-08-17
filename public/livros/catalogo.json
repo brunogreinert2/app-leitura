@@ -7,6 +7,12 @@
       "arquivo": "IMPRESSOES_APP.md"
     },
     {
+      "id": "sobre-o-projeto",
+      "titulo": "Sobre este projeto",
+      "autor": "Pedra Angular",
+      "arquivo": "SOBRE_O_PROJETO.md"
+    },
+    {
       "id": "biblia-01-genesis-por-alm1911-1911",
       "titulo": "Gênesis (Almeida Revista e Corrigida 1911)",
       "autor": "—",
