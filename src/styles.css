@@ -325,20 +325,29 @@
   color-scheme: dark;
 }
 
+/* Escolhido por quem tem protanomalia, e mede bem por isso: texto, link e
+   destaque são amarelo-esverdeados, que vivem nos cones M e S — perdem ~1% de
+   luminância sob protanopia, contra 25% do vermelho puro. As duas cores que
+   dependem do cone L (erro e ocorrência atual) foram puxadas para salmão e
+   laranja em vez de vermelho, e a perda cai para 10%.
+
+   O --color-muted é mais claro que o texto DE PROPÓSITO: aqui ele só pinta
+   metadado curto (autor na lista, contador de busca, contador do índice), e
+   nessa quantidade mais claro é achável, não gritante. */
 [data-theme='azul-noite'] {
-  --color-bg: #0a1128;
-  --color-text: #f2e8d5;
-  --color-muted: #cfc4ae;
-  --color-accent: #ffd75e;
+  --color-bg: #0d142b;
+  --color-text: #ffe4a8;
+  --color-muted: #fafafa;
+  --color-accent: #e7fb56;
   --color-surface: #0d1633;
-  --color-border: #3a4a7a;
-  --color-borda-ui: #7789b8;
+  --color-border: #2f68f9;
+  --color-borda-ui: #2f68f9;
   --shadow-color: rgba(0, 0, 0, 0.6);
-  --hl-bg: #ffd75e;
+  --hl-bg: #e3fc27;
   --hl-fg: #0a1128;
   --hl-cur-bg: #ff8c00;
   --hl-cur-fg: #000000;
-  --color-error: #ffb4a2;
+  --color-error: #fe896c;
   color-scheme: dark;
 }
 
