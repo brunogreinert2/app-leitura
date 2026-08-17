@@ -140,6 +140,12 @@ export function TextSearch({
     if (!supportsHighlight) return
     if (!open || !query.trim() || !bodyRef.current) {
       CSS.highlights.delete('busca')
+      /* `busca-atual` TAMBEM sai aqui. Antes so saia ao destruir o componente —
+         e ele nunca e destruido: fechado, ele apenas devolve `null` e continua
+         vivo. O resultado era a marca da ocorrencia atual, que e a de COR
+         DIFERENTE, ficar acesa no texto depois de fechar a busca ou apagar o
+         que estava escrito, sem nenhum jeito de tirar. */
+      CSS.highlights.delete('busca-atual')
       return
     }
     const ranges = findRanges(bodyRef.current, query.trim())

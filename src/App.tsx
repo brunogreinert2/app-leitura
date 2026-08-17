@@ -28,6 +28,7 @@ import { useAppUpdate } from './lib/useAppUpdate'
 import { exportBackup, importBackup } from './lib/backup'
 import { useTelaLarga, useCabemDoisPaineis, usePaineisFixos } from './lib/useTelaLarga'
 import { useIdioma } from './lib/i18n'
+import { useCicloDeRegioes } from './lib/useCicloDeRegioes'
 import { IdiomaContext } from './components/idiomaContext'
 import type { Catalog as CatalogData, CatalogEntry, PersonManifest } from './types'
 
@@ -111,6 +112,8 @@ export function App() {
   // Muda a key do Reader após salvar edição (re-parseia o conteúdo)
   const [bookVersion, setBookVersion] = useState(0)
   const { idioma, setIdioma, t } = useIdioma()
+  // F6 troca de regiao; o Tab anda dentro dela. Ver useCicloDeRegioes.
+  useCicloDeRegioes()
   const { theme, setTheme } = useTheme()
   const { fontFamily, setFontFamily } = useFontFamily()
   const { peso, setPeso } = usePesoTraco()

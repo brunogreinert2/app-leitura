@@ -67,6 +67,17 @@ Toque na lupa 🔍 e digite:
 
 O botão **Ξ** (xi grega) abre o **sumário** do livro, com os capítulos e as ações do livro. O botão **Φ** (phi grega, a marca do app) abre a **biblioteca**, com a estrutura de pastas e uma pesquisa por título, autor ou pasta.
 
+## Navegar pelo teclado
+
+Quem não usa mouse tem dois movimentos, e a diferença entre eles é o que torna a tela navegável:
+
+- **Tab** anda **dentro** de uma região, de um controle para o próximo. **Shift+Tab** volta.
+- **F6** troca **de** região: barra do topo, texto, biblioteca, sumário. **Shift+F6** vai na ordem inversa.
+
+Sem o F6, ir do texto até um ajuste significaria atravessar tudo o que existe entre os dois. Com ele, é uma tecla.
+
+Na primeira tabulação da página aparece **Pular para o texto**, que salta a barra inteira. **Esc** fecha qualquer painel ou diálogo e devolve o foco ao botão que o abriu.
+
 ## Ouvir o texto
 
 O botão 🔊 no canto de baixo abre o leitor de voz: **Ouvir** lê em voz alta o que está aberto na tela, a partir do ponto em que você parou, destacando o parágrafo falado. Dá para pausar, retomar, parar, escolher a voz (as do seu aparelho) e ajustar a velocidade. Tudo acontece no aparelho — funciona offline com as vozes instaladas.

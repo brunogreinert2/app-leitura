@@ -68,6 +68,17 @@ Tap the magnifier 🔍 and type:
 
 The **Ξ** button (Greek xi) opens the book's **contents**, with its chapters and actions. The **Φ** button (Greek phi, the app's mark) opens the **library**, with the folder structure and a search by title, author or folder.
 
+## Getting around with the keyboard
+
+If you do not use a mouse, there are two movements, and the difference between them is what makes the screen navigable:
+
+- **Tab** moves **within** a region, from one control to the next. **Shift+Tab** goes back.
+- **F6** moves **between** regions: top bar, text, library, contents. **Shift+F6** goes the other way.
+
+Without F6, getting from the text to a setting would mean crossing everything in between. With it, it is one key.
+
+The first tab stop on the page is **Skip to the text**, which jumps the whole bar. **Esc** closes any panel or dialog and returns focus to the button that opened it.
+
 ## Listening to the text
 
 The 🔊 button at the bottom opens the voice reader: **Listen** reads aloud what is open on screen, starting from where you stopped, highlighting the spoken paragraph. You can pause, resume, stop, choose the voice (the ones on your device) and adjust the speed. It all happens on the device — it works offline with the installed voices.
