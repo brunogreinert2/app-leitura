@@ -3,7 +3,14 @@ import { Catalog } from './components/Catalog'
 import { Reader, invalidateBookCache } from './components/Reader'
 import { TextEditor } from './components/TextEditor'
 import { LibraryDrawer } from './components/LibraryDrawer'
-import { ThemeDialog, useTheme, useFontFamily, usePesoTraco } from './components/ThemeDialog'
+import {
+  ThemeDialog,
+  useTheme,
+  useFontFamily,
+  usePesoTraco,
+  useEspacamento,
+  useEntrelinha,
+} from './components/ThemeDialog'
 import { Sidebar } from './components/Sidebar'
 import { DetailsDialog } from './components/DetailsDialog'
 import { useFontSize } from './components/FontControls'
@@ -89,10 +96,14 @@ export function App() {
   const { theme, setTheme } = useTheme()
   const { fontFamily, setFontFamily } = useFontFamily()
   const { peso, setPeso } = usePesoTraco()
+  const { espacamento, setEspacamento } = useEspacamento()
   const { needRefresh, applyUpdate, checkResult, checkNow } = useAppUpdate()
   // Barra do topo constante: a tela da biblioteca tem o mesmo Ξ e o mesmo
   // ajuste de letra da leitura, com o estado guardado no mesmo lugar.
-  const { decrease: decreaseFont, increase: increaseFont } = useFontSize()
+  const { px: corpoDaLetra, decrease: decreaseFont, increase: increaseFont } = useFontSize()
+  // Depende do corpo: a entrelinha e um multiplo dele, e o encaixe na grade
+  // de pixels precisa refazer a conta a cada A+/A-.
+  const { entrelinha, setEntrelinha } = useEntrelinha(corpoDaLetra)
   const [menuOpen, setMenuOpen] = useState(false)
   // Painel fixo so faz sentido onde ha espaco: abaixo de 64rem, os dois
   // abertos deixariam menos de 25rem para a coluna de leitura.
@@ -413,6 +424,10 @@ export function App() {
         onSelectFontFamily={setFontFamily}
         peso={peso}
         onSelectPeso={setPeso}
+        espacamento={espacamento}
+        onSelectEspacamento={setEspacamento}
+        entrelinha={entrelinha}
+        onSelectEntrelinha={setEntrelinha}
         onClose={() => setThemeOpen(false)}
       />
       {book ? (

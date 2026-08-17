@@ -1,4 +1,5 @@
 import { useEffect, useState } from 'react'
+import { definirEntrelinha } from './FontControls'
 import { useT, useIdiomaAtual } from './idiomaContext'
 import { IDIOMAS } from '../lib/i18n'
 
@@ -195,6 +196,81 @@ export function usePesoTraco() {
   return { peso, setPeso }
 }
 
+/**
+ * Espaço entre letras — e entre palavras junto.
+ *
+ * O borrão do astigmatismo tem DIREÇÃO: um meridiano fica nítido e o outro não.
+ * O efeito prático é a letra vizinha invadir a de ao lado, e é por isso que
+ * afastar as letras costuma render mais do que aumentar o corpo.
+ *
+ * A palavra anda JUNTO, e mais depressa. Afastar só as letras dissolve a
+ * fronteira entre uma palavra e outra: o texto vira uma fileira de letras
+ * soltas, e a leitura piora em vez de melhorar. Por isso o espaço de palavra
+ * cresce ~3x o de letra, que é o que mantém a palavra como um bloco visual.
+ */
+export const ESPACAMENTOS = [
+  { id: 'normal', chave: 'espacamento.normal', letra: 0, palavra: 0 },
+  { id: 'amplo', chave: 'espacamento.amplo', letra: 0.06, palavra: 0.18 },
+  { id: 'muito-amplo', chave: 'espacamento.muitoAmplo', letra: 0.12, palavra: 0.36 },
+] as const
+
+export type EspacamentoId = (typeof ESPACAMENTOS)[number]['id']
+
+const ESPACAMENTO_STORAGE_KEY = 'app-espacamento'
+
+export function useEspacamento() {
+  const [espacamento, setEspacamento] = useState<EspacamentoId>(() => {
+    const saved = localStorage.getItem(ESPACAMENTO_STORAGE_KEY)
+    return ESPACAMENTOS.some((e) => e.id === saved) ? (saved as EspacamentoId) : 'normal'
+  })
+
+  useEffect(() => {
+    localStorage.setItem(ESPACAMENTO_STORAGE_KEY, espacamento)
+    const def = ESPACAMENTOS.find((e) => e.id === espacamento) ?? ESPACAMENTOS[0]
+    const raiz = document.documentElement.style
+    raiz.setProperty('--reading-letter-spacing', `${def.letra}em`)
+    raiz.setProperty('--reading-word-spacing', `${def.palavra}em`)
+  }, [espacamento])
+
+  return { espacamento, setEspacamento }
+}
+
+/**
+ * Entrelinha.
+ *
+ * Quem tem ceratocone vê a MESMA letra duplicada com um olho só — não é falta
+ * de foco, é uma segunda cópia deslocada. Quando o deslocamento tem componente
+ * vertical, o fantasma de uma linha cai em cima da linha de baixo, e aí o
+ * espaço entre linhas deixa de ser conforto: é o que separa uma linha da outra.
+ *
+ * 1,7 continua o padrão, que é o valor que o app sempre teve.
+ */
+export const ENTRELINHAS = [
+  { id: 'compacta', chave: 'entrelinha.compacta', mult: 1.4 },
+  { id: 'normal', chave: 'entrelinha.normal', mult: 1.7 },
+  { id: 'ampla', chave: 'entrelinha.ampla', mult: 2.2 },
+] as const
+
+export type EntrelinhaId = (typeof ENTRELINHAS)[number]['id']
+
+const ENTRELINHA_STORAGE_KEY = 'app-entrelinha'
+
+export function useEntrelinha(corpoAtual: number) {
+  const [entrelinha, setEntrelinha] = useState<EntrelinhaId>(() => {
+    const saved = localStorage.getItem(ENTRELINHA_STORAGE_KEY)
+    return ENTRELINHAS.some((e) => e.id === saved) ? (saved as EntrelinhaId) : 'normal'
+  })
+
+  useEffect(() => {
+    localStorage.setItem(ENTRELINHA_STORAGE_KEY, entrelinha)
+    const def = ENTRELINHAS.find((e) => e.id === entrelinha) ?? ENTRELINHAS[1]
+    // Passa pelo encaixe na grade de pixels — ver FontControls.
+    definirEntrelinha(def.mult, corpoAtual)
+  }, [entrelinha, corpoAtual])
+
+  return { entrelinha, setEntrelinha }
+}
+
 export type FontFamilyId = (typeof FONTS)[number]['id']
 
 const FONT_STORAGE_KEY = 'app-font-family'
@@ -222,6 +298,10 @@ interface Props {
   onSelectFontFamily: (id: FontFamilyId) => void
   peso: PesoId
   onSelectPeso: (id: PesoId) => void
+  espacamento: EspacamentoId
+  onSelectEspacamento: (id: EspacamentoId) => void
+  entrelinha: EntrelinhaId
+  onSelectEntrelinha: (id: EntrelinhaId) => void
   onClose: () => void
 }
 
@@ -234,6 +314,10 @@ export function ThemeDialog({
   onSelectFontFamily,
   peso,
   onSelectPeso,
+  espacamento,
+  onSelectEspacamento,
+  entrelinha,
+  onSelectEntrelinha,
   onClose,
 }: Props) {
   const t = useT()
@@ -305,6 +389,49 @@ export function ThemeDialog({
             </span>
             {t(p.chave)}
             {peso === p.id && <span className="theme-option-check"> ✓</span>}
+          </button>
+        ))}
+
+        <h2 className="theme-dialog-section-title">{t('aparencia.espacamento')}</h2>
+        <p>{t('aparencia.espacamentoNota')}</p>
+        {ESPACAMENTOS.map((e) => (
+          <button
+            key={e.id}
+            className="theme-option font-option"
+            onClick={() => onSelectEspacamento(e.id)}
+            aria-pressed={espacamento === e.id}
+          >
+            <span
+              className="theme-option-sample"
+              style={{ letterSpacing: `${e.letra}em`, wordSpacing: `${e.palavra}em` }}
+              aria-hidden="true"
+            >
+              Aa
+            </span>
+            {t(e.chave)}
+            {espacamento === e.id && <span className="theme-option-check"> ✓</span>}
+          </button>
+        ))}
+
+        <h2 className="theme-dialog-section-title">{t('aparencia.entrelinha')}</h2>
+        <p>{t('aparencia.entrelinhaNota')}</p>
+        {ENTRELINHAS.map((e) => (
+          <button
+            key={e.id}
+            className="theme-option font-option"
+            onClick={() => onSelectEntrelinha(e.id)}
+            aria-pressed={entrelinha === e.id}
+          >
+            <span
+              className="theme-option-sample"
+              style={{ lineHeight: e.mult, fontSize: '0.7em' }}
+              aria-hidden="true"
+            >
+              A
+              <br />a
+            </span>
+            {t(e.chave)}
+            {entrelinha === e.id && <span className="theme-option-check"> ✓</span>}
           </button>
         ))}
 

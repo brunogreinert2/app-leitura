@@ -1269,6 +1269,11 @@ button {
      O fallback é o multiplicador de sempre, para o primeiro quadro antes de o
      JavaScript medir a tela — e para quem abrir sem JavaScript. */
   line-height: var(--reading-entrelinha-px, var(--reading-line-height));
+  /* Espaço entre letras e palavras — escolha do leitor (ver ThemeDialog).
+     Em `em`, de propósito: acompanha o corpo da letra, senão o afastamento
+     que resolve em corpo 18 desaparece em corpo 60. */
+  letter-spacing: var(--reading-letter-spacing, 0);
+  word-spacing: var(--reading-word-spacing, 0);
 }
 
 .reader-loading,

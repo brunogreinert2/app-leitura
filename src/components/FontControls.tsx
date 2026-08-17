@@ -60,8 +60,21 @@ function withReadingAnchor(update: () => void) {
   window.scrollBy({ top: after - before })
 }
 
-/** Entrelinha desejada, em múltiplos do corpo da letra (era o valor do CSS). */
-const ENTRELINHA = 1.7
+/**
+ * Entrelinha desejada, em múltiplos do corpo da letra.
+ *
+ * Deixou de ser constante: quem tem ceratocone vê a MESMA letra duplicada, e o
+ * fantasma de uma linha cai em cima da linha de baixo. Para essa vista o
+ * espaço entre linhas não é conforto, é o que separa uma linha da outra.
+ * Quem escolhe é o leitor, pelo diálogo de Aparência.
+ */
+let entrelinhaAtual = 1.7
+
+/** Chamado pelo controle de entrelinha; re-encaixa na grade com o corpo atual. */
+export function definirEntrelinha(mult: number, corpoAtual: number): void {
+  entrelinhaAtual = mult
+  encaixarNaGradeDePixels(corpoAtual)
+}
 
 /**
  * Encaixa a entrelinha na grade de pixels do aparelho.
@@ -118,7 +131,7 @@ function encaixarNaGradeDePixels(px: number): void {
   document.documentElement.style.setProperty('--reading-font-size', `${naGrade(px)}px`)
   document.documentElement.style.setProperty(
     '--reading-entrelinha-px',
-    `${naGrade(px * ENTRELINHA)}px`,
+    `${naGrade(px * entrelinhaAtual)}px`,
   )
 }
 
