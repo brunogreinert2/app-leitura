@@ -33,6 +33,33 @@ const REGIOES = [
   { seletor: '.sidebar', nome: 'sumário' },
 ]
 
+/**
+ * Acende o anel do corpo do texto e apaga sozinho.
+ *
+ * Por classe, e nao por `:focus-visible`: medido, o Chrome nao trata como foco
+ * de teclado o foco dado por script — e o F6 e script. Quem sabe que a pessoa
+ * chegou pelo teclado e o codigo que a trouxe.
+ *
+ * Sai ao primeiro Tab (o foco passa a um controle de verdade) ou ao primeiro
+ * toque de mouse, que ja diz onde a pessoa esta.
+ */
+function marcarChegadaPorTeclado(el: HTMLElement): void {
+  el.classList.add('foco-por-teclado')
+  const limpar = () => {
+    el.classList.remove('foco-por-teclado')
+    document.removeEventListener('focusin', aoMudarFoco)
+    document.removeEventListener('pointerdown', limpar)
+  }
+  /* `focusin` e nao `blur`: o blur nao chega quando a JANELA perde o foco, e ai
+     o anel ficava aceso para sempre. `focusin` borbulha e conta so o que
+     interessa — o foco pousou noutro lugar. */
+  const aoMudarFoco = (e: FocusEvent) => {
+    if (!el.contains(e.target as Node)) limpar()
+  }
+  document.addEventListener('focusin', aoMudarFoco)
+  document.addEventListener('pointerdown', limpar, { once: true })
+}
+
 const FOCAVEIS =
   'button:not([disabled]), a[href], input:not([disabled]), select:not([disabled]), textarea:not([disabled]), [tabindex]:not([tabindex="-1"])'
 
@@ -64,6 +91,7 @@ export function useCicloDeRegioes(): void {
       // não um controle. Os outros entregam o foco ao primeiro controle deles.
       if (proxima.id === 'texto-da-leitura') {
         proxima.focus({ preventScroll: true })
+        marcarChegadaPorTeclado(proxima)
         return
       }
       const primeiro = [...proxima.querySelectorAll<HTMLElement>(FOCAVEIS)].find(

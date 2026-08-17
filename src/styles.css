@@ -1856,10 +1856,24 @@ button {
   left: 0;
 }
 
-/* O corpo do texto recebe foco pelo atalho, mas não é um controle: nada de
-   anel permanente quando o alvo é só um destino de salto. */
-.reader-body:focus {
-  outline: none;
+/* O corpo do texto recebe foco pelo atalho e pelo F6. Eu tinha tirado o anel
+   daqui com o argumento de que "não é um controle" — e estava errado.
+
+   Relatado: com o F6 o foco IA para o texto (verificado no app rodando), mas
+   nada mudava na tela, então a pessoa concluía que o atalho não funcionava e
+   apertava de novo, caindo na região seguinte. Para quem navega por teclado,
+   chegar num lugar sem sinal nenhum é o mesmo que não ter saído do lugar.
+
+   POR CLASSE, não por `:focus-visible`. Medido: o Chrome NÃO considera foco de
+   teclado o foco dado por script — e o F6 é script. A regra `:focus-visible`
+   apagava o anel exatamente no caso que precisa dele. Quem sabe que a pessoa
+   chegou pelo teclado é o código que a trouxe, então é ele que marca.
+
+   `outline-offset` negativo para o anel ficar POR DENTRO: em corpo grande, um
+   anel por fora sairia da tela. */
+.reader-body.foco-por-teclado {
+  outline: 3px solid var(--ui-foco);
+  outline-offset: -3px;
 }
 
 .theme-option-texto {
