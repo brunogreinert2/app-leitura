@@ -263,6 +263,22 @@
       </div>
 
       <div id="campos"></div>
+
+      <p class="rotulo-secao">Sem medida, mas fazem parte do bloco</p>
+      <p class="nota" style="margin:0 0 0.6rem">Não têm par de contraste — uma é tinta de sombra, a outra é uma palavra. Ficam aqui para o bloco sair inteiro: foi deixar estes dois caírem que quase apagou as sombras do azul-noite.</p>
+      <div class="campos">
+        <div class="campo" style="grid-template-columns:1fr auto">
+          <label for="t-shadow">Cor da sombra<small>qualquer valor CSS</small></label>
+          <input type="text" id="t-shadow" spellcheck="false" value="rgba(0, 0, 0, 0.6)" style="width:10rem">
+        </div>
+        <div class="campo" style="grid-template-columns:1fr auto">
+          <label for="t-scheme">Esquema nativo<small>campos e barra de rolagem do sistema</small></label>
+          <select id="t-scheme">
+            <option value="dark">dark</option>
+            <option value="light">light</option>
+          </select>
+        </div>
+      </div>
     </section>
 
     <section class="cartao">
@@ -718,6 +734,7 @@ function desenharEspecime () {
   caixa.style.background = c('color-surface')
   caixa.style.color = c('color-text')
   caixa.style.border = '1px solid ' + c('color-borda-ui')
+  caixa.style.boxShadow = '0 4px 16px ' + $('#t-shadow').value.trim()
   const sep = $('#e-separador')
   sep.style.border = 'none'
   sep.style.borderTop = '1px solid ' + c('color-border')
@@ -727,10 +744,16 @@ function gerarCss () {
   const nome = ($('#nome-tema').value || 'novo-tema').trim()
   const linhas = TOKENS.filter(t => !t.grupo && atual[t.id])
     .map(t => '  --' + t.id + ': ' + atual[t.id] + ';')
+  // Os dois sem medida saem no bloco do mesmo jeito: o que se cola no CSS
+  // precisa ser o tema INTEIRO, não só a parte que a régua sabe julgar.
+  linhas.push('  --shadow-color: ' + $('#t-shadow').value.trim() + ';')
+  linhas.push('  color-scheme: ' + $('#t-scheme').value + ';')
   $('#saida').value = "[data-theme='" + nome + "'] {\n" + linhas.join('\n') + '\n}'
 }
 
 /* --- trazer do app: lê as variáveis de um bloco CSS colado --- */
+const RE_SOMBRA = new RegExp('--shadow-color' + String.fromCharCode(92) + 's*:' + String.fromCharCode(92) + 's*([^;]+);')
+const RE_ESQUEMA = /color-scheme\s*:\s*(dark|light)/
 function importarCss () {
   const texto = $('#entrada').value
   const achadas = {}
@@ -744,6 +767,10 @@ function importarCss () {
     return
   }
   aplicarTema(achadas)
+  const sombra = texto.match(RE_SOMBRA)
+  if (sombra) $('#t-shadow').value = sombra[1].trim()
+  const esquema = texto.match(RE_ESQUEMA)
+  if (esquema) $('#t-scheme').value = esquema[1]
   const faltando = conhecidas.filter(k => !achadas[k])
   aviso.style.color = 'var(--fosco)'
   aviso.textContent = usadas.length + ' de ' + conhecidas.length + ' lidas' +
@@ -779,6 +806,8 @@ montarSeletorDeBase()
 aplicarTema(RETRATO.sepia)
 $('#visao').addEventListener('change', desenharEspecime)
 $('#nome-tema').addEventListener('input', gerarCss)
+$('#t-shadow').addEventListener('input', () => { desenharEspecime(); gerarCss() })
+$('#t-scheme').addEventListener('change', gerarCss)
 $('#importar').addEventListener('click', importarCss)
 $('#copiar').addEventListener('click', () => {
   const b = $('#copiar')
