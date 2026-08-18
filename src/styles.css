@@ -1972,6 +1972,44 @@ button {
   border-radius: 0.5rem;
 }
 
+/* Alvo de arrastar-e-soltar.
+
+   Cobre a janela inteira de propósito: quem arrasta um arquivo não deveria
+   ter que mirar num retângulo pequeno. O tracejado grosso vem do token do
+   texto, não de uma cor fixa — assim o alvo aparece nos nove temas sem
+   nenhum caso especial.
+
+   pointer-events: none é essencial: sem isso o próprio véu intercepta o
+   `drop` e o arquivo nunca chega ao ouvinte da janela. */
+.alvo-de-soltura {
+  position: fixed;
+  inset: 0;
+  z-index: 70;
+  pointer-events: none;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 1.5rem;
+  background: color-mix(in srgb, var(--color-bg) 88%, transparent);
+}
+
+.alvo-de-soltura-caixa {
+  display: flex;
+  flex-direction: column;
+  gap: 0.4rem;
+  align-items: center;
+  text-align: center;
+  padding: 2rem 2.5rem;
+  border: 4px dashed var(--color-text);
+  border-radius: 1rem;
+  background: var(--color-surface);
+  color: var(--color-text);
+  max-width: 26rem;
+}
+
+.alvo-de-soltura-caixa strong { font-size: 1.15rem; }
+.alvo-de-soltura-caixa span { color: var(--color-muted); font-size: 0.9rem; }
+
 .toast {
   position: fixed;
   bottom: 2rem;

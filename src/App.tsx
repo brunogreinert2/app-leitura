@@ -1,6 +1,7 @@
 import { useEffect, useMemo, useRef, useState } from 'react'
 import { Catalog } from './components/Catalog'
 import { Reader, invalidateBookCache } from './components/Reader'
+import { useSoltarArquivos } from './lib/useSoltarArquivos'
 import { TextEditor } from './components/TextEditor'
 import { LibraryDrawer } from './components/LibraryDrawer'
 import {
@@ -254,6 +255,16 @@ export function App() {
       .catch(() => {})
   }
 
+  // Arrastar e soltar em qualquer lugar da janela: mesma porta do botão
+  // "+ Adicionar arquivos", só que sem procurar o botão.
+  const [avisoSoltura, setAvisoSoltura] = useState<string | null>(null)
+  const { pairando } = useSoltarArquivos(handleAddFiles, (quantidade) => {
+    setAvisoSoltura(
+      t(quantidade === 1 ? 'soltar.recusados' : 'soltar.recusadosPlural', { n: quantidade }),
+    )
+    window.setTimeout(() => setAvisoSoltura(null), 4000)
+  })
+
   const handleSaveText = (titulo: string, conteudo: string) => {
     const existingId = editor?.file?.id
     saveLocalText(titulo, conteudo, existingId)
@@ -412,6 +423,21 @@ export function App() {
           <button className="update-banner-button" onClick={applyUpdate}>
             {t('atualizacao.agora')}
           </button>
+        </div>
+      )}
+      {pairando && (
+        // aria-hidden: quem usa leitor de tela não arrasta arquivo, e o
+        // aviso apareceria do nada no meio da leitura
+        <div className="alvo-de-soltura" aria-hidden="true">
+          <div className="alvo-de-soltura-caixa">
+            <strong>{t('soltar.titulo')}</strong>
+            <span>{t('soltar.formatos')}</span>
+          </div>
+        </div>
+      )}
+      {avisoSoltura && (
+        <div className="toast" role="status">
+          {avisoSoltura}
         </div>
       )}
       {checkResult !== 'idle' && (

@@ -215,6 +215,10 @@ const PT = {
   'voz.parar': 'Parar leitura',
 
   // — arquivos do usuário —
+  'soltar.titulo': 'Solte para adicionar aos seus textos',
+  'soltar.formatos': 'Aceita .md e .txt',
+  'soltar.recusados': '{n} arquivo ignorado: só entram .md e .txt',
+  'soltar.recusadosPlural': '{n} arquivos ignorados: só entram .md e .txt',
   'arquivos.remover': 'Remover “{titulo}” dos seus arquivos?',
   'arquivos.removerRotulo': 'Remover {titulo}',
   'arquivos.exportarFalhou': 'Não foi possível gerar o arquivo de backup.',
@@ -456,6 +460,10 @@ const EN: Record<Chave, string> = {
   'voz.ouvir': 'Read aloud',
   'voz.parar': 'Stop reading',
 
+  'soltar.titulo': 'Drop to add to your texts',
+  'soltar.formatos': 'Accepts .md and .txt',
+  'soltar.recusados': '{n} file ignored: only .md and .txt',
+  'soltar.recusadosPlural': '{n} files ignored: only .md and .txt',
   'arquivos.remover': 'Remove “{titulo}” from your files?',
   'arquivos.removerRotulo': 'Remove {titulo}',
   'arquivos.exportarFalhou': 'Could not create the backup file.',
