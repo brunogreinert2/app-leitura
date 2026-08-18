@@ -58,10 +58,18 @@ export default defineConfig({
         display: 'standalone',
         theme_color: '#2b2620',
         background_color: '#faf7f2',
+        // Φ branco sobre preto, na Cardo — a mesma fonte com que o app
+        // escreve o texto, então o ícone é o mesmo Φ que se lê dentro.
+        //
+        // O MASCARÁVEL É UM ARQUIVO À PARTE, e precisa ser. O Android recorta
+        // o ícone num círculo de 80% do lado, e o que estoura esse limite não
+        // é a largura do glifo, é a DIAGONAL dele: o Φ cheio dá 82% e teria as
+        // pontas do haste cortadas. O mascarável usa o mesmo desenho com o
+        // glifo menor (69% de diagonal), que cabe inteiro no recorte.
         icons: [
           { src: 'icon-192.png', sizes: '192x192', type: 'image/png' },
           { src: 'icon-512.png', sizes: '512x512', type: 'image/png' },
-          { src: 'icon-512.png', sizes: '512x512', type: 'image/png', purpose: 'maskable' },
+          { src: 'icon-512-maskable.png', sizes: '512x512', type: 'image/png', purpose: 'maskable' },
         ],
         // "Abrir com > Pedra Angular" no Explorador/Finder, e arrastar o
         // arquivo para cima do ÍCONE do app. O SO entrega os arquivos pela
