@@ -87,3 +87,41 @@ export function useSoltarArquivos(
 
   return { pairando }
 }
+
+/**
+ * Arquivos entregues pelo sistema operacional: "Abrir com > Pedra Angular",
+ * ou arrastar o arquivo para cima do ÍCONE do app.
+ *
+ * Chega pela launchQueue, que só existe em Chromium de mesa. Onde não existe,
+ * a função não faz nada e ninguém percebe — o botão e o arrastar-para-dentro
+ * continuam sendo o caminho.
+ *
+ * O consumidor é registrado UMA vez e o mais cedo possível: se o app demorar a
+ * assiná-lo, o sistema já entregou os arquivos e a entrega se perde.
+ */
+export function useArquivosDoSistema(aoReceber: (arquivos: File[]) => void): void {
+  const receber = useRef(aoReceber)
+  receber.current = aoReceber
+
+  useEffect(() => {
+    const fila = (window as unknown as { launchQueue?: LaunchQueue }).launchQueue
+    if (!fila) return
+    fila.setConsumer((params) => {
+      if (!params.files?.length) return
+      Promise.all(params.files.map((h) => h.getFile()))
+        .then((arquivos) => arquivos.filter((f) => ACEITAS.test(f.name)))
+        .then((bons) => {
+          if (bons.length) receber.current(bons)
+        })
+        .catch(() => {})
+    })
+  }, [])
+}
+
+/** Tipos da File Handling API, que ainda não estão no lib.dom padrão. */
+interface LaunchParams {
+  files?: FileSystemFileHandle[]
+}
+interface LaunchQueue {
+  setConsumer(consumidor: (params: LaunchParams) => void): void
+}

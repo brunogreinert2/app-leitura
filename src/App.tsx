@@ -1,7 +1,7 @@
 import { useEffect, useMemo, useRef, useState } from 'react'
 import { Catalog } from './components/Catalog'
 import { Reader, invalidateBookCache } from './components/Reader'
-import { useSoltarArquivos } from './lib/useSoltarArquivos'
+import { useSoltarArquivos, useArquivosDoSistema } from './lib/useSoltarArquivos'
 import { TextEditor } from './components/TextEditor'
 import { LibraryDrawer } from './components/LibraryDrawer'
 import {
@@ -248,16 +248,48 @@ export function App() {
     return { livros: [...embarcados, ...personEntries, ...localEntries] }
   }, [catalog, persons, localFiles, idioma, t])
 
+  /**
+   * UM arquivo abre; VÁRIOS não.
+   *
+   * Quem arrasta um arquivo sozinho quer lê-lo — o gesto está incompleto se
+   * ele só some numa pasta. Quem arrasta um punhado está importando acervo, e
+   * aí abrir um deles ao acaso é errado duas vezes: escolhe por você e ainda
+   * te tira de onde estava lendo. Nesse caso o app só avisa quantos entraram.
+   */
   const handleAddFiles = (files: File[]) => {
     addLocalFiles(files)
-      .then(() => listLocalFiles())
-      .then(setLocalFiles)
+      .then((ids) =>
+        listLocalFiles().then((lista) => {
+          setLocalFiles(lista)
+          if (ids.length === 1) {
+            const novo = lista.find((f) => f.id === ids[0])
+            if (novo) {
+              setLibraryOpen(false)
+              setStack([
+                {
+                  id: novo.id,
+                  titulo: novo.titulo,
+                  autor: novo.autor,
+                  arquivo: `Meus arquivos/${novo.nome}`,
+                  local: true,
+                },
+              ])
+            }
+          } else if (ids.length > 1) {
+            setAvisoSoltura(t('soltar.varios', { n: ids.length }))
+            window.setTimeout(() => setAvisoSoltura(null), 4000)
+          }
+        }),
+      )
       .catch(() => {})
   }
 
   // Arrastar e soltar em qualquer lugar da janela: mesma porta do botão
   // "+ Adicionar arquivos", só que sem procurar o botão.
   const [avisoSoltura, setAvisoSoltura] = useState<string | null>(null)
+  // Arquivo aberto pelo sistema entra pela mesma porta, com a mesma regra
+  // de abrir quando é um só.
+  useArquivosDoSistema(handleAddFiles)
   const { pairando } = useSoltarArquivos(handleAddFiles, (quantidade) => {
     setAvisoSoltura(
       t(quantidade === 1 ? 'soltar.recusados' : 'soltar.recusadosPlural', { n: quantidade }),

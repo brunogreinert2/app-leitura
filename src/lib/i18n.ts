@@ -217,6 +217,7 @@ const PT = {
   // — arquivos do usuário —
   'soltar.titulo': 'Solte para adicionar aos seus textos',
   'soltar.formatos': 'Aceita .md e .txt',
+  'soltar.varios': '{n} textos adicionados aos seus arquivos',
   'soltar.recusados': '{n} arquivo ignorado: só entram .md e .txt',
   'soltar.recusadosPlural': '{n} arquivos ignorados: só entram .md e .txt',
   'arquivos.remover': 'Remover “{titulo}” dos seus arquivos?',
@@ -462,6 +463,7 @@ const EN: Record<Chave, string> = {
 
   'soltar.titulo': 'Drop to add to your texts',
   'soltar.formatos': 'Accepts .md and .txt',
+  'soltar.varios': '{n} texts added to your files',
   'soltar.recusados': '{n} file ignored: only .md and .txt',
   'soltar.recusadosPlural': '{n} files ignored: only .md and .txt',
   'arquivos.remover': 'Remove “{titulo}” from your files?',

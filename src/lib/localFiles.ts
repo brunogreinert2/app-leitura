@@ -51,9 +51,17 @@ export async function getLocalFile(id: string): Promise<LocalFile | undefined> {
   return (await db()).get('arquivos', id)
 }
 
-export async function addLocalFiles(files: Iterable<File>): Promise<number> {
+/**
+ * Grava os arquivos e devolve os IDS criados, não a contagem.
+ *
+ * O id é derivado do nome do arquivo aqui dentro; quem chama precisa dele
+ * para abrir o texto recém-adicionado. Devolver o id evita que a regra de
+ * derivação seja reescrita fora daqui — duas cópias da mesma regra é o
+ * tipo de coisa que diverge em silêncio meses depois.
+ */
+export async function addLocalFiles(files: Iterable<File>): Promise<string[]> {
   const d = await db()
-  let count = 0
+  const ids: string[] = []
   for (const file of files) {
     const nome = file.name
     if (!/\.(md|txt)$/i.test(nome)) continue
@@ -61,8 +69,9 @@ export async function addLocalFiles(files: Iterable<File>): Promise<number> {
     const tipo = /\.txt$/i.test(nome) ? 'txt' : 'md'
     const base = nome.replace(/\.(md|txt)$/i, '')
     const { meta } = tipo === 'md' ? splitFrontmatter(conteudo) : { meta: null }
+    const id = `local-${base.toLowerCase().replace(/\W+/g, '-')}`
     await d.put('arquivos', {
-      id: `local-${base.toLowerCase().replace(/\W+/g, '-')}`,
+      id,
       nome,
       titulo: cleanMetaValue(meta?.title) ?? base,
       autor: cleanMetaValue(meta?.author) ?? 'Arquivo próprio',
@@ -70,9 +79,9 @@ export async function addLocalFiles(files: Iterable<File>): Promise<number> {
       conteudo,
       criadoEm: Date.now(),
     })
-    count++
+    ids.push(id)
   }
-  return count
+  return ids
 }
 
 export async function removeLocalFile(id: string): Promise<void> {

@@ -63,6 +63,21 @@ export default defineConfig({
           { src: 'icon-512.png', sizes: '512x512', type: 'image/png' },
           { src: 'icon-512.png', sizes: '512x512', type: 'image/png', purpose: 'maskable' },
         ],
+        // "Abrir com > Pedra Angular" no Explorador/Finder, e arrastar o
+        // arquivo para cima do ÍCONE do app. O SO entrega os arquivos pela
+        // launchQueue; ver o consumidor em App.tsx.
+        //
+        // Só Chromium de mesa (Chrome/Edge). Safari e iOS ignoram, sem erro:
+        // quem estiver lá continua com o botão e com o arrastar-para-dentro.
+        file_handlers: [
+          {
+            action: '.',
+            accept: {
+              'text/markdown': ['.md'],
+              'text/plain': ['.txt'],
+            },
+          },
+        ],
         // Aparece no menu nativo de compartilhar (iOS/Android/Windows):
         // o SO abre o app com o texto já nos parâmetros da URL — sem
         // service worker, sem POST, sem rede.
