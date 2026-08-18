@@ -544,11 +544,31 @@ button {
 
 /* Φ — a marca do app (filosofia, filologia, filantropia), sempre em
    cena e clicável: abre a biblioteca */
+/* A MARCA: Φ (biblioteca) e Ξ (sumário).
+
+   Subconjunto de DOIS GLIFOS da GFS Didot, a didone grega da Greek Font
+   Society — desenhada por gregos para o grego, que é a fonte certa para a
+   marca de um acervo clássico. Dois glifos custam 1 KB; a família inteira
+   custaria 175.
+
+   O NOME É OUTRO DE PROPÓSITO. "GFS Didot" é Reserved Font Name na OFL, e
+   recortar uma fonte é modificá-la — versão modificada não pode carregar o
+   nome reservado. Licença e crédito ficam em MarcaAngular-GFSDidot-OFL.txt,
+   ao lado do arquivo. */
+@font-face {
+  font-family: 'Marca Angular';
+  font-style: normal;
+  font-weight: 400;
+  font-display: block;
+  src: url('/fonts/marca-angular.woff2') format('woff2');
+}
+
 .phi-button {
   /* Φ e Ξ são a marca do app e são LETRAS GREGAS: desenhá-las com a fonte do
      aparelho fazia a marca mudar de forma entre o computador e o celular.
-     Cardo tem o grego inteiro (NORMAS.md N72). */
-  font-family: 'Cardo', serif;
+     A Cardo fica de reserva — se a marca não carregar, o grego ainda sai
+     grego, e não um retângulo vazio. */
+  font-family: 'Marca Angular', 'Cardo', serif;
   font-weight: bold;
   font-size: 1.5rem;
   color: var(--color-accent);
