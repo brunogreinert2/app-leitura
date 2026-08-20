@@ -125,3 +125,69 @@ interface LaunchParams {
 interface LaunchQueue {
   setConsumer(consumidor: (params: LaunchParams) => void): void
 }
+
+/**
+ * Recolhe o que foi COMPARTILHADO com o app pelo sistema operacional.
+ *
+ * O service worker interceptou o POST do share_target, guardou os arquivos
+ * num Cache e redirecionou para cá com `?compartilhado=arquivos`. Aqui eles
+ * são retirados, entregues pela MESMA porta dos outros (a regra de abrir
+ * quando é um só vale igual) e APAGADOS do cache — o compartilhamento é um
+ * envio, não um depósito: deixá-lo lá faria o mesmo texto reaparecer a cada
+ * abertura do app.
+ *
+ * O parâmetro também sai da URL, senão recarregar a página repetiria a
+ * importação de algo que já não está no cache.
+ */
+const CACHE_COMPARTILHADO = 'compartilhado-v1'
+
+export function useArquivosCompartilhados(aoReceber: (arquivos: File[]) => void): void {
+  const receber = useRef(aoReceber)
+  receber.current = aoReceber
+
+  useEffect(() => {
+    const busca = new URLSearchParams(window.location.search)
+    if (busca.get('compartilhado') !== 'arquivos') return
+    let cancelado = false
+
+    const limparUrl = () => {
+      busca.delete('compartilhado')
+      const resto = busca.toString()
+      window.history.replaceState(
+        null,
+        '',
+        window.location.pathname + (resto ? '?' + resto : '') + window.location.hash,
+      )
+    }
+
+    ;(async () => {
+      try {
+        const cache = await caches.open(CACHE_COMPARTILHADO)
+        const base = window.location.pathname.replace(/[^/]*$/, '')
+        const indice = await cache.match(base + '__compartilhado')
+        if (!indice) return limparUrl()
+        const nomes: string[] = await indice.json()
+        const arquivos: File[] = []
+        for (let i = 0; i < nomes.length; i++) {
+          const r = await cache.match(`${base}__compartilhado/${i}`)
+          if (!r) continue
+          if (!ACEITAS.test(nomes[i])) continue
+          arquivos.push(new File([await r.blob()], nomes[i]))
+        }
+        await Promise.all(
+          [base + '__compartilhado', ...nomes.map((_, i) => `${base}__compartilhado/${i}`)].map(
+            (k) => cache.delete(k),
+          ),
+        )
+        limparUrl()
+        if (!cancelado && arquivos.length) receber.current(arquivos)
+      } catch {
+        limparUrl()
+      }
+    })()
+
+    return () => {
+      cancelado = true
+    }
+  }, [])
+}

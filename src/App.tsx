@@ -1,7 +1,11 @@
 import { useEffect, useMemo, useRef, useState } from 'react'
 import { Catalog } from './components/Catalog'
 import { Reader, invalidateBookCache } from './components/Reader'
-import { useSoltarArquivos, useArquivosDoSistema } from './lib/useSoltarArquivos'
+import {
+  useSoltarArquivos,
+  useArquivosDoSistema,
+  useArquivosCompartilhados,
+} from './lib/useSoltarArquivos'
 import { TextEditor } from './components/TextEditor'
 import { LibraryDrawer } from './components/LibraryDrawer'
 import {
@@ -294,6 +298,8 @@ export function App() {
   // Arquivo aberto pelo sistema entra pela mesma porta, com a mesma regra
   // de abrir quando é um só.
   useArquivosDoSistema(handleAddFiles)
+  // Arquivo vindo do "Compartilhar" do sistema entra pela mesma porta.
+  useArquivosCompartilhados(handleAddFiles)
   const { pairando } = useSoltarArquivos(handleAddFiles, (quantidade) => {
     setAvisoSoltura(
       t(quantidade === 1 ? 'soltar.recusados' : 'soltar.recusadosPlural', { n: quantidade }),

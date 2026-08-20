@@ -25,6 +25,13 @@ export default defineConfig({
         // valha de fato para a janela que está na frente.
         clientsClaim: true,
 
+        // Compartilhar ARQUIVO com o app exige POST no share_target, e um POST
+        // precisa de alguém que o intercepte — só o service worker pode. Em vez
+        // de trocar generateSW por injectManifest e reescrever o worker inteiro
+        // (precache, rota de navegação, exclusão do /rolo, clientsClaim), só se
+        // acrescenta um ouvinte. A fundação do offline fica intocada.
+        importScripts: ['compartilhar.js'],
+
         // Pré-cacheia o app e os livros embarcados (offline completo)
         globPatterns: ['**/*.{js,css,html,svg,png,md,json,woff2}'],
         // O rolo da Bíblia (4,4 MB) passa do limite padrão de 2 MiB
@@ -86,16 +93,28 @@ export default defineConfig({
             },
           },
         ],
-        // Aparece no menu nativo de compartilhar (iOS/Android/Windows):
-        // o SO abre o app com o texto já nos parâmetros da URL — sem
-        // service worker, sem POST, sem rede.
+        // Aparece no menu nativo de compartilhar. POST porque só ele carrega
+        // ARQUIVO; o texto vem junto, e o worker o converte de volta num GET
+        // com os mesmos parâmetros de antes, para o caminho que já existia na
+        // página continuar valendo sem saber que houve um POST.
+        //
+        // Android e ChromeOS atendem; Edge no Windows também. O iOS NÃO
+        // implementa a Web Share Target — lá o app nunca aparece na folha de
+        // compartilhamento, e isso é decisão da Apple, não falta nossa.
         share_target: {
-          action: '.',
-          method: 'GET',
+          action: 'compartilhar',
+          method: 'POST',
+          enctype: 'multipart/form-data',
           params: {
             title: 'title',
             text: 'text',
             url: 'url',
+            files: [
+              {
+                name: 'arquivos',
+                accept: ['text/markdown', 'text/plain', '.md', '.txt'],
+              },
+            ],
           },
         },
       },
