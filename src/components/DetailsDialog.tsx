@@ -5,6 +5,7 @@ import type { ParsedBook } from '../lib/markdown'
 import { roloUrl } from '../lib/rolo'
 import { useT, useIdiomaAtual } from './idiomaContext'
 import { rotuloDaPasta, type Tradutor, type Idioma } from '../lib/i18n'
+import type { Persistencia } from '../lib/usePersistencia'
 
 /**
  * Campos conhecidos do YAML do corpus, na ordem em que aparecem na ficha.
@@ -43,6 +44,7 @@ function linhasDoAcervo(
   catalog: CatalogData | null | undefined,
   t: Tradutor,
   idioma: Idioma,
+  persistencia: Persistencia,
 ): [string, string][] {
   if (!catalog) return [[t('biblioteca'), t('detalhes.carregando')]]
   const livros = catalog.livros
@@ -68,6 +70,22 @@ function linhasDoAcervo(
   }
   if (personagens.length) linhas.push([t('detalhes.personagens'), String(personagens.length)])
   linhas.push([t('detalhes.seusTextos'), proprios.length ? String(proprios.length) : t('detalhes.nenhumAinda')])
+  // O estado do armazenamento fica À VISTA de propósito. "Melhor esforço"
+  // significa que o navegador pode apagar os textos do usuário sem avisar, e
+  // isso é informação que o dono dos textos precisa ter ANTES de perdê-los —
+  // não depois, num console que ele nunca vai abrir.
+  linhas.push([
+    t('detalhes.armazenamento'),
+    t(
+      persistencia === 'protegido'
+        ? 'detalhes.armazenamentoProtegido'
+        : persistencia === 'melhor-esforco'
+          ? 'detalhes.armazenamentoFragil'
+          : persistencia === 'verificando'
+            ? 'detalhes.carregando'
+            : 'detalhes.armazenamentoDesconhecido',
+    ),
+  ])
   linhas.push([t('detalhes.leitura'), t('detalhes.offline')])
   linhas.push([t('detalhes.textoFonte'), t('detalhes.dominioPublico')])
   return linhas
@@ -81,10 +99,12 @@ interface Props {
   parsed: ParsedBook | null
   /** Usado só no modo acervo, para contar o que existe. */
   catalog?: CatalogData | null
+  /** Só no modo acervo: estado do armazenamento durável. */
+  persistencia?: Persistencia
 }
 
 /** Ficha do arquivo: os campos do YAML (que nunca aparecem no texto). */
-export function DetailsDialog({ open, onClose, entry, parsed, catalog }: Props) {
+export function DetailsDialog({ open, onClose, entry, parsed, catalog, persistencia = 'verificando' }: Props) {
   const t = useT()
   const caixaRef = useRef<HTMLDivElement>(null)
   useDialogoAcessivel(open, onClose, caixaRef)
@@ -113,7 +133,7 @@ export function DetailsDialog({ open, onClose, entry, parsed, catalog }: Props) 
             </button>
           </div>
           <dl className="details-list">
-            {linhasDoAcervo(catalog, t, idioma).map(([label, value]) => (
+            {linhasDoAcervo(catalog, t, idioma, persistencia).map(([label, value]) => (
               <div key={label} className="details-row">
                 <dt>{label}</dt>
                 <dd>{value}</dd>

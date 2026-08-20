@@ -29,6 +29,7 @@ import { useAppUpdate } from './lib/useAppUpdate'
 import { exportBackup, importBackup } from './lib/backup'
 import { useTelaLarga, useCabemDoisPaineis, usePaineisFixos } from './lib/useTelaLarga'
 import { useIdioma } from './lib/i18n'
+import { usePersistencia } from './lib/usePersistencia'
 import { useCicloDeRegioes } from './lib/useCicloDeRegioes'
 import { IdiomaContext } from './components/idiomaContext'
 import type { Catalog as CatalogData, CatalogEntry, PersonManifest } from './types'
@@ -113,6 +114,9 @@ export function App() {
   // Muda a key do Reader após salvar edição (re-parseia o conteúdo)
   const [bookVersion, setBookVersion] = useState(0)
   const { idioma, setIdioma, t } = useIdioma()
+  // Pede armazenamento durável logo na abertura: sem isso o navegador pode
+  // descartar textos e tema de uma vez só. Ver usePersistencia.
+  const persistencia = usePersistencia()
   // F6 troca de regiao; o Tab anda dentro dela. Ver useCicloDeRegioes.
   useCicloDeRegioes()
   const { theme, setTheme } = useTheme()
@@ -584,6 +588,7 @@ export function App() {
             entry={null}
             parsed={null}
             catalog={libraryCatalog}
+            persistencia={persistencia}
           />
         </>
       )}
