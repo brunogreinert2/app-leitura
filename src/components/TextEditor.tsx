@@ -1,6 +1,7 @@
 import { useEffect, useRef, useState, type KeyboardEvent } from 'react'
 import { useDialogoAcessivel } from '../lib/useDialogoAcessivel'
 import { useT } from './idiomaContext'
+import { EditorLocalizar } from './EditorLocalizar'
 
 interface Props {
   open: boolean
@@ -82,6 +83,8 @@ export function TextEditor({
   const areaRef = useRef<HTMLTextAreaElement>(null)
   const draftTargetRef = useRef<string>('novo')
   const draftTimer = useRef<number | undefined>(undefined)
+  // null = fechada; false = só localizar (Ctrl+F); true = com substituir (Ctrl+H)
+  const [localizar, setLocalizar] = useState<boolean | null>(null)
 
   useEffect(() => {
     if (!open) return
@@ -100,6 +103,33 @@ export function TextEditor({
     window.setTimeout(() => areaRef.current?.focus(), 100)
     // eslint-disable-next-line react-hooks/exhaustive-deps
   }, [open, initialTitle, initialContent, fileId])
+
+  /**
+   * Ctrl+F e Ctrl+H enquanto o editor está aberto.
+   *
+   * O ouvinte é de CAPTURA e na janela de propósito: a tela de leitura tem o
+   * próprio Ctrl+F num ouvinte de borbulha, e sem capturar primeiro os dois
+   * disparavam juntos — abria a busca do texto por baixo do editor.
+   */
+  useEffect(() => {
+    if (!open) return
+    // globalThis: o arquivo importa `type KeyboardEvent` do React no topo,
+    // que sombreia o do DOM — e addEventListener quer o do DOM.
+    const atalho = (e: globalThis.KeyboardEvent) => {
+      if (!(e.ctrlKey || e.metaKey) || e.altKey) return
+      const k = e.key.toLowerCase()
+      if (k !== 'f' && k !== 'h') return
+      e.preventDefault()
+      // stopImmediatePropagation, e não só stopPropagation: o ouvinte da
+      // leitura também está NA JANELA, e parar a propagação não impede os
+      // outros ouvintes do mesmo nó de rodarem. Sem isto, Ctrl+F abria as
+      // duas buscas — a do editor e a do texto por baixo dele.
+      e.stopImmediatePropagation()
+      setLocalizar(k === 'h')
+    }
+    window.addEventListener('keydown', atalho, true)
+    return () => window.removeEventListener('keydown', atalho, true)
+  }, [open])
 
   useEffect(() => {
     if (!open) return
@@ -257,6 +287,17 @@ export function TextEditor({
           {t('editor.salvar')}
         </button>
       </header>
+      <EditorLocalizar
+        aberto={localizar !== null}
+        comSubstituir={localizar === true}
+        conteudo={conteudo}
+        areaRef={areaRef}
+        onFechar={() => {
+          setLocalizar(null)
+          areaRef.current?.focus()
+        }}
+        onConteudo={setConteudo}
+      />
       <div className="editor-toolbar">
         <button className="toc-action" onClick={pasteFromClipboard}>
           {t('editor.colar')}

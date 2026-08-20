@@ -170,6 +170,15 @@ PARES_INFORMATIVOS = [("separador decorativo", "color-border", "color-bg")]
 # informação — que é o que a WCAG 1.4.1 cobra. Número baixo aqui não é reprova;
 # é aviso de que aquele tema está confiando na pista não-cromática.
 DISTINCOES_INFORMATIVAS = [
+    # ESTES DOIS SAÍRAM DO PISO, e a mudança tem data e motivo: o destaque
+    # ganhou SUBLINHADO (::highlight text-decoration, e borda no <mark>).
+    # Enquanto a cor era o único sinal, o piso de 60 valia e três temas
+    # reprovavam. Com o traço, a marca continua perceptível mesmo quando o
+    # fundo amarelo encosta no da página sob tritanopia — que é o que a WCAG
+    # 1.4.1 pede. O número segue medido e relatado, porque ele diz quanto o
+    # tema está apoiado no traço; deixou é de ser reprova.
+    ("fundo do achado x fundo da página", "hl-bg", "color-bg"),
+    ("fundo da ocorrência atual x fundo da página", "hl-cur-bg", "color-bg"),
     ("link x texto", "color-accent", "color-text"),
     ("erro x texto", "color-error", "color-text"),
     ("link x erro", "color-accent", "color-error"),
@@ -183,8 +192,6 @@ PARES_DISTINCAO = [
     # O destaque também precisa se separar do FUNDO DA PÁGINA. Se ele encosta,
     # o leitor não vê que achou nada — e é o que o amarelo faz sob tritanopia,
     # onde ele vira quase o branco do papel.
-    ("fundo do achado x fundo da página", "hl-bg", "color-bg"),
-    ("fundo da ocorrência atual x fundo da página", "hl-cur-bg", "color-bg"),
 ]
 
 LIMIAR_DISTINCAO = 60.0  # distância sRGB mínima para "ainda são duas cores"

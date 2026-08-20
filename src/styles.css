@@ -760,14 +760,36 @@ button {
   }
 }
 
+/* O DESTAQUE NÃO PODE DEPENDER SÓ DA COR (WCAG 1.4.1).
+
+   Medindo os nove temas, o fundo amarelo do achado encosta no fundo da
+   página sob tritanopia: claro 54, pergaminho 56, sépia 58, num piso de 60.
+   Quem tem tritanopia buscava uma palavra, o app a marcava, e ele não via
+   que marcou — a marca existia e era invisível.
+
+   A saída é sublinhar. `::highlight()` aceita pouca coisa: `border` e
+   `outline` são RECUSADAS pelo navegador, `text-decoration` é aceita — foi
+   preciso testar antes de escrever, e é o que sobra.
+
+   Dois traços diferentes de propósito. Todo achado leva um traço simples;
+   a ocorrência atual leva um traço DUPLO e mais grosso. Assim as três
+   perguntas se respondem sem cor nenhuma: há marca aqui? é um achado? é o
+   atual? O sublinhado é desenhado sobre o fundo do próprio destaque, onde o
+   contraste com a letra já é de no mínimo 7:1 pela régua do projeto. */
 ::highlight(busca) {
   background-color: var(--hl-bg);
   color: var(--hl-fg);
+  text-decoration: underline;
+  text-decoration-thickness: 2px;
+  text-underline-offset: 0.15em;
 }
 
 ::highlight(busca-atual) {
   background-color: var(--hl-cur-bg);
   color: var(--hl-cur-fg);
+  text-decoration: underline double;
+  text-decoration-thickness: 3px;
+  text-underline-offset: 0.15em;
 }
 
 /* ===== Biblioteca (drawer esquerdo: pastas + pesquisa) ===== */
@@ -1501,6 +1523,12 @@ button {
   color: var(--hl-fg);
   padding: 0 0.15em;
   border-radius: 0.2em;
+  /* Mesma razão do destaque de busca: sob tritanopia o bloco amarelo some
+     contra a página nos temas claros, e um realce invisível é um realce que
+     não existe. Aqui é um ELEMENTO de verdade, então aceita borda — e a cor
+     da letra do realce se vê contra a página justamente nos três temas em
+     que o bloco desaparece (claro 21.00, sépia 13.93, pergaminho 9.14). */
+  border: 1px solid currentColor;
 }
 
 /* ===== Wikilinks ===== */
@@ -2029,6 +2057,59 @@ button {
 
 .alvo-de-soltura-caixa strong { font-size: 1.15rem; }
 .alvo-de-soltura-caixa span { color: var(--color-muted); font-size: 0.9rem; }
+
+/* Barra de localizar-e-substituir do editor.
+
+   Fica ENTRE a barra de ferramentas e a área de texto, e não flutuando por
+   cima: sobreposta ela taparia justamente as linhas onde estão as
+   ocorrências, que é o que se quer ver. */
+.editor-localizar {
+  display: flex;
+  flex-direction: column;
+  gap: 0.4rem;
+  padding: 0.5rem 0.75rem;
+  border-bottom: 1px solid var(--color-borda-ui);
+  background: var(--color-surface);
+}
+
+.editor-localizar-linha {
+  display: flex;
+  gap: 0.4rem;
+  align-items: center;
+}
+
+.editor-localizar-campo {
+  flex: 1;
+  min-width: 0;
+  padding: 0.5rem 0.6rem;
+  min-height: 2.75rem;
+  font-size: 1rem;
+  color: var(--color-text);
+  background: var(--color-bg);
+  border: 1px solid var(--color-borda-ui);
+  border-radius: 0.3rem;
+}
+
+.editor-localizar-contagem {
+  font-size: 0.85rem;
+  color: var(--color-muted);
+  white-space: nowrap;
+  font-variant-numeric: tabular-nums;
+}
+
+/* Alvo de toque de 44px, como o resto do app. */
+.editor-localizar-seta {
+  min-width: 2.75rem;
+  min-height: 2.75rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.editor-localizar button[disabled] {
+  opacity: 0.45;
+  cursor: default;
+}
 
 .toast {
   position: fixed;

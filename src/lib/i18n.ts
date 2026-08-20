@@ -198,6 +198,12 @@ const PT = {
   'editor.colar': '📋 Colar da área de transferência',
   'editor.dica':
     'Digite ou cole seu texto aqui. Pode ser texto simples ou markdown — títulos com #, negrito com **, tudo vira leitura bonita.',
+  'editor.localizar': 'Localizar',
+  'editor.substituirPor': 'Substituir por',
+  'editor.substituir': 'Substituir',
+  'editor.substituirTudo': 'Substituir tudo',
+  'editor.ocorrenciaDe': '{i} de {n}',
+  'editor.semOcorrencia': 'nenhuma ocorrência',
   'editor.descartar': 'Descartar o que foi digitado?',
   'editor.colarBloqueado':
     'O navegador bloqueou a leitura da área de transferência. Toque na caixa de texto e cole (Ctrl+V ou segurar → Colar).',
@@ -447,6 +453,12 @@ const EN: Record<Chave, string> = {
   'editor.colar': '📋 Paste from clipboard',
   'editor.dica':
     'Type or paste your text here. Plain text or markdown — headings with #, bold with **, it all turns into proper reading.',
+  'editor.localizar': 'Find',
+  'editor.substituirPor': 'Replace with',
+  'editor.substituir': 'Replace',
+  'editor.substituirTudo': 'Replace all',
+  'editor.ocorrenciaDe': '{i} of {n}',
+  'editor.semOcorrencia': 'no matches',
   'editor.descartar': 'Discard what you typed?',
   'editor.colarBloqueado':
     'The browser blocked reading the clipboard. Tap the text box and paste (Ctrl+V, or hold → Paste).',
