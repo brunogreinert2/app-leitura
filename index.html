@@ -12,10 +12,63 @@
     <meta name="apple-mobile-web-app-capable" content="yes" />
     <meta name="apple-mobile-web-app-status-bar-style" content="black" />
     <meta name="apple-mobile-web-app-title" content="Leitura" />
-    <title>Leitura — Pedra Angular</title>
+
+    <!-- O TÍTULO DIZ O QUE O SITE É, e não o que ele faz. "Leitura" não casa
+         com nada que alguém procure: quem busca este acervo digita "textos
+         filosofia grego domínio público", e não havia uma palavra dessas na
+         raiz. O nome do app instalado continua vindo do manifest. -->
+    <title>Pedra Angular — biblioteca de textos-fonte de filosofia e das escrituras</title>
+    <meta
+      name="description"
+      content="Acervo gratuito de filosofia antiga e moderna e das escrituras, em grego, latim, hebraico, inglês e português. Leitura offline, sem cadastro e sem anúncios, com link permanente por Bekker, Stephanus e versículo."
+    />
+    <link rel="canonical" href="https://pedraangular.app.br/" />
+
+    <!-- Prévia ao compartilhar o link por e-mail ou mensagem: sem isto o
+         professor recebe uma URL crua, sem título nem descrição. -->
+    <meta property="og:type" content="website" />
+    <meta property="og:site_name" content="Pedra Angular" />
+    <meta property="og:title" content="Pedra Angular — textos-fonte de filosofia e das escrituras" />
+    <meta
+      property="og:description"
+      content="Acervo gratuito em grego, latim, hebraico, inglês e português. Leitura offline, sem cadastro e sem anúncios."
+    />
+    <meta property="og:url" content="https://pedraangular.app.br/" />
+    <meta property="og:image" content="https://pedraangular.app.br/icon-512.png" />
+    <meta property="og:locale" content="pt_BR" />
+    <meta name="twitter:card" content="summary" />
   </head>
   <body>
-    <div id="root"></div>
+    <!--
+      O CONTEÚDO ABAIXO É SUBSTITUÍDO PELO APP quando o React monta, e existe
+      por dois motivos que se somam.
+
+      Para máquina: até aqui a raiz entregava `<div id="root"></div>` e mais
+      nada. Quem lê o HTML sem executar JavaScript — vários robôs, e a maioria
+      dos agentes de IA — via uma casca vazia, sem uma palavra e sem um link.
+      O acervo inteiro mora em /rolo, e a raiz não apontava para lá: o /rolo
+      linkava para a raiz e a raiz não linkava de volta, então ele ficava
+      ilhado.
+
+      Para gente: numa conexão ruim, isto é o que aparece no lugar de uma tela
+      branca. Some sozinho assim que o app carrega.
+    -->
+    <div id="root">
+      <div style="max-width:34rem;margin:12vh auto;padding:0 1.5rem;font-family:Georgia,serif;color:#2b2620;line-height:1.6">
+        <p style="font-size:3rem;margin:0 0 .5rem">Φ</p>
+        <h1 style="font-size:1.5rem;margin:0 0 .75rem">Pedra Angular</h1>
+        <p>
+          Biblioteca de textos-fonte de filosofia e das escrituras, em grego, latim,
+          hebraico, inglês e português. De graça, sem cadastro, sem anúncio e sem
+          rastreamento — e funciona sem internet depois da primeira visita.
+        </p>
+        <p>
+          <a href="/rolo/" style="color:#6b3e15">Ver o acervo completo em HTML puro</a>,
+          com link permanente por Bekker, Stephanus e versículo.
+        </p>
+        <p style="color:#585049;font-size:.9rem">Carregando o leitor…</p>
+      </div>
+    </div>
     <script type="module" src="/src/main.tsx"></script>
   </body>
 </html>

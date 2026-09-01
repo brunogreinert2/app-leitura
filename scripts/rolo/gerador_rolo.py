@@ -1419,12 +1419,48 @@ def escolher_piloto(livros: list[dict]) -> list[dict]:
     return escolhidos
 
 # ---------------------------------------------------------------- main
+def gerar_sitemap(saida: Path, site: str) -> int:
+    """Lista para o buscador TODA página do rolo que vale indexar.
+
+    Sem isto o acervo é invisível: o Google descobre páginas seguindo links de
+    fora, e um projeto novo não tem links de fora. As 1097 obras existem, são
+    HTML puro e legível, e ninguém sabe que existem. O sitemap é o caminho que
+    substitui o link que não há.
+
+    A lista sai de VARRER O QUE FOI ESCRITO, e não de recompor a conta a
+    partir das fichas: assim ela não pode divergir do que está no disco. Páginas
+    com `noindex` ficam de fora — são os ids aposentados, que existem para
+    responder a endereços antigos e não para aparecer na busca duas vezes.
+    """
+    urls = [site.rstrip("/") + "/"]          # a raiz, que é o app
+    for caminho in sorted(saida.rglob("*.html")):
+        rel = caminho.relative_to(saida).as_posix()
+        # amostra só a cabeça: o corpo de uma obra pode ter megabytes
+        with caminho.open("r", encoding="utf-8", errors="replace") as fh:
+            cabeca_do_arquivo = fh.read(4096)
+        if "noindex" in cabeca_do_arquivo:
+            continue
+        urls.append(f"{site.rstrip('/')}/rolo/{rel}")
+
+    linhas = ['<?xml version="1.0" encoding="UTF-8"?>',
+              '<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">']
+    for u in urls:
+        linhas.append(f"  <url><loc>{html.escape(u)}</loc></url>")
+    linhas.append("</urlset>")
+    # Fica na RAIZ do site, e não dentro de /rolo: um sitemap só pode listar
+    # endereços do próprio diretório para baixo, e ele precisa listar a raiz.
+    (saida.parent / "sitemap.xml").write_text("\n".join(linhas) + "\n", encoding="utf-8")
+    return len(urls)
+
+
 def main() -> int:
     ap = argparse.ArgumentParser(description="Gera rolos estáticos legíveis sem JavaScript.")
     ap.add_argument("--corpus", type=Path, default=CORPUS_PADRAO)
     ap.add_argument("--template", type=Path, default=TEMPLATE_PADRAO)
     ap.add_argument("--saida", type=Path, default=SAIDA_PADRAO)
     ap.add_argument("--fontes", type=Path, default=FONTES_PADRAO)
+    ap.add_argument("--site", default="https://pedraangular.app.br",
+                    help="domínio publicado, para o sitemap")
     ap.add_argument("--piloto", action="store_true", help="amostra dura de ~30 obras")
     ap.add_argument("--tudo", action="store_true", help="todas as obras do catálogo")
     ap.add_argument("--obra", action="append", default=[], help="id específico (repetível)")
@@ -1517,6 +1553,8 @@ def main() -> int:
     gerar_indice(fichas, args.saida, colecoes, catalogo_path=catalogo)
     if n_abrev:
         print(f"  abreviaturas: {n_abrev} → {args.saida/'abreviaturas.html'}")
+    n_sitemap = gerar_sitemap(args.saida, args.site)
+    print(f"  sitemap: {n_sitemap} endereços → {args.saida.parent/'sitemap.xml'}")
     total = sum(f["bytes"] for f in fichas)
     print(f"\n✓ {len(fichas)} rolos · {total/1e6:.1f} MB · índice em {args.saida/'index.html'}")
 

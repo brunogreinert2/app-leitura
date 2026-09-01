@@ -1,0 +1,13 @@
+# Pedra Angular — biblioteca de textos-fonte de filosofia e das escrituras.
+#
+# Tudo aqui é público e feito para ser lido, inclusive por máquina: o /rolo
+# existe justamente para quem busca a URL sem executar JavaScript.
+#
+# A linha que importa é a última. O acervo é novo e ninguém linka para ele
+# de fora, e o buscador descobre páginas seguindo links: sem o sitemap não
+# existe caminho até as obras. Elas não estão escondidas, estão desligadas.
+
+User-agent: *
+Allow: /
+
+Sitemap: https://pedraangular.app.br/sitemap.xml
