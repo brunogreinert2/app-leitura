@@ -683,15 +683,18 @@ button {
   border-radius: 0.5rem;
   border: 2px solid var(--color-text);
   color: var(--color-text);
-  /* O SINAL OCUPA O QUADRADO. Em 34px sobrava folga demais dentro de uma
-     caixa de 64 x 54, e o botao lia como moldura vazia com um traco no meio.
-     `line-height: 0.8` porque a fonte reserva espaco de ascendente e
-     descendente que um "+" nao usa: sem isso o sinal desce do centro optico. */
-  font-size: 2.75rem;
-  font-weight: 700;
-  line-height: 0.8;
   min-height: 3.375rem;
   min-width: 4rem;
+}
+
+/* O SINAL OCUPA O QUADRADO. Em caractere ele parecia pequeno mesmo com o
+   corpo grande, porque a fonte reserva espaco de ascendente e descendente que
+   um "+" nao usa. Em traco, a medida e a do desenho. */
+.icone-fonte {
+  display: block;
+  width: 2rem;
+  height: 2rem;
+  flex-shrink: 0;
 }
 
 .font-button-big {
@@ -2575,7 +2578,11 @@ button {
   .font-button {
     min-width: 3.125rem;
     min-height: 2.875rem;
-    font-size: 2.25rem;
+  }
+
+  .icone-fonte {
+    width: 1.625rem;
+    height: 1.625rem;
   }
 
   .phi-button {

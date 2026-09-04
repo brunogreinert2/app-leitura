@@ -53,7 +53,10 @@ export default defineConfig({
         navigateFallbackDenylist: [/^\/rolo(\/|$)/, /^\/livros(\/|$)/],
       },
       manifest: {
-        name: 'Leitura — Pedra Angular',
+        // "Leitura —" nao acrescentava nada e aparecia DUAS vezes na barra
+        // do app instalado, que poe o nome do manifest antes do titulo da
+        // pagina. O nome do projeto ja diz o que ele e.
+        name: 'Pedra Angular',
         short_name: 'Leitura',
         description: 'Leitor offline do corpus Pedra Angular e Sapiencial',
         lang: 'pt-BR',

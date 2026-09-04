@@ -170,6 +170,18 @@ export function App() {
     listLocalFiles().then(setLocalFiles).catch(() => {})
   }, [])
 
+  /* TITULO DA JANELA: o que se esta lendo, e nao o nome do app repetido.
+
+     O app instalado poe o nome do manifest antes do titulo da pagina, e o
+     resultado era "Pedra Angular - Pedra Angular — Biblioteca de textos-fonte
+     de filosofia e das escrituras": a mesma coisa duas vezes e meia.
+
+     O titulo do HTML fica como esta, porque e o que o buscador le e foi
+     escrito para isso. Aqui ele so e trocado quando ha uma OBRA aberta — na
+     tela de boas-vindas o titulo de busca permanece intacto, que e o estado
+     em que o Google encontra a pagina. */
+  const tituloDoDocumento = useRef(document.title)
+
   // O CSS e quem empurra o conteudo (padding no body). Aqui so se declara o
   // estado: assim, se a janela encolher, a media query desliga o padding
   // sozinha e o painel volta a ser sobreposto, sem nada preso fora da tela.
@@ -251,7 +263,14 @@ export function App() {
     // "Bem-vindo ao Leitor" enquanto a barra de cima diz "Welcome to the
     // Reader", para o mesmo texto aberto. Toda outra obra passa intacta.
     const embarcados = catalog.livros.map((l) =>
-      l.id === WELCOME_ENTRY.id ? guiaDoIdioma(idioma, t) : l,
+      l.id === WELCOME_ENTRY.id
+        ? guiaDoIdioma(idioma, t)
+        : // "Sobre este projeto" segue a MESMA regra do guia, e faltava: o
+          // conteudo ja trocava de idioma, mas o titulo vinha do
+          // catalogo.json, que so guarda a versao portuguesa.
+          l.id === SOBRE_ID
+          ? sobreDoIdioma(idioma)
+          : l,
     )
     return { livros: [...embarcados, ...personEntries, ...localEntries] }
   }, [catalog, persons, localFiles, idioma, t])
@@ -366,6 +385,12 @@ export function App() {
       : noTopo?.id === SOBRE_ID
         ? sobreDoIdioma(idioma)
         : noTopo
+
+  // Ver o comentario em `tituloDoDocumento`: so troca com uma OBRA aberta.
+  useEffect(() => {
+    const ehTelaInicial = !book || book.id === WELCOME_ENTRY.id
+    document.title = ehTelaInicial ? tituloDoDocumento.current : book.titulo
+  }, [book])
 
   // Aberto por link permanente: troca o guia pela obra citada
   useEffect(() => {
