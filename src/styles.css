@@ -207,6 +207,20 @@
 /* ===== Base ===== */
 
 :root {
+  /* RECUO POR PROFUNDIDADE — uma conta so, usada pelo corpo do texto E pelo
+     sumario. Os dois mostram a mesma arvore; mostravam com passos diferentes
+     (0.32rem contra 0.7rem) e saturando em niveis diferentes (9 contra 10),
+     entao o mesmo documento parecia ter duas hierarquias. Escrito aqui, nao
+     ha como divergirem de novo.
+
+     O degrau e discreto de proposito: recuo existe para dizer "isto esta
+     dentro daquilo", e num painel de 20rem cada milimetro sai da palavra.
+     E SATURA no nivel 9 — nivel 9 e nivel 900 recuam igual, porque passado
+     esse ponto o recuo so empurra o texto sem informar mais nada. Nenhum dos
+     dois e teto de ESTRUTURA: a arvore continua sem limite. */
+  --recuo-degrau: 0.32rem;
+  --recuo-satura-em: 8;
+
   /* Tamanho de leitura ajustável pelo usuário (passo d) */
   --reading-font-size: 1.125rem;
   --reading-line-height: 1.7;
@@ -1338,12 +1352,11 @@ button {
      com `Math.min(depth, 6)`, o mesmo teto de 6 que ja caiu no corpo do
      texto. As listas aninhadas nao somam recuo proprio: se somassem, ele
      dobraria a cada nivel do DOM. */
-  /* O recuo SATURA em 7rem, e isso nao e teto de estrutura: a arvore segue
-     sem limite, so o degrau para de crescer. Medido na prova de fogo de 17
-     niveis, o recuo linear chegava a 195px num painel de 304 e o titulo
-     ficava com uma tira de 100px. Recuo existe para mostrar hierarquia; a
-     partir de certa profundidade ele so come a palavra. */
-  padding: 0.75rem 1rem 0.75rem min(7rem, calc(1rem + (var(--nivel, 1) - 1) * 0.7rem));
+  /* MESMA CONTA do corpo do texto (--recuo-degrau / --recuo-satura-em, no
+     :root). So a base muda: 1rem aqui, 0.6rem la, porque o item do sumario
+     tem a propria margem de toque. */
+  padding: 0.75rem 1rem 0.75rem
+    calc(1rem + min(var(--nivel, 1) - 1, var(--recuo-satura-em)) * var(--recuo-degrau));
   min-height: 2.75rem;
   line-height: 1.4;
 }
@@ -1765,7 +1778,7 @@ button {
      900 recuam igual (~3.2rem). O contêiner de filhos (.section-content,
      abaixo) NÃO soma nada — sem isso, cada nível real de aninhamento do
      DOM dobra o recuo (bug de dupla contagem). */
-  padding-left: calc(0.6rem + min(var(--nivel) - 1, 8) * 0.32rem);
+  padding-left: calc(0.6rem + min(var(--nivel) - 1, var(--recuo-satura-em)) * var(--recuo-degrau));
 }
 
 /* Heading de qualquer profundidade (h1..h6 e além — CommonMark trava
