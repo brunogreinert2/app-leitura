@@ -36,7 +36,21 @@ export function escolherSecao(
   return melhor
 }
 
-export function useSecaoVisivel(ids: string[], ativo: boolean): string | undefined {
+export function useSecaoVisivel(
+  ids: string[],
+  ativo: boolean,
+  /**
+   * Qualquer coisa que MUDE DE IDENTIDADE quando titulos entram ou saem do
+   * DOM — na pratica, o estado de recolhimento.
+   *
+   * Isto nao e um detalhe de implementacao: secao recolhida REMOVE o conteudo
+   * do documento (`{!isCollapsed && content}` em CollapsibleSection), entao os
+   * capitulos de dentro nao existem quando o observador e criado. Sem
+   * reconstruir, expandir um capitulo fazia nascer titulos que ninguem estava
+   * observando: a barra ficava parada no titulo do livro e nunca descia.
+   */
+  revisaoDoDom?: unknown,
+): string | undefined {
   const [secao, setSecao] = useState<string | undefined>(undefined)
 
   useEffect(() => {
@@ -70,7 +84,7 @@ export function useSecaoVisivel(ids: string[], ativo: boolean): string | undefin
       if (el) observador.observe(el)
     }
     return () => observador.disconnect()
-  }, [ids, ativo])
+  }, [ids, ativo, revisaoDoDom])
 
   return secao
 }
