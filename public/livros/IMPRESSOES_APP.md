@@ -67,6 +67,24 @@ Toque na lupa e digite:
 
 O botão **Ξ** (xi grega) abre o **sumário** do livro, com os capítulos e as ações do livro. O botão **Φ** (phi grega, a marca do app) abre a **biblioteca**, com a estrutura de pastas e uma pesquisa por título, autor ou pasta.
 
+## A bancada: deixar os painéis abertos
+
+Numa tela larga — computador, ou tablet deitado — os dois painéis param de
+cobrir o texto e passam a ficar **ao lado** dele, como uma bancada de trabalho.
+
+Abra o painel e toque no **alfinete**, no alto dele. Ele fica fixo: você lê e
+navega ao mesmo tempo, sem abrir e fechar a cada salto. Tocar de novo no
+alfinete solta o painel.
+
+O alfinete só aparece quando há espaço de verdade. A partir de mais ou menos
+800 pixels de largura cabe **um** painel ao lado do texto; a partir de 1120
+cabem **os dois**, biblioteca de um lado e sumário do outro. Entre um número e
+outro, fixar um solta o outro sozinho — dois painéis numa janela apertada
+deixariam a coluna de leitura estreita demais para servir.
+
+Se você diminuir a janela, os painéis voltam a ser sobreposição comum, com
+toque fora para fechar. Nada fica preso fora da tela.
+
 ## Navegar pelo teclado
 
 Quem não usa mouse tem dois movimentos, e a diferença entre eles é o que torna a tela navegável:
@@ -106,6 +124,21 @@ E há três caminhos que dispensam o botão:
 Um arquivo solto sozinho já **abre na tela** para leitura. Vários de uma vez entram calados na pasta, para não escolherem por você qual abrir.
 
 Seus textos ficam na pasta "Meus arquivos", **só no seu aparelho** (não sobem para lugar nenhum), funcionam sem internet e podem ser editados depois: abra o texto, toque em Ξ e em **EDITAR**. Os livros da biblioteca não podem ser editados — o acervo é intocável.
+
+### Localizar e substituir
+
+Com o editor aberto, **Ctrl+F** abre o localizar e **Ctrl+H** abre o localizar
+e substituir. Enquanto você digita, o app mostra quantas ocorrências existem e
+em qual delas você está.
+
+**Enter** vai para a próxima, **Shift+Enter** para a anterior, **Esc** fecha e
+devolve o cursor ao texto. A busca ignora maiúsculas e minúsculas: procurar
+`inclusão` acha `Inclusão` e `INCLUSÃO`.
+
+Duas coisas que valem saber. O campo de substituição aceita o texto **literal**
+— digitar `R$ 10` põe `R$ 10`, sem que o cifrão vire outra coisa. E o
+**Substituir tudo** entra como uma edição só: um **Ctrl+Z** desfaz todas as
+substituições de uma vez.
 
 ## Copiar
 

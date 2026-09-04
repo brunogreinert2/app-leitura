@@ -68,6 +68,24 @@ Tap the magnifier and type:
 
 The **Ξ** button (Greek xi) opens the book's **contents**, with its chapters and actions. The **Φ** button (Greek phi, the app's mark) opens the **library**, with the folder structure and a search by title, author or folder.
 
+## The workbench: keeping the panels open
+
+On a wide screen — a computer, or a tablet held sideways — the two panels stop
+covering the text and sit **beside** it, like a workbench.
+
+Open a panel and tap the **pin** at its top. It stays put: you read and
+navigate at the same time, without opening and closing at every jump. Tapping
+the pin again releases the panel.
+
+The pin only appears where there is real room. From about 800 pixels wide,
+**one** panel fits beside the text; from 1120, **both** do — library on one
+side, contents on the other. Between those two numbers, pinning one releases
+the other on its own: two panels in a narrow window would leave the reading
+column too thin to serve.
+
+Shrink the window and the panels go back to being ordinary overlays, closed by
+tapping outside. Nothing is left stranded off screen.
+
 ## Getting around with the keyboard
 
 If you do not use a mouse, there are two movements, and the difference between them is what makes the screen navigable:
@@ -107,6 +125,21 @@ And three ways that skip the button entirely:
 A single file dropped on its own **opens on screen** to be read. Several at once go quietly into the folder, so none of them decides for you which to open.
 
 Your texts live in the "My files" folder, **on your device only** (they are never uploaded anywhere), work offline, and can be edited later: open the text, tap Ξ and then **EDIT**. Books from the library cannot be edited — the collection is untouchable.
+
+### Find and replace
+
+With the editor open, **Ctrl+F** opens find and **Ctrl+H** opens find and
+replace. As you type, the app shows how many matches there are and which one
+you are on.
+
+**Enter** goes to the next, **Shift+Enter** to the previous, **Esc** closes and
+returns the cursor to the text. The search ignores case: looking for
+`inclusion` finds `Inclusion` and `INCLUSION`.
+
+Two things worth knowing. The replacement field takes the text **literally** —
+typing `R$ 10` puts `R$ 10`, with no special meaning for the dollar sign. And
+**Replace all** counts as a single edit: one **Ctrl+Z** undoes every
+replacement at once.
 
 ## Copying
 
