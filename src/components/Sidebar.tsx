@@ -30,6 +30,9 @@ interface Props {
   /** Presente só para textos do usuário (o corpus é intocável). */
   onEdit?: () => void
   onSelectName?: (name: string) => void
+  /** Seção sendo lida agora: ganha a barra à esquerda, como o livro aberto
+      na biblioteca. Vem do Reader, por IntersectionObserver. */
+  secaoAtual?: string
 }
 
 interface TocGroup {
@@ -66,6 +69,7 @@ export function Sidebar({
   onAlternarFixo,
   onEdit,
   onSelectName,
+  secaoAtual,
 }: Props) {
   /* Painel SOBREPOSTO se comporta como dialogo: o foco entra ao abrir, Esc
      fecha e o foco volta ao botao. Painel FIXADO nao: ali ele faz parte do
@@ -94,8 +98,11 @@ export function Sidebar({
     <li key={heading.id}>
       <div className="toc-row">
         <button
-          className={`toc-item toc-depth-${Math.min(heading.depth, 6)}`}
+          className={`toc-item toc-depth-${Math.min(heading.depth, 6)}${
+            secaoAtual === heading.id ? ' toc-item-ativo' : ''
+          }`}
           onClick={() => onNavigate?.(heading.id)}
+          aria-current={secaoAtual === heading.id ? 'location' : undefined}
         >
           {heading.text}
         </button>
@@ -119,8 +126,11 @@ export function Sidebar({
           {children.map((child) => (
             <li key={child.id}>
               <button
-                className={`toc-item toc-depth-${Math.min(child.depth, 6)}`}
+                className={`toc-item toc-depth-${Math.min(child.depth, 6)}${
+                  secaoAtual === child.id ? ' toc-item-ativo' : ''
+                }`}
                 onClick={() => onNavigate?.(child.id)}
+                aria-current={secaoAtual === child.id ? 'location' : undefined}
               >
                 {child.text}
               </button>
@@ -232,13 +242,16 @@ export function Sidebar({
           </button>
         </div>
 
-        <div className="toc-actions">
-          {onEdit && (
+        {/* A faixa so existe quando ha o que editar. Vazia, ela continuava
+            desenhando a propria borda de baixo, que somava com a da faixa do
+            DETALHES — e a linha sob DETALHES saia com o dobro da espessura. */}
+        {onEdit && (
+          <div className="toc-actions">
             <button className="toc-action toc-action-larga" onClick={onEdit}>
               {t('acao.editar')}
             </button>
-          )}
-        </div>
+          </div>
+        )}
 
         {/* O TITULO DO LIVRO DESCE para junto dos outros titulos. Ele ficava
             acima das acoes, logo abaixo de APARENCIA — no meio do menu, longe

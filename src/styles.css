@@ -683,9 +683,13 @@ button {
   border-radius: 0.5rem;
   border: 2px solid var(--color-text);
   color: var(--color-text);
-  font-size: 2.125rem;
+  /* O SINAL OCUPA O QUADRADO. Em 34px sobrava folga demais dentro de uma
+     caixa de 64 x 54, e o botao lia como moldura vazia com um traco no meio.
+     `line-height: 0.8` porque a fonte reserva espaco de ascendente e
+     descendente que um "+" nao usa: sem isso o sinal desce do centro optico. */
+  font-size: 2.75rem;
   font-weight: 700;
-  line-height: 1;
+  line-height: 0.8;
   min-height: 3.375rem;
   min-width: 4rem;
 }
@@ -1215,14 +1219,22 @@ button {
 .appearance-button {
   display: flex;
   align-items: center;
+  /* CENTRALIZADA, como DETALHES: as duas sao faixas inteiras, e faixa inteira
+     alinhada a esquerda parece item de lista, nao botao. */
+  justify-content: center;
   gap: 0.5rem;
   width: 100%;
-  min-height: 3.25rem;
+  min-height: 3.375rem;
   padding: 0 1.25rem;
   border: none;
   border-radius: 0;
   border-top: 2px solid var(--color-borda-ui);
-  color: var(--color-text);
+  /* E a de baixo tambem: sem ela, APARENCIA e a faixa do RECOLHER corriam
+     juntas, e era a unica emenda do painel sem traco. */
+  border-bottom: 2px solid var(--color-borda-ui);
+  /* Cor de ACAO, igual a DETALHES e RECOLHER. Estava em --color-text, que e
+     a cor de quem le, e nao a de quem se clica. */
+  color: var(--color-accent);
   /* Mesmo corpo e mesmo espacamento das faixas de acao: APARENCIA E uma
      acao, e estava desenhada como titulo de painel. */
   font-size: 0.9375rem;
@@ -1256,6 +1268,12 @@ button {
      embaixo, tres faixas empilhadas somavam 4px onde uma encostava na outra —
      e o sumario ficava com tracos mais grossos que a biblioteca. */
   border-bottom: 2px solid var(--color-borda-ui);
+}
+
+/* O botao APARENCIA ja traz a borda de baixo: a faixa seguinte nao repete a
+   de cima, senao as duas somam e a emenda sai com o dobro. */
+.appearance-button + .toc-actions {
+  border-top: none;
 }
 
 .toc-action {
@@ -2557,7 +2575,7 @@ button {
   .font-button {
     min-width: 3.125rem;
     min-height: 2.875rem;
-    font-size: 1.875rem;
+    font-size: 2.25rem;
   }
 
   .phi-button {
