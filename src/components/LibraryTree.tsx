@@ -67,8 +67,13 @@ function Folder({ node, expanded, onToggle, onSelect, onRemove, forceOpen, ativo
       <button className="lib-folder" onClick={() => onToggle(node.path)} aria-expanded={isOpen}>
         <span className="lib-folder-arrow">{isOpen ? '▾' : '▸'}</span>
         {rotuloDaPasta(idioma, node.name)}
+        {/* SEM PARENTESES: "5 · 467" em vez de "(5) (467)". Parenteses sao
+            pontuacao de aparte, e aqui os numeros nao sao aparte nenhum — sao
+            a propria informacao. O ponto medio separa pastas de obras sem
+            acrescentar dois sinais por linha em centenas de linhas. */}
         <span className="lib-folder-count">
-          {node.folders.length > 0 && `(${node.folders.length}) `}({countBooks(node)})
+          {node.folders.length > 0 ? `${node.folders.length} · ` : ''}
+          {countBooks(node)}
         </span>
       </button>
       {isOpen && (

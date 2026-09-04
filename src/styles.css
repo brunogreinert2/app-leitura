@@ -835,6 +835,10 @@ button {
 
 .lib-search {
   padding: 0;
+  /* Fecha a zona do cabecalho tambem na biblioteca: no sumario quem fazia
+     isso era a borda de cima do botao APARENCIA, e um painel ficava com
+     linha sob o titulo e o outro nao. */
+  border-top: 2px solid var(--color-borda-ui);
   border-bottom: 2px solid var(--color-borda-ui);
 }
 
@@ -1197,9 +1201,12 @@ button {
 
 .sidebar-header h2 {
   margin: 0;
-  font-size: 0.8125rem;
+  /* 16px, e nao os 13px do handoff: em caixa alta e com 0.18em de
+     espacamento, 13px vira etiqueta e nao titulo — e o nome do painel e a
+     unica coisa que diz onde a pessoa esta. */
+  font-size: 1rem;
   font-weight: 400;
-  letter-spacing: 0.22em;
+  letter-spacing: 0.18em;
   text-transform: uppercase;
   color: var(--color-muted);
 }
@@ -1216,10 +1223,12 @@ button {
   border-radius: 0;
   border-top: 2px solid var(--color-borda-ui);
   color: var(--color-text);
-  font-size: 0.8125rem;
+  /* Mesmo corpo e mesmo espacamento das faixas de acao: APARENCIA E uma
+     acao, e estava desenhada como titulo de painel. */
+  font-size: 0.9375rem;
   font-weight: 400;
-  letter-spacing: 0.22em;
-  text-indent: 0.22em;
+  letter-spacing: 0.12em;
+  text-indent: 0.12em;
   text-transform: uppercase;
 }
 
@@ -1243,7 +1252,9 @@ button {
   flex-wrap: nowrap;
   gap: 0;
   padding: 0;
-  border-top: 2px solid var(--color-borda-ui);
+  /* SO A BORDA DE BAIXO, igual as faixas da biblioteca. Com borda em cima E
+     embaixo, tres faixas empilhadas somavam 4px onde uma encostava na outra —
+     e o sumario ficava com tracos mais grossos que a biblioteca. */
   border-bottom: 2px solid var(--color-borda-ui);
 }
 
