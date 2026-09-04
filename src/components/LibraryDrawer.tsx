@@ -3,6 +3,8 @@ import { useDialogoAcessivel } from '../lib/useDialogoAcessivel'
 import type { Catalog as CatalogData, CatalogEntry } from '../types'
 import { LibraryTree } from './LibraryTree'
 import { IconeAlfinete } from './IconeAlfinete'
+import { GregaMeandro } from './GregaMeandro'
+import { IconeAtualizar } from './IconeAtualizar'
 import { useT } from './idiomaContext'
 
 interface Props {
@@ -24,6 +26,8 @@ interface Props {
   /** Fixar na bancada: só oferecido onde há espaço (ver useTelaLarga). */
   fixo?: boolean
   onAlternarFixo?: () => void
+  /** Id do livro aberto agora: a lista o marca com a barra à esquerda. */
+  ativo?: string
 }
 
 export function LibraryDrawer({
@@ -39,6 +43,7 @@ export function LibraryDrawer({
   onCheckUpdate,
   fixo,
   onAlternarFixo,
+  ativo,
 }: Props) {
   /* Painel SOBREPOSTO se comporta como dialogo: o foco entra ao abrir, Esc
      fecha e o foco volta ao botao. Painel FIXADO nao: ali ele faz parte do
@@ -78,6 +83,10 @@ export function LibraryDrawer({
         inert={!open}
         ref={caixaRef}
       >
+        {/* A grega abre o painel: é o mesmo meandro do alfinete e da capa do
+            glossário impresso. Marca o começo da zona sem precisar de uma
+            borda em volta dela. */}
+        <GregaMeandro className="painel-grega" />
         <div className="sidebar-header">
           <h2>{t('biblioteca')}</h2>
           {onAlternarFixo && (
@@ -105,11 +114,15 @@ export function LibraryDrawer({
           />
         </div>
         <div className="lib-import">
-          <button className="toc-action" onClick={() => fileInputRef.current?.click()}>
-            {t('biblioteca.adicionar')}
+          <button
+            className="toc-action"
+            onClick={() => fileInputRef.current?.click()}
+            aria-label={t('biblioteca.adicionar')}
+          >
+            {t('acao.adicionar')}
           </button>
-          <button className="toc-action" onClick={onNewText}>
-            {t('biblioteca.novoTexto')}
+          <button className="toc-action" onClick={onNewText} aria-label={t('biblioteca.novoTexto')}>
+            {t('acao.novo')}
           </button>
           <input
             ref={fileInputRef}
@@ -127,11 +140,15 @@ export function LibraryDrawer({
           />
         </div>
         <div className="lib-import">
-          <button className="toc-action" onClick={onExportData}>
-            {t('biblioteca.exportar')}
+          <button className="toc-action" onClick={onExportData} aria-label={t('biblioteca.exportar')}>
+            {t('acao.exportar')}
           </button>
-          <button className="toc-action" onClick={() => backupInputRef.current?.click()}>
-            {t('biblioteca.importar')}
+          <button
+            className="toc-action"
+            onClick={() => backupInputRef.current?.click()}
+            aria-label={t('biblioteca.importar')}
+          >
+            {t('acao.importar')}
           </button>
           <input
             ref={backupInputRef}
@@ -146,8 +163,16 @@ export function LibraryDrawer({
           />
         </div>
         <div className="lib-import">
-          <button className="toc-action" onClick={onCheckUpdate}>
-            {t('biblioteca.verificarAtualizacao')}
+          <button
+            className="toc-action toc-action-larga"
+            onClick={onCheckUpdate}
+            aria-label={t('biblioteca.verificarAtualizacao')}
+          >
+            <IconeAtualizar />
+            {t('acao.atualizar')}
+            {/* O atalho fica dito, e não escondido: quem descobre o F5 deixa
+                de precisar abrir o painel para atualizar. */}
+            <span className="toc-action-atalho" aria-hidden="true">F5</span>
           </button>
         </div>
         {!catalog && <p className="lib-empty">{t('biblioteca.carregando')}</p>}
@@ -157,6 +182,7 @@ export function LibraryDrawer({
             onSelect={onSelect}
             onRemove={onRemoveLocal}
             query={query}
+            ativo={ativo}
           />
         )}
       </nav>

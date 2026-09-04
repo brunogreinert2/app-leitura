@@ -11,6 +11,8 @@ interface Props {
   onRemove?: (entry: CatalogEntry) => void
   /** Busca ativa: filtra e abre tudo para mostrar os resultados. */
   query?: string
+  /** Id do livro aberto agora: ganha a barra à esquerda na lista. */
+  ativo?: string
 }
 
 interface FolderProps extends Omit<Props, 'entries' | 'query'> {
@@ -24,15 +26,21 @@ function BookButton({
   book,
   onSelect,
   onRemove,
+  ativo,
 }: {
   book: CatalogEntry
   onSelect: (e: CatalogEntry) => void
   onRemove?: (e: CatalogEntry) => void
+  ativo?: string
 }) {
   const t = useT()
   return (
     <div className="lib-book-row">
-      <button className="lib-book" onClick={() => onSelect(book)}>
+      <button
+        className={`lib-book${ativo === book.id ? ' lib-book-ativo' : ''}`}
+        onClick={() => onSelect(book)}
+        aria-current={ativo === book.id ? 'true' : undefined}
+      >
         <span className="lib-book-title">{book.titulo}</span>
         <span className="lib-book-author">{book.autor}</span>
       </button>
@@ -49,7 +57,7 @@ function BookButton({
   )
 }
 
-function Folder({ node, expanded, onToggle, onSelect, onRemove, forceOpen }: FolderProps) {
+function Folder({ node, expanded, onToggle, onSelect, onRemove, forceOpen, ativo }: FolderProps) {
   const { idioma } = useIdiomaAtual()
   // Pastas começam recolhidas: uma coleção de centenas de obras é UMA
   // linha fechada — abre só com toque (ou busca ativa)
@@ -73,12 +81,13 @@ function Folder({ node, expanded, onToggle, onSelect, onRemove, forceOpen }: Fol
               onToggle={onToggle}
               onSelect={onSelect}
               onRemove={onRemove}
+              ativo={ativo}
               forceOpen={forceOpen}
             />
           ))}
           {node.books.map((b) => (
             <li key={b.id}>
-              <BookButton book={b} onSelect={onSelect} onRemove={onRemove} />
+              <BookButton book={b} onSelect={onSelect} onRemove={onRemove} ativo={ativo} />
             </li>
           ))}
         </ul>
@@ -91,7 +100,7 @@ function countBooks(node: FolderNode): number {
   return node.books.length + node.folders.reduce((sum, f) => sum + countBooks(f), 0)
 }
 
-export function LibraryTree({ entries, onSelect, onRemove, query }: Props) {
+export function LibraryTree({ entries, onSelect, onRemove, query, ativo }: Props) {
   const [expanded, setExpanded] = useState<Set<string>>(new Set())
 
   const tree = useMemo(() => {
@@ -122,12 +131,13 @@ export function LibraryTree({ entries, onSelect, onRemove, query }: Props) {
           onToggle={toggle}
           onSelect={onSelect}
           onRemove={onRemove}
+          ativo={ativo}
           forceOpen={forceOpen}
         />
       ))}
       {tree.books.map((b) => (
         <li key={b.id}>
-          <BookButton book={b} onSelect={onSelect} onRemove={onRemove} />
+          <BookButton book={b} onSelect={onSelect} onRemove={onRemove} ativo={ativo} />
         </li>
       ))}
     </ul>

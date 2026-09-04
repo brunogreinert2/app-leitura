@@ -3,6 +3,7 @@ import { useDialogoAcessivel } from '../lib/useDialogoAcessivel'
 import type { HeadingInfo, NameEntry } from '../lib/markdown'
 import { useT } from './idiomaContext'
 import { IconeAlfinete } from './IconeAlfinete'
+import { GregaMeandro } from './GregaMeandro'
 
 interface Props {
   headings: HeadingInfo[]
@@ -158,10 +159,12 @@ export function Sidebar({
         inert={!open}
         ref={caixaRef}
       >
-        <div className="sidebar-header">
-          <button className="appearance-button" onClick={onAppearance}>
-            <span aria-hidden="true">◐</span> {t('aparencia')}
-          </button>
+        <GregaMeandro className="painel-grega" />
+        {/* ESPELHADO em relacao a biblioteca: este painel encosta na borda
+            direita, entao o alfinete vai para a borda INTERNA, junto ao Ξ que
+            o abre. O gesto fica do mesmo lado do botao que o chamou. */}
+        <div className="sidebar-header sidebar-header-direito">
+          <h2>{t('sumario')}</h2>
           {onAlternarFixo && (
             <button
               className="painel-alfinete"
@@ -178,31 +181,39 @@ export function Sidebar({
           </button>
         </div>
 
+        <button className="appearance-button" onClick={onAppearance}>
+          <span aria-hidden="true">◐</span> {t('acao.aparencia')}
+        </button>
+
         {titleGroup && <ul className="toc toc-title">{renderGroup(titleGroup)}</ul>}
 
         <div className="toc-actions">
           {onCollapseAll && (
-            <button className="toc-action" onClick={onCollapseAll}>
-              {t('sumario.recolherTudo')}
+            <button className="toc-action" onClick={onCollapseAll} aria-label={t('sumario.recolherTudo')}>
+              {t('acao.recolher')}
             </button>
           )}
           {onExpandAll && (
-            <button className="toc-action" onClick={onExpandAll}>
-              {t('sumario.expandirTudo')}
+            <button className="toc-action" onClick={onExpandAll} aria-label={t('sumario.expandirTudo')}>
+              {t('acao.expandir')}
             </button>
           )}
           {onCopy && (
-            <button className="toc-action" onClick={onCopy}>
-              {t('sumario.copiarLivro')}
+            <button className="toc-action" onClick={onCopy} aria-label={t('sumario.copiarLivro')}>
+              {t('acao.copiar')}
             </button>
           )}
           {onDownload && (
-            <button className="toc-action" onClick={onDownload}>
-              {t('sumario.baixar')}
+            <button className="toc-action" onClick={onDownload} aria-label={t('sumario.baixar')}>
+              {t('acao.baixar')}
             </button>
           )}
-          <button className="toc-action" onClick={onDetails}>
-            {t('sumario.detalhes')}
+          <button
+            className="toc-action toc-action-larga toc-action-destaque"
+            onClick={onDetails}
+            aria-label={t('sumario.detalhes')}
+          >
+            {t('acao.detalhes')}
           </button>
           {onEdit && (
             <button className="toc-action" onClick={onEdit}>

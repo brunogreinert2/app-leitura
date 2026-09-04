@@ -493,6 +493,7 @@ export function App() {
       )}
       <LibraryDrawer
         catalog={libraryCatalog}
+        ativo={book?.id}
         open={libraryOpen}
         // Fechar tambem solta o alfinete: senao o painel reabriria sozinho no
         // efeito acima, e o X pareceria nao funcionar.

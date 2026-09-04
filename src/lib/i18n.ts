@@ -40,6 +40,26 @@ const PT = {
   'biblioteca.verificarAtualizacao': '⟳ Verificar atualização',
   'biblioteca.carregando': 'Carregando catálogo…',
   'biblioteca.erro': 'Não foi possível carregar o catálogo: {erro}',
+  // RÓTULOS CURTOS das faixas de ação. A caixa alta vem do CSS, e não do
+  // texto: assim o leitor de tela ouve "Adicionar" e não "A-D-I-C-I-O-N-A-R",
+  // e a tradução continua sendo uma palavra normal.
+  //
+  // Os rótulos LONGOS acima não morreram: viraram o aria-label de cada botão.
+  // Encurtar o que se vê não pode encurtar o que se entende — "EXPORTAR"
+  // sozinho não diz exportar o quê.
+  'acao.adicionar': 'Adicionar',
+  'acao.novo': 'Novo',
+  'acao.exportar': 'Exportar',
+  'acao.importar': 'Importar',
+  'acao.atualizar': 'Atualizar',
+  'acao.recolher': 'Recolher',
+  'acao.expandir': 'Expandir',
+  'acao.copiar': 'Copiar',
+  'acao.baixar': 'Baixar',
+  'acao.detalhes': 'Detalhes',
+  'acao.editar': 'Editar',
+  'acao.aparencia': 'Aparência',
+
   'catalogo.subtitulo': 'Pedra Angular',
   'catalogo.voltar': 'Voltar ao catálogo',
 
@@ -309,6 +329,19 @@ const EN: Record<Chave, string> = {
   'biblioteca.verificarAtualizacao': '⟳ Check for updates',
   'biblioteca.carregando': 'Loading catalogue…',
   'biblioteca.erro': 'Could not load the catalogue: {erro}',
+  'acao.adicionar': 'Add',
+  'acao.novo': 'New',
+  'acao.exportar': 'Export',
+  'acao.importar': 'Import',
+  'acao.atualizar': 'Update',
+  'acao.recolher': 'Collapse',
+  'acao.expandir': 'Expand',
+  'acao.copiar': 'Copy',
+  'acao.baixar': 'Download',
+  'acao.detalhes': 'Details',
+  'acao.editar': 'Edit',
+  'acao.aparencia': 'Appearance',
+
   'catalogo.subtitulo': 'Pedra Angular',
   'catalogo.voltar': 'Back to the catalogue',
 
