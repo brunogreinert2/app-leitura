@@ -1,4 +1,4 @@
-import { useRef, useState } from 'react'
+import { useEffect, useMemo, useRef, useState } from 'react'
 import { useDialogoAcessivel } from '../lib/useDialogoAcessivel'
 import type { HeadingInfo, NameEntry } from '../lib/markdown'
 import { useT } from './idiomaContext'
@@ -35,22 +35,48 @@ interface Props {
   secaoAtual?: string
 }
 
-interface TocGroup {
+interface NoDoSumario {
   heading: HeadingInfo
-  children: HeadingInfo[]
+  filhos: NoDoSumario[]
 }
 
-/** Agrupa: h1/h2 são entradas de topo; h3+ aninham sob o h2 anterior. */
-function buildGroups(headings: HeadingInfo[]): TocGroup[] {
-  const groups: TocGroup[] = []
-  for (const h of headings) {
-    if (h.depth <= 2 || groups.length === 0) {
-      groups.push({ heading: h, children: [] })
-    } else {
-      groups[groups.length - 1].children.push(h)
+/**
+ * Arvore do sumario, na hierarquia REAL do texto e sem teto de profundidade.
+ *
+ * O modelo antigo tinha dois andares: h1 e h2 eram irmaos no topo, e so h3 em
+ * diante virava filho. Isso nao era criterio, era heranca de quando o app
+ * assumia livros simples — e produzia coisas visivelmente erradas: no Genesis,
+ * "# Genesis" e os 50 "## Capitulo" apareciam lado a lado, como se o livro
+ * fosse irmao dos proprios capitulos, e nenhum tinha seta.
+ *
+ * O corpo do texto ja respeita a hierarquia inteira desde o trabalho dos 17
+ * niveis (remarkDeepHeadings). O sumario era a peca fora do lugar.
+ *
+ * A pilha e o algoritmo todo: desempilha enquanto o topo for igual ou mais
+ * fundo, e o que sobrar no topo e o pai. Vale para 3 niveis e para 17.
+ */
+function construirArvore(headings: HeadingInfo[]): NoDoSumario[] {
+  const raiz: NoDoSumario[] = []
+  const pilha: NoDoSumario[] = []
+  for (const heading of headings) {
+    const no: NoDoSumario = { heading, filhos: [] }
+    while (pilha.length && pilha[pilha.length - 1].heading.depth >= heading.depth) pilha.pop()
+    if (pilha.length) pilha[pilha.length - 1].filhos.push(no)
+    else raiz.push(no)
+    pilha.push(no)
+  }
+  return raiz
+}
+
+/** Ids de todo no que TEM filhos — os unicos que ganham seta. */
+function idsComFilhos(nos: NoDoSumario[], fora: string[] = []): string[] {
+  for (const n of nos) {
+    if (n.filhos.length) {
+      fora.push(n.heading.id)
+      idsComFilhos(n.filhos, fora)
     }
   }
-  return groups
+  return fora
 }
 
 export function Sidebar({
@@ -78,12 +104,17 @@ export function Sidebar({
   useDialogoAcessivel(open && !fixo, onClose, caixaRef)
   const t = useT()
   const [namesOpen, setNamesOpen] = useState(false)
-  const [expanded, setExpanded] = useState<Set<string>>(new Set())
-  const groups = buildGroups(headings)
+  const arvore = useMemo(() => construirArvore(headings), [headings])
 
-  // Título do livro (h1) fica acima das ações; seções/capítulos abaixo
-  const titleGroup = groups.length && groups[0].heading.depth === 1 ? groups[0] : null
-  const sectionGroups = titleGroup ? groups.slice(1) : groups
+  /* ABRE EXPANDIDO. Aninhar de verdade encolhe muito a lista — o Genesis
+     inteiro vira uma linha —, mas cobraria um clique a mais justamente para
+     chegar num capitulo, que e o gesto mais frequente de quem le a Biblia.
+     Nascendo aberto, ganha-se a estrutura correta sem perder o caminho curto,
+     e quem quiser o sumario limpo recolhe. */
+  const [expanded, setExpanded] = useState<Set<string>>(new Set())
+  useEffect(() => {
+    setExpanded(new Set(idsComFilhos(arvore)))
+  }, [arvore])
 
   const toggle = (id: string) => {
     setExpanded((prev) => {
@@ -94,52 +125,49 @@ export function Sidebar({
     })
   }
 
-  const renderGroup = ({ heading, children }: TocGroup) => (
-    <li key={heading.id}>
-      <div className="toc-row">
-        <button
-          className={`toc-item toc-depth-${Math.min(heading.depth, 6)}${
-            secaoAtual === heading.id ? ' toc-item-ativo' : ''
-          }`}
-          onClick={() => onNavigate?.(heading.id)}
-          aria-current={secaoAtual === heading.id ? 'location' : undefined}
-        >
-          {heading.text}
-        </button>
-        {children.length > 0 && (
+  const renderNo = (no: NoDoSumario) => {
+    const { heading, filhos } = no
+    const aberto = expanded.has(heading.id)
+    return (
+      <li key={heading.id}>
+        <div className="toc-row">
           <button
-            className="toc-toggle"
-            onClick={() => toggle(heading.id)}
-            aria-expanded={expanded.has(heading.id)}
-            aria-label={
-              t(expanded.has(heading.id) ? 'sumario.recolherItem' : 'sumario.expandirItem', {
-                nome: heading.text,
-              })
-            }
+            /* A ESCALA VISUAL tem tres degraus (peso e cor), e isso NAO e um
+               teto: a estrutura e o recuo seguem a profundidade real, sem
+               limite. Mais de tres pesos numa lista vira ruido — o que diz
+               "estou fundo" e o recuo, nao mais uma variacao de cinza. */
+            className={`toc-item toc-nivel-${Math.min(heading.depth, 3)}${
+              secaoAtual === heading.id ? ' toc-item-ativo' : ''
+            }`}
+            /* O RECUO VEM DA PROFUNDIDADE REAL, sem teto: era
+               `Math.min(depth, 6)`, o mesmo teto de 6 que ja derrubamos no
+               corpo do texto. As listas aninhadas nao somam recuo proprio,
+               senao ele dobraria a cada nivel do DOM. */
+            style={{ '--nivel': heading.depth } as React.CSSProperties}
+            onClick={() => onNavigate?.(heading.id)}
+            aria-current={secaoAtual === heading.id ? 'location' : undefined}
           >
-            {expanded.has(heading.id) ? '▾' : '▸'}
+            {heading.text}
           </button>
+          {filhos.length > 0 && (
+            <button
+              className="toc-toggle"
+              onClick={() => toggle(heading.id)}
+              aria-expanded={aberto}
+              aria-label={t(aberto ? 'sumario.recolherItem' : 'sumario.expandirItem', {
+                nome: heading.text,
+              })}
+            >
+              {aberto ? '▾' : '▸'}
+            </button>
+          )}
+        </div>
+        {filhos.length > 0 && aberto && (
+          <ul className="toc-children">{filhos.map(renderNo)}</ul>
         )}
-      </div>
-      {children.length > 0 && expanded.has(heading.id) && (
-        <ul className="toc-children">
-          {children.map((child) => (
-            <li key={child.id}>
-              <button
-                className={`toc-item toc-depth-${Math.min(child.depth, 6)}${
-                  secaoAtual === child.id ? ' toc-item-ativo' : ''
-                }`}
-                onClick={() => onNavigate?.(child.id)}
-                aria-current={secaoAtual === child.id ? 'location' : undefined}
-              >
-                {child.text}
-              </button>
-            </li>
-          ))}
-        </ul>
-      )}
-    </li>
-  )
+      </li>
+    )
+  }
 
   return (
     <>
@@ -257,8 +285,7 @@ export function Sidebar({
             acima das acoes, logo abaixo de APARENCIA — no meio do menu, longe
             do sumario a que pertence. Titulo e titulo: mora com os seus. */}
         <ul className="toc">
-          {titleGroup && renderGroup(titleGroup)}
-          {sectionGroups.map(renderGroup)}
+          {arvore.map(renderNo)}
 
           {names.length > 0 && (
             <li>

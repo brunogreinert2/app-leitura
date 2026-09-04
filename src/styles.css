@@ -1334,7 +1334,16 @@ button {
 .toc-item {
   flex: 1;
   text-align: left;
-  padding: 0.75rem 1rem;
+  /* O RECUO VEM DA PROFUNDIDADE REAL (--nivel), sem teto — era `toc-depth-N`
+     com `Math.min(depth, 6)`, o mesmo teto de 6 que ja caiu no corpo do
+     texto. As listas aninhadas nao somam recuo proprio: se somassem, ele
+     dobraria a cada nivel do DOM. */
+  /* O recuo SATURA em 7rem, e isso nao e teto de estrutura: a arvore segue
+     sem limite, so o degrau para de crescer. Medido na prova de fogo de 17
+     niveis, o recuo linear chegava a 195px num painel de 304 e o titulo
+     ficava com uma tira de 100px. Recuo existe para mostrar hierarquia; a
+     partir de certa profundidade ele so come a palavra. */
+  padding: 0.75rem 1rem 0.75rem min(7rem, calc(1rem + (var(--nivel, 1) - 1) * 0.7rem));
   min-height: 2.75rem;
   line-height: 1.4;
 }
@@ -1343,19 +1352,18 @@ button {
   background: var(--color-bg);
 }
 
-.toc-depth-1 {
+/* Tres degraus de peso e cor, e so tres DE PROPOSITO. A estrutura nao tem
+   teto; a escala visual tem, porque mais de tres variacoes numa lista viram
+   ruido. Quem diz "estou fundo" e o recuo. */
+.toc-nivel-1 {
   font-weight: bold;
 }
 
-.toc-depth-2 {
+.toc-nivel-2 {
   font-weight: bold;
 }
 
-.toc-depth-3,
-.toc-depth-4,
-.toc-depth-5,
-.toc-depth-6 {
-  padding-left: 2rem;
+.toc-nivel-3 {
   color: var(--color-muted);
 }
 
