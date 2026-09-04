@@ -152,6 +152,12 @@ export function Sidebar({
           tabulaveis — quem navega por teclado atravessava dezenas de controles
           invisiveis antes de chegar ao texto. `aria-hidden` sozinho nao tira do
           Tab; `inert` tira as duas coisas de uma vez. */}
+      {/* FILETE DUPLO como elemento proprio, e nao pseudo do painel: o
+          painel tem `overflow: auto`, e um pseudo-elemento posicionado
+          fora da area de rolagem e RECORTADO — foi por isso que, fixado,
+          o painel ficou sem separacao nenhuma. Fixo na tela, ele nao
+          depende de quem rola. */}
+      {fixo && <div className="filete-duplo filete-duplo-esq" aria-hidden="true" />}
       <nav
         className={`sidebar${open ? ' sidebar-open' : ''}${fixo ? ' painel-fixo' : ''}`}
         aria-label={t('sumario')}
@@ -185,8 +191,9 @@ export function Sidebar({
           <span aria-hidden="true">◐</span> {t('acao.aparencia')}
         </button>
 
-        {titleGroup && <ul className="toc toc-title">{renderGroup(titleGroup)}</ul>}
-
+        {/* UMA FAIXA POR PAR, e nao uma faixa com tudo dentro. Com os cinco
+            botoes na mesma linha e `nowrap`, o sumario precisava de 547px num
+            painel de 304px: a faixa rolava de lado e "COPIAR" saia cortado. */}
         <div className="toc-actions">
           {onCollapseAll && (
             <button className="toc-action" onClick={onCollapseAll} aria-label={t('sumario.recolherTudo')}>
@@ -198,16 +205,24 @@ export function Sidebar({
               {t('acao.expandir')}
             </button>
           )}
-          {onCopy && (
-            <button className="toc-action" onClick={onCopy} aria-label={t('sumario.copiarLivro')}>
-              {t('acao.copiar')}
-            </button>
-          )}
-          {onDownload && (
-            <button className="toc-action" onClick={onDownload} aria-label={t('sumario.baixar')}>
-              {t('acao.baixar')}
-            </button>
-          )}
+        </div>
+
+        {(onCopy || onDownload) && (
+          <div className="toc-actions">
+            {onCopy && (
+              <button className="toc-action" onClick={onCopy} aria-label={t('sumario.copiarLivro')}>
+                {t('acao.copiar')}
+              </button>
+            )}
+            {onDownload && (
+              <button className="toc-action" onClick={onDownload} aria-label={t('sumario.baixar')}>
+                {t('acao.baixar')}
+              </button>
+            )}
+          </div>
+        )}
+
+        <div className="toc-actions">
           <button
             className="toc-action toc-action-larga toc-action-destaque"
             onClick={onDetails}
@@ -215,14 +230,21 @@ export function Sidebar({
           >
             {t('acao.detalhes')}
           </button>
+        </div>
+
+        <div className="toc-actions">
           {onEdit && (
-            <button className="toc-action" onClick={onEdit}>
-              {t('sumario.editar')}
+            <button className="toc-action toc-action-larga" onClick={onEdit}>
+              {t('acao.editar')}
             </button>
           )}
         </div>
 
+        {/* O TITULO DO LIVRO DESCE para junto dos outros titulos. Ele ficava
+            acima das acoes, logo abaixo de APARENCIA — no meio do menu, longe
+            do sumario a que pertence. Titulo e titulo: mora com os seus. */}
         <ul className="toc">
+          {titleGroup && renderGroup(titleGroup)}
           {sectionGroups.map(renderGroup)}
 
           {names.length > 0 && (

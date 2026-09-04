@@ -76,6 +76,12 @@ export function LibraryDrawer({
           tabulaveis — quem navega por teclado atravessava dezenas de controles
           invisiveis antes de chegar ao texto. `aria-hidden` sozinho nao tira do
           Tab; `inert` tira as duas coisas de uma vez. */}
+      {/* FILETE DUPLO como elemento proprio, e nao pseudo do painel: o
+          painel tem `overflow: auto`, e um pseudo-elemento posicionado
+          fora da area de rolagem e RECORTADO — foi por isso que, fixado,
+          o painel ficou sem separacao nenhuma. Fixo na tela, ele nao
+          depende de quem rola. */}
+      {fixo && <div className="filete-duplo filete-duplo-dir" aria-hidden="true" />}
       <nav
         className={`library-drawer${open ? ' library-drawer-open' : ''}${fixo ? ' painel-fixo' : ''}`}
         aria-label={t('biblioteca')}
