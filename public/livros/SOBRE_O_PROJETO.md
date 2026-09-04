@@ -17,13 +17,13 @@ Esta é a parte mais útil desta página.
 
 Nenhuma condição de visão tem uma receita única, e o que segue são **pontos de partida**, não prescrição. O certo é o que você achar confortável depois de experimentar — e experimentar é barato: nada aqui é permanente e nada estraga o texto.
 
-Todos os ajustes ficam no botão **Ξ**, em **Aparência**.
+Todos os ajustes ficam no botão **Ξ**, em **APARÊNCIA**.
 
 ## Se você tem baixa visão
 
 O corpo da letra não tem teto tímido: dá para chegar a uma ou duas palavras por tela, se for isso que ajuda.
 
-- **Corpo da letra**: aumente com **A+** até a linha ficar confortável, sem medo do exagero
+- **Corpo da letra**: aumente com o **+** da barra de cima até a linha ficar confortável, sem medo do exagero
 - **Cores**: comece por *Preto sobre branco* ou *Branco sobre preto* — são os dois de contraste máximo
 - **Peso da letra**: Grossa
 - **Espaço entre linhas**: Ampla
@@ -34,7 +34,7 @@ Se o branco parecer forte demais, *Amarelo sobre preto* costuma ser o próximo a
 
 É a dificuldade de focar de perto que aparece a partir dos quarenta e poucos. O texto está nítido, mas exige distância.
 
-- **Corpo da letra**: um ou dois toques em **A+** costumam bastar
+- **Corpo da letra**: um ou dois toques no **+** da barra de cima costumam bastar
 - **Cores**: *Sépia* cansa menos em leitura longa que o branco puro
 - **Peso da letra**: Média
 
@@ -42,7 +42,7 @@ Se o branco parecer forte demais, *Amarelo sobre preto* costuma ser o próximo a
 
 A vista de perto costuma ser excelente. Muita gente míope lê melhor com letra pequena e o aparelho próximo do rosto — e quer é caber mais texto na tela.
 
-- **Corpo da letra**: diminua com **A−** à vontade
+- **Corpo da letra**: diminua com o **−** da barra de cima à vontade
 - **Espaço entre linhas**: Mínima
 - **Peso da letra**: Fina
 

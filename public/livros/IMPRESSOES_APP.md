@@ -54,11 +54,11 @@ Use os botões **+** e **−** no alto da tela, ou o gesto de pinça com dois de
 
 ## Cores e contraste
 
-No sumário (Ξ) toque em **Aparência** e escolha o esquema que descansar seus olhos: sépia, pergaminho, preto no branco, branco no preto, amarelo no preto, verde no preto ou tons de azul. A escolha fica gravada no aparelho.
+No sumário (Ξ) toque em **APARÊNCIA** e escolha o esquema que descansar seus olhos: sépia, pergaminho, preto no branco, branco no preto, amarelo no preto, verde no preto ou tons de azul. A escolha fica gravada no aparelho.
 
 ## Buscar
 
-Toque na lupa 🔍 e digite:
+Toque na lupa e digite:
 
 - **uma palavra** — o app varre o livro inteiro, mesmo com as seções fechadas, sem diferenciar acentos ("misericordia" acha "misericórdia");
 - **uma referência** — `Gn 1:1`, `Sl 23:1`, `1Co 13:4` na Bíblia; `5.1` no Encheirídion. Enter salta direto ao endereço.
@@ -94,14 +94,22 @@ Os códigos são `^por`, `^eng`, `^lat`, `^grc`, `^heb` e `^rus`. A marca não a
 
 Na biblioteca (Φ) há dois botões:
 
-- **+ Adicionar arquivos** — traz arquivos `.md` ou `.txt` do seu aparelho para dentro do app.
-- **✏ Novo texto** — abre uma folha em branco para **digitar ou colar** qualquer coisa: uma conversa, um artigo, uma anotação. Salvou, virou leitura com tudo que o app oferece — zoom, temas, títulos recolhíveis, busca.
+- **ADICIONAR** — traz arquivos `.md` ou `.txt` do seu aparelho para dentro do app.
+- **NOVO** — abre uma folha em branco para **digitar ou colar** qualquer coisa: uma conversa, um artigo, uma anotação. Salvou, virou leitura com tudo que o app oferece — zoom, temas, títulos recolhíveis, busca.
 
-Seus textos ficam na pasta "Meus arquivos", **só no seu aparelho** (não sobem para lugar nenhum), funcionam sem internet e podem ser editados depois: abra o texto, toque em Ξ e em **✏ Editar**. Os livros da biblioteca não podem ser editados — o acervo é intocável.
+E há três caminhos que dispensam o botão:
+
+- **Arraste o arquivo** para cima da janela do app, em qualquer ponto.
+- No computador, **clique com o botão direito no arquivo → Abrir com → Pedra Angular**, ou arraste-o para cima do ícone do app.
+- **Compartilhe** o arquivo com o app pelo menu do sistema (no Android e no Windows; o iPhone não oferece isso a nenhum app instalado pelo navegador).
+
+Um arquivo solto sozinho já **abre na tela** para leitura. Vários de uma vez entram calados na pasta, para não escolherem por você qual abrir.
+
+Seus textos ficam na pasta "Meus arquivos", **só no seu aparelho** (não sobem para lugar nenhum), funcionam sem internet e podem ser editados depois: abra o texto, toque em Ξ e em **EDITAR**. Os livros da biblioteca não podem ser editados — o acervo é intocável.
 
 ## Copiar
 
-No sumário (Ξ), **"Copiar livro"** copia o arquivo inteiro, byte a byte — com front matter, âncoras e tudo. É a cópia fiel, feita para você colar num editor, mexer e devolver o arquivo à pasta.
+No sumário (Ξ), **COPIAR** copia o arquivo inteiro, byte a byte — com front matter, âncoras e tudo. É a cópia fiel, feita para você colar num editor, mexer e devolver o arquivo à pasta.
 
 No menu **⋯** há a cópia de trecho, com duas opções: **só o visível**, que ignora as seções fechadas e sai limpo de marcação, e **tudo**, que sai como está no arquivo.
 

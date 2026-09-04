@@ -55,11 +55,11 @@ Use the **+** and **−** buttons at the top, or pinch with two fingers over the
 
 ## Colours and contrast
 
-In the contents (Ξ) tap **Appearance** and choose the scheme that rests your eyes: sepia, parchment, black on white, white on black, yellow on black, green on black, or shades of blue. The choice is saved on the device.
+In the contents (Ξ) tap **APPEARANCE** and choose the scheme that rests your eyes: sepia, parchment, black on white, white on black, yellow on black, green on black, or shades of blue. The choice is saved on the device.
 
 ## Searching
 
-Tap the magnifier 🔍 and type:
+Tap the magnifier and type:
 
 - **a word** — the app sweeps the whole book, even with sections closed, ignoring accents ("misericordia" finds "misericórdia");
 - **a reference** — `Gn 1:1`, `Ps 23:1`, `1Cor 13:4` in the Bible; `5.1` in the Encheiridion. Enter jumps straight to the address. Each work uses its own abbreviation, shown on its details card.
@@ -95,14 +95,22 @@ The codes are `^por`, `^eng`, `^lat`, `^grc`, `^heb` and `^rus`. The mark does n
 
 In the library (Φ) there are two buttons:
 
-- **+ Add files** — brings `.md` or `.txt` files from your device into the app.
-- **✏ New text** — opens a blank sheet to **type or paste** anything: a conversation, an article, a note. Once saved, it becomes reading with everything the app offers — zoom, themes, collapsible headings, search.
+- **ADD** — brings `.md` or `.txt` files from your device into the app.
+- **NEW** — opens a blank sheet to **type or paste** anything: a conversation, an article, a note. Once saved, it becomes reading with everything the app offers — zoom, themes, collapsible headings, search.
 
-Your texts live in the "My files" folder, **on your device only** (they are never uploaded anywhere), work offline, and can be edited later: open the text, tap Ξ and then **✏ Edit**. Books from the library cannot be edited — the collection is untouchable.
+And three ways that skip the button entirely:
+
+- **Drag the file** onto the app window, anywhere on it.
+- On a computer, **right-click the file → Open with → Pedra Angular**, or drag it onto the app's icon.
+- **Share** the file with the app from the system menu (Android and Windows; the iPhone offers this to no browser-installed app).
+
+A single file dropped on its own **opens on screen** to be read. Several at once go quietly into the folder, so none of them decides for you which to open.
+
+Your texts live in the "My files" folder, **on your device only** (they are never uploaded anywhere), work offline, and can be edited later: open the text, tap Ξ and then **EDIT**. Books from the library cannot be edited — the collection is untouchable.
 
 ## Copying
 
-In the contents (Ξ), **"Copy book"** copies the whole file, byte for byte — front matter, anchors and all. It is the faithful copy, meant for you to paste into an editor, work on it, and return the file to its folder.
+In the contents (Ξ), **COPY** copies the whole file, byte for byte — front matter, anchors and all. It is the faithful copy, meant for you to paste into an editor, work on it, and return the file to its folder.
 
 In the **⋯** menu there is the passage copy, with two options: **visible only**, which ignores closed sections and comes out clean of markup, and **everything**, which comes out as it is in the file.
 

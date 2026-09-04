@@ -17,13 +17,13 @@ This is the most useful part of this page.
 
 No eye condition has a single recipe, and what follows are **starting points**, not prescriptions. The right setting is whatever feels comfortable once you try it — and trying is cheap: nothing here is permanent and nothing damages the text.
 
-All settings live under the **Ξ** button, in **Appearance**.
+All settings live under the **Ξ** button, in **APPEARANCE**.
 
 ## If you have low vision
 
 Text size has no timid ceiling: you can reach one or two words per screen if that is what helps.
 
-- **Text size**: press **A+** until the line feels comfortable; do not fear the extremes
+- **Text size**: press the **+** in the top bar until the line feels comfortable; do not fear the extremes
 - **Colours**: start with *Black on white* or *White on black* — the two maximum-contrast pairs
 - **Letter weight**: Heavy
 - **Line spacing**: Wide
@@ -34,7 +34,7 @@ If white feels too strong, *Yellow on black* is usually the next one to try.
 
 The difficulty focusing up close that shows up in your forties. The text is sharp, but it demands distance.
 
-- **Text size**: one or two taps on **A+** usually suffice
+- **Text size**: one or two taps on the **+** in the top bar usually suffice
 - **Colours**: *Sepia* tires less than pure white over a long read
 - **Letter weight**: Medium
 
@@ -42,7 +42,7 @@ The difficulty focusing up close that shows up in your forties. The text is shar
 
 Near vision is often excellent. Many short-sighted people read best at small sizes with the device close to the face — and want more text on screen, not less.
 
-- **Text size**: shrink freely with **A−**
+- **Text size**: shrink freely with **−**
 - **Line spacing**: Minimum
 - **Letter weight**: Light
 
