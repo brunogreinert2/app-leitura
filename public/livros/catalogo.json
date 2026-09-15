@@ -6654,6 +6654,54 @@
       "titulo": "Eclesiastes",
       "autor": "null",
       "arquivo": "BIBLIAS/Grego/Antigo_Testamento_Grego/27_Eclesiastes_grc_stx_indeterminado.md"
+    },
+    {
+      "id": "spinoza-ethics-en-elwes-1883",
+      "titulo": "Ethics",
+      "autor": "Baruch de Spinoza",
+      "arquivo": "FILOSOFIA/Ingles/Moderna/Spinoza/Ethics/Ethics_en_Elwes_1883.md"
+    },
+    {
+      "id": "cicero-de-re-publica-pt-anonimo-sd",
+      "titulo": "Da República",
+      "autor": "Marco Túlio Cícero",
+      "arquivo": "FILOSOFIA/Portugues/Filosofia_Republicana/Cicero/De_Re_Publica/De_Re_Publica_pt_Anonimo_sd.md"
+    },
+    {
+      "id": "schopenhauer-o-mundo-como-vontade-e-representacao-livro-iii-pt-maar-sd",
+      "titulo": "O Mundo como Vontade e Representação — Livro III",
+      "autor": "Arthur Schopenhauer",
+      "arquivo": "FILOSOFIA/Portugues/Idealismo_Alemao/Schopenhauer/O_Mundo_Como_Vontade_E_Representacao/O_Mundo_Como_Vontade_E_Representacao_Livro_III_pt_Maar_sd.md"
+    },
+    {
+      "id": "machiavelli-o-principe-pt-anonimo-sd",
+      "titulo": "O Príncipe",
+      "autor": "Niccolò Machiavelli",
+      "arquivo": "FILOSOFIA/Portugues/Renascimento/Machiavelli/O_Principe/O_Principe_pt_Anonimo_sd.md"
+    },
+    {
+      "id": "sofocles-antigone-pt-mellosouza-sd",
+      "titulo": "Antígone",
+      "autor": "Sófocles",
+      "arquivo": "FILOSOFIA/Portugues/Tragedia_Grega/Sofocles/Antigone/Antigone_pt_MelloSouza_sd.md"
+    },
+    {
+      "id": "sofocles-rei-edipo-pt-mellosouza-sd",
+      "titulo": "Rei Édipo",
+      "autor": "Sófocles",
+      "arquivo": "FILOSOFIA/Portugues/Tragedia_Grega/Sofocles/Rei_Edipo/Rei_Edipo_pt_MelloSouza_sd.md"
+    },
+    {
+      "id": "impressoes-app-2",
+      "titulo": "Welcome to the Reader",
+      "autor": "—",
+      "arquivo": "IMPRESSOES_APP.en.md"
+    },
+    {
+      "id": "sobre-o-projeto-2",
+      "titulo": "About this project",
+      "autor": "—",
+      "arquivo": "SOBRE_O_PROJETO.en.md"
     }
   ],
   "redirecionamentos": {
