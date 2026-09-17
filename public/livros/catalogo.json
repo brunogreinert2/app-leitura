@@ -6702,6 +6702,24 @@
       "titulo": "About this project",
       "autor": "—",
       "arquivo": "SOBRE_O_PROJETO.en.md"
+    },
+    {
+      "id": "kant-critica-da-razao-pura-pt-merege-2001",
+      "titulo": "Crítica da Razão Pura",
+      "autor": "Immanuel Kant",
+      "arquivo": "FILOSOFIA/Portugues/Idealismo_Alemao/Kant/Critica_da_Razao_Pura/Critica_da_Razao_Pura_pt_Merege_2001.md"
+    },
+    {
+      "id": "nietzsche-assim-falava-zaratustra-pt-mendesdesouza-2002",
+      "titulo": "Assim Falava Zaratustra",
+      "autor": "Friedrich Nietzsche",
+      "arquivo": "FILOSOFIA/Portugues/Idealismo_Alemao/Nietzsche/Assim_Falava_Zaratustra/Assim_Falava_Zaratustra_pt_MendesDeSouza_2002.md"
+    },
+    {
+      "id": "rousseau-discurso-sobre-as-ciencias-e-as-artes-pt-anonimo-2001",
+      "titulo": "Discurso Sobre as Ciências e as Artes",
+      "autor": "Jean-Jacques Rousseau",
+      "arquivo": "FILOSOFIA/Portugues/Iluminismo/Rousseau/Discurso_Sobre_as_Ciencias_e_as_Artes/Discurso_Sobre_as_Ciencias_e_as_Artes_pt_Anonimo_2001.md"
     }
   ],
   "redirecionamentos": {
