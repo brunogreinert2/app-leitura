@@ -4,7 +4,47 @@
     <meta charset="UTF-8" />
     <!-- Sem user-scalable=no nem maximum-scale: pinch-to-zoom nativo é requisito (baixa visão) -->
     <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <meta name="theme-color" content="#2b2620" />
+    <meta name="theme-color" content="#ffffff" />
+
+    <!-- ARRANQUE SEM LAMPEJO.
+
+         Cor, fonte, corpo da letra, peso do traço e espaçamento são aplicados
+         pelo React em efeitos — depois da primeira pintura. Até aqui, toda
+         abertura mostrava um lampejo do tema padrão antes de virar o tema
+         escolhido. Pelo "Abrir com" do Explorador ficava gritante, porque ali
+         a partida é mais longa: janela nova, service worker, arquivo a ler.
+
+         Este script roda ANTES do <body> existir, então a primeira pintura já
+         sai certa. Ele é deliberadamente BURRO: repete o texto que o app
+         gravou (ver src/lib/aparenciaInicial.ts) sem saber o que significa.
+         Reconstruir os ajustes aqui exigiria copiar as tabelas de fonte e de
+         peso para dentro do HTML, e duas cópias da mesma tabela divergem.
+
+         Na primeira abertura não há nada gravado: aí vale o sistema
+         operacional, claro ou escuro, como faz qualquer app hoje. -->
+    <script>
+      (function () {
+        var raiz = document.documentElement
+        try {
+          var a = JSON.parse(localStorage.getItem('app-aparencia') || '{}')
+          if (a.css) raiz.style.cssText = a.css
+          if (a.tema) raiz.dataset.theme = a.tema
+          if (a.cor) {
+            var m = document.querySelector('meta[name="theme-color"]')
+            if (m) m.setAttribute('content', a.cor)
+          }
+          // Nada gravado E nenhuma escolha feita: segue o sistema. O claro é a
+          // ausência de atributo, então só o escuro precisa ser escrito.
+          if (!a.tema && !localStorage.getItem('app-theme')) {
+            if (window.matchMedia && matchMedia('(prefers-color-scheme: dark)').matches) {
+              raiz.dataset.theme = 'escuro'
+            }
+          }
+        } catch (e) {
+          // Armazenamento bloqueado: o app abre no padrão, como antes.
+        }
+      })()
+    </script>
     <link rel="icon" type="image/png" href="/icon-192.png" />
     <!-- iOS não instala sozinho: Compartilhar → Adicionar à Tela de Início -->
     <link rel="apple-touch-icon" href="/apple-touch-icon.png" />
@@ -64,7 +104,7 @@
       branca. Some sozinho assim que o app carrega.
     -->
     <div id="root">
-      <div style="max-width:34rem;margin:12vh auto;padding:0 1.5rem;font-family:Georgia,serif;color:#2b2620;line-height:1.6">
+      <div style="max-width:34rem;margin:12vh auto;padding:0 1.5rem;font-family:Georgia,serif;color:var(--color-text);line-height:1.6">
         <p style="font-size:3rem;margin:0 0 .5rem">Φ</p>
         <h1 style="font-size:1.5rem;margin:0 0 .75rem">Pedra Angular</h1>
         <p>
@@ -73,10 +113,10 @@
           rastreamento — e funciona sem internet depois da primeira visita.
         </p>
         <p>
-          <a href="/rolo/" style="color:#6b3e15">Ver o acervo completo em HTML puro</a>,
+          <a href="/rolo/" style="color:var(--color-accent)">Ver o acervo completo em HTML puro</a>,
           com link permanente por Bekker, Stephanus e versículo.
         </p>
-        <p style="color:#585049;font-size:.9rem">Carregando o leitor…</p>
+        <p style="color:var(--color-muted);font-size:.9rem">Carregando o leitor…</p>
       </div>
     </div>
     <script type="module" src="/src/main.tsx"></script>

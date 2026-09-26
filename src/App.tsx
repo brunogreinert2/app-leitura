@@ -34,6 +34,7 @@ import { exportBackup, importBackup } from './lib/backup'
 import { useTelaLarga, useCabemDoisPaineis, usePaineisFixos } from './lib/useTelaLarga'
 import { useIdioma } from './lib/i18n'
 import { usePersistencia } from './lib/usePersistencia'
+import { useGuardarAparencia } from './lib/aparenciaInicial'
 import { useCicloDeRegioes } from './lib/useCicloDeRegioes'
 import { IdiomaContext } from './components/idiomaContext'
 import type { Catalog as CatalogData, CatalogEntry, PersonManifest } from './types'
@@ -134,6 +135,9 @@ export function App() {
   // Depende do corpo: a entrelinha e um multiplo dele, e o encaixe na grade
   // de pixels precisa refazer a conta a cada A+/A-.
   const { entrelinha, setEntrelinha } = useEntrelinha(corpoDaLetra)
+  // DEPOIS de todos os ajustes acima: guarda o resultado para o proximo
+  // arranque nao piscar o tema padrao. Ver aparenciaInicial.ts.
+  useGuardarAparencia()
   const [menuOpen, setMenuOpen] = useState(false)
   // Painel fixo so faz sentido onde ha espaco: abaixo de 64rem, os dois
   // abertos deixariam menos de 25rem para a coluna de leitura.

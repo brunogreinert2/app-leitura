@@ -235,18 +235,26 @@
   --reading-stroke: 0.019em;
 
   /* Tema Sépia (padrão): leitura confortável, ~13:1 */
-  --color-bg: #faf7f2;
-  --color-text: #2b2620;
-  --color-muted: #585049;
-  --color-accent: #6b3e15;
+  /* PADRAO = PRETO SOBRE BRANCO, e o escuro entra pelo sistema (ver o script
+     de arranque no index.html). O sepia era o padrao e passou a ser mais uma
+     escolha: ele resolve leitura longa, mas e uma decisao estetica forte para
+     quem abre o app pela primeira vez, e nao havia por que impo-la.
+
+     Aqui valem as mesmas 12 variaveis de qualquer tema. O tema claro NAO tem
+     bloco [data-theme] proprio: ele e a ausencia de atributo, como o sepia era
+     antes. Um tema tem que morar em algum lugar, e o lugar do padrao e este. */
+  --color-bg: #ffffff;
+  --color-text: #000000;
+  --color-muted: #2e2e2e;
+  --color-accent: #0000b4;
   --color-surface: #ffffff;
-  --color-border: #e0d8cc;
-  --color-borda-ui: #8a8377;
-  --shadow-color: rgba(43, 38, 32, 0.25);
-  --color-error: #8b2500;
-  --hl-bg: #f5d76e;
-  --hl-fg: #2b2620;
-  --hl-cur-bg: #7a3a05;
+  --color-border: #5a5a5a;
+  --color-borda-ui: #5a5a5a;
+  --shadow-color: rgba(0, 0, 0, 0.4);
+  --color-error: #8f0000;
+  --hl-bg: #ffe600;
+  --hl-fg: #000000;
+  --hl-cur-bg: #0000b4;
   --hl-cur-fg: #ffffff;
 
   /* Anel de foco de teclado. Segue o acento de cada tema por herança: como
@@ -267,20 +275,21 @@
  * sobre preto"; polaridade clara e escura à escolha do usuário.
  */
 
-[data-theme='claro'] {
-  --color-bg: #ffffff;
-  --color-text: #000000;
-  --color-muted: #2e2e2e;
-  --color-accent: #0000b4;
+/* O sepia, que era o :root, agora mora aqui como qualquer outro tema. */
+[data-theme='sepia'] {
+  --color-bg: #faf7f2;
+  --color-text: #2b2620;
+  --color-muted: #585049;
+  --color-accent: #6b3e15;
   --color-surface: #ffffff;
-  --color-border: #5a5a5a;
-  --color-borda-ui: #5a5a5a;
-  --shadow-color: rgba(0, 0, 0, 0.4);
-  --hl-bg: #ffe600;
-  --hl-fg: #000000;
-  --hl-cur-bg: #0000b4;
+  --color-border: #e0d8cc;
+  --color-borda-ui: #8a8377;
+  --shadow-color: rgba(43, 38, 32, 0.25);
+  --color-error: #8b2500;
+  --hl-bg: #f5d76e;
+  --hl-fg: #2b2620;
+  --hl-cur-bg: #7a3a05;
   --hl-cur-fg: #ffffff;
-  --color-error: #8f0000;
   color-scheme: light;
 }
 

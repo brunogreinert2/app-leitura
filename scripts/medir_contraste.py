@@ -121,13 +121,22 @@ def distancia_percebida(c1: str, c2: str, tipo: str | None = None) -> float:
 
 
 # ---------------------------------------------------------------- temas
+# Nome do tema que mora no :root, isto e, o que o app abre quando ninguem
+# escolheu nada. Uma linha so, para a troca de padrao ser uma troca de linha.
+TEMA_PADRAO = "claro"
+
+
 def ler_temas(css: Path) -> dict[str, dict[str, str]]:
     """Lê as variáveis direto do CSS publicado — medir uma cópia digitada à mão
     seria medir outra coisa."""
     texto = css.read_text(encoding="utf-8")
     temas: dict[str, dict[str, str]] = {}
     for m in re.finditer(r"(:root|\[data-theme='([^']+)'\])\s*\{(.*?)\n\}", texto, re.S):
-        nome = "sepia" if m.group(1) == ":root" else m.group(2)
+        # O :root E o tema padrao, e o padrao MUDA: era o sepia, hoje e o
+        # claro. Escrever o nome aqui era supor que ele nunca mudaria — e
+        # na troca o medidor passou a ler 8 temas em vez de 9, porque o
+        # bloco novo do sepia sobrescreveu a entrada do :root.
+        nome = TEMA_PADRAO if m.group(1) == ":root" else m.group(2)
         bloco = m.group(3)
         vars_ = dict(re.findall(r"--([a-z0-9-]+):\s*([^;]+);", bloco))
         if "color-bg" not in vars_:

@@ -46,21 +46,50 @@ export type ThemeId = (typeof THEMES)[number]['id']
 
 const STORAGE_KEY = 'app-theme'
 
+/** O tema que o sistema operacional esta pedindo agora. */
+function temaDoSistema(): ThemeId {
+  return window.matchMedia?.('(prefers-color-scheme: dark)').matches ? 'escuro' : 'claro'
+}
+
+function temaSalvo(): ThemeId | null {
+  const s = localStorage.getItem(STORAGE_KEY)
+  return THEMES.some((t) => t.id === s) ? (s as ThemeId) : null
+}
+
 export function useTheme() {
-  const [theme, setTheme] = useState<ThemeId>(() => {
-    const saved = localStorage.getItem(STORAGE_KEY)
-    return THEMES.some((t) => t.id === saved) ? (saved as ThemeId) : 'sepia'
-  })
+  const [theme, definir] = useState<ThemeId>(() => temaSalvo() ?? temaDoSistema())
+
+  /* SEGUE O SISTEMA ENQUANTO NINGUEM ESCOLHEU, e para de seguir no instante
+     em que alguem escolhe. E a diferenca entre "ainda nao decidi" e "decidi
+     que quero claro": no segundo caso, anoitecer nao pode virar o app.
+
+     Por isso `escolher` grava e `definir` nao: gravar aqui tornaria a
+     primeira leitura do sistema uma escolha do usuario, e o app deixaria de
+     acompanhar o sistema na primeira vez que abrisse. */
+  useEffect(() => {
+    if (temaSalvo()) return
+    const mq = window.matchMedia?.('(prefers-color-scheme: dark)')
+    if (!mq) return
+    const aoVirar = () => definir(temaDoSistema())
+    mq.addEventListener('change', aoVirar)
+    return () => mq.removeEventListener('change', aoVirar)
+  }, [theme])
 
   useEffect(() => {
-    localStorage.setItem(STORAGE_KEY, theme)
-    if (theme === 'sepia') delete document.documentElement.dataset.theme
+    // O claro e a AUSENCIA de atributo: ele mora no :root, como o sepia
+    // morava antes. Ver o comentario no topo de styles.css.
+    if (theme === 'claro') delete document.documentElement.dataset.theme
     else document.documentElement.dataset.theme = theme
     const def = THEMES.find((t) => t.id === theme)
-    document
-      .querySelector('meta[name="theme-color"]')
-      ?.setAttribute('content', def ? def.bg : '#2b2620')
+    if (def) {
+      document.querySelector('meta[name="theme-color"]')?.setAttribute('content', def.bg)
+    }
   }, [theme])
+
+  const setTheme = (id: ThemeId) => {
+    localStorage.setItem(STORAGE_KEY, id)
+    definir(id)
+  }
 
   return { theme, setTheme }
 }
