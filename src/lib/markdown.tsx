@@ -17,6 +17,7 @@ import { remarkHebrew } from './remarkHebrew'
 import { remarkGrego } from './remarkGrego'
 import { remarkHighlight } from './remarkHighlight'
 import { remarkInterlinear } from './remarkInterlinear'
+import { remarkVerso } from './remarkVerso'
 import { liftDeepHeadingMarkers, remarkDeepHeadingDepth } from './remarkDeepHeadings'
 import { FootnoteRef } from '../components/FootnoteRef'
 import { BackrefLink } from '../components/BackrefLink'
@@ -68,6 +69,7 @@ const processor = unified()
   .use(remarkGfm)
   .use(remarkDeepHeadingDepth)
   .use(remarkInterlinear)
+  .use(remarkVerso)
   .use(remarkIdiomaAncora)
   .use(remarkBlockAnchors)
   .use(remarkWikilinks)

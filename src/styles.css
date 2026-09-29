@@ -1593,6 +1593,17 @@ button {
   margin-bottom: 0;
 }
 
+/* Citação em verso (```verso, remarkVerso.ts): um parágrafo, uma linha por
+   verso (o pre-line acima), recuado como na página impressa. */
+.reader-body p.verso {
+  margin-left: 2em;
+}
+
+/* Colofão da edição (campo colophon, D23): afastado do fim do texto. */
+.reader-body blockquote.colofao-obra {
+  margin-top: 3em;
+}
+
 .reader-body hr {
   border: none;
   border-top: 1px solid var(--color-border);

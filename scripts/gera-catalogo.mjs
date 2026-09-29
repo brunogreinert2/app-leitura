@@ -55,7 +55,12 @@ for (const full of walk(root)) {
     autor: yamlString(fm, 'author') ?? '—',
     arquivo,
   }
-  const ref = yamlString(fm, 'sistema_referencia')
+  // reference_system é o nome do esquema do acervo (2026-09-29); o valor novo
+  // volta ao vocabulário que o catálogo sempre usou. sistema_referencia é o
+  // nome antigo, lido enquanto a migração não chegar a todas as obras.
+  const DO_ESQUEMA = { verse: 'versiculo', 'chapter-section': 'capitulo-secao', 'book-line': 'livro-verso' }
+  const novo = yamlString(fm, 'reference_system')
+  const ref = (novo && (DO_ESQUEMA[novo] ?? novo)) ?? yamlString(fm, 'sistema_referencia')
   if (ref) entry.sistema_referencia = ref
   added.push(entry)
 }

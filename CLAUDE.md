@@ -96,6 +96,16 @@ Textos longos (capítulos bíblicos inteiros, verbetes extensos) precisam rolar 
   arquivo novo com qualquer erro.
 - **Nunca editar à mão** `publicados/` nem `base_validacao.tsv`: o portão os
   atualiza e os põe no commit.
+- **Apelidos (LEI 6):** um id publicado que sai do texto vive em
+  `public/livros/_apelidos/<id>.json` (`{"marker-216": "marker-216a"}`). O
+  rolo emite o id antigo, vazio, antes do elemento novo; o app o consulta
+  quando um link de passagem não acha o alvo (`resolverPorApelido`); o
+  portão aceita id publicado com apelido válido. Apagar um apelido barra o
+  commit. Primeiros 496: os `marker-N` falsos que o rolo dava às notas até
+  2026-09-29 (hoje a chamada de nota tem id próprio, `nota-ref-N`).
+- **Marcador canônico:** `MARKER_RE` (src/lib/remarkMarkers.ts, única cópia no
+  app) e `RX_MARCADOR` (gerador_rolo.py) são idênticos e aceitam quantos níveis
+  a tradição tiver (`[1.1.1]`). Mexeu num, mexa no outro.
 - Plano e decisões: `C:\Claude\Saneamento\` (Proposta, FASE0_NORMAS, CONTINUAR_AQUI).
 
 ## Documentos

@@ -124,6 +124,10 @@ document.documentElement.classList.add('js');
   .paragrafo{font-size:calc(1.02rem*var(--font-scale));line-height:1.68;padding:.3rem 1.2rem 1rem 1.7rem;margin:0;}
   .paragrafo[dir="rtl"]{padding:.3rem 1.7rem 1rem 1.2rem;}
   .paragrafo.citacao{border-left:3px solid var(--accent-soft);margin-left:1.2rem;padding-left:1rem;opacity:.9;font-style:italic;}
+  /* ```verso (D3): a citação em verso, uma linha por verso, recuada como na página impressa */
+  .paragrafo.verso{margin-left:2.4rem;}
+  /* colofão (D23): a assinatura da edição, afastada do texto */
+  .paragrafo.colofao-obra{margin-top:2.5rem;}
   .paragrafo.item::before{content:"· ";color:var(--accent);}
   .regua{border:none;border-top:1px dashed var(--line);margin:1rem 1.7rem;}
   .idioma-tag{font-family:var(--mono);font-size:.68em;color:var(--accent);opacity:.75;

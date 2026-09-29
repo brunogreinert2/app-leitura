@@ -46,7 +46,9 @@ sys.path.insert(0, str(REPO / "scripts" / "rolo"))
 import validar_corpus as vc          # noqa: E402
 import gerador_rolo as gr            # noqa: E402
 
-RE_ID_PUBLICADO = re.compile(r'\sid="((?:anchor|marker)-[^"]+)"')
+# nota-ref (2026-09-29): a chamada de nota passou a ter id no rolo; entra no
+# registro como qualquer endereço, e nunca mais some.
+RE_ID_PUBLICADO = re.compile(r'\sid="((?:anchor|marker|nota-ref)-[^"]+)"')
 
 
 # --------------------------------------------------------------------------
@@ -120,11 +122,20 @@ def conferir_lei6(obras_a_conferir, por_arquivo, redirec) -> list[str]:
         destino = obra if obra in atual else redirec.get(obra)
         if destino not in atual:
             continue                                    # já relatado acima
-        faltam = antigos - ids_da_obra(atual[destino])
+        ids_hoje = ids_da_obra(atual[destino])
+        apelidos = ler_apelidos(destino)
+        # Id publicado que saiu do texto vale pelo apelido (livros/_apelidos/),
+        # mas só se o apelido levar a um id que existe hoje.
+        faltam = {a for a in antigos - ids_hoje if apelidos.get(a) not in ids_hoje}
         if faltam:
             ex = ", ".join(sorted(faltam)[:5])
-            falhas.append(f"{obra}: {len(faltam)} âncora(s) publicada(s) sumiram — ex.: {ex}")
+            falhas.append(f"{obra}: {len(faltam)} âncora(s) publicada(s) sumiram, sem apelido válido — ex.: {ex}")
     return falhas
+
+
+def ler_apelidos(obra: str) -> dict[str, str]:
+    p = LIVROS / "_apelidos" / f"{obra}.json"
+    return json.loads(p.read_text(encoding="utf-8")) if p.exists() else {}
 
 
 # --------------------------------------------------------------------------

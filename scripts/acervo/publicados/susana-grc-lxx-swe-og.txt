@@ -44,3 +44,5 @@ anchor-susog-1-62b
 anchor-susog-1-7
 anchor-susog-1-8
 anchor-susog-1-9
+nota-ref-pa1
+nota-ref-pa1-2

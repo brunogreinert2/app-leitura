@@ -1,4 +1,5 @@
 import type { HeadingInfo } from './markdown'
+import { MARKER_RE } from './remarkMarkers'
 
 /**
  * Índice de busca por livro, construído sobre o MARKDOWN FONTE — a busca
@@ -29,9 +30,9 @@ export interface SourceMatch {
   normCol: number
 }
 
+// N79: faixa Unicode com \u, nunca com o caractere literal
 const MARKS_RE = /[̀-ͯ]/g
 const ANCHOR_LINE_RE = /\^([A-Za-z0-9][A-Za-z0-9-]*)\s*$/
-const MARKER_RE = /\[(\d+(?:[a-z]\d*)?(?:\.[0-9a-z]+)?)\]/g
 const VERSE_ANCHOR_RE = /^([a-z0-9]+?)-(\d+)-(\d+)$/
 
 export function normalizeText(text: string): string {
@@ -187,5 +188,41 @@ export function resolveReference(index: BookIndex, input: string): ResolvedRef |
   // Sem livro: âncora simples ^vN (interlinear de capítulo único)
   const line = index.anchorLines.get(`v${verse}`)
   if (line !== undefined) return { elementId: `anchor-v${verse}`, line }
+  return null
+}
+
+/** Linha do alvo de um id do DOM (marker-… ou anchor-…), pelo índice. */
+function linhaDoId(index: BookIndex, id: string): number | undefined {
+  if (id.startsWith('marker-')) return index.markerLines.get(id.slice(7))
+  if (id.startsWith('anchor-')) return index.anchorLines.get(id.slice(7))
+  return undefined
+}
+
+/**
+ * LEI 6: um endereço publicado que saiu do texto (o [216] de página que virou
+ * [216a], o [1.327] do conversor antigo) continua valendo. A tabela é a mesma
+ * que o rolo usa: livros/_apelidos/<id>.json, { "marker-216": "marker-216a" }.
+ * Só é buscada quando a passagem não existe no texto — o caso raro.
+ */
+export async function resolverPorApelido(
+  index: BookIndex,
+  bookId: string,
+  input: string,
+): Promise<ResolvedRef | null> {
+  let mapa: Record<string, string>
+  try {
+    const r = await fetch(`${import.meta.env.BASE_URL}livros/_apelidos/${encodeURIComponent(bookId)}.json`)
+    if (!r.ok) return null
+    mapa = await r.json()
+  } catch {
+    return null
+  }
+  const s = input.trim()
+  for (const antigo of [`marker-${s}`, `anchor-${s}`, s]) {
+    const novo = mapa[antigo]
+    if (!novo) continue
+    const line = linhaDoId(index, novo)
+    if (line !== undefined) return { elementId: novo, line }
+  }
   return null
 }

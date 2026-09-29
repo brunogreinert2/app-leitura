@@ -71,3 +71,5 @@ anchor-joel-3-6
 anchor-joel-3-7
 anchor-joel-3-8
 anchor-joel-3-9
+nota-ref-pa1
+nota-ref-pa1-2

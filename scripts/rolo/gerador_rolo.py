@@ -156,15 +156,26 @@ def separar_yaml(texto: str) -> tuple[dict, str]:
     bruto = texto[3:fim]
     corpo = texto[fim + 4 :].lstrip("\n")
     meta: dict[str, str] = {}
+    chave_lista = None
     for linha in bruto.splitlines():
+        # lista em bloco ("translator:" e depois "- Nome"): o esquema do acervo
+        # (2026-09-29) escreve assim; vira "a, b", como a lista entre colchetes
+        item = re.match(r"^\s*-\s+(.*)$", linha)
+        if item and chave_lista:
+            v = item.group(1).strip().strip("\"'")
+            meta[chave_lista] = f"{meta[chave_lista]}, {v}" if meta.get(chave_lista) else v
+            continue
         m = re.match(r"^([A-Za-z_][A-Za-z0-9_]*):\s*(.*)$", linha)
         if not m:
             continue
         chave, valor = m.group(1), m.group(2).strip()
+        chave_lista = chave if valor == "" else None
         if valor in ("", "null", "~", "[]", "{}"):
             continue
         if len(valor) > 1 and valor[0] == valor[-1] and valor[0] in "\"'":
             valor = valor[1:-1]
+        if valor.startswith("[") and valor.endswith("]"):
+            valor = ", ".join(v.strip().strip("\"'") for v in valor[1:-1].split(",") if v.strip())
         meta[chave] = valor
     return meta, corpo
 
@@ -183,7 +194,10 @@ RX_CODIGO = re.compile(r"`([^`\n]+?)`")
 # Marcador canônico literal: [1.1], [327a], [5.a], [48.b2]. NUNCA reformatado —
 # vira endereço navegável preservando o literal exato. Idêntico ao MARKER_RE de
 # src/lib/remarkMarkers.ts, pelo mesmo motivo da âncora acima.
-RX_MARCADOR = re.compile(r"\[(\d+(?:[a-z]\d*)?(?:\.[0-9a-z]+)?)\]")
+RX_MARCADOR = re.compile(r"\[(\d+(?:[a-z]\d*)?(?:\.[0-9a-z]+)*)\]")
+# ^ o (?:…)* aceita quantos níveis a tradição tiver: [1.1.1] (livro.capítulo.
+#   seção, Plutarco). Até 2026-09-29 era (?:…)? e o terceiro nível ficava
+#   texto solto, sem link. Mesma mudança no MARKER_RE do app.
 RX_NOTA_REF = re.compile(r"\[\^([A-Za-z0-9\-_]+)\]")
 # Quebra dura do CommonMark: dois ou mais espaços no fim da linha. O remark do
 # app já a respeita — o versículo continua UM parágrafo e a âncora fica no lugar.
@@ -191,6 +205,8 @@ RX_NOTA_REF = re.compile(r"\[\^([A-Za-z0-9\-_]+)\]")
 # cada linha do poema vira um <p> solto, com o id caindo na última em vez da
 # primeira. É o caso da Vulgata (28.858 quebras) e de qualquer texto em verso.
 RX_QUEBRA_DURA = re.compile(r"\S {2,}$")
+RX_VERSO_BLOCO = re.compile(r"^```verso[ \t]*\n(.*?)\n```[ \t]*$", re.M | re.S)
+SENTINELA_VERSO = "⁣verso⁣"
 
 def inline(txt: str, marcadores: dict[str, int] | None = None) -> str:
     """Converte uma linha de markdown em HTML. O texto é escapado ANTES de
@@ -214,12 +230,30 @@ def inline(txt: str, marcadores: dict[str, int] | None = None) -> str:
     s = RX_WIKILINK.sub(
         lambda m: '<a class="wikilink" href="#">{}</a>'.format(m.group(2) or m.group(1)), s
     )
-    s = RX_NOTA_REF.sub(lambda m: f'<sup class="nota-ref">[{m.group(1)}]</sup>', s)
+    # O marcador vem ANTES da chamada de nota. Na ordem inversa (até
+    # 2026-09-29) a nota [^1] virava <sup>[1]</sup> e esse [1] era lido como
+    # marcador canônico: toda nota ganhava um marker-1 falso, que o app nunca
+    # teve (N3). Os falsos já publicados viraram apelidos (_apelidos/).
+    s = RX_MARCADOR.sub(marcador, s)
+
+    def nota_ref(m: "re.Match[str]") -> str:
+        # A chamada de nota tem id próprio (nota-ref-1, nota-ref-1-2 na 2ª vez
+        # que o rótulo aparece — a linha da definição): é o alvo exato dos
+        # marker-1 falsos de antes, que agora são apelidos dela.
+        rotulo = m.group(1)
+        if marcadores is None:
+            return f'<sup class="nota-ref">[{rotulo}]</sup>'
+        chave = "^" + rotulo
+        n = marcadores.get(chave, 0)
+        marcadores[chave] = n + 1
+        ident = f"nota-ref-{rotulo}" if n == 0 else f"nota-ref-{rotulo}-{n + 1}"
+        return f'<sup class="nota-ref" id="{atributo(ident)}">[{rotulo}]</sup>'
+
+    s = RX_NOTA_REF.sub(nota_ref, s)
     s = RX_VERSICULO.sub(lambda m: f'<span class="versiculo">{m.group(1)}</span>', s)
     s = RX_ROTULO.sub(lambda m: f'<span class="idioma-tag">{m.group(1)}</span>', s)
     s = RX_NEGRITO.sub(lambda m: f"<strong>{m.group(1)}</strong>", s)
     s = RX_ITALICO.sub(lambda m: f"<em>{m.group(1)}</em>", s)
-    s = RX_MARCADOR.sub(marcador, s)
     return s
 
 def atributo(valor: str) -> str:
@@ -257,6 +291,13 @@ def corpo_html(md: str, prefixo_id: str = "") -> tuple[str, int]:
     usados: set[str] = set()
     marcadores: dict[str, int] = {}
     n_headings = 0
+
+    # ```verso (D3, 2026-09-29): a citação em verso fica UM bloco, com a quebra
+    # de cada linha. Vira quebra dura, que blocos_logicos já sabe juntar com
+    # <br>; a sentinela marca o bloco para ganhar a classe "verso" abaixo.
+    md = RX_VERSO_BLOCO.sub(
+        lambda m: SENTINELA_VERSO + "  \n".join(l for l in m.group(1).split("\n") if l.strip()), md
+    )
 
     def id_unico(bruto: str) -> str:
         # prefixo "anchor-" igual ao do app: o id que o app calcula para um
@@ -318,7 +359,10 @@ def corpo_html(md: str, prefixo_id: str = "") -> tuple[str, int]:
 
         classes = ["paragrafo"]
         corpo = crua
-        if corpo.lstrip().startswith(">"):
+        if corpo.startswith(SENTINELA_VERSO):
+            classes.append("verso")
+            corpo = corpo[len(SENTINELA_VERSO):]
+        elif corpo.lstrip().startswith(">"):
             classes.append("citacao")
             corpo = corpo.lstrip()[1:].lstrip()
         elif re.match(r"^\s*[-*+]\s+", corpo):
@@ -354,12 +398,17 @@ def corpo_html(md: str, prefixo_id: str = "") -> tuple[str, int]:
 ROTULOS = [
     ("author", "Autor"),
     ("translator", "Tradutor"),
+    ("translation", "Tradutor"),              # nome antigo; sai na migração (Saneamento)
     ("editor", "Editor"),
+    ("base_edition", "Edição de base"),
     ("language", "Idioma"),
     ("year_original", "Ano do original"),
     ("publisher", "Editora"),
-    ("sistema_referencia", "Sistema de referência"),
-    ("abrev", "Abreviatura"),
+    ("reference_system", "Sistema de referência"),
+    ("sistema_referencia", "Sistema de referência"),   # nome antigo
+    ("abbrev", "Abreviatura"),
+    ("abrev", "Abreviatura"),                 # nome antigo
+    ("urn", "URN"),
     ("license", "Licença"),
     ("source", "Fonte"),
 ]
@@ -436,6 +485,31 @@ def preencher(template: str, campos: dict) -> str:
         fora = fora.replace("{{" + chave + "}}", valor)
     return fora
 
+def com_apelidos(corpo: str, raiz_corpus: Path, slug: str) -> str:
+    """LEI 6. Um id publicado que saiu do texto (o [216] de página, o marker-1
+    falso das notas) continua existindo: um <span> vazio com o id antigo,
+    imediatamente antes do elemento que marca o mesmo ponto hoje. A tabela
+    mora em livros/_apelidos/<id>.json e é lida também pelo app e pelo portão."""
+    arq = raiz_corpus / "_apelidos" / f"{slug}.json"
+    if not arq.exists():
+        return corpo
+    mapa = json.loads(arq.read_text(encoding="utf-8"))
+    por_alvo: dict[str, list[str]] = {}
+    for antigo, novo in mapa.items():
+        por_alvo.setdefault(novo, []).append(antigo)
+
+    def inserir(m: "re.Match[str]") -> str:
+        antigos = por_alvo.get(m.group(2), [])
+        spans = "".join(f'<span id="{atributo(a)}" class="apelido"></span>' for a in antigos)
+        return spans + m.group(0)
+
+    novo_corpo = re.sub(r'<(\w+)[^>]*?\sid="([^"]+)"', inserir, corpo)
+    faltam = set(por_alvo) - set(re.findall(r'\sid="([^"]+)"', corpo))
+    if faltam:
+        print(f"  ! {slug}: apelido aponta para id que não existe: {sorted(faltam)[:3]}", file=sys.stderr)
+    return novo_corpo
+
+
 def gerar_obra(entrada: dict, raiz_corpus: Path, template: str, saida: Path, css_fonte: str,
                gemeo_md: bool = True) -> dict | None:
     caminho = raiz_corpus / entrada["arquivo"]
@@ -450,6 +524,11 @@ def gerar_obra(entrada: dict, raiz_corpus: Path, template: str, saida: Path, css
     if autor in ("—", "-", "null"):
         autor = meta.get("translator", "")
     corpo, n_head = corpo_html(md)
+    # Colofão (D23): a assinatura da edição mora no front matter e sai no fim,
+    # com o risco vertical da citação — nunca escrita no texto com ">".
+    if meta.get("colophon"):
+        corpo += f'\n<p class="paragrafo citacao colofao-obra">{inline(meta["colophon"])}</p>'
+    corpo = com_apelidos(corpo, raiz_corpus, slug)
     lang_html = idioma_bcp47(meta.get("language"))
     descricao = " · ".join(
         [p for p in [titulo, autor, meta.get("source", "")[:120]] if p]
@@ -489,7 +568,7 @@ def gerar_obra(entrada: dict, raiz_corpus: Path, template: str, saida: Path, css
         "idioma": lang_html,
         # a abreviatura é por OBRA, não global: cada tradução tem a sua
         # ("1Cor" na Almeida, "1Co" alhures) e é ela que forma a âncora
-        "abrev": meta.get("abrev", ""),
+        "abrev": meta.get("abbrev") or meta.get("abrev", ""),
         # estantes extras onde a obra também deve ser encontrada — ver
         # gerar_indice(). O arquivo continua morando num lugar só.
         "tambem_em": entrada.get("tambem_em") or [],

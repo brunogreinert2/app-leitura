@@ -8,8 +8,13 @@ import type { Root, Text, PhrasingContent } from 'mdast'
  * exclui colchetes editoriais como [...] e [diz].
  * São endereços, não texto: viram <span id="marker-..."> preservando o
  * literal exato — nunca reformatados (regra inegociável do corpus).
+ *
+ * Quantos níveis a tradição tiver: [1.1.1] (livro.capítulo.seção, Plutarco)
+ * desde 2026-09-29. Idêntica ao RX_MARCADOR de scripts/rolo/gerador_rolo.py —
+ * mexeu numa, mexa na outra, ou o link do app e o do rolo divergem (N3).
+ * Esta é a única cópia no app: o searchIndex importa daqui.
  */
-const MARKER_RE = /\[(\d+(?:[a-z]\d*)?(?:\.[0-9a-z]+)?)\]/g
+export const MARKER_RE = /\[(\d+(?:[a-z]\d*)?(?:\.[0-9a-z]+)*)\]/g
 
 interface MarkerNode {
   type: 'canonicalMarker'

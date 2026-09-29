@@ -141,6 +141,10 @@
     "physical_source": { "description": "Exemplar ou scan de onde veio.", "$ref": "#/$defs/texto", "x-antes": ["fonte_fisica"] },
     "ocr_engine": { "description": "Ex.: olmOCR-2.", "$ref": "#/$defs/texto", "x-antes": ["ocr"] },
     "processing": { "description": "Script e versão que gerou o arquivo.", "$ref": "#/$defs/texto" },
+    "colophon": {
+      "description": "Assinatura ou colofão da edição (ex.: Ὁ Διαφορεύς παρῆν). O app e o rolo o desenham no fim da obra, afastado e com o risco vertical ao lado — nunca escrito no texto com > (D23, 2026-09-29).",
+      "$ref": "#/$defs/texto"
+    },
 
     "born": { "$ref": "#/$defs/ano" },
     "died": { "$ref": "#/$defs/ano" },

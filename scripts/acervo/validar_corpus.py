@@ -68,6 +68,8 @@ REGRAS_LINHA = [
     ("C09-colagem", "aviso", "suspeita de texto colado sem espaço",
      re.compile(r"[a-z\u03b1-\u03c9]{3,}[.:;,][A-Z\u0391-\u03a9][a-z\u03b1-\u03c9]{2,}")),
 ]
+RE_CODIGO = re.compile(r"`[^`\n]+`")
+IGNORA_CODIGO = {"C01-null", "C02-xml"}
 RE_CERCA = re.compile(r"^\s*```(.*)$")
 CERCAS_PERMITIDAS = {"interlinear", "verso"}
 RE_NOTA_USO = re.compile(r"\[\^([^\]\s]+)\](?!:)")
@@ -143,6 +145,8 @@ def exportar_regras() -> dict:
         "nota_def": RE_NOTA_DEF.pattern,
         "ancoras_fim": RE_ANCORAS_FIM.pattern,
         "etiquetas_idioma": sorted(ETIQUETAS_IDIOMA),
+        "codigo": RE_CODIGO.pattern,
+        "ignora_codigo": sorted(IGNORA_CODIGO),
         "descricao": DESCRICAO,
         "nivel": NIVEL,
         "como_consertar": COMO_CONSERTAR,
@@ -284,11 +288,16 @@ def validar_corpo(corpo: str, desloc: int, achados):
             else:
                 dentro_cerca = None
             continue
+        # D24 (2026-09-29): o que está entre crases é código citado numa nota
+        # editorial (`<sourceDesc>`, `null`), não vazamento. As regras de
+        # vazamento olham a linha sem ele; as outras, a linha inteira.
+        sem_codigo = RE_CODIGO.sub("", linha)
         for cod, _, _, rx in REGRAS_LINHA:
-            mm = rx.search(linha)
+            alvo = sem_codigo if cod in IGNORA_CODIGO else linha
+            mm = rx.search(alvo)
             if mm:
                 ini = max(0, mm.start() - 30)
-                achados[cod].append((i, linha[ini:mm.end() + 30].strip()))
+                achados[cod].append((i, alvo[ini:mm.end() + 30].strip()))
         d = RE_NOTA_DEF.match(linha)
         if d:
             defs.setdefault(d.group(1), i)
