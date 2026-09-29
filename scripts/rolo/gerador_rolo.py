@@ -194,7 +194,10 @@ RX_CODIGO = re.compile(r"`([^`\n]+?)`")
 # Marcador canônico literal: [1.1], [327a], [5.a], [48.b2]. NUNCA reformatado —
 # vira endereço navegável preservando o literal exato. Idêntico ao MARKER_RE de
 # src/lib/remarkMarkers.ts, pelo mesmo motivo da âncora acima.
-RX_MARCADOR = re.compile(r"\[(\d+(?:[a-z]\d*)?(?:\.[0-9a-z]+)*)\]")
+RX_MARCADOR = re.compile(r"\[((?:\d+(?:[a-z]\d*)?|[A-Za-z][A-Za-z0-9_]*(?=\.\d))(?:\.[0-9a-z]+)*)\]")
+# ^ D26 (2026-09-29): o primeiro nível pode ser um NOME quando vem seguido de
+#   nível numérico — [Agis.1.1] (Vidas de Plutarco), [frag_1.1], [praef.1].
+#   Colchete editorial ([sic], [diz]) continua fora: exige ".dígito" depois.
 # ^ o (?:…)* aceita quantos níveis a tradição tiver: [1.1.1] (livro.capítulo.
 #   seção, Plutarco). Até 2026-09-29 era (?:…)? e o terceiro nível ficava
 #   texto solto, sem link. Mesma mudança no MARKER_RE do app.

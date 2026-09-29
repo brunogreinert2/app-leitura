@@ -14,7 +14,9 @@ import type { Root, Text, PhrasingContent } from 'mdast'
  * mexeu numa, mexa na outra, ou o link do app e o do rolo divergem (N3).
  * Esta é a única cópia no app: o searchIndex importa daqui.
  */
-export const MARKER_RE = /\[(\d+(?:[a-z]\d*)?(?:\.[0-9a-z]+)*)\]/g
+// D26 (2026-09-29): o primeiro nível pode ser um nome seguido de nível numérico
+// ([Agis.1.1], [frag_1.1]); colchete editorial ([sic]) continua fora.
+export const MARKER_RE = /\[((?:\d+(?:[a-z]\d*)?|[A-Za-z][A-Za-z0-9_]*(?=\.\d))(?:\.[0-9a-z]+)*)\]/g
 
 interface MarkerNode {
   type: 'canonicalMarker'
