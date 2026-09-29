@@ -37,12 +37,15 @@ marker-306f
 marker-307a
 marker-307b
 marker-307c
+marker-307d
 marker-307e
 marker-307f
 marker-308a
+marker-308b
 marker-308c
 marker-308d
 marker-308e
+marker-308f
 marker-309a
 marker-309b
 marker-309c
@@ -53,6 +56,7 @@ marker-31
 marker-310a
 marker-310b
 marker-310c
+marker-310d
 marker-310e
 marker-310f
 marker-311a
@@ -61,6 +65,7 @@ marker-311c
 marker-311d
 marker-311e
 marker-311f
+marker-312a
 marker-312b
 marker-312c
 marker-312d

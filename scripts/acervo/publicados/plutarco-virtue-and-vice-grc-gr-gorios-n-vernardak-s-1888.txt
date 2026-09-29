@@ -3,6 +3,7 @@ marker-10
 marker-10-2
 marker-10-3
 marker-10-4
+marker-100b
 marker-100c
 marker-100d
 marker-100e
@@ -28,3 +29,19 @@ marker-5
 marker-5-2
 marker-5-3
 marker-5-4
+nota-ref-1
+nota-ref-1-2
+nota-ref-2
+nota-ref-2-2
+nota-ref-3
+nota-ref-3-2
+nota-ref-4
+nota-ref-4-2
+nota-ref-5
+nota-ref-5-2
+nota-ref-6
+nota-ref-6-2
+nota-ref-7
+nota-ref-7-2
+nota-ref-8
+nota-ref-8-2

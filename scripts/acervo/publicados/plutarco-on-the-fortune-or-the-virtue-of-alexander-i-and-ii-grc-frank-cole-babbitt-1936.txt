@@ -28,6 +28,7 @@ marker-326e
 marker-326f
 marker-327a
 marker-327b
+marker-327c
 marker-327d
 marker-327e
 marker-327f
@@ -93,8 +94,10 @@ marker-337f
 marker-338a
 marker-338b
 marker-338c
+marker-338d
 marker-338e
 marker-338f
+marker-339a
 marker-339b
 marker-339c
 marker-339d

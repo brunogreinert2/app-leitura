@@ -377,3 +377,15 @@ marker-440b
 marker-440c
 marker-440d
 marker-440e
+nota-ref-1
+nota-ref-1-2
+nota-ref-2
+nota-ref-2-2
+nota-ref-3
+nota-ref-3-2
+nota-ref-4
+nota-ref-4-2
+nota-ref-5
+nota-ref-5-2
+nota-ref-6
+nota-ref-6-2

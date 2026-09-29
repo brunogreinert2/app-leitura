@@ -44,6 +44,7 @@ marker-16
 marker-16-2
 marker-16a
 marker-2
+marker-2a
 marker-2b
 marker-2c
 marker-2d
@@ -55,6 +56,7 @@ marker-3c
 marker-3d
 marker-3e
 marker-4
+marker-4a
 marker-4b
 marker-4c
 marker-4d
@@ -94,3 +96,9 @@ marker-9b
 marker-9c
 marker-9d
 marker-9e
+nota-ref-1
+nota-ref-1-2
+nota-ref-2
+nota-ref-2-2
+nota-ref-3
+nota-ref-3-2

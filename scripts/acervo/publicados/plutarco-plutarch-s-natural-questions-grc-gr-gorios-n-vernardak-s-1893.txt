@@ -160,6 +160,7 @@ marker-6
 marker-7
 marker-8
 marker-9
+marker-911d
 marker-911e
 marker-911f
 marker-912a
@@ -192,6 +193,7 @@ marker-916c
 marker-916d
 marker-916e
 marker-916f
+marker-917a
 marker-917b
 marker-917c
 marker-917d

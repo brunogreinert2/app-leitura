@@ -20,6 +20,7 @@ marker-102c
 marker-102d
 marker-102e
 marker-103
+marker-103a
 marker-103b
 marker-103c
 marker-103d
@@ -126,14 +127,19 @@ marker-118
 marker-118-2
 marker-118a
 marker-57
+marker-57a
 marker-57b
 marker-58
+marker-58a
 marker-58b
 marker-58c
+marker-58d
+marker-58e
 marker-59
 marker-59-2
 marker-59a
 marker-59b
+marker-59c
 marker-59d
 marker-59e
 marker-60
@@ -151,6 +157,7 @@ marker-61c
 marker-61d
 marker-61e
 marker-62
+marker-62a
 marker-62b
 marker-62c
 marker-62d
@@ -324,6 +331,7 @@ marker-86c
 marker-86d
 marker-86e
 marker-87
+marker-87a
 marker-87b
 marker-87c
 marker-87d
@@ -385,6 +393,7 @@ marker-95c
 marker-95d
 marker-95e
 marker-96
+marker-96a
 marker-96b
 marker-96c
 marker-96d
@@ -410,3 +419,9 @@ marker-99b
 marker-99c
 marker-99d
 marker-99e
+nota-ref-1
+nota-ref-1-2
+nota-ref-2
+nota-ref-2-2
+nota-ref-3
+nota-ref-3-2
