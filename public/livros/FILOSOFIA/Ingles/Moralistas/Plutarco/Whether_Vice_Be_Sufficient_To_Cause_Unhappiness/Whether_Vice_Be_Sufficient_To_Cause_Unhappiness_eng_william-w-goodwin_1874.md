@@ -1,38 +1,43 @@
 ---
 id: plutarco-whether-vice-be-sufficient-to-cause-unhappiness-eng-william-w-goodwin-1874
-type: texto_primario
-title: "Whether Vice is Sufficient to Render a Man Unhappy"
-subtitle: null
+type: translation
+title: Whether Vice is Sufficient to Render a Man Unhappy
 author: Plutarch
-year_original: null
-language: eng
-translation:
-  - William W. Goodwin
+translator:
+- Samuel White
 publisher: Little, Brown, and Company
-area: null
-era: null
-tags: []
-status: rascunho
+language: eng
+tags:
+- moralists
+status: draft
 project: pedra_angular
-source: "Plutarch. Whether Vice is Sufficient to Render a Man Unhappy. Ed. William W. Goodwin. Boston: Little, Brown, and Company, 1874. Perseus Digital Library, Tufts University (CC BY-SA 4.0). URN: null"
-related: []
+urn_work: urn:cts:greekLit:tlg0007.tlg099
+urn: urn:cts:greekLit:tlg0007.tlg099.perseus-eng4
+source: 'Plutarch. Whether Vice is Sufficient to Render a Man Unhappy. Ed. William W. Goodwin. Boston: Little, Brown, and Company, 1874. Perseus Digital Library, Tufts University (CC BY-SA 4.0).'
+source_repo: PerseusDL/canonical-greekLit
+source_file: data/tlg0007/tlg099/tlg0007.tlg099.perseus-eng4.xml
+source_commit: e37eed2e8
+license: CC-BY-SA-4.0
 ---
 
 # Whether Vice is Sufficient to Render a Man Unhappy
 
-**Plutarch**
+```verso
+[1] He suffers much, who for a dowry has
+His body sold,—
+```
 
-Boston: Little, Brown, and Company, 1874.
-Perseus Digital Library, Tufts University (CC BY-SA 4.0).
-URN: `null`
+as Euripides says; for he gets but small matters by it, and those very uncertain. But to him who passes not through much ashes, but through a certain regal pile of fire, being perpetually short breathed, full of fear, and bathed in sweat as if he had crossed the seas to and fro, she gives at last a certain Tantalian wealth, which he cannot enjoy by reason of the continual turmoil that encumbers him. For that Sicyonian horse-courser was well advised, who presented the king of the Achaeans with a swift-footed mare, “That to proud Ilium’s siege he might not go,[^1] ”but stay at home and take his pleasure, wallowing in the depth of his riches, and giving himself up to an unmolested ease.
 
----
+But those who now seem to be without trouble and men of action do, without being called to it, thrust themselves headlong into the courts of princes, where they must be obliged to tedious attending and watching, that they may gain an horse, a chain, or some such blessed favor.
 
-## Texto
+```verso
+In the mean time the wife, of joy bereft,
+Sits tearing her fair cheeks, the house is left
+Imperfect and half built;—
+```
 
-[1] He suffers much, who for a dowry has His body sold,— as Euripides says; for he gets but small matters by it, and those very uncertain. But to him who passes not through much ashes, but through a certain regal pile of fire, being perpetually short breathed, full of fear, and bathed in sweat as if he had crossed the seas to and fro, she gives at last a certain Tantalian wealth, which he cannot enjoy by reason of the continual turmoil that encumbers him. For that Sicyonian horse-courser was well advised, who presented the king of the Achaeans with a swift-footed mare, That to proud Ilium’s siege he might not go,Il. XXIII. 297. but stay at home and take his pleasure, wallowing in the depth of his riches, and giving himself up to an unmolested ease.
-
-But those who now seem to be without trouble and men of action do, without being called to it, thrust themselves headlong into the courts of princes, where they must be obliged to tedious attending and watching, that they may gain an horse, a chain, or some such blessed favor. In the mean time the wife, of joy bereft, Sits tearing her fair cheeks, the house is left Imperfect and half built;— whilst the husband is drawn and hurried about, wandering amongst others, allured by hopes of which he is often disappointed, suffering disgrace and same. But if he happens to obtain any of those things he so eagerly desires, after he has been turned about and made dizzy with being Fortune’s sport, he seeks a dismission, and declares those to be happy who live obscure and safe; whilst they, in the mean time, have the same opinion of him whom they see mounted so far above them.
+whilst the husband is drawn and hurried about, wandering amongst others, allured by hopes of which he is often disappointed, suffering disgrace and same. But if he happens to obtain any of those things he so eagerly desires, after he has been turned about and made dizzy with being Fortune’s sport, he seeks a dismission, and declares those to be happy who live obscure and safe; whilst they, in the mean time, have the same opinion of him whom they see mounted so far above them.
 
 [2] So absolutely does Vice dispose of all men, being such a self-sufficient worker of infelicity, that it has no need either of instruments or servants. Other tyrants, endeavoring to render those men miserable whom they punish, maintain executioners and tormentors, devise searing-irons and racks, to plague the reasonless soul. But Vice, without any preparation of engines, as soon as it enters into the soul, torments and dejects it, filling a man with grief, lamentations, sorrow, and repentance. For a sign that this is so, you may observe that many being cut are silent, being scourged take it patiently, and being racked and tormented by their lords and tyrants send not forth the least shriek, since the soul, repressing the voice by reason, restrains and keeps it in as with the hand; but you will scarce ever be able to quiet anger or to silence sorrow; nor can you persuade one that is in a fright to stand still, or one that is stung with remorse of conscience to forbear exclaiming, tearing his hair, and smiting his thigh. So much is Vice more violent than either fire or sword.
 
@@ -46,6 +51,4 @@ But thou wilt reduce one from great wealth, a stately house, a well-furnished ta
 
 [5] Is then Vice also such that it should stand in need of Fortune’s help for the working of infelicity? By no means. She does not make the sea swell with storms and tempests, she besets not the deserts lying at the feet of the mountains with robbers, she pours not down storms of hail on the fruitful fields, she raises not up Meletus, Anytus, and Callixenus, to be calumniators, she takes not away wealth, she hinders not any from the command of armies, that she may make men unhappy; but she renders them rich, abounding in wealth, having great inheritances on the earth; she bears them company at sea; she sticks close to them, pining them with lust, inflaming them with wrath, overwhelming them with superstitions, drawing them by their eyes....The rest is wanting.
 
----
-
-*Ὁ Διαφορεύς παρῆν*
+[^1]: Il. XXIII. 297.

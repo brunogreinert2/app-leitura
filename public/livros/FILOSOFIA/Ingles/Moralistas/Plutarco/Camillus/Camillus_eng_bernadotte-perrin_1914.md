@@ -1,36 +1,28 @@
 ---
 id: plutarco-camillus-eng-bernadotte-perrin-1914
-type: texto_primario
-title: "Camillus"
-subtitle: null
+type: translation
+title: Camillus
 author: Plutarch
-year_original: null
-language: eng
-translation:
-  - Bernadotte Perrin
+translator:
+- Bernadotte Perrin
 publisher: Harvard University Press
-area: null
-era: null
-tags: []
-status: rascunho
+language: eng
+tags:
+- moralists
+status: draft
 project: pedra_angular
-source: "Plutarch. Camillus. Ed. Bernadotte Perrin. Cambridge, MA: Harvard University Press, 1914. Perseus Digital Library, Tufts University (CC BY-SA 4.0). URN: null"
-related: []
+urn_work: urn:cts:greekLit:tlg0007.tlg011
+urn: urn:cts:greekLit:tlg0007.tlg011.perseus-eng2
+source: 'Plutarch. Camillus. Ed. Bernadotte Perrin. Cambridge, MA: Harvard University Press, 1914. Perseus Digital Library, Tufts University (CC BY-SA 4.0).'
+source_repo: PerseusDL/canonical-greekLit
+source_file: data/tlg0007/tlg011/tlg0007.tlg011.perseus-eng2.xml
+source_commit: e37eed2e8
+license: CC-BY-SA-4.0
 ---
 
 # Camillus
 
-**Plutarch**
-
-Cambridge, MA: Harvard University Press, 1914.
-Perseus Digital Library, Tufts University (CC BY-SA 4.0).
-URN: `null`
-
----
-
-## Texto
-
-### Capítulo 1
+#### Capítulo 1
 
 [1.1] Turning now to Furius Camillus, among the many notable things that are told of him, this seems the most singular and strange, namely, that although in other offices of command he won many and great successes, and although he was five times chosen dictator, four times celebrated a triumph, and was styled a Second Founder of Rome, not even once was he consul.
 
@@ -38,7 +30,7 @@ URN: `null`
 
 [1.3] Now it was at this period that Camillus came to the height of his achievements and fame, and he would not consent to become consul over a reluctant people, although during his career the city tolerated consular elections many times. But in the many other and varied offices which he held, he so conducted himself that even when the authority rightly belonged to him alone, it was exercised in common with others; while the glory that followed such exercise was his alone, even when he shared the command. In the first case, it was his moderation that kept his rule from exciting envy; in the second, it was his ability that gave him the first place with none to dispute it.
 
-### Capítulo 2
+#### Capítulo 2
 
 [2.1] At a time when the house of the Furii was not yet very conspicuous, he, by his own efforts, was the first of his clan to achieve fame. This he did in the great battle with the Aequians and Volscians, serving under Postumius Tubertus the dictator. Dashing out on his horse in front of the army, he did not abate his speed when he got a wound in the thigh, but dragging the missile along with him in its wound, he engaged the bravest of the enemy and put them to flight.
 
@@ -52,7 +44,7 @@ URN: `null`
 
 [2.6] But for the present he had nothing to do with the siege, since it fell to his lot to wage war with the Falerians and the Capenates, who, while the Romans had their hands full, had often harried their territory, and during all the Tuscan war had given them annoyance and trouble. These were overwhelmed by Camillus in battle and shut up in their fastnesses with great loss of life.
 
-### Capítulo 3
+#### Capítulo 3
 
 [3.1] And now, when the war was at its climax, the calamity of the Alban lake added its terrors. It seemed a most incredible prodigy, without familiar cause or natural explanation. For the season was autumn, and the summer just ended had, to all observation, been neither rainy nor vexed by south winds.
 
@@ -60,7 +52,7 @@ URN: `null`
 
 [3.3] At first it was a prodigy for neighbouring shepherds and herdsmen. But when the volume and weight of water broke away the barrier which, like an isthmus, had kept the lake from the country lying below it, and a huge torrent poured down through the fields and vineyards and made its way to the sea, then not only were the Romans themselves dismayed, but all the inhabitants of Italy thought it a sign of no small evil to come. There was much talk about it in the army that was besieging Veii, so that even the besieged themselves heard of the calamity.
 
-### Capítulo 4
+#### Capítulo 4
 
 [4.1] As was to be expected in a long siege requiring many meetings for conference with the enemy, it fell out that a certain Roman became intimate and confidential with one of the citizens of Veii, a man versed in ancient oracles, and reputed wiser than the rest from his being a diviner. The Roman saw that this man, on hearing the story of the lake, was overjoyed and made mock of the siege. He therefore told him this was not the only wonder which the passing days had brought, but that other and stranger signs than this had been given to the Romans, of which he was minded to tell him, in order that, if possible, he might better his own private case in the midst of the public distresses.
 
@@ -72,9 +64,9 @@ URN: `null`
 
 [4.5] another bade them by all means to keep the water of the Alban lake away from the sea and force it back into its ancient bed, or, if they could not effect this, by means of canals and trenches to divert it into the plain and dissipate it. On receipt of these responses the priests performed the neglected sacrifices, and the people sallied out into the fields and diverted the course of the water.
 
-### Capítulo 5
+#### Capítulo 5
 
-[5.1] In the tenth year of the war,396 B.C. the Senate abolished the other magistracies and appointed Camillus dictator. After choosing Cornelius Scipio as his master of horse, in the first place he made solemn vows to the gods that, in case the war had a glorious ending, he would celebrate the great games in their honour, and dedicate a temple to a goddess whom the Romans call Mater Matuta.
+[5.1] In the tenth year of the war,[^1] the Senate abolished the other magistracies and appointed Camillus dictator. After choosing Cornelius Scipio as his master of horse, in the first place he made solemn vows to the gods that, in case the war had a glorious ending, he would celebrate the great games in their honour, and dedicate a temple to a goddess whom the Romans call Mater Matuta.
 
 [5.2] From the sacred rites used in the worship of this goddess, she might be held to be almost identical with Leucothea. The women bring a serving-maid into the sanctuary and beat her with rods, then drive her forth again; they embrace their nephews and nieces in preference to their own children; and their conduct at the sacrifice resembles that of the nurses of Dionysus, or that of Ino under the afflictions put upon her by her husband’s concubine. After his vows, Camillus invaded the country of the Faliscans and conquered them in a great battle, together with the Capenates who came up to their aid.
 
@@ -84,19 +76,19 @@ URN: `null`
 
 [5.5] But possibly this will seem like fable. At any rate the city was taken by storm, and the Romans were pillaging and plundering its boundless wealth, when Camillus, seeing from the citadel what was going on, at first burst into tears as he stood, and then, on being congratulated by the bystanders, lifted up his hands to the gods and prayed, saying:
 
-[5.6] O greatest Jupiter, and ye gods who see and judge men’s good and evil deeds, ye surely know that it is not unjustly, but of necessity and in self-defence that we Romans have visited its iniquity upon this city of hostile and lawless men. But if, as counterpoise to this our present success, some retribution is due to come upon us, spare, I beseech you, the city and the army of the Romans, and let it fall upon my own head, though with as little harm as may be.
+[5.6] “O greatest Jupiter, and ye gods who see and judge men’s good and evil deeds, ye surely know that it is not unjustly, but of necessity and in self-defence that we Romans have visited its iniquity upon this city of hostile and lawless men. But if, as counterpoise to this our present success, some retribution is due to come upon us, spare, I beseech you, the city and the army of the Romans, and let it fall upon my own head, though with as little harm as may be.”
 
-[5.7] With these words, as the Romans’ custom is after prayer and adoration, he wheeled himself about to the right, but stumbled and fell as he turned. The bystanders were confounded, but he picked himself up again from his fall and said: My prayer is granted! a slight fall is my atonement for the greatest good fortune.
+[5.7] With these words, as the Romans’ custom is after prayer and adoration, he wheeled himself about to the right, but stumbled and fell as he turned. The bystanders were confounded, but he picked himself up again from his fall and said: “My prayer is granted! a slight fall is my atonement for the greatest good fortune.”
 
-### Capítulo 6
+#### Capítulo 6
 
 [6.1] After he had utterly sacked the city, he determined to transfer the image of Juno to Rome, in accordance with his vows. The workmen were assembled for the purpose, and Camillus was sacrificing and praying the goddess to accept of their zeal and to be a kindly co-dweller with the gods of Rome, when the image, they say, spoke in low tones and said she was ready and willing.
 
-[6.2] But Livy v. 22. says that Camillus did indeed lay his hand upon the goddess and pray and beseech her, but that it was certain of the bystanders who gave answer that she was ready and willing and eager to go along with him. Those who insist upon and defend the marvel have a most powerful advocate for their contention in the fortune of the city, which, from its small and despised beginning, could never have come to such a pinnacle of glory and power had God not dwelt with her and made many great manifestations of himself from time to time.
+[6.2] But Livy[^2] says that Camillus did indeed lay his hand upon the goddess and pray and beseech her, but that it was certain of the bystanders who gave answer that she was ready and willing and eager to go along with him. Those who insist upon and defend the marvel have a most powerful advocate for their contention in the fortune of the city, which, from its small and despised beginning, could never have come to such a pinnacle of glory and power had God not dwelt with her and made many great manifestations of himself from time to time.
 
 [6.3] Moreover, they adduce other occurrences of a kindred sort, such as statues often dripping with sweat, images uttering audible groans, turning away their faces, and closing their eyes, as not a few historians in the past have written. And we ourselves might make mention of many astonishing things which we have heard from men of our own time,—things not lightly to be despised. But in such matters eager credulity and excessive incredulity are alike dangerous, because of the weakness of our human nature, which sets no limits and has no mastery over itself, but is carried away now into vain superstition, and now into contemptuous neglect of the gods. Caution is best, and to go to no extremes.
 
-### Capítulo 7
+#### Capítulo 7
 
 [7.1] Whether it was due to the magnitude of his exploit in taking a city which could vie with Rome and endure a siege of ten years, or to the congratulations showered upon him, Camillus was lifted up to vanity, cherished thoughts far from becoming to a civil magistrate subject to the law, and celebrated a triumph with great pomp: he actually had four white horses harnessed to a chariot on which he mounted and drove through Rome, a thing which no commander had ever done before or afterwards did. For they thought such a car sacred and devoted to the king and father of the gods.
 
@@ -108,7 +100,7 @@ URN: `null`
 
 [7.5] He had vowed, as it seems, on setting out against Veii, that if he should take the city, he would consecrate the tenth of its booty to the Delphian god. But after the city had been taken and sacked, he allowed his soldiers full enjoyment of their plunder, either because he shrank from annoying them, or because, in the multitude of his activities, he as good as forgot his vow. At a later time, when he had laid down his command, he referred the matter to the Senate, and the seers announced tokens in their sacrifices that the gods were angry, and must be propitiated with due offerings.
 
-### Capítulo 8
+#### Capítulo 8
 
 [8.1] The Senate voted, not that the booty should be redistributed, for that would have been a difficult matter, but that those who had got it should, in person and under oath, bring the tenth thereof to the public treasury. This subjected the soldiers to many vexations and constraints. They were poor men, who had toiled hard, and yet were now forced to contribute a large share of what they had gained, yes, and spent already.
 
@@ -120,21 +112,21 @@ URN: `null`
 
 [8.5] The enemy had sufficient regard to their prayers and supplications not to run their vessel down, but they took it in tow, brought it to land, and proclaimed their goods and persons for sale, adjudging them piratical. At last, and with much ado, through the brave intercession of a single man, Timesitheus, their general, the Liparians were persuaded to let the captives go. This man then launched boats of his own, convoyed the suppliants on their way, and assisted them in the dedication of their offering. For this he received suitable honours at Rome.
 
-### Capítulo 9
+#### Capítulo 9
 
 [9.1] Once more the tribunes of the people urged the passage of the law for the division of the city, but the war with the Faliscans came on opportunely and gave the leading men occasion to hold such elective assemblies as they wished, and to appoint Camillus military tribune, with five others. The emergency was thought to demand a leader with the dignity and reputation which experience alone could give.
 
 [9.2] After the people had ratified the election, Camillus, at the head of his army, invaded the territory of the Faliscans and laid siege to Falerii, a strong city, and well equipped with all the munitions of war. It was not that he thought its capture would demand slight effort or short time, but he wished to turn the thoughts of the citizens to other matters and keep them busy therein, that they might not be able to stay at home and become the prey of seditious leaders. This was a fitting and sovereign remedy which the Romans used, like good physicians, thereby expelling from the body politic its troublesome distempers.
 
-### Capítulo 10
+#### Capítulo 10
 
 [10.1] The Falerians, relying on the great strength of their city at all points, made so light of the siege that, with the exception of the defenders of the walls, the rest went up and down the city in their garb of peace. The boys went to school as usual, and were brought by their teacher along the walls outside to walk about and get their exercise. For the Falerians, like the Greeks, employed one teacher in common, wishing their boys, from the very start, to herd with one another and grow up together.
 
 [10.2] This teacher, then, wishing to betray Falerii by means of its boys, led them out every day beyond the city walls, at first only a little way, and then brought them back inside when they had taken their exercise. Presently he led them, little by little, farther and farther out, accustomed them to feel confident that there was no danger at all, and finally pushed in among the Roman outposts with his whole company, handed them over to the enemy, and demanded to be led to Camillus.
 
-[10.3] So led, and in that presence, he said he was a boys’ school-teacher, but chose rather to win the general’s favour than to fulfil the duties of his office, and so had come bringing to him the city in the persons of its boys. It seemed to Camillus, on hearing him, that the man had done a monstrous deed, and turning to the bystanders he said: War is indeed a grievous thing, and is waged with much injustice and violence;
+[10.3] So led, and in that presence, he said he was a boys’ school-teacher, but chose rather to win the general’s favour than to fulfil the duties of his office, and so had come bringing to him the city in the persons of its boys. It seemed to Camillus, on hearing him, that the man had done a monstrous deed, and turning to the bystanders he said: “War is indeed a grievous thing, and is waged with much injustice and violence;”
 
-[10.4] but even war has certain laws which good and brave men will respect, and we must not so hotly pursue victory as not to flee the favours of base and impious doers. The great general will wage war relying on his own native valour, not on the baseness of other men. Then he ordered his attendants to tear the man’s clothing from him, tie his arms behind his back, and put rods and scourges in the hands of the boys, that they might chastise the traitor and drive him back into the city.
+[10.4] “but even war has certain laws which good and brave men will respect, and we must not so hotly pursue victory as not to flee the favours of base and impious doers. The great general will wage war relying on his own native valour, not on the baseness of other men.” Then he ordered his attendants to tear the man’s clothing from him, tie his arms behind his back, and put rods and scourges in the hands of the boys, that they might chastise the traitor and drive him back into the city.
 
 [10.5] The Falerians had just become aware of the teacher’s treachery, and the whole city, as was natural, was filled with lamentation over a calamity so great. Men and women alike rushed distractedly to the walls and gates, when lo! there came the boys, bringing their teacher back stripped, bound, and maltreated, while they called Camillus their saviour, their lather, and their god.
 
@@ -142,13 +134,13 @@ URN: `null`
 
 [10.7] Standing in the Senate, they declared that the Romans, by esteeming righteousness above victory, had taught them to love defeat above freedom; not so much because they thought themselves inferior in strength, as because they confessed themselves vanquished in virtue. On the Senate’s remanding to Camillus the decision and disposition of the matter, he took a sum of money from the Falerians, established friendship with all the Faliscans, and withdrew.
 
-### Capítulo 11
+#### Capítulo 11
 
 [11.1] But the soldiers thought to have had the sacking of Falerii, and when they came back to Rome empty-handed, they denounced Camillus to the rest of the citizens as a hater of the common people, and as begrudging to the poor the enjoyment of their rightful booty. And when the tribunes once more put forward the law for the division of the city and summoned the people to vote upon it, then Camillus, shunning no hatred nor any boldness of utterance, was manifestly the chief one in forcing the multitude away from its desires.
 
 [11.2] Therefore, they did indeed reject the law, much against their will, but they were wroth with Camillus, so that even when he met with domestic affliction and lost one of his two sons by sickness, their wrath was in no wise softened by pity. And yet he set no bounds to his sorrow, being by nature a gentle and kindly man, but even after the indictment against him had been published, he suffered his grief to keep him at home, in close seclusion with the women of his household.
 
-### Capítulo 12
+#### Capítulo 12
 
 [12.1] Well, then, his accuser was Lucius Apuleius, and the charge was theft of Tuscan goods. It was said, forsooth, that certain bronze doors belonging to the booty had been seen at his house. But the people were exasperated, and would plainly lay hold of any pretext whatever for condemning him.
 
@@ -156,19 +148,19 @@ URN: `null`
 
 [12.3] Accordingly, after he had kissed his wife and son good-bye, he went from his house in silence as far as the gate of the city. There he stopped, turned himself about, and stretching his hands out towards the Capitol, prayed the gods that, if with no justice, but through the wantonness of the people and the abuse of the envious he was now being driven from his country, the Romans might speedily repent, and show to all men that they needed and longed for Camillus.
 
-### Capítulo 13
+#### Capítulo 13
 
-[13.1] After he had thus, like Achilles, Iliad i. 407-412. invoked curses upon his fellow citizens, he removed from out the city. His case went by default, and he was fined fifteen thousand asses. This sum, reduced to our money, is fifteen hundred drachmas. For the as was the current copper coin, and the silver coin worth ten of these pieces was for that reason called the denarius, which is equivalent to the drachma.
+[13.1] After he had thus, like Achilles,[^3] invoked curses upon his fellow citizens, he removed from out the city. His case went by default, and he was fined fifteen thousand asses. This sum, reduced to our money, is fifteen hundred drachmas. For the as was the current copper coin, and the silver coin worth ten of these pieces was for that reason called the denarius, which is equivalent to the drachma.
 
 [13.2] Now there is no Roman who does not believe that justice followed hard upon the imprecations of Camillus, and that he received a requital for his wrongs which was not pleasing to him, but painful; certainly it was notable and famous. For a great retribution encompassed Rome, and a season of dire destruction and peril not unmixed with disgrace assailed the city, whether fortune so brought things to pass, or whether it is the mission of some god not to neglect virtue that goes unrequited.
 
-### Capítulo 14
+#### Capítulo 14
 
 [14.1] In the first place, then, it seemed to be a sign of great evil impending when Julius the censor died. For the Romans specially revere and hold sacred the office of censor. In the second place, before Camillus went into exile, a man who was not conspicuous, to be sure, but who was esteemed honest and kindly, Marcus Caedicius, informed the military tribunes of a matter well worth their attention.
 
-[14.2] He said that during the night just passed, as he was going along the so-called New Street, he was hailed by someone in clear tones, and turned, and saw no man, but heard a voice louder than man’s saying: Hark thou! Marcus Caedicius, early in the morning go and tell the magistrates that within a little time they must expect the Gauls. At this story the tribunes mocked and jested. And a little while after, Camillus suffered his disgrace.
+[14.2] He said that during the night just passed, as he was going along the so-called New Street, he was hailed by someone in clear tones, and turned, and saw no man, but heard a voice louder than man’s saying: “Hark thou! Marcus Caedicius, early in the morning go and tell the magistrates that within a little time they must expect the Gauls.” At this story the tribunes mocked and jested. And a little while after, Camillus suffered his disgrace.
 
-### Capítulo 15
+#### Capítulo 15
 
 [15.1] The Gauls were of the Celtic stock, and their numbers were such, as it is said, that they abandoned their own country, which was not able to sustain them all, and set out in quest of another. They were many myriads of young warriors, and they took along with them a still greater number of women and children. Some of them crossed the Rhipaean mountains, streamed off towards the northern ocean, and occupied the remotest parts of Europe;
 
@@ -178,27 +170,27 @@ URN: `null`
 
 [15.4] He had however, corrupted Arron’s wife, and been corrupted by her, and for a long time kept the thing a secret. But at last the passions of both culprits increased upon them so that they could neither put away their desires nor longer hide them, wherefore the young man made open attempt to remove the woman and have her to wife. Her husband brought the case to trial, but was defeated by Lucumo, owing to the multitude of his friends and his lavish outlays of money, and forsook the city. Learning about the Gauls, he betook himself to them, and led them on their expedition into Italy.
 
-### Capítulo 16
+#### Capítulo 16
 
 [16.1] The Gauls burst in and straightway mastered all the country which the Tuscans occupied of old, namely, that stretching from the Alps down to both seas, the names of which bear witness to the story. For the northern sea is called Adria, from the Tuscan city of Adria; the southern is called outright the Tuscan Sea.
 
 [16.2] This whole country is studded with trees, has excellent pasturage for flocks and herds, and an abundance of rivers. It had also eighteen cities, large and fair, well equipped for profitable commerce and for sumptuous living. These the Gauls took away from the Tuscans and occupied themselves. But this happened long before the time of which I speak.
 
-### Capítulo 17
+#### Capítulo 17
 
 [17.1] At this time the Gauls had marched against the Tuscan city of Clusium and were laying siege to it. The Clusians applied for assistance to the Romans, and begged them to send ambassadors in their behalf with a letter to the Barbarians. So there were sent three men of the Fabian gens who were of great repute and honour in the city.
 
-[17.2] The Gauls received them courteously, because of the name of Rome, ceased their attacks upon the city walls, and held conference with them. When they were asked what wrong they had suffered at the hands of the Clusians that they had come up against their city, Brennus, the king of the Gauls, burst into a laugh and said: The Clusians wrong us in that, being able to till only a small parcel of earth, they yet are bent on holding a large one, and will not share it with us, who are strangers, many in number and poor.
+[17.2] The Gauls received them courteously, because of the name of Rome, ceased their attacks upon the city walls, and held conference with them. When they were asked what wrong they had suffered at the hands of the Clusians that they had come up against their city, Brennus, the king of the Gauls, burst into a laugh and said: “The Clusians wrong us in that, being able to till only a small parcel of earth, they yet are bent on holding a large one, and will not share it with us, who are strangers, many in number and poor.”
 
-[17.3] This is the wrong which ye too suffered, O Romans, formerly at the hands of the Albans, Fidenates, and Ardeates, and now lately at the hands of the Veientines, Capenates, and many of the Faliscans and Volscians. Ye march against these peoples, and if they will not share their goods with you, ye enslave them, despoil them, and raze their cities to the ground; not that in so doing ye are in any wise cruel or unjust,
+[17.3] “This is the wrong which ye too suffered, O Romans, formerly at the hands of the Albans, Fidenates, and Ardeates, and now lately at the hands of the Veientines, Capenates, and many of the Faliscans and Volscians. Ye march against these peoples, and if they will not share their goods with you, ye enslave them, despoil them, and raze their cities to the ground; not that in so doing ye are in any wise cruel or unjust,”
 
-[17.4] nay, ye are but obeying that most ancient of all laws which gives to the stronger the goods of his weaker neighbours, the world over, beginning with God himself and ending with the beasts that perish. For these too are so endowed by nature that the stronger seeks to have more than the weaker. Cease ye, therefore, to pity the Clusians when we besiege them, that ye may not teach the Gauls to be kind and full of pity towards those who are wronged by the Romans.
+[17.4] “nay, ye are but obeying that most ancient of all laws which gives to the stronger the goods of his weaker neighbours, the world over, beginning with God himself and ending with the beasts that perish. For these too are so endowed by nature that the stronger seeks to have more than the weaker. Cease ye, therefore, to pity the Clusians when we besiege them, that ye may not teach the Gauls to be kind and full of pity towards those who are wronged by the Romans.”
 
 [17.5] From this speech the Roman envoys saw that there was no coming to terms with Brennus, and so they slipped into Clusium, and emboldened and incited its citizens to sally out against the Barbarians with them, either because they wished to discover the prowess of those warriors or to display their own The Clusians made a sally, and in the fight which raged along the walls one of the Fabii, Quintus Ambustus, drove his horse straight at a stately and handsome Gaul who was riding far out in front of the rest. At first he was not recognized, because the conflict came swiftly to pass and his dazzling armour hid his face.
 
 [17.6] But when he had conquered and unhorsed his foe and was stripping his arms from him, then Brennus recognized him, and called upon the gods to witness how, contrary to the general practice of all mankind, which was deemed just and holy, he had come as an ambassador, but had wrought as an enemy. Then, putting a stop to the battle, he straightway let the Clusians alone, and led his host against Rome. But not wishing to have it thought that his people were rejoiced at the outrage, and only wanted some pretext for war, he sent and demanded the offender for punishment, and in the meantime advanced but slowly.
 
-### Capítulo 18
+#### Capítulo 18
 
 [18.1] When the Senate convened in Rome, many denounced the Fabii, and especially the priests called Fetiales were instant in calling upon the Senate in the name of all the gods to turn the curse of what had been done upon the one guilty man, and so to make expiation for the rest. These Fetiales were instituted by Numa Pompilius, gentlest and justest of kings, to be the guardians of peace, as well as judges and determiners of the grounds on which war could justly be made.
 
@@ -214,9 +206,9 @@ URN: `null`
 
 [18.7] Their left wing was at once driven into the river by the Gauls and destroyed; their right wing was less cut up, because it withdrew before the enemy’s onset from the plain to the hills, from which most of them made their way back to the city. The rest, as many as escaped the enemy’s hands, which were weary with slaughter, fled by night to Veii. They thought that Rome was lost and all her people slain.
 
-### Capítulo 19
+#### Capítulo 19
 
-[19.1] The battle390 B.C. took place just after the summer solstice when the moon was near the full, on the very day of a former great disaster, when three hundred men of the Fabian gens had been cut to pieces by the Tuscans. But the second defeat was so much the worse that the day on which it fell is called down to the present time dies Alliensis, from the river. Now concerning dies nefasti, or unlucky days, whether we must regard some as such, or whether Heracleitus was right in rebuking Hesiod for calling some days good and some bad, in his ignorance that the nature of every day is one and the same,—this question has been fully discussed elsewhere.
+[19.1] The battle[^4] took place just after the summer solstice when the moon was near the full, on the very day of a former great disaster, when three hundred men of the Fabian gens had been cut to pieces by the Tuscans. But the second defeat was so much the worse that the day on which it fell is called down to the present time dies Alliensis, from the river. Now concerning dies nefasti, or unlucky days, whether we must regard some as such, or whether Heracleitus was right in rebuking Hesiod for calling some days good and some bad, in his ignorance that the nature of every day is one and the same,—this question has been fully discussed elsewhere.
 
 [19.2] Still, even in what I am now writing, the mention of a few examples may not be amiss. To begin with, then, it was on the fifth day of the month of Hippodromius (which the Athenians call Hecatombaeon) that the Boeotians won two illustrious victories which set the Greeks free: that at Leuctra, and that at Ceressus more than two hundred years earlier, when they conquered Lattamyas and the Thessalians.
 
@@ -230,9 +222,9 @@ URN: `null`
 
 [19.7] And likewise the Romans, on the self-same day, saw their army under Caepio destroyed by the Cimbri, and later, when Lucullus was their general, conquered Tigranes and the Armenians. Both King Attalus and Pompey the Great died on their own birthdays. In short, one can adduce many cases where the same times and seasons have brought opposite fortunes upon the same men.
 
-[19.8] But this day of the Allia is regarded by the Romans as one of the unluckiest, and its influence extends over two other days of each month throughout the year, since in the presence of calamity, timidity and superstition often overflow all bounds. However, this subject has been more carefully treated in my Roman Questions. Morals, pp. 269 f.
+[19.8] But this day of the Allia is regarded by the Romans as one of the unluckiest, and its influence extends over two other days of each month throughout the year, since in the presence of calamity, timidity and superstition often overflow all bounds. However, this subject has been more carefully treated in my Roman Questions. [^5]
 
-### Capítulo 20
+#### Capítulo 20
 
 [20.1] Now had the Gauls, after this battle, followed hard upon the fugitives, naught would have hindered Rome from being utterly destroyed and all those who remained in her from perishing, such was the terror which the fugitives infused into the occupants of the city, and with such confusion and delirium were they themselves once more filled.
 
@@ -246,19 +238,19 @@ URN: `null`
 
 [20.6] Others still, pretending to have larger knowledge in these matters, say that two small jars are stored away there, of which one is open and empty, and the other full and sealed up, and that both are visible only to the holy virgins. But others think that these knowing ones have been led astray by the fact that the virgins, at the time of which I am now speaking, cast the most of their sacred treasures into two jars, and hid them underground in the temple of Quirinus, whence that place, down to the present time, has the name of Doliola, or Jars.
 
-### Capítulo 21
+#### Capítulo 21
 
 [21.1] However that may be, these virgins took the choicest and most important of the sacred objects and fled away along the river. There it chanced that Lucius Albinius, a man of the common people, was among the fugitives, carrying off his wife and little children, with the most necessary household goods, upon a waggon. When he saw the virgins with the sacred symbols of the gods in their bosoms, making their way along unattended and in great distress, he speedily took his wife, with the children and the household goods, down from the waggon, and suffered the virgins to mount upon it and make their escape to a Greek city.
 
 [21.2] This pious act of Albinius, and the conspicuous honour which he showed the gods in a season of the greatest danger, could not well be passed over in silence. But the priests of the other gods, and the aged men who had been consuls and celebrated triumphs, could not endure to leave the city. So they put on their robes of state and ceremony, following the lead of Fabius, the pontifex maximus, and vowed the gods that they would devote themselves to death in their country’s behalf. Then they sat themselves down, thus arrayed, on their ivory chairs in the forum, and awaited their fate.
 
-### Capítulo 22
+#### Capítulo 22
 
 [22.1] On the third day after the battle, Brennus came up to the city with his army. Finding its gates open and its walls without defenders, at first he feared a treacherous ambush, being unable to believe that the Romans were in such utter despair. But when he realised the truth, he marched in by the Colline gate, and took Rome. This was a little more than three hundred and sixty years from her foundation, if one can believe that any accurate chronology has been preserved in this matter, when that of even later events is disputed, owing to the confusion caused by this very disaster.
 
 [22.2] However, it would seem that some vague tidings of the calamity and capture of the city made their way at once to Greece. For Heracleides Ponticus, who lived not long after that time, in his treatise On the soul, says that out of the West a story prevailed, how an army of Hyperboreans had come from afar and captured a Greek city called Rome, situated somewhere on the shores of the Great Sea.
 
-[22.3] Now I cannot wonder that so fabulous and fictitious a writer as Heracleides should deck out the true story of the capture of Rome with his Hyperboreans and his Great Sea. But Aristotle the philosopher clearly had accurate tidings of the capture of the city by the Gauls, and yet he says that its saviour was Lucius, although the forename of Camillus was not Lucius, but Marcus. However, these details were matters of conjecture.
+[22.3] Now I cannot wonder that so fabulous and fictitious a writer as Heracleides should deck out the true story of the capture of Rome with his “Hyperboreans” and his “Great Sea.” But Aristotle the philosopher clearly had accurate tidings of the capture of the city by the Gauls, and yet he says that its saviour was Lucius, although the forename of Camillus was not Lucius, but Marcus. However, these details were matters of conjecture.
 
 [22.4] When he had occupied Rome, Brennus surrounded the Capitol with a guard. He himself went down through the forum, and was amazed to see the men sitting there in public state and perfect silence. They neither rose up to meet their enemies when they approached, nor did they change countenance or colour, but sat there quietly, at ease and without fear, leaning on their staves and gazing into one another’s faces.
 
@@ -266,7 +258,7 @@ URN: `null`
 
 [22.6] After that, they fell upon the rest and slew them, made away with every one else they met, sacked and plundered the houses of the city for many days together, and finally burned them down and levelled them with the ground, in their wrath at the defenders of the Capitol. For these would not surrender at their summons, but when they were attacked, actually repulsed their foes from the ramparts with loss. Therefore the Gauls inflicted every outrage upon the city, and put to the sword all whom they captured, men and women, old and young alike.
 
-### Capítulo 23
+#### Capítulo 23
 
 [23.1] The siege lasted a long time, and the Gauls began to lack provisions. They therefore divided their forces. Some remained with their king and watched the Capitol, others ravaged the country round about, falling upon the villages and sacking them, not all together in one body, hut scattered about by commands and companies, some here, some there, moved by their successes to great confidence and the fear of nothing.
 
@@ -280,15 +272,15 @@ URN: `null`
 
 [23.6] A few of them were sobered by fear, armed themselves, and made resistance to Camillus and his men, so that they fell fighting; but most were still mastered by sleep and wine when they were fallen upon and slain without their arms. A few only ran from the camp, under cover of darkness, and when day came, were seen straggling about the fields, but horsemen pursued them and cut them to pieces.
 
-### Capítulo 24
+#### Capítulo 24
 
-[24.1] Rumour quickly carried news of this exploit to the neighbouring cities, and called to arms many of those who were of age for service, particularly the Romans who had made their escape from the battle on the Allia, and were in Veii. These lamented among themselves, saying: Of what a leader has heaven robbed Rome in Camillus, only to adorn Ardea with his victories! The city which bore and reared such a hero is dead and gone,
+[24.1] Rumour quickly carried news of this exploit to the neighbouring cities, and called to arms many of those who were of age for service, particularly the Romans who had made their escape from the battle on the Allia, and were in Veii. These lamented among themselves, saying: “Of what a leader has heaven robbed Rome in Camillus, only to adorn Ardea with his victories! The city which bore and reared such a hero is dead and gone,”
 
-[24.2] and we, for lack of generals, sit pent up within alien walls, and see Italy ruined before our very eyes. Come! let us send to Ardea and demand our own general, or take our arms and go ourselves to him! For he is no longer an exile, nor are we citizens, now that our country is no more, but is mastered by the enemy. So said, so done, and they sent and asked Camillus to take the command.
+[24.2] “and we, for lack of generals, sit pent up within alien walls, and see Italy ruined before our very eyes. Come! let us send to Ardea and demand our own general, or take our arms and go ourselves to him! For he is no longer an exile, nor are we citizens, now that our country is no more, but is mastered by the enemy.” So said, so done, and they sent and asked Camillus to take the command.
 
 [24.3] But he refused to do so before the citizens on the Capitol had legally elected him. They were preserving the country, as he thought, and if they had commands for him, he would gladly obey, but against their wishes he would meddle with nothing whatsoever. This noble restraint on the part of Camillus was much admired, but it was hard to see how the matter could be referred to the Capitol. Nay rather, it seemed utterly impossible, while the enemy held the city, for a messenger to elude them and reach the acropolis.
 
-### Capítulo 25
+#### Capítulo 25
 
 [25.1] But there was a certain young man, Pontius Cominius by name, who was, in spite of his ordinary birth, a lover of glory and honour. He volunteered to attempt the task. He took no letter with him to the defenders of the Capitol, lest this, in the event of his capture, should help the enemy to discover the purpose of Camillus; but under the coarse garments which he wore, he carried some pieces of cork. The greater part of his journey was made by daylight and without fear; but as night came on he found himself near the city. He could not cross the river by the bridge, since the Barbarians were guarding it,
 
@@ -298,13 +290,13 @@ URN: `null`
 
 [25.4] When the Senate had heard his message and deliberated upon it, they appointed Camillus dictator, and sent Pontius back again by the way he had come, wherein he repeated his former good fortune. For he eluded the enemy’s notice and brought the Senate’s message to the Romans outside the city.
 
-### Capítulo 26
+#### Capítulo 26
 
 [26.1] These gave eager welcome to the tidings, so that when Camillus came, he found twenty thousand men already under arms. He collected still more from the allies, and made preparations for his attack. Thus Camillus was chosen dictator for the second time, and proceeding to Veii, he put himself at the head of the soldiers there, and collected more from the allies, with the purpose of attacking the enemy. But in Rome, some of the Barbarians chanced to pass by the spot where Pontius had made his way by night up to the Capitol, and noticed in many places the marks made by his hands and feet in clambering up, and many places also where the plants that grew upon the rocks had been torn away, and the earth displaced. They advised their king of this, and he too came and made inspection.
 
-[26.2] At the time he said nothing, but when evening came, he assembled the nimblest men and the best mountain-climbers of the Gauls and said to them: The enemy have shown us that there is a way up to them of which we knew not, and one which men can traverse and tread. It would be a great shame for us, after such a beginning as we have made, to fail at the end, and to give the place up as impregnable, when the enemy themselves show us where it can be taken. For where it is easy for one man to approach it, there it will be no difficult matter for many to go one by one, nay, they will support and aid one another greatly in the undertaking. Gifts and honours befitting his valour shall be given to every man.
+[26.2] At the time he said nothing, but when evening came, he assembled the nimblest men and the best mountain-climbers of the Gauls and said to them: “The enemy have shown us that there is a way up to them of which we knew not, and one which men can traverse and tread. It would be a great shame for us, after such a beginning as we have made, to fail at the end, and to give the place up as impregnable, when the enemy themselves show us where it can be taken. For where it is easy for one man to approach it, there it will be no difficult matter for many to go one by one, nay, they will support and aid one another greatly in the undertaking. Gifts and honours befitting his valour shall be given to every man.”
 
-### Capítulo 27
+#### Capítulo 27
 
 [27.1] So spake their king, and the Gauls eagerly undertook to do his will. About midnight a large band of them scaled the cliff and made their way upward in silence. They climbed on all fours over places which were precipitous and rough, but which yielded to their efforts better than they had expected,
 
@@ -316,7 +308,7 @@ URN: `null`
 
 [27.5] Then taking his stand on the wall with those who ran to his aid and formed about him, he repulsed the rest of the enemy, who had reached the top in no great numbers, and showed no prowess to match their daring. So the Romans escaped out of their peril. At break of day, they cast the captain of the watch down the cliff among the enemy, but voted to Manlius a meed of victory which did him more honour than service. They collected for him the rations which each man of them received for one day, namely, half a pound of native spelt, Roman weight, and an eighth of a pint of wine, Greek measure.
 
-### Capítulo 28
+#### Capítulo 28
 
 [28.1] After this, the case of the Gauls was less hopeful. They lacked provisions, being shut off from foraging through fear of Camillus, and disease lurked among them. They were encamped amid ruins, where a multitude of corpses had been cast at random, and besides, an air made dry and acrid by vast quantities of ashes which wind and heat sent flying abroad, made breathing hurtful.
 
@@ -326,9 +318,9 @@ URN: `null`
 
 [28.4] Then, since those in authority thought it best, Sulpicius, the military tribune of the Romans, held a conference with Brennus, and it was agreed that on the delivery of a thousand pounds of gold by the Romans, the Gauls should straightway depart out of the city and the country. Oaths were sworn to these terms, and the gold was brought to be weighed. But the Gauls tampered with the scales, secretly at first, then they openly pulled the balance back out of its poise. The Romans were incensed at this,
 
-[28.5] but Brennus, with a mocking laugh, stripped off his sword, and added it, belt and all, to the weights. When Sulpicius asked, What means this? What else, said Brennus, but woe to the vanquished? Vae victis! and the phrase passed at once into a proverb. Some of the Romans were incensed, and thought they ought to go back again with their gold, and endure the siege. Others urged acquiescence in the mild injustice. Their shame lay, they argued, not in giving more, but in giving at all. This they consented to do because of the emergency; it was not honourable, but it was necessary.
+[28.5] but Brennus, with a mocking laugh, stripped off his sword, and added it, belt and all, to the weights. When Sulpicius asked, “What means this?” “What else,” said Brennus, “but woe to the vanquished?” [^6] and the phrase passed at once into a proverb. Some of the Romans were incensed, and thought they ought to go back again with their gold, and endure the siege. Others urged acquiescence in the mild injustice. Their shame lay, they argued, not in giving more, but in giving at all. This they consented to do because of the emergency; it was not honourable, but it was necessary.
 
-### Capítulo 29
+#### Capítulo 29
 
 [29.1] While they were thus at odds in the matter, both with the Gauls and with themselves, Camillus led his army up to the gates of the city. On learning what was going on, he ordered the rest of his army to follow in battle array and deliberately, while he himself, with the flower of his men, pressed on, and presently came to the Romans.
 
@@ -340,15 +332,15 @@ URN: `null`
 
 [29.5] At break of day Camillus was upon him, in glittering array, his Romans now full of confidence, and after a long and fierce battle, routed the enemy with great slaughter and took their camp. Of the fugitives, some were at once pursued and cut down, but most of them scattered abroad only to be fallen upon and slain by the people of the surrounding villages and cities.
 
-### Capítulo 30
+#### Capítulo 30
 
 [30.1] So strangely was Rome taken, and more strangely still delivered, after the Barbarians had held it seven months in all. They entered it a few days after the Ides of July, and were driven out about the Ides of February. Camillus celebrated a triumph, as it was meet that a man should do who had saved a country that was lost, and who now brought the city back again to itself.
 
 [30.2] For the citizens outside, with their wives and children, accompanied his triumphal chariot as it entered the city, and those who had been besieged on the Capitol, and had narrowly escaped death by starvation, came forth to meet them, all embracing one another, and weeping for the joy that was theirs. The priests and ministrants of the gods, bringing whatever sacred objects they had either buried on the spot or carried off with them when they took to flight, displayed them, thus preserved in safety, to the citizens, who caught the welcome sights with delight, believing in their hearts that the gods themselves were now coming back to Rome with them.
 
-[30.3] After Camillus had made sacrifices to the gods and purified the city, in the manner prescribed by those who were versed in such rites, he restored the existing temples, and erected a new one to Rumour and Voice, Ara Aii Locutii having sought out carefully the spot where by night the voice from Heaven, announcing the coming of the Barbarian host, had fallen upon the ears of Marcus Caedicius.
+[30.3] After Camillus had made sacrifices to the gods and purified the city, in the manner prescribed by those who were versed in such rites, he restored the existing temples, and erected a new one to Rumour and Voice,[^7] having sought out carefully the spot where by night the voice from Heaven, announcing the coming of the Barbarian host, had fallen upon the ears of Marcus Caedicius.
 
-### Capítulo 31
+#### Capítulo 31
 
 [31.1] Owing to the zeal of Camillus and the abundant labours of the priesthood, the sites of the temples were at last uncovered, but it proved a grievous undertaking. And since the city had also to be built up again from a state of utter destruction, the multitude were overwhelmed with despair of the task, and shrank from it. They were bereft of all things, and for the present needed some rest and repose after their sufferings, instead of toiling and wearing themselves out on a task for which they had neither means nor strength.
 
@@ -360,7 +352,7 @@ URN: `null`
 
 [31.5] Thus did the Senators remonstrate with the people, both individually in private, and often in the public assemblies. They, in their turn, were moved to compassion by the wailing complaints of the multitude, who lamented the helplessness to which they were come, and begged, now that they had been saved alive as it were from a shipwreck, in nakedness and destitution, that they be not forced to piece together the fragments of their ruined city, when another stood all ready to receive them.
 
-### Capítulo 32
+#### Capítulo 32
 
 [32.1] Accordingly, Camillus decided that the question should be debated and settled in council. He himself spoke at great length, in exhortation to preserve their common country, and every one else who wished did likewise. Finally, he called upon Lucius Lucretius, to whom custom gave the first vote, and bade him declare his opinion first, and then the other senators in the order due.
 
@@ -372,7 +364,7 @@ URN: `null`
 
 [32.5] The augural staff is curved at one end, and is called lituus. It is used to mark off the different quarters of the heavens, in the ceremonies of divination by the flight of birds, and so Romulus had used this one, for he was a great diviner. But when he vanished from among men, the priests took this staff and kept it inviolate, like any other sacred object. Their finding this at that time unscathed, when all the rest had perished, gave them more pleasing hopes for Rome. They thought it a token that assured her of everlasting safety.
 
-### Capítulo 33
+#### Capítulo 33
 
 [33.1] They were not yet done with these pressing tasks when a fresh war broke upon them. The Aequians, Volscians, and Latins burst into their territory all at once, and the Tuscans laid siege to Sutrium, a city allied with Rome. The military tribunes in command of the army, having encamped near Mount Marcius, were besieged by the Latins, and were in danger of losing their camp. Wherefore they sent to Rome for aid, and Camillus was appointed dictator for the third time.
 
@@ -386,9 +378,9 @@ URN: `null`
 
 [33.6] Next, the maidservants, in gay attire, run about jesting and joking with the men they meet. They have a mock battle, too, with one another, implying that they once took a hand in the struggle with the Latins. And as they feast, they sit in the shade of a fig-tree’s branches. The day is called the Capratine Nones, from the wild fig-tree, as they suppose, from which the maid held forth her torch; this goes by the name of caprificus.
 
-[33.7] But others say that most of what is said and done at this festival has reference to the fate of Romulus. For on this same day he vanished from sight, outside the city gates, in sudden darkness and tempest, and, as some think, during an eclipse of the sun. The day, they say, is called the Capratine Nones from the spot where he thus vanished. For the she-goat goes by the name of capra, and Romulus vanished from sight while haranguing an assembly of the people at the Goat’s Marsh, as has been stated in his Life. Chap. xxvii.
+[33.7] But others say that most of what is said and done at this festival has reference to the fate of Romulus. For on this same day he vanished from sight, outside the city gates, in sudden darkness and tempest, and, as some think, during an eclipse of the sun. The day, they say, is called the Capratine Nones from the spot where he thus vanished. For the she-goat goes by the name of capra, and Romulus vanished from sight while haranguing an assembly of the people at the Goat’s Marsh, as has been stated in his Life.[^8]
 
-### Capítulo 34
+#### Capítulo 34
 
 [34.1] But most writers adopt the other account of this war, which runs thus. Camillus, having been appointed dictator for the third time, and learning that the army under the military tribunes was besieged by the Latins and Volscians, was forced to put under arms even those of the citizens who were exempt from military duty by reason of advancing years.
 
@@ -400,7 +392,7 @@ URN: `null`
 
 [34.5] The flames speedily found food in the crowded timbers of the wooden palisades and spread in all directions. The Latins had nothing at hand with which to ward off or quench them, and when at length their camp was full of fire, they were huddled together into a small space, and at last forced to dash out against an enemy who were drawn up in full battle array in front of the trenches. Few of them made their escape, and those who were left behind in the camp were all a prey to the fire until the Romans put it out and fell upon their booty.
 
-### Capítulo 35
+#### Capítulo 35
 
 [35.1] This business dispatched, he left his son Lucius in command of the camp to guard the captives and the booty, while he himself invaded the enemy’s country. He captured the city of the Aequians, brought the Volscians to terms, and straightway led his army towards Sutrium. He was not yet apprised of the fate of the Sutrians, but thought they were still in peril of siege by the Tuscans, and so hastened to relieve them.
 
@@ -410,7 +402,7 @@ URN: `null`
 
 [35.4] And even when they perceived that their enemies already had the mastery, they were so sluggishly disposed by reason of satiety and drunkenness that many did not so much as try to flee, but awaited there in the houses the most shameful of all deaths, or gave themselves up to their enemies. The city of Sutrium was thus twice captured in a single day, and it came to pass that those who had won it, lost it, and those who had first lost it, won it back, and all by reason of Camillus.
 
-### Capítulo 36
+#### Capítulo 36
 
 [36.1] The triumph decreed him for these victories brought him no less favour and renown than his first two had done, and those citizens who had been most envious of him and preferred to ascribe all his successes to an unbounded good fortune rather than to a native valour, were forced by these new exploits to set the man’s glory to the credit of his ability and energy.
 
@@ -426,7 +418,7 @@ URN: `null`
 
 [36.7] So then Manlius was convicted, carried to the Capitol, and thrust down the rock, thus making one and the same spot a monument of his most fortunate actions and of his greatest misfortunes. The Romans, besides, razed his house to the ground, and built there a temple to the goddess they call Moneta. They decreed also that in future no patrician should ever have a house on the Capitoline hill.
 
-### Capítulo 37
+#### Capítulo 37
 
 [37.1] Camillus, called now to be military tribune for the sixth time, declined the honour, being already well on in years, and fearful perhaps of the envy of men and the resentment of the gods which often follows upon such glorious successes as his. But the most manifest reason was his bodily weakness, for it chanced that in those days he was sick.
 
@@ -438,7 +430,7 @@ URN: `null`
 
 [37.5] In this way, for that day, the enemy were turned back from their pursuit. On the next day, Camillus led his forces out, joined battle with the enemy, defeated them utterly, and took their camp, actually bursting into it along with those who fled to it, and slaying most of them. After this, learning that the city of Satricum had been taken by the Tuscans, and its inhabitants, all Romans, put to the sword, he sent back to Rome the main body of his army, comprising the men-at-arms, while he himself, with the youngest and most ardent of his men, fell suddenly upon the Tuscans who held the city and mastered them, expelling some and slaying the rest.
 
-### Capítulo 38
+#### Capítulo 38
 
 [38.1] He returned with much spoil to Rome, having proved that those citizens were the most sensible of all who did not fear the bodily age and weakness of a leader possessed of experience and courage, but chose him out, though he was ill and did not wish it, rather than younger men who craved and solicited the command. They showed the same good sense, when the Tusculans were reported to be on the brink of a revolt, in ordering Camillus to select one of his five colleagues as an aid, and march out against them.
 
@@ -448,11 +440,11 @@ URN: `null`
 
 [38.4] Their performances did not bring Camillus into any doubt of their intended treachery, but out of pity for the repentance that followed so close upon their treachery, he ordered them to go to the Senate and beg for a remission of its wrath. He himself also helped to make their prayers effectual, so that their city was absolved from all charges and received the rights of Roman citizenship. Such were the most conspicuous achievements of his sixth tribuneship.
 
-### Capítulo 39
+#### Capítulo 39
 
 [39.1] After this, Licinius Stolo stirred up the great dissension in the city which brought the people into collision with the Senate. The people insisted that, when two consuls were appointed, one of them must certainly be a plebeian, and not both patricians. Tribunes of the people were chosen, but the multitude prevented the consular elections from being duly held.
 
-[39.2] Owing to this lack of magistrates, matters were getting more and more confused, and so Camillus was for the fourth time appointed dictator by the Senate, though much against the wishes of the people. He was not eager for the office himself, nor did he wish to oppose men whose many and great struggles gave them the right to say boldly to him: Your achievements have been in the field with us, rather than in politics with the patricians; it is through hate and envy that they have now made you dictator; they hope that you will crush the people if you prevail, or be crushed yourself if you fail.
+[39.2] Owing to this lack of magistrates, matters were getting more and more confused, and so Camillus was for the fourth time appointed dictator by the Senate, though much against the wishes of the people. He was not eager for the office himself, nor did he wish to oppose men whose many and great struggles gave them the right to say boldly to him: “Your achievements have been in the field with us, rather than in politics with the patricians; it is through hate and envy that they have now made you dictator; they hope that you will crush the people if you prevail, or be crushed yourself if you fail.”
 
 [39.3] However, he tried to ward off the threatening evils. Having learned the day on which the tribunes intended to propose their law, he issued proclamation making it a day of general muster, and summoned the people from the forum into the Campus Martius, with threats of heavy fines upon the disobedient.
 
@@ -460,7 +452,7 @@ URN: `null`
 
 [39.5] But the Senate appointed another dictator, and he, after making Stolo himself, the very leader of the sedition, his master of horse, suffered the law to be enacted. It was a most vexatious law for the patrician, for it prohibited anyone from owning more than five hundred acres of land. At that time, then, Stolo was a resplendent figure, owing to his victory at the polls; but a little while after, he himself was found to be possessed of what he forbade others to own, and so paid the penalty fixed by his own law.
 
-### Capítulo 40
+#### Capítulo 40
 
 [40.1] There remained, however, the strife over the consular elections, which was the main problem in the dissensions, as it was its first cause, and gave the Senate most concern in its contention with the people. But suddenly clear tidings came that the Gauls had once more set out from the Adriatic Sea, many myriads strong, and were marching on Rome.
 
@@ -470,7 +462,7 @@ URN: `null`
 
 [40.4] he had helmets forged for most of his men which were all iron and smooth of surface, that the enemy’s swords might slip off from them or be shattered by them. He also had the long shields of his men rimmed round with bronze, since their wood could not of itself ward off the enemy’s blows. The soldiers themselves he trained to use their long javelins like spears,—to thrust them under the enemy’s swords and catch the downward strokes upon them.
 
-### Capítulo 41
+#### Capítulo 41
 
 [41.1] When the Gauls were near at hand, being encamped on the Anio and encumbered with untold plunder, Camillus led his forces out and posted them in a gently sloping glade with many hollows, so that the largest part of them were concealed, and the part that could be seen had the look of shutting themselves up in hilly places out of fear.
 
@@ -484,7 +476,7 @@ URN: `null`
 
 [41.6] This battle, they say, was fought thirteen years after the capture of Rome, and produced in the Romans a firm feeling of confidence regarding the Gauls. They had mightily feared these Barbarians, who had been conquered by them in the first instance, as they felt, in consequence of sickness and extraordinary misfortunes, rather than of any prowess in their conquerors. At any rate, so great had their terror been that they made a law exempting priests from military service, except in case of a Gallic war.
 
-### Capítulo 42
+#### Capítulo 42
 
 [42.1] This was the last military exploit performed by Camillus, for the capture of Velitrae was a direct sequel of this campaign, and it yielded to him without a struggle. But the greatest of his civil contests yet remained and it was harder to wage it now against a people which had come back flushed with victory, and bent on electing a plebeian consul, contrary to the established law. But the Senate opposed their demands, and would not suffer Camillus to lay aside his office, thinking that, with the aid of his great power and authority, they could make a better fight in defence of their aristocracy.
 
@@ -496,10 +488,15 @@ URN: `null`
 
 [42.5] They voted also to add a day to the so-called Latin festival, and thereafter to celebrate four days, and that all Romans at once perform sacrifices with garlands on their heads. At the elections held by Camillus, Marcus Aemilius was chosen consul from the patricians, and Lucius Sextus first consul from the plebeians. This was the last public act of Camillus.
 
-### Capítulo 43
+#### Capítulo 43
 
 [43.1] In the year following, a pestilential sickness visited Rome, carrying off an incalculable number of the common people, and most of the magistrates. Camillus also died at this time, and he was full ripe for death, if any man ever was, considering his years and the completeness of his life; yet his loss grieved the Romans more than that of all those who perished of the plague at this time.
 
----
-
-*Ὁ Διαφορεύς παρῆν*
+[^1]: 396 B.C.
+[^2]: v. 22.
+[^3]: Iliad i. 407-412.
+[^4]: 390 B.C.
+[^5]: Morals, pp. 269 f.
+[^6]: Vae victis!
+[^7]: Ara Aii Locutii
+[^8]: Chap. xxvii.

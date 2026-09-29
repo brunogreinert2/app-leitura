@@ -1,52 +1,44 @@
 ---
 id: plutarco-aemilius-paulus-eng-bernadotte-perrin-1918
-type: texto_primario
-title: "Aemilius Paulus"
-subtitle: null
+type: translation
+title: Aemilius Paulus
 author: Plutarch
-year_original: null
-language: eng
-translation:
-  - Bernadotte Perrin
+translator:
+- Bernadotte Perrin
 publisher: Harvard University Press
-area: null
-era: null
-tags: []
-status: rascunho
+language: eng
+tags:
+- moralists
+status: draft
 project: pedra_angular
-source: "Plutarch. Aemilius Paulus. Ed. Bernadotte Perrin. Cambridge, MA: Harvard University Press, 1918. Perseus Digital Library, Tufts University (CC BY-SA 4.0). URN: null"
-related: []
+urn_work: urn:cts:greekLit:tlg0007.tlg019
+urn: urn:cts:greekLit:tlg0007.tlg019.perseus-eng2
+source: 'Plutarch. Aemilius Paulus. Ed. Bernadotte Perrin. Cambridge, MA: Harvard University Press, 1918. Perseus Digital Library, Tufts University (CC BY-SA 4.0).'
+source_repo: PerseusDL/canonical-greekLit
+source_file: data/tlg0007/tlg019/tlg0007.tlg019.perseus-eng2.xml
+source_commit: e37eed2e8
+license: CC-BY-SA-4.0
 ---
 
 # Aemilius Paulus
 
-**Plutarch**
+#### Capítulo 2
 
-Cambridge, MA: Harvard University Press, 1918.
-Perseus Digital Library, Tufts University (CC BY-SA 4.0).
-URN: `null`
+[^1][2.1] That the Aemilii were one of the ancient and patrician houses at Rome, most writers agree.
 
----
-
-## Texto
-
-### Capítulo 2
-
-[2.1] The first chapter has been transposed to serve as Introduction to both the Timoleon and theAemilius Paulus. That the Aemilii were one of the ancient and patrician houses at Rome, most writers agree.
-
-[2.2] And that the first of them, and the one who gave his surname to the family, was Mamercus, a son of Pythagoras the philosopher, who received the surname of Aemilius for the gracePlutarch suggests the identity of the Latin Aemilius with the Greek αἱμύλιος (winning). Cf. Odyssey, i. 56. and charm of his discourse, is the statement of some of those writers who hold that Pythagoras was the educator of Numa the king.See the Numa, i. 2 f.
+[2.2] And that the first of them, and the one who gave his surname to the family, was Mamercus, a son of Pythagoras the philosopher, who received the surname of Aemilius for the grace[^2] and charm of his discourse, is the statement of some of those writers who hold that Pythagoras was the educator of Numa the king.[^3]
 
 [2.3] Now, most of this family who rose to distinction by their cultivation of virtue, were blessed with good fortune; and in the case of Lucius Paulus, his misfortune at Cannae gave testimony alike to his wisdom and valour.
 
-[2.4] For when he could not dissuade his colleague from giving battle, he took part with him in the struggle, though reluctantly, but would not be a partner in his flight; nay, though the one who had brought on the peril left him in the lurch, he himself kept his post and died fighting the enemy.See the Fabius Maximus, chapters xiv. and xvi.
+[2.4] For when he could not dissuade his colleague from giving battle, he took part with him in the struggle, though reluctantly, but would not be a partner in his flight; nay, though the one who had brought on the peril left him in the lurch, he himself kept his post and died fighting the enemy.[^4]
 
 [2.5] This Paulus had a daughter, Aemilia, who was the wife of Scipio the Great, and a son, Aemilius Paulus, whose Life I now write. He came of age at a time which abounded in men of the greatest reputation and most illustrious virtue, and yet he was a conspicuous figure, although he did not pursue the same studies as the young nobles of the time, nor set out on his career by the same path.
 
 [2.6] For he did not practise pleading private cases in the courts, and refrained altogether from the salutations and greetings and friendly attentions to which most men cunningly resorted when they tried to win the favour of the people by becoming their zealous servants; not that he was naturally incapable of either, but he sought to acquire for himself what was better than both, namely, a reputation arising from valour, justice, and trustworthiness. In these virtues he at once surpassed his contemporaries.
 
-### Capítulo 3
+#### Capítulo 3
 
-[3.1] At all events, when he sued for the first of the high offices in the state, the aedileship, he was elected over twelve competitors,In 192 B.C. all of whom, we are told, afterwards became consuls.
+[3.1] At all events, when he sued for the first of the high offices in the state, the aedileship, he was elected over twelve competitors,[^5] all of whom, we are told, afterwards became consuls.
 
 [3.2] Moreover, when he was made one of the priests called Augurs, whom the Romans appoint as guardians and overseers of the art of divination from the flight of birds and from omens in the sky, he so carefully studied the ancestral customs of the city, and so thoroughly understood the religious ceremonial of the ancient Romans, that his priestly function,
 
@@ -60,11 +52,11 @@ URN: `null`
 
 [3.7] but, like a priest of other dread rites, he explained thoroughly all the details of military custom and was a terror to disobedient transgressors, and so restored his country to her former greatness, considering the conquest of his enemies hardly more than an accessory to the training of his fellow-citizens.
 
-### Capítulo 4
+#### Capítulo 4
 
 [4.1] After the Romans had gone to war with Antiochus the Great, and while their most experienced commanders were employed against him, another war arose in the West, and there were great commotions in Spain.
 
-[4.2] For this war Aemilius was sent out as praetor,In 191 B.C. not with the six lictors which praetors usually have, but adding other six to that number, so that his office had a consular dignity.
+[4.2] For this war Aemilius was sent out as praetor,[^6] not with the six lictors which praetors usually have, but adding other six to that number, so that his office had a consular dignity.
 
 [4.3] Well, then, he defeated the Barbarians in two pitched battles, and slew about thirty thousand of them; and it would seem that his success was conspicuously due to his generalship, since by choosing favourable ground and by crossing a certain river he made victory easy for his soldiers; moreover, he made himself master of two hundred and fifty cities, which yielded to him of their own accord.
 
@@ -72,13 +64,13 @@ URN: `null`
 
 [4.5] And, indeed, in all other ways he was a rather indifferent money-maker, and spent generously and without stint of his substance. But this was not large; indeed, after his death it barely sufficed to meet the dowry due to his wife.
 
-### Capítulo 5
+#### Capítulo 5
 
 [5.1] He married Papiria, a daughter of Maso, who was a man of consular dignity, and after he had lived with her a long time he divorced her, although she had made him father of most glorious sons; for she it was who bore him that most illustrious Scipio, and Fabius Maximus.
 
 [5.2] No documentary grounds for the divorce have come down to us, but there would seem to be some truth in a story told about divorce, which runs as follows. A Roman once divorced his wife, and when his friends admonished him, saying:
 
-[5.3] Is she not discreet? is she not beautiful? is she not fruitful? he held out his shoe (the Romans call it calceus), saying: Is this not handsome? is it not new? but no one of you can tell me where it pinches my foot?
+[5.3] “Is she not discreet? is she not beautiful? is she not fruitful?” he held out his shoe (the Romans call it calceus), saying: “Is this not handsome? is it not new? but no one of you can tell me where it pinches my foot?”
 
 [5.4] For, as a matter of fact, it is great and notorious faults that separate many wives from their husbands; but the slight and frequent frictions arising from some unpleasantness or incongruity of characters, unnoticed as they may be by everybody else, also produce incurable alienations in those whose lives are linked together.
 
@@ -94,9 +86,9 @@ URN: `null`
 
 [5.10] These, then, are considerations and examples which history presents to those who are willing to profit by them.
 
-### Capítulo 6
+#### Capítulo 6
 
-[6.1] Aemilius, then, having been appointed consul,In 182 B.C. made an expedition against the Ligurians along the Alps, whom some call also Ligustines, a warlike and spirited folk, and one whose proximity to the Romans was teaching it skill in war.
+[6.1] Aemilius, then, having been appointed consul,[^7] made an expedition against the Ligurians along the Alps, whom some call also Ligustines, a warlike and spirited folk, and one whose proximity to the Romans was teaching it skill in war.
 
 [6.2] For they occupy the extremities of Italy that are bounded by the Alps, and those parts of the Alps themselves that are washed by the Tuscan sea and face Africa, and they are mingled with Gauls and the Iberians of the coast.
 
@@ -116,9 +108,9 @@ URN: `null`
 
 [6.10] And the father, unless some public business prevented, would always be present at their studies and exercises, for he was now become the fondest parent in Rome.
 
-### Capítulo 7
+#### Capítulo 7
 
-[7.1] As to public affairs, that was the period when the Romans were at war with Perseus,171-168 B.C. the king of Macedonia, and were taking their generals to task because their inexperience and cowardice led them to conduct their campaigns ridiculously and disgracefully, and to suffer more harm than they inflicted.
+[7.1] As to public affairs, that was the period when the Romans were at war with Perseus,[^8] the king of Macedonia, and were taking their generals to task because their inexperience and cowardice led them to conduct their campaigns ridiculously and disgracefully, and to suffer more harm than they inflicted.
 
 [7.2] For the people which had just forced Antiochus, surnamed the Great, to retire from the rest of Asia, driven him over the Taurus mountains, and shut him up in Syria, where he had been content to buy terms with a payment of fifteen thousand talents;
 
@@ -128,7 +120,7 @@ URN: `null`
 
 [7.5] for they were not aware that after his defeat Philip had made the Macedonian armies far more vigorous and warlike than before. This situation I will briefly explain from the beginning.
 
-### Capítulo 8
+#### Capítulo 8
 
 [8.1] Antigonus, who was the most powerful of Alexander’s generals and successors, and acquired for himself and his line the title of King, had a son Demetrius, and his son was Antigonus surnamed Gonatas.
 
@@ -138,7 +130,7 @@ URN: `null`
 
 [8.4] After him Philip succeeded to the throne, and, though still a youth, flowered out in the qualities which most distinguish kings, and led men to believe that he would restore Macedonia to her ancient dignity, and that he, and he alone, would check the power of Rome, which already extended over all the world.
 
-[8.5] But after he was defeated in a great battle at Scotussa by Titus Flamininus,In 197 B.C. The battle is usually named from a range of hills near Scotussa called Cynoscephalae. See the Flamininus, chapters iii. and iv. for a time he took a humble posture, entrusted all his interests to the Romans, and was content to come off with a moderate fine.
+[8.5] But after he was defeated in a great battle at Scotussa by Titus Flamininus,[^9] for a time he took a humble posture, entrusted all his interests to the Romans, and was content to come off with a moderate fine.
 
 [8.6] Afterwards, however, his condition oppressed him, and thinking that to reign by favour of the Romans was more the part of a captive satisfied with meat and drink than of a man possessed of courage and spirit, he turned his thoughts to war, and made his arrangements for it in secrecy and with cunning.
 
@@ -146,7 +138,7 @@ URN: `null`
 
 [8.8] Thus, he had arms to equip thirty thousand men laid up in reserve, eight million bushels of grain had been immured in his strongholds, and a sum of money sufficient to maintain for ten years ten thousand mercenaries fighting in defence of the country.
 
-[8.9] But Philip, before he could put these plans and preparations into effect, died of grief and anguish of mindIn 179 B.C.; for he came to know that he had unjustly put to death one of his sons, Demetrius, on false charges made by the other, who was his inferior.
+[8.9] But Philip, before he could put these plans and preparations into effect, died of grief and anguish of mind[^10]; for he came to know that he had unjustly put to death one of his sons, Demetrius, on false charges made by the other, who was his inferior.
 
 [8.10] The son, however, whom he left, Perseus, along with his father’s kingdom, inherited his hatred of the Romans, but was not equal to the burden because of the littleness and baseness of his character, in which, among all sorts of passions and distempers, avarice was the chief trait.
 
@@ -154,7 +146,7 @@ URN: `null`
 
 [8.12] And this was the chief reason, as it would seem, why he feared Demetrius and compassed his death, lest the royal house having a true-born heir to the throne, should uncover his own spurious birth.
 
-### Capítulo 9
+#### Capítulo 9
 
 [9.1] However, although he was ignoble and mean, the strength of his position led him to undertake the war, and he kept up the struggle for a long time, repulsing Roman commanders of consular rank with great armies and fleets, and actually conquering some of them.
 
@@ -168,7 +160,7 @@ URN: `null`
 
 [9.6] He also secretly stirred up the Gauls settled along the Danube, who are called Bisternae, an equestrian host and warlike; and he invited the Illyrians, through Genthius their king, to take part with him in the war. And a report prevailed that the Barbarians had been hired by him to pass through lower Gaul, along the coast of the Adriatic, and make an incursion into Italy.
 
-### Capítulo 10
+#### Capítulo 10
 
 [10.1] When the Romans learned of these things, they decided that they would bid good-bye to the favours and promises of those who wanted to be generals, and themselves summon to the leadership a man of wisdom who understood how to manage great affairs.
 
@@ -178,15 +170,15 @@ URN: `null`
 
 [10.4] and when he presented himself at once among the candidates for the consulship, he did not appear to come into the Campus in order to get office, but as one who brought victory and might in war and offered them to the citizens.
 
-[10.5] With such eager hopes did all receive him, and they made him consul for the second time,In 168 B.C. and did not permit a lot to be cast for the provinces, as was the custom, but at once voted him the conduct of the Macedonian war.
+[10.5] With such eager hopes did all receive him, and they made him consul for the second time,[^11] and did not permit a lot to be cast for the provinces, as was the custom, but at once voted him the conduct of the Macedonian war.
 
 [10.6] And it is said that when he had been appointed general against Perseus, and had been escorted home in splendid fashion by the whole people, he found there his daughter Tertia, who was still a little child, in tears.
 
-[10.7] He took her in his arms, therefore, and asked her why she grieved. And she, embracing and kissing him, said: Pray dost thou not know, Father, that our Perseus is dead? meaning a little pet dog of that name.
+[10.7] He took her in his arms, therefore, and asked her why she grieved. And she, embracing and kissing him, said: “Pray dost thou not know, Father, that our Perseus is dead?” meaning a little pet dog of that name.
 
-[10.8] And Aemilius cried: Good fortune! my daughter, I accept the omen. Such, then, is the story which Cicero the orator relates in his work On Divination. Cicero, De divinatione, I, 103.
+[10.8] And Aemilius cried: “Good fortune! my daughter, I accept the omen.” Such, then, is the story which Cicero the orator relates in his work On Divination.[^12]
 
-### Capítulo 11
+#### Capítulo 11
 
 [11.1] It was the custom for those who obtained the consulship to return thanks, as it were, for the great favour in a friendly speech to the people from the rostra; but Aemilius, having gathered an assembly of the citizens, said he had sued for his first consulship because he himself wanted office, but for his second because they wanted a general;
 
@@ -196,7 +188,7 @@ URN: `null`
 
 [11.4] Thus was the Roman people, to the end that it might prevail and be greatest in the world, a servant of virtue and honour.
 
-### Capítulo 12
+#### Capítulo 12
 
 [12.1] Now, that Aemilius Paulus, after setting out upon his campaign, had a fortunate voyage and an easy passage and came speedily and safely to the Roman camp, I attribute to the favour of Heaven;
 
@@ -222,7 +214,7 @@ URN: `null`
 
 [12.12] But Perseus would not consent to pour out his gold upon himself, his children, and his kingdom, and thus purchase salvation with a small part of his treasures, but chose to be carried with many treasures as the wealthy captive, and to show the Romans how much he had saved and watched for them.
 
-### Capítulo 13
+#### Capítulo 13
 
 [13.1] For he not only sent away the Gauls after playing them false, but also, after inducing Genthius the Illyrian, on payment of three hundred talents, to assist him in the war, he showed to the king’s messengers the money all counted out, and suffered them to put their seals upon the bags;
 
@@ -238,7 +230,7 @@ URN: `null`
 
 [13.7] Furthermore, he ordered the night watchmen to keep watch without their spears, with the idea that they would be more on the alert and would struggle more successfully against sleep, if they were unable to defend themselves against their enemies when they approached.
 
-### Capítulo 14
+#### Capítulo 14
 
 [14.1] But his men were annoyed especially by the lack of drinking water, since only a little of it issued forth and collected in pools at the very edge of the sea, and that was bad. Aemilius, therefore, seeing that the lofty and wooded mountain of Olympus lay near, and judging from the greenness of its trees that there were veins of water coursing under ground, dug a number of vents and wells for them along the foot of the mountain.
 
@@ -262,7 +254,7 @@ URN: `null`
 
 [14.11] And again, when a mountain or rock is smitten asunder, a fierce torrent of water often gushes forth, and then ceases entirely. So much on this head.
 
-### Capítulo 15
+#### Capítulo 15
 
 [15.1] Aemilius kept still for several days, and they say that never was there such quiet when armies of such size had come so close together.
 
@@ -272,7 +264,7 @@ URN: `null`
 
 [15.4] And second, Fabius Maximus, the eldest of the sons of Aemilius, though he was still a young man, eagerly volunteered.
 
-[15.5] Aemilius, accordingly, delighted, gave them, not as many men as Polybius states,In a lost portion of Book XXIX. but as many as Nasica himself says they took, in a short letter which he wrote concerning these exploits to one of the kings,
+[15.5] Aemilius, accordingly, delighted, gave them, not as many men as Polybius states,[^13] but as many as Nasica himself says they took, in a short letter which he wrote concerning these exploits to one of the kings,
 
 [15.6] that is, three thousand of his Italians who were not Romans, and his left wing numbering five thousand.
 
@@ -282,17 +274,19 @@ URN: `null`
 
 [15.9] From this point Olympus rises to a height of more than ten furlongs, as is signified in an inscription by the man who measured it:—
 
+```verso
 [15.10] The sacred peak of Olympus, at Apollo’s Pythium, has a height, in perpendicular measurement, of ten full furlongs, and besides, a hundred feet lacking only four. It was the son of Eumelus who measured the distance, Xenagoras; so fare thee well, O King, and be propitious in thy gifts.
+```
 
 [15.11] And yet the geometricians say that no mountain has a height, and no sea a depth, of more than ten furlongs. It would seem, however, that Xenagoras took his measurement, not carelessly, but according to rule and with instruments.
 
-### Capítulo 16
+#### Capítulo 16
 
 [16.1] Here, then, Nasica passed the night; but to Perseus, who did not infer what was going on because he saw Aemilius remaining quietly in his position, there came a Cretan deserter who had run away on the march, bringing him news of the circuit which the Romans had taken.
 
 [16.2] Though Perseus was confounded at this, he did not move his camp, but sent out ten thousand foreign mercenaries and two thousand Macedonians under Milo, with orders to make haste and occupy the passes.
 
-[16.3] These men, according to Polybius,In a lost portion of Book XXIX. were still asleep when the Romans fell upon them; but Nasica says that a sharp and perilous conflict took place for possession of the heights, and that he himself slew a Thracian mercenary, who engaged him, by striking him through the breast with his javelin, and that after the enemy had been driven away, and while Milo was flying most disgracefully without his armour or his cloak, he followed after them without danger, and brought his army with him down into the plain.
+[16.3] These men, according to Polybius,[^14] were still asleep when the Romans fell upon them; but Nasica says that a sharp and perilous conflict took place for possession of the heights, and that he himself slew a Thracian mercenary, who engaged him, by striking him through the breast with his javelin, and that after the enemy had been driven away, and while Milo was flying most disgracefully without his armour or his cloak, he followed after them without danger, and brought his army with him down into the plain.
 
 [16.4] After this disaster, Perseus hastily broke camp and retired; he had become exceedingly fearful, and his hopes were shattered.
 
@@ -306,7 +300,7 @@ URN: `null`
 
 [16.9] Moreover, through the middle of it ran the rivers Aeson and Leucus, which were not very deep at that time (for it was the latter end of summer), but were likely, nevertheless, to give the Romans considerable trouble.
 
-### Capítulo 17
+#### Capítulo 17
 
 [17.1] Aemilius, after effecting a junction with Nasica, came down in battle array against the enemy.
 
@@ -314,7 +308,7 @@ URN: `null`
 
 [17.3] His young officers, however, who were eager for battle, rode up and begged him not to delay, especially Nasica, who was emboldened by his success at Mount Olympus.
 
-[17.4] But Aemilius, with a smile, said to him: Yes, if I had thy youth; but many victories teach me the mistakes of the vanquished, and forbid me to join battle, immediately after a march, with a phalanx which is already drawn up and completely formed.
+[17.4] But Aemilius, with a smile, said to him: “Yes, if I had thy youth; but many victories teach me the mistakes of the vanquished, and forbid me to join battle, immediately after a march, with a phalanx which is already drawn up and completely formed.”
 
 [17.5] After this, he ordered his foremost troops, who were in sight of the enemy, to form into cohorts and give the appearance of a battle line, while the others, wheeling to the rear, dug trenches and marked out a camp.
 
@@ -334,7 +328,7 @@ URN: `null`
 
 [17.13] but he himself, waiting for the sun to pass to the west and decline, in order that its morning light might not shine in the faces of his men as they fought, passed the time sitting in his tent, which was open towards the plain and the enemy’s encampment.
 
-### Capítulo 18
+#### Capítulo 18
 
 [18.1] Towards evening, Aemilius himself, as some say, devised a scheme for making the enemy begin the attack, and the Romans, pursuing a horse which they had driven forth without a bridle, came into collision with them, and the pursuit of this horse brought on a battle;
 
@@ -354,7 +348,7 @@ URN: `null`
 
 [18.9] And with such boldness and swiftness did they advance that the first to be slain fell only two furlongs from the Roman camp.
 
-### Capítulo 19
+#### Capítulo 19
 
 [19.1] As the attack began, Aemilius came up and found that the Macedonian battalions had already planted the tips of their long spears in the shields of the Romans, who were thus prevented from reaching them with their swords.
 
@@ -376,7 +370,7 @@ URN: `null`
 
 [19.10] This, then, is what Poseidonius says in defence of Perseus.
 
-### Capítulo 20
+#### Capítulo 20
 
 [20.1] The Romans, when they attacked the Macedonian phalanx, were unable to force a passage, and Salvius, the commander of the Pelignians, snatched the standard of his company and hurled it in among the enemy.
 
@@ -398,7 +392,7 @@ URN: `null`
 
 [20.10] and cut off others by falling upon their rear, and the strength and general efficiency of the phalanx was lost when it was thus broken up; and now that the Macedonians engaged man to man or in small detachments, they could only hack with their small daggers against the firm and long shields of the Romans, and oppose light wicker targets to their swords, which, such was their weight and momentum, penetrated through all their armour to their bodies. They therefore made a poor resistance and at last were routed.
 
-### Capítulo 21
+#### Capítulo 21
 
 [21.1] But the struggle between them was fierce. Here, too, Marcus, the son of Cato and the son-in-law of Aemilius, while displaying all possible prowess, lost his sword.
 
@@ -414,7 +408,7 @@ URN: `null`
 
 [21.7] For it is said that over twenty-five thousand of their enemies were slain; while of the Romans there fell, according to Poseidonius, a hundred, according to Nasica, eighty.
 
-### Capítulo 22
+#### Capítulo 22
 
 [22.1] And this greatest of all struggles was most speedily decided; for the Romans began fighting at three o’clock in the afternoon, and were victorious within an hour; the rest of the day they spent in the pursuit, which they kept up for as many as a hundred and twenty furlongs, so that it was already late in the evening when they returned.
 
@@ -430,11 +424,11 @@ URN: `null`
 
 [22.7] Well, then, when it was already late and he was almost despaired of, he came in from the pursuit with two or three comrades, covered with the blood of the enemies he had slain, having been, like a young hound of noble breed, carried away by the uncontrollable pleasure of the victory.
 
-[22.8] This was that Scipio who, in after times,In 146 and 133 B.C. destroyed Carthage and Numantia, and became by far the most noble and influential Roman of his day.
+[22.8] This was that Scipio who, in after times,[^15] destroyed Carthage and Numantia, and became by far the most noble and influential Roman of his day.
 
-[22.9] Thus Fortune, postponing to another season her jealous displeasure at the great success of Aemilius, restored to him then in all completeness his pleasure in his victory.The battle of Pydna is described by Livy in xliv. 36-41.
+[22.9] Thus Fortune, postponing to another season her jealous displeasure at the great success of Aemilius, restored to him then in all completeness his pleasure in his victory.[^16]
 
-### Capítulo 23
+#### Capítulo 23
 
 [23.1] But Perseus was away in flight from Pydna to Pella, since practically all his horsemen came safely off from the battle.
 
@@ -458,7 +452,7 @@ URN: `null`
 
 [23.11] For he did not pay them the money he had promised, but after craftily getting thirty talents from his friends, which his enemies were to get soon afterwards, he sailed across with them to Samothrace, where he took refuge as a suppliant in the temple of the Dioscuri.
 
-### Capítulo 24
+#### Capítulo 24
 
 [24.1] Now, the Macedonians are always said to have been lovers of their kings, but at this time, feeling that their prop was shattered and all had fallen with it, they put themselves into the hands of Aemilius, and in two days made him master of all Macedonia.
 
@@ -472,23 +466,23 @@ URN: `null`
 
 [24.6] Then, since the story could not be traced to any sure source, but seemed to be current everywhere alike, for the time being the rumour vanished into thin air; but when, a few days afterwards, they were clearly informed of the matter, they were astonished at the tidings which had reached them first, seeing that in the fiction there was truth.
 
-### Capítulo 25
+#### Capítulo 25
 
-[25.1] It is said also that a report of the battle fought by the Italian Greeks at the river SagraA battle between the Locrians and Crotoniats, at some time in the sixth century B.C. reached Peloponnesus on the same day, and so did that of the battle with the Medes at Mycale come on the same day to Plataea.It was when the Greeks at Mycale were about to attack the Persians that a rumour came to them of the victory of the Greeks at Plataea over Mardonius (Herodotus, ix. 100).
+[25.1] It is said also that a report of the battle fought by the Italian Greeks at the river Sagra[^17] reached Peloponnesus on the same day, and so did that of the battle with the Medes at Mycale come on the same day to Plataea.[^18]
 
 [25.2] And when the Romans conquered the Tarquins, who had taken the field against them with the Latins, two tall and beautiful men were seen at Rome a little while after, who brought direct tidings from the army. These were conjectured to be the Dioscuri.
 
-[25.3] The first man who met them in front of the spring in the forum, where they were cooling their horses, which were reeking with sweat, was amazed at their report of the victory.See the Coriolanus, iii. 4.
+[25.3] The first man who met them in front of the spring in the forum, where they were cooling their horses, which were reeking with sweat, was amazed at their report of the victory.[^19]
 
 [25.4] Then, we are told, they touched his beard with their hands, quietly smiling the while, and the hair of it was changed at once from black to red, a circumstance which gave credence to their story, and fixed upon the man the surname of Ahenobarbus, that is to say, Bronze-beard.
 
-[25.5] And all this is made credible by that which has happened in our time. When, namely, Antonius was in revolt from Domitian,In 91 A.D. and a great war was expected from Germany, and Rome was in commotion, suddenly and spontaneously the people of their own accord spread abroad a report of a victory, and a story coursed through Rome that Antonius himself had been slain, and that of his defeated army not a portion was left alive. Belief in the story became so strong and distinct that many of the magistrates actually offered sacrifices.
+[25.5] And all this is made credible by that which has happened in our time. When, namely, Antonius was in revolt from Domitian,[^20] and a great war was expected from Germany, and Rome was in commotion, suddenly and spontaneously the people of their own accord spread abroad a report of a victory, and a story coursed through Rome that Antonius himself had been slain, and that of his defeated army not a portion was left alive. Belief in the story became so strong and distinct that many of the magistrates actually offered sacrifices.
 
-[25.6] When, however, the author of the story was sought, none could be found, but it eluded all pursuit from one man to another, and finally disappeared in the limitless throng, as in a yawning sea, and was seen to have no sure source. This rumour, then, quickly melted away in the city; but when Domitian was setting out with an army for the war and was already on the march, messages and letters announcing the victory came to meet him.Antonius did not get the help he expected from German auxiliaries, and was defeated by Appius Norbanus.
+[25.6] When, however, the author of the story was sought, none could be found, but it eluded all pursuit from one man to another, and finally disappeared in the limitless throng, as in a yawning sea, and was seen to have no sure source. This rumour, then, quickly melted away in the city; but when Domitian was setting out with an army for the war and was already on the march, messages and letters announcing the victory came to meet him.[^21]
 
 [25.7] And the success itself was gained on the day when the rumour of it came to Rome, although the distance between the places was more than twenty thousand furlongs. These facts are known to every one of our time.
 
-### Capítulo 26
+#### Capítulo 26
 
 [26.1] But to resume, Gnaeus Octavius, the admiral of Aemilius, came to anchor off Samothrace, and while he allowed Perseus to enjoy asylum, out of respect to the gods, he took means to prevent him from escaping by sea.
 
@@ -508,27 +502,27 @@ URN: `null`
 
 [26.9] but Perseus, a most shameful sight, after throwing himself prone before him and then clasping his knees, broke out into ignoble cries and supplications. These Aemilius could not abide and would not hear; but looking upon him with a distressed and sorrowful countenance, said:
 
-[26.10] Why, wretched man, dost thou free Fortune from thy strongest indictment against her, by conduct which will make men think that thy misfortunes are not undeserved, and that thy former prosperity, rather than thy present lot, was beyond thy deserts?
+[26.10] “Why, wretched man, dost thou free Fortune from thy strongest indictment against her, by conduct which will make men think that thy misfortunes are not undeserved, and that thy former prosperity, rather than thy present lot, was beyond thy deserts?”
 
-[26.11] And why dost thou depreciate my victory, and make my success a meagre one, by showing thyself no noble or even fitting antagonist for Romans?
+[26.11] “And why dost thou depreciate my victory, and make my success a meagre one, by showing thyself no noble or even fitting antagonist for Romans?”
 
-[26.12] Valour in the unfortunate obtains great reverence even among their enemies, but cowardice, in Roman eyes, even though it meet with success, is in every way a most dishonourable thing.
+[26.12] “Valour in the unfortunate obtains great reverence even among their enemies, but cowardice, in Roman eyes, even though it meet with success, is in every way a most dishonourable thing.”
 
-### Capítulo 27
+#### Capítulo 27
 
 [27.1] Notwithstanding his displeasure, he raised Perseus up, gave him his hand, and put him in charge of Tubero, while he himself drew his sons, his sons-in-law, and of the other officers especially the younger men, into his tent, where for a long time he sat in silent communion with himself, so that all wondered.
 
-[27.2] Then he began to discourse of Fortune and of human affairs, saying: Is it, then, fitting that one who is mortal should be emboldened when success comes to him, and have high thoughts because he has subdued a nation, or a city, or a kingdom? or should his thoughts dwell rather on this reversal of fortune, which sets before the warrior an illustration of the weakness that is common to all men, and teaches him to regard nothing as stable or safe?
+[27.2] Then he began to discourse of Fortune and of human affairs, saying: “Is it, then, fitting that one who is mortal should be emboldened when success comes to him, and have high thoughts because he has subdued a nation, or a city, or a kingdom? or should his thoughts dwell rather on this reversal of fortune, which sets before the warrior an illustration of the weakness that is common to all men, and teaches him to regard nothing as stable or safe?”
 
-[27.3] For what occasion have men to be confident, when their conquest of others gives them most cogent reason to be in fear of Fortune, and when one who exults in success is thrown, as I am, into great dejection by reflecting upon the allotments of Fate, which take a circling course, and fall now upon some and now upon others?
+[27.3] “For what occasion have men to be confident, when their conquest of others gives them most cogent reason to be in fear of Fortune, and when one who exults in success is thrown, as I am, into great dejection by reflecting upon the allotments of Fate, which take a circling course, and fall now upon some and now upon others?”
 
-[27.4] Or, when the succession of Alexander, who attained the highest pinnacle of power and won the greatest might, has fallen in the space of a single hour and has been put beneath your feet, or when you see kings who but just now were surrounded by so many myriads of infantry and thousands of cavalry, receiving from their enemy’s hands the food and drink requisite for the day, can you suppose that we ourselves have any guarantee from Fortune that will avail against the attacks of time?
+[27.4] “Or, when the succession of Alexander, who attained the highest pinnacle of power and won the greatest might, has fallen in the space of a single hour and has been put beneath your feet, or when you see kings who but just now were surrounded by so many myriads of infantry and thousands of cavalry, receiving from their enemy’s hands the food and drink requisite for the day, can you suppose that we ourselves have any guarantee from Fortune that will avail against the attacks of time?”
 
-[27.5] Abandon, then, young men, this empty insolence and pride of victory, and take a humble posture as you confront the future, always expectant of the time when the Deity shall at last launch against each one of you his jealous displeasure at your present prosperity.
+[27.5] “Abandon, then, young men, this empty insolence and pride of victory, and take a humble posture as you confront the future, always expectant of the time when the Deity shall at last launch against each one of you his jealous displeasure at your present prosperity.”
 
 [27.6] Many such words were uttered by Aemilius, we are told, and he sent the young men away with their vainglorious insolence and pride well curbed by his trenchant speech, as by a bridle.
 
-### Capítulo 28
+#### Capítulo 28
 
 [28.1] After this, he gave his army a chance to rest, while he himself went about to see Greece, occupying himself in ways alike honourable and humane.
 
@@ -552,11 +546,11 @@ URN: `null`
 
 [28.11] It was only the books of the king that he allowed his sons, who were devoted to learning, to choose out for themselves, and when he was distributing rewards for valour in the battle, he gave Aelius Tubero, his son-in-law, a bowl of five pounds weight.
 
-[28.12] This was the Tubero, who, as I have said, Chapter v. 4. dwelt with fifteen relations, and a paltry farm supported them all.
+[28.12] This was the Tubero, who, as I have said,[^22] dwelt with fifteen relations, and a paltry farm supported them all.
 
 [28.13] And that is said to have been the first silver that ever entered the house of the Aelii, brought in as an honour bestowed upon valour, but up to that time neither they themselves nor their wives used either silver or gold.
 
-### Capítulo 29
+#### Capítulo 29
 
 [29.1] When he had put everything in good order, had bidden the Greeks farewell, and had exhorted the Macedonians to be mindful of the freedom bestowed upon them by the Romans and preserve it by good order and concord, he marched against Epirus, having an order from the senate to give the soldiers who had fought with him the battle against Perseus the privilege of pillaging the cities there.
 
@@ -568,7 +562,7 @@ URN: `null`
 
 [29.5] and yet from all this destruction and utter ruin each soldier received no more than eleven drachmas as his share, and all men shuddered at the issue of the war, when the division of a whole nation’s substance resulted in so slight a gain and profit for each soldier.
 
-### Capítulo 30
+#### Capítulo 30
 
 [30.1] Aemilius, then, after executing a commission so contrary to his mild and generous nature, went down to Oricus.
 
@@ -586,7 +580,7 @@ URN: `null`
 
 [30.8] When darkness came, the tribunes dissolved the assembly, but the soldiers, now grown bolder, flocked to Galba, formed themselves into a faction, and before it was light proceeded to take possession of the Capitol; for it was there that the tribunes proposed to hold the assembly.
 
-### Capítulo 31
+#### Capítulo 31
 
 [31.1] As soon as it was day the voting began, and the first tribe was voting against the triumph, when knowledge of the matter was brought down to the rest of the people and the senate.
 
@@ -598,21 +592,21 @@ URN: `null`
 
 [31.5] and he was amazed that the people, while exulting in triumphs over Illyrians and Ligurians, begrudged itself the sight of the king of Macedonia taken alive and the glory of Alexander and Philip made spoil by Roman arms.
 
-[31.6] For is it not a strange thing, said he, that when an unsubstantial rumour of victory came suddenly and prematurely to the city, you sacrificed to the gods and prayed that this report might speedily be verified before your eyes; but now that your general is come with his real victory, you rob the gods of their honour, and yourselves of your joy in it, as though afraid to behold the magnitude of his successes, or seeking to spare the feelings of your enemy? And yet it were better that out of pity towards him, and not out of envy towards your general, the triumph should be done away with.
+[31.6] “For is it not a strange thing,” said he, “that when an unsubstantial rumour of victory came suddenly and prematurely to the city, you sacrificed to the gods and prayed that this report might speedily be verified before your eyes; but now that your general is come with his real victory, you rob the gods of their honour, and yourselves of your joy in it, as though afraid to behold the magnitude of his successes, or seeking to spare the feelings of your enemy? And yet it were better that out of pity towards him, and not out of envy towards your general, the triumph should be done away with.”
 
-[31.7] But, said he, to such great power is malice brought by you that a man without a wound to show, and whose person is sleek from delicate and cowardly effeminacy, dares to talk about the conduct of a general and his triumph to us who have been taught by all these wounds to judge the valour and the cowardice of generals.
+[31.7] “But,” said he, “to such great power is malice brought by you that a man without a wound to show, and whose person is sleek from delicate and cowardly effeminacy, dares to talk about the conduct of a general and his triumph to us who have been taught by all these wounds to judge the valour and the cowardice of generals.”
 
 [31.8] And with the words he parted his garment and displayed upon his breast an incredible number of wounds. Then wheeling about, he uncovered some parts of his person which it is thought unbecoming to have naked in a crowd, and turning to Galba, said:
 
-[31.9] Thou laughest at these scars, but I glory in them before my fellow-citizens, in whose defence I got them, riding night and day without ceasing.
+[31.9] “Thou laughest at these scars, but I glory in them before my fellow-citizens, in whose defence I got them, riding night and day without ceasing.”
 
-[31.10] But come, take these people off to their voting; and I will come down and follow along with them all, and will learn who are base and thankless and prefer to be wheedled and flattered in war rather than commanded.
+[31.10] “But come, take these people off to their voting; and I will come down and follow along with them all, and will learn who are base and thankless and prefer to be wheedled and flattered in war rather than commanded.”
 
-### Capítulo 32
+#### Capítulo 32
 
 [32.1] This speech, they tell us, so rebuffed the soldiery and changed their minds that the triumph was voted to Aemilius by all the tribes.
 
-[32.2] And it was conducted,In November, 167 B.C. they say, after the following fashion. The people erected scaffoldings in the theatres for equestrian contests, which they call circuses, and round the forum, occupied the other parts of the city which afforded a view of the procession, and witnessed the spectacle arrayed in white garments.
+[32.2] And it was conducted,[^23] they say, after the following fashion. The people erected scaffoldings in the theatres for equestrian contests, which they call circuses, and round the forum, occupied the other parts of the city which afforded a view of the procession, and witnessed the spectacle arrayed in white garments.
 
 [32.3] Every temple was open and filled with garlands and incense, while numerous servitors and lictors restrained the thronging and scurrying crowds and kept the streets open and clear.
 
@@ -628,7 +622,7 @@ URN: `null`
 
 [32.9] while still other men carried mixing-bowls of silver, drinking horns, bowls, and cups, all well arranged for show and excelling in size and in the depth of their carved ornaments.
 
-### Capítulo 33
+#### Capítulo 33
 
 [33.1] On the third day, as soon as it was morning, trumpeters led the way, sounding out no marching or processional strain, but such a one as the Romans use to rouse themselves to battle.
 
@@ -636,7 +630,7 @@ URN: `null`
 
 [33.3] Next, after these, came the carriers of the coined gold, which, like the silver, was portioned out into vessels containing three talents; and the number of these vessels was eighty lacking three.
 
-[33.4] After these followed the bearers of the consecrated bowl, which Aemilius had caused to be made of ten talents of gold and adorned with precious stones, and then those who displayed the bowls known as Antigonids and Seleucids and Theracleian,These last were named from a famous Corinthian artist. together with all the gold plate of Perseus’s table.
+[33.4] After these followed the bearers of the consecrated bowl, which Aemilius had caused to be made of ten talents of gold and adorned with precious stones, and then those who displayed the bowls known as Antigonids and Seleucids and Theracleian,[^24] together with all the gold plate of Perseus’s table.
 
 [33.5] These were followed by the chariot of Perseus, which bore his arms, and his diadem lying upon his arms.
 
@@ -646,13 +640,13 @@ URN: `null`
 
 [33.8] wherefore they evoked even more pity in view of the time when their unconsciousness would cease, so that Perseus walked along almost unheeded, while the Romans, moved by compassion, kept their eyes upon the children, and many of them shed tears, and for all of them the pleasure of the spectacle was mingled with pain, until the children had passed by.
 
-### Capítulo 34
+#### Capítulo 34
 
 [34.1] Behind the children and their train of attendants walked Perseus himself, clad in a dark robe and wearing the high boots of his country, but the magnitude of his evils made him resemble one who is utterly dumbfounded and bewildered.
 
 [34.2] He, too, was followed by a company of friends and intimates, whose faces were heavy with grief, and whose tearful gaze continually fixed upon Perseus gave the spectators to understand that it was his misfortune which they bewailed, and that their own fate least of all concerned them.
 
-[34.3] And yet Perseus had sent to Aemilius begging not to be led in the procession and asking to be left out of the triumph. But Aemilius, in mockery, as it would seem, of the king’s cowardice and love of life, had said: But this at least was in his power before, and is so now, if he should wish it,
+[34.3] And yet Perseus had sent to Aemilius begging not to be led in the procession and asking to be left out of the triumph. But Aemilius, in mockery, as it would seem, of the king’s cowardice and love of life, had said: “But this at least was in his power before, and is so now, if he should wish it,”
 
 [34.4] signifying death in preference to disgrace; for this, however, the coward had not the heart, but was made weak by no one knows what hopes, and became a part of his own spoils.
 
@@ -662,17 +656,17 @@ URN: `null`
 
 [34.7] The whole army also carried sprays of laurel, following the chariot of their general by companies and divisions, and singing, some of them divers songs intermingled with jesting, as the ancient custom was, and others paeans of victory and hymns in praise of the achievements of Aemilius, who was gazed upon and admired by all, and envied by no one that was good.
 
-[34.8] But after all there is, as it seems, a divinity whose province it is to diminish whatever prosperity is inordinately great, and to mingle the affairs of human life, that no one may be without a taste of evil and wholly free from it, but that, as Homer says, Iliad, xxiv. 525 ff. those may be thought to fare best whose fortunes incline now one way and now another.
+[34.8] But after all there is, as it seems, a divinity whose province it is to diminish whatever prosperity is inordinately great, and to mingle the affairs of human life, that no one may be without a taste of evil and wholly free from it, but that, as Homer says,[^25] those may be thought to fare best whose fortunes incline now one way and now another.
 
-### Capítulo 35
+#### Capítulo 35
 
-[35.1] For Aemilius had four sons, of whom two, as I have already said,Cf. chapter v. 3. had been adopted into other families, namely, Scipio and Fabius; and two sons still boys, the children of a second wife, whom he had in his own house.
+[35.1] For Aemilius had four sons, of whom two, as I have already said,[^26] had been adopted into other families, namely, Scipio and Fabius; and two sons still boys, the children of a second wife, whom he had in his own house.
 
 [35.2] One of these, fourteen years of age, died five days before Aemilius celebrated his triumph, and the death of the other, who was twelve years of age, followed three days after the triumph,
 
 [35.3] so that there was no Roman who did not share the father’s grief; nay, they all shuddered at the cruelty of Fortune, seeing that she had not scrupled to bring such great sorrow into a house that was full of gratulations, joy, and sacrifices, or to mingle lamentations and tears with paeans of victory and triumphs.
 
-### Capítulo 36
+#### Capítulo 36
 
 [36.1] Aemilius, notwithstanding, rightly considering that men have need of bravery and courage, not only against arms and long spears, but against every onset of Fortune as well, so adapted and adjusted the mingled circumstances of his lot that the bad was lost sight of in the good, and his private sorrow in the public welfare, thus neither lowering the grandeur nor sullying the dignity of his victory.
 
@@ -680,19 +674,19 @@ URN: `null`
 
 [36.3] He said, namely, that he had never dreaded any human agency, but among agencies that were divine he had ever feared Fortune, believing her to be a most untrustworthy and variable thing; and since in this war particularly she had attended his undertakings like a prosperous gale, as it were, he had never ceased to expect some change and some reversal of the current of affairs.
 
-[36.4] For in one day, said he, I crossed the Ionian Sea from Brundisium and put in at Corcyra; thence, in five days, I came to Delphi and sacrificed to the god; and again, in other five days, I took command of the forces in Macedonia, and after the usual lustration and review of them I proceeded at once to action, and in other fifteen days brought the war to the most glorious issue.
+[36.4] “For in one day,” said he, “I crossed the Ionian Sea from Brundisium and put in at Corcyra; thence, in five days, I came to Delphi and sacrificed to the god; and again, in other five days, I took command of the forces in Macedonia, and after the usual lustration and review of them I proceeded at once to action, and in other fifteen days brought the war to the most glorious issue.”
 
-[36.5] But I distrusted Fortune because the current of my affairs ran so smoothly, and now that there was complete immunity and nothing to fear from hostile attacks, it was particularly during my voyage home that I feared the reversal of the Deity’s favour after all my good fortune, since I was bringing home so large a victorious army, such spoils, and captured kings.
+[36.5] “But I distrusted Fortune because the current of my affairs ran so smoothly, and now that there was complete immunity and nothing to fear from hostile attacks, it was particularly during my voyage home that I feared the reversal of the Deity’s favour after all my good fortune, since I was bringing home so large a victorious army, such spoils, and captured kings.”
 
-[36.6] Nay more, even when I had reached you safely and beheld the city full of delight and gratulation and sacrifices, I was still suspicious of Fortune, knowing that she bestows upon men no great boon that is without alloy or free from divine displeasure.
+[36.6] “Nay more, even when I had reached you safely and beheld the city full of delight and gratulation and sacrifices, I was still suspicious of Fortune, knowing that she bestows upon men no great boon that is without alloy or free from divine displeasure.”
 
-[36.7] Indeed, my soul was in travail with this fear and could not dismiss it and cease anxiously forecasting the city’s future, until I was smitten with this great misfortune in my own house, and in days consecrated to rejoicing had carried two most noble sons, who alone remained to be my heirs, one after the other to their graves.
+[36.7] “Indeed, my soul was in travail with this fear and could not dismiss it and cease anxiously forecasting the city’s future, until I was smitten with this great misfortune in my own house, and in days consecrated to rejoicing had carried two most noble sons, who alone remained to be my heirs, one after the other to their graves.”
 
-[36.8] Now, therefore, I am in no peril of what most concerned me, and am confident, and I think that Fortune will remain constant to our city and do her no harm.
+[36.8] “Now, therefore, I am in no peril of what most concerned me, and am confident, and I think that Fortune will remain constant to our city and do her no harm.”
 
-[36.9] For that deity has sufficiently used me and my afflictions to satisfy the divine displeasure at our successes, and she makes the hero of the triumph as clear an example of human weakness as the victim of the triumph; except that Perseus, even though conquered, has his children, while Aemilius, though conqueror, has lost his.
+[36.9] “For that deity has sufficiently used me and my afflictions to satisfy the divine displeasure at our successes, and she makes the hero of the triumph as clear an example of human weakness as the victim of the triumph; except that Perseus, even though conquered, has his children, while Aemilius, though conqueror, has lost his.”
 
-### Capítulo 37
+#### Capítulo 37
 
 [37.1] With such noble and lofty words, we are told, did Aemilius, from an unfeigned and sincere spirit, address the people.
 
@@ -702,27 +696,27 @@ URN: `null`
 
 [37.4] Two of his children also died. But the third, Alexander, is said to have become expert in embossing and fine metal work; he also learned to write and speak the Roman language, and was secretary to the magistrates, in which office he proved himself to have skill and elegance.
 
-### Capítulo 38
+#### Capítulo 38
 
-[38.1] To the exploits of Aemilius in Macedonia is ascribed his most unbounded popularity with the people, since so much money was then brought into the public treasury by him that the people no longer needed to pay special taxes until the times of Hirtius and Pansa, who were consuls during the first war between Antony and Octavius Caesar.The so-called War of Mutina, in 43 B.C.; cf. the Cicero, xlv. 3-5.
+[38.1] To the exploits of Aemilius in Macedonia is ascribed his most unbounded popularity with the people, since so much money was then brought into the public treasury by him that the people no longer needed to pay special taxes until the times of Hirtius and Pansa, who were consuls during the first war between Antony and Octavius Caesar.[^27]
 
 [38.2] And this, too, was peculiar and remarkable in Aemilius, that although he was admired and honoured by the people beyond measure, he remained a member of the aristocratic party, and neither said or did anything to win the favour of the multitude, but always sided in political matters with the leading and most powerful men.
 
-[38.3] And this attitude of Aemilius was in after times cast in the teeth of Scipio Africanus by Appius. For these men, being then greatest in the city, were candidates for the censorship,In 142 B.C. the one having the senate and the nobles to support him, for this was the hereditary policy of the Appii, while the other, although great on his own account, nevertheless always made use of the great favour and love of the people for him.
+[38.3] And this attitude of Aemilius was in after times cast in the teeth of Scipio Africanus by Appius. For these men, being then greatest in the city, were candidates for the censorship,[^28] the one having the senate and the nobles to support him, for this was the hereditary policy of the Appii, while the other, although great on his own account, nevertheless always made use of the great favour and love of the people for him.
 
 [38.4] When, therefore, Appius saw Scipio rushing into the forum attended by men who were of low birth and had lately been slaves, but who were frequenters of the forum and able to gather a mob and force all issues by means of solicitations and shouting, he cried with a loud voice and said:
 
-[38.5] O Paulus Aemilius, groan beneath the earth when thou learnest that thy son is escorted to the censorship by Aemilius the common crier and Licinius Philonicus.
+[38.5] “O Paulus Aemilius, groan beneath the earth when thou learnest that thy son is escorted to the censorship by Aemilius the common crier and Licinius Philonicus.”
 
 [38.6] But Scipio had the good will of the people because he supported them in most things, while Aemilius, although he sided with the nobles, was no less loved by the multitude than the one who was thought to pay most court to the people and to seek their favour in his intercourse with them.
 
-[38.7] And they made this manifest by conferring upon him, along with his other honours, that of the censorship,In 164 B.C. which is of all offices most sacred, and of great influence, both in other ways, and especially because it examines into the lives and conduct of men.
+[38.7] And they made this manifest by conferring upon him, along with his other honours, that of the censorship,[^29] which is of all offices most sacred, and of great influence, both in other ways, and especially because it examines into the lives and conduct of men.
 
 [38.8] For it is in the power of the censors to expel any senator whose life is unbecoming, and to appoint the leader of the senate, and they can disgrace any young knight of loose habits by taking away his horse. They also take charge of the property assessments and the registry lists.
 
 [38.9] Accordingly, the number of citizens registered under Aemilius was three hundred and thirty-seven thousand four hundred and fifty-two; he also declared Marcus Aemilius Lepidus first senator, a man who had already held this presidency four times, and he expelled only three senators, men of no note, and in the muster of the knights a like moderation was observed both by himself and by Marcius Philippus his colleague.
 
-### Capítulo 39
+#### Capítulo 39
 
 [39.1] After he had performed most of the more important duties of this office, he fell sick of a disease which at first was dangerous, but in time became less threatening, though it was troublesome and hard to get rid of.
 
@@ -730,9 +724,9 @@ URN: `null`
 
 [39.3] At last, when a certain religious ceremony made his presence necessary, and his health seemed to be sufficient for the journey, he returned to Rome.
 
-[39.4] Here he offered the public sacrifice in company with the other priests,See chapter iii. 1-3. while the people thronged about with manifest tokens of delight; and on the following day he sacrificed again to the gods privately in gratitude for his recovery.
+[39.4] Here he offered the public sacrifice in company with the other priests,[^30] while the people thronged about with manifest tokens of delight; and on the following day he sacrificed again to the gods privately in gratitude for his recovery.
 
-[39.5] When the sacrifice had been duly performed, he returned to his house and lay down to rest, and then, before he could notice and be conscious of any change, he became delirious and deranged in mind, and on the third day after died.Seven years after his triumph, 160 B.C. He was fully blessed with everything that men think conducive to happiness.
+[39.5] When the sacrifice had been duly performed, he returned to his house and lay down to rest, and then, before he could notice and be conscious of any change, he became delirious and deranged in mind, and on the third day after died.[^31] He was fully blessed with everything that men think conducive to happiness.
 
 [39.6] For his funeral procession called forth men’s admiration, and showed a desire to adorn his virtue with the best and most enviable obsequies.
 
@@ -744,6 +738,34 @@ URN: `null`
 
 [39.10] His estate, we are told, hardly amounted to three hundred and seventy thousand drachmas, to which he left both his sons heirs; but the younger, Scipio, who had been adopted into the wealthier family of Africanus, allowed his brother to have it all. Such, as we are told, was the life and character of Paulus Aemilius.
 
----
-
-*Ὁ Διαφορεύς παρῆν*
+[^1]: The first chapter has been transposed to serve as Introduction to both the Timoleon and theAemilius Paulus.
+[^2]: Plutarch suggests the identity of the Latin Aemilius with the Greek αἱμύλιος (winning). Cf. Odyssey, i. 56.
+[^3]: See the Numa, i. 2 f.
+[^4]: See the Fabius Maximus, chapters xiv. and xvi.
+[^5]: In 192 B.C.
+[^6]: In 191 B.C.
+[^7]: In 182 B.C.
+[^8]: 171-168 B.C.
+[^9]: In 197 B.C. The battle is usually named from a range of hills near Scotussa called Cynoscephalae. See the Flamininus, chapters iii. and iv.
+[^10]: In 179 B.C.
+[^11]: In 168 B.C.
+[^12]: Cicero, De divinatione, I, 103.
+[^13]: In a lost portion of Book XXIX.
+[^14]: In a lost portion of Book XXIX.
+[^15]: In 146 and 133 B.C.
+[^16]: The battle of Pydna is described by Livy in xliv. 36-41.
+[^17]: A battle between the Locrians and Crotoniats, at some time in the sixth century B.C.
+[^18]: It was when the Greeks at Mycale were about to attack the Persians that a rumour came to them of the victory of the Greeks at Plataea over Mardonius (Herodotus, ix. 100).
+[^19]: See the Coriolanus, iii. 4.
+[^20]: In 91 A.D.
+[^21]: Antonius did not get the help he expected from German auxiliaries, and was defeated by Appius Norbanus.
+[^22]: Chapter v. 4.
+[^23]: In November, 167 B.C.
+[^24]: These last were named from a famous Corinthian artist.
+[^25]: Iliad, xxiv. 525 ff.
+[^26]: Cf. chapter v. 3.
+[^27]: The so-called War of Mutina, in 43 B.C.; cf. the Cicero, xlv. 3-5.
+[^28]: In 142 B.C.
+[^29]: In 164 B.C.
+[^30]: See chapter iii. 1-3.
+[^31]: Seven years after his triumph, 160 B.C.

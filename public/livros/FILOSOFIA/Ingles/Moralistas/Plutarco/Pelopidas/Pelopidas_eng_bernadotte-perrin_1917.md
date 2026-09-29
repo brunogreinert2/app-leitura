@@ -1,70 +1,69 @@
 ---
 id: plutarco-pelopidas-eng-bernadotte-perrin-1917
-type: texto_primario
-title: "Pelopidas"
-subtitle: null
+type: translation
+title: Pelopidas
 author: Plutarch
-year_original: null
-language: eng
-translation:
-  - Bernadotte Perrin
+translator:
+- Bernadotte Perrin
 publisher: Harvard University Press
-area: null
-era: null
-tags: []
-status: rascunho
+language: eng
+tags:
+- moralists
+status: draft
 project: pedra_angular
-source: "Plutarch. Pelopidas. Ed. Bernadotte Perrin. Cambridge, MA: Harvard University Press, 1917. Perseus Digital Library, Tufts University (CC BY-SA 4.0). URN: null"
-related: []
+urn_work: urn:cts:greekLit:tlg0007.tlg021
+urn: urn:cts:greekLit:tlg0007.tlg021.perseus-eng2
+source: 'Plutarch. Pelopidas. Ed. Bernadotte Perrin. Cambridge, MA: Harvard University Press, 1917. Perseus Digital Library, Tufts University (CC BY-SA 4.0).'
+source_repo: PerseusDL/canonical-greekLit
+source_file: data/tlg0007/tlg021/tlg0007.tlg021.perseus-eng2.xml
+source_commit: e37eed2e8
+license: CC-BY-SA-4.0
 ---
 
 # Pelopidas
 
-**Plutarch**
-
-Cambridge, MA: Harvard University Press, 1917.
-Perseus Digital Library, Tufts University (CC BY-SA 4.0).
-URN: `null`
-
----
-
-## Texto
-
-### Capítulo 1
+#### Capítulo 1
 
 [1.1] Cato the Elder, when certain persons praised a man who was inconsiderately rash and daring in war, told them there was a difference between a man’s setting a high value on valour and his setting a low value on life; and his remark was just. At any rate, there was a soldier of Antigonus who was venturesome, but had miserable health and an impaired body. When the king asked him the reason for his pallor, the man admitted that it was a secret disease,
 
-[1.2] whereupon the king took compassion on him and ordered his physicians, if there was any help for him, to employ their utmost skill and care. Thus the man was cured; but then the good fellow ceased to court danger and was no longer a furious fighter, so that even Antigonus rebuked him and expressed his wonder at the change. The man, however, made no secret of the reason, but said: O King, it is thou who hast made me less daring, by freeing me from those ills which made me set little value on life.
+[1.2] whereupon the king took compassion on him and ordered his physicians, if there was any help for him, to employ their utmost skill and care. Thus the man was cured; but then the good fellow ceased to court danger and was no longer a furious fighter, so that even Antigonus rebuked him and expressed his wonder at the change. The man, however, made no secret of the reason, but said: “O King, it is thou who hast made me less daring, by freeing me from those ills which made me set little value on life.”
 
 [1.3] On these grounds, too, as it would seem, a man of Sybaris said it was no great thing for the Spartans to seek death in the wars in order to escape so many hardships and such a wretched life as theirs. But to the Sybarites, who were dissolved in effeminate luxury, men whom ambition and an eager quest of honour led to have no fear of death naturally seemed to hate life;
 
-[1.4] whereas the virtues of the Lacedaemonians gave them happiness alike in living or dying, as the following elegy testifies: These, it says, died, not deeming either life or death honourable in themselves, But only the accomplishment of them both with honour. For neither is a man to be blamed for shunning death, if he does not cling to life disgracefully, nor to be praised for boldly meeting death, if he does this with contempt of life.
+[1.4] whereas the virtues of the Lacedaemonians gave them happiness alike in living or dying, as the following elegy testifies: These, it says, died,
+
+```verso
+not deeming either life or death honourable in themselves,
+But only the accomplishment of them both with honour.
+```
+
+For neither is a man to be blamed for shunning death, if he does not cling to life disgracefully, nor to be praised for boldly meeting death, if he does this with contempt of life.
 
 [1.5] For this reason Homer always brings his boldest and most valiant heroes into battle well armed and equipped; and the Greek lawgivers punish him who casts away his shield, not him who throws down his sword or spear, thus teaching that his own defence from harm, rather than the infliction of harm upon the enemy, should be every man’s first care, and particularly if he governs a city or commands an army.
 
-### Capítulo 2
+#### Capítulo 2
 
-[2.1] For if, as Iphicrates analyzed the matter, the light-armed troops are like the hands, the cavalry like the feet, the line of men-at-arms itself like chest and breastplate, and the general like the head, then he, in taking undue risks and being over bold, would seem to neglect not himself, but all, inasmuch as their safety depends on him, and their destruction too. Therefore Callicratidas, although otherwise he was a great man, did not make a good answer to the seer who begged him to be careful, since the sacrificial omens foretold his death; Sparta, said he, does not depend upon one man.
+[2.1] For if, as Iphicrates analyzed the matter, the light-armed troops are like the hands, the cavalry like the feet, the line of men-at-arms itself like chest and breastplate, and the general like the head, then he, in taking undue risks and being over bold, would seem to neglect not himself, but all, inasmuch as their safety depends on him, and their destruction too. Therefore Callicratidas, although otherwise he was a great man, did not make a good answer to the seer who begged him to be careful, since the sacrificial omens foretold his death; “Sparta,” said he, “does not depend upon one man.”
 
-[2.2] For when fighting, or sailing, or marching under orders, Callicratidas was one man; but as general, he comprised in himself the strength and power of all, so that he was not one man, when such numbers perished with him. Better was the speech of old Antigonus as he was about to fight a sea-fight off Andros, and someone told him that the enemy’s ships were far more numerous than his: But what of myself, said he, how many ships wilt thou count me? implying that the worth of the commander is a great thing, as it is in fact, when allied with experience and valour, and his first duty is to save the one who saves everything else.
+[2.2] For when fighting, or sailing, or marching under orders, Callicratidas was “one man”; but as general, he comprised in himself the strength and power of all, so that he was not “one man,” when such numbers perished with him. Better was the speech of old Antigonus as he was about to fight a sea-fight off Andros, and someone told him that the enemy’s ships were far more numerous than his: “But what of myself,” said he, “how many ships wilt thou count me?” implying that the worth of the commander is a great thing, as it is in fact, when allied with experience and valour, and his first duty is to save the one who saves everything else.
 
-[2.3] Therefore Timotheus was right when Chares was once showing the Athenians some wounds he had received, and his shield pierced by a spear, in saying: But I, how greatly ashamed I was, at the siege of Samos, because a bolt fell near me; I thought I was behaving more like an impetuous youth than like a general in command of so large a force.
+[2.3] Therefore Timotheus was right when Chares was once showing the Athenians some wounds he had received, and his shield pierced by a spear, in saying: “But I, how greatly ashamed I was, at the siege of Samos, because a bolt fell near me; I thought I was behaving more like an impetuous youth than like a general in command of so large a force.”
 
 [2.4] For where the whole issue is greatly furthered by the general’s exposing himself to danger, there he must employ hand and body unsparingly, ignoring those who say that a good general should die, if not of old age, at least in old age; but where the advantage to be derived from his success is small, and the whole cause perishes with him if he fails, no one demands that a general should risk his life in fighting like a common soldier.
 
 [2.5] Such is the preface I have thought fit to make for the Lives of Pelopidas and Marcellus, great men who rashly fell in battle. For both were most valiant fighters, did honour to their countries in most illustrious campaigns, and what is more, had the most formidable adversaries, one being the first, as we are told, to rout Hannibal, who was before invincible, the other conquering in a pitched battle the Lacedaemonians, who were supreme on land and sea; and yet they were careless of their own lives, and recklessly threw them away at times when it was most important that such men should live and hold command. These are the resemblances between them which have led me to write their lives in parallel.
 
-### Capítulo 3
+#### Capítulo 3
 
-[3.1] Pelopidas the son of Hippoclus was of a highly honourable family in Thebes, as was Epaminondas, and having been reared in affluence, and having inherited in youth a splendid estate, he devoted himself to the assistance of worthy men who needed it, that he might be seen to be really master of his wealth, and not its slave. For most wealthy men, as Aristotle says,Fragment 56 (Rose); cf. Morals p. 527 a. either make no use of their wealth through avarice, or abuse it through prodigality, and so they are forever slaves, these to their pleasures, those to their business.
+[3.1] Pelopidas the son of Hippoclus was of a highly honourable family in Thebes, as was Epaminondas, and having been reared in affluence, and having inherited in youth a splendid estate, he devoted himself to the assistance of worthy men who needed it, that he might be seen to be really master of his wealth, and not its slave. For most wealthy men, as Aristotle says,[^1] either make no use of their wealth through avarice, or abuse it through prodigality, and so they are forever slaves, these to their pleasures, those to their business.
 
 [3.2] The rest, accordingly, thankfully profited by the kindness and liberality of Pelopidas towards them; but Epaminondas was the only one of his friends whom he could not persuade to share his wealth. Pelopidas, however, shared the poverty of this friend, and gloried in modest attire, meagre diet, readiness to undergo hardships, and straightforward service as a soldier.
 
-[3.3] Like the Capaneus of Euripides, he had abundant wealth, but riches did not make him arrogant at all, Supplices, 863 f. (Kirchhoff, ἥκιστα δ’ ὔλβῳ). and he was ashamed to let men think that he spent more upon his person than the poorest Theban. Now Epaminondas, whose poverty was hereditary and familiar, made it still more light and easy by philosophy, and by electing at the outset to lead a single life;
+[3.3] Like the Capaneus of Euripides, he “had abundant wealth, but riches did not make him arrogant at all,” [^2] and he was ashamed to let men think that he spent more upon his person than the poorest Theban. Now Epaminondas, whose poverty was hereditary and familiar, made it still more light and easy by philosophy, and by electing at the outset to lead a single life;
 
-[3.4] Pelopidas, on the contrary, made a brilliant marriage, and had children too, but nevertheless he neglected his private interests to devote his whole time to the state, and so lessened his substance. And when his friends admonished him and told him that the possession of money, which he scorned, was a necessary thing, Yes indeed, he said, necessary for this Nicodemus here, pointing to a man who was lame and blind.
+[3.4] Pelopidas, on the contrary, made a brilliant marriage, and had children too, but nevertheless he neglected his private interests to devote his whole time to the state, and so lessened his substance. And when his friends admonished him and told him that the possession of money, which he scorned, was a necessary thing, “Yes indeed,” he said, “necessary for this Nicodemus here,” pointing to a man who was lame and blind.
 
-### Capítulo 4
+#### Capítulo 4
 
 [4.1] They were also fitted by nature for the pursuit of every excellence, and in like measure, except that Pelopidas delighted more in exercising the body, Epaminondas in storing the mind, so that the one devoted his leisure hours to bodily exercise and hunting, the other to lectures and philosophy. Both had many claims upon the world’s esteem, but wise men consider none of these so great as the unquestioned good will and friendship which subsisted between them from first to last through all their struggles and campaigns and civil services.
 
@@ -72,19 +71,19 @@ URN: `null`
 
 [4.3] And the true reason for the superiority of the Thebans was their virtue, which led them not to aim in their actions at glory or wealth, which are naturally attended by bitter envying and strife; on the contrary, they were both filled from the beginning with a divine desire to see their country become most powerful and glorious in their day and by their efforts, and to this end they treated one another’s successes as their own.
 
-[4.4] However, most people think that their ardent friendship dated from the campaign at Mantineia,In 418 B.C., when Athens gave assistance to Argos, Elis, and Mantineia against Sparta. See the Alcibiades, xv. 1. where they fought on the side of the Lacedaemonians, who were still their friends and allies, and who received assistance from Thebes. For they stood side by side among the men-at-arms and fought against the Arcadians, and when the Lacedaemonian wing to which they belonged gave way and was routed for the most part, they locked their shields together and repelled their assailants.
+[4.4] However, most people think that their ardent friendship dated from the campaign at Mantineia,[^3] where they fought on the side of the Lacedaemonians, who were still their friends and allies, and who received assistance from Thebes. For they stood side by side among the men-at-arms and fought against the Arcadians, and when the Lacedaemonian wing to which they belonged gave way and was routed for the most part, they locked their shields together and repelled their assailants.
 
 [4.5] Pelopidas, after receiving seven wounds in front, sank down upon a great heap of friends and enemies who lay dead together; but Epaminondas, although he thought him lifeless, stood forth to defend his body and his arms, and fought desperately, single-handed against many, determined to die rather than leave Pelopidas lying there. And now he too was in a sorry plight, having been wounded in the breast with a spear and in the arm with a sword, when Agesipolis the Spartan king came to his aid from the other wing, and when all hope was lost, saved them both.
 
-### Capítulo 5
+#### Capítulo 5
 
 [5.1] After this the Spartans ostensibly treated the Thebans as friends and allies, but they really looked with suspicion on the ambitious spirit and the power of the city, and above all they hated the party of Ismenias and Androcleides, to which Pelopidas belonged, and which was thought to be friendly to freedom and a popular form of government.
 
 [5.2] Therefore Archias, Leontidas, and Philip, men of the oligarchical faction who were rich and immoderately ambitious, sought to persuade Phoebidas the Spartan, as he was marching past with an army, to take the Cadmeia by surprise, expel from the city the party opposed to them, and bring the government into subserviency to the Lacedaemonians by putting it in the hands of a few men.
 
-[5.3] Phoebidas yielded to their persuasions, made his attack upon the Thebans when they did not expect it, since it was the festival of the Thesmophoria, and got possession of the citadel.In the winter of 382 B.C. Cf. the Agesilaüs, xxiii. 3-7. Then Ismenias was arrested, carried to Sparta, and after a little while put to death; while Pelopidas, Pherenicus, Androcleides and many others took to flight and were proclaimed outlaws. Epaminondas, however, was suffered to remain in the city, because his philosophy made him to be looked down upon as a recluse, and his poverty as impotent.
+[5.3] Phoebidas yielded to their persuasions, made his attack upon the Thebans when they did not expect it, since it was the festival of the Thesmophoria, and got possession of the citadel.[^4] Then Ismenias was arrested, carried to Sparta, and after a little while put to death; while Pelopidas, Pherenicus, Androcleides and many others took to flight and were proclaimed outlaws. Epaminondas, however, was suffered to remain in the city, because his philosophy made him to be looked down upon as a recluse, and his poverty as impotent.
 
-### Capítulo 6
+#### Capítulo 6
 
 [6.1] But when the Lacedaemonians deprived Phoebidas of his command and fined him a hundred thousand drachmas, and yet held the Cadmeia with a garrison notwithstanding, all the rest of the Greeks were amazed at their inconsistency, since they punished the wrong-doer, but approved his deed. And as for the Thebans, they had lost their ancestral form of government and were enslaved by Archias and Leontidas, nor had they hopes of any deliverance from this tyranny,
 
@@ -92,19 +91,19 @@ URN: `null`
 
 [6.3] There came also letters from the Lacedaemonians charging the Athenians not to harbour or encourage the exiles, but to expel them as men declared common enemies by the allied cities.
 
-[6.4] The Athenians, however, not only yielding to their traditional and natural instincts of humanity, but also making a grateful return for the kindness of the Thebans, who had been most ready to aid them in restoring their democracy,In 403 B.C., when Thrasybulus set out from Thebes on his campaign against the Thirty Tyrants at Athens (Xenophon, Hell. ii. 4, 2). and had passed a decree that if any Athenians marched through Boeotia against the tyrants in Athens, no Boeotian should see or hear them, did no harm to the Thebans in their city.
+[6.4] The Athenians, however, not only yielding to their traditional and natural instincts of humanity, but also making a grateful return for the kindness of the Thebans, who had been most ready to aid them in restoring their democracy,[^5] and had passed a decree that if any Athenians marched through Boeotia against the tyrants in Athens, no Boeotian should see or hear them, did no harm to the Thebans in their city.
 
-### Capítulo 7
+#### Capítulo 7
 
 [7.1] But Pelopidas, although he was one of the youngest of the exiles kept inciting each man of them privately, and when they met together pleaded before them that it was neither right nor honourable for them to suffer their native city to be garrisoned and enslaved, and, content with mere life and safety, to hang upon the decrees of the Athenians, and to be always cringing and paying court to such orators as could persuade the people;
 
-[7.2] nay, they must risk their lives for the highest good, and take Thrasybulus and his bold valour for their example, in order that, as he once sallied forth from ThebesIn 403 B.C., when Thrasybulus set out from Thebes on his campaign against the Thirty Tyrants at Athens (Xenophon, Hell. ii. 4, 2). and overthrew the tyrants in Athens, so they in their turn might go forth from Athens and liberate Thebes. When, therefore, they had been persuaded by his appeals, they sent secretly to the friends they had left in Thebes, and told them what they purposed.
+[7.2] nay, they must risk their lives for the highest good, and take Thrasybulus and his bold valour for their example, in order that, as he once sallied forth from Thebes[^6] and overthrew the tyrants in Athens, so they in their turn might go forth from Athens and liberate Thebes. When, therefore, they had been persuaded by his appeals, they sent secretly to the friends they had left in Thebes, and told them what they purposed.
 
-[7.3] These approved their plan; and Charon, a man of the highest distinction, agreed to put his house at their disposal, while Phillidas contrived to have himself appointed secretary to Archias and Philip, the polemarchs. Epaminondas,There is no mention either of Epaminondas or Pelopidas in Xenophon’s account of these matters ( Hell. v. 4, 1-12) and his story differs in many details from that of Plutarch. too, had long since filled the minds of the Theban youth with high thoughts; for he kept urging them in the gymnastic schools to try the Lacedaemonians in wrestling, and when he saw them elated with victory and mastery, he would chide them, telling them they ought rather to be ashamed, since their cowardice made them the slaves of the men whom they so far surpassed in bodily powers.
+[7.3] These approved their plan; and Charon, a man of the highest distinction, agreed to put his house at their disposal, while Phillidas contrived to have himself appointed secretary to Archias and Philip, the polemarchs. Epaminondas,[^7] too, had long since filled the minds of the Theban youth with high thoughts; for he kept urging them in the gymnastic schools to try the Lacedaemonians in wrestling, and when he saw them elated with victory and mastery, he would chide them, telling them they ought rather to be ashamed, since their cowardice made them the slaves of the men whom they so far surpassed in bodily powers.
 
-### Capítulo 8
+#### Capítulo 8
 
-[8.1] A day for the enterprise having been fixed,In the winter of 379 B.C. the exiles decided that Pherenicus, with the rest of the party under his command, should remain in the Thriasian plain, while a few of the youngest took the risk of going forward into the city; and if anything happened to these at the hands of their enemies, the rest should all see to it that neither their children nor their parents came to any want.
+[8.1] A day for the enterprise having been fixed,[^8] the exiles decided that Pherenicus, with the rest of the party under his command, should remain in the Thriasian plain, while a few of the youngest took the risk of going forward into the city; and if anything happened to these at the hands of their enemies, the rest should all see to it that neither their children nor their parents came to any want.
 
 [8.2] Pelopidas was first to undertake the enterprise, then Melon, Damocleides, and Theopompus, men of foremost families, and of mutual fidelity and friendship, although in the race for heroic achievement and glory they were constant rivals. When their number had reached twelve, they bade farewell to those who stayed behind, sent a messenger before them to Charon, and set out in short cloaks, taking hunting dogs and nets with them, that anyone who met them on the road might not suspect their purpose, but take them for hunters beating about the country.
 
@@ -114,7 +113,7 @@ URN: `null`
 
 [8.5] His wife, however, was embarrassed because she could not give it to him, and said she had lent it to a neighbour. Words of abuse were followed by imprecations, and his wife prayed that the journey might prove fatal both to him and to those that sent him. Chlidon, therefore, after spending a great part of the day in this angry squabble, and after making up his mind, too, that what had happened was ominous, gave up his journey entirely and turned his thoughts to something else. So near can the greatest and fairest enterprises come, at the very outset, to missing their opportunity.
 
-### Capítulo 9
+#### Capítulo 9
 
 [9.1] But Pelopidas and his companions, after putting on the dress of peasants, and separating, entered the city at different points while it was yet day. There was some wind and snow as the weather began to change, and they were the more unobserved because most people had already taken refuge from the storm in their houses. Those, however, whose business it was to know what was going on, received the visitors as they came, and brought them at once to the house of Charon; and there were, counting the exiles, forty-eight of them.
 
@@ -130,17 +129,17 @@ URN: `null`
 
 [9.7] Charon, however, refused to take his son away, asking if any kind of life or any safety could be more honourable for him than a decorous death with his father and all these friends. Then he addressed the gods in prayer, and after embracing and encouraging them all, went his way, striving so to compose his countenance and modulate his voice as not to betray what he was really doing.
 
-### Capítulo 10
+#### Capítulo 10
 
-[10.1] When he reached the door of the house, Archias came out to him, with Phillidas, and said: Charon, I have heard that certain men have come and hid themselves in the city, and that some of the citizens are in collusion with them. Charon was disturbed at first, but on asking who the men were that had come and who were concealing them, he saw that Archias could give no clear account of the matter, and conjectured that his information had not come from any of those who were privy to the plot. He therefore said: Do not, then, suffer any empty rumour to disturb you. However, I will look into the matter; for perhaps no story should be ignored.
+[10.1] When he reached the door of the house, Archias came out to him, with Phillidas, and said: “Charon, I have heard that certain men have come and hid themselves in the city, and that some of the citizens are in collusion with them.” Charon was disturbed at first, but on asking who the men were that had come and who were concealing them, he saw that Archias could give no clear account of the matter, and conjectured that his information had not come from any of those who were privy to the plot. He therefore said: “Do not, then, suffer any empty rumour to disturb you. However, I will look into the matter; for perhaps no story should be ignored.”
 
-[10.2] Phillidas, too, who stood by, approved of this, and after leading Archias back, got him to drink hard, and tried to protract the revel with hopes of a visit from the women. But Charon, when he got back home, and found the men there disposed, not to expect safety or victory at all, but to die gloriously after a great slaughter of their enemies, told the truth only to Pelopidas himself, while for the rest he concocted a false tale that Archias had talked with him about other matters.According to Plutarch’s lengthy version of this affair in his Discourse concerning the Daemon of Socrates (chapter 29, Morals, p. 595 f.), Charon hid the truth from no one.
+[10.2] Phillidas, too, who stood by, approved of this, and after leading Archias back, got him to drink hard, and tried to protract the revel with hopes of a visit from the women. But Charon, when he got back home, and found the men there disposed, not to expect safety or victory at all, but to die gloriously after a great slaughter of their enemies, told the truth only to Pelopidas himself, while for the rest he concocted a false tale that Archias had talked with him about other matters.[^9]
 
 [10.3] Before this first storm had yet blown over, fortune brought a second down upon the men. For there came a messenger from Athens, from Archias the hierophant to his namesake Archias, who was his guest-friend, bearing a letter which contained no empty nor false suspicion, but stated clearly all the details of the scheme that was on foot, as was subsequently learned.
 
-[10.4] At the time, however, Archias was drunk, and the bearer of the letter was brought to him and put it into his hands, saying: The sender of this bade thee read it at once; for it is on serious business. Then Archias answered with a smile: Serious business for the morrow; and when he had received the letter he put it under his pillow, and resumed his casual conversation with Phillidas. Wherefore these words of his are a current proverb to this day among the Greeks.
+[10.4] At the time, however, Archias was drunk, and the bearer of the letter was brought to him and put it into his hands, saying: “The sender of this bade thee read it at once; for it is on serious business.” Then Archias answered with a smile: “Serious business for the morrow”; and when he had received the letter he put it under his pillow, and resumed his casual conversation with Phillidas. Wherefore these words of his are a current proverb to this day among the Greeks.
 
-### Capítulo 11
+#### Capítulo 11
 
 [11.1] Now that the fitting time for their undertaking seemed to have come, they sallied forth in two bands; one, under the lead of Pelopidas and Damocleidas, against Leontidas and Hypates, who lived near together; the other against Archias and Philip, under Charon and Melon, who had put on women’s apparel over their breastplates, and wore thick garlands of pine and fir which shaded their faces.
 
@@ -154,9 +153,9 @@ URN: `null`
 
 [11.6] But at last Pelopidas prevailed, and after dispatching Leontidas he and his followers went at once to attack Hypates. They broke into his house as they had done into the other, but he promptly perceived their design and fled for refuge to his neighbours. Thither they closely followed him, and caught him, and slew him.
 
-### Capítulo 12
+#### Capítulo 12
 
-[12.1] These things accomplished, they joined Melon’s party, and sent into Attica for the exiles they had left there.Cf. chapter viii. 1. They also summoned the citizens to fight for their freedom, and armed those who came, taking from the porticos the spoils suspended there, and breaking open the neighbouring workshops of spear-makers and sword-makers.
+[12.1] These things accomplished, they joined Melon’s party, and sent into Attica for the exiles they had left there.[^10] They also summoned the citizens to fight for their freedom, and armed those who came, taking from the porticos the spoils suspended there, and breaking open the neighbouring workshops of spear-makers and sword-makers.
 
 [12.2] Epaminondas and Gorgidas also came to their aid with an armed following, composed of many young men and the best of the older men. And now the city was all in a flutter of excitement, there was much noise, the houses had lights in them, and there was running to and fro. The people, however, did not yet assemble; they were terrified at what was going on, and had no clear knowledge of it, and were waiting for day.
 
@@ -164,7 +163,7 @@ URN: `null`
 
 [12.4] At break of day the exiles came in from Attica under arms, and a general assembly of the people was convened. Then Epaminondas and Gorgidas brought before it Pelopidas and his companions, surrounded by the priests, holding forth garlands, and calling upon the citizens to come to the aid of their country and their gods. And the assembly, at the sight, rose to its feet with shouts and clapping of hands, and welcomed the men as deliverers and benefactors.
 
-### Capítulo 13
+#### Capítulo 13
 
 [13.1] After this, having be en elected boeotarch, or governor of Boeotia, together with Melon and Charon, Pelopidas at once blockaded the acropolis and assaulted it on every side, being anxious to drive out the Lacedaemonians and free the Cadmeia before an army came up from Sparta.
 
@@ -174,19 +173,19 @@ URN: `null`
 
 [13.4] And yet the subsequent change in the political situation made this exploit the more glorious. For the war which broke down the pretensions of Sparta and put an end to her supremacy by land and sea, began from that night, in which Pelopidas, not by surprising any fort or castle or citadel, but by coming back into a private house with eleven others, loosed and broke in pieces, if the truth may be expressed in a metaphor, the fetters of the Lacedaemonian supremacy, which were thought indissoluble and not to be broken.
 
-### Capítulo 14
+#### Capítulo 14
 
 [14.1] The Lacedaemonians now invaded Boeotia with a large army, and the Athenians, having become fearful, renounced their alliance with the Thebans, and prosecuting those in their city who favoured the Boeotian cause, put some of them to death, banished others, and others still they fined, so that the Thebans seemed to be in a desperate case with none to aid them. But Pelopidas and Gorgidas, who were boeotarchs, plotted to embroil the Athenians again with the Lacedaemonians, and devised the following scheme.
 
 [14.2] Sphodrias, a Spartan, who had a splendid reputation as a soldier, but was rather weak in judgement and full of vain hopes and senseless ambition, had been left at Thespiae with an armed force to receive and succour the renegade Thebans. To this man Pelopidas and Gorgidas privately sent one of their friends who was a merchant, with money, and, what proved more persuasive than money with Sphodrias, this advice. He ought to put his hand to a large enterprise and seize the Piraeus, attacking it unexpectedly when the Athenians were off their guard;
 
-[14.3] for nothing would gratify the Lacedaemonians so much as the capture of Athens, and the Thebans, who were now angry with the Athenians and held them to be traitors, would give them no aid. Sphodrias was finally persuaded, and taking his soldiers, invaded Attica by night. He advanced as far as Eleusis, but there the hearts of his soldiers failed them and his design was exposed, and after having thus stirred up a serious and difficult war against the Spartans, he withdrew to Thespiae.The attempt of Sphodrias on the Piraeus is more fully described in the Agesilaüs, xxiv. 3-6.
+[14.3] for nothing would gratify the Lacedaemonians so much as the capture of Athens, and the Thebans, who were now angry with the Athenians and held them to be traitors, would give them no aid. Sphodrias was finally persuaded, and taking his soldiers, invaded Attica by night. He advanced as far as Eleusis, but there the hearts of his soldiers failed them and his design was exposed, and after having thus stirred up a serious and difficult war against the Spartans, he withdrew to Thespiae.[^11]
 
-### Capítulo 15
+#### Capítulo 15
 
 [15.1] After this, the Athenians with the greatest eagerness renewed their alliance with the Thebans, and began hostile operations against Sparta by sea, sailing about and inviting and receiving the allegiance of those Greeks who were inclined to revolt. The Thebans, too, by always engaging singly in Boeotia with the Lacedaemonians, and by fighting battles which, though not important in themselves, nevertheless afforded them much practice and training,
 
-[15.2] had their spirits roused and their bodies thoroughly inured to hardships, and gained experience and courage from their constant struggles. For this reason Antalcidas the Spartan, we are told, when Agesilaüs came back from Boeotia with a wound, said to him: Indeed, this is a fine tuition-fee which thou art getting from the Thebans, for teaching them how to war and fight when they did not wish to do it. Cf. the Agesilaüs, xxvi. 2.
+[15.2] had their spirits roused and their bodies thoroughly inured to hardships, and gained experience and courage from their constant struggles. For this reason Antalcidas the Spartan, we are told, when Agesilaüs came back from Boeotia with a wound, said to him: “Indeed, this is a fine tuition-fee which thou art getting from the Thebans, for teaching them how to war and fight when they did not wish to do it.” [^12]
 
 [15.3] But, to tell the truth, it was not Agesilaüs who was their teacher, but those leaders of theirs who, at the right time and place, gave the Thebans, like young dogs in training, experience in attacking their enemies, and then, when they had got a taste of victory and its ardours, brought them safely off; and of these leaders Pelopidas was in greatest esteem. For after his countrymen had once chosen him their leader in arms, there was not a single year when they did not elect him to office, but either as leader of the sacred band, or, for the most part, as boeotarch, he continued active until his death.
 
@@ -194,7 +193,7 @@ URN: `null`
 
 [15.5] for they were not pitched battles, nor was the fighting in open and regular array, but it was by making well-timed sallies, and by either retreating before the enemy or by pursuing and coming to close quarters with them that the Thebans won their successes.
 
-### Capítulo 16
+#### Capítulo 16
 
 [16.1] But the conflict at Tegyra, which was a sort of prelude to that at Leuctra, raised high the reputation of Pelopidas; for it afforded his fellow commanders no rival claim in its success, and his enemies no excuse for their defeat. Against the city of Orchomenus, which had chosen the side of the Spartans and received two divisions of them for its protection, he was ever laying plans and watching his opportunity,
 
@@ -202,13 +201,13 @@ URN: `null`
 
 [16.3] For all the intervening plain was made impassable by the river Melas, which no sooner begins to flow than it spreads itself out into navigable marshes and lakes. A little below the marshes stands the temple of Apollo Tegyraeus, with an oracle which had not been long abandoned, but was flourishing down to the Persian wars, when Echecrates was prophet-priest. Here, according to the story, the god was born; and the neighbouring mountain is called Delos, and at its base the river Melas ceases to be spread out,
 
-[16.4] and behind the temple two springs burst forth with a wonderful flow of sweet, copious, and cool water. One of these we call Palm, the other Olive to the present day, for it was not between two trees,As in the Delian story of the birth of Apollo and Artemis. but between two fountains, that the goddess Leto was delivered of her children. Moreover, the PtoümA mountain at the south-eastern side of Lake Copaïs, on which was a celebrated sanctuary of Apollo. is near, from which, it is said, a boar suddenly came forth and frightened the goddess, and in like manner the stories of the PythonA dragon and a giant, who were slain by Apollo and Artemis. and of TityusA dragon and a giant, who were slain by Apollo and Artemis. are associated with the birth of Apollo in this locality.
+[16.4] and behind the temple two springs burst forth with a wonderful flow of sweet, copious, and cool water. One of these we call Palm, the other Olive to the present day, for it was not between two trees,[^13] but between two fountains, that the goddess Leto was delivered of her children. Moreover, the Ptoüm[^14] is near, from which, it is said, a boar suddenly came forth and frightened the goddess, and in like manner the stories of the Python[^15] and of Tityus[^16] are associated with the birth of Apollo in this locality.
 
 [16.5] Most of the proofs, however, I shall pass over; for my native tradition removes this god from among those deities who were changed from mortals into immortals, like Heracles and Dionysus, whose virtues enabled them to cast off mortality and suffering; but he is one of those deities who are unbegotten and eternal, if we may judge by what the most ancient and wisest men have said on such matters.
 
-### Capítulo 17
+#### Capítulo 17
 
-[17.1] So, then, as the Thebans entered the district of Tegyra on their way back from Orchomenus, the Lacedaemonians also entered it at the same time, returning in the opposite direction from Locris, and met them. As soon as they were seen marching through the narrow pass, some one ran up to Pelopidas and said: We have fallen into our enemies’ hands! Why any more, said he, than they into ours?
+[17.1] So, then, as the Thebans entered the district of Tegyra on their way back from Orchomenus, the Lacedaemonians also entered it at the same time, returning in the opposite direction from Locris, and met them. As soon as they were seen marching through the narrow pass, some one ran up to Pelopidas and said: “We have fallen into our enemies’ hands!” “Why any more,” said he, “than they into ours?”
 
 [17.2] Then he at once ordered all his horsemen to ride up from the rear in order to charge, while he himself put his men-at-arms, three hundred in number, into close array, expecting that wherever they charged he would be most likely to cut his way through the enemy, who outnumbered him. Now, there were two divisions of the Lacedaemonians, the division consisting of five hundred men, according to Ephorus, of seven hundred, according to Callisthenes, of nine hundred, according to certain other writers, among whom is Polybius.
 
@@ -218,23 +217,29 @@ URN: `null`
 
 [17.5] They had succeeded, however, in conquering their enemy outright and forcing their way victoriously through his whole army; so they erected a trophy, spoiled the dead, and retired homewards in high spirits. For in all their wars with Greeks and Barbarians, as it would seem, never before had Lacedaemonians in superior numbers been overpowered by an inferior force, nor, indeed, in a pitched battle where the forces were evenly matched.
 
-[17.6] Hence they were of an irresistible courage, and when they came to close quarters their very reputation sufficed to terrify their opponents, who also, on their part, thought themselves no match for Spartans with an equal force. But this battle first taught the other Greeks also that it was not the Eurotas, nor the region between Babyce and Cnacion,Probably names of small tributaries of the Eurotas near Sparta. Cf. the Lycurgus, vi. 1-3. which alone produced warlike fighting men, but that wheresoever young men are prone to be ashamed of baseness and courageous in a noble cause, shunning disgrace more than danger, these are most formidable to their foes.
+[17.6] Hence they were of an irresistible courage, and when they came to close quarters their very reputation sufficed to terrify their opponents, who also, on their part, thought themselves no match for Spartans with an equal force. But this battle first taught the other Greeks also that it was not the Eurotas, nor the region between Babyce and Cnacion,[^17] which alone produced warlike fighting men, but that wheresoever young men are prone to be ashamed of baseness and courageous in a noble cause, shunning disgrace more than danger, these are most formidable to their foes.
 
-### Capítulo 18
+#### Capítulo 18
 
 [18.1] The sacred band, we are told, was first formed by Gorgidas, of three hundred chosen men, to whom the city furnished exercise and maintenance, and who encamped in the Cadmeia; for which reason, too, they were called the city band; for citadels in those days were properly called cities. But some say that this band was composed of lovers and beloved.
 
-[18.2] And a pleasantry of Pammenes is cited, in which he said that Homer’s Nestor was no tactician when he urged the Greeks to form in companies by clans and tribes, That clan might give assistance unto clan, and tribes to tribes, Iliad, ii. 363. Cf. Morals, p. 761 b. since he should have stationed lover by beloved. For tribesmen and clansmen make little account of tribesmen and clansmen in times of danger; whereas, a band that is held together by the friendship between lovers is indissoluble and not to be broken, since the lovers are ashamed to play the coward before their beloved, and the beloved before their lovers, and both stand firm in danger to protect each other.
+[18.2] And a pleasantry of Pammenes is cited, in which he said that Homer’s Nestor was no tactician when he urged the Greeks to form in companies by clans and tribes,
 
-[18.3] Nor is this a wonder since men have more regard for their lovers even when absent than for others who are present, as was true of him who, when his enemy was about to slay him where he lay, earnestly besought him to run his sword through his breast, in order, as he said, that my beloved may not have to blush at sight of my body with a wound in the back.
+```verso
+That clan might give assistance unto clan, and tribes to tribes,
+```
 
-[18.4] It is related, too, that Iolaüs, who shared the labours of Heracles and fought by his side, was beloved of him. And Aristotle saysFragment 97 (Rose). Cf. Morals, p. 761 d. that even down to his day the tomb of Iolaüs was a place where lovers and beloved plighted mutual faith. It was natural, then, that the band should also be called sacred, because even Plato calls the lover a friend inspired of God. Symposium, p. 179 a.
+[^18] since he should have stationed lover by beloved. For tribesmen and clansmen make little account of tribesmen and clansmen in times of danger; whereas, a band that is held together by the friendship between lovers is indissoluble and not to be broken, since the lovers are ashamed to play the coward before their beloved, and the beloved before their lovers, and both stand firm in danger to protect each other.
 
-[18.5] It is said, moreover, that the band was never beaten, until the battle of Chaeroneia;338 B.C. and when, after the battle, Philip was surveying the dead, and stopped at the place where the three hundred were lying, all where they had faced the long spears of his phalanx, with their armour, and mingled one with another, he was amazed, and on learning that this was the band of lovers and beloved, burst into tears and said: Perish miserably they who think that these men did or suffered aught disgraceful.
+[18.3] Nor is this a wonder since men have more regard for their lovers even when absent than for others who are present, as was true of him who, when his enemy was about to slay him where he lay, earnestly besought him to run his sword through his breast, “in order,” as he said, “that my beloved may not have to blush at sight of my body with a wound in the back.”
 
-### Capítulo 19
+[18.4] It is related, too, that Iolaüs, who shared the labours of Heracles and fought by his side, was beloved of him. And Aristotle says[^19] that even down to his day the tomb of Iolaüs was a place where lovers and beloved plighted mutual faith. It was natural, then, that the band should also be called sacred, because even Plato calls the lover a friend “inspired of God.” [^20]
 
-[19.1] Speaking generally, however, it was not the passion of Laius that, as the poets say, first made this form of love customary among the Thebans;Laius was enamoured of Chrysippus, a young son of Pelops (Apollodorus, iii. 5, 5, 10). but their law-givers, wishing to relax and mollify their strong and impetuous natures in earliest boyhood, gave the flute great prominence both in their work and in their play, bringing this instrument into preeminence and honour, and reared them to give love a conspicuous place in the life of the palaestra, thus tempering the dispositions of the young men.
+[18.5] It is said, moreover, that the band was never beaten, until the battle of Chaeroneia;[^21] and when, after the battle, Philip was surveying the dead, and stopped at the place where the three hundred were lying, all where they had faced the long spears of his phalanx, with their armour, and mingled one with another, he was amazed, and on learning that this was the band of lovers and beloved, burst into tears and said: “Perish miserably they who think that these men did or suffered aught disgraceful.”
+
+#### Capítulo 19
+
+[19.1] Speaking generally, however, it was not the passion of Laius that, as the poets say, first made this form of love customary among the Thebans;[^22] but their law-givers, wishing to relax and mollify their strong and impetuous natures in earliest boyhood, gave the flute great prominence both in their work and in their play, bringing this instrument into preeminence and honour, and reared them to give love a conspicuous place in the life of the palaestra, thus tempering the dispositions of the young men.
 
 [19.2] And with this in view, they did well to give the goddess who was said to have been born of Ares and Aphrodite a home in their city; for they felt that, where the force and courage of the warrior are most closely associated and united with the age which possesses grace and persuasiveness, there all the activities of civil life are brought by Harmony into the most perfect consonance and order.
 
@@ -242,45 +247,45 @@ URN: `null`
 
 [19.4] For just as horses run faster when yoked to a chariot than when men ride them singly, not because they cleave the air with more impetus owing to their united weight, but because their mutual rivalry and ambition inflame their spirits; so he thought that brave men were most ardent and serviceable in a common cause when they inspired one another with a zeal for high achievement.
 
-### Capítulo 20
+#### Capítulo 20
 
-[20.1] But now the Lacedaemonians made peace with all the other Greeks and directed the war against the Thebans alone;In 371 B.C. Cleombrotus their king invaded Boeotia with a force of two ten thousand men-at-arms and a thousand horse; a new peril confronted the Thebans, since they were openly threatened with downright dispersion; and an unprecedented fear reigned in Boeotia. It was at this time that Pelopidas, on leaving his house, when his wife followed him on his way in tears and begging him not to lose his life, said:
+[20.1] But now the Lacedaemonians made peace with all the other Greeks and directed the war against the Thebans alone;[^23] Cleombrotus their king invaded Boeotia with a force of ten thousand men-at-arms and a thousand horse; a new peril confronted the Thebans, since they were openly threatened with downright dispersion; and an unprecedented fear reigned in Boeotia. It was at this time that Pelopidas, on leaving his house, when his wife followed him on his way in tears and begging him not to lose his life, said:
 
-[20.2] This advice, my wife, should be given to private men; but men in authority should be told not to lose the lives of others. And when he reached the camp and found that the boeotarchs were not in accord he was first to side with Epaminondas in voting to give the enemy battle. Now Pelopidas, although he had not been appointed boeotarch, was captain of the sacred band, and highly trusted, as it was right that a man should be who had given his country such tokens of his devotion to freedom.
+[20.2] “This advice, my wife, should be given to private men; but men in authority should be told not to lose the lives of others.” And when he reached the camp and found that the boeotarchs were not in accord he was first to side with Epaminondas in voting to give the enemy battle. Now Pelopidas, although he had not been appointed boeotarch, was captain of the sacred band, and highly trusted, as it was right that a man should be who had given his country such tokens of his devotion to freedom.
 
-[20.3] Accordingly, it was decided to risk a battle, and at Leuctra they encamped over against the Lacedaemonians. Here Pelopidas had a dream which greatly disturbed him. Now, in the plain of Leuctra are the tombs of the daughters of Scedasus, who are called from the place Leuctridae, for they had been buried there, after having been ravished by Spartan strangers.The damsels, in shame, took their own lives. Cf. Pausanias, ix. 13, 3.
+[20.3] Accordingly, it was decided to risk a battle, and at Leuctra they encamped over against the Lacedaemonians. Here Pelopidas had a dream which greatly disturbed him. Now, in the plain of Leuctra are the tombs of the daughters of Scedasus, who are called from the place Leuctridae, for they had been buried there, after having been ravished by Spartan strangers.[^24]
 
 [20.4] At the commission of such a grievous and lawless act, their father, since he could get no justice at Sparta, heaped curses upon the Spartans, and then slew himself upon the tombs of the maidens; and ever after, prophecies and oracles kept warning the Spartans to be on watchful guard against the Leuctrian wrath. Most of them, however, did not fully understand the matter, but were in doubt about the place, since in Laconia there is a little town near the sea which is called Leuctra, and near Megalopolis in Arcadia there is a place of the same name. This calamity, of course, occurred long before the battle of Leuctra.
 
-### Capítulo 21
+#### Capítulo 21
 
 [21.1] After Pelopidas had lain down to sleep in the camp, he thought he saw these maidens weeping at their tombs, as they invoked curses upon the Spartans, and Scedasus bidding him sacrifice to his daughters a virgin with auburn hair, if he wished to win the victory over his enemies. The injunction seemed a lawless and dreadful one to him, but he rose up and made it known to the seers and the commanders.
 
-[21.2] Some of these would not hear of the injunction being neglected or disobeyed, adducing as examples of such sacrifice among the ancients, Menoeceus, son of Creon, Macaria, daughter of Heracles; and, in later times, Pherecydes the wise man, who was put to death by the Lacedaemonians, and whose skin was preserved by their kings, in accordance with some oracle; and Leonidas, who, in obedience to the oracle, sacrificed himself,At Thermopylae. Cf. Herodotus, vii. 220. as it were, to save Greece;
+[21.2] Some of these would not hear of the injunction being neglected or disobeyed, adducing as examples of such sacrifice among the ancients, Menoeceus, son of Creon, Macaria, daughter of Heracles; and, in later times, Pherecydes the wise man, who was put to death by the Lacedaemonians, and whose skin was preserved by their kings, in accordance with some oracle; and Leonidas, who, in obedience to the oracle, sacrificed himself,[^25] as it were, to save Greece;
 
-[21.3] and, still further, the youths who were sacrificed by Themistocles to Dionysus Carnivorous before the sea fight at SalamisCf. the Themistocles, xiii. 2 f. for the successes which followed these sacrifices proved them acceptable to the gods. Moreover, when Agesilaüs, who was setting out on an expedition from the same place as Agamemnon did, and against the same enemies, was asked by the goddess for his daughter in sacrifice, and had this vision as he lay asleep at Aulis, he was too tender-hearted to give her,Cf. the Agesilaüs, vi. 4 ff. and thereby brought his expedition to an unsuccessful and inglorious ending.
+[21.3] and, still further, the youths who were sacrificed by Themistocles to Dionysus Carnivorous before the sea fight at Salamis[^26] for the successes which followed these sacrifices proved them acceptable to the gods. Moreover, when Agesilaüs, who was setting out on an expedition from the same place as Agamemnon did, and against the same enemies, was asked by the goddess for his daughter in sacrifice, and had this vision as he lay asleep at Aulis, he was too tender-hearted to give her,[^27] and thereby brought his expedition to an unsuccessful and inglorious ending.
 
 [21.4] Others, on the contrary, argued against it, declaring that such a lawless and barbarous sacrifice was not acceptable to any one of the superior beings above us, for it was not the fabled typhons and giants who governed the world, but the father of all gods and men; even to believe in the existence of divine beings who take delight in the slaughter and blood of men was perhaps a folly, but if such beings existed, they must be disregarded, as having no power; for only weakness and depravity of soul could produce or harbour such unnatural and cruel desires.
 
-### Capítulo 22
+#### Capítulo 22
 
 [22.1] While, then, the chief men were thus disputing, and while Pelopidas in particular was in perplexity, a filly broke away from the herd of horses and sped through the camp, and when she came to the very place of their conference, stood still. The rest only admired the colour of her glossy mane, which was fiery red, her high mettle, and the vehemence and boldness of her neighing; but
 
-[22.2] Theocritus the seer, after taking thought, cried out to Pelopidas: Thy sacrificial victim is come, good man; so let us not wait for any other virgin, but do thou accept and use the one which Heaven offers thee. So they took the mare and led her to the tombs of the maidens, upon which, after decking her with garlands and consecrating her with prayers they sacrificed her, rejoicing themselves, and publishing through the camp an account of the vision of Pelopidas and of the sacrifice.
+[22.2] Theocritus the seer, after taking thought, cried out to Pelopidas: “Thy sacrificial victim is come, good man; so let us not wait for any other virgin, but do thou accept and use the one which Heaven offers thee.” So they took the mare and led her to the tombs of the maidens, upon which, after decking her with garlands and consecrating her with prayers they sacrificed her, rejoicing themselves, and publishing through the camp an account of the vision of Pelopidas and of the sacrifice.
 
-### Capítulo 23
+#### Capítulo 23
 
 [23.1] In the battle, while Epaminondas was drawing his phalanx obliquely towards the left, in order that the right wing of the Spartans might be separated as far as possible from the rest of the Greeks, and that he might thrust back Cleombrotus by a fierce charge in column with all his men-at-arms, the enemy understood what he was doing and began to change their formation;
 
-[23.2] they were opening up their right wing and making an encircling movement, in order to surround Epaminondas and envelop him with their numbers. But at this point Pelopidas darted forth from his position, and with his band of three hundred on the run, came upThere is only a hint of this strategy and no mention either of Epaminondas or Pelopidas, in Xenophon’s account of the battle ( Hell. vi. 4, 9-15). before Cleombrotus had either extended his wing or brought it back again into its old position and closed up his line of battle, so that the Lacedaemonians were not standing in array, but moving confusedly about among each other when his onset reached them.
+[23.2] they were opening up their right wing and making an encircling movement, in order to surround Epaminondas and envelop him with their numbers. But at this point Pelopidas darted forth from his position, and with his band of three hundred on the run, came up[^28] before Cleombrotus had either extended his wing or brought it back again into its old position and closed up his line of battle, so that the Lacedaemonians were not standing in array, but moving confusedly about among each other when his onset reached them.
 
 [23.3] And yet the Spartans, who were of all men past masters in the art of war, trained and accustomed themselves to nothing so much as not to straggle or get into confusion upon a change of formation, but to take anyone without exception as neighbour in rank or in file, and wheresoever danger actually threatened, to seize that point and form in close array and fight as well as ever.
 
 [23.4] At this time, however, since the phalanx of Epaminondas bore down upon them alone and neglected the rest of their force, and since Pelopidas engaged them with incredible speed and boldness, their courage and skill were so confounded that there was a flight and slaughter of the Spartans such as had never before been seen. Therefore, although Epaminondas was boeotarch, Pelopidas, who was not boeotarch, and commanded only a small portion of the whole force, won as much glory for the success of that victory as he did.
 
-### Capítulo 24
+#### Capítulo 24
 
-[24.1] Both were boeotarchs, however, when they invaded Peloponnesus and won over most of its peoples, detaching from the Lacedaemonian confederacy Elis, Argos, all Arcadia, and most of Laconia itself.In 370 B.C. Still, the winter solstice was at hand, and only a few days of the latter part of the last month of the year remained, and as soon as the first month of the new year began other officials must succeed them, or those who would not surrender their office must die.
+[24.1] Both were boeotarchs, however, when they invaded Peloponnesus and won over most of its peoples, detaching from the Lacedaemonian confederacy Elis, Argos, all Arcadia, and most of Laconia itself.[^29] Still, the winter solstice was at hand, and only a few days of the latter part of the last month of the year remained, and as soon as the first month of the new year began other officials must succeed them, or those who would not surrender their office must die.
 
 [24.2] The other boeotarchs, both because they feared this law, and because they wished to avoid the hardships of winter, were anxious to lead the army back home; but Pelopidas was first to add his vote to that of Epaminondas, and after inciting his countrymen to join them, led the army against Sparta and across the Eurotas. He took many of the enemy’s cities, and ravaged all their territory as far as the sea, leading an army of seventy thousand Greeks, of which the Thebans themselves were less than a twelfth part.
 
@@ -290,7 +295,7 @@ URN: `null`
 
 [24.5] On this expedition they united all Arcadia into one power; rescued the country of Messenia from the hands of its Spartan masters and called back and restored the ancient Messenian inhabitants, with whom they settled Ithome; and on their way back homewards through Cenchreae, conquered the Athenians when they tried to hinder their passage by skirmishing with them in the passes.
 
-### Capítulo 25
+#### Capítulo 25
 
 [25.1] In view of these achievements, all the rest of the Greeks were delighted with their valour and marvelled at their good fortune; but the envy of their own fellow-citizens, which was increasing with the men’s fame, prepared them a reception that was not honourable or fitting. For both were tried for their lives when they came back, because they had not handed over to others their office of boeotarch, as the law commanded, in the first month of the new year (which they call Boukatios), but had added four whole months to it, during which they conducted their campaign in Messenia, Arcadia, and Laconia.
 
@@ -306,9 +311,9 @@ URN: `null`
 
 [25.7] This decree was attacked as unconstitutional by Pelopidas, who insisted that it was not a custom with the Thebans to honour any one man individually, but for the whole country to have the glory of a victory. And through the whole trial of the case he continued to heap generous praise upon Charon, while he showed Menecleidas to be a slanderous and worthless fellow, and asked the Thebans if they had done nothing noble themselves; the result was that Menecleidas was fined, and being unable to pay the fine because it was so heavy, he afterwards tried to effect a revolution in the government. This episode, then, has some bearing on the Life which I am writing.
 
-### Capítulo 26
+#### Capítulo 26
 
-[26.1] Now, since Alexander the tyrant of Pherae made open war on many of the Thessalians, and was plotting against them all, their cities sent ambassadors to Thebes asking for an armed force and a general. Pelopidas, therefore, seeing that Epaminondas was busy with his work in Peloponnesus, offered and assigned himself to the Thessalians,In 369 B.C. both because he could not suffer his own skill and ability to lie idle, and because he thought that wherever Epaminondas was there was no need of a second general.
+[26.1] Now, since Alexander the tyrant of Pherae made open war on many of the Thessalians, and was plotting against them all, their cities sent ambassadors to Thebes asking for an armed force and a general. Pelopidas, therefore, seeing that Epaminondas was busy with his work in Peloponnesus, offered and assigned himself to the Thessalians,[^30] both because he could not suffer his own skill and ability to lie idle, and because he thought that wherever Epaminondas was there was no need of a second general.
 
 [26.2] Accordingly, after marching into Thessaly with an armed force, he straightway took Larissa, and when Alexander came to him and begged for terms, he tried to make him, instead of a tyrant, one who would govern the Thessalians mildly and according to law. But since the man was incurably brutish and full of savageness, and since there was much denunciation of his licentiousness and greed, Pelopidas became harsh and severe with him, whereupon he ran away with his guards.
 
@@ -318,9 +323,9 @@ URN: `null`
 
 [26.5] This was the Philip who afterwards waged war to enslave the Greeks, but at this time he was a boy and lived in Thebes with Pammenes. Hence he was believed to have become a zealous follower of Epaminondas, perhaps because he comprehended his efficiency in wars and campaigns, which was only a small part of the man’s high excellence; but in restraint, justice, magnanimity, and gentleness, wherein Epaminondas was truly great, Philip had no share, either naturally or as a result of imitation.
 
-### Capítulo 27
+#### Capítulo 27
 
-[27.1] After this, when the Thessalians again brought complaint against Alexander of Pherae as a disturber of their cities, Pelopidas was sent thither on an embassy with Ismenias;In 368 B.C. and since he brought no force from home with him, and did not expect war, he was compelled to employ the Thessalians themselves for the emergency.
+[27.1] After this, when the Thessalians again brought complaint against Alexander of Pherae as a disturber of their cities, Pelopidas was sent thither on an embassy with Ismenias;[^31] and since he brought no force from home with him, and did not expect war, he was compelled to employ the Thessalians themselves for the emergency.
 
 [27.2] At this time, too, Macedonian affairs were in confusion again, for Ptolemy had killed the king and now held the reins of government, and the friends of the dead king were calling upon Pelopidas. Wishing, therefore, to appear upon the scene, but having no soldiers of his own, he enlisted some mercenaries on the spot, and with these marched at once against Ptolemy.
 
@@ -332,33 +337,40 @@ URN: `null`
 
 [27.6] But the tyrant, when he saw them coming up unarmed and unattended, straightway seized them and took possession of Pharsalus. By this step he awoke in all his subjects a shuddering fear; they thought that after an act of such boldness and iniquity he would spare nobody, and in all his dealings with men and affairs would act as one who now utterly despaired of his own life.
 
-### Capítulo 28
+#### Capítulo 28
 
 [28.1] The Thebans, then, on hearing of this, were indignant, and sent out an army at once, although, since Epaminondas had somehow incurred their displeasure, they appointed other commanders for it. As for Pelopidas, after the tyrant had brought him back to Pherae, at first he suffered all who desired it to converse with him, thinking that his calamity had made him a pitiful and contemptible object;
 
 [28.2] but when Pelopidas exhorted the lamenting Pheraeans to be of good cheer, since now certainly the tyrant would meet with punishment, and when he sent a message to the tyrant himself, saying that it was absurd to torture and slay the wretched and innocent citizens day by day, while he spared him, a man most certain, as he knew, to take vengeance on him if he made his escape;
 
-[28.3] then the tyrant, amazed at his high spirit and his fearlessness, said: And why is Pelopidas in haste to die? To which Pelopidas replied: That thou mayest the sooner perish, by becoming more hateful to the gods than now. From that time the tyrant forbade those outside of his following to see the prisoner. But Thebe, who was a daughter of Jason, and Alexander’s wife, learned from the keepers of Pelopidas how courageous and noble the man was, and conceived a desire to see him and talk with him.
+[28.3] then the tyrant, amazed at his high spirit and his fearlessness, said: “And why is Pelopidas in haste to die?” To which Pelopidas replied: “That thou mayest the sooner perish, by becoming more hateful to the gods than now.” From that time the tyrant forbade those outside of his following to see the prisoner. But Thebe, who was a daughter of Jason, and Alexander’s wife, learned from the keepers of Pelopidas how courageous and noble the man was, and conceived a desire to see him and talk with him.
 
-[28.4] But when she came to him, woman that she was, she could not at once recognize the greatness of his nature in such dire misfortune, but judging from his hair and garb and maintenance that he was suffering indignities which ill befitted a man of his reputation, she burst into tears. Pelopidas, not knowing at first what manner of woman she was, was amazed; but when he understood he addressed her as daughter of Jason; for her father was a familiar friend of his. And when she said, I pity thy wife, he replied, And I thee, in that thou wearest no chains, and yet endurest Alexander.
+[28.4] But when she came to him, woman that she was, she could not at once recognize the greatness of his nature in such dire misfortune, but judging from his hair and garb and maintenance that he was suffering indignities which ill befitted a man of his reputation, she burst into tears. Pelopidas, not knowing at first what manner of woman she was, was amazed; but when he understood he addressed her as daughter of Jason; for her father was a familiar friend of his. And when she said, “I pity thy wife,” he replied, “And I thee, in that thou wearest no chains, and yet endurest Alexander.”
 
 [28.5] This speech deeply moved the woman, for she was oppressed by the savage insolence of the tyrant, who, in addition to his other debaucheries, had made her youngest brother his paramour. Therefore her continued visits to Pelopidas, in which she spoke freely of her sufferings, gradually filled her with wrath and fierce hatred towards Alexander.
 
-### Capítulo 29
+#### Capítulo 29
 
-[29.1] When the Theban generals had accomplished nothing by their invasion of Thessaly, but owing to inexperience or ill fortune had retired disgracefully, the city fined each of them ten thousand drachmas, and sent out Epaminondas with an armed force.367 B.C.
+[29.1] When the Theban generals had accomplished nothing by their invasion of Thessaly, but owing to inexperience or ill fortune had retired disgracefully, the city fined each of them ten thousand drachmas, and sent out Epaminondas with an armed force.[^32]
 
 [29.2] At once, then, there was a great stir among the Thessalians, who were filled with high hopes in view of the reputation of this general, and the cause of the tyrant was on the very verge of destruction; so great was the fear that fell upon his commanders and friends, and so great the inclination of his subjects to revolt, and their joy at what the future had in store, for they felt that now they should behold the tyrant under punishment.
 
 [29.3] Epaminondas, however, less solicitous for his own glory than for the safety of Pelopidas, and fearing that if confusion reigned Alexander would get desperate and turn like a wild beast upon his prisoner, dallied with the war, and taking a roundabout course, kept the tyrant in suspense by his preparations and threatened movements, thus neither encouraging his audacity and boldness, nor rousing his malignity and passion.
 
-[29.4] For he had learned how savage he was, and how little regard he had for right and justice, in that sometimes he buried men alive, and sometimes dressed them in the skins of wild boars or bears, and then set his hunting dogs upon them and either tore them in pieces or shot them down, making this his diversion; and at Meliboea and Scotussa, allied and friendly cities, when the people were in full assembly, he surrounded them with his body-guards and slaughtered them from the youth up; he also consecrated the spear with which he had slain his uncle Polyphron, decked it with garlands, and sacrificed to it as to a god, giving it the name of Tycho.That is, Luck.
+[29.4] For he had learned how savage he was, and how little regard he had for right and justice, in that sometimes he buried men alive, and sometimes dressed them in the skins of wild boars or bears, and then set his hunting dogs upon them and either tore them in pieces or shot them down, making this his diversion; and at Meliboea and Scotussa, allied and friendly cities, when the people were in full assembly, he surrounded them with his body-guards and slaughtered them from the youth up; he also consecrated the spear with which he had slain his uncle Polyphron, decked it with garlands, and sacrificed to it as to a god, giving it the name of Tycho.[^33]
 
 [29.5] Once when he was seeing a tragedian act the Trojan Women of Euripides, he left the theatre abruptly, and sent a message to the actor bidding him be of good courage and not put forth any less effort because of his departure, for it was not out of contempt for his acting that he had gone away, but because he was ashamed to have the citizens see him, who had never taken pity on any man that he had murdered, weeping over the sorrows of Hecuba and Andromache.
 
-[29.6] It was this tyrant, however, who, terrified at the name and fame and distinction of the generalship of Epaminondas, Crouched down, though warrior bird, like slave, with drooping wings, An iambic trimeter of unknown authorship; cf. the Alcibiades, iv. 3. and speedily sent a deputation to him which should explain his conduct. But Epaminondas could not consent that the Thebans should make peace and friendship with such a man; he did, however, make a thirty days’ truce with him, and after receiving Pelopidas and Ismenias, returned home.
+[29.6] It was this tyrant, however, who, terrified at the name and fame and distinction of the generalship of Epaminondas,
 
-### Capítulo 30
+```verso
+Crouched down, though warrior bird, like slave,
+with drooping wings,
+```
+
+[^34] and speedily sent a deputation to him which should explain his conduct. But Epaminondas could not consent that the Thebans should make peace and friendship with such a man; he did, however, make a thirty days’ truce with him, and after receiving Pelopidas and Ismenias, returned home.
+
+#### Capítulo 30
 
 [30.1] Now, when the Thebans learned that ambassadors from Sparta and Athens were on their way to the Great King to secure an alliance, they also sent Pelopidas thither; and this was a most excellent plan, in view of his reputation. For, in the first place, he went up through the provinces of the king as a man of name and note; for the glory of his conflicts with the Lacedaemonians had not made its way slowly or to any slight extent through Asia,
 
@@ -368,25 +380,25 @@ URN: `null`
 
 [30.4] he was yet more delighted with him, and, with all the assurance of a king, openly showed the esteem in which he held him, and allowed the other ambassadors to see that he made most account of him. And yet he is thought to have shown Antalcidas the Lacedaemonian more honour than any other Greek, in that he took the chaplet which he had worn at a banquet, dipped it in perfume, and sent it to him.
 
-[30.5] To Pelopidas, indeed, he paid no such delicate compliment, but he sent him the greatest and most splendid of the customary gifts, and granted him his demands, namely, that the Greeks should be independent, MesseneMessene was the new capital of Messenia, founded on the slopes of Mt. Ithome (cf. chapter xxiv. 5) by Epaminondas, in 369 B.C. inhabited, and the Thebans regarded as the king’s hereditary friends. With these answers, but without accepting any gifts except such as were mere tokens of kindness and goodwill, he set out for home; and this conduct of his, more than anything else, was the undoing of the other ambassadors.
+[30.5] To Pelopidas, indeed, he paid no such delicate compliment, but he sent him the greatest and most splendid of the customary gifts, and granted him his demands, namely, that the Greeks should be independent, Messene[^35] inhabited, and the Thebans regarded as the king’s hereditary friends. With these answers, but without accepting any gifts except such as were mere tokens of kindness and goodwill, he set out for home; and this conduct of his, more than anything else, was the undoing of the other ambassadors.
 
 [30.6] Timagoras, at any rate, was condemned and executed by the Athenians, and if this was because of the multitude of gifts which he took, it was right and just; for he took not only gold and silver, but also an expensive couch and slaves to spread it, since, as he said, the Greeks did not know how; and besides, eighty cows with their cow-herds, since, as he said, he wanted cows’ milk for some ailment; and, finally, he was carried down to the sea in a litter, and had a present of four talents from the King with which to pay his carriers. But it was not his taking of gifts, as it would seem, that most exasperated the Athenians.
 
 [30.7] At any rate, Epicrates, his shield-bearer, once confessed that he had received gifts from the King, and talked of proposing a decree that instead of nine archons, nine ambassadors to the King should be elected annually from the poor and needy citizens, in order that they might take his gifts and be wealthy men, whereat the people only laughed. But they were incensed because the Thebans had things all their own way, not stopping to consider that the fame of Pelopidas was more potent than any number of rhetorical discourses with a man who ever paid deference to those who were mighty in arms.
 
-### Capítulo 31
+#### Capítulo 31
 
 [31.1] This embassy, then, added not a little to the goodwill felt towards Pelopidas, on his return home, because of the peopling of Messene and the independence of the other Greeks. But Alexander of Pherae had now resumed his old nature and was destroying not a few Thessalian cities; he had also put garrisons over the Achaeans of Phthiotis and the people of Magnesia. When, therefore, the cities learned that Pelopidas was returned, they at once sent ambassadors to Thebes requesting an armed force and him for its commander.
 
-[31.2] The Thebans readily decreed what they desired, and soon everything was in readiness and the commander about to set out, when the sun was eclipsed and the city was covered with darkness in the day-time.July 13, 364 B.C. So Pelopidas, seeing that all were confounded at this manifestation, did not think it meet to use compulsion with men who were apprehensive and fearful, nor to run extreme hazard with seven thousand citizens,
+[31.2] The Thebans readily decreed what they desired, and soon everything was in readiness and the commander about to set out, when the sun was eclipsed and the city was covered with darkness in the day-time.[^36] So Pelopidas, seeing that all were confounded at this manifestation, did not think it meet to use compulsion with men who were apprehensive and fearful, nor to run extreme hazard with seven thousand citizens,
 
-[31.3] but devoting himself alone to the Thessalians, and taking with him three hundred of the cavalry who were foreigners and who volunteered for the service, set out, although the seers forbade it, and the rest of the citizens disapproved; for the eclipse was thought to be a great sign from heaven, and to regard a conspicuous man. But his wrath at insults received made him very hot against Alexander, and, besides, his previous conversations with ThebeCf. chapter xxviii. 3. ff. led him to hope that he should find the tyrant’s family already embroiled and disrupted.
+[31.3] but devoting himself alone to the Thessalians, and taking with him three hundred of the cavalry who were foreigners and who volunteered for the service, set out, although the seers forbade it, and the rest of the citizens disapproved; for the eclipse was thought to be a great sign from heaven, and to regard a conspicuous man. But his wrath at insults received made him very hot against Alexander, and, besides, his previous conversations with Thebe[^37] led him to hope that he should find the tyrant’s family already embroiled and disrupted.
 
 [31.4] More than anything else, however, the glory of the achievement invited him on, for he was ardently desirous, at a time when the Lacedaemonians were sending generals and governors to aid Dionysius the tyrant of Sicily, and the Athenians were taking Alexander’s pay and erecting a bronze statue of him as their benefactor, to show the Greeks that the Thebans alone were making expeditions for the relief of those whom tyrants oppressed, and were overthrowing in Greece those ruling houses which rested on violence and were contrary to the laws.
 
-### Capítulo 32
+#### Capítulo 32
 
-[32.1] Accordingly, when he was come to Pharsalus, he assembled his forces and marched at once against Alexander. Alexander, also, seeing that there were only a few Thebans with Pelopidas, while his own men-at-arms were more than twice as many as the Thessalians, advanced as far as the temple of Thetis to meet him. When Pelopidas was told that the tyrant was coming up against him with a large force, All the better, he said, for there will be more for us to conquer.
+[32.1] Accordingly, when he was come to Pharsalus, he assembled his forces and marched at once against Alexander. Alexander, also, seeing that there were only a few Thebans with Pelopidas, while his own men-at-arms were more than twice as many as the Thessalians, advanced as far as the temple of Thetis to meet him. When Pelopidas was told that the tyrant was coming up against him with a large force, “All the better,” he said, “for there will be more for us to conquer.”
 
 [32.2] At the place called Cynoscephalae, steep and lofty hills jut out into the midst of the plain, and both leaders set out to occupy these with their infantry. His horsemen, however, who were numerous and brave, Pelopidas sent against the horsemen of the enemy, and they prevailed over them and chased them out into the plain. But Alexander got possession of the hills first,
 
@@ -400,7 +412,7 @@ URN: `null`
 
 [32.7] but most of them fought at longer range, thrusting their spears through his armour and covering him with wounds, until the Thessalians, in distress for his safety, ran down from the hills, when he had already fallen, and the cavalry, charging up, routed the entire phalanx of the enemy, and, following on a great distance in pursuit, filled the country with their dead bodies, slaying more than three thousand of them.
 
-### Capítulo 33
+#### Capítulo 33
 
 [33.1] Now, that the Thebans who were present at the death of Pelopidas should be disconsolate, calling him their father and saviour and teacher of the greatest and fairest blessings, was not so much to be wondered at; but the Thessalians and allies also, after exceeding in their decrees every honour that can fitly be paid to human excellence, showed still more by their grief how grateful they were to him.
 
@@ -408,11 +420,11 @@ URN: `null`
 
 [33.3] and when they had gone to their tents, many neither kindled a fire nor took supper, but silence and dejection reigned through all the camp, as if they had not won a great and most brilliant victory, but had been defeated by the tyrant and made his slaves.
 
-[33.4] From the cities, too, when tidings of these things reached them, came the magistrates, accompanied by youths and boys and priests, to take up the body, and they brought trophies and wreaths and suits of golden armour. And when the body was to be carried forth for burial, the most reverend of the Thessalians came and begged the Thebans for the privilege of giving it burial themselves. And one of them said: Friends and allies, we ask of you a favour which will be an honour to us in our great misfortune, and will give us consolation.
+[33.4] From the cities, too, when tidings of these things reached them, came the magistrates, accompanied by youths and boys and priests, to take up the body, and they brought trophies and wreaths and suits of golden armour. And when the body was to be carried forth for burial, the most reverend of the Thessalians came and begged the Thebans for the privilege of giving it burial themselves. And one of them said: “Friends and allies, we ask of you a favour which will be an honour to us in our great misfortune, and will give us consolation.”
 
-[33.5] We men of Thessaly can never again escort a living Pelopidas on his way, nor pay him worthy honours of which he can be sensible; but if we may be permitted to compose and adorn his body with our own hands and give it burial, you will believe, we are persuaded, that this calamity is a greater one for Thessaly than for Thebes. For you have lost only a good commander; but we both that and freedom. For how shall we have the courage to ask another general from you, when we have not returned Pelopidas? This request the Thebans granted.
+[33.5] “We men of Thessaly can never again escort a living Pelopidas on his way, nor pay him worthy honours of which he can be sensible; but if we may be permitted to compose and adorn his body with our own hands and give it burial, you will believe, we are persuaded, that this calamity is a greater one for Thessaly than for Thebes. For you have lost only a good commander; but we both that and freedom. For how shall we have the courage to ask another general from you, when we have not returned Pelopidas?” This request the Thebans granted.
 
-### Capítulo 34
+#### Capítulo 34
 
 [34.1] Those funeral rites were never surpassed in splendour, in the opinion of those who do not think splendour to consist in ivory, gold, and purple, like Philistus, who tells in wondering strains about the funeral of Dionysius, which formed the pompous conclusion of the great tragedy of his tyranny.
 
@@ -420,11 +432,11 @@ URN: `null`
 
 [34.3] But that a man who was a commoner, dying in a strange country, in the absence of wife, children, and kinsmen, none asking and none compelling it, should be escorted and carried forth and crowned by so many peoples and cities eager to show him honour, rightly seemed to argue him supremely fortunate.
 
-[34.4] For the death of men in the hour of their triumph is not, as Aesop used to say, most grievous, but most blessed, since it puts in safe keeping their enjoyment of their blessings and leaves no room for change of fortune. Therefore the Spartan’s advice was better, who, when he greeted Diagoras, the Olympian victor, who had lived to see his sons crowned at Olympia, yes, and the sons of his sons and daughters, said; Die now, Diagoras; thou canst not ascend to Olympus.
+[34.4] For the death of men in the hour of their triumph is not, as Aesop used to say, most grievous, but most blessed, since it puts in safe keeping their enjoyment of their blessings and leaves no room for change of fortune. Therefore the Spartan’s advice was better, who, when he greeted Diagoras, the Olympian victor, who had lived to see his sons crowned at Olympia, yes, and the sons of his sons and daughters, said; “Die now, Diagoras; thou canst not ascend to Olympus.”
 
 [34.5] But one would not deign, I think, to compare all the Olympian and Pythian victories put together with one of the struggles of Pelopidas; these were many, and he made them successfully, and after living most of his life in fame and honour, at last, while boeotarch for the thirteenth time, performing a deed of high valour which aimed at a tyrant’s life, he died in defence of the freedom of Thessaly.
 
-### Capítulo 35
+#### Capítulo 35
 
 [35.1] The death of Pelopidas brought great grief to his allies, but even greater gain. For the Thebans, when they learned of it, delayed not their vengeance, but speedily made an expedition with seven thousand men-at-arms and seven hundred horsemen, under the command of Malcitas and Diogeiton.
 
@@ -440,6 +452,40 @@ URN: `null`
 
 [35.7] Then one of them clutched the tyrant’s feet and held them down, another dragged his head back by the hair, and the third ran him through with his sword. The swiftness of it made his death a milder one, perhaps, than was his due; but since he was the only, or the first, tyrant to die at the hands of his own wife, and since his body was outraged after death, being cast out and trodden under foot by the Pheraeans, he may be thought to have suffered what his lawless deeds deserved.
 
----
-
-*Ὁ Διαφορεύς παρῆν*
+[^1]: Fragment 56 (Rose); cf. Morals p. 527 a.
+[^2]: Supplices, 863 f. (Kirchhoff, ἥκιστα δ’ ὔλβῳ).
+[^3]: In 418 B.C., when Athens gave assistance to Argos, Elis, and Mantineia against Sparta. See the Alcibiades, xv. 1.
+[^4]: In the winter of 382 B.C. Cf. the Agesilaüs, xxiii. 3-7.
+[^5]: In 403 B.C., when Thrasybulus set out from Thebes on his campaign against the Thirty Tyrants at Athens (Xenophon, Hell. ii. 4, 2).
+[^6]: In 403 B.C., when Thrasybulus set out from Thebes on his campaign against the Thirty Tyrants at Athens (Xenophon, Hell. ii. 4, 2).
+[^7]: There is no mention either of Epaminondas or Pelopidas in Xenophon’s account of these matters (Hell. v. 4, 1-12) and his story differs in many details from that of Plutarch.
+[^8]: In the winter of 379 B.C.
+[^9]: According to Plutarch’s lengthy version of this affair in his Discourse concerning the Daemon of Socrates (chapter 29, Morals, p. 595 f.), Charon hid the truth from no one.
+[^10]: Cf. chapter viii. 1.
+[^11]: The attempt of Sphodrias on the Piraeus is more fully described in the Agesilaüs, xxiv. 3-6.
+[^12]: Cf. the Agesilaüs, xxvi. 2.
+[^13]: As in the Delian story of the birth of Apollo and Artemis.
+[^14]: A mountain at the south-eastern side of Lake Copaïs, on which was a celebrated sanctuary of Apollo.
+[^15]: A dragon and a giant, who were slain by Apollo and Artemis.
+[^16]: A dragon and a giant, who were slain by Apollo and Artemis.
+[^17]: Probably names of small tributaries of the Eurotas near Sparta. Cf. the Lycurgus, vi. 1-3.
+[^18]: Iliad, ii. 363. Cf. Morals, p. 761 b.
+[^19]: Fragment 97 (Rose). Cf. Morals, p. 761 d.
+[^20]: Symposium, p. 179 a.
+[^21]: 338 B.C.
+[^22]: Laius was enamoured of Chrysippus, a young son of Pelops (Apollodorus, iii. 5, 5, 10).
+[^23]: In 371 B.C.
+[^24]: The damsels, in shame, took their own lives. Cf. Pausanias, ix. 13, 3.
+[^25]: At Thermopylae. Cf. Herodotus, vii. 220.
+[^26]: Cf. the Themistocles, xiii. 2 f.
+[^27]: Cf. the Agesilaüs, vi. 4 ff.
+[^28]: There is only a hint of this strategy and no mention either of Epaminondas or Pelopidas, in Xenophon’s account of the battle (Hell. vi. 4, 9-15).
+[^29]: In 370 B.C.
+[^30]: In 369 B.C.
+[^31]: In 368 B.C.
+[^32]: 367 B.C.
+[^33]: That is, Luck.
+[^34]: An iambic trimeter of unknown authorship; cf. the Alcibiades, iv. 3.
+[^35]: Messene was the new capital of Messenia, founded on the slopes of Mt. Ithome (cf. chapter xxiv. 5) by Epaminondas, in 369 B.C.
+[^36]: July 13, 364 B.C.
+[^37]: Cf. chapter xxviii. 3. ff.

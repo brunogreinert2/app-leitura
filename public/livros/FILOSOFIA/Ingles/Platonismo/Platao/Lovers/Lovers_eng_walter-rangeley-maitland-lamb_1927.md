@@ -1,42 +1,35 @@
 ---
 id: platao-lovers-eng-walter-rangeley-maitland-lamb-1927
-type: texto_primario
-title: "Lovers"
-subtitle: null
+type: translation
+title: Lovers
 author: Plato
-year_original: null
-language: eng
-translation:
-  - Walter Rangeley Maitland Lamb
+translator:
+- Walter Rangeley Maitland Lamb
 publisher: Harvard University Press
-area: null
-era: null
-tags: []
-status: rascunho
+language: eng
+tags:
+- classical-philosophy
+- platonism
+status: draft
 project: pedra_angular
-source: "Plato. Lovers. Ed. Walter Rangeley Maitland Lamb. Cambridge, MA: Harvard University Press, 1927. Perseus Digital Library, Tufts University (CC BY-SA 4.0). URN: null"
-related: []
+urn_work: urn:cts:greekLit:tlg0059.tlg016
+urn: urn:cts:greekLit:tlg0059.tlg016.perseus-eng2
+source: 'Plato. Lovers. Ed. Walter Rangeley Maitland Lamb. Cambridge, MA: Harvard University Press, 1927. Perseus Digital Library, Tufts University (CC BY-SA 4.0).'
+source_repo: PerseusDL/canonical-greekLit
+source_file: data/tlg0059/tlg016/tlg0059.tlg016.perseus-eng2.xml
+source_commit: e37eed2e8
+license: CC-BY-SA-4.0
 ---
 
 # Lovers
 
-**Plato**
-
-Cambridge, MA: Harvard University Press, 1927.
-Perseus Digital Library, Tufts University (CC BY-SA 4.0).
-URN: `null`
-
----
-
-## Texto
-
-[132] I entered the grammar school of the teacher Dionysius, and saw there the young men who are accounted the most comely in form and of distinguished family, and their lovers. Now it chanced that two of the young people were disputing, but about what, I did not clearly overhear: it appeared, however, that they were disputing either about Anaxagoras The Ionian philosopher who lived in friendship with Pericles at Athens. or about Oenopides; A philosopher of Chios, distinguished as a geometer and astronomer. at any rate, they appeared to be drawing circles, [132b] and they were imitating certain inclinations i.e., the slopes of the contours of the earth, and of the apparent course of the sun(ecliptic). with their arms, bending to it and taking it most earnestly. Then I—for I was sitting beside the lover of one of the pair—nudged him with my elbow and asked him what on earth the two youngsters were so earnest about, and I said: Is it then something great and fine, in which they are so earnestly immersed?
+[132a] I entered the grammar school of the teacher Dionysius, and saw there the young men who are accounted the most comely in form and of distinguished family, and their lovers. Now it chanced that two of the young people were disputing, but about what, I did not clearly overhear: it appeared, however, that they were disputing either about Anaxagoras [^1] or about Oenopides; [^2] at any rate, they appeared to be drawing circles, [132b] and they were imitating certain inclinations [^3] with their arms, bending to it and taking it most earnestly. Then I—for I was sitting beside the lover of one of the pair—nudged him with my elbow and asked him what on earth the two youngsters were so earnest about, and I said: Is it then something great and fine, in which they are so earnestly immersed?
 
 Great and fine, indeed! he replied: why, these fellows are prating about the heavenly bodies, and babbling philosophy. [132c] Then I, surprised at his answer, said: Young man, do you consider philosophizing to be shameful? Else, why do you speak so sharply?
 
-Then the other youth—for he chanced to be sitting near him, as his rival in love—when he heard my question and his rival’s answer, said: You do yourself no good, Socrates, by pressing this fellow with a further question, as to whether he considers philosophizing to be shameful. Do you not know that he has spent the whole of his life in practising the neckhold, and stuffing himself, and sleeping? So why did you suppose he would make any other reply than that philosophy is shameful? [132d] Now this one of the two lovers had spent his time on humane studies, Literally, on music, which with the Greeks included poetry and general literature as well as music. whereas the other, whom he was abusing, had spent his on athletics. So I decided that I had best relinquish the other, whom I had been questioning, since he did not even himself set up to be experienced in words, but only in deeds; and that I should interrogate the one who set up to be wiser, in order that so far as I was able I might get some benefit from him. I said therefore: I addressed my question to both in common; but if you think you could answer more creditably than he, I put the same question to you as I did to him: do you consider philosophizing to be honorable or not?
+Then the other youth—for he chanced to be sitting near him, as his rival in love—when he heard my question and his rival’s answer, said: You do yourself no good, Socrates, by pressing this fellow with a further question, as to whether he considers philosophizing to be shameful. Do you not know that he has spent the whole of his life in practising the neckhold, and stuffing himself, and sleeping? So why did you suppose he would make any other reply than that philosophy is shameful? [132d] Now this one of the two lovers had spent his time on humane studies, [^4] whereas the other, whom he was abusing, had spent his on athletics. So I decided that I had best relinquish the other, whom I had been questioning, since he did not even himself set up to be experienced in words, but only in deeds; and that I should interrogate the one who set up to be wiser, in order that so far as I was able I might get some benefit from him. I said therefore: I addressed my question to both in common; but if you think you could answer more creditably than he, I put the same question to you as I did to him: do you consider philosophizing to be honorable or not?
 
-[133] Then the two striplings, overhearing us speak somewhat like this, were silent, and ceasing from their own contention they became listeners to ours. What their lovers’ sensations were, I do not know, but I myself, at any rate, was staggered; for every time I am staggered by handsome young people. It seemed to me, however, that my young friend too was in as great a flutter as myself; but nevertheless he answered me in a most ambitious spirit: Why, of course, Socrates, he said, if I should ever consider philosophizing to be shameful, I should not account myself so much as a man, [133b] nor anyone else either who was disposed to think so. Here he pointed to his rival lover, and spoke with a loud voice, in order that his favorite might hear every word.
+[133a] Then the two striplings, overhearing us speak somewhat like this, were silent, and ceasing from their own contention they became listeners to ours. What their lovers’ sensations were, I do not know, but I myself, at any rate, was staggered; for every time I am staggered by handsome young people. It seemed to me, however, that my young friend too was in as great a flutter as myself; but nevertheless he answered me in a most ambitious spirit: Why, of course, Socrates, he said, if I should ever consider philosophizing to be shameful, I should not account myself so much as a man, [133b] nor anyone else either who was disposed to think so. Here he pointed to his rival lover, and spoke with a loud voice, in order that his favorite might hear every word.
 
 Then I remarked: So philosophizing seems to you to be honorable?
 
@@ -50,7 +43,13 @@ Certainly I do, said he.
 
 Then what is it? I asked.
 
-Why, just what Solon called it; you know it was Solon who said:And ever, as I older grow, I learn yet more and more;Solon Fr. 18—and I agree with him that a man who intends to philosophize should in this way be ever learning something or other, whether he be younger or older, in order that he may learn as many things as possible in his life. Now at first I felt there was something in his reply, but then, on second thoughts, I asked him whether he considered philosophy to be much learning. [133d] To which he answered: Certainly.
+Why, just what Solon called it; you know it was Solon who said:
+
+```verso
+And ever, as I older grow, I learn yet more and more;
+```
+
+[^5]—and I agree with him that a man who intends to philosophize should in this way be ever learning something or other, whether he be younger or older, in order that he may learn as many things as possible in his life. Now at first I felt there was something in his reply, but then, on second thoughts, I asked him whether he considered philosophy to be much learning. [133d] To which he answered: Certainly.
 
 And do you consider philosophy to be merely honorable, I asked, or good as well?
 
@@ -58,7 +57,7 @@ Good as well, he said: very much so.
 
 Then do you observe this as peculiar to philosophy, or do you find it similarly in everything else? For example, do you consider the love of athletics to be not merely honorable, but good as well, or do you not?
 
-Whereupon he, most slily, gave a double answer: To him my statement must be neither; but to you, Socrates, I acknowledge it to be both honorable and good: [133e] for I consider this the right view.
+Whereupon he, most slily, gave a double answer: To him my statement must be “neither”; but to you, Socrates, I acknowledge it to be both honorable and good: [133e] for I consider this the right view.
 
 Then I asked him: Well now, in athletics, do you consider that much exercise is love of athletics?
 
@@ -70,7 +69,7 @@ Only that, he replied.
 
 And does much exercise, I asked, cause them to be in good bodily condition?
 
-[134] Yes, for how, he replied, could one be in good bodily condition through little exercise?
+[134a] Yes, for how, he replied, could one be in good bodily condition through little exercise?
 
 Here I felt it was time to stir up the lover of athletics, in order that he might give me the support of his athletic experience; so I proceeded to ask him: And you then, pray, why are you silent, excellent sir, while your friend here is speaking thus? Do you agree that men are in good bodily condition through much exercise, or is it rather through moderate exercise?
 
@@ -102,17 +101,17 @@ In that matter, we agreed, it must be a farmer.
 
 And whom should we be justified in asking as to the moderate degree and kind, in regard to the sowing and planting of studies in the soul?
 
-[135] At this point we all began to be full of perplexity; [135] [135a] then I, mocking at them, asked: Do you mind, since we are in perplexity, if we ask these boys here? or perhaps we are ashamed, as Homer Od. xxi. 285 foll., where the suitors of Penelope are ashamed, after they have failed to string the great bow of Odysseus, to let its owner, disguised as a beggar, try his strength on it, and perhaps succeed. said the suitors were, and do not think it fit there should be someone else who will string the bow?
+At this point we all began to be full of perplexity; [135a] then I, mocking at them, asked: Do you mind, since we are in perplexity, if we ask these boys here? or perhaps we are ashamed, as Homer [^6] said the suitors were, and do not think it fit there should be someone else who will string the bow?
 
 Then, as it seemed to me that they were losing their zeal for the argument, I tried to pursue the inquiry in another way, and said: But what, as nearly as we can guess, are the kinds of learning which the philosopher should learn, since he is not to learn all things or many things? [135b] At this the wiser one interjected: The finest and most suitable kinds of learning are those which will bring him the most reputation for philosophy; and he will get most reputation if he appears well versed in all the arts, or if not in all, in as many of them, and those the most considerable, as he can, by learning so much of them as befits a free man to learn, that is, what belongs to the understanding rather than the handiwork of each.
 
-Well now, do you mean, I asked, in the same way as in carpentry? For there, you know, you can buy a carpenter for five [135c] or six minae, A mina(=100 drachmae)would be about 6-8 pounds in our money today. but a first-rate architect cannot be got for even ten thousand drachmae; few such, indeed, could be found throughout the whole of Greece. Is it something of this sort that you mean? When he heard me say this, he admitted that something like this was what he himself meant.
+Well now, do you mean, I asked, in the same way as in carpentry? For there, you know, you can buy a carpenter for five [135c] or six minae, [^7] but a first-rate architect cannot be got for even ten thousand drachmae; few such, indeed, could be found throughout the whole of Greece. Is it something of this sort that you mean? When he heard me say this, he admitted that something like this was what he himself meant.
 
 I next asked him if it was not impossible for the same person to learn in this way merely two of the arts, not to speak of many or the principal ones; to which he replied: Do not conceive me, Socrates, [135d] to be stating that the philosopher must have accurate knowledge of each of the arts, like the actual adept in any of them; I mean only so far as may be expected of a free and educated man: that is, he should be able to follow the explanations of the craftsman more readily than the rest of the company, and to contribute an opinion of his own which will make him appear the cleverest and most accomplished of the company who may at any time be present at some verbal or practical exposition of the arts.
 
-Then, as I was still unsettled in my mind as to the drift of his words, I asked him: Do I quite grasp the sort of man whom you mean by the philosopher? [135e] For you seem to me to mean someone like the all-round athletes Literally, athletes trained for the contest of the five exercises of leaping, running, disc-flinging, javelin-throwing, and wrestling. in contest with the runners or the wrestlers: the former yield, you know, to the latter in their particular exercises, and are their inferiors in these, but are superior to the usual sort of athletes and beat them.
+Then, as I was still unsettled in my mind as to the drift of his words, I asked him: Do I quite grasp the sort of man whom you mean by the philosopher? [135e] For you seem to me to mean someone like the all-round athletes [^8] in contest with the runners or the wrestlers: the former yield, you know, to the latter in their particular exercises, and are their inferiors in these, but are superior to the usual sort of athletes and beat them.
 
-[136] I daresay it may be something of this sort that you would suggest as the effect produced by philosophy on those who make it their pursuit: they yield to those who are first-rate [136] [136a] in an understanding of the arts, but in taking the second place they surpass the rest; and in this way the man who has studied philosophy comes just next to the top in everything. That is the kind of person whom you appear to me to indicate.
+I daresay it may be something of this sort that you would suggest as the effect produced by philosophy on those who make it their pursuit: they yield to those who are first-rate [136a] in an understanding of the arts, but in taking the second place they surpass the rest; and in this way the man who has studied philosophy comes just next to the top in everything. That is the kind of person whom you appear to me to indicate.
 
 You are quite right, it seems to me, Socrates, he said, in your conception of the philosopher’s position, with your comparison of him to the all-round athlete. For it is precisely his nature not to be enslaved to any business, or to work out anything exactly, so as to let his application to that one matter make him deficient in the rest, [136b] as the craftsmen do, but to have a moderate contact with all of them.
 
@@ -130,9 +129,9 @@ Come now, let us make out, if what you say is true, where these second-best men 
 
 He agreed.
 
-Well now, I went on, if you yourself, or one of your friends for whom you feel great concern, should have fallen sick, would you fetch that second-best man into the house with a view to obtaining health, or would you summon a doctor?[136d] For my part, I should have both, he replied.
+Well now, I went on, if you yourself, or one of your friends for whom you feel great concern, should have fallen sick, would you fetch that second-best man into the house with a view to obtaining health, or would you summon a doctor? [136d] For my part, I should have both, he replied.
 
-Please do not say both, I said, but which of the two you would prefer and also summon first.
+Please do not say “both,” I said, but which of the two you would prefer and also summon first.
 
 No one, he replied,would make any question but that the doctor should be preferred and also summoned first.
 
@@ -150,11 +149,11 @@ Then what follows? Am I to ask you, or will it be too ill-mannered?
 
 Ask whatever you please.
 
-[137] Well, my aim, I said, is merely to recall our agreements upon [137] [137a] what has been stated. The matter stands somewhat like this. We agreed that philosophy is an honorable thing, and that philosophers are good; and that good men are useful, and wicked men useless: but then again we agreed that philosophers, so long as we have craftsmen, are useless, and that we always do have craftsmen. Has not all this been agreed?
+Well, my aim, I said, is merely to recall our agreements upon [137a] what has been stated. The matter stands somewhat like this. We agreed that philosophy is an honorable thing, and that philosophers are good; and that good men are useful, and wicked men useless: but then again we agreed that philosophers, so long as we have craftsmen, are useless, and that we always do have craftsmen. Has not all this been agreed?
 
 Yes, to be sure, he replied.
 
-Then we agreed, it seems, by your account—if philosophizing means having knowledge of the arts in the way you describe—that philosophers are wicked and useless so long as there are arts [137b] among mankind. But I expect they are not so really, my friend, and that philosophizing is not just having a concernment in the arts or spending one’s life in meddlesome stooping and prying and accumulation of learning, but something else; because I imagined that this life was actually a disgrace, and that people who concerned themselves with the arts were called sordid. βάναυσος expresses the peculiar contempt felt by Greek gentlemen for the work of artisans and even artists. Manual labor was the business of slaves and persons who were unfit for military and political life. But we shall know more definitely whether this statement of mine is true, if you will answer me this: What men know how to punish horses rightly? [137c] Is it those who make them into the best horses, or some other men?
+Then we agreed, it seems, by your account—if philosophizing means having knowledge of the arts in the way you describe—that philosophers are wicked and useless so long as there are arts [137b] among mankind. But I expect they are not so really, my friend, and that philosophizing is not just having a concernment in the arts or spending one’s life in meddlesome stooping and prying and accumulation of learning, but something else; because I imagined that this life was actually a disgrace, and that people who concerned themselves with the arts were called sordid. [^9] But we shall know more definitely whether this statement of mine is true, if you will answer me this: What men know how to punish horses rightly? [137c] Is it those who make them into the best horses, or some other men?
 
 Those who make them into the best horses.
 
@@ -212,15 +211,15 @@ And so it would be, if one were a dog?
 
 He agreed.
 
-[138] Well now, when one is a man, and does not know the good and bad men, one surely cannot know whether one is good or wicked oneself, since one is a man also oneself?
+[138a] Well now, when one is a man, and does not know the good and bad men, one surely cannot know whether one is good or wicked oneself, since one is a man also oneself?
 
 He granted this.
 
-And is not knowing oneself being temperate, Cf. Charmides (Introduction and 164) for the connection in thought and language between temperance and self-knowledge. or not being temperate?
+And is “not knowing oneself” being temperate, [^10] or not being temperate?
 
 Not being temperate.
 
-So knowing oneself is being temperate?
+So “knowing oneself” is being temperate?
 
 I agree, he said.
 
@@ -274,7 +273,7 @@ It must indeed be disgraceful, Socrates, to have nothing to contribute to subjec
 
 He granted me that it must be so.
 
-[139] Secondly, I presume, whether his friends entrust him with an arbitration, or the state charges him to determine [139] [139a] or judge any matter, it is disgraceful for him, my good friend, in such cases, to be found in the second or third place, and not to lead?
+Secondly, I presume, whether his friends entrust him with an arbitration, or the state charges him to determine [139a] or judge any matter, it is disgraceful for him, my good friend, in such cases, to be found in the second or third place, and not to lead?
 
 I agree.
 
@@ -282,6 +281,13 @@ Hence we see, my excellent sir, that philosophizing is very far from being much 
 
 On my saying this the cultivated youth was silent, feeling ashamed for what he had said before, while the unlearned one said it was as I stated; and the rest of the company praised the argument.
 
----
-
-*Ὁ Διαφορεύς παρῆν*
+[^1]: The Ionian philosopher who lived in friendship with Pericles at Athens.
+[^2]: A philosopher of Chios, distinguished as a geometer and astronomer.
+[^3]: i.e., the slopes of the contours of the earth, and of the apparent course of the sun(ecliptic).
+[^4]: Literally, on music, which with the Greeks included poetry and general literature as well as music.
+[^5]: Solon Fr. 18
+[^6]: Od. xxi. 285 foll., where the suitors of Penelope are ashamed, after they have failed to string the great bow of Odysseus, to let its owner, disguised as a beggar, try his strength on it, and perhaps succeed.
+[^7]: A mina(=100 drachmae)would be about 6-8 pounds in our money today.
+[^8]: Literally, athletes trained for the contest of the five exercises of leaping, running, disc-flinging, javelin-throwing, and wrestling.
+[^9]: βάναυσος expresses the peculiar contempt felt by Greek gentlemen for the work of artisans and even artists. Manual labor was the business of slaves and persons who were unfit for military and political life.
+[^10]: Cf. Charmides (Introduction and 164) for the connection in thought and language between temperance and self-knowledge.

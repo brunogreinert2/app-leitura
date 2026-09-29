@@ -1,36 +1,28 @@
 ---
 id: plutarco-comparison-of-sertorius-and-eumenes-eng-bernadotte-perrin-1919
-type: texto_primario
-title: "Comparison of Sertorius and Eumenes"
-subtitle: null
+type: translation
+title: Comparison of Sertorius and Eumenes
 author: Plutarch
-year_original: null
-language: eng
-translation:
-  - Bernadotte Perrin
+translator:
+- Bernadotte Perrin
 publisher: Harvard University Press
-area: null
-era: null
-tags: []
-status: rascunho
+language: eng
+tags:
+- moralists
+status: draft
 project: pedra_angular
-source: "Plutarch. Comparison of Sertorius and Eumenes. Ed. Bernadotte Perrin. Cambridge, MA: Harvard University Press, 1919. Perseus Digital Library, Tufts University (CC BY-SA 4.0). URN: null"
-related: []
+urn_work: urn:cts:greekLit:tlg0007.tlg043
+urn: urn:cts:greekLit:tlg0007.tlg043.perseus-eng2
+source: 'Plutarch. Comparison of Sertorius and Eumenes. Ed. Bernadotte Perrin. Cambridge, MA: Harvard University Press, 1919. Perseus Digital Library, Tufts University (CC BY-SA 4.0).'
+source_repo: PerseusDL/canonical-greekLit
+source_file: data/tlg0007/tlg043/tlg0007.tlg043.perseus-eng2.xml
+source_commit: e37eed2e8
+license: CC-BY-SA-4.0
 ---
 
 # Comparison of Sertorius and Eumenes
 
-**Plutarch**
-
-Cambridge, MA: Harvard University Press, 1919.
-Perseus Digital Library, Tufts University (CC BY-SA 4.0).
-URN: `null`
-
----
-
-## Texto
-
-### Capítulo 1
+#### Capítulo 1
 
 [1.1] SUCH are the memorable things in the careers of Eumenes and Sertorius which have come down to us. And now, as we compare the men, we find this common to both, that although they were strangers, aliens, and exiles, they were continually in command of all sorts of peoples and of armies that were large and warlike; but it was peculiar to Sertorius that he held a command which was given him by all his confederates because of his reputation, and to Eumenes that many contended with him for the leadership, and yet he took the highest place in consequence of his achievements. Furthermore, the one was followed by those who wished to be under a just command; while the other was obeyed by those who were incapable of command and sought their own advantage.
 
@@ -38,7 +30,7 @@ URN: `null`
 
 [1.3] For there were many who directly opposed him and secretly plotted against him; whereas Sertorius was openly opposed by no one, and secretly only in the latter part of his career, when a few of his confederates rose up against him. For this reason Sertorius could put an end to his peril by a victory over his enemies; while Eumenes, in consequence of his victories, was in peril at the hands of those who envied him.
 
-### Capítulo 2
+#### Capítulo 2
 
 [2.1] In their capacities as commanders, then, they were very much alike; but in their general dispositions Eumenes was fond of war and fond of strife, while Sertorius was a lover of peace and tranquillity. For the one, though it was in his power to live in safety and with honour if he kept out of the way of the leading Macedonians, was continually fighting them at the risk of his life; whereas the other, though he craved no participation in affairs, had to wage war for his very life against those who would not suffer him to be at peace.
 
@@ -47,7 +39,3 @@ URN: `null`
 [2.3] Now, that man is fond of war who sets greed above safety; but that man is warlike who by war wins safety. And further, the one met his death when he had no anticipation of it, the other when he was expecting the end. In the one case, death resulted from the man’s goodness of heart, since he appeared to trust his friends; in the other, from weakness, since he wished to fly, but was arrested.
 
 [2.4] Moreover, death brought no stain upon the life of Sertorius, since he suffered at the hands of confederates what none of his enemies could inflict upon him; Eumenes, however, who was unable to fly before being taken prisoner, but was willing to live after being taken prisoner, neither took good precautions against death, nor faced it well, but by supplicating and entreating the foe who was known to have power over his body only, he made him lord and master of his spirit also.
-
----
-
-*Ὁ Διαφορεύς παρῆν*

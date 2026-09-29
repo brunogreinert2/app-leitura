@@ -1,34 +1,26 @@
 ---
 id: plutarco-greek-and-roman-parallel-stories-eng-william-w-goodwin-1874
-type: texto_primario
-title: "Parallels, or a comparison between the Greek and Roman Histories."
-subtitle: null
+type: translation
+title: Parallels, or a comparison between the Greek and Roman Histories.
 author: Plutarch
-year_original: null
-language: eng
-translation:
-  - William W. Goodwin
+translator:
+- John Oswald
 publisher: Little, Brown, and Company
-area: null
-era: null
-tags: []
-status: rascunho
+language: eng
+tags:
+- moralists
+status: draft
 project: pedra_angular
-source: "Plutarch. Parallels, or a comparison between the Greek and Roman Histories.. Ed. William W. Goodwin. Boston: Little, Brown, and Company, 1874. Perseus Digital Library, Tufts University (CC BY-SA 4.0). URN: null"
-related: []
+urn_work: urn:cts:greekLit:tlg0007.tlg085
+urn: urn:cts:greekLit:tlg0007.tlg085.perseus-eng4
+source: 'Plutarch. Parallels, or a comparison between the Greek and Roman Histories.. Ed. William W. Goodwin. Boston: Little, Brown, and Company, 1874. Perseus Digital Library, Tufts University (CC BY-SA 4.0).'
+source_repo: PerseusDL/canonical-greekLit
+source_file: data/tlg0007/tlg085/tlg0007.tlg085.perseus-eng4.xml
+source_commit: e37eed2e8
+license: CC-BY-SA-4.0
 ---
 
 # Parallels, or a comparison between the Greek and Roman Histories.
-
-**Plutarch**
-
-Boston: Little, Brown, and Company, 1874.
-Perseus Digital Library, Tufts University (CC BY-SA 4.0).
-URN: `null`
-
----
-
-## Texto
 
 [0] Most people are apt to take the histories of former times for mere forgeries and fables, because of many passages in those relations that seem to be very extravagant. But yet, according to my observation, we have had as strange occurrences of a later date in the Roman times as any we have received from antiquity; for proof whereof, I have here matched several stories of the ancients with modern instances, and cited my authorities.
 
@@ -40,9 +32,9 @@ King Asdrubal, having possessed himself of Sicily, proclaimed war against the Ro
 
 Porsena, a king of Tuscany, encamped himself beyond the Tiber, and made war upon the Romans, cutting off the supplies, till they were brought to great want of provisions. The Senate were at their wits’ end what to do, till Mucius, a nobleman, got leave of the consuls to take four hundred of his own quality to advise with upon the matter. Mucius, upon this, put himself into the habit of a private man, and crossed the river; where finding one of the king’s officers giving orders for the distribution of necessaries to the soldiers, and taking him for the king himself, he slew him. He was taken immediately and carried to the king, where he put his right hand into a fire that was in the room, and with a smile in the middle of his torments,—Barbarian, says he, I can set myself at liberty without asking you leave; and be it known to you, that I have left four hundred men in the camp as daring as myself, that have sworn your death. This struck Porsena with such a terror, that he made peace with the Romans upon it.—Aristides Milesius is my author for this, in the Third Book of his History.
 
-[3] There happened a dispute betwixt the Argives and Lacedaemonians about a claim to the possession of Thyreatis. The Amphictyons gave their opinion for a trial of it by battle, so many and so many of a side, and the possession to go to the victor. The Lacedaemonians made choice of Othryades for their captain, and the Argives of Thersander. The battle was fought, and the only two survivors that appeared were Agenor and Chromius, both Argives, who carried their city the news of the victory. In this interim, Othryades, who was not as yet quite dead, made a shift to raise himself by the help of broken lances, gathered the shields of the dead together, and erected a trophy with this inscription upon it in his own blood. To Jupiter the Guardian of Trophies. The controversy still depended, till the Amphictyons, upon an ocular examination of the matter, gave it for the Lacedaemonians.—This is according to Chrysermus, in his Third Book of the Peloponnesian History.
+[3] There happened a dispute betwixt the Argives and Lacedaemonians about a claim to the possession of Thyreatis. The Amphictyons gave their opinion for a trial of it by battle, so many and so many of a side, and the possession to go to the victor. The Lacedaemonians made choice of Othryades for their captain, and the Argives of Thersander. The battle was fought, and the only two survivors that appeared were Agenor and Chromius, both Argives, who carried their city the news of the victory. In this interim, Othryades, who was not as yet quite dead, made a shift to raise himself by the help of broken lances, gathered the shields of the dead together, and erected a trophy with this inscription upon it in his own blood. “To Jupiter the Guardian of Trophies.” The controversy still depended, till the Amphictyons, upon an ocular examination of the matter, gave it for the Lacedaemonians.—This is according to Chrysermus, in his Third Book of the Peloponnesian History.
 
-In a war that the Romans had with the Samnites, they made Posthumius Albinus their general. He was surprised in the difficult pass called the Caudine Forks, where he was hemmed in and lost three legions, he himself likewise falling upon the place grievously wounded. In the dead of the night, finding himself near his end, he gathered together the targets of his dead enemies, and raised a trophy with them, which he inscribed with his hand dipped in blood, Erected by the Romans to Jupiter, Guardian of the Trophies, for a victory over the Samnites. But Fabius Gurges, that was despatched away with troops under his command, so soon as he came to the place and saw the trophy, took up an auspicious omen upon it, fought the enemy, and overcame them, took their king prisoner, and sent him to Rome.—This is in the Third Book of Aristides Milesius’s Italian History.
+In a war that the Romans had with the Samnites, they made Posthumius Albinus their general. He was surprised in the difficult pass called the Caudine Forks, where he was hemmed in and lost three legions, he himself likewise falling upon the place grievously wounded. In the dead of the night, finding himself near his end, he gathered together the targets of his dead enemies, and raised a trophy with them, which he inscribed with his hand dipped in blood, “Erected by the Romans to Jupiter, Guardian of the Trophies, for a victory over the Samnites.” But Fabius Gurges, that was despatched away with troops under his command, so soon as he came to the place and saw the trophy, took up an auspicious omen upon it, fought the enemy, and overcame them, took their king prisoner, and sent him to Rome.—This is in the Third Book of Aristides Milesius’s Italian History.
 
 [4] Upon the Persians falling into Greece with a body of five millions of men, the Spartans sent out Leonidas with a party of three hundred soldiers to secure the Pass of Thermopylae. As they were at dinner, the barbarians fell in upon them; upon which, Leonidas bade them eat as if they were to sup in another world. Leonidas charged at the head of his men into the body of the barbarians; and after many wounds received, got up to Xerxes himself, and took his crown from his head. He lost his life in the attempt, and Xerxes causing him to be cut up when he was dead, found his heart all hairy.—Aristides, in the First Book of his Persian History.
 
@@ -130,17 +122,17 @@ When Hannibal was ravaging the country of Campania, Lucius Thymbris deposited hi
 
 [25] Aeacus had two sons by Psamathe, Phocus and Telamon, the former better beloved than the other. Telamon one day took out his brother a hunting; and a boar presenting himself, he threw his lance in pretence at the boar, but in truth at his brother, whom he hated, and so killed him; for which his father banished him.—Dorotheus’s First Book of Transformations.
 
-Caius Maximus had two sons, Rhesus the one, by Ameria, . . . and the other Similius. The brothers were a hunting together, and Rhesus having killed the other, put it off—when he came home—that it was by chance, and far from any design of doing it. But his father, when he came in time to know the truth of it, banished the son.— Aristocles, in the Third Book of his Italian History.
+Caius Maximus had two sons, Rhesus the one, by Ameria,... and the other Similius. The brothers were a hunting together, and Rhesus having killed the other, put it off—when he came home—that it was by chance, and far from any design of doing it. But his father, when he came in time to know the truth of it, banished the son.— Aristocles, in the Third Book of his Italian History.
 
 [26] Mars is said to have begotten Meleager upon Althaea.—Euripides, in his Meleager.
 
-Septimius Marcellus took to wife one Sylvia, and a great lover of hunting he was. Mars put himself in the habit of a shepherd, whored the new wife and got her with child; which being done, he told her who he was, and gave her a spear, telling her that the fate of the child she went withal was wrapped up in the fate of that spear. . . .
+Septimius Marcellus took to wife one Sylvia, and a great lover of hunting he was. Mars put himself in the habit of a shepherd, whored the new wife and got her with child; which being done, he told her who he was, and gave her a spear, telling her that the fate of the child she went withal was wrapped up in the fate of that spear....
 
 Septimius slew Tuscinus; but Mamercus, in his sacrificing to the Gods for a fruitful season, omitted only Ceres, who in revenge sent a wild boar into his grounds. Whereupon getting a knot of huntsmen together, he killed him, and delivered the head and skin to his sweetheart; but Scymbrates and Muthias, the maid’s uncles, took them away from her. Mamercus in a rage killed them upon it, and the mother burned the spear.—Menyllus, in the Third Book of his Italian History.
 
 [27] When Telamon, the son of Aeacus and Endeis, came to Euboea, he debauched Periboea the daughter of Alcathous, and fled away by night. The father understanding this, and suspecting the villany to be done by some of the citizens, he delivered his daughter to one of the guards to be thrown into the sea. But the soldier, in compassion to the woman, rather sold her, and she was carried away by sea to the island of Salamis, where Telamon bought her, and had by her Ajax.—Aretades Cnidius, in his Second Book of Islands.
 
-Lucius Troscius had by Patris a daughter called Florentia, who, being corrupted by Calpurnius a Roman, was delivered by her father to a soldier, with a charge to throw her in the sea and drown her. The man had compassion of her, and rather sold her. And when good fortune brought the ship to Italy, Calpurnius bought her, and had Contruscus by her. . . .
+Lucius Troscius had by Patris a daughter called Florentia, who, being corrupted by Calpurnius a Roman, was delivered by her father to a soldier, with a charge to throw her in the sea and drown her. The man had compassion of her, and rather sold her. And when good fortune brought the ship to Italy, Calpurnius bought her, and had Contruscus by her....
 
 [28] Aeolus, a great king of Etruria, had by Amphithea six daughters, and as many sons. Macareus, the youngest of them, had the carnal knowledge of one of his sisters, who was delivered of a boy. Her father sent her a sword to kill the child with; but that was so impious, that she chose rather to kill herself. And Macareus laid violent hands upon himself too.—Sostratus, in his Second Book of Tuscan History.
 
@@ -176,7 +168,7 @@ There was a dreadful plague in Falerii, which the oracle said would be removed u
 
 [36] Philonome, the daughter of Nyctimus and Arcadia, went many times to the chase with Diana. Mars lay with her in the shape of a shepherd, and fetched up her belly. She was delivered in time of twins, which for fear of her father she threw into the river Erymanthus. By a strange fatality of providence they were driven safe into a hollow oak, which happening to be the kennel of a wolf, this wolf threw her whelps into the river, and suckled the children. Tyliphus a shepherd, that had seen this with his own eyes, took these children and brought them up as his own, calling one of them Lycastus, and the other Parrasius, which reigned successively in Arcadia.—This is reported by Zopyrus Byzantius, in the Third Book of his Histories.
 
-Amulius dealing very tyrannically with his brother Numitor, killed his son Aenitus as they were a hunting, and made his daughter Sylvia . . . a priestess of Juno. Mars got her with child, and when she had laid her belly of twins, she confessed the truth to the tyrant; which put him in such an apprehension, that he exposed them both on the side of the river Tiber, where they were carried by the stream to a place where a she-wolf had her whelps. The wolf cast away her own, and gave suck to these children. Faustus a shepherd, observing this, took the children to himself, and called them by the names of Romus and Romulus, which came afterwards to be the founders of Rome.—Aristides’s Italian Histories.
+Amulius dealing very tyrannically with his brother Numitor, killed his son Aenitus as they were a hunting, and made his daughter Sylvia... a priestess of Juno. Mars got her with child, and when she had laid her belly of twins, she confessed the truth to the tyrant; which put him in such an apprehension, that he exposed them both on the side of the river Tiber, where they were carried by the stream to a place where a she-wolf had her whelps. The wolf cast away her own, and gave suck to these children. Faustus a shepherd, observing this, took the children to himself, and called them by the names of Romus and Romulus, which came afterwards to be the founders of Rome.—Aristides’s Italian Histories.
 
 [37] After the destruction of Troy, Agamemnon and Cassandra were killed; but Orestes, that was brought up with Strophius, revenged the death of his father.—Pyrander’s Fourth Book of Peloponnesian Histories.
 
@@ -197,7 +189,3 @@ Anius, a king of the Tuscans, had a delicate, handsome daughter, whose name was 
 [41] Hegesistratus an Ephesian committed a murder in his family, and fled to Delphi; on consulting the oracle what place to settle in, the answer was, that when he should come to a place where he should see the country people dancing with garlands of olive-leaves, he should settle there. He travelled into a certain country of Asia, where he found as the oracle told him, and there built a city which he called Elaeus.—Pythocles the Samian, in the Third Book of his Georgics.
 
 Telegonus, the son of Ulysses by Circe, was sent to find out his father, and commanded by an oracle to erect a city where he should see the country people dancing with garlands. He came into a certain place of Italy, where he found the countrymen dancing with wreaths of ilex about their heads; so that there he built a city, and called it Prinistum, for an ilex in Greek is πρῖνος. The Romans corruptly call this city Praeneste.—Aristocles, in the Third Book of his Italian History.
-
----
-
-*Ὁ Διαφορεύς παρῆν*

@@ -1,36 +1,28 @@
 ---
 id: plutarco-comparison-of-alcibiades-and-coriolanus-eng-bernadotte-perrin-1916
-type: texto_primario
-title: "Comparison of Alcibiades and Coriolanus"
-subtitle: null
+type: translation
+title: Comparison of Alcibiades and Coriolanus
 author: Plutarch
-year_original: null
-language: eng
-translation:
-  - Bernadotte Perrin
+translator:
+- Bernadotte Perrin
 publisher: Harvard University Press
-area: null
-era: null
-tags: []
-status: rascunho
+language: eng
+tags:
+- moralists
+status: draft
 project: pedra_angular
-source: "Plutarch. Comparison of Alcibiades and Coriolanus. Ed. Bernadotte Perrin. Cambridge, MA: Harvard University Press, 1916. Perseus Digital Library, Tufts University (CC BY-SA 4.0). URN: null"
-related: []
+urn_work: urn:cts:greekLit:tlg0007.tlg017
+urn: urn:cts:greekLit:tlg0007.tlg017.perseus-eng2
+source: 'Plutarch. Comparison of Alcibiades and Coriolanus. Ed. Bernadotte Perrin. Cambridge, MA: Harvard University Press, 1916. Perseus Digital Library, Tufts University (CC BY-SA 4.0).'
+source_repo: PerseusDL/canonical-greekLit
+source_file: data/tlg0007/tlg017/tlg0007.tlg017.perseus-eng2.xml
+source_commit: e37eed2e8
+license: CC-BY-SA-4.0
 ---
 
 # Comparison of Alcibiades and Coriolanus
 
-**Plutarch**
-
-Cambridge, MA: Harvard University Press, 1916.
-Perseus Digital Library, Tufts University (CC BY-SA 4.0).
-URN: `null`
-
----
-
-## Texto
-
-### Capítulo 1
+#### Capítulo 1
 
 [1.1] Now that all the deeds of these men are set forth, so far as we consider them worthy of recollection and record, it is plain that their military careers do not incline the balance either way very decidedly. For both alike gave many signal proofs of daring and valour as soldiers, as well as of skill and foresight as commanders;
 
@@ -40,13 +32,13 @@ URN: `null`
 
 [1.4] Neither course, then, is to be approved; although the man who seeks to win the people by his favours is less blameworthy than those who heap insults on the multitude, in order to avoid the appearance of trying to win them. For it is a disgrace to flatter the people for the sake of power; but to get power by acts of terror, violence, and oppression, is not only a disgrace, it is also an injustice.
 
-### Capítulo 2
+#### Capítulo 2
 
-[2.1] Now, that Marcius is usually thought to have been rather simple in his nature, and straightforward, while Alcibiades was unscrupulous in his public acts, and false, is very clear. And Alcibiades is particularly denounced for the malicious deceit by which he cheated the Lacedaemonian ambassadors, as Thucydides relates, V. 45; cf. Plutarch’s Nicias, x.; Alcibiades, xiv. and put an end to the peace.
+[2.1] Now, that Marcius is usually thought to have been rather simple in his nature, and straightforward, while Alcibiades was unscrupulous in his public acts, and false, is very clear. And Alcibiades is particularly denounced for the malicious deceit by which he cheated the Lacedaemonian ambassadors, as Thucydides relates,[^1] and put an end to the peace.
 
-[2.2] But this policy of his, although it did plunge the city again into war, made it nevertheless strong and formidable, by reason of the alliance with Mantinea and Argos which Alcibiades secured for it. And yet Marcius himself also used deceit to stir up war between the Romans and Volscians, when he brought a false charge against the visitors to the games, as Dionysius relates;See Coriolanus, xxvi. 2; Dionysius Hal., Antiq. Rom. viii. 2. and the motive for his action makes it the worse of the two.
+[2.2] But this policy of his, although it did plunge the city again into war, made it nevertheless strong and formidable, by reason of the alliance with Mantinea and Argos which Alcibiades secured for it. And yet Marcius himself also used deceit to stir up war between the Romans and Volscians, when he brought a false charge against the visitors to the games, as Dionysius relates;[^2] and the motive for his action makes it the worse of the two.
 
-[2.3] For he was not influenced by ambition, or by rivalry in a political struggle, as Alcibiades was, but simply gave way to his anger, from which passion, as Dion says, no one ever gets a grateful return, and threw many districts of Italy into confusion, and needlessly sacrificed many innocent cities to his rage against his country. It is true, indeed, that Alcibiades also, through his anger, was the cause of great calamities to his countrymen.
+[2.3] For he was not influenced by ambition, or by rivalry in a political struggle, as Alcibiades was, but simply gave way to his anger, from which passion, as Dion says, “no one ever gets a grateful return,” and threw many districts of Italy into confusion, and needlessly sacrificed many innocent cities to his rage against his country. It is true, indeed, that Alcibiades also, through his anger, was the cause of great calamities to his countrymen.
 
 [2.4] But just as soon as he saw that they were repentant, he showed them his goodwill, and after he had been driven away a second time, he did not exult over the mistakes of their generals, nor look with indifference upon their bad and perilous plans, but did precisely what Aristides is so highly praised for doing to Themistocles: he came to the men who were then in command, although they were not his friends, and told them plainly what they ought to do.
 
@@ -56,15 +48,15 @@ URN: `null`
 
 [2.7] and had the greatest credit and influence among them, unlike Alcibiades, whom the Lacedaemonians misused rather than used, who wandered about aimlessly in their city, and again was tossed to and fro in their camp, and at last threw himself into the hands of Tissaphernes; unless, indeed, he was all the while paying him court in order that the Athens to which he longed to return might not be utterly destroyed.
 
-### Capítulo 3
+#### Capítulo 3
 
 [3.1] Furthermore, in the matter of money, we are told that Alcibiades often got it ill by taking bribes, and spent it ill in luxury and dissipation; whereas Marcius could not be persuaded to take it even when it was offered to him as an honour by his commanders. And for this reason he was especially odious to the multitude in the disputes with the people concerning debts, because they saw that it was not for gain, but out of insolence and scorn, that he acted despitefully towards the poor.
 
-[3.2] Antipater, writing in one of his letters about the death of Aristotle the philosopher,See Comparison of Aristides and Cato, ii. 4. says: In addition to all his other gifts, the man had also that of persuasion; and the absence of this gift in Marcius made his great deeds and virtues obnoxious to the very men whom they benefited, since they could not endure the arrogant pride of the man, and that self-will which is, as Plato says,See Coriolanus, xv. 4. the companion of solitude. Alcibiades, on the contrary, understood how to treat in a friendly manner those who met him, arid we cannot wonder that when he was successful his fame was attended with goodwill and honour, and flowered luxuriantly, since some of his errors even had often charm and felicity.
+[3.2] Antipater, writing in one of his letters about the death of Aristotle the philosopher,[^3] says: “In addition to all his other gifts, the man had also that of persuasion”; and the absence of this gift in Marcius made his great deeds and virtues obnoxious to the very men whom they benefited, since they could not endure the arrogant pride of the man, and that self-will which is, as Plato says,[^4] “the companion of solitude.” Alcibiades, on the contrary, understood how to treat in a friendly manner those who met him, arid we cannot wonder that when he was successful his fame was attended with goodwill and honour, and flowered luxuriantly, since some of his errors even had often charm and felicity.
 
 [3.3] This was the reason why, in spite of the great and frequent harm done by him to the city, he was nevertheless many times appointed leader and general; while Marcius, when he stood for an office which was his due in view of his valorous achievements, was defeated. And so it was that the one could not make himself hated by his countrymen, even when he was doing them harm; while the other was after all not beloved, even while he was admired.
 
-### Capítulo 4
+#### Capítulo 4
 
 [4.1] For Marcius did not, as a commander, obtain any great successes for his city, but only for his enemies against his country; whereas Alcibiades was often of service to the Athenians, both as a private soldier and as a commander. When he was at home, he mastered his adversaries to his heart’s content; it was when he was absent that their calumnies prevailed.
 
@@ -78,12 +70,13 @@ URN: `null`
 
 [4.6] but owing to their genuine contempt for what a people has the power to give and take away, though they were repeatedly ostracised, defeated at elections, and condemned in courts of justice, they cherished no anger against their countrymen for their ingratitude, but showed them kindness again when they repented, and were reconciled with them when they asked it. Surely he who least courts the people’s favour, ought least to resent their neglect, since vexation over failure to receive their honours is most apt to spring from an excessive longing after them.
 
-### Capítulo 5
+#### Capítulo 5
 
 [5.1] Well, then, Alcibiades would not deny that he rejoiced to be honoured, and was displeased to be overlooked, and he therefore tried to be agreeable and pleasant to his associates; but the overweening pride of Marcius would not suffer him to pay court to those who had the power to honour and advance him, while his ambition made him feel angry and hurt when he was neglected.
 
 [5.2] These are the blame-worthy traits in the man, but all the rest are brilliant. And for his temperance and superiority to wealth he deserves to be compared with the best and purest of the Greeks, not with Alcibiades, who, in these regards, was the most unscrupulous of men, and the most careless of the claims of honour.
 
----
-
-*Ὁ Διαφορεύς παρῆν*
+[^1]: V. 45; cf. Plutarch’s Nicias, x.; Alcibiades, xiv.
+[^2]: See Coriolanus, xxvi. 2; Dionysius Hal., Antiq. Rom. viii. 2.
+[^3]: See Comparison of Aristides and Cato, ii. 4.
+[^4]: See Coriolanus, xv. 4.

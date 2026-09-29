@@ -1,36 +1,29 @@
 ---
 id: platao-hipparchus-eng-walter-rangeley-maitland-lamb-1927
-type: texto_primario
-title: "Hipparchus"
-subtitle: null
+type: translation
+title: Hipparchus
 author: Plato
-year_original: null
-language: eng
-translation:
-  - Walter Rangeley Maitland Lamb
+translator:
+- Walter Rangeley Maitland Lamb
 publisher: Harvard University Press
-area: null
-era: null
-tags: []
-status: rascunho
+language: eng
+tags:
+- classical-philosophy
+- platonism
+status: draft
 project: pedra_angular
-source: "Plato. Hipparchus. Ed. Walter Rangeley Maitland Lamb. Cambridge, MA: Harvard University Press, 1927. Perseus Digital Library, Tufts University (CC BY-SA 4.0). URN: null"
-related: []
+urn_work: urn:cts:greekLit:tlg0059.tlg015
+urn: urn:cts:greekLit:tlg0059.tlg015.perseus-eng2
+source: 'Plato. Hipparchus. Ed. Walter Rangeley Maitland Lamb. Cambridge, MA: Harvard University Press, 1927. Perseus Digital Library, Tufts University (CC BY-SA 4.0).'
+source_repo: PerseusDL/canonical-greekLit
+source_file: data/tlg0059/tlg015/tlg0059.tlg015.perseus-eng2.xml
+source_commit: e37eed2e8
+license: CC-BY-SA-4.0
 ---
 
 # Hipparchus
 
-**Plato**
-
-Cambridge, MA: Harvard University Press, 1927.
-Perseus Digital Library, Tufts University (CC BY-SA 4.0).
-URN: `null`
-
----
-
-## Texto
-
-[225] Soc. And what is love of gain? What can it be, and who are the lovers of gain?
+[225a] Soc. And what is love of gain? What can it be, and who are the lovers of gain?
 
 Fr. In my opinion, they are those who think it worth while to make gain out of things of no worth.
 
@@ -46,15 +39,15 @@ Soc. Please do not speak so recklessly, as though you had been wronged by someon
 
 Fr. I do.
 
-Soc. Then who has knowledge of the worth of plants, and of the sort of season and soil in which they are worth planting—if we too may throw in one of those artful phrases The “artful phrase” here is the jingling ὥρᾳ καὶ χώρᾳ, characteristic of the rhetoric taught by Gorgias and his followers. which adroit pleaders use to trick out their speeches in the law courts?
+Soc. Then who has knowledge of the worth of plants, and of the sort of season and soil in which they are worth planting—if we too may throw in one of those artful phrases [^1] which adroit pleaders use to trick out their speeches in the law courts?
 
-Fr. For my part, I should say a farmer.
+[225d] Fr. For my part, I should say a farmer.
 
 Soc. And by “think it worth while to make gain” do you mean aught but “thinking one ought to make gain”?
 
 Fr. I mean that.
 
-[226] Soc. Then do not attempt to deceive me, who am now quite an elderly person, [226] [226a] and you so young, by making, as you did just now, an answer that is not even your own thought; but tell me in all truth, do you suppose that any man who was taking up farming and who knew it was a worthless plant that he was planting, could think to make gain from it?
+Soc. Then do not attempt to deceive me, who am now quite an elderly person, [226a] and you so young, by making, as you did just now, an answer that is not even your own thought; but tell me in all truth, do you suppose that any man who was taking up farming and who knew it was a worthless plant that he was planting, could think to make gain from it?
 
 Fr. Upon my word, I do not.
 
@@ -62,7 +55,7 @@ Soc. Or again, take a horseman who knows that he is providing worthless food for
 
 Fr. I do not.
 
-Soc. So he does not think to make gain from that worthless food.
+[226b] Soc. So he does not think to make gain from that worthless food.
 
 Fr. No.
 
@@ -80,7 +73,7 @@ Fr. By no means.
 
 Soc. Or does a flute-player who has worthless flutes, or a harper with a lyre, a bowman with a bow, or anyone else at all, in short, among ordinary craftsmen or sensible men in general, with any implement or other equipment of any sort that is worthless, think to make gain from it?
 
-Fr. To all appearance, no.
+[226d] Fr. To all appearance, no.
 
 Soc. Then whoever can they be, your lovers of gain? For I presume they are not the people whom we have successively mentioned, but people who know their worthless things, and yet think they are to make gain from them. But in that case, by what you say, remarkable sir, no man alive is a lover of gain
 
@@ -100,7 +93,7 @@ Fr. Yes.
 
 Soc. And by gain you mean the opposite of loss?
 
-[227] Fr. I do.
+[227a] Fr. I do.
 
 Soc. And is it a good thing for anyone to suffer loss?
 
@@ -130,7 +123,7 @@ Soc. Hence it is those who love the good that you call lovers of gain.
 
 Fr. So it seems.
 
-Soc. At least there is nothing mad, my friend, about lovers of gain, as you describe them. But tell me, do you yourself love, or not love, whatever is good?
+[227b] Soc. At least there is nothing mad, my friend, about lovers of gain, as you describe them. But tell me, do you yourself love, or not love, whatever is good?
 
 Fr. I love it.
 
@@ -164,7 +157,7 @@ Fr. Yes.
 
 Soc. Then good men likewise wish to have all gains, if these are good things.
 
-Fr. Not those gains from which they are bound, Socrates, to suffer harm.
+[227e] Fr. Not those gains from which they are bound, Socrates, to suffer harm.
 
 Soc. By “suffer harm” do you mean “suffer loss,” or something else?
 
@@ -178,7 +171,7 @@ Soc. Pray now, do you consider that any useful and good thing is wicked?
 
 Fr. I do not.
 
-[228] Soc. And we admitted a little while ago that gain is the opposite of loss, which is an evil.
+[228a] Soc. And we admitted a little while ago that gain is the opposite of loss, which is an evil.
 
 Fr. I agree.
 
@@ -190,13 +183,25 @@ Soc. So you see, you are attempting to deceive me, for you deliberately contradi
 
 Fr. No, on my honor, Socrates; on the contrary, it is you who are deceiving me, by twisting this way and that so perplexingly in your talk.
 
-Soc. Hush, hush! Why, surely it would be wrong of me not to obey a good and wise person.
+[228b] Soc. Hush, hush! Why, surely it would be wrong of me not to obey a good and wise person.
 
 Fr. Who is that? And to what are you referring now?
 
-Soc. I mean my and your fellow-citizen, Pisistratus’s son Hipparchus, of Philaidae, who was the eldest and wisest of Pisistratus’s sons, and who, among the many goodly proofs of wisdom that he showed, first brought the poems of Homer into this country of ours, and compelled the rhapsodes at the Panathenaea to recite them in relay, one man following on another, as [228c] they still do now. He dispatched a fifty-oared galley for Anacreon of Teos, and brought him into our city. Simonides of Ceos he always had about him, prevailing on him by plenteous fees and gifts. All this he did from a wish to educate the citizens, in order that he might have subjects of the highest excellence; for he thought it not right to grudge wisdom to any, so noble and good was he. And when his people in the city had been educated and were admiring him for his wisdom, [228d] he proceeded next, with the design of educating those of the countryside, to set up figures of Hermes for them along the roads in the midst of the city and every district town; and then, after selecting from his own wise lore, both learnt from others and discovered for himself, the things that he considered the wisest, he threw these into elegiac form and inscribed them on the figures as verses of his own and testimonies of his wisdom, so that in the first place [228e] his people should not admire those wise Delphic legends of “Know thyself” and “Nothing overmuch”, and the other sayings of the sort, but should rather regard as wise the utterances of Hipparchus; and that in the second place, through passing up and down and reading his words and acquiring a taste for his wisdom, they might resort hither from the country for the completion of their education.
+Soc. I mean my and your fellow-citizen, Pisistratus’s son Hipparchus, of Philaidae, who was the eldest and wisest of Pisistratus’s sons, and who, among the many goodly proofs of wisdom that he showed, first brought the poems of Homer into this country of ours, and compelled the rhapsodes at the Panathenaea to recite them in relay, one man following on another, as [228c] they still do now. He dispatched a fifty-oared galley for Anacreon of Teos, and brought him into our city. Simonides of Ceos he always had about him, prevailing on him by plenteous fees and gifts. All this he did from a wish to educate the citizens, in order that he might have subjects of the highest excellence; for he thought it not right to grudge wisdom to any, so noble and good was he. And when his people in the city had been educated and were admiring him for his wisdom, [228d] he proceeded next, with the design of educating those of the countryside, to set up figures of Hermes for them along the roads in the midst of the city and every district town; and then, after selecting from his own wise lore, both learnt from others and discovered for himself, the things that he considered the wisest, he threw these into elegiac form and inscribed them on the figures as verses of his own and testimonies of his wisdom, so that in the first place [228e] his people should not admire those wise Delphic legends of ““Know thyself”” and ““Nothing overmuch””, and the other sayings of the sort, but should rather regard as wise the utterances of Hipparchus; and that in the second place, through passing up and down and reading his words and acquiring a taste for his wisdom, they might resort hither from the country for the completion of their education.
 
-[229] Soc. There are two such inscriptions of his: on the left side [229] [229a] of each Hermes there is one in which the god says that he stands in the midst of the city or the township, while on the right side he says: The memorial of Hipparchus: walk with just intent. There are many other fine inscriptions from his poems on other figures of Hermes, and this one in particular, on the Steiria A town on the south-east coast of Attica. road, in which he says: [229b] The memorial of Hipparchus: deceive not a friend. I therefore should never dare, I am sure, to deceive you, who are my friend, or disobey the great Hipparchus, after whose death the Athenians were for three years under the despotic rule of his brother Hippias, and you might have heard anyone of the earlier period say that it was only in these years that there was despotism in Athens, On this point the writer agrees with Thuc. 6.59, who gives what is now the accepted story of Harmodius and Aristogeiton. and that at all other times the Athenians lived very much as in the reign of Cronos. And the subtler sort of people say [229c] that Hipparchus’s death was due, not to the cause supposed by most—the disqualification of the assassin’s sister from bearing the basket, In the Panathenaic procession. for that is a silly motive—but because Harmodius had become the favorite of Aristogeiton and had been educated by him. Thus Aristogeiton also prided himself on educating people, and he regarded Hipparchus as a dangerous rival. And at that time, it is said, Harmodius [229d] happened to be himself in love with one of the handsome and well-born youths of the day; they do tell his name, but I cannot remember it. Well, for a while this youth admired both Harmodius and Aristogeiton as wise men, but afterwards, when he associated with Hipparchus, he despised them, and they were so overcome with the pain of this “disqualification” that they slew Hipparchus. This curious version of the fall of the Pisistratid rulers (Hippias and Hipparchus) seeks to explain the conspiracy as due to a rivalry in a sort of pre-Socratic influence over young men which arose between the citizen Aristogiton and the ruler Hipparchus.
+Soc. There are two such inscriptions of his: on the left side [229a] of each Hermes there is one in which the god says that he stands in the midst of the city or the township, while on the right side he says:
+
+```verso
+The memorial of Hipparchus: walk with just intent.
+```
+
+There are many other fine inscriptions from his poems on other figures of Hermes, and this one in particular, on the Steiria [^2] road, in which he says: [229b]
+
+```verso
+The memorial of Hipparchus: deceive not a friend.
+```
+
+I therefore should never dare, I am sure, to deceive you, who are my friend, or disobey the great Hipparchus, after whose death the Athenians were for three years under the despotic rule of his brother Hippias, and you might have heard anyone of the earlier period say that it was only in these years that there was despotism in Athens, [^3] and that at all other times the Athenians lived very much as in the reign of Cronos. And the subtler sort of people say [229c] that Hipparchus’s death was due, not to the cause supposed by most—the disqualification of the assassin’s sister from bearing the basket, [^4] for that is a silly motive—but because Harmodius had become the favorite of Aristogeiton and had been educated by him. Thus Aristogeiton also prided himself on educating people, and he regarded Hipparchus as a dangerous rival. And at that time, it is said, Harmodius [229d] happened to be himself in love with one of the handsome and well-born youths of the day; they do tell his name, but I cannot remember it. Well, for a while this youth admired both Harmodius and Aristogeiton as wise men, but afterwards, when he associated with Hipparchus, he despised them, and they were so overcome with the pain of this “disqualification” that they slew Hipparchus. [^5]
 
 Fr. It would seem, then, Socrates, either that you do not regard me as your friend, or if you do, that you do not obey Hipparchus. [229e] For that you are not deceiving me—though I cannot tell how you contrive it—in your talk, is more than I can believe.
 
@@ -210,7 +215,7 @@ Fr. No, thank you.
 
 Soc. Well, that gain, or making gain, is the opposite of loss, or suffering loss?
 
-[230] Fr. Nor that either.
+[230a] Fr. Nor that either.
 
 Soc. Well, that making gain, as the opposite of evil, is a good?
 
@@ -226,7 +231,7 @@ Fr. What do you mean by this question?
 
 Soc. I will explain. Is there both good and evil food?
 
-Fr. Yes.
+[230b] Fr. Yes.
 
 Soc. And is the one sort more food than the other, or are they both similarly this same thing, food, and in this respect does the one differ no wise from the other, in being food, but only in the fact of the one being good and the other evil?
 
@@ -260,9 +265,9 @@ Soc. Since, therefore, both of these are gains and gain-making affairs, we must 
 
 Fr. I would.
 
-[231] Soc. And so too about drink the answer would be on the same lines, that the wet sustenance of the body, [231] [231a] whether it be wholesome or pernicious, has this name of drink; and likewise with the rest. Try therefore on your part to imitate my method of answering. When you say that virtuous gain and wicked gain are both gain, what is it that you see to be the same in them, judging it to be the actual element of gain? And if again you are yourself unable to answer, just let me put it for your consideration, whether you describe as gain every acquisition that one has acquired either with no expense, or as a profit over and above one’s expense.
+Soc. And so too about drink the answer would be on the same lines, that the wet sustenance of the body, [231a] whether it be wholesome or pernicious, has this name of drink; and likewise with the rest. Try therefore on your part to imitate my method of answering. When you say that virtuous gain and wicked gain are both gain, what is it that you see to be the same in them, judging it to be the actual element of gain? And if again you are yourself unable to answer, just let me put it for your consideration, whether you describe as gain every acquisition that one has acquired either with no expense, or as a profit over and above one’s expense.
 
-Fr. I believe that is what I call gain.
+[231b] Fr. I believe that is what I call gain.
 
 Soc. Do you include a case where, after enjoying a banquet at which one has had much good cheer without any expense, one acquires an illness?
 
@@ -280,7 +285,7 @@ Soc. Do you mean, not if it is evil? Or will one acquire no gain even if one acq
 
 Fr. Apparently one will, if it is good.
 
-Soc. And if it is evil, will not one acquire loss?
+[231c] Soc. And if it is evil, will not one acquire loss?
 
 Fr. I think so.
 
@@ -302,7 +307,7 @@ Fr. Not in worth, the one being silver and the other gold.
 
 Soc. So gain, it seems, must have this addition of worth. At least, you now say that silver, though more than gold, is not worth as much, and that gold, though less, is of equal worth.
 
-Fr. Assuredly, for that is the case.
+[231e] Fr. Assuredly, for that is the case.
 
 Soc. Then the valuable is what produces gain, whether it be small or great, and the valueless produces no gain.
 
@@ -320,7 +325,7 @@ Soc. And the profitable is good?
 
 Fr. Yes.
 
-[232] Soc. And so, most valiant of men, have we not here once more, for the third or fourth time, the admission that what produces gain is good?
+[232a] Soc. And so, most valiant of men, have we not here once more, for the third or fourth time, the admission that what produces gain is good?
 
 Fr. So it seems.
 
@@ -332,7 +337,7 @@ Soc. In case you do not, I will remind you. You maintained against me that good 
 
 Fr. Yes.
 
-Soc. And now the argument has compelled us to acknowledge that all gains, both small and great, are good?
+[232b] Soc. And now the argument has compelled us to acknowledge that all gains, both small and great, are good?
 
 Fr. Yes, it has compelled me, at least, Socrates, rather than persuaded me.
 
@@ -344,7 +349,7 @@ Soc. And you admit that virtuous men all wish for all good things, do you not?
 
 Fr. I do.
 
-Soc. But, you know, you stated yourself that wicked men love both small and great gains.
+[232c] Soc. But, you know, you stated yourself that wicked men love both small and great gains.
 
 Fr. I did.
 
@@ -354,6 +359,8 @@ Fr. Apparently.
 
 Soc. Hence it is not right to reproach anybody with being a lover of gain: for he who makes this reproach is actually such an one himself.
 
----
-
-*Ὁ Διαφορεύς παρῆν*
+[^1]: The “artful phrase” here is the jingling ὥρᾳ καὶ χώρᾳ, characteristic of the rhetoric taught by Gorgias and his followers.
+[^2]: A town on the south-east coast of Attica.
+[^3]: On this point the writer agrees with Thuc. 6.59, who gives what is now the accepted story of Harmodius and Aristogeiton.
+[^4]: In the Panathenaic procession.
+[^5]: This curious version of the fall of the Pisistratid rulers (Hippias and Hipparchus) seeks to explain the conspiracy as due to a rivalry in a sort of pre-Socratic influence over young men which arose between the citizen Aristogiton and the ruler Hipparchus.

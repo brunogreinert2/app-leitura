@@ -1,40 +1,37 @@
 ---
 id: plutarco-agis-and-cleomenes-eng-bernadotte-perrin-1921
-type: texto_primario
-title: "Agis and Cleomenes"
-subtitle: null
+type: translation
+title: Agis and Cleomenes
 author: Plutarch
-year_original: null
-language: eng
-translation:
-  - Bernadotte Perrin
+translator:
+- Bernadotte Perrin
 publisher: Harvard University Press
-area: null
-era: null
-tags: []
-status: rascunho
+language: eng
+tags:
+- moralists
+status: draft
 project: pedra_angular
-source: "Plutarch. Agis and Cleomenes. Ed. Bernadotte Perrin. Cambridge, MA: Harvard University Press, 1921. Perseus Digital Library, Tufts University (CC BY-SA 4.0). URN: null"
-related: []
+urn_work: urn:cts:greekLit:tlg0007.tlg051
+urn: urn:cts:greekLit:tlg0007.tlg051.perseus-eng1
+source: 'Plutarch. Agis and Cleomenes. Ed. Bernadotte Perrin. Cambridge, MA: Harvard University Press, 1921. Perseus Digital Library, Tufts University (CC BY-SA 4.0).'
+source_repo: PerseusDL/canonical-greekLit
+source_file: data/tlg0007/tlg051/tlg0007.tlg051.perseus-eng1.xml
+source_commit: e37eed2e8
+license: CC-BY-SA-4.0
 ---
 
 # Agis and Cleomenes
-
-**Plutarch**
-
-Cambridge, MA: Harvard University Press, 1921.
-Perseus Digital Library, Tufts University (CC BY-SA 4.0).
-URN: `null`
-
----
-
-## Texto
 
 ### Livro Agis
 
 #### Capítulo 1
 
-[Agis.1.1] Not without rhyme or reason is the supposition of some writers that the tale about Ixion—how it was the cloud that he embraced instead of Hera and begat from thence the Centaurs—has an application to lovers of glory. For such men, consorting with glory, which we may call an image of virtue, produce nothing that is genuine and of true lineage, but much that is bastard and monstrous, being swept now along one course and now along another in their attempts to satisfy desire and passion. The herdsmen of Sophocles say,Probably in the lost Poimenes, or Shepherds (Nauck, Trag. Graec. Frag.2, p. 249). in speaking of their flocks:— Of these, indeed, though masters, we are yet the slaves, And to them we must listen even though they’re dumb.
+[Agis.1.1] Not without rhyme or reason is the supposition of some writers that the tale about Ixion—how it was the cloud that he embraced instead of Hera and begat from thence the Centaurs—has an application to lovers of glory. For such men, consorting with glory, which we may call an image of virtue, produce nothing that is genuine and of true lineage, but much that is bastard and monstrous, being swept now along one course and now along another in their attempts to satisfy desire and passion. The herdsmen of Sophocles say,[^1] in speaking of their flocks:—
+
+```verso
+Of these, indeed, though masters, we are yet the slaves,
+And to them we must listen even though they’re dumb.
+```
 
 [Agis.1.2] And this, in truth, is the experience of public men who act in conformity with the desires and impulses of multitudes, making themselves attendants and slaves in order that they may be called popular leaders and rulers. For just as a ship’s lookout, who sees what lies ahead before the ship’s captain does, nevertheless turns to him for orders and does what he ordains, so the public man whose eyes are fixed on glory is a servant of the multitude, although he has the name of ruler.
 
@@ -42,9 +39,9 @@ URN: `null`
 
 [Agis.2.1] The man, indeed, whose goodness is complete and perfect will have no need at all of glory, except so far as glory gives him access to achievement by reason of the confidence men have in him; but a man who is still young and is fond of honours may be allowed to plume and exalt himself somewhat even upon glory, provided that glory is the outcome of noble deeds. For the virtues, which are incipient and budding in the young, are confirmed in their proper development, as Theophrastus says, by the praises of men, and complete their growth under the incentive of pride.
 
-[Agis.2.2] But excess is everywhere harmful, and in the case of men who cherish political ambitions, it is deadly; for it sweeps them away into manifest folly and madness as they grasp after great power, when they refuse to regard what is honourable as glorious, but consider that what is glorious is good. Therefore, what Phocion said to Antipater, who demanded from him some dishonourable service, Thou canst not have Phocion as thy friend and at the same time thy flatterer, this, or something akin to this, must be said to the multitude:
+[Agis.2.2] But excess is everywhere harmful, and in the case of men who cherish political ambitions, it is deadly; for it sweeps them away into manifest folly and madness as they grasp after great power, when they refuse to regard what is honourable as glorious, but consider that what is glorious is good. Therefore, what Phocion said to Antipater, who demanded from him some dishonourable service, “Thou canst not have Phocion as thy friend and at the same time thy flatterer,” this, or something akin to this, must be said to the multitude:
 
-[Agis.2.3] Ye cannot have the same man as your ruler and your slave. Since in this case also one certainly can apply the fable of the serpent whose tail rebelled against its head and demanded the right to lead in turn instead of always following; so it took the lead, and by the folly of its progress got itself into mischief and lacerated the head, which was compelled, contrary to nature, to follow a part that had neither eyes nor ears.
+[Agis.2.3] “Ye cannot have the same man as your ruler and your slave.” Since in this case also one certainly can apply the fable of the serpent whose tail rebelled against its head and demanded the right to lead in turn instead of always following; so it took the lead, and by the folly of its progress got itself into mischief and lacerated the head, which was compelled, contrary to nature, to follow a part that had neither eyes nor ears.
 
 [Agis.2.4] This, as we see, has been the experience of many of the men whose whole political activity is directed towards the winning of popular favour; they made themselves dependent on the multitude, which is borne about at random, and then could neither recover themselves nor put a stop to the progress of disorder.
 
@@ -58,13 +55,13 @@ These remarks upon the glory which comes from the favour of the multitude I have
 
 [Agis.3.1] When once the love of silver and gold had crept into the city, closely followed by greed and parsimony in the acquisition of wealth and by luxury, effeminacy, and extravagance in the use and enjoyment of it, Sparta fell away from most of her noble traits, and continued in a low estate that was unworthy of her down to the times when Agis and Leonidas were kings.
 
-[Agis.3.2] Agis was of the Eurypontid royal house, a son of Eudamidas, and the sixth in descent from the Agesilaüs who crossed into Asia and became the most powerful Greek of his time. For Agesilaüs had a son Archidamus, who was slain by the Messapians at Mandurium in ItalyIn 338 B.C.; Archidamus had an elder son Agis, and a younger son Eudamidas, who, after Agis was slain by Antipater at MegalopolisIn 330 B.C. leaving no issue, became king; Eudamidas was succeeded by Archidamus, Archidamus by another Eudamidas, and Eudamidas by Agis,In 224 B.C. the subject of this Life.
+[Agis.3.2] Agis was of the Eurypontid royal house, a son of Eudamidas, and the sixth in descent from the Agesilaüs who crossed into Asia and became the most powerful Greek of his time. For Agesilaüs had a son Archidamus, who was slain by the Messapians at Mandurium in Italy[^2]; Archidamus had an elder son Agis, and a younger son Eudamidas, who, after Agis was slain by Antipater at Megalopolis[^3] leaving no issue, became king; Eudamidas was succeeded by Archidamus, Archidamus by another Eudamidas, and Eudamidas by Agis,[^4] the subject of this Life.
 
-[Agis.3.3] Leonidas, on the other hand, the son of Cleonymus, was of the other royal house, the Agiad, and was eighth in descent from the Pausanias who defeated Mardonius at Plataea. For Pausanias had a son Pleistoanax, and Pleistoanax a son Pausanias, upon whose exile and flight from Sparta to TegeaIn 395 B.C. See the Lysander, xxx. 1. his elder son Agesipolis became king; Agesipolis, dying without issue, was succeeded by a younger brother Cleombrotus,
+[Agis.3.3] Leonidas, on the other hand, the son of Cleonymus, was of the other royal house, the Agiad, and was eighth in descent from the Pausanias who defeated Mardonius at Plataea. For Pausanias had a son Pleistoanax, and Pleistoanax a son Pausanias, upon whose exile and flight from Sparta to Tegea[^5] his elder son Agesipolis became king; Agesipolis, dying without issue, was succeeded by a younger brother Cleombrotus,
 
-[Agis.3.4] and Cleombrotus, in turn, had two sons, Agesipolis and Cleomenes, of whom Agesipolis reigned only a short time and left no sons, while Cleomenes, who became king after him, lived to lose his elder son Acrotatus, but left behind him a younger son Cleonymus Cleonymus, however, did not come to the throne, but Areus,See the Pyrrhus, xxvi. 8ff. who was a grandson of Cleomenes and son of Acrotatus; Areus fell in battle at Corinth,In 265 B.C., in battle with Antigonus Gonatas. and his son Acrotatus came to the throne;
+[Agis.3.4] and Cleombrotus, in turn, had two sons, Agesipolis and Cleomenes, of whom Agesipolis reigned only a short time and left no sons, while Cleomenes, who became king after him, lived to lose his elder son Acrotatus, but left behind him a younger son Cleonymus Cleonymus, however, did not come to the throne, but Areus,[^6] who was a grandson of Cleomenes and son of Acrotatus; Areus fell in battle at Corinth,[^7] and his son Acrotatus came to the throne;
 
-[Agis.3.5] Acrotatus also was defeated and slain at Megalopolis, by the tyrant Aristodemus, leaving his wife with child; and after she had given birth to a son, Leonidas the son of Cleonymus was made the child’s guardian. But the young king died before reaching manhood, and the kingship therefore devolved upon Leonidas,About 256 B.C. who was altogether unacceptable to the people.
+[Agis.3.5] Acrotatus also was defeated and slain at Megalopolis, by the tyrant Aristodemus, leaving his wife with child; and after she had given birth to a son, Leonidas the son of Cleonymus was made the child’s guardian. But the young king died before reaching manhood, and the kingship therefore devolved upon Leonidas,[^8] who was altogether unacceptable to the people.
 
 [Agis.3.6] For although the destruction of the constitution had already led to a general decline in manners, there was in Leonidas a very marked departure from the traditions of his country, since for a long time he had frequented oriental courts and had been a servile follower of Seleucus, and now sought to transfer the pride and pomp which prevailed abroad into Hellenic relations and a constitutional government, where they were out of place.
 
@@ -74,7 +71,7 @@ These remarks upon the glory which comes from the favour of the multitude I have
 
 #### Capítulo 5
 
-[Agis.5.1] And here I may say that the Lacedaemonian state began to suffer distemper and corruption soon after its subversion of the Athenian supremacy filled it with gold and silver. However, since the number of families instituted by LycurgusSee the Lycurgus, viii.f. was still preserved in the transmission of estates, and father left to son his inheritance, to some extent the continuance of this order and equality sustained the state in spite of its errors in other respects.
+[Agis.5.1] And here I may say that the Lacedaemonian state began to suffer distemper and corruption soon after its subversion of the Athenian supremacy filled it with gold and silver. However, since the number of families instituted by Lycurgus[^9] was still preserved in the transmission of estates, and father left to son his inheritance, to some extent the continuance of this order and equality sustained the state in spite of its errors in other respects.
 
 [Agis.5.2] But when a certain powerful man came to be ephor who was headstrong and of a violent temper, Epitadeus by name, he had a quarrel with his son, and introduced a law permitting a man during his lifetime to give his estate and allotment to any one he wished, or in his will and testament so to leave it.
 
@@ -106,13 +103,13 @@ These remarks upon the glory which comes from the favour of the multitude I have
 
 #### Capítulo 8
 
-[Agis.8.1] However, Agis procured Lysander’s election as ephor, and at once employed him to introduce a bill into the senate,About 243 B.C. the chief provisions of which were that debtors should be relieved of their debts, and that the land should be divided up, that which lay between the water-course at Pellene and Taÿgetus, Malea, and Sellasia, into forty-five hundred lots, and that which lay outside this into fifteen thousand;
+[Agis.8.1] However, Agis procured Lysander’s election as ephor, and at once employed him to introduce a bill into the senate,[^10] the chief provisions of which were that debtors should be relieved of their debts, and that the land should be divided up, that which lay between the water-course at Pellene and Taÿgetus, Malea, and Sellasia, into forty-five hundred lots, and that which lay outside this into fifteen thousand;
 
 [Agis.8.2] that this larger land should be apportioned among those of the provincials who were capable of bearing arms, and the smaller among the genuine Spartans; that the number of these Spartans should be filled up from the provincials and foreigners who had received the rearing of freemen and were, besides, of vigorous bodies and in the prime of life; and that these should be formed into fifteen public messes by four hundreds and two hundreds, and should practise the mode of life which the ancient Spartans had followed.
 
 #### Capítulo 9
 
-[Agis.9.1] The rhetra was introduced in the senate, and the senators were divided in opinion. Lysander therefore called together a general assembly and discussed the matter himself with the citizens, and Mandrocleidas and Agesilaüs begged them not to suffer the insolent opposition of a few to blind them to the prostration of Sparta’s dignity, but to call to mind the earlier oracles which bade them beware of the love of riches as a fatal thing for Sparta, as well as the oracles which had lately been brought to them from Pasiphaë.
+[Agis.9.1] The “rhetra” was introduced in the senate, and the senators were divided in opinion. Lysander therefore called together a general assembly and discussed the matter himself with the citizens, and Mandrocleidas and Agesilaüs begged them not to suffer the insolent opposition of a few to blind them to the prostration of Sparta’s dignity, but to call to mind the earlier oracles which bade them beware of the love of riches as a fatal thing for Sparta, as well as the oracles which had lately been brought to them from Pasiphaë.
 
 [Agis.9.2] Now there was a temple of Pasiphaë at Thalamae, and her oracle there was held in honour. Some say that Pasiphaë was one of the daughters of Atlas, and the mother of Ammon by Zeus, and some that Cassandra the daughter of Priam died at Thalamae, and was called Pasiphaë because she declared her oracles to all. Phylarchus, however, says that she was a daughter of Amyclas, Daphne by name, and that, fleeing the embraces of Apollo, she was changed into the tree of like name, after which she was honoured by the god with the gift of prophetic power.
 
@@ -122,23 +119,23 @@ These remarks upon the glory which comes from the favour of the multitude I have
 
 [Agis.10.1] The people, accordingly, were filled with amazement at the magnanimity of the young man, and were delighted, feeling that after a lapse of nearly two hundred years a king had appeared who was worthy of Sparta; but Leonidas, now more than ever, strove in opposition. For he reasoned that he would be compelled to do as Agis had done, and that he would not get the same gratitude for it among the citizens, but that if all the rich alike made their property a part of the common fund, the honour for it would be given to him alone who had led the way. He therefore asked Agis if he thought that Lycurgus had shown himself a just and worthy man,
 
-[Agis.10.2] and when Agis said that he did, When, then, said Leonidas, did Lycurgus either grant abolition of debts or admit foreigners into citizenship—a man who held that the state was in no healthy way at all if it did not practise expulsion of foreigners? But Agis replied that he was not astonished to find Leonidas, who had been reared in foreign lands and had children by an oriental marriage, ignorant that Lycurgus had banished from the state debts and loans along with coined money,
+[Agis.10.2] and when Agis said that he did, “When, then,” said Leonidas, “did Lycurgus either grant abolition of debts or admit foreigners into citizenship—a man who held that the state was in no healthy way at all if it did not practise expulsion of foreigners?” But Agis replied that he was not astonished to find Leonidas, who had been reared in foreign lands and had children by an oriental marriage, ignorant that Lycurgus had banished from the state debts and loans along with coined money,
 
 [Agis.10.3] and that foreigners in the cities were held by him in less displeasure than men to whom the Spartan practices and ways of living were not congenial; these, indeed, he sought to drive away, not because he was hostile to their persons, but because he feared lest their lives and manners should contaminate the citizens, and breed in them a love of luxury, effeminacy, and greed; for certainly Terpander and Thales and Pherecydes were foreigners, and yet, because the teachings of their songs and philosophy always accorded with those of Lycurgus, they were held in surpassing honour at Sparta.
 
-[Agis.10.4] Thou praisest Ecprepes, said Agis, who, as ephor, cut out with an adze two of the nine lute-strings of Phrynis the musician, and likewise the magistrates in the time of Timotheus, who did the same thing in their turn, but thou blamest me for trying to remove luxury, extravagance, and ostentation from Sparta, as if those magistrates also were not on the watch to prevent the pompous and superfluous in music from making such advances as our lives and manners have come to, whose excess and discord has made the city dissonant and out of tune with itself.
+[Agis.10.4] “Thou praisest Ecprepes,” said Agis, “who, as ephor, cut out with an adze two of the nine lute-strings of Phrynis the musician, and likewise the magistrates in the time of Timotheus, who did the same thing in their turn, but thou blamest me for trying to remove luxury, extravagance, and ostentation from Sparta, as if those magistrates also were not on the watch to prevent the pompous and superfluous in music from making such advances as our lives and manners have come to, whose excess and discord has made the city dissonant and out of tune with itself.”
 
 #### Capítulo 11
 
 [Agis.11.1] After this, the common people took sides with Agis, but the men of wealth entreated Leonidas not to abandon them. And by prayers and arguments with the senators, whose power lay in their privilege of presenting all measures to the people, they so far prevailed that by a single vote the proposed rhetra was rejected.
 
-[Agis.11.2] Lysander, however, who was still ephor, set on foot an indictment of Leonidas by virtue of an ancient law which forbade any descendant of Heracles to beget children by a foreign woman, and ordained that anyone who left Sparta to settle among foreigners should be put to death.Plutarch here merges two separate laws. Cf. the Lycurgus, xxvii. 3. After instructing others to spread these charges against Leonidas, he himself, with his colleagues, proceeded to observe the traditional sign from heaven.
+[Agis.11.2] Lysander, however, who was still ephor, set on foot an indictment of Leonidas by virtue of an ancient law which forbade any descendant of Heracles to beget children by a foreign woman, and ordained that anyone who left Sparta to settle among foreigners should be put to death.[^11] After instructing others to spread these charges against Leonidas, he himself, with his colleagues, proceeded to observe the traditional sign from heaven.
 
 [Agis.11.3] This is observed as follows. Every ninth year the ephors select a clear and moonless night, and in silent session watch the face of the heavens. If, then, a star shoots across the sky, they decide that their kings have transgressed in their dealings with the gods, and suspend them from their office, until an oracle from Delphi or Olympia comes to the succour of the kings thus found guilty.
 
 [Agis.11.4] This sign Lysander now declared had been given him, and indicted Leonidas, and produced witnesses showing that he was the father of two children by a woman of Asia who had been given him to wife by one of the lieutenants of Seleucus; and that owing to the woman’s dislike and hatred of him he had come back home against his own wishes, where he had assumed the royal dignity, to which there was then no direct successor. Besides bringing this indictment, Lysander tried to persuade Cleombrotus to lay claim to the royal dignity.
 
-[Agis.11.5] Cleombrotus was a son-in-law of Leonidas, and one of the royal line. Leonidas, accordingly, took fright, and fled as a suppliant to the temple of Athena of the Brazen House. His daughter also forsook Cleombrotus and became a suppliant with her father. When Leonidas was summoned to his trial and did not appear, he was deposed, and Cleombrotus was made king in his place.About 242 B.C.
+[Agis.11.5] Cleombrotus was a son-in-law of Leonidas, and one of the royal line. Leonidas, accordingly, took fright, and fled as a suppliant to the temple of Athena of the Brazen House. His daughter also forsook Cleombrotus and became a suppliant with her father. When Leonidas was summoned to his trial and did not appear, he was deposed, and Cleombrotus was made king in his place.[^12]
 
 #### Capítulo 12
 
@@ -146,7 +143,7 @@ These remarks upon the glory which comes from the favour of the multitude I have
 
 [Agis.12.2] Thus put in legal peril, Lysander and Mandrocleidas persuaded the two kings to act together and disregard the edicts of the ephors; for that board of magistrates, they said, derived its power from dissension between the two kings, by giving their vote to the king who offered the better advice, whenever the other was at variance with the public good; but when the two kings were in accord, their power was indissoluble, and it would be unlawful for the ephors to contend against them, although when the kings were in contention with one another it was the privilege of the ephors to act as arbiters between them, but not to interfere when they were of one mind.
 
-[Agis.12.3] Persuaded by these arguments, both the kings went with their friends into the market place, removed the ephors from their seats, and appointed others in their stead, one of whom was Agesilaüs.See chapter vi. 3 f. Then they armed a large body of young men and set free all who were in prison, thus striking fear into their opponents, who thought they would put many of them to death. No one, however, lost his life at their hands;
+[Agis.12.3] Persuaded by these arguments, both the kings went with their friends into the market place, removed the ephors from their seats, and appointed others in their stead, one of whom was Agesilaüs.[^13] Then they armed a large body of young men and set free all who were in prison, thus striking fear into their opponents, who thought they would put many of them to death. No one, however, lost his life at their hands;
 
 [Agis.12.4] on the contrary, when Agis learned that Agesilaüs had plotted to make away with Leonidas as he was trying to withdraw to Tegea, and had sent men to assault him on the road, he sent out another company of trusted followers who took Leonidas under their protection and brought him safely to Tegea.
 
@@ -156,7 +153,7 @@ These remarks upon the glory which comes from the favour of the multitude I have
 
 [Agis.13.2] For since he was an exceedingly large owner of valuable land, but owed huge sums of money, being unable to pay his debts and unwilling to give up his lands, he persuaded Agis that if both his projects should be carried through at the same time the resulting convulsion in the state would be great; but that if the men of property should first be won over by a remission of their debts, they would afterwards accept the distribution of land contentedly and quietly.
 
-[Agis.13.3] This was also the opinion of Lysander, who was deceived in like manner by Agesilaüs. So they caused the mortgages (the Spartans call them klaria, or allotment pledges) to be brought into the market-place, heaped them altogether, and set fire to them. As the flames rose, the men of wealth and the lenders of money went away with heavy hearts; but Agesilaüs, as if in mockery of them, declared that his eyes had never seen a brighter or purer flame than that.
+[Agis.13.3] This was also the opinion of Lysander, who was deceived in like manner by Agesilaüs. So they caused the mortgages (the Spartans call them “klaria,” or allotment pledges) to be brought into the market-place, heaped them altogether, and set fire to them. As the flames rose, the men of wealth and the lenders of money went away with heavy hearts; but Agesilaüs, as if in mockery of them, declared that his eyes had never seen a brighter or purer flame than that.
 
 [Agis.13.4] And now the multitude demanded also that the land should at once be divided, and the kings gave orders that this should be done; but Agesilaüs would always interpose some obstacle or make some excuse, and so consumed time until it became the duty of Agis to head a military expedition, when the Achaeans, who were their allies, sent for aid from Sparta. For the Aetolians were expected to invade Peloponnesus by way of Megara; and Aratus, the general of the Achaeans, in an effort to prevent this, was assembling a force and wrote a letter to the ephors.
 
@@ -170,29 +167,29 @@ These remarks upon the glory which comes from the favour of the multitude I have
 
 #### Capítulo 15
 
-[Agis.15.1] Aratus, when Agis joined him near Corinth, was still deliberating whether or not to meet the enemy in open battle. Here Agis displayed great ardour, and courage which was sane and calculating. For he declared that in his opinion it was best to fight a decisive battle and not to abandon the gate of the Peloponnesus and suffer the enemy to pass inside: However, he said, I will do as seems best to Aratus, for Aratus is an older man, and is general of the Achaeans; I did not come hither to be their leader or to give them orders, but to give them aid and share their expedition.
+[Agis.15.1] Aratus, when Agis joined him near Corinth, was still deliberating whether or not to meet the enemy in open battle. Here Agis displayed great ardour, and courage which was sane and calculating. For he declared that in his opinion it was best to fight a decisive battle and not to abandon the gate of the Peloponnesus and suffer the enemy to pass inside: “However,” he said, “I will do as seems best to Aratus, for Aratus is an older man, and is general of the Achaeans; I did not come hither to be their leader or to give them orders, but to give them aid and share their expedition.”
 
-[Agis.15.2] Baton of Sinopé, however, says that Agis himself was unwilling to give battle although Aratus urged it; but Baton has not read what Aratus wrote about this matter,In his Commentaries. See the Aratus, iii. 2. urging in self-defence that he thought it better, now that the husbandmen had gathered in almost all their crops, to suffer the enemy to pass by, instead of risking everything in battle.
+[Agis.15.2] Baton of Sinopé, however, says that Agis himself was unwilling to give battle although Aratus urged it; but Baton has not read what Aratus wrote about this matter,[^14] urging in self-defence that he thought it better, now that the husbandmen had gathered in almost all their crops, to suffer the enemy to pass by, instead of risking everything in battle.
 
 [Agis.15.3] When, therefore, Aratus decided not to give battle, and dismissed his allies with praises for their proffered aid, Agis, who had won universal admiration, led his forces back to Sparta, where there was already much commotion and a revolution.
 
 #### Capítulo 16
 
-[Agis.16.1] For Agesilaüs, who was one of the ephors, being now freed from what had kept him in restraint before, shrank from no injustice that brought him money, nay, contrary to the customary arrangement of the calendar, and when the time for it had not yet come, he inserted a thirteenth monthThis was regularly done thrice during a period of nine years, but in distinctly specified years. The object was to equalize the lunar and solar years. and exacted the taxes for it. Moreover, in fear of the victims of his injustice and hated by all men, he kept an armed bodyguard, and would go down to his magistracy under their protection.
+[Agis.16.1] For Agesilaüs, who was one of the ephors, being now freed from what had kept him in restraint before, shrank from no injustice that brought him money, nay, contrary to the customary arrangement of the calendar, and when the time for it had not yet come, he inserted a thirteenth month[^15] and exacted the taxes for it. Moreover, in fear of the victims of his injustice and hated by all men, he kept an armed bodyguard, and would go down to his magistracy under their protection.
 
 [Agis.16.2] And as for the kings, he wished men to think that he utterly despised the one, and held Agis in some slight honour more because of his near relationship than because he was king. He also spread reports that he was going to be ephor again. For this reason his enemies lost no time in taking the great hazard, and banding together, openly brought home Leonidas from Tegea to exercise the royal power. Even the common people were glad to see this done, for they were incensed at their deception in the promised division of the land.
 
-[Agis.16.3] Agesilaüs, accordingly, was taken out of the country and saved by his son Hippomedon, who entreated his fellow-citizens, and was beloved of all because of his valour; and as for the kings, Agis fled for refuge to the temple of Athena of the Brazen House, while Cleombrotus went as a suppliant to the sanctuary of Poseidon;On the promontory of Taenarum. See the Cleomenes, xxii. 5. for Leonidas was thought to be more bitter against him, and in fact he left Agis unmolested and went up against Cleombrotus with soldiers. And when he arrived he denounced Cleombrotus angrily because, though a son-in-law, he had plotted against him, robbed him of the royal power, and helped in driving him from the country.
+[Agis.16.3] Agesilaüs, accordingly, was taken out of the country and saved by his son Hippomedon, who entreated his fellow-citizens, and was beloved of all because of his valour; and as for the kings, Agis fled for refuge to the temple of Athena of the Brazen House, while Cleombrotus went as a suppliant to the sanctuary of Poseidon;[^16] for Leonidas was thought to be more bitter against him, and in fact he left Agis unmolested and went up against Cleombrotus with soldiers. And when he arrived he denounced Cleombrotus angrily because, though a son-in-law, he had plotted against him, robbed him of the royal power, and helped in driving him from the country.
 
 #### Capítulo 17
 
 [Agis.17.1] Cleombrotus, on his part, had naught to say for himself, but sat perplexed and speechless; Chilonis, however, the daughter of Leonidas, who before this had felt herself wronged in the wrongs done to her father, and when Cleombrotus was made king had left him and ministered to her father in his misfortunes,—sharing his suppliant life while he was in the city, and in his exile continually grieving for him and cherishing bitter thoughts of Cleombrotus—at this time changed back again with the changed fortunes of the men, and was seen sitting as a suppliant with her husband, her arms thrown about him, and a little child clinging to her on either side.
 
-[Agis.17.2] All beholders were moved to wonder and tears at the fidelity and devotion of the woman, who, touching her robes and her hair, alike unkempt, said: This garb, my father, and this appearance, are not due to my pity for Cleombrotus; nay, ever since thy sorrows and thine exile grief has been my steadfast mate and companion. Must I, then, now that thou art king in Sparta and victorious over thine enemies, continue to live in this sad state, or put on the splendid attire of royalty, after seeing the husband of my youth slain at thy hands?
+[Agis.17.2] All beholders were moved to wonder and tears at the fidelity and devotion of the woman, who, touching her robes and her hair, alike unkempt, said: “This garb, my father, and this appearance, are not due to my pity for Cleombrotus; nay, ever since thy sorrows and thine exile grief has been my steadfast mate and companion. Must I, then, now that thou art king in Sparta and victorious over thine enemies, continue to live in this sad state, or put on the splendid attire of royalty, after seeing the husband of my youth slain at thy hands?”
 
-[Agis.17.3] That husband, unless he persuades and wins thee over by the tears of his wife and children, will pay a more grievous penalty for his evil designs than thou desirest, for he shall see me, his most beloved one, dead before he is. For with what assurance could I live and face the other women, I, whose prayers awakened no pity in either husband or father? Nay, both as wife and as daughter I was born to share only the misfortune and dishonour of the men nearest and dearest to me.
+[Agis.17.3] “That husband, unless he persuades and wins thee over by the tears of his wife and children, will pay a more grievous penalty for his evil designs than thou desirest, for he shall see me, his most beloved one, dead before he is. For with what assurance could I live and face the other women, I, whose prayers awakened no pity in either husband or father? Nay, both as wife and as daughter I was born to share only the misfortune and dishonour of the men nearest and dearest to me.”
 
-[Agis.17.4] As for my husband, even if he had some plausible excuse for his course, I robbed him of it at that time by taking thy part and testifying to what he had done; but thou makest his crime an easy one to defend by showing men that royal power is a thing so great and so worth fighting for that for its sake it is right to slay a son-in-law and ignore a child.
+[Agis.17.4] “As for my husband, even if he had some plausible excuse for his course, I robbed him of it at that time by taking thy part and testifying to what he had done; but thou makest his crime an easy one to defend by showing men that royal power is a thing so great and so worth fighting for that for its sake it is right to slay a son-in-law and ignore a child.”
 
 #### Capítulo 18
 
@@ -208,13 +205,13 @@ These remarks upon the glory which comes from the favour of the multitude I have
 
 [Agis.19.1] Now Agis spent most of his time in the sanctuary, but was wont to go down from time to time to his bath. There, then, they determined to seize him, when he was outside the sanctuary. So they waited till he had finished his bath, and then came to meet him with friendly greetings, and walked along with him, conversing and jesting with him after the manner of youthful comrades.
 
-[Agis.19.2] But at a certain point the road branched off towards the prison, and when they were come to that place, Amphares, by virtue of his office, laid hands on Agis and said: I shall lead thee, Agis, to the ephors, to answer for thy measures of state; and Damochares, who was tall and robust, threw his cloak about the king’s neck and dragged him along.
+[Agis.19.2] But at a certain point the road branched off towards the prison, and when they were come to that place, Amphares, by virtue of his office, laid hands on Agis and said: “I shall lead thee, Agis, to the ephors, to answer for thy measures of state”; and Damochares, who was tall and robust, threw his cloak about the king’s neck and dragged him along.
 
 [Agis.19.3] Others pushed him along from behind, as had been agreed, and since he had no helper but was without a friend, they thrust him into the prison. At once Leonidas was at hand with a large band of mercenaries and surrounded the prison, while the ephors went in to Agis. After sending for those of the senators who were of the same mind as themselves, as though the king were to have a trial, the ephors ordered Agis to defend his conduct of affairs.
 
 [Agis.19.4] The young king laughed at their dissimulation, whereupon Amphares threatened that he would rue the day and be punished for his temerity; but another ephor, as though plainly offering Agis a way to escape from the charges against him, asked him if he had done what he did under compulsion from Lysander and Agesilaüs.
 
-[Agis.19.5] And when Agis answered that he had suffered compulsion from no one, but that in admiration and imitation of Lycurgus he had adopted the same public policy as his, the same ephor asked again if he repented of what he had done. But the young king declared that he had no repentance for what he had most excellently planned, and would not have, even if he saw that he was to suffer the extremest penalty. So they condemned him to death, and ordered the officers to lead him into the Dechas, as it was called.
+[Agis.19.5] And when Agis answered that he had suffered compulsion from no one, but that in admiration and imitation of Lycurgus he had adopted the same public policy as his, the same ephor asked again if he repented of what he had done. But the young king declared that he had no repentance for what he had most excellently planned, and would not have, even if he saw that he was to suffer the extremest penalty. So they condemned him to death, and ordered the officers to lead him into the “Dechas,” as it was called.
 
 [Agis.19.6] This is a chamber of the prison in which they strangle those who are under sentence of death. But Damochares, when he saw that the officers did not dare to lay hands on Agis, and likewise that even the mercenaries who were there shrank from the deed and were loth to do it, feeling as they did that it was contrary to the laws of God and man to lay bands upon the person of a king, heaped threats and abuse upon them and himself dragged Agis into the chamber of death.
 
@@ -222,21 +219,21 @@ These remarks upon the glory which comes from the favour of the multitude I have
 
 #### Capítulo 20
 
-[Agis.20.1] Agis, then, on his way to the halter, saw one of the officers shedding tears of sympathy for him. My man, said he, cease weeping; for even though I am put to death in this lawless and unjust manner, I have the better of my murderers. And saying these words, he offered his neck to the noose without hesitation.
+[Agis.20.1] Agis, then, on his way to the halter, saw one of the officers shedding tears of sympathy for him. “My man,” said he, “cease weeping; for even though I am put to death in this lawless and unjust manner, I have the better of my murderers.” And saying these words, he offered his neck to the noose without hesitation.
 
 [Agis.20.2] But Amphares went to the door of the prison, where Agesistrata fell at his feet in an appeal to his friendship and intimacy. Amphares lifted her up and assured her that Agis was not to suffer violence or death; and he bade her, if she wished, go in to her son. And when Agesistrata begged that her mother might go in with her, Amphares said there was nothing to prevent.
 
 [Agis.20.3] So he admitted both the women, and after ordering the door of the prison to be locked again, delivered Archidamia first to the executioners. She was now a very aged woman, and had lived all her days in very high repute among her countrywomen. After she had been put to death, Amphares ordered Agesistrata to enter the chamber of execution.
 
-[Agis.20.4] So she went in, and when she saw her son lying dead upon the ground, and her mother’s dead body still hanging in the noose, with her own hands she helped the officers to take her down, laid her body out by the side of Agis, and composed and covered it. Then, embracing her son and kissing his face, she said: My son, it was thy too great regard for others, and thy gentleness and humanity, which has brought thee to ruin, and us as well.
+[Agis.20.4] So she went in, and when she saw her son lying dead upon the ground, and her mother’s dead body still hanging in the noose, with her own hands she helped the officers to take her down, laid her body out by the side of Agis, and composed and covered it. Then, embracing her son and kissing his face, she said: “My son, it was thy too great regard for others, and thy gentleness and humanity, which has brought thee to ruin, and us as well.”
 
-[Agis.20.5] Then Amphares, who stood at the door and saw and heard what she did and said, came in and said angrily to her: If, then, thou hast been of the same mind as thy son, thou shalt also suffer the same fate. And Agesistrata, as she rose to present her neck to the noose, said: My only prayer is that this may bring good to Sparta.
+[Agis.20.5] Then Amphares, who stood at the door and saw and heard what she did and said, came in and said angrily to her: “If, then, thou hast been of the same mind as thy son, thou shalt also suffer the same fate.” And Agesistrata, as she rose to present her neck to the noose, said: “My only prayer is that this may bring good to Sparta.”
 
 #### Capítulo 21
 
 [Agis.21.1] When tidings of the sad event had been carried to the city and the three bodies were carried forth for burial, the fear felt by the citizens was not so strong as to prevent them from manifesting sorrow over what had been done, and hatred for Leonidas and Amphares. It was thought that nothing more dreadful or heinous had been done in Sparta since the Dorians had dwelt in Peloponnesus.
 
-[Agis.21.2] For against a king of the Lacedaemonians, as it seems, not even their enemies would willingly raise their hands if they met him in battle, but they would spare him, out of fear and reverence for his dignity. And for this reason, although there had been many conflicts between Lacedaemonians and other Greeks, only one Spartan king had been slain up to the time of Philip of Macedon, namely, Cleombrotus, who was smitten by a spear at Leuctra.See the Pelopidas, xxiii. The Messenians, however, say that Theopompus also fell in battle, at the hands of Aristomenes;
+[Agis.21.2] For against a king of the Lacedaemonians, as it seems, not even their enemies would willingly raise their hands if they met him in battle, but they would spare him, out of fear and reverence for his dignity. And for this reason, although there had been many conflicts between Lacedaemonians and other Greeks, only one Spartan king had been slain up to the time of Philip of Macedon, namely, Cleombrotus, who was smitten by a spear at Leuctra.[^17] The Messenians, however, say that Theopompus also fell in battle, at the hands of Aristomenes;
 
 [Agis.21.3] but the Lacedaemonians deny this, and say that their king was only wounded. This matter may be disputed: but Agis was certainly the first king of Sparta to be put to death by the ephors. And yet he had chosen a line of conduct that was noble and worthy of Sparta, and was of an age in which men are usually pardoned for their errors, and his friends could with more justice blame him than his enemies, because he spared the life of Leonidas, and, most mild and gentle man that he was, put faith in his other foes.
 
@@ -244,7 +241,7 @@ These remarks upon the glory which comes from the favour of the multitude I have
 
 #### Capítulo 1
 
-[Cleomenes.1.1] Upon the death of AgisAbout 241 B.C. his brother Archidamus at once took to flight, and thus escaped arrest at the hands of Leonidas; but his wife, who had an infant son, was taken from her home by Leonidas and compelled to marry his son Cleomenes. Cleomenes was too young for marriage, but Leonidas was unwilling to have Agiatis marry anyone else. For she was heir to the great estate of her father Gylippus, in youthful beauty she far surpassed the other women of Greece, and she had an excellent disposition.
+[Cleomenes.1.1] Upon the death of Agis[^18] his brother Archidamus at once took to flight, and thus escaped arrest at the hands of Leonidas; but his wife, who had an infant son, was taken from her home by Leonidas and compelled to marry his son Cleomenes. Cleomenes was too young for marriage, but Leonidas was unwilling to have Agiatis marry anyone else. For she was heir to the great estate of her father Gylippus, in youthful beauty she far surpassed the other women of Greece, and she had an excellent disposition.
 
 [Cleomenes.1.2] Therefore she begged most earnestly, we are told, that she should not be forced into this marriage, but after she was united to Cleomenes, though she hated Leonidas, to the young man himself she was a good and affectionate wife. And he, as soon as Agiatis was his, became passionately fond of her, and in a way sympathized with her devotion to the memory of Agis, so that he would often ask her about the career of Agis, and listen attentively as she told of the plans and purposes which Agis had formed.
 
@@ -256,11 +253,11 @@ These remarks upon the glory which comes from the favour of the multitude I have
 
 [Cleomenes.2.2] It is said also that Cleomenes studied philosophy when he was still a stripling, after Sphaerus of Borysthenis had made a voyage to Sparta and busied himself sedulously there with the youth and young men. Sphaerus had become one of the leading disciples of Zeno of Citium, and it would appear that he admired the manly nature of Cleomenes and increased the fires of his high ambition.
 
-[Cleomenes.2.3] For Leonidas of old, as we are told, when asked what manner of poet he thought Tyrtaeus to be, replied; A good one to inflame the souls of young men. And indeed they were filled with divine inspiration by his poems, and in battle were prodigal of their lives. However, for great and impetuous natures the Stoic doctrines are somewhat misleading and dangerous, although when they permeate a deep and gentle character, they redound most to its proper good.
+[Cleomenes.2.3] For Leonidas of old, as we are told, when asked what manner of poet he thought Tyrtaeus to be, replied; “A good one to inflame the souls of young men.” And indeed they were filled with divine inspiration by his poems, and in battle were prodigal of their lives. However, for great and impetuous natures the Stoic doctrines are somewhat misleading and dangerous, although when they permeate a deep and gentle character, they redound most to its proper good.
 
 #### Capítulo 3
 
-[Cleomenes.3.1] But at the death of LeonidasIn 235 B.C. Cleomenes was then about twenty-four years of age. Cleomenes came to the throne, and saw that the citizens were by that time altogether degenerate. The rich neglected the common interests for their own private pleasure and aggrandizement; the common people, because of their wretched state at home, had lost all readiness for war and all ambition to maintain the ancient Spartan discipline; and he himself, Cleomenes, was king only in name, while the whole power was in the hands of the ephors.
+[Cleomenes.3.1] But at the death of Leonidas[^19] Cleomenes came to the throne, and saw that the citizens were by that time altogether degenerate. The rich neglected the common interests for their own private pleasure and aggrandizement; the common people, because of their wretched state at home, had lost all readiness for war and all ambition to maintain the ancient Spartan discipline; and he himself, Cleomenes, was king only in name, while the whole power was in the hands of the ephors.
 
 [Cleomenes.3.2] He therefore at once determined to stir up and change the existing order of things, and as he had a friend, Xenares, who had been his lover (or inspirer, as the Spartans say), he would make trial of his sentiments by inquiring in detail what sort of a king Agis had been, and in what way and with what assistants he had entered upon the course of action so fatal to him. At first Xenares was quite glad to recall those matters, and rehearsed the events at length and in detail;
 
@@ -274,19 +271,19 @@ These remarks upon the glory which comes from the favour of the multitude I have
 
 [Cleomenes.4.1] Upon this, the ephors began operations by sending Cleomenes to occupy the precinct of Athena at Belbina. This commands an entrance into Laconia, and was at that time a subject of litigation with the Megalopolitans. After Cleomenes had occupied and fortified this place, Aratus made no public protest, but led out his forces one night and tried to surprise Tegea and Orchomenus.
 
-[Cleomenes.4.2] Those who were to betray the places to him, however, played the coward, and Aratus withdrew, thinking that his attempt had escaped notice. But Cleomenes wrote him an ironical letter, inquiring, as from a friend, whither he had marched out in the night. Aratus wrote back that hearing of Cleomenes’ intention to fortify Belbina he had gone down there to prevent it. Whereupon Cleomenes sent back word again that he believed this story to be true; but those torches and ladders, said he, if it is all one to thee, tell me for what purpose thou hadst them with thee.
+[Cleomenes.4.2] Those who were to betray the places to him, however, played the coward, and Aratus withdrew, thinking that his attempt had escaped notice. But Cleomenes wrote him an ironical letter, inquiring, as from a friend, whither he had marched out in the night. Aratus wrote back that hearing of Cleomenes’ intention to fortify Belbina he had gone down there to prevent it. Whereupon Cleomenes sent back word again that he believed this story to be true; “but those torches and ladders,” said he, “if it is all one to thee, tell me for what purpose thou hadst them with thee.”
 
-[Cleomenes.4.3] Aratus burst out laughing at the jest, and inquired what manner of youth this was. Whereupon Damocrates, the Lacedaemonian exile, replied: If thou hast designs upon the Lacedaemonians, see that thou hastenest, before this young cock grows his spurs. After this, when Cleomenes with a few horsemen and three hundred foot-soldiers was making an expedition in Arcadia, the ephors, fearing the issue of the war, ordered him to come back home.
+[Cleomenes.4.3] Aratus burst out laughing at the jest, and inquired what manner of youth this was. Whereupon Damocrates, the Lacedaemonian exile, replied: “If thou hast designs upon the Lacedaemonians, see that thou hastenest, before this young cock grows his spurs.” After this, when Cleomenes with a few horsemen and three hundred foot-soldiers was making an expedition in Arcadia, the ephors, fearing the issue of the war, ordered him to come back home.
 
 [Cleomenes.4.4] After he had returned, however, Aratus seized Caphyae, and the ephors sent Cleomenes forth again. He seized Methydrium and overran the territory of Argolis, whereupon the Achaeans marched out with twenty thousand foot-soldiers and a thousand horsemen under Aristomachus as general. Cleomenes met them at Pallantium and offered battle,
 
-[Cleomenes.4.5] but Aratus, in fear of this boldness, would not suffer his general to hazard the issue, and retired. For this he was reproached by the Achaeans, and jeered at and despised by the Lacedaemonians, who were less than five thousand strong. Cleomenes was therefore greatly lifted up in spirit and began to show a hold front to the citizens; and he would often remind them of one of their ancient kingsAgis II. (427-398 B.C.); cf. the Morals, pp. 190c; 215d. who said, and not idly either, The Lacedaemonians are wont to ask, not how many, but where, their enemies are.
+[Cleomenes.4.5] but Aratus, in fear of this boldness, would not suffer his general to hazard the issue, and retired. For this he was reproached by the Achaeans, and jeered at and despised by the Lacedaemonians, who were less than five thousand strong. Cleomenes was therefore greatly lifted up in spirit and began to show a hold front to the citizens; and he would often remind them of one of their ancient kings[^20] who said, and not idly either, “The Lacedaemonians are wont to ask, not how many, but where, their enemies are.”
 
 #### Capítulo 5
 
 [Cleomenes.5.1] After this, he went to the aid of the Eleians, upon whom the Achaeans were making war, and falling upon the Achaeans near Mt. Lycaeum, as they were withdrawing, he put their entire army to panic flight, slew great numbers of them, and took many prisoners, so that even Aratus was widely reported among the Greeks to be dead. But Aratus, making the best use of his opportunity, immediately after this defeat marched to Mantineia, and to everybody’s surprise captured and held the city.
 
-[Cleomenes.5.2] At this the Lacedaemonians were altogether disheartened and opposed any further expedition on the part of Cleomenes. He therefore determined to summon from Messene the brother of Agis, Archidamus,See chapter i. 1. who was the rightful king from the other royal house, thinking that the power of the ephors would be diminished if the royal power were restored to its full strength so as to counterbalance it.
+[Cleomenes.5.2] At this the Lacedaemonians were altogether disheartened and opposed any further expedition on the part of Cleomenes. He therefore determined to summon from Messene the brother of Agis, Archidamus,[^21] who was the rightful king from the other royal house, thinking that the power of the ephors would be diminished if the royal power were restored to its full strength so as to counterbalance it.
 
 [Cleomenes.5.3] But those who had formerly murdered Agis comprehended this design, and fearing that they would pay the penalty for their crime if Archidamus was restored, they did indeed receive him when he came secretly into the city, and assisted in his restoration, but immediately put him to death. Cleomenes may have been opposed to this, as Phylarchus thinks, or perhaps he was persuaded by his friends to abandon the hapless man to his murderers. For the greater part of the blame attached itself to them, since they were thought to have constrained Cleomenes.
 
@@ -312,7 +309,7 @@ These remarks upon the glory which comes from the favour of the multitude I have
 
 #### Capítulo 8
 
-[Cleomenes.8.1] When the city was close at hand, he sent Eurycleidas to the mess-table of the ephors, ostensibly to carry some message of the king from the army; but Therycion, Phoebis, and two of the Helots, who had been bred up along with CleomenesSuch Helot companions afterwards became freemen, and sometimes even citizens in Sparta. (they call them mothakes), followed after with a few soldiers. These in, while Eurycleidas was still making his report to the ephors, ran in upon them with drawn swords and smote them.
+[Cleomenes.8.1] When the city was close at hand, he sent Eurycleidas to the mess-table of the ephors, ostensibly to carry some message of the king from the army; but Therycion, Phoebis, and two of the Helots, who had been bred up along with Cleomenes[^22] (they call them “mothakes”), followed after with a few soldiers. These in, while Eurycleidas was still making his report to the ephors, ran in upon them with drawn swords and smote them.
 
 [Cleomenes.8.2] The first of them, Agylaeus, on receiving the blow, fell and lay still as though dead; but afterwards he quietly pulled himself together, dragged himself out of the room, and crept unobserved into a little building which was a temple of Fear. Usually it was closed, but at this time it chanced to be open. Into this building he betook himself and locked the door. But the other four were slain, and also about ten of those who came to their aid. For the people who kept quiet were not killed, nor were those who wished to leave the city prevented. And even Agylaeus was spared when he came out of the temple next day.
 
@@ -324,7 +321,26 @@ These remarks upon the glory which comes from the favour of the multitude I have
 
 [Cleomenes.9.3] And the men of old, in my opinion, did not regard bravery as a lack of fear, but as fear of reproach and dread of disgrace. For the men who feel most dread of the laws have most courage in facing their enemies; and those shun death least who most fear ill fame.
 
-[Cleomenes.9.4] Therefore it has been well saidBy Stasinus of Cyprus. Cf. Plato, Euthyphro, 12a; Kinkel, Ep. Graec. Frag. i. p. 30.: . . . for where dread is, there also is reverence. And Homer says Iliad, iii. 172, Helen to Priam.: Revered art thou by me, dear father-in-law, and dreaded too; and Without a word, in dread of their leaders. Iliad, iv. 431, of the Achaeans marshalled for battle. For by the multitude reverence is most apt to be felt towards those whom they also fear. For this reason, too, the Lacedaemonians erected a temple to Fear alongside the mess-hall of the ephors, after they had endowed this magistracy with almost absolute powers.
+[Cleomenes.9.4] Therefore it has been well said[^23]:
+
+```verso
+. . . for where dread is, there also is reverence.
+```
+
+And Homer says[^24]:
+
+```verso
+Revered art thou by me, dear father-in-law, and
+dreaded too;
+```
+
+and [^25]
+
+```verso
+Without a word, in dread of their leaders.[^26]
+```
+
+For by the multitude reverence is most apt to be felt towards those whom they also fear. For this reason, too, the Lacedaemonians erected a temple to Fear alongside the mess-hall of the ephors, after they had endowed this magistracy with almost absolute powers.
 
 #### Capítulo 10
 
@@ -338,13 +354,13 @@ These remarks upon the glory which comes from the favour of the multitude I have
 
 [Cleomenes.10.5] That king, however, Cleomenes said, since he was an excellent man and a lover of his country, speedily concurred in the measures of Lycurgus and accepted the change of constitution; still, as a matter of fact Lycurgus by his own acts bore witness to the difficulty of changing a constitution without violence and fear. To these, Cleomenes said, he had himself resorted with the greatest moderation, for he had but put out of the way the men who were opposed to the salvation of Sparta.
 
-[Cleomenes.10.6] For all the rest, he said, the whole land should be common property, debtors should be set free from their debts, and foreigners should be examined and rated, in order that the strongest of them might be made Spartan citizens and help to preserve the state by their arms. In this way, he said, we shall cease to behold Sparta the booty of Aetolians and Illyrians through lack of men to defend her.
+[Cleomenes.10.6] For all the rest, he said, the whole land should be common property, debtors should be set free from their debts, and foreigners should be examined and rated, in order that the strongest of them might be made Spartan citizens and help to preserve the state by their arms. “In this way,” he said, “we shall cease to behold Sparta the booty of Aetolians and Illyrians through lack of men to defend her.”
 
 #### Capítulo 11
 
 [Cleomenes.11.1] After this, to begin with, Cleomenes himself placed his property in the common stock, as did Megistonoüs his step-father and every one of his friends besides; next, all the rest of the citizens did the same, and the land was parcelled out. Cleomenes also assigned a portion of land to each man who had been exiled by him, and promised to bring them all home after matters had become quiet.
 
-[Cleomenes.11.2] Then he filled up the body of citizens with the most promising of the free provincials, and thus raised a body of four thousand men-at-arms, whom he taught to use a long pike, held in both hands, instead of a short spear, and to carry their shields by a strap instead of by a fixed handle. Next he devoted himself to the training of the young men and to the agoge, or ancient discipline, most of the details of which Sphaerus, who was then in Sparta, helped him in arranging. And quickly was the proper system of bodily training and public messes resumed, a few out of necessity, but most with a willing spirit, subjecting themselves to the old Spartan regime with all its simplicity.
+[Cleomenes.11.2] Then he filled up the body of citizens with the most promising of the free provincials, and thus raised a body of four thousand men-at-arms, whom he taught to use a long pike, held in both hands, instead of a short spear, and to carry their shields by a strap instead of by a fixed handle. Next he devoted himself to the training of the young men and to the “agoge,” or ancient discipline, most of the details of which Sphaerus, who was then in Sparta, helped him in arranging. And quickly was the proper system of bodily training and public messes resumed, a few out of necessity, but most with a willing spirit, subjecting themselves to the old Spartan regime with all its simplicity.
 
 [Cleomenes.11.3] And yet, desiring to give the name of absolute power a less offensive sound, he associated with himself in royal power his brother Eucleidas. And this was the only time when the Spartans had two kings from the same house.
 
@@ -354,7 +370,7 @@ These remarks upon the glory which comes from the favour of the multitude I have
 
 [Cleomenes.12.2] Accordingly, he invaded the territory of Megalopolis, collected large booty, and devastated the country far and wide. And finally arresting a company of actors who were passing through the country from Messené, he built a theatre in the enemy’s territory, instituted a contest for a prize of forty minae, and sat spectator for a whole day; not that he felt the need of a spectacle, but in exultant mockery, as it were, of his enemies, and to show to the world by his contempt for them that he held complete control of affairs, with something, as it were, to spare.
 
-[Cleomenes.12.3] For at other times, the Spartan alone of Greek or Macedonian armies had no players in attendance, no jugglers, no dancing-girls, no harpists, but was free from every kind of licence, scurrility, and general festivity; while for the most part the young men practised themselves and the elder men taught them, and for amusement, when their work was over, they had recourse to their wonted pleasantries and the interchange of Spartan witticisms. Of what great advantage this sort of amusement is, I have told in my Life of Lycurgus. Chapter xii.
+[Cleomenes.12.3] For at other times, the Spartan alone of Greek or Macedonian armies had no players in attendance, no jugglers, no dancing-girls, no harpists, but was free from every kind of licence, scurrility, and general festivity; while for the most part the young men practised themselves and the elder men taught them, and for amusement, when their work was over, they had recourse to their wonted pleasantries and the interchange of Spartan witticisms. Of what great advantage this sort of amusement is, I have told in my Life of Lycurgus.[^27]
 
 #### Capítulo 13
 
@@ -362,7 +378,7 @@ These remarks upon the glory which comes from the favour of the multitude I have
 
 [Cleomenes.13.2] but when men came to Cleomenes, who was a real as well as a titled king, and then saw no profusion of purple robes or shawls about him, and no array of couches and litters; when they saw, too, that he did not make the work of his petitioners grievous and slow by employing a throng of messengers and door-keepers or by requiring written memorials, but came in person, just as he happened to be dressed, to answer the salutations of his visitors, conversing at length with those who needed his services and devoting time cheerfully and kindly to them, they were charmed and completely won over, and declared that he alone was a descendant of Heracles.
 
-[Cleomenes.13.3] His usual supper was held in a room which had only three couches, and was very circumscribed and Spartan; but if he was entertaining ambassadors or guest-friends, two more couches would be brought in, and the servants would make the table a trifle more brilliant, not with sauces or sweetmeats, but with more generous dishes and a kindlier wine. And indeed he censured one of his friends, when he heard that in entertaining guest-friends he had set before them the black soup and barley-bread of the public mess-tables; for, said he, in these matters and before foreigners we must not be too strictly Spartan.
+[Cleomenes.13.3] His usual supper was held in a room which had only three couches, and was very circumscribed and Spartan; but if he was entertaining ambassadors or guest-friends, two more couches would be brought in, and the servants would make the table a trifle more brilliant, not with sauces or sweetmeats, but with more generous dishes and a kindlier wine. And indeed he censured one of his friends, when he heard that in entertaining guest-friends he had set before them the black soup and barley-bread of the public mess-tables; “for,” said he, “in these matters and before foreigners we must not be too strictly Spartan.”
 
 [Cleomenes.13.4] After the table had been removed, a tripod would be brought in on which were a bronze mixer full of wine, two silver bowels holding a pint apiece, and drinking cups of silver, few all told, from which he who wished might drink; but no one had a cup forced upon him. Music there was none, nor was any such addition desired; for Cleomenes entertained the company himself by his conversation, now asking questions, now telling stories, and his discourse was not unpleasantly serious, but had a sportiveness that charmed and was free from rudeness.
 
@@ -376,7 +392,7 @@ These remarks upon the glory which comes from the favour of the multitude I have
 
 #### Capítulo 15
 
-[Cleomenes.15.1] The Achaeans having been thus utterly overwhelmed, Aratus, who was wont to be their general every other year, refused the office and declined to listen to their invitations and prayers; thus unwisely, when the ship of state was in a heavy storm, handing over the helm to another and abandoning the post of authority. Cleomenes, on the other hand, at the first was thought to impose moderate terms upon the Achaean embassy, but afterwards he sent other envoys and bade them hand over to him the leadership among the Greeks, assuring them that on other points he would not quarrel with them, but would at once restore to them their captives and their strongholds.Cf. the Aratus, xxxviii. 5f.
+[Cleomenes.15.1] The Achaeans having been thus utterly overwhelmed, Aratus, who was wont to be their general every other year, refused the office and declined to listen to their invitations and prayers; thus unwisely, when the ship of state was in a heavy storm, handing over the helm to another and abandoning the post of authority. Cleomenes, on the other hand, at the first was thought to impose moderate terms upon the Achaean embassy, but afterwards he sent other envoys and bade them hand over to him the leadership among the Greeks, assuring them that on other points he would not quarrel with them, but would at once restore to them their captives and their strongholds.[^28]
 
 [Cleomenes.15.2] The Achaeans were willing to settle matters on these terms, and invited Cleomenes to come to Lerna, where they were about to hold their assembly. But it fell out that Cleomenes, who had made a strenuous march and then too soon had drunk water, brought up a great quantity of blood and lost his speech. For this reason he sent back to the Achaeans the most prominent men among their captives, but postponed the conference and went back home to Sparta.
 
@@ -386,9 +402,9 @@ These remarks upon the glory which comes from the favour of the multitude I have
 
 [Cleomenes.16.2] and the authority taken over in a cause which he himself had built up and controlled for so long a time), in the first place tried to force the Achaeans aside and hinder their purpose; but when they paid no heed to him in their consternation at the daring spirit of Cleomenes, but actually saw justice in the demands of the Lacedaemonians, who were seeking to restore the Peloponnesus to its ancient status,
 
-[Cleomenes.16.3] Aratus took a step which would have been unmeet for any Greek to take, but was most shameful for him and most unworthy of his career as soldier and statesman. For he invited Antigonus into Greece and filled the Peloponnesus with Macedonians, whom he himself had driven out of Peloponnesus when, as a young man, he delivered Acrocorinthus from their powerSee the Aratus, xvi. ff. -he who had incurred the suspicion and hostility of all the reigning kings, and of this very Antigonus had said countless evil things in the commentaries which he left behind him.
+[Cleomenes.16.3] Aratus took a step which would have been unmeet for any Greek to take, but was most shameful for him and most unworthy of his career as soldier and statesman. For he invited Antigonus into Greece and filled the Peloponnesus with Macedonians, whom he himself had driven out of Peloponnesus when, as a young man, he delivered Acrocorinthus from their power[^29]-he who had incurred the suspicion and hostility of all the reigning kings, and of this very Antigonus had said countless evil things in the commentaries which he left behind him.
 
-[Cleomenes.16.4] And still, though he had incurred many hardships and dangers in behalf of Athens, as he says himself, in order that the city might be set free from its garrison of Macedonians, he afterwards brought these Macedonians, under arms, into his own country and into his own home; aye, even into the apartments of his women; Aratus, xlix. 1. but he would not consent that the man who was a descendant of Heracles and king of Sparta, and was seeking to bring its ancient polity, now like a decadent moody, back again to that restrained and Dorian law and life which Lycurgus had instituted, should be entitled leader of Sicyon and Tritaea.
+[Cleomenes.16.4] And still, though he had incurred many hardships and dangers in behalf of Athens, as he says himself, in order that the city might be set free from its garrison of Macedonians, he afterwards brought these Macedonians, under arms, into his own country and into his own home; aye, even into the apartments of his women;[^30] but he would not consent that the man who was a descendant of Heracles and king of Sparta, and was seeking to bring its ancient polity, now like a decadent moody, back again to that restrained and Dorian law and life which Lycurgus had instituted, should be entitled leader of Sicyon and Tritaea.
 
 [Cleomenes.16.5] Instead of this, to avoid the Spartan barley-bread and short-cloak, and the most dreadful of the evils for which he denounced Cleomenes, namely, abolition of wealth and restoration of poverty, he cast himself and all Achaea down before a diadem, a purple robe, Macedonians, and oriental behests. And that he might not be thought to obey Cleomenes, he offered sacrifices to Antigonus and sang paeans himself, with a garland on his head, in praise of a man who was far gone with consumption.
 
@@ -398,7 +414,7 @@ These remarks upon the glory which comes from the favour of the multitude I have
 
 [Cleomenes.17.1] When the Achaeans came to Argos again for the conference, and Cleomenes had come down from Tegea, everyone had a strong hope that they would come to an agreement. But Aratus, since the most important questions between him and Antigonus had already been settled, and because he was afraid that Cleomenes would carry all his points by either winning over or constraining the multitude, demanded that Cleomenes, after receiving three hundred hostages, should come into the city alone for his conference with them, or else should come with his army as far as the gymnasium outside the city called Cyllarabium, and treat with them there.
 
-[Cleomenes.17.2] When Cleomenes heard this, he declared that he had been wronged; for he ought to have been told of this when the conference was first proposed, and not be distrusted and driven away now, when he had come to their very doors. Then, after writing a letter to the Achaeans on the matter, most of which was denunciation of Aratus, and after Aratus on his part had abused him at great length to the multitude, Cleomenes broke camp with all speed and sent a herald to declare war upon the Achaeans, not to Argos, but to Aegium, in order, as Aratus says, that he might anticipate their preparations for defence.Cf. the Aratus, xxxix.
+[Cleomenes.17.2] When Cleomenes heard this, he declared that he had been wronged; for he ought to have been told of this when the conference was first proposed, and not be distrusted and driven away now, when he had come to their very doors. Then, after writing a letter to the Achaeans on the matter, most of which was denunciation of Aratus, and after Aratus on his part had abused him at great length to the multitude, Cleomenes broke camp with all speed and sent a herald to declare war upon the Achaeans, not to Argos, but to Aegium, in order, as Aratus says, that he might anticipate their preparations for defence.[^31]
 
 [Cleomenes.17.3] Now, there had been agitation among the Achaeans, and their cities were eager for revolt, the common people expecting division of land and abolition of debts, and the leading men in many cases being dissatisfied with Aratus, and some of them also enraged at him for bringing Macedonians into Peloponnesus. Therefore Cleomenes, encouraged by these conditions, invaded Achaea. First, he took Pellené by a sudden assault, and drove out the Achaean garrison; next, he brought over to his cause Pheneus and Pentelcium.
 
@@ -408,7 +424,7 @@ These remarks upon the glory which comes from the favour of the multitude I have
 
 #### Capítulo 18
 
-[Cleomenes.18.1] This greatly increased the reputation and power of Cleomenes. For the ancient kings of Sparta, in spite of numerous efforts, were not able to secure the abiding allegiance of Argos; and the most formidable of generals, Pyrrhus, although he fought his way into the city, could not hold it, but was slain there, and a great part of his army perished with him.See the Pyrrhus, xxxii. ff.
+[Cleomenes.18.1] This greatly increased the reputation and power of Cleomenes. For the ancient kings of Sparta, in spite of numerous efforts, were not able to secure the abiding allegiance of Argos; and the most formidable of generals, Pyrrhus, although he fought his way into the city, could not hold it, but was slain there, and a great part of his army perished with him.[^32]
 
 [Cleomenes.18.2] Therefore men admired the swiftness and intelligence of Cleomenes; and those who before this had mocked at him for imitating, as they said, Solon and Lycurgus in the abolition of debts and the equalization of property, were now altogether convinced that this imitation was the cause of the change in the Spartans.
 
@@ -424,7 +440,7 @@ These remarks upon the glory which comes from the favour of the multitude I have
 
 [Cleomenes.19.3] But Cleomenes, marching up from Argos and taking over Troezen, Epidaurus, and Hermioné, came to Corinth. Its citadel he blockaded, since the Achaeans would not abandon it, and after summoning the friends and stewards of Aratus, ordered them to take the house and property of Aratus into their charge and management.
 
-[Cleomenes.19.4] Then he sent Tritymallus the Messenian once more to Aratus, proposing that Acrocorinthus should be garrisoned by Achaeans and Lacedaemonians together, and promising Aratus personally double the stipend which he was receiving from King Ptolemy.Ptolemy III., surnamed Euergetes, king of Egypt 247-222 B.C. See the Aratus, xli. 3. Aratus, however, would not listen to the proposition, but sent his son to Antigonus along with the other hostages, and persuaded the Achaeans to vote the surrender of Acrocorinthus to Antigonus. Therefore Cleomenes invaded the territory of Sicyon and ravaged it, and accepted the property of Aratus when the Corinthians voted it to him as a gift.
+[Cleomenes.19.4] Then he sent Tritymallus the Messenian once more to Aratus, proposing that Acrocorinthus should be garrisoned by Achaeans and Lacedaemonians together, and promising Aratus personally double the stipend which he was receiving from King Ptolemy.[^33] Aratus, however, would not listen to the proposition, but sent his son to Antigonus along with the other hostages, and persuaded the Achaeans to vote the surrender of Acrocorinthus to Antigonus. Therefore Cleomenes invaded the territory of Sicyon and ravaged it, and accepted the property of Aratus when the Corinthians voted it to him as a gift.
 
 #### Capítulo 20
 
@@ -454,11 +470,11 @@ These remarks upon the glory which comes from the favour of the multitude I have
 
 [Cleomenes.22.3] Next morning he returned to Sparta, and after duly mourning his loss with his mother and children at home, he at once engaged in the measures which he planned for the public good. Now, Ptolemy the king of Egypt promised him aid and assistance, but demanded his mother and his children as hostages. For a long time, therefore, he was ashamed to tell his mother, and though he often went to her and was at the very point of letting her know, he held his peace, so that she on her part became suspicious and enquired of his friends whether there was not something which he wished to impart to her but hesitated to do so.
 
-[Cleomenes.22.4] Finally, when Cleomenes plucked up courage to speak of the matter, his mother burst into a hearty laugh and said: Was this the thing which thou wast often of a mind to tell me but lost thy courage? Make haste, put me on board a vessel, and send this frail body wheresoever thou thinkest it will be of most use to Sparta, before old age destroys it sitting idly here.
+[Cleomenes.22.4] Finally, when Cleomenes plucked up courage to speak of the matter, his mother burst into a hearty laugh and said: “Was this the thing which thou wast often of a mind to tell me but lost thy courage? Make haste, put me on board a vessel, and send this frail body wheresoever thou thinkest it will be of most use to Sparta, before old age destroys it sitting idly here.”
 
 [Cleomenes.22.5] Accordingly, when all things were ready, they came to Taenarus by land, while the army escorted them under arms. And as Cratesicleia was about to embark, she drew Cleomenes aside by himself into the temple of Poseidon, and after embracing and kissing him in his anguish and deep trouble, said:
 
-[Cleomenes.22.6] Come, O king of the Lacedaemonians, when we go forth let no one see us weeping or doing anything unworthy of Sparta. For this lies in our power, and this alone; but as for the issues of fortune, we shall have what the Deity may grant. After saying this, she composed her countenance and proceeded to the ship with her little grandson, and bade the captain put to sea with all speed.
+[Cleomenes.22.6] “Come, O king of the Lacedaemonians, when we go forth let no one see us weeping or doing anything unworthy of Sparta. For this lies in our power, and this alone; but as for the issues of fortune, we shall have what the Deity may grant.” After saying this, she composed her countenance and proceeded to the ship with her little grandson, and bade the captain put to sea with all speed.
 
 [Cleomenes.22.7] And when she was come to Egypt, and learned that Ptolemy was entertaining embassies and proposals from Antigonus, and heard that although the Achaeans invited Cleomenes to make terms with them, he was afraid on her account to end the war without the consent of Ptolemy, she sent word to him that he must do what was fitting and advantageous for Sparta, and not, because of one old woman and a little boy, be ever in fear of Ptolemy. Such, then, as we are told, was the bearing of Cratesicleia in her misfortunes.
 
@@ -476,13 +492,13 @@ These remarks upon the glory which comes from the favour of the multitude I have
 
 [Cleomenes.24.1] At last the disaster became clear to the citizens, and some of them at once fled the city, taking with them what property they could lay hands on, while others banded together under arms, resisting and assaulting the enemy. These they were not strong enough to eject from the city, but they afforded a safe escape to the citizens who wished to flee, so that not more than a thousand persons were taken in the place all the rest, together with their wives and children, succeeded in escaping to Messene.
 
-[Cleomenes.24.2] Moreover, the greater part of those who tried to save the city by fighting got off alive; but a few of them, all told, were captured, among whom were Lysandridas and Thearidas, men of the greatest reputation and influence in Megalopolis. Therefore the soldiers had no sooner seized them than they brought them to Cleomenes. Then Lysandridas, when he saw Cleomenes from afar, cried out with a loud voice and said: It is in thy power now, O king of the Lacedaemonians, to display an action fairer and more worthy of a king than any that has preceded it, and thereby win men’s highest esteem.
+[Cleomenes.24.2] Moreover, the greater part of those who tried to save the city by fighting got off alive; but a few of them, all told, were captured, among whom were Lysandridas and Thearidas, men of the greatest reputation and influence in Megalopolis. Therefore the soldiers had no sooner seized them than they brought them to Cleomenes. Then Lysandridas, when he saw Cleomenes from afar, cried out with a loud voice and said: “It is in thy power now, O king of the Lacedaemonians, to display an action fairer and more worthy of a king than any that has preceded it, and thereby win men’s highest esteem.”
 
-[Cleomenes.24.3] But Cleomenes, conjecturing what the speaker wished, said: What meanest thou, Lysandridas? Thou surely canst not bid me give your city back again to you. To which Lysandridas replied: Indeed, that is just what I mean, and I advise thee in thine own interests not to destroy so great a city, hut to fill it with friends and allies who are trusty and true by giving back to the Megalopolitans their native city and becoming the preserver of so large a people.
+[Cleomenes.24.3] But Cleomenes, conjecturing what the speaker wished, said: “What meanest thou, Lysandridas? Thou surely canst not bid me give your city back again to you.” To which Lysandridas replied: “Indeed, that is just what I mean, and I advise thee in thine own interests not to destroy so great a city, hut to fill it with friends and allies who are trusty and true by giving back to the Megalopolitans their native city and becoming the preserver of so large a people.”
 
-[Cleomenes.24.4] Accordingly, after a short silence, Cleomenes said: It is difficult to believe that all this will happen, but with us let what makes for good repute always carry the day, rather than what brings gain. And with these words he sent the two men off to Messene attended by a herald from himself, offering to give back their city to the Megalopolitans on condition that they renounce the Achaean cause and be his friends and allies.
+[Cleomenes.24.4] Accordingly, after a short silence, Cleomenes said: “It is difficult to believe that all this will happen, but with us let what makes for good repute always carry the day, rather than what brings gain.” And with these words he sent the two men off to Messene attended by a herald from himself, offering to give back their city to the Megalopolitans on condition that they renounce the Achaean cause and be his friends and allies.
 
-[Cleomenes.24.5] However, although Cleomenes made this benevolent and humane offer, Philopoemen would not allow the Megalopolitans to break their pledges to the Achaeans, but denounced Cleomenes on the ground that he sought, not so much to give their city back to its citizens, as rather to get the citizens with their citySee the Philopoemen, v. ; then he drove Thearidas and Lysandridas out of Messene. This was that Philopoemen who afterwards became the leader of the Achaeans and won the greatest fame among the Greeks, as I have written in his own Life.
+[Cleomenes.24.5] However, although Cleomenes made this benevolent and humane offer, Philopoemen would not allow the Megalopolitans to break their pledges to the Achaeans, but denounced Cleomenes on the ground that he sought, not so much to give their city back to its citizens, as rather to get the citizens with their city[^34]; then he drove Thearidas and Lysandridas out of Messene. This was that Philopoemen who afterwards became the leader of the Achaeans and won the greatest fame among the Greeks, as I have written in his own Life.
 
 #### Capítulo 25
 
@@ -490,7 +506,7 @@ These remarks upon the glory which comes from the favour of the multitude I have
 
 [Cleomenes.25.2] But these did nothing. For they were holding a general assembly at Aegium; and here Aratus, after mounting the bema, wept for a long time, holding his mantle before his face; and when his audience was amazed and bade him speak, he told them that Megalopolis had been destroyed by Cleomenes. Then the assembly at once broke up, the Achaeans being filled with consternation at the swiftness and magnitude of the calamity.
 
-[Cleomenes.25.3] Antigonus at first attempted to give aid, but afterwards, since his forces came up to him but slowly from their winter quarters, he ordered them to remain where they were, while he himself proceeded to Argos, having only a few soldiers with him. And this was the reason why the next attempt of Cleomenes, which was thought to be a deed of extravagant and frantic daring, was really made with great forethought, as Polybius says.Most people thought this a hazardous and foolhardy step; but those who were capable of judging regarded the measure as at once safe and prudent (ii. 64, 1).
+[Cleomenes.25.3] Antigonus at first attempted to give aid, but afterwards, since his forces came up to him but slowly from their winter quarters, he ordered them to remain where they were, while he himself proceeded to Argos, having only a few soldiers with him. And this was the reason why the next attempt of Cleomenes, which was thought to be a deed of extravagant and frantic daring, was really made with great forethought, as Polybius says.[^35]
 
 [Cleomenes.25.4] For Cleomenes knew that the Macedonians were dispersed among the cities in their winter quarters, and that Antigonus had only a few mercenaries with him at Argos, where he was spending the winter with his friends. Cleomenes therefore invaded the territory of Argos, calculating that Antigonus would either be shamed into fighting and would be overpowered, or, in case he did not venture to fight, would incur odium among the Argives. And this was what actually came to pass. For while Cleomenes was wasting the country and robbing it of all that was there,
 
@@ -508,7 +524,7 @@ These remarks upon the glory which comes from the favour of the multitude I have
 
 #### Capítulo 27
 
-[Cleomenes.27.1] But he who first declared that money is the sinews of affairs would seem to have spoken with special reference to the affairs of war. And Demades, when the Athenians once ordered that their triremes should be launched and manned, but had no money, said: Dough must be moistened before it is kneaded. it is said also that Archidamus of old, towards the beginning of the Peloponnesian war, when the allies ordered their contributions for the war to be fixed, said: War has no fixed rations. See the Crassus, ii. 7.
+[Cleomenes.27.1] But he who first declared that money is the sinews of affairs would seem to have spoken with special reference to the affairs of war. And Demades, when the Athenians once ordered that their triremes should be launched and manned, but had no money, said: “Dough must be moistened before it is kneaded.” it is said also that Archidamus of old, towards the beginning of the Peloponnesian war, when the allies ordered their contributions for the war to be fixed, said: “War has no fixed rations.” [^36]
 
 [Cleomenes.27.2] And indeed, just as athletes who have taken a full course of training, in time bear down and overpower those who are merely graceful and skilful, so also did Antigonus, who engaged in the war with large resources, wear out and prostrate Cleomenes, who could only meagerly and with difficulty provide pay for his mercenaries and sustenance for his citizen-soldiers.
 
@@ -516,7 +532,7 @@ These remarks upon the glory which comes from the favour of the multitude I have
 
 [Cleomenes.27.4] But Fortune, who decides the most important affairs by a narrow margin, favoured him with so slight a preponderance in the scale of opportunity and power, that no sooner had the battle at Sellasia been fought, where Cleomenes lost his army and his city, than the messengers summoning Antigonus arrived. And this more than anything else made the misfortune of Cleomenes to be greatly pitied.
 
-[Cleomenes.27.5] For if he could have held out only two days, and continued his defensive tactics, he would not have needed to fight a battle, but the Macedonians would have gone away and he could have made his own terms with the Achaeans. But now, as I said before, his lack of resources forced him to stake the whole issue on a battle where, as Polybius says, Hist. ii. 65. 2 and 7. The battle of Sellasia was fought in June of 221 B.C. he could oppose only twenty thousand men to thirty thousand.
+[Cleomenes.27.5] For if he could have held out only two days, and continued his defensive tactics, he would not have needed to fight a battle, but the Macedonians would have gone away and he could have made his own terms with the Achaeans. But now, as I said before, his lack of resources forced him to stake the whole issue on a battle where, as Polybius says,[^37] he could oppose only twenty thousand men to thirty thousand.
 
 #### Capítulo 28
 
@@ -524,9 +540,9 @@ These remarks upon the glory which comes from the favour of the multitude I have
 
 [Cleomenes.28.2] For Antigonus ordered his Illyrians and Acarnanians to go round by a secret way and envelope the other wing, which Eucleidas, the brother of Cleomenes, commanded, and then led out the rest of his forces to battle; and when Cleomenes, from his post of observation, could nowhere see the arms of the Illyrians and Acarnanians, he was afraid that Antigonus was using them for some such purpose.
 
-[Cleomenes.28.3] He therefore called Damoteles, the commander of the secret service contingent,A rural police with the special duty of watching the Helots, or slave population. and ordered him to observe and find out how matters stood in the rear and on the flanks of his array. But Damoteles (who had previously been bribed, as we are told, by Antigonus) told him to have no concern about flanks and rear, for all was well there, but to give his attention to those who assailed him in front, and repulse them. So Cleomenes, putting faith in what he was told, advanced upon Antigonus,
+[Cleomenes.28.3] He therefore called Damoteles, the commander of the secret service contingent,[^38] and ordered him to observe and find out how matters stood in the rear and on the flanks of his array. But Damoteles (who had previously been bribed, as we are told, by Antigonus) told him to have no concern about flanks and rear, for all was well there, but to give his attention to those who assailed him in front, and repulse them. So Cleomenes, putting faith in what he was told, advanced upon Antigonus,
 
-[Cleomenes.28.4] and by the sweeping onset of his Spartans drove back the phalanx of the Macedonians for about five furlongs, and followed after them victoriously. Then, after Eucleidas with the other wing had been encircled, he came to a stop, and seeing their peril, said; I have lost thee, my dearest brother, I have lost thee, thou noble heart, thou great example to Spartan boys, thou theme for a song to Spartan wives!
+[Cleomenes.28.4] and by the sweeping onset of his Spartans drove back the phalanx of the Macedonians for about five furlongs, and followed after them victoriously. Then, after Eucleidas with the other wing had been encircled, he came to a stop, and seeing their peril, said; “I have lost thee, my dearest brother, I have lost thee, thou noble heart, thou great example to Spartan boys, thou theme for a song to Spartan wives!”
 
 [Cleomenes.28.5] After Eucleidas and his forces had in this way been cut to pieces, and the enemy, after their victory there, were coming on against the other wing, Cleomenes, seeing that his soldiers were in disorder and no longer had courage to stand their ground, took measures for his own safety. Many of his mercenaries fell, as we are told, and all the Spartans, six thousand in number, except two hundred.
 
@@ -540,23 +556,23 @@ These remarks upon the glory which comes from the favour of the multitude I have
 
 #### Capítulo 30
 
-[Cleomenes.30.1] Antigonus marched up and took the city without resistance. He treated the Lacedaemonians humanely, and did not insult or mock the dignity of Sparta, but restored her laws and constitution,As they were before the reforms of Cleomenes. sacrificed to the gods, and went away on the third day. For he learned that there was a great war in Macedonia and that the Barbarians were ravaging the country. Moreover, his disease was already ill full possession of him, having developed into a quick consumption and an acute catarrh.
+[Cleomenes.30.1] Antigonus marched up and took the city without resistance. He treated the Lacedaemonians humanely, and did not insult or mock the dignity of Sparta, but restored her laws and constitution,[^39] sacrificed to the gods, and went away on the third day. For he learned that there was a great war in Macedonia and that the Barbarians were ravaging the country. Moreover, his disease was already ill full possession of him, having developed into a quick consumption and an acute catarrh.
 
-[Cleomenes.30.2] He did not, however, give up, but had strength left for his conflicts at home, so that he won a very great victory, slew a prodigious number of the Barbarians, and died gloriously, having broken a blood-vessel (as it is likely, and as Phylarchus says by the very shout that he raised on the field of battle. And in the schools of philosophy one used to hear the story that after his victory he shouted for joy, O happy day! and then brought up a quantity of blood, fell into a high fever, and so died. So much concerning Antigonus.
+[Cleomenes.30.2] He did not, however, give up, but had strength left for his conflicts at home, so that he won a very great victory, slew a prodigious number of the Barbarians, and died gloriously, having broken a blood-vessel (as it is likely, and as Phylarchus says by the very shout that he raised on the field of battle. And in the schools of philosophy one used to hear the story that after his victory he shouted for joy, “O happy day!” and then brought up a quantity of blood, fell into a high fever, and so died. So much concerning Antigonus.
 
 #### Capítulo 31
 
-[Cleomenes.31.1] As for Cleomenes, he sailed from Cythera to Aegialia, another island, and put in there. As he was about to cross from thence to Cyrene, one of his friends, Therycion by name, a man who brought a large spirit to the conduct of affairs and was always somewhat lofty in his speech and grandiloquent, came to him privately and said: The noblest death, O King, a death in battle, we have put away from us;
+[Cleomenes.31.1] As for Cleomenes, he sailed from Cythera to Aegialia, another island, and put in there. As he was about to cross from thence to Cyrene, one of his friends, Therycion by name, a man who brought a large spirit to the conduct of affairs and was always somewhat lofty in his speech and grandiloquent, came to him privately and said: “The noblest death, O King, a death in battle, we have put away from us; ”
 
-[Cleomenes.31.2] and yet all men heard us declare that Antigonus should not pass the king of Sparta except over his dead body. But a death that is second in virtue and glory is now still in our power. Whither do we unreasoningly sail, fleeing an evil that is near and pursuing one that is afar off? For if it is not shameful that the descendants of Heracles should be in subjection to the successors of Philip and Alexander, we shall spare ourselves a long voyage by surrendering to Antigonus, who is likely to surpass Ptolemy as much as Macedonians surpass Egyptians.
+[Cleomenes.31.2] “and yet all men heard us declare that Antigonus should not pass the king of Sparta except over his dead body. But a death that is second in virtue and glory is now still in our power. Whither do we unreasoningly sail, fleeing an evil that is near and pursuing one that is afar off? For if it is not shameful that the descendants of Heracles should be in subjection to the successors of Philip and Alexander, we shall spare ourselves a long voyage by surrendering to Antigonus, who is likely to surpass Ptolemy as much as Macedonians surpass Egyptians.”
 
-[Cleomenes.31.3] But if we cannot consent to be ruled by those who have conquered us in arms, wily should we make him our master who has not defeated us, thus showing ourselves inferior to two instead of one by running away from Antigonus and joining the flatterers of Ptolemy? Or, shall we say that it is on thy mother’s account that we come to Egypt? Surely thou wilt make a noble spectacle for her, and one to awaken envy, when she displays her son to the wives of Ptolemy, a captive instead of a king, and a runaway.
+[Cleomenes.31.3] “But if we cannot consent to be ruled by those who have conquered us in arms, wily should we make him our master who has not defeated us, thus showing ourselves inferior to two instead of one by running away from Antigonus and joining the flatterers of Ptolemy? Or, shall we say that it is on thy mother’s account that we come to Egypt? Surely thou wilt make a noble spectacle for her, and one to awaken envy, when she displays her son to the wives of Ptolemy, a captive instead of a king, and a runaway.”
 
-[Cleomenes.31.4] Let us rather, while we are still masters of our own swords and can gaze upon the land of Laconia, here rid ourselves of Fortune’s yoke, and make our peace with those who at Sellasia died in defence of Sparta, instead of sitting idly down in Egypt and asking every now and then whom Antigonus has left as satrap of Lacedaemon. Such were the words of Therycion, and to them Cleomenes replied: It is the easiest possible step thou urgest, wretched man, and one that any man may take, this dying; and dost thou think thyself brave when thou art making a flight more shameful than the one preceding it?
+[Cleomenes.31.4] “Let us rather, while we are still masters of our own swords and can gaze upon the land of Laconia, here rid ourselves of Fortune’s yoke, and make our peace with those who at Sellasia died in defence of Sparta, instead of sitting idly down in Egypt and asking every now and then whom Antigonus has left as satrap of Lacedaemon.” Such were the words of Therycion, and to them Cleomenes replied: “It is the easiest possible step thou urgest, wretched man, and one that any man may take, this dying; and dost thou think thyself brave when thou art making a flight more shameful than the one preceding it? ”
 
-[Cleomenes.31.5] Better men than we have given in to their enemies before this, having been betrayed by Fortune or overwhelmed by numbers. But he who in the face of toils and hardships, or of the censorious judgments of men, gives up the fight, is vanquished by his own weakness. For a self-inflicted death ought to be, not flight from action, but an action in itself. For it is shameful to die, as well as to live, for one’s self alone. And yet it is to this that thou now invitest me in thine eagerness to be rid of present troubles, though beyond that thou wilt effect nothing that is honourable or useful.
+[Cleomenes.31.5] “Better men than we have given in to their enemies before this, having been betrayed by Fortune or overwhelmed by numbers. But he who in the face of toils and hardships, or of the censorious judgments of men, gives up the fight, is vanquished by his own weakness. For a self-inflicted death ought to be, not flight from action, but an action in itself. For it is shameful to die, as well as to live, for one’s self alone. And yet it is to this that thou now invitest me in thine eagerness to be rid of present troubles, though beyond that thou wilt effect nothing that is honourable or useful.”
 
-[Cleomenes.31.6] I, however, think it right that neither thou nor I should abandon our hopes for our country; when these abandon us, death will be very easy if we wish it.
+[Cleomenes.31.6] “I, however, think it right that neither thou nor I should abandon our hopes for our country; when these abandon us, death will be very easy if we wish it.”
 
 To this Therycion made no reply, but as soon as he got an opportunity to leave Cleomenes, he turned aside along the sea-beach and slew himself.
 
@@ -570,7 +586,7 @@ To this Therycion made no reply, but as soon as he got an opportunity to leave C
 
 #### Capítulo 33
 
-[Cleomenes.33.1] Well, then, the elder PtolemyPtolemy III., surnamed Euergetes, died in 220 B.C., and was followed by Ptolemy IV., surnamed Philopator. died before sending Cleomenes off as he had promised; and since the court at once plunged into excessive wantonness and drunkenness, and women wielded the power, the affairs of Cleomenes were neglected.
+[Cleomenes.33.1] Well, then, the elder Ptolemy[^40] died before sending Cleomenes off as he had promised; and since the court at once plunged into excessive wantonness and drunkenness, and women wielded the power, the affairs of Cleomenes were neglected.
 
 [Cleomenes.33.2] For the king himself was so corrupted in spirit by wine and women that, in his soberest and most serious moments, he would celebrate religious rites and act the mountebank in his palace,timbrel in hand, while the most important affairs of the government were managed by Agathocleia, the mistress of the king, and Oenanthe her mother, who was a bawd.
 
@@ -580,21 +596,31 @@ To this Therycion made no reply, but as soon as he got an opportunity to leave C
 
 [Cleomenes.33.5] At the time this speech won for Cleomenes no little faith in his good will and belief in his strength; but afterwards, when Ptolemy’s weakness intensified his cowardice, and, as is wont to happen where there is no sound judgment, His best course seemed to him to lie in fearing everybody and distrusting all men, it led the courtiers to be afraid of Cleomenes, on the ground that he had a strong following among the mercenaries;
 
-[Cleomenes.33.6] and many of them were heard to say: There goes the lion up and down along these sheep. And such, in fact, he clearly was among the courtiers, eyeing with quiet contempt and closely watching what was going on.
+[Cleomenes.33.6] and many of them were heard to say: “There goes the lion up and down along these sheep.” And such, in fact, he clearly was among the courtiers, eyeing with quiet contempt and closely watching what was going on.
 
 #### Capítulo 34
 
-[Cleomenes.34.1] For ships, therefore, and an army, he gave up asking; but on learning that Antigonus was deadCf. chapter xxx. 2. and that the Achaeans were involved in a war with the Aetolians, and that affairs yearned and called for him now that Peloponnesus was rent asunder and in confusion, he demanded to be sent away with his friends merely; but he could persuade no one.
+[Cleomenes.34.1] For ships, therefore, and an army, he gave up asking; but on learning that Antigonus was dead[^41] and that the Achaeans were involved in a war with the Aetolians, and that affairs yearned and called for him now that Peloponnesus was rent asunder and in confusion, he demanded to be sent away with his friends merely; but he could persuade no one.
 
 [Cleomenes.34.2] The king would not give him a hearing, but was absorbed with women and Dionysiac routs and revels; and Sosibius, the prime minister and chief counsellor, thought that if Cleomenes remained against his will he might be hard to manage, indeed, and an object of fear, but that if he were sent away he would make some bold attempt, being a man of large undertakings, and one who had been an eye-witness of the distempers of the realm.
 
-[Cleomenes.34.3] For not even gifts would soften him, but just as the sacred bull Apis, though living in plenty and believed to be having a luxurious time, feels a desire for the life that was his by nature, for coursings without restraint, and leaps and bounds, and is manifestly disgusted with his treatment at the hands of the priests, so Cleomenes took no pleasure in his life of ease and luxury, but kept pining away in his dear heart, like Achilles, Iliad, i. 491 f. As he lingered there, and kept yearning for war-cry and battle.
+[Cleomenes.34.3] For not even gifts would soften him, but just as the sacred bull Apis, though living in plenty and believed to be having a luxurious time, feels a desire for the life that was his by nature, for coursings without restraint, and leaps and bounds, and is manifestly disgusted with his treatment at the hands of the priests, so Cleomenes took no pleasure in his life of ease and luxury,
+
+```verso
+but kept pining away in his dear heart,
+```
+
+like Achilles,[^42]
+
+```verso
+As he lingered there, and kept yearning for war-cry and battle.
+```
 
 #### Capítulo 35
 
 [Cleomenes.35.1] While matters stood thus with him, Nicagoras the Messenian came to Alexandria, a man who hated Cleomenes, but pretended to be a friend. He had at one time sold Cleomenes a fine estate, and owing to the constant demands of war upon the king, as it would seem, had not received the money for it. And so now, when Cleomenes, who chanced to be taking a walk along the quay, saw Nicagoras landing from his vessel, he greeted him heartily and asked what errand brought him to Egypt.
 
-[Cleomenes.35.2] Nicagoras returned his greeting in a friendly manner, and said that he was bringing horses for the king, some fine ones for use in war. At this, Cleomenes gave a laugh and said: I could wish that thou hadst rather brought sambuca-girls and catamites; for these now most interest the king. At the time Nicagoras merely smiled; but a few days later he reminded Cleomenes of the estate, and asked that now at any rate he might get the money for it, saying that he would not have troubled him about the matter if he had not met with a considerable loss in the disposition of his cargo;
+[Cleomenes.35.2] Nicagoras returned his greeting in a friendly manner, and said that he was bringing horses for the king, some fine ones for use in war. At this, Cleomenes gave a laugh and said: “I could wish that thou hadst rather brought sambuca-girls and catamites; for these now most interest the king.” At the time Nicagoras merely smiled; but a few days later he reminded Cleomenes of the estate, and asked that now at any rate he might get the money for it, saying that he would not have troubled him about the matter if he had not met with a considerable loss in the disposition of his cargo;
 
 [Cleomenes.35.3] and when Cleomenes declared that he had nothing left of the moneys that had been given him, Nicagoras was vexed, and reported to Sosibius the pleasantry of Cleomenes. Sosibius was glad to get even this matter, but he desired to have some larger accusation with which to exasperate the king, and therefore persuaded Nicagoras to write and leave behind him a letter accusing Cleomenes of planning, in case he got triremes and soldiers from Ptolemy, to seize Cyrene.
 
@@ -622,7 +648,7 @@ To this Therycion made no reply, but as soon as he got an opportunity to leave C
 
 [Cleomenes.37.5] Then they proceeded to the citadel, purposing to break open the prison and avail themselves of the multitude of prisoners. But the guards were too quick for them and barred the way securely, so that Cleomenes, baffled in this attempt also, roamed up and down through the city, not a man joining with him but everybody filled with fear and flying from him.
 
-[Cleomenes.37.6] So, then, he desisted from his attempt, and saying to his friends, It is no wonder, after all, that women rule over men who run away from freedom, he called upon them all to die in a manner worthy of their king and their past achievements. So Hippitas first, at his own request, was smitten down by one of the younger men, then each of the others calmly and cheerfully slew himself, except Panteus, the man who led the way in the capture of Megalopolis.See chapter xxiii. 4.
+[Cleomenes.37.6] So, then, he desisted from his attempt, and saying to his friends, “It is no wonder, after all, that women rule over men who run away from freedom,” he called upon them all to die in a manner worthy of their king and their past achievements. So Hippitas first, at his own request, was smitten down by one of the younger men, then each of the others calmly and cheerfully slew himself, except Panteus, the man who led the way in the capture of Megalopolis.[^43]
 
 [Cleomenes.37.7] He had once been the king’s favourite, because in his youth he was most fair, and in his young manhood most amenable to the Spartan discipline; and now his orders were to wait until the king and the rest of the band were dead, and then to die himself. At last all the rest lay prostrate on the ground, and Panteus, going up to each one in turn and pricking him with his sword, sought to discover whether any spark of life remained. When he pricked Cleomenes in the ankle and saw that his face twitched, he kissed him, and then sat down by his side; at last the end came, and after embracing the king’s dead body, he slew himself upon it.
 
@@ -636,7 +662,7 @@ To this Therycion made no reply, but as soon as he got an opportunity to leave C
 
 [Cleomenes.38.4] a little later, however, she procured herself a horse and a small sum of money, ran away by night, made all speed to Taenarum, and there embarked upon a ship bound for Egypt. She was conveyed to her husband, and with him bore their life in a strange land without complaint and cheerfully. She it was who now took the hand of Cratesicleia as she was led forth by the soldiers, held up her robe for her, and bade her be of good courage. And Cratesicleia herself was not one whit dismayed at death, but asked one favour only, that she might die before the children died.
 
-[Cleomenes.38.5] However, when they were come to the place of execution, first the children were slain before her eyes, and then Cratesicleia herself was slain, making but this one cry at sorrows so great: O children, whither are ye gone? Then the wife of Panteus, girding up her robe, vigorous and stately woman that she was, ministered to each of the dying women calmly and without a word, and laid them out for burial as well as she could.
+[Cleomenes.38.5] However, when they were come to the place of execution, first the children were slain before her eyes, and then Cratesicleia herself was slain, making but this one cry at sorrows so great: “O children, whither are ye gone?” Then the wife of Panteus, girding up her robe, vigorous and stately woman that she was, ministered to each of the dying women calmly and without a word, and laid them out for burial as well as she could.
 
 [Cleomenes.38.6] And finally, after all were cared for, she arrayed herself; let down the robes from about her neck, and suffering no one besides the executioner to come near or look upon her, bravely met her end, and had no need of anyone to array or cover up her body after death. Thus her decorum of spirit attended her in death, and she maintained to the end that watchful care of her body which she had set over it in life.
 
@@ -648,6 +674,46 @@ To this Therycion made no reply, but as soon as he got an opportunity to leave C
 
 [Cleomenes.39.3] as putrefying oxen breed bees, and horses wasps, and as beetles are generated in asses which are in the like condition of decay, so human bodies, when the juices about the marrow collect together and coagulate, produce serpents. And it was because they observed this that the ancients associated the serpent more than any other animal with heroes.
 
----
-
-*Ὁ Διαφορεύς παρῆν*
+[^1]: Probably in the lost Poimenes, or Shepherds (Nauck, Trag. Graec. Frag.2, p. 249).
+[^2]: In 338 B.C.
+[^3]: In 330 B.C.
+[^4]: In 224 B.C.
+[^5]: In 395 B.C. See the Lysander, xxx. 1.
+[^6]: See the Pyrrhus, xxvi. 8ff.
+[^7]: In 265 B.C., in battle with Antigonus Gonatas.
+[^8]: About 256 B.C.
+[^9]: See the Lycurgus, viii.f.
+[^10]: About 243 B.C.
+[^11]: Plutarch here merges two separate laws. Cf. the Lycurgus, xxvii. 3.
+[^12]: About 242 B.C.
+[^13]: See chapter vi. 3 f.
+[^14]: In his Commentaries. See the Aratus, iii. 2.
+[^15]: This was regularly done thrice during a period of nine years, but in distinctly specified years. The object was to equalize the lunar and solar years.
+[^16]: On the promontory of Taenarum. See the Cleomenes, xxii. 5.
+[^17]: See the Pelopidas, xxiii.
+[^18]: About 241 B.C.
+[^19]: In 235 B.C. Cleomenes was then about twenty-four years of age.
+[^20]: Agis II. (427-398 B.C.); cf. the Morals, pp. 190c; 215d.
+[^21]: See chapter i. 1.
+[^22]: Such Helot companions afterwards became freemen, and sometimes even citizens in Sparta.
+[^23]: By Stasinus of Cyprus. Cf. Plato, Euthyphro, 12a; Kinkel, Ep. Graec. Frag. i. p. 30.
+[^24]: Iliad, iii. 172, Helen to Priam.
+[^25]: Iliad, iv. 431
+[^26]: Iliad, iv. 431, of the Achaeans marshalled for battle.
+[^27]: Chapter xii.
+[^28]: Cf. the Aratus, xxxviii. 5f.
+[^29]: See the Aratus, xvi. ff.
+[^30]: Aratus, xlix. 1.
+[^31]: Cf. the Aratus, xxxix.
+[^32]: See the Pyrrhus, xxxii. ff.
+[^33]: Ptolemy III., surnamed Euergetes, king of Egypt 247-222 B.C. See the Aratus, xli. 3.
+[^34]: See the Philopoemen, v.
+[^35]: Most people thought this a hazardous and foolhardy step; but those who were capable of judging regarded the measure as at once safe and prudent (ii. 64, 1).
+[^36]: See the Crassus, ii. 7.
+[^37]: Hist. ii. 65. 2 and 7. The battle of Sellasia was fought in June of 221 B.C.
+[^38]: A rural police with the special duty of watching the Helots, or slave population.
+[^39]: As they were before the reforms of Cleomenes.
+[^40]: Ptolemy III., surnamed Euergetes, died in 220 B.C., and was followed by Ptolemy IV., surnamed Philopator.
+[^41]: Cf. chapter xxx. 2.
+[^42]: Iliad, i. 491 f.
+[^43]: See chapter xxiii. 4.

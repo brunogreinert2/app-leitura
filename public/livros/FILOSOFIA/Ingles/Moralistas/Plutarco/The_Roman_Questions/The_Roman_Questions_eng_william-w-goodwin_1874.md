@@ -1,34 +1,26 @@
 ---
 id: plutarco-the-roman-questions-eng-william-w-goodwin-1874
-type: texto_primario
-title: "Roman Questions"
-subtitle: null
+type: translation
+title: Roman Questions
 author: Plutarch
-year_original: null
-language: eng
-translation:
-  - William W. Goodwin
+translator:
+- Isaac Chauncy
 publisher: Little, Brown, and Company
-area: null
-era: null
-tags: []
-status: rascunho
+language: eng
+tags:
+- moralists
+status: draft
 project: pedra_angular
-source: "Plutarch. Roman Questions. Ed. William W. Goodwin. Boston: Little, Brown, and Company, 1874. Perseus Digital Library, Tufts University (CC BY-SA 4.0). URN: null"
-related: []
+urn_work: urn:cts:greekLit:tlg0007.tlg084a
+urn: urn:cts:greekLit:tlg0007.tlg084a.perseus-eng4
+source: 'Plutarch. Roman Questions. Ed. William W. Goodwin. Boston: Little, Brown, and Company, 1874. Perseus Digital Library, Tufts University (CC BY-SA 4.0).'
+source_repo: PerseusDL/canonical-greekLit
+source_file: data/tlg0007/tlg084a/tlg0007.tlg084a.perseus-eng4.xml
+source_commit: e37eed2e8
+license: CC-BY-SA-4.0
 ---
 
 # Roman Questions
-
-**Plutarch**
-
-Boston: Little, Brown, and Company, 1874.
-Perseus Digital Library, Tufts University (CC BY-SA 4.0).
-URN: `null`
-
----
-
-## Texto
 
 [1] Question 1. Wherefore do the Romans require a new-married woman to touch fire and water?
 
@@ -50,7 +42,12 @@ Solution. Was it to put them in mind of an old casualty? For it is said, that am
 
 [5] Question 5. Wherefore is it that those that are falsely reported to be dead in foreign countries, when they return, they receive not by the doors, but getting up to the roof of the house, they let them in that way?
 
-Solution. Verily the account which Varro gives of this matter is altogether fabulous. For he saith, in the Sicilian war, when there was a great naval fight, and a very false report was rumored concerning many as if they were slain, all of them returning home in a little time died. But as one of them was going to enter in at his doors, they shut together against him of their own accord, neither could they be opened by any that attempted it. This man, falling in a sleep before the doors, saw an apparition in his sleep advising him to let himself down from the roof into the house, and doing so, he lived happily and became an old man; and hence the custom was confirmed to after ages. But consider if these things be not conformable to some usages of the Greeks. For they do not esteem those pure nor keep them company nor suffer them to approach their sacrifices, for whom any funeral was carried forth or sepulchre made as if they were dead; and they say that Aristinus, being one that was become an object of this sort of superstition, sent to Delphi to beg and beseech of the God a resolution of the anxieties and troubles which he had by reason of the custom then in force. Pythia answered thus:— The sacred rites t’ which child-bed folks conform, See that thou do to blessed Gods perform.
+Solution. Verily the account which Varro gives of this matter is altogether fabulous. For he saith, in the Sicilian war, when there was a great naval fight, and a very false report was rumored concerning many as if they were slain, all of them returning home in a little time died. But as one of them was going to enter in at his doors, they shut together against him of their own accord, neither could they be opened by any that attempted it. This man, falling in a sleep before the doors, saw an apparition in his sleep advising him to let himself down from the roof into the house, and doing so, he lived happily and became an old man; and hence the custom was confirmed to after ages. But consider if these things be not conformable to some usages of the Greeks. For they do not esteem those pure nor keep them company nor suffer them to approach their sacrifices, for whom any funeral was carried forth or sepulchre made as if they were dead; and they say that Aristinus, being one that was become an object of this sort of superstition, sent to Delphi to beg and beseech of the God a resolution of the anxieties and troubles which he had by reason of the custom then in force. Pythia answered thus:—
+
+```verso
+The sacred rites t’ which child-bed folks conform,
+See that thou do to blessed Gods perform.
+```
 
 Aristinus, well understanding the meaning of the oracle, puts himself into the women’s hands, to be washed and wrapped in swaddling clouts, and sucks the breasts, in the same manner as when he was newly born; and thus all others do, and such are called Hysteropotmi (i.e. those for whom a funeral was made while living). But some say that these ceremonies were before Aristinus, and that the custom was ancient. Wherefore it is not to be wondered at, if the Romans, when once they suppose a man buried and to have his lot among the dead, do not think it lawful for him to go in at the door whereat they that are about to sacrifice do go out or those that have sacrificed do enter in, but bid them ascend aloft into the air, and thence descend into the open court of the house. For they constantly offer their sacrifices of purification in this open court.
 
@@ -134,13 +131,13 @@ Solution. What if it be this (as Juba writes), that on the Kalends the magistrat
 
 [25] Question 25. Why do they determine that the days after the Kalends, Nones, and Ides are unfit to travel or go a long journey in?
 
-Solution. Was it (as most men think, and Livy tells us) because on the next day after the Ides of Quintilis (which they now call July), the tribunes of the soldiery marching forth, the army was conquered by the Gauls in a battle about the river Allia and lost the city, whereupon this day was reckoned unlucky; and superstition (as it loves to do) extended this observation further, and subjected the next days after the Nones and Kalends to the same scrupulosity? Or what if this notion meet with much contradiction? For it was on another day they were defeated in battle, which they call Alliensis (from the river) and greatly abominate as unsuccessful; and whereas there be many unlucky days, they do not observe them in all the months alike, but every one in the month it happens in, and it is most improbable that all the next days after the Nones and Kalends simply considered should contract this superstition. Consider now whether—as they consecrated the first of the months to the Olympic Gods, and the second to the infernals, wherein they solemnize some purifications and funeral rites to the ghosts of the deceased— they have so constituted the three which have been spoken of, as it were, the chief and principal days for festival and holy days, designating the next following these to daemons and deceased persons, which days they esteemed unfortunate and unfit for action. And also the Grecians, worshipping their Gods at the new of the moon, dedicated the next day to heroes and daemons, and the second of the cups was mingled on the behalf of the male and female heroes. Moreover, time is altogether a number; and unity, which is the foundation of a number, is of a divine nature. The number next is two, opposite to the first, and is the first of even numbers. But an even number is defective, imperfect, and indefinite; as again an odd number is determinate, definite, and complete. Therefore the Nones succeed the Kalends on the fifth day, the Ides follow the Nones on the ninth, for odd numbers do determine the beginnings. But those even numbers which are next after the beginnings have not that pre-eminence nor influence; hence on such days they take not any actions or journey in hand. Wherefore that of Themistocles hath reason in it. The Day after the feast contended with the Feast-day, saying that the Feast-day had much labor and toil, but she (the Day after the feast) afforded the fruition of the provision made for the Feast-day, with much leisure and quietness. The Feast-day answered after this wise: Thou speakest truth; but if I had not been, neither hadst thou been. These things spake Themistocles to the Athenian officers of the army, who succeeded him, signifying that they could never have made any figure in the world had not he saved the city.
+Solution. Was it (as most men think, and Livy tells us) because on the next day after the Ides of Quintilis (which they now call July), the tribunes of the soldiery marching forth, the army was conquered by the Gauls in a battle about the river Allia and lost the city, whereupon this day was reckoned unlucky; and superstition (as it loves to do) extended this observation further, and subjected the next days after the Nones and Kalends to the same scrupulosity? Or what if this notion meet with much contradiction? For it was on another day they were defeated in battle, which they call Alliensis (from the river) and greatly abominate as unsuccessful; and whereas there be many unlucky days, they do not observe them in all the months alike, but every one in the month it happens in, and it is most improbable that all the next days after the Nones and Kalends simply considered should contract this superstition. Consider now whether—as they consecrated the first of the months to the Olympic Gods, and the second to the infernals, wherein they solemnize some purifications and funeral rites to the ghosts of the deceased— they have so constituted the three which have been spoken of, as it were, the chief and principal days for festival and holy days, designating the next following these to daemons and deceased persons, which days they esteemed unfortunate and unfit for action. And also the Grecians, worshipping their Gods at the new of the moon, dedicated the next day to heroes and daemons, and the second of the cups was mingled on the behalf of the male and female heroes. Moreover, time is altogether a number; and unity, which is the foundation of a number, is of a divine nature. The number next is two, opposite to the first, and is the first of even numbers. But an even number is defective, imperfect, and indefinite; as again an odd number is determinate, definite, and complete. Therefore the Nones succeed the Kalends on the fifth day, the Ides follow the Nones on the ninth, for odd numbers do determine the beginnings. But those even numbers which are next after the beginnings have not that pre-eminence nor influence; hence on such days they take not any actions or journey in hand. Wherefore that of Themistocles hath reason in it. “The Day after the feast contended with the Feast-day, saying that the Feast-day had much labor and toil, but she (the Day after the feast) afforded the fruition of the provision made for the Feast-day, with much leisure and quietness. The Feast-day answered after this wise: Thou speakest truth; but if I had not been, neither hadst thou been.” These things spake Themistocles to the Athenian officers of the army, who succeeded him, signifying that they could never have made any figure in the world had not he saved the city.
 
 Since therefore every action and journey worth our diligent management requires necessary provision and preparation, but the Romans of old made no family provision on feast-days, nor were careful for any thing but that they might attend divine service,—and this they did with all their might, as even now the priests enjoin them in their proclamations when they proceed to the sacrifices,— in like manner they did not rush presently after their festival solemnities upon a journey or any enterprise (because they were unprovided), but finished that day in contriving domestic affairs and fitting themselves for the intended occasion abroad. And as even at this day, after they have said their prayers and finished their devotion, they are wont to stay and sit still in the temples, so they did not join working days immediately to holy days, but made some interval and distance between them, secular affairs bringing many troubles and distractions along with them.
 
 [26] Question 26. Why do women wear for mourning white mantles and white kerchiefs?
 
-Solution. What if they do this in conformity to the Magi, who, as they say, standing in defiance of death and darkness, do fortify themselves with bright and splendid robes? Or, as the dead corpse is wrapped in white, so do they judge it meet that the relations should be conformable thereto? For they beautify the body so, since they cannot the soul; wherefore they wish to follow it as having gone before, pure and white, being dismissed after it hath fought a great and various warfare. Or is it that what is very mean and plain is most becoming in these things? For garments dyed of a color argue either luxury or vanity. Neither may we say less of black than of sea-green or purple, Verily garments are deceitful, and so are colors. And a thing that is naturally black is not dyed by art but by nature, and is blended with an intermixed shade. It is white only therefore that is sincere, unmixed, free from the impurity of a dye, and inimitable; therefore most proper to those that are buried. For one that is dead is become simple, unmixed, and pure, freed from the body no otherwise than from a tingeing poison. In Argos they wear white in mourning, as Socrates saith, vestments rinsed in water.
+Solution. What if they do this in conformity to the Magi, who, as they say, standing in defiance of death and darkness, do fortify themselves with bright and splendid robes? Or, as the dead corpse is wrapped in white, so do they judge it meet that the relations should be conformable thereto? For they beautify the body so, since they cannot the soul; wherefore they wish to follow it as having gone before, pure and white, being dismissed after it hath fought a great and various warfare. Or is it that what is very mean and plain is most becoming in these things? For garments dyed of a color argue either luxury or vanity. Neither may we say less of black than of sea-green or purple, “Verily garments are deceitful, and so are colors.” And a thing that is naturally black is not dyed by art but by nature, and is blended with an intermixed shade. It is white only therefore that is sincere, unmixed, free from the impurity of a dye, and inimitable; therefore most proper to those that are buried. For one that is dead is become simple, unmixed, and pure, freed from the body no otherwise than from a tingeing poison. In Argos they wear white in mourning, as Socrates saith, vestments rinsed in water.
 
 [27] Question 27. Why do they repute every wall immaculate and sacred, but the gates not so?
 
@@ -154,13 +151,13 @@ Solution. Is the reason (as some say) that they are of opinion that Hercules was
 
 Solution. What if the reason be that they, taking their first wives by force, brought them thus into their houses, when they went not in of their own accord? Or is it that they will have them seem to enter into that place as by force, not willingly, where they are about to lose their virginity? Or is it a significant ceremony to show that she is not to go out or leave her dwelling-place till she is forced, even as she goes in by force? For with us also in Boeotia they burn the axletree of a cart before the doors, intimating that the spouse is bound to remain there, the instrument of carriage being destroyed.
 
-[30] Question 30. Why do the bridemen that bring in the bride require her to say, Where thou Caius art, there am I Caia?
+[30] Question 30. Why do the bridemen that bring in the bride require her to say, “Where thou Caius art, there am I Caia”?
 
 Solution. What if the reason be that by mutual agreement she enters presently upon participation of all things, even to share in the government, and that this is the meaning of it, Where thou art lord and master of the family, there am I also dame and mistress of the family; while these common names they use promiscuously, as the lawyers do Caius, Seius, Lucius, Titius, and the philosophers use the names of Dion and Theon? Or is it from Caia Secilia, an honest and good woman, married to one of Tarquinius’s sons, who had her statue of brass erected in the temple of Sancus? On this statue were anciently hanged sandals and spindles, as significant memorials of her housewifery and industry.
 
 [31] Question 31. Why is that so much celebrated name Thalassius sung at nuptials?
 
-Solution. Is it not from wool-spinning? For the Ro mans call the Greek τάλαρος (wool-basket) talasus. Moreover, when they have introduced the bride, they spread a fleece under her; and she, having brought in with her a distaff and a spindle, all behangs her husband’s door with woollen yarn? Or it may be true, as historians report, that there was a certain young man famous in military achievements, and also an honest man, whose name was Thalassius; now when the Romans seized by force on the Sabine daughters coming to see the theatric shows, a comely virgin for beauty was brought to Thalassius by some of the common sort of people and retainers to him, crying out aloud (that they might go the more securely, and that none might stop them or take the wench from them) that she was carried as a wife to Thalassius; upon which the rest of the rabble, greatly honoring Thalassius, followed on and accompanied them with their loud acclamations, praying for and praising Thalassius; that proving a fortunate match, it became a custom to others at nuptials to call over Thalassius, as the Greeks do Hymenaeus.See Livy, I. 9, 12.
+Solution. Is it not from wool-spinning? For the Ro mans call the Greek τάλαρος (wool-basket) talasus. Moreover, when they have introduced the bride, they spread a fleece under her; and she, having brought in with her a distaff and a spindle, all behangs her husband’s door with woollen yarn? Or it may be true, as historians report, that there was a certain young man famous in military achievements, and also an honest man, whose name was Thalassius; now when the Romans seized by force on the Sabine daughters coming to see the theatric shows, a comely virgin for beauty was brought to Thalassius by some of the common sort of people and retainers to him, crying out aloud (that they might go the more securely, and that none might stop them or take the wench from them) that she was carried as a wife to Thalassius; upon which the rest of the rabble, greatly honoring Thalassius, followed on and accompanied them with their loud acclamations, praying for and praising Thalassius; that proving a fortunate match, it became a custom to others at nuptials to call over Thalassius, as the Greeks do Hymenaeus.[^1]
 
 [32] Question 32. Why do they that throw the effigies of men from a wooden bridge into the river, in the month of May, about the full moon, call those images Argives?
 
@@ -196,7 +193,7 @@ Solution. This thing Cato Senior hath made clear in a certain epistle, writing t
 
 [40] Question 40. Wherefore was it unlawful for a priest of Jupiter to be anointed abroad in the air?
 
-Solution. Was it not because it was neither honest nor decent to strip the sons naked whilst the father looked on, nor the son-in-law whilst the father-in-law looked on? Neither in ancient times did they wash together. Verily Jupiter is the father, and that which is abroad in the open air may be especially said to be as it were in the sight of Jupiter. Or is it thus? As it is a profane thing for him to strip himself naked in the temple or holy place, so did they reverence the open air and firmament, as being full of Gods and Daemons? Wherefore we do many necessary things within doors, hiding and covering ourselves in our houses from the sight of the Gods. Or is it that some things are enjoined to the priest only, other things to all by a law delivered by the priest? With us (in Boeotia) to wear a crown, to wear long hair, to carry iron arms, and not to enter the Phocian borders are peculiar, proper pieces of the magistrate’s service; but not to taste autumnal fruits before the autumnal equinox, and not to cut a vine before the spring equinox, are things required of all by the magistrate. For each of these has its season. After the same manner (as it appears) among the Romans it is peculiar to the priest neither to make use of a horse, nor to be absent from home in a journey more than three nights, nor to put off his cap, on which account he is called Flamen.See Varro, Ling. Lat. V. 84: Quod in Latio capite velato erant semper, ac caput cinctum habebant filo, flamines dicti. Festus, s. v. Flamen Dialis: Flamen, quasi filamen. (G.) Many other things are enjoined to all sorts of men by the priest; of which one is not to be anointed abroad in the open air. For the Romans have a great prejudice against dry unction; and they are of opinion that nothing hath been so great a cause to the Grecians of slavery and effeminacy as their fencing and wrestling schools, insinuating so much debauchery and idleness into the citizens, yea, vicious sloth and buggery; yea, that they destroyed the very bodies of youths with sleeping, perambulations, dancing, and delicious feeding, whereby they insensibly fell from the use of arms, and instead of being good soldiers and horsemen, loved to be called nimble, good wrestlers, and pretty men. It is hard for them to avoid these mischiefs who are unclothed in the open air; but they that are anointed within doors and cure themselves at home do commit none of these vices.
+Solution. Was it not because it was neither honest nor decent to strip the sons naked whilst the father looked on, nor the son-in-law whilst the father-in-law looked on? Neither in ancient times did they wash together. Verily Jupiter is the father, and that which is abroad in the open air may be especially said to be as it were in the sight of Jupiter. Or is it thus? As it is a profane thing for him to strip himself naked in the temple or holy place, so did they reverence the open air and firmament, as being full of Gods and Daemons? Wherefore we do many necessary things within doors, hiding and covering ourselves in our houses from the sight of the Gods. Or is it that some things are enjoined to the priest only, other things to all by a law delivered by the priest? With us (in Boeotia) to wear a crown, to wear long hair, to carry iron arms, and not to enter the Phocian borders are peculiar, proper pieces of the magistrate’s service; but not to taste autumnal fruits before the autumnal equinox, and not to cut a vine before the spring equinox, are things required of all by the magistrate. For each of these has its season. After the same manner (as it appears) among the Romans it is peculiar to the priest neither to make use of a horse, nor to be absent from home in a journey more than three nights, nor to put off his cap, on which account he is called Flamen.[^2] Many other things are enjoined to all sorts of men by the priest; of which one is not to be anointed abroad in the open air. For the Romans have a great prejudice against dry unction; and they are of opinion that nothing hath been so great a cause to the Grecians of slavery and effeminacy as their fencing and wrestling schools, insinuating so much debauchery and idleness into the citizens, yea, vicious sloth and buggery; yea, that they destroyed the very bodies of youths with sleeping, perambulations, dancing, and delicious feeding, whereby they insensibly fell from the use of arms, and instead of being good soldiers and horsemen, loved to be called nimble, good wrestlers, and pretty men. It is hard for them to avoid these mischiefs who are unclothed in the open air; but they that are anointed within doors and cure themselves at home do commit none of these vices.
 
 [41] Question 41. Why had the ancient coin on one side the image of double-faced Janus stamped, and on the other side the stern or stem of a ship?
 
@@ -204,7 +201,12 @@ Solution. What if it be (as they commonly say) in honor of Saturn, that sailed o
 
 [42] Question 42. Why do they use the temple of Saturn for a chamber of public treasury, as also an office of record for contracts?
 
-Solution. Is not this the reason, because this saying hath obtained credit, that there was no avarice or injustice among men while Saturn ruled, but faith and righteousness? Or was it that this God presided over the fruits of the field and husbandry? For the sickle signified as much, and not, as Antimachus was persuaded and wrote with Hesiod,— With crooked falk Saturn ’gainst heavens fought, off his father’s privities, foul bout.
+Solution. Is not this the reason, because this saying hath obtained credit, that there was no avarice or injustice among men while Saturn ruled, but faith and righteousness? Or was it that this God presided over the fruits of the field and husbandry? For the sickle signified as much, and not, as Antimachus was persuaded and wrote with Hesiod,—
+
+```verso
+With crooked falk Saturn ’gainst heavens fought,
+off his father’s privities, foul bout.
+```
 
 Money is produced from plenty of fruit and the vent of them, therefore they make Saturn the author and preserver of their felicity. That which confirms this is that the conventions assembled every ninth day in the marketplace (which they call Nundinae) they reckon sacred to Saturn, because the abundance of fruit gave the first occasion of buying and selling. Or are these things farfetched, and was the first that contrived this Saturnine chamber of bank Valerius Publicola, upon the suppression of the kings, being persuaded it was a strong place, conspicuous, and not easily undermined by treachery?
 
@@ -246,7 +248,7 @@ Solution. Is it that Praestites are they that preside, and it is fit that presid
 
 [52] Question 52. Why do they sacrifice a dog to Mana Geneta, and pray that no home-born should become good?
 
-Solution. Is the reason that Geneta is a deity that is employed about the generation and purgation of corruptible things? For this word signifies a certain flux (i.e. Mana from manare) and generation, or a flowing generation; for as the Greeks do sacrifice a dog to Hecate, so do the Romans to Geneta on the behalf of the natives of the house. Moreover, Socrates saith that the Argives do sacrifice a dog to Eilioneia (Lucina) to procure a facility of delivery. But what if the prayer be not made for men, but for dogs puppied at home, that none of them should be good; for dogs ought to be currish and fierce? Or is it that they that are deceased are pleasantly called good; and hence, speaking mystically in their prayer, they signify their desire that no home-born should die? Neither ought this to seem strange; for Aristotle says that it is written in the treaty of the Arcadians with the Lacedaemonians that none of the Tegeates should be made good on account of aid rendered to the party of the Lacedaemonians, i.e. that none should be slain.
+Solution. Is the reason that Geneta is a deity that is employed about the generation and purgation of corruptible things? For this word signifies a certain flux (i.e. Mana from manare) and generation, or a flowing generation; for as the Greeks do sacrifice a dog to Hecate, so do the Romans to Geneta on the behalf of the natives of the house. Moreover, Socrates saith that the Argives do sacrifice a dog to Eilioneia (Lucina) to procure a facility of delivery. But what if the prayer be not made for men, but for dogs puppied at home, that none of them should be good; for dogs ought to be currish and fierce? Or is it that they that are deceased are pleasantly called good; and hence, speaking mystically in their prayer, they signify their desire that no home-born should die? Neither ought this to seem strange; for Aristotle says that it is written in the treaty of the Arcadians with the Lacedaemonians that none of the Tegeates should be “made good” on account of aid rendered to the party of the Lacedaemonians, i.e. that none should be slain.
 
 [53] Question 53. Why is it that to this very day, while they hold the games at the Capitol, they set Sardians to sale by a crier, and a certain old man goes before in way of derision, carrying a child’s bauble about his neck, which they call bulla?
 
@@ -282,7 +284,7 @@ Solution. Is it not because Carmenta’s women came too late for the sacrifices?
 
 [61] Question 61. What is the reason that it’s forbidden to mention, enquire after, or name the chief tutelary and guardian God of Rome, whether male or female?—which prohibition they confirm with a superstitious tradition, reporting that Valerius Soranus perished miserably for uttering that name.
 
-Solution. Is this the reason (as some Roman histories tell us), that there are certain kinds of evocations and enchantments, with which they are wont to entice away the Gods of their enemies, and to cause theirs to come and dwell with them; and they feared lest this mischief should befall them from others? As the Tyrians are said to bind fast their images with cords, but others, when they will send any of them to washing or purifying, require sureties for their return; so did the Romans reckon they had their God in most safe and secure custody, he being unexpressible and unknown? Or, as Homer hath versified, The earth all Gods in common have?Il. XV. 193.
+Solution. Is this the reason (as some Roman histories tell us), that there are certain kinds of evocations and enchantments, with which they are wont to entice away the Gods of their enemies, and to cause theirs to come and dwell with them; and they feared lest this mischief should befall them from others? As the Tyrians are said to bind fast their images with cords, but others, when they will send any of them to washing or purifying, require sureties for their return; so did the Romans reckon they had their God in most safe and secure custody, he being unexpressible and unknown? Or, as Homer hath versified, “The earth all Gods in common have?[^3] ”
 
 that men might worship and reverence all Gods that have the earth in common, so did the ancient Romans obscure the Lord of their Salvation, requiring that not only this but all Gods should be reverenced by the citizens?
 
@@ -300,7 +302,7 @@ Solution. What if it be that they would intimate that something of our present e
 
 [65] Question 65. Why doth not a man lie at first with a bride in the light, but when it is dark?
 
-Solution. Is it not for modesty’s sake, for at the first congress he looks upon her as a stranger to him? Or is it that he may be inured to go into his own wife with modesty? Or, as Solon hath written, Let the bride go into the bed-chamber gnawing a quince, that the first salutation be not harsh and ungrateful. So did the Roman lawgiver command that, if there should be any thing absurd and unpleasant in her body, she should hide it? Or was it intended to cast infamy upon the unlawful use of venery by causing that the lawful should have certain signs of modesty attending it?
+Solution. Is it not for modesty’s sake, for at the first congress he looks upon her as a stranger to him? Or is it that he may be inured to go into his own wife with modesty? Or, as Solon hath written, “Let the bride go into the bed-chamber gnawing a quince, that the first salutation be not harsh and ungrateful.” So did the Roman lawgiver command that, if there should be any thing absurd and unpleasant in her body, she should hide it? Or was it intended to cast infamy upon the unlawful use of venery by causing that the lawful should have certain signs of modesty attending it?
 
 [66] Question 66. Why was one of the horse-race rounds called Flaminia?
 
@@ -324,7 +326,12 @@ Solution. Was it this (which was an argument of the severity of the ancients), t
 
 [71] Question 71. Why do they bind hay about the horns of oxen that are wont to push, that they may be shunned by him that meets them?
 
-Solution. It is that by reason of gormandizing and stuffing their guts oxen, asses, horses, and men become mischievous, as Sophocles somewhere saith, full-fed colt thou kickest up heels, From stuffed paunch, cheeks, and full meals?
+Solution. It is that by reason of gormandizing and stuffing their guts oxen, asses, horses, and men become mischievous, as Sophocles somewhere saith,
+
+```verso
+full-fed colt thou kickest up heels,
+From stuffed paunch, cheeks, and full meals?
+```
 
 Therefore the Romans say that M. Crassus had hay about his horns, for they that were turbulent men in the commonwealth were wont to stand in awe of him as a revengeful man and one scarce to be meddled with; although afterwards it was said again, that Caesar had taken away Crassus’s hay, being the first man of the republic that withstood and affronted him.
 
@@ -338,7 +345,7 @@ Solution. Is not this a significant sign that, whilst they are employed about di
 
 [74] Question 74. Why did Servius Tullius build a temple of Small Fortune, whom they call Brevis?
 
-Solution. Was it because he was of a mean original and in a low condition, being born of a captive woman, and by fortune came to be king of Rome? Or did not that change of his condition manifest the greatness rather than the smallness of his fortune? But Servius most of all of them seems to ascribe divine influence to Fortune, giving thereby a reputation to all his enterprises. For he did not only build temples of Hopeful Fortune, of Fortune that averteth evil, of Mild, Primogenial, and Masculine Fortune; but there is a temple also of Private Fortune, another of Regardful Fortune, another of Hopeful Fortune, and the fourth of Virgin Fortune. But why should any one mention any more names, seeing there is a temple also of Ensnaring Fortune, which they name Viscata, as it were ensnaring us when we are as yet afar off, and enforcing us upon business.For an account of the various titles of Fortune at Rome, see Preller, Römische Mythologie, X. §1; and Plutarch on the Fortune of the Romans, §5, §10. (G.) Consider this now, whether it be that Servius found that great matters are effected by a small piece of Fortune, and that it often falls out that great things are effected by some or do come to nought by a small thing being done or not done. He built therefore a temple of Small Fortune, teaching us to take care of our business, and not contemn things that happen by reason of their smallness.
+Solution. Was it because he was of a mean original and in a low condition, being born of a captive woman, and by fortune came to be king of Rome? Or did not that change of his condition manifest the greatness rather than the smallness of his fortune? But Servius most of all of them seems to ascribe divine influence to Fortune, giving thereby a reputation to all his enterprises. For he did not only build temples of Hopeful Fortune, of Fortune that averteth evil, of Mild, Primogenial, and Masculine Fortune; but there is a temple also of Private Fortune, another of Regardful Fortune, another of Hopeful Fortune, and the fourth of Virgin Fortune. But why should any one mention any more names, seeing there is a temple also of Ensnaring Fortune, which they name Viscata, as it were ensnaring us when we are as yet afar off, and enforcing us upon business.[^4] Consider this now, whether it be that Servius found that great matters are effected by a small piece of Fortune, and that it often falls out that great things are effected by some or do come to nought by a small thing being done or not done. He built therefore a temple of Small Fortune, teaching us to take care of our business, and not contemn things that happen by reason of their smallness.
 
 [75] Question 75. Why did they not extinguish a candle, but suffer it to burn out of its own accord.
 
@@ -346,13 +353,25 @@ Solution. Is this the reason, that they adored it as being related and akin to u
 
 [76] Question 76. Why do they that would be preferred before others in gentility wear little moons on their shoes?
 
-Solution. Is this the reason (as Castor saith), that this is a symbol of the place of habitation that is said to be in the moon, signifying that after death souls should have the moon under their feet again? Or was this a fashion of renown among families of greatest antiquity, as were the Arcadians of Evander’s posterity, that were called men born before the moon (προσέληνοι)? Or is this, like many other customs, to put men who are lofty and high-minded in mind of the mutability of human affairs to either side, setting the moon before them as an example, When first she comes from dark to light, Trimming, her face becomes fair bright, Increasing, till she’s full in sight; Declining then, leaves nought but night? From Sophocles, Frag. 786.
+Solution. Is this the reason (as Castor saith), that this is a symbol of the place of habitation that is said to be in the moon, signifying that after death souls should have the moon under their feet again? Or was this a fashion of renown among families of greatest antiquity, as were the Arcadians of Evander’s posterity, that were called men born before the moon (προσέληνοι)? Or is this, like many other customs, to put men who are lofty and high-minded in mind of the mutability of human affairs to either side, setting the moon before them as an example,
+
+```verso
+When first she comes from dark to light,
+Trimming, her face becomes fair bright,
+Increasing, till she’s full in sight;
+Declining then, leaves nought but night?
+```
 
 Or was this for a doctrine of obedience to authority,— that they would have us not discontented under it; but, as the moon doth willingly obey her superior and conform unto him, always vamping after the rays of the sun (as Parmenides hath it), so they that are subjects to any prince should be contented with their lower station, in the enjoyment of power and dignity derived from him?
 
 [77] Question 77. Why are they of an opinion that the year is Jupiter’s, but the months Juno’s?
 
-Solution. Is it because Jupiter and Juno reign over the invisible Gods, who are no otherwise seen but by the eyes of our understanding, but the Sun and Moon over the visible? And the Sun verily causeth the year, and the Moon the months. Neither ought we to think that they are bare images of them, but the Sun is Jupiter himself materially, and the Moon Juno herself materially. Therefore they name her Juno (a juvenescendo, the name signifying a thing that is new or grows young) from the nature of the Moon; and they call her Lucina (as it were bright or shining), and they are of opinion that she helps women in their travail-pains. Whence is that of the poets: By azure leaven beset with stars, By th’ moon that hastens births;
+Solution. Is it because Jupiter and Juno reign over the invisible Gods, who are no otherwise seen but by the eyes of our understanding, but the Sun and Moon over the visible? And the Sun verily causeth the year, and the Moon the months. Neither ought we to think that they are bare images of them, but the Sun is Jupiter himself materially, and the Moon Juno herself materially. Therefore they name her Juno (a juvenescendo, the name signifying a thing that is new or grows young) from the nature of the Moon; and they call her Lucina (as it were bright or shining), and they are of opinion that she helps women in their travail-pains. Whence is that of the poets:
+
+```verso
+By azure leaven beset with stars,
+By th’ moon that hastens births;
+```
 
 for they suppose that women have the easiest travail at the full of the moon.
 
@@ -390,7 +409,12 @@ Solution. Haply, because they remembered the covenant that they made with the Sa
 
 [86] Question 86. Why do they not marry wives in the month of May?
 
-Solution. Is this the reason, that because May is between April and June,—concerning which months they have an opinion that that is sacred to Venus, this to Juno, both of them being nuptial Gods,—they either take an opportunity a little before May, or tarry till it be over? Or is it that in this month they offer the greatest expiatory sacrifice, now casting the images of men from a bridge into the river, and formerly men themselves? Moreover, it is by law required that the Flaminica, the reputed priestess of Juno, should be most sourly sullen during the time, and neither wash nor trim up herself. Or is it because many of the Latins in this month offer oblations unto the dead? And therefore perhaps they worship Mercury in this month, which from Maia derives its name? Or, as some say, is May derived from elder age (maior) and Juno from younger (iunior)? For youth is more suitable to matrimony, as Euripides hath said, age the Cyprian queen must ever shun, And Venus from old men in scorn doth run.
+Solution. Is this the reason, that because May is between April and June,—concerning which months they have an opinion that that is sacred to Venus, this to Juno, both of them being nuptial Gods,—they either take an opportunity a little before May, or tarry till it be over? Or is it that in this month they offer the greatest expiatory sacrifice, now casting the images of men from a bridge into the river, and formerly men themselves? Moreover, it is by law required that the Flaminica, the reputed priestess of Juno, should be most sourly sullen during the time, and neither wash nor trim up herself. Or is it because many of the Latins in this month offer oblations unto the dead? And therefore perhaps they worship Mercury in this month, which from Maia derives its name? Or, as some say, is May derived from elder age (maior) and Juno from younger (iunior)? For youth is more suitable to matrimony, as Euripides hath said,
+
+```verso
+age the Cyprian queen must ever shun,
+And Venus from old men in scorn doth run.
+```
 
 Therefore they marry not in May, but tarry till June, which is presently after May.
 
@@ -420,7 +444,7 @@ Solution. Is it because it is easy to find an oak everywhere in the military exp
 
 [93] Question 93. Why do they for the most part use vultures for soothsaying?
 
-Solution. Was this the reason, because twelve vultures appeared to Romulus upon the building of Rome? Or because of all birds this is least frequent and familiar? For it is not easy to meet with young vultures, but they fly to us unexpectedly from some remote parts; therefore the sight of them is portentous. Or haply they learned this from Hercules, if Herodotus speak true that Hercules rejoiced most in the beginning of an enterprise at the sight of a vulture, being of opinion that a vulture was the justest of all birds of prey. For first, he meddles not with any living creature, neither doth he destroy any thing that hath breath in it, as eagles, hawks, and other fowls do that prey by night, but lives only upon dead carcasses; and next, he passeth by all those of his kind, for none ever saw a vulture feeding on a bird, as eagles and hawks do, which for the most part pursue birds like themselves, and slay them, even as Aeschylus hath it, A bird that preys on birds, how can’t be clean?
+Solution. Was this the reason, because twelve vultures appeared to Romulus upon the building of Rome? Or because of all birds this is least frequent and familiar? For it is not easy to meet with young vultures, but they fly to us unexpectedly from some remote parts; therefore the sight of them is portentous. Or haply they learned this from Hercules, if Herodotus speak true that Hercules rejoiced most in the beginning of an enterprise at the sight of a vulture, being of opinion that a vulture was the justest of all birds of prey. For first, he meddles not with any living creature, neither doth he destroy any thing that hath breath in it, as eagles, hawks, and other fowls do that prey by night, but lives only upon dead carcasses; and next, he passeth by all those of his kind, for none ever saw a vulture feeding on a bird, as eagles and hawks do, which for the most part pursue birds like themselves, and slay them, even as Aeschylus hath it, “A bird that preys on birds, how can’t be clean?”
 
 And verily this bird is not pernicious to men, for it neither destroys fruits nor plants, nor is hurtful to any tame animal. Moreover if it be (as the Egyptians fabulously pretend) that the whole kind of them is of the female sex, and that they conceive by the reception of the east wind into their bodies, as the trees do by receiving the west wind, it is most probable that very certain and sound prognostics may be made from them; whereas in other birds (there being so many rapines, flights, and pursuits about copulation) there are great disturbances and uncertainties attending them.
 
@@ -438,7 +462,7 @@ Solution. Is this the reason, because they burn the dead, and to bury her by fir
 
 [97] Question 97. What is the reason that, at the horse-race on the Ides of December, the lucky horse that beats is sacrificed as sacred to Mars; and a certain man, cutting off his tail, brings it to a place called Regia, and besmears the altar with the blood of it; but for the head, one party coming down from the way called Sacred, and others from the Suburra, do fight?
 
-Solution. Whether was it (as some say) that, reckoning that Troy was taken by a horse, they punish a horse, as being the Renowned Trojan race commixt with Latin boys?
+Solution. Whether was it (as some say) that, reckoning that Troy was taken by a horse, they punish a horse, as being the “Renowned Trojan race commixt with Latin boys?”
 
 Or is it because a horse is a fierce, warlike, and martial beast, therefore they do sacrifice to the Gods the things that are most acceptable and suitable; and he that conquers is offered, because victory and prowess doth belong to that God? Or is it rather because to stand in battle is the work of God, and they that keep their ranks and files do conquer those that do not keep them but fly, and swiftness of foot is punished as the maintenance of cowardice; so that hereby it is significantly taught that there is no safety to them that run away?
 
@@ -506,6 +530,7 @@ Solution. Is it not of the like nature with those precepts of Pythagoras, not to
 
 Solution. Was it because in some places of Greece the dignity of priesthood was equal with kingship, and therefore they designated not ordinary persons to be priests? Or was it rather,—since they have appointed office-employments, whereas the charge of kings is unmethodical and indefinite,—that it would not be possible, if both fell out at the same time, that he should be able to attend both, but he must of necessity neglect one (both pressing together upon him), sometimes neglecting the worship of God, and sometimes injuring the subjects? Or else, seeing that there is no less necessity than power attending the administration of civil government, and that the ruler of the people (as Hippocrates saith of the physician) doth see weighty matters and hath to do with weighty matters, and from other men’s calamities procures troubles peculiar to himself, did they think ’him not sacred enough to sacrifice to the Gods and manage the sacrifices who had been present at the condemnation and execution of citizens, and often of some of his own kindred and family, as happened to Brutus?
 
----
-
-*Ὁ Διαφορεύς παρῆν*
+[^1]: See Livy, I. 9, 12.
+[^2]: See Varro, Ling. Lat. V. 84: Quod in Latio capite velato erant semper, ac caput cinctum habebant filo, flamines dicti. Festus, s. v. Flamen Dialis: Flamen, quasi filamen. (G.)
+[^3]: Il. XV. 193.
+[^4]: For an account of the various titles of Fortune at Rome, see Preller, Römische Mythologie, X. §1; and Plutarch on the Fortune of the Romans, §5, §10. (G.)

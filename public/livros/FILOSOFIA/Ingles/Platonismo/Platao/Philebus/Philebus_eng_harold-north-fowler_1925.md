@@ -1,36 +1,29 @@
 ---
 id: platao-philebus-eng-harold-north-fowler-1925
-type: texto_primario
-title: "Philebus"
-subtitle: null
+type: translation
+title: Philebus
 author: Plato
-year_original: null
-language: eng
-translation:
-  - Harold North Fowler
+translator:
+- Harold North Fowler
 publisher: Harvard University Press
-area: null
-era: null
-tags: []
-status: rascunho
+language: eng
+tags:
+- classical-philosophy
+- platonism
+status: draft
 project: pedra_angular
-source: "Plato. Philebus. Ed. Harold North Fowler. Cambridge, MA: Harvard University Press, 1925. Perseus Digital Library, Tufts University (CC BY-SA 4.0). URN: null"
-related: []
+urn_work: urn:cts:greekLit:tlg0059.tlg010
+urn: urn:cts:greekLit:tlg0059.tlg010.perseus-eng2
+source: 'Plato. Philebus. Ed. Harold North Fowler. Cambridge, MA: Harvard University Press, 1925. Perseus Digital Library, Tufts University (CC BY-SA 4.0).'
+source_repo: PerseusDL/canonical-greekLit
+source_file: data/tlg0059/tlg010/tlg0059.tlg010.perseus-eng2.xml
+source_commit: e37eed2e8
+license: CC-BY-SA-4.0
 ---
 
 # Philebus
 
-**Plato**
-
-Cambridge, MA: Harvard University Press, 1925.
-Perseus Digital Library, Tufts University (CC BY-SA 4.0).
-URN: `null`
-
----
-
-## Texto
-
-[11] Soc. Observe, then, Protarchus, what the doctrine is which you are now to accept from Philebus, and what our doctrine is, against which you are to argue, if you do not agree with it. [11b] Shall we make a brief statement of each of them?
+[11a] Soc. Observe, then, Protarchus, what the doctrine is which you are now to accept from Philebus, and what our doctrine is, against which you are to argue, if you do not agree with it. [11b] Shall we make a brief statement of each of them?
 
 Pro. By all means.
 
@@ -44,7 +37,7 @@ Pro. I must accept it; for our handsome Philebus has withdrawn.
 
 Soc. And must the truth about these doctrines be attained by every possible means?
 
-Pro. Yes, it must.
+[11d] Pro. Yes, it must.
 
 Soc. Then let us further agree to this:
 
@@ -58,9 +51,9 @@ Soc. Then you will show that it is the condition of pleasure, and I that it is t
 
 Pro. True.
 
-Soc. What if some other life be found superior to these two? [11e] Then if that life is found to be more akin to pleasure, both of us are defeated, are we not, by the life which has firm possession of this superiority, [12] [12a] but the life of pleasure is victor over the life of wisdom.
+Soc. What if some other life be found superior to these two? [11e] Then if that life is found to be more akin to pleasure, both of us are defeated, are we not, by the life which has firm possession of this superiority, [12a] but the life of pleasure is victor over the life of wisdom.
 
-[12] Pro. Yes.
+Pro. Yes.
 
 Soc. But if it is more akin to wisdom, then wisdom is victorious and pleasure is vanquished? Do you agree to that? Or what do you say?
 
@@ -72,7 +65,7 @@ Phi. I think and always shall think that pleasure is the victor. But you, Protar
 
 Pro. Since you entrusted the argument to me, Philebus, you can no longer dictate whether to make the agreement with Socrates or not.
 
-Phi. True; and for that reason I wash my hands of it and now call upon the goddess The goddess of Pleasure, Ἡδονή personified. herself to witness that I do so.
+[12b] Phi. True; and for that reason I wash my hands of it and now call upon the goddess [^1] herself to witness that I do so.
 
 Pro. And we also will bear witness to these words of yours. But all the same, Socrates, Philebus may agree or do as he likes, let us try to finish our argument in due order.
 
@@ -80,11 +73,11 @@ Soc. We must try, and let us begin with the very goddess who Philebus says is sp
 
 Pro. Quite right.
 
-Soc. My awe, Protarchus, in respect to the names of the gods is always beyond the greatest human fear. And now I call Aphrodite by that name which is agreeable to her; but pleasure I know has various aspects, and since, as I said, we are to begin with her, we must consider and examine what her nature is. For, when you just simply hear her name, she is only one thing, but surely she takes on all sorts of shapes which are even, in a way, unlike each other. For instance, we say that the man [12d] who lives without restraint has pleasure, and that the self-restrained man takes pleasure in his very self-restraint; and again that the fool who is full of foolish opinions and hopes is pleased, and also that the wise man takes pleasure in his very wisdom. And would not any person who said these two kinds of pleasure were like each other be rightly regarded as a fool?
+[12c] Soc. My awe, Protarchus, in respect to the names of the gods is always beyond the greatest human fear. And now I call Aphrodite by that name which is agreeable to her; but pleasure I know has various aspects, and since, as I said, we are to begin with her, we must consider and examine what her nature is. For, when you just simply hear her name, she is only one thing, but surely she takes on all sorts of shapes which are even, in a way, unlike each other. For instance, we say that the man [12d] who lives without restraint has pleasure, and that the self-restrained man takes pleasure in his very self-restraint; and again that the fool who is full of foolish opinions and hopes is pleased, and also that the wise man takes pleasure in his very wisdom. And would not any person who said these two kinds of pleasure were like each other be rightly regarded as a fool?
 
 Pro. No, Socrates, for though they spring from opposite sources, they are not in themselves opposed to one another; [12e] for how can pleasure help being of all things most like pleasure, that is, like itself?
 
-[13] Soc. Yes, my friend, and color is like color in so far as every one of them is a color they will all be the same, yet we all recognize that black is not only different from white, but is its exact opposite. And so, too, figure is like figure; they are all one in kind but the parts of the kind are in some instances absolutely opposed to each other, [13] [13a] and in other cases there is endless variety of difference; and we can find many other examples of such relations. Do not, therefore, rely upon this argument, which makes all the most absolute opposites identical. I am afraid we shall find some pleasures the opposites of other pleasures.
+Soc. Yes, my friend, and color is like color in so far as every one of them is a color they will all be the same, yet we all recognize that black is not only different from white, but is its exact opposite. And so, too, figure is like figure; they are all one in kind but the parts of the kind are in some instances absolutely opposed to each other, [13a] and in other cases there is endless variety of difference; and we can find many other examples of such relations. Do not, therefore, rely upon this argument, which makes all the most absolute opposites identical. I am afraid we shall find some pleasures the opposites of other pleasures.
 
 Pro. Perhaps; but why will that injure my contention?
 
@@ -102,7 +95,7 @@ Pro. In what way do you mean?
 
 Soc. Why, if I have the face to imitate you and to defend myself by saying that the utterly unlike is most completely like that which is most utterly unlike it, I can say the same things you said, and we shall prove ourselves to be excessively inexperienced, and our argument will be shipwrecked and lost. Let us, then, back her out, and perhaps if we start fair again we may come to an agreement.
 
-Pro. How? Tell me.
+[13e] Pro. How? Tell me.
 
 Soc. Assume, Protarchus, that I am questioned in turn by you.
 
@@ -112,11 +105,11 @@ Soc. Whether wisdom and knowledge and intellect and all the things which I said 
 
 Pro. How is that?
 
-[14] Soc. It will appear that the forms of knowledge collectively are many and some of them are unlike each other; but if some of them [14] [14a] turn out to be actually opposites, should I be fit to engage in dialectics now if, through fear of just that, I should say that no form of knowledge is unlike any other, and then, as a consequence, our argument should vanish and be lost, like a tale that is told, and we ourselves should be saved by clinging to some irrational notion?
+Soc. It will appear that the forms of knowledge collectively are many and some of them are unlike each other; but if some of them [14a] turn out to be actually opposites, should I be fit to engage in dialectics now if, through fear of just that, I should say that no form of knowledge is unlike any other, and then, as a consequence, our argument should vanish and be lost, like a tale that is told, and we ourselves should be saved by clinging to some irrational notion?
 
 Pro. No, that must never be, except the part about our being saved. However, I like the equal treatment of your doctrine and mine. Let us grant that pleasures are many and unlike and that the forms of knowledge are many and different.
 
-Soc. With no concealment, then, Protarchus, of the difference between my good and yours, but with fair and open acknowledgement of it, let us be bold and see if perchance on examination they will tell us whether we should say that pleasure is the good, or wisdom, or some other third principle. For surely the object of our present controversy is not to gain the victory for my assertions or yours, but both of us must fight for the most perfect truth.
+[14b] Soc. With no concealment, then, Protarchus, of the difference between my good and yours, but with fair and open acknowledgement of it, let us be bold and see if perchance on examination they will tell us whether we should say that pleasure is the good, or wisdom, or some other third principle. For surely the object of our present controversy is not to gain the victory for my assertions or yours, but both of us must fight for the most perfect truth.
 
 Pro. Yes, we must.
 
@@ -136,11 +129,11 @@ Soc. Those wonders concerning the one and the many which you have mentioned, Pro
 
 Pro. But what other wonders do you mean, Socrates, in relation to this same principle, which are not yet common property and generally acknowledged?
 
-[15] Soc. I mean, my boy, when a person postulates unity which is not the unity of one of the things which come into being and perish, as in the examples we had just now. For in cases of a unity of that sort, as I just said, it is agreed that refutation is needless. But when the assertion is made that man is one, or ox is one, or beauty is one, or the good is one, the intense interest in these and similar unities becomes disagreement and controversy.
+[15a] Soc. I mean, my boy, when a person postulates unity which is not the unity of one of the things which come into being and perish, as in the examples we had just now. For in cases of a unity of that sort, as I just said, it is agreed that refutation is needless. But when the assertion is made that man is one, or ox is one, or beauty is one, or the good is one, the intense interest in these and similar unities becomes disagreement and controversy.
 
 Pro. How is that?
 
-Soc. The first question is whether we should believe that such unities really exist; the second, how these unities, each of which is one, always the same, and admitting neither generation nor destruction, can nevertheless be permanently this one unity; and the third, how in the infinite number of things which come into being this unity, whether we are to assume that it is dispersed and has become many, or that it is entirely separated from itself—which would seem to be the most impossible notion of all being the same and one, is to be at the same time in one and in many. These are the questions, Protarchus, about this kind of one and many, [15c] not those others, which cause the utmost perplexity, if ill solved, and are, if well solved, of the greatest assistance.
+[15b] Soc. The first question is whether we should believe that such unities really exist; the second, how these unities, each of which is one, always the same, and admitting neither generation nor destruction, can nevertheless be permanently this one unity; and the third, how in the infinite number of things which come into being this unity, whether we are to assume that it is dispersed and has become many, or that it is entirely separated from itself—which would seem to be the most impossible notion of all being the same and one, is to be at the same time in one and in many. These are the questions, Protarchus, about this kind of one and many, [15c] not those others, which cause the utmost perplexity, if ill solved, and are, if well solved, of the greatest assistance.
 
 Pro. Then is it now, Socrates, our first duty to thresh this matter out?
 
@@ -148,25 +141,25 @@ Soc. Yes, that is what I should say.
 
 Pro. You may assume, then, that we are all willing to agree with you about that; and perhaps it is best not to ask Philebus any questions; let sleeping dogs lie.
 
-Soc. Very well; then where shall we begin this great and vastly complicated battle about the matters at issue? Shall we start at this point?
+[15d] Soc. Very well; then where shall we begin this great and vastly complicated battle about the matters at issue? Shall we start at this point?
 
 Pro. At what point?
 
-Soc. We say that one and many are identified by reason, and always, both now and in the past, circulate everywhere in every thought that is uttered. This is no new thing and will never cease; it is, in my opinion, a quality within us which will never die or grow old, and which belongs to reason itself as such. And any young man, when he first has an inkling of this, is delighted, [15e] thinking he has found a treasure of wisdom; his joy fills him with enthusiasm; he joyously sets every possible argument in motion, sometimes in one direction, rolling things up and kneading them into one, and sometimes again unrolling and dividing them; he gets himself into a muddle first and foremost, then anyone who happens to be near him, whether he be younger or older or of his own age; [16] [16a] he spares neither father nor mother nor any other human being who can hear, and hardly even the lower animals, for he would certainly not spare a foreigner, Apparently foreigners are considered among the lower animals. if he could get an interpreter anywhere.
+Soc. We say that one and many are identified by reason, and always, both now and in the past, circulate everywhere in every thought that is uttered. This is no new thing and will never cease; it is, in my opinion, a quality within us which will never die or grow old, and which belongs to reason itself as such. And any young man, when he first has an inkling of this, is delighted, [15e] thinking he has found a treasure of wisdom; his joy fills him with enthusiasm; he joyously sets every possible argument in motion, sometimes in one direction, rolling things up and kneading them into one, and sometimes again unrolling and dividing them; he gets himself into a muddle first and foremost, then anyone who happens to be near him, whether he be younger or older or of his own age; [16a] he spares neither father nor mother nor any other human being who can hear, and hardly even the lower animals, for he would certainly not spare a foreigner, [^2] if he could get an interpreter anywhere.
 
-[16] Pro. Socrates, do you not see how many we are and that we are all young men? Are you not afraid that we shall join with Philebus and attack you, if you revile us? However—for we understand your meaning—if there is any way or means of removing this confusion gently from our discussion [16b] and finding some better road than this to bring us towards the goal of our argument, kindly lead on, and we will do our best to follow for our present discussion, Socrates, is no trifling matter.
+Pro. Socrates, do you not see how many we are and that we are all young men? Are you not afraid that we shall join with Philebus and attack you, if you revile us? However—for we understand your meaning—if there is any way or means of removing this confusion gently from our discussion [16b] and finding some better road than this to bring us towards the goal of our argument, kindly lead on, and we will do our best to follow for our present discussion, Socrates, is no trifling matter.
 
 Soc. No, it is not, boys, as Philebus calls you; and there certainly is no better road, nor can there ever be, than that which I have always loved, though it has often deserted me, leaving me lonely and forlorn.
 
 Pro. What is the road? Only tell us.
 
-Soc. One which is easy to point out, but very difficult to follow for through it all the inventions of art have been brought to light. See this is the road I mean.
+[16c] Soc. One which is easy to point out, but very difficult to follow for through it all the inventions of art have been brought to light. See this is the road I mean.
 
 Pro. Go on what is it?
 
 Soc. A gift of gods to men, as I believe, was tossed down from some divine source through the agency of a Prometheus together with a gleaming fire; and the ancients, who were better than we and lived nearer the gods, handed down the tradition that all the things which are ever said to exist are sprung from one and many and have inherent in them the finite and the infinite. This being the way in which these things are arranged, [16d] we must always assume that there is in every case one idea of everything and must look for it—for we shall find that it is there—and if we get a grasp of this, we must look next for two, if there be two, and if not, for three or some other number; and again we must treat each of those units in the same way, until we can see not only that the original unit is one and many and infinite, but just how many it is. And we must not apply the idea of infinite to plurality until we have a view of its whole number [16e] between infinity and one; then, and not before, we may let each unit of everything pass on unhindered into infinity.
 
-[17] Soc. The gods, then, as I said, handed down to us this mode of investigating, learning, and teaching one another; but the wise men of the present day make the one [17] [17a] and the many too quickly or too slowly, in haphazard fashion, and they put infinity immediately after unity; they disregard all that lies between them, and this it is which distinguishes between the dialectic and the disputatious methods of discussion.
+Soc. The gods, then, as I said, handed down to us this mode of investigating, learning, and teaching one another; but the wise men of the present day make the one [17a] and the many too quickly or too slowly, in haphazard fashion, and they put infinity immediately after unity; they disregard all that lies between them, and this it is which distinguishes between the dialectic and the disputatious methods of discussion.
 
 Pro. I think I understand you in part, Socrates, but I need a clearer statement of some things.
 
@@ -186,7 +179,7 @@ Soc. And it is this same knowledge which makes the musician.
 
 Pro. How is that?
 
-Soc. Sound is one in the art of music also, so far as that art is concerned.
+[17c] Soc. Sound is one in the art of music also, so far as that art is concerned.
 
 Pro. Of course.
 
@@ -202,7 +195,7 @@ Soc. But, my friend, when you have grasped the number and quality of the interva
 
 Pro. I think, Philebus, that what Socrates has said is excellent.
 
-[18] Phi. So do I; it is excellent in itself, but why has he said it now to us, [18] [18a] and what purpose is there in it?
+Phi. So do I; it is excellent in itself, but why has he said it now to us, [18a] and what purpose is there in it?
 
 Soc. Protarchus, that is a very proper question which Philebus has asked us.
 
@@ -232,19 +225,19 @@ Soc. And surely we say that each of them is one.
 
 Phi. Certainly.
 
-[19] Soc. This, then, is precisely the question which the previous discussion puts to us: How is each of them one and many, and how is it that they are not immediately infinite, but each possesses a definite number, before the individual phenomena become infinite?
+Soc. This, then, is precisely the question which the previous discussion puts to us: How is each of them one and many, and how is it that they are not immediately infinite, but each possesses a definite number, before the individual phenomena become infinite?
 
-Pro. Philebus, somehow or other Socrates has led us round and plunged us into a serious question. Consider which of us shall answer it. Perhaps it is ridiculous that I, after taking your place in entire charge of the argument, should ask you to come back and answer this question because I cannot do so, but I think it would be still more ridiculous if neither of us could answer. [19b] Consider, then, what we are to do. For I think Socrates is asking us whether there are or are not kinds of pleasure, how many kinds there are, and what their nature is, and the same of wisdom.
+[19a] Pro. Philebus, somehow or other Socrates has led us round and plunged us into a serious question. Consider which of us shall answer it. Perhaps it is ridiculous that I, after taking your place in entire charge of the argument, should ask you to come back and answer this question because I cannot do so, but I think it would be still more ridiculous if neither of us could answer. [19b] Consider, then, what we are to do. For I think Socrates is asking us whether there are or are not kinds of pleasure, how many kinds there are, and what their nature is, and the same of wisdom.
 
 Soc. You are quite right, son of Callias; for, as our previous discussion showed, unless we can do this in the case of every unity, every like, every same, and their opposites, none of us can ever be of any use in anything.
 
-Pro. That, Socrates, seems pretty likely to be true. However, it is splendid for the wise man to know everything, but the next best thing, it seems, is not to be ignorant of himself. I will tell you why I say that at this moment. You, Socrates, have granted to all of us this conversation and your cooperation for the purpose of determining what is the best of human possessions. For when Philebus said it was pleasure and gaiety and enjoyment and all that sort of thing, you objected and said it was not those things, but another sort, [19d] and we very properly keep reminding ourselves voluntarily of this, in order that both claims may be present in our memory for examination. You, as it appears, assert that the good which is rightly to be called better than pleasure is mind, knowledge, intelligence, art, and all their kin; you say we ought to acquire these, not that other sort. When those two claims were made and an argument arose, we playfully threatened that we would not let you go home [19e] until the discussion was brought to some satisfactory conclusion. You agreed and put yourself at our disposal for that purpose. Now, we say that, as children put it, you cannot take back a gift once fairly given. So cease this way of meeting all that we say.
+[19c] Pro. That, Socrates, seems pretty likely to be true. However, it is splendid for the wise man to know everything, but the next best thing, it seems, is not to be ignorant of himself. I will tell you why I say that at this moment. You, Socrates, have granted to all of us this conversation and your cooperation for the purpose of determining what is the best of human possessions. For when Philebus said it was pleasure and gaiety and enjoyment and all that sort of thing, you objected and said it was not those things, but another sort, [19d] and we very properly keep reminding ourselves voluntarily of this, in order that both claims may be present in our memory for examination. You, as it appears, assert that the good which is rightly to be called better than pleasure is mind, knowledge, intelligence, art, and all their kin; you say we ought to acquire these, not that other sort. When those two claims were made and an argument arose, we playfully threatened that we would not let you go home [19e] until the discussion was brought to some satisfactory conclusion. You agreed and put yourself at our disposal for that purpose. Now, we say that, as children put it, you cannot take back a gift once fairly given. So cease this way of meeting all that we say.
 
 Soc. What way do you mean?
 
-[20] Pro. I mean puzzling us and asking questions to which we cannot at the moment give a satisfactory answer. Let us not imagine that the end of our present discussion is a mere puzzling of us all, but if we cannot answer, you must do so; for you gave us a promise. Consider, therefore, whether you yourself must distinguish the kinds of pleasure and knowledge or will let that go, in case you are able and willing to make clear in some other way the matters now at issue among us.
+[20a] Pro. I mean puzzling us and asking questions to which we cannot at the moment give a satisfactory answer. Let us not imagine that the end of our present discussion is a mere puzzling of us all, but if we cannot answer, you must do so; for you gave us a promise. Consider, therefore, whether you yourself must distinguish the kinds of pleasure and knowledge or will let that go, in case you are able and willing to make clear in some other way the matters now at issue among us.
 
-Soc. I need no longer anticipate anything terrible, since you put it in that way; for the words in case you are willing relieve me of all fear. And besides, I think some god has given me a vague recollection.
+[20b] Soc. I need no longer anticipate anything terrible, since you put it in that way; for the words “in case you are willing” relieve me of all fear. And besides, I think some god has given me a vague recollection.
 
 Pro. How is that, and what is the recollection about?
 
@@ -272,11 +265,11 @@ Soc. And nothing, I should say, is more certain about it than that every intelli
 
 Pro. There is no denying that.
 
-Soc. Let us, then, look at the life of pleasure and the life of wisdom separately and consider and judge them.
+[20e] Soc. Let us, then, look at the life of pleasure and the life of wisdom separately and consider and judge them.
 
 Pro. How do you mean?
 
-[21] Soc. Let there be no wisdom in the life of pleasure and no pleasure in the life of wisdom. For if either of them is the good, it cannot have need of anything else, and if, either be found to need anything, [21] [21a] we can no longer regard it as our true good.
+Soc. Let there be no wisdom in the life of pleasure and no pleasure in the life of wisdom. For if either of them is the good, it cannot have need of anything else, and if, either be found to need anything, [21a] we can no longer regard it as our true good.
 
 Pro. No, of course not.
 
@@ -308,7 +301,7 @@ Soc. But if you did not possess mind or memory or knowledge or true opinion, in 
 
 Pro. Yes, it must.
 
-Soc. And likewise, if you had no memory you could not even remember that you ever did enjoy pleasure, and no recollection whatever of present pleasure could remain with you; if you had no true opinion you could not think you were enjoying pleasure at the time when you were enjoying it, and if you were without power of calculation you would not be able to calculate that you would enjoy it in the future; your life would not be that of a man, but of a mollusc or some other shell-fish like the oyster. [21d] Is that true, or can we imagine any other result?
+[21c] Soc. And likewise, if you had no memory you could not even remember that you ever did enjoy pleasure, and no recollection whatever of present pleasure could remain with you; if you had no true opinion you could not think you were enjoying pleasure at the time when you were enjoying it, and if you were without power of calculation you would not be able to calculate that you would enjoy it in the future; your life would not be that of a man, but of a mollusc or some other shell-fish like the oyster. [21d] Is that true, or can we imagine any other result?
 
 Pro. We certainly cannot.
 
@@ -324,7 +317,7 @@ Soc. I ask whether anyone would be willing to live possessing wisdom and mind an
 
 Pro. Neither of the two lives can ever appear desirable to me, Socrates, or, I think, to anyone else.
 
-[22] Soc. How about the combined life, Protarchus, made up by a union of the two?
+[22a] Soc. How about the combined life, Protarchus, made up by a union of the two?
 
 Pro. You mean a union of pleasure with mind or wisdom?
 
@@ -340,19 +333,19 @@ Soc. Then is it not already clear that neither of these two contained the good f
 
 Pro. That seems at any rate to be true.
 
-Soc. And so I think we have sufficiently proved that Philebus’s divinity is not to be considered identical with the good.
+[22c] Soc. And so I think we have sufficiently proved that Philebus’s divinity is not to be considered identical with the good.
 
-Phi. But neither is your mind the good, Socrates; it will be open to the same objections.
+Phi. But neither is your “mind” the good, Socrates; it will be open to the same objections.
 
 Soc. My mind, perhaps, Philebus; but not so, I believe, the true mind, which is also divine; that is different. I do not as yet claim for mind the victory over the combined life, but we must look and see what is to be done about the second place; [22d] for each of us might perhaps put forward a claim, one that mind is the cause of this combined life, the other that pleasure is the cause and thus neither of these two would be the good, but one or the other of them might be regarded as the cause of the good. On this point I might keep up the fight all the more against Philebus and contend that in this mixed life it is mind that is more akin and more similar than pleasure to that, whatever it may be, which makes it both desirable and good; and from this point of view [22e] pleasure could advance no true claim to the first or even the second place. It is farther behind than the third place, if my mind is at all to be trusted at present.
 
-[23] Pro. Certainly, Socrates, it seems to me that pleasure has fought for the victory and has fallen in this bout, knocked down by your words. [23] [23a] And we can only say, as it seems, that mind was wise in not laying claim to the victory; for it would have met with the same fate. Now pleasure, if she were to lose the second prize, would be deeply humiliated in the eyes of her lovers; for she would no longer appear even to them so lovely as before.
+Pro. Certainly, Socrates, it seems to me that pleasure has fought for the victory and has fallen in this bout, knocked down by your words. [23a] And we can only say, as it seems, that mind was wise in not laying claim to the victory; for it would have met with the same fate. Now pleasure, if she were to lose the second prize, would be deeply humiliated in the eyes of her lovers; for she would no longer appear even to them so lovely as before.
 
 Soc. Well, then, is it not better to leave her now and not to pain her by testing her to the utmost and proving her in the wrong?
 
 Pro. Nonsense, Socrates!
 
-Soc. Nonsense because I spoke of paining pleasure, and that is impossible?
+[23b] Soc. Nonsense because I spoke of paining pleasure, and that is impossible?
 
 Pro. Not only that, but because you do not understand that not one of us will let you go yet until you have finished the argument about these matters.
 
@@ -396,7 +389,7 @@ Soc. First, then, let us take three of the four and, as we see that two of these
 
 Pro. If you could tell me more clearly about them, I might be able to follow you.
 
-[24] Soc. I mean, then, that the two which I select are the same which I mentioned before, the infinite and the finite. I will try to show that the infinite is, in a certain sense, many; the finite can wait.
+[24a] Soc. I mean, then, that the two which I select are the same which I mentioned before, the infinite and the finite. I will try to show that the infinite is, in a certain sense, many; the finite can wait.
 
 Pro. Yes.
 
@@ -412,7 +405,7 @@ Soc. Always, then, the argument shows that these two have no end; and being endl
 
 Pro. Most emphatically, Socrates.
 
-Soc. I am glad you responded, my dear Protarchus, [24c] and reminded me that the word emphatically which you have just used, and the word gently have the same force as more and less. For wherever they are present, they do not allow any definite quantity to exist; they always introduce in every instance a comparison—more emphatic than that which is quieter, or vice versa—and thus they create the relation of more and less, thereby doing away with fixed quantity. For, as I said just now, if they did not abolish quantity, but allowed it and measure to make their appearance in the abode of the more and less, [24d] the emphatically and gently, those latter would be banished from their own proper place. When once they had accepted definite quantity, they would no longer be hotter or colder; for hotter and colder are always progressing and never stationary; but quantity is at rest and does not progress. By this reasoning hotter and its opposite are shown to be infinite.
+Soc. I am glad you responded, my dear Protarchus, [24c] and reminded me that the word “emphatically” which you have just used, and the word “gently” have the same force as “more” and “less.” For wherever they are present, they do not allow any definite quantity to exist; they always introduce in every instance a comparison—more emphatic than that which is quieter, or vice versa—and thus they create the relation of more and less, thereby doing away with fixed quantity. For, as I said just now, if they did not abolish quantity, but allowed it and measure to make their appearance in the abode of the more and less, [24d] the emphatically and gently, those latter would be banished from their own proper place. When once they had accepted definite quantity, they would no longer be hotter or colder; for hotter and colder are always progressing and never stationary; but quantity is at rest and does not progress. By this reasoning hotter and its opposite are shown to be infinite.
 
 Pro. That appears to be the case, Socrates; but, as you said, these subjects are not easy to follow. Perhaps, however, [24e] continued repetition might lead to a satisfactory agreement between the questioner and him who is questioned.
 
@@ -420,7 +413,7 @@ Soc. That is a good suggestion, and I must try to carry it out. However, to avoi
 
 Pro. Accept what?
 
-[25] Soc. All things which appear to us to become more or less, or to admit of emphatic and gentle [25] [25a] and excessive and the like, are to be put in the class of the infinite as their unity, in accordance with what we said a while ago, if you remember, that we ought to collect all things that are scattered and split up and impress upon them to the best of our ability the seal of some single nature.
+Soc. All things which appear to us to become more or less, or to admit of emphatic and gentle [25a] and excessive and the like, are to be put in the class of the infinite as their unity, in accordance with what we said a while ago, if you remember, that we ought to collect all things that are scattered and split up and impress upon them to the best of our ability the seal of some single nature.
 
 Pro. I remember.
 
@@ -438,7 +431,7 @@ Pro. Pray, then, and watch.
 
 Soc. I am watching; and I think, Protarchus, one of the gods has this moment been gracious unto me.
 
-Pro. What do you mean, and what evidence have you?
+[25c] Pro. What do you mean, and what evidence have you?
 
 Soc. I will tell you, of course. Just follow what I say.
 
@@ -450,7 +443,7 @@ Pro. Yes.
 
 Soc. Add to them drier and wetter, more and less, quicker and slower, greater and smaller, and all that we assigned before to the class which unites more and less.
 
-Pro. You mean the class of the infinite?
+[25d] Pro. You mean the class of the infinite?
 
 Soc. Yes. Mix with that the second class, the offspring of the limit.
 
@@ -468,9 +461,9 @@ Soc. Yes, you are right.
 
 Pro. Go on.
 
-[26] Soc. In cases of illness, does not the proper combination of these elements produce health?
+Soc. In cases of illness, does not the proper combination of these elements produce health?
 
-Pro. Certainly.
+[26a] Pro. Certainly.
 
 Soc. And in the acute and the grave, the quick and the slow, which are unlimited, the addition of these same elements creates a limit and establishes the whole art of music in all its perfection, does it not?
 
@@ -484,7 +477,7 @@ Soc. And thence arise the seasons and all the beauties of our world, [26b] by mi
 
 Pro. Of course.
 
-Soc. There are countless other things which I pass over, such as health, beauty, and strength of the body and the many glorious beauties of the soul. For this goddess, This goddess may be Μουσική (in which case ἐγγενομένη the reading of T and G, would be preferable to ἐγγενόμενα above), not music in the restricted modern sense, but the spirit of numbers and measure which underlies all music, and all the beauties of the world; or the goddess may be mentioned here in reference (and opposition) to the goddess Pleasure (12 B); she is the nameless deity who makes Pleasure and all others conform to her rules. my fair Philebus, beholding the violence and universal wickedness which prevailed, since there was no limit of pleasures or of indulgence in them, established law and order, which contain a limit. You say she did harm; [26c] I say, on the contrary, she brought salvation. What do you think, Protarchus?
+Soc. There are countless other things which I pass over, such as health, beauty, and strength of the body and the many glorious beauties of the soul. For this goddess, [^3] my fair Philebus, beholding the violence and universal wickedness which prevailed, since there was no limit of pleasures or of indulgence in them, established law and order, which contain a limit. You say she did harm; [26c] I say, on the contrary, she brought salvation. What do you think, Protarchus?
 
 Pro. What you say, Socrates, pleases me greatly.
 
@@ -504,7 +497,7 @@ Soc. No, not at all. And as to the third class, understand that I mean every off
 
 Pro. I understand.
 
-Soc. But we said there was, in addition to three classes, a fourth to be investigated. Let us do that together. See whether you think that everything which comes into being must necessarily come into being through a cause.
+[26e] Soc. But we said there was, in addition to three classes, a fourth to be investigated. Let us do that together. See whether you think that everything which comes into being must necessarily come into being through a cause.
 
 Pro. Yes, I do; for how could it come into being apart from a cause?
 
@@ -512,7 +505,7 @@ Soc. Does not the nature of that which makes or creates differ only in name from
 
 Pro. Yes.
 
-[27] Soc. And, again, we shall find that, on the same principle, that which is made or created differs in name only from that which comes into being, shall we not?
+[27a] Soc. And, again, we shall find that, on the same principle, that which is made or created differs in name only from that which comes into being, shall we not?
 
 Pro. We shall.
 
@@ -528,7 +521,7 @@ Soc. Did not the things which come into being and the things out of which they c
 
 Pro. Certainly.
 
-Soc. And that which produces all these, the cause, we call the fourth, as it has been satisfactorily shown to be distinct from the others?
+[27b] Soc. And that which produces all these, the cause, we call the fourth, as it has been satisfactorily shown to be distinct from the others?
 
 Pro. Yes, it is distinct.
 
@@ -548,7 +541,7 @@ Soc. And may we not, perhaps, now that we have finished with these points, be be
 
 Pro. Perhaps.
 
-Soc. Well then; we decided that the mixed life of pleasure and wisdom was the victor, did we not?
+[27d] Soc. Well then; we decided that the mixed life of pleasure and wisdom was the victor, did we not?
 
 Pro. Yes.
 
@@ -560,7 +553,7 @@ Soc. We shall say that it belongs to the third class; for that class is not form
 
 Pro. Quite rightly.
 
-Soc. Well then, what of your life, Philebus, of unmixed pleasure? In which of the aforesaid classes may it properly be said to belong? But before you tell me, please answer this question.
+[27e] Soc. Well then, what of your life, Philebus, of unmixed pleasure? In which of the aforesaid classes may it properly be said to belong? But before you tell me, please answer this question.
 
 Phi. Ask your question.
 
@@ -568,9 +561,9 @@ Soc. Have pleasure and pain a limit, or are they among the things which admit of
 
 Phi. Yes, they are among those which admit of the more, Socrates; for pleasure would not be absolute good if it were not infinite in number and degree.
 
-[28] Soc. Nor would pain, Philebus, be absolute evil; so it is not the infinite which supplies any element of good in pleasure; we must look for something else. Well, I grant you that pleasure and pain are in the class of the infinite but to which of the aforesaid classes, Protarchus and Philebus, can we now without irreverence assign wisdom, knowledge, and mind? I think we must find the right answer to this question, for our danger is great if we fail.
+[28a] Soc. Nor would pain, Philebus, be absolute evil; so it is not the infinite which supplies any element of good in pleasure; we must look for something else. Well, I grant you that pleasure and pain are in the class of the infinite but to which of the aforesaid classes, Protarchus and Philebus, can we now without irreverence assign wisdom, knowledge, and mind? I think we must find the right answer to this question, for our danger is great if we fail.
 
-Phi. Oh Socrates, you exalt your own god.
+[28b] Phi. Oh Socrates, you exalt your own god.
 
 Soc. And you your goddess, my friend. But the question calls for an answer, all the same.
 
@@ -580,13 +573,13 @@ Phi. Did you not, Protarchus, elect to reply in my place?
 
 Pro. Yes; but now I am somewhat at a loss, and I ask you, Socrates, to be our spokesman yourself, that we may not select the wrong representative and so say something improper.
 
-Soc. I must do as you ask, Protarchus; and it is not difficult. But did I really, as Philebus said, embarrass you by playfully exalting my god, when I asked to what class mind and knowledge should be assigned?
+[28c] Soc. I must do as you ask, Protarchus; and it is not difficult. But did I really, as Philebus said, embarrass you by playfully exalting my god, when I asked to what class mind and knowledge should be assigned?
 
 Pro. You certainly did, Socrates.
 
 Soc. Yet the answer is easy; for all philosophers agree—whereby they really exalt themselves—that mind is king of heaven and earth. Perhaps they are right. But let us, if you please, investigate the question of its class more at length.
 
-Pro. Speak just as you like, Socrates. Do not consider length, so far as we are concerned you cannot bore us.
+[28d] Pro. Speak just as you like, Socrates. Do not consider length, so far as we are concerned you cannot bore us.
 
 Soc. Good. Then let us begin by asking a question.
 
@@ -594,9 +587,9 @@ Pro. What is the question?
 
 Soc. Shall we say, Protarchus, that all things and this which is called the universe are governed by an irrational and fortuitous power and mere chance, or, on the contrary, as our forefathers said, are ordered and directed by mind and a marvellous wisdom?
 
-Pro. The two points of view have nothing in common, my wonderful Socrates. For what you are now saying seems to me actually impious. But the assertion that mind orders all things is worthy of the aspect of the world, of sun, moon, stars, and the whole revolving universe; I can never say or think anything else about it.
+[28e] Pro. The two points of view have nothing in common, my wonderful Socrates. For what you are now saying seems to me actually impious. But the assertion that mind orders all things is worthy of the aspect of the world, of sun, moon, stars, and the whole revolving universe; I can never say or think anything else about it.
 
-[29] Soc. Do you, then, think we should assent to this and agree in the doctrine of our predecessors, [29] [29a] not merely intending to repeat the words of others, with no risk to ourselves, but ready to share with them in the risk and the blame, if any clever man declares that this world is not thus ordered, but is without order?
+Soc. Do you, then, think we should assent to this and agree in the doctrine of our predecessors, [29a] not merely intending to repeat the words of others, with no risk to ourselves, but ready to share with them in the risk and the blame, if any clever man declares that this world is not thus ordered, but is without order?
 
 Pro. Yes, of course I do.
 
@@ -616,7 +609,7 @@ Soc. Each element in us is small and poor and in no way pure at all or endowed w
 
 Pro. Of course.
 
-Soc. And that which is in us is small, weak, and poor, but that which is in the universe is marvellous in quantity, beauty, and every power which belongs to fire.
+[29c] Soc. And that which is in us is small, weak, and poor, but that which is in the universe is marvellous in quantity, beauty, and every power which belongs to fire.
 
 Pro. What you say is very true.
 
@@ -624,7 +617,7 @@ Soc. Well, is the fire of the universe nourished, originated, and ruled by the f
 
 Pro. That question does not even deserve an answer.
 
-Soc. True; and you will, I fancy, say the same of the earth which is in us living creatures and that which is in the universe, and concerning all the other elements about which I asked a moment ago your answer will be the same.
+[29d] Soc. True; and you will, I fancy, say the same of the earth which is in us living creatures and that which is in the universe, and concerning all the other elements about which I asked a moment ago your answer will be the same.
 
 Pro. Yes. Who could answer otherwise without being called a lunatic?
 
@@ -632,7 +625,7 @@ Soc. Nobody, I fancy. Now follow the next step. When we see that all the aforesa
 
 Pro. Of course.
 
-Soc. Apply the same line of thought to that which we call the universe. It would likewise be a body, being composed of the same elements.
+[29e] Soc. Apply the same line of thought to that which we call the universe. It would likewise be a body, being composed of the same elements.
 
 Pro. Quite right.
 
@@ -640,7 +633,7 @@ Soc. Does our body derive, obtain, and possess from that body, or that body from
 
 Pro. That, Socrates, is another question not worth asking.
 
-[30] Soc. Well, is this next one worth asking? What will you say to it?
+[30a] Soc. Well, is this next one worth asking? What will you say to it?
 
 Pro. What is it?
 
@@ -654,7 +647,7 @@ Pro. Clearly it could get it from no other source.
 
 Soc. No; for we surely do not believe, Protarchus, that of those four elements, the finite, the infinite, the combination, [30b] and the element of cause which exists in all things, this last, which gives to our bodies souls and the art of physical exercise and medical treatment when the body is ill, and which is in general a composing and healing power, is called the sum of all wisdom, and yet, while these same elements exist in the entire heaven and in great parts thereof, and area moreover, fair and pure, there is no means of including among them that nature which is the fairest and most precious of all.
 
-Pro. Certainly there would be no sense in that.
+[30c] Pro. Certainly there would be no sense in that.
 
 Soc. Then if that is not the case, it would be better to follow the other line of thought and say, as we have often said, that there is in the universe a plentiful infinite and a sufficient limit, and in addition a by no means feeble cause which orders and arranges years and seasons and months, and may most justly be called wisdom and mind.
 
@@ -668,7 +661,7 @@ Soc. Then in the nature of Zeus you would say that a kingly soul [30d] and a kin
 
 Pro. Certainly.
 
-Soc. Now do not imagine, Protarchus, that this is mere idle talk of mine; it confirms the utterances of those who declared of old Anaxagoras and probably some now unknown precursors. that mind always rules the universe.
+Soc. Now do not imagine, Protarchus, that this is mere idle talk of mine; it confirms the utterances of those who declared of old [^4] that mind always rules the universe.
 
 Pro. Yes, certainly.
 
@@ -680,7 +673,7 @@ Soc. Yes, Protarchus, for sometimes a joke is a restful change from serious talk
 
 Pro. You are right.
 
-[31] Soc. We have now, then, my friend, pretty clearly shown to what class mind belongs [31] [31a] and what power it possesses.
+Soc. We have now, then, my friend, pretty clearly shown to what class mind belongs [31a] and what power it possesses.
 
 Pro. Certainly.
 
@@ -690,7 +683,7 @@ Pro. Yes, it was.
 
 Soc. Let us, then, remember concerning both of them that mind was akin to cause and belonged more or less to that class, and that pleasure was itself infinite and belonged to the class which, in and by itself, has not and never will have either beginning or middle or end.
 
-Pro. We will remember that, of course.
+[31b] Pro. We will remember that, of course.
 
 Soc. Our next task is to see in what and by means of what feeling each of them comes into being whenever they do come into being. We will take pleasure first and discuss these questions in relation to pleasure, as we examined its class first. But we cannot examine pleasure successfully apart from pain.
 
@@ -698,7 +691,7 @@ Pro. If that is our proper path, let us follow it.
 
 Soc. Do you agree with us about the origin of pleasure?
 
-Pro. What do you think it is?
+[31c] Pro. What do you think it is?
 
 Soc. I think pain and pleasure naturally originate in the combined class.
 
@@ -712,7 +705,7 @@ Soc. By combined class, then, let us understand that which we said was the third
 
 Pro. The one you mentioned after the infinite and the finite, and in which you put health and also, I believe, harmony?
 
-Soc. You are quite right. Now please pay very close attention.
+[31d] Soc. You are quite right. Now please pay very close attention.
 
 Pro. I will. Say on.
 
@@ -722,7 +715,7 @@ Pro. What you say is very likely.
 
 Soc. But if harmony is recomposed and returns to its own nature, then I say that pleasure is generated, if I may speak in the fewest and briefest words about matters of the highest import.
 
-Pro. I think you are right, Socrates; but let us try to be more explicit.
+[31e] Pro. I think you are right, Socrates; but let us try to be more explicit.
 
 Soc. It is easiest to understand common and obvious examples, is it not?
 
@@ -736,7 +729,7 @@ Soc. And eating, which is a filling up again, is a pleasure?
 
 Pro. Yes.
 
-[32] Soc. Thirst again is a destruction and a pain, but the filling with moisture [32] [32a] of that which was dried up is a pleasure. Then, too, the unnatural dissolution and disintegration we experience through heat are a pain, but the natural restoration and cooling are a pleasure.
+Soc. Thirst again is a destruction and a pain, but the filling with moisture [32a] of that which was dried up is a pleasure. Then, too, the unnatural dissolution and disintegration we experience through heat are a pain, but the natural restoration and cooling are a pleasure.
 
 Pro. Certainly.
 
@@ -760,7 +753,7 @@ Soc. First, then, let us agree on this point: If it is true, [32e] as we said, t
 
 Pro. Yes, necessarily.
 
-[33] Soc. Have we, then, a third condition, [33] [33a] besides those of feeling pleasure and pain?
+Soc. Have we, then, a third condition, [33a] besides those of feeling pleasure and pain?
 
 Pro. Certainly.
 
@@ -770,7 +763,7 @@ Pro. Pray do so.
 
 Soc. You know that there is nothing to hinder a man from living the life of wisdom in this manner.
 
-Pro. You mean without feeling pleasure or pain?
+[33b] Pro. You mean without feeling pleasure or pain?
 
 Soc. Yes, for it was said, you know, in our comparison of the lives that he who chose the life of mind and wisdom was to have no feeling of pleasure, great or small.
 
@@ -790,7 +783,7 @@ Pro. How is that?
 
 Soc. We must, apparently, first take up memory, and perception even before memory, if these matters are to be made clear to us properly.
 
-Pro. What do you mean?
+[33d] Pro. What do you mean?
 
 Soc. Assume that some of the affections of our body are extinguished in the body before they reach the soul, leaving the soul unaffected, and that other affections permeate both body and soul and cause a vibration in both conjointly and in each individually.
 
@@ -798,7 +791,7 @@ Pro. Let us assume that.
 
 Soc. Shall we be right in saying that the soul forgets those which do not permeate both, and does not forget those which do?
 
-Pro. Yes, certainly.
+[33e] Pro. Yes, certainly.
 
 Soc. Do not in the least imagine that when I speak of forgetting I mean that forgetfulness arises in this case; for forgetfulness is the departure of memory, and in the case under consideration memory has not yet come into being; now it is absurd to speak of the loss of that which does not exist and has not yet come into being, is it not?
 
@@ -808,7 +801,7 @@ Soc. Then just change the terms.
 
 Pro. How?
 
-[34] Soc. Instead of saying that the soul forgets, when it is unaffected by the vibrations of the body, [34] [34a] apply the term want of perception to that which you are now calling forgetfulness.
+Soc. Instead of saying that the soul forgets, when it is unaffected by the vibrations of the body, [34a] apply the term want of perception to that which you are now calling forgetfulness.
 
 Pro. I understand.
 
@@ -822,7 +815,7 @@ Pro. Certainly.
 
 Soc. I think, then, that memory may rightly be defined as the preservation of perception.
 
-Pro. Quite rightly.
+[34b] Pro. Quite rightly.
 
 Soc. But do we not say that memory differs from recollection?
 
@@ -868,7 +861,7 @@ Soc. Let us, then, begin again at that point with the same examples.
 
 Pro. At what point?
 
-Soc. We say of a thing on any particular occasion, it’s thirsty, do we not?
+Soc. We say of a thing on any particular occasion, “it’s thirsty,” do we not?
 
 Pro. Of course.
 
@@ -880,7 +873,7 @@ Soc. And is thirst, then, a desire?
 
 Pro. Yes, of drink.
 
-[35] Soc. Of drink, or of being filled with drink?
+[35a] Soc. Of drink, or of being filled with drink?
 
 Pro. Of being filled, I suppose.
 
@@ -892,7 +885,7 @@ Soc. Well then, is there any source from which a man who is empty at first can g
 
 Pro. It cannot be done.
 
-Soc. And yet he who desires, desires something, we say.
+[35b] Soc. And yet he who desires, desires something, we say.
 
 Pro. Of course.
 
@@ -928,7 +921,7 @@ Soc. And the impulse which leads towards the opposite of those conditions shows 
 
 Pro. Certainly.
 
-Soc. And the argument, by showing that memory is that which leads us towards the objects of desire, has proved that all the impulse, the desire, and the ruling principle in every living being are of the soul.
+[35d] Soc. And the argument, by showing that memory is that which leads us towards the objects of desire, has proved that all the impulse, the desire, and the ruling principle in every living being are of the soul.
 
 Pro. Quite right.
 
@@ -938,7 +931,7 @@ Pro. Very true.
 
 Soc. Let us consider a further point in connection with those very affections. For I think the purpose of the argument is to point out to us a state of life existing in them.
 
-Pro. Of what sort of life are you speaking, and in what affections does it exist?
+[35e] Pro. Of what sort of life are you speaking, and in what affections does it exist?
 
 Soc. In the affections of fulness and emptiness and all which pertain to the preservation and destruction of living beings, and I am thinking that if we fall into one of these we feel pain, which is followed by joy when we change to the other.
 
@@ -948,7 +941,7 @@ Soc. And what if a man is between the two?
 
 Pro. How between them?
 
-[36] Soc. Because of his condition, he is suffering, but he remembers the pleasures the coming of which would bring him an end of his pain; as yet, however, he does not possess them. Well then, shall we say that he is [36] [36a] between the affections, or not?
+Soc. Because of his condition, he is suffering, but he remembers the pleasures the coming of which would bring him an end of his pain; as yet, however, he does not possess them. Well then, shall we say that he is [36a] between the affections, or not?
 
 Pro. Let us say so.
 
@@ -982,13 +975,13 @@ Pro. But, Socrates, how can there be false pleasures or pains?
 
 Soc. But, Protarchus, how can there be true and false fears, or true and false expectations, or true and false opinions?
 
-Pro. Opinions I would grant you, but not the rest.
+[36d] Pro. Opinions I would grant you, but not the rest.
 
 Soc. What? I am afraid we are starting a very considerable discussion.
 
 Pro. You are right.
 
-Soc. And yet we must consider, thou son of that man, Son of that man may mean son of Philebus, in so far as Protarchus is a pupil of Philebus, or (so Bury) son of Gorgias, the orator and teacher (cf. Plat. Phaedo 58b), or the father of Protarchus may be referred to by the pronoun, possibly because Socrates does not at the moment recall his name or because he wishes to imply that he was a man of mark. whether the discussion is relevant to what has gone before.
+Soc. And yet we must consider, thou son of that man, [^5] whether the discussion is relevant to what has gone before.
 
 Pro. Yes, no doubt.
 
@@ -996,7 +989,7 @@ Soc. We must dismiss everything else, tedious or otherwise, that is irrelevant.
 
 Pro. Right.
 
-Soc. Now tell me; for I am always utterly amazed by the same questions we were just proposing.
+[36e] Soc. Now tell me; for I am always utterly amazed by the same questions we were just proposing.
 
 Pro. What do you mean?
 
@@ -1008,9 +1001,9 @@ Soc. Then, as you maintain, nobody, either sleeping or waking or insane or deran
 
 Pro. We have, Socrates, always believed that all this is as you suggest.
 
-[37] Soc. But is the belief correct? Shall we consider whether it is so or not?
+Soc. But is the belief correct? Shall we consider whether it is so or not?
 
-Pro. I should say we ought to consider that.
+[37a] Pro. I should say we ought to consider that.
 
 Soc. Then let us analyze still more clearly what we were just now saying about pleasure and opinion. There is a faculty of having an opinion, is there not?
 
@@ -1030,7 +1023,7 @@ Pro. Certainly.
 
 Soc. And that which has opinion, whether right or wrong, never loses its function of really having opinion?
 
-Pro. Of course not.
+[37b] Pro. Of course not.
 
 Soc. And that which feels pleasure, whether rightly or wrongly, will clearly never lose its function of really feeling pleasure?
 
@@ -1060,7 +1053,7 @@ Soc. And what if rightness or its opposite becomes an attribute of one of them? 
 
 Pro. Obviously.
 
-Soc. And if that which is opined is mistaken, must we not agree that the opinion, since it is at the moment making a mistake, is not right or rightly opining?
+[37e] Soc. And if that which is opined is mistaken, must we not agree that the opinion, since it is at the moment making a mistake, is not right or rightly opining?
 
 Pro. Of course.
 
@@ -1070,7 +1063,7 @@ Pro. That is impossible if the pleasure is mistaken.
 
 Soc. And certainly pleasure often seems to come to us in connection with false, not true, opinion.
 
-[38] Pro. Of course it does; and in such a case, Socrates, [38] [38a] we call the opinion false; but nobody would ever call the actual pleasure false.
+Pro. Of course it does; and in such a case, Socrates, [38a] we call the opinion false; but nobody would ever call the actual pleasure false.
 
 Soc. You are an eager advocate of the case of pleasure just now, Protarchus.
 
@@ -1078,7 +1071,7 @@ Pro. Oh no, I merely say what I hear.
 
 Soc. Is there no difference, my friend, between the pleasure which is connected with right opinion and knowledge and that which often comes to each of us with falsehood and ignorance?
 
-Pro. There is likely to be a great difference.
+[38b] Pro. There is likely to be a great difference.
 
 Soc. Then let us proceed to the contemplation of the difference between them.
 
@@ -1112,11 +1105,11 @@ Soc. Next, then, would he not ask himself—
 
 Pro. What?
 
-Soc. What is that which is visible standing [38d] beside the rock under a tree? Do you not think a man might ask himself such a question if he saw such objects presented to his view?
+Soc. “What is that which is visible standing [38d] beside the rock under a tree?” Do you not think a man might ask himself such a question if he saw such objects presented to his view?
 
 Pro. To be sure.
 
-Soc. And after that our gazer might reply to himself correctly It is a man?
+Soc. And after that our gazer might reply to himself correctly “It is a man”?
 
 Pro. Certainly.
 
@@ -1124,7 +1117,7 @@ Soc. Or, again, perhaps he might be misled into the belief that it was a work of
 
 Pro. Yes, indeed.
 
-Soc. And if some one is with him, he might repeat aloud to his companion what he had said to himself, and thus that which we called an opinion now becomes a statement?
+[38e] Soc. And if some one is with him, he might repeat aloud to his companion what he had said to himself, and thus that which we called an opinion now becomes a statement?
 
 Pro. Certainly.
 
@@ -1140,9 +1133,9 @@ Soc. I think the soul at such a time is like a book.
 
 Pro. How is that?
 
-[39] Soc. Memory unites with the senses, and they and the feelings which are connected with them seem to me almost to write words in our souls; and when the feeling in question writes the truth, true opinions and true statements are produced in us; but when the writer within us writes falsehoods, the resulting opinions and statements are the opposite of true.
+[39a] Soc. Memory unites with the senses, and they and the feelings which are connected with them seem to me almost to write words in our souls; and when the feeling in question writes the truth, true opinions and true statements are produced in us; but when the writer within us writes falsehoods, the resulting opinions and statements are the opposite of true.
 
-Pro. That is my view completely, and I accept it as stated.
+[39b] Pro. That is my view completely, and I accept it as stated.
 
 Soc. Then accept also the presence of another workman in our souls at such a time.
 
@@ -1168,7 +1161,7 @@ Soc. Whether this is an inevitable experience in relation to the present and the
 
 Pro. It is in the same relation to all kinds of time.
 
-Soc. Was it not said a while ago that the pleasures and pains which belong to the soul alone might come before the pleasures and pains of the body, so that we have the pleasure and pain of anticipation, which relate to the future?
+[39d] Soc. Was it not said a while ago that the pleasures and pains which belong to the soul alone might come before the pleasures and pains of the body, so that we have the pleasure and pain of anticipation, which relate to the future?
 
 Pro. Very true.
 
@@ -1176,7 +1169,7 @@ Soc. Do the writings and pictures, then, which we imagined a little while ago to
 
 Pro. To the future especially.
 
-Soc. Do you say to the future especially because they are all hopes relating to the future and we are always filled with hopes all our lives?
+Soc. Do you say “to the future especially” because they are all hopes relating to the future and we are always filled with hopes all our lives?
 
 Pro. Precisely.
 
@@ -1188,7 +1181,7 @@ Soc. A just, pious, and good man is surely a friend of the gods, is he not?
 
 Pro. Certainly.
 
-[40] Soc. And an unjust and thoroughly bad man [40] [40a] is the reverse?
+Soc. And an unjust and thoroughly bad man [40a] is the reverse?
 
 Pro. Of course.
 
@@ -1202,7 +1195,7 @@ Pro. Yes.
 
 Soc. And also the images painted there; and often a man sees an abundance of gold coming into his possession, and in its train many pleasures; and he even sees a picture of himself enjoying himself immensely.
 
-Pro. Yes, certainly.
+[40b] Pro. Yes, certainly.
 
 Soc. Shall we or shall we not say that of these pictures those are for the most part true which are presented to the good, because they are friends of the gods, whereas those presented to the bad are for the most part false?
 
@@ -1212,7 +1205,7 @@ Soc. Then the bad also, no less than the good, have pleasures painted in their s
 
 Pro. Yes, surely.
 
-Soc. Then the bad rejoice for the most part in the false, and the good in true pleasures.
+[40c] Soc. Then the bad rejoice for the most part in the false, and the good in true pleasures.
 
 Pro. That is inevitably true.
 
@@ -1224,7 +1217,7 @@ Soc. We saw, you remember, that he who had an opinion at all always really had a
 
 Pro. Certainly.
 
-Soc. And this it was, I believe, which created false opinion and the holding of false opinions, was it not?
+[40d] Soc. And this it was, I believe, which created false opinion and the holding of false opinions, was it not?
 
 Pro. Yes.
 
@@ -1234,7 +1227,7 @@ Pro. What do you mean?
 
 Soc. I mean that he who feels pleasure at all in any way or manner always really feels pleasure, but it is sometimes not based upon realities, whether present or past, and often, perhaps most frequently, upon things which will never even be realities in the future.
 
-Pro. This also, Socrates, must inevitably be the case.
+[40e] Pro. This also, Socrates, must inevitably be the case.
 
 Soc. And the same may be said of fear and anger and all that sort of thing—that they are all sometimes false?
 
@@ -1244,9 +1237,9 @@ Soc. Well, can we say that opinions become bad or good except as they become fal
 
 Pro. No.
 
-Soc. And we understand, I believe, that pleasures also [41] [41a] are not bad except by being false.
+Soc. And we understand, I believe, that pleasures also [41a] are not bad except by being false.
 
-[41] Pro. No; you have said quite the reverse of the truth, Socrates; for no one would be at all likely to call pains and pleasures bad because they are false, but because they are involved in another great and manifold evil.
+Pro. No; you have said quite the reverse of the truth, Socrates; for no one would be at all likely to call pains and pleasures bad because they are false, but because they are involved in another great and manifold evil.
 
 Soc. Then of the evil pleasures which are such because of evil we will speak a little later, if we still care to do so; but of the false pleasures we must prove in another way that they exist and come into existence in us often and in great numbers; [41b] for this may help us to reach our decisions.
 
@@ -1272,7 +1265,7 @@ Soc. Then draw the conclusion as to what takes place in these circumstances.
 
 Pro. Go on.
 
-Soc. What takes place is this: in these circumstances pleasures and pains exist at the same time and the sensations of opposite pleasures and pains are present side by side simultaneously, as was made clear just now.
+[41d] Soc. What takes place is this: in these circumstances pleasures and pains exist at the same time and the sensations of opposite pleasures and pains are present side by side simultaneously, as was made clear just now.
 
 Pro. Yes, that is clear.
 
@@ -1286,13 +1279,13 @@ Pro. Yes, we have said that, certainly.
 
 Soc. Then what means is there of judging rightly of this?
 
-Pro. How and in what way do you mean?
+[41e] Pro. How and in what way do you mean?
 
 Soc. I mean to ask whether the purpose of our judgement of these matters in such circumstances is to recognize in each instance which of these elements is greater or smaller or more intense, comparing pain with pleasure, pain with pain, and pleasure with pleasure.
 
 Pro. Certainly there are such differences, and that is the purpose of our judgement.
 
-[42] Soc. Well then, in the case of sight, seeing things from too near at hand or from too great a distance [42] [42a] obscures their real sizes and causes us to have false opinions; and does not this same thing happen in the case of pains and pleasures?
+Soc. Well then, in the case of sight, seeing things from too near at hand or from too great a distance [42a] obscures their real sizes and causes us to have false opinions; and does not this same thing happen in the case of pains and pleasures?
 
 Pro. Yes, Socrates, even much more than in the case of sight.
 
@@ -1302,7 +1295,7 @@ Pro. To what do you refer?
 
 Soc. A while ago these opinions, being false or true, imbued the pains and pleasures with their own condition of truth or falsehood.
 
-Pro. Very true.
+[42b] Pro. Very true.
 
 Soc. But now, because they are seen at various and changing distances and are compared with one another, the pleasures themselves appear greater and more intense by comparison with the pains, and the pains in turn, through comparison with the pleasures, vary inversely as they.
 
@@ -1328,7 +1321,7 @@ Soc. But when neither of these changes takes place in the body, what then?
 
 Pro. When could that be the case, Socrates?
 
-Soc. That question of yours is not to the point, Protarchus.
+[42e] Soc. That question of yours is not to the point, Protarchus.
 
 Pro. Why not?
 
@@ -1344,7 +1337,7 @@ Soc. Yes.
 
 Pro. It is clear, Socrates, that in that case there would never be either pleasure or pain.
 
-[43] Soc. Excellent. But you believe, I fancy, that some such change must always be taking place in us, as the philosophers Heracleitus and his followers. say; for all things are always flowing and shifting.
+[43a] Soc. Excellent. But you believe, I fancy, that some such change must always be taking place in us, as the philosophers [^6] say; for all things are always flowing and shifting.
 
 Pro. Yes, that is what they say, and I think their theory is important.
 
@@ -1352,7 +1345,7 @@ Soc. Of course it is, in view of their own importance. But I should like to avoi
 
 Pro. What is your way of escape?
 
-Soc. We grant you all this let us say to them. [43b] But answer me this, Protarchus, are we and all other living beings always conscious of everything that happens to us of our growth and all that sort of thing—or is the truth quite the reverse of that?
+Soc. “We grant you all this” let us say to them. [43b] But answer me this, Protarchus, are we and all other living beings always conscious of everything that happens to us of our growth and all that sort of thing—or is the truth quite the reverse of that?
 
 Pro. Quite the reverse, surely; for we are almost entirely unconscious of everything of that sort.
 
@@ -1360,7 +1353,7 @@ Soc. Then we were not right in saying just now that the fluctuations and changes
 
 Pro. No, certainly not.
 
-Soc. A better and more unassailable statement would be this.
+[43c] Soc. A better and more unassailable statement would be this.
 
 Pro. What?
 
@@ -1400,7 +1393,7 @@ Soc. Neither can that middle life of which we spoke ever be rightly considered i
 
 Pro. No, certainly not.
 
-[44] Soc. But surely, my friend, we are aware of persons who call it [44] [44a] and consider it so.
+Soc. But surely, my friend, we are aware of persons who call it [44a] and consider it so.
 
 Pro. Certainly.
 
@@ -1428,7 +1421,7 @@ Soc. Certain men who are said to be master thinkers about nature, and who deny t
 
 Pro. Is it possible?
 
-Soc. They say that what Philebus and his school call pleasures are all merely refuges from pain.
+[44c] Soc. They say that what Philebus and his school call pleasures are all merely refuges from pain.
 
 Pro. Do you recommend that we adopt their view, Socrates?
 
@@ -1440,7 +1433,7 @@ Soc. Let us, then, consider these men as allies and follow them in the track of 
 
 Pro. By all means, and I say to them that we should look at the greatest things.
 
-[45] Soc. Then if we wished to discover what the nature of pleasure is, we should look, not at the smallest pleasures, [45] [45a] but at those which are considered most extreme and intense.
+Soc. Then if we wished to discover what the nature of pleasure is, we should look, not at the smallest pleasures, [45a] but at those which are considered most extreme and intense.
 
 Pro. Every one would agree to that now.
 
@@ -1458,15 +1451,15 @@ Pro. That is true.
 
 Soc. But do not people who are in a fever, or in similar diseases, feel more intensely thirst and cold and other bodily sufferings which they usually have; and do they not feel greater want, followed by greater pleasure when their want is satisfied? Is this true, or not?
 
-Pro. Now that you have said it, it certainly appears to be true.
+[45c] Pro. Now that you have said it, it certainly appears to be true.
 
-Soc. Then should we appear to be right in saying that if we wished to discover the greatest pleasures we should have to look, not at health, but at disease? Now do not imagine that I mean to ask you whether those who are very ill have more pleasures than those who are well, but assume that I am asking about the greatness of pleasure, and where the greatest intensity of such feeling normally occurs. For we say that it is our task to discover the nature of pleasure and what [45d] those who deny its existence altogether say that it is. This paradox means what those say it is who deny that it is really pleasure.
+Soc. Then should we appear to be right in saying that if we wished to discover the greatest pleasures we should have to look, not at health, but at disease? Now do not imagine that I mean to ask you whether those who are very ill have more pleasures than those who are well, but assume that I am asking about the greatness of pleasure, and where the greatest intensity of such feeling normally occurs. For we say that it is our task to discover the nature of pleasure and what [45d] those who deny its existence altogether say that it is. [^7]
 
 Pro. I think I understand you.
 
 Soc. Presently, Protarchus, you will show that more clearly, for I want you to answer a question. Do you see greater pleasures—I do not mean greater in number, but greater in intensity and degree—in riotous living or in a life of self-restraint? Be careful about your reply.
 
-Pro. I understand you, and I see that there is a great difference. For the self-restrained are always held in check by the advice of the proverbial expression [45e] nothing too much, which guides their actions; but intense pleasure holds sway over the foolish and dissolute even to the point of madness and makes them notorious.
+Pro. I understand you, and I see that there is a great difference. For the self-restrained are always held in check by the advice of the proverbial expression [45e] “nothing too much,” which guides their actions; but intense pleasure holds sway over the foolish and dissolute even to the point of madness and makes them notorious.
 
 Soc. Good; and if that is true, it is clear that the greatest pleasures and the greatest pains originate in some depravity of soul and body, not in virtue.
 
@@ -1474,7 +1467,7 @@ Pro. Certainly.
 
 Soc. Then we must select some of these pleasures and see what there is about them which made us say that they are the greatest.
 
-[46] Pro. Yes, we must.
+[46a] Pro. Yes, we must.
 
 Soc. Now see what there is about the pleasures which are related to certain diseases.
 
@@ -1488,7 +1481,7 @@ Soc. For instance, the relief of the itch and the like by scratching, no other t
 
 Pro. I think, Socrates, it is a mixed evil.
 
-Soc. I did not introduce this question on Philebus’ account; but unless we consider these pleasures and those that follow in their train, Protarchus, we can probably never settle the point at issue.
+[46b] Soc. I did not introduce this question on Philebus’ account; but unless we consider these pleasures and those that follow in their train, Protarchus, we can probably never settle the point at issue.
 
 Pro. Then we must attack this family of pleasures.
 
@@ -1508,13 +1501,13 @@ Soc. And such mixtures sometimes consist of equal pains and pleasures and someti
 
 Pro. Of course.
 
-Soc. In the case of the mixtures in which the pains are more than the pleasures—say the itch, which we mentioned just now, or tickling—when the burning inflammation is within and is not reached by the rubbing and scratching, [46e] which separate only such mixtures as are on the surface, sometimes by bringing the affected parts to the fire or to something cold we change from wretchedness to inexpressible pleasures, and sometimes the opposition between the internal and the external produces a mixture of pains and pleasures, whichever happens to preponderate; this is the result of the forcible separation of combined elements, [47] [47a] or the combination of those that were separate, and the concomitant juxtaposition of pains and pleasures.
+Soc. In the case of the mixtures in which the pains are more than the pleasures—say the itch, which we mentioned just now, or tickling—when the burning inflammation is within and is not reached by the rubbing and scratching, [46e] which separate only such mixtures as are on the surface, sometimes by bringing the affected parts to the fire or to something cold we change from wretchedness to inexpressible pleasures, and sometimes the opposition between the internal and the external produces a mixture of pains and pleasures, whichever happens to preponderate; this is the result of the forcible separation of combined elements, [47a] or the combination of those that were separate, and the concomitant juxtaposition of pains and pleasures.
 
-[47] Pro. Very true.
+Pro. Very true.
 
 Soc. And when the pleasure is the predominant element in the mixture, the slight tincture of pain tickles a man and makes him mildly impatient, or again an excessive proportion of pleasure excites him and sometimes even makes him leap for joy; it produces in him all sorts of colors, attitudes, and paintings, and even causes great amazement and foolish shouting, does it not?
 
-Pro. Certainly.
+[47b] Pro. Certainly.
 
 Soc. And it makes him say of himself, and others say of him, that he is pleased to death with these delights, and the more unrestrained and foolish he is, the more he always gives himself up to the pursuit of these pleasures; he calls them the greatest of all things and counts that man the happiest who lives most entirely in the enjoyment of them.
 
@@ -1532,11 +1525,18 @@ Soc. That mixture of its own feelings which we said the soul often experiences.
 
 Pro. And what do we call this?
 
-Soc. Do you not regard anger, fear, yearning, mourning, love, jealousy, envy, and the like as pains of the soul and the soul only?
+[47e] Soc. Do you not regard anger, fear, yearning, mourning, love, jealousy, envy, and the like as pains of the soul and the soul only?
 
 Pro. I do.
 
-[48] Soc. And shall we not find them full of ineffable pleasures? Or must I remind you of the anger?Which stirs a man, though very wise, to wrath,And sweeter is than honey from the comb,Hom. Il. 18.108-109 [48] [48a] and of the pleasures mixed with pains, which we find in mournings and longings?
+Soc. And shall we not find them full of ineffable pleasures? Or must I remind you of the anger?[^8]
+
+```verso
+Which stirs a man, though very wise, to wrath,
+And sweeter is than honey from the comb,
+```
+
+[48a] and of the pleasures mixed with pains, which we find in mournings and longings?
 
 Pro. No, you need not remind me; those things occur just as you suggest.
 
@@ -1548,7 +1548,7 @@ Soc. And are you aware of the condition of the soul at comedies, how there also 
 
 Pro. I do not quite understand.
 
-Soc. Indeed it is by no means easy, Protarchus, to understand such a condition under those circumstances.
+[48b] Soc. Indeed it is by no means easy, Protarchus, to understand such a condition under those circumstances.
 
 Pro. No at least I do not find it so.
 
@@ -1562,7 +1562,7 @@ Pro. I say it is.
 
 Soc. But certainly we see the envious man rejoicing in the misfortunes of his neighbors.
 
-Pro. Yes, very much so.
+[48c] Pro. Yes, very much so.
 
 Soc. Surely ignorance is an evil, as is also what we call stupidity.
 
@@ -1574,9 +1574,9 @@ Pro. Please proceed.
 
 Soc. The ridiculous is in its main aspect a kind of vice which gives its name to a condition; and it is that part of vice in general which involves the opposite of the condition mentioned in the inscription at Delphi.
 
-Pro. You mean Know thyself, Socrates?
+Pro. You mean “Know thyself,” Socrates?
 
-Soc. Yes; and the opposite of that, in the language of the inscription, would evidently be not to know oneself at all.
+[48d] Soc. Yes; and the opposite of that, in the language of the inscription, would evidently be not to know oneself at all.
 
 Pro. Of course.
 
@@ -1600,7 +1600,7 @@ Soc. And there are still more who think they are taller and handsomer than they 
 
 Pro. Certainly.
 
-[49] Soc. But by far the greatest number, I fancy, err in the third way, about the qualities of, the soul, thinking that they excel in virtue when they do not.
+[49a] Soc. But by far the greatest number, I fancy, err in the third way, about the qualities of, the soul, thinking that they excel in virtue when they do not.
 
 Pro. Yes, most decidedly.
 
@@ -1612,7 +1612,7 @@ Soc. And we should surely be right in calling all that an evil condition.
 
 Pro. Very much so.
 
-Soc. Then this must further be divided into two parts, if we are to gain insight into childish envy with its absurd mixture of pleasure and pain. How shall we divide it, do you say? All who have this false and foolish conceit [49b] of themselves fall, like the rest of mankind, into two classes: some necessarily have strength and power, others, as I believe, the reverse.
+Soc. Then this must further be divided into two parts, if we are to gain insight into childish envy with its absurd mixture of pleasure and pain. “How shall we divide it,” do you say? All who have this false and foolish conceit [49b] of themselves fall, like the rest of mankind, into two classes: some necessarily have strength and power, others, as I believe, the reverse.
 
 Pro. Yes, necessarily.
 
@@ -1624,7 +1624,7 @@ Soc. First, then, take up the nature of envy.
 
 Pro. Go on.
 
-Soc. Is envy a kind of unrighteous pain and also a pleasure?
+[49d] Soc. Is envy a kind of unrighteous pain and also a pleasure?
 
 Pro. Undoubtedly.
 
@@ -1650,7 +1650,7 @@ Pro. Yes, a great one.
 
 Soc. And do we feel pleasure or pain when we laugh at it?
 
-[50] Pro. Pleasure, evidently.
+[50a] Pro. Pleasure, evidently.
 
 Soc. Did we not say that pleasure in the misfortunes of friends was caused by envy?
 
@@ -1660,7 +1660,7 @@ Soc. Then our argument declares that when we laugh at the ridiculous qualities o
 
 Pro. True.
 
-Soc. So now our argument shows that in mournings and tragedies and comedies, not merely on the stage, but in all the tragedy and comedy of life, and in countless other ways, pain is mixed with pleasure.
+[50b] Soc. So now our argument shows that in mournings and tragedies and comedies, not merely on the stage, but in all the tragedy and comedy of life, and in countless other ways, pain is mixed with pleasure.
 
 Pro. It is impossible not to agree with that, Socrates, even though one be most eager to maintain the opposite opinion.
 
@@ -1682,11 +1682,11 @@ Pro. Good, Socrates; just finish what remains in any way you please.
 
 Soc. Then after the mixed pleasures we should naturally and almost of necessity proceed in turn to the unmixed.
 
-[51] Pro. Very good.
+[51a] Pro. Very good.
 
 Soc. So I will turn to them and try to explain them; for I do not in the least agree with those who say that all pleasures are merely surcease from pain, but, as I said, I use them as witnesses to prove that some pleasures are apparent, but not in any way real, and that there are others which appear to be both great and numerous, but are really mixed up with pains and with cessations of the greatest pains and distresses of body and soul.
 
-Pro. But what pleasures, Socrates, may rightly be considered true?
+[51b] Pro. But what pleasures, Socrates, may rightly be considered true?
 
 Soc. Those arising from what are called beautiful colors, or from forms, most of those that arise from odors and sounds, in short all those the want of which is unfelt and painless, whereas the satisfaction furnished by them is felt by the senses, pleasant, and unmixed with pain.
 
@@ -1700,11 +1700,11 @@ Soc. I mean that those sounds which are smooth and clear and send forth a single
 
 Pro. Yes, that also is true.
 
-Soc. The pleasures of smell are a less divine class; but they have no necessary pains mixed with them, and wherever and in whatever we find this freedom from pain, I regard it always as a mark of similarity to those other pleasures. These, then, are two classes of the pleasures of which I am speaking. Do you understand me?
+[51e] Soc. The pleasures of smell are a less divine class; but they have no necessary pains mixed with them, and wherever and in whatever we find this freedom from pain, I regard it always as a mark of similarity to those other pleasures. These, then, are two classes of the pleasures of which I am speaking. Do you understand me?
 
 Pro. I understand.
 
-[52] Soc. And further let us add to these the pleasures of knowledge, if they appear to us not to have hunger for knowledge or pangs of such hunger as their source.
+[52a] Soc. And further let us add to these the pleasures of knowledge, if they appear to us not to have hunger for knowledge or pangs of such hunger as their source.
 
 Pro. I agree to that.
 
@@ -1720,7 +1720,7 @@ Soc. Then we may say that these pleasures of knowledge are unmixed with pain and
 
 Pro. Yes, certainly.
 
-Soc. And now that we have fairly well separated the pure pleasures and those which may be pretty correctly called impure, let us add the further statement that the intense pleasures are without measure and those of the opposite sort have measure; those which admit of greatness and intensity and are often or seldom great or intense we shall assign to the class of the infinite, which circulates more or less freely through the body and soul alike, [52d] and the others we shall assign to the class of the limited.
+[52c] Soc. And now that we have fairly well separated the pure pleasures and those which may be pretty correctly called impure, let us add the further statement that the intense pleasures are without measure and those of the opposite sort have measure; those which admit of greatness and intensity and are often or seldom great or intense we shall assign to the class of the infinite, which circulates more or less freely through the body and soul alike, [52d] and the others we shall assign to the class of the limited.
 
 Pro. Quite right, Socrates.
 
@@ -1738,7 +1738,7 @@ Pro. Quite right.
 
 Soc. Very well, let us adopt that point of view towards all the classes which we call pure. First let us select one of them and examine it.
 
-[53] Pro. Which shall we select?
+[53a] Pro. Which shall we select?
 
 Soc. Let us first, if agreeable to you, consider whiteness.
 
@@ -1788,7 +1788,7 @@ Soc. It is no riddle, Protarchus; the talk is merely jesting with us and means t
 
 Pro. I can hardly understand after all your repetition.
 
-[54] Soc. Perhaps, my boy, you will understand better [54] [54a] as the discussion proceeds.
+Soc. Perhaps, my boy, you will understand better [54a] as the discussion proceeds.
 
 Pro. I hope so.
 
@@ -1806,7 +1806,7 @@ Pro. You are now asking whether that which is called being is what it is for the
 
 Soc. Yes, plainly.
 
-Pro. For Heaven’s sake, is this the kind of question you keep asking me, Tell me, Protarchus, whether you think shipbuilding is for the sake of ships, or ships for the sake of shipbuilding, and all that sort of thing?
+[54b] Pro. For Heaven’s sake, is this the kind of question you keep asking me, “Tell me, Protarchus, whether you think shipbuilding is for the sake of ships, or ships for the sake of shipbuilding,” and all that sort of thing?
 
 Soc. Yes; that is just what I mean, Protarchus.
 
@@ -1826,7 +1826,7 @@ Pro. Of course.
 
 Soc. Now surely that for the sake of which anything is generated is in the class of the good, and that which is generated for the sake of something else, my friend, must be placed in another class.
 
-Pro. Most undeniably.
+[54d] Pro. Most undeniably.
 
 Soc. Then if pleasure is a form of generation, we shall be right in placing it in a class other than that of the good, shall we not?
 
@@ -1842,7 +1842,7 @@ Pro. How is that, and to whom do you refer?
 
 Soc. To those who, when cured of hunger or thirst or any of the troubles which are cured by generation are pleased because of the generation, as if it were pleasure, and say that they would not wish to live without thirst and hunger and the like, if they could not experience the feelings which follow after them.
 
-[55] Pro. That seems to be their view.
+[55a] Pro. That seems to be their view.
 
 Soc. We should all agree that the opposite of generation is destruction, should we not?
 
@@ -1856,7 +1856,7 @@ Soc. Yes, a great absurdity, and let us go still further.
 
 Pro. How?
 
-Soc. Is it not absurd to say that there is nothing good in the body or many other things, but only in the soul, and that in the soul the only good is pleasure, and that courage and self-restraint and understanding and all the other good things of the soul are nothing of the sort; and beyond all this to be obliged to say that he who is not feeling pleasure, and is feeling pain, is bad when he feels pain, though he be the best of men, and that he who feels pleasure is, [55c] when he feels pleasure, the more excellent in virtue the greater the pleasure he feels?
+[55b] Soc. Is it not absurd to say that there is nothing good in the body or many other things, but only in the soul, and that in the soul the only good is pleasure, and that courage and self-restraint and understanding and all the other good things of the soul are nothing of the sort; and beyond all this to be obliged to say that he who is not feeling pleasure, and is feeling pain, is bad when he feels pain, though he be the best of men, and that he who feels pleasure is, [55c] when he feels pleasure, the more excellent in virtue the greater the pleasure he feels?
 
 Pro. All that, Socrates, is the height of absurdity.
 
@@ -1864,7 +1864,7 @@ Soc. Now let us not undertake to subject pleasure to every possible test and the
 
 Pro. Right.
 
-Soc. Well, then, one part of knowledge is productive, the other has to do with education and support. Is that true?
+[55d] Soc. Well, then, one part of knowledge is productive, the other has to do with education and support. Is that true?
 
 Pro. It is.
 
@@ -1876,11 +1876,11 @@ Soc. And should the ruling elements of each of them be separated and distinguish
 
 Pro. What are they, and how can they be separated?
 
-Soc. For example, if arithmetic and the sciences of measurement and weighing were taken away from all arts, what was left of any of them would be, so to speak, pretty worthless.
+[55e] Soc. For example, if arithmetic and the sciences of measurement and weighing were taken away from all arts, what was left of any of them would be, so to speak, pretty worthless.
 
 Pro. Yes, pretty worthless.
 
-[56] Soc. All that would be left for us would be to conjecture and to drill the perceptions by practice and experience, with the additional use of the powers of guessing, [56] [56a] which are commonly called arts and acquire their efficacy by practice and toil.
+Soc. All that would be left for us would be to conjecture and to drill the perceptions by practice and experience, with the additional use of the powers of guessing, [56a] which are commonly called arts and acquire their efficacy by practice and toil.
 
 Pro. That is undeniable.
 
@@ -1888,7 +1888,7 @@ Soc. Take music first; it is full of this; it attains harmony by guesswork based
 
 Pro. Very true.
 
-Soc. And we shall find that medicine and agriculture and piloting and generalship are all in the same case.
+[56b] Soc. And we shall find that medicine and agriculture and piloting and generalship are all in the same case.
 
 Pro. Certainly.
 
@@ -1908,7 +1908,7 @@ Soc. And of these the most exact are the arts which I just now mentioned first.
 
 Pro. I think you mean arithmetic and the other arts you mentioned with it just now.
 
-Soc. Certainly. But, Protarchus, ought not these to be divided into two kinds? What do you say?
+[56d] Soc. Certainly. But, Protarchus, ought not these to be divided into two kinds? What do you say?
 
 Pro. What kinds?
 
@@ -1920,7 +1920,7 @@ Soc. The distinction is no small one, Protarchus. For some arithmeticians reckon
 
 Pro. You are certainly quite right in saying that there is a great difference between the devotees of arithmetic, so it is reasonable to assume that it is of two kinds.
 
-[57] Soc. And how about the arts of reckoning and measuring as they are used in building and in trade when compared with philosophical geometry [57] [57a] and elaborate computations—shall we speak of each of these as one or as two?
+Soc. And how about the arts of reckoning and measuring as they are used in building and in trade when compared with philosophical geometry [57a] and elaborate computations—shall we speak of each of these as one or as two?
 
 Pro. On the analogy of the previous example, I should say that each of them was two.
 
@@ -1954,7 +1954,7 @@ Pro. What reply?
 
 Soc. That there are two arts of arithmetic and two of measuring, and many other arts which, like these, are twofold in this way, but possess a single name in common.
 
-Pro. Let us give this answer, Socrates, to those who you say are clever; I hope we shall have luck with it.
+[57e] Pro. Let us give this answer, Socrates, to those who you say are clever; I hope we shall have luck with it.
 
 Soc. These, then, we say, are the most exact arts or sciences?
 
@@ -1962,9 +1962,9 @@ Pro. Certainly.
 
 Soc. But the art of dialectic would spurn us, Protarchus, if we should judge that any other art is preferable to her.
 
-Pro. But what is the art to which this name belongs?
+[58a] Pro. But what is the art to which this name belongs?
 
-[58] Soc. Clearly anybody can recognize the art I mean; for I am confident that all men who have any intellect whatsoever believe that the knowledge which has to do with being, reality, and eternal immutability is the truest kind of knowledge. What do you think, Protarchus?
+Soc. Clearly anybody can recognize the art I mean; for I am confident that all men who have any intellect whatsoever believe that the knowledge which has to do with being, reality, and eternal immutability is the truest kind of knowledge. What do you think, Protarchus?
 
 Pro. I have often heard Gorgias constantly maintain that the art of persuasion surpasses all others for this, he said, makes all things subject to itself, [58b] not by force, but by their free will, and is by far the best of all arts; so now I hardly like to oppose either him or you.
 
@@ -1980,7 +1980,7 @@ Soc. My question, dear Protarchus, was not as yet what art or science surpasses 
 
 Pro. I am considering, and I think it is difficult to concede that any other science or art cleaves more closely to truth than this.
 
-[59] Soc. In saying that, did you bear in mind that the arts in general, and the men who devote themselves to them, [59] [59a] make use of opinion and persistently investigate things which have to do with opinion? And even if they think they are studying nature, they are spending their lives in the study of the things of this world, the manner of their production, their action, and the forces to which they are subjected. Is not that true?
+Soc. In saying that, did you bear in mind that the arts in general, and the men who devote themselves to them, [59a] make use of opinion and persistently investigate things which have to do with opinion? And even if they think they are studying nature, they are spending their lives in the study of the things of this world, the manner of their production, their action, and the forces to which they are subjected. Is not that true?
 
 Pro. Yes, it is.
 
@@ -2012,7 +2012,7 @@ Soc. And of the names applied to such matters, it would be fairest to give the f
 
 Pro. That is reasonable.
 
-Soc. Are not mind, then, and wisdom the names which we should honor most?
+[59d] Soc. Are not mind, then, and wisdom the names which we should honor most?
 
 Pro. Yes.
 
@@ -2036,7 +2036,7 @@ Soc. Would it not be better first to repeat certain things and recall them to ou
 
 Pro. What things?
 
-[60] Soc. Those which we mentioned before. I think the proverb we ought to repeat twice and even three times that which is good [60] [60a] is an excellent one.
+Soc. Those which we mentioned before. I think the proverb “we ought to repeat twice and even three times that which is good” [60a] is an excellent one.
 
 Pro. Surely.
 
@@ -2044,7 +2044,7 @@ Soc. Well then, in God’s name; I think this is the gist of our discussion.
 
 Pro. What is it?
 
-Soc. Philebus says that pleasure is the true goal of every living being and that all ought to aim at it, and that therefore this is also the good for all, and the two designations good and pleasant are properly and essentially one; Socrates, however, says that they are not one, [60b] but two in fact as in name, that the good and the pleasant differ from one another in nature, and that wisdom’s share in the good is greater than pleasure’s. Is not and was not that what was said, Protarchus?
+Soc. Philebus says that pleasure is the true goal of every living being and that all ought to aim at it, and that therefore this is also the good for all, and the two designations “good” and “pleasant” are properly and essentially one; Socrates, however, says that they are not one, [60b] but two in fact as in name, that the good and the pleasant differ from one another in nature, and that wisdom’s share in the good is greater than pleasure’s. Is not and was not that what was said, Protarchus?
 
 Pro. Yes, certainly.
 
@@ -2054,7 +2054,7 @@ Pro. What?
 
 Soc. That the nature of the good differs from all else in this respect.
 
-Pro. In what respect?
+[60c] Pro. In what respect?
 
 Soc. That whatever living being possesses the good always, altogether, and in all ways, has no further need of anything, but is perfectly sufficient. We agreed to that?
 
@@ -2064,7 +2064,7 @@ Soc. And then we tried in thought to separate each from the other and apply them
 
 Pro. Yes.
 
-Soc. And did we think then that either of them would be sufficient for any one?
+[60d] Soc. And did we think then that either of them would be sufficient for any one?
 
 Pro. By no means.
 
@@ -2072,7 +2072,7 @@ Soc. And if we made any mistake at that time, let any one now take up the questi
 
 Pro. That is impossible, Socrates; it is useless to ask the same question over and over again.
 
-[61] Soc. Then the perfect, that which is to be desired by all and is altogether good, is neither of these?
+[61a] Soc. Then the perfect, that which is to be desired by all and is altogether good, is neither of these?
 
 Pro. Certainly not.
 
@@ -2104,7 +2104,7 @@ Soc. We are like wine-pourers, and beside us are fountains—that of pleasure ma
 
 Pro. Certainly we must.
 
-Soc. Before we make the mixture, tell me: should we be most likely to succeed by mixing all pleasure with all wisdom?
+[61d] Soc. Before we make the mixture, tell me: should we be most likely to succeed by mixing all pleasure with all wisdom?
 
 Pro. Perhaps.
 
@@ -2122,7 +2122,7 @@ Pro. That is quite right.
 
 Soc. Then what if we first mix the truest sections of each and see whether, when mixed together, they are capable of giving us the most adorable life, or whether we still need something more and different?
 
-[62] Pro. I think that is what we should do.
+[62a] Pro. I think that is what we should do.
 
 Soc. Let us assume, then, a man who possesses wisdom about the nature of justice itself, and reason in accordance with his wisdom, and has the same kind of knowledge of all other things.
 
@@ -2142,9 +2142,9 @@ Pro. Yes, I think we must, if our life is to be life at all.
 
 Soc. Shall I, then, like a doorkeeper who is pushed and hustled by a mob, give up, open the door, and let all the kinds of knowledge stream in, the impure mingling with the pure?
 
-Pro. I do not know, Socrates, what harm it can do a man to take in all the other kinds of knowledge if he has the first.
+[62d] Pro. I do not know, Socrates, what harm it can do a man to take in all the other kinds of knowledge if he has the first.
 
-Soc. Shall I, then, let them all flow into what Homer very poetically calls the mingling of the vales?Hom. Il. 4.453.
+Soc. Shall I, then, let them all flow into what Homer very poetically calls “the mingling of the vales?”[^9]
 
 Pro. Certainly.
 
@@ -2160,7 +2160,7 @@ Soc. We will let them loose, then. But what next? If there are any necessary ple
 
 Pro. Of course; the necessary pleasures must certainly be added.
 
-[63] Soc. And as we said it was harmless and useful to know all the arts throughout our life, if we now say the same of pleasures—that is, if it is advantageous and harmless for us to enjoy all pleasures throughout life—they must all form part of the mixture.
+[63a] Soc. And as we said it was harmless and useful to know all the arts throughout our life, if we now say the same of pleasures—that is, if it is advantageous and harmless for us to enjoy all pleasures throughout life—they must all form part of the mixture.
 
 Pro. What shall we say about these pleasures, and what shall we do?
 
@@ -2168,27 +2168,27 @@ Soc. There is no use in asking us, Protarchus; we must ask the pleasures and the
 
 Pro. What shall we ask them?
 
-Soc. Dear ones—whether you should be called pleasures or by any other name—would you choose to dwell with all wisdom, or with none at all? I think only one reply is possible.
+Soc. “Dear ones—whether you should be called pleasures or by any other name—would you choose to dwell with all wisdom, or with none at all?” I think only one reply is possible.
 
 Pro. What is it?
 
-Soc. What we said before: For any class to be alone, solitary, and unalloyed is neither altogether possible nor is it profitable; but of all classes, [63c] comparing them one with another, we think the best to live with is the knowledge of all other things and, so far as is possible, the perfect knowledge of our individual selves.
+Soc. What we said before: “For any class to be alone, solitary, and unalloyed is neither altogether possible nor is it profitable; but of all classes, [63c] comparing them one with another, we think the best to live with is the knowledge of all other things and, so far as is possible, the perfect knowledge of our individual selves.”
 
-Pro. Your reply is excellent, we shall tell them.
+Pro. “Your reply is excellent,” we shall tell them.
 
-Soc. Right. And next we must turn to wisdom and mind, and question them. We shall ask them, Do you want any further pleasures in the mixture? And they might reply, What pleasures?
+Soc. Right. And next we must turn to wisdom and mind, and question them. We shall ask them, “Do you want any further pleasures in the mixture?” And they might reply, “What pleasures?”
 
 Pro. Quite likely.
 
-Soc. Then we should go on to say: In addition to those true pleasures, do you want the greatest and most intense pleasures also to dwell with you? How can we want them, Socrates, they might perhaps say, since they contain countless hindrances for us, inasmuch as they disturb with maddening pleasures the souls of men in which we dwell, thereby preventing us from being born at all, and utterly destroying [63e] for the most part, through the carelessness and forgetfulness which they engender, those of our children which are born?
+[63d] Soc. Then we should go on to say: “In addition to those true pleasures, do you want the greatest and most intense pleasures also to dwell with you?” “How can we want them, Socrates,” they might perhaps say, “since they contain countless hindrances for us, inasmuch as they disturb with maddening pleasures the souls of men in which we dwell, thereby preventing us from being born at all, and utterly destroying [63e] for the most part, through the carelessness and forgetfulness which they engender, those of our children which are born?”
 
-[64] Soc. But the true and pure pleasures, of which you spoke, you must consider almost our own by nature, and also those which are united with health and self-restraint, and furthermore all those which are handmaids of virtue in general and follow everywhere in its train as if it were a god,—add these to the mixture; but as for the pleasures which follow after folly and all baseness, it would be very senseless for anyone who desires to discover the most beautiful and most restful mixture or compound, [64] [64a] and to try to learn which of its elements is good in man and the universe, and what we should divine its nature to be, to mix these with mind. Shall we not say that this reply which mind has now made for itself and memory and right opinion is wise and reasonable?
+Soc. “But the true and pure pleasures, of which you spoke, you must consider almost our own by nature, and also those which are united with health and self-restraint, and furthermore all those which are handmaids of virtue in general and follow everywhere in its train as if it were a god,—add these to the mixture; but as for the pleasures which follow after folly and all baseness, it would be very senseless for anyone who desires to discover the most beautiful and most restful mixture or compound, [64a] and to try to learn which of its elements is good in man and the universe, and what we should divine its nature to be, to mix these with mind.” Shall we not say that this reply which mind has now made for itself and memory and right opinion is wise and reasonable?
 
 Pro. Certainly.
 
 Soc. But another addition is surely necessary, without which nothing whatsoever can ever come into being.
 
-Pro. What is it?
+[64b] Pro. What is it?
 
 Soc. That in which there is no admixture of truth can never truly come into being or exist.
 
@@ -2198,13 +2198,13 @@ Soc. No. But if anything is still wanting in our mixture, you and Philebus must 
 
 Pro. And you may say, Socrates, that I am of the same opinion.
 
-Soc. And if we were to say that we are now in the vestibule of the good and of the dwelling of the good, should we not be speaking the truth after a fashion?
+[64c] Soc. And if we were to say that we are now in the vestibule of the good and of the dwelling of the good, should we not be speaking the truth after a fashion?
 
 Pro. I certainly think so.
 
 Soc. What element, then, of the mixture would appear to us to be the most precious and also the chief cause why such a state is beloved of all? When we have discovered this, we will then consider whether it is more closely attached and more akin to pleasure or to mind in the universe.
 
-Pro. Right; for that is most serviceable to us in forming our judgement.
+[64d] Pro. Right; for that is most serviceable to us in forming our judgement.
 
 Soc. And it is quite easy to see the cause which makes any mixture whatsoever either of the highest value or of none at all.
 
@@ -2226,7 +2226,7 @@ Soc. We said that truth also was mingled with them in the compound.
 
 Pro. Certainly.
 
-[65] Soc. Then if we cannot catch the good with the aid of one idea, [65] [65a] let us run it down with three—beauty, proportion, and truth, and let us say that these, considered as one, may more properly than all other components of the mixture be regarded as the cause, and that through the goodness of these the mixture itself has been made good.
+Soc. Then if we cannot catch the good with the aid of one idea, [65a] let us run it down with three—beauty, proportion, and truth, and let us say that these, considered as one, may more properly than all other components of the mixture be regarded as the cause, and that through the goodness of these the mixture itself has been made good.
 
 Pro. Quite right.
 
@@ -2246,19 +2246,19 @@ Soc. Next, then, consider measure in the same way, and see whether pleasure poss
 
 Pro. That also is an easy thing to consider. For I think nothing in the world could be found more immoderate than pleasure and its transports, and nothing more in harmony with measure than mind and knowledge.
 
-Soc. However, go on and tell about the third. Has mind or pleasure the greater share in beauty?
+[65e] Soc. However, go on and tell about the third. Has mind or pleasure the greater share in beauty?
 
 Pro. But Socrates, no one, either asleep or awake, ever saw or knew wisdom or mind to be or become unseemly at any time or in any way whatsoever.
 
 Soc. Right.
 
-[66] Pro. But pleasures, and the greatest pleasures at that, when we see any one enjoying them and observe the ridiculous or utterly disgraceful element which accompanies them, [66] [66a] fill us with a sense of shame; we put them out of sight and hide them, so far as possible; we confine everything of that sort to the night time, as unfit for the sight of day.
+Pro. But pleasures, and the greatest pleasures at that, when we see any one enjoying them and observe the ridiculous or utterly disgraceful element which accompanies them, [66a] fill us with a sense of shame; we put them out of sight and hide them, so far as possible; we confine everything of that sort to the night time, as unfit for the sight of day.
 
 Soc. Then you will proclaim everywhere, Protarchus, by messengers to the absent and by speech to those present, that pleasure is not the first of possessions, nor even the second, but first the eternal nature has chosen measure, moderation, fitness, and all which is to be considered similar to these.
 
 Pro. That appears to result from what has now been said.
 
-Soc. Second, then, comes proportion, beauty, perfection, sufficiency, and all that belongs to that class.
+[66b] Soc. Second, then, comes proportion, beauty, perfection, sufficiency, and all that belongs to that class.
 
 Pro. Yes, so it appears.
 
@@ -2274,7 +2274,7 @@ Soc. And fifth, those pleasures which we separated and classed as painless, whic
 
 Pro. May be.
 
-Soc. But with the sixth generation, says Orpheus, cease the rhythmic song. It seems that our discussion, too, is likely to cease with the sixth decision. [66d] So after this nothing remains for us but to give our discussion a sort of head.
+Soc. “But with the sixth generation,” says Orpheus, “cease the rhythmic song.” It seems that our discussion, too, is likely to cease with the sixth decision. [66d] So after this nothing remains for us but to give our discussion a sort of head.
 
 Pro. Yes, that should be done.
 
@@ -2284,15 +2284,15 @@ Pro. What argument?
 
 Soc. Philebus declared that pleasure was entirely and in all respects the good.
 
-Pro. Apparently, Socrates, when you said the third time just now, you meant that we must take up our argument again from the beginning.
+Pro. Apparently, Socrates, when you said “the third time” just now, you meant that we must take up our argument again from the beginning.
 
-Soc. Yes; but let us hear what follows. For I, perceiving the truths which I have now been detailing, and annoyed by the theory held not only by Philebus but by many thousands of others, said that mind was a far better and more excellent thing for human life than pleasure.
+[66e] Soc. Yes; but let us hear what follows. For I, perceiving the truths which I have now been detailing, and annoyed by the theory held not only by Philebus but by many thousands of others, said that mind was a far better and more excellent thing for human life than pleasure.
 
 Pro. True.
 
 Soc. But suspecting that there were many other things to be considered, I said that if anything should be found better than these two, I should support mind against pleasure in the struggle for the second place, and even the second place would be lost by pleasure.
 
-[67] Pro. Yes, that is what you said.
+[67a] Pro. Yes, that is what you said.
 
 Soc. And next it was most sufficiently proved that each of these two was insufficient.
 
@@ -2310,7 +2310,7 @@ Soc. Then, according to the judgement which has now been given by our discussion
 
 Pro. So it seems.
 
-Soc. But not first, even if all the cattle and horses and other beasts in the world, in their pursuit of enjoyment, so assert. Trusting in them, as augurs trust in birds, the many judge that pleasures are the greatest blessings in life, and they imagine that the lusts of beasts are better witnesses than are the aspirations and thoughts inspired by the philosophic muse.
+[67b] Soc. But not first, even if all the cattle and horses and other beasts in the world, in their pursuit of enjoyment, so assert. Trusting in them, as augurs trust in birds, the many judge that pleasures are the greatest blessings in life, and they imagine that the lusts of beasts are better witnesses than are the aspirations and thoughts inspired by the philosophic muse.
 
 Pro. Socrates, we all now declare that what you have said is perfectly true.
 
@@ -2318,6 +2318,12 @@ Soc. Then you will let me go?
 
 Pro. There is still a little left, Socrates. I am sure you will not give up before we do, and I will remind you of what remains.
 
----
-
-*Ὁ Διαφορεύς παρῆν*
+[^1]: The goddess of Pleasure, Ἡδονή personified.
+[^2]: Apparently foreigners are considered among the lower animals.
+[^3]: This goddess may be Μουσική (in which case ἐγγενομένη the reading of T and G, would be preferable to ἐγγενόμενα above), not music in the restricted modern sense, but the spirit of numbers and measure which underlies all music, and all the beauties of the world; or the goddess may be mentioned here in reference (and opposition) to the goddess Pleasure (12 B); she is the nameless deity who makes Pleasure and all others conform to her rules.
+[^4]: Anaxagoras and probably some now unknown precursors.
+[^5]: Son of that man may mean son of Philebus, in so far as Protarchus is a pupil of Philebus, or (so Bury) son of Gorgias, the orator and teacher (cf. Plat. Phaedo 58b), or the father of Protarchus may be referred to by the pronoun, possibly because Socrates does not at the moment recall his name or because he wishes to imply that he was a man of mark.
+[^6]: Heracleitus and his followers.
+[^7]: This paradox means what those say it is who deny that it is really pleasure.
+[^8]: Hom. Il. 18.108-109
+[^9]: Hom. Il. 4.453.

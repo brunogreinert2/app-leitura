@@ -1,36 +1,28 @@
 ---
 id: plutarco-comparison-of-timoleon-and-aemilius-eng-bernadotte-perrin-1918
-type: texto_primario
-title: "Comparison of Timoleon and Aemilius"
-subtitle: null
+type: translation
+title: Comparison of Timoleon and Aemilius
 author: Plutarch
-year_original: null
-language: eng
-translation:
-  - Bernadotte Perrin
+translator:
+- Bernadotte Perrin
 publisher: Harvard University Press
-area: null
-era: null
-tags: []
-status: rascunho
+language: eng
+tags:
+- moralists
+status: draft
 project: pedra_angular
-source: "Plutarch. Comparison of Timoleon and Aemilius. Ed. Bernadotte Perrin. Cambridge, MA: Harvard University Press, 1918. Perseus Digital Library, Tufts University (CC BY-SA 4.0). URN: null"
-related: []
+urn_work: urn:cts:greekLit:tlg0007.tlg020
+urn: urn:cts:greekLit:tlg0007.tlg020.perseus-eng2
+source: 'Plutarch. Comparison of Timoleon and Aemilius. Ed. Bernadotte Perrin. Cambridge, MA: Harvard University Press, 1918. Perseus Digital Library, Tufts University (CC BY-SA 4.0).'
+source_repo: PerseusDL/canonical-greekLit
+source_file: data/tlg0007/tlg020/tlg0007.tlg020.perseus-eng2.xml
+source_commit: e37eed2e8
+license: CC-BY-SA-4.0
 ---
 
 # Comparison of Timoleon and Aemilius
 
-**Plutarch**
-
-Cambridge, MA: Harvard University Press, 1918.
-Perseus Digital Library, Tufts University (CC BY-SA 4.0).
-URN: `null`
-
----
-
-## Texto
-
-### Capítulo 1
+#### Capítulo 1
 
 [1.1] SUCH being the history of these men, it is clear that our comparison of them will have few points of difference or dissimilarity to show.
 
@@ -42,7 +34,7 @@ URN: `null`
 
 [1.5] For when equal successes follow an unequal equipment, the greater credit accrues to the commander.
 
-### Capítulo 2
+#### Capítulo 2
 
 [2.1] Further, in their administration of affairs both were just and incorruptible; but Aemilius, it would seem, was made so from the outset of his career by the laws and customs of his country, while Timoleon’s great probity was due to himself.
 
@@ -50,9 +42,9 @@ URN: `null`
 
 [2.3] And Dion was suspected by many of being ambitious for a monarchy and dreaming of a kingdom like that in Sparta.
 
-[2.4] Furthermore, Timaeus says that even Gylippus was sent away in ignominy and dishonour by the Syracusans, because they found him guilty of avarice and greed while he was their general.See the Nicias, xxviii. 2 f.
+[2.4] Furthermore, Timaeus says that even Gylippus was sent away in ignominy and dishonour by the Syracusans, because they found him guilty of avarice and greed while he was their general.[^1]
 
-[2.5] And how Pharax the Spartan and Callippus the Athenian violated laws and treaties in their hopes of ruling Sicily, has been told by many writers.See the Timoleon, xi. 4.
+[2.5] And how Pharax the Spartan and Callippus the Athenian violated laws and treaties in their hopes of ruling Sicily, has been told by many writers.[^2]
 
 [2.6] And yet who were these men, or of how large resources were they masters, that they entertained such hopes? One of them was a servile follower of Dionysius after he had been driven out of Syracuse, and Callippus was one of Dion’s captains of mercenaries.
 
@@ -68,6 +60,5 @@ URN: `null`
 
 [2.12] One should scrupulously shun disgraceful deeds; but the anxious fear of every kind of ill report among men argues a nature which is indeed kindly and sensitive, but has not greatness.
 
----
-
-*Ὁ Διαφορεύς παρῆν*
+[^1]: See the Nicias, xxviii. 2 f.
+[^2]: See the Timoleon, xi. 4.

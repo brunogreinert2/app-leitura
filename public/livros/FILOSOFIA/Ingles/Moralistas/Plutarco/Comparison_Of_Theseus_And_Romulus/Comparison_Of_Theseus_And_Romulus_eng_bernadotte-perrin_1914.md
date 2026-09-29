@@ -1,38 +1,30 @@
 ---
 id: plutarco-comparison-of-theseus-and-romulus-eng-bernadotte-perrin-1914
-type: texto_primario
-title: "Comparison of Theseus and Romulus"
-subtitle: null
+type: translation
+title: Comparison of Theseus and Romulus
 author: Plutarch
-year_original: null
-language: eng
-translation:
-  - Bernadotte Perrin
+translator:
+- Bernadotte Perrin
 publisher: Harvard University Press
-area: null
-era: null
-tags: []
-status: rascunho
+language: eng
+tags:
+- moralists
+status: draft
 project: pedra_angular
-source: "Plutarch. Comparison of Theseus and Romulus. Ed. Bernadotte Perrin. Cambridge, MA: Harvard University Press, 1914. Perseus Digital Library, Tufts University (CC BY-SA 4.0). URN: null"
-related: []
+urn_work: urn:cts:greekLit:tlg0007.tlg003
+urn: urn:cts:greekLit:tlg0007.tlg003.perseus-eng2
+source: 'Plutarch. Comparison of Theseus and Romulus. Ed. Bernadotte Perrin. Cambridge, MA: Harvard University Press, 1914. Perseus Digital Library, Tufts University (CC BY-SA 4.0).'
+source_repo: PerseusDL/canonical-greekLit
+source_file: data/tlg0007/tlg003/tlg0007.tlg003.perseus-eng2.xml
+source_commit: e37eed2e8
+license: CC-BY-SA-4.0
 ---
 
 # Comparison of Theseus and Romulus
 
-**Plutarch**
+#### Capítulo 1
 
-Cambridge, MA: Harvard University Press, 1914.
-Perseus Digital Library, Tufts University (CC BY-SA 4.0).
-URN: `null`
-
----
-
-## Texto
-
-### Capítulo 1
-
-[1.1] Such, then, are the memorable things about Romulus and Theseus which I have been able to learn. And it appears, first of all, that Theseus, of his own choice, when no one compelled him, but when it was possible for him to reign without fear at Troezen as heir to no inglorious realm, of his own accord reached out after great achievements; whereas Romulus, to escape present servitude and impending punishment, became simply courageous out of fear, as Plato phrases it, Phaedo, p. 68 d. and through the dread of extreme penalties proceeded to perform great exploits under compulsion.
+[1.1] Such, then, are the memorable things about Romulus and Theseus which I have been able to learn. And it appears, first of all, that Theseus, of his own choice, when no one compelled him, but when it was possible for him to reign without fear at Troezen as heir to no inglorious realm, of his own accord reached out after great achievements; whereas Romulus, to escape present servitude and impending punishment, became simply “courageous out of fear,” as Plato phrases it,[^1] and through the dread of extreme penalties proceeded to perform great exploits under compulsion.
 
 [1.2] In the second place, the chief deed of Romulus was the slaying of a single tyrant of Alba; whereas for mere by-adventures and preliminary struggles Theseus had Sciron, Sinis, Procrustes, and Corynetes, by slaying and chastising whom he freed Greece from dreadful tyrants before those who were saved by him knew who he was. Theseus might have travelled to Athens by sea without any trouble, and suffering no outrage at the hands of those robbers; whereas Romulus could not be without trouble while Amulius lived.
 
@@ -40,33 +32,33 @@ URN: `null`
 
 [1.4] but as for the daring which he showed about the Cretan tribute, whether that was food for some monster, or a sacrifice on the tomb of Androgeos, or whether—and this is the mildest form of the story— he offered himself for inglorious and dishonourable servitude among insolent and cruel men when he volunteered to sail away with maidens and young boys, words cannot depict such courage, magnanimity, righteous zeal for the common good, or yearning for glory and virtue.
 
-[1.5] It is therefore my opinion that the philosopersPolemon, as cited in Morals, p. 780 d. give an excellent definition of love when they call it a ministration of the gods for the care and preservation of the young. For Ariadne’s love seems to have been, more than anything else, a god’s work, and a device whereby Theseus should be saved. And we should not blame her for loving him, but rather wonder that all men and women were not thus affected towards him; and if she alone felt this passion, I should say, for my part, that she was properly worthy of a god’s love, since she was fond of virtue, fond of goodness, and a lover of the highest qualities in man.
+[1.5] It is therefore my opinion that the philosopers[^2] give an excellent definition of love when they call it “a ministration of the gods for the care and preservation of the young.” For Ariadne’s love seems to have been, more than anything else, a god’s work, and a device whereby Theseus should be saved. And we should not blame her for loving him, but rather wonder that all men and women were not thus affected towards him; and if she alone felt this passion, I should say, for my part, that she was properly worthy of a god’s love, since she was fond of virtue, fond of goodness, and a lover of the highest qualities in man.
 
-### Capítulo 2
+#### Capítulo 2
 
 [2.1] Although Theseus and Romulus were both statesmen by nature, neither maintained to the end the true character of a king, but both deviated from it and underwent a change, the former in the direction of democracy, the latter in the direction of tyranny, making thus the same mistake through opposite affections. For the ruler must preserve first of all the realm itself, and this is preserved no less by refraining from what is unbecoming than by cleaving to what is becoming.
 
 [2.2] But he who remits or extends his authority is no longer a king or a ruler; he becomes either a demagogue or a despot, and implants hatred or contempt in the hearts of his subjects. However, the first error seems to arise from kindliness and humanity; the second from selfishness and severity.
 
-### Capítulo 3
+#### Capítulo 3
 
 [3.1] Again, if the misfortunes of men are not to be attributed altogether to fortune, but to the different habits and passions which will be found underlying them, then no one shall acquit Romulus of unreasoning anger or hasty and senseless wrath in dealing with his brother, nor Theseus in dealing with his son, although the cause which stirred his anger leads us to be more lenient towards the one who was overthrown by a stronger provocation, as by a heavier blow.
 
 [3.2] For since the difference between Romulus and his brother arose from a deliberate investigation of the common welfare, there could have been no good reason for his flying into such a passion; while Theseus was impelled to wrong his son by love, jealousy, and a woman’s slanders, the overmastering power of which very few men have escaped. And what is of greater weight, the anger of Romulus vented itself in action and a deed of most unfortunate issue; whereas the wrath of Theseus got no farther than words of abuse and an old man’s curse, and the rest of the youth’s calamities seem to have been due to fortune. On these counts, therefore, one would give his vote of preference to Theseus.
 
-### Capítulo 4
+#### Capítulo 4
 
 [4.1] But Romulus has, in the first place, this great superiority, that he rose to eminence from the smallest beginnings. For he and his brother were reputed to be slaves and sons of swineherds, and yet they not only made themselves free, but freed first almost all the Latins, enjoying at one and the same time such most honourable titles as slayers of their foes, saviours of their kindred and friends, kings of races and peoples, founders of cities; not transplanters, as Theseus was, who put together and consolidated one dwelling-place out of many, but demolished many cities bearing the names of ancient kings and heroes.
 
 [4.2] Romulus, it is true, did this later, compelling his enemies to tear down and obliterate their dwellings and enrol themselves among their conquerors; but at first, not by removing or enlarging a city which already existed, but by creating one from nothing, and by acquiring for himself at once territory, country, kingdom, clans, marriages and relationships, he ruined no one and killed no one, but was a benefactor of men without homes and hearths, who wished instead to be a people and citizens of a common city. Robbers and miscreants, it is true, he did not slay, but he subdued nations in war, laid cities low, and triumphed over kings and commanders.
 
-### Capítulo 5
+#### Capítulo 5
 
 [5.1] Besides, there is dispute as to who actually slew Remus, and most of the blame for the deed is put upon others than Romulus; but Romulus did unquestionably save his mother from destruction, and he set his grandfather, who was living in inglorious and dishonourable subjection upon the throne of Aeneas. Moreover, he did him many favours of his own accord, and did him no harm not even inadvertently.
 
 [5.2] Theseus, on the contrary, for his forgetfulness and neglect of the command about the sail, can hardly, I think, escape the charge of parricide, be the plea of his advocate ever so long and his judges ever so lenient. Indeed, a certain Attic writer, conscious that would-be defenders of Theseus have a difficult task, feigns that Aegeus, on the approach of the ship, ran up to the acropolis in his eagerness to catch sight of her, and stumbled and fell down the cliff; as though he were without a retinue, or was hurrying down to the sea without any servants.
 
-### Capítulo 6
+#### Capítulo 6
 
 [6.1] Furthermore, the transgressions of Theseus in his rapes of women admit of no plausible excuse. This is true, first, because there were so many; for he carried off Ariadne, Antiope, Anaxo of Troezen, and at last Helen, when he was past his prime and she had not reached her prime, but was an unripe child, while he was already of an age too great for even lawful wedlock. It is true, secondly, because of the reason for them; for the daughters of Troezenians and Laconians and Amazons were not betrothed to him, and were no worthier, surely, to be the mothers of his children than the daughters of Erechtheus and Cecrops at Athens.
 
@@ -78,6 +70,5 @@ URN: `null`
 
 [6.5] However, the mother of Theseus as not only in danger, but actually suffered the fate of Hecuba when she was deserted and abandoned by her son, unless, indeed, the tale of her captivity is fictitious, and it may well be false, as well as most of the other stories. For example, the tales told of divine intervention in their lives are in great contrast; for Romulus was preserved by the signal favour of the gods, while the oracle given to Aegeus, forbidding him to approach a woman while in a foreign land, seems to indicate that the birth of Theseus was not agreeable to the will of the gods.
 
----
-
-*Ὁ Διαφορεύς παρῆν*
+[^1]: Phaedo, p. 68 d.
+[^2]: Polemon, as cited in Morals, p. 780 d.

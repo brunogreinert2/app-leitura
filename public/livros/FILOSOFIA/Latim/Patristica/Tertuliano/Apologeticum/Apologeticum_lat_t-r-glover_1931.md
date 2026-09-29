@@ -1,35 +1,26 @@
 ---
 id: tertuliano-apologeticum-lat-t-r-glover-1931
-type: texto_primario
-title: "Apologeticum"
-subtitle: null
+type: primary_text
+title: Apologeticum
 author: Tertullian
-year_original: null
-language: lat
-translation: []
 publisher: William Heinemann Ltd
-area: null
-era: null
-tags: []
-status: rascunho
+language: lat
+tags:
+- patristics
+status: draft
 project: pedra_angular
-source: "Tertullian. Apologeticum. Ed. T. R. Glover. London: William Heinemann Ltd, 1931. Perseus Digital Library, Tufts University (CC BY-SA 4.0). URN: urn:cts:latinLit:stoa0275.stoa009.perseus-lat2"
-related: []
+urn_work: urn:cts:latinLit:stoa0275.stoa009
+urn: urn:cts:latinLit:stoa0275.stoa009.perseus-lat2
+source: 'Tertullian. Apologeticum. Ed. T. R. Glover. London: William Heinemann Ltd, 1931. Perseus Digital Library, Tufts University (CC BY-SA 4.0).'
+source_repo: PerseusDL/canonical-latinLit
+source_file: data/stoa0275/stoa009/stoa0275.stoa009.perseus-lat2.xml
+source_commit: b90226f0
+license: CC-BY-SA-4.0
 ---
 
 # Apologeticum
 
-**Tertullian**
-
-London: William Heinemann Ltd, 1931.
-Perseus Digital Library, Tufts University (CC BY-SA 4.0).
-URN: `urn:cts:latinLit:stoa0275.stoa009.perseus-lat2`
-
----
-
-## Texto
-
-### Capítulo 1
+#### Capítulo 1
 
 [1.1] Si non licet vobis, Romani imperii antistites, in aperto et edito, in ipso fere vertice civitatis praesidentibus ad iudicandum palam dispicere et coram examinare quid sit liquido in causa Christianorum, si ad hanc solam speciem auctoritas vestra de iustitiae diligentia in publico aut timet aut erubescit inquirere, si denique, quod proxime accidit, domesticis iudiciis nimis operata infestatio sectae huius obstruit defensioni, liceat veritati vel occulta via tacitarum litterarum ad aures vestras pervenire.
 
@@ -57,7 +48,7 @@ URN: `urn:cts:latinLit:stoa0275.stoa009.perseus-lat2`
 
 [1.13] Quid hoc mali est, quod naturalia mali non habet, timorem, pudorem, tergiversationem, paenitentiam, deplorationem? Quid? hoc malum est, cuius reus gaudet? cuius accusatio votum est et poena felicitas? Non potes dementiam dicere, qui revinceris ignorare.
 
-### Capítulo 2
+#### Capítulo 2
 
 [2.1] Si certum est denique nos nocentissimos esse, cur a vobis ipsis aliter tractamur quam pares nostri, id est ceteri nocentes, cum eiusdem noxae eadem tractatio deberet intervenire?
 
@@ -99,7 +90,7 @@ URN: `urn:cts:latinLit:stoa0275.stoa009.perseus-lat2`
 
 [2.20] Denique quid de tabella recitatis illum Christianum? Cur non et homicidam? Si homicida Christianus, cur non et incestus vel quodcunque aliud esse nos creditis? In nobis solis pudet aut piget ipsis nominibus scelerum pronuntiare? Christianus si nullius criminis nomine reus est, valde incestum, si solius nominis crimen est.
 
-### Capítulo 3
+#### Capítulo 3
 
 [3.1] Quid? quod ita plerique clausis oculis in odium eius inpingunt, ut bonum alicui testimonium ferentes admisceant nominis exprobrationem. Bonus vir Gaius Seius, tantum quod Christianus. Item alius: Ego miror Lucium Titium sapientem virum repente factum Christianum. Nemo retractat, ne ideo bonus Gaius et prudens Lucius, quia Christianus, aut ideo Christianus, quia prudens et bonus.
 
@@ -117,7 +108,7 @@ URN: `urn:cts:latinLit:stoa0275.stoa009.perseus-lat2`
 
 [3.8] At nunc utriusque inquisitione et agnitione neglecta nomen detinetur, nomen expugnatur, et ignotam sectam, ignotum et auctorem vox sola praedamnat, quia nominantur, non quia revincuntur.
 
-### Capítulo 4
+#### Capítulo 4
 
 [4.1] Atque adeo quasi praefatus haec ad sugillandam odii erga nos publici iniquitatem, iam de causa innocentiae consistam, nec tantum refutabo quae nobis obiciuntur, sed etiam in ipsos retorquebo qui obiciunt, ut ex hoc quoque sciant homines in Christianis non esse quae in se nesciunt esse, simul uti erubescant accusantes non dico pessimi optimos, sed iam, ut volunt, conpares suos.
 
@@ -145,7 +136,7 @@ URN: `urn:cts:latinLit:stoa0275.stoa009.perseus-lat2`
 
 [4.13] Nulla lex sibi soli conscientiam iustitiae suae debet, sed eis a quibus obsequium expectat. Ceterum suspecta lex est quae probari se non vult, inproba autem, si non probata dominetur.
 
-### Capítulo 5
+#### Capítulo 5
 
 [5.1] Ut de origine aliquid retractemus eiusmodi legum, vetus erat decretum, ne qui deus ab imperatore consecraretur nisi a senatu probatus. Scit M. Aemilius de deo suo Alburno. Facit et hoc ad causam nostram, quod apud vos de humano arbitratu divinitas pensitatur. Nisi homini deus placuerit, deus non erit; homo iam deo propitius esse debebit.
 
@@ -163,7 +154,7 @@ URN: `urn:cts:latinLit:stoa0275.stoa009.perseus-lat2`
 
 [5.8] Facilus utique pessimi ab optimis quibusque. ut ab aemulis, quam a suis sociis eradicandi iudicarentur.
 
-### Capítulo 6
+#### Capítulo 6
 
 [6.1] Nunc religiosissimi legum et paternorum institutorum protectores et ultores respondeant velim de sua fide et honore et obsequio erga maiorum consulta, si a nullo desciverunt, si in nullo exorbitaverunt, si non necessaria et aptissima quaeque disciplinae oblitteraverunt.
 
@@ -187,7 +178,7 @@ URN: `urn:cts:latinLit:stoa0275.stoa009.perseus-lat2`
 
 [6.11] Nunc enim ad illam occultorum facinorum infamiam respondebo, ut viam mihi ad manifestiora purgem.
 
-### Capítulo 7
+#### Capítulo 7
 
 [7.1] Dicimur sceleratissimi de sacramento infanticidii et pabulo inde, et post convivium incesto, quod eversores luminum canes, lenones scilicet tenebrarum, libidinum impiarum in verecundiam procurent. Dicimur tamen semper, nec vos quod tam diu dicimur eruere curatis. Ergo aut eruite, si creditis, aut nolite credere, qui non eruistis.
 
@@ -215,7 +206,7 @@ URN: `urn:cts:latinLit:stoa0275.stoa009.perseus-lat2`
 
 [7.13] Bene autem quod omnia tempus revelat, testibus etiam vestris proverbiis atque sententiis, ex dispositione naturae, quae ita ordinavit, ut nihil diu lateat, etiam quod fama non distulit. Merito igitur fama tamdiu conscia sola est scelerum Christianorum. Hanc indicem adversus nos profertis, quae quod aliquando iactavit tantoque spatio in opinionem corroboravit usque adhuc probare non valuit, ut fidem naturae ipsius appellem adversus eos qui talia credenda esse praesumunt.
 
-### Capítulo 8
+#### Capítulo 8
 
 [8.1] Ecce proponimus horum facinorum mercedem, vitam aeternam repromittunt. Credite interim. De hoc enim quaero, an et qui credideris tanti habeas ad eam tali conscientia pervenire.
 
@@ -235,7 +226,7 @@ URN: `urn:cts:latinLit:stoa0275.stoa009.perseus-lat2`
 
 [8.9] Timent plecti, si proclamcnt, qui defendi merebuntur, qui etiam ultro perire malint quam sub tali conscientia vivere. Age nunc timeant, cur etiam perseverant? Sequitur enim, ne ultra velis id te esse quod, si prius scisses, non fuisses.
 
-### Capítulo 9
+#### Capítulo 9
 
 [9.1] Haec quo magis refutaverim, a vobis fieri ostendam partim in aperto, partim in occulto, per quod forsitan et de nobis credidistis.
 
@@ -277,7 +268,7 @@ URN: `urn:cts:latinLit:stoa0275.stoa009.perseus-lat2`
 
 [9.20] Haec in vobis esse si consideraretis, proinde in Christianis non esse perspiceretis. Idem oculi renuntiassent utrumque. Sed caecitatis duae species facile concurrunt, ut qui non vident quae sunt, videre videantur quae non sunt. Sic per omnia ostendam. Nunc de manifestioribus dicam.
 
-### Capítulo 10
+#### Capítulo 10
 
 [10.1] Deos, inquitis, non colitis, et pro imperatoribus sacrificia non penditis. Sequitur ut eadem ratione pro aliis non sacrificemus, quia nec pro nobis ipsis, semel deos non colendo. Itaque sacrilegii et maiestatis rei convenimur. Summa haec causa, immo tota est, et utique digna cognosci, si non praesumptio aut iniquitas iudicet, altera quae desperat, altera quae recusat veritatem.
 
@@ -301,7 +292,7 @@ URN: `urn:cts:latinLit:stoa0275.stoa009.perseus-lat2`
 
 [10.11] Satis iam de Saturno, licet paucis. Etiam Iovem ostendemus tam hominem quam ex homine, et deinceps totum generis examen tam mortale quam seminis sui par.
 
-### Capítulo 11
+#### Capítulo 11
 
 [11.1] Et quoniam sicut illos homines fuisse non audetis negare, ita post mortem deos factos instituistis adseverare, causas quae hoc exegerint retractemus.
 
@@ -335,7 +326,7 @@ URN: `urn:cts:latinLit:stoa0275.stoa009.perseus-lat2`
 
 [11.16] Quis ex illis deis vestris gravior et sapientior Catone, iustior et militarior Scipione? quis sublimior Pompeio, felicior Sulla, copiosior Crasso, eloquentior Tullio? Quanto dignius istos deos ille adsumendos expectasset, praescius utique potiorum? Properavit, opinor, et caelum semel clusit, et nunc utique melioribus apud inferos musitantibus erubescit.
 
-### Capítulo 12
+#### Capítulo 12
 
 [12.1] Cesso iam de isto, ut qui sciam me ex ipsa veritate demonstraturum quid non sint, cum ostendero quid sint. Quantum igitur de deis vestris, nomina solummodo video quorundam veterum mortuorum et fabulas audio et sacra de fabulis recognosco:
 
@@ -351,7 +342,7 @@ URN: `urn:cts:latinLit:stoa0275.stoa009.perseus-lat2`
 
 [12.7] Igitur si statuas et imagines frigidas mortuorum suorum simillimas non adoramus, quas milvi et mures et araneae intellegunt, nonne laudem magis quam poenam merebatur repudium agniti erroris? Possumus enim videri laedere eos quos certi sumus omnino non esse? Quod non est, nihil ab ullo patitur, quia non est.
 
-### Capítulo 13
+#### Capítulo 13
 
 [13.1] Sed nobis dei sunt, inquis. Et quomodo vos e contrario impii et sacrilegi et inreligiosi erga deos vestros deprehendimini, qui, quos praesumitis esse, neglegitis, quos timetis, destruitis, quos etiam vindicatis, inluditis?
 
@@ -371,7 +362,7 @@ URN: `urn:cts:latinLit:stoa0275.stoa009.perseus-lat2`
 
 [13.9] Sed cum Larentinam publicum scortum, velim saltim Laidem aut Phrynen, inter Iunones et Cereres et Dianas adoretis, cum Simonem Magum statua et inscriptione Sancti Dei inauguratis, cum de paedagogiis aulicis nescio quem synodi deum facitis, licet non nobiliores dei veteres tamen contumeliam a vobis deputabunt hoc et aliis licuisse quod solis antiquitas contulit.
 
-### Capítulo 14
+#### Capítulo 14
 
 [14.1] Nolo et ritus vestros recensere: non dico quales sitis in sacrificando, cum enecta et tabidosa et scabiosa quaeque mactatis, cum de opimis et integris supervacua quaeque truncatis, capitula et ungulas, quae domi quoque pueris vel canibus destinassetis, cum de decima Herculis nec tertiam partem in aram eius inponitis. Laudabo magis sapientiam, quod de perdito aliquid eripitis.
 
@@ -389,7 +380,7 @@ URN: `urn:cts:latinLit:stoa0275.stoa009.perseus-lat2`
 
 [14.8] Tamen cum paenitentia sententiae Athenienses et criminatores Socratis postea afflixerint et imaginem eius auream in templo collocarint, rescissa damnatio testimonium Socrati reddidit. Sed et Diogenes nescio quid in Herculem ludit, et Romanus Cynicus Varro trecentos loves, sive Iupitros dicendos, sine capitibus introducit.
 
-### Capítulo 15
+#### Capítulo 15
 
 [15.1] Cetera lasciviae ingenia etiam voluptatibus vestris per deorum dedecus operantur. Dispicite Lentulorum et Hostiliorum venustates, utrum mimos an deos vestros in iocis et strophis rideatis: moechum Anubin, et masculum Lunam, et Dianam flagellatam, et Iovis mortui testamentum recitatum, et tres Hercules famelicos inrisos.
 
@@ -407,7 +398,7 @@ URN: `urn:cts:latinLit:stoa0275.stoa009.perseus-lat2`
 
 [15.8] Quid ergo colunt qui talia non colunt? Iam quidem intellegi subiacet veritatis esse cultores qui mendacii non sint, nec errare amplius in eo in quo errasse se recognoscendo cessaverunt. Hoc prius capite et omnem hinc sacramenti nostri ordinem haurite, repercussis ante tamen opinionibus falsis.
 
-### Capítulo 16
+#### Capítulo 16
 
 [16.1] Nam et, ut quidam, somniastis caput asininum esse deum nostrum. Hanc Cornelius Tacitus suspicionem eiusmodi dei inservit.
 
@@ -431,11 +422,11 @@ URN: `urn:cts:latinLit:stoa0275.stoa009.perseus-lat2`
 
 [16.11] Aeque si diem solis laetitiae indulgemus, alia longe ratione quam religione solis secundo loco ab eis sumus qui diem Saturni otio et victui decernunt exorbitantes et ipsi a Iudaico more, quem ignorant.
 
-[16.12] Sed nova iam dei nostri in ista proxime civitate editio publicata est, ex quo quidam frustrandis bestiis mercenarius noxius picturam proposuit cum eiusmodi inscriptione: deus Christianorum o)nokoi/ths. Is erat auribus asininis, altero pede ungulatus, librum gestans et togatus.
+[16.12] Sed nova iam dei nostri in ista proxime civitate editio publicata est, ex quo quidam frustrandis bestiis mercenarius noxius picturam proposuit cum eiusmodi inscriptione: “deus Christianorum o)nokoi/ths”. Is erat auribus asininis, altero pede ungulatus, librum gestans et togatus.
 
 [16.13] Risimus et nomen et formam. Sed illi debebant adorare statim biforme numen, qui et canino et leonino capite commixtos, et de capro et de ariete cornutos, et a lumbis hircos, et a cruribus serpentes, et planta vel tergo alites deos receperunt. Haec ex abundanti, ne quid rumoris inrepercussum quasi de conscientia praeterissemus. Quae omnia conversi iam ad demonstrationem religionis nostrae repurgavimus.
 
-### Capítulo 17
+#### Capítulo 17
 
 [17.1] Quod colimus, deus unus est, qui totam molem istam cum omni instrumento elementorum, corporum, spirituum verbo quo iussit, ratione qua disposuit, virtute qua potuit, de nihilo expressit in ornamentum maiestatis suae, unde et Graeci nomen mundo ko/smon accommodaverunt.
 
@@ -449,7 +440,7 @@ URN: `urn:cts:latinLit:stoa0275.stoa009.perseus-lat2`
 
 [17.6] Iudicem quoque contestatur illum Deus videt, et Deo commendo, et Deus mihi reddet. O testimonium animae naturaliter Christianae! Denique pronuntians haec non ad Capitolium, sed ad caelum respicit. Novit enim sedem dei vivi; ab illo, et inde descendit.
 
-### Capítulo 18
+#### Capítulo 18
 
 [18.1] Sed quo plenius et inpressius tam ipsum quam dispositioncs eius et voluntates adiremus, adiecit instrumentum litteraturae, si qui velit de deo inquirere, et inquisito invenire, et invento credere, et credito deservire.
 
@@ -467,7 +458,7 @@ URN: `urn:cts:latinLit:stoa0275.stoa009.perseus-lat2`
 
 [18.8] Adfirmavit haec vobis etiam Aristaeus. Ita in Graecum stilum exaperta monumenta reliquit. Hodie apud Serapeum Ptolemaei bibliothecae cum ipsis Hebraicis litteris exhibentur. Sed et Iudaei palam lectitant. vectigalis libertas; vulgo aditur sabbatis omnibus. Qui audierit, inveniet deum; qui etiam studuerit intellegere, cogetur et credere.
 
-### Capítulo 19
+#### Capítulo 19
 
 [19.1] Primam instrumentis istis auctoritatem summa antiquitas vindicat. Apud vos quoque religionis est instar, fidem de temporibus adserere. [Auctoritatem litteris praestat antiquitas summa. Primus enim prophetes Moyses, qui mundi conditionem et generis humani pullulationem et mox ultricem iniquitatis illius aevi vim cataclysmi de praeterito exorsus est, per vaticinationem usque ad suam aetatem et deinceps per res suas futurorum imagines edidit, penes quem et temporum ordo digestus ab initio supputationem saeculi praestitit. Superior invenitur annis circiter trecentis quam ille antiquissimus penes vos Danaus in Argos transvenisset, Troiano denique proelio ad mille annos ante est, unde et ipso Saturno. Secundum enim historiam Thalli, qua relatum est Belum Assyriorum et Saturnum Titanorum regem cum Iove dimicasse, ostenditur bellum cccxx et duobus annis Iliacum exitum antecessisse. Per hunc Moysen etiam illa lex propria Iudaeis a deo missa est. Deinceps multa et alii prophetae vetustiores litteris vestris. Nam et qui ultimo cecinit, aut aliquantulo praecucurrit aut certe concurrit aetate sapientiae auctoribus, etiam latoribus legis. Cyri enim et Darii regno fuit Zacharias, quo in tempore Thales, physicorum princeps, sciscitanti Croeso nihil certum de divinitate respondit, turbatus scilicet vocibus prophetarum. Solon eidem regi finem longae vitae intuendum praedicavit non aliter quam prophetae. Adeo respici potest tam iura vestra quam studia de lege deque divina doctrina concepisse. Quod prius est, hoc sit semen necesse est. Inde quaedam nobiscum vel prope nos habetis. De sophia amor eius philosophia vocitatus est, de prophetia affectatio eius poeticam vaticinationem deputavit. Gloriae homines si quid invenerant, ut proprium facerent, adulteraverunt. Etiam fructibus a semine degenerare contigit. Multis adhuc de vetustate modis consisterem divinarum litterarum, si non maior auctoritas illis ad fidem de veritatis suae viribus quam de aetatis annalibus suppetisset. Quid enim potentius patrocinabitur testimonio earum, nisi dispunctio cotidiana saeculi totius, cum dispositiones regnorum, cum casus urbium, cum exitus gentium, cum status temporum ita omnibus respondent, quemadmodum ante milia annorum praenuntiabantur? Unde et spes nostra, quam ridetis, animatur, et fiducia, quam praesumptionem vocatis, corroboratur. Idonea est enim recognitio praeteritorum ad disponendam fiduciam futurorum. Eaedem voces praedicaverunt utramque partem, eaedem litterae notaverunt. Unum est tempus apud illas quod apud nos separari videtur. Ita omnia quae supersunt improbata, probata sunt nobis, quia cum illis quae probata sunt tunc futuris praedicabantur. Habetis, quod sciam, et vos Sibyllam, quatinus appellatio ista verae vatis dei veri passim super ceteros qui vaticinari videbantur usurpata est. Sunt vestrae Sibyllae nomen de veritate mentitae, quemadmodum et dei vestri.]
 
@@ -485,7 +476,7 @@ URN: `urn:cts:latinLit:stoa0275.stoa009.perseus-lat2`
 
 [19.8] Verum differre praestat, vel ne minus persequamur festinando vel diutius evagemur persequendo.
 
-### Capítulo 20
+#### Capítulo 20
 
 [20.1] Plus iam offerimus pro ista dilatione maiestatem scripturarum, si non vetustate divinas probamus, si dubitatur antiquitas. Nec hoc tardius aut aliunde discendum. Coram sunt quae docebunt, mundus et saeculum et exitus.
 
@@ -497,7 +488,7 @@ URN: `urn:cts:latinLit:stoa0275.stoa009.perseus-lat2`
 
 [20.5] Apud homines, si forte, distinguitur, dum expungitur, dum ex futuro praesens, dehinc ex praesenti praeteritum deputatur. Quid delinquimus, oro vos, futura quoque credentes, qui iam didicimus illi per duos gradus credere?
 
-### Capítulo 21
+#### Capítulo 21
 
 [21.1] Sed quoniam edidimus antiquissimis Iudaeorum instrumentis sectam istam esse suffultam quam aliquanto novellam, ut Tiberiani temporis, plerique sciunt, profitentibus nobis quoque, fortasse an hoc nomine de statu eius retractetur, quasi sub umbraculo insignissimae religionis, certe licitae, aliquid propriae praesumptionis abscondat,
 
@@ -533,7 +524,7 @@ URN: `urn:cts:latinLit:stoa0275.stoa009.perseus-lat2`
 
 [21.17] Quem igitur hominem solummodo praesumpserant de humilitate, sequebatur uti magum aestimarent de potestate, cum ille verbo daemonia de hominibus excuteret, caecos reluminaret, leprosos purgaret, paralyticos restringeret, mortuos denique verbo redderet vitae, elementa ipsa famularet compescens procellas et freta ingrediens, ostendens se esse verbum dei, id est lo/gon, illud primordiale, primogenitum, virtute et ratione comitatum et spiritu fultum, eundem qui verbo omnia et faceret et fecisset.
 
-[21.18] Ad doctrinam vero eius, qua revincebantur magistri primoresque Iudaeorum, ita exasperabuntur, maxime quod ingens ad eum multitudo deflecteret, ut postremo oblatum Pontio Pilato, Syriam tunc ex parte Romana procuranti, violentia suffragiorum in crucem Iesum dedi sibi extorserint. Praedixerat et ipse ita facturos ; parum si non et prophetae retro.
+[21.18] Ad doctrinam vero eius, qua revincebantur magistri primoresque Iudaeorum, ita exasperabuntur, maxime quod ingens ad eum multitudo deflecteret, ut postremo oblatum Pontio Pilato, Syriam tunc ex parte Romana procuranti, violentia suffragiorum in crucem Iesum dedi sibi extorserint. Praedixerat et ipse ita facturos; parum si non et prophetae retro.
 
 [21.19] Et tamen suffixus multa mortis illius propria ostendit insignia. Nam spiritum cum verbo sponte dimisit, praevento carnificis officio. Eodem momento dies medium orbem signante sole subducta est. Deliquium utique putaverunt qui id quoque super Christo praedicatum non scierunt.
 
@@ -561,7 +552,7 @@ URN: `urn:cts:latinLit:stoa0275.stoa009.perseus-lat2`
 
 [21.31] Si ea est qua cognita ad bonum quis reformatur, sequitur ut falsae renuntietur, conperta inprimis illa omni ratione quae delitiscens sub nominibus et imaginibus mortuorum quibusdam signis et miraculis et oraculis fidem divinitatis operatur.
 
-### Capítulo 22
+#### Capítulo 22
 
 [22.1] Atque adeo dicimus esse substantias quasdam spiritales. Nec novum nomen est. Sciunt daemones philosophi, Socrate ipso ad daemonii arbitrium exspectante. Quidni? cum et ipsi daemonium a pueritia adhaesisse dicatur, dehortatorium plane a bono.
 
@@ -587,7 +578,7 @@ URN: `urn:cts:latinLit:stoa0275.stoa009.perseus-lat2`
 
 [22.12] Quid ergo de ceteris ingeniis vel etiam viribus fallaciae spiritalis edisseram? phantasmata Castorum, et aquam cribro gestatam, et navem cingulo promotam, et barbam tactu inrufatam, ut numina lapides crederentur, ut deus verus non quaereretur?
 
-### Capítulo 23
+#### Capítulo 23
 
 [23.1] Porro, si et magi phantasmata edunt et iam defunctorum infamant animas, si pueros in eloquium oraculi elidunt, si multa miracula circulatoriis praestigiis ludunt, si et somnia immittunt habentes semel invitatorum angelorum et daemonum adsistentem sibi potestatem, per quos et caprae et mensae divinare consuerunt, quanto magis ea potestas de suo arbitrio et pro suo negotio studeat totis viribus operari quod alienae praestat negotiationi!
 
@@ -627,7 +618,7 @@ URN: `urn:cts:latinLit:stoa0275.stoa009.perseus-lat2`
 
 [23.19] Colitis illos, quod sciam, etiam de sanguine Christianorum. Nollent itaque vos tam fructuosos, tam officiosos sibi amittere, vel ne a vobis quandoque Christianis fugentur, si illis sub Christiano, volente vobis veritatem probare, mentiri liceret.
 
-### Capítulo 24
+#### Capítulo 24
 
 [24.1] Omnis ista confessio illorum qua se deos negant esse quaque non alium deum respondent praeter unum, cui nos mancipamur, satis idonea est. ad depellendum crimen laesae maxime Romanae religionis. Si enim non sunt dei pro certo, nec religio pro certo est: si religio non est, quia nec dei pro certo, nec nos pro certo rei sumus laesae religionis.
 
@@ -649,7 +640,7 @@ URN: `urn:cts:latinLit:stoa0275.stoa009.perseus-lat2`
 
 [24.10] Bene quod omnium deus est, cuius velimus aut nolimus omnes sumus. Sed apud vos quodvis colere ius est praeter deum verum, quasi non hic magis omnium sit deus cuius omnes sumus.
 
-### Capítulo 25
+#### Capítulo 25
 
 [25.1] Satis quidem mihi videor probasse de falsa et vera divinitate, cum demonstravi quemadmodum probatio consistat, non modo disputationibus, nec argumentationibus, sed ipsorum etiam testimoniis quos deos creditis, ut nihil iam ad hanc causam sit retractandum.
 
@@ -665,7 +656,15 @@ URN: `urn:cts:latinLit:stoa0275.stoa009.perseus-lat2`
 
 [25.7] Sed non statim et Iupiter Cretam suam Romanis fascibus concuti sineret, oblitus antrum illud Idaeum et aera Corybantia et iocundissimum illic nutricis suae odorem. Nonne omni Capitolio tumulum illum suum praeposuisset, ut ea potius orbi terra praecelleret quae eineres Iovis texit?
 
-[25.8] Vellet Iuno Punicam urbem posthabita Samo dilectam ab Aeneadarum gente deleri? Quod sciam hic illius arma, hic currus fuit, hoc regnum dea gentibus esse, si qua fata sinant, iam tum tenditque fovetque. Misera illa coniunx Iovis et soror adversus fata non valuit! Plane fato stat Iupiter ipse.
+[25.8] Vellet Iuno Punicam urbem posthabita Samo dilectam ab Aeneadarum gente deleri? Quod sciam
+
+```verso
+
+
+
+```
+
+Misera illa coniunx Iovis et soror adversus fata non valuit! Plane “fato stat Iupiter ipse.”
 
 [25.9] Nec tantum tamen honoris fatis Romani dicaverunt dedentibus sibi Carthaginem adversus destinatum votumque Iunonis quantum prostitutissimae lupae Larentinae.
 
@@ -685,7 +684,7 @@ URN: `urn:cts:latinLit:stoa0275.stoa009.perseus-lat2`
 
 [25.17] Certe non potest fidei convenire, ut religionis meritis excrevisse videantur qui, ut suggessimus, religionem aut laedendo creverunt aut crescendo laeserunt. Etiam illi quorum regna conflata sunt in imperii Romanii summam, cum ea amitterent, sine religionibus non fuerunt.
 
-### Capítulo 26
+#### Capítulo 26
 
 [26.1] Videte igitur, ne ille regna dispenset cuius est et orbis qui regnatur et homo ipse qui regnat, ne ille vices dominationum ipsis temporibus in saeculo ordinant qui ante omne tempus fuit et saeculum corpus temporum fecit, ne ille civitates extollat aut deprimat sub quo fuit sine civitatibus aliquando gens hominum.
 
@@ -693,7 +692,7 @@ URN: `urn:cts:latinLit:stoa0275.stoa009.perseus-lat2`
 
 [26.3] Postremo si Romanae religiones regna praestant, nunquam retro Iudaea regnasset despectrix communium istarum divinitatum, cuius et deum victimis et templum donis et gentem foederibus aliquamdiu Romani honorastis, numquam dominaturi eius, si non deliquisset ultimo in Christum.
 
-### Capítulo 27
+#### Capítulo 27
 
 [27.1] Satis haec adversus intentationem laesae divinitatis, quo non videamur laedere eam quam ostendimus non esse. Igitur provocati ad sacrificandum obstruimus gradum pro fide conscientiae nostrae, qua certi sumus ad quos ista perveniant officia sub imaginum prostitutione et humanorum nominum consecratione.
 
@@ -709,7 +708,7 @@ URN: `urn:cts:latinLit:stoa0275.stoa009.perseus-lat2`
 
 [27.7] Itaque cum vice rebellandum ergastulorum sive carcerum vel metallorum vel hoc genus poenalis servitutis erumpunt adversus nos, in quorum potestate sunt, certi et inpares se esse et hoc magis perditos, ingratis resistimus ut aequales et repugnamus perseverantes in eo quod oppugnant et illos nunquam magis detriumphamus quam cum pro fideli obstinatione damnamur.
 
-### Capítulo 28
+#### Capítulo 28
 
 [28.1] Quoniam autem facile iniquum videretur liberos homines invitos urgeri ad sacrificandum (nam et alias divinae rei faciundae libens animus indicitur), certe ineptum existimaretur, si quis ab alio cogeretur ad honorem deorum, quos ultro sui causa placare deberet, ne prae manu esset iure libertatis dicere: Nolo mihi Iovem propitium; tu quis es? Me conveniat Ianus iratus ex qua velit fronte; quid tibi mecum est? Formati estis ab isdem utique spiritibus, uti nos pro salute imperatoris sacrificare cogatis, et inposita est tam vobis necessitas cogendi quam nobis obligatio periclitandi.
 
@@ -717,7 +716,7 @@ URN: `urn:cts:latinLit:stoa0275.stoa009.perseus-lat2`
 
 [28.3] Sed nec hoc vos ratione facitis potius quam respectu praesentaneae potestatis: adeo et in isto inreligiosi erga deos vestros deprehendemini, cum plus timoris humano dominio dicatis. Citius denique apud vos per omnes deos quam per unum genium Caesaris peieratur.
 
-### Capítulo 29
+#### Capítulo 29
 
 [29.1] Constet igitur prius, si isti, quibus sacrificatur, salutem imperatoribus vel cuilibet homini inpertire possunt, et ita nos crimini maiestatis addicite, si angeli aut daemones substantia pessimi spiritus beneficium aliquod operantur, si perditi conservant, si damnati liberant, si denique, quod in conscientia vestra est, mortui vivos tuentur.
 
@@ -729,7 +728,7 @@ URN: `urn:cts:latinLit:stoa0275.stoa009.perseus-lat2`
 
 [29.5] Sed vos religiosi, qui eam quaeritis ubi non est, petitis a quibus dari non potest, praeterito eo in cuius est potestate. Insuper eos debellatis qui eam sciunt petere, qui etiam possunt impetrare, dum sciunt petere.
 
-### Capítulo 30
+#### Capítulo 30
 
 [30.1] Nos enim pro salute imperatorum deum invocamus aeternum, deum verum, deum vivum, quem et ipsi imperatores propitium sibi praeter ceteros malunt. Sciunt quis illis dederit imperium, sciunt, qua homines, quis et animam, sentiunt eum esse deum solum in cuius solius potestate sunt, a quo sint secundi, post quem primi, ante omnes et super omnes deos. Quidni? cum super omnes homines, qui utique vivunt et mortuis antistant.
 
@@ -745,7 +744,7 @@ URN: `urn:cts:latinLit:stoa0275.stoa009.perseus-lat2`
 
 [30.7] Sic itaque nos ad deum expansos ungulae fodiant, cruces suspendant, ignes lambant, gladii guttura detruncent, bestiae insiliant: paratus est ad omne supplicium ipse habitus orantis Christiani. Hoc agite, boni praesides, extorquete animam deo supplicantem pro imperatore. Hoc erit crimen, ubi veritas dei et devotio est.
 
-### Capítulo 31
+#### Capítulo 31
 
 [31.1] Adolati nunc sumus imperatori et mentiti vota quae diximus, ad evadendam scilicet vim. Plane proficit ista fallacia. Admittitis nos enim probare quodcunque defendimus. Qui ergo putaveris nihil nos de salute Caesarum curare, inspice dei voces, litteras nostras, quas neque ipsi supprimimus et plerique casus ad extraneos transferunt.
 
@@ -753,7 +752,7 @@ URN: `urn:cts:latinLit:stoa0275.stoa009.perseus-lat2`
 
 [31.3] Sed etiam nominatim atque manifeste, Orate, inquit, pro regibus et pro principibus et potestatibus, ut omnia tranquilla sint vobis. Cum enim concutitur imperium concussis etiam ceteris membris eius utique et nos, licet extranei a turbis aestimemur, in aliquo loco casus invenimur.
 
-### Capítulo 32
+#### Capítulo 32
 
 [32.1] Est et alia maior necessitas nobis orandi pro imperatoribus, etiam pro omni statu imperii rebusque Romanis, qui vim maximam universo orbi imminentem ipsamque clausulam saeculi acerbitates horrendas comminantem Romani imperii commeatu scimus retardari. Itaque nolumus experiri, et dum precamur differri, Romanae diuturnitati favemus.
 
@@ -761,7 +760,7 @@ URN: `urn:cts:latinLit:stoa0275.stoa009.perseus-lat2`
 
 [32.3] Id in eis scimus esse quod deus voluit, ideoque et salvum volumus esse quod deus voluit et pro magno id iuramento habemus. Ceterum daemonas, id est genios, adiurare consuevimus, ut illos de hominibus exigamus, non deierare, ut eis honorem divinitatis conferamus.
 
-### Capítulo 33
+#### Capítulo 33
 
 [33.1] Sed quid ego amplius de religione atque pietate Christiana in imperatore? quem necesse est suspiciamus ut eum quem dominus noster elegit, ut merito dixerim: Noster est magis Caesar, a nostro deo constitutus.
 
@@ -771,7 +770,7 @@ URN: `urn:cts:latinLit:stoa0275.stoa009.perseus-lat2`
 
 [33.4] Hominem se esse etiam triumphans in illo sublimissimo curru admonetur. Suggeritur enim ei a tergo: Respice post te! Hominem te memento! Et utique hoc magis gaudet tanta se gloria coruscare, ut illi admonitio condicionis suae sit necessaria. Minor erat, si tunc deus diceretur quia non vere diceretur. Maior est qui revocatur, ne se deum existimet.
 
-### Capítulo 34
+#### Capítulo 34
 
 [34.1] Augustus, imperii formator, ne dominum quidem dici se volebat; et hoc enim dei est cognomen. Dicam plane imperatorem dominum, sed more communi, sed quando non cogor, ut dominum dei vice dicam. Ceterum liber sum illi. Dominus enim meus unus est, deus omnipotens aeternus, idem qui et ipsius.
 
@@ -781,7 +780,7 @@ URN: `urn:cts:latinLit:stoa0275.stoa009.perseus-lat2`
 
 [34.4] Si non de mendacio erubescit adulatio eiusmodi hominem deum appellans, timeat saltim de infausto. Maledictum est ante apotheosin deum Caesarem nuncupari.
 
-### Capítulo 35
+#### Capítulo 35
 
 [35.1] Propterea igitur publici hostes Christiani, quia imperatoribus neque vanos neque mentientes neque temerarios honores dicant, quia verae religionis homines etiam solemnia eorum conscientia potius quam lascivia celebrant.
 
@@ -795,7 +794,7 @@ URN: `urn:cts:latinLit:stoa0275.stoa009.perseus-lat2`
 
 [35.6] Ipsos Quirites, ipsam vernaculam septem collium plebem convenio, an alicui Caesari suo parcat illa lingua Romana? Testis est Tiberis, et scholae bestiarum.
 
-[35.7] Iam si pectoribus ad translucendum quandam specularem materiam natura obduxisset, cuius non praecordia insculpta apparent novi ac novi Caesaris scenam congiario dividundo praesidentis? Etiam illa hora qua adclamant: de nostris annis augeat tibi Iupiter annos! Haec Christianus tam enuntiare non novit quam de novo Caesare optare.
+[35.7] Iam si pectoribus ad translucendum quandam specularem materiam natura obduxisset, cuius non praecordia insculpta apparent novi ac novi Caesaris scenam congiario dividundo praesidentis? Etiam illa hora qua adclamant: “de nostris annis augeat tibi Iupiter annos!” Haec Christianus tam enuntiare non novit quam de novo Caesare optare.
 
 [35.8] Sed vulgus, inquis. Ut vulgus, tamen Romani, nec ulli magis depostulatores Christianorum quam vulgus. Plane ceteri ordines pro auctoritate religiosi ex fide. Nihil hosticum de ipso senatu, de equite, de castris, de palatiis ipsis spirat.
 
@@ -807,7 +806,7 @@ URN: `urn:cts:latinLit:stoa0275.stoa009.perseus-lat2`
 
 [35.12] Eadem officia dependunt et qui astrologos et aruspices et augures et magos de Caesarum capite consultant, quas artes ut ab angelis desertoribus proditas et a deo interdictas ne suis quidem causis adhibent Christiani. Cui autem opus est perscrutari super Caesaris salute, nisi a quo aliquid adversus illam cogitatur vel optatur, aut post illam speratur et sustinetur? Non enim ea mente de caris consulitur qua de dominis. Aliter curiosa est sollicitudo sanguinis, aliter servitutis.
 
-### Capítulo 36
+#### Capítulo 36
 
 [36.1] Si haec ita sunt, ut hostes deprehendantur qui Romani vocabantur, cur nos, qui hostes existimamur, Romani negamur? Non possumus et Romani non esse et hostes esse, cum hostes reperiantur qui Romani habebantur.
 
@@ -817,7 +816,7 @@ URN: `urn:cts:latinLit:stoa0275.stoa009.perseus-lat2`
 
 [36.4] Idem sumus imperatoribus qui et vicinis nostris. Male enim velle, male facere, male dicere, male cogitare de quoquam ex aequo vetamur. Quodcunque non licet in imperatorem, id nec in quemquam: quod in neminem, eo forsitan magis nec in ipsum qui per deum tantus est.
 
-### Capítulo 37
+#### Capítulo 37
 
 [37.1] Si inimicos, ut supra diximus, iubemur diligere, quem habemus odisse? Item si laesi vicem referre prohibemur, ne de facto pares simus, quem possumus laedere?
 
@@ -839,7 +838,7 @@ URN: `urn:cts:latinLit:stoa0275.stoa009.perseus-lat2`
 
 [37.10] Porro nec tanti praesidii conpensationem cogitantes non modo non molestum vobis genus, verum etiam necessarium hostes iudicare maluistis, quia sumus plane, non generis humani tamen, sed potius erroris.
 
-### Capítulo 38
+#### Capítulo 38
 
 [38.1] Proinde nec paulo lenius inter licitas factiones sectam istam deputari oportebat, a qua nihil tale committitur quale de inlicitis factionibus timeri solet?
 
@@ -851,7 +850,7 @@ URN: `urn:cts:latinLit:stoa0275.stoa009.perseus-lat2`
 
 [38.5] Si obiectari novisse nolumus, nostra iniuria est, si forte, non vestra. Sed reprobamus quae placent vobis. Nec vos nostra delectant. Sed licuit Epicureis aliquam decernere voluptatis veritatem, id est animi aequitatem, †et ampla negotia Christianae.
 
-### Capítulo 39
+#### Capítulo 39
 
 [39.1] Edam iam nunc ego ipse negotia Christianae factionis, ut qui mala refutaverim, bona ostendam. Corpus sumus de conscientia religionis et disciplinae unitate et spei foedere.
 
@@ -895,7 +894,7 @@ URN: `urn:cts:latinLit:stoa0275.stoa009.perseus-lat2`
 
 [39.21] In cuius perniciem aliquando convenimus? Hoc sumus congregati quod et dispersi, hoc universi, quod et singuli, neminem laedentes, neminem contristantes. Cum probi, cum boni coeunt, cum pii, cum casti congregantur, non est factio dicenda, sed curia.
 
-### Capítulo 40
+#### Capítulo 40
 
 [40.1] At e contrario illis nomen factionis accommodandum est qui in odium bonorum et proborum conspirant, qui adversum sanguinem innocentium conclamant, praetexentes sane ad odii defensionem illam quoque vanitatem, quod existiment omnis publicae cladis, omnis popularis incommodi Christianos esse in causam.
 
@@ -927,7 +926,7 @@ URN: `urn:cts:latinLit:stoa0275.stoa009.perseus-lat2`
 
 [40.15] nos vero ieiuniis aridi et omni continentia expressi, ab omni vitae fruge dilati, in sacco et cinere volutantes invidia caelum tundimus, deum tangimus, et cum misericordiam extorserimus, Iupiter honoratur.
 
-### Capítulo 41
+#### Capítulo 41
 
 [41.1] Vos igitur inportuni rebus humanis, vos rei publicorum incommodorum inlices semper, apud quos deus spernitur, statuae adorantur. Etenim credibilius haberi debet eum irasci qui neglegatur quam qui coluntur, aut nae illi iniquissimi, si propter Christianos etiam cultores suos laedunt, quos separare deberent a meritis Christianorum.
 
@@ -941,7 +940,7 @@ URN: `urn:cts:latinLit:stoa0275.stoa009.perseus-lat2`
 
 [41.6] Sin vero ab eis quos colitis omnia vobis mala eveniunt nostri causa, quid colere perseverans tam ingratos, tam iniustos, qui magis vos in dolore Christianorum iuvare et adserere debuerant?
 
-### Capítulo 42
+#### Capítulo 42
 
 [42.1] Sed alio quoque iniuriarum titulo postulantur, et infructuosi in negotiis dicimur. Quo pacto homines vobiscum degentes, eiusdem victus, habitus, instructus, eiusdem ad vitam necessitatis? Neque enim Brachmanae aut Indorum gymnosophistae sumus, silvicolae et exules vitae.
 
@@ -961,13 +960,13 @@ URN: `urn:cts:latinLit:stoa0275.stoa009.perseus-lat2`
 
 [42.9] Sed cetera vectigalia gratias Christianis agent ex fide dependentibus debitum, qua alieno fraudando abstinemus, ut, si ineatur quantum vectigalibus pereat fraude et mendacio vestrarum professionum, facile ratio haberi possit, unius speciei querela conpensata pro commodo ceterarum rationum.
 
-### Capítulo 43
+#### Capítulo 43
 
 [43.1] Plane confitebor, quinam, si forte, vere de sterilitate Christianorum conqueri possint. Primi erunt lenones, perductores, aquarioli, tum sicarii, venenarii, magi, item aruspices, arioli, mathematici.
 
 [43.2] His infructuosos esse magnus est fructus. Et tamen quodcunque dispendium est rei vestrae per hanc sectam, cum aliquo praesidio conpensari potest. Quanti habetis, non dico iam qui de vobis daemonia excutiant, non dico iam qui pro vobis quoque vero deo preces sternant, quia forte non creditis, sed a quibus nihil timere possitis?
 
-### Capítulo 44
+#### Capítulo 44
 
 [44.1] At enim illud detrimentum reipublicae tam grande quam verum nemo circumspicit, illam iniuriam civitatis nullus expendit, cum tot iusti impendimur, cum tot innocentes erogamur.
 
@@ -975,7 +974,7 @@ URN: `urn:cts:latinLit:stoa0275.stoa009.perseus-lat2`
 
 [44.3] De vestris semper aestuat carcer, de vestris semper metalla suspirant, de vestris semper bestiae saginantur, de vestris semper munerarii noxiorum greges pascunt. Nemo illic Christianus nisi plane tantum Christianus, aut si et aliud, iam non Christianus.
 
-### Capítulo 45
+#### Capítulo 45
 
 [45.1] Nos ergo soli innocentes. Quid mirum, si necesse est? Enimvero necesse est. Innocentiam a deo edocti et perfecte eam novimus, ut a perfecto magistro revelatam, et fideliter custodimus, ut ab incontemptibili dispectore mandatam.
 
@@ -991,7 +990,7 @@ URN: `urn:cts:latinLit:stoa0275.stoa009.perseus-lat2`
 
 [45.7] Enimvero nos qui sub deo omnium speculatore dispungimur, quique aeternam ab eo poenam providemus merito, soli innocentiae occurrimus, et pro scientiae plenitudine et pro latebrarum difficultate et pro magnitudine cruciatus non diuturni, verum sempiterni, eum timentes quem timere debebit et ipse qui timentes iudicat, deum, non proconsulem timentes.
 
-### Capítulo 46
+#### Capítulo 46
 
 [46.1] Constitimus, ut opinor, adversus omnium criminum intentationem, quae Christianorum sanguinem flagitat. Ostendimus totum statum nostrum, et quibus modis probare possimus ita esse sicut ostendimus, ex fide scilicet et antiquitate divinarum litterarum, item ex confessione spiritualium potestatum. Qui nos revincere audebit, non arte verborum, sed eadem forma qua probationem constituimus, de veritate?
 
@@ -1029,7 +1028,7 @@ URN: `urn:cts:latinLit:stoa0275.stoa009.perseus-lat2`
 
 [46.18] Adeo quid simile philosophus et Christianus? Graeciae discipulus et caeli? famae negotiator et vitae? verborum et factorum operator, et rerum aedificator et destructor? amicus et inimicus erroris? veritatis interpolator et intcgrator et expressor, et furator eius et custos?
 
-### Capítulo 47
+#### Capítulo 47
 
 [47.1] Antiquior omnibus veritas, nisi fallor, et hoc mihi proficit antiquitas praestructa divinae litteraturae, quo facile credatur thesaurum eam fuisse posteriori cuique sapientiae. Et si non onus iam voluminis temperarem, excurrerem in hanc quoque probationem.
 
@@ -1059,7 +1058,7 @@ URN: `urn:cts:latinLit:stoa0275.stoa009.perseus-lat2`
 
 [47.14] Si de nostris sacramentis, ut de prioribus, ergo fideliora sunt nostra magisque credenda quorum imagines quoque fidem inveniunt. Si de suis sensibus, iam ergo sacramenta nostra imagines posteriorum habebuntur, quod rerum forma non sustinet. Nunquam enim corpus umbra aut veritatem imago praecedit.
 
-### Capítulo 48
+#### Capítulo 48
 
 [48.1] Age iam, si qui philosophus adfirmet, ut ait Laberius de sententia Pythagorae, hominem fieri ex mulo, colubram ex muliere, et in eam opinionem omnia argumenta eloquii virtute distorserit, nonne consensum movebit et fidem infiget etiam ab animalibus abstinendi propterea? Persuasum quis habeat, ne forte bubulam de aliquo proavo suo obsonet? At enim Christianus si de homine hominem ipsumque de Gaio Gaium reducem repromittat, lapidibus magis, nec saltim coetibus a populo exigetur.
 
@@ -1091,7 +1090,7 @@ URN: `urn:cts:latinLit:stoa0275.stoa009.perseus-lat2`
 
 [48.15] Adeo manent montes semper ardentes, et qui de caelo tangitur, salvus est, ut nullo iam igni decinerescat. Et hoc erit testimonium ignis aeterni, hoc exemplum iugis iudicii poenam nutrientis. Montes uruntur et durant. Quid nocentes et dei hostes?
 
-### Capítulo 49
+#### Capítulo 49
 
 [49.1] Hae sunt quae in nobis solis praesumptiones vocantur, in philosophis et poetis summae scientiae et insignia ingenia. Illi prudentes, nos inepti; illi honorandi, nos inridendi, immo eo amplius et puniendi.
 
@@ -1105,7 +1104,7 @@ URN: `urn:cts:latinLit:stoa0275.stoa009.perseus-lat2`
 
 [49.6] Proinde enim nostrum est gaudium, quod sibi vindicat, qui malumus damnari quam a deo excidere: contra illi, qui nos oderunt, dolere, non gaudere debebant, consecutis nobis quod elegimus.
 
-### Capítulo 50
+#### Capítulo 50
 
 [50.1] Ergo, inquitis, cur querimini quod vos insequamur, si pati vultis, cum diligere debeatis per quos patimini quod vultis? Plane volumus pati, verum eo more, quo et bellum miles. Nemo quidem libens patitur, cum et trepidare et periclitari sit necesse.
 
@@ -1138,7 +1137,3 @@ URN: `urn:cts:latinLit:stoa0275.stoa009.perseus-lat2`
 [50.15] Illa ipsa obstinatio, quam exprobratis, magistra est. Quis enim non contemplatione eius concutitur ad requirendum quid intus in re sit? quis non, ubi requisivit, accedit? ubi accessit, pati exoptat, ut totam dei gratiam redimat, ut omnem veniam ab eo compensatione sanguinis sui expediat?
 
 [50.16] Omnia enim huic operi delicta donantur. Inde est, quod ibidem sententiis vestris gratias agimus. Ut est aemulatio divinae rei et humanae, cum damnamur a vobis, a deo absolvimur.
-
----
-
-*Ὁ Διαφορεύς παρῆν*

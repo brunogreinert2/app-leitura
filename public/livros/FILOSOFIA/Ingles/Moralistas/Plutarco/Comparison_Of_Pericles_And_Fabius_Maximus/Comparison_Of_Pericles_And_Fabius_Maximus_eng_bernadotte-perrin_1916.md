@@ -1,36 +1,28 @@
 ---
 id: plutarco-comparison-of-pericles-and-fabius-maximus-eng-bernadotte-perrin-1916
-type: texto_primario
-title: "Comparison of Pericles and Fabius Maximus"
-subtitle: null
+type: translation
+title: Comparison of Pericles and Fabius Maximus
 author: Plutarch
-year_original: null
-language: eng
-translation:
-  - Bernadotte Perrin
+translator:
+- Bernadotte Perrin
 publisher: Harvard University Press
-area: null
-era: null
-tags: []
-status: rascunho
+language: eng
+tags:
+- moralists
+status: draft
 project: pedra_angular
-source: "Plutarch. Comparison of Pericles and Fabius Maximus. Ed. Bernadotte Perrin. Cambridge, MA: Harvard University Press, 1916. Perseus Digital Library, Tufts University (CC BY-SA 4.0). URN: null"
-related: []
+urn_work: urn:cts:greekLit:tlg0007.tlg014
+urn: urn:cts:greekLit:tlg0007.tlg014.perseus-eng2
+source: 'Plutarch. Comparison of Pericles and Fabius Maximus. Ed. Bernadotte Perrin. Cambridge, MA: Harvard University Press, 1916. Perseus Digital Library, Tufts University (CC BY-SA 4.0).'
+source_repo: PerseusDL/canonical-greekLit
+source_file: data/tlg0007/tlg014/tlg0007.tlg014.perseus-eng2.xml
+source_commit: e37eed2e8
+license: CC-BY-SA-4.0
 ---
 
 # Comparison of Pericles and Fabius Maximus
 
-**Plutarch**
-
-Cambridge, MA: Harvard University Press, 1916.
-Perseus Digital Library, Tufts University (CC BY-SA 4.0).
-URN: `null`
-
----
-
-## Texto
-
-### Capítulo 1
+#### Capítulo 1
 
 [1.1] Such is the story of these men’s lives, and since both left behind them many examples of civil as well as military excellence, let us consider, in the first place, the matter of their military achievements. Pericles was at the head of his people when its prosperity was greatest, when its own strength was at the full, and its imperial power culminating. Apparently, therefore, it was the general good fortune and vigour that kept him free from stumbling and falling,
 
@@ -40,9 +32,9 @@ URN: `null`
 
 [1.4] And yet it would appear to be not so difficult a task to manage a city when she is humbled by adversity and rendered obedient to wisdom by necessity, as it is to bridle a people which is exalted by prosperity and swollen with insolence and boldness, which is precisely the way in which Pericles governed Athens. Still, the magnitude and multitude of evils which afflicted the Romans revealed the steadfast purpose and the greatness of the man who was not confounded by them, and would not abandon his own principles of action.
 
-### Capítulo 2
+#### Capítulo 2
 
-[2.1] Over against the capture of Samos by Pericles, it is fair to set the taking of Tarentum by Fabius, and against Euboea, the cities of Campania (Capua itself was reduced by the consuls Fulvius and Appius). In open and regular battle, Fabius seems to have won no victory except that for which he celebrated his first triumphCf. chapter ii. 1.; whereas Pericles set up nine trophies for his wars on land and sea.
+[2.1] Over against the capture of Samos by Pericles, it is fair to set the taking of Tarentum by Fabius, and against Euboea, the cities of Campania (Capua itself was reduced by the consuls Fulvius and Appius). In open and regular battle, Fabius seems to have won no victory except that for which he celebrated his first triumph[^1]; whereas Pericles set up nine trophies for his wars on land and sea.
 
 [2.2] However, no such exploit is recorded of Pericles as that by which Fabius snatched Minucius from the hands of Hannibal, and preserved an entire Roman army; the deed was certainly a noble one, and showed a combination of valour, wisdom, and kindness alike. So, on the other hand, no such defeat is recorded of Pericles as that which Fabius suffered when he was outwitted by Hannibal’s stratagem of the oxen; he had his enemy imprisoned in the narrow defile which he had entered of his own accord and accidentally, but let him slip away unnoticed in the night, force his way out when day came, take advantage of his adversary’s delays, and so conquer his captor.
 
@@ -50,7 +42,7 @@ URN: `null`
 
 [2.4] Therefore the very disasters of his country bear witness to the sagacity of Pericles; while the successes of the Romans proved that Fabius was completely in the wrong. And it is just as great a failing in a general to involve himself in disaster from want of foresight, as it is to throw away an opportunity for success from want of confidence. Inexperience, it would seem, is to blame in each case, which both engenders rashness in a man, and robs a man of courage. So much for their military abilities.
 
-### Capítulo 3
+#### Capítulo 3
 
 [3.1] As for their statesmanship, the Peloponnesian war was a ground of great complaint against Pericles. For it is said to have been brought on by his contention that no concession should be made to Sparta. I think, however, that not even Fabius Maximus would have made any concessions to Carthage, but would have nobly undergone the peril needful to maintain the Roman supremacy. Nevertheless, the courteous and gentle conduct of Fabius towards Minucius contrasts forcibly with the factious opposition of Pericles to Cimon and Thucydides, who were both good and true men and of the highest birth, and yet were subjected by him to ostracism and banishment.
 
@@ -62,6 +54,4 @@ URN: `null`
 
 [3.5] By the side of the great public works, the temples, and the stately edifices, with which Pericles adorned Athens, all Rome’s attempts at splendour down to the times of the Caesars, taken together, are not worthy to be considered, nay, the one had a towering pre-eminence above the other, both in grandeur of design, and grandeur of execution, which precludes comparison.
 
----
-
-*Ὁ Διαφορεύς παρῆν*
+[^1]: Cf. chapter ii. 1.

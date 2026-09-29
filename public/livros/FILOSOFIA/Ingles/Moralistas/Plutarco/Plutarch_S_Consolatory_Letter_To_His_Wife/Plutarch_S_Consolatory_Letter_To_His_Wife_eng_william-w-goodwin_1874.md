@@ -1,40 +1,39 @@
 ---
 id: plutarco-plutarch-s-consolatory-letter-to-his-wife-eng-william-w-goodwin-1874
-type: texto_primario
-title: "Plutarch's Consolatory Letter to His Wife"
-subtitle: null
+type: translation
+title: Plutarch's Consolatory Letter to His Wife
 author: Plutarch
-year_original: null
-language: eng
-translation:
-  - William W. Goodwin
+translator:
+- Thomas Creech
 publisher: Little, Brown, and Company
-area: null
-era: null
-tags: []
-status: rascunho
+language: eng
+tags:
+- moralists
+status: draft
 project: pedra_angular
-source: "Plutarch. Plutarch's Consolatory Letter to His Wife. Ed. William W. Goodwin. Boston: Little, Brown, and Company, 1874. Perseus Digital Library, Tufts University (CC BY-SA 4.0). URN: null"
-related: []
+urn_work: urn:cts:greekLit:tlg0007.tlg111
+urn: urn:cts:greekLit:tlg0007.tlg111.perseus-eng2
+source: 'Plutarch. Plutarch''s Consolatory Letter to His Wife. Ed. William W. Goodwin. Boston: Little, Brown, and Company, 1874. Perseus Digital Library, Tufts University (CC BY-SA 4.0).'
+source_repo: PerseusDL/canonical-greekLit
+source_file: data/tlg0007/tlg111/tlg0007.tlg111.perseus-eng2.xml
+source_commit: e37eed2e8
+license: CC-BY-SA-4.0
 ---
 
 # Plutarch's Consolatory Letter to His Wife
 
-**Plutarch**
-
-Boston: Little, Brown, and Company, 1874.
-Perseus Digital Library, Tufts University (CC BY-SA 4.0).
-URN: `null`
-
----
-
-## Texto
-
 [1] As for the messenger you despatched to tell me of the death of my little daughter, it seems he missed his way as he was going to Athens. But when I came to Tanagra, I heard of it by my niece. I suppose by this time the funeral is over. I wish that whatever has been done may create you no dissatisfaction, as well now as hereafter. But if you have designedly let any thing alone, depending upon my judgment, thinking better to determine the point if I were with you, I pray let it be without ceremony and timorous superstition, which I know are far from you.
 
-[2] Only, dear wife, let you and me bear our affliction with patience. I know very well and do comprehend what loss we have had; but if I should find you grieve beyond measure, this would trouble me more than the thing itself. For I had my birth neither from a stock nor a stone;See Il. XXII. 126. and you know it full well, I having been assistant to you in the education of so many children, which we brought up at home under our own care. This daughter was born after four sons, when you were longing to bear a daughter; which made me call her by your own name. Therefore I know she was particularly dear to you. And grief must have a peculiar pungency in a mind tenderly affectionate to children, when you call to mind how naturally witty and innocent she was, void of anger, and not querulous. She was naturally mild, and compassionate to a miracle. And her gratitude and kindness not only gave us delight, but also manifested her generous nature; for she would pray her nurse to give suck, not only to other children, but to her very playthings, as it were courteously inviting them to her table, and making the best cheer for them she could.
+[2] Only, dear wife, let you and me bear our affliction with patience. I know very well and do comprehend what loss we have had; but if I should find you grieve beyond measure, this would trouble me more than the thing itself. For I had my birth neither from a stock nor a stone;[^1] and you know it full well, I having been assistant to you in the education of so many children, which we brought up at home under our own care. This daughter was born after four sons, when you were longing to bear a daughter; which made me call her by your own name. Therefore I know she was particularly dear to you. And grief must have a peculiar pungency in a mind tenderly affectionate to children, when you call to mind how naturally witty and innocent she was, void of anger, and not querulous. She was naturally mild, and compassionate to a miracle. And her gratitude and kindness not only gave us delight, but also manifested her generous nature; for she would pray her nurse to give suck, not only to other children, but to her very playthings, as it were courteously inviting them to her table, and making the best cheer for them she could.
 
-[3] Now, my dear wife, I see no reason why these and the like things, which delighted us so much when she was alive, should upon remembrance of them afflict us when she is dead. But I also fear lest, while we cease from sorrowing, we should forget her; as Clymene said, I hate the handy horned bow, And banish youthful pastimes now; because she would not be put in mind of her son by the exercises he had been used to. For Nature always shuns such things as are troublesome. But since our little daughter afforded all our senses the sweetest and most charming pleasure; so ought we to cherish her memory, which will conduce many ways—or rather many fold— more to our joy than our grief. And it is but just, that the same arguments which we have oft-times used to others should prevail upon ourselves at this so seasonable a time, and that we should not supinely sit down and overwhelm the joys which we have tasted with a multiplicity of new griefs.
+[3] Now, my dear wife, I see no reason why these and the like things, which delighted us so much when she was alive, should upon remembrance of them afflict us when she is dead. But I also fear lest, while we cease from sorrowing, we should forget her; as Clymene said,
+
+```verso
+I hate the handy horned bow,
+And banish youthful pastimes now;
+```
+
+because she would not be put in mind of her son by the exercises he had been used to. For Nature always shuns such things as are troublesome. But since our little daughter afforded all our senses the sweetest and most charming pleasure; so ought we to cherish her memory, which will conduce many ways—or rather many fold— more to our joy than our grief. And it is but just, that the same arguments which we have oft-times used to others should prevail upon ourselves at this so seasonable a time, and that we should not supinely sit down and overwhelm the joys which we have tasted with a multiplicity of new griefs.
 
 [4] Moreover, they who were present at the funeral report this with admiration, that you neither put on mourning, nor disfigured yourself or any of your maids; neither were there any costly preparations nor magnificent pomp; but all things were managed with silence and moderation in the presence of our relatives alone. And it seemed not strange to me that you, who never used richly to dress yourself for the theatre or other public solemnities, esteeming such magnificence vain and useless even in matters of delight, have now practised frugality on this sad occasion. For a virtuous woman ought not only to preserve her purity in riotous feasts, but also to think thus with herself, that the tempest of the mind in violent grief must be calmed by patience, which does not intrench on the natural love of parents towards their children, as many think, but only struggles against the disorderly and irregular passions of the mind. For we allow this love of children to discover itself in lamenting, wishing for, and longing after them when they are dead. But the excessive inclination to grief, which carries people on to unseemly exclamations and furious behavior, is no less culpable than luxurious intemperance. Yet reason seems to plead in its excuse; because, instead of pleasure, grief and sorrow are ingredients of the crime. What can be more irrational, I pray, than to check excessive laughter and joy, and yet to give a free course to rivers of tears and sighs, which flow from the same fountain? Or, as some do, quarrel with their wives for using artificial helps to beauty, and in the mean time suffer them to shave their heads, wear the mournful black, sit disconsolate, and lie in pain? And, which is worst of all, if their wives at any time chastise their servants or maids immoderately, they will interpose and hinder them, but at the same time suffering them to torment and punish themselves most cruelly, in a case which peculiarly requires their greatest tenderness and humanity?
 
@@ -50,10 +49,14 @@ URN: `null`
 
 But if you lament the poor girl because she died unmarried and without offspring, you have wherewithal to comfort yourself, in that you are defective in none of these things, having had your share. And these are not to be esteemed at once great evils where they are wanted, and small benefits where they are enjoyed. But so long as she is gone to a place where she feels no pain, what need is there of our grief? For what harm can befall us from her, when she is free from all hurt? And surely the loss of even great things abates the grief, when it is come to this, that we have no need or use of them. But thy Timoxena was deprived but of small matter; for she had no knowledge but of such, neither took she delight but in such small things. But for that which she never was sensible of, and which did not so much as once enter into her thoughts, how can you say it is taken from her?
 
-[10] As for what you hear others say, who persuade the vulgar that the soul, when once freed from the body, suffers no inconvenience or evil nor is sensible at all, I know that you are better grounded in the doctrines delivered down to us from our ancestors, as also in the sacred mysteries of Bacchus, than to believe such stories; for the religious symbols are well known to us who are of the fraternity. Therefore be assured, that the soul, being incapable of death, is affected in the same manner as birds that are kept in a cage. For if she has been a long time educated and cherished in the body, and by long custom has been made familiar with most things of this life, she will (though separable) return again, and at length enter the body; nor ceaseth it by new births now and then to be entangled in the chances and events of this life. For do not think that old age is therefore evil spoken of and blamed, because it is accompanied with wrinkles, gray hairs, and weakness of body. But this is the most troublesome thing in old age, that it maketh the soul weak in its remembrance of divine things, and too earnest for things relating to the body; thus it bendeth and boweth, retaining that form which it took of the body. But that which is taken away in youth, being more soft and tractable, soon returns to its native vigor and beauty. Just as fire that is quenched, if it be forthwith kindled again, sparkles and burns out immediately.... So most speedily ’Twere good to pass the gates of death, See Il. V. 646; XXIII. 71. before too great a love of bodily and earthly things be engendered in the soul, and it become soft and tender by being used to the body, and (as it were) by charms and potions incorporated with it.
+[10] As for what you hear others say, who persuade the vulgar that the soul, when once freed from the body, suffers no inconvenience or evil nor is sensible at all, I know that you are better grounded in the doctrines delivered down to us from our ancestors, as also in the sacred mysteries of Bacchus, than to believe such stories; for the religious symbols are well known to us who are of the fraternity. Therefore be assured, that the soul, being incapable of death, is affected in the same manner as birds that are kept in a cage. For if she has been a long time educated and cherished in the body, and by long custom has been made familiar with most things of this life, she will (though separable) return again, and at length enter the body; nor ceaseth it by new births now and then to be entangled in the chances and events of this life. For do not think that old age is therefore evil spoken of and blamed, because it is accompanied with wrinkles, gray hairs, and weakness of body. But this is the most troublesome thing in old age, that it maketh the soul weak in its remembrance of divine things, and too earnest for things relating to the body; thus it bendeth and boweth, retaining that form which it took of the body. But that which is taken away in youth, being more soft and tractable, soon returns to its native vigor and beauty. Just as fire that is quenched, if it be forthwith kindled again, sparkles and burns out immediately.... So most speedily
+
+```verso
+’Twere good to pass the gates of death,
+```
+
+before too great a love of bodily and earthly things be engendered in the soul, and it become soft and tender by being used to the body, and (as it were) by charms and potions incorporated with it.
 
 [11] But the truth of this will appear in the laws and traditions received from our ancestors. For when children die, no libations nor sacrifices are made for them, nor any other of those ceremonies which are wont to be performed for the dead. For infants have no part of earth or earthly affections. Nor do we hover or tarry about their sepulchres or monuments, or sit by when their dead bodies are exposed. The laws of our country forbid this, and teach us that it is an impious thing to lament for those whose souls pass immediately into a better and more divine state. Wherefore, since it is safer to give credit to our traditions than to call them in question, let us comply with the custom in outward and public behavior, and let our interior be more unpolluted, pure, and holy....
 
----
-
-*Ὁ Διαφορεύς παρῆν*
+[^1]: See Il. XXII. 126.

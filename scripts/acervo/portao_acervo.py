@@ -273,7 +273,11 @@ def pre_commit() -> int:
             ids = ler_ids(obra) | ids_da_obra(rel)     # só cresce: LEI 6
             if gravar_ids(obra, ids):
                 tocados.append(arquivo_de_ids(obra))
-    git("add", "--", *[str(p.relative_to(REPO)) for p in tocados if p.exists()])
+    # Em blocos: um lote grande (486 obras no Saneamento) passa do limite de
+    # tamanho da linha de comando do Windows se for um git add só.
+    caminhos = [str(p.relative_to(REPO)) for p in tocados if p.exists()]
+    for i in range(0, len(caminhos), 100):
+        git("add", "--", *caminhos[i:i + 100])
     print(f"portão do acervo: {len(mudados)} arquivo(s) conferido(s), nada piorou.")
     return 0
 

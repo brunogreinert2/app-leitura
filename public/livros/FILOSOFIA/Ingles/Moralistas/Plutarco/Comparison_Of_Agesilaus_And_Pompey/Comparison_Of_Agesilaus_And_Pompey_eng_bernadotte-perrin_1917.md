@@ -1,36 +1,28 @@
 ---
 id: plutarco-comparison-of-agesilaus-and-pompey-eng-bernadotte-perrin-1917
-type: texto_primario
-title: "Comparison of Agesilaus and Pompey"
-subtitle: null
+type: translation
+title: Comparison of Agesilaus and Pompey
 author: Plutarch
-year_original: null
-language: eng
-translation:
-  - Bernadotte Perrin
+translator:
+- Bernadotte Perrin
 publisher: Harvard University Press
-area: null
-era: null
-tags: []
-status: rascunho
+language: eng
+tags:
+- moralists
+status: draft
 project: pedra_angular
-source: "Plutarch. Comparison of Agesilaus and Pompey. Ed. Bernadotte Perrin. Cambridge, MA: Harvard University Press, 1917. Perseus Digital Library, Tufts University (CC BY-SA 4.0). URN: null"
-related: []
+urn_work: urn:cts:greekLit:tlg0007.tlg046
+urn: urn:cts:greekLit:tlg0007.tlg046.perseus-eng2
+source: 'Plutarch. Comparison of Agesilaus and Pompey. Ed. Bernadotte Perrin. Cambridge, MA: Harvard University Press, 1917. Perseus Digital Library, Tufts University (CC BY-SA 4.0).'
+source_repo: PerseusDL/canonical-greekLit
+source_file: data/tlg0007/tlg046/tlg0007.tlg046.perseus-eng2.xml
+source_commit: e37eed2e8
+license: CC-BY-SA-4.0
 ---
 
 # Comparison of Agesilaus and Pompey
 
-**Plutarch**
-
-Cambridge, MA: Harvard University Press, 1917.
-Perseus Digital Library, Tufts University (CC BY-SA 4.0).
-URN: `null`
-
----
-
-## Texto
-
-### Capítulo 1
+#### Capítulo 1
 
 [1.1] Now that their lives lie spread before us, let us briefly run over the points in which the two men differed, and bring these together side by side. They are as follows. In the first place, it was in the justest manner that Pompey came to fame and power, setting out on his career independently, and rendering many great services to Sulla when Sulla was freeing Italy from her tyrants;
 
@@ -40,19 +32,19 @@ URN: `null`
 
 [1.4] but Agesilaüs snatched Sphodrias from the death which hung over him for wronging the Athenians, merely to gratify the love of his son, and when Phoebidas treacherously broke the peace with Thebes, he evidently made the crime itself a reason for zealously supporting him. In a word, whatever harm Pompey was accused of bringing upon the Romans out of deference to his friends or through ignorance, Agesilaüs brought as much upon the Lacedaemonians out of obstinacy and resentment when he kindled the Boeotian war.
 
-### Capítulo 2
+#### Capítulo 2
 
-[2.1] Moreover, if we must assign to any ill-fortune of the two men the disasters which overtook them, that of Pompey could not have been anticipated by the Romans; but Agesilaüs would not permit the Lacedaemonians to guard against the lame sovereignty, although they had heard and knew before- hand about it. For even if Leotychides had been ten thousand times convicted of being bastard and alien, the family of the Eurypontidae could easily have furnished Sparta with a king who was of legitimate birth and sound of limb, had not Lysander darkened the meaning of the oracle in the interests of Agesilaüs.
+[2.1] Moreover, if we must assign to any ill-fortune of the two men the disasters which overtook them, that of Pompey could not have been anticipated by the Romans; but Agesilaüs would not permit the Lacedaemonians to guard against the “lame sovereignty,” although they had heard and knew before- hand about it. For even if Leotychides had been ten thousand times convicted of being bastard and alien, the family of the Eurypontidae could easily have furnished Sparta with a king who was of legitimate birth and sound of limb, had not Lysander darkened the meaning of the oracle in the interests of Agesilaüs.
 
 [2.2] On the other hand, when we consider the remedy which Agesilaüs applied to the perplexity of the state in dealing with those who had played the coward, after the disaster at Leuctra, when he urged that the laws should slumber for that day, there was never another political device like it, nor can we find anything in Pompey’s career to compare with it; on the contrary, he did not even think it incumbent upon him to abide by the laws which he himself had made, if he might only display the greatness of his power to his friends. But Agesilaüs, when he confronted the necessity of abrogating the laws in order to save his fellow-citizens, devised a way by which the citizens should not be harmed by the laws, nor the laws be abrogated to avoid such harm.
 
 [2.3] Further, I attribute also to political virtue in Agesilaüs that inimitable act of his in abandoning his career in Asia on receipt of the dispatch-roll. For he did not, like Pompey, help the commonwealth only as he made himself great, but with an eye to the welfare of his country he renounced such great fame and power as no man won before or since his day, except Alexander.
 
-### Capítulo 3
+#### Capítulo 3
 
 [3.1] And now from another point of view, that of their campaigns and achievements in war, the trophies of Pompey were so many, the forces led by him so vast, and the pitched battles in which he was victorious so innumerable, that not even Xenophon, I think, would compare the victories of Agesilaüs, although that historian, by reason of his other excellent qualities, is specially privileged, as it were, to say and write whatever he pleases about the man.
 
-[3.2] I think also that in merciful behaviour towards their enemies the two men were different. For Agesilaüs was so bent on enslaving Thebes and depopulating Messenia, Thebes the mother-city of his royal line, and Messenia a sister colony to his country,Thebes was the birth-place of Heracles, from whom the Spartan kings were supposed to be descended; and Messenia, like Sparta, was settled by the Heracleidae. that he nearly lost Sparta, and did lose her supremacy in Greece; whereas Pompey gave cities to such of the pirates as changed their mode of life, and when it was in his power to lead Tigranes the king of Armenia in his triumphal procession, made him an ally instead, saying that he thought more of future time than of a single day.
+[3.2] I think also that in merciful behaviour towards their enemies the two men were different. For Agesilaüs was so bent on enslaving Thebes and depopulating Messenia, Thebes the mother-city of his royal line, and Messenia a sister colony to his country,[^1] that he nearly lost Sparta, and did lose her supremacy in Greece; whereas Pompey gave cities to such of the pirates as changed their mode of life, and when it was in his power to lead Tigranes the king of Armenia in his triumphal procession, made him an ally instead, saying that he thought more of future time than of a single day.
 
 [3.3] If, however, it is the greatest and most far-reaching decisions and acts in war that are to determine preeminence in the virtues of leadership, then the Lacedaemonian leaves the Roman far behind. For, in the first place, he did not desert nor abandon his city, though the enemy attacked it with an army of seventy thousand men, while he had only a few men-at-arms, and these had recently been vanquished at Leuctra;
 
@@ -60,7 +52,7 @@ URN: `null`
 
 [3.5] But as it was, to the man for whom he thought it a terrible thing to prolong a term of military command or vote a consulship, to this man he gave the power of capturing the city and saying to Metellus that he considered him and all the rest of the citizens as his prisoners of war.
 
-### Capítulo 4
+#### Capítulo 4
 
 [4.1] Furthermore, the chief task of a good general is to force his enemies to give battle when he is superior to them, but not to be forced himself to do this when his forces are inferior, and by so doing Agesilaüs always kept himself unconquered; whereas in Pompey’s case, Caesar escaped injury at his hands when he was inferior to him, and forced him to stake the whole issue on a battle with his land forces, wherein Caesar was superior, thus defeating him and becoming at once master of treasures, pro- visions, and the sea,—advantages which would have brought his ruin without a battle had they remained in his enemy’s control.
 
@@ -76,10 +68,8 @@ URN: `null`
 
 [4.7] And yet some say that he was deceived by his father-in-law Scipio, who wished to appropriate to his own uses the greater part of the treasure which he had brought from Asia, and therefore hid it away, and then hastened on the battle, on the plea that there was no longer any money. But even if this were true, a general ought not to suffer himself to be so easily deceived, nor afterwards to put his greatest interests at hazard. In these matters, then, such is the way in which we regard each of the men.
 
-### Capítulo 5
+#### Capítulo 5
 
 [5.1] And as to their voyages to Egypt, one went thither of necessity and in flight; the other for no honourable reason, nor of necessity, but for money, that what he got for serving the Barbarians as commander might enable him to make war upon the Greeks. Then again, as to the charges which we bring against the Egyptians for their treatment of Pompey, these the Egyptians lay at the door of Agesilaüs for his treatment of them. For Pompey trusted them and was wronged by them; while Agesilaüs was trusted by them and yet forsook them and went over to the enemies of those whom he had sailed to assist.
 
----
-
-*Ὁ Διαφορεύς παρῆν*
+[^1]: Thebes was the birth-place of Heracles, from whom the Spartan kings were supposed to be descended; and Messenia, like Sparta, was settled by the Heracleidae.

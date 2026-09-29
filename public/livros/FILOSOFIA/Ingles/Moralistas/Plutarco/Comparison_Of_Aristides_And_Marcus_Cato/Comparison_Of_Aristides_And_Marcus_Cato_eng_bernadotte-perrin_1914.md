@@ -1,36 +1,28 @@
 ---
 id: plutarco-comparison-of-aristides-and-marcus-cato-eng-bernadotte-perrin-1914
-type: texto_primario
-title: "Comparison of Aristides and Marcus Cato"
-subtitle: null
+type: translation
+title: Comparison of Aristides and Marcus Cato
 author: Plutarch
-year_original: null
-language: eng
-translation:
-  - Bernadotte Perrin
+translator:
+- Bernadotte Perrin
 publisher: Harvard University Press
-area: null
-era: null
-tags: []
-status: rascunho
+language: eng
+tags:
+- moralists
+status: draft
 project: pedra_angular
-source: "Plutarch. Comparison of Aristides and Marcus Cato. Ed. Bernadotte Perrin. Cambridge, MA: Harvard University Press, 1914. Perseus Digital Library, Tufts University (CC BY-SA 4.0). URN: null"
-related: []
+urn_work: urn:cts:greekLit:tlg0007.tlg026
+urn: urn:cts:greekLit:tlg0007.tlg026.perseus-eng2
+source: 'Plutarch. Comparison of Aristides and Marcus Cato. Ed. Bernadotte Perrin. Cambridge, MA: Harvard University Press, 1914. Perseus Digital Library, Tufts University (CC BY-SA 4.0).'
+source_repo: PerseusDL/canonical-greekLit
+source_file: data/tlg0007/tlg026/tlg0007.tlg026.perseus-eng2.xml
+source_commit: e37eed2e8
+license: CC-BY-SA-4.0
 ---
 
 # Comparison of Aristides and Marcus Cato
 
-**Plutarch**
-
-Cambridge, MA: Harvard University Press, 1914.
-Perseus Digital Library, Tufts University (CC BY-SA 4.0).
-URN: `null`
-
----
-
-## Texto
-
-### Capítulo 1
+#### Capítulo 1
 
 [1.1] Now that I have recorded the most noteworthy things in the careers of these men also, if one compare the entire life of the one with that of the other, it will not be easy to mark the difference between them, obscured as it is by many great resemblances. And even if, in our comparison, we analyse each life, as we would a poem or a picture, we shall find that the rise to political power and repute in consequence of innate excellence and strength, rather than of inherited advantages, is common to both.
 
@@ -40,9 +32,9 @@ URN: `null`
 
 [1.4] It was not the same thing to have Themistocles for a rival, who was of no illustrious family and had only moderate possessions (he is said to have been worth three, or, at most, five talents when he entered public life), as it was to compete for pre-eminence with such men as Scipio Africanus, Servius Galba, and Quintius Flamininus, having no other advantage than a tongue which spoke boldly for the right.
 
-### Capítulo 2
+#### Capítulo 2
 
-[2.1] Besides, at Marathon, and again at Plataea, Aristides was only one of ten generals, while Cato was elected one of two consuls out of many competitors, and one of two censors over the heads of seven of the foremost and most illustrious Romans, who stood for the office with him. Furthermore, Aristides was not the foremost man in any one of his victories, but Miltiades has the chief honour of Marathon, Themistocles of Salamis, and at Plataea, Herodotus ix. 64. says it was Pausanias who won that fairest of all victories,
+[2.1] Besides, at Marathon, and again at Plataea, Aristides was only one of ten generals, while Cato was elected one of two consuls out of many competitors, and one of two censors over the heads of seven of the foremost and most illustrious Romans, who stood for the office with him. Furthermore, Aristides was not the foremost man in any one of his victories, but Miltiades has the chief honour of Marathon, Themistocles of Salamis, and at Plataea, Herodotus[^1] says it was Pausanias who won that fairest of all victories,
 
 [2.2] while even for second honours Aristides has such rivals as Sophanes, Ameinias, Callimachus, and Cynaegeirus, who displayed the greatest valour in those actions. Cato, on the other hand, was not only chief in the plans and actions of the Spanish war during his own consulate, but also at Thermopylae, when he was but a tribune in the army and another was consul, he got the glory of the victory, opening up great mountain passes for the Romans to rush through upon Antiochus, and swinging the war round into the king’s rear, when he had eyes only for what was in front of him.
 
@@ -50,7 +42,7 @@ URN: `null`
 
 [2.4] He was involved in countless civil processes, both as plaintiff and defendant; as plaintiff, he often won his case, as defendant, he never lost it, thanks to that bulwark and efficacious weapon of his life, his eloquence. To this, more justly than to fortune and the guardian genius of the man, we may ascribe the fact that he was never visited with disgrace. That was a great tribute which was paid Aristotle the philosopher by Antipater, when he wrote concerning him, after his death, that in addition to all his other gifts, the man had also the gift of persuasion.
 
-### Capítulo 3
+#### Capítulo 3
 
 [3.1] Man has no higher capacity than that for conducting cities and states, as is generally admitted. But the ability to conduct a household enters in no small degree into this higher political capacity, as most believe. For the city is but an organised sum total of households, and has public vigour only as its citizens prosper in their private lives. When Lycurgus banished both silver and gold from Sparta,
 
@@ -58,13 +50,22 @@ URN: `null`
 
 [3.3] Cato, then, was no whit less efficient in the conduct of his household than in that of the city. He not only increased his own substance, but became a recognized teacher of domestic economy and agriculture for others, and compiled many useful precepts on these subjects. Aristides, on the other hand, was so poor as to bring even his righteousness into disrepute, as ruining a household, reducing a man to beggary, and profiting everybody rather than its possessor.
 
-[3.4] And yet Hesiod Works and Days, 309. has much to say by way of exhorting us to righteousness allied with domestic economy, and abuses idleness as a source of injustice; Homer also says well:— Labour I never liked, Nor household thrift, which breeds good children. But ships equipped with oars were ever my delight, Battles and polished javelins and arrows, Odyssey, xiv. 222 ff., Palmer’s translation. implying that the men who neglect their households are the very ones to live by injustice.
+[3.4] And yet Hesiod[^2] has much to say by way of exhorting us to righteousness allied with domestic economy, and abuses idleness as a source of injustice; Homer also says well:—
 
-[3.5] Oil, as physicians tell us, is very beneficial when externally applied, though very injurious when used internally. But the righteous is not so. He is not helpful to others, while heedless of himself and his family. Indeed, the poverty of Aristides would seem to have been a blemish on his political career, if, as most writers state, he had not foresight enough to leave his poor daughters a marriage portion, Aristides, xxvii. 1. or even the cost of his own burial.
+```verso
+Labour I never liked,
+Nor household thrift, which breeds good children.
+But ships equipped with oars were ever my delight,
+Battles and polished javelins and arrows,
+```
 
-[3.6] And so it fell out that the family of Cato furnished Rome with praetors and consuls down to the fourth generation, for his grandsons, and their sons after them, filled the highest offices of state. Whereas, though Aristides was foremost of the Greeks, the abject poverty of his descendants forced some to ply a fortune-teller’s trade, Aristides, xxvii. 3. and others, for very want, to solicit the public bounty, while it robbed them all of every ambition to excel, or even to be worthy of their great ancestor.
+[^3] implying that the men who neglect their households are the very ones to live by injustice.
 
-### Capítulo 4
+[3.5] Oil, as physicians tell us, is very beneficial when externally applied, though very injurious when used internally. But the righteous is not so. He is not helpful to others, while heedless of himself and his family. Indeed, the poverty of Aristides would seem to have been a blemish on his political career, if, as most writers state, he had not foresight enough to leave his poor daughters a marriage portion,[^4] or even the cost of his own burial.
+
+[3.6] And so it fell out that the family of Cato furnished Rome with praetors and consuls down to the fourth generation, for his grandsons, and their sons after them, filled the highest offices of state. Whereas, though Aristides was foremost of the Greeks, the abject poverty of his descendants forced some to ply a fortune-teller’s trade,[^5] and others, for very want, to solicit the public bounty, while it robbed them all of every ambition to excel, or even to be worthy of their great ancestor.
+
+#### Capítulo 4
 
 [4.1] Possibly this point invites discussion. Poverty is never dishonourable in itself, but only when it is a mark of sloth, intemperance, extravagance, or thoughtlessness. When, on the other hand, it is the handmaid of a sober, industrious, righteous, and brave man, who devotes all his powers to the service of the people, it is the sign of a lofty spirit that harbours no mean thoughts.
 
@@ -72,13 +73,13 @@ URN: `null`
 
 [4.3] For as a body which is well tempered and vigorous needs no superfluous food or raiment, so a healthy individual or family life can be conducted with the simplest outlays. A man should make his gains tally with his needs. He who heaps up much substance and uses little of it, is not contented and independent. If he does not need it, he is a fool for providing what he does not crave; and if he craves it, he makes himself wretched by parsimoniously curtailing his enjoyment of it. Indeed, I would fain ask Cato himself this question:
 
-[4.4] If wealth is a thing to be enjoyed, why do you plume yourself on being satisfied with little when possessed of much? But if it be a fine thing, as indeed it is, to eat ordinary bread, and to drink such wine as labourers and servants drink, and not to want purple robes nor even plastered houses, then Aristides and Epaminondas and Manius Curius and Gaius Fabricius were perfectly right in turning their backs on the gaining of what they scorned to use.
+[4.4] “If wealth is a thing to be enjoyed, why do you plume yourself on being satisfied with little when possessed of much?” But if it be a fine thing, as indeed it is, to eat ordinary bread, and to drink such wine as labourers and servants drink, and not to want purple robes nor even plastered houses, then Aristides and Epaminondas and Manius Curius and Gaius Fabricius were perfectly right in turning their backs on the gaining of what they scorned to use.
 
 [4.5] Surely it was not worth while for a man who, like Cato, esteemed turnips a delectable dish and cooked them himself, while his wife was kneading bread, to babble so much about a paltry copper, and write on the occupation in which one might soonest get rich. Great is the simple life, and great its independence, but only because it frees a man from the anxious desire of superfluous things.
 
-[4.6] Hence it was that Aristides, as we are told, remarked at the trial of Callias Aristides, xxv. 5. that only those who were poor in spite of themselves should be ashamed of their poverty; those who, like himself, chose poverty, should glory in it. And surely it were ridiculous to suppose that the poverty of Aristides was due to his sloth, when, without doing anything disgraceful, but merely by stripping a single Barbarian, or seizing a single tent, he might have made himself rich. So much on this head.
+[4.6] Hence it was that Aristides, as we are told, remarked at the trial of Callias[^6] that only those who were poor in spite of themselves should be ashamed of their poverty; those who, like himself, chose poverty, should glory in it. And surely it were ridiculous to suppose that the poverty of Aristides was due to his sloth, when, without doing anything disgraceful, but merely by stripping a single Barbarian, or seizing a single tent, he might have made himself rich. So much on this head.
 
-### Capítulo 5
+#### Capítulo 5
 
 [5.1] The military campaigns of Cato made no great addition to the Roman empire, which was great already; but those of Aristides include the fairest, most brilliant, and most important actions of the Greeks, namely, Marathon, Salamis, and Plataea. And certainly Antiochus is not worthy to be compared with Xerxes, nor the demolition of the walls of the Spanish cities with the destruction of so many myriads of Barbarians both by land and sea.
 
@@ -86,14 +87,18 @@ URN: `null`
 
 [5.3] Freedom from ambition is no slight requisite for the gentleness which should mark a statesman; and, on the contrary, ambition is harsh, and the greatest fomenter of envy. From this spirit Aristides was wholly free, whereas Cato was very full of it. For example, Aristides co-operated with Themistocles in his greatest achievements, and as one might say, stood guard over him while he was in command, and thereby saved Athens;
 
-[5.4] while Cato, by his opposition to Scipio, almost vitiated and ruined that wonderful campaign of his against the Carthaginians, in which he overthrew the invincible Hannibal,At Zama, 202 B.C. and finally, by perpetually inventing all sorts of suspicions and calumnies against him, drove him out of Rome, and brought down on his brother’s head a most shameful condemnation for embezzlement.
+[5.4] while Cato, by his opposition to Scipio, almost vitiated and ruined that wonderful campaign of his against the Carthaginians, in which he overthrew the invincible Hannibal,[^7] and finally, by perpetually inventing all sorts of suspicions and calumnies against him, drove him out of Rome, and brought down on his brother’s head a most shameful condemnation for embezzlement.
 
-### Capítulo 6
+#### Capítulo 6
 
 [6.1] Once more, that temperance which Cato always decked out with the fairest praises, Aristides maintained and practised in unsullied purity whereas Cato, by marrying unworthily and unseasonably, fell under no slight or insignificant censure in this regard. It was surely quite indecent that a man of his years should bring home as stepmother to his grown-up son and that son’s bride, a girl whose father was his assistant and served the public for hire. Whether he did this merely for his own pleasure, or in anger, to punish his son fox objecting to his mistress, both what he did and what led him to do it were disgraceful.
 
 [6.2] And the sarcastic reason for it which he gave his son was not a true one. For had he wished to beget more sons as good, he should have planned at the outset to marry a woman of family, instead of contenting himself, as long as he could do so secretly, with the society of a low concubine, and when he was discovered, making a man his father-in-law whom he could most easily persuade, rather than one whose alliance would bring him most honour.
 
----
-
-*Ὁ Διαφορεύς παρῆν*
+[^1]: ix. 64.
+[^2]: Works and Days, 309.
+[^3]: Odyssey, xiv. 222 ff., Palmer’s translation.
+[^4]: Aristides, xxvii. 1.
+[^5]: Aristides, xxvii. 3.
+[^6]: Aristides, xxv. 5.
+[^7]: At Zama, 202 B.C.

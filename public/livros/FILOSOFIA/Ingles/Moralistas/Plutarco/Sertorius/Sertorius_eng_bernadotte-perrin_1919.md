@@ -1,42 +1,34 @@
 ---
 id: plutarco-sertorius-eng-bernadotte-perrin-1919
-type: texto_primario
-title: "Sertorius"
-subtitle: null
+type: translation
+title: Sertorius
 author: Plutarch
-year_original: null
-language: eng
-translation:
-  - Bernadotte Perrin
+translator:
+- Bernadotte Perrin
 publisher: Harvard University Press
-area: null
-era: null
-tags: []
-status: rascunho
+language: eng
+tags:
+- moralists
+status: draft
 project: pedra_angular
-source: "Plutarch. Sertorius. Ed. Bernadotte Perrin. Cambridge, MA: Harvard University Press, 1919. Perseus Digital Library, Tufts University (CC BY-SA 4.0). URN: null"
-related: []
+urn_work: urn:cts:greekLit:tlg0007.tlg042
+urn: urn:cts:greekLit:tlg0007.tlg042.perseus-eng2
+source: 'Plutarch. Sertorius. Ed. Bernadotte Perrin. Cambridge, MA: Harvard University Press, 1919. Perseus Digital Library, Tufts University (CC BY-SA 4.0).'
+source_repo: PerseusDL/canonical-greekLit
+source_file: data/tlg0007/tlg042/tlg0007.tlg042.perseus-eng2.xml
+source_commit: e37eed2e8
+license: CC-BY-SA-4.0
 ---
 
 # Sertorius
 
-**Plutarch**
-
-Cambridge, MA: Harvard University Press, 1919.
-Perseus Digital Library, Tufts University (CC BY-SA 4.0).
-URN: `null`
-
----
-
-## Texto
-
-### Capítulo 1
+#### Capítulo 1
 
 [1.1] It is perhaps not to be wondered at, since fortune is ever changing her course and time is infinite, that the same incidents should occur many times, spontaneously. For, if the multitude of elements is unlimited, fortune has in the abundance of her material an ample provider of coincidences; and if, on the other hand, there is a limited number of elements from which events are interwoven, the same things must happen many times, being brought to pass by the same agencies.
 
-[1.2] Now, there are some who delight to collect, from reading and hearsay, such accidental happenings as look like works of calculation and forethought. They note, for example, that there were two celebrated persons called Attis, one a Syrian,The story of a Lydian Attis who was killed by a wild boar is told by Pausanias, vii. 17, 5; that of the Arcadian Attis is unknown. the other an Arcadian, and that both were killed by a wild boar; that there were two Actaeons, one of whom was torn in pieces by his dogs, the other by his loversThe Actaeon, son of Aristaeus, who saw Artemis bathing, was changed by the goddess into a stag and devoured by his own dogs. An Actaeon, son of Melissus, was beloved by Archias of Corinth, who sought to take him away by violence. The friends of Actaeon resisted, and in the struggle Actaeon was torn to death (Plutarch, Morals, p. 772).; that there were two Scipios, by one of whom the Carthaginians were conquered in an earlier war, and by the other, in a later war, were destroyed root and branch;
+[1.2] Now, there are some who delight to collect, from reading and hearsay, such accidental happenings as look like works of calculation and forethought. They note, for example, that there were two celebrated persons called Attis, one a Syrian,[^1] the other an Arcadian, and that both were killed by a wild boar; that there were two Actaeons, one of whom was torn in pieces by his dogs, the other by his lovers[^2]; that there were two Scipios, by one of whom the Carthaginians were conquered in an earlier war, and by the other, in a later war, were destroyed root and branch;
 
-[1.3] that Ilium was taken by Heracles on account of the horses of Laomedon, by Agamemnon by means of what is called the wooden horse, and a third time by Charidemus, because a horse fell in the gateway and prevented the Ilians from closing the gate quickly enough; that there are two cities which have the same name as the most fragrant plants, Ios and Smyrna, Violet and Myrrh. in one of which the poet Homer is said to have been born, and in the other to have died.
+[1.3] that Ilium was taken by Heracles on account of the horses of Laomedon, by Agamemnon by means of what is called the wooden horse, and a third time by Charidemus, because a horse fell in the gateway and prevented the Ilians from closing the gate quickly enough; that there are two cities which have the same name as the most fragrant plants, Ios and Smyrna,[^3] in one of which the poet Homer is said to have been born, and in the other to have died.
 
 [1.4] I will therefore make this addition to their collection. The most warlike of generals, and those who achieved most by a mixture of craft and ability, have been one-eyed men,—Philip, Antigonus, Hannibal, and the subject of this Life, Sertorius; of whom one might say that he was more continent with women than Philip, more faithful to his friends than Antigonus, more merciful towards his enemies than Hannibal,
 
@@ -44,51 +36,51 @@ URN: `null`
 
 [1.6] With him we may best compare, among the Greeks, Eumenes of Cardia. Both were born to command and given to wars of stratagem; both were exiled from their own countries, commanded foreign soldiers, and in their deaths experienced a fortune that was harsh and unjust; for both were the victims of plots, and were slain by the very men with whom they were conquering their foes.
 
-### Capítulo 2
+#### Capítulo 2
 
-[2.1] Quintus Sertorius belonged to a family of some prominence in Nussa,Nursia, in Latin writers, and in Amyot. a city of the Sabines. Having lost his father, he was properly reared by a widowed mother, of whom he appears to have been excessively fond. His mother’s name, we are told, was Rhea. As a result of his training he was sufficiently versed in judicial procedure, and acquired some influence also at Rome from his eloquence, although a mere youth; but his brilliant successes in war turned his ambition in this direction.
+[2.1] Quintus Sertorius belonged to a family of some prominence in Nussa,[^4] a city of the Sabines. Having lost his father, he was properly reared by a widowed mother, of whom he appears to have been excessively fond. His mother’s name, we are told, was Rhea. As a result of his training he was sufficiently versed in judicial procedure, and acquired some influence also at Rome from his eloquence, although a mere youth; but his brilliant successes in war turned his ambition in this direction.
 
-### Capítulo 3
+#### Capítulo 3
 
-[3.1] To begin with, when the Cimbri and Teutones invaded Gaul,In 105 B.C. he served under Caepio, and after the Romans had been defeated and put to flight, though he had lost his horse and had been wounded in the body, he made his way across the Rhone, swimming, shield and breastplate and all, against a strongly adverse current; so sturdy was his body and so inured to hardships by training.
+[3.1] To begin with, when the Cimbri and Teutones invaded Gaul,[^5] he served under Caepio, and after the Romans had been defeated and put to flight, though he had lost his horse and had been wounded in the body, he made his way across the Rhone, swimming, shield and breastplate and all, against a strongly adverse current; so sturdy was his body and so inured to hardships by training.
 
-[3.2] In the next place, when the same enemies were coming up with many myriads of men and dreadful threats,In 102 B.C. so that for a Roman even to hold his post at such a time and obey his general was a great matter, while Marius was in command, Sertorius undertook to spy out the enemy. So, putting on a Celtic dress and acquiring the commonest expressions of that language for such conversation as might be necessary, he mingled with the Barbarians; and after seeing or hearing what was of importance, he came back to Marius.
+[3.2] In the next place, when the same enemies were coming up with many myriads of men and dreadful threats,[^6] so that for a Roman even to hold his post at such a time and obey his general was a great matter, while Marius was in command, Sertorius undertook to spy out the enemy. So, putting on a Celtic dress and acquiring the commonest expressions of that language for such conversation as might be necessary, he mingled with the Barbarians; and after seeing or hearing what was of importance, he came back to Marius.
 
-[3.3] At the time, then, he received a prize for valour; and since, during the rest of the campaign, he performed many deeds which showed both judgement and daring, he was advanced by his general to positions of honour and trust. After the war with the Cimbri and Teutones, he was sent out as military tribune by Didius the praetor to Spain,In 97 B.C. Didius was then pro-consul. and spent the winter in Castulo, a city of the Celtiberians.
+[3.3] At the time, then, he received a prize for valour; and since, during the rest of the campaign, he performed many deeds which showed both judgement and daring, he was advanced by his general to positions of honour and trust. After the war with the Cimbri and Teutones, he was sent out as military tribune by Didius the praetor to Spain,[^7] and spent the winter in Castulo, a city of the Celtiberians.
 
 [3.4] Here the soldiers shook off all discipline in the midst of plenty, and were drunk most of the time, so that the Barbarians came to despise them, and one night sent for aid from their neighbours, the Oritanians, and falling upon the Romans in their quarters began to kill them. But Sertorius with a few others slipped out, and assembled the soldiers who were making their escape, and surrounded the city. He found the gate open by which the Barbarians had stolen in, but did not repeat their mistake; instead, he set a guard there, and then, taking possession of all quarters of the city, slew all the men who were of age to bear arms.
 
 [3.5] Then, when the slaughter was ended, he ordered all his soldiers to lay aside their own armour and clothing, to array themselves in those of the Barbarians, and then to follow him to the city from which the men came who had fallen upon them in the night. Having thus deceived the Barbarians by means of the armour which they saw, he found the gate of the city open, and caught a multitude of men who supposed they were coming forth to meet a successful party of friends and fellow citizens. Therefore most of the inhabitants were slaughtered by the Romans at the gate; the rest surrendered and were sold into slavery.
 
-### Capítulo 4
+#### Capítulo 4
 
-[4.1] In consequence of this exploit the name of Sertorius was noised abroad in Spain; and as soon as he returned to Rome he was appointed quaestor of Cisalpine Gaul, and at a critical time. For the Marsic warOr Social War, 90-88 B.C. was threatening, and he was ordered to levy troops and procure arms; to which task he brought such earnestness and celerity, as compared with the slowness and indolence of the other young men, that he got the reputation of a man whose life would be one of great achievement.
+[4.1] In consequence of this exploit the name of Sertorius was noised abroad in Spain; and as soon as he returned to Rome he was appointed quaestor of Cisalpine Gaul, and at a critical time. For the Marsic war[^8] was threatening, and he was ordered to levy troops and procure arms; to which task he brought such earnestness and celerity, as compared with the slowness and indolence of the other young men, that he got the reputation of a man whose life would be one of great achievement.
 
 [4.2] However, he did not remit the activities of a daring soldier after he had advanced to the dignity of a commander, but displayed astonishing deeds of prowess and exposed his person unsparingly in battle, in consequence of which he got a blow that cost him one of his eyes. But on this he actually prided himself at all times. Others, he said, could not always carry about with them the evidences of their brave deeds, but must lay aside their necklaces, spears, and wreaths; in his own case, on the contrary, the marks of his bravery remained with him, and when men saw what he had lost, they saw at the same time a proof of his valour.
 
 [4.3] The people also paid him fitting honours. For, when he came into the theatre, they received him with clapping of hands and shouts of welcome, testimonials which even those who were far advanced in years and honours could not easily obtain. Notwithstanding this, when he stood for the tribuneship, Sulla formed a party against him, and he lost the election; for which reason, apparently, he became an opponent of Sulla.
 
-[4.4] And so when Marius was overwhelmed by Sulla and went into exile,In 88 B.C. and Sulla had set out to wage war against Mithridates,In 87 B.C. Cf. the Marius, xli. 1. and one of the consuls, Octavius, adhered to the party of Sulla, while the other, Cinna, who aimed at a revolution, tried to revive the drooping faction of Marius, Sertorius attached himself to Cinna, especially as he saw that Octavius was rather sluggish himself and distrustful of the friends of Marius.
+[4.4] And so when Marius was overwhelmed by Sulla and went into exile,[^9] and Sulla had set out to wage war against Mithridates,[^10] and one of the consuls, Octavius, adhered to the party of Sulla, while the other, Cinna, who aimed at a revolution, tried to revive the drooping faction of Marius, Sertorius attached himself to Cinna, especially as he saw that Octavius was rather sluggish himself and distrustful of the friends of Marius.
 
-[4.5] A great battle was fought in the forum between the consuls, in which Octavius was victorious, and Cinna and Sertorius took to flight, after losing almost ten thousand men; and then, winning over to their side most of the troops still scattered about Italy, they soon made themselves able to cope with Octavius.In 87 B.C. Cf. the Marius, xli. 1.
+[4.5] A great battle was fought in the forum between the consuls, in which Octavius was victorious, and Cinna and Sertorius took to flight, after losing almost ten thousand men; and then, winning over to their side most of the troops still scattered about Italy, they soon made themselves able to cope with Octavius.[^11]
 
-### Capítulo 5
+#### Capítulo 5
 
-[5.1] And when Marius sailed home from LibyaCf. the Marius, xli. 2 ff. and was proposing to serve under Cinna as a private citizen under a consul, the rest thought that his offer should be accepted, but Sertorius declared against it, either because he thought that Cinna would pay less attention to him when a man of greater military experience was at hand, or because he was afraid of the harshness of Marius, and feared that he would throw everything into confusion by a passion which knew no limits, and exceed the bounds of justice in the hour of victory.
+[5.1] And when Marius sailed home from Libya[^12] and was proposing to serve under Cinna as a private citizen under a consul, the rest thought that his offer should be accepted, but Sertorius declared against it, either because he thought that Cinna would pay less attention to him when a man of greater military experience was at hand, or because he was afraid of the harshness of Marius, and feared that he would throw everything into confusion by a passion which knew no limits, and exceed the bounds of justice in the hour of victory.
 
 [5.2] Accordingly, he said that little remained for them to do, now that they were already victorious, and that if they received Marius he would appropriate to himself all the glory and the power, since he found it hard to share authority and was not to be trusted. Cinna replied that these considerations of Sertorius were sound, but that for his part he had perplexing scruples about rejecting Marius after having himself invited him to join their cause.
 
-[5.3] To this Sertorius answered: Indeed, I for my part thought that Marius was come of his own accord into Italy, and so I was trying to discover what was advantageous in the matter; but in thy case it was not well to deliberate at all after the arrival of one whom thou thyself didst ask to come; nay, thou shouldst have received and employed him, since a pledge leaves room for no discussion. So Cinna sent for Marius, the army was divided into three parts, and the three men held command.
+[5.3] To this Sertorius answered: “Indeed, I for my part thought that Marius was come of his own accord into Italy, and so I was trying to discover what was advantageous in the matter; but in thy case it was not well to deliberate at all after the arrival of one whom thou thyself didst ask to come; nay, thou shouldst have received and employed him, since a pledge leaves room for no discussion.” So Cinna sent for Marius, the army was divided into three parts, and the three men held command.
 
-[5.4] When the war had been brought to an end,That is, when the party of Sulla and the senate ceased to resist and Rome had surrendered. Cinna and Marius were filled with insolence and all bitterness, and made the evils of war appear as gold to the Romans; Sertorius alone, as we are told, neither killed any one to gratify his anger, nor waxed insolent with victory, but actually rebuked Marius, and by private interviews and entreaties made Cinna more moderate.
+[5.4] When the war had been brought to an end,[^13] Cinna and Marius were filled with insolence and all bitterness, and made the evils of war appear as gold to the Romans; Sertorius alone, as we are told, neither killed any one to gratify his anger, nor waxed insolent with victory, but actually rebuked Marius, and by private interviews and entreaties made Cinna more moderate.
 
-[5.5] And finally, there were the slaves whom Marius had used as allies during the war and as body-guards of his tyranny. They had thus become powerful and rich, partly by the permission and under the orders of Marius, and partly through their lawless and violent treatment of their masters, whom they would slay, and then lie with their masters’ wives, and outrage their masters’ children. Such a state of things Sertorius felt to be unendurable, and therefore when the slaves were all encamped together he had them shot down with javelins, and they were as many as four thousand in number.Cf. the Marius, xliv. 6.
+[5.5] And finally, there were the slaves whom Marius had used as allies during the war and as body-guards of his tyranny. They had thus become powerful and rich, partly by the permission and under the orders of Marius, and partly through their lawless and violent treatment of their masters, whom they would slay, and then lie with their masters’ wives, and outrage their masters’ children. Such a state of things Sertorius felt to be unendurable, and therefore when the slaves were all encamped together he had them shot down with javelins, and they were as many as four thousand in number.[^14]
 
-### Capítulo 6
+#### Capítulo 6
 
-[6.1] But presently Marius died;In 86 B.C. and shortly afterwards Cinna was murdered;In 84 B.C. Cf. the Pompey, chapter v. and the younger Marius, against the wishes of Sertorius and contrary to the laws, assumed the consulship;In 82 B.C. and such men as Carbo, Norbanus, and Scipio were unsuccessfully opposing Sulla’s advance upon Rome; and the cause of the popular party was being ruined and lost, partly through the cowardice and weakness of its generals, and partly by treachery;
+[6.1] But presently Marius died;[^15] and shortly afterwards Cinna was murdered;[^16] and the younger Marius, against the wishes of Sertorius and contrary to the laws, assumed the consulship;[^17] and such men as Carbo, Norbanus, and Scipio were unsuccessfully opposing Sulla’s advance upon Rome; and the cause of the popular party was being ruined and lost, partly through the cowardice and weakness of its generals, and partly by treachery;
 
-[6.2] and there was no reason why Sertorius should remain to see matters go from bad to worse owing to the inferior judgement of those who had superior power. And finally, Sulla encamped near Scipio and made friendly overtures, assuming that peace was to be made, and proceeded to corrupt his army.Cf. the Sulla, xxviii, 1-3. Sertorius warned Scipio of this plainly, but could not persuade him. At last, therefore, altogether despairing of the city, he set out for Spain, in order that, in case he should succeed in firmly establishing his power there, he might afford a refuge to those of his friends who were worsted at Rome.
+[6.2] and there was no reason why Sertorius should remain to see matters go from bad to worse owing to the inferior judgement of those who had superior power. And finally, Sulla encamped near Scipio and made friendly overtures, assuming that peace was to be made, and proceeded to corrupt his army.[^18] Sertorius warned Scipio of this plainly, but could not persuade him. At last, therefore, altogether despairing of the city, he set out for Spain, in order that, in case he should succeed in firmly establishing his power there, he might afford a refuge to those of his friends who were worsted at Rome.
 
 [6.3] After encountering grievous storms in mountainous regions, he was asked by the Barbarians to pay them tribute and purchase his passage. His companions were indignant, and considered it a terrible thing for a Roman pro-consul to render tribute to pestilent Barbarians; but Sertorius made light of what they thought a disgrace, and with the remark that he was purchasing time, than which nothing is more precious to a man bent on great achievements, he pacified the Barbarians with money, and then hastened on and took possession of Spain.
 
@@ -96,9 +88,9 @@ URN: `null`
 
 [6.5] However, he did not rely wholly on the goodwill of the Barbarians, but he armed all the Roman settlers of the country who were of military age, and by undertaking the construction of all sorts of engines of war and the building of triremes, kept the cities well in hand, being mild in the affairs of peace, but showing himself formidable by the preparations which he made against his enemies.
 
-### Capítulo 7
+#### Capítulo 7
 
-[7.1] When he learned that Sulla was master of Rome,In 82 B.C. and that the party of Marius and Carbo was on the way to ruin, he expected that an army with a commander would come at once to fight the issue out with him. He therefore sent Julius Salinator with six thousand men-at-arms to bar the passage of the Pyrenees. And not long afterwards Caius Annius was sent out by Sulla, and seeing that Julius could not be assailed, he knew not what to do, and sat idly down at the base of the mountains.
+[7.1] When he learned that Sulla was master of Rome,[^19] and that the party of Marius and Carbo was on the way to ruin, he expected that an army with a commander would come at once to fight the issue out with him. He therefore sent Julius Salinator with six thousand men-at-arms to bar the passage of the Pyrenees. And not long afterwards Caius Annius was sent out by Sulla, and seeing that Julius could not be assailed, he knew not what to do, and sat idly down at the base of the mountains.
 
 [7.2] But a certain Calpurnius, surnamed Lanarius, treacherously killed Julius, whose soldiers then abandoned the heights of the Pyrenees; whereupon Annius crossed over and advanced with a large force, routing all opposition. Sertorius, not being able to cope with him, took refuge with three thousand men in New Carthage; there he embarked his forces, crossed the sea, and handed in the country of the Maurusii, in Africa.
 
@@ -106,15 +98,15 @@ URN: `null`
 
 [7.4] But the sea ran high with a strong west wind, and the greater part of the vessels of Sertorius, owing to their lightness, were driven aslant upon the rocky shore, while he himself, with a few ships, excluded from the open sea by the storm, and from the land by the enemy, was tossed about for ten days in a battle with adverse waves and fierce surges, and with difficulty held his own.
 
-### Capítulo 8
+#### Capítulo 8
 
 [8.1] But the wind subsided and he was borne along to certain scattered and waterless islands, where he spent the night; then, setting out from there, and passing through the strait of Cadiz, he kept the outer coast of Spain on the right and landed a little above the mouths of the river Baetis, which empties into the Atlantic sea and has given its name to the adjacent parts of Spain.
 
-[8.2] Here he fell in with some sailors who had recently come back from the Atlantic Islands.Perhaps Madeira and Porto Santo, though these are forty miles apart. Features of the Canary Islands have doubtless crept into the description. These are two in number, separated by a very narrow strait; they are ten thousand furlongs distant from Africa, and are called the Islands of the Blest. They enjoy moderate rains at long intervals, and winds which for the most part are soft and precipitate dews, so that the islands not only have a rich soil which is excellent for plowing and planting, but also produce a natural fruit that is plentiful and wholesome enough to feed, without toil or trouble, a leisured folk.
+[8.2] Here he fell in with some sailors who had recently come back from the Atlantic Islands.[^20] These are two in number, separated by a very narrow strait; they are ten thousand furlongs distant from Africa, and are called the Islands of the Blest. They enjoy moderate rains at long intervals, and winds which for the most part are soft and precipitate dews, so that the islands not only have a rich soil which is excellent for plowing and planting, but also produce a natural fruit that is plentiful and wholesome enough to feed, without toil or trouble, a leisured folk.
 
-[8.3] Moreover, an air that is salubrious, owing to the climate and the moderate changes in the seasons, prevails on the islands. For the north and east winds which blow out from our part of the world plunge into fathomless space, and, owing to the distance, dissipate themselves and lose their power before they reach the islands; while the south and west winds that envelope the islands from the sea sometimes bring in their train soft and intermittent showers, but for the most part cool them with moist breezes and gently nourish the soil. Therefore a firm belief has made its way, even to the Barbarians, that here is the Elysian Field and the abode of the blessed, of which Homer sang. Odyssey, iv. 563-568.
+[8.3] Moreover, an air that is salubrious, owing to the climate and the moderate changes in the seasons, prevails on the islands. For the north and east winds which blow out from our part of the world plunge into fathomless space, and, owing to the distance, dissipate themselves and lose their power before they reach the islands; while the south and west winds that envelope the islands from the sea sometimes bring in their train soft and intermittent showers, but for the most part cool them with moist breezes and gently nourish the soil. Therefore a firm belief has made its way, even to the Barbarians, that here is the Elysian Field and the abode of the blessed, of which Homer sang.[^21]
 
-### Capítulo 9
+#### Capítulo 9
 
 [9.1] When Sertorius heard this tale, he was seized with an amazing desire to dwell in the islands and live in quiet, freed from tyranny and wars that would never end. The Cilicians, however, who did not want peace or leisure, but wealth and spoils, when they were aware of his desire, sailed away to Africa, to restore Ascalis the son of Iphtha to the throne of Maurusia.
 
@@ -126,17 +118,17 @@ URN: `null`
 
 [9.5] But this tale must be ascribed to a desire to gratify Juba, of all kings the most devoted to historical enquiry; for his ancestors are said to have been descendants of Sophax and Diodorus. Sertorius, then, having made himself master of the whole country, did no wrong to those who were his suppliants and put their trust in him, but restored to them both property and cities and government, receiving only what was right and fair in free gifts from them.
 
-### Capítulo 10
+#### Capítulo 10
 
 [10.1] As he was deliberating whither to turn his efforts next, the Lusitanians sent ambassadors and invited him to be their leader. They were altogether lacking in a commander of great reputation and experience as they faced the terror of the Roman arms, and they entrusted themselves to him, and to him alone, when they learned about his character from those who had been with him.
 
 [10.2] And it is said that Sertorius was no easy victim either of pleasure or of fear, but that he was naturally unterrified in the face of danger, and bore prosperity with moderation; in straightforward fighting he was as bold as any commander of his time, while in all military activities demanding stealth and the power to seize an advantage in securing strong positions or in crossing rivers, where speed, deceit, and, if necessary, falsehood are required, he was an expert of the highest ability.
 
-[10.3] Moreover, while he showed himself generous in rewarding deeds of valour, he used moderation in punishing transgressions. And yet, in the last part of his life, the savage and vindictive treatment which he bestowed upon his hostagesSee chapter xxv. 4. would seem to show that his mildness was not natural to him, but was worn as a garment, from calculation, as necessity required.
+[10.3] Moreover, while he showed himself generous in rewarding deeds of valour, he used moderation in punishing transgressions. And yet, in the last part of his life, the savage and vindictive treatment which he bestowed upon his hostages[^22] would seem to show that his mildness was not natural to him, but was worn as a garment, from calculation, as necessity required.
 
 [10.4] In my opinion, however, a virtue that is sincere and based upon reason can never by any fortune be converted into its opposite, although it is true that excellent principles and natures, when impaired by great and undeserved calamities, may possibly change their character as the guiding genius changes. And this, I think, was the case with Sertorius when fortune at last began to forsake him; as his cause grew hopeless he became harsh toward those who did him wrong.
 
-### Capítulo 11
+#### Capítulo 11
 
 [11.1] However, at the time of which I speak he set out from Africa on the invitation of the Lusitanians. These he proceeded to organize at once, acting as their general with full powers, and he brought the neighbouring parts of Spain into subjection. Most of the people joined him of their own accord, owing chiefly to his mildness and efficiency; but sometimes he also betook himself to cunning devices of his own for deceiving and charming them. The chief one of these, certainly, was the device of the doe, which was as follows.
 
@@ -146,19 +138,19 @@ URN: `null`
 
 [11.4] He also added such devices as these. Whenever he had secret intelligence that the enemy had made an incursion into the territory which he commanded, or were trying to bring a city to revolt from him, he would pretend that the doe had conversed with him in his dreams, bidding him hold his forces in readiness. Again, when he got tidings of some victory won by his generals, he would hide the messenger, and bring forth the doe wearing garlands for the receipt of glad tidings, exhorting his men to be of good cheer and to sacrifice to the gods, assured that they were to learn of some good fortune.
 
-### Capítulo 12
+#### Capítulo 12
 
 [12.1] By these devices he made the people tractable, and so found them more serviceable for all his plans; they believed that they were led, not by the mortal wisdom of a foreigner, but by a god. At the same time events also brought witness to this belief by reason of the extraordinary growth of the power of Sertorius.
 
 [12.2] For with the twenty-six hundred men whom he called Romans, and a motley band of seven hundred Libyans who crossed over into Lusitania with him, to whom he added four thousand Lusitanian targeteers and seven hundred horsemen, he waged war with four Roman generals, under whom were a hundred and twenty thousand footmen, six thousand horsemen, two thousand bowmen and slingers, and an untold number of cities, while he himself had at first only twenty all told.
 
-[12.3] But nevertheless, from so weak and slender a beginning, he not only subdued great nations and took many cities, but was also victorious over the generals sent against him: Cotta he defeated in a sea-fight in the straits near Mellaria; Fufidius, the governor of Baetica, he routed on the banks of the Baetis with the slaughter of two thousand Roman soldiers; Lucius Domitius, who was pro-consul of the other Spain,Spain was divided into two provinces, Hispania Citerior (Hither) and Hispania Ulterior (Further), or Eastern and Western Spain. Fufidius was pro-consul of Western Spain. was defeated at the hands of his quaestor;
+[12.3] But nevertheless, from so weak and slender a beginning, he not only subdued great nations and took many cities, but was also victorious over the generals sent against him: Cotta he defeated in a sea-fight in the straits near Mellaria; Fufidius, the governor of Baetica, he routed on the banks of the Baetis with the slaughter of two thousand Roman soldiers; Lucius Domitius, who was pro-consul of the other Spain,[^23] was defeated at the hands of his quaestor;
 
 [12.4] Thoranius, another of the commanders sent out by Metellus with an army, he slew; and on Metellus himself, the greatest Roman of the time and held in highest repute, he inflicted many defeats and reduced him to so great straits that Lucius Manlius came from Gallia Narbonensis to help him, and Pompey the Great was hurriedly dispatched from Rome with an army.
 
-[12.5] For Metellus was at his wits’ end. He was carrying on war with a man of daring who evaded every kind of open fighting, and who made all manner of shifts and changes, owing to the light equipment and agility of his Iberian soldiers; whereas he himself had been trained in regular contests of heavy-armed troops, and was wont to command a ponderous and immobile phalanx,Cf. the Pompey, xvii. 2. which, for repelling and overpowering an enemy at close quarters, was most excellently trained, but for climbing mountains, for dealing within the incessant pursuits and flights of men as light as the winds, and for enduring hunger and a life without fire or tent, as their enemies did, it was worthless.
+[12.5] For Metellus was at his wits’ end. He was carrying on war with a man of daring who evaded every kind of open fighting, and who made all manner of shifts and changes, owing to the light equipment and agility of his Iberian soldiers; whereas he himself had been trained in regular contests of heavy-armed troops, and was wont to command a ponderous and immobile phalanx,[^24] which, for repelling and overpowering an enemy at close quarters, was most excellently trained, but for climbing mountains, for dealing within the incessant pursuits and flights of men as light as the winds, and for enduring hunger and a life without fire or tent, as their enemies did, it was worthless.
 
-### Capítulo 13
+#### Capítulo 13
 
 [13.1] Besides this, Metellus was now getting on in years, and was somewhat inclined also, by this time, to an easy and luxurious mode of life after his many and great contests; whereas his opponent, Sertorius, was full of mature vigour, and had a body which was wonderfully constituted for strength, speed, and plain living.
 
@@ -172,25 +164,25 @@ URN: `null`
 
 [13.6] When Metellus learned that this had been done, he was annoyed, since his soldiers had already consumed their provisions, and sent out Aquinus, at the head of six thousand men, to forage. But Sertorius learned of this and set an ambush of three thousand men in the road by which Aquinus was to return. These sallied forth from a shady ravine and attacked Aquinus in the rear, while Sertorius himself assailed him in front, routed him, slew some of his men, and took some of them prisoners. Aquinus, after losing both his armour and his horse, got back to Metellus, who then retired disgracefully, much flouted by the Iberians.
 
-### Capítulo 14
+#### Capítulo 14
 
 [14.1] In consequence of these successes Sertorius was admired and loved by the Barbarians, and especially because by introducing Roman arms and formations and signals he did away with their frenzied and furious displays of courage, and converted their forces into an army, instead of a huge band of robbers.
 
 [14.2] Still further, he used gold and silver without stint for the decoration of their helmets and the ornamentation of their shields, and by teaching them to wear flowered cloaks and tunics, and furnishing them with the means to do this, and sharing their love of beautiful array, he won the hearts of all. But most of all were they captivated by what he did with their boys. Those of the highest birth, namely, he collected together from the various peoples, at Osca, a large city, and set over them teachers of Greek and Roman learning; thus in reality he made hostages of them, while ostensibly he was educating them, with the assurance that when they became men he would give them a share in administration and authority.
 
-[14.3] So the fathers were wonderfully pleased to see their sons, in purple-bordered togas, very decorously going to their schools, and Sertorius paying their fees for them, holding frequent examinations, distributing prizes to the deserving, and presenting them with the golden necklaces which the Romans call bullae.
+[14.3] So the fathers were wonderfully pleased to see their sons, in purple-bordered togas, very decorously going to their schools, and Sertorius paying their fees for them, holding frequent examinations, distributing prizes to the deserving, and presenting them with the golden necklaces which the Romans call “bullae.”
 
-[14.4] It was the custom among the Iberians for those who were stationed about their leader to die with him if he fell, and the Barbarians in those parts call this a consecration. Now, the other commanders had few such shield-bearers and companions, but Sertorius was attended by many thousands of men who had thus consecrated themselves to death.
+[14.4] It was the custom among the Iberians for those who were stationed about their leader to die with him if he fell, and the Barbarians in those parts call this a “consecration.” Now, the other commanders had few such shield-bearers and companions, but Sertorius was attended by many thousands of men who had thus consecrated themselves to death.
 
 [14.5] And we are told that when his army had been defeated at a certain city and the enemy were pressing upon them, the Iberians, careless of themselves, rescued Sertorius, and taking him on their shoulders one after another, carried him to the walls, and only when their leader was in safety, did they betake themselves to flight, each man for himself.
 
-### Capítulo 15
+#### Capítulo 15
 
 [15.1] And not only were the Iberians eager to serve under him, but also the soldiers who came from Italy. At any rate, when Perpenna Vento, who belonged to the same party as Sertorius, came to Spain with much money and a large force, and was determined to wage war on his own account against Metellus, his soldiers were displeased, and there was much talk in the camp about Sertorius, to the annoyance of Perpenna, who was puffed up over his high birth and his wealth.
 
 [15.2] However, when word came that Pompey was crossing the Pyrenees, the soldiers caught up their arms and snatched up their standards and made an outcry against Perpenna, ordering him to lead them to Sertorius, and threatening, if he did not, to abandon him and go by themselves to a man who was able to save himself and save those under him. So Perpenna yielded and led them off and joined Sertorius with fifty-three cohorts.
 
-### Capítulo 16
+#### Capítulo 16
 
 [16.1] Sertorius, then, since all the peoples within the river Ebro were unitedly taking up his cause, had an army of great numbers, for men were all the while coming to him in streams from every quarter; but he was troubled by their barbaric lack of discipline and their overconfidence, since they called loudly upon him to attack the enemy and were impatient at his delay, and he therefore tried to pacify them by arguments.
 
@@ -198,11 +190,11 @@ URN: `null`
 
 [16.3] And now he wished to take away their dejection. So after a few days he called a general assembly and introduced before it two horses, one utterly weak and already quite old, the other large-sized and strong, within a tail that was astonishing for the thickness and beauty of its hair. By the side of the feeble horse stood a man who was tall and robust, and by the side of tine powerful horse another man, small and of a contemptible appearance. At a signal given them, the strong man seized the tail of his horse with both hands and tried to pull it towards him with all his might, as though he would tear it off; but the weak man began to pluck out the hairs in the tail of the strong horse one by one.
 
-[16.4] The strong man gave himself no end of trouble to no purpose, made the spectators laugh a good deal, and then gave up his attempt; but the weak man, in a trice and with no trouble, stripped his horse’s tail of its hair. Then Sertorius rose up and said Ye see, men of my allies, that perseverance is more efficacious than violence, and that many things which cannot be mastered when they stand together yield when one masters them little by little.
+[16.4] The strong man gave himself no end of trouble to no purpose, made the spectators laugh a good deal, and then gave up his attempt; but the weak man, in a trice and with no trouble, stripped his horse’s tail of its hair. Then Sertorius rose up and said “Ye see, men of my allies, that perseverance is more efficacious than violence, and that many things which cannot be mastered when they stand together yield when one masters them little by little.”
 
-[16.5] For irresistible is the force of continuity, by virtue of which advancing Time subdues and captures every power; and Time is a kindly ally for all who act as diligent attendants upon opportunity, but a most bitter enemy for all who urge matters on unseasonably.The story is told also in Valerius Maximus, vii. 3, 6. By contriving from time to time such exhortations for the Barbarians, Sertorius taught them to watch for their opportunities.
+[16.5] “For irresistible is the force of continuity, by virtue of which advancing Time subdues and captures every power; and Time is a kindly ally for all who act as diligent attendants upon opportunity, but a most bitter enemy for all who urge matters on unseasonably.”[^25] By contriving from time to time such exhortations for the Barbarians, Sertorius taught them to watch for their opportunities.
 
-### Capítulo 17
+#### Capítulo 17
 
 [17.1] But of all his military exploits that which he performed in dealing with the people called Characitani is admired as much as any. They are a people beyond the river Tagonius, and they do not dwell in cities or villages, but on a large and lofty hill containing caves and hollows in the cliffs which look towards the north. The whole country at the base of the hill abounds in white clay and a soil that is porous and crumbly; it is not firm enough to bear the tread of man, and spreads far about if only slightly stirred, like unslaked lime or ashes.
 
@@ -218,11 +210,11 @@ URN: `null`
 
 [17.7] Therefore, after holding out with difficulty for two days, on the third day they surrendered, thereby adding not so much to the power as to the fame of Sertorius, since by his skill he had subdued what could not be taken by arms.
 
-### Capítulo 18
+#### Capítulo 18
 
-[18.1] Well, then, as long as he carried on the war with Metellus as his antagonist, he was thought to be successful for the most part because, owing to great age and natural slowness, Metellus could not cope with a man who was bold and headed a force composed of robbers rather than soldiers; but when Pompey also crossed the Pyrenees and became his antagonist,In 76 B.C. and each of them had offered and accepted every test of a general’s powers, and Sertorius had the advantage in counter-planning and watchfulness, then indeed it was noised abroad as far as Rome that he was the ablest general of his time in the conduct of a war.
+[18.1] Well, then, as long as he carried on the war with Metellus as his antagonist, he was thought to be successful for the most part because, owing to great age and natural slowness, Metellus could not cope with a man who was bold and headed a force composed of robbers rather than soldiers; but when Pompey also crossed the Pyrenees and became his antagonist,[^26] and each of them had offered and accepted every test of a general’s powers, and Sertorius had the advantage in counter-planning and watchfulness, then indeed it was noised abroad as far as Rome that he was the ablest general of his time in the conduct of a war.
 
-[18.2] For the fame of Pompey was by no means inconsiderable, nay, at this time his reputation was in most vigorous flower in consequence of the valiant deeds which he performed in the cause of Sulla, deeds for which he was given the surname of Magnus (that is, Great) by Sulla, and received the honours of a triumph while he was still beardless. Therefore, too, many of the cities which were subject to Sertorius turned their eyes towards Pompey and felt inclined to change their allegiance; they ceased to do this, however, after the disaster at Lauron, which happened contrary to all expectation.
+[18.2] For the fame of Pompey was by no means inconsiderable, nay, at this time his reputation was in most vigorous flower in consequence of the valiant deeds which he performed in the cause of Sulla, deeds for which he was given the surname of “Magnus” (that is, Great) by Sulla, and received the honours of a triumph while he was still beardless. Therefore, too, many of the cities which were subject to Sertorius turned their eyes towards Pompey and felt inclined to change their allegiance; they ceased to do this, however, after the disaster at Lauron, which happened contrary to all expectation.
 
 [18.3] For Sertorius was besieging that city, and Pompey came to its assistance with all his forces. Now there was a hill which was thought to afford a good command of the city, and this hill Sertorius strove to seize in advance, while Pompey sought to prevent him. But Sertorius got there first, whereupon Pompey, taking position with his army, was delighted with the way things had turned out, believing that Sertorius was caught between the city and his adversary’s forces; he also sent a messenger in to the people of Lauron bidding them be of good cheer and take seats along their walls for the spectacle of Sertorius undergoing siege.
 
@@ -230,13 +222,13 @@ URN: `null`
 
 [18.5] Pompey also became aware of this all too late, and did not venture to attack Sertorius for fear of being surrounded, but line was ashamed to go away and leave the people of the city in their peril, and so was compelled to sit there quietly and see them ruined; for the Barbarians gave up all hope and surrendered to Sertorius.
 
-[18.6] Sertorius spared their lives and let them all go, but he burned down their city,Cf. the Pompey, xviii. 3. not because he was angry or cruel, for he appears to have given way to passion less than any other general, but to put to shame and confusion the admirers of Pompey, in order that it might be said among the Barbarians that though he was near at hand and all but warming himself at the flames of an allied city, he did not come to its relief.
+[18.6] Sertorius spared their lives and let them all go, but he burned down their city,[^27] not because he was angry or cruel, for he appears to have given way to passion less than any other general, but to put to shame and confusion the admirers of Pompey, in order that it might be said among the Barbarians that though he was near at hand and all but warming himself at the flames of an allied city, he did not come to its relief.
 
-### Capítulo 19
+#### Capítulo 19
 
 [19.1] It is true that Sertorius suffered several defeats, and yet he always kept himself and his own forces undefeated, and got his crushing blows where other generals than he were in command; and from the way in which he repaired his defeats he was more admired than the victorious generals opposed to him, as, for instance, in the battle on the Sucro against Pompey, and, again, inn the battle near Tuna against both Pompey and Metellus.
 
-[19.2] Now, the battle on the SucroCf. the Pompey, chapter xix. is said to have been precipitated by Pompey, in order that Metellus might not share in the victory. Sertorius, too, wished to fight the issue out with Pompey before Metellus came up, and therefore drew out his forces when evening was already at hand, and began the engagement, thinking that, since his enemies were strangers and unacquainted with the region, darkness would be a hindrance to them either in flight or in pursuit.
+[19.2] Now, the battle on the Sucro[^28] is said to have been precipitated by Pompey, in order that Metellus might not share in the victory. Sertorius, too, wished to fight the issue out with Pompey before Metellus came up, and therefore drew out his forces when evening was already at hand, and began the engagement, thinking that, since his enemies were strangers and unacquainted with the region, darkness would be a hindrance to them either in flight or in pursuit.
 
 [19.3] When the fighting was at close quarters, it happened that Sertorius was not himself engaged with Pompey at first, but with Afranius, who commanded Pompey’s left, while Sertorius himself was stationed on the right. Hearing, however, that those of his men who were engaged with Pompey were yielding before his onset and being worsted, he put his right wing in command of other generals, and hastened himself to the help of the wing that was suffering defeat.
 
@@ -244,17 +236,17 @@ URN: `null`
 
 [19.5] Afranius, however, as soon as Sertorius had gone off to the other wing with aid and succour, routed his opponents and drove them headlong into their camp; and dashing in with the fugitives, it being now dark, he began to plunder, knowing nothing of Pompey’s flight and having no power to keep his soldiers from their pillaging. But meanwhile Sertorius came back from his victory on the other wing, and falling upon the straggling and confused soldiers of Afranius, slew great numbers of them.
 
-[19.6] In the morning, moreover, he armed his troops and came out for battle; then, learning that Metellus was near, he broke up his array and decamped, saying: But as for this boy, if that old woman had not come up, I should have given him a sound beating and sent him back to Rome.
+[19.6] In the morning, moreover, he armed his troops and came out for battle; then, learning that Metellus was near, he broke up his array and decamped, saying: “But as for this boy, if that old woman had not come up, I should have given him a sound beating and sent him back to Rome.”
 
-### Capítulo 20
+#### Capítulo 20
 
-[20.1] He was now greatly disheartened because that doe of hisCf. chapter xi. was nowhere to be found; for he was thus deprived of a wonderful contrivance for influencing the Barbarians, who at this time particularly stood in need of encouragement. Soon, however, some men who were roaming about at night on other errands came upon the doe, recognized her by her colour, and caught her.
+[20.1] He was now greatly disheartened because that doe of his[^29] was nowhere to be found; for he was thus deprived of a wonderful contrivance for influencing the Barbarians, who at this time particularly stood in need of encouragement. Soon, however, some men who were roaming about at night on other errands came upon the doe, recognized her by her colour, and caught her.
 
 [20.2] When Sertorius heard of it he promised to give the men a large sum of money if they would tell no one of the capture, and after concealing the doe and allowing several days to pass, he came forth with a glad countenance and proceeded to the tribunal, telling the leaders of the Barbarians that the Deity was foretelling him in his dreams some great good fortune. Then he ascended the tribunal and began to deal with the applicants.
 
 [20.3] And now the doe was released by her keepers at a point close by, spied Sertorius, and bounded joyfully towards the tribunal, and standing by his side put her head in his lap and licked his hand, as she had been wont to do before. Sertorius returned her caresses appropriately and even shed a few tears, whereupon the bystanders were struck with amazement at first, and then, convinced that Sertorius was a marvellous man and dear to the gods, escorted him with shouts and clapping of hands to his home, and were full of confidence and good hopes.
 
-### Capítulo 21
+#### Capítulo 21
 
 [21.1] In the plains of Saguntum, after he had reduced his enemies to the greatest straits, he was forced to give them battle when they came out for plunder and forage. Both sides fought splendidly. Memmius, the most capable of Pompey’s generals, fell in the thickest of the battle, and Sertorius was carrying all before him, and, with great slaughter of the enemy who still held together, was forcing his way towards Metellus himself.
 
@@ -264,11 +256,11 @@ URN: `null`
 
 [21.4] But he completely deceived his enemies; for they sat down to invest him and expected to take the place without difficulty, and thus suffered the Barbarians who were in flight to escape, and took no heed of the force that was being collected anew for Sertorius. And collected it was, after Sertorius had sent officers to the cities, with orders that as soon as they had a large body of troops, they should send a messenger to him.
 
-[21.5] Then, when the cities sent their messengers, he cut his way through the enemy with no trouble and effected a junction with his new troops; and so once more he advanced upon the enemy with large reinforcements and began to cut off their land supplies by means of ambuscades, flank movements, and swift marches in every direction, and their maritime supplies by besetting the coast with piratical craft; so that the Roman generals were compelled to separate, Metellus retiring into Gaul, and Pompey spending the winter among the Vaccaci. Here he suffered much from lack of supplies, and wrote to the senate that he would bring his army home unless they sent him money, since he had already exhausted his own resources in his war for the defence of Italy.Cf. the Pompey, xx. 1.
+[21.5] Then, when the cities sent their messengers, he cut his way through the enemy with no trouble and effected a junction with his new troops; and so once more he advanced upon the enemy with large reinforcements and began to cut off their land supplies by means of ambuscades, flank movements, and swift marches in every direction, and their maritime supplies by besetting the coast with piratical craft; so that the Roman generals were compelled to separate, Metellus retiring into Gaul, and Pompey spending the winter among the Vaccaci. Here he suffered much from lack of supplies, and wrote to the senate that he would bring his army home unless they sent him money, since he had already exhausted his own resources in his war for the defence of Italy.[^30]
 
 [21.6] Indeed, this story was prevalent in Rome, that Sertorius would come back to Italy before Pompey did. To such straits were the first and ablest generals of the time reduced by the skill of Sertorius.
 
-### Capítulo 22
+#### Capítulo 22
 
 [22.1] And Metellus also made it clear that he was afraid of Sertorius and considered him a great leader. For he made proclamation that to any Roman who should kill Sertorius he would give a hundred talents of silver and twenty thousand acres of land, and to any exile, freedom to return to Rome; implying his despair of openly defeating the man by this attempt to purchase his betrayal.
 
@@ -280,11 +272,11 @@ URN: `null`
 
 [22.5] For he was a man who loved his country and had a strong desire to return home from exile. And yet in his misfortunes he played a brave man’s part and would not humble himself at all before his enemies; while as a victor he would send to Metellus and Pompey expressing his readiness to lay down his arms and lead the life of a private citizen if he could get the privilege of returning home, since, as he said, he preferred to live in Rome as her meanest citizen rather than to live in exile from his country and be called supreme ruler of all the rest of the world together.
 
-[22.6] We are told that his desire for his native country was due in large measure to his attachment to his mother, by whom he was reared after his father’s death, and to whom he was entirely devoted.Cf. chapter ii. 1. When his friends in Spain were inviting him to take the leadership there, he learned of the death of his mother, and almost died of grief. For seven days he lay prostrate in his tent without giving out a watchword or being seen by any of his friends, and it was only with difficulty that his fellow-generals and the men of like rank with him who surrounded his tent could force him to come forth and meet the soldiers and take part in their enterprises, which were moving on well.
+[22.6] We are told that his desire for his native country was due in large measure to his attachment to his mother, by whom he was reared after his father’s death, and to whom he was entirely devoted.[^31] When his friends in Spain were inviting him to take the leadership there, he learned of the death of his mother, and almost died of grief. For seven days he lay prostrate in his tent without giving out a watchword or being seen by any of his friends, and it was only with difficulty that his fellow-generals and the men of like rank with him who surrounded his tent could force him to come forth and meet the soldiers and take part in their enterprises, which were moving on well.
 
 [22.7] Therefore many people were led to think that he was a man of gentle temper and naturally disposed to a quiet life, but was practically forced against his wishes into the career of a soldier, where, not achieving safety, but being driven by his enemies to have recourse to arms, he encompassed himself with war as a necessary protection to his person.
 
-### Capítulo 23
+#### Capítulo 23
 
 [23.1] His negotiations with Mithridates also gave proof of his magnanimity. For Mithridates, after the fall which Sulla gave him, rose up, as it were, for another wrestling bout and tried once more to get the province of Asia into his power. At this time, too, the fame of Sertorius was already great and was travelling every whither, and sailors from the west had filled the kingdom of Pontus full of the tales about him, like so many foreign wares.
 
@@ -296,27 +288,27 @@ URN: `null`
 
 [23.5] but a province which Mithridates had taken away and held when it belonged in the justest manner to the Romans, from which he had been driven by Fimbria in war, and which he had renounced by treaty with Sulla,—this province Sertorius said he would not suffer to become the king’s again; for the Roman state must be increased by his exercise of power, and he must not exercise power at the expense of the state. For to a man of noble spirit victory is to be desired if it comes with honour, but with shame not even life itself.
 
-### Capítulo 24
+#### Capítulo 24
 
-[24.1] When this was reported to Mithridates he acted like one amazed; and we are told that he said to his friends: What terms, pray, will Sertorius impose when he is seated on the Palatine, if now, after he has been driven forth to the Atlantic sea, he sets bounds to our kingdom and threatens us with war if we try to get Asia?
+[24.1] When this was reported to Mithridates he acted like one amazed; and we are told that he said to his friends: “What terms, pray, will Sertorius impose when he is seated on the Palatine, if now, after he has been driven forth to the Atlantic sea, he sets bounds to our kingdom and threatens us with war if we try to get Asia?”
 
 [24.2] However, a treaty was actually made and ratified with oaths. Mithridates was to have Cappadocia and Bithynia, Sertorius sending him a general and soldiers, while Sertorius was to receive from Mithridates three thousand talents and forty ships.
 
-[24.3] Accordingly, a general was sent to Asia by Sertorius, one of the senators who had taken refuge with him, Marcus Marius.Cf. the Lucullus, viii. 5. He was assisted by Mithridates in the capture of certain cities of Asia, and when he entered them with fasces and axes, Mithridates would follow him in person, voluntarily assuming second rank and the position of a vassal.
+[24.3] Accordingly, a general was sent to Asia by Sertorius, one of the senators who had taken refuge with him, Marcus Marius.[^32] He was assisted by Mithridates in the capture of certain cities of Asia, and when he entered them with fasces and axes, Mithridates would follow him in person, voluntarily assuming second rank and the position of a vassal.
 
 [24.4] Marius gave some of the cities their freedom, and wrote to others announcing their exemption from taxation by grace of Sertorius, so that Asia, which was once more harassed by the revenue-farmers and oppressed by the rapacity and arrogance of the soldiers quartered there, was all of a flutter with new hopes and yearned for the expected change of supremacy.
 
-### Capítulo 25
+#### Capítulo 25
 
 [25.1] But in Spain, as soon as the senators and men of equal rank about Sertorius felt confident that they were a match for their enemies and dismissed their fears, they were seized with envy and foolish jealousy of their leader. They were encouraged in these feelings by Perpenna, whose high birth filled him with vain aspirations for the chief command, and he would hold malevolent discourses in secret among his associates:
 
-[25.2] What evil genius, pray, has seized us and is hurrying us from bad to worse? We would not consent to remain at home and do the bidding of Sulla when he was lord of all the earth and sea together, but we came to this land of destruction with the idea of living like freemen, and are now voluntarily slaves in the body-guard or Sertorius the exile, being a senate, a name jeered at by all who hear it, and submitting to no lesser insults, injunctions, and toils than Iberians and Lusitanians.
+[25.2] “What evil genius, pray, has seized us and is hurrying us from bad to worse? We would not consent to remain at home and do the bidding of Sulla when he was lord of all the earth and sea together, but we came to this land of destruction with the idea of living like freemen, and are now voluntarily slaves in the body-guard or Sertorius the exile, being a senate, a name jeered at by all who hear it, and submitting to no lesser insults, injunctions, and toils than Iberians and Lusitanians.”
 
 [25.3] Most of his hearers, their minds infected with such sentiments as these, did not, indeed, openly desert Sertorius, because they were in fear of his power; but they secretly tried to vitiate his enterprises, and abused the Barbarians with severe punishments and exactions, on the plea that Sertorius thus ordered. Consequently there were revolts and disturbances among the cities.
 
-[25.4] And those who were sent to assuage and cure these disorders brought more wars to pass before they returned, and increased the existing insubordination, so that Sertorius laid aside his former clemency and mildness and wrought injustice upon the sons of the Iberians who were being educated at Osca,Cf. chapter xiv. 2 f. killing some, and selling others into slavery.
+[25.4] And those who were sent to assuage and cure these disorders brought more wars to pass before they returned, and increased the existing insubordination, so that Sertorius laid aside his former clemency and mildness and wrought injustice upon the sons of the Iberians who were being educated at Osca,[^33] killing some, and selling others into slavery.
 
-### Capítulo 26
+#### Capítulo 26
 
 [26.1] Perpenna, accordingly, having now more accomplices in his attempt upon Sertorius, brought into their number Manlius also, one of those in high command. This Manlius was enamoured of a beautiful boy, and as a mark of his affection for him told him of the conspiracy, bidding him neglect his other lovers and devote himself to him alone, since within a few days he was to be a great personage. But the boy carried the tale to another one of his lovers, Aufidius, to whom he was more devoted.
 
@@ -330,16 +322,47 @@ URN: `null`
 
 [26.6] Sertorius turned at the blow and would have risen with his assailant, but Antonius fell upon his chest and seized both his hands, so that he could make no defence even, and died from the blows of many.
 
-### Capítulo 27
+#### Capítulo 27
 
 [27.1] Well, then, most of the Iberians immediately went away, sent ambassadors to Pompey and Metellus, and delivered themselves up to them; but those who remained Perpenna took under his command and attempted to do something. After using the materials provided by Sertorius just enough to cut a sorry figure and make it clear that he was fitted by nature neither to command nor to obey, he attacked Pompey;
 
 [27.2] and having been quickly crushed by him and taken prisoner, he did not even endure this extreme misfortune as a leader should, but, being in possession of the papers of Sertorius, he promised to show Pompey autograph letters from men of consular rank and of the highest influence in Rome, in which they invited Sertorius to come to Italy, assuring him that there were many there who desired eagerly to stir up a revolution and change the constitution.
 
-[27.3] Pompey, then, did not act in this emergency like a young man, but like one whose understanding was right well matured and disciplined, and so freed Rome from revolutionary terrors. For he got together those letters and all the papers of Sertorius and burned them, without reading them himself or suffering anyone else to do so; and Perpenna himself he speedily put to death, through fear that seditions and disturbances might arise if the names of the correspondents of Sertorius were communicated to anybody.Cf. the Pompey, xx. 4.
+[27.3] Pompey, then, did not act in this emergency like a young man, but like one whose understanding was right well matured and disciplined, and so freed Rome from revolutionary terrors. For he got together those letters and all the papers of Sertorius and burned them, without reading them himself or suffering anyone else to do so; and Perpenna himself he speedily put to death, through fear that seditions and disturbances might arise if the names of the correspondents of Sertorius were communicated to anybody.[^34]
 
 [27.4] Of Perpenna’s fellow conspirators, some were brought to Pompey and put to death, others fled to Africa and fell victims to the spears of the Maurusians. Not one escaped, except Aufidius, the rival of Manlius; he, either because men did not notice him or because they did not heed him, came to old age in a barbarian village, a poor and hated man.
 
----
-
-*Ὁ Διαφορεύς παρῆν*
+[^1]: The story of a Lydian Attis who was killed by a wild boar is told by Pausanias, vii. 17, 5; that of the Arcadian Attis is unknown.
+[^2]: The Actaeon, son of Aristaeus, who saw Artemis bathing, was changed by the goddess into a stag and devoured by his own dogs. An Actaeon, son of Melissus, was beloved by Archias of Corinth, who sought to take him away by violence. The friends of Actaeon resisted, and in the struggle Actaeon was torn to death (Plutarch, Morals, p. 772).
+[^3]: Violet and Myrrh.
+[^4]: Nursia, in Latin writers, and in Amyot.
+[^5]: In 105 B.C.
+[^6]: In 102 B.C.
+[^7]: In 97 B.C. Didius was then pro-consul.
+[^8]: Or Social War, 90-88 B.C.
+[^9]: In 88 B.C.
+[^10]: In 87 B.C. Cf. the Marius, xli. 1.
+[^11]: In 87 B.C. Cf. the Marius, xli. 1.
+[^12]: Cf. the Marius, xli. 2 ff.
+[^13]: That is, when the party of Sulla and the senate ceased to resist and Rome had surrendered.
+[^14]: Cf. the Marius, xliv. 6.
+[^15]: In 86 B.C.
+[^16]: In 84 B.C. Cf. the Pompey, chapter v.
+[^17]: In 82 B.C.
+[^18]: Cf. the Sulla, xxviii, 1-3.
+[^19]: In 82 B.C.
+[^20]: Perhaps Madeira and Porto Santo, though these are forty miles apart. Features of the Canary Islands have doubtless crept into the description.
+[^21]: Odyssey, iv. 563-568.
+[^22]: See chapter xxv. 4.
+[^23]: Spain was divided into two provinces, Hispania Citerior (Hither) and Hispania Ulterior (Further), or Eastern and Western Spain. Fufidius was pro-consul of Western Spain.
+[^24]: Cf. the Pompey, xvii. 2.
+[^25]: The story is told also in Valerius Maximus, vii. 3, 6.
+[^26]: In 76 B.C.
+[^27]: Cf. the Pompey, xviii. 3.
+[^28]: Cf. the Pompey, chapter xix.
+[^29]: Cf. chapter xi.
+[^30]: Cf. the Pompey, xx. 1.
+[^31]: Cf. chapter ii. 1.
+[^32]: Cf. the Lucullus, viii. 5.
+[^33]: Cf. chapter xiv. 2 f.
+[^34]: Cf. the Pompey, xx. 4.

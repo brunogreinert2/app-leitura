@@ -1,100 +1,92 @@
 ---
 id: plutarco-cato-the-younger-eng-bernadotte-perrin-1919
-type: texto_primario
-title: "Cato the Younger"
-subtitle: null
+type: translation
+title: Cato the Younger
 author: Plutarch
-year_original: null
-language: eng
-translation:
-  - Bernadotte Perrin
+translator:
+- Bernadotte Perrin
 publisher: Harvard University Press
-area: null
-era: null
-tags: []
-status: rascunho
+language: eng
+tags:
+- moralists
+status: draft
 project: pedra_angular
-source: "Plutarch. Cato the Younger. Ed. Bernadotte Perrin. Cambridge, MA: Harvard University Press, 1919. Perseus Digital Library, Tufts University (CC BY-SA 4.0). URN: null"
-related: []
+urn_work: urn:cts:greekLit:tlg0007.tlg050
+urn: urn:cts:greekLit:tlg0007.tlg050.perseus-eng2
+source: 'Plutarch. Cato the Younger. Ed. Bernadotte Perrin. Cambridge, MA: Harvard University Press, 1919. Perseus Digital Library, Tufts University (CC BY-SA 4.0).'
+source_repo: PerseusDL/canonical-greekLit
+source_file: data/tlg0007/tlg050/tlg0007.tlg050.perseus-eng2.xml
+source_commit: e37eed2e8
+license: CC-BY-SA-4.0
 ---
 
 # Cato the Younger
 
-**Plutarch**
+#### Capítulo 1
 
-Cambridge, MA: Harvard University Press, 1919.
-Perseus Digital Library, Tufts University (CC BY-SA 4.0).
-URN: `null`
-
----
-
-## Texto
-
-### Capítulo 1
-
-[1.1] Cato’s family got its first lustre and fame from his great-grandfather Cato (a man whose virtue gained him the greatest reputation and influence among the Romans, as has been written in his Life), but the death of both parents left him an orphan, together with his brother Caepio and his sister Porcia. Cato had also a half-sister, Servilia, the daughter of his mother.By her second husband, Q. Servilius Caepio, who was also the father of Cato’s half-brother Caepio. All these children were brought up in the home of Livius Drusus, their uncle on the mother’s side, who at that time was a leader in the conduct of public affairs; for he was a most powerful speaker, in general a man of the greatest discretion, and yielded to no Roman in dignity of purpose.
+[1.1] Cato’s family got its first lustre and fame from his great-grandfather Cato (a man whose virtue gained him the greatest reputation and influence among the Romans, as has been written in his Life), but the death of both parents left him an orphan, together with his brother Caepio and his sister Porcia. Cato had also a half-sister, Servilia, the daughter of his mother.[^1] All these children were brought up in the home of Livius Drusus, their uncle on the mother’s side, who at that time was a leader in the conduct of public affairs; for he was a most powerful speaker, in general a man of the greatest discretion, and yielded to no Roman in dignity of purpose.
 
 [1.2] We are told that from his very childhood Cato displayed, in speech, in countenance, and in his childish sports, a nature that was inflexible, imperturbable, and altogether steadfast. He set out to accomplish his purposes with a vigour beyond his years, and while he was harsh and repellent to those who would flatter him, he was still more masterful towards those who tried to frighten him. It was altogether difficult to make him laugh, although once in a while he relaxed his features so far as to smile; and he was not quickly nor easily moved to anger, though once angered he was inexorable.
 
-[1.3] When, accordingly, he came to study, he was sluggish of comprehension and slow, but what he comprehended he held fast in his memory. And this is generally the way of nature: those who are well endowed are more apt to recall things to mind, but those retain things in their memory who acquire them with toil and trouble;Cf. Aristotle, De Mem. i. 1, 2, 24. for everything they learn becomes branded, as it were, upon their minds.
+[1.3] When, accordingly, he came to study, he was sluggish of comprehension and slow, but what he comprehended he held fast in his memory. And this is generally the way of nature: those who are well endowed are more apt to recall things to mind, but those retain things in their memory who acquire them with toil and trouble;[^2] for everything they learn becomes branded, as it were, upon their minds.
 
 [1.4] It would appear, too, that Cato’s reluctance to be persuaded made his learning anything more laborious. For, to learn is simply to allow something to be done to you, and to be quickly persuaded is natural for those who are less able to offer resistance. Therefore young men are more easily persuaded than old men, and sick folk, than those who are well, and, in a word, where the power to raise objections is weakest, the act of submission is easiest.
 
 [1.5] However, we are told that Cato was obedient to his tutor, and did everything that was enjoined upon him, although in each case he demanded the reason and wanted to know the why and wherefore. And, indeed, his tutor was a man of culture, and more ready to reason with a pupil than to thrash him. His name was Sarpedon.
 
-### Capítulo 2
+#### Capítulo 2
 
-[2.1] While Cato was still a boy, the Italian allies of the Romans were making efforts to obtain Roman citizenship. One of their number, Pompaedius Silo,Erroneously called Publius Silo in the Marius, xxxiii. 2. a man of experience in war and of the highest position, was a friend of Drusus, and lodged at his house for several days. During this time he became familiar with the children, and said to them once: Come, beg your uncle to help us in our struggle for citizenship.
+[2.1] While Cato was still a boy, the Italian allies of the Romans were making efforts to obtain Roman citizenship. One of their number, Pompaedius Silo,[^3] a man of experience in war and of the highest position, was a friend of Drusus, and lodged at his house for several days. During this time he became familiar with the children, and said to them once: “Come, beg your uncle to help us in our struggle for citizenship.”
 
-[2.2] Caepio, accordingly, consented with a smile, but Cato made no reply and gazed fixedly and fiercely upon the strangers. Then Pompaedius said: But thou, young man, what sayest thou to us? Canst thou not take the part of the strangers with thy uncle, like thy brother?
+[2.2] Caepio, accordingly, consented with a smile, but Cato made no reply and gazed fixedly and fiercely upon the strangers. Then Pompaedius said: “But thou, young man, what sayest thou to us? Canst thou not take the part of the strangers with thy uncle, like thy brother?”
 
 [2.3] And when Cato said not a word, but by his silence and the look on his face seemed to refuse the request, Pompaedius lifted him up through a window, as if he would cast him out, and ordered him to consent, or he would throw him down, at the same time making the tone of his voice harsher, and frequently shaking the boy as he held his body out at the window.
 
-[2.4] But when Cato had endured this treatment for a long time without showing fright or fear, Pompaedius put him down, saying quietly to his friends: What a piece of good fortune it is for Italy that he is a boy; for if he were a man, I do not think we could get a single vote among the people.This incident must have happened, if at all, in 91 B.C. when Cato was four years old; but it need not be inferred that he had already formed an opinion on public affairs. The story is told also in Valerius Maximus, iii. 1, 2.
+[2.4] But when Cato had endured this treatment for a long time without showing fright or fear, Pompaedius put him down, saying quietly to his friends: “What a piece of good fortune it is for Italy that he is a boy; for if he were a man, I do not think we could get a single vote among the people.”[^4]
 
 [2.5] At another time a relation of his who was celebrating a birthday, invited Cato and other boys to supper, and the company were diverting themselves at play in a separate part of the house, older and younger together, their play being actions at law, accusations, and the conducting of the condemned persons to prison.
 
 [2.6] Accordingly, one of those thus condemned, a boy of comely looks, was led off by an older boy and shut into a chamber, where he called upon Cato for help. Then Cato, when he understood what was going on, quickly came to the door, pushed aside the boys who stood before it and tried to stop him, led forth the prisoner, and went off home with him in a passion, followed by other boys also.
 
-### Capítulo 3
+#### Capítulo 3
 
-[3.1] He was so celebrated that, when Sulla was preparing for exhibition the sacred equestrian game for boysCf. Vergil, Aeneid, v. 553 ff. which is called Troja, and, after assembling the boys of good birth, appointed two leaders for them, the boys accepted one of them for his mother’s sake (he was a son of Metella, Sulla’s wife), but would not tolerate the other (who was a nephew of Pompey, named Sextus), and refused to rehearse under him or obey him; and when Sulla asked them whom they would have, they all cried Cato, and Sextus himself gave way and yielded the honour to a confessed superior.
+[3.1] He was so celebrated that, when Sulla was preparing for exhibition the sacred equestrian game for boys[^5] which is called “Troja,” and, after assembling the boys of good birth, appointed two leaders for them, the boys accepted one of them for his mother’s sake (he was a son of Metella, Sulla’s wife), but would not tolerate the other (who was a nephew of Pompey, named Sextus), and refused to rehearse under him or obey him; and when Sulla asked them whom they would have, they all cried “Cato,” and Sextus himself gave way and yielded the honour to a confessed superior.
 
-[3.2] Now, Sulla was friendly to Cato and his brotherBoth here, and in i. 1, Plutarch carelessly speaks as though Caepio were his own brother, and not the half-brother, of Cato. on their father’s account, and sometimes actually asked them to see him and conversed with them, a kindness which he showed to very few, by reason of the weight and majesty of his authority and power. So Sarpedon, thinking that this conduced greatly to the honour and safety of his charge, was continually bringing Cato to wait upon Sulla at his house, which, at that time, looked exactly like an Inferno, owing to the multitude of those who were brought thither and put to torture.
+[3.2] Now, Sulla was friendly to Cato and his brother[^6] on their father’s account, and sometimes actually asked them to see him and conversed with them, a kindness which he showed to very few, by reason of the weight and majesty of his authority and power. So Sarpedon, thinking that this conduced greatly to the honour and safety of his charge, was continually bringing Cato to wait upon Sulla at his house, which, at that time, looked exactly like an Inferno, owing to the multitude of those who were brought thither and put to torture.
 
-[3.3] Now, Cato was in his fourteenth year; and when he saw heads of men reputed to be eminent carried forth, and heard the smothered groans of the bystanders, he asked his tutor why no one slew this man. Because, my child, said the tutor, men fear him more than they hate him. Why, then, said Cato, didst thou not give me a sword, that I might slay him and set my country free from slavery?
+[3.3] Now, Cato was in his fourteenth year; and when he saw heads of men reputed to be eminent carried forth, and heard the smothered groans of the bystanders, he asked his tutor why no one slew this man. “Because, my child,” said the tutor, “men fear him more than they hate him.” “Why, then,” said Cato, “didst thou not give me a sword, that I might slay him and set my country free from slavery?”
 
 [3.4] When Sarpedon heard this speech, and saw also the look on the boy’s face, which was full of rage and fury, he was so frightened that in future he kept him under close watch and ward, lest he should venture on some rash deed.
 
-[3.5] When he was still a little boy, and was asked whom he loved most, he answered, My brother; and to the question whom he loved next, likewise, My brother; and so a third time, until, after many such answers from him, his questioner desisted. And when he came to maturity, he maintained all the more firmly this affection for his brother. Indeed, when he was twenty years old, without Caepio he would not take supper, or make a journey, or go out into the forum.
+[3.5] When he was still a little boy, and was asked whom he loved most, he answered, “My brother”; and to the question whom he loved next, likewise, “My brother”; and so a third time, until, after many such answers from him, his questioner desisted. And when he came to maturity, he maintained all the more firmly this affection for his brother. Indeed, when he was twenty years old, without Caepio he would not take supper, or make a journey, or go out into the forum.
 
-[3.6] But when his brother used perfume, Cato would decline it; and in his habits generally he was severe and strict. At any rate, when Caepio was admired and praised for his discretion and moderation, he would admit that he had those qualities when tested by reference to most men, But when, he would say, I compare my life with that of Cato, I seem to myself no better than Sippius,—mentioning one of those who were celebrated for luxury and effeminacy.
+[3.6] But when his brother used perfume, Cato would decline it; and in his habits generally he was severe and strict. At any rate, when Caepio was admired and praised for his discretion and moderation, he would admit that he had those qualities when tested by reference to most men, “But when,” he would say, “I compare my life with that of Cato, I seem to myself no better than Sippius,”—mentioning one of those who were celebrated for luxury and effeminacy.
 
-### Capítulo 4
+#### Capítulo 4
 
 [4.1] After Cato had been made priest of Apollo, he took a house apart, accepted his share of the patrimony, which amounted to a hundred and twenty talents, and began to live yet more simply than before. He made a close companion of Antipater the Tyrian, a Stoic philosopher, and devoted himself especially to ethical and political doctrines. He was possessed, as it were, with a kind of inspiration for the pursuit of every virtue; but, above all, that form of goodness which consists in rigid justice that will not bend to clemency or favour, was his great delight.
 
-[4.2] He practised also the kind of speaking which is effective with a multitude, deeming it right that in political philosophy, as in a great city, a certain warlike element should also be maintained. However, he did not perform his exercises in company with others, nor did any one ever hear him rehearsing a speech. Indeed, to one of his companions who said, Men find fault with thee, Cato, for thy silence, he replied: Only let them not blame my life. I will begin to speak when I am not going to say what were better left unsaid.
+[4.2] He practised also the kind of speaking which is effective with a multitude, deeming it right that in political philosophy, as in a great city, a certain warlike element should also be maintained. However, he did not perform his exercises in company with others, nor did any one ever hear him rehearsing a speech. Indeed, to one of his companions who said, “Men find fault with thee, Cato, for thy silence,” he replied: “Only let them not blame my life. I will begin to speak when I am not going to say what were better left unsaid.”
 
-### Capítulo 5
+#### Capítulo 5
 
-[5.1] The Basilica Porcia, as it was called, had been dedicated by the elder Cato while he was censor.Cf. the Cato Major, xix. 2. This was in 182 B.C. Here, then, the tribunes of the people were accustomed to transact their business; and as one of the pillars was thought to be in the way of their seats, they determined to take it down or move it to another place. This brought Cato for the first time, and against his wishes, into the forum; he opposed the tribunes, and was admired for the proof of eloquence and high character which he gave.
+[5.1] The Basilica Porcia, as it was called, had been dedicated by the elder Cato while he was censor.[^7] Here, then, the tribunes of the people were accustomed to transact their business; and as one of the pillars was thought to be in the way of their seats, they determined to take it down or move it to another place. This brought Cato for the first time, and against his wishes, into the forum; he opposed the tribunes, and was admired for the proof of eloquence and high character which he gave.
 
 [5.2] For his speech had nothing about it that was juvenile or affected, but was straightforward, full of matter, and harsh. However, a charm that captivated the ear was diffused over the harshness of his sentiments, and the mingling of his character with them gave their austerity a smiling graciousness that won men’s hearts. His voice was sufficiently loud and penetrating to reach the ears of so large a multitude, and it had a strength and tension which could not be broken or worn out; for he often spoke all day without getting tired.
 
 [5.3] At this time, then, after winning his case, he went back again to his silence and his discipline. He built up his body by vigorous exercises, accustoming himself to endure both heat and snow with uncovered head, and to journey on foot at all seasons, without a vehicle. Those of his friends who went abroad with him used horses, and Cato would often join each of them in turn and converse with him, although he walked and they rode. In sickness, he had wonderful patience, as well as self-control; for instance, if he had an ague, he would pass the day alone by himself, admitting no visitor, until he was conscious of lasting relief and the departure of the disease.
 
-### Capítulo 6
+#### Capítulo 6
 
-[6.1] At suppers, he would throw dice for the choice of portions; and if he lost, and his friends bade him choose first, he would say it was not right, since VenusThe highest throw at dice was called the Venus-throw. was unwilling. At first, also, he would drink once after supper and then leave the table; but as time went on he would allow himself to drink very generously, so that he often tarried at his wine till early morning.
+[6.1] At suppers, he would throw dice for the choice of portions; and if he lost, and his friends bade him choose first, he would say it was not right, since Venus[^8] was unwilling. At first, also, he would drink once after supper and then leave the table; but as time went on he would allow himself to drink very generously, so that he often tarried at his wine till early morning.
 
-[6.2] His friends used to say that the cause of this was his civic and public activities; he was occupied with these all day, and so prevented from literary pursuits, wherefore he would hold intercourse with the philosophers at night and over the cups. For this reason, too, when a certain Memmius remarked in company that Cato spent his entire nights in drinking, Cicero answered him by saying: Thou shouldst add that he spends his entire days in throwing dice.
+[6.2] His friends used to say that the cause of this was his civic and public activities; he was occupied with these all day, and so prevented from literary pursuits, wherefore he would hold intercourse with the philosophers at night and over the cups. For this reason, too, when a certain Memmius remarked in company that Cato spent his entire nights in drinking, Cicero answered him by saying: “Thou shouldst add that he spends his entire days in throwing dice.”
 
 [6.3] And, in general, Cato thought he ought to take a course directly opposed to the life and practices of the time, feeling that these were bad and in need of great change. For instance, when he saw that a purple which was excessively red and vivid was much in vogue, he himself would wear the dark shade. Again, he would often go out into the streets after breakfast without shoes or tunic. He was not hunting for notoriety by this strange practice, but accustoming himself to be ashamed only of what was really shameful, and to ignore men’s low opinion of other things.
 
 [6.4] When an inheritance worth a hundred talents fell to him from his cousin Cato, he turned it into money, and allowed any friend who needed it to have the use of it without interest. And some of his friends actually pledged to the public treasury both lands and slaves which he offered for this purpose himself, and made good his offer.
 
-### Capítulo 7
+#### Capítulo 7
 
 [7.1] When he thought that he was old enough to marry,—and up to that time he had consorted with no woman,—he engaged himself to Lepida, who had formerly been betrothed to Metellus Scipio, but was now free, since Scipio had rejected her and the betrothal had been broken. However, before the marriage Scipio changed his mind again, and by dint of every effort got the maid.
 
@@ -102,19 +94,19 @@ URN: `null`
 
 [7.3] And he married Atilia, a daughter of Serranus. She was the first woman with whom he consorted, but not the only one, as was true of Laelius, the friend of Scipio Africanus; Laelius, indeed, was more fortunate, since in the course of his long life he knew but one woman, the wife of his youth.
 
-### Capítulo 8
+#### Capítulo 8
 
-[8.1] When the servile war was in progress,In 73-71 B.C. Cf. the Crassus, viii. ff. which was called the war of Spartacus, GelliusLucius Gellius Publicola, consul in 72 B.C. with Cornelius Lentulus Clodianus. Both consuls were defeated by Spartacus. was commander, while Cato took part in his campaign as a volunteer, for the sake of his brother; for his brother Caepio was a military tribune. Here he had not the opportunity to employ as much as he wished his zeal and discipline in virtue, because the war was not well conducted; but notwithstanding, amidst the great effeminacy and luxury of those who took part in that campaign, he displayed such good discipline, self-control, courage in all emergencies, and sagacity, that men thought him not one whit inferior to the elder Cato.
+[8.1] When the servile war was in progress,[^9] which was called the war of Spartacus, Gellius[^10] was commander, while Cato took part in his campaign as a volunteer, for the sake of his brother; for his brother Caepio was a military tribune. Here he had not the opportunity to employ as much as he wished his zeal and discipline in virtue, because the war was not well conducted; but notwithstanding, amidst the great effeminacy and luxury of those who took part in that campaign, he displayed such good discipline, self-control, courage in all emergencies, and sagacity, that men thought him not one whit inferior to the elder Cato.
 
-[8.2] Moreover, Gellius assigned to him prizes of valour and distinguished honours; but Cato would not take them nor allow them, declaring that he had done nothing worthy of honours. And so, in consequence of this, he was thought to be a strange creature. For instance, a law was passed forbidding candidates for office to be attended by nomenclators,Attendants whose duty it was to tell the candidate the names of those whom he was going to meet, that he might appear to be acquainted with them. and in his canvass for the military tribune-ship he was the only one who obeyed the law. He made it his business to salute and address without help from others those who met him on his rounds, but he did not avoid giving offence even to those who praised his course; for the more clearly they saw the rectitude of his practice, the more distressed were they at the difficulty of imitating it.
+[8.2] Moreover, Gellius assigned to him prizes of valour and distinguished honours; but Cato would not take them nor allow them, declaring that he had done nothing worthy of honours. And so, in consequence of this, he was thought to be a strange creature. For instance, a law was passed forbidding candidates for office to be attended by nomenclators,[^11] and in his canvass for the military tribune-ship he was the only one who obeyed the law. He made it his business to salute and address without help from others those who met him on his rounds, but he did not avoid giving offence even to those who praised his course; for the more clearly they saw the rectitude of his practice, the more distressed were they at the difficulty of imitating it.
 
-### Capítulo 9
+#### Capítulo 9
 
-[9.1] Appointed military tribune,About 67 B.C. he was sent to Macedonia, to serve under Rubrius the praetor. At this time, we are told, his wife being full of grief and in tears, one of Cato’s friends, Munatius, said to her: Take heart, Atilia; I will watch over thy husband. Certainly he will, cried Cato, and after they had gone a day’s journey on their way, immediately after supper, he said: Come, Munatius, see that you keep your promise to Atilia, and forsake me neither by day nor by night.
+[9.1] Appointed military tribune,[^12] he was sent to Macedonia, to serve under Rubrius the praetor. At this time, we are told, his wife being full of grief and in tears, one of Cato’s friends, Munatius, said to her: “Take heart, Atilia; I will watch over thy husband.” “Certainly he will,” cried Cato, and after they had gone a day’s journey on their way, immediately after supper, he said: “Come, Munatius, see that you keep your promise to Atilia, and forsake me neither by day nor by night.”
 
 [9.2] Then he gave orders that two couches be placed in the same chamber for them, and thus Munatius always slept—and that was the joke—watched over by Cato.
 
-He had in his following fifteen slaves, two freedmen, and four friends. These rode on horses, while he himself always went a-foot; and yet he would join each of them in turn and converse with him.Cf. chapter v. 3. And when he reached the camp, where there were several legions, and was appointed to the command of one of them by the general, he thought it a trifling and useless task to make a display of his own virtue, which was that of a single man, but was ambitious above all things to make the men under his command like unto himself.
+He had in his following fifteen slaves, two freedmen, and four friends. These rode on horses, while he himself always went a-foot; and yet he would join each of them in turn and converse with him.[^13] And when he reached the camp, where there were several legions, and was appointed to the command of one of them by the general, he thought it a trifling and useless task to make a display of his own virtue, which was that of a single man, but was ambitious above all things to make the men under his command like unto himself.
 
 [9.3] He did not, however, divest his power of the element which inspires fear, but called in the aid of reason; with its help he persuaded and taught his men about everything, while rewards and punishments followed their acts. Consequently, it were hard to say whether he made his men more peaceful or more warlike, more zealous or more just; to such a degree did they show themselves terrible to their enemies but gentle to their allies, without courage to do wrong but ambitious to win praise.
 
@@ -122,13 +114,13 @@ He had in his following fifteen slaves, two freedmen, and four friends. These ro
 
 [9.5] For a genuine desire to attain virtue arises only in consequence of perfect good will and respect for him who displays virtue; those, on the other hand, who praise good men without loving them may revere their reputation, but they do not admire their virtue or imitate it.
 
-### Capítulo 10
+#### Capítulo 10
 
 [10.1] On learning that Athenodorus, surnamed Cordylion, who had a large acquaintance with the Stoic philosophy, was living at Pergamum, being now in his old age and having most sturdily resisted all intimacies and friendships with governors and kings, Cato thought it would be useless to send messengers or write letters to him. Instead of this, since he had a furlough of two months allowed him by law, he sailed to Asia to visit the man, relying upon his own good qualities to make him successful in the chase.
 
 [10.2] He held converse with the philosopher, conquered his objections, drew him from his fixed purpose, and took him back to the camp with him. He was overjoyed and in high spirits, feeling that he had made a most noble capture, and one more illustrious than the nations and kingdoms which Pompey and Lucullus at that time were subduing with their marching armies.
 
-### Capítulo 11
+#### Capítulo 11
 
 [11.1] While Cato was still in military service, his brother, who was on his way to Asia, fell sick at Aenus in Thrace, and a letter came at once to Cato advising him of this. A heavy storm was raging at sea and no ship of sufficient size was at hand, but nevertheless, taking only two friends and three servants with him in a small trading-vessel, he put to sea from Thessalonica.
 
@@ -136,9 +128,9 @@ He had in his following fifteen slaves, two freedmen, and four friends. These ro
 
 [11.3] For some people cavilled at these things as inconsistent with Cato’s usual freedom from ostentation, not observing how much tenderness and affection was mingled with the man’s inflexibility and firmness against pleasures, fears, and shameless entreaties. For the funeral rites, moreover, both cities and dynasts sent him many things for the honour of the dead, from none of whom would he accept money; he did, however, take incense and ornaments, and paid the value of them to the senders.
 
-[11.4] Furthermore, when the inheritance fell to him and Caepio’s young daughter, nothing that he had expended for the funeral was asked back by him in the distribution of the property. And although such was his conduct then and afterwards, there was oneJulius Caesar, in his Anti-Cato. See the Caesar, chapter liv. who wrote that he passed the ashes of the dead through a sieve, in search of the gold that had been melted down. So confidently did the writer attribute, not only to his sword, but also to his pen, freedom from accountability and punishment.
+[11.4] Furthermore, when the inheritance fell to him and Caepio’s young daughter, nothing that he had expended for the funeral was asked back by him in the distribution of the property. And although such was his conduct then and afterwards, there was one[^14] who wrote that he passed the ashes of the dead through a sieve, in search of the gold that had been melted down. So confidently did the writer attribute, not only to his sword, but also to his pen, freedom from accountability and punishment.
 
-### Capítulo 12
+#### Capítulo 12
 
 [12.1] When the time of Cato’s military service came to an end, he was sent on his way, not with blessings, as is common, nor yet with praises, but with tears and insatiable embraces, the soldiers casting their mantles down for him to walk upon, and kissing his hands, things which the Romans of that day rarely did, and only to a few of their imperators.
 
@@ -148,17 +140,17 @@ He had in his following fifteen slaves, two freedmen, and four friends. These ro
 
 [12.4] But frequently they were distrusted and neglected, because they raised no tumult and made no threats in their dealings with the magistrates. In such a case Cato would find their work not done when he arrived, and he himself would be more despised than his servants when men saw him, and would awaken suspicion, as he sat upon the baggage without saying a word, that he was a man of low condition and very timid.
 
-[12.5] However, he would then call the magistrates to him and say: Ye miserable wretches, lay aside this inhospitality. Not all men who come to you will be Catos. Blunt by your kind attentions the power of those who only want an excuse for taking by force what they do not get with men’s consent.
+[12.5] However, he would then call the magistrates to him and say: “Ye miserable wretches, lay aside this inhospitality. Not all men who come to you will be Catos. Blunt by your kind attentions the power of those who only want an excuse for taking by force what they do not get with men’s consent.”
 
-### Capítulo 13
+#### Capítulo 13
 
 [13.1] In Syria, too, as we are told, he had a laughable experience. As he was walking into Antioch, he saw at the gates outside a multitude of people drawn up on either side of the road, among whom stood, in one group, young men with military cloaks, and in another, boys with gala robes, while some had white raiment and crowns, being priests or magistrates. Cato, accordingly, thinking that this could only be some honourable reception which the city was preparing for him, was angry with his servants who had been sent on in advance, because they had not prevented it; but he ordered his friends to dismount, and went forward on foot with them.
 
 [13.2] When, however, they were near the gate, he who was arranging all these ceremonies and marshalling the crowd, a man now well on in years, holding a wand and a crown in his hand, advanced to meet Cato, and without even greeting him asked where they had left Demetrius and when he would be there. Now, Demetrius had once been a slave of Pompey, but at this time, when all mankind, so to speak, had their eyes fixed upon Pompey, he was courted beyond his deserts, since he had great influence with Pompey.
 
-[13.3] Cato’s friends accordingly, were seized with such a fit of laughter that they could not recover themselves even when they were walking through the crowd; but Cato was greatly disturbed at the time, and said: O the unhappy city! and not a word besides. In after times, however, he was wont to laugh at the incident himself also, both when he told it and when he called it to mind.This story is told also in the Pompey, xl. 1-3.
+[13.3] Cato’s friends accordingly, were seized with such a fit of laughter that they could not recover themselves even when they were walking through the crowd; but Cato was greatly disturbed at the time, and said: “O the unhappy city!” and not a word besides. In after times, however, he was wont to laugh at the incident himself also, both when he told it and when he called it to mind.[^15]
 
-### Capítulo 14
+#### Capítulo 14
 
 [14.1] However, Pompey himself put to shame the men who were thus neglectful of Cato through ignorance. For when Cato came to Ephesus and was proceeding to pay his respects to Pompey as an older man, one who was greatly his superior in reputation, and then in command of the greatest forces, Pompey caught sight of him and would not wait, nor would he suffer Cato to come to him as he sat, but sprang up as though to honour a superior, went to meet him, and gave him his hand.
 
@@ -168,9 +160,9 @@ He had in his following fifteen slaves, two freedmen, and four friends. These ro
 
 As a consequence of all this, the cities eagerly vied with one another in showing Cato honour, and there were suppers and invitations, at which times he would urge his friends to keep close watch upon him, lest he should unawares confirm the saying of Curio.
 
-[14.4] For Curio, annoyed at the severity of Cato, who was his intimate friend, had asked him whether he was desirous of seeing Asia after his term of service in the army. Certainly I am, said Cato. That’s right, said Curio, for you will come back from there a more agreeable man and more tame,—that is about the meaning of the word he used.Plutarch is seeking a Greek equivalent for the Latin mansuetior.
+[14.4] For Curio, annoyed at the severity of Cato, who was his intimate friend, had asked him whether he was desirous of seeing Asia after his term of service in the army. “Certainly I am,” said Cato. “That’s right,” said Curio, “for you will come back from there a more agreeable man and more tame,”—that is about the meaning of the word he used.[^16]
 
-### Capítulo 15
+#### Capítulo 15
 
 [15.1] But Deiotarus the Galatian sent for Cato, being now an old man, and desiring to commend to his protection his children and his family. When Cato arrived, however, Deiotarus offered him gifts of every sort, and by tempting and entreating him in every way so exasperated him that, although he had arrived late in the day and merely spent the night, on the next day about the third hour he set off.
 
@@ -180,21 +172,21 @@ As a consequence of all this, the cities eagerly vied with one another in showin
 
 [15.4] As he was about to set sail for Brundisium, his friends thought that the ashes of Caepio should be put aboard another vessel; but Cato declared that he would rather part with his life than with those ashes, and put to sea. And verily we are told that, as chance would have it, he had a very dangerous passage, although the rest made the journey with little trouble.
 
-### Capítulo 16
+#### Capítulo 16
 
-[16.1] After his return to Rome, he spent most of his time at home in the company of Athenodorus,Cf. chapter x. or in the forum assisting his friends. And though the office of quaestor was open to him, he would not become a candidate for it until he had read the laws relating to the quaestorship, learned all the details of the office from those who had had experience in it, and formed a general idea of its power and scope.
+[16.1] After his return to Rome, he spent most of his time at home in the company of Athenodorus,[^17] or in the forum assisting his friends. And though the office of quaestor was open to him, he would not become a candidate for it until he had read the laws relating to the quaestorship, learned all the details of the office from those who had had experience in it, and formed a general idea of its power and scope.
 
-[16.2] Therefore, as soon as he had been instated in the office,In 65 B.C. he made a great change in the assistants and clerks connected with the treasury. These were fully conversant with the public accounts and the laws relative thereto, and so, when they received as their superior officers young men whose inexperience and ignorance made it really needful that others should teach and tutor them, they would not surrender any power to such superiors, but were superiors themselves.
+[16.2] Therefore, as soon as he had been instated in the office,[^18] he made a great change in the assistants and clerks connected with the treasury. These were fully conversant with the public accounts and the laws relative thereto, and so, when they received as their superior officers young men whose inexperience and ignorance made it really needful that others should teach and tutor them, they would not surrender any power to such superiors, but were superiors themselves.
 
 [16.3] Now, however, Cato applied himself with energy to the business, not having merely the name and honour of a superior official, but also intelligence and rational judgement. He thought it best to treat the clerks as assistants, which they really were, sometimes convicting them of their evil practices, and sometimes teaching them if they erred from inexperience. But they were bold fellows, and tried to ingratiate themselves with the other quaestors, while they waged war upon Cato. Therefore the chief among them, whom he found guilty of a breach of trust in the matter of an inheritance, was expelled from the treasury by him, and a second was brought to trial for fraud.
 
 [16.4] This person Catulus Lutatius the censor came forward to defend, a man who had great authority from his office, but most of all from his virtue, being thought to surpass all Romans in justice and discretion; he also commended Cato’s way of living and was intimate with him. Accordingly, when Catulus had lost his case on its merits and began to beg openly for the acquittal of his client, Cato tried to stop him from doing this.
 
-[16.5] And when Catulus was all the more importunate, Cato said: It would be a shameful thing, Catulus, if thou, who art the censor, and shouldst scrutinize our lives, wert put out of court by our bailiffs. When Cato had uttered these words, Catulus fixed his eyes upon him as if he would make reply; he said nothing, however, but either from anger or from shame went off in silence, much perplexed.
+[16.5] And when Catulus was all the more importunate, Cato said: “It would be a shameful thing, Catulus, if thou, who art the censor, and shouldst scrutinize our lives, wert put out of court by our bailiffs.” When Cato had uttered these words, Catulus fixed his eyes upon him as if he would make reply; he said nothing, however, but either from anger or from shame went off in silence, much perplexed.
 
 [16.6] However, the man was not convicted, but when the votes for condemnation exceeded those for acquittal by a single ballot, and one Marcus Lollius, a colleague of Cato, was kept by sickness from attending the trial, Catulus sent to him and begged him to help the man. So Lollius was brought in a litter after the trial and cast the vote that acquitted. Notwithstanding this, Cato would not employ the clerk, or give him his pay, or in any way take the vote of Lollius into the reckoning.
 
-### Capítulo 17
+#### Capítulo 17
 
 [17.1] By thus humbling the clerks and making them submissive, and by managing the business as he himself desired, in a little while he brought the quaestorship into greater respect than the senate, so that all men said and thought that Cato had invested the quaestorship with the dignity of the consulship.
 
@@ -206,11 +198,11 @@ As a consequence of all this, the cities eagerly vied with one another in showin
 
 [17.5] After this experience they were at once charged with murder, were brought before their judges condemned beforehand, one might say, and were punished. At this all men were delighted, and thought that with their deaths the tyranny of that former time was extinguished, and that Sulla himself was punished before men’s eyes.
 
-### Capítulo 18
+#### Capítulo 18
 
 [18.1] Moreover, the multitude were captivated by his continuous and unwearied attention to his duties. For no one of his colleagues came up to the treasury earlier than Cato, and none left it later. Besides, no session of assembly or senate would he fail to attend, since he feared and kept close watch on those who were ready to gratify people by voting remissions of debts and taxes, or promiscuous gifts.
 
-[18.2] And so by exhibiting a treasury which was inaccessible to public informers and free from their taint, but full of money, he taught men that a state can be rich without wronging its citizens. At first some of his colleagues thought him obnoxious and troublesome, but afterwards they were well pleased with him, since he took upon his own shoulders exclusively the burden of the hatreds arising from refusal to give away the public moneys or to make unjust decisions, and furnished them with a defence against people who tried to force requests upon them. They would say, namely, It is impossible; Cato will not consent.
+[18.2] And so by exhibiting a treasury which was inaccessible to public informers and free from their taint, but full of money, he taught men that a state can be rich without wronging its citizens. At first some of his colleagues thought him obnoxious and troublesome, but afterwards they were well pleased with him, since he took upon his own shoulders exclusively the burden of the hatreds arising from refusal to give away the public moneys or to make unjust decisions, and furnished them with a defence against people who tried to force requests upon them. They would say, namely, “It is impossible; Cato will not consent.”
 
 [18.3] On the last day of his term of office, after he had been escorted to his house by almost the whole body of citizens, he heard that many friends of Marcellus and men of influence had closely beset him in the treasury, and were trying to force him to register some remission of moneys due. Now, Marcellus had been a friend of Cato from boyhood, and when associated with him had been a most excellent magistrate. When acting by himself however, he was led by a feeling of deference to be complaisant towards suppliants, and was inclined to grant every favour.
 
@@ -218,7 +210,7 @@ As a consequence of all this, the cities eagerly vied with one another in showin
 
 [18.5] However, not even after he had laid down the quaestorship did Cato leave the treasury destitute of his watchful care, but slaves of his were there every day copying the transactions, and he himself paid five talents for books containing accounts of the public business from the times of Sulla down to his own quaestorship, and always had them in hand.
 
-### Capítulo 19
+#### Capítulo 19
 
 [19.1] He used to be the first to reach the senate and the last to leave it; and often, while the other senators were slowly assembling, he would sit and read quietly, holding his toga in front of the book. He never left the city when the senate was in session. But afterwards, when Pompey and his friends saw that he could never be prevailed upon or forced from his position in any unjust measures which they had at heart, they would contrive to draw him away by sundry legal advocacies for friends, or arbitrations, or business matters. Accordingly, Cato quickly perceived their design and refused all such applications, and made it a rule to have no other business on hand while the senate was in session.
 
@@ -226,45 +218,45 @@ As a consequence of all this, the cities eagerly vied with one another in showin
 
 [19.3] At one time he opposed Clodius the demagogue, who was raising agitation and confusion as a prelude to great changes, and was calumniating to the people priests and priestesses, among whom Fabia, a sister of Cicero’s wife Terentia, was in danger of conviction. But Cato put Clodius to such shame that he was forced to steal away from the city; and when Cicero thanked him, Cato told him he ought to be thankful to the city, since it was for her sake that all his public work was done.
 
-[19.4] In consequence of this he was held in high repute, so that an orator, at a trial where the testimony of a single witness was introduced, told the jurors that it was not right to give heed to a single witness, not even if he were Cato; and many already, when speaking of matters that were strange and incredible, would say, as though using a proverb, This is not to be believed even though Cato says it.
+[19.4] In consequence of this he was held in high repute, so that an orator, at a trial where the testimony of a single witness was introduced, told the jurors that it was not right to give heed to a single witness, not even if he were Cato; and many already, when speaking of matters that were strange and incredible, would say, as though using a proverb, “This is not to be believed even though Cato says it.”
 
-[19.5] Again, when a corrupt and extravagant man was expatiating in the senate on frugality and self-restraint, Amnaeus sprang to his feet and said: Who can endure it, my man, when you sup like Lucullus, build like Crassus, and yet harangue us like Cato ?Cf. the Lucullus, xl. 3. And other men also who were degraded and licentious in their lives, but lofty and severe in their speech, were mockingly called Catos.
+[19.5] Again, when a corrupt and extravagant man was expatiating in the senate on frugality and self-restraint, Amnaeus sprang to his feet and said: “Who can endure it, my man, when you sup like Lucullus, build like Crassus, and yet harangue us like Cato?”[^19] And other men also who were degraded and licentious in their lives, but lofty and severe in their speech, were mockingly called Catos.
 
-### Capítulo 20
+#### Capítulo 20
 
 [20.1] Though many invited him to become a tribune of the people he did not think it right to expend the force of a great and powerful magistracy, any more than that of a strong medicine, on matters that did not require it. And at the same time, being at leisure from his public duties, he took books and philosophers with him and set out for Lucania, where he owned lands affording no mean sojourn.
 
-[20.2] Then, meeting on the road many beasts of burden with baggage and attendants, and learning that Metellus Nepos was on his way back to Rome prepared to sue for the tribuneship, he stopped without a word, and after waiting a little while ordered his company to turn back. His friends were amazed at this, whereupon he said: Do ye not know that even of himself Metellus is to be feared by reason of his infatuation? And now that he comes by the advice of Pompey he will fall upon the state like a thunderbolt and throw everything into confusion.
+[20.2] Then, meeting on the road many beasts of burden with baggage and attendants, and learning that Metellus Nepos was on his way back to Rome prepared to sue for the tribuneship, he stopped without a word, and after waiting a little while ordered his company to turn back. His friends were amazed at this, whereupon he said: “Do ye not know that even of himself Metellus is to be feared by reason of his infatuation? And now that he comes by the advice of Pompey he will fall upon the state like a thunderbolt and throw everything into confusion.”
 
-[20.3] It is no time, then, for a leisurely sojourn in the country, but we must overpower the man, or die honourably in a struggle for our liberties. Nevertheless, on the advice of his friends, he went first to his estates and tarried there a short time, and then returned to the city.In 63 B.C. It was evening when he arrived, and as soon as day dawned he went down into the forum to sue for a tribuneship, that he might array himself against Metellus. For the strength of that office is negative rather than positive; and if all the tribunes save one should vote for a measure, the power lies with the one who will not give his consent or permission.
+[20.3] “It is no time, then, for a leisurely sojourn in the country, but we must overpower the man, or die honourably in a struggle for our liberties.” Nevertheless, on the advice of his friends, he went first to his estates and tarried there a short time, and then returned to the city.[^20] It was evening when he arrived, and as soon as day dawned he went down into the forum to sue for a tribuneship, that he might array himself against Metellus. For the strength of that office is negative rather than positive; and if all the tribunes save one should vote for a measure, the power lies with the one who will not give his consent or permission.
 
-### Capítulo 21
+#### Capítulo 21
 
 [21.1] At first, then, Cato had only a few of his friends about him; but when his purpose became known, in a little while all the men of worth and note flocked to him with exhortations and encouragements. They felt that he was not receiving a favour, but conferring the greatest favour on his country and the most reputable of his fellow citizens; for he had often refused the office when he could have had it without trouble, and now sued for it at his peril that he might contend for the liberties of the state.
 
-[21.2] It is said, moreover, that he was in peril from the many who crowded upon him in their zeal and affection, and could hardly make his way for the crowd into the forum. He was declared tribune with othersAt this time the number of the popular tribunes was ten. (including Metellus), and seeing that the consular elections were attended with bribery, he berated the people; and in concluding his speech he swore that he would prosecute the briber, whoever he might be, making an exception only of Silanus because of their relationship. For Silanus was the husband of Cato’s sister Servilia.
+[21.2] It is said, moreover, that he was in peril from the many who crowded upon him in their zeal and affection, and could hardly make his way for the crowd into the forum. He was declared tribune with others[^21] (including Metellus), and seeing that the consular elections were attended with bribery, he berated the people; and in concluding his speech he swore that he would prosecute the briber, whoever he might be, making an exception only of Silanus because of their relationship. For Silanus was the husband of Cato’s sister Servilia.
 
-[21.3] For this reason he let Silanus alone, but he prosecuted Lucius Murena on the charge of having secured his election to the consulship with Silanus by bribery.Silanus and Murena were consuls in 62 B.C. Now, there was a law by which the defendant could set a man to watch the prosecutor, in order that there might be no secret about the material which he was collecting and preparing for the prosecution. Accordingly, the man appointed by Murena to watch Cato would follow him about and keep him under observation.
+[21.3] For this reason he let Silanus alone, but he prosecuted Lucius Murena on the charge of having secured his election to the consulship with Silanus by bribery.[^22] Now, there was a law by which the defendant could set a man to watch the prosecutor, in order that there might be no secret about the material which he was collecting and preparing for the prosecution. Accordingly, the man appointed by Murena to watch Cato would follow him about and keep him under observation.
 
 [21.4] When, however, he saw that Cato was doing nothing insidiously or unjustly, but was honourably and considerately following a straightforward and righteous course in the prosecution, he had such admiration for Cato’s lofty spirit and noble character that he would come up to him in the forum or go to his house and ask him whether he intended that day to attend to any matters connected with the prosecution; and if Cato said no, the man would take his word and go away.
 
-[21.5] When the trial was held, Cicero, who was consul at that time and one of Murena’s advocates, took advantage of Cato’s fondness for the Stoics to rail and jest at length about those philosophers and what were called their paradoxes, thus making the jurors laugh. Cato, accordingly, as we are told, said with a smile to the bystanders: My friends, what a droll fellow our consul is!
+[21.5] When the trial was held, Cicero, who was consul at that time and one of Murena’s advocates, took advantage of Cato’s fondness for the Stoics to rail and jest at length about those philosophers and what were called their “paradoxes,” thus making the jurors laugh. Cato, accordingly, as we are told, said with a smile to the bystanders: “My friends, what a droll fellow our consul is!”
 
 [21.6] And after Murena had been acquitted, he did not feel towards Cato as a base or senseless man might have done; for during his consulship he asked his advice in the most important matters, and in other ways constantly showed him honour and trust. And Cato himself was responsible for this; on the tribunal and in the senate he was severe and terrible in his defence of justice, but afterwards his manner towards all men was benevolent and kindly.
 
-### Capítulo 22
+#### Capítulo 22
 
-[22.1] Before he entered upon his tribuneship, and during the consulship of Cicero,63 B.C. he maintained the authority of that magistrate in many conflicts, and above all in the measures relating to Catiline, which proved the most important and most glorious of all, he brought matters to a successful issue. Catiline himself, namely, who was trying to bring about a complete and destructive change in the Roman state, and was stirring up alike seditions and wars, was convicted by Cicero and fled the city;
+[22.1] Before he entered upon his tribuneship, and during the consulship of Cicero,[^23] he maintained the authority of that magistrate in many conflicts, and above all in the measures relating to Catiline, which proved the most important and most glorious of all, he brought matters to a successful issue. Catiline himself, namely, who was trying to bring about a complete and destructive change in the Roman state, and was stirring up alike seditions and wars, was convicted by Cicero and fled the city;
 
 [22.2] but Lentulus and Cethegus and many others with them took over the conspiracy, and, charging Catiline with cowardice and pettiness in his designs, were themselves planning to destroy the city utterly with fire, and to subvert the empire with revolts of nations and foreign wars.
 
-[22.3] But their schemes were discovered, and Cicero brought the matter before the senate for deliberation.Cf. the Caesar, vii. 4-viii. 2; and the Cicero, x. ff. The first speaker, Silanus, expressed the opinion that the men ought to suffer the extremest fate, and those who followed him in turn were of the same mind, until it came to Caesar.
+[22.3] But their schemes were discovered, and Cicero brought the matter before the senate for deliberation.[^24] The first speaker, Silanus, expressed the opinion that the men ought to suffer the extremest fate, and those who followed him in turn were of the same mind, until it came to Caesar.
 
 [22.4] Caesar now rose, and since he was a powerful speaker and wished to increase every change and commotion in the state as so much stuff for his own designs, rather than to allow them to be quenched, he urged many persuasive and humane arguments. He would not hear of the men being put to death without a trial, but favoured their being kept in close custody,
 
-[22.5] and he wrought such a change in the opinions of the senate, which was in fear of the people, that even Silanus recanted and said that he too had not meant death, but imprisonment; for to a Roman this was the extremest of all evils.
+[22.5] and he wrought such a change in the opinions of the senate, which was in fear of the people, that even Silanus recanted and said that he too had not meant death, but imprisonment; for to a Roman this was the “extremest” of all evils.
 
-### Capítulo 23
+#### Capítulo 23
 
 [23.1] After such a change as this had been wrought and all the senators had hastened to adopt the milder and more humane penalty, Cato rose to give his opinion, and launched at once into a passionate and angry speech, abusing Silanus for his change of opinion, and assailing Caesar.
 
@@ -272,15 +264,15 @@ As a consequence of all this, the cities eagerly vied with one another in showin
 
 [23.3] This is the only speech of Cato which has been preserved, we are told, and its preservation was due to Cicero the consul, who had previously given to those clerks who excelled in rapid writing instruction in the use of signs, which, in small and short figures, comprised the force of many letters; these clerks he had then distributed in various parts of the senate-house. For up to that time the Romans did not employ or even possess what are called shorthand writers, but then for the first time, we are told, the first steps toward the practice were taken. Be that as it may, Cato carried the day and changed the opinions of the senators, so that they condemned the men to death.
 
-### Capítulo 24
+#### Capítulo 24
 
-[24.1] Now, since we must not pass over even the slight tokens of character when we are delineating as it were a likeness of the soul, the story goes that on this occasion, when Caesar was eagerly engaged in a great struggle with Cato and the attention of the senate was fixed upon the two men, a little note was brought in from outside to Caesar. Cato tried to fix suspicion upon the matter and alleged that it had something to do with the conspiracy,Plutarch’s ambiguous words here must be interpreted by comparison with the Brutus, v. 2 f., where the same story is told. and bade him read the writing aloud. Then Caesar handed the note to Cato, who stood near him.
+[24.1] Now, since we must not pass over even the slight tokens of character when we are delineating as it were a likeness of the soul, the story goes that on this occasion, when Caesar was eagerly engaged in a great struggle with Cato and the attention of the senate was fixed upon the two men, a little note was brought in from outside to Caesar. Cato tried to fix suspicion upon the matter and alleged that it had something to do with the conspiracy,[^25] and bade him read the writing aloud. Then Caesar handed the note to Cato, who stood near him.
 
-[24.2] But when Cato had read the note, which was an unchaste letter from his sister Servilia to Caesar, with whom she was passionately and guiltily in love, he threw it to Caesar, saying, Take it, thou sot, and then resumed his speech.
+[24.2] But when Cato had read the note, which was an unchaste letter from his sister Servilia to Caesar, with whom she was passionately and guiltily in love, he threw it to Caesar, saying, “Take it, thou sot,” and then resumed his speech.
 
-[24.3] But as regards the women of his household Cato appears to have been wholly unfortunate. For this sister was in ill repute for her relations with Caesar; and the conduct of the other Servilia, also a sister of Cato, was still more unseemly. She was the wife of Lucullus, a man of the highest repute in Rome, and had borne him a child, and yet she was banished from his house for unchastity.See the Lucullus, xxxviii. 1. And what was most disgraceful of all, even Cato’s wife Atilia was not free from such transgressions, but although he had two children by her, he was forced to put her away because of her unseemly behaviour.
+[24.3] But as regards the women of his household Cato appears to have been wholly unfortunate. For this sister was in ill repute for her relations with Caesar; and the conduct of the other Servilia, also a sister of Cato, was still more unseemly. She was the wife of Lucullus, a man of the highest repute in Rome, and had borne him a child, and yet she was banished from his house for unchastity.[^26] And what was most disgraceful of all, even Cato’s wife Atilia was not free from such transgressions, but although he had two children by her, he was forced to put her away because of her unseemly behaviour.
 
-### Capítulo 25
+#### Capítulo 25
 
 [25.1] Then he married a daughter of Philippus, Marcia, a woman of reputed excellence, about whom there was the most abundant talk; and this part of Cato’s life, like a drama, has given rise to dispute and is hard to explain. However, the case was as follows, according to Thrasea, who refers to the authority of Munatius, Cato’s companion and intimate associate.
 
@@ -290,19 +282,19 @@ As a consequence of all this, the cities eagerly vied with one another in showin
 
 [25.4] Cato replied that he loved Hortensius and thought highly of a community of relationship with him, but considered it absurd for him to propose marriage with a daughter who had been given to another. Then Hortensius changed his tactics, threw off the mask, and boldly asked for the wife of Cato himself, since she was still young enough to bear children, and Cato had heirs enough.
 
-[25.5] And it cannot be said that he did this because he knew that Cato neglected Marcia, for she was at that time with child by him, as we are told. However, seeing the earnestness and eager desire of Hortensius, Cato would not refuse, but said that Philippus also, Marcia’s father, must approve of this step. Accordingly, Philippus was consulted and expressed his consent, but he would not give Marcia in marriage until Cato himself was present and joined in giving the bride away.It is plain that Cato divorced Marcia; otherwise her father could not have given her in marriage to Hortensius. This incident occurred at a later time,Probably in 56 B.C. it is true, but since I had taken up the topic of the women of Cato’s household I decided to anticipate it.
+[25.5] And it cannot be said that he did this because he knew that Cato neglected Marcia, for she was at that time with child by him, as we are told. However, seeing the earnestness and eager desire of Hortensius, Cato would not refuse, but said that Philippus also, Marcia’s father, must approve of this step. Accordingly, Philippus was consulted and expressed his consent, but he would not give Marcia in marriage until Cato himself was present and joined in giving the bride away.[^27] This incident occurred at a later time,[^28] it is true, but since I had taken up the topic of the women of Cato’s household I decided to anticipate it.
 
-### Capítulo 26
+#### Capítulo 26
 
-[26.1] Lentulus and his associates were executed, and Caesar, in view of the charges and accusations made against him to the senate, took refuge with the people and was stirring up and attaching to himself the numerous diseased and corrupted elements in the commonwealth. Cato was therefore alarmed and persuaded the senate to conciliate the poor and landless multitude by including them in the distribution of grain, the annual expenditure for which was twelve hundred and fifty talents.Cf. the Caesar, viii. 4. By this act of humanity and kindness the threatening danger was most successfully dissipated.
+[26.1] Lentulus and his associates were executed, and Caesar, in view of the charges and accusations made against him to the senate, took refuge with the people and was stirring up and attaching to himself the numerous diseased and corrupted elements in the commonwealth. Cato was therefore alarmed and persuaded the senate to conciliate the poor and landless multitude by including them in the distribution of grain, the annual expenditure for which was twelve hundred and fifty talents.[^29] By this act of humanity and kindness the threatening danger was most successfully dissipated.
 
-[26.2] Then Metellus, who hastened to take up the duties of his tribuneship, began to hold tumultuous assemblies of the people, and proposed a law that Pompey the Great should hasten with his forces to ItalyPompey had just finished his conquest of Mithridates and was on the way home from Asia (62 B.C.). and undertake the preservation of the city, on the ground that it was imperilled by Catiline. Now, this was a specious proposition; but the end and aim of the law was to put matters in the hands of Pompey and hand over to him the supreme power.
+[26.2] Then Metellus, who hastened to take up the duties of his tribuneship, began to hold tumultuous assemblies of the people, and proposed a law that Pompey the Great should hasten with his forces to Italy[^30] and undertake the preservation of the city, on the ground that it was imperilled by Catiline. Now, this was a specious proposition; but the end and aim of the law was to put matters in the hands of Pompey and hand over to him the supreme power.
 
 [26.3] The senate met, and Cato did not, as was his custom, attack Metellus with vehemence, but gave him much fitting and moderate advice, and finally, resorting to entreaties, actually praised the family of Metellus for having always been aristocratic in sympathy. Metellus was therefore all the more emboldened, and, despising Cato as a yielding and timorous opponent, broke out in extravagant threats and bold speeches, intending to carry everything through in spite of the senate.
 
 [26.4] So, then, Cato changed his looks and voice and words, and concluded a vehement speech with the declaration that while he lived Pompey should not enter the city with an armed force. The senate was thus led to feel that neither man was in his right mind or using safe arguments, but that the policy of Metellus was madness, which, through excess of wickedness, was leading on to the destruction and confusion of all things, while that of Cato was a wild ebullition of virtue contending in behalf of right and justice.
 
-### Capítulo 27
+#### Capítulo 27
 
 [27.1] When the people were about to vote on the law, in favour of Metellus there were armed strangers and gladiators and servants drawn up in the forum, and that part of the people which longed for Pompey in their hope of a change was present in large numbers, and there was strong support also from Caesar, who was at that time praetor.
 
@@ -310,71 +302,71 @@ As a consequence of all this, the cities eagerly vied with one another in showin
 
 [27.3] He himself, however, conversed fearlessly and confidently with all and comforted them, and after taking supper as usual and passing the night, was roused from a deep sleep by one of his colleagues Minucius Thermus; and they went down into the forum, only few persons accompanying them, but many meeting them and exhorting them to be on their guard.
 
-[27.4] Accordingly, when Cato paused in the forum and saw the temple of Castor and Pollux surrounded by armed men and its steps guarded by gladiators, and Metellus himself sitting at the top with Caesar, he turned to his friends and said: What a bold man, and what a coward, to levy such an army against a single unarmed and defenceless person! At the same time he walked straight on with Thermus.
+[27.4] Accordingly, when Cato paused in the forum and saw the temple of Castor and Pollux surrounded by armed men and its steps guarded by gladiators, and Metellus himself sitting at the top with Caesar, he turned to his friends and said: “What a bold man, and what a coward, to levy such an army against a single unarmed and defenceless person!” At the same time he walked straight on with Thermus.
 
 [27.5] Those who were occupying the steps made way for them, but would allow no one else to pass, except that Cato with difficulty drew Munatius along by the hand and brought him up; and walking straight onwards he threw himself just as he was into a seat between Metellus and Caesar, thus cutting off their communication.
 
 [27.6] Caesar and Metellus were disconcerted, but the better citizens, seeing and admiring the countenance, lofty bearing, and courage of Cato, came nearer, and with shouts exhorted him to be of good heart, while they urged one another to stay and band themselves together and not betray their liberty and the man who was striving to defend it.
 
-### Capítulo 28
+#### Capítulo 28
 
 [28.1] And now the clerk produced the law, but Cato would not suffer him to read it; and when Metellus took it and began to read it, Cato snatched the document away from him. Then Metellus, who knew the law by heart, began to recite it, but Thermus clapped a hand upon his mouth and shut off his speech.
 
-[28.2] At last, seeing that the men were making a struggle which he could not resist, and that the people were giving way and turning towards the better course, Metellus ordered men-at-arms, who were standing at a distance, to come running up with terrifying shouts. This was done, and all the people dispersed, leaving Cato standing his ground alone and pelted with sticks and stones from above. Here Murena, who had been denounced and brought to trial by him,Cf. chapter xxi. 3-6.
+[28.2] At last, seeing that the men were making a struggle which he could not resist, and that the people were giving way and turning towards the better course, Metellus ordered men-at-arms, who were standing at a distance, to come running up with terrifying shouts. This was done, and all the people dispersed, leaving Cato standing his ground alone and pelted with sticks and stones from above. Here Murena, who had been denounced and brought to trial by him,[^31]
 
 [28.3] came to his relief, and holding his toga before him, crying to those who were pelting him to stop, and finally persuading Cato himself and folding him in his arms, he led him away into the temple of Castor and Pollux.
 
-When, however, Metellus saw the space about the tribunalThe steps of the temple of Castor led down to a platform, from which the people were often addressed. empty and his opponents in flight through the forum, being altogether persuaded that he had won the day, he ordered his armed men to go away again, and coming forward himself in orderly fashion attempted to have the law enacted.
+When, however, Metellus saw the space about the tribunal[^32] empty and his opponents in flight through the forum, being altogether persuaded that he had won the day, he ordered his armed men to go away again, and coming forward himself in orderly fashion attempted to have the law enacted.
 
 [28.4] But his opponents, quickly recovering from their rout, advanced again upon him with loud and confident shouts, so that his partisans were overwhelmed with confusion and terror. They supposed that their enemies had provided themselves with arms from some place or other in order to assail them, and not a man stood his ground, but all fled away from the tribunal.
 
 [28.5] So, then, when these had dispersed, and when Cato had come forward with commendation and encouragement for the people, the majority of them stood prepared to put down Metellus by any and every means, and the senate in full session announced anew that it would assist Cato and fight to the end against the law, convinced that it would introduce sedition and civil war into Rome.
 
-### Capítulo 29
+#### Capítulo 29
 
 [29.1] Metellus himself was still unyielding and bold, but since he saw that his followers were completely terrified before Cato and thought him utterly invincible, he suddenly rushed off into the forum, assembled the people, and made a long and invidious speech against Cato; then, crying out that he was fleeing from Cato’s tyranny and the conspiracy against Pompey, for which the city would speedily repent in that it was dishonouring so great a man, he set out at once for Asia, intending to lay these accusations before Pompey.
 
 [29.2] Accordingly, Cato was in high repute for having relieved the tribunate of a great burden, and for having in a manner overthrown the power of Pompey in the person of Metellus. But he won still more esteem by not allowing the senate to carry out its purpose of degrading Metellus and deposing him from his office, which course Cato opposed, and brought the senate over to his views. For the multitude considered it a token of humanity and moderation not to trample on his enemy or insult him after prevailing completely over him, and prudent men thought it right and advantageous not to irritate Pompey.
 
-[29.3] After this, Lucullus, having come back from his expedition,He came back in 66 B.C., and had to wait three years before being allowed to celebrate a triumph. Cf. the Lucullus, xxxvii. the consummation and glory of which Pompey was thought to have taken away from him, was in danger of losing his triumph, since Caius Memmius raised a successful faction against him among the people and brought legal accusations against him, more to gratify Pompey than out of private enmity. But Cato, being related to Lucullus, who had his sister Servilia to wife, and thinking the attempt a shameful one, opposed Memmius, and thereby exposed himself to many slanderous accusations.
+[29.3] After this, Lucullus, having come back from his expedition,[^33] the consummation and glory of which Pompey was thought to have taken away from him, was in danger of losing his triumph, since Caius Memmius raised a successful faction against him among the people and brought legal accusations against him, more to gratify Pompey than out of private enmity. But Cato, being related to Lucullus, who had his sister Servilia to wife, and thinking the attempt a shameful one, opposed Memmius, and thereby exposed himself to many slanderous accusations.
 
 [29.4] Finally, however, though he was on the point of being ejected from his office on the ground that he exercised tyrannical power, he so far prevailed as to compel Memmius himself to desist from his accusations and shun the contest. Lucullus, accordingly, celebrated his triumph, and therefore clung still more closely to the friendship of Cato, finding in him a great bulwark of defence against the power of Pompey.
 
-### Capítulo 30
+#### Capítulo 30
 
-[30.1] And now Pompey returned with great prestige from his expedition,In 62 B.C. and since the splendour and warmth of his reception led him to believe that he could get whatever he wanted from his fellow citizens, he sent forward a demand that the senate postpone the consular elections, in order that he might be present in person and assist Piso in making his canvass.
+[30.1] And now Pompey returned with great prestige from his expedition,[^34] and since the splendour and warmth of his reception led him to believe that he could get whatever he wanted from his fellow citizens, he sent forward a demand that the senate postpone the consular elections, in order that he might be present in person and assist Piso in making his canvass.
 
 [30.2] The majority of the senators were inclined to yield. Cato, however, who did not regard the postponement as the chief matter at issue, but wished to cut short the attempt and the expectations of Pompey, opposed the measure and changed the opinions of the senators, so that they rejected it. This disturbed Pompey not a little, and considering that Cato would be a great stumbling-block in his way unless he were made a friend, he sent for Munatius, Cato’s companion, and asked the elder of Cato’s two marriageable nieces to wife for himself, and the younger for his son.
 
 [30.3] Some say, however, that it was not for Cato’s nieces, but for his daughters, that the suit was made. When Munatius brought this proposal to Cato and his wife and sisters, the women were overjoyed at thought of the alliance, in view of the greatness and high repute of Pompey; Cato, however, without pause or deliberation, but stung to the quick, said at once:
 
-[30.4] Go, Munatius, go, and tell Pompey that Cato is not to be captured by way of the women’s apartments although he highly prizes Pompey’s good will, and if Pompey does justice will grant him a friendship more to be relied upon than any marriage connection; but he will not give hostages for the glory of Pompey to the detriment of his country.
+[30.4] “Go, Munatius, go, and tell Pompey that Cato is not to be captured by way of the women’s apartments although he highly prizes Pompey’s good will, and if Pompey does justice will grant him a friendship more to be relied upon than any marriage connection; but he will not give hostages for the glory of Pompey to the detriment of his country.”
 
 At these words the women were vexed, and Cato’s friends blamed his answer as both rude and overbearing.
 
-[30.5] Afterwards, however, in trying to secure the consulship for one of his friends,Lucius Afranius, elected consul in 61 B.C. for the year 60 B.C. Cf. the Pompey, xliv. 3. Pompey sent money to the tribes, and the bribery was notorious, since the sums for it were counted out in his gardens. Accordingly, when Cato told the women that he must of necessity have shared in the disgrace of such transactions, had he been connected with Pompey by marriage, they admitted that he had taken better counsel in rejecting the alliance.Cf. the Pompey, xliv.
+[30.5] Afterwards, however, in trying to secure the consulship for one of his friends,[^35] Pompey sent money to the tribes, and the bribery was notorious, since the sums for it were counted out in his gardens. Accordingly, when Cato told the women that he must of necessity have shared in the disgrace of such transactions, had he been connected with Pompey by marriage, they admitted that he had taken better counsel in rejecting the alliance.[^36]
 
 [30.6] However, if we are to judge by the results, it would seem that Cato was wholly wrong in not accepting the marriage connection, instead of allowing Pompey to turn to Caesar and contract a marriage which united the power of the two men, nearly overthrew the Roman state, and destroyed the constitution. None of these things perhaps would have happened, had not Cato been so afraid of the slight transgressions of Pompey as to allow him to commit the greatest of all, and add his power to that of another.
 
-### Capítulo 31
+#### Capítulo 31
 
-[31.1] These things, however, were still in the future. Meanwhile Lucullus got into a contention with Pompey over the arrangements in Pontus (each of them, namely, demanded that his own proceedings should be confirmed), Cato came to the aid of Lucullus, who was manifestly wronged, and Pompey, worsted in the senate and seeking popular favour, invited the soldiery to a distribution of land.Cf. the Lucullus, xlii. 6; Pompey, xlvi. 3 f.
+[31.1] These things, however, were still in the future. Meanwhile Lucullus got into a contention with Pompey over the arrangements in Pontus (each of them, namely, demanded that his own proceedings should be confirmed), Cato came to the aid of Lucullus, who was manifestly wronged, and Pompey, worsted in the senate and seeking popular favour, invited the soldiery to a distribution of land.[^37]
 
-[31.2] But when Cato opposed him in this measure also, and frustrated the law, then Pompey attached himself to Clodius, at that time the boldest of the popular leaders, and won Caesar to his support, a result for which Cato himself was in a way responsible. For Caesar, on returning from his praetorship in Spain,In the summer of 60 B.C. desired to be a candidate for the consulship, and at the same time asked for a triumph.
+[31.2] But when Cato opposed him in this measure also, and frustrated the law, then Pompey attached himself to Clodius, at that time the boldest of the popular leaders, and won Caesar to his support, a result for which Cato himself was in a way responsible. For Caesar, on returning from his praetorship in Spain,[^38] desired to be a candidate for the consulship, and at the same time asked for a triumph.
 
 [31.3] But since by law candidates for a magistracy must be present in the city, while those who are going to celebrate a triumph must remain outside the walls, he asked permission from the senate to solicit the office by means of others. Many were willing to grant the request, but Cato opposed it; and when he saw that the senators were ready to gratify Caesar, he consumed the whole day in speaking and thus frustrated their desires.
 
-[31.4] Accordingly, Caesar gave up his triumph, entered the city, and at once attached himself to Pompey and sought the consulship.Cf. the Caesar, xiii. 1 f. After he had been elected consul, he gave his daughter Julia in marriage to Pompey, and now that the two were united with one another against the state, the one would bring in laws offering allotment and distribution of land to the poor, and the other would be at hand with support for the laws.
+[31.4] Accordingly, Caesar gave up his triumph, entered the city, and at once attached himself to Pompey and sought the consulship.[^39] After he had been elected consul, he gave his daughter Julia in marriage to Pompey, and now that the two were united with one another against the state, the one would bring in laws offering allotment and distribution of land to the poor, and the other would be at hand with support for the laws.
 
 [31.5] But the party of Lucullus and Cicero, ranging themselves with Bibulus, the other consul, opposed the measures, and above all Cato, who now suspected that the friendly alliance between Caesar and Pompey had been made for no just purpose, and declared that he was afraid, not of the distribution of land, but of the reward which would be paid for this to those who were enticing the people with such favours.
 
-### Capítulo 32
+#### Capítulo 32
 
-[32.1] By these utterances he brought the senate outside the senate to unanimity, and many men supported him out of displeasure at the strange conduct of Caesar; for whatever political schemes the boldest and most arrogant tribunes were wont to practise to win the favour of the multitude, these Caesar used with the support of consular power, in disgraceful and humiliating attempts to ingratiate himself with the people.Cf. the Caesar, xiv. 1.
+[32.1] By these utterances he brought the senate outside the senate to unanimity, and many men supported him out of displeasure at the strange conduct of Caesar; for whatever political schemes the boldest and most arrogant tribunes were wont to practise to win the favour of the multitude, these Caesar used with the support of consular power, in disgraceful and humiliating attempts to ingratiate himself with the people.[^40]
 
-[32.2] Accordingly, the opponents of Cato were alarmed and had recourse to violence. To begin with, upon Bibulus himself, as he was going down into the forum, a basket of ordure was scattered; then the crowd fell upon his lictors and broke their fasces; and finally missiles flew and many persons were wounded.Cf. the Pompey, xlviii. 1. All the other senators fled from the forum at a run, but Cato went off last of all at a walk, turning about and protesting to the citizens.
+[32.2] Accordingly, the opponents of Cato were alarmed and had recourse to violence. To begin with, upon Bibulus himself, as he was going down into the forum, a basket of ordure was scattered; then the crowd fell upon his lictors and broke their fasces; and finally missiles flew and many persons were wounded.[^41] All the other senators fled from the forum at a run, but Cato went off last of all at a walk, turning about and protesting to the citizens.
 
-[32.3] Accordingly, not only was the law for the distribution of lands passed, but also a clause was added requiring the whole senate to swear solemnly that it would uphold the law, and give its aid in case any one should act contrary to it, and heavy penalties were pronounced against such as would not take the oath.Cf. the Caesar, xiv. 2 f. All took the oath, therefore, under compulsion, bearing in mind the fate of Metellus of old, whom the people suffered to be banished from Italy because he would not swear to a similar law.In 100 B.C. Cf. the Marius, xxix.
+[32.3] Accordingly, not only was the law for the distribution of lands passed, but also a clause was added requiring the whole senate to swear solemnly that it would uphold the law, and give its aid in case any one should act contrary to it, and heavy penalties were pronounced against such as would not take the oath.[^42] All took the oath, therefore, under compulsion, bearing in mind the fate of Metellus of old, whom the people suffered to be banished from Italy because he would not swear to a similar law.[^43]
 
 [32.4] For this reason, also, did the women of Cato’s family earnestly and with tears beseech him to yield and take the oath, earnestly, too, did his friends and intimates. But the one who was most successful in persuading and inducing him to take the oath was Cicero the orator, who advised and showed him that it was possibly even a wrong thing to think himself alone in duty bound to disobey the general will; and that his desperate conduct, where it was impossible to make any change in what had been done, was altogether senseless and mad;
 
@@ -382,7 +374,7 @@ At these words the women were vexed, and Cato’s friends blamed his answer as b
 
 [32.6] By these and similar arguments and entreaties, we are told, both at home and in the forum, Cato was softened and at last prevailed upon. He came forward to take the oath last of all, except Favonius, one of his friends and intimates.
 
-### Capítulo 33
+#### Capítulo 33
 
 [33.1] Elated by this success, Caesar introduced another law, which provided that almost the whole of Campania be divided among the poor and needy. No one spoke against the law except Cato, and him Caesar ordered to be dragged from the rostra to prison. Cato did not any the more remit his bold utterances, but as he walked along discoursed about the law and advised the people to put a stop to such legislation.
 
@@ -390,21 +382,21 @@ At these words the women were vexed, and Cato’s friends blamed his answer as b
 
 [33.3] Nevertheless, by these laws and by other favours Caesar’s party so cajoled the people as to get a vote passed giving to Caesar the government of Illyria and all Gaul, with an army of four legions, for five years, although Cato warned the people that they themselves by their own votes were establishing a tyrant in their citadel. They also unlawfully transferred Publius Clodius from patrician to plebeian rank and got him elected tribune of the people,
 
-[33.4] a man who, in order to secure Cicero’s banishment as his reward, was using all his political influence for the gratification of the people. For consuls, too, they secured the electionFor the year 58 B.C. of Calpurnius Piso, who was Caesar’s father-in-law, and Aulus Gabinius, a man from the lap of Pompey, as those say who knew his ways of life.
+[33.4] a man who, in order to secure Cicero’s banishment as his reward, was using all his political influence for the gratification of the people. For consuls, too, they secured the election[^44] of Calpurnius Piso, who was Caesar’s father-in-law, and Aulus Gabinius, a man from the lap of Pompey, as those say who knew his ways of life.
 
-### Capítulo 34
+#### Capítulo 34
 
 [34.1] But although they had in this way usurped the power, and although one part of the citizens was made submissive to them by gratitude and the other part by fear, nevertheless they were afraid of Cato. For even when they did prevail against him, it was with difficulty and toil and not without the shame of exposure that they forced their measures through at last, and this was annoying and vexatious to them.
 
-[34.2] Clodius, too, could not even hope to overthrow Cicero while Cato was at Rome, but since he was scheming for this above all else, when he had come into office he sent for Cato and made proposals to him. He said that he regarded Cato as the purest man of all the Romans, and that he was ready to prove this by his acts. Therefore, though many were soliciting the commission to Cyprus and the court of PtolemyA younger brother of Ptolemy Auletes the king of Egypt. and begging to be sent upon it, he thought Cato alone worthy of it, and therefore gladly offered him this favour.
+[34.2] Clodius, too, could not even hope to overthrow Cicero while Cato was at Rome, but since he was scheming for this above all else, when he had come into office he sent for Cato and made proposals to him. He said that he regarded Cato as the purest man of all the Romans, and that he was ready to prove this by his acts. Therefore, though many were soliciting the commission to Cyprus and the court of Ptolemy[^45] and begging to be sent upon it, he thought Cato alone worthy of it, and therefore gladly offered him this favour.
 
-[34.3] But Cato cried out that the thing was a snare and an insult, not a favour, whereupon Clodius haughtily and contemptuously replied: Well, then, if you don’t think it a favour, you shall make the voyage as a punishment, and going at once before the people he got an edict passed sending Cato on the mission. Moreover, when Cato set out, Clodius gave him neither ship, soldier, nor assistant, except two clerks, of whom one was a thief and a rascal, and the other a client of Clodius.
+[34.3] But Cato cried out that the thing was a snare and an insult, not a favour, whereupon Clodius haughtily and contemptuously replied: “Well, then, if you don’t think it a favour, you shall make the voyage as a punishment,” and going at once before the people he got an edict passed sending Cato on the mission. Moreover, when Cato set out, Clodius gave him neither ship, soldier, nor assistant, except two clerks, of whom one was a thief and a rascal, and the other a client of Clodius.
 
 [34.4] And as if he had put a slight task upon him in the mission to Cyprus and Ptolemy, Clodius enjoined upon him besides the restoration of the exiles of Byzantium, being desirous that Cato should be out of his way as long as possible while he was tribune.
 
-### Capítulo 35
+#### Capítulo 35
 
-[35.1] Subjected to such constraint as this, Cato advised Cicero, whose enemies were trying to banish him, not to raise a faction or plunge the city into war and bloodshed, but to yield to the necessities of the times, and so to become again a saviour of his country. He also sent Canidius, one of his friends, to Cyprus in advance,Cf. the Brutus, iii. 1. and tried to persuade Ptolemy to yield his kingdom without fighting, promising that his future life should not be without wealth and honour, since the Romans would give him a priesthood of the goddess in Paphos.
+[35.1] Subjected to such constraint as this, Cato advised Cicero, whose enemies were trying to banish him, not to raise a faction or plunge the city into war and bloodshed, but to yield to the necessities of the times, and so to become again a saviour of his country. He also sent Canidius, one of his friends, to Cyprus in advance,[^46] and tried to persuade Ptolemy to yield his kingdom without fighting, promising that his future life should not be without wealth and honour, since the Romans would give him a priesthood of the goddess in Paphos.
 
 [35.2] He himself, however, tarried at Rhodes, making his preparations and awaiting his answers.
 
@@ -416,27 +408,27 @@ Meanwhile Ptolemy the king of Egypt, who had quarrelled with the citizens of Ale
 
 [35.5] Then the king, as if brought to his senses by Cato’s words after a fit of madness or delirium, and recognizing the sincerity and sagacity of the speaker, determined to adopt his counsels; but he was turned back to his first purpose by his friends. However, as soon as he reached Rome and was approaching the door of a magistrate, he groaned over his own evil resolve, convinced that he had slighted, not the words of a good man, but the prophetic warning of a god.
 
-### Capítulo 36
+#### Capítulo 36
 
 [36.1] But the Ptolemy in Cyprus, fortunately for Cato, poisoned himself to death. And since the king was said to have left much treasure, Cato determined, while sailing himself to Byzantium, to send his nephew Brutus to Cyprus, since he did not altogether trust Canidius. Then, after reconciling the exiles and citizens of Byzantium and leaving the city in concord, he sailed to Cyprus.
 
 [36.2] Now, there were many furnishings of a princely sort, such as beakers, tables, precious stones, and purple vestments, which had to be sold and turned into money. So Cato, wishing to treat everything with the greatest exactness, and to force everything up to a high price, and to attend to everything himself, and to use the utmost calculation, would not trust even those who were accustomed to the market, but, suspecting all alike, assistants, criers, buyers, and friends, and at last talking privately himself with the purchasers and encouraging each one to bid, he thus succeeded in selling most of the merchandize.
 
-[36.3] For this reason he gave offence to most of his friends, who thought that he distrusted them, and Munatius, the most intimate of them all, he threw into a rage that was well nigh incurable. Hence Caesar also, when he wrote a discourse against Cato,See chapter xi. 4, and note. dwelt most bitterly on this part of his denunciation.
+[36.3] For this reason he gave offence to most of his friends, who thought that he distrusted them, and Munatius, the most intimate of them all, he threw into a rage that was well nigh incurable. Hence Caesar also, when he wrote a discourse against Cato,[^47] dwelt most bitterly on this part of his denunciation.
 
-### Capítulo 37
+#### Capítulo 37
 
 [37.1] Munatius, however, states that his anger arose, not from Cato’s distrust of him, but from his inconsiderate conduct towards him, and from a certain jealousy which Munatius himself felt towards Canidius. For Munatius himself also published a treatise about Cato, which Thrasea chiefly followed.
 
-[37.2] Munatius says that he came to Cyprus after the others, and found that no provision had been made for his entertainment; he says, too, that on going to Cato’s door he was repulsed, because Cato had some engagement inside with Canidius. He says, further, that his measured protest met with no measured reply, for Cato told him that excessive affection, according to Theophrastus, was likely to become a ground for hatred in many cases. And so thou too, said Cato, by reason of thine especial affection for me, art vexed to think thyself less honoured than is meet.
+[37.2] Munatius says that he came to Cyprus after the others, and found that no provision had been made for his entertainment; he says, too, that on going to Cato’s door he was repulsed, because Cato had some engagement inside with Canidius. He says, further, that his measured protest met with no measured reply, for Cato told him that excessive affection, according to Theophrastus, was likely to become a ground for hatred in many cases. “And so thou too,” said Cato, “by reason of thine especial affection for me, art vexed to think thyself less honoured than is meet.”
 
-[37.3] Canidius I employ more than others both because I have made trial of him, and because I trust him; he came at the very first, and shows himself to be incorrupt. This private conversation, however, between himself and Cato, Munatius says was reported by Cato to Canidius, and that therefore, when he heard of it, he would no longer go to Cato’s table, or visit him, or share his counsels, when he was invited. Further, Munatius says, when Cato threatened to take security from him, as the Romans do in the case of those who refuse to obey orders, he paid no attention to the threat, but sailed away, and for a long time continued to be angry with Cato.
+[37.3] “Canidius I employ more than others both because I have made trial of him, and because I trust him; he came at the very first, and shows himself to be incorrupt.” This private conversation, however, between himself and Cato, Munatius says was reported by Cato to Canidius, and that therefore, when he heard of it, he would no longer go to Cato’s table, or visit him, or share his counsels, when he was invited. Further, Munatius says, when Cato threatened to take security from him, as the Romans do in the case of those who refuse to obey orders, he paid no attention to the threat, but sailed away, and for a long time continued to be angry with Cato.
 
-[37.4] Then, Munatius says, Marcia, who was still living with Cato,Cf. chapter xxv. 5. spoke with her husband about the matter; and when it chanced that both men were invited to supper by Barca, Cato, who came late and after the others had taken their places, asked where he should recline; and when Barca told him to recline where he pleased, Cato looked about the room and said: I will take my place by Munatius. So he went round and reclined by his side, but made no further show of friendship during the supper.
+[37.4] Then, Munatius says, Marcia, who was still living with Cato,[^48] spoke with her husband about the matter; and when it chanced that both men were invited to supper by Barca, Cato, who came late and after the others had taken their places, asked where he should recline; and when Barca told him to recline where he pleased, Cato looked about the room and said: “I will take my place by Munatius.” So he went round and reclined by his side, but made no further show of friendship during the supper.
 
 [37.5] Marcia, however, made a second request in the matter, Munatius says, and Cato wrote to him, saying that he wished to confer with him about something. So Munatius went to Cato’s house early in the morning, and was detained there by Marcia until all the other visitors had gone away. Then Cato came in, threw both arms about him, kissed him, and lavished kindness upon him. Such incidents, now, in my opinion, quite as much as deeds of greatness and publicity, shed considerable light upon the perception and manifestation of character, and I have therefore recounted them at greater length.
 
-### Capítulo 38
+#### Capítulo 38
 
 [38.1] Cato got together nearly seven thousand talents of silver, and fearing the long voyage home, he had many coffers provided, each one of which would hold two talents and five hundred drachmas, and attached to each of them a long rope, to the end of which a huge piece of cork was fastened. This, he thought, in case the vessel were wrecked, would hold to its deep mooring and indicate the place where the treasure lay.
 
@@ -444,9 +436,9 @@ Meanwhile Ptolemy the king of Egypt, who had quarrelled with the citizens of Ale
 
 [38.3] But because it was so cold the sailors built many fires during the night, the tents caught fire, and the book disappeared. It is true that the royal stewards who were at hand were ready to stop the mouths of Cato’s enemies and traducers, but nevertheless the matter gave him annoyance. For it was not as a proof of his own integrity, but as an example to others of scrupulous exactness that he was eager to produce his accounts, and he was therefore vexed.
 
-### Capítulo 39
+#### Capítulo 39
 
-[39.1] The Romans did not fail to hear of his arrivalIn 56 B.C. with his ships, and all the magistrates and priests, the whole senate, and a large part of the people went to the river to meet him, so that both banks of the stream were hidden from view, and his voyage up to the city had all the show and splendour of a triumph.
+[39.1] The Romans did not fail to hear of his arrival[^49] with his ships, and all the magistrates and priests, the whole senate, and a large part of the people went to the river to meet him, so that both banks of the stream were hidden from view, and his voyage up to the city had all the show and splendour of a triumph.
 
 [39.2] Yet some thought it ungracious and stubborn that, although the consuls and praetors were at hand, he neither landed to greet them, nor checked his course, but on a royal galley of six banks of oars swept past the bank where they stood, and did not stop until he had brought his fleet to anchor in the dock-yard.
 
@@ -454,15 +446,15 @@ Meanwhile Ptolemy the king of Egypt, who had quarrelled with the citizens of Ale
 
 [39.4] Philippus, the father of Marcia, was consul at the time, and the dignity and power of his office devolved in a manner upon Cato; the colleague of Philippus, also, bestowed no less honour upon Cato for his virtue than Philippus did because of his relationship to him.
 
-### Capítulo 40
+#### Capítulo 40
 
-[40.1] But Cicero had now come backIn 57 B.C., after an absence of sixteen months. Cf. the Cicero, chapters xxx.-xxxiii. from the exile into which he was driven by Clodius, and, relying on his great influence in the senate, had forcibly taken away and destroyed, in the absence of Clodius, the records of his tribuneship which Clodius had deposited on the Capitol. When the senate was convened to consider the matter, and Clodius made his denunciation, Cicero made a speech in which he said that, since Clodius had been made tribune illegally, all that had been done or recorded during his tribunate ought to be void and invalid.
+[40.1] But Cicero had now come back[^50] from the exile into which he was driven by Clodius, and, relying on his great influence in the senate, had forcibly taken away and destroyed, in the absence of Clodius, the records of his tribuneship which Clodius had deposited on the Capitol. When the senate was convened to consider the matter, and Clodius made his denunciation, Cicero made a speech in which he said that, since Clodius had been made tribune illegally, all that had been done or recorded during his tribunate ought to be void and invalid.
 
-[40.2] Cato contradicted Cicero while he was speaking, and finally rose and said that, although he was wholly of the opinion that there was nothing sound or good in the administration of Clodius, still, if everything which Clodius had done while tribune were to be rescinded, then all his own proceedings in Cyprus would be rescinded, and his mission there had not been legal, since an illegal magistrate had obtained it for him; but it had not been illegal, he maintained, for Clodius to be elected tribune after a transfer from patrician to plebeian rank which the law allowed,Cf. chapter xxxiii. and if he had been a bad magistrate, like others, it was fitting to call to an account the man who had done wrong, and not to vitiate the office which had suffered from his wrong doing. In consequence of this speech Cicero was angry with Cato, and for a long time ceased friendly intercourse with him; afterwards, however, they were reconciled.Cf. the Cicero, xxxiv.
+[40.2] Cato contradicted Cicero while he was speaking, and finally rose and said that, although he was wholly of the opinion that there was nothing sound or good in the administration of Clodius, still, if everything which Clodius had done while tribune were to be rescinded, then all his own proceedings in Cyprus would be rescinded, and his mission there had not been legal, since an illegal magistrate had obtained it for him; but it had not been illegal, he maintained, for Clodius to be elected tribune after a transfer from patrician to plebeian rank which the law allowed,[^51] and if he had been a bad magistrate, like others, it was fitting to call to an account the man who had done wrong, and not to vitiate the office which had suffered from his wrong doing. In consequence of this speech Cicero was angry with Cato, and for a long time ceased friendly intercourse with him; afterwards, however, they were reconciled.[^52]
 
-### Capítulo 41
+#### Capítulo 41
 
-[41.1] After this, Pompey and Crassus had a meeting with Caesar,At Luca, in 56 B.C. Cf. the Pompey, li.; the Caesar, xxi. who had come across the Alps, in which they laid a plan to canvass jointly for a second consulship, and, after they were established in the office, to get a vote passed giving to Caesar another term in his command, of the same duration as the first, and to themselves the largest provinces, money and military forces. This was a conspiracy for the division of the supreme power and the abolition of the constitution.
+[41.1] After this, Pompey and Crassus had a meeting with Caesar,[^53] who had come across the Alps, in which they laid a plan to canvass jointly for a second consulship, and, after they were established in the office, to get a vote passed giving to Caesar another term in his command, of the same duration as the first, and to themselves the largest provinces, money and military forces. This was a conspiracy for the division of the supreme power and the abolition of the constitution.
 
 [41.2] And although many honourable men were getting ready to canvass for the consulship at that time, they were all deterred by seeing Pompey and Crassus announce themselves as candidates, excepting only Lucius Domitius, the husband of Cato’s sister Porcia. Him Cato persuaded not to withdraw from the canvass or give way, since the struggle was not for office, but for the liberty of the Romans.
 
@@ -472,9 +464,9 @@ Meanwhile Ptolemy the king of Egypt, who had quarrelled with the citizens of Ale
 
 [41.5] For Cato held Domitius back, although he himself had received a wound in the arm, and exhorted him to stand his ground, and not to abandon, while they had breath, the struggle in behalf of liberty which they were waging against the tyrants, who showed plainly how they would use the consular power by making their way to it through such crimes.
 
-### Capítulo 42
+#### Capítulo 42
 
-[42.1] But Domitius would not face the peril, and fled to his house for refuge, whereupon Pompey and Crassus were elected consuls.For the year 55 B.C. Cato, however, would not give up the fight, but came forward himself as candidate for a praetorship, wishing to have a vantage-point for his struggles against the men, and not to be a private citizen when he was opposing magistrates. But Pompey and Crassus feared this also, feeling that Cato would make the praetorship a match for the consulship.
+[42.1] But Domitius would not face the peril, and fled to his house for refuge, whereupon Pompey and Crassus were elected consuls.[^54] Cato, however, would not give up the fight, but came forward himself as candidate for a praetorship, wishing to have a vantage-point for his struggles against the men, and not to be a private citizen when he was opposing magistrates. But Pompey and Crassus feared this also, feeling that Cato would make the praetorship a match for the consulship.
 
 [42.2] In the first place, therefore, they suddenly, and without the knowledge of the majority, got the senate together, and had a vote passed that the praetors elect should enter upon their office at once, without waiting for the time prescribed by law to elapse, during which time those who had bribed the people were liable to prosecution. In the next place, now that by this vote they had freed bribery from responsibility, they brought forward henchmen and friends of their own as candidates for the praetorship, themselves offering money for votes, and themselves standing by when the votes were cast.
 
@@ -484,7 +476,7 @@ Meanwhile Ptolemy the king of Egypt, who had quarrelled with the citizens of Ale
 
 [42.5] As if inspired from heaven he foretold to the citizens all that would happen to their city, and tried to set them against Pompey and Crassus, who, he said, were privy to such a course and engaged in such a policy as made them afraid of Cato, lest, as praetor, he should get the better of them. And finally, when he went away home, he was escorted on his way by a greater throng than accompanied all the elected praetors together.
 
-### Capítulo 43
+#### Capítulo 43
 
 [43.1] And now Caius Trebonius proposed a law for the assignment of provinces to the consuls, whereby one of them was to have Spain and Africa under him, the other Syria and Egypt, and both were to wage war on whom they pleased, and attack and subdue them with land and sea forces. The rest of the opposition were weary of their efforts to prevent such things, and forbore even to speak against the measure; but Cato mounted the rostra before the vote was taken, expressed a wish to speak, with difficulty gained permission, and spoke for two hours.
 
@@ -498,15 +490,15 @@ Meanwhile Ptolemy the king of Egypt, who had quarrelled with the citizens of Ale
 
 [43.6] then he would call to mind the exhortations of Cato, and see that they had sought no less the interests of Pompey than honour and justice. Pompey heard these counsels repeatedly, but ignored and put them by; he did not believe that Caesar would change, because he trusted in his own good fortune and power.
 
-### Capítulo 44
+#### Capítulo 44
 
-[44.1] For the next year54 B.C. Cato was elected praetor, but it was thought that he did not add so much majesty and dignity to the office by a good administration as he took away from it by disgracing it. For he would often go forth to his tribunal without shoes or tunic, and in such attire would preside over capital cases involving prominent men. Some say, too, that even after the mid-day meal and when he had drunk wine, he would transact public business; but this is untruthfully said.
+[44.1] For the next year[^55] Cato was elected praetor, but it was thought that he did not add so much majesty and dignity to the office by a good administration as he took away from it by disgracing it. For he would often go forth to his tribunal without shoes or tunic, and in such attire would preside over capital cases involving prominent men. Some say, too, that even after the mid-day meal and when he had drunk wine, he would transact public business; but this is untruthfully said.
 
 [44.2] However, seeing that the people were corrupted by the gifts which they received from men who were fond of office and plied the bribery of the masses as they would an ordinary business, he wished to eradicate altogether this disease from the state, and therefore persuaded the senate to make a decree that magistrates elect, in case they had no accuser, should be compelled of themselves to come before a sworn court and submit accounts of their election.
 
 [44.3] At this the candidates for offices were sorely displeased, and still more sorely the hireling multitude. Early in the morning, therefore, when Cato had gone forth to his tribunal, crowds assailed him with shouts, abuse, and missiles, so that everybody fled from the tribunal, and Cato himself was pushed away from it and borne along by the throng, and with difficulty succeeded in laying hold of the rostra.
 
-[44.4] There, rising to his feet, by the firmness and boldness of his demeanour he at once prevailed over the din, stopped the shouting, and after saying what was fitting and being listened to quietly, brought the disturbance completely to an end. When the senate was praising him for this, he said: But I cannot praise you for leaving an imperilled praetor in the lurch and not coming to his aid.
+[44.4] There, rising to his feet, by the firmness and boldness of his demeanour he at once prevailed over the din, stopped the shouting, and after saying what was fitting and being listened to quietly, brought the disturbance completely to an end. When the senate was praising him for this, he said: “But I cannot praise you for leaving an imperilled praetor in the lurch and not coming to his aid.”
 
 [44.5] Now, all the candidates for offices were at a loss what to do; each one was afraid to use bribes himself, but was afraid of losing his office if another used them. They decided, therefore, to come together and deposit severally one hundred and twenty-five thousand drachmas in money, and that all should then sue for their offices in fair and just ways; the one who transgressed and practised bribery forfeiting his money.
 
@@ -518,37 +510,37 @@ For no virtue, by the fame and credit which it gives, creates more envy than jus
 
 [44.8] These do not merely honour the just, as they do the brave, nor admire them merely, as they do the wise, but they actually love the just, and put confidence and trust in them. As for the brave and wise, however, they fear the one and distrust the other; and besides, they think that these excel by a natural gift rather than by their own volition, considering bravery to be a certain intensity, and wisdom a certain vigour, of soul, whereas any one who wishes can be just forthwith, and the greatest disgrace is visited upon injustice, as being inexcusable baseness.
 
-### Capítulo 45
+#### Capítulo 45
 
 [45.1] For this reason all the great men were hostile to Cato, feeling that they were put to shame by him; and Pompey, who considered Cato’s high repute as a dissolution of his own power, was always egging certain persons on to abuse him, among whom was Clodius the demagogue especially, who had again drifted into Pompey’s following. He loudly denounced Cato for having appropriated much treasure from Cyprus, and for being hostile to Pompey because he had declined to marry his daughter.
 
 [45.2] But Cato declared that, without taking a single horse or soldier, he had got together from Cyprus more treasure for the city than Pompey had brought back from all his wars and triumphs after stirring up the habitable world; and that he never chose Pompey for a marriage connection, not because he thought him unworthy of it, but because he saw the difference in their political tenets.
 
-[45.3] I, for my part, said Cato, when a province was offered me after my praetorship, declined it, but this Pompey took provinces, some of which he holds himself, and some he offers to others; and now he has actually lent Caesar a body of six thousand legionaries for use in Gaul. This force neither did Caesar ask from you, nor did Pompey give it with your consent, but armies of this great size and arms and horses are now the mutual gifts of private persons.
+[45.3] “I, for my part,” said Cato, “when a province was offered me after my praetorship, declined it, but this Pompey took provinces, some of which he holds himself, and some he offers to others; and now he has actually lent Caesar a body of six thousand legionaries for use in Gaul. This force neither did Caesar ask from you, nor did Pompey give it with your consent, but armies of this great size and arms and horses are now the mutual gifts of private persons.”
 
-[45.4] And though he has the titles of general and imperator, he has handed over to others his armies and his provinces, while he himself takes up his post near the city, managing factions at the elections as though he were directing games, and contriving disturbances, from which, as we clearly see, by way of anarchy, he is seeking to win for himself a monarchy.
+[45.4] “And though he has the titles of general and imperator, he has handed over to others his armies and his provinces, while he himself takes up his post near the city, managing factions at the elections as though he were directing games, and contriving disturbances, from which, as we clearly see, by way of anarchy, he is seeking to win for himself a monarchy.”
 
-### Capítulo 46
+#### Capítulo 46
 
 [46.1] With such words did Cato defend himself against Pompey. But Marcus Favonius was a companion and ardent disciple of his, just as Apollodorus of Phalerum is said to have been of Socrates in olden time. Favonius was impulsive, and easily moved by argument, which did not affect him moderately or mildly, but like unmixed wine, and to the point of frenzy.
 
 [46.2] He was being defeated in a candidacy for the aedileship, but Cato, who was present, noticed that the voting tablets were all inscribed in one hand; and having exposed the foul play, at the time he stopped the election by an appeal to the tribunes. Afterwards, when Favonius had been appointed aedile, Cato both discharged the other duties of the office and managed the spectacles in the theatre. He gave to the actors crowns, not of gold, but of wild olive,
 
-[46.3] as was done at Olympia, and inexpensive gifts,—to the Greeks, beets, lettuce, radishes, and pears; and to the Romans, jars of wine, pork, figs, melons, and faggots of wood. At the practical simplicity of these gifts some laughed, but others conceived respect for Cato when they saw his severe and solemn manner gradually relaxing to pleasant good-humour.Cf. chapter i. 2.
+[46.3] as was done at Olympia, and inexpensive gifts,—to the Greeks, beets, lettuce, radishes, and pears; and to the Romans, jars of wine, pork, figs, melons, and faggots of wood. At the practical simplicity of these gifts some laughed, but others conceived respect for Cato when they saw his severe and solemn manner gradually relaxing to pleasant good-humour.[^56]
 
 [46.4] And at last Favonius, plunging into the crowd and taking a seat among the spectators, applauded Cato and called to him in a loud voice to give presents to the successful performers and to honour them, and helped him to exhort the spectators, as though he had delegated his powers to Cato. Now, in the other theatre, Curio, the colleague of Favonius, was managing things with a lavish hand; but the people left him and went over to the other place, and readily shared in a sport where Favonius was playing the part of a private citizen and Cato that of master of the games.
 
 [46.5] But Cato did all this in disparagement of the usual practice, and with an effort to show that in sport one must adopt a sportive manner and conduct matters with unostentatious gladness rather than with elaborate and costly preparations, where one bestows upon trifling things great care and effort.
 
-### Capítulo 47
+#### Capítulo 47
 
-[47.1] But presently Scipio, Hypsaeus, and Milo sought the consulship.For the year 52 B.C. Riots in Rome prevented any election. Cf. the Pompey, chapter liv. They not only used those illegal means which were now a familiar feature in political life, namely, the giving of gifts and bribes, but were openly pressing on, by the use of arms and murder, into civil war, with daring and madness. Some therefore demanded that Pompey should preside over the elections. Cato opposed this at first, saying that the laws ought not to derive their security from Pompey, but Pompey from the laws.
+[47.1] But presently Scipio, Hypsaeus, and Milo sought the consulship.[^57] They not only used those illegal means which were now a familiar feature in political life, namely, the giving of gifts and bribes, but were openly pressing on, by the use of arms and murder, into civil war, with daring and madness. Some therefore demanded that Pompey should preside over the elections. Cato opposed this at first, saying that the laws ought not to derive their security from Pompey, but Pompey from the laws.
 
 [47.2] However, when there had been no regular government for a long time, and three armies were occupying the forum daily, and the evil had well-nigh become past checking, he decided that matters ought to be put into the hands of Pompey by the voluntary gift of the senate, before the extreme necessity for it came, and that by employing the most moderate of unconstitutional measures as a healing remedy for the conservation of the greatest interests, they should themselves introduce the monarchy, rather than allow faction to issue in monarchy.
 
 [47.3] Accordingly, Bibulus, a kinsman of Cato, moved in the senate that Pompey should be chosen sole consul; for either matters would be rectified by his settlement of them, or the state would be in subjection to its most powerful citizen. Then Cato rose up and, to everyone’s surprise, approved the measure, advising any government as better than no government at all, and saying that he expected Pompey would handle the present situation in the best manner possible, and would guard the state when it was entrusted to him.
 
-### Capítulo 48
+#### Capítulo 48
 
 [48.1] After Pompey had in this way been appointed consul, he begged Cato to come to him in the suburbs. And when Cato was come, Pompey gave him a friendly welcome with salutations and hand-clasps, acknowledged his obligations to him, and invited him to be his counsellor and associate in the government.
 
@@ -556,21 +548,21 @@ For no virtue, by the fame and credit which it gives, creates more envy than jus
 
 [48.3] In the first place, for instance, when Pompey was proposing to fix by law fresh penalties and heavy punishments for those who had already bribed the people, Cato urged him to ignore the past and give his attention to the future; for, he said, it would not be easy to fix the point at which the investigation of past transgressions should stop, and if penalties should be fixed subsequent to the crimes, those would be outrageously dealt with who were punished in conformity with a law which they were not transgressing when they committed their crime.
 
-[48.4] In the second place, when many prominent men were on trial, some of whom were friends and relations of Pompey, Cato saw that Pompey was giving in and yielding in many cases, and therefore rebuked him sharply and tried to spur him on. Moreover, though Pompey himself had made illegal the customary panegyrics upon men under trial, he wrote a panegyric upon Munatius Plancus and handed it in at his trial; but Cato (who chanced to be one of the jurors) stopped his ears with his hands and prevented the reading of the testimony.Cf. the Pompey, lv. 5.
+[48.4] In the second place, when many prominent men were on trial, some of whom were friends and relations of Pompey, Cato saw that Pompey was giving in and yielding in many cases, and therefore rebuked him sharply and tried to spur him on. Moreover, though Pompey himself had made illegal the customary panegyrics upon men under trial, he wrote a panegyric upon Munatius Plancus and handed it in at his trial; but Cato (who chanced to be one of the jurors) stopped his ears with his hands and prevented the reading of the testimony.[^58]
 
 [48.5] Plancus got him removed from the jury after the speeches were over, and was convicted none the less. And altogether Cato was a perplexing and unmanageable quantity for defendants; they neither wished to allow him to be a juror in their cases nor had the courage to challenge him. For not a few of them were convicted because their attempted rejection of Cato made it appear that they had no confidence in the justice of their cases; and some were bitterly assailed by their revilers for not accepting Cato as juror when he was proposed.
 
-### Capítulo 49
+#### Capítulo 49
 
 [49.1] But Caesar, though he devoted himself to his armies in Gaul and was busy with arms, nevertheless employed gifts, money, and above all friends, to increase his power in the city. Presently, therefore, the admonitions of Cato roused Pompey from the great incredulity which he had indulged in up to this time, so that he had forebodings of his peril. However, he was still given to hesitation and spiritless delay in checking or attacking the threatening evil, and therefore Cato determined to stand for the consulship, that he might at once deprive Caesar of his armed forces, or convict him of his hostile designs.
 
-[49.2] But his competitors were both acceptable men, and Sulpicius had actually derived much benefit from Cato’s repute and power in the city, and was therefore thought to be acting in an improper and even thankless manner. But Cato had no fault to find with him. Pray, what wonder is it, said he, if a man will not surrender to another what he regards as the greatest of all good things?
+[49.2] But his competitors were both acceptable men, and Sulpicius had actually derived much benefit from Cato’s repute and power in the city, and was therefore thought to be acting in an improper and even thankless manner. But Cato had no fault to find with him. “Pray, what wonder is it,” said he, “if a man will not surrender to another what he regards as the greatest of all good things?”
 
 [49.3] However, by persuading the senate to pass a decree that candidates for office should canvass the people in person, and not solicit nor confer with the citizens through the agency of another going about in their behalf, Cato still more exasperated the common folk, in that he deprived them, not only of getting money, but also of bestowing favour, and so made them at once poor and without honour.
 
 [49.4] And besides this, he was not persuasive himself in canvassing for himself, but wished to preserve in his manners the dignity of his life, rather than to acquire that of the consulship by making the customary salutations; neither would he permit his friends to do the things by which the multitude is courted and captivated. He therefore failed to obtain the office.
 
-### Capítulo 50
+#### Capítulo 50
 
 [50.1] Though the matter brought, not only to the unsuccessful candidates themselves, but also to their friends and relatives, dejection and sorrow tinged with considerable shame for many days, Cato bore so easily what had happened that he anointed himself and practised ball in the Campus Martius, and after the mid-day meal, again, as was his wont, went down into the forum without shoes or tunic and walked about there with his intimates.
 
@@ -578,31 +570,36 @@ For no virtue, by the fame and credit which it gives, creates more envy than jus
 
 [50.3] Cato replied, accordingly, that he had lost the praetorship, not because the majority wished it to be so, but because they were constrained or corrupted; whereas, since there had been no foul play in the consular elections, he saw clearly that he had given offence to the people by his manners. These, he said, no man of sense would change to please others, nor, keeping them unchanged, would he again suffer a like disaster.
 
-### Capítulo 51
+#### Capítulo 51
 
-[51.1] After Caesar had fallen upon warlike nations and at great hazards conquered them, and when it was believed that he had attacked the Germans even during a truceCf. Caesar, Bell. Gall. iv. 12-15; Plutarch, Caesar, xxii. and slain three hundred thousand of them, there was a general demand at Rome that the people should offer sacrifices of good tidings, but Cato urged them to surrender Caesar to those whom he had wronged, and not to turn upon themselves, or allow to fall upon their city, the pollution of his crime.
+[51.1] After Caesar had fallen upon warlike nations and at great hazards conquered them, and when it was believed that he had attacked the Germans even during a truce[^59] and slain three hundred thousand of them, there was a general demand at Rome that the people should offer sacrifices of good tidings, but Cato urged them to surrender Caesar to those whom he had wronged, and not to turn upon themselves, or allow to fall upon their city, the pollution of his crime.
 
-[51.2] However, said he, let us also sacrifice to the gods, because they do not turn the punishment for the general’s folly and madness upon his soldiers, but spare the city. After this, Caesar wrote a letter and sent it to the senate; and when it was read, with its abundant insults and denunciations of Cato,
+[51.2] “However,” said he, “let us also sacrifice to the gods, because they do not turn the punishment for the general’s folly and madness upon his soldiers, but spare the city.” After this, Caesar wrote a letter and sent it to the senate; and when it was read, with its abundant insults and denunciations of Cato,
 
 [51.3] Cato rose to his feet and showed, not in anger or contentiousness, but as if from calculation and due preparation, that the accusations against him bore the marks of abuse and scoffing, and were childishness and vulgarity on Caesar’s part. Then, assailing Caesar’s plans from the outset and revealing clearly all his purpose, as if he were his fellow conspirator and partner and not his enemy, he declared that it was not the sons of Germans or Celts whom they must fear, but Caesar himself,
 
-[51.4] if they were in their right minds, and so moved and incited his hearers that the friends of Caesar were sorry that by having the letter read in the senate they had given Cato an opportunity for just arguments and true denunciations. However, nothing was done, but it was merely said that it were well to give Caesar a successor.Cf. the Caesar, xxx.; the Pompey, lviii.
+[51.4] if they were in their right minds, and so moved and incited his hearers that the friends of Caesar were sorry that by having the letter read in the senate they had given Cato an opportunity for just arguments and true denunciations. However, nothing was done, but it was merely said that it were well to give Caesar a successor.[^60]
 
-[51.5] And when Caesar’s friends demanded that Pompey also, as well as Caesar, should lay down his arms and give up his provinces, or else that Caesar should not do so either, Now shouted Cato, those things are come to pass which I foretold to you, and the man is at last resorting to open compulsion, using the forces which he got by deceiving and cheating the state. Outside the senate-house, however, Cato could accomplish nothing, since the people wished all along that Caesar should have the chief power; and although Cato had the senate under his influence, it was afraid of the people.
+[51.5] And when Caesar’s friends demanded that Pompey also, as well as Caesar, should lay down his arms and give up his provinces, or else that Caesar should not do so either, “Now” shouted Cato, “those things are come to pass which I foretold to you, and the man is at last resorting to open compulsion, using the forces which he got by deceiving and cheating the state.” Outside the senate-house, however, Cato could accomplish nothing, since the people wished all along that Caesar should have the chief power; and although Cato had the senate under his influence, it was afraid of the people.
 
-### Capítulo 52
+#### Capítulo 52
 
-[52.1] But when Ariminum was occupiedIn 49 B.C. Cf the Caesar, xxxii. fin.; the Pompey, lx. 1. and Caesar was reported to be marching against the city with an army, then all eyes were turned upon Cato, both those of the common people and those of Pompey as well; they realised that he alone had from the outset foreseen, and first openly foretold, the designs of Caesar.
+[52.1] But when Ariminum was occupied[^61] and Caesar was reported to be marching against the city with an army, then all eyes were turned upon Cato, both those of the common people and those of Pompey as well; they realised that he alone had from the outset foreseen, and first openly foretold, the designs of Caesar.
 
-[52.2] Cato therefore said: Nay, men, if any of you had heeded what I was ever foretelling and advising, ye would now neither be fearing a single man nor putting your hopes in a single man. Pompey acknowledged that Cato had spoken more like a prophet, while he himself had acted too much like a friend. Cato then advised the senate to put affairs into the hands of Pompey alone; for the same men who caused great evils, he said, should put a stop to them.
+[52.2] Cato therefore said: “Nay, men, if any of you had heeded what I was ever foretelling and advising, ye would now neither be fearing a single man nor putting your hopes in a single man.” Pompey acknowledged that Cato had spoken more like a prophet, while he himself had acted too much like a friend. Cato then advised the senate to put affairs into the hands of Pompey alone; for the same men who caused great evils, he said, should put a stop to them.
 
-[52.3] Pompey, however, who had no forces in readiness, and saw that those which he was then enrolling were without zeal, forsook Rome; and Cato, who had determined to follow him and share his exile, sent his younger son to Munatius in Bruttium for safe keeping, but kept his elder son with himself. And since his household and his daughters needed someone to look after them, he took to wife again Marcia, now a widow with great wealth; for Hortensius, on his death,In 50 B.C. Cf. chapter xxv. had left her his heir.
+[52.3] Pompey, however, who had no forces in readiness, and saw that those which he was then enrolling were without zeal, forsook Rome; and Cato, who had determined to follow him and share his exile, sent his younger son to Munatius in Bruttium for safe keeping, but kept his elder son with himself. And since his household and his daughters needed someone to look after them, he took to wife again Marcia, now a widow with great wealth; for Hortensius, on his death,[^62] had left her his heir.
 
-[52.4] It was with reference to this that Caesar heaped most abuse upon Cato,In his treatise entitled Anti-Cato. Cf. chapter xi. 4. charging him with avarice and with trafficking in marriage. For why, said Caesar, should Cato give up his wife if he wanted her, or why, if he did not want her, should he take her back again? Unless it was true that the woman was at the first set as a bait for Hortensius, and lent by Cato when she was young that he might take her back when she was rich. To these charges, however, the well-known verses of Euripides Hercules Furens, 173 f. (Kirchhoff). apply very well:— First, then, the things not to be named; for in that class I reckon, Heracles, all cowardice in thee;
+[52.4] It was with reference to this that Caesar heaped most abuse upon Cato,[^63] charging him with avarice and with trafficking in marriage. “For why,” said Caesar, “should Cato give up his wife if he wanted her, or why, if he did not want her, should he take her back again? Unless it was true that the woman was at the first set as a bait for Hortensius, and lent by Cato when she was young that he might take her back when she was rich.” To these charges, however, the well-known verses of Euripides[^64] apply very well:—
+
+```verso
+First, then, the things not to be named; for in that class
+I reckon, Heracles, all cowardice in thee;
+```
 
 [52.5] for to charge Cato with a sordid love of gain is like reproaching Heracles with cowardice. But whether on other grounds, perhaps, the marriage was improper, were matter for investigation. For no sooner had Cato espoused Marcia than he committed to her care his household and his daughters, and set out himself in pursuit of Pompey.
 
-### Capítulo 53
+#### Capítulo 53
 
 [53.1] But from that day, as we are told; Cato neither cut his hair nor trimmed his beard nor put on a garland, but maintained the same mien of sorrow, dejection, and heaviness of spirit in view of the calamities of his country, alike in victory and in defeat, until the end. At the time, however, having had Sicily allotted to him as a province, he crossed over to Syracuse, and on learning that Asinius Pollio had come to Messana with a force from the enemy, he sent and demanded a reason for his coming.
 
@@ -614,11 +611,11 @@ After he had come to Pompey, he was ever of one mind, namely, to protract the wa
 
 [53.4] Other measures, too, akin to this, he persuaded Pompey and his council to adopt, namely, not to plunder a city that was subject to Rome, and not to put a Roman to death except on the field of battle. This brought to the party of Pompey a good repute, and induced many to join it; they were delighted with his reasonableness and mildness.
 
-### Capítulo 54
+#### Capítulo 54
 
-[54.1] When Cato was dispatched to Asia, that he might help those who were collecting transports and soldiers there, he took with him Servilia his sister and her young child by Lucullus. For Servilia had followed Cato, now that she was a widow, and had put an end to much of the evil report about her dissolute conductCf. chapter xxiv. 3. by submitting to Cato’s guardianship and sharing his wanderings and his ways of life of her own accord.
+[54.1] When Cato was dispatched to Asia, that he might help those who were collecting transports and soldiers there, he took with him Servilia his sister and her young child by Lucullus. For Servilia had followed Cato, now that she was a widow, and had put an end to much of the evil report about her dissolute conduct[^65] by submitting to Cato’s guardianship and sharing his wanderings and his ways of life of her own accord.
 
-[54.2] But CaesarIn his Anti-Cato. Cf. chapter xi. 4. did not spare abuse of Cato even on the score of his relations with Servilia.
+[54.2] But Caesar[^66] did not spare abuse of Cato even on the score of his relations with Servilia.
 
 Now, in other ways, as it would seem, Pompey’s commanders in Asia had no need of Cato, and therefore, after persuading Rhodes into allegiance, he left Servilia and her child there, and returned to Pompey, who now had a splendid naval and military force assembled.
 
@@ -628,11 +625,11 @@ Now, in other ways, as it would seem, Pompey’s commanders in Asia had no need 
 
 [54.5] Notwithstanding, he did not find that in consequence of this the zeal of Cato was blunted; nay, it is even said that when Pompey himself was trying to incite his forces to a battle before Dyrrhachium, and bidding each of the other commanders to say something to inspire the men, the soldiers listened to them sluggishly and in silence; but that when Cato, after all the other speakers, had rehearsed with genuine emotion all the appropriate sentiments to be drawn from philosophy concerning freedom, virtue, death and fame,
 
-[54.6] and finally passed into an invocation of the gods as eye-witnesses of their struggle in behalf of their country, there was such a shouting and so great a stir among the soldiers thus aroused that all the commanders were full of hope as they hastened to confront the peril. They overcame and routed their enemies, but were robbed of a complete and perfect victory by the good genius of Caesar, which took advantage of Pompey’s caution and distrust of his good fortune. These details, however, have been given in the Life of Pompey. Chapter lxv. Cf. the Caesar, xxxix.
+[54.6] and finally passed into an invocation of the gods as eye-witnesses of their struggle in behalf of their country, there was such a shouting and so great a stir among the soldiers thus aroused that all the commanders were full of hope as they hastened to confront the peril. They overcame and routed their enemies, but were robbed of a complete and perfect victory by the good genius of Caesar, which took advantage of Pompey’s caution and distrust of his good fortune. These details, however, have been given in the Life of Pompey.[^67]
 
 [54.7] But while all the rest were rejoicing and magnifying their achievement, Cato was weeping for his country, and bewailing the love of power that had brought such misfortune and destruction, as he saw that many brave citizens had fallen by one another’s hands.
 
-### Capítulo 55
+#### Capítulo 55
 
 [55.1] When Pompey, in pursuit of Caesar, was breaking camp to march into Thessaly, he left behind him at Dyrrhachium a great quantity of arms and stores, and many kindred and friends, and over all these he appointed Cato commander and guardian, with fifteen cohorts of soldiers, because he both trusted and feared him. For in case of defeat, he thought that Cato would be his surest support, but in case of a victory, that he would not, if present, permit him to manage matters as he chose.
 
@@ -640,19 +637,19 @@ Now, in other ways, as it would seem, Pompey’s commanders in Asia had no need 
 
 When the defeat at Pharsalus came, Cato resolved that, if Pompey were dead, he would take over to Italy those who were with him, but would himself live in exile as far as possible from the tyranny of Caesar; if, on the contrary, Pompey were alive, he would by all means keep his forces intact for him.
 
-[55.3] Accordingly, having crossed over to Corcyra, where the fleet was, he offered to give up the command to Cicero, who was of consular rank, while he himself had been only a praetor. But Cicero would not accept the command, and set out for Italy. Then Cato, seeing that the younger PompeyGnaeus Pompey, the elder son of Pompey the Great. Cf. chapter lix. 5. was led by his obstinacy and unseasonable pride into a desire to punish all those who were about to sail away, and was going to lay violent hands on Cicero first of all, admonished him in private and calmed him down, thus manifestly saving Cicero from death and procuring immunity for the rest.
+[55.3] Accordingly, having crossed over to Corcyra, where the fleet was, he offered to give up the command to Cicero, who was of consular rank, while he himself had been only a praetor. But Cicero would not accept the command, and set out for Italy. Then Cato, seeing that the younger Pompey[^68] was led by his obstinacy and unseasonable pride into a desire to punish all those who were about to sail away, and was going to lay violent hands on Cicero first of all, admonished him in private and calmed him down, thus manifestly saving Cicero from death and procuring immunity for the rest.
 
-### Capítulo 56
+#### Capítulo 56
 
 [56.1] Conjecturing, now, that Pompey the Great would make his escape into Egypt or Libya, and being eager to join him, Cato put to sea with all his company and sailed away, after first giving those who had no eagerness for the expedition leave to depart and remain behind. After reaching Libya, and while sailing along its coast, he fell in with Sextus, the younger son of Pompey, who told him of his father’s death in Egypt.
 
-[56.2] All, of course, were deeply distressed, but no one, now that Pompey was gone, would even listen to any other commander while Cato was at hand. For this reason also Cato, who had compassion on men who were brave and had given proof of fidelity, and was ashamed to leave them helpless and destitute in a foreign land, undertook the command, and went along the coast to Cyrene, the people of which received him kindly, although a few days before they had closed their gates against Labienus.Now a partisan of Pompey, and a fugitive from Pharsalus. Cf. the Caesar, xxxiv. 2.
+[56.2] All, of course, were deeply distressed, but no one, now that Pompey was gone, would even listen to any other commander while Cato was at hand. For this reason also Cato, who had compassion on men who were brave and had given proof of fidelity, and was ashamed to leave them helpless and destitute in a foreign land, undertook the command, and went along the coast to Cyrene, the people of which received him kindly, although a few days before they had closed their gates against Labienus.[^69]
 
-[56.3] There he learned that Scipio, the father-in-law of Pompey, had been well received by Juba the king, and that Attius Varus, who had been appointed governor of Libya by Pompey, was with them at the head of an army. Cato therefore sent out thither by land in the winter season, having got together a great number of asses to carry water, and driving along with him many cattle. Besides, he took with him chariots, and the people called Psylli.Cf Herodotus, iv. 173. These cure the bites of serpents by sucking out the venom, and charm and deaden the serpents themselves by means of incantations.
+[56.3] There he learned that Scipio, the father-in-law of Pompey, had been well received by Juba the king, and that Attius Varus, who had been appointed governor of Libya by Pompey, was with them at the head of an army. Cato therefore sent out thither by land in the winter season, having got together a great number of asses to carry water, and driving along with him many cattle. Besides, he took with him chariots, and the people called Psylli.[^70] These cure the bites of serpents by sucking out the venom, and charm and deaden the serpents themselves by means of incantations.
 
-[56.4] Though the march lasted for seven days consecutively, Cato led at the head of his force, without using either horse or beast of burden. Moreover, he used to sup in a sitting posture from the day when he learned of the defeat at Pharsalus; yes, this token of sorrow he added to others, and would not lie down except when sleeping. After finishing the winter in Libya, he led forth his armyThe text of this sentence is uncertain: Sintenis and Bekker assume a lacuna. Libya means here the Roman province of Africa.; and it numbered nearly ten thousand.
+[56.4] Though the march lasted for seven days consecutively, Cato led at the head of his force, without using either horse or beast of burden. Moreover, he used to sup in a sitting posture from the day when he learned of the defeat at Pharsalus; yes, this token of sorrow he added to others, and would not lie down except when sleeping. After finishing the winter in Libya, he led forth his army[^71]; and it numbered nearly ten thousand.
 
-### Capítulo 57
+#### Capítulo 57
 
 [57.1] But matters were in a bad way with Scipio and Varus. Their dissension and quarrelling led them to pay court to Juba in efforts to win his favour, and the king was unendurable for the severity of his temper and for the arrogance which his wealth and power gave him. When he was going to have an interview with Cato for the first time, he placed his own seat between that of Scipio and that of Cato.
 
@@ -660,7 +657,7 @@ When the defeat at Pharsalus came, Cato resolved that, if Pompey were dead, he w
 
 [57.3] And though all thought it meet that he should have the command, especially Scipio and Varus, who resigned and tendered to him the leadership, he refused to break the laws to support which they were waging war with one who broke them, nor, when a pro-consul was present, would he put himself who was only a propraetor, above him. For Scipio had been made proconsul, and the greater part of the army were emboldened by his name; they thought that they would be successful if a Scipio had command in Africa.
 
-### Capítulo 58
+#### Capítulo 58
 
 [58.1] When Scipio, however, after assuming the command, straightway desired to gratify Juba by putting all the people of Utica to death and demolishing their city, on the ground that it favoured the cause of Caesar, Cato would not suffer it, but by adjurations and loud outcries in the council, and by invoking the gods, with difficulty rescued the people from this cruelty;
 
@@ -676,7 +673,7 @@ When the defeat at Pharsalus came, Cato resolved that, if Pompey were dead, he w
 
 [58.7] But his fears were realized more fully than he expected; for late one evening there came a messenger from the camp who had been three days on the road, announcing that there had been a great battle at Thapsus, that their cause was utterly ruined, that Caesar was in possession of their camps,72 that Scipio and Juba had escaped with a few followers, and that the rest of the force had perished.
 
-### Capítulo 59
+#### Capítulo 59
 
 [59.1] These things coming suddenly upon the city, the people, as was natural at night and in time of war, were almost beside themselves at such tidings, and could with difficulty keep themselves within the walls. But Cato came forth, and for the present, whenever he met people running about and shouting, would lay hold of them one by one, and with encouraging words would take away the excessive wildness and confusion of their fear, saying that perhaps the defeat was not so bad as reported, but had been magnified in the telling, and thus he allayed the tumult;
 
@@ -692,7 +689,7 @@ When the defeat at Pharsalus came, Cato resolved that, if Pompey were dead, he w
 
 [59.7] However, it was for them to deliberate by themselves, he said, and in return for their former bravery and zeal he joined them in praying that what they decided might be for their advantage.
 
-### Capítulo 60
+#### Capítulo 60
 
 [60.1] When Cato had thus spoken, there were some whom his words merely restored to confidence, but the majority, in view of his fearlessness, nobility, and generosity, almost forgot their present troubles in the conviction that he alone was an invincible leader and superior to every fortune, and they begged him to use their lives and property and arms as he himself judged best; for it was better to die as his willing followers than to save their lives by betraying such virtue as his.
 
@@ -700,17 +697,17 @@ When the defeat at Pharsalus came, Cato resolved that, if Pompey were dead, he w
 
 [60.3] After a little while there came to him letters from Juba and Scipio. Juba, who was hidden on a mountain with a few men, asked what Cato had decided to do; for if he abandoned Utica, Juba would wait for him, and if he underwent a siege, Juba would come to his aid with an army. Scipio, who was stationed with his fleet off a certain headland not far from Utica, awaited Cato’s decision in the same way.
 
-### Capítulo 61
+#### Capítulo 61
 
 [61.1] Accordingly, Cato decided to detain the bearers of the letters until he felt sure of the attitude of the three hundred. For the Romans of senatorial rank were eager in his cause, and after promptly manumitting their slaves, were arming them; but as for the three hundred, since they were men engaged in navigation and money-lending and had the greater part of their property in slaves, the words of Cato did not long abide in their minds, but lapsed away.
 
-[61.2] For just as porous bodies readily receive heat and as readily yield it up again and grow cold when the fire is removed, in like manner these men, when they saw Cato, were filled with warmth and kindled into flame; but when they came to think matters over by themselves, their fear of Caesar drove away their regard for Cato and for honour. Who, pray, are we, they said, and who is he whose commands we are refusing to obey?
+[61.2] For just as porous bodies readily receive heat and as readily yield it up again and grow cold when the fire is removed, in like manner these men, when they saw Cato, were filled with warmth and kindled into flame; but when they came to think matters over by themselves, their fear of Caesar drove away their regard for Cato and for honour. “Who, pray, are we,” they said, “and who is he whose commands we are refusing to obey?”
 
-[61.3] Is he not Caesar, upon whom the whole power of Rome has devolved? And not one of us is a Scipio, or a Pompey, or a Cato. But at a time when all men are led by fear to think more humbly than they ought to think, at such a time shall we fight in defence of the liberty of Rome, and wage war in Utica against a man before whom Cato, with Pompey the Great, fled and gave up Italy? And shall we give our slaves freedom in opposition to Caesar, we who ourselves have only as much freedom as he may wish to give us? Nay, before it is too late, poor wretches, let us know ourselves, crave the conqueror’s grace, and send men to entreat him.
+[61.3] “Is he not Caesar, upon whom the whole power of Rome has devolved? And not one of us is a Scipio, or a Pompey, or a Cato. But at a time when all men are led by fear to think more humbly than they ought to think, at such a time shall we fight in defence of the liberty of Rome, and wage war in Utica against a man before whom Cato, with Pompey the Great, fled and gave up Italy? And shall we give our slaves freedom in opposition to Caesar, we who ourselves have only as much freedom as he may wish to give us? Nay, before it is too late, poor wretches, let us know ourselves, crave the conqueror’s grace, and send men to entreat him.”
 
 [61.4] This was the course which the more moderate of the three hundred advised; but the majority of them were laying a plot against the men of senatorial rank, in the hope that by seizing these they might mitigate Caesar’s wrath against themselves.
 
-### Capítulo 62
+#### Capítulo 62
 
 [62.1] Cato suspected their change of heart, but would not tax them with it. However, he wrote to Scipio and Juba advising them to keep away from Utica, because the three hundred were not to be trusted, and sent away the letter-bearers. And now the horsemen who had escaped from the battle, in numbers quite considerable, rode up to Utica and sent three of their number to Cato.
 
@@ -720,7 +717,7 @@ When the defeat at Pharsalus came, Cato resolved that, if Pompey were dead, he w
 
 [62.4] In these entreaties the senators also joined, and with tears; whereupon the leaders of the horsemen discussed the matter with the horsemen, while Cato sat down on a mound with the senators and awaited the answers.
 
-### Capítulo 63
+#### Capítulo 63
 
 [63.1] At this juncture Rubrius came up, wrathfully denouncing the three hundred for great disorder and tumult, inasmuch as they were falling away and throwing the city into confusion. Thereupon the other Romans altogether despaired of their case and burst into tears and lamentations; but Cato tried to encourage them, and sent to the three hundred bidding them await his coming. And now the spokesmen of the horsemen came with immoderate demands.
 
@@ -734,7 +731,7 @@ When the defeat at Pharsalus came, Cato resolved that, if Pompey were dead, he w
 
 [63.6] The horsemen were glad when they saw him riding up, and greeted him, and exhorted him to save himself with them. Then, it is said, Cato actually burst into tears as he begged with outstretched hands in behalf of the senators, even trying to turn back the horses of some of the horsemen and laying hold of their arms, until he prevailed upon them to remain there that day at least, and to make the flight of the senators safe.
 
-### Capítulo 64
+#### Capítulo 64
 
 [64.1] Accordingly, when he came to the city with them, stationed some of them at the gates, and committed the citadel to others to guard, the three hundred were afraid they might be punished for their change of allegiance, and sending to Cato they begged him by all means to come to them.
 
@@ -750,57 +747,57 @@ In reply to this, alter praising their good will, Cato said that to secure their
 
 [64.5] prayer belonged to the conquered, and the craving of grace to those who had done wrong; but for his part he had not only been unvanquished all his life, but was actually a victor now as far as he chose to be, and a conqueror of Caesar in all that was honourable and just; Caesar was the one who was vanquished and taken; for the hostile acts against his country which he had long denied, were now detected and proven.
 
-### Capítulo 65
+#### Capítulo 65
 
-[65.1] After this discourse to the three hundred, he withdrew; and on learning that Caesar with all his army was already on the march, Aha! he said, he thinks we are men! Then turning to the senators he bade them not delay, but save themselves while the horsemen were still there. He also closed the other gates of the city, and stationing himself at the one leading to the sea, he assigned transports to those under his command, and tried to keep things in order, stopping deeds of wrong, quelling tumults, and supplying stores to those who were destitute.
+[65.1] After this discourse to the three hundred, he withdrew; and on learning that Caesar with all his army was already on the march, “Aha!” he said, “he thinks we are men!” Then turning to the senators he bade them not delay, but save themselves while the horsemen were still there. He also closed the other gates of the city, and stationing himself at the one leading to the sea, he assigned transports to those under his command, and tried to keep things in order, stopping deeds of wrong, quelling tumults, and supplying stores to those who were destitute.
 
-[65.2] And when Marcus Octavius with two legions encamped near by and sent to Cato demanding that he come to terms with him about the command in the province, Cato would make no reply to him, but said to his friends: Can we then wonder that our cause is lost, when we see that the love of command abides with us though we are standing on the brink of destruction?
+[65.2] And when Marcus Octavius with two legions encamped near by and sent to Cato demanding that he come to terms with him about the command in the province, Cato would make no reply to him, but said to his friends: “Can we then wonder that our cause is lost, when we see that the love of command abides with us though we are standing on the brink of destruction?”
 
 [65.3] At this juncture, hearing that the horsemen, as they went away, were already plundering the people of Utica as though their property was booty, he ran to them as fast as he could; from the first whom he met he took away their plunder, but the rest, every man of them, made haste to lay down or throw away what they had, and all felt so ashamed that they went off in silence and with downcast looks. Then Cato, after calling the people of Utica together into the city, begged them not to embitter Caesar against the three hundred, but to unite with one another in securing safety for all.
 
 [65.4] Next, he betook himself again to the sea and superintended the embarcation there, embracing and escorting on their way all the friends and acquaintances whom he could persuade to go. His son, however, he could not persuade to take ship, nor did he think it his duty to try to turn the young man from his purpose of clinging to his father. But there was one Statyllius, a man who was young in years, but minded to be strong in purpose and to imitate Cato’s calmness.
 
-[65.5] This man Cato insisted should take ship; for he was a notorious hater of Caesar. But when Statyllius would not consent, Cato turned his eyes upon Apollonides the Stoic and Demetrius the Peripatetic, saying: It is your task to reduce this man’s swollen pride and restore him to conformity with his best interests. He himself, however, continued to assist the rest in getting off, and to supply the needy with ways and means, and was thus engaged all through the night and the greater part of the following day.
+[65.5] This man Cato insisted should take ship; for he was a notorious hater of Caesar. But when Statyllius would not consent, Cato turned his eyes upon Apollonides the Stoic and Demetrius the Peripatetic, saying: “It is your task to reduce this man’s swollen pride and restore him to conformity with his best interests.” He himself, however, continued to assist the rest in getting off, and to supply the needy with ways and means, and was thus engaged all through the night and the greater part of the following day.
 
-### Capítulo 66
+#### Capítulo 66
 
-[66.1] Lucius Caesar, a kinsman of the great Caesar, was about to go on an embassy to him in behalf of the three hundred, and requested Cato to suggest to him a convincing speech which he might employ in the case; for, said he, in thine own behalf it were well for me to fall down at Caesar’s knees and clasp his hands. But Cato would not suffer him to do this.
+[66.1] Lucius Caesar, a kinsman of the great Caesar, was about to go on an embassy to him in behalf of the three hundred, and requested Cato to suggest to him a convincing speech which he might employ in the case; “for,” said he, “in thine own behalf it were well for me to fall down at Caesar’s knees and clasp his hands.” But Cato would not suffer him to do this.
 
-[66.2] For if, said he, I were willing to be saved by grace of Caesar, I ought to go to him in person and see him alone; but I am unwilling to be under obligations to the tyrant for his illegal acts. And he acts illegally in saving, as if their master, those over whom he has no right at all to be the lord. However, if it is thy wish, let us consider jointly how thou mayest obtain mercy for the three hundred.
+[66.2] “For if,” said he, “I were willing to be saved by grace of Caesar, I ought to go to him in person and see him alone; but I am unwilling to be under obligations to the tyrant for his illegal acts. And he acts illegally in saving, as if their master, those over whom he has no right at all to be the lord. However, if it is thy wish, let us consider jointly how thou mayest obtain mercy for the three hundred.”
 
 [66.3] After his conference with Lucius on this matter, he presented his son and his companions to him as he was going away; and after escorting him on his way and bidding him farewell, he came back home, called together his son and his friends, and discoursed with them on many subjects. In particular, he forbade the young man to engage in political matters; for to do so worthily of a Cato was no longer possible, as things were going, and to do so otherwise would be disgraceful. And presently, towards evening, he betook himself to the bath.
 
-[66.4] But while he was bathing he bethought himself of Statyllius, and called out in loud tones, saying: Apollonides, didst thou send off Statyllius? And didst thou bring him down from that lofty purpose of his? And has the man set sail without even bidding me good-bye? By no means, said Apollonides although we reasoned much with him; but he is lofty and unbending, and says he will remain and do whatever thou doest. At this, we are told, Cato smiled, and said: Well, we shall see about that presently.
+[66.4] But while he was bathing he bethought himself of Statyllius, and called out in loud tones, saying: “Apollonides, didst thou send off Statyllius? And didst thou bring him down from that lofty purpose of his? And has the man set sail without even bidding me good-bye?” “By no means,” said Apollonides “although we reasoned much with him; but he is lofty and unbending, and says he will remain and do whatever thou doest.” At this, we are told, Cato smiled, and said: “Well, we shall see about that presently.”
 
-### Capítulo 67
+#### Capítulo 67
 
-[67.1] After his bath, he took supper with a large company, sitting at table, as was his wont after Pharsalus; indeed, he lay down only when he slept;Cf. chapter lvi. 4. and there were at supper with him all his companions, and the magistrates of Utica. After supper, there was much literary and genial discourse over the wine, and one philosophical tenet after another made the rounds, until there came up the enquiry into what were called the paradoxes of the Stoics, namely, that the good man alone is free, and that the bad are all slaves.
+[67.1] After his bath, he took supper with a large company, sitting at table, as was his wont after Pharsalus; indeed, he lay down only when he slept;[^72] and there were at supper with him all his companions, and the magistrates of Utica. After supper, there was much literary and genial discourse over the wine, and one philosophical tenet after another made the rounds, until there came up the enquiry into what were called the “paradoxes” of the Stoics, namely, that the good man alone is free, and that the bad are all slaves.
 
 [67.2] Here, as was to be expected, the Peripatetic made objections, whereupon Cato broke in with vehemence, and in loud and harsh tones maintained his argument at greatest length and with astonishing earnestness, so that everyone perceived that he had made up his mind to put an end to his life and free himself from his present troubles. Therefore, as all were dejected and silent after his discourse, Cato tried to revive their spirits and remove their suspicions by once more putting questions and expressing anxiety about what was going on, implying that he feared for those who were going away by sea, and feared, too, for those whose path lay through a barbarous and waterless desert.
 
-### Capítulo 68
+#### Capítulo 68
 
 [68.1] Thus the supper came to an end, and after walking about with his friends as he usually did after supper, he gave the officers of the watch the proper orders, and then retired to his chamber, but not until he had embraced his son and each of his friends with more than his wonted kindness, and thus awakened anew their suspicions of what was to come.
 
-[68.2] After entering his chamber and lying down, he took up Plato’s dialogue On the Soul,The Phaedo. and when he had gone through the greater part of the treatise, he looked up above his head, and not seeing his sword hanging there (for his son had taken it away while Cato was still at supper), called a servant and asked him who had taken the weapon. The servant made no answer, and Cato returned to his book; and a little while after, as if in no haste or hurry, but merely looking for his sword, he bade the servant fetch it.
+[68.2] After entering his chamber and lying down, he took up Plato’s dialogue “On the Soul,”[^73] and when he had gone through the greater part of the treatise, he looked up above his head, and not seeing his sword hanging there (for his son had taken it away while Cato was still at supper), called a servant and asked him who had taken the weapon. The servant made no answer, and Cato returned to his book; and a little while after, as if in no haste or hurry, but merely looking for his sword, he bade the servant fetch it.
 
 [68.3] But as there was some delay, and no one brought the weapon, he finished reading his book, and this time called his servants one by one and in louder tones demanded his sword. One of them he smote on the mouth with his fist, and bruised his own hand, angrily crying now in loud tones that his son and his servants were betraying him into the hands of the enemy without arms. At last his son ran in weeping, together with his friends, and after embracing him, betook himself to lamentations and entreaties.
 
-[68.4] But Cato, rising to his feet, took on a solemn look, and said: When and where, without my knowledge, have I been adjudged a madman, that no one instructs or tries to convert me in matters wherein I am thought to have made bad decisions, but I am prevented from using my own judgement, and have my arms taken from me? Why, generous boy, dost thou not also tie thy father’s hands behind his back, that Caesar may find me unable to defend myself when he comes?
+[68.4] But Cato, rising to his feet, took on a solemn look, and said: “When and where, without my knowledge, have I been adjudged a madman, that no one instructs or tries to convert me in matters wherein I am thought to have made bad decisions, but I am prevented from using my own judgement, and have my arms taken from me? Why, generous boy, dost thou not also tie thy father’s hands behind his back, that Caesar may find me unable to defend myself when he comes?”
 
-[68.5] Surely, to kill myself I have no need of a sword, when I have only to hold my breath a little while, or dash my head against the wall, and death will come.
+[68.5] “Surely, to kill myself I have no need of a sword, when I have only to hold my breath a little while, or dash my head against the wall, and death will come.”
 
-### Capítulo 69
+#### Capítulo 69
 
-[69.1] As Cato said these words the young man went out sobbing, and all the rest also, except Demetrius and Apollonides. These alone remained, and with these Cato began to talk, now in gentler tones. I suppose, said he, that ye also have decided to detain in life by force a man as old as I am, and to sit by him in silence and keep watch of him: or are ye come with the plea that it is neither shameful nor dreadful for Cato, when he has no other way of salvation, to await salvation at the hands of his enemy?
+[69.1] As Cato said these words the young man went out sobbing, and all the rest also, except Demetrius and Apollonides. These alone remained, and with these Cato began to talk, now in gentler tones. “I suppose,” said he, “that ye also have decided to detain in life by force a man as old as I am, and to sit by him in silence and keep watch of him: or are ye come with the plea that it is neither shameful nor dreadful for Cato, when he has no other way of salvation, to await salvation at the hands of his enemy?”
 
-[69.2] Why, then, do ye not speak persuasively and convert me to this doctrine, that we may cast away those good old opinions and arguments which have been part of our very lives, be made wiser through Caesar’s efforts, and therefore be more grateful to him? And yet I, certainly, have come to no resolve about myself; but when I have come to a resolve, I must be master of the course which I decide to take.
+[69.2] “Why, then, do ye not speak persuasively and convert me to this doctrine, that we may cast away those good old opinions and arguments which have been part of our very lives, be made wiser through Caesar’s efforts, and therefore be more grateful to him? And yet I, certainly, have come to no resolve about myself; but when I have come to a resolve, I must be master of the course which I decide to take.”
 
-[69.3] And I shall come to a resolve with your aid, as I might say, since I shall reach it with the aid of those doctrines which ye also adopt as philosophers. So go away with a good courage, and bid my son not to try force with his father when he cannot persuade him.
+[69.3] “And I shall come to a resolve with your aid, as I might say, since I shall reach it with the aid of those doctrines which ye also adopt as philosophers. So go away with a good courage, and bid my son not to try force with his father when he cannot persuade him.”
 
-### Capítulo 70
+#### Capítulo 70
 
-[70.1] Without making any reply to this, but bursting into tears, Demetrius and Apollonides slowly withdrew. Then the sword was sent in, carried by a little child, and Cato took it, drew it from its sheath, and examined it. And when he saw that its point was keen and its edge still sharp, he said: Now I am my own master. Then he laid down the sword and resumed his book, and he is said to have read it through twice.
+[70.1] Without making any reply to this, but bursting into tears, Demetrius and Apollonides slowly withdrew. Then the sword was sent in, carried by a little child, and Cato took it, drew it from its sheath, and examined it. And when he saw that its point was keen and its edge still sharp, he said: “Now I am my own master.” Then he laid down the sword and resumed his book, and he is said to have read it through twice.
 
 [70.2] Afterwards he fell into so deep a sleep that those outside the chamber heard him. But about midnight he called two of his freedmen, Cleanthes the physician, and Butas, who was his chief agent in public matters. Butas he sent down to the sea, to find out whether all had set sail successfully, and bring him word; while to the physician he gave his hand to bandage, since it was inflamed by the blow that he had given the slave.
 
@@ -812,28 +809,120 @@ In reply to this, alter praising their good will, Cato said that to secure their
 
 [70.6] They saw that he was smeared with blood, and that most of his bowels were protruding, but that he still had his eyes open and was alive; and they were terribly shocked. But the physician went to him and tried to replace his bowels, which remained uninjured, and to sew up the wound. Accordingly, when Cato recovered and became aware of this, he pushed the physician away, tore his bowels with his hands, rent the wound still more, and so died.
 
-### Capítulo 71
+#### Capítulo 71
 
 [71.1] Before one would have thought that all in the house could learn of the event, the three hundred were at the door, and a little later the people of Utica had assembled. With one voice they called Cato their saviour and benefactor, the only man who was free, the only one unvanquished.
 
 [71.2] And this they continued to do even when word was brought that Caesar was approaching. But neither fear of the conqueror, nor a desire to flatter him, nor their mutual strife and dissension, could blunt their desire to honour Cato. They decked his body in splendid fashion, gave it an illustrious escort, and buried it near the sea, where a statue of him now stands, sword in hand. Then they turned their thoughts to their own salvation and that of their city.
 
-### Capítulo 72
+#### Capítulo 72
 
 [72.1] When Caesar learned from people who came to him that Cato was remaining in Utica and not trying to escape, but that he was sending off the rest, while he himself, his companions, and his son, were fearlessly going up and down, he thought it difficult to discern the purpose of the man, but since he made the greatest account of him, he came on with his army in all haste.
 
-[72.2] When, however, he heard of his death, he said thus much only, as we are told: O Cato, I begrudge thee thy death; for thou didst begrudge me the sparing of thy life. For, in reality, if Cato could have consented to have his life spared by Caesar, he would not be thought to have defiled his own fair fame, but rather to have adorned that of Caesar. However, what would have happened is uncertain; though the milder course is to be conjectured on the part of Caesar.
+[72.2] When, however, he heard of his death, he said thus much only, as we are told: “O Cato, I begrudge thee thy death; for thou didst begrudge me the sparing of thy life.” For, in reality, if Cato could have consented to have his life spared by Caesar, he would not be thought to have defiled his own fair fame, but rather to have adorned that of Caesar. However, what would have happened is uncertain; though the milder course is to be conjectured on the part of Caesar.
 
-### Capítulo 73
+#### Capítulo 73
 
-[73.1] When Cato died,In 46 B.C. A single letter of his to Cicero is extant ( ad div. xv. 5): cf. chapter xxiii. 3. he was forty-eight years old. His son received no harm at the hands of Caesar, but he was of an easy disposition, as we are told, and in his relations with women not blameless. In Cappadocia he enjoyed the hospitality of Marphadates, one of the royal family, who had a comely wife; and since young Cato spent more time with them than was seemly,
+[73.1] When Cato died,[^74] he was forty-eight years old. His son received no harm at the hands of Caesar, but he was of an easy disposition, as we are told, and in his relations with women not blameless. In Cappadocia he enjoyed the hospitality of Marphadates, one of the royal family, who had a comely wife; and since young Cato spent more time with them than was seemly,
 
-[73.2] he was satirized in such writings as these: On the morrow Cato journeys,—after a good round thirty days; and, Marphadates and Porcius, two friends with but a single Soul. For the wife of Marphadates was named Psyche (soul). And again: Nobody born, illustrious, our Cato hath a royal Soul.
+[73.2] he was satirized in such writings as these:
+
+```verso
+On the morrow Cato journeys,—after a good round thirty days;
+```
+
+and,
+
+```verso
+Marphadates and Porcius, two friends with but a
+single Soul.
+```
+
+For the wife of Marphadates was named Psyche (soul). And again:
+
+```verso
+Nobody born, illustrious, our Cato hath a royal
+Soul.
+```
 
 [73.3] But all such ill-report was blotted out and removed by the manner of his death. For he fought at Philippi against Caesar and Antony, in behalf of liberty; and when his line of battle was giving way, he deigned not either to fly or to hide himself, but challenged the enemy, displayed himself in front of them, cheered on those who held their ground with him, and so fell, after amazing his foes by his valour.
 
-[73.4] And still more true is it that the daughter of Cato was deficient neither in prudence nor courage. She was the wife of the Brutus who slew Caesar, was privy to the conspiracy itself, and gave up her life in a manner worthy of her noble birth and her lofty character, as is told in the Life of Brutus. Chapters xiii. and liii. Statyllius, too, who declared that he would follow Cato’s example,Cf. above, chapter lxvi. 4. was prevented at the time by the philosophers from destroying himself, as he wished to do, but afterwards gave most faithful and efficient service to Brutus, and died at Philippi.Cf. the Brutus, li. 4.
+[73.4] And still more true is it that the daughter of Cato was deficient neither in prudence nor courage. She was the wife of the Brutus who slew Caesar, was privy to the conspiracy itself, and gave up her life in a manner worthy of her noble birth and her lofty character, as is told in the Life of Brutus.[^75] Statyllius, too, who declared that he would follow Cato’s example,[^76] was prevented at the time by the philosophers from destroying himself, as he wished to do, but afterwards gave most faithful and efficient service to Brutus, and died at Philippi.[^77]
 
----
-
-*Ὁ Διαφορεύς παρῆν*
+[^1]: By her second husband, Q. Servilius Caepio, who was also the father of Cato’s half-brother Caepio.
+[^2]: Cf. Aristotle, De Mem. i. 1, 2, 24.
+[^3]: Erroneously called Publius Silo in the Marius, xxxiii. 2.
+[^4]: This incident must have happened, if at all, in 91 B.C. when Cato was four years old; but it need not be inferred that he had already formed an opinion on public affairs. The story is told also in Valerius Maximus, iii. 1, 2.
+[^5]: Cf. Vergil, Aeneid, v. 553 ff.
+[^6]: Both here, and in i. 1, Plutarch carelessly speaks as though Caepio were his own brother, and not the half-brother, of Cato.
+[^7]: Cf. the Cato Major, xix. 2. This was in 182 B.C.
+[^8]: The highest throw at dice was called the Venus-throw.
+[^9]: In 73-71 B.C. Cf. the Crassus, viii. ff.
+[^10]: Lucius Gellius Publicola, consul in 72 B.C. with Cornelius Lentulus Clodianus. Both consuls were defeated by Spartacus.
+[^11]: Attendants whose duty it was to tell the candidate the names of those whom he was going to meet, that he might appear to be acquainted with them.
+[^12]: About 67 B.C.
+[^13]: Cf. chapter v. 3.
+[^14]: Julius Caesar, in his Anti-Cato. See the Caesar, chapter liv.
+[^15]: This story is told also in the Pompey, xl. 1-3.
+[^16]: Plutarch is seeking a Greek equivalent for the Latin mansuetior.
+[^17]: Cf. chapter x.
+[^18]: In 65 B.C.
+[^19]: Cf. the Lucullus, xl. 3.
+[^20]: In 63 B.C.
+[^21]: At this time the number of the popular tribunes was ten.
+[^22]: Silanus and Murena were consuls in 62 B.C.
+[^23]: 63 B.C.
+[^24]: Cf. the Caesar, vii. 4-viii. 2; and the Cicero, x. ff.
+[^25]: Plutarch’s ambiguous words here must be interpreted by comparison with the Brutus, v. 2 f., where the same story is told.
+[^26]: See the Lucullus, xxxviii. 1.
+[^27]: It is plain that Cato divorced Marcia; otherwise her father could not have given her in marriage to Hortensius.
+[^28]: Probably in 56 B.C.
+[^29]: Cf. the Caesar, viii. 4.
+[^30]: Pompey had just finished his conquest of Mithridates and was on the way home from Asia (62 B.C.).
+[^31]: Cf. chapter xxi. 3-6.
+[^32]: The steps of the temple of Castor led down to a platform, from which the people were often addressed.
+[^33]: He came back in 66 B.C., and had to wait three years before being allowed to celebrate a triumph. Cf. the Lucullus, xxxvii.
+[^34]: In 62 B.C.
+[^35]: Lucius Afranius, elected consul in 61 B.C. for the year 60 B.C. Cf. the Pompey, xliv. 3.
+[^36]: Cf. the Pompey, xliv.
+[^37]: Cf. the Lucullus, xlii. 6; Pompey, xlvi. 3 f.
+[^38]: In the summer of 60 B.C.
+[^39]: Cf. the Caesar, xiii. 1 f.
+[^40]: Cf. the Caesar, xiv. 1.
+[^41]: Cf. the Pompey, xlviii. 1.
+[^42]: Cf. the Caesar, xiv. 2 f.
+[^43]: In 100 B.C. Cf. the Marius, xxix.
+[^44]: For the year 58 B.C.
+[^45]: A younger brother of Ptolemy Auletes the king of Egypt.
+[^46]: Cf. the Brutus, iii. 1.
+[^47]: See chapter xi. 4, and note.
+[^48]: Cf. chapter xxv. 5.
+[^49]: In 56 B.C.
+[^50]: In 57 B.C., after an absence of sixteen months. Cf. the Cicero, chapters xxx.-xxxiii.
+[^51]: Cf. chapter xxxiii.
+[^52]: Cf. the Cicero, xxxiv.
+[^53]: At Luca, in 56 B.C. Cf. the Pompey, li.; the Caesar, xxi.
+[^54]: For the year 55 B.C.
+[^55]: 54 B.C.
+[^56]: Cf. chapter i. 2.
+[^57]: For the year 52 B.C. Riots in Rome prevented any election. Cf. the Pompey, chapter liv.
+[^58]: Cf. the Pompey, lv. 5.
+[^59]: Cf. Caesar, Bell. Gall. iv. 12-15; Plutarch, Caesar, xxii.
+[^60]: Cf. the Caesar, xxx.; the Pompey, lviii.
+[^61]: In 49 B.C. Cf the Caesar, xxxii. fin.; the Pompey, lx. 1.
+[^62]: In 50 B.C. Cf. chapter xxv.
+[^63]: In his treatise entitled Anti-Cato. Cf. chapter xi. 4.
+[^64]: Hercules Furens, 173 f. (Kirchhoff).
+[^65]: Cf. chapter xxiv. 3.
+[^66]: In his Anti-Cato. Cf. chapter xi. 4.
+[^67]: Chapter lxv. Cf. the Caesar, xxxix.
+[^68]: Gnaeus Pompey, the elder son of Pompey the Great. Cf. chapter lix. 5.
+[^69]: Now a partisan of Pompey, and a fugitive from Pharsalus. Cf. the Caesar, xxxiv. 2.
+[^70]: Cf Herodotus, iv. 173.
+[^71]: The text of this sentence is uncertain: Sintenis and Bekker assume a lacuna. Libya means here the Roman province of Africa.
+[^72]: Cf. chapter lvi. 4.
+[^73]: The Phaedo.
+[^74]: In 46 B.C. A single letter of his to Cicero is extant (ad div. xv. 5): cf. chapter xxiii. 3.
+[^75]: Chapters xiii. and liii.
+[^76]: Cf. above, chapter lxvi. 4.
+[^77]: Cf. the Brutus, li. 4.

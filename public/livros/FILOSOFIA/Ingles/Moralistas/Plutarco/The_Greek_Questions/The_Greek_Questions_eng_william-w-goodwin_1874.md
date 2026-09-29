@@ -1,34 +1,26 @@
 ---
 id: plutarco-the-greek-questions-eng-william-w-goodwin-1874
-type: texto_primario
-title: "Greek Questions"
-subtitle: null
+type: translation
+title: Greek Questions
 author: Plutarch
-year_original: null
-language: eng
-translation:
-  - William W. Goodwin
+translator:
+- Isaac Chauncy
 publisher: Little, Brown, and Company
-area: null
-era: null
-tags: []
-status: rascunho
+language: eng
+tags:
+- moralists
+status: draft
 project: pedra_angular
-source: "Plutarch. Greek Questions. Ed. William W. Goodwin. Boston: Little, Brown, and Company, 1874. Perseus Digital Library, Tufts University (CC BY-SA 4.0). URN: null"
-related: []
+urn_work: urn:cts:greekLit:tlg0007.tlg084b
+urn: urn:cts:greekLit:tlg0007.tlg084b.perseus-eng4
+source: 'Plutarch. Greek Questions. Ed. William W. Goodwin. Boston: Little, Brown, and Company, 1874. Perseus Digital Library, Tufts University (CC BY-SA 4.0).'
+source_repo: PerseusDL/canonical-greekLit
+source_file: data/tlg0007/tlg084b/tlg0007.tlg084b.perseus-eng4.xml
+source_commit: e37eed2e8
+license: CC-BY-SA-4.0
 ---
 
 # Greek Questions
-
-**Plutarch**
-
-Boston: Little, Brown, and Company, 1874.
-Perseus Digital Library, Tufts University (CC BY-SA 4.0).
-URN: `null`
-
----
-
-## Texto
 
 [1] Question 1. Who are they at Epidaurus called Κονίποδες and Ἄρτυνοι?
 
@@ -48,7 +40,7 @@ Solution. The sixty select men chosen from among the nobles, whom they used as o
 
 [5] Question 5. Who were the Χρηστοί among the Arcadians and Lacedaemonians?
 
-Solution. When the Lacedaemonians were agreed with the Tegeats, they made a league with them, and set up a common pillar on the river Alpheus, upon which this is written, among other things, Drive out the Messenians from your borders, and make none of them χρηστοί, good. Aristotle interpreting this saith, that none of the Tegeats ought to be slain that endeavored to bring aid to the Lacedaemonians.
+Solution. When the Lacedaemonians were agreed with the Tegeats, they made a league with them, and set up a common pillar on the river Alpheus, upon which this is written, among other things, “Drive out the Messenians from your borders, and make none of them χρηστοί, good. ” Aristotle interpreting this saith, that none of the Tegeats ought to be slain that endeavored to bring aid to the Lacedaemonians.
 
 [6] Question 6. Who is Κριθολόγος among the Opuntians?
 
@@ -56,11 +48,11 @@ Solution. The most of the Greeks did use barley at their ancient sacrifices, whe
 
 [7] Question 7. What sort of clouds are the Ploiades?
 
-Solution. Showering clouds which were carried up and down were, for the most part, called Ploiades, as Theophrastus hath said expressly in his fourth book of Meteors: Whereas indeed the Ploiades are those clouds which have a consistency and are not so movable, but as to color white, which discover a kind of different matter, neither very watery nor very windy.
+Solution. Showering clouds which were carried up and down were, for the most part, called Ploiades, as Theophrastus hath said expressly in his fourth book of Meteors: “Whereas indeed the Ploiades are those clouds which have a consistency and are not so movable, but as to color white, which discover a kind of different matter, neither very watery nor very windy.”
 
 [8] Question 8. Who is called Platychaetas among the Boeotians?
 
-Solution. They that had many neighboring houses or bordering fields were so called in the Aeolic dialect, as having wide domains.See the word πλατυχαίτας (probably corrupt) in Liddell and Scott’s Greek Lexicon. (G.) I will add one saying out of the Thesmophylacian law, seeing there are many....
+Solution. They that had many neighboring houses or bordering fields were so called in the Aeolic dialect, as having wide domains.[^1] I will add one saying out of the Thesmophylacian law, seeing there are many....
 
 [9] Question 9. Who is he among the people of Delphi who is called Ὁσιωτήρ? And why do they call one of the months Bysius?
 
@@ -88,7 +80,7 @@ Solution. After the slaughter of the suitors, some near related to the deceased 
 
 [15] Question 15. What is the wooden dog among the Locrians?
 
-Solution. Locrus was the son of Fuscius, the son of Amphictyon. Of him and Cabya came Locrus, with whom his father falling into contention, and gathering after him a great number of citizens, consulted the oracle about transplanting a colony. The oracle told him that there he should build a city, where he should happen to be bit by a wooden dog. He, wafting over the sea unto the next shore, trod upon a cynosbatus (a sweet brier), and being sorely pained with the prick, he spent many days there; in which time considering the nature of the country, he built Physcus and Hyantheia, and other towns which the Ozolian Locrians inhabited. Some say that the Locrians were called Ozolians (strong-scented people) from Nessus —others again from Python the serpent—cast up there by the surf of the sea, and putrefying upon the shore. And some say that the men wore pelts and ram-goat skins, living for the most part among the herds of goats, and therefore were strong-scented. Others contrariwise say that the country brought forth many flowers, and that this name was from their sweet odor; among them that assert this is Archytas the Amphissean, who hath wrote thus: Macyna crowned with vines fragrant and sweet.
+Solution. Locrus was the son of Fuscius, the son of Amphictyon. Of him and Cabya came Locrus, with whom his father falling into contention, and gathering after him a great number of citizens, consulted the oracle about transplanting a colony. The oracle told him that there he should build a city, where he should happen to be bit by a wooden dog. He, wafting over the sea unto the next shore, trod upon a cynosbatus (a sweet brier), and being sorely pained with the prick, he spent many days there; in which time considering the nature of the country, he built Physcus and Hyantheia, and other towns which the Ozolian Locrians inhabited. Some say that the Locrians were called Ozolians (strong-scented people) from Nessus —others again from Python the serpent—cast up there by the surf of the sea, and putrefying upon the shore. And some say that the men wore pelts and ram-goat skins, living for the most part among the herds of goats, and therefore were strong-scented. Others contrariwise say that the country brought forth many flowers, and that this name was from their sweet odor; among them that assert this is Archytas the Amphissean, who hath wrote thus: “Macyna crowned with vines fragrant and sweet.”
 
 [16] Question 16. What manner of thing is that among the Megarians called ἀφάβρωμα?
 
@@ -102,13 +94,20 @@ Solution. The country of Megaris was anciently settled in villages, the inhabita
 
 Solution. When the Megarians had expelled Theagenes the tyrant, they managed the commonweal for some time with moderation. But then (to speak with Plato), when their orators had filled out to them, even to excess, the pure strong wine of liberty, they became altogether corrupt, and the poor carried themselves insolently toward the richer sort in this among other things, that they entered into their houses and demanded that they might be feasted and sumptuously treated. But where they prevailed not, they used violence and abusive behavior, and at last enacted a law to enable them to fetch back from the usurers the use-money which at any time they had paid, calling the execution thereof palintocia, i.e. the returning of use-money.
 
-[19] Question 19. What is the Anthedon of which Pythia speaks, Drink wine on th’ lees, Anthedon’s not thy home? For Anthedon in Boeotia did not produce much wine.
+[19] Question 19. What is the Anthedon of which Pythia speaks, “Drink wine on th’ lees, Anthedon’s not thy home?” For Anthedon in Boeotia did not produce much wine.
 
-Solution. Of old they called Calauria Irene from a woman Irene, which they fable to be the daughter of Neptune and Melanthea, the daughter of Alpheus. Afterwards, when the people of Anthes and Hyperes planted there, they called the island Anthedonia and Hyperia. The oracle, as Aristotle saith, was this: Drink wine on th’ lees, Anthedon’s not thy home, Nor sacred Hypera where thou drank’st pure wine. Thus Aristotle; but Mnasigeiton saith that Anthus, who was brother to Hypera, was lost when he was an infant, and Hypera rambling about to find him, came at Pherae to Acastus (or Adrastus), where by chance he found Anthus serving as a wine-drawer. There while they were feasting, the boy bringing a cup of wine to his sister, he knew her, and said to her softly, Drink wine on th’ lees, Anthedon’s not thy home.
+Solution. Of old they called Calauria Irene from a woman Irene, which they fable to be the daughter of Neptune and Melanthea, the daughter of Alpheus. Afterwards, when the people of Anthes and Hyperes planted there, they called the island Anthedonia and Hyperia. The oracle, as Aristotle saith, was this:
+
+```verso
+Drink wine on th’ lees, Anthedon’s not thy home,
+Nor sacred Hypera where thou drank’st pure wine.
+```
+
+Thus Aristotle; but Mnasigeiton saith that Anthus, who was brother to Hypera, was lost when he was an infant, and Hypera rambling about to find him, came at Pherae to Acastus (or Adrastus), where by chance he found Anthus serving as a wine-drawer. There while they were feasting, the boy bringing a cup of wine to his sister, he knew her, and said to her softly, “Drink wine on th’ lees, Anthedon’s not thy home.”
 
 [20] Question 20. What is that darkness at the oak, spoken of in Priene?
 
-Solution. The Samians and Prienians waging war with each other, as at other times they sufficiently injured each other, so at a certain great fight the Prienians slew a thousand of the Samians. Seven years after, fighting with the Milesians at the said oak, they lost all the principal and chief of their citizens together, at the time when Bias the Wise (who was sent ambassador from Priene to Samos) was famous. This grievous and sad calamity befalling the women, there was established an execration and oath—to be taken about matters of the greatest concern—by the Darkness at the Oak, because their children, fathers, and husbands were there slain.
+Solution. The Samians and Prienians waging war with each other, as at other times they sufficiently injured each other, so at a certain great fight the Prienians slew a thousand of the Samians. Seven years after, fighting with the Milesians at the said oak, they lost all the principal and chief of their citizens together, at the time when Bias the Wise (who was sent ambassador from Priene to Samos) was famous. This grievous and sad calamity befalling the women, there was established an execration and oath—to be taken about matters of the greatest concern—by “the Darkness at the Oak,” because their children, fathers, and husbands were there slain.
 
 [21] Question 21. Who were they among the Cretans called Κατακαῦται?
 
@@ -130,7 +129,7 @@ Solution. It was a custom among those that lost any of their kindred or acquaint
 
 Solution. For we must not give credit to those that say that such are called aliterii who, in the time of dearth, watch the miller (ἀλοῦντα ἐπιτηροῦντες) and steal the corn. But he was called Alastor who did exploits not to be forgotten (ἄληστα) but to be had in remembrance for a long time. Aliterius is he whom we should avoid (ἀλεύασθαι) and observe upon the account of his knavery. Such things (saith Socrates) were engraven in plates of brass.
 
-[26] Question 26. What is the meaning of this, that the virgins that follow those that lead the ox from Aenos to Cassiopaea sing, till they approach the borders, in this manner, To native country dear O may ye ne’er return?
+[26] Question 26. What is the meaning of this, that the virgins that follow those that lead the ox from Aenos to Cassiopaea sing, till they approach the borders, in this manner, “To native country dear O may ye ne’er return?”
 
 Solution. The Aenianes, being first driven out by the Lapithae, took up their habitation about Aethacia, and then about Molossis and Cassiopaca. But the country affording no staple commodity, and being ill bestead with troublesome neighbors, they went into the Cirraean plain, under the conduct of Oenoclus their king. And when there were great droughts there, by warning from an oracle (as they say) they stoned Oenoclus; and betaking themselves to ramble again, they came into this country which they now possess, being very pleasant and fruitful. Whence with good reason they pray to the Gods that they may never return again to their ancient native country, but may abide where they are in prosperity.
 
@@ -166,11 +165,11 @@ Solution. They say that Nauplius, being persecuted by the Achaeans, addressed hi
 
 Solution. In a haven of Ithaca there was a pirate ship, in which happened to be an old man who had earthen pots holding pitch. It fell out that an Ithacan skipper named Pyrrhias put into this port, who ransomed the old man upon free cost, only upon his supplication and out of commiseration towards him, and at the request of the old man he purchased also some of his tar-pots. The pirates departing and all fear of danger over, the old fellow brings Pyrrhias to his earthen pots, and shows him a great deal of gold and silver blended amongst the pitch; whereupon Pyrrhias attaining to great riches treated the old man well in all respects, and sacrificed an ox to him. Hence they say proverbially that none hath sacrificed an ox to his benefactor but Pyrrhias.
 
-[35] Question 35. Why was there a custom amongst the Bottiaean maids, as they danced, to sing, Let us go to Athens?
+[35] Question 35. Why was there a custom amongst the Bottiaean maids, as they danced, to sing, “Let us go to Athens”?
 
-Solution. It is reported that the Cretans (in payment of a vow) sent the firstlings of men to Delphi; but when such as were sent found no plentiful provision there, they departed from thence in search of a plantation, and first sat down at Japygia. From thence they went and possessed that part of Thrace which now they have, Athenians being mixed with them; for it is probable that Minos did not destroy those young men which the Athenians sent in a way of tribute, but only detained them in servitude. Some that were descended from these and were accounted Cretans were sent with others to Delphi; so the Bottiaean daughters, in remembrance of their pedigree, sing on their feast-days, Let us go to Athens.
+Solution. It is reported that the Cretans (in payment of a vow) sent the firstlings of men to Delphi; but when such as were sent found no plentiful provision there, they departed from thence in search of a plantation, and first sat down at Japygia. From thence they went and possessed that part of Thrace which now they have, Athenians being mixed with them; for it is probable that Minos did not destroy those young men which the Athenians sent in a way of tribute, but only detained them in servitude. Some that were descended from these and were accounted Cretans were sent with others to Delphi; so the Bottiaean daughters, in remembrance of their pedigree, sing on their feast-days, “Let us go to Athens.”
 
-[36] Question 36. Why do the Eleian women in their hymns beseech Bacchus that he will come to their help with an ox’s foot? The hymns run thus: Come, O hero Bacchus, to thy holy temple placed by the sea; hasten with the Graces to thy temple with a neat’s foot. Then they redouble this, O worthy Bull!
+[36] Question 36. Why do the Eleian women in their hymns beseech Bacchus that he will come to their help with an ox’s foot? The hymns run thus: “Come, O hero Bacchus, to thy holy temple placed by the sea; hasten with the Graces to thy temple with a neat’s foot.” Then they redouble this, “O worthy Bull”!
 
 Solution. Was it because some call Bacchus Bull-begot, and some Bull? Or as some say ox-foot for a great foot; as the poet saith ox-eye for a great eye, and Βουλάϊος for haughty? Or is it rather, because the foot of an ox is innocent and his bearing horns on his head is pernicious, that so they desire the God may come to them mild and harmless? Or is it because many men are of opinion that this God presides over ploughing and sowing?
 
@@ -184,7 +183,7 @@ Solution. They say that Minos’s daughters—Leucippe, Arsinoe, and Alcathoe—
 
 [39] Question 39. Why do the Arcadians stone those that go willingly into the Lycaeum, while those that go in ignorantly they carry forth to Eleutherae?
 
-Solution. Is it on the ground that they gained their liberty by being thus absolved, that the story has gained credit? And is this saying to Eleutherae the same as into the region of security, or thou shalt come to the seat of pleasure? Or is the reason to be rendered according to that fabulous story, that of all the sons of Lycaon Eleuther and Lebadus alone were free from that conspiracy against Jupiter, and fled into Boeotia, where the Lebadenses use the like civil polity to that of the Arcadians, and therefore they send them to Eleutherae that enter unwittingly into the inaccessible temple of Jupiter? Or is it (as Architimus saith in his remarks on Arcadia) that some that went into the Lycaeum unawares were delivered up to the Phliasians by the Arcadians, and by the Phliasians to the Megarians, and by the Megarians to the Thebans which inhabit about Eleutherae, where they are detained under rain, thunder, and other direful judgments from Heaven; and upon this account some say this place was called Eleutherae. But the report is not true that he that enters into the Lycaeum casts no shadow, though it hath had a firm belief. And what if this be the reason of that report, that the air converted into clouds looks darkly on them that go in? Or that he that goes in falls down dead?—for the Pythagoreans say that the souls of the deceased do neither give a shadow nor wink. Or is it that the sun only makes a shadow, and the law bereaveth him that entereth here of the sight of the sun? Though this they speak enigmatically; for verily he that goes in is called Elaphus, a stag. Hence the Lacedaemonians delivered up to the Arcadians Cantharion the Arcadian, who went over to the Eleans whilst they waged war with the Arcadians, passing with his booty through the inaccessible temple, and fled to Sparta when the war was ended; the oracle requiring them to restore the stag.
+Solution. Is it on the ground that they gained their liberty by being thus absolved, that the story has gained credit? And is this saying “to Eleutherae” the same as “into the region of security,” or “thou shalt come to the seat of pleasure”? Or is the reason to be rendered according to that fabulous story, that of all the sons of Lycaon Eleuther and Lebadus alone were free from that conspiracy against Jupiter, and fled into Boeotia, where the Lebadenses use the like civil polity to that of the Arcadians, and therefore they send them to Eleutherae that enter unwittingly into the inaccessible temple of Jupiter? Or is it (as Architimus saith in his remarks on Arcadia) that some that went into the Lycaeum unawares were delivered up to the Phliasians by the Arcadians, and by the Phliasians to the Megarians, and by the Megarians to the Thebans which inhabit about Eleutherae, where they are detained under rain, thunder, and other direful judgments from Heaven; and upon this account some say this place was called Eleutherae. But the report is not true that he that enters into the Lycaeum casts no shadow, though it hath had a firm belief. And what if this be the reason of that report, that the air converted into clouds looks darkly on them that go in? Or that he that goes in falls down dead?—for the Pythagoreans say that the souls of the deceased do neither give a shadow nor wink. Or is it that the sun only makes a shadow, and the law bereaveth him that entereth here of the sight of the sun? Though this they speak enigmatically; for verily he that goes in is called Elaphus, a stag. Hence the Lacedaemonians delivered up to the Arcadians Cantharion the Arcadian, who went over to the Eleans whilst they waged war with the Arcadians, passing with his booty through the inaccessible temple, and fled to Sparta when the war was ended; the oracle requiring them to restore the stag.
 
 [40] Question 40. Who is Eunostus, the hero of Tanagra; and what is the reason that women may not enter into his grove?
 
@@ -194,7 +193,7 @@ Solution. Eunostus was the son of Elieus who came of Cephisus and Scias, but the
 
 Solution. Deimachus, the son of Elcon and intimate friend of Hercules, bore his part in the siege of Troy. But the war proving long (as it seems), he took to him Glaucia the daughter of Scamander who had fallen in love with him, and got her with child: soon after, fighting against the Trojans, he was slain. Glaucia, fearing that she might be apprehended, fled to Hercules, and acquainted him with her late affection towards Deimachus, and the familiarity she had with him. Hercules, both out of commiseration to the woman, as also for joy that there was an offspring left of so good a man and his intimate acquaintance, took Glaucia on shipboard; and when she was delivered of a son, brought her into Boeotia, and committed her and her child to the care of Eleon. The son was named Scamander, and came to reign over that country. He called the river Inachus by his own name Scamander, and the next rivulet he named from his mother Glaucia; but the fountain he called Acidusa by his own wife’s name, by whom he had three daughters, which they have a veneration for to this day, styling them virgins.
 
-[42] Question 42. Whence was that proverbial speech, Let this prevail?
+[42] Question 42. Whence was that proverbial speech, “Let this prevail”?
 
 Solution. Dinon the Tarentine general, being a man well skilled in military affairs, when the citizens manifested their dislike of a certain opinion of his by lifting up of hands, as the crier was declaring the majority of votes, stretched forth his right hand and said, This is better. Thus Theophrastus hath told the story; and Apollodorus in his Rhytinus adds this: When the crier had said, ’These are the most suffrages;’ ’Aye, but,’ saith Dinon, ’these are the best,’ and ratifies the suffrages of the minority.
 
@@ -214,7 +213,7 @@ Solution. Because Hercules slaying Hippolyta, and taking away from her amongst o
 
 Solution. Was it because the Leleges and Minyae, in former times driving out the Trallians, possessed themselves of the city and that country, and afterwards the Trallians returned and conquered them; and as many of the Leleges as were not slain or fled, but by reason of indigency and weakness were left there, they made no account of whether they lived or died, and therefore enacted a law that any Trallian that slew one of the Minyae or Leleges should be guiltless, provided only that he paid a measure of this pulse to the relatives of the slain person?
 
-[47] Question 47. Why is it spoken by way of proverb amongst the Eleans, Thou sufferest worse things than Sambicus?
+[47] Question 47. Why is it spoken by way of proverb amongst the Eleans, “Thou sufferest worse things than Sambicus”?
 
 Solution. It is said that one Sambicus an Elean, having many comrades with him, did break off many of the devoted bronze offerings placed in Olympia and disposed of them, and at length robbed the temple of Diana the Bish opess (which temple is in Elis, and is called Aristarchaeum. Presently after the committing of this sacrilege, he was taken and tormented the space of a year, being examined concerning all his accessories, and so died; hence this proverb arose from his suffering.
 
@@ -264,8 +263,7 @@ Solution. Hercules, setting sail from Troy with six ships, was attacked by a sto
 
 [59] Question 59. Whence was the race of Hamaxocylists in Megara?
 
-Solution. In that licentious democracy under which the demanding back of interest money paid to usurersCalled παλιντοκία.n See above, Question 18. (G.) was introduced and sacrilege was permitted, the Peloponnesians went on a pilgrimage to Delphi through the borders of Megara, and lodged in Aegira by the lake-side with their wives and children, in their caravans, as they best could. There a resolute drunken company of the Megarians in a riotous and cruel manner overturned their wagons, and overwhelmed them in the lake; so that many of the pilgrims were drowned. The Megarians indeed, by reason of the disorder of the government, neglected the punishment of this wickedness; but the Amphictyons, taking into consideration the sanctity of this pilgrimage, punished the actors of this villany, some with banishment, some with death. Hence the posterity of these villains were called Ἁμαξοκυλισταί, i.e. overturners of wagons.
+Solution. In that licentious democracy under which the demanding back of interest money paid to usurers[^2] was introduced and sacrilege was permitted, the Peloponnesians went on a pilgrimage to Delphi through the borders of Megara, and lodged in Aegira by the lake-side with their wives and children, in their caravans, as they best could. There a resolute drunken company of the Megarians in a riotous and cruel manner overturned their wagons, and overwhelmed them in the lake; so that many of the pilgrims were drowned. The Megarians indeed, by reason of the disorder of the government, neglected the punishment of this wickedness; but the Amphictyons, taking into consideration the sanctity of this pilgrimage, punished the actors of this villany, some with banishment, some with death. Hence the posterity of these villains were called Ἁμαξοκυλισταί, i.e. overturners of wagons.
 
----
-
-*Ὁ Διαφορεύς παρῆν*
+[^1]: See the word πλατυχαίτας (probably corrupt) in Liddell and Scott’s Greek Lexicon. (G.)
+[^2]: Called παλιντοκία.n See above, Question 18. (G.)

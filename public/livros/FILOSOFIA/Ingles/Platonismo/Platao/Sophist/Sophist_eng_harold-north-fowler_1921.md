@@ -1,44 +1,39 @@
 ---
 id: platao-sophist-eng-harold-north-fowler-1921
-type: texto_primario
-title: "Sophist"
-subtitle: null
+type: translation
+title: Sophist
 author: Plato
-year_original: null
-language: eng
-translation:
-  - Harold North Fowler
+translator:
+- Harold North Fowler
 publisher: Cambridge, MA, Harvard University Press; London, William Heinemann Ltd.
-area: null
-era: null
-tags: []
-status: rascunho
+language: eng
+tags:
+- classical-philosophy
+- ancient-philosophy
+- century-4-bce
+- platonism
+status: draft
 project: pedra_angular
-source: "Plato. Sophist. Ed. Harold North Fowler. null: Cambridge, MA, Harvard University Press; London, William Heinemann Ltd., 1921. Perseus Digital Library, Tufts University (CC BY-SA 4.0). URN: null"
-related: []
+urn_work: urn:cts:greekLit:tlg0059.tlg007
+urn: urn:cts:greekLit:tlg0059.tlg007.perseus-eng2
+source: Plato. Sophist. Ed. Harold North Fowler. Cambridge, MA, Harvard University Press; London, William Heinemann Ltd., 1921. Perseus Digital Library, Tufts University (CC BY-SA 4.0).
+source_repo: PerseusDL/canonical-greekLit
+source_file: data/tlg0059/tlg007/tlg0059.tlg007.perseus-eng2.xml
+source_commit: e37eed2e8
+license: CC-BY-SA-4.0
 ---
 
 # Sophist
 
-**Plato**
+[216a] Theo. According to our yesterday’s agreement, Socrates, we have come ourselves, as we were bound to do, and we bring also this man with us; he is a stranger from Elea, one of the followers of Parmenides and Zeno, and a real philosopher.
 
-null: Cambridge, MA, Harvard University Press; London, William Heinemann Ltd., 1921.
-Perseus Digital Library, Tufts University (CC BY-SA 4.0).
-URN: `null`
-
----
-
-## Texto
-
-[216] Theo. According to our yesterday’s agreement, Socrates, we have come ourselves, as we were bound to do, and we bring also this man with us; he is a stranger from Elea, one of the followers of Parmenides and Zeno, and a real philosopher.
-
-Soc. Are you not unwittingly bringing, as Homer says, some god, and no mere stranger, Theodorus? He says [216b] that the gods, and especially the god of strangers, enter into companionship with men who have a share of due reverence A modified quotation from Hom. Od. 9.271; Hom. Od. 17.485-7 and that they behold the deeds, both violent and righteous, Cf. Od. 17.485-7 of mankind. So perhaps this companion of yours may be one of the higher powers, who comes to watch over and refute us because we are worthless in argument—a kind of god of refutation.
+Soc. Are you not unwittingly bringing, as Homer says, some god, and no mere stranger, Theodorus? He says [216b] that the gods, and especially the god of strangers, enter into companionship with men who have a share of due reverence [^1] and that they behold the deeds, both violent and righteous, [^2] of mankind. So perhaps this companion of yours may be one of the higher powers, who comes to watch over and refute us because we are worthless in argument—a kind of god of refutation.
 
 Theo. No, Socrates, that is not the stranger’s character; he is more reasonable than those who devote themselves to disputation. And though I do not think he is a god at all, [216c] I certainly do think he is divine, for I give that epithet to all philosophers.
 
-Soc. And rightly, my friend. However, I fancy it is not much easier, if I may say so, to recognize this class, than that of the gods. For these men—I mean those who are not feignedly but really philosophers—appear disguised in all sorts of shapes, Cf. Hom. Od. 17.485-7. thanks to the ignorance of the rest of mankind, and visit the cities,Hom. Od. 17.485-7 beholding from above the life of those below, and they seem to some to be of no worth and to others to be worth everything. And sometimes they appear disguised as statesmen [216d] and sometimes as sophists, and sometimes they may give some people the impression that they are altogether mad. But I should like to ask our stranger here, if agreeable to him, what people in his country thought about these matters, [217] [217a] and what names they used.
+Soc. And rightly, my friend. However, I fancy it is not much easier, if I may say so, to recognize this class, than that of the gods. For these men—I mean those who are not feignedly but really philosophers—appear disguised in all sorts of shapes, [^3] thanks to the ignorance of the rest of mankind, and “visit the cities,”[^4] beholding from above the life of those below, and they seem to some to be of no worth and to others to be worth everything. And sometimes they appear disguised as statesmen [216d] and sometimes as sophists, and sometimes they may give some people the impression that they are altogether mad. But I should like to ask our stranger here, if agreeable to him, what people in his country thought about these matters, [217a] and what names they used.
 
-[217] Theo. What matters do you mean?
+Theo. What matters do you mean?
 
 Soc. Sophist, statesman, philosopher.
 
@@ -48,23 +43,23 @@ Soc. It is this: Did they consider all these one, or two, or, as there are three
 
 Theo. I think he has no objection to talking about them. What do you say, stranger?
 
-Str. Just what you did, Theodorus; for I have no objection, and it is not difficult to say that they considered them three. But it is no small or easy task to define clearly the nature of each.
+[217b] Str. Just what you did, Theodorus; for I have no objection, and it is not difficult to say that they considered them three. But it is no small or easy task to define clearly the nature of each.
 
 Theo. The fact is, Socrates, that by chance you have hit upon a question very like what we happened to be asking him before we came here; and he made excuses to us then, as he does now to you; though he admits that he has heard it thoroughly discussed and remembers what he heard.
 
-Soc. In that case, stranger, do not refuse us the first favor we have asked; but just tell us this: Do you generally prefer to expound in a long uninterrupted speech of your own whatever you wish to explain to anyone, or do you prefer the method of questions? I was present once when Parmenides employed the latter method and carried on a splendid discussion. I was a young man then, and he was very old.
+[217c] Soc. In that case, stranger, do not refuse us the first favor we have asked; but just tell us this: Do you generally prefer to expound in a long uninterrupted speech of your own whatever you wish to explain to anyone, or do you prefer the method of questions? I was present once when Parmenides employed the latter method and carried on a splendid discussion. I was a young man then, and he was very old.
 
 Str. The method of dialogue, Socrates, is easier [217d] with an interlocutor who is tractable and gives no trouble; but otherwise I prefer the continuous speech by one person.
 
 Soc. Well, you may choose whomever you please of those present; they will all respond pleasantly to you; but if you take my advice you will choose one of the young fellows, Theaetetus here, or any of the others who suits you.
 
-Str. Socrates, this is the first time I have come among you, and I am somewhat ashamed, instead of carrying on the discussion by merely giving brief replies to your questions, to deliver an extended, long drawn out speech, either as an address of my own [217e] or in reply to another, as if I were giving an exhibition; but I must, for really the present subject is not what one might expect from the form of the question, but is a matter for very long speech. On the other hand it seems unfriendly and discourteous to refuse a favor to you and these gentlemen, especially when you have spoken as you did. As for [218] [218a] Theaetetus I accept him most willingly as interlocutor in view of my previous conversation with him and of your present recommendation.
+Str. Socrates, this is the first time I have come among you, and I am somewhat ashamed, instead of carrying on the discussion by merely giving brief replies to your questions, to deliver an extended, long drawn out speech, either as an address of my own [217e] or in reply to another, as if I were giving an exhibition; but I must, for really the present subject is not what one might expect from the form of the question, but is a matter for very long speech. On the other hand it seems unfriendly and discourteous to refuse a favor to you and these gentlemen, especially when you have spoken as you did. As for [218a] Theaetetus I accept him most willingly as interlocutor in view of my previous conversation with him and of your present recommendation.
 
-[218] Theaet. But, stranger, by taking this course and following Socrates’s suggestion will you please the others too?
+Theaet. But, stranger, by taking this course and following Socrates’s suggestion will you please the others too?
 
 Str. I am afraid there is nothing more to be said about that, Theaetetus; but from now on, my talk will, I fancy, be addressed to you. And if you get tired and are bored by the length of the talk, do not blame me, but these friends of yours.
 
-Theaet. Oh, no, I do not think I shall get tired of it so easily, but if such a thing does happen, we will call in this Socrates, the namesake of the other Socrates; he is of my own age and my companion in the gymnasium, and is in the habit of working with me in almost everything.
+[218b] Theaet. Oh, no, I do not think I shall get tired of it so easily, but if such a thing does happen, we will call in this Socrates, the namesake of the other Socrates; he is of my own age and my companion in the gymnasium, and is in the habit of working with me in almost everything.
 
 Str. Very well; you will follow your own devices about that as the discussion proceeds; but now you and I must investigate in common, beginning first, as it seems to me, with the sophist, and must search out and make plain [218c] by argument what he is. For as yet you and I have nothing in common about him but the name; but as to the thing to which we give the name, we may perhaps each have a conception of it in our own minds; however, we ought always in every instance to come to agreement about the thing itself by argument rather than about the mere name without argument. But the tribe which we now intend to search for, the sophist, is not the easiest thing in the world to catch and define, and everyone has agreed long ago that if investigations of great matters are to be properly worked out we ought to practice them on small [218d] and easier matters before attacking the very greatest. So now, Theaetetus, this is my advice to ourselves, since we think the family of sophists is troublesome and hard to catch, that we first practise the method of hunting in something easier, unless you perhaps have some simpler way to suggest.
 
@@ -72,11 +67,11 @@ Theaet. I have not.
 
 Str. Then shall we take some lesser thing and try to use it as a pattern for the greater?
 
-Theaet. Yes.
+[218e] Theaet. Yes.
 
 Str. Well, then, what example can we set before us which is well known and small, but no less capable of definition than any of the greater things? Say an angler; is he not known to all and unworthy of any great interest?
 
-[219] Theaet. Yes. [219] [219a]
+Theaet. Yes. [219a]
 
 Str. But I hope he offers us a method and is capable of a definition not unsuitable to our purpose.
 
@@ -104,7 +99,7 @@ Theaet. Yes, they do.
 
 Str. Let us, then, call these collectively the productive art.
 
-Theaet. Agreed.
+[219c] Theaet. Agreed.
 
 Str. And after this comes the whole class of learning and that of acquiring knowledge, and money making, and fighting, and hunting. None of these is creative, but they are all engaged in coercing, by deeds or words, things which already exist and have been produced, or in preventing others from coercing them; therefore all these divisions together might very properly be called acquisitive art.
 
@@ -134,7 +129,7 @@ Str. By dividing it into the hunting of the lifeless and of the living.
 
 Theaet. Certainly, if both exist.
 
-[220] Str. Of course they exist. And we must pass over the hunting of lifeless things, which has no name, with the exception of some kinds of diving and the like, which are of little importance; but the hunting of living things we will call animal-hunting.
+[220a] Str. Of course they exist. And we must pass over the hunting of lifeless things, which has no name, with the exception of some kinds of diving and the like, which are of little importance; but the hunting of living things we will call animal-hunting.
 
 Theaet. Very well.
 
@@ -142,7 +137,7 @@ Str. And two classes of animal-hunting might properly be made, one (and this is 
 
 Theaet. Certainly.
 
-Str. And of swimming creatures we see that one tribe is winged and the other is in the water?
+[220b] Str. And of swimming creatures we see that one tribe is winged and the other is in the water?
 
 Theaet. Of course.
 
@@ -184,7 +179,7 @@ Theaet. To be sure.
 
 Str. And that which belongs to the daytime is, as a whole, barb-hunting, since the spears, as well as the hooks, are tipped with barbs.
 
-Theaet. Yes, it is so called.
+[220e] Theaet. Yes, it is so called.
 
 Str. Then of striking which belongs to barb-hunting, that part which proceeds downward from above, is called, because tridents are chiefly used in it, tridentry, I suppose.
 
@@ -194,11 +189,11 @@ Str. Then there still remains, I may say, only one further kind.
 
 Theaet. What is that?
 
-[221] Str. The kind that is characterized by the opposite sort of blow, which is practised with a hook and strikes, not any chance part of the body of the fishes, [221] [221a] as tridents do, but only the head and mouth of the fish caught, and proceeds from below upwards, being pulled up by twigs and rods. By what name, Theaetetus, shall we say this ought to be called?
+Str. The kind that is characterized by the opposite sort of blow, which is practised with a hook and strikes, not any chance part of the body of the fishes, [221a] as tridents do, but only the head and mouth of the fish caught, and proceeds from below upwards, being pulled up by twigs and rods. By what name, Theaetetus, shall we say this ought to be called?
 
 Theaet. I think our search is now ended and we have found the very thing we set before us a while ago as necessary to find.
 
-Str. Now, then, you and I are not only agreed [221b] about the name of angling, but we have acquired also a satisfactory definition of the thing itself. For of art as a whole, half was acquisitive, and of the acquisitive, half was coercive, and of the coercive, half was hunting, and of hunting, half was animal hunting, and of animal hunting, half was water hunting, and, taken as a whole, of water hunting the lower part was fishing, and of fishing, half was striking, and of striking, half was barb-hunting, and of this the part in which the blow is pulled from below upwards at an angle Plato’s etymology—ἀσπαλιευτική from ἀνασπᾶσθαι— is hardly less absurd than that suggested in the translation. The words at an angle are inserted merely to give a reason In English for the words which follow them. [221c] has a name in the very likeness of the act and is called angling, which was the object of our present search.
+Str. Now, then, you and I are not only agreed [221b] about the name of angling, but we have acquired also a satisfactory definition of the thing itself. For of art as a whole, half was acquisitive, and of the acquisitive, half was coercive, and of the coercive, half was hunting, and of hunting, half was animal hunting, and of animal hunting, half was water hunting, and, taken as a whole, of water hunting the lower part was fishing, and of fishing, half was striking, and of striking, half was barb-hunting, and of this the part in which the blow is pulled from below upwards at an angle [^5] [221c] has a name in the very likeness of the act and is called angling, which was the object of our present search.
 
 Theaet. That at all events has been made perfectly clear.
 
@@ -228,7 +223,7 @@ Theaet. How so?
 
 Str. They both seem clearly to me to be a sort of hunters.
 
-Theaet. What is the hunting of the second? We have spoken about the first.
+[221e] Theaet. What is the hunting of the second? We have spoken about the first.
 
 Str. We just now divided hunting as a whole into two classes, and made one division that of swimming creatures and the other that of land-hunting.
 
@@ -236,7 +231,7 @@ Theaet. Yes.
 
 Str. And the one we discussed, so far as the swimming creatures that live in the water are concerned; but we left the land-hunting undivided, merely remarking that it has many forms.
 
-[222] Theaet. Certainly.
+[222a] Theaet. Certainly.
 
 Str. Now up to that point the sophist and the angler proceed together from the starting-point of acquisitive art.
 
@@ -248,7 +243,7 @@ Theaet. To be sure.
 
 Str. But the other turns toward the land and to rivers of a different kind—rivers of wealth and youth, bounteous meadows, as it were—and he intends to coerce the creatures in them.
 
-Theaet. What do you mean?
+[222b] Theaet. What do you mean?
 
 Str. Of land-hunting there are two chief divisions.
 
@@ -260,7 +255,7 @@ Theaet. Is there, then, a hunting of tame creatures?
 
 Str. Yes, If man is a tame animal; but make any assumption you like, that there is no tame animal, or that some other tame animal exists but man is a wild one or that man is tame but there is no hunting of man. For the purpose of our definition choose whichever of these statements you think is satisfactory to you.
 
-Theaet. Why, Stranger, I think we are a tame animal, and I agree that there is a hunting of man.
+[222c] Theaet. Why, Stranger, I think we are a tame animal, and I agree that there is a hunting of man.
 
 Str. Let us, then, say that the hunting of tame animals is also of two kinds.
 
@@ -290,7 +285,7 @@ Str. Apparently you have never yet paid attention to the lovers’ method of hun
 
 Theaet. In what respect?
 
-Str. That in addition to their other efforts they give presents to those whom they hunt.
+[222e] Str. That in addition to their other efforts they give presents to those whom they hunt.
 
 Theaet. You are quite right.
 
@@ -298,7 +293,7 @@ Str. Let us, then, call this the amatory art.
 
 Theaet. Agreed.
 
-[223] Str. But that part of the paid kind which converses to furnish gratification and makes pleasure exclusively its bait and demands as its pay only maintenance, we might all agree, if I am not mistaken, [223] [223a] to call the art of flattery or of making things pleasant.
+Str. But that part of the paid kind which converses to furnish gratification and makes pleasure exclusively its bait and demands as its pay only maintenance, we might all agree, if I am not mistaken, [223a] to call the art of flattery or of making things pleasant.
 
 Theaet. Certainly.
 
@@ -310,7 +305,7 @@ Str. And what is that name? Try to tell.
 
 Theaet. It is obvious; for I think we have discovered the sophist. And therefore by uttering that word I think I should give him the right name.
 
-Str. Then, as it seems, according to our present reasoning, Theaetetus, the part of appropriative, coercive, hunting art which hunts animals, land animals, tame animals, man, privately, for pay, is paid in cash, claims to give education, and is a hunt after rich and promising youths, must—so our present argument concludes—be called sophistry.
+[223b] Str. Then, as it seems, according to our present reasoning, Theaetetus, the part of appropriative, coercive, hunting art which hunts animals, land animals, tame animals, man, privately, for pay, is paid in cash, claims to give education, and is a hunt after rich and promising youths, must—so our present argument concludes—be called sophistry.
 
 Theaet. Most assuredly.
 
@@ -328,7 +323,7 @@ Theaet. So be it.
 
 Str. And we shall say further that exchange by sale is divided into two parts.
 
-Theaet. How so?
+[223d] Theaet. How so?
 
 Str. We make this distinction—calling the part which sells a man’s own productions the selling of one’s own, and the other, which exchanges the works of others, exchange.
 
@@ -350,11 +345,11 @@ Str. Perhaps we do not know about the part that has to do with the soul; though 
 
 Theaet. Yes.
 
-[224] Str. Take, therefore, the liberal arts The word μουσική, here rendered liberal arts, is much more inclusive than the English word music, designating, as it does, nearly all education and culture except the purely physical. In the Athens of Socrates’ day many, possibly most, of the teachers of music in this larger sense were foreigners, Greeks, of course, but not Athenians. in general that constantly go about from city to city, bought in one place and carried to another and sold—painting, and conjuring, and the many other things that affect the soul, which are imported and sold partly for its entertainment and partly for its serious needs; we cannot deny that he who carries these about and sells them constitutes a merchant properly so called, no less than he whose business is the sale of food and drink.
+[224a] Str. Take, therefore, the liberal arts [^6] in general that constantly go about from city to city, bought in one place and carried to another and sold—painting, and conjuring, and the many other things that affect the soul, which are imported and sold partly for its entertainment and partly for its serious needs; we cannot deny that he who carries these about and sells them constitutes a merchant properly so called, no less than he whose business is the sale of food and drink.
 
 Theaet. Very true.
 
-Str. Then will you give the same name to him who buys up knowledge and goes about from city to city exchanging his wares for money?
+[224b] Str. Then will you give the same name to him who buys up knowledge and goes about from city to city exchanging his wares for money?
 
 Theaet. Certainly.
 
@@ -384,7 +379,7 @@ Theaet. I must do so, for I have to follow where the argument leads.
 
 Str. Let us examine further and see if the class we are now pursuing has still another aspect, of similar nature.
 
-[225] Theaet. Of what nature?
+[225a] Theaet. Of what nature?
 
 Str. We agreed that fighting was a division of acquisitive art.
 
@@ -426,7 +421,7 @@ Str. But that which possesses rules of art and carries on controversy about abst
 
 Theaet. Certainly.
 
-Str. Well, of disputation, one sort wastes money, the other makes money.
+[225d] Str. Well, of disputation, one sort wastes money, the other makes money.
 
 Theaet. Certainly.
 
@@ -438,11 +433,11 @@ Str. Presumably the kind which causes a man to neglect his own affairs for the p
 
 Theaet. Yes, that is about what it is called.
 
-Str. Then the opposite of this, the kind which makes money from private disputes—try now, for it is your turn, to give its name.
+[225e] Str. Then the opposite of this, the kind which makes money from private disputes—try now, for it is your turn, to give its name.
 
 Theaet. What other answer could one give without making a mistake, than that now again for the fourth time that wonderful being whom we have so long been pursuing has turned up—the sophist!
 
-[226] Str. Yes, and the sophist is nothing else, apparently, than the money-making class of the disputatious, argumentative, controversial, pugnacious, combative, acquisitive art, as our argument has now again stated.
+[226a] Str. Yes, and the sophist is nothing else, apparently, than the money-making class of the disputatious, argumentative, controversial, pugnacious, combative, acquisitive art, as our argument has now again stated.
 
 Theaet. Certainly.
 
@@ -454,11 +449,11 @@ Str. Yes, we must, and must go at it with all our might, [226b] by following ano
 
 Theaet. Yes, many. But to which of the many does your question refer?
 
-Str. To such as these: we say sift and strain and winnow and separate. Apparently a term descriptive of some part of the process of weaving; cf. Plat. Crat. 338b.
+Str. To such as these: we say “sift” and “strain” and “winnow” and “separate.” [^7]
 
 Theaet. Certainly.
 
-Str. And besides these there are card and comb and beat the web and countless other technical terms which we know. Is it not so?
+Str. And besides these there are “card” and “comb” and “beat the web” and countless other technical terms which we know. Is it not so?
 
 Theaet. Why do you use these as examples and ask about them all? [226c] What do you wish to show in regard to them?
 
@@ -478,7 +473,7 @@ Str. Now see if we can discover two divisions of this.
 
 Theaet. You demand quick thinking, for a boy like me.
 
-Str. And yet, in the instance of discrimination just mentioned there was, first, the separation of worse from better, and, secondly, of like from like.
+[226d] Str. And yet, in the instance of discrimination just mentioned there was, first, the separation of worse from better, and, secondly, of like from like.
 
 Theaet. Yes, as you now express it, that is pretty clear.
 
@@ -490,7 +485,7 @@ Str. Every such discrimination, as I think, is universally called a sort of puri
 
 Theaet. Yes, so it is.
 
-Str. And could not anyone see that purification is of two kinds?
+[226e] Str. And could not anyone see that purification is of two kinds?
 
 Theaet. Yes, perhaps, in time; but still I do not see it now.
 
@@ -498,7 +493,7 @@ Str. Still there are many kinds of purifications of bodies, and they may all pro
 
 Theaet. What are they and what is the name?
 
-[227] Str. The purification of living creatures, having to do with impurities within the body, such as are successfully discriminated by gymnastics and medicine, [227] [227a] and with those outside of the body, not nice to speak of, such as are attended to by the bath-keeper’s art; and the purification of inanimate bodies, which is the special care of the fuller’s art and in general of the art of exterior decoration; this, with its petty subdivisions, has taken on many names which seem ridiculous.
+Str. The purification of living creatures, having to do with impurities within the body, such as are successfully discriminated by gymnastics and medicine, [227a] and with those outside of the body, not nice to speak of, such as are attended to by the bath-keeper’s art; and the purification of inanimate bodies, which is the special care of the fuller’s art and in general of the art of exterior decoration; this, with its petty subdivisions, has taken on many names which seem ridiculous.
 
 Theaet. Very.
 
@@ -526,7 +521,7 @@ Str. We must say that there are two kinds of evil in the soul.
 
 Theaet. What kinds?
 
-[228] Str. The one is comparable to a disease in the body, the other to a deformity.
+[228a] Str. The one is comparable to a disease in the body, the other to a deformity.
 
 Theaet. I do not understand.
 
@@ -540,7 +535,7 @@ Theaet. No; I think it is nothing else.
 
 Str. But is deformity anything else than the presence of the quality of disproportion, which is always ugly?
 
-Theaet. Nothing else at all.
+[228b] Theaet. Nothing else at all.
 
 Str. Well then; do we not see that in the souls of worthless men opinions are opposed to desires, anger to pleasures, reason to pain, and all such things to one another?
 
@@ -554,7 +549,7 @@ Str. Then we shall be right if we say that wickedness is a discord and disease o
 
 Theaet. Yes, quite right.
 
-Str. But if things which partake of motion and aim at some particular mark pass beside the mark and miss it on every occasion when they try to hit it, shall we say that this happens to them through right proportion to one another or, on the contrary, through disproportion? The connection between disproportion and missing the mark is not obvious. The explanation that a missile (e.g. an arrow) which is not evenly balanced will not fly straight, fails to take account of the words πρὸς ἄλληλα. The idea seems rather to be that moving objects of various sizes, shapes, and rates of speed must interfere with each other.
+[228c] Str. But if things which partake of motion and aim at some particular mark pass beside the mark and miss it on every occasion when they try to hit it, shall we say that this happens to them through right proportion to one another or, on the contrary, through disproportion? [^8]
 
 Theaet. Evidently through disproportion.
 
@@ -576,13 +571,13 @@ Theaet. Yes.
 
 Str. And the other they call ignorance, but they are not willing to acknowledge that it is vice, when it arises only in the soul.
 
-Theaet. It must certainly be admitted, though I disputed it when you said it just now, that there are two kinds of vice in the soul, and that cowardice, intemperance, and injustice must all alike be considered a disease in us, and the widespread and various condition of ignorance must be regarded as a deformity.
+[228e] Theaet. It must certainly be admitted, though I disputed it when you said it just now, that there are two kinds of vice in the soul, and that cowardice, intemperance, and injustice must all alike be considered a disease in us, and the widespread and various condition of ignorance must be regarded as a deformity.
 
 Str. In the case of the body there are two arts which have to do with these two evil conditions, are there not?
 
 Theaet. What are they?
 
-[229] Str. For deformity there is gymnastics, and for disease medicine.
+[229a] Str. For deformity there is gymnastics, and for disease medicine.
 
 Theaet. That is clear.
 
@@ -606,7 +601,7 @@ Str. By seeing whether ignorance admits of being cut in two in the middle; for i
 
 Theaet. Well, can you see what you are now looking for?
 
-Str. I at any rate think I do see one large and grievous kind of ignorance, separate from the rest, and as weighty as all the other parts put together.
+[229c] Str. I at any rate think I do see one large and grievous kind of ignorance, separate from the rest, and as weighty as all the other parts put together.
 
 Theaet. What is it?
 
@@ -620,7 +615,7 @@ Theaet. Certainly.
 
 Str. Now what name is to be given to that part of instruction which gets rid of this?
 
-Theaet. I think, Stranger, that the other part is called instruction in handicraft, and that this part is here at Athens through our influence called education.
+[229d] Theaet. I think, Stranger, that the other part is called instruction in handicraft, and that this part is here at Athens through our influence called education.
 
 Str. And so it is, Theaetetus, among nearly all the Hellenes. But we must examine further and see whether it is one and indivisible or still admits of division important enough to have a name.
 
@@ -634,7 +629,7 @@ Str. Of instruction in arguments one method [229e] seems to be rougher, and the 
 
 Theaet. What shall we call each of these?
 
-[230] Str. The venerable method of our fathers, which they generally employed towards their sons, and which many still employ, of sometimes showing anger at their errors [230] [230a] and sometimes more gently exhorting them—that would most properly be called as a whole admonition.
+Str. The venerable method of our fathers, which they generally employed towards their sons, and which many still employ, of sometimes showing anger at their errors [230a] and sometimes more gently exhorting them—that would most properly be called as a whole admonition.
 
 Theaet. That is true.
 
@@ -642,7 +637,7 @@ Str. On the other hand, some appear to have convinced themselves that all ignora
 
 Theaet. They are quite right.
 
-Str. So they set themselves to cast out the conceit of cleverness in another way.
+[230b] Str. So they set themselves to cast out the conceit of cleverness in another way.
 
 Theaet. In what way?
 
@@ -654,7 +649,7 @@ Str. For all these reasons, Theaetetus, we must assert that cross-questioning is
 
 Theaet. Perfectly true.
 
-[231] Str. Well then, who are those who practise this art? [231] [231a] I am afraid to say the sophists.
+Str. Well then, who are those who practise this art? [231a] I am afraid to say the sophists.
 
 Theaet. Why so?
 
@@ -694,11 +689,11 @@ Str. The sixth case was doubtful, but nevertheless we agreed to consider him a p
 
 Theaet. Very true.
 
-[232] Str. Then do you see that when a man appears to know many things, but is called by the name of a single art, there is something wrong about this impression, and that, in fact, the person who labors under this impression in connexion with any art is clearly unable to see the common principle of the art, to which all these kinds of knowledge pertain, so that he calls him who possesses them by many names instead of one?
+[232a] Str. Then do you see that when a man appears to know many things, but is called by the name of a single art, there is something wrong about this impression, and that, in fact, the person who labors under this impression in connexion with any art is clearly unable to see the common principle of the art, to which all these kinds of knowledge pertain, so that he calls him who possesses them by many names instead of one?
 
 Theaet. Something like that is very likely to be the case.
 
-Str. We must not let that happen to us in our search through lack of diligence. So let us first take up again one of our statements about the sophist. For there is one of them which seemed to me to designate him most plainly.
+[232b] Str. We must not let that happen to us in our search through lack of diligence. So let us first take up again one of our statements about the sophist. For there is one of them which seemed to me to designate him most plainly.
 
 Theaet. Which was it?
 
@@ -722,7 +717,7 @@ Str. And furthermore in private conversations, when the talk is about generation
 
 Theaet. Certainly.
 
-Str. And how about laws and public affairs in general? Do they not promise to make men able to argue about those?
+[232d] Str. And how about laws and public affairs in general? Do they not promise to make men able to argue about those?
 
 Theaet. Yes, for nobody, to speak broadly, would attend their classes if they did not make that promise.
 
@@ -736,7 +731,7 @@ Theaet. Well, at any rate, it does not seem to leave much out.
 
 Str. For heaven’s sake, my boy, do you think that is possible? For perhaps you young people may look at the matter with sharper vision than our duller sight.
 
-[233] Theaet. What do you mean and just what do you refer to? I do not yet understand your question.
+[233a] Theaet. What do you mean and just what do you refer to? I do not yet understand your question.
 
 Str. I ask whether it is possible for a man to know all things.
 
@@ -750,7 +745,7 @@ Str. Then what in the world can the magical power of the sophistical art be?
 
 Theaet. Magical power in what respect?
 
-Str. In the way in which they are able to make young men think that they themselves are in all matters the wisest of men. For it is clear that if they neither disputed correctly nor seemed to the young men to do so, or again if they did seem to dispute rightly but were not considered wiser on that account, nobody, to quote from you, Cf. Plat. Theaet. 232d. would care to pay them money to become their pupil in these subjects.
+[233b] Str. In the way in which they are able to make young men think that they themselves are in all matters the wisest of men. For it is clear that if they neither disputed correctly nor seemed to the young men to do so, or again if they did seem to dispute rightly but were not considered wiser on that account, nobody, to quote from you, [^9] would care to pay them money to become their pupil in these subjects.
 
 Theaet. Certainly not.
 
@@ -758,7 +753,7 @@ Str. But now people do care to do so?
 
 Theaet. Very much.
 
-Str. Yes, for they are supposed, I fancy, to have knowledge themselves of the things about which they dispute.
+[233c] Str. Yes, for they are supposed, I fancy, to have knowledge themselves of the things about which they dispute.
 
 Theaet. Of course.
 
@@ -776,7 +771,7 @@ Theaet. Of course it is impossible.
 
 Str. Then it is a sort of knowledge based upon mere opinion that the sophist has been shown to possess about all things, not true knowledge.
 
-Theaet. Certainly; and I shouldn’t be surprised if that were the most accurate statement we have made about him so far.
+[233d] Theaet. Certainly; and I shouldn’t be surprised if that were the most accurate statement we have made about him so far.
 
 Str. Let us then take a clearer example to explain this.
 
@@ -788,19 +783,19 @@ Theaet. What is the question?
 
 Str. If anyone should say that by virtue of a single art he knew how, not to assert or dispute, but to do and make all things—
 
-Theaet. What do you mean by all things?
+[233e] Theaet. What do you mean by all things?
 
-Str. You fail to grasp the very beginning of what I said; for apparently you do not understand the word all.
+Str. You fail to grasp the very beginning of what I said; for apparently you do not understand the word “all.”
 
 Theaet. No, I do not.
 
-Str. I mean you and me among the all, and the other animals besides, and the trees.
+Str. I mean you and me among the “all,” and the other animals besides, and the trees.
 
 Theaet. What do you mean?
 
 Str. If one should say that he would make you and me and all other created beings.
 
-[234] Theaet. What would he mean by making? Evidently you will not say [234] [234a] that he means a husbandman; for you said he was a maker of animals also.
+Theaet. What would he mean by “making”? Evidently you will not say [234a] that he means a husbandman; for you said he was a maker of animals also.
 
 Str. Yes, and of sea and earth and heaven and gods and everything else besides; and, moreover, he makes them all quickly and sells them for very little.
 
@@ -810,23 +805,23 @@ Str. Yes? And when a man says that he knows all things and can teach them to ano
 
 Theaet. Surely we must.
 
-Str. And is there any more artistic or charming kind of joke than the imitative kind?
+[234b] Str. And is there any more artistic or charming kind of joke than the imitative kind?
 
 Theaet. Certainly not; for it is of very frequent occurrence and, if I may say so, most diverse. Your expression is very comprehensive.
 
 Str. And so we recognize that he who professes to be able by virtue of a single art to make all things will be able by virtue of the painter’s art, to make imitations which have the same names as the real things, and by showing the pictures at a distance will be able to deceive the duller ones among young children into the belief that he is perfectly able to accomplish in fact whatever he wishes to do.
 
-Theaet. Certainly.
+[234c] Theaet. Certainly.
 
 Str. Well then, may we not expect to find that there is another art which has to do with words, by virtue of which it is possible to bewitch the young through their ears with words while they are still standing at a distance from the realities of truth, by exhibiting to them spoken images of all things, so as to make it seem that they are true and that the speaker is the wisest of all men in all things?
 
-Theaet. Why should there not be such another art?
+[234d] Theaet. Why should there not be such another art?
 
-Str. Now most of the hearers, Theaetetus, when they have lived longer and grown older, will perforce come closer to realities and will be forced by sad experience Apparently a reference to a proverbial expression. Cf. Hes. WD 216 ἔγνω παθών; Herodotus, 1.207 τὰ παθήματα μαθήματα. openly to lay hold on realities; they will have to change the opinions which they had at first accepted, so that what was great will appear small and what was easy, difficult, and [234e] all the apparent truths in arguments will be turned topsy-turvy by the facts that have come upon them in real life. Is not this true?
+Str. Now most of the hearers, Theaetetus, when they have lived longer and grown older, will perforce come closer to realities and will be forced by sad experience [^10] openly to lay hold on realities; they will have to change the opinions which they had at first accepted, so that what was great will appear small and what was easy, difficult, and [234e] all the apparent truths in arguments will be turned topsy-turvy by the facts that have come upon them in real life. Is not this true?
 
 Theaet. Yes, at least so far as one of my age can judge. But I imagine I am one of those who are still standing at a distance.
 
-[235] Str. Therefore all of us elders here will try, and are now trying, to bring you as near as possible without the sad experience. So answer this question about the sophist: [235] [235a] Is this now clear, that he is a kind of a juggler, an imitator of realities, or are we still uncertain whether he may not truly possess the knowledge of all the things about which he seems to be able to argue?
+Str. Therefore all of us elders here will try, and are now trying, to bring you as near as possible without the sad experience. So answer this question about the sophist: [235a] Is this now clear, that he is a kind of a juggler, an imitator of realities, or are we still uncertain whether he may not truly possess the knowledge of all the things about which he seems to be able to argue?
 
 Theaet. How could that be, my dear sir? Surely it is pretty clear by this time from what has been said that he is one of those whose business is entertainment.
 
@@ -854,7 +849,7 @@ Str. I see the likeness-making art as one part of imitation. This is met with, a
 
 Theaet. Yes, but do not all imitators try to do this?
 
-[236] Str. Not those who produce some large work of sculpture or painting. For if they reproduced the true proportions of beautiful forms, the upper parts, you know, would seem smaller [236] [236a] and the lower parts larger than they ought, because we see the former from a distance, the latter from near at hand.
+Str. Not those who produce some large work of sculpture or painting. For if they reproduced the true proportions of beautiful forms, the upper parts, you know, would seem smaller [236a] and the lower parts larger than they ought, because we see the former from a distance, the latter from near at hand.
 
 Theaet. Certainly.
 
@@ -866,7 +861,7 @@ Str. That, then, which is other, but like, we may fairly call a likeness, may we
 
 Theaet. Yes.
 
-Str. And the part of imitation which is concerned with such things, is to be called, as we called it before, likeness-making?
+[236b] Str. And the part of imitation which is concerned with such things, is to be called, as we called it before, likeness-making?
 
 Theaet. It is to be so called.
 
@@ -878,7 +873,7 @@ Str. And this is very common in painting [236c] and in all imitation?
 
 Theaet. Of course.
 
-Str. And to the art which produces appearance, but not likeness, the most correct name we could give would be fantastic art, would it not?
+Str. And to the art which produces appearance, but not likeness, the most correct name we could give would be “fantastic art,” would it not?
 
 Theaet. By all means.
 
@@ -894,11 +889,18 @@ Str. Do you assent because you recognize the fact, or did the force of habit hur
 
 Theaet. What do you mean, and why did you say that?
 
-Str. We are really, my dear friend, engaged in [236e] a very difficult investigation; for the matter of appearing and seeming, but not being, and of saying things, but not true ones—all this is now and always has been very perplexing. You see, Theaetetus, it is extremely difficult to understand how a man is to say or think that falsehood really exists and in saying this not be involved [237] [237a] in contradiction.
+Str. We are really, my dear friend, engaged in [236e] a very difficult investigation; for the matter of appearing and seeming, but not being, and of saying things, but not true ones—all this is now and always has been very perplexing. You see, Theaetetus, it is extremely difficult to understand how a man is to say or think that falsehood really exists and in saying this not be involved [237a] in contradiction.
 
-[237] Theaet. Why?
+Theaet. Why?
 
-Str. This statement involves the bold assumption that not-being exists, for otherwise falsehood could not come into existence. But the great Parmenides, my boy, from the time when we were children to the end of his life, always protested against this and constantly repeated both in prose and in verse:Never let this thought prevail, saith he, that not-being is;But keep your mind from this way of investigation.Parmenides Fr. 7 [237b] So that is his testimony, and a reasonable examination of the statement itself would make it most absolutely clear. Let us then consider this matter first, if it’s all the same to you.
+Str. This statement involves the bold assumption that not-being exists, for otherwise falsehood could not come into existence. But the great Parmenides, my boy, from the time when we were children to the end of his life, always protested against this and constantly repeated both in prose and in verse:
+
+```verso
+Never let this thought prevail, saith he, that not-being is;
+But keep your mind from this way of investigation.
+```
+
+[^11] [237b] So that is his testimony, and a reasonable examination of the statement itself would make it most absolutely clear. Let us then consider this matter first, if it’s all the same to you.
 
 Theaet. Assume my consent to anything you wish. Consider only the argument, how it may best be pursued; follow your own course, and take me along with you.
 
@@ -906,11 +908,11 @@ Str. Very well, then. Now tell me; do we venture to use the phrase absolute not-
 
 Theaet. Of course.
 
-Str. If, then, not merely for the sake of discussion or as a joke, but [237c] seriously, one of his pupils were asked to consider and answer the question To what is the designation not-being to be applied? how do we think he would reply to his questioner, and how would he apply the term, for what purpose, and to what object?
+Str. If, then, not merely for the sake of discussion or as a joke, but [237c] seriously, one of his pupils were asked to consider and answer the question “To what is the designation “not-being” to be applied?” how do we think he would reply to his questioner, and how would he apply the term, for what purpose, and to what object?
 
 Theaet. That is a difficult question; I may say that for a fellow like me it is unanswerable.
 
-Str. But this is clear, anyhow, that the term not-being cannot be applied to any being.
+Str. But this is clear, anyhow, that the term “not-being” cannot be applied to any being.
 
 Theaet. Of course not.
 
@@ -918,7 +920,7 @@ Str. And if not to being, then it could not properly be applied to something, ei
 
 Theaet. How could it?
 
-Str. And this is plain to us, that we always use the word something of some being, for to speak of something in the abstract, naked, as it were, and disconnected from all beings is impossible, is it not?
+[237d] Str. And this is plain to us, that we always use the word “something” of some being, for to speak of “something” in the abstract, naked, as it were, and disconnected from all beings is impossible, is it not?
 
 Theaet. Yes, it is.
 
@@ -926,19 +928,19 @@ Str. You assent because you recognize that he who says something must say some o
 
 Theaet. Yes.
 
-Str. And you will agree that something or some in the singular is the sign of one, in the dual of two, and in the plural of many.
+Str. And you will agree that “something” or “some” in the singular is the sign of one, in the dual of two, and in the plural of many.
 
 Theaet. Of course.
 
-Str. And he who says not something, must quite necessarily say absolutely nothing.
+[237e] Str. And he who says not something, must quite necessarily say absolutely nothing.
 
 Theaet. Quite necessarily.
 
-Str. Then we cannot even concede that such a person speaks, but says nothing? We must even declare that he who undertakes to say not-being does not speak at all?
+Str. Then we cannot even concede that such a person speaks, but says nothing? We must even declare that he who undertakes to say “not-being” does not speak at all?
 
 Theaet. The argument could go no further in perplexity.
 
-[238] Str. Boast not too soon! For there still remains, my friend, the first and greatest of perplexities. It affects the very beginning of the matter.
+[238a] Str. Boast not too soon! For there still remains, my friend, the first and greatest of perplexities. It affects the very beginning of the matter.
 
 Theaet. What do you mean? Do not hesitate to speak.
 
@@ -952,7 +954,7 @@ Theaet. Certainly not.
 
 Str. Now we assume that all number is among the things which are.
 
-Theaet. Yes, if anything can be assumed to be.
+[238b] Theaet. Yes, if anything can be assumed to be.
 
 Str. Then let us not even undertake to attribute either the singular or the plural of number to not-being.
 
@@ -962,11 +964,11 @@ Str. How then could a man either utter in speech or even so much as conceive in 
 
 Theaet. Tell me how number is involved in such conceptions.
 
-Str. When we say things which are not, do we not attribute [238c] plurality to them?
+Str. When we say “things which are not,” do we not attribute [238c] plurality to them?
 
 Theaet. Certainly.
 
-Str. And in saying a thing which is not, do we not equally attribute the singular number?
+Str. And in saying “a thing which is not,” do we not equally attribute the singular number?
 
 Theaet. Obviously.
 
@@ -978,7 +980,7 @@ Str. Do you see, then, that it is impossible rightly to utter or to say or to th
 
 Theaet. Absolutely.
 
-Str. Then was I mistaken just now in saying that the difficulty I was going to speak of was the greatest in our subject.
+[238d] Str. Then was I mistaken just now in saying that the difficulty I was going to speak of was the greatest in our subject.
 
 Theaet. But is there a still greater one that we can mention?
 
@@ -986,7 +988,7 @@ Str. Why, my dear fellow, don’t you see, by the very arguments we have used, t
 
 Theaet. What do you mean? Speak still more clearly.
 
-Str. You must not look for more clearness in me; [238e] for although I maintained that not-being could have nothing to do with either the singular or the plural number, I spoke of it just now, and am still speaking of it, as one; for I say that which is not. You understand surely?
+Str. You must not look for more clearness in me; [238e] for although I maintained that not-being could have nothing to do with either the singular or the plural number, I spoke of it just now, and am still speaking of it, as one; for I say “that which is not.” You understand surely?
 
 Theaet. Yes.
 
@@ -994,7 +996,7 @@ Str. And again a little while ago I said it was inexpressible, unspeakable, irra
 
 Theaet. Yes, of course.
 
-[239] Str. Then when I undertook to attach the verb to be to not-being [239] [239a] I was contradicting what I said before.
+Str. Then when I undertook to attach the verb “to be” to not-being [239a] I was contradicting what I said before.
 
 Theaet. Evidently.
 
@@ -1006,27 +1008,27 @@ Str. And when I called it irrational, inexpressible, and unspeakable, I addresse
 
 Theaet. Of course you did.
 
-Str. But we say that, if one is to speak correctly, one must not define it as either singular or plural, and must not even call it it at all; for even by this manner of referring to it one would be giving it the form of the singular.
+Str. But we say that, if one is to speak correctly, one must not define it as either singular or plural, and must not even call it “it” at all; for even by this manner of referring to it one would be giving it the form of the singular.
 
 Theaet. Certainly.
 
-Str. But poor me, what can anyone say of me any longer? For you would find me now, as always before, defeated in the refutation of not-being. So, as I said before, we must not look to me for correctness of speech about not-being. But come now, let us look to you for it.
+[239b] Str. But poor me, what can anyone say of me any longer? For you would find me now, as always before, defeated in the refutation of not-being. So, as I said before, we must not look to me for correctness of speech about not-being. But come now, let us look to you for it.
 
 Theaet. What do you mean?
 
 Str. Come, I beg of you, make a sturdy effort, young man as you are, and try with might and main to say something correctly about not-being, without attributing to it either existence or unity or plurality.
 
-Theaet. But I should be possessed of great and absurd eagerness for the attempt, if I were to undertake it with your experience before my eyes.
+[239c] Theaet. But I should be possessed of great and absurd eagerness for the attempt, if I were to undertake it with your experience before my eyes.
 
 Str. Well, if you like, let us say no more of you and me; but until we find someone who can accomplish this, let us confess that the sophist has in most rascally fashion hidden himself in a place we cannot explore.
 
 Theaet. That seems to be decidedly the case.
 
-Str. And so, if we say he has an art, as it were, of making appearances, [239d] he will easily take advantage of our poverty of terms to make a counter attack, twisting our words to the opposite meaning; when we call him an image-maker, he will ask us what we mean by image, exactly. So, Theaetetus, we must see what reply is to be made to the young man’s question.
+Str. And so, if we say he has an art, as it were, of making appearances, [239d] he will easily take advantage of our poverty of terms to make a counter attack, twisting our words to the opposite meaning; when we call him an image-maker, he will ask us what we mean by “image,” exactly. So, Theaetetus, we must see what reply is to be made to the young man’s question.
 
 Theaet. Obviously we shall reply that we mean the images in water and in mirrors, and those in paintings, too, and sculptures, and all the other things of the same sort.
 
-Str. It is evident, Theaetetus, that you never saw a sophist.
+[239e] Str. It is evident, Theaetetus, that you never saw a sophist.
 
 Theaet. Why?
 
@@ -1034,15 +1036,15 @@ Str. He will make you think his eyes are shut or he has none at all.
 
 Theaet. How so?
 
-[240] Str. When you give this answer, if you speak of something in mirrors or works of art, he will laugh at your words, when you talk to him as if he could see. [240] [240a] He will feign ignorance of mirrors and water and of sight altogether, and will question you only about that which is deduced from your words.
+Str. When you give this answer, if you speak of something in mirrors or works of art, he will laugh at your words, when you talk to him as if he could see. [240a] He will feign ignorance of mirrors and water and of sight altogether, and will question you only about that which is deduced from your words.
 
 Theaet. What is that?
 
-Str. That which exists throughout all these things which you say are many but which you saw fit to call by one name, when you said image of them all, as if they were all one thing. So speak and defend yourself. Do not give way to the man at all.
+Str. That which exists throughout all these things which you say are many but which you saw fit to call by one name, when you said “image” of them all, as if they were all one thing. So speak and defend yourself. Do not give way to the man at all.
 
 Theaet. Why, Stranger, what can we say an image is, except another such thing fashioned in the likeness of the true one?
 
-Str. Do you mean another such true one, or [240b] in what sense did you say such?
+Str. Do you mean another such true one, or [240b] in what sense did you say “such”?
 
 Theaet. Not a true one by any means, but only one like the true.
 
@@ -1064,7 +1066,7 @@ Theaet. No, except that it is really a likeness.
 
 Str. Then what we call a likeness, though not really existing, really does exist?
 
-Theaet. Not-being does seem to have got into some such entanglement with being, and it is very absurd.
+[240c] Theaet. Not-being does seem to have got into some such entanglement with being, and it is very absurd.
 
 Str. Of course it is absurd. You see, at any rate, how by this interchange of words the many-headed sophist has once more forced us against our will to admit that not-being exists in a way.
 
@@ -1074,7 +1076,7 @@ Str. Well then, how can we define his art without contradicting ourselves?
 
 Theaet. Why do you say that? What are you afraid of?
 
-Str. When, in talking about appearance, we say that he deceives and that his art is an art of deception, shall we say that our mind is misled by his art to hold a false opinion, or what shall we say?
+[240d] Str. When, in talking about appearance, we say that he deceives and that his art is an art of deception, shall we say that our mind is misled by his art to hold a false opinion, or what shall we say?
 
 Theaet. We shall say that. What else could we say?
 
@@ -1086,7 +1088,7 @@ Str. You mean, then, that false opinion thinks things which are not?
 
 Theaet. Necessarily.
 
-Str. Does it think that things which are not, are not, or that things which are not at all, in some sense are?
+[240e] Str. Does it think that things which are not, are not, or that things which are not at all, in some sense are?
 
 Theaet. It must think that things which are not in some sense are—that is, if anyone is ever to think falsely at all, even in a slight degree.
 
@@ -1098,7 +1100,7 @@ Str. And this too is falsehood?
 
 Theaet. Yes, it is.
 
-[241] Str. And therefore a statement will likewise be considered false, [241] [241a] if it declares that things which are, are not, or that things which are not, are.
+Str. And therefore a statement will likewise be considered false, [241a] if it declares that things which are, are not, or that things which are not, are.
 
 Theaet. In what other way could a statement be made false?
 
@@ -1122,7 +1124,7 @@ Str. Will you then pardon me, and, as your words imply, be content if I somehow 
 
 Theaet. Of course I will.
 
-Str. I have another still more urgent request to make of you.
+[241d] Str. I have another still more urgent request to make of you.
 
 Theaet. What is it?
 
@@ -1138,7 +1140,7 @@ Str. Yes, plain even to a blind man, as they say; for unless these statements [2
 
 Theaet. Very true.
 
-[242] Str. And so we must take courage and attack our father’s theory here and now, or else, if any scruples prevent us from doing this, we must give the whole thing up.
+[242a] Str. And so we must take courage and attack our father’s theory here and now, or else, if any scruples prevent us from doing this, we must give the whole thing up.
 
 Theaet. But nothing in the world must prevent us.
 
@@ -1166,9 +1168,9 @@ Str. It seems to me that Parmenides and all who ever undertook a critical defini
 
 Theaet. How so?
 
-Str. Every one of them seems to tell us a story, as if we were children. One says there are three principles, that some of them are sometimes waging a sort of war with each other, and sometimes [242d] become friends and marry and have children and bring them up; and another says there are two, wet and dry or hot and cold, which he settles together and unites in marriage. This refers apparently to Pherecydes and the early lonians. And the Eleatic sect in our region, beginning with Xenophanes and even earlier, have their story that all things, as they are called, are really one. Then some Ionian Heracleitus and his followers. and later some Sicilian Empedocles and his disciples. Muses reflected [242e] that it was safest to combine the two tales and to say that being is many and one, and is (or are) held together by enmity and friendship.
+Str. Every one of them seems to tell us a story, as if we were children. One says there are three principles, that some of them are sometimes waging a sort of war with each other, and sometimes [242d] become friends and marry and have children and bring them up; and another says there are two, wet and dry or hot and cold, which he settles together and unites in marriage. [^12] And the Eleatic sect in our region, beginning with Xenophanes and even earlier, have their story that all things, as they are called, are really one. Then some Ionian [^13] and later some Sicilian [^14] Muses reflected [242e] that it was safest to combine the two tales and to say that being is many and one, and is (or are) held together by enmity and friendship.
 
-[243] Str. For the more strenuous Muses say it is always simultaneously coming together and separating; but the gentler ones relaxed the strictness of the doctrine of perpetual strife; they say that the all is sometimes one and friendly, under the influence of Aphrodite, [243] [243a] and sometimes many and at variance with itself by reason of some sort of strife. Now whether any of them spoke the truth in all this, or not, it is harsh and improper to impute to famous men of old such a great wrong as falsehood. But one assertion can be made without offence.
+Str. For the more strenuous Muses say it is always simultaneously coming together and separating; but the gentler ones relaxed the strictness of the doctrine of perpetual strife; they say that the all is sometimes one and friendly, under the influence of Aphrodite, [243a] and sometimes many and at variance with itself by reason of some sort of strife. Now whether any of them spoke the truth in all this, or not, it is harsh and improper to impute to famous men of old such a great wrong as falsehood. But one assertion can be made without offence.
 
 Theaet. What is that?
 
@@ -1176,9 +1178,9 @@ Str. That they paid too little attention and consideration to the mass of people
 
 Theaet. What do you mean?
 
-Str. When one of them says in his talk that many, or one, or two are, or have become, or are becoming, and again speaks of hot mingling with cold, and in some other part of his discourse suggests separations and combinations, for heaven’s sake, Theaetetus, do you ever understand what they mean by any of these things? I used to think, when I was younger, that I understood perfectly whenever anyone used this term not-being, which now perplexes us. But you see what a slough of perplexity we are in about it now.
+Str. When one of them says in his talk that many, or one, or two are, or have become, or are becoming, and again speaks of hot mingling with cold, and in some other part of his discourse suggests separations and combinations, for heaven’s sake, Theaetetus, do you ever understand what they mean by any of these things? I used to think, when I was younger, that I understood perfectly whenever anyone used this term “not-being,” which now perplexes us. But you see what a slough of perplexity we are in about it now.
 
-Theaet. Yes, I see.
+[243c] Theaet. Yes, I see.
 
 Str. And perhaps our minds are in this same condition as regards being also; we may think that it is plain sailing and that we understand when the word is used, though we are in difficulties about not-being, whereas really we understand equally little of both.
 
@@ -1190,9 +1192,9 @@ Theaet. Certainly.
 
 Str. We will consider most of them [243d] later, if you please, but now the greatest and foremost chief of them must be considered.
 
-Theaet. What do you mean? Or, obviously, do you mean that we must first investigate the term being, and see what those who use it think it signifies?
+Theaet. What do you mean? Or, obviously, do you mean that we must first investigate the term “being,” and see what those who use it think it signifies?
 
-Str. You have caught my meaning at once, Theaetetus. For I certainly do mean that this is the best method for us to use, by questioning them directly, as if they were present in person; so here goes: Come now, all you who say that hot and cold or any two such principles are the universe, what is this that you attribute to both of them [243e] when you say that both and each are? What are we to understand by this being (or are) of yours? Is this a third principle besides those two others, and shall we suppose that the universe is three, and not two any longer, according to your doctrine? For surely when you call one only of the two being you do not mean that both of them equally are; for in both cases In both cases, i.e. whether you say that one only is or that both are, they would both be one, namely being. they would pretty certainly be one and not two.
+Str. You have caught my meaning at once, Theaetetus. For I certainly do mean that this is the best method for us to use, by questioning them directly, as if they were present in person; so here goes: Come now, all you who say that hot and cold or any two such principles are the universe, what is this that you attribute to both of them [243e] when you say that both and each are? What are we to understand by this “being” (or “are”) of yours? Is this a third principle besides those two others, and shall we suppose that the universe is three, and not two any longer, according to your doctrine? For surely when you call one only of the two “being” you do not mean that both of them equally are; for in both cases [^15] they would pretty certainly be one and not two.
 
 Theaet. True.
 
@@ -1200,15 +1202,15 @@ Str. Well, then, do you wish to call both of them together being?
 
 Theaet. Perhaps.
 
-[244] Str. But, friends, we will say, even in that way you would very clearly be saying that the two are one.
+[244a] Str. But, friends, we will say, even in that way you would very clearly be saying that the two are one.
 
 Theaet. You are perfectly right.
 
-Str. Then since we are in perplexity, do you tell us plainly what you wish to designate when you say being. For it is clear that you have known this all along, whereas we formerly thought we knew, but are now perplexed. So first give us this information, that we may not think we understand what you say, when the exact opposite is the case.— [244b] If we speak in this way and make this request of them and of all who say that the universe is more than one, shall we, my boy, be doing anything improper?
+Str. Then since we are in perplexity, do you tell us plainly what you wish to designate when you say “being.” For it is clear that you have known this all along, whereas we formerly thought we knew, but are now perplexed. So first give us this information, that we may not think we understand what you say, when the exact opposite is the case.— [244b] If we speak in this way and make this request of them and of all who say that the universe is more than one, shall we, my boy, be doing anything improper?
 
 Theaet. Not in the least.
 
-Str. Well then, must we not, so far as we can, try to learn from those who say that the universe is one The Eleatic Zeno and his school. what they mean when they say being?
+Str. Well then, must we not, so far as we can, try to learn from those who say that the universe is one [^16] what they mean when they say “being”?
 
 Theaet. Of course we must.
 
@@ -1220,7 +1222,7 @@ Str. Well then, do you give the name of being to anything?
 
 Theaet. Yes.
 
-Str. Is it what you call one, using two names for the same thing, or how is this?
+[244c] Str. Is it what you call “one,” using two names for the same thing, or how is this?
 
 Theaet. What is their next answer, Stranger?
 
@@ -1244,19 +1246,25 @@ Str. And further, if he asserts that the name is the same as the thing, he will 
 
 Theaet. True.
 
-Str. And the one will turn out to be the name of one and also the one of the name. In other words, one, considered as a word, will be the name of unity, but considered as a reality, it will be the unity of which the word one is the name. The sentence is made somewhat difficult of comprehension, doubtless for the purpose of indicating the confusion caused by the identification of the name wlth the thing.
+Str. And the one will turn out to be the name of one and also the one of the name. [^17]
 
 Theaet. Necessarily.
 
 Str. And will they say that the whole is other than the one which exists or the same with it?
 
-Theaet. Of course they will and do say it is the same.
+[244e] Theaet. Of course they will and do say it is the same.
 
-Str. If then the whole is, as Parmenides says,On all sides like the mass of a well-rounded sphere, equally weighted in every direction from the middle; for neither greater nor less must needs be on this or that,Parmenides Fr. 8.43then being, being such as he describes it, has a center and extremes, and, having these, must certainly have parts, must it not?
+Str. If then the whole is, as Parmenides says,
+
+```verso
+On all sides like the mass of a well-rounded sphere, equally weighted in every direction from the middle; for neither greater nor less must needs be on this or that,
+```
+
+[^18]then being, being such as he describes it, has a center and extremes, and, having these, must certainly have parts, must it not?
 
 Theaet. Certainly.
 
-[245] Str. But yet nothing hinders that which has parts from possessing the attribute of unity in all its parts and being in this way one, since it is all and whole.
+[245a] Str. But yet nothing hinders that which has parts from possessing the attribute of unity in all its parts and being in this way one, since it is all and whole.
 
 Theaet. Very true.
 
@@ -1268,7 +1276,7 @@ Str. Why surely that which is really one must, according to right reason, be aff
 
 Theaet. Yes, it must.
 
-Str. But such a unity consisting of many parts will not harmonize with reason.
+[245b] Str. But such a unity consisting of many parts will not harmonize with reason.
 
 Theaet. I understand.
 
@@ -1308,7 +1316,7 @@ Str. And so countless other problems, each one involving infinite difficulties, 
 
 Theaet. The problems now in sight make that pretty clear; for each leads up to another which brings greater and more grievous wandering in connection with whatever has previously been said.
 
-[246] Str. Now we have not discussed all those who treat accurately of being and not-being The Ionic philosophers, the Eleatics, Heracleitus, Empedocles, the Megarians, Gorgias, Protagoras, and Antisthenes all discussed the problem of being and not-being.; however, let this suffice. But we must turn our eyes to those whose doctrines are less precise, that we may know from all sources that it is no easier [246] [246a] to define the nature of being than that of not-being.
+Str. Now we have not discussed all those who treat accurately of being and not-being [^19]; however, let this suffice. But we must turn our eyes to those whose doctrines are less precise, that we may know from all sources that it is no easier [246a] to define the nature of being than that of not-being.
 
 Theaet. Very well, then, we must proceed towards those others also.
 
@@ -1316,7 +1324,7 @@ Str. And indeed there seems to be a battle like that of the gods and the giants 
 
 Theaet. How so?
 
-Str. Some of them The atomists (Leucippus, Democritus, and their followers), who taught that nothing exists except atoms and the void. Possibly there is a covert reference to Aristippus who was, like Plato, a pupil of Socrates. drag down everything from heaven and the invisible to earth, actually grasping rocks and trees with their hands; for they lay their hands on all such things and maintain stoutly that that alone exists which can be touched and handled; [246b] for they define existence and body, or matter, as identical, and if anyone says that anything else, which has no body, exists, they despise him utterly, and will not listen to any other theory than their own.
+Str. Some of them [^20] drag down everything from heaven and the invisible to earth, actually grasping rocks and trees with their hands; for they lay their hands on all such things and maintain stoutly that that alone exists which can be touched and handled; [246b] for they define existence and body, or matter, as identical, and if anyone says that anything else, which has no body, exists, they despise him utterly, and will not listen to any other theory than their own.
 
 Theaet. Terrible men they are of whom you speak. I myself have met with many of them.
 
@@ -1334,7 +1342,7 @@ Theaet. What way?
 
 Str. Our first duty would be to make them really better, if it were in any way possible; but if this cannot be done, let us pretend that they are better, by assuming that they would be willing to answer more in accordance with the rules of dialectic than they actually are. For the acknowledgement of anything by better men is more valid than if made by worse men. But it is not these men that we care about; we merely seek the truth.
 
-Theaet. Quite right.
+[246e] Theaet. Quite right.
 
 Str. Now tell them, assuming that they have become better, to answer you, and do you interpret what they say.
 
@@ -1350,7 +1358,7 @@ Theaet. Certainly.
 
 Str. Giving to soul a place among things which exist?
 
-[247] Theaet. Yes.
+[247a] Theaet. Yes.
 
 Str. Well then, do they not say that one soul is just and another unjust, one wise and another foolish?
 
@@ -1364,7 +1372,7 @@ Str. But surely they will say that that which is capable of becoming present or 
 
 Theaet. Yes, they say that.
 
-Str. Granting, then, that justice and wisdom and virtue in general and their opposites exist, and also, of course, the soul in which they become present, do they say that any of these is visible and tangible, or that they are all invisible?
+[247b] Str. Granting, then, that justice and wisdom and virtue in general and their opposites exist, and also, of course, the soul in which they become present, do they say that any of these is visible and tangible, or that they are all invisible?
 
 Theaet. That none of them is visible, or pretty nearly that.
 
@@ -1372,7 +1380,7 @@ Str. Now here are some other questions. Do they say they possess any body?
 
 Theaet. They no longer answer the whole of that question in the same way. They say they believe the soul itself has a sort of body, but as to wisdom and the other several qualities about which you ask, they have not the face either [247c] to confess that they have no existence or to assert that they are all bodies.
 
-Str. It is clear, Theaetetus, that our men have grown better; for the aboriginal sons of the dragon’s teeth This refers to the story of Cadmus, who killed a dragon and then sowed its teeth, from which sprang fierce warriors to be his companions. Born of the dragon’s teeth and of earth, they would naturally be of the earth, earthy. among them would not shrink from any such utterance; they would maintain that nothing which they cannot squeeze with their hands has any existence at all.
+Str. It is clear, Theaetetus, that our men have grown better; for the aboriginal sons of the dragon’s teeth [^21] among them would not shrink from any such utterance; they would maintain that nothing which they cannot squeeze with their hands has any existence at all.
 
 Theaet. That is pretty nearly what they believe.
 
@@ -1384,7 +1392,7 @@ Str. I suggest that everything which possesses any power of any kind, either to 
 
 Theaet. Well, since they have at the moment nothing better of their own to offer, they accept this.
 
-[248] Str. Good; for perhaps later something else may occur to them and to us. As between them [248] [248a] and us, then, let us asume that this is for the present agreed upon and settled.
+Str. Good; for perhaps later something else may occur to them and to us. As between them [248a] and us, then, let us asume that this is for the present agreed upon and settled.
 
 Theaet. It is settled.
 
@@ -1392,13 +1400,13 @@ Str. Then let us go to the others, the friends of ideas; and do you interpret fo
 
 Theaet. I will.
 
-Str. You distinguish in your speech between generation and being, do you not? i.e., between the process of coming into existence and existence itself. It is difficult to determine exactly who the idealists are whose doctrines are here discussed. Possibly Plato is restating or amending some of his own earlier beliefs.
+Str. You distinguish in your speech between generation and being, do you not? [^22]
 
 Theaet. Yes, we do.
 
 Str. And you say that with the body, by means of perception, we participate in generation, and with the soul, by means of thought, we participate in real being, which last is always unchanged and the same, whereas generation is different at different times.
 
-Theaet. Yes, that is what we say.
+[248b] Theaet. Yes, that is what we say.
 
 Str. But, most excellent men, how shall we define this participation which you attribute to both? Is it not that of which we were just speaking?
 
@@ -1408,7 +1416,7 @@ Str. A passive or active condition arising out of some power which is derived fr
 
 Theaet. What is it, then, that they say?
 
-Str. They do not concede to us what we said just now to the aboriginal giants about being.
+[248c] Str. They do not concede to us what we said just now to the aboriginal giants about being.
 
 Theaet. What was it?
 
@@ -1432,7 +1440,7 @@ Str. I understand; this at least is true, [248e] that if to know is active, to b
 
 Theaet. Right.
 
-[249] Str. But for heaven’s sake, shall we let ourselves easily be persuaded that motion and life and soul and mind are really not present to absolute being, that it neither lives nor thinks, [249] [249a] but awful and holy, devoid of mind, is fixed and immovable?
+Str. But for heaven’s sake, shall we let ourselves easily be persuaded that motion and life and soul and mind are really not present to absolute being, that it neither lives nor thinks, [249a] but awful and holy, devoid of mind, is fixed and immovable?
 
 Theaet. That would be a shocking admission to make, Stranger.
 
@@ -1446,7 +1454,7 @@ Theaet. But how else can it possess them?
 
 Str. Then shall we say that it has mind and life and soul, but, although endowed with soul, is absolutely immovable?
 
-Theaet. All those things seem to me absurd.
+[249b] Theaet. All those things seem to me absurd.
 
 Str. And it must be conceded that motion and that which is moved exist.
 
@@ -1472,7 +1480,7 @@ Str. And yet we certainly must contend by every argument against him who does aw
 
 Theaet. Certainly.
 
-Str. Then the philosopher, who pays the highest honor to these things, must necessarily, as it seems, because of them refuse to accept the theory of those who say the universe is at rest, whether as a unity or in many forms, [249d] and must also refuse utterly to listen to those who say that being is universal motion; he must quote the children’s prayer, Nothing further seems to he known about this prayer. Stallbaum thought the reference was to a game in which the children said ὅσα ἀκίνητα καὶ κεκινημένα εἴη, may all unmoved things be moved. all things immovable and in motion, and must say that being and the universe consist of both.
+Str. Then the philosopher, who pays the highest honor to these things, must necessarily, as it seems, because of them refuse to accept the theory of those who say the universe is at rest, whether as a unity or in many forms, [249d] and must also refuse utterly to listen to those who say that being is universal motion; he must quote the children’s prayer, [^23] “all things immovable and in motion,” and must say that being and the universe consist of both.
 
 Theaet. Very true.
 
@@ -1482,13 +1490,13 @@ Theaet. Certainly.
 
 Str. But dear me, Theaetetus! I think we are now going to discover the difficulty of the inquiry about being.
 
-Theaet. What is this again? What do you mean?
+[249e] Theaet. What is this again? What do you mean?
 
 Str. My dear fellow, don’t you see that we are now densely ignorant about it, but think that we are saying something worth while?
 
 Theaet. I think so, at any rate, and I do not at all understand what hidden error we have fallen into.
 
-[250] Str. Then watch more closely and see whether, if we make these admissions, [250] [250a] we may not justly be asked the same questions we asked a while ago of those who said the universe was hot and cold. Cf. 242d above.
+Str. Then watch more closely and see whether, if we make these admissions, [250a] we may not justly be asked the same questions we asked a while ago of those who said the universe was hot and cold. [^24]
 
 Theaet. What questions? Remind me.
 
@@ -1502,7 +1510,7 @@ Theaet. Of course.
 
 Str. And yet you say that both and each of them equally exist?
 
-Theaet. Yes, I do.
+[250b] Theaet. Yes, I do.
 
 Str. And in granting that they exist, do you mean to say that both and each are in motion?
 
@@ -1514,7 +1522,7 @@ Theaet. Of course not.
 
 Str. Being, then, you consider to be something else in the soul, a third in addition to these two, inasmuch as you think rest and motion are embraced by it; and since you comprehend and observe that they participate in existence, you therefore said that they are. Eh?
 
-Theaet. We really do seem to have a vague vision of being as some third thing, when we say that motion and rest are.
+[250c] Theaet. We really do seem to have a vague vision of being as some third thing, when we say that motion and rest are.
 
 Str. Then being is not motion and rest in combination, but something else, different from them.
 
@@ -1544,7 +1552,7 @@ Str. Well, then, are we now in any less perplexity [250e] about being?
 
 Theaet. It seems to me, stranger, that we are, if possible, in even greater.
 
-[251] Str. This point, then, let us put down definitely as one of complete perplexity. But since being and not-being participate equally in the perplexity, there is now at last some hope that as either of them emerges more dimly or more clearly, so also will the other emerge. [251] [251a] If, however, we are able to see neither of them, we will at any rate push our discussion through between both of them at once as creditably as we can.
+Str. This point, then, let us put down definitely as one of complete perplexity. But since being and not-being participate equally in the perplexity, there is now at last some hope that as either of them emerges more dimly or more clearly, so also will the other emerge. [251a] If, however, we are able to see neither of them, we will at any rate push our discussion through between both of them at once as creditably as we can.
 
 Theaet. Good.
 
@@ -1556,7 +1564,7 @@ Str. We speak of man, you know, and give him many additional designations; we at
 
 Theaet. True.
 
-Str. And it is in this way, I fancy, that we have provided a fine feast for youngsters and for old men whose learning has come to them late in life; for example, it is easy enough for anyone to grasp the notion that the many cannot possibly be one, nor the one many, and so, apparently, they take pleasure in saying that we must not call a man good, [251c] but must call the good good, and a man man. I fancy, Theaetetus, you often run across people who take such matters seriously; sometimes they are elderly men whose poverty of intellect makes them admire such quibbles, and who think this is a perfect mine of wisdom they have discovered. Those are here satirized who deny the possibillty of all except identical predication. Such were Antisthenes, Euthydemus, and Dionysodorus. The two last are probably those referred to as old men whose learning came late in life.
+Str. And it is in this way, I fancy, that we have provided a fine feast for youngsters and for old men whose learning has come to them late in life; for example, it is easy enough for anyone to grasp the notion that the many cannot possibly be one, nor the one many, and so, apparently, they take pleasure in saying that we must not call a man good, [251c] but must call the good good, and a man man. I fancy, Theaetetus, you often run across people who take such matters seriously; sometimes they are elderly men whose poverty of intellect makes them admire such quibbles, and who think this is a perfect mine of wisdom they have discovered. [^25]
 
 Theaet. Certainly.
 
@@ -1574,27 +1582,27 @@ Theaet. A good suggestion.
 
 Str. And let us, if you please, assume that they say first that nothing has any power to combine with anything else. Then motion and rest will have no share in being, will they?
 
-[252] Theaet. No.
+[252a] Theaet. No.
 
 Str. Well, then, will either of them be, if it has no share in being?
 
 Theaet. It will not.
 
-Str. See how by this admission everything is overturned at once, as it seems—the doctrine of those who advocate universal motion, that of the partisans of unity and rest, and that of the men who teach that all existing things are distributed into invariable and everlasting kinds. For all of these make use of being as an attribute. One party says that the universe is in motion, another that it is at rest.
+Str. See how by this admission everything is overturned at once, as it seems—the doctrine of those who advocate universal motion, that of the partisans of unity and rest, and that of the men who teach that all existing things are distributed into invariable and everlasting kinds. For all of these make use of being as an attribute. One party says that the universe “is” in motion, another that it “is” at rest.
 
 Theaet. Exactly.
 
-Str. And further, all who teach that things combine at one time and separate at another, whether infinite elements combine in unity and are derived from unity or finite elements separate and then unite, regardless of whether they say that these changes take place successively or without interruption, would be talking nonsense in all these doctrines, if there is no intermingling.
+[252b] Str. And further, all who teach that things combine at one time and separate at another, whether infinite elements combine in unity and are derived from unity or finite elements separate and then unite, regardless of whether they say that these changes take place successively or without interruption, would be talking nonsense in all these doctrines, if there is no intermingling.
 
 Theaet. Quite right.
 
 Str. Then, too, the very men who forbid us to call anything by another name because it participates in the effect produced by another, would be made most especially ridiculous by this doctrine.
 
-Theaet. How so?
+[252c] Theaet. How so?
 
-Str. Because they are obliged in speaking of anything to use the expressions to be, apart, from the rest, by itself, and countless others; they are powerless to keep away from them or avoid working them into their discourse; and therefore there is no need of others to refute them, but, as the saying goes, their enemy and future opponent is of their own household whom they always carry about with them as they go, giving forth speech from within them, like the wonderful Eurycles. Eurycles was a ventriloquist and soothsayer of the fifth century, cf. Aristoph. Wasps 1019
+Str. Because they are obliged in speaking of anything to use the expressions “to be,” “apart,” “from the rest,” “by itself,” and countless others; they are powerless to keep away from them or avoid working them into their discourse; and therefore there is no need of others to refute them, but, as the saying goes, their enemy and future opponent is of their own household whom they always carry about with them as they go, giving forth speech from within them, like the wonderful Eurycles. [^26]
 
-Theaet. That is a remarkably accurate illustration
+[252d] Theaet. That is a remarkably accurate illustration
 
 Str. But what if we ascribe to all things the power of participation in one another?
 
@@ -1612,7 +1620,7 @@ Str. Then only the third possibility is left.
 
 Theaet. Yes.
 
-Str. And certainly one of these three must be true; either all things will mingle with one another, or none will do so, or some will and others will not.
+[252e] Str. And certainly one of these three must be true; either all things will mingle with one another, or none will do so, or some will and others will not.
 
 Theaet. Of course.
 
@@ -1624,7 +1632,7 @@ Str. Then everybody who wishes to answer correctly will adopt the remaining one 
 
 Theaet. Precisely.
 
-[253] Str. Now since some things will commingle and others will not, [253] [253a] they are in much the same condition as the letters of the alphabet; for some of these do not fit each other, and others do.
+Str. Now since some things will commingle and others will not, [253a] they are in much the same condition as the letters of the alphabet; for some of these do not fit each other, and others do.
 
 Theaet. Of course.
 
@@ -1656,7 +1664,7 @@ Str. Then, Theaetetus, what name shall we give to this science? Or, by Zeus, hav
 
 Theaet. What do you mean?
 
-Str. Shall we not say that the division of things by classes and the avoidance of the belief that the same class is another, or another the same, belongs to the science of dialectic?
+[253d] Str. Shall we not say that the division of things by classes and the avoidance of the belief that the same class is another, or another the same, belongs to the science of dialectic?
 
 Theaet. Yes, we shall.
 
@@ -1668,11 +1676,11 @@ Str. But you surely, I suppose, will not grant the art of dialectic to any but t
 
 Theaet. How could it be granted to anyone else?
 
-[254] Str. Then it is in some region like this that we shall always, both now and hereafter, discover the philosopher, if we look for him; [254] [254a] he also is hard to see clearly, but the difficulty is not the same in his case and that of the sophist.
+Str. Then it is in some region like this that we shall always, both now and hereafter, discover the philosopher, if we look for him; [254a] he also is hard to see clearly, but the difficulty is not the same in his case and that of the sophist.
 
 Theaet. How do they differ?
 
-Str. The sophist runs away into the darkness of not-being, feeling his way in it by practice, By practice, i.e., by empirical knowledge as opposed to reason. and is hard to discern on account of the darkness of the place. Don’t you think so?
+Str. The sophist runs away into the darkness of not-being, feeling his way in it by practice, [^27] and is hard to discern on account of the darkness of the place. Don’t you think so?
 
 Theaet. It seems likely.
 
@@ -1706,9 +1714,9 @@ Theaet. To be sure.
 
 Str. Each of them is, then, other than the remaining two, but the same as itself.
 
-Theaet. Yes.
+[254e] Theaet. Yes.
 
-[255] Str. But what do we mean by these words, the same and other, which we have just used? Are they two new classes, different from the other three, but always of necessity mingled with them, and must we conduct our inquiry on the assumption that there are five classes, not three, or are we unconsciously speaking of one of those three [255] [255a] when we say the same or other?
+Str. But what do we mean by these words, “the same” and “other,” which we have just used? Are they two new classes, different from the other three, but always of necessity mingled with them, and must we conduct our inquiry on the assumption that there are five classes, not three, or are we unconsciously speaking of one of those three [255a] when we say “the same” or “other”?
 
 Theaet. Perhaps.
 
@@ -1720,11 +1728,11 @@ Str. Whatever term we apply to rest and motion in common cannot be either of tho
 
 Theaet. Why not?
 
-Str. Because motion would be at rest and rest would be in motion; in respect of both, for whichever of the two became other would force the other to change its nature into that of its opposite, since [255b] it would participate in its opposite.
+Str. Because motion would be at rest and rest would be in motion; in respect of both, for whichever of the two became “other” would force the other to change its nature into that of its opposite, since [255b] it would participate in its opposite.
 
 Theaet. Exactly so.
 
-Str. Both certainly partake of the same and the other. i.e., sameness and difference can he predicated of both.
+Str. Both certainly partake of the same and the other. [^28]
 
 Theaet. Yes.
 
@@ -1732,11 +1740,11 @@ Str. Then we must not say that motion, or rest either, is the same or other.
 
 Theaet. No.
 
-Str. But should we conceive of being and the same as one?
+Str. But should we conceive of “being” and “the same” as one?
 
 Theaet. Perhaps.
 
-Str. But if being and the same have no difference of meaning, then when we go on and say that both rest and motion are, we shall be saying that they are both the same, [255c] since they are.
+Str. But if “being” and “the same” have no difference of meaning, then when we go on and say that both rest and motion are, we shall be saying that they are both the same, [255c] since they are.
 
 Theaet. But surely that is impossible.
 
@@ -1744,11 +1752,11 @@ Str. Then it is impossible for being and the same to be one.
 
 Theaet. Pretty nearly.
 
-Str. So we shall consider the same a fourth class in addition to the other three?
+Str. So we shall consider “the same” a fourth class in addition to the other three?
 
 Theaet. Certainly.
 
-Str. Then shall we call the other a fifth class? Or must we conceive of this and being as two names for one class?
+Str. Then shall we call “the other” a fifth class? Or must we conceive of this and “being” as two names for one class?
 
 Theaet. May be.
 
@@ -1756,7 +1764,7 @@ Str. But I fancy you admit that among the entities some are always conceived as 
 
 Theaet. Of course.
 
-Str. And other is always relative to other, is it not?
+[255d] Str. And other is always relative to other, is it not?
 
 Theaet. Yes.
 
@@ -1764,7 +1772,7 @@ Str. It would not be so, if being and the other were not utterly different. If t
 
 Theaet. The facts are as you say.
 
-Str. Then we must place the nature of the other as a fifth [255e] among the classes in which we select our examples.
+Str. Then we must place the nature of “the other” as a fifth [255e] among the classes in which we select our examples.
 
 Theaet. Yes.
 
@@ -1784,7 +1792,7 @@ Str. Then it is not rest.
 
 Theaet. Not at all.
 
-[256] Str. But it exists, by reason of its participation in being.
+[256a] Str. But it exists, by reason of its participation in being.
 
 Theaet. Yes, it exists.
 
@@ -1808,7 +1816,7 @@ Str. Then even if absolute motion partook in any way of rest, it would not be ab
 
 Theaet. It would be perfectly right, if we are to admit that some of the classes will mingle with one another, and others will not.
 
-Str. And surely we demonstrated that before we took up our present points; we proved that it was according to nature. See Plat. Theaet. 251e ff
+[256c] Str. And surely we demonstrated that before we took up our present points; we proved that it was according to nature. [^29]
 
 Theaet. Yes, of course.
 
@@ -1836,11 +1844,11 @@ Str. In relation to motion, then, not-being is. That is inevitable. And this ext
 
 Theaet. Yes, I suppose so.
 
-Str. And so, in relation to each of the classes, being is many, and not-being is infinite in number. Being is many, for each and every thing in all the classes is; but not-being is infinite, for not only is it true that everything in each of the classes is not, but not-being extends also to all conceptions which do not and cannot have any reality.
+Str. And so, in relation to each of the classes, being is many, and not-being is infinite in number. [^30]
 
 Theaet. So it seems.
 
-[257] Str. Then being itself must also be said to be other than all other things.
+[257a] Str. Then being itself must also be said to be other than all other things.
 
 Theaet. Yes, it must.
 
@@ -1848,11 +1856,11 @@ Str. And we conclude that whatever the number of other things is, just that is t
 
 Theaet. That is not far from the truth.
 
-Str. Then we must not be disturbed by this either, since by their nature the classes have participation in one another. But if anyone refuses to accept our present results, let him reckon with our previous arguments and then proceed to reckon with the next step. i.e., if he will not accept our proof that being is not, etc., he must disprove our arguuents respecting the participation of idea in one another, and then proceed to draw his inference.
+Str. Then we must not be disturbed by this either, since by their nature the classes have participation in one another. But if anyone refuses to accept our present results, let him reckon with our previous arguments and then proceed to reckon with the next step. [^31]
 
 Theaet. That is very fair.
 
-Str. Then here is a point to consider.
+[257b] Str. Then here is a point to consider.
 
 Theaet. What is it?
 
@@ -1864,7 +1872,7 @@ Str. For instance, when we speak of a thing as not great, do we seem to you to m
 
 Theaet. No, of course not.
 
-Str. Then when we are told that the negative signifies the opposite, we shall not admit it; we shall admit only that the particle not The two particles οὐ and μή in Greek. indicates something different [257c] from the words to which it is prefixed, or rather from the things denoted by the words that follow the negative.
+Str. Then when we are told that the negative signifies the opposite, we shall not admit it; we shall admit only that the particle “not” [^32] indicates something different [257c] from the words to which it is prefixed, or rather from the things denoted by the words that follow the negative.
 
 Theaet. Certainly.
 
@@ -1894,7 +1902,7 @@ Theaet. That it has one; for that which in each case we call not-beautiful is su
 
 Str. Now, then, tell me something more.
 
-Theaet. What?
+[257e] Theaet. What?
 
 Str. Does it not result from this that the not-beautiful is a distinct part of some one class of being and also, again, opposed to some class of being?
 
@@ -1908,7 +1916,7 @@ Str. Can we, then, in that case, say that the beautiful is more and the not-beau
 
 Theaet. Not at all.
 
-[258] Str. Hence the not-great must be said to be no less truly than the great?
+[258a] Str. Hence the not-great must be said to be no less truly than the great?
 
 Theaet. No less truly.
 
@@ -1920,7 +1928,7 @@ Str. And we shall, then, say the same of other things, since the nature of the o
 
 Theaet. Of course.
 
-Str. Then, as it seems, the opposition of the nature of a part of the other, and of the nature of being, when they are opposed to one another, is no less truly existence than is being itself, if it is not wrong for me to say so, for it signifies not the opposite of being, but only the other of being, and nothing more.
+[258b] Str. Then, as it seems, the opposition of the nature of a part of the other, and of the nature of being, when they are opposed to one another, is no less truly existence than is being itself, if it is not wrong for me to say so, for it signifies not the opposite of being, but only the other of being, and nothing more.
 
 Theaet. That is perfectly clear.
 
@@ -1940,7 +1948,14 @@ Str. We have proceeded farther in our investigation and have shown him more than
 
 Theaet. How so?
 
-Str. Because he says somewhere:Never shall this thought prevail, that not-being is;Nay, keep your mind from this path of investigation,Parmenides Fr. 7.1
+[258d] Str. Because he says somewhere:
+
+```verso
+Never shall this thought prevail, that not-being is;
+Nay, keep your mind from this path of investigation,
+```
+
+[^33]
 
 Theaet. Yes, that is what he says.
 
@@ -1948,7 +1963,7 @@ Str. But we have not only pointed out that things which are not exist, but we ha
 
 Theaet. And certainly, Stranger, I think that what we have said is perfectly true.
 
-[259] Str. Then let not anyone assert that we declare that not-being is the opposite of being, and hence are so rash as to say that not-being exists. For we long ago gave up speaking of any opposite of being, whether it exists or not and is capable [259] [259a] or totally incapable of definition. But as for our present definition of not-being, a man must either refute us and show that we are wrong, or, so long as he cannot do that, he too must say, as we do, that the classes mingle with one another, and being and the other permeate all things, including each other, and the other, since it participates in being, is, by reason of this participation, yet is not that in which it participates, but other, and since it is other than being, must inevitably be not-being. [259b] But being, in turn, participates in the other and is therefore other than the rest of the classes, and since it is other than all of them, it is not each one of them or all the rest, but only itself; there is therefore no doubt that there are thousands and thousands of things which being is not, and just so all other things, both individually and collectively, in many relations are, and in many are not.
+Str. Then let not anyone assert that we declare that not-being is the opposite of being, and hence are so rash as to say that not-being exists. For we long ago gave up speaking of any opposite of being, whether it exists or not and is capable [259a] or totally incapable of definition. But as for our present definition of not-being, a man must either refute us and show that we are wrong, or, so long as he cannot do that, he too must say, as we do, that the classes mingle with one another, and being and the other permeate all things, including each other, and the other, since it participates in being, is, by reason of this participation, yet is not that in which it participates, but other, and since it is other than being, must inevitably be not-being. [259b] But being, in turn, participates in the other and is therefore other than the rest of the classes, and since it is other than all of them, it is not each one of them or all the rest, but only itself; there is therefore no doubt that there are thousands and thousands of things which being is not, and just so all other things, both individually and collectively, in many relations are, and in many are not.
 
 Theaet. True.
 
@@ -1964,11 +1979,11 @@ Str. For certainly, my friend, the attempt to separate everything from everythin
 
 Theaet. Why so?
 
-Str. The complete separation of each thing from all is the utterly final obliteration of all discourse. For our power of discourse is derived from the interweaving of the classes or ideas with one another. The denial, that is to say, of all the interrelations of ideas leads to purely negative results. Examples of this are the exclusive antithesis of being and not-being and the mutual exclusion of rest and motion. The difficulty is solved at once when we recognize that positive and negative are necessarily interwoven in the nature of things, that the negative has only a relative existence and is not the opposite of the positive, but only different from it.
+Str. The complete separation of each thing from all is the utterly final obliteration of all discourse. For our power of discourse is derived from the interweaving of the classes or ideas with one another. [^34]
 
 Theaet. True.
 
-[260] Str. Observe, then, that we have now been just in time in carrying our point against the supporters of such doctrine, and in forcing them to admit that one thing mingles with another.
+[260a] Str. Observe, then, that we have now been just in time in carrying our point against the supporters of such doctrine, and in forcing them to admit that one thing mingles with another.
 
 Theaet. What was our object?
 
@@ -2006,9 +2021,9 @@ Theaet. Yes, so it was.
 
 Str. But now not-being has been found to partake of being, and so, perhaps, he would no longer keep up the fight in this direction; but he might say that some ideas partake of not-being and some do not, and that speech and opinion are among those which do not; and he would therefore again contend that the image-making and fantastic art, [260e] in which we placed him, has absolutely no existence, since opinion and speech have no participation in not-being; for falsehood cannot possibly exist unless such participation takes place.
 
-[261] Str. For this reason we must first inquire into the nature of speech and opinion and fancy, The English word fancy, though etymologically identical with the Greek φαντασία, has lost the close connection with seeming (φαίνεσθαι) which the Greek retains. The Greek word is therefore more comprehensive than the English, denoting that which appears to be, whether as the result of imagination or of sensation. Cf. 235 D ff. in order that when they are made clear we may perceive that they participate in not-being, [261] [261a] and when we have perceived that, may prove the existence of falsehood, and after proving that, may imprison the sophist therein, if he can be held on that charge, and if not, may set him free and seek him in another class.
+Str. For this reason we must first inquire into the nature of speech and opinion and fancy, [^35] in order that when they are made clear we may perceive that they participate in not-being, [261a] and when we have perceived that, may prove the existence of falsehood, and after proving that, may imprison the sophist therein, if he can be held on that charge, and if not, may set him free and seek him in another class.
 
-Theaet. It certainly seems, Stranger, that what you said at first about the sophist—that he was a hard kind of creature to catch—is true; for he seems to have no end of defences, Perhaps a sort of pun is intended, for πρόβλημα was already beginning to have the meaning of problem. and when he throws one of them up, his opponent has first to fight through it before he can reach the man himself; for now, you see, we have barely passed through [261b] the non-existence of being, which was his first prepared line of defence, when we find another line ready; and so we must prove that falsehood exists in relation to opinion and to speech; and after this, perhaps, there will be another line, and still another after that; and it seems no end will ever appear.
+Theaet. It certainly seems, Stranger, that what you said at first about the sophist—that he was a hard kind of creature to catch—is true; for he seems to have no end of defences, [^36] and when he throws one of them up, his opponent has first to fight through it before he can reach the man himself; for now, you see, we have barely passed through [261b] the non-existence of being, which was his first prepared line of defence, when we find another line ready; and so we must prove that falsehood exists in relation to opinion and to speech; and after this, perhaps, there will be another line, and still another after that; and it seems no end will ever appear.
 
 Str. No one should be discouraged, Theaetetus, who can make constant progress, even though it be slow. For if a man is discouraged under these conditions, what would he do under others—if he did not get ahead at all or were even pressed back? It would be a long time, as the saying is, [261c] before such a man would ever take a city. But now, my friend, since we have passed the line you speak of, the main defences would surely be in our hands, and the rest will now be smaller and easier to take.
 
@@ -2018,7 +2033,7 @@ Str. First, then, let us take up speech and opinion, as I said just now, in orde
 
 Theaet. Very well.
 
-Str. Then let us now investigate names, just a we spoke a while ago about ideas and letters; for in that direction the object of our present search is coming in sight.
+[261d] Str. Then let us now investigate names, just a we spoke a while ago about ideas and letters; for in that direction the object of our present search is coming in sight.
 
 Theaet. What do we need to understand about names?
 
@@ -2034,7 +2049,7 @@ Str. What I supposed you had in mind when you assented; for we have two kinds of
 
 Theaet. How so?
 
-[262] Str. One called nouns, the other verbs. The science of language, in all its branches, was young in the time of Plato. Words of general meaning were necessarily used in a technical sense. So here ὄνομα and ῥῆμα are used as parts of grammatical terminology in the sense of verb and noun, though Plato elsewhere employs them with their ordinary meanings. Similarly the distinction between vowels and consonants (Plat. Theaet. 203; cf. Plat. Soph. 253) was at least relatively new, as was that between the active and the passive voice. How important Plato’s part was in the development of linguistic study can no longer be accurately determined.
+[262a] Str. One called nouns, the other verbs. [^37]
 
 Theaet. Define each of them.
 
@@ -2050,21 +2065,21 @@ Str. Hence discourse is never composed of nouns alone spoken in succession, nor 
 
 Theaet. I do not understand that.
 
-Str. I see; you evidently had something else in mind when you assented just now; for what I wished to say was just this, that verbs and nouns do not make discourse if spoken successively in this way.
+[262b] Str. I see; you evidently had something else in mind when you assented just now; for what I wished to say was just this, that verbs and nouns do not make discourse if spoken successively in this way.
 
 Theaet. In what way?
 
-Str. For instance, walks, runs, sleeps and the other verbs which denote actions, even if you utter all there are of them in succession, do not make discourse for all that.
+Str. For instance, “walks,” “runs,” “sleeps” and the other verbs which denote actions, even if you utter all there are of them in succession, do not make discourse for all that.
 
 Theaet. No, of course not.
 
-Str. And again, when lion, stag, horse, and all other names of those who perform these actions are uttered, [262c] such a succession of words does not yet make discourse; for in neither case do the words uttered indicate action or inaction or existence of anything that exists or does not exist, until the verbs are mingled with the nouns; then the words fit, and their first combination is a sentence, about the first and shortest form of discourse.
+Str. And again, when “lion,” “stag,” “horse,” and all other names of those who perform these actions are uttered, [262c] such a succession of words does not yet make discourse; for in neither case do the words uttered indicate action or inaction or existence of anything that exists or does not exist, until the verbs are mingled with the nouns; then the words fit, and their first combination is a sentence, about the first and shortest form of discourse.
 
 Theaet. What do you mean by that?
 
-Str. When one says a man learns, you agree that this is the least and first of sentences, do you not?
+Str. When one says “a man learns,” you agree that this is the least and first of sentences, do you not?
 
-Theaet. Yes.
+[262d] Theaet. Yes.
 
 Str. For when he says that, he makes a statement about that which is or is becoming or has become or is to be; he does not merely give names, but he reaches a conclusion by combining verbs with nouns. That is why we said that he discourses and does not merely give names, and therefore we gave to this combination the name of discourse.
 
@@ -2092,9 +2107,9 @@ Theaet. Yes, at any rate we ought to do so.
 
 Str. Now, then, I will speak a sentence to you in which a action and the result of action are combined by means of a noun and a verb, and whatever the subject of the sentence is do you tell me.
 
-[263] Theaet. I will, to the best of my ability.
+[263a] Theaet. I will, to the best of my ability.
 
-Str. Theaetetus sits. It isn’t a long sentence, is it?
+Str. “Theaetetus sits.” It isn’t a long sentence, is it?
 
 Theaet. No, it is fairly short.
 
@@ -2106,13 +2121,13 @@ Str. And how about this sentence?
 
 Theaet. What one?
 
-Str. Theaetetus, with whom I am now talking, flies.
+Str. “Theaetetus, with whom I am now talking, flies.”
 
 Theaet. Every one would agree that this also is about me and I am its subject.
 
 Str. But we agree that every sentence must have some quality.
 
-Theaet. Yes.
+[263b] Theaet. Yes.
 
 Str. Now what quality shall be ascribed to each of these sentences?
 
@@ -2134,7 +2149,7 @@ Str. And states with reference to you that things are which are other than thing
 
 Theaet. To be sure.
 
-Str. Now the second of my sentences about you is in the first place by sheer necessity one of the shortest which conform to our definition of sentence.
+[263c] Str. Now the second of my sentences about you is in the first place by sheer necessity one of the shortest which conform to our definition of sentence.
 
 Theaet. At any rate we just now agreed on that point.
 
@@ -2150,7 +2165,7 @@ Str. And if there is no subject, it would not be a sentence at all; for we showe
 
 Theaet. Quite right.
 
-Str. Now when things are said about you, but things other are said as the same and things that are not as things that are, it appears that when such a combination is formed of verbs and nouns we have really and truly false discourse.
+[263d] Str. Now when things are said about you, but things other are said as the same and things that are not as things that are, it appears that when such a combination is formed of verbs and nouns we have really and truly false discourse.
 
 Theaet. Yes, very truly.
 
@@ -2178,7 +2193,7 @@ Str. Affirmation and negation
 
 Theaet. Yes, we know that.
 
-[264] Str. Now when this arises in the soul silently by way of thought, can you give it any other name than opinion?
+[264a] Str. Now when this arises in the soul silently by way of thought, can you give it any other name than opinion?
 
 Theaet. Certainly not.
 
@@ -2186,7 +2201,7 @@ Str. And when such a condition is brought about in anyone, not independently, bu
 
 Theaet. No.
 
-Str. Then since speech, as we found, is true and false, and we saw that thought is conversation of the soul with itself, and opinion is the final result of thought, [264b] and what we mean when we say it seems is a mixture of sensation and opinion, it is inevitable that, since these are all akin to speech, some of them must sometimes be false.
+Str. Then since speech, as we found, is true and false, and we saw that thought is conversation of the soul with itself, and opinion is the final result of thought, [264b] and what we mean when we say “it seems” is a mixture of sensation and opinion, it is inevitable that, since these are all akin to speech, some of them must sometimes be false.
 
 Theaet. Certainly.
 
@@ -2198,7 +2213,7 @@ Str. Then let us not be discouraged about the rest of our search, either; [264c]
 
 Theaet. What divisions?
 
-Str. We made two classes of image-making, the likeness-making and the fantastic. See Plat. Theaet. 235d ff
+Str. We made two classes of image-making, the likeness-making and the fantastic. [^38]
 
 Theaet. Yes.
 
@@ -2218,11 +2233,11 @@ Str. And we decided some time ago that the sophist was in one of those two divis
 
 Theaet. Yes.
 
-[265] Str. Then let us try again; let us divide in two [264e] the class we have taken up for discussion, and proceed always by way of the right-hand part of the thing divided, clinging close to the company to which the sophist belongs, until, having stripped him of all common properties and left him only his own peculiar nature, we shall show him plainly first [265] [265a] to ourselves and secondly to those who are most closely akin to the dialectic method.
+Str. Then let us try again; let us divide in two [264e] the class we have taken up for discussion, and proceed always by way of the right-hand part of the thing divided, clinging close to the company to which the sophist belongs, until, having stripped him of all common properties and left him only his own peculiar nature, we shall show him plainly first [265a] to ourselves and secondly to those who are most closely akin to the dialectic method.
 
 Theaet. Right.
 
-Str. We began by making two divisions of art, the productive and the acquisitive, did we not? See Plat. Theaet. 219
+Str. We began by making two divisions of art, the productive and the acquisitive, did we not? [^39]
 
 Theaet. Yes.
 
@@ -2246,13 +2261,13 @@ Str. We said, if we remember the beginning of our conversation, that every power
 
 Theaet. Yes, we remember.
 
-Str. There are all the animals, and all the plants that grow out of the earth from seeds and roots, and all the lifeless substances, fusible and infusible, that are formed within the earth. Shall we say that they came into being, not having been before, in any other way than through God’s workmanship? Or, accepting the commonly expressed belief—
+[265c] Str. There are all the animals, and all the plants that grow out of the earth from seeds and roots, and all the lifeless substances, fusible and infusible, that are formed within the earth. Shall we say that they came into being, not having been before, in any other way than through God’s workmanship? Or, accepting the commonly expressed belief—
 
 Theaet. What belief?
 
 Str. That nature brings them forth from some self-acting cause, without creative intelligence. Or shall we say that they are created by reason and by divine knowledge that comes from God?
 
-Theaet. I, perhaps because I am young, often change from one opinion to the other; but now, looking at you and considering that you think they are created by God, I also adopt that view.
+[265d] Theaet. I, perhaps because I am young, often change from one opinion to the other; but now, looking at you and considering that you think they are created by God, I also adopt that view.
 
 Str. Well said, Theaetetus; and if I thought you were one of those who would think differently by and by, I should try now, by argument and urgent persuasion, to make you agree with my opinion; but since I understand your nature and see that it of itself inclines, [265e] without any words of mine, towards that to which you say you are at present attracted, I will let that go; for it would be a waste of time. But I will assume that things which people call natural are made by divine art, and things put together by man out of those as materials are made by human art, and that there are accordingly two kinds of art, the one human and the other divine.
 
@@ -2262,7 +2277,7 @@ Str. Now that there are two, divide each of them again.
 
 Theaet. How?
 
-[266] Str. You divided all productive art widthwise, as it were, before; now divide it lengthwise.
+[266a] Str. You divided all productive art widthwise, as it were, before; now divide it lengthwise.
 
 Theaet. Assume that it is done.
 
@@ -2272,7 +2287,7 @@ Theaet. Yes.
 
 Str. And again, when the section is made the other way, one part of each half has to do with the making of real things, and the two remaining parts may very well be called image-making; and so productive art is again divided into two parts.
 
-Theaet. Tell me again how each part is distinguished.
+[266b] Theaet. Tell me again how each part is distinguished.
 
 Str. We know that we and all the other animals, and fire, water, and their kindred elements, out of which natural objects are formed, are one and all the very offspring and creations of God, do we not?
 
@@ -2282,13 +2297,13 @@ Str. And corresponding to each and all of these there are images, not the things
 
 Theaet. What are they?
 
-Str. The appearances in dreams, and those that arise by day and are said to be spontaneous—a shadow when [266c] a dark object interrupts the firelight, or when twofold light, from the objects themselves and from outside, meets on smooth and bright surfaces and causes upon our senses an effect the reverse of our ordinary sight, thus producing an image. This was the current explanation of reflection. Mirrors and smooth objects were supposed to contain a luminous principle which met on the smooth surface with the light coming from the object reflected. So in the act of vision the fire within the eye united with the external fire (Plat. Tim. 46a). The words τῆς ἔμπροσθεν . . . ἐναντίαν αἴσθησιν refer to the transposition of right and left in the reflection (cf. Plat. Theaet. 193c).
+Str. The appearances in dreams, and those that arise by day and are said to be spontaneous—a shadow when [266c] a dark object interrupts the firelight, or when twofold light, from the objects themselves and from outside, meets on smooth and bright surfaces and causes upon our senses an effect the reverse of our ordinary sight, thus producing an image. [^40]
 
 Theaet. Yes, these are two works of divine creation, the thing itself and the corresponding image in each case.
 
 Str. And how about our own art? Shall we not say that we make a house by the art of building, and by the art of painting make another house, a sort of man-made dream produced for those who are awake?
 
-Theaet. Certainly.
+[266d] Theaet. Certainly.
 
 Str. And in the same way, we say, all the other works of our creative activity also are twofold and go in pairs—the thing itself, produced by the art that creates real things, and the image, produced by the image-making art.
 
@@ -2302,7 +2317,7 @@ Str. But we found that falsehood does exist, and therefore we shall now, without
 
 Theaet. Yes.
 
-[267] Str. Let us, then, again bisect the fantastic art.
+[267a] Str. Let us, then, again bisect the fantastic art.
 
 Theaet. How?
 
@@ -2328,7 +2343,7 @@ Theaet. None.
 
 Str. The example I just gave was of imitation by those who know, was it not? For a man who imitates you would know you and your figure.
 
-Theaet. Of course.
+[267c] Theaet. Of course.
 
 Str. But what of the figure of justice and, in a word, of virtue in general? Are there not many who have no knowledge of it, but only a sort of opinion, and who try with the greatest eagerness to make this which they themselves think is virtue seem to exist within them, by imitating it in acts and words to the best of their ability?
 
@@ -2354,7 +2369,7 @@ Str. Then let us examine the opinion-imitator as if he were a piece of iron, and
 
 Theaet. Let us do so.
 
-[268] Str. Well, there is a very marked seam. For some of these imitators are simple-minded and think they know that about which they have only opinion, but the other kind because of their experience in the rough and tumble of arguments, strongly suspect and fear that they are ignorant of the things which they pretend before the public to know.
+[268a] Str. Well, there is a very marked seam. For some of these imitators are simple-minded and think they know that about which they have only opinion, but the other kind because of their experience in the rough and tumble of arguments, strongly suspect and fear that they are ignorant of the things which they pretend before the public to know.
 
 Theaet. Certainly the two classes you mention both exist.
 
@@ -2366,7 +2381,7 @@ Str. And shall we say that the latter forms one class or two again?
 
 Theaet. That is your affair.
 
-Str. I am considering, and I think I can see two classes I see one who can dissemble in long speeches in public before a multitude, and the other who does it in private in short speeches and forces the person who converses with him to contradict himself.
+[268b] Str. I am considering, and I think I can see two classes I see one who can dissemble in long speeches in public before a multitude, and the other who does it in private in short speeches and forces the person who converses with him to contradict himself.
 
 Theaet. You are quite right.
 
@@ -2386,6 +2401,43 @@ Str. The imitative kind of the dissembling part of the art of opinion which is p
 
 Theaet. Yes, he certainly will.
 
----
-
-*Ὁ Διαφορεύς παρῆν*
+[^1]: A modified quotation from Hom. Od. 9.271; Hom. Od. 17.485-7
+[^2]: Cf. Od. 17.485-7
+[^3]: Cf. Hom. Od. 17.485-7.
+[^4]: Hom. Od. 17.485-7
+[^5]: Plato’s etymology—ἀσπαλιευτική from ἀνασπᾶσθαι— is hardly less absurd than that suggested in the translation. The words at an angle are inserted merely to give a reason In English for the words which follow them.
+[^6]: The word μουσική, here rendered liberal arts, is much more inclusive than the English word music, designating, as it does, nearly all education and culture except the purely physical. In the Athens of Socrates’ day many, possibly most, of the teachers of music in this larger sense were foreigners, Greeks, of course, but not Athenians.
+[^7]: Apparently a term descriptive of some part of the process of weaving; cf. Plat. Crat. 338b.
+[^8]: The connection between disproportion and missing the mark is not obvious. The explanation that a missile (e.g. an arrow) which is not evenly balanced will not fly straight, fails to take account of the words πρὸς ἄλληλα. The idea seems rather to be that moving objects of various sizes, shapes, and rates of speed must interfere with each other.
+[^9]: Cf. Plat. Theaet. 232d.
+[^10]: Apparently a reference to a proverbial expression. Cf. Hes. WD 216 ἔγνω παθών; Herodotus, 1.207 τὰ παθήματα μαθήματα.
+[^11]: Parmenides Fr. 7
+[^12]: This refers apparently to Pherecydes and the early lonians.
+[^13]: Heracleitus and his followers.
+[^14]: Empedocles and his disciples.
+[^15]: In both cases, i.e. whether you say that one only is or that both are, they would both be one, namely being.
+[^16]: The Eleatic Zeno and his school.
+[^17]: In other words, one, considered as a word, will be the name of unity, but considered as a reality, it will be the unity of which the word one is the name. The sentence is made somewhat difficult of comprehension, doubtless for the purpose of indicating the confusion caused by the identification of the name wlth the thing.
+[^18]: Parmenides Fr. 8.43
+[^19]: The Ionic philosophers, the Eleatics, Heracleitus, Empedocles, the Megarians, Gorgias, Protagoras, and Antisthenes all discussed the problem of being and not-being.
+[^20]: The atomists (Leucippus, Democritus, and their followers), who taught that nothing exists except atoms and the void. Possibly there is a covert reference to Aristippus who was, like Plato, a pupil of Socrates.
+[^21]: This refers to the story of Cadmus, who killed a dragon and then sowed its teeth, from which sprang fierce warriors to be his companions. Born of the dragon’s teeth and of earth, they would naturally be of the earth, earthy.
+[^22]: i.e., between the process of coming into existence and existence itself. It is difficult to determine exactly who the idealists are whose doctrines are here discussed. Possibly Plato is restating or amending some of his own earlier beliefs.
+[^23]: Nothing further seems to he known about this prayer. Stallbaum thought the reference was to a game in which the children said ὅσα ἀκίνητα καὶ κεκινημένα εἴη, may all unmoved things be moved.
+[^24]: Cf. 242d above.
+[^25]: Those are here satirized who deny the possibillty of all except identical predication. Such were Antisthenes, Euthydemus, and Dionysodorus. The two last are probably those referred to as old men whose learning came late in life.
+[^26]: Eurycles was a ventriloquist and soothsayer of the fifth century, cf. Aristoph. Wasps 1019
+[^27]: By practice, i.e., by empirical knowledge as opposed to reason.
+[^28]: i.e., sameness and difference can he predicated of both.
+[^29]: See Plat. Theaet. 251e ff
+[^30]: Being is many, for each and every thing in all the classes is; but not-being is infinite, for not only is it true that everything in each of the classes is not, but not-being extends also to all conceptions which do not and cannot have any reality.
+[^31]: i.e., if he will not accept our proof that being is not, etc., he must disprove our arguuents respecting the participation of idea in one another, and then proceed to draw his inference.
+[^32]: The two particles οὐ and μή in Greek.
+[^33]: Parmenides Fr. 7.1
+[^34]: The denial, that is to say, of all the interrelations of ideas leads to purely negative results. Examples of this are the exclusive antithesis of being and not-being and the mutual exclusion of rest and motion. The difficulty is solved at once when we recognize that positive and negative are necessarily interwoven in the nature of things, that the negative has only a relative existence and is not the opposite of the positive, but only different from it.
+[^35]: The English word fancy, though etymologically identical with the Greek φαντασία, has lost the close connection with seeming (φαίνεσθαι) which the Greek retains. The Greek word is therefore more comprehensive than the English, denoting that which appears to be, whether as the result of imagination or of sensation. Cf. 235 D ff.
+[^36]: Perhaps a sort of pun is intended, for πρόβλημα was already beginning to have the meaning of problem.
+[^37]: The science of language, in all its branches, was young in the time of Plato. Words of general meaning were necessarily used in a technical sense. So here ὄνομα and ῥῆμα are used as parts of grammatical terminology in the sense of verb and noun, though Plato elsewhere employs them with their ordinary meanings. Similarly the distinction between vowels and consonants (Plat. Theaet. 203; cf. Plat. Soph. 253) was at least relatively new, as was that between the active and the passive voice. How important Plato’s part was in the development of linguistic study can no longer be accurately determined.
+[^38]: See Plat. Theaet. 235d ff
+[^39]: See Plat. Theaet. 219
+[^40]: This was the current explanation of reflection. Mirrors and smooth objects were supposed to contain a luminous principle which met on the smooth surface with the light coming from the object reflected. So in the act of vision the fire within the eye united with the external fire (Plat. Tim. 46a). The words τῆς ἔμπροσθεν . . . ἐναντίαν αἴσθησιν refer to the transposition of right and left in the reflection (cf. Plat. Theaet. 193c).

@@ -1,56 +1,58 @@
 ---
 id: plutarco-aratus-eng-bernadotte-perrin-1926
-type: texto_primario
-title: "Aratus"
-subtitle: null
+type: translation
+title: Aratus
 author: Plutarch
-year_original: null
-language: eng
-translation:
-  - Bernadotte Perrin
+translator:
+- Bernadotte Perrin
 publisher: Harvard University Press
-area: null
-era: null
-tags: []
-status: rascunho
+language: eng
+tags:
+- moralists
+status: draft
 project: pedra_angular
-source: "Plutarch. Aratus. Ed. Bernadotte Perrin. Cambridge, MA: Harvard University Press, 1926. Perseus Digital Library, Tufts University (CC BY-SA 4.0). URN: null"
-related: []
+urn_work: urn:cts:greekLit:tlg0007.tlg063
+urn: urn:cts:greekLit:tlg0007.tlg063.perseus-eng2
+source: 'Plutarch. Aratus. Ed. Bernadotte Perrin. Cambridge, MA: Harvard University Press, 1926. Perseus Digital Library, Tufts University (CC BY-SA 4.0).'
+source_repo: PerseusDL/canonical-greekLit
+source_file: data/tlg0007/tlg063/tlg0007.tlg063.perseus-eng2.xml
+source_commit: e37eed2e8
+license: CC-BY-SA-4.0
 ---
 
 # Aratus
 
-**Plutarch**
+#### Capítulo 1
 
-Cambridge, MA: Harvard University Press, 1926.
-Perseus Digital Library, Tufts University (CC BY-SA 4.0).
-URN: `null`
+[1.1] There is an ancient proverb, Polycrates,[^1] which the philosopher Chrysippus puts not as it really is, but as he thought better:—
 
----
+```verso
+Who will praise a father, except happy sons?
+```
 
-## Texto
+But Dionysodorus of Troezen corrects him, and restores the true form thus:—
 
-### Capítulo 1
+```verso
+Who will praise a father, except unhappy sons?
+```
 
-[1.1] There is an ancient proverb, Polycrates,A friend of Plutarch, not otherwise known, to whom he thus dedicates this Life. See the note on the Theseus, i. 1. which the philosopher Chrysippus puts not as it really is, but as he thought better:— Who will praise a father, except happy sons? But Dionysodorus of Troezen corrects him, and restores the true form thus:— Who will praise a father, except unhappy sons?
-
-[1.2] And he says that the proverb stops the mouths of those who, being worthless in themselves, take refuge in the virtues of certain ancestors and are forever praising them. But surely for a man in whom, to use Pindar’s words, the noble spirit naturally displayes itself as inherited from sires, and who, like thee, patterns his life after the fairest examples in his family line,—for such men it will be good fortune to be reminded of their noblest progenitors, ever and anon hearing the story of them, or telling it themselves.
+[1.2] And he says that the proverb stops the mouths of those who, being worthless in themselves, take refuge in the virtues of certain ancestors and are forever praising them. But surely for a man in whom, to use Pindar’s words, “the noble spirit naturally displayes itself as inherited from sires,” and who, like thee, patterns his life after the fairest examples in his family line,—for such men it will be good fortune to be reminded of their noblest progenitors, ever and anon hearing the story of them, or telling it themselves.
 
 [1.3] For it is not that they lack noble qualities of their own and make their reputation dependent on their praises of others, nay rather, they associate their own careers with the careers of their great ancestors, whom they hail both as founders of their line and as directors of their lives. And therefore, now that I have written the life of Aratus, who was thy countryman and forefather, and to whom thou thyself art no discredit in either reputation or influence, I send it to thee, not as though thou hadst not been at pains from the beginning to have the most precise knowledge of thy great ancestor’s career,
 
 [1.4] but in order that thy sons Polycrates and Pythocles may be reared, now by hearing and now by reading, after examples found in their own family line—examples which it well becomes them to imitate. For it is the lover of himself, and not the lover of goodness, who thinks himself always superior to others.
 
-### Capítulo 2
+#### Capítulo 2
 
 [2.1] The city of Sicyon, as soon as it had fallen away from its pure Doric form of aristocracy (which was now like a harmony dissolved) and had become a prey to factions and the ambitious schemes of demagogues, was without cease distempered and agitated, and kept changing one tyrant for another, until, after the murder of Cleon, Timocleides and Cleinias were chosen chief magistrates, men of the highest repute and influence among the citizens.
 
-[2.2] But no sooner did the government appear to be somewhat settled than Timocleides died, and Abantidas the son of Paseas, attempting to make himself tyrant, slew Cleinias,In 264 B.C. and, of the friends and kinsmen of Cleinias, banished some and killed others. He tried to kill also the son of Cleinias, Aratus, left fatherless at the age of seven.
+[2.2] But no sooner did the government appear to be somewhat settled than Timocleides died, and Abantidas the son of Paseas, attempting to make himself tyrant, slew Cleinias,[^2] and, of the friends and kinsmen of Cleinias, banished some and killed others. He tried to kill also the son of Cleinias, Aratus, left fatherless at the age of seven.
 
 [2.3] But in the confusion which prevailed about the house the boy made his escape with the fugitives, and wandering about in the city, full of fear and helpless, by chance got unnoticed into the house of a woman who was a sister of Abantidas, but had married Prophantus the brother of Cleinias. Her name was Soso. This woman, who was of a noble nature, and thought it a divine dispensation that the boy had taken refuge with her, hid him in the house, and at night sent him secretly off to Argos.
 
-### Capítulo 3
+#### Capítulo 3
 
-[3.1] Thus was Aratus stolen away from the peril that threatened him, and at once that vehement and glowing hatred of tyrants for which he was noted became a part of his nature and grew with his growth. He was reared in liberal fashion among the guests and friends of his father’s house at Argos, and since he saw that his bodily growth promised high health and stature, he devoted himself to the exercises of the palaestra, going so far as to win wreaths of victory in contesting the pentathlum.A contest involving the five arts of running, leaping, hurling the spear, boxing, and wrestling.
+[3.1] Thus was Aratus stolen away from the peril that threatened him, and at once that vehement and glowing hatred of tyrants for which he was noted became a part of his nature and grew with his growth. He was reared in liberal fashion among the guests and friends of his father’s house at Argos, and since he saw that his bodily growth promised high health and stature, he devoted himself to the exercises of the palaestra, going so far as to win wreaths of victory in contesting the pentathlum.[^3]
 
 [3.2] And indeed even his statues have plainly an athletic look, and the sagacity and majesty of his countenance do not altogether disown the athlete’s full diet and wielding of the mattock. Wherefore his cultivation of oratory was perhaps less intense than became a man in public life; and yet he is said to have been a more ornate speaker than some think who judge from the Commentaries which he left; these were a bye-work, and were composed in haste, off-hand, and in the words that first occurred to him in the heat of contest.
 
@@ -58,15 +60,15 @@ URN: `null`
 
 [3.4] This man is said to have borne a very close resemblance to Periander the son of Cypselus, just as Orontes the Persian did to Alcmaeon the son of Amphiaraüs, and as the Spartan youth mentioned by Myrtilus did to Hector. Myrtilus tells us that when the throng of spectators became aware of this resemblance, the youth was trampled underfoot.
 
-### Capítulo 4
+#### Capítulo 4
 
-[4.1] Nicocles was tyrant of the city for four months, during which he wrought the city much harm, and narrowly escaped losing it to the Aetolians when they plotted to seize it. By this time251 B.C. Aratus, now a young man, was held in marked esteem on account of his high birth, and of his spirit. This was showing itself to be not insignificant nor yet unenterprising, but earnest, and tempered with a judgement safe beyond his years.
+[4.1] Nicocles was tyrant of the city for four months, during which he wrought the city much harm, and narrowly escaped losing it to the Aetolians when they plotted to seize it. By this time[^4] Aratus, now a young man, was held in marked esteem on account of his high birth, and of his spirit. This was showing itself to be not insignificant nor yet unenterprising, but earnest, and tempered with a judgement safe beyond his years.
 
 [4.2] Wherefore the exiles from Sicyon had their minds fixed most of all upon him, and Nicocles was not neglectful of what was going on, but kept secret watch and ward over his undertakings, not because he feared any deed of so great daring and hazard as that in which Aratus finally engaged, but because he suspected that Aratus was in communication with the kings who had been on terms of friendship and hospitality with his father.
 
-[4.3] And in truth Aratus had attempted to travel along that path. But since AntigonusAntigonus Gonatas, king of Macedonia, 283-239 B.C. neglected his promises and prolonged the time, and since the hopes derived from Egypt and PtolemyPtolemy Philadelphus, king of Egypt 283-247 B.C. were a long way off, he resolved to overthrow the tyrant by his own efforts.
+[4.3] And in truth Aratus had attempted to travel along that path. But since Antigonus[^5] neglected his promises and prolonged the time, and since the hopes derived from Egypt and Ptolemy[^6] were a long way off, he resolved to overthrow the tyrant by his own efforts.
 
-### Capítulo 5
+#### Capítulo 5
 
 [5.1] The first to whom he imparted his design were Aristomachus and Ecdelus. Of these, the one was an exile from Sicyon, and Ecdelus was an Arcadian of Megalopolis, a student of philosophy and a man of action, who had been an intimate friend of Arcesilaüs the Academic at Athens.
 
@@ -78,7 +80,7 @@ URN: `null`
 
 [5.5] So when Xenocles and his party came back with measurements of the wall which they had taken, and with a report that the place was by nature not impassable nor even difficult (although they declared that it was hard to get to it undetected owing to a certain gardener’s dogs, which were little beasts, but extraordinarily fierce and savage), Aratus at once undertook the business.
 
-### Capítulo 6
+#### Capítulo 6
 
 [6.1] Now the laying in of arms was nothing unusual, since almost everybody at that time indulged in robberies and predatory forays; and as for scaling-ladders, Euphranor the engineer made them openly, since his trade screened him from suspicion; and he too was one of the exiles.
 
@@ -88,23 +90,23 @@ URN: `null`
 
 [6.4] In the meantime some spies of Nicocles appeared in Argos and were reported to be secretly going about and watching the movements of Aratus. As soon as it was day, therefore, Aratus left his house and showed himself openly in the market-place, conversing with his friends; then he anointed himself in the gymnasium, took with him from the palaestra some of the young men who were wont to drink and make holiday with him, and went back home; and after a little one of his servants was seen carrying garlands through the market-place, another buying lights, and another talking with the women that regularly furnished music of harp and flute at banquets.
 
-[6.5] When the spies saw all this, they were completely deceived, and with loud laughter said to one another: Nothing, you see, is more timorous than a tyrant, since even Nicocles, though master of so great a city and so large a force, is in fear of a stripling who squanders on pleasures and mid-day banquets his means of subsistence in exile.
+[6.5] When the spies saw all this, they were completely deceived, and with loud laughter said to one another: “Nothing, you see, is more timorous than a tyrant, since even Nicocles, though master of so great a city and so large a force, is in fear of a stripling who squanders on pleasures and mid-day banquets his means of subsistence in exile.”
 
-### Capítulo 7
+#### Capítulo 7
 
 [7.1] The spies, then, thus misled, left the city; but Aratus, immediately after the morning meal, sallied forth, joined his soldiers at the tower of Polygnotus, and led them on to Nemea. Here he disclosed his design, to most of them then for the first time, and made them exhortations and promises.
 
-[7.2] Then, after giving out as watchword Apollo Victorious, he led them forward against Sicyon, quickening or retarding his progress according to the revolution of the moon, so as to enjoy her light while on the march, and as soon as she was setting to be at the garden near the wall.
+[7.2] Then, after giving out as watchword “Apollo Victorious,” he led them forward against Sicyon, quickening or retarding his progress according to the revolution of the moon, so as to enjoy her light while on the march, and as soon as she was setting to be at the garden near the wall.
 
 [7.3] There Caphisias came to meet him; he had not secured the dogs (for they had bounded off before he could do this), but had locked up the gardener. Most of his men were disheartened at this and urged Aratus to retire; but he tried to encourage them, promising to lead them back if the dogs should prove too troublesome for them.
 
 [7.4] At the same time he sent forward the men who carried the scaling-ladders, under the command of Ecdelus and Mnasitheus, while he himself followed after them slowly, the dogs already barking vigorously and running along by the side of Ecdelus and his party. However, they reached the wall and planted their ladders against it without mishap.
 
-[7.5] But as the first men were mounting the ladders, the officer who was to set the morning-watch began making his rounds with a bell, and there were many lights and the noise of the sentries coming up.The sentries who had formed the night-watch came up at the sound of the bell, to be inspected, and then relieved by the morning-watch. The invaders, however, crouched down just where they were on the ladders, and so escaped the notice of this party without any trouble; but since another watch was coming up to meet the first, they incurred the greatest danger.
+[7.5] But as the first men were mounting the ladders, the officer who was to set the morning-watch began making his rounds with a bell, and there were many lights and the noise of the sentries coming up.[^7] The invaders, however, crouched down just where they were on the ladders, and so escaped the notice of this party without any trouble; but since another watch was coming up to meet the first, they incurred the greatest danger.
 
 [7.6] However, they escaped the notice of this guard also as it passed by, and then the leaders, Mnasitheus and Ecdelus, at once mounted to the top, and after occupying the approaches to the wall on either side, sent Technon to Aratus, urging him to hasten up.
 
-### Capítulo 8
+#### Capítulo 8
 
 [8.1] Now it was no great distance from the garden to the wall, and to the tower, in which a huge dog was on the watch, a hunter. The dog himself did not notice their approach, either because he was naturally sluggish, or because during the day he had become tired out. But when the gardener’s whelps challenged him from below, he began to growl in response, faintly and indistinctly at first, then bayed out more loudly as they passed by.
 
@@ -116,7 +118,7 @@ URN: `null`
 
 [8.5] Day was now breaking, and the theatre was thronged with people who still were in suspense because of the uncertain rumour that prevailed and in utter ignorance of what was afoot, until the herald came forward and made proclamation that Aratus the son of Cleinias invited the citizens to secure their freedom.
 
-### Capítulo 9
+#### Capítulo 9
 
 [9.1] Then, convinced that what they had long expected was come, they rushed in a body to the residence of the tyrant, carrying firebrands. A great flame arose as the house caught fire, and it was visible as far as Corinth, so that the people of Corinth were astonished and were on the point of sallying forth to help. Nicocles, then, slipped out unnoticed by way of certain underground passages, and ran away from the city,
 
@@ -130,7 +132,7 @@ URN: `null`
 
 [9.6] still, owing to their good counsels and their concord, and because they were able, in place of envying, to obey and follow the one who was pre-eminent among them for virtue, they not only preserved their own freedom in the midst of so great cities and powers and tyrannies, but also were continually saving and setting free very many of the other Greeks.
 
-### Capítulo 10
+#### Capítulo 10
 
 [10.1] Aratus was by natural bent a statesman, high-minded, more exact in his public than in his private relations, a bitter hater of tyrants, and ever making a regard for the public weal determine his enmity or his friendship.
 
@@ -140,13 +142,13 @@ URN: `null`
 
 [10.4] Such unevenness a lack of philosophy may cause in men of good natural parts; they produce virtue without scientific knowledge, and it is like spontaneous and uncultivated fruit. This can be proved by examples.
 
-### Capítulo 11
+#### Capítulo 11
 
 [11.1] Aratus, now, after uniting himself and his city with the Achaeans, served in the cavalry, and was beloved by his commanders on account of his ready obedience. For although he had made great contributions to the commonwealth in his own reputation and the power of his native city, he gave his services like those of any ordinary person to the one who from time to time was general of the Achaeans, whether he was a man of Dyme or of Tritaea, or of a meaner city.
 
 [11.2] And there came to him also a gift of money from the king of Egypt, five-and-twenty talents. These Aratus accepted, but gave them at once to his fellow-citizens, who were in want of money, especially for the ransoming of such as had been taken prisoners.
 
-### Capítulo 12
+#### Capítulo 12
 
 [12.1] But the exiles were not to be dissuaded from molesting those who were in possession of their property, and the city was in danger of an upheaval. Aratus saw that his only hope was in the generosity of Ptolemy, and therefore determined to sail to Egypt and beg the king to furnish him with money for the settlement of these disputes.
 
@@ -158,49 +160,49 @@ URN: `null`
 
 [12.5] From Caria, after a long time, he made his way across to Egypt, and found the king both naturally well disposed towards him, and much gratified because Aratus had sent him drawings and paintings from Greece. In these matters Aratus had a refined judgement, and was continually collecting and acquiring works of artistic skill and excellence, especially those of Pamphilus and Melanthus. These he would send to Ptolemy.
 
-### Capítulo 13
+#### Capítulo 13
 
-[13.1] For the fame of Sicyon’s refined and beautiful paintings was still in full bloom, and they alone were thought to have a beauty that was indestructible. Therefore even the great Apelles, when he was already admired, came to Sicyon and gave a talent that he might be admitted into the society of its artists, desiring to share their fame rather than their art. Hence it was that Aratus, although he at once destroyed the other portraits of the tyrants when he had given the city its freedom, deliberated a long time about that of Aristratus (who flourished in the time of Philip of MacedonPhilip II., 382-336 B.C.).
+[13.1] For the fame of Sicyon’s refined and beautiful paintings was still in full bloom, and they alone were thought to have a beauty that was indestructible. Therefore even the great Apelles, when he was already admired, came to Sicyon and gave a talent that he might be admitted into the society of its artists, desiring to share their fame rather than their art. Hence it was that Aratus, although he at once destroyed the other portraits of the tyrants when he had given the city its freedom, deliberated a long time about that of Aristratus (who flourished in the time of Philip of Macedon[^8]).
 
 [13.2] For it was the work of Melanthus and all his pupils, and Aristratus was painted standing by a chariot in which was a Victory; Apelles also had a hand in the painting, as we are told by Polemon the Topographer. And the work was a marvellous one, so that Aratus was moved by the artistic skill therein; but afterwards, such was his hatred of the tyrants, that he ordered it to be removed and destroyed.
 
-[13.3] Accordingly, the painter Nealces, who was a friend of Aratus, interceded with him for the picture, as we are told, and with tears, and when he could not persuade him, said that war should be waged against the tyrants, but not against the treasures of the tyrants. Let us therefore leave the chariot and the Victory, but Aristratus himself I will undertake to remove from the picture. Aratus therefore yielded, and Nealces erased the figure of Aristratus, and in its place painted a palm-tree merely, not daring to introduce anything else. We are told, however, that the feet of the erased figure of Aristratus were left by an oversight beneath the chariot.
+[13.3] Accordingly, the painter Nealces, who was a friend of Aratus, interceded with him for the picture, as we are told, and with tears, and when he could not persuade him, said that war should be waged against the tyrants, but not against the treasures of the tyrants. “Let us therefore leave the chariot and the Victory, but Aristratus himself I will undertake to remove from the picture.” Aratus therefore yielded, and Nealces erased the figure of Aristratus, and in its place painted a palm-tree merely, not daring to introduce anything else. We are told, however, that the feet of the erased figure of Aristratus were left by an oversight beneath the chariot.
 
 [13.4] In consequence of this love of art Aratus was already beloved by the king, and in personal intercourse grew yet more upon him, and received for his city a gift of a hundred and fifty talents. Forty of these Aratus took with him at once and sailed to Peloponnesus; the rest the king divided into installments, and sent them to him afterwards one by one.
 
-### Capítulo 14
+#### Capítulo 14
 
 [14.1] Now it was a great achievement to procure so large a sum of money for his fellow-citizens; other generals and leaders of the people had taken but a fraction of this sum from kings in payment for wronging, enslaving, and betraying to them their native cities. But it was a far greater achievement by means of this money to have effected a harmonious adjustment of the disputes between rich and poor, and safety and security for the entire people. Moreover, we must admire the moderation of the man in the exercise of so great power.
 
-[14.2] For when he was appointed independent arbiter, with absolute powers for settling the money affairs of the exiles, he would not accept the office alone, but associated with himself fifteen of his fellow-citizens, by whose aid, after much toil and great trouble, he established peace and friendship among his fellow-citizens.Cf. Cicero, De Off. ii. 23, 81ff. For these services not only did the entire body of citizens bestow fitting public honours upon him, but the exiles also on their own account erected a bronze statue of him, and inscribed thereon the following elegiac verses:—
+[14.2] For when he was appointed independent arbiter, with absolute powers for settling the money affairs of the exiles, he would not accept the office alone, but associated with himself fifteen of his fellow-citizens, by whose aid, after much toil and great trouble, he established peace and friendship among his fellow-citizens.[^9] For these services not only did the entire body of citizens bestow fitting public honours upon him, but the exiles also on their own account erected a bronze statue of him, and inscribed thereon the following elegiac verses:—
 
-[14.3] The counsels, valorous deeds, and prowess in behalf of Hellas, which this man has displayed, are known as far as the Pillars of Heracles; but we who achieved our return through thee, Aratus, for thy virtue and justice, have erected to the Saviour Gods this statue of our saviour, because to thy native city thou hast brought a sacred and heavenly reign of law.
+[14.3] “The counsels, valorous deeds, and prowess in behalf of Hellas, which this man has displayed, are known as far as the Pillars of Heracles; but we who achieved our return through thee, Aratus, for thy virtue and justice, have erected to the Saviour Gods this statue of our saviour, because to thy native city thou hast brought a sacred and heavenly reign of law.”
 
-### Capítulo 15
+#### Capítulo 15
 
 [15.1] These successful achievements placed Aratus beyond the jealousy of his fellow-citizens, owing to the gratitude which he inspired; but Antigonus, the king, was annoyed by the policy of Aratus, and wished either to bring him over into complete friendship with himself or to alienate him from Ptolemy. He therefore showed him many kindnesses which were not at all welcome, and especially this, that as he was sacrificing to the gods at Corinth, he sent portions of the victims to Aratus at Sicyon.
 
-[15.2] And at the banquet which followed, where many guests were present, he said, so that all could hear: I thought this Sicyonian youth was merely free-spirited and a lover of his fellow-citizens; but he would seem to be a capable judge also of the lives and actions of kings. For formerly he was inclined to overlook us, fixing his hopes elsewhere, and he admired the wealth of Egypt, hearing tales of its elephants, and fleets, and palaces; but now that he has been behind the scenes and seen that everything in Egypt is play-acting and painted scenery, he has come over entirely to us.
+[15.2] And at the banquet which followed, where many guests were present, he said, so that all could hear: “I thought this Sicyonian youth was merely free-spirited and a lover of his fellow-citizens; but he would seem to be a capable judge also of the lives and actions of kings. For formerly he was inclined to overlook us, fixing his hopes elsewhere, and he admired the wealth of Egypt, hearing tales of its elephants, and fleets, and palaces; but now that he has been behind the scenes and seen that everything in Egypt is play-acting and painted scenery, he has come over entirely to us.”
 
-[15.3] Therefore I both welcome the young man myself, having determined to make every possible use of him, and I ask you to consider him a friend. These words were seized upon by the envious and malevolent, who vied with one another in writing to Ptolemy many grievous charges against Aratus, so that the king sent an envoy and upbraided him. So great malice and envy attend upon the friendships of kings and tyrants, for which men strive and at which they aim with ardent passion.
+[15.3] “Therefore I both welcome the young man myself, having determined to make every possible use of him, and I ask you to consider him a friend.” These words were seized upon by the envious and malevolent, who vied with one another in writing to Ptolemy many grievous charges against Aratus, so that the king sent an envoy and upbraided him. So great malice and envy attend upon the friendships of kings and tyrants, for which men strive and at which they aim with ardent passion.
 
-### Capítulo 16
+#### Capítulo 16
 
 [16.1] Aratus now, having been chosen general of the Achaean League for the first time, ravaged the opposite territories of Locris and Calydonia, and went to the assistance of the Boeotians with an army of ten thousand men. He came too late, however, for the battle at Chaeroneia, in which the Boeotians were defeated by the Aetolians, with the loss of Aboeocritus, their Boeotarch, and a thousand men.
 
-[16.2] A year later,In 243 B.C., two years later. The office of general in the League could not be held by the same person in successive years. Cf. chap. xxiv. 4. being general again, he set on foot the enterprise for the recovery of Acrocorinthus, not in the interests of Sicyonians or Achaeans merely, but purposing to drive from that stronghold what held all Hellas in a common subjection,—the Macedonian garrison.
+[16.2] A year later,[^10] being general again, he set on foot the enterprise for the recovery of Acrocorinthus, not in the interests of Sicyonians or Achaeans merely, but purposing to drive from that stronghold what held all Hellas in a common subjection,—the Macedonian garrison.
 
-[16.3] Chares the Athenian, having been successful in a battle with the king’s generals, wrote to the people of Athens that he had won a battle which was sister to that at Marathon; and this enterprise of Aratus may be rightly called a sister of those of Pelopidas the Theban and Thrasybulus the Athenian, in which they slew tyrants, except that it surpassed them in being undertaken, not against Greeks, but against a foreign and alien power.
+[16.3] Chares the Athenian, having been successful in a battle with the king’s generals, wrote to the people of Athens that he had won a battle which was “sister to that at Marathon”; and this enterprise of Aratus may be rightly called a sister of those of Pelopidas the Theban and Thrasybulus the Athenian, in which they slew tyrants, except that it surpassed them in being undertaken, not against Greeks, but against a foreign and alien power.
 
 [16.4] For the Isthmus of Corinth, forming a barrier between the seas, brings together the two regions, and thus unites our continent; and when Acrocorinthus, which is a lofty hill springing up at this centre of Greece, is held by a garrison, it hinders and cuts off all the country south of the Isthmus from intercourse, transits, and the carrying on of military expeditions by land and sea,
 
-[16.5] and makes him who controls the place with a garrison sole lord of Greece. Therefore it is thought that the younger Philip of MacedonPhilip V., 237-179 B.C. uttered no jest, but the truth, whenever he called the city of Corinth the fetters of Greece.
+[16.5] and makes him who controls the place with a garrison sole lord of Greece. Therefore it is thought that the younger Philip of Macedon[^11] uttered no jest, but the truth, whenever he called the city of Corinth “the fetters of Greece.”
 
-### Capítulo 17
+#### Capítulo 17
 
 [17.1] Accordingly, the place was always an object of great contention among kings and dynasts, but the eagerness of Antigonus to secure it fell nothing short of the most frenzied passion, and he was wholly absorbed in schemes to take it by stratagem from its possessors, since an open attempt upon it was hopeless.
 
-[17.2] For when Alexander,The tyrant of Corinth. in whose hands the place was, had died of poison given him (it is said) in obedience to Antigonus, and his wife Nicaea had succeeded to his power and was guarding the citadel, Antigonus at once sent his son Demetrius to her in furtherance of his schemes, and by inspiring her with pleasant hopes of a royal marriage and of wedded life with a young man who would be no disagreeable company for an elderly woman,
+[17.2] For when Alexander,[^12] in whose hands the place was, had died of poison given him (it is said) in obedience to Antigonus, and his wife Nicaea had succeeded to his power and was guarding the citadel, Antigonus at once sent his son Demetrius to her in furtherance of his schemes, and by inspiring her with pleasant hopes of a royal marriage and of wedded life with a young man who would be no disagreeable company for an elderly woman,
 
 [17.3] he captured her, using his son for all the world like a bait for her. The citadel, however, she did not give up, but kept it under strong guard. Pretending, therefore, indifference to this, Antigonus celebrated the nuptials of the pair in Corinth, exhibiting spectacles and giving banquets every day, as one whom pleasure and kindliness led to think chiefly of mirth and ease.
 
@@ -208,17 +210,17 @@ URN: `null`
 
 [17.5] And the guards within, stupefied, opened it. Thus master of the place, he could not contain himself for joy, but drank and disported himself in the streets, and with music-girls in his train and garlands on his head, old man that he was and acquainted with so great vicissitudes of fortune, revelled through the market-place, greeting and clasping hands with all who met him. Thus we see that neither grief nor fear transports and agitates the soul as much as joy that comes unexpectedly.
 
-### Capítulo 18
+#### Capítulo 18
 
 [18.1] Antigonus, then, having got Acrocorinthus into his power, as I have said, kept it under guard, putting men there whom he most trusted, and making Persaeus the philosopher their commander. Now Aratus, even while Alexander was still living, had set his hand to the enterprise, but an alliance was made between the Achaeans and Alexander, and he therefore desisted.
 
 [18.2] At the time of which I speak, however, a new and fresh basis for the enterprise was found by him in the following circumstances. There were in Corinth four brothers, Syrians by race, one of whom, Diodes by name, was serving as a mercenary soldier in the citadel. The other three, after stealing some gold plate of the king’s, came to Aegias, a banker in Sicyon with whom Aratus did business. A portion of the gold they disposed of to him at once, but the remainder was being quietly exchanged by one of them, Erginus, in frequent visits.
 
-[18.3] Erginus thus became well acquainted with Aegias, and having been led by him into conversation about the garrison in the citadel, said that as he was going up to see his brother he had noticed in the face of the cliff a slanting fissure leading to where the wall of the citadel was at its lowest. Thereupon Aegias fell to jesting with him, and said: Do you, then, best of men, thus for the sake of a little gold plate rifle the king’s treasures, when it is in your power to sell a single hour’s work for large sums of money? Don’t you know that burglars as well as traitors, if they are caught, have only one death to die?
+[18.3] Erginus thus became well acquainted with Aegias, and having been led by him into conversation about the garrison in the citadel, said that as he was going up to see his brother he had noticed in the face of the cliff a slanting fissure leading to where the wall of the citadel was at its lowest. Thereupon Aegias fell to jesting with him, and said: “Do you, then, best of men, thus for the sake of a little gold plate rifle the king’s treasures, when it is in your power to sell a single hour’s work for large sums of money? Don’t you know that burglars as well as traitors, if they are caught, have only one death to die?”
 
 [18.4] Erginus burst out laughing, and as a first step agreed to make trial of Diodes (saying that he had no confidence at all in his other brothers), and a few days afterwards came back and bargained to conduct Aratus to the wall at a spot where it was not more than fifteen feet in height, and to aid in the rest of the enterprise together with Diodes.
 
-### Capítulo 19
+#### Capítulo 19
 
 [19.1] Aratus on his part agreed to give the men sixty talents if he was successful, and in case he failed, and he as well as they got off safely, to give each of them a house and a talent. Then, since the sixty talents had to be deposited with Aegias for Erginus, and Aratus neither had them himself nor was willing by borrowing them to give anyone else a suspicion of his undertaking, he took most of his plate and his wife’s golden ornaments and deposited them with Aegias as security for the money.
 
@@ -226,7 +228,7 @@ URN: `null`
 
 [19.3] For who will not admire the magnanimity of the man, and yearn even now to lend a helping hand, who purchased at so high a price so great a danger, and pledged what he thought the most precious of his possessions in order that he might be introduced by night among his enemies and contend for his life, receiving as his security from his countrymen the hope of a noble action, and nothing else?
 
-### Capítulo 20
+#### Capítulo 20
 
 [20.1] Now the enterprise was dangerous in itself, but was made more dangerous still by a mistake which occurred at the very beginning through ignorance. For Technon, the servant of Aratus, had been sent to inspect the wall with Diodes, and had not yet met Diodes face to face, but thought he would know how he looked because Erginus had described him as curly-haired, of a swarthy complexion, and without a beard.
 
@@ -238,7 +240,7 @@ URN: `null`
 
 [20.5] Erginus not only did this, but actually brought Dionysius with him to Aratus. And now that Dionysius was there they would not let him go, but bound him and kept him indoors under lock and key, while they themselves prepared for their attack.
 
-### Capítulo 21
+#### Capítulo 21
 
 [21.1] When all things were ready, Aratus ordered the rest of his forces to pass the night under arms, and taking with him four hundred picked men, few of whom knew what was on foot themselves, led them towards the gate of Corinth near by the temple of Hera. It was midsummer, the moon was at its full, and the night was cloudless and clear, so that they feared lest the gleam of their arms in the moonlight should disclose them to the sentinels.
 
@@ -250,7 +252,7 @@ URN: `null`
 
 [21.5] And presently the trumpets were sounding, the city was in an uproar over what was happening, the streets were full of people running up and down, many lights were flashing, some in the city below and some in the citadel above, and a confused shouting broke forth on all hands.
 
-### Capítulo 22
+#### Capítulo 22
 
 [22.1] Meanwhile Aratus was struggling up the steep with all his might, slowly and laboriously at first, unable to keep to the path and wandering from it, since it was everywhere sunk in the shadows of the jutting cliffs and had many twists and turns before it came out at the wall of the citadel. Then, marvellous to relate, the moon is said to have parted the clouds and shone out, making the most difficult part of the road plain, until he got to the wall at the spot desired; there the clouds came together again and everything was hidden in darkness.
 
@@ -264,7 +266,7 @@ URN: `null`
 
 [22.6] At last, with a united onset, they repulsed the enemy, mastered the citadel, and held its garrison in their power. Day was now breaking, the sun at once shone out upon their success, and the rest of the forces of Aratus came up from Sicyon, the Corinthians readily receiving them by the gates and helping them to seize the king’s soldiers.
 
-### Capítulo 23
+#### Capítulo 23
 
 [23.1] When everything appeared to be safe Aratus came down from the citadel into the theatre whither an immense multitude streamed with an eager desire to see him and hear what he would say to the Corinthians.
 
@@ -274,13 +276,13 @@ URN: `null`
 
 [23.4] But when they had ceased and quiet had ensued, he summoned his strength and in behalf of the Achaeans made a speech which befitted their exploit, and persuaded the Corinthians to join the Achaean League. He also gave them back the keys to their gates, of which they then became possessed for the first time since the time of Philip of Macedon. Of the officers of Antigonus, he dismissed Archelaüs, who had been taken prisoner, but Theophrastus, who would not quit his post, he slew;
 
-[23.5] as for Persaeus, on the capture of the citadel he made his escape to Cenchreae. And at a later time, as we are told, when he was leading a life of leisure, and someone remarked that in his opinion the wise man only could be a good general, Indeed, he replied, there was a time when I too particularly liked this doctrine of Zeno’s; but now, since the lesson I got from the young man of Sicyon, I am of another mind. This story of Persaeus is told by many writers.
+[23.5] as for Persaeus, on the capture of the citadel he made his escape to Cenchreae. And at a later time, as we are told, when he was leading a life of leisure, and someone remarked that in his opinion the wise man only could be a good general, “Indeed,” he replied, “there was a time when I too particularly liked this doctrine of Zeno’s; but now, since the lesson I got from the young man of Sicyon, I am of another mind.” This story of Persaeus is told by many writers.
 
-### Capítulo 24
+#### Capítulo 24
 
 [24.1] As for Aratus, he at once made himself master of the temple of Hera and the harbour of Lechaeum; he also seized five-and-twenty of the king’s ships, and sold five hundred horses and four hundred Syrians; Acrocorinthus, too, was garrisoned by the Achaeans with four hundred men-at-arms, and fifty dogs with as many keepers were maintained in the citadel.
 
-[24.2] Now the Romans, in their admiration of Philopoemen, call him the last of the Greeks, implying that no great man arose among the Greeks after him; but I should say that this capture of Acrocorinthus was the very last and latest achievement of the Greeks, and that it rivalled their best, not only in daring, but also in happy results, as events at once showed.
+[24.2] Now the Romans, in their admiration of Philopoemen, call him “the last of the Greeks,” implying that no great man arose among the Greeks after him; but I should say that this capture of Acrocorinthus was the very last and latest achievement of the Greeks, and that it rivalled their best, not only in daring, but also in happy results, as events at once showed.
 
 [24.3] For Megara seceded from Antigonus and attached herself to Aratus; Troezen and Epidaurus were enrolled in the Achaean League; and Aratus, making a distant expedition for the first time, invaded Attica, and crossing the strait plundered Salamis, his Achaean forces, as though released from prison, obeying his every wish. But the freemen among his prisoners he sent back to the Athenians without ransom, thus laying a foundation for their revolt from Antigonus.
 
@@ -288,7 +290,7 @@ URN: `null`
 
 [24.5] For he considered that the Greek states which were weak would be preserved by mutual support when once they had been bound as it were by the common interest, and that just as the members of the body have a common life and breath because they cleave together in a common growth, but when they are drawn apart and become separate they wither away and decay, in like manner the several states are ruined by those who dissever their common bonds, but are augmented by mutual support, when they become parts of a great whole and enjoy a common foresight.
 
-### Capítulo 25
+#### Capítulo 25
 
 [25.1] And so, since he saw that the best of the neighbouring peoples were autonomous, and was distressed at the servitude of the Argives, he plotted to kill Aristomachus the tyrant of Argos, being ambitious to restore its freedom to the city as a reward for the rearing it had given him, as well as to attach it to the Achaean League.
 
@@ -298,13 +300,13 @@ URN: `null`
 
 [25.4] Nevertheless, after a little while Aristomachus was killed by slaves, and Aristippus, a more pernicious tyrant than he, soon succeeded in seizing the power. Aratus at once took all the Achaeans of military age who were at hand and went swiftly to the aid of the city, supposing that he would be welcomed by the Argives.
 
-[25.5] But since most of them were by this time habituated to slavery and willing to endure it, so that not a man came over to his side, he retired, after involving the Achaeans in the charge of having gone to war in time of peace. They were prosecuted on this charge before the Mantineans, and in the absence of Aratus, Aristippus as plaintiff won his case and was awarded damages to the amount of thirty minas.Half a talent, equivalent to about £118 or $600, a merely nominal fine. Mantineia acted as arbitrator,perhaps by special agreement.
+[25.5] But since most of them were by this time habituated to slavery and willing to endure it, so that not a man came over to his side, he retired, after involving the Achaeans in the charge of having gone to war in time of peace. They were prosecuted on this charge before the Mantineans, and in the absence of Aratus, Aristippus as plaintiff won his case and was awarded damages to the amount of thirty minas.[^13]
 
 [25.6] Aratus himself the tyrant both hated and feared, and so laid plots to kill him with the assistance of Antigonus the king; and almost everywhere there were men who undertook this deed for them and watched for an opportunity.
 
 [25.7] But there is no safeguard for a ruler like a sincere and steadfast goodwill on the part of the ruled. For when both the common people and the leading men are afraid, not of their leader, but for their leader, he sees with many eyes, hears with many ears, and so perceives betimes what is going on. Therefore I wish to stop my story at this point, in order to describe the life that Aristippus led. This was laid upon him by his office of tyrant, so envied of men, and by the pride and pomp of monarchy, which men celebrate and call blessed.
 
-### Capítulo 26
+#### Capítulo 26
 
 [26.1] For though he had Antigonus as ally, and kept many guards to protect his person, and had left no single enemy alive in the city, yet he would order his spearmen and guards to bivouac outside in the colonnade;
 
@@ -314,7 +316,7 @@ URN: `null`
 
 [26.4] But of the men who seize citadels, maintain spearmen, and depend upon arms and gates and trap-doors for the safety of their persons, only a few, like timorous hares, have escaped a violent death; while not one of them has left a house, or a family, or a tomb to keep his memory in honour.
 
-### Capítulo 27
+#### Capítulo 27
 
 [27.1] Against Aristippus, then, and in trying to seize Argos, Aratus made many open and secret attempts in vain. Once he set up scaling-ladders, at great hazard got upon the wall with a few followers, and killed the sentries that defended the place.
 
@@ -322,7 +324,7 @@ URN: `null`
 
 [27.3] And if through the night also he had maintained the struggle, he would not have failed in his attempt; for the tyrant was already bent on flight and had sent on many of his goods to the sea. As it was, however, no one told Aratus of this, and since water was failing him and he could not use his strength by reason of his wound, he led his soldiers away.
 
-### Capítulo 28
+#### Capítulo 28
 
 [28.1] Then, since he despaired of success in this way, he openly invaded the territory of Argos with his army and ravaged it; and in a fierce battle with Aristippus at the river Chares, he was accused of abandoning the struggle and throwing away the victory. For although the rest of his forces admittedly had the upper hand and had gone far on ahead in pursuit, he himself, not so much because he was ousted from his position by his opponents, as out of mistrust of success and in utter fear, withdrew in disorder to his camp.
 
@@ -332,9 +334,9 @@ URN: `null`
 
 [28.4] But the games were also celebrated at Argos, and then for the first time the privilege of asylum and safe-conduct which had been granted to contestants in the games was violated, since the Achaeans treated as enemies and sold into slavery all contestants in the games at Argos whom they caught travelling through their territory. So fierce and implacable was Aratus in his hatred of tyrants.
 
-### Capítulo 29
+#### Capítulo 29
 
-[29.1] A little while after this,After the events narrated in xxxiv. ff. Aratus heard that Aristippus was plotting against Cleonae, but feared to attack it while his enemy was posted at Corinth; he therefore assembled an army by public proclamation. And after ordering his troops to carry provisions for several days, he marched down to Cenchreae, by this stratagem inviting Aristippus to attack Cleonae in the belief that his enemy was riot at hand; and this was actually what happened. For the tyrant set out at once from Argos with his forces.
+[29.1] A little while after this,[^14] Aratus heard that Aristippus was plotting against Cleonae, but feared to attack it while his enemy was posted at Corinth; he therefore assembled an army by public proclamation. And after ordering his troops to carry provisions for several days, he marched down to Cenchreae, by this stratagem inviting Aristippus to attack Cleonae in the belief that his enemy was riot at hand; and this was actually what happened. For the tyrant set out at once from Argos with his forces.
 
 [29.2] But Aratus, returning from Cenchreae to Corinth as soon as it was dark, and posting guards along all the roads, led his Achaeans towards Cleonae, and they followed him in such good order and with such swiftness and alacrity that not only while they were on the march, but also when they had got into Cleonae, before the night was over, and had arrayed themselves for battle, Aristippus knew nothing at all of it.
 
@@ -346,7 +348,7 @@ URN: `null`
 
 [29.6] For these stories were so prevalent that even in the schools of philosophy, when the query arises whether palpitation of the heart and change of colour and looseness of the bowels, in the presence of seeming peril, are the mark of cowardice, or of some faulty temperament and chilliness in the body, Aratus is always mentioned by name as one who was a good general, but always had these symptoms when a contest was impending.
 
-### Capítulo 30
+#### Capítulo 30
 
 [30.1] Having thus made away with Aristippus, Aratus at once began to plot against Lydiades, who was tyrant in his native city of Megalopolis. This Lydiades was neither of mean birth nor naturally lacking in high ambition, nor, like most sole rulers, had he been driven by licence and rapacity into this iniquity, but he had been fired with a love of glory while still young, and had thoughtlessly associated with his high spirit the false and empty doctrines current concerning tyranny, to the effect that it was a wonderful and blessed thing. And now that he had made himself tyrant, he was quickly sated with the burdens which devolve upon the sole ruler.
 
@@ -358,7 +360,7 @@ URN: `null`
 
 [30.5] And just as the cuckoo, in the fable of Aesop, when he asks the little birds why they fly away from him, is told by them that he will one day be a hawk, so it would seem that since Lydiades had once been a tyrant he was never free from a suspicion, which did injustice to his real nature, that he would change again.
 
-### Capítulo 31
+#### Capítulo 31
 
 [31.1] In the Aetolian war also Aratus won a good repute. For when the Achaeans were bent on an engagement with the Aetolians in front of Megara, and Agis the king of the Lacedaemonians was come up with an army and joined in urging the Achaeans on to battle, Aratus opposed this counsel, and in spite of much vilification and much scoffing abuse for weakness and cowardice would not abandon, because of any seeming disgrace, which he judged to be for the general advantage, but allowed the enemy to cross the Geraneian range without a battle and pass on into Peloponnesus.
 
@@ -366,7 +368,7 @@ URN: `null`
 
 [31.3] For as soon as they had entered the city, the common soldiers had scattered themselves among the houses, jostling and fighting with one another over the booty, while the leaders and captains were going about and seizing the wives and daughters of the Pellenians, on whose heads they put their own helmets, that no one else might seize them, but that the helmet might show to whom each woman belonged. But while they were in this situation and thus engaged, word was suddenly brought them that Aratus had attacked. Dismay fell upon them, as was natural amid such disorder, and before all had learned of the danger the foremost of them, engaging with the Achaeans at the gates and in the suburbs, were already conquered and in full flight, and being driven in headlong rout, they filled with dismay those who were collecting together and coming to their aid.
 
-### Capítulo 32
+#### Capítulo 32
 
 [32.1] In the midst of this confusion, one of the captive women, daughter of Epigethes, a man of distinction, and herself conspicuous for beauty and stateliness of person, chanced to be sitting in the sanctuary of Artemis, where she had been placed by the captain of a picked corps, who had seized her for his prize and set his three-crested helmet upon her head. But suddenly she ran forth to view the tumult,
 
@@ -374,7 +376,7 @@ URN: `null`
 
 [32.3] This image, then, they say, the priestess carried forth from the temple at this time, and by ever turning it in the faces of the Aetolians robbed them of their senses and took away their reason. Aratus, however, in his Commentaries, makes no mention of such a thing, but says that after routing the Aetolians and bursting into the city with them as they fled, he drove them out by main force, and slew seven hundred of them. The action was extolled as among the greatest exploits, and Timanthes the painter made a picture of the battle which in its composition vividly portrayed the event.
 
-### Capítulo 33
+#### Capítulo 33
 
 [33.1] Notwithstanding, since many peoples and dynasts were combining against the Achaeans, Aratus at once sought to make friends of the Aetolians, and with the assistance of Pantaleon, their most influential man, not only made peace, but also an alliance between them and the Achaeans.
 
@@ -384,39 +386,39 @@ URN: `null`
 
 [33.4] And Aratus himself also made this plain, since he assaulted the Peiraeus, not twice or thrice, but many times, like a desperate lover, and would not desist in spite of his failures, but was roused to fresh courage by the very narrowness of the slight margin by which he was disappointed of his hopes. And once he actually put his leg out of joint as he fled through the Thriasian plain; and while he was under treatment for this, the knife was often used upon him, and for a long time he was carried in a litter upon his campaigns.
 
-### Capítulo 34
+#### Capítulo 34
 
-[34.1] When Antigonus died and Demetrius succeeded to the throne,Antigonus Gonatas died in 239 B.C., and was succeeded by his son, Demetrius II., who reigned ten years. Aratus was all the more bent upon getting Athens, and wholly despised the Macedonians. And so, after he had been overcome in a battle at Phylacia by Bithys the general of Demetrius, and reports were rife, one that he had been captured, and another that he was dead,
+[34.1] When Antigonus died and Demetrius succeeded to the throne,[^15] Aratus was all the more bent upon getting Athens, and wholly despised the Macedonians. And so, after he had been overcome in a battle at Phylacia by Bithys the general of Demetrius, and reports were rife, one that he had been captured, and another that he was dead,
 
 [34.2] Diogenes, the guardian of the Peiraeus, sent a letter to Corinth ordering the Achaeans to quit the city, since Aratus had been killed; but when the letter arrived at Corinth, Aratus chanced to be there in person, and so the messengers of Diogenes, after furnishing much diversion and laughter, went away. Moreover, the king himself sent a ship from Macedonia, on which Aratus was to be brought to him in chains.
 
-[34.3] And the Athenians, carrying their flattery of the Macedonians to the highest pitch of levity, crowned themselves with garlands as soon as they heard that Aratus was dead. Therefore he was wroth, and at once made an expedition against them, and advanced as far as the Academy; then he listened to their entreaties and did them no harm. So the Athenians came to recognize the excellence of his character, and when, upon the death of Demetrius,In 229 B.C. He was succeeded by Antigonus Doson, who reigned nine years. they set out to regain their freedom, they called upon him.
+[34.3] And the Athenians, carrying their flattery of the Macedonians to the highest pitch of levity, crowned themselves with garlands as soon as they heard that Aratus was dead. Therefore he was wroth, and at once made an expedition against them, and advanced as far as the Academy; then he listened to their entreaties and did them no harm. So the Athenians came to recognize the excellence of his character, and when, upon the death of Demetrius,[^16] they set out to regain their freedom, they called upon him.
 
 [34.4] Then Aratus, although another was at that time general of the Achaeans, and he himself was confined to his bed by a long sickness, nevertheless was carried in a litter to help the city in its time of need, and joined in persuading Diogenes, the commander of the garrison, to give up the Peiraeus, Munychia, Salamis, and Sunium to the Athenians for a hundred and fifty talents, twenty of which Aratus contributed himself.
 
 [34.5] Moreover, Aegina and Hermione at once came over to the Achaeans, and the greater part of Arcadia joined their league. And since the Macedonians were busy with certain neighbouring and adjacent wars, and the Aetolians were in alliance with the Achaeans, the power of the Achaean League was greatly increased.
 
-### Capítulo 35
+#### Capítulo 35
 
 [35.1] And now Aratus, seeking to effect his long-standing purpose, and impatient of the tyranny so near the Achaeans in Argos, sent messengers and tried to persuade Aristomachus to give his city freedom and attach it to the Achaean League, urging him to imitate Lydiades and be general of so great a nation with praise and honour, rather than tyrant of a single city with peril and hatred.
 
 [35.2] Aristomachus consented, and told Aratus to send him fifty talents, in order that he might disband and send away the soldiers under him, and the money was being provided. Upon this, Lydiades, who was still general and had an ambition that the Achaeans should regard this transaction as his own work, denounced Aratus to Aristomachus as a man who had always been an implacable enemy of tyrants, and after persuading Aristomachus to entrust the matter to himself, brought him before the Achaean council.
 
-[35.3] Then the members of the council put into clearest light their goodwill towards Aratus and their confidence in him. For when he angrily opposed the project, they drove Aristomachus away; but when he had been won over again, and came before them in person, and began to argue for the project, they speedily and readily adopted all his proposals, admitted Argos and Phlius into the league, and a year laterIn 227 B.C. actually choose Aristomachus general.
+[35.3] Then the members of the council put into clearest light their goodwill towards Aratus and their confidence in him. For when he angrily opposed the project, they drove Aristomachus away; but when he had been won over again, and came before them in person, and began to argue for the project, they speedily and readily adopted all his proposals, admitted Argos and Phlius into the league, and a year later[^17] actually choose Aristomachus general.
 
 [35.4] Aristomachus, then, being in high favour with the Achaeans, and wishing to invade Laconia, summoned Aratus from Athens. Aratus wrote him a letter in which he tried to dissuade him from the expedition, and expressed unwillingness to involve the Achaeans in hostilities with Cleomenes, who was daring and growing marvellously in power; but, since Aristomachus was altogether insistent, Aratus obeyed orders and accompanied the expedition in person.
 
-[35.5] It was at this time that he prevented Aristomachus from joining battle when Cleomenes came upon them at Pallantium,See the Cleomenes, iv. 3-4. and was denounced therefore by Lydiades, with whom he came into contest and competition for the office of general, winning the vote and being chosen general for the twelfth time.
+[35.5] It was at this time that he prevented Aristomachus from joining battle when Cleomenes came upon them at Pallantium,[^18] and was denounced therefore by Lydiades, with whom he came into contest and competition for the office of general, winning the vote and being chosen general for the twelfth time.
 
-### Capítulo 36
+#### Capítulo 36
 
-[36.1] In the campaign of this year226 B.C. Cf. the Cleomenes, v. he was defeated by Cleomenes near Mount Lycaeum, and took to flight; and, since he lost his way in the night, he was thought to be dead, and once more a story to this effect had wide currency among the Greeks. But he escaped alive and rallied his soldiers, and then was not content to come off safely,
+[36.1] In the campaign of this year[^19] he was defeated by Cleomenes near Mount Lycaeum, and took to flight; and, since he lost his way in the night, he was thought to be dead, and once more a story to this effect had wide currency among the Greeks. But he escaped alive and rallied his soldiers, and then was not content to come off safely,
 
 [36.2] but making the best use of his opportunity, when no one expected or had any idea of what was to happen, he suddenly made an assault upon Mantineia, which was in alliance with Cleomenes; and having taken the city, he set a garrison there, and made its alien residents full citizens, thus acquiring single-handed for the conquered Achaeans what they could not easily have obtained as conquerors.
 
-[36.3] And again, when the Lacedaemonians made an expedition against Megalopolis,Cf. the Cleomenes, vi. he went to the aid of the city, but was loth to give Cleomenes a chance for the hand-to-hand fighting which he desired, and resisted the importunities of the Megalopolitans. For he was never at any time well fitted by nature for set battles, and at this time in particular he was inferior in numbers, and was matched against a man who was young and daring, while his own courage Was past its prime, and his ambition chastened. He also thought that the glory which his adversary was trying to acquire by his daring and did not possess, had already been acquired by himself and must be preserved by his caution.
+[36.3] And again, when the Lacedaemonians made an expedition against Megalopolis,[^20] he went to the aid of the city, but was loth to give Cleomenes a chance for the hand-to-hand fighting which he desired, and resisted the importunities of the Megalopolitans. For he was never at any time well fitted by nature for set battles, and at this time in particular he was inferior in numbers, and was matched against a man who was young and daring, while his own courage Was past its prime, and his ambition chastened. He also thought that the glory which his adversary was trying to acquire by his daring and did not possess, had already been acquired by himself and must be preserved by his caution.
 
-### Capítulo 37
+#### Capítulo 37
 
 [37.1] Nevertheless, his light infantry once made a sally, drove the Spartans as far as to their camp, and were scattered about among the tents. Aratus, however, would not even then lead up his men, but putting a ravine between himself and the enemy, halted there, and would not suffer his men-at-arms to cross it. Then Lydiades, distressed at what was going on, and loading Aratus with reproaches, called his horsemen to him and exhorted them to go to the help of the pursuers, and not to let the victory slip out of their hands nor leave in the lurch a commander who was fighting in behalf of his native city.
 
@@ -424,13 +426,13 @@ URN: `null`
 
 [37.3] The rest of his men fled to their main line, threw the men-at-arms into confusion, and thus infected the whole army with their defeat. Aratus was severely blamed for this, being thought to have betrayed Lydiades; and when the Achaeans left the field in anger, they forced him to accompany them to Aegium. Here they held an assembly, and voted not to give him money and not to maintain mercenaries for him; if he wanted to wage war, he must provide the means himself.
 
-### Capítulo 38
+#### Capítulo 38
 
 [38.1] Smarting under this insult, he resolved to give up his seal at once, and resign the office of general, but upon reflection he held on for the present, and after leading the Achaeans forth to Orchomenus, fought a battle there with Megistonoüs, the stepfather of Cleomenes, in which he got the upper hand, killing three hundred of the enemy and taking Megistonoüs prisoner.
 
-[38.2] But when, accustomed as he was to be general every other year, his turn came round again and he was invited to take the office, he formally declined,Cf. the Cleomenes, xv. 1. and Timoxenus was chosen general.For the year 224 B.C. Now the grounds usually given for this refusal of Aratus, namely, his anger at the people, were not thought to be convincing, and the real reason for it was the situation of the Achaeans. For the invasions of Cleomenes were no longer quiet and restrained, as formerly, nor was he fettered by the civil authorities,
+[38.2] But when, accustomed as he was to be general every other year, his turn came round again and he was invited to take the office, he formally declined,[^21] and Timoxenus was chosen general.[^22] Now the grounds usually given for this refusal of Aratus, namely, his anger at the people, were not thought to be convincing, and the real reason for it was the situation of the Achaeans. For the invasions of Cleomenes were no longer quiet and restrained, as formerly, nor was he fettered by the civil authorities,
 
-[38.3] but after he had killed the ephors, divided up the land, advanced many resident aliens to the citizenship, and thus got an irresponsible power,Cf. the Cleomenes, viii., xi. he immediately pressed the Achaeans hard, and demanded the supreme leadership for himself. And therefore men blame Aratus, because, when the ship of state was driving in a great surge and storm, he forsook the pilot’s helm and left it to another, although it had been well, even if the people were unwilling, to remain at their head and save them;
+[38.3] but after he had killed the ephors, divided up the land, advanced many resident aliens to the citizenship, and thus got an irresponsible power,[^23] he immediately pressed the Achaeans hard, and demanded the supreme leadership for himself. And therefore men blame Aratus, because, when the ship of state was driving in a great surge and storm, he forsook the pilot’s helm and left it to another, although it had been well, even if the people were unwilling, to remain at their head and save them;
 
 [38.4] and if he despaired of the government and power of the Achaeans, he ought to have yielded to Cleomenes, and not to have made Peloponnesus quite barbarous again under Macedonian garrisons, nor to have filled Acrocorinthus with Illyrian and Gallic arms, nor, in the case of men whom he was always defeating in the fields of war and statesmanship and abusing in the pages of his Commentaries, to have made these men lords over the cities under the endearing name of allies.
 
@@ -438,11 +440,11 @@ URN: `null`
 
 [38.6] whereas Antigonus, although he was proclaimed leader with full powers by land and sea, would not accept the office until Acrocorinthus had been promised him as the pay for his leadership. In this he acted just like Aesop’s hunter. For he would not mount the Achaeans, although they prayed him to do so and presented their backs to him by way of embassies and decrees, until they consented to wear the bit and bridle of the garrison they received and the hostages they gave.
 
-[38.7] And yet Aratus says everything that he can say in explaining the necessity that was upon him. Polybius, however, says Histories, ii. 47, 4 ff. that for a long time, and before the necessity arose, Aratus mistrusted the daring temper of Cleomenes and made secret overtures to Antigonus, besides putting the Megalopolitans forward to beg the Achaeans to call in Antigonus. For the Megalopolitans were most oppressed by the war, since Cleomenes was continually plundering their territory.
+[38.7] And yet Aratus says everything that he can say in explaining the necessity that was upon him. Polybius, however, says[^24] that for a long time, and before the necessity arose, Aratus mistrusted the daring temper of Cleomenes and made secret overtures to Antigonus, besides putting the Megalopolitans forward to beg the Achaeans to call in Antigonus. For the Megalopolitans were most oppressed by the war, since Cleomenes was continually plundering their territory.
 
 [38.8] A similar account of these matters is given by Phylarchus also, in whom, but for the testimony of Polybius, one should not put entire credence. For goodwill makes his every mention of Cleomenes ecstatic, and as if he were pleading in a court of law, he is for ever accusing Aratus in his history, and defending Cleomenes.
 
-### Capítulo 39
+#### Capítulo 39
 
 [39.1] So, then, the Achaeans lost Mantineia, which was taken again by Cleomenes, and after being defeated in a great battle at Hecatombaeum they were so dismayed that they sent at once and invited Cleomenes to come to Argos and assume the leadership.
 
@@ -450,41 +452,41 @@ URN: `null`
 
 [39.3] Aratus also wrote letters against Cleomenes; and their mutual abuse and defamation reached the point of maligning one another’s marriages and wives. As a result of this, Cleomenes sent a herald to declare war against the Achaeans, and almost succeeded in seizing the city of Sicyon with the help of traitors; he turned aside, however, when close at hand, and assaulted and took the city of Pellene, from which the Achaean commander fled. And not long afterwards he took Pheneus also and Penteleium.
 
-[39.4] Then Argos went over to his side, and Phlius received a garrison which he sent. In a word, not one of their acquisitions longer held firm to the Achaeans, but a vast confusion suddenly encompassed Aratus. He saw Peloponnesus shaking, and its cities everywhere stirred to revolt by restless agitators.With this chapter cf. the Cleomenes, xvii.-xix. 1.
+[39.4] Then Argos went over to his side, and Phlius received a garrison which he sent. In a word, not one of their acquisitions longer held firm to the Achaeans, but a vast confusion suddenly encompassed Aratus. He saw Peloponnesus shaking, and its cities everywhere stirred to revolt by restless agitators.[^25]
 
-### Capítulo 40
+#### Capítulo 40
 
 [40.1] For there was no quiet anywhere, and no contentment with present conditions, but even among the Sicyonians and Corinthians themselves there were many who were known to have been in conference with Cleomenes, men whom a desire for private domination had long ago led into secret hostility towards the common interests.
 
-[40.2] For the punishment of these men Aratus was clothed with absolute power,See chap. xli. 1. and seizing those in Sicyon who were thus corrupted he put them to death; but when he tried to seek out and chastise those in Corinth, he roused the resentment of the populace there, which was already disaffected and ill at ease under the Achaean administration. So they assembled hastily in the temple of Apollo and sent for Aratus, determined to kill him or seize him, and then to revolt.
+[40.2] For the punishment of these men Aratus was clothed with absolute power,[^26] and seizing those in Sicyon who were thus corrupted he put them to death; but when he tried to seek out and chastise those in Corinth, he roused the resentment of the populace there, which was already disaffected and ill at ease under the Achaean administration. So they assembled hastily in the temple of Apollo and sent for Aratus, determined to kill him or seize him, and then to revolt.
 
 [40.3] He came, accordingly, leading his horse after him, as though he had no distrust or suspicion, and when many sprang up and abused and denounced him, with a composed countenance and gentle words he bade them sit down and not stand there shouting in disorderly fashion, but to admit also those who were outside at the door; and as he spoke, he withdrew slowly, as if he would hand his horse over to somebody.
 
 [40.4] Having thus slipped out of the crowd, he conversed calmly with the Corinthians who met him, bidding them go to the temple of Apollo, and so, before his enemies were aware of it, came nigh the citadel. Then he leaped upon his horse, and after giving orders to Cleopater the commander of the garrison in the citadel to guard it with a strong hand, he rode off to Sicyon, followed by only thirty of his soldiers; the rest deserted him and dispersed.
 
-[40.5] After a little while the Corinthians learned of his flight and pursued him, but did not overtake him. Then they sent for Cleomenes and delivered their city into his hands, although he thought that he had gained by what they gave him far less than he had lost by their letting Aratus get away. Cleomenes, accordingly, after the accession to him of the inhabitants of Acte, as the district is called, who placed their cities in his hands,Early in 223 B.C. The story is told very differently in the Cleomenes, xix. 1. f. proceeded to run a wall and palisade about Acrocorinthus.
+[40.5] After a little while the Corinthians learned of his flight and pursued him, but did not overtake him. Then they sent for Cleomenes and delivered their city into his hands, although he thought that he had gained by what they gave him far less than he had lost by their letting Aratus get away. Cleomenes, accordingly, after the accession to him of the inhabitants of Acte, as the district is called, who placed their cities in his hands,[^27] proceeded to run a wall and palisade about Acrocorinthus.
 
-### Capítulo 41
+#### Capítulo 41
 
 [41.1] But a few of the Achaeans came together with Aratus at Sicyon; and in an assembly there held he was chosen general with full powers. And now he surrounded himself with a guard from among his own citizens. For three-and-thirty years he had directed public affairs among the Achaeans, and had enjoyed more power and reputation than any other Greek; but now, abandoned by his allies and helplessly crushed, he was like one drifting about in great surge and peril on the wreck of his native city.
 
 [41.2] For the Aetolians refused him their aid when he asked for it, and the Athenians, whom gratitude made eager to help him, were prevented by Eurycleides and Micion. As for the house and property belonging to Aratus in Corinth, Cleomenes would not touch them at all, nor permit anyone else to do so, but sent for the friends and stewards of Aratus and ordered them to administer and watch over everything as though they are to render an account to Aratus.
 
-[41.3] Moreover, he privately sent Tripylus to Aratus, and afterwards Megistonoüs, his stepfather, promising to give him, besides many other things, a yearly pension of twelve talents, thus doubling the amount which Aratus received annually from Ptolemy; for he sent six talents each year to Aratus.Ptolemy III., surnamed Euergetes, king of Egypt 247-222 B.C. Cleomenes demanded, however, that he should be proclaimed leader of the Achaeans, and together with them should have the keeping of Acrocorinthus.
+[41.3] Moreover, he privately sent Tripylus to Aratus, and afterwards Megistonoüs, his stepfather, promising to give him, besides many other things, a yearly pension of twelve talents, thus doubling the amount which Aratus received annually from Ptolemy; for he sent six talents each year to Aratus.[^28] Cleomenes demanded, however, that he should be proclaimed leader of the Achaeans, and together with them should have the keeping of Acrocorinthus.
 
-[41.4] Aratus made answer that he did not control affairs, but rather was controlled by them; whereupon Cleomenes, thinking himself mocked, at once invaded the territory of Sicyon, ravaged and laid it waste, and encamped before the city three months. All this while Aratus held out patiently, and debated with himself whether he should accept Antigonus as an ally on condition of handing over to him Acrocorinthus! for on any other terms Antigonus was unwilling to give him help.Cf the Cleomenes, xix. 3 f.
+[41.4] Aratus made answer that he did not control affairs, but rather was controlled by them; whereupon Cleomenes, thinking himself mocked, at once invaded the territory of Sicyon, ravaged and laid it waste, and encamped before the city three months. All this while Aratus held out patiently, and debated with himself whether he should accept Antigonus as an ally on condition of handing over to him Acrocorinthus! for on any other terms Antigonus was unwilling to give him help.[^29]
 
-### Capítulo 42
+#### Capítulo 42
 
 [42.1] Accordingly, the Achaeans came together at Aegium and invited Aratus thither. But there was danger in his trying to get there, since Cleomenes was encamped before Sicyon. Besides, the citizens tried to detain him, beseeching him not to go and refusing to let him expose himself while the enemy were near; and presently the women and children were clinging to him and tearfully embracing him as a common father and preserver.
 
-[42.2] Nevertheless, after encouraging and comforting them, he rode out to the sea, accompanied by ten friends and by his son, who was now a young man. Vessels were lying at anchor off the shore, and upon these the party were conveyed to Aegium, where the assembly was sitting. Here it was voted to call in Antigonus and hand over to him Acrocorinthus.In the spring of 223 B.C. Cf the Cleomenes, xix. 4.
+[42.2] Nevertheless, after encouraging and comforting them, he rode out to the sea, accompanied by ten friends and by his son, who was now a young man. Vessels were lying at anchor off the shore, and upon these the party were conveyed to Aegium, where the assembly was sitting. Here it was voted to call in Antigonus and hand over to him Acrocorinthus.[^30]
 
 [42.3] Aratus even sent his son to Antigonus with the other hostages. At this the Corinthians were indignant; they plundered his property and made a present of his house to Cleomenes.
 
-### Capítulo 43
+#### Capítulo 43
 
-[43.1] And now, as Antigonus was approaching with his forces (he was followed by twenty thousand Macedonian footmen and thirteen hundred horse), Aratus, in company with his High Councillors,A body of ten men, chosen as admirers of the general. went by sea to meet him at Pegae, eluding the enemy. He had no very great confidence in Antigonus, and put no trust in the Macedonians. For he knew that his own rise to power had been a consequence of the harm he had done to them, and that he had found the first and the chief basis for his conduct of affairs in his hatred towards the former Antigonus.Antigonus Gonatas. See the note on xxxiv. 1.
+[43.1] And now, as Antigonus was approaching with his forces (he was followed by twenty thousand Macedonian footmen and thirteen hundred horse), Aratus, in company with his High Councillors,[^31] went by sea to meet him at Pegae, eluding the enemy. He had no very great confidence in Antigonus, and put no trust in the Macedonians. For he knew that his own rise to power had been a consequence of the harm he had done to them, and that he had found the first and the chief basis for his conduct of affairs in his hatred towards the former Antigonus.[^32]
 
 [43.2] But seeing how inexorable was the necessity laid upon him in the demands of the hour, to which those we call rulers are slaves, he went on towards the dread ordeal. But Antigonus, when he was told that Aratus was coming to him, gave the rest of the party an ordinary and moderate welcome; Aratus, however, he received at this first meeting with superlative honour, and afterwards, finding him to be a man of worth and wisdom, drew him in closer intimacy to himself.
 
@@ -494,17 +496,17 @@ URN: `null`
 
 [43.5] Later, however, when the war was going on well, Antigonus gave a feast in Corinth, at which he had many guests, and made Aratus recline just above himself. After a little while the king called for a coverlet, and asked Aratus if he too did not think it cold; and when Aratus replied that he was very chilly, the king ordered him to come nearer; so that the rug which the servants brought was thrown over both of them together. Then, indeed, Aratus called to mind his sacrificial victims and burst out laughing, and told the king about the omen and the seer’s prediction. But this took place at a later time.
 
-### Capítulo 44
+#### Capítulo 44
 
 [44.1] At Pegae Antigonus and Aratus exchanged oaths of fidelity, and straightway marched against the enemy at Corinth. And there were conflicts about the city, Cleomenes being well fortified, and the Corinthians defending themselves with ardour. Meanwhile, however, Aristotle the Argive, who was a friend of Aratus, sent secretly to him and promised to bring his city to revolt from Cleomenes if Aratus would come thither with soldiers.
 
-[44.2] So Aratus, after informing Antigonus, took fifteen hundred men and sailed from the Isthmus to Epidaurus with all speed.Cf. the Cleomenes, xx. 3 f. But the Argives, revolting prematurely, attacked the garrison of Cleomenes and shut them up in the citadel, and Cleomenes, learning of this, and fearing that if his enemies got possession of Argos they would cut him off from a safe return home, abandoned Acrocorinthus while it was still night and went to their aid.
+[44.2] So Aratus, after informing Antigonus, took fifteen hundred men and sailed from the Isthmus to Epidaurus with all speed.[^33] But the Argives, revolting prematurely, attacked the garrison of Cleomenes and shut them up in the citadel, and Cleomenes, learning of this, and fearing that if his enemies got possession of Argos they would cut him off from a safe return home, abandoned Acrocorinthus while it was still night and went to their aid.
 
 [44.3] He succeeded in getting into Argos first, routing some of the enemy on the way; but shortly afterwards Aratus came up, and Antigonus showed himself with his forces, and Cleomenes therefore retreated to Mantineia. Upon this the cities all came over to the Achaeans again, Acrocorinthus was handed over to Antigonus, and Aratus, having been chosen general by the Argives, persuaded them to make a present to Antigonus of the property of the tyrants and of the traitors.
 
-[44.4] As for Aristomachus, he was tortured at Cenchreae and then thrown into the sea; for which deed, more than any other, Aratus was reproached, on the ground that he had allowed a man to be lawlessly put to death who was not wicked, but had cooperated with him, and at his persuasion had renounced his power and attached his city to the Achaean League.Cf. chap. xxxv.
+[44.4] As for Aristomachus, he was tortured at Cenchreae and then thrown into the sea; for which deed, more than any other, Aratus was reproached, on the ground that he had allowed a man to be lawlessly put to death who was not wicked, but had cooperated with him, and at his persuasion had renounced his power and attached his city to the Achaean League.[^34]
 
-### Capítulo 45
+#### Capítulo 45
 
 [45.1] Presently, too, men began to blame Aratus for whatever else was done, as, for instance, that the Achaeans made a present to Antigonus of the city of Corinth, as if it had been an ordinary village; that they allowed the king to plunder Orchomenus and put a Macedonian garrison in it; that they decreed not to write or send an embassy to any other king against the wishes of Antigonus;
 
@@ -514,19 +516,19 @@ URN: `null`
 
 [45.4] It was thought also that the treatment of Mantineia by the Achaeans was not in accord with the Greek spirit. For after mastering that city with the aid of Antigonus, they put to death the leading and most noted citizens, and of the rest, some they sold into slavery, while others they sent off into Macedonia in chains, and made slaves of their wives and children, dividing a third of the money thus raised among themselves, and giving the remaining two-thirds to the Macedonians.
 
-[45.5] It is true that this came under the law of reprisal;The repeated treacheries of the Mantineians towards the Achaeans are related at length in Polybius, ii. 57 f. for though it is a terrible thing to treat men of the same race and blood in this way, out of anger, still in dire stress even cruelty is sweet, as Simonides says, when men, as it were, give satisfaction and healing care to a mind that is in anguish and inflamed. But the subsequent treatment of the city by Aratus was neither necessary nor honourable, and cannot be excused.
+[45.5] It is true that this came under the law of reprisal;[^35] for though it is a terrible thing to treat men of the same race and blood in this way, out of anger, still “in dire stress even cruelty is sweet,” as Simonides says, when men, as it were, give satisfaction and healing care to a mind that is in anguish and inflamed. But the subsequent treatment of the city by Aratus was neither necessary nor honourable, and cannot be excused.
 
-[45.6] For after the Achaeans had received the city from Antigonus as a present and had decided to colonize it, Aratus himself was chosen to be the founder of the new settlement, and being then general, got a decree passed that the city should no longer be called Mantineia, but Antigoneia, and this is its name down to the present time. And so it was due to Aratus that the name of lovely MantineiaHomer, Iliad, ii. 607. was altogether extinguished, and the city continues to bear the name of him who destroyed and slew its former citizens.The old name of the city was restored by the Emperor Hadrian, Pausanias, viii. 8. 12.
+[45.6] For after the Achaeans had received the city from Antigonus as a present and had decided to colonize it, Aratus himself was chosen to be the founder of the new settlement, and being then general, got a decree passed that the city should no longer be called Mantineia, but Antigoneia, and this is its name down to the present time. And so it was due to Aratus that the name of “lovely Mantineia”[^36] was altogether extinguished, and the city continues to bear the name of him who destroyed and slew its former citizens.[^37]
 
-### Capítulo 46
+#### Capítulo 46
 
-[46.1] After this, Cleomenes, having been defeated in a great battle at Sellasia,In 221 B.C., cf. the Cleomenes, xxviii. ff. forsook Sparta and sailed off to Egypt, and Antigonus, after having accorded to Aratus fair and kindly treatment in every way, led his army back to Macedonia. There, being now a sick man, he sent Philip, his successor in the kingdom, who was still a stripling, into the Peloponnesus, and urged him to attach himself to Aratus above all others, and through him to deal with the cities and make the acquaintance of the Achaeans.
+[46.1] After this, Cleomenes, having been defeated in a great battle at Sellasia,[^38] forsook Sparta and sailed off to Egypt, and Antigonus, after having accorded to Aratus fair and kindly treatment in every way, led his army back to Macedonia. There, being now a sick man, he sent Philip, his successor in the kingdom, who was still a stripling, into the Peloponnesus, and urged him to attach himself to Aratus above all others, and through him to deal with the cities and make the acquaintance of the Achaeans.
 
 [46.2] And indeed Aratus did take the prince in hand, and managed matters so as to send him back to Macedonia full of great goodwill towards his patron and of ardour and ambition for the conduct of Hellenic affairs.
 
-### Capítulo 47
+#### Capítulo 47
 
-[47.1] But upon the death of AntigonusIn 221 B.C. See the Cleomenes, xxx. the Aetolians, despising the Achaeans on account of their slothful ways (for now that they were accustomed to save themselves by other men’s prowess and had taken shelter behind the Macedonian arms, they were living in great inactivity and lack of discipline), proceeded to interfere in the affairs of Peloponnesus;In 22o B.C. See the Cleomenes, xxxiv. 1. and after plundering the territories of Patrae and Dyme on their way, they invaded Messenia and ravaged it.
+[47.1] But upon the death of Antigonus[^39] the Aetolians, despising the Achaeans on account of their slothful ways (for now that they were accustomed to save themselves by other men’s prowess and had taken shelter behind the Macedonian arms, they were living in great inactivity and lack of discipline), proceeded to interfere in the affairs of Peloponnesus;[^40] and after plundering the territories of Patrae and Dyme on their way, they invaded Messenia and ravaged it.
 
 [47.2] At this Aratus was incensed, and seeing that Timoxenus, who at that time was general of the Achaeans, was hesitant and dilatory, since his term of office was just about to expire, he himself, having been chosen to succeed Timoxenus, anticipated his term of office by five days for the sake of giving aid to the Messenians. And having assembled the Achaeans, who were physically and mentally unfit for war, he met with defeat at Caphyae.
 
@@ -534,17 +536,17 @@ URN: `null`
 
 [47.4] Once more, therefore, the Achaeans stretched out their hands imploringly to Macedonia, and brought Philip down to take part in Hellenic affairs, above all things because his goodwill towards Aratus and his confidence in him led them to hope that they would find him easy-tempered in all things and manageable.
 
-### Capítulo 48
+#### Capítulo 48
 
 [48.1] And now for the first time Apelles, Megaleas, and sundry other courtiers made false charges against Aratus to which the king listened, and joining in the canvass made by those of the opposite faction, he favoured the election of Eperatus as general of the Achaeans.
 
-[48.2] But Eperatus was altogether despised by the Achaeans,Cf. Polybius, v. 30 and as long as Aratus gave little heed to public matters nothing went well. Philip therefore perceived that he had been entirely wrong. So he reversed his course, went back to Aratus, and was wholly his; and since the progress of events now brought him increased power and reputation, he depended altogether upon Aratus, convinced that his repute and strength were due to him.
+[48.2] But Eperatus was altogether despised by the Achaeans,[^41] and as long as Aratus gave little heed to public matters nothing went well. Philip therefore perceived that he had been entirely wrong. So he reversed his course, went back to Aratus, and was wholly his; and since the progress of events now brought him increased power and reputation, he depended altogether upon Aratus, convinced that his repute and strength were due to him.
 
 [48.3] And all the world thought that Aratus was a good guardian and tutor for a kingdom no less than for a democracy; for his principles and character were manifest, like colour in a fabric, in the actions of the king. For instance, the moderation of the young prince in dealing with the offending Lacedaemonians, his engaging behaviour towards the Cretans, by means of which he won the whole island to obedience in a few days, and the astonishingly vigorous conduct of his campaign against the Aetolians, all added to the reputation of Philip for taking good advice, and to that of Aratus for giving it.
 
-[48.4] For this reason, too, the royal courtiers were all the more envious of him, and since they could accomplish nothing by their secret calumnies, they took to abusing and insulting him openly at their banquets, with great wantonness and scurrility; and once they actually pursued and threw stones at him as he was going to his tent after supper. At this Philip was enraged, and for the nonce fined them twenty talents; afterwards, however, regarding them as a noxious and confusing element in his affairs, he put them to death.Cf. Polybius, v. 15 f.
+[48.4] For this reason, too, the royal courtiers were all the more envious of him, and since they could accomplish nothing by their secret calumnies, they took to abusing and insulting him openly at their banquets, with great wantonness and scurrility; and once they actually pursued and threw stones at him as he was going to his tent after supper. At this Philip was enraged, and for the nonce fined them twenty talents; afterwards, however, regarding them as a noxious and confusing element in his affairs, he put them to death.[^42]
 
-### Capítulo 49
+#### Capítulo 49
 
 [49.1] But soon, as the king’s fortune flowed smoothly on, he was lifted up by his success, and developed many inordinate desires; his inherent badness, too, forcing aside the unnatural restraints of his assumed deportment and making it swayto the light, little by little laid bare and revealed his true character. In the first place he inflicted a private wrong upon the younger Aratus by corrupting his wife, and was for a long time undetected, since he was a housemate and a guest of the family; in the second place, he began to show hostility towards the civil polities of the Greeks, and it was presently clear that he was trying to shake off Aratus.
 
@@ -552,41 +554,48 @@ URN: `null`
 
 [49.3] Upon this the officials plucked up courage and tried to lay hands upon the leaders of the people, and they, coming to the attack at the head of their followers, slew the officials and nearly two hundred citizens besides.
 
-### Capítulo 50
+#### Capítulo 50
 
 [50.1] After this outrageous deed of Philip’s, and while he was striving more than ever to set the Messenians by the ears, Aratus reached the city. He showed clearly that he was indignant himself, and would not check his son when he bitterly reproached and reviled Philip. Now, it would seem that the young man was a lover of Philip; and so at this time he told Philip, among other things, that he no longer thought him fair to look upon, after so foul a deed, but the most repulsive of men.
 
-[50.2] Philip made no answer to him, although it was expected that he would, since in his anger he had many times cried out savagely while the young man was speaking, but as though he meekly submitted to what had been said and was a person of moderation and not above the ordinary citizen, he gave the elder Aratus his hand, led him forth from the theatre, and brought him to the Ithomatas,A precinct of Zeus, on the summit of Mt. Ithome. Cf. Pausanias, iv. 3. 9. in order to sacrifice to Zeus and take a view of the place.
+[50.2] Philip made no answer to him, although it was expected that he would, since in his anger he had many times cried out savagely while the young man was speaking, but as though he meekly submitted to what had been said and was a person of moderation and not above the ordinary citizen, he gave the elder Aratus his hand, led him forth from the theatre, and brought him to the Ithomatas,[^43] in order to sacrifice to Zeus and take a view of the place.
 
 [50.3] For it is quite as well walled in as Acrocorinthus, and with a garrison in it is difficult of access and a hard place for its neighbours to take by force. Thither Philip went up, and offered sacrifice, and when the seer brought him the entrails of the ox, he took them in both hands and showed them to Aratus and Demetrius of Pharos, leaning towards each one in turn and asking them what indications they saw in the omens; was he to be master of the citadel, or to give it back to the Messenians?
 
-[50.4] Demetrius, with a laugh, replied: If thou hast the spirit of a seer, thou wilt give up the place; but if that of a king, thou wilt hold the ox by both its horns, speaking darkly of Peloponnesus, which, if Philip added the Ithomatas to Acrocorinthus, would be altogether subject and submissive to him.
+[50.4] Demetrius, with a laugh, replied: “If thou hast the spirit of a seer, thou wilt give up the place; but if that of a king, thou wilt hold the ox by both its horns,” speaking darkly of Peloponnesus, which, if Philip added the Ithomatas to Acrocorinthus, would be altogether subject and submissive to him.
 
-[50.5] Aratus held his peace for a long time, but upon Philip’s asking him to express his opinion, said: There are many lofty hills in Crete, O Philip, and many towering citadels in Boeotia and Phocis; in Acarnania, too, I suppose, as well inland as on its shores, there are many places which show an amazing strength; but not one of these dost thou occupy, and yet all these peoples gladly do thy bidding.
+[50.5] Aratus held his peace for a long time, but upon Philip’s asking him to express his opinion, said: “There are many lofty hills in Crete, O Philip, and many towering citadels in Boeotia and Phocis; in Acarnania, too, I suppose, as well inland as on its shores, there are many places which show an amazing strength; but not one of these dost thou occupy, and yet all these peoples gladly do thy bidding.”
 
-[50.6] For it is robbers that cling to cliffs and crags, but for a king there is no stronger or more secure defence than trust and gratitude. These open up for thee the Cretan sea, these the Peloponnesus. Relying upon these, young as thou art, thou hast already made thyself leader here, and master there. While he was yet speaking, Philip handed the entrails to the seer, and drawing Aratus to him by the hand, said: Come hither, then, and let us take the same road, implying that he had been constrained by him and made to give up the city.
+[50.6] “For it is robbers that cling to cliffs and crags, but for a king there is no stronger or more secure defence than trust and gratitude. These open up for thee the Cretan sea, these the Peloponnesus. Relying upon these, young as thou art, thou hast already made thyself leader here, and master there.” While he was yet speaking, Philip handed the entrails to the seer, and drawing Aratus to him by the hand, said: “Come hither, then, and let us take the same road,” implying that he had been constrained by him and made to give up the city.
 
-### Capítulo 51
+#### Capítulo 51
 
-[51.1] But Aratus presently began to withdraw from the court and little by little to retire from his intimacy with Philip. When the king was about to cross into EpeirusIn 215 B.C. Philip had made an alliance with the Carthaginians against the Romans. and asked him to join the expedition, he refused and remained at home, fearing that he would be covered with ignominy by tine king’s proceedings.
+[51.1] But Aratus presently began to withdraw from the court and little by little to retire from his intimacy with Philip. When the king was about to cross into Epeirus[^44] and asked him to join the expedition, he refused and remained at home, fearing that he would be covered with ignominy by tine king’s proceedings.
 
 [51.2] Philip lost his fleet most shamefully at the hands of the Romans, and after utter failure in his undertakings, came back into Peloponnesus. Here he tried once more to hoodwink the Messenians, and after being detected in this, wronged them openly and ravaged their territory. Then Aratus was altogether estranged and filled with distrust of the king, being now aware also of the crime committed against his domestic life. At this he was sorely vexed himself, but kept it hidden from his son,
 
-[51.3] who could only know that he had been shamefully abused, seeing that he was not able to avenge himself. For Philip would seem to have undergone a very great and inexplicable change,Cf. Polybius, vii. 13. in that from a gentle prince and chaste youth he became a lascivious man and a pernicious tyrant. In fact, however, this was not a change of nature, but a showing forth, in time of security, of a baseness which his fears had long led him to conceal.
+[51.3] who could only know that he had been shamefully abused, seeing that he was not able to avenge himself. For Philip would seem to have undergone a very great and inexplicable change,[^45] in that from a gentle prince and chaste youth he became a lascivious man and a pernicious tyrant. In fact, however, this was not a change of nature, but a showing forth, in time of security, of a baseness which his fears had long led him to conceal.
 
-### Capítulo 52
+#### Capítulo 52
 
 [52.1] For that the feelings which he had cherished from the beginning towards Aratus had an admixture of shame and fear, was made plain by what he did to him at the last. For he desired to kill Aratus, and thought he could not be a free man while Aratus lived, much less a tyrant or a king. In a violent way, however, he made no attempt upon him, but ordered Taurion, one of his officers and friends, to do this in a secret way, preferably by poison, when the king was absent.
 
 [52.2] So Taurion made an intimate companion of Aratus, and gave him poison, not of a sharp and violent sort, but one of those which first induce gentle heats in the body, and a dull cough, and then little by little bring on consumption. The thing was not hidden from Aratus, but since it was no use for him to convict the criminal, he calmly and silently drank his cup of suffering to the dregs, as if his sickness had been of a common and familiar type.
 
-[52.3] However, when one of his intimate companions who was with him in his chamber saw him spit blood, and expressed surprise, Such, my dear Cephalo, said Aratus, are the wages of royal friendship.
+[52.3] However, when one of his intimate companions who was with him in his chamber saw him spit blood, and expressed surprise, “Such, my dear Cephalo,” said Aratus, “are the wages of royal friendship.”
 
-### Capítulo 53
+#### Capítulo 53
 
-[53.1] And so he died,In 213 B.C. at Aegium, while general for the seventeenth time, and the Achaeans were very desirous that he should have burial there and memorials befitting his life. But the Sicyonians regarded it as a calamity that he should not be buried in their city, and persuaded the Achaeans to surrender his body to them.
+[53.1] And so he died,[^46] at Aegium, while general for the seventeenth time, and the Achaeans were very desirous that he should have burial there and memorials befitting his life. But the Sicyonians regarded it as a calamity that he should not be buried in their city, and persuaded the Achaeans to surrender his body to them.
 
-[53.2] They had, however, an ancient law that no one should be buried inside the city walls, and the law was supported by strong feelings of superstition. So they sent to Delphi to get advice in the matter from the Pythian priestess, and she gave them the following oracular answer:— Would’st thou, O Sicyon, pay Aratus lasting honour for the lives he saved, And join in pious funeral rites for thy departed lord? Know that the place which vexes or is vexed by him Is sacrilegious, be it in earth or sky or sea.
+[53.2] They had, however, an ancient law that no one should be buried inside the city walls, and the law was supported by strong feelings of superstition. So they sent to Delphi to get advice in the matter from the Pythian priestess, and she gave them the following oracular answer:—
+
+```verso
+Would’st thou, O Sicyon, pay Aratus lasting honour for the lives he saved,
+And join in pious funeral rites for thy departed lord?
+Know that the place which vexes or is vexed by him
+Is sacrilegious, be it in earth or sky or sea.
+```
 
 [53.3] When the oracle was brought to them the Achaeans were all delighted, and the Sicyonians, in particular, changing their mourning into festival, at once put on garlands and white raiment and brought the body of Aratus from Aegium into their city, amid hymns of praise and choral dances; and choosing out a commanding place, they buried him there, calling him founder and saviour of the city.
 
@@ -594,14 +603,58 @@ URN: `null`
 
 [53.5] and hymns with accompaniment of lyre were sung by the artists of Dionysus, and the gymnasiarch took part in the procession, at the head of the boys and young men of military age; then followed the councillors wearing garlands, and all other citizens who desired. Of these ceremonial rites the Sicyonians still preserve slight traces, celebrated on the same days of the year, but most of them, owing to the passage of time and the pressure of other matters, have lapsed.
 
-### Capítulo 54
+#### Capítulo 54
 
 [54.1] Such was the life and such the nature of the elder Aratus, as history tells us; and as for his son, he was deprived of his reason by Philip, who had an abominable nature and added savage cruelty to his wanton exercise of power. He gave the young man poisons which did not kill, but crazed, and thus made him a prey to strange and dreadful impulses, under which he grasped at absurd activities, and experiences not only shameful but destructive, so that death came to him, although he was young and in the flower of his life, not as a calamity, but as release from evils, and salvation.
 
 [54.2] For this unholy deed, however, Philip paid ample penalties to Zeus, the guardian of hospitality and friendship, as long as he lived. For after being subdued by the Romans and putting his fortunes in their hands, he was stripped of most of his dominions, surrendered all his ships but five, agreed to pay a thousand talents besides, gave up his son to serve as hostage, and only out of pity obtained Macedonia and its tributaries. But he was for ever putting to death the noblest of his subjects and his nearest kin, and thus filled his whole kingdom with horror and hatred of him.
 
-[54.3] One piece of good fortune only was his, amid so many ills, and that was a son of surpassing excellence; but this son he killed, out of envy and jealousy of the honour paid him by the Romans, and left his kingdom to his other son, Perseus, who was not legitimate, as we are told, but supposititious, the child of a sempstress, Gnathaenion.See the Aemilius Paulus, viii. 6 f.; xxxiv., xxxvi. This king graced the triumph of Aemilius, and with him ended the royal line of the Antigonids; whereas the descendants of Aratus were living at Sicyon and Pellene in my time.
+[54.3] One piece of good fortune only was his, amid so many ills, and that was a son of surpassing excellence; but this son he killed, out of envy and jealousy of the honour paid him by the Romans, and left his kingdom to his other son, Perseus, who was not legitimate, as we are told, but supposititious, the child of a sempstress, Gnathaenion.[^47] This king graced the triumph of Aemilius, and with him ended the royal line of the Antigonids; whereas the descendants of Aratus were living at Sicyon and Pellene in my time.
 
----
-
-*Ὁ Διαφορεύς παρῆν*
+[^1]: A friend of Plutarch, not otherwise known, to whom he thus dedicates this Life. See the note on the Theseus, i. 1.
+[^2]: In 264 B.C.
+[^3]: A contest involving the five arts of running, leaping, hurling the spear, boxing, and wrestling.
+[^4]: 251 B.C.
+[^5]: Antigonus Gonatas, king of Macedonia, 283-239 B.C.
+[^6]: Ptolemy Philadelphus, king of Egypt 283-247 B.C.
+[^7]: The sentries who had formed the night-watch came up at the sound of the bell, to be inspected, and then relieved by the morning-watch.
+[^8]: Philip II., 382-336 B.C.
+[^9]: Cf. Cicero, De Off. ii. 23, 81ff.
+[^10]: In 243 B.C., two years later. The office of general in the League could not be held by the same person in successive years. Cf. chap. xxiv. 4.
+[^11]: Philip V., 237-179 B.C.
+[^12]: The tyrant of Corinth.
+[^13]: Half a talent, equivalent to about £118 or $600, a merely nominal fine. Mantineia acted as arbitrator,perhaps by special agreement.
+[^14]: After the events narrated in xxxiv. ff.
+[^15]: Antigonus Gonatas died in 239 B.C., and was succeeded by his son, Demetrius II., who reigned ten years.
+[^16]: In 229 B.C. He was succeeded by Antigonus Doson, who reigned nine years.
+[^17]: In 227 B.C.
+[^18]: See the Cleomenes, iv. 3-4.
+[^19]: 226 B.C. Cf. the Cleomenes, v.
+[^20]: Cf. the Cleomenes, vi.
+[^21]: Cf. the Cleomenes, xv. 1.
+[^22]: For the year 224 B.C.
+[^23]: Cf. the Cleomenes, viii., xi.
+[^24]: Histories, ii. 47, 4 ff.
+[^25]: With this chapter cf. the Cleomenes, xvii.-xix. 1.
+[^26]: See chap. xli. 1.
+[^27]: Early in 223 B.C. The story is told very differently in the Cleomenes, xix. 1. f.
+[^28]: Ptolemy III., surnamed Euergetes, king of Egypt 247-222 B.C.
+[^29]: Cf the Cleomenes, xix. 3 f.
+[^30]: In the spring of 223 B.C. Cf the Cleomenes, xix. 4.
+[^31]: A body of ten men, chosen as admirers of the general.
+[^32]: Antigonus Gonatas. See the note on xxxiv. 1.
+[^33]: Cf. the Cleomenes, xx. 3 f.
+[^34]: Cf. chap. xxxv.
+[^35]: The repeated treacheries of the Mantineians towards the Achaeans are related at length in Polybius, ii. 57 f.
+[^36]: Homer, Iliad, ii. 607.
+[^37]: The old name of the city was restored by the Emperor Hadrian, Pausanias, viii. 8. 12.
+[^38]: In 221 B.C., cf. the Cleomenes, xxviii. ff.
+[^39]: In 221 B.C. See the Cleomenes, xxx.
+[^40]: In 22o B.C. See the Cleomenes, xxxiv. 1.
+[^41]: Cf. Polybius, v. 30
+[^42]: Cf. Polybius, v. 15 f.
+[^43]: A precinct of Zeus, on the summit of Mt. Ithome. Cf. Pausanias, iv. 3. 9.
+[^44]: In 215 B.C. Philip had made an alliance with the Carthaginians against the Romans.
+[^45]: Cf. Polybius, vii. 13.
+[^46]: In 213 B.C.
+[^47]: See the Aemilius Paulus, viii. 6 f.; xxxiv., xxxvi.

@@ -1,36 +1,28 @@
 ---
 id: plutarco-comparison-of-pelopidas-and-marcellus-eng-bernadotte-perrin-1917
-type: texto_primario
-title: "Comparison of Pelopidas and Marcellus"
-subtitle: null
+type: translation
+title: Comparison of Pelopidas and Marcellus
 author: Plutarch
-year_original: null
-language: eng
-translation:
-  - Bernadotte Perrin
+translator:
+- Bernadotte Perrin
 publisher: Harvard University Press
-area: null
-era: null
-tags: []
-status: rascunho
+language: eng
+tags:
+- moralists
+status: draft
 project: pedra_angular
-source: "Plutarch. Comparison of Pelopidas and Marcellus. Ed. Bernadotte Perrin. Cambridge, MA: Harvard University Press, 1917. Perseus Digital Library, Tufts University (CC BY-SA 4.0). URN: null"
-related: []
+urn_work: urn:cts:greekLit:tlg0007.tlg023
+urn: urn:cts:greekLit:tlg0007.tlg023.perseus-eng2
+source: 'Plutarch. Comparison of Pelopidas and Marcellus. Ed. Bernadotte Perrin. Cambridge, MA: Harvard University Press, 1917. Perseus Digital Library, Tufts University (CC BY-SA 4.0).'
+source_repo: PerseusDL/canonical-greekLit
+source_file: data/tlg0007/tlg023/tlg0007.tlg023.perseus-eng2.xml
+source_commit: e37eed2e8
+license: CC-BY-SA-4.0
 ---
 
 # Comparison of Pelopidas and Marcellus
 
-**Plutarch**
-
-Cambridge, MA: Harvard University Press, 1917.
-Perseus Digital Library, Tufts University (CC BY-SA 4.0).
-URN: `null`
-
----
-
-## Texto
-
-### Capítulo 1
+#### Capítulo 1
 
 [1.1] This is what I have thought worthy of record in what historians say about Marcellus and Pelopidas. In their natures and dispositions they were almost exactly alike, since both were valiant, laborious, passionate, and magnanimous; and there would seem to have been this difference only between them, that Marcellus committed slaughter in many cities which he reduced, while Epaminondas and Pelopidas never put any one to death after their victories, nor did they sell cities into slavery. And we are told that, had they been present, the Thebans would not have treated the Orchomenians as they did.
 
@@ -38,7 +30,7 @@ URN: `null`
 
 [1.3] However, with these exploits of Marcellus one may compare the battles of Leuctra and Tegyra, greatest and most illustrious of actions; and we have no exploit of Marcellus accomplished by stealth and ambuscade which we can compare with what Pelopidas did in coming back from exile and slaying the tyrants in Thebes, nay, that seems to rank far higher than any other achievement of secrecy and cunning.
 
-[1.4] Hannibal was, it is true, a most formidable enemy for the Romans, but so, assuredly, were the Lacedaemonians in the time of Pelopidas for the Thebans, and that they were defeated by Pelopidas at Tegyra and Leuctra is an established fact; whereas Hannibal, according to Polybius,Cf. xv. 11, 7, where Hannibal makes this claim, in a speech to his men just before the battle of Zama (202 B.C.). was not even once defeated by Marcellus, but continued to be invincible until Scipio came.
+[1.4] Hannibal was, it is true, a most formidable enemy for the Romans, but so, assuredly, were the Lacedaemonians in the time of Pelopidas for the Thebans, and that they were defeated by Pelopidas at Tegyra and Leuctra is an established fact; whereas Hannibal, according to Polybius,[^1] was not even once defeated by Marcellus, but continued to be invincible until Scipio came.
 
 [1.5] However, I believe, with Livy, Caesar, and Nepos, and, among Greek writers, with King Juba, that sundry defeats and routs were inflicted by Marcellus upon the troops of Hannibal, although these had no great influence upon the war; indeed, the Carthaginian would seem to have practised some ruse in these engagements.
 
@@ -46,17 +38,17 @@ URN: `null`
 
 [1.7] but also to dispute it with all eagerness, and this man was Marcellus. For when their calamities had accustomed them to be satisfied whenever they escaped Hannibal by flight, he taught them to be ashamed to survive defeat, to be chagrined if they came within a little of yielding, and to be distressed if they did not win the day.
 
-### Capítulo 2
+#### Capítulo 2
 
 [2.1] Since, then, Pelopidas was never defeated in a battle where he was in command, and Marcellus won more victories than any Roman of his day, it would seem, perhaps, that the multitude of his successes made the difficulty of conquering the one equal to the invincibility of the other. Marcellus, it is true, took Syracuse, while Pelopidas failed to take Sparta. But I think that to have reached Sparta, and to have been the first of men to cross the Eurotas in war, was a greater achievement than the conquest of Sicily;
 
 [2.2] unless, indeed, it should be said that this exploit belongs rather to Epaminondas than to Pelopidas, as well as the victory at Leuctra, while Marcellus shared with no one the glory of his achievements. For he took Syracuse all alone, and routed the Gauls without his colleague, and when no one would undertake the struggle against Hannibal, but all declined it, he took the field against him, changed the aspect of the war, and was the first leader to show daring.
 
-### Capítulo 3
+#### Capítulo 3
 
-[3.1] I cannot, indeed, applaud the death of either of them, nay, I am distressed and indignant at their unreasonableness in the final disaster. And I admire Hannibal because, in battles so numerous that one would weary of counting them, he was not even wounded. I am delighted, too, with Chrysantes, in the Cyropaedeia,Xenophon, Cyrop. iv. 1, 3. who, though his blade was lifted on high and he was about to smite an enemy, when the trumpet sounded a retreat, let his man go, and retired with all gentleness and decorum.
+[3.1] I cannot, indeed, applaud the death of either of them, nay, I am distressed and indignant at their unreasonableness in the final disaster. And I admire Hannibal because, in battles so numerous that one would weary of counting them, he was not even wounded. I am delighted, too, with Chrysantes, in the “Cyropaedeia,”[^2] who, though his blade was lifted on high and he was about to smite an enemy, when the trumpet sounded a retreat, let his man go, and retired with all gentleness and decorum.
 
-[3.2] Pelopidas, however, was somewhat excusable, because, excited as he always was by an opportunity for battle, he was now carried away by a generous anger to seek revenge. For the best thing is that a general should be victorious and keep his life, but if he must die, he should conclude his life with valour, as Euripides says; for then he does not suffer death, but rather achieves it.
+[3.2] Pelopidas, however, was somewhat excusable, because, excited as he always was by an opportunity for battle, he was now carried away by a generous anger to seek revenge. For the best thing is that a general should be victorious and keep his life, “but if he must die,” he should “conclude his life with valour,” as Euripides says; for then he does not suffer death, but rather achieves it.
 
 [3.3] And besides his anger, Pelopidas saw that the consummation of his victory would be the death of the tyrant, and this not altogether unreasonably invited his effort; for it would have been hard to find another deed of prowess with so fair and glorious a promise. But Marcellus, when no great need was pressing, and when he felt none of that ardour which in times of peril unseats the judgment, plunged heedlessly into danger, and died the death, not of a general, but of a mere skirmisher or scout,
 
@@ -66,6 +58,5 @@ URN: `null`
 
 [3.6] After his death, Pelopidas received burial from his allies, in whose behalf he fell; Marcellus from his enemies, by whose hands he fell. An enviable and happy lot was the former, it is true; but better and greater than the goodwill which makes grateful return for favours done, is the hatred which admires a valour that was harassing. For in this case it is worth alone which receives honour; whereas in the other, personal interests and needs are more regarded than excellence.
 
----
-
-*Ὁ Διαφορεύς παρῆν*
+[^1]: Cf. xv. 11, 7, where Hannibal makes this claim, in a speech to his men just before the battle of Zama (202 B.C.).
+[^2]: Xenophon, Cyrop. iv. 1, 3.

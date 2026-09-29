@@ -1,40 +1,32 @@
 ---
 id: plutarco-comparison-of-lucullus-and-cimon-eng-bernadotte-perrin-1914
-type: texto_primario
-title: "Comparison of Lucullus and Cimon"
-subtitle: null
+type: translation
+title: Comparison of Lucullus and Cimon
 author: Plutarch
-year_original: null
-language: eng
-translation:
-  - Bernadotte Perrin
+translator:
+- Bernadotte Perrin
 publisher: Harvard University Press
-area: null
-era: null
-tags: []
-status: rascunho
+language: eng
+tags:
+- moralists
+status: draft
 project: pedra_angular
-source: "Plutarch. Comparison of Lucullus and Cimon. Ed. Bernadotte Perrin. Cambridge, MA: Harvard University Press, 1914. Perseus Digital Library, Tufts University (CC BY-SA 4.0). URN: null"
-related: []
+urn_work: urn:cts:greekLit:tlg0007.tlg037
+urn: urn:cts:greekLit:tlg0007.tlg037.perseus-eng2
+source: 'Plutarch. Comparison of Lucullus and Cimon. Ed. Bernadotte Perrin. Cambridge, MA: Harvard University Press, 1914. Perseus Digital Library, Tufts University (CC BY-SA 4.0).'
+source_repo: PerseusDL/canonical-greekLit
+source_file: data/tlg0007/tlg037/tlg0007.tlg037.perseus-eng2.xml
+source_commit: e37eed2e8
+license: CC-BY-SA-4.0
 ---
 
 # Comparison of Lucullus and Cimon
 
-**Plutarch**
-
-Cambridge, MA: Harvard University Press, 1914.
-Perseus Digital Library, Tufts University (CC BY-SA 4.0).
-URN: `null`
-
----
-
-## Texto
-
-### Capítulo 1
+#### Capítulo 1
 
 [1.1] One might deem Lucullus especially happy in his end, from the fact that he died before that constitutional change had come, which fate was already contriving by means of the civil wars. His country was in a distempered state when he laid down his life, but still she was free. And in this respect, more than any other, he is like Cimon.
 
-[1.2] For Cimon also died before Greece was confounded, and while she was at the acme of her power. He died, however, in the field, and at the head of an army, not exhausted or of a wandering mind, nor yet making feastings and revellings the crowning prize for arms and campaigns and trophies. Plato Republic, ii. p. 363. banters the followers of Orpheus for declaring that for those who have lived rightly, there is laid up in Hades a treasure of everlasting intoxication.
+[1.2] For Cimon also died before Greece was confounded, and while she was at the acme of her power. He died, however, in the field, and at the head of an army, not exhausted or of a wandering mind, nor yet making feastings and revellings the crowning prize for arms and campaigns and trophies. Plato[^1] banters the followers of Orpheus for declaring that for those who have lived rightly, there is laid up in Hades a treasure of everlasting intoxication.
 
 [1.3] Leisure, no doubt, and quiet, and the pursuit of pleasantly speculative learning, furnish a most fitting solace for a man of years who has retired from wars and politics. But to divert fair achievements to pleasure as their final end, and then to sport and wanton at the head of Aphrodite’s train, as a sequel to wars and fightings, was not worthy of the noble Academy, nor yet of one who would follow Xenocrates, but rather of one who leaned towards Epicurus.
 
@@ -42,13 +34,13 @@ URN: `null`
 
 [1.5] There is no comparing the south wall of the Acropolis, which was completed with the moneys brought home by Cimon, with the palaces and sea-washed Belvideres at Neapolis, which Lucullus built out of the spoils of the Barbarians. Nor can the table of Cimon be likened to that of Lucullus; the one was democratic and charitable, the other sumptuous and oriental.
 
-[1.6] The one, at slight outlay, gave daily sustenance to many; the other, at large cost, was prepared for a few luxurious livers. It may be said, indeed, that the difference in state was due to the difference in time. For it is at least possible that Cimon also, if he had retired after his active campaigns to an old age which knew neither war nor politics, might have led an even more ostentatious and pleasure-loving life. He was fond of wine and given to display, and his relations with women, as I have said before,See Cimon, iv. 8. were scandalous.
+[1.6] The one, at slight outlay, gave daily sustenance to many; the other, at large cost, was prepared for a few luxurious livers. It may be said, indeed, that the difference in state was due to the difference in time. For it is at least possible that Cimon also, if he had retired after his active campaigns to an old age which knew neither war nor politics, might have led an even more ostentatious and pleasure-loving life. He was fond of wine and given to display, and his relations with women, as I have said before,[^2] were scandalous.
 
 [1.7] But success in strenuous achievement, affording as it does a higher pleasure, gives public-spirited and ambitious natures no time to indulge the baser appetites, which are forgotten. At any rate, if Lucullus also had ended his days in active military command, not even the most carping and censorious spirit, I think, could have brought accusation against him. Thus much concerning their manner of life.
 
-### Capítulo 2
+#### Capítulo 2
 
-[2.1] In war, it is plain that both were good fighters, both on land and sea. But just as those athletes who win crowns in wrestling and the pancratium on a single day are called, by custom, Victors-extraordinary, so Cimon, who in a single day crowned Greece with the trophies of a land and sea victory, may justly have a certain pre-eminence among generals.
+[2.1] In war, it is plain that both were good fighters, both on land and sea. But just as those athletes who win crowns in wrestling and the pancratium on a single day are called, by custom, “Victors-extraordinary,” so Cimon, who in a single day crowned Greece with the trophies of a land and sea victory, may justly have a certain pre-eminence among generals.
 
 [2.2] And further, it was his country which conferred imperial power upon Lucullus, whereas Cimon conferred it upon his. The one added his foreign conquests to a country which already ruled her allies; the other found his country obeying others, and gave her command over her allies and victory over her foreign foes, by defeating the Persians and driving them from the sea, and by persuading the Lacedaemonians voluntarily relinquish the command.
 
@@ -56,15 +48,15 @@ URN: `null`
 
 [2.4] Again, both attempted to subvert great empires and to subdue all Asia, and both left their work unfinished: Cimon through ill fortune pure and simple, for he died at the head of his army and at the height of his success; but Lucullus one cannot altogether acquit of blame, whether he was ignorant of, or would not attend to the grievances and complaints among his soldiery, in consequence of which he became so bitterly hated.
 
-[2.5] Or perhaps this has its counterpart in the life of Cimon, for he was brought to trial by his fellow citizens and finally ostracised, in order that for ten years, as Plato says, Gorgias, p. 516. they might not hear his voice. For aristocratic natures are little in accord with the multitude, and seldom please it, but by so often using force to rectify its aberrations, they vex and annoy it, just as physicians’ bandages vex and annoy, although they bring the dislocated members into their natural position. Perhaps, then, both come off about alike on this count.
+[2.5] Or perhaps this has its counterpart in the life of Cimon, for he was brought to trial by his fellow citizens and finally ostracised, in order that for ten years, as Plato says,[^3] they might not hear his voice. For aristocratic natures are little in accord with the multitude, and seldom please it, but by so often using force to rectify its aberrations, they vex and annoy it, just as physicians’ bandages vex and annoy, although they bring the dislocated members into their natural position. Perhaps, then, both come off about alike on this count.
 
-### Capítulo 3
+#### Capítulo 3
 
 [3.1] But Lucullus was much the greater in war. He was the first Roman to cross the Taurus with an army; he passed the Tigris and captured and burned the royal cities of Asia,—Tigranocerta Cabira, Sinop—, and Nisibis, before the eyes of their kings;
 
 [3.2] he made his own the regions to the north as far as the Phasis, to the east as far as Media, and to the south as far as the Red Sea, through the assistance of the Arabian kings; he annihilated the forces of the hostile kings, and failed only in the capture of their persons, since like wild beasts they fled away into deserts and trackless and impenetrable forests.
 
-[3.3] Strong proof of his superiority is seen in this, that the Persians, since they had suffered no great harm at the hands of Cimon, straightway arrayed themselves against the Greeks, and overwhelmed and destroyed that large force of theirs in Egypt;454 B.C. See Thucydides, i. 109 f. whereas, after Lucullus, Tigranes and Mithridates availed nothing: the latter, already weak and disabled by his first struggles, did not once dare to show Pompey his forces outside their camp, but fled away to the Bosporus, and there put an end to his life;
+[3.3] Strong proof of his superiority is seen in this, that the Persians, since they had suffered no great harm at the hands of Cimon, straightway arrayed themselves against the Greeks, and overwhelmed and destroyed that large force of theirs in Egypt;[^4] whereas, after Lucullus, Tigranes and Mithridates availed nothing: the latter, already weak and disabled by his first struggles, did not once dare to show Pompey his forces outside their camp, but fled away to the Bosporus, and there put an end to his life;
 
 [3.4] as for Tigranes, he hastened to throw himself, while unrobed and unarmed, at the feet of Pompey, and taking the diadem from off his head, laid it there upon the ground, flattering Pompey thus not with his own exploits, but with those for which Lucullus had celebrated a triumph. At any rate, he was as much delighted to get back the insignia of his royalty as though he had been robbed of them before. Greater therefore is the general, as is the athlete, who hands over his antagonist to his successor in a weaker plight.
 
@@ -72,6 +64,7 @@ URN: `null`
 
 [3.6] In point of numbers also, those who were overpowered by Cimon are not worthy of comparison with those who united against Lucullus. Therefore, one who takes everything into consideration finds it hard to reach a decision. Heaven seems to have been kindly disposed to both, directing the one as to what he must perform, and the other as to what he must avoid. Both, therefore, may be said to have received the vote of the gods as noble and god-like natures.
 
----
-
-*Ὁ Διαφορεύς παρῆν*
+[^1]: Republic, ii. p. 363.
+[^2]: See Cimon, iv. 8.
+[^3]: Gorgias, p. 516.
+[^4]: 454 B.C. See Thucydides, i. 109 f.

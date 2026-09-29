@@ -1,34 +1,26 @@
 ---
 id: plutarco-tiberius-and-caius-gracchus-eng-bernadotte-perrin-1921
-type: texto_primario
-title: "Tiberius and Caius Gracchus"
-subtitle: null
+type: translation
+title: Tiberius and Caius Gracchus
 author: Plutarch
-year_original: null
-language: eng
-translation:
-  - Bernadotte Perrin
+translator:
+- Bernadotte Perrin
 publisher: Harvard University Press
-area: null
-era: null
-tags: []
-status: rascunho
+language: eng
+tags:
+- moralists
+status: draft
 project: pedra_angular
-source: "Plutarch. Tiberius and Caius Gracchus. Ed. Bernadotte Perrin. Cambridge, MA: Harvard University Press, 1921. Perseus Digital Library, Tufts University (CC BY-SA 4.0). URN: null"
-related: []
+urn_work: urn:cts:greekLit:tlg0007.tlg052
+urn: urn:cts:greekLit:tlg0007.tlg052.perseus-eng1
+source: 'Plutarch. Tiberius and Caius Gracchus. Ed. Bernadotte Perrin. Cambridge, MA: Harvard University Press, 1921. Perseus Digital Library, Tufts University (CC BY-SA 4.0).'
+source_repo: PerseusDL/canonical-greekLit
+source_file: data/tlg0007/tlg052/tlg0007.tlg052.perseus-eng1.xml
+source_commit: e37eed2e8
+license: CC-BY-SA-4.0
 ---
 
 # Tiberius and Caius Gracchus
-
-**Plutarch**
-
-Cambridge, MA: Harvard University Press, 1921.
-Perseus Digital Library, Tufts University (CC BY-SA 4.0).
-URN: `null`
-
----
-
-## Texto
 
 ### Livro Tiberius
 
@@ -36,11 +28,11 @@ URN: `null`
 
 [Tiberius.1.1] Now that we have duly finished the first part of our story, we have to contemplate fates no less tragic than those of Agis and Cleomenes in the lives of the Roman couple, Tiberius and Caius, which we set in parallel. They were sons of Tiberius Gracchus, who, although he had been censor at Rome, twice consul, and had celebrated two triumphs, derived his more illustrious dignity from his virtue.
 
-[Tiberius.1.2] Therefore, after the deathIn 183 B.C. of the Scipio who conquered Hannibal, although Tiberius had not been his friend, but actually at variance with him, he was judged worthy to take Scipio’s daughter Cornelia in marriage. We are told, moreover, that he once caught a pair of serpents on his bed, and that the soothsayers, after considering the prodigy, forbade him to kill both serpents or to let both go, but to decide the fate of one or the other of them, declaring also that the male serpent, if killed, would bring death to Tiberius, and the female, to Cornelia.
+[Tiberius.1.2] Therefore, after the death[^1] of the Scipio who conquered Hannibal, although Tiberius had not been his friend, but actually at variance with him, he was judged worthy to take Scipio’s daughter Cornelia in marriage. We are told, moreover, that he once caught a pair of serpents on his bed, and that the soothsayers, after considering the prodigy, forbade him to kill both serpents or to let both go, but to decide the fate of one or the other of them, declaring also that the male serpent, if killed, would bring death to Tiberius, and the female, to Cornelia.
 
-[Tiberius.1.3] Tiberius, accordingly, who loved his wife, and thought that since she was still young and he was older it was more fitting that he should die, killed the male serpent, but let the female go. A short time afterwards, as the story goes, he died,He was consul for the second time in 163 B.C. The year of his death is unknown. This story is told and commented on by Cicero in De divinatione i. 18, 36; ii. 29, 62. leaving Cornelia with twelve children by him.
+[Tiberius.1.3] Tiberius, accordingly, who loved his wife, and thought that since she was still young and he was older it was more fitting that he should die, killed the male serpent, but let the female go. A short time afterwards, as the story goes, he died,[^2] leaving Cornelia with twelve children by him.
 
-[Tiberius.1.4] Cornelia took charge of the children and of the estate, and showed herself so discreet, so good a mother, and so magnanimous, that Tiberius was thought to have made no bad decision when he elected to die instead of such a woman. For when PtolemyProbably Ptolemy VI., surnamed Philometor, king of Egypt 181-146 B.C. the king offered to share his crown with her and sought her hand in marriage, she refused him, and remained a widow.
+[Tiberius.1.4] Cornelia took charge of the children and of the estate, and showed herself so discreet, so good a mother, and so magnanimous, that Tiberius was thought to have made no bad decision when he elected to die instead of such a woman. For when Ptolemy[^3] the king offered to share his crown with her and sought her hand in marriage, she refused him, and remained a widow.
 
 [Tiberius.1.5] In this state she lost most of her children, but three survived; one daughter, who married Scipio the Younger, and two sons, Tiberius and Caius, whose lives I now write. These sons Cornelia reared with such scrupulous care that although confessedly no other Romans were so well endowed by nature, they were thought to owe their virtues more to education than to nature.
 
@@ -48,7 +40,7 @@ URN: `null`
 
 [Tiberius.2.1] Now, just as, in spite of the likeness between Castor and Pollux as they are represented in sculpture and painting, there is a certain difference of shape between the boxer and the runner, so in the case of these young Romans, along with their strong resemblance to one another in bravery and self-command, as well as in liberality, eloquence, and magnanimity, in their actions and political careers great unlikenesses blossomed out, as it were, and came to light. Therefore I think it not amiss to set these forth before going further.
 
-[Tiberius.2.2] In the first place, then, as regards cast of features and look and bearing, Tiberius was gentle and sedate, while Caius was high-strung and vehement, so that even when haranguing the people the one stood composedly in one spot, while the other was the first Roman to walk about upon the rostra and pull his toga off his shoulder as he spoke. So Cleon the Athenian is said to have been the first of the popular orators to strip away his mantle and smite his thigh.See the Nicias, viii. 3.
+[Tiberius.2.2] In the first place, then, as regards cast of features and look and bearing, Tiberius was gentle and sedate, while Caius was high-strung and vehement, so that even when haranguing the people the one stood composedly in one spot, while the other was the first Roman to walk about upon the rostra and pull his toga off his shoulder as he spoke. So Cleon the Athenian is said to have been the first of the popular orators to strip away his mantle and smite his thigh.[^4]
 
 [Tiberius.2.3] In the second place, the speech of Caius was awe-inspiring and passionate to exaggeration, while that of Tiberius was more agreeable and more conducive to pity. The style also of Tiberius was pure and elaborated to a nicety, while that of Caius was persuasive and ornate. So also as regards their table and mode of life, Tiberius was simple and plain while Caius, although temperate and austere as compared with others, in contrast with his brother was ostentatious and fastidious.
 
@@ -62,23 +54,23 @@ URN: `null`
 
 #### Capítulo 4
 
-[Tiberius.4.1] Tiberius, then, as soon as he got past boyhood, was so widely known as to be thought worthy of a place among the priests called Augurs; and this was due to his virtues rather than to his excellent birth, as was clearly shown by Appius Claudius. For Appius, who had been consul and censor, had been made Dean of the Roman senatePrinceps Senatus. by virtue of his dignity, and in loftiness of spirit far surpassed his contemporaries, at a banquet of the augursPresumably at the induction of Tiberius into office. addressed Tiberius with words of friendship, and asked him to become the husband of his daughter.
+[Tiberius.4.1] Tiberius, then, as soon as he got past boyhood, was so widely known as to be thought worthy of a place among the priests called Augurs; and this was due to his virtues rather than to his excellent birth, as was clearly shown by Appius Claudius. For Appius, who had been consul and censor, had been made Dean of the Roman senate[^5] by virtue of his dignity, and in loftiness of spirit far surpassed his contemporaries, at a banquet of the augurs[^6] addressed Tiberius with words of friendship, and asked him to become the husband of his daughter.
 
-[Tiberius.4.2] Tiberius gladly accepted the invitation, and the betrothal was thus arranged, and when Appius returned home, from the doorway where he stood he called his wife and cried in a loud voice: Antistia, I have betrothed our Claudia. And Antistia, in amazement, said: Why so eager, or why so fast? If thou hadst only found Tiberius Gracchus for betrothal to her!
+[Tiberius.4.2] Tiberius gladly accepted the invitation, and the betrothal was thus arranged, and when Appius returned home, from the doorway where he stood he called his wife and cried in a loud voice: “Antistia, I have betrothed our Claudia.” And Antistia, in amazement, said: “Why so eager, or why so fast? If thou hadst only found Tiberius Gracchus for betrothal to her!”
 
-[Tiberius.4.3] I am aware that someCf. Livy. xxxviii. 57. refer this story to Tiberius the father of the Gracchi and Scipio Africanus Major, but the majority of writers tell it as I do, and Polybius saysCf. Polybius, xxxii. 13. that after the death of Scipio Africanus the relatives of Cornelia chose out Tiberius in preference to all others and gave her to him, as one who had been left by her father unaffianced and unbetrothed.
+[Tiberius.4.3] I am aware that some[^7] refer this story to Tiberius the father of the Gracchi and Scipio Africanus Major, but the majority of writers tell it as I do, and Polybius says[^8] that after the death of Scipio Africanus the relatives of Cornelia chose out Tiberius in preference to all others and gave her to him, as one who had been left by her father unaffianced and unbetrothed.
 
-[Tiberius.4.4] The younger Tiberius, accordingly, serving in Africa under the younger Scipio,In the campaign of 146 B.C., which ended with the destruction of Carthage. who had married his sister, and sharing his commander’s tent, soon learned to understand that commander’s nature (which produced many great incentives towards the emulation of virtue and its imitation in action), and soon led all the young men in discipline and bravery;
+[Tiberius.4.4] The younger Tiberius, accordingly, serving in Africa under the younger Scipio,[^9] who had married his sister, and sharing his commander’s tent, soon learned to understand that commander’s nature (which produced many great incentives towards the emulation of virtue and its imitation in action), and soon led all the young men in discipline and bravery;
 
 [Tiberius.4.5] yes, he was first to scale the enemies’ wall, as Fannius says, who writes also that he himself scaled the wall with Tiberius and shared in that exploit. While he remained with the army Tiberius was the object of much good will, and on leaving it he was greatly missed.
 
 #### Capítulo 5
 
-[Tiberius.5.1] After this campaign he was elected quaestor, and had the fortune to serve in a war against Numantia under the consul Caius Mancinus,Consul in 137 B.C. who was not bad as a man, but most unfortunate of the Romans as a general. Therefore in the midst of unexpected misfortunes and adverse circumstances not only did the sagacity and bravery of Tiberius shine forth all the more, but also—and this was astonishing—the great respect and honour in which he held his commander, who, under the pressure of disasters, forgot even that he was a general.
+[Tiberius.5.1] After this campaign he was elected quaestor, and had the fortune to serve in a war against Numantia under the consul Caius Mancinus,[^10] who was not bad as a man, but most unfortunate of the Romans as a general. Therefore in the midst of unexpected misfortunes and adverse circumstances not only did the sagacity and bravery of Tiberius shine forth all the more, but also—and this was astonishing—the great respect and honour in which he held his commander, who, under the pressure of disasters, forgot even that he was a general.
 
 [Tiberius.5.2] For after he had been defeated in great battles, he attempted to abandon his camp and withdraw his forces by night; but the Numantines became aware of his attempt and promptly seized his camp. Then they fell upon his men as they fled, slew those who were in the rear, encompassed his whole army, and crowded them into regions that were full of difficulties and afforded no escape. Mancinus, despairing of forcing his way to safety, sent heralds to the enemy proposing a truce and terms of peace;
 
-[Tiberius.5.3] but the enemy declared that they had confidence in no Roman save only Tiberius, and ordered that he should be sent to them. They had this feeling towards the young man not only on his own account (for he was held in very high esteem by the Numantine soldiery), but also because they remembered his father Tiberius, who waged war against the Spaniards,In 180-179 B.C. and subdued many of them, but made a peace with the Numantines, to the observance of which with integrity and justice he always held the Roman people.
+[Tiberius.5.3] but the enemy declared that they had confidence in no Roman save only Tiberius, and ordered that he should be sent to them. They had this feeling towards the young man not only on his own account (for he was held in very high esteem by the Numantine soldiery), but also because they remembered his father Tiberius, who waged war against the Spaniards,[^11] and subdued many of them, but made a peace with the Numantines, to the observance of which with integrity and justice he always held the Roman people.
 
 [Tiberius.5.4] So Tiberius was sent and held conference with the enemy, and after getting them to accept some conditions, and himself accepting others, effected a truce, and thereby manifestly saved the lives of twenty thousand Roman citizens, besides attendants and camp followers.
 
@@ -94,11 +86,11 @@ URN: `null`
 
 [Tiberius.7.1] When he came back to Rome, the whole transaction was blamed and denounced as a terrible disgrace to the city, although the relatives and friends of the soldiers, who formed a large part of the people, came flocking to Tiberius, imputing the disgrace in what had happened to his commander, but insisting that it was due to Tiberius that the lives of so many citizens had been saved.
 
-[Tiberius.7.2] Those, however, who were displeased at what had been done urged for imitation the example of their ancestors, who flung to the enemy unarmed the generals themselves who had been satisfied to be let go by the Samnites, and in like manner cast forth those who had taken hand and share in the treaty, as for instance the quaestors and military tribunes, turning upon their heads the guilt of perjury and violation of the pact.In 321 B.C. Cf. Cicero De off., iii. 30, 109.
+[Tiberius.7.2] Those, however, who were displeased at what had been done urged for imitation the example of their ancestors, who flung to the enemy unarmed the generals themselves who had been satisfied to be let go by the Samnites, and in like manner cast forth those who had taken hand and share in the treaty, as for instance the quaestors and military tribunes, turning upon their heads the guilt of perjury and violation of the pact.[^12]
 
-[Tiberius.7.3] In the present affair, indeed, more than at any other time, the people showed their good will and affection towards Tiberius. For they voted to deliver up the consul unarmed and in bonds to the Numantines, but spared all the other officers for the sake of Tiberius. It would seem, too, that Scipio, who was then the greatest and most influential man at Rome, helped to save them; but none the less he was blamedBy Tiberius and his friends. for not saving Mancinus, and for not insisting that the treaty with the Numantines, which had been made through the agency of his kinsman and friend Tiberius, should be kept inviolate.
+[Tiberius.7.3] In the present affair, indeed, more than at any other time, the people showed their good will and affection towards Tiberius. For they voted to deliver up the consul unarmed and in bonds to the Numantines, but spared all the other officers for the sake of Tiberius. It would seem, too, that Scipio, who was then the greatest and most influential man at Rome, helped to save them; but none the less he was blamed[^13] for not saving Mancinus, and for not insisting that the treaty with the Numantines, which had been made through the agency of his kinsman and friend Tiberius, should be kept inviolate.
 
-[Tiberius.7.4] It would appear that the disagreement between the two men arose chiefly through the ambition of Tiberius and from the friends and sophists who urged him on. But this disagreement certainly resulted in no mischief past remedy. And in my opinion Tiberius would never have met with his great misfortunes if Scipio Africanus had been present at Rome during his political activity. But as it was, Scipio was already at NumantiaScipio was sent against Numantia in 134 B.C., and took and destroyed the city in the following year, in which year also Tiberius was killed. and waging war there when Tiberius began to agitate for his agrarian laws. The occasion of this was as follows.
+[Tiberius.7.4] It would appear that the disagreement between the two men arose chiefly through the ambition of Tiberius and from the friends and sophists who urged him on. But this disagreement certainly resulted in no mischief past remedy. And in my opinion Tiberius would never have met with his great misfortunes if Scipio Africanus had been present at Rome during his political activity. But as it was, Scipio was already at Numantia[^14] and waging war there when Tiberius began to agitate for his agrarian laws. The occasion of this was as follows.
 
 #### Capítulo 8
 
@@ -108,13 +100,13 @@ URN: `null`
 
 [Tiberius.8.3] But later on the neighbouring rich men, by means of fictitious personages, transferred these rentals to themselves, and finally held most of the land openly in their own names. Then the poor, who had been ejected from their land, no longer showed themselves eager for military service, and neglected the bringing up of children, so that soon all Italy was conscious of a dearth of freemen, and was filled with gangs of foreign slaves, by whose aid the rich cultivated their estates, from which they had driven away the free citizens.
 
-[Tiberius.8.4] An attempt was therefore made to rectify this evil, and by Caius Laelius the comrade of Scipio; but the men of influence opposed his measures, and he, fearing the disturbance which might ensue, desisted, and received the surname of Wise or Prudent (for the Latin word sapiens would seem to have either meaning). Tiberius, however, on being elected tribune of the people, took the matter directly in hand. He was incited to this step, as most writers say, by Diophanes the rhetorician and Blossius the philosopher.
+[Tiberius.8.4] An attempt was therefore made to rectify this evil, and by Caius Laelius the comrade of Scipio; but the men of influence opposed his measures, and he, fearing the disturbance which might ensue, desisted, and received the surname of Wise or Prudent (for the Latin word “sapiens” would seem to have either meaning). Tiberius, however, on being elected tribune of the people, took the matter directly in hand. He was incited to this step, as most writers say, by Diophanes the rhetorician and Blossius the philosopher.
 
 [Tiberius.8.5] Diophanes was an exile from Mitylene, but Blossius was a native Italian from Cumae, had been an intimate friend of Antipater of Tarsus at Rome, and had been honoured by him with the dedication of philosophical treatises. But some put part of the blame upon Cornelia the mother of Tiberius, who often reproached her sons because the Romans still called her the mother-in-law of Scipio, but not yet the mother of the Gracchi.
 
 [Tiberius.8.6] Others again say that a certain Spurius Postumius was to blame. He was of the same age as Tiberius, and a rival of his in reputation as an advocate; and when Tiberius came back from his campaign and found that his rival had far outstripped him in reputation and influence and was an object of public admiration, he determined, as it would seem, to outdo him by engaging in a bold political measure which would arouse great expectations among the people.
 
-[Tiberius.8.7] But his brother Caius, in a certain pamphlet,Probably a political pamphlet in the form of a letter. Cf. Cicero, de div. ii. 29, 62. has written that as Tiberius was passing through Tuscany on his way to Numantia, and observed the dearth of inhabitants in the country, and that those who tilled its soil or tended its flocks there were imported barbarian slaves, he then first conceived the public policy which was the cause of countless ills to the two brothers. However, the energy and ambition of Tiberius were most of all kindled by the people themselves, who posted writings on porticoes, house-walls, and monuments, calling upon him to recover for the poor the public land.
+[Tiberius.8.7] But his brother Caius, in a certain pamphlet,[^15] has written that as Tiberius was passing through Tuscany on his way to Numantia, and observed the dearth of inhabitants in the country, and that those who tilled its soil or tended its flocks there were imported barbarian slaves, he then first conceived the public policy which was the cause of countless ills to the two brothers. However, the energy and ambition of Tiberius were most of all kindled by the people themselves, who posted writings on porticoes, house-walls, and monuments, calling upon him to recover for the poor the public land.
 
 #### Capítulo 9
 
@@ -124,9 +116,9 @@ URN: `null`
 
 [Tiberius.9.3] But although the rectification of the wrong was so considerate, the people were satisfied to let bygones be bygones if they could be secure from such wrong in the future; the men of wealth and substance, however, were led by their greed to hate the law, and by their wrath and contentiousness to hate the lawgiver, and tried to dissuade the people by alleging that Tiberius was introducing a re-distribution of land for the confusion of the body politic, and was stirring up a general revolution.
 
-[Tiberius.9.4] But they accomplished nothing; for Tiberius, striving to support a measure which was honourable and just with an eloquence that would have adorned even a meaner cause, was formidable and invincible, whenever, with the people crowding around the rostra, he took his stand there and pleaded for the poor. The wild beasts that roam over Italy, he would say, have every one of them a cave or lair to lurk in;
+[Tiberius.9.4] But they accomplished nothing; for Tiberius, striving to support a measure which was honourable and just with an eloquence that would have adorned even a meaner cause, was formidable and invincible, whenever, with the people crowding around the rostra, he took his stand there and pleaded for the poor. “The wild beasts that roam over Italy,” he would say, “have every one of them a cave or lair to lurk in;”
 
-[Tiberius.9.5] but the men who fight and die for Italy enjoy the common air and light, indeed, but nothing else; houseless and homeless they wander about with their wives and children. And it is with lying lips that their imperators exhort the soldiers in their battles to defend sepulchres and shrines from the enemy; for not a man of them has an hereditary altar, not one of all these many Romans an ancestral tomb, but they fight and die to support others in wealth and luxury, and though they are styled masters of the world, they have not a single clod of earth that is their own.
+[Tiberius.9.5] “but the men who fight and die for Italy enjoy the common air and light, indeed, but nothing else; houseless and homeless they wander about with their wives and children. And it is with lying lips that their imperators exhort the soldiers in their battles to defend sepulchres and shrines from the enemy; for not a man of them has an hereditary altar, not one of all these many Romans an ancestral tomb, but they fight and die to support others in wealth and luxury, and though they are styled masters of the world, they have not a single clod of earth that is their own.”
 
 #### Capítulo 10
 
@@ -136,13 +128,13 @@ URN: `null`
 
 [Tiberius.10.3] Incensed at this procedure, Tiberius withdrew his considerate law, and introduced this time one which was more agreeable to the multitude and more severe against the wrongdoers, since it simply ordered them to vacate without compensation the land which they had acquired in violation of the earlier laws.
 
-[Tiberius.10.4] Almost every day, therefore, there were forensic contests between Tiberius and Octavius, in which, as we are told, although both strove together with the utmost earnestness and rivalry, neither abused the other or let fall a single word about the other which anger made unseemly. For not only in Bacchic revelries, as it appears, but also in the exercise of rivalry and wrath, a noble nature and a sound training restrain and regulate the mind.
+[Tiberius.10.4] Almost every day, therefore, there were forensic contests between Tiberius and Octavius, in which, as we are told, although both strove together with the utmost earnestness and rivalry, neither abused the other or let fall a single word about the other which anger made unseemly. For not only “in Bacchic revelries,” as it appears, but also in the exercise of rivalry and wrath, a noble nature and a sound training restrain and regulate the mind.
 
 [Tiberius.10.5] Moreover, when Tiberius observed that Octavius himself was amenable to the law as a large holder of the public land, he begged him to remit his opposition, promising to pay him the value of the land out of his own means, although these were not splendid. But Octavius would not consent to this, and therefore Tiberius issued an edict forbidding all the other magistrates to transact any public business until such time as the vote should be cast either for or against his law.
 
 [Tiberius.10.6] He also put his private seal upon the temple of Saturn, in order that the quaestors might not take any money from its treasury or pay any into it, and he made proclamation that a penalty would be imposed upon such praetors as disobeyed, so that all magistrates grew fearful and ceased performing their several functions.
 
-[Tiberius.10.7] Thereupon the men of property put on the garb of mourning and went about the forum in pitiful and lowly guise; but in secret they plotted against the life of Tiberius and tried to raise a band of assassins to take him off, so that Tiberius on his part—and everybody knew it—wore a concealed short-sword such as brigands use (the name for it is dolo).
+[Tiberius.10.7] Thereupon the men of property put on the garb of mourning and went about the forum in pitiful and lowly guise; but in secret they plotted against the life of Tiberius and tried to raise a band of assassins to take him off, so that Tiberius on his part—and everybody knew it—wore a concealed short-sword such as brigands use (the name for it is “dolo”).
 
 #### Capítulo 11
 
@@ -172,7 +164,7 @@ URN: `null`
 
 [Tiberius.13.2] These measures were carried out by Tiberius quietly and without opposition, and, besides, he procured the election of a tribune in the place of Octavius. The new tribune was not a man of rank or note, but a certain Mucius, a client of Tiberius. The aristocrats, however, who were vexed at these proceedings and feared the growing power of Tiberius, heaped insult upon him in the senate. When he asked for the customary tent at public expense, for his use when dividing up the public land, they would not give it,
 
-[Tiberius.13.3] although other men had often obtained one or less important purposes; and they fixed his daily allowance for expenses at nine obols.That is, in Roman money, nine sestertii, equivalent to about twenty pence, or forty cents. These things were done on motion of Publius Nasica, who surrendered completely to his hatred of Tiberius. For he was a very large holder of public land, and bitterly resented his being forced to give it up.
+[Tiberius.13.3] although other men had often obtained one or less important purposes; and they fixed his daily allowance for expenses at nine obols.[^16] These things were done on motion of Publius Nasica, who surrendered completely to his hatred of Tiberius. For he was a very large holder of public land, and bitterly resented his being forced to give it up.
 
 [Tiberius.13.4] But the people were all the more inflamed; and when a friend of Tiberius died suddenly and his body broke out all over with evil spots, they ran in throngs to the man’s funeral, crying out that he had been poisoned to death, and they carried the bier themselves, and stood by at the last ceremonies. And their suspicions of poison were thought to be not without reason.
 
@@ -180,15 +172,15 @@ URN: `null`
 
 #### Capítulo 14
 
-[Tiberius.14.1] And now Attalus Philometor died,In 133 B.C. and Eudemus of Pergamum brought to Rome the king’s last will and testament, by which the Roman people was made his heir. At once Tiberius courted popular favour by bringing in a bill which provided that the money of King Attalus, when brought to Rome, should be given to the citizens who received a parcel of the public land, to aid them in stocking and tilling their farms.
+[Tiberius.14.1] And now Attalus Philometor died,[^17] and Eudemus of Pergamum brought to Rome the king’s last will and testament, by which the Roman people was made his heir. At once Tiberius courted popular favour by bringing in a bill which provided that the money of King Attalus, when brought to Rome, should be given to the citizens who received a parcel of the public land, to aid them in stocking and tilling their farms.
 
 [Tiberius.14.2] And as regarded the cities which were included in the kingdom of Attalus, he said it did not belong to the senate to deliberate about them, but he himself would submit a pertinent resolution to the people. By this proceeding he gave more offence than ever to the senate; and Pompeius, rising to speak there, said that he was a neighbour of Tiberius, and therefore knew that Eudemus of Pergamum had presented Tiberius with a royal diadem and purple robe, believing that he was going to be king in Rome.
 
 [Tiberius.14.3] Moreover, Quintus Metellus upbraided Tiberius with the reminder that whenever his father, during his censorship, was returning home after a supper, the citizens put out their lights, for fear they might be thought to be indulging immoderately in entertainments and drinking bouts, whereas Tiberius himself was lighted on his way at night by the neediest and most reckless of the populace.
 
-[Tiberius.14.4] Titus Annius, too, a man of no high character or sobriety, but held to be invincible in arguments carried on by question and answer, challenged Tiberius to a judicial wager,Cf. the Cato Major, xxii. 5. solemnly asserting that he had branded with infamy his colleague, who was sacred and inviolable by law. As many senators applauded this speech, Tiberius dashed out of the senate-house, called the people together, and ordered Annius to be brought before them, with the intention of denouncing him.
+[Tiberius.14.4] Titus Annius, too, a man of no high character or sobriety, but held to be invincible in arguments carried on by question and answer, challenged Tiberius to a judicial wager,[^18] solemnly asserting that he had branded with infamy his colleague, who was sacred and inviolable by law. As many senators applauded this speech, Tiberius dashed out of the senate-house, called the people together, and ordered Annius to be brought before them, with the intention of denouncing him.
 
-[Tiberius.14.5] But Annius, who was far inferior to Tiberius both in eloquence and in reputation, had recourse to his own particular art, and called upon Tiberius to answer a few questions before the argument began. Tiberius assented to this and silence was made, whereupon Annius said: If thou wish to heap insult upon me and degrade me, and I invoke the aid of one of thy colleagues in office, and he mount the rostra to speak in my defence, and thou fly into a passion, come, wilt thou deprive that colleague of his office?
+[Tiberius.14.5] But Annius, who was far inferior to Tiberius both in eloquence and in reputation, had recourse to his own particular art, and called upon Tiberius to answer a few questions before the argument began. Tiberius assented to this and silence was made, whereupon Annius said: “If thou wish to heap insult upon me and degrade me, and I invoke the aid of one of thy colleagues in office, and he mount the rostra to speak in my defence, and thou fly into a passion, come, wilt thou deprive that colleague of his office?”
 
 [Tiberius.14.6] At this question, we are told, Tiberius was so disconcerted that, although he was of all men most ready in speech and most vehement in courage, he held his peace.
 
@@ -196,15 +188,15 @@ URN: `null`
 
 [Tiberius.15.1] For the present, then, he dissolved the assembly; but perceiving that the course he had taken with regard to Octavius was very displeasing, not only to the nobles, but also to the multitude (for it was thought that the high and honourable dignity of the tribunate, so carefully guarded up to that time, had been insulted and destroyed), he made a lengthy speech before the people, a few of the arguments of which it will not be out of place to lay before the reader, that he may get a conception of the man’s subtlety and persuasiveness.
 
-[Tiberius.15.2] A tribune, he said, was sacred and inviolable, because he was consecrated to the people and was a champion of the people. If, then, said Tiberius, he should change about, wrong the people, maim its power, and rob it of the privilege of voting, he has by his own acts deprived himself of his honourable office by not fulfilling the conditions on which he received it;
+[Tiberius.15.2] A tribune, he said, was sacred and inviolable, because he was consecrated to the people and was a champion of the people. “If, then,” said Tiberius, “he should change about, wrong the people, maim its power, and rob it of the privilege of voting, he has by his own acts deprived himself of his honourable office by not fulfilling the conditions on which he received it; ”
 
-[Tiberius.15.3] for otherwise there would be no interference with a tribune even though he should try to demolish the Capitol or set fire to the naval arsenal. If a tribune does these things, he is a bad tribune; but if he annuls the power of the people, he is no tribune at all. Is it not, then, a monstrous thing that a tribune should have power to hale a consul to prison, while the people cannot deprive a tribune of his power when he employs it against the very ones who bestowed it? For consul and tribune alike are elected by the people.
+[Tiberius.15.3] “for otherwise there would be no interference with a tribune even though he should try to demolish the Capitol or set fire to the naval arsenal. If a tribune does these things, he is a bad tribune; but if he annuls the power of the people, he is no tribune at all. Is it not, then, a monstrous thing that a tribune should have power to hale a consul to prison, while the people cannot deprive a tribune of his power when he employs it against the very ones who bestowed it? For consul and tribune alike are elected by the people.”
 
-[Tiberius.15.4] And surely the kingly office, besides comprehending in itself every civil function, is also consecrated to the Deity by the performance of the most solemn religious rites; and yet Tarquin was expelled by the city for his wrong-doing, and because of one man’s insolence the power which had founded Rome and descended from father to son was overthrown. Again, what institution at Rome is so holy and venerable as that of the virgins who tend and watch the undying fire? And yet if one of these breaks her vows, she is buried alive; for when they sin against the gods, they do not preserve that inviolable character which is given them for their service to the gods.
+[Tiberius.15.4] “And surely the kingly office, besides comprehending in itself every civil function, is also consecrated to the Deity by the performance of the most solemn religious rites; and yet Tarquin was expelled by the city for his wrong-doing, and because of one man’s insolence the power which had founded Rome and descended from father to son was overthrown. Again, what institution at Rome is so holy and venerable as that of the virgins who tend and watch the undying fire? And yet if one of these breaks her vows, she is buried alive; for when they sin against the gods, they do not preserve that inviolable character which is given them for their service to the gods.”
 
-[Tiberius.15.5] Therefore it is not just that a tribune who wrongs the people should retain that inviolable character which is given him for service to the people, since he is destroying the very power which is the source of his own power. And surely, if it is right for him to be made tribune by a majority of the votes of the tribes, it must be even more right for him to be deprived of his tribuneship by a unanimous vote.
+[Tiberius.15.5] “Therefore it is not just that a tribune who wrongs the people should retain that inviolable character which is given him for service to the people, since he is destroying the very power which is the source of his own power. And surely, if it is right for him to be made tribune by a majority of the votes of the tribes, it must be even more right for him to be deprived of his tribuneship by a unanimous vote.”
 
-[Tiberius.15.6] And again, nothing is so sacred and inviolate as objects consecrated to the gods; and yet no one has hindered the people from using such objects, or moving them, or changing their position in such manner as may be desired. It is therefore permissible for the people to transfer the tribunate also, as a consecrated thing, from one man to another. And that the office is not inviolable or irremovable is plain from the fact that many times men holding it resign it under oath of disability, and of their own accord beg to be relieved of it.
+[Tiberius.15.6] “And again, nothing is so sacred and inviolate as objects consecrated to the gods; and yet no one has hindered the people from using such objects, or moving them, or changing their position in such manner as may be desired. It is therefore permissible for the people to transfer the tribunate also, as a consecrated thing, from one man to another. And that the office is not inviolable or irremovable is plain from the fact that many times men holding it resign it under oath of disability, and of their own accord beg to be relieved of it.”
 
 #### Capítulo 16
 
@@ -238,7 +230,7 @@ URN: `null`
 
 [Tiberius.19.2] Whereupon Tiberius put his hand to his head, making this visible sign that his life was in danger, since the questioners could not hear his voice. But his opponents, on seeing this, ran to the senate and told that body that Tiberius was asking for a crown; and that his putting his hand to his head was a sign having that meaning.
 
-[Tiberius.19.3] All the senators, of course, were greatly disturbed, and Nasica demanded that the consul should come to the rescue of the state and put down the tyrant. The consul replied with mildness that he would resort to no violence and would put no citizen to death without a trial; if, however, the people, under persuasion or compulsion from Tiberius, should vote anything that was unlawful, he would not regard this vote as binding. Thereupon Nasica sprang to his feet and said: Since, then, the chief magistrate be trays the state, do ye who wish to succour the laws follow me.
+[Tiberius.19.3] All the senators, of course, were greatly disturbed, and Nasica demanded that the consul should come to the rescue of the state and put down the tyrant. The consul replied with mildness that he would resort to no violence and would put no citizen to death without a trial; if, however, the people, under persuasion or compulsion from Tiberius, should vote anything that was unlawful, he would not regard this vote as binding. Thereupon Nasica sprang to his feet and said: “Since, then, the chief magistrate be trays the state, do ye who wish to succour the laws follow me.”
 
 [Tiberius.19.4] With these words he covered his head with the skirt of his toga and set out for the Capitol. All the senators who followed him wrapped their togas about their left arms and pushed aside those who stood in their path, no man opposing them, in view of their dignity, but all taking to flight and trampling upon one another.
 
@@ -254,19 +246,24 @@ URN: `null`
 
 [Tiberius.20.3] Nor was this all; they banished some of his friends without a trial and others they arrested and put to death. Among these Diophanes the rhetorician also perished. A certain Caius Villius they shut up in a cage, and then put in vipers and serpents, and in this way killed him. Blossius of Cumae was brought before the consuls, and when he was asked about what had passed, he admitted that he had done everything at the bidding of Tiberius.
 
-[Tiberius.20.4] Then Nasica said to him, What, then, if Tiberius had ordered them to set fire to the Capitol? Blossius at first replied that Tiberius would not have given such an order; but when the same question was put to him often and by many persons, he said: If such a man as Tiberius had ordered such a thing, it would also have been right for me to do it; for Tiberius would not have given such an order if it had not been for the interest of the people. For the story of Blossius, cf. Cicero, De am. 11. 37; Valerius Maximus, iv. 7. 1. Well, then, Blossius was acquitted, and afterwards went to AristonicusThe pretender to the throne of Attalus Philometor (xiv. 1). He was defeated and taken prisoner by the Romans in 130 B.C. in Asia, and when the cause of Aristonicus was lost, slew himself.
+[Tiberius.20.4] Then Nasica said to him, “What, then, if Tiberius had ordered them to set fire to the Capitol?” Blossius at first replied that Tiberius would not have given such an order; but when the same question was put to him often and by many persons, he said: “If such a man as Tiberius had ordered such a thing, it would also have been right for me to do it; for Tiberius would not have given such an order if it had not been for the interest of the people.” [^19] Well, then, Blossius was acquitted, and afterwards went to Aristonicus[^20] in Asia, and when the cause of Aristonicus was lost, slew himself.
 
 #### Capítulo 21
 
 [Tiberius.21.1] But the senate, trying to conciliate the people now that matters had gone so far, no longer opposed the distribution of the public land, and proposed that the people should elect a commissioner in place of Tiberius. So they took a ballot and elected Publius Crassus, who was a relative of Gracchus; for his daughter Licinia was the wife of Caius Gracchus.
 
-[Tiberius.21.2] And yet Cornelius NeposIn a lost biography. says that it was not the daughter of Crassus, but of the Brutus who triumphed over the Lusitanians, whom Caius married; the majority of writers, however, state the matter as I have done. Moreover, since the people felt bitterly over the death of Tiberius and were clearly awaiting an opportunity for revenge, and since Nasica was already threatened with prosecutions, the senate, fearing for his safety, voted to send him to Asia, although it had no need of him there.
+[Tiberius.21.2] And yet Cornelius Nepos[^21] says that it was not the daughter of Crassus, but of the Brutus who triumphed over the Lusitanians, whom Caius married; the majority of writers, however, state the matter as I have done. Moreover, since the people felt bitterly over the death of Tiberius and were clearly awaiting an opportunity for revenge, and since Nasica was already threatened with prosecutions, the senate, fearing for his safety, voted to send him to Asia, although it had no need of him there.
 
 [Tiberius.21.3] For when people met Nasica, they did not try to hide their hatred of him, but grew savage and cried out upon him wherever he chanced to be, calling him an accursed man and a tyrant, who had defiled with the murder of an inviolable and sacred person the holiest and most awe-inspiring of the city’s sanctuaries. And so Nasica stealthily left Italy, although he was bound there by the most important and sacred functions; for he was pontifex maximus. He roamed and wandered about in foreign lands ignominiously, and after a short time ended his life at Pergamum.
 
-[Tiberius.21.4] Now, it is no wonder that the people so much hated Nasica, when even Scipio Africanus, than whom no one would seem to have been more justly or more deeply loved by the Romans, came within a little of forfeiting and losing the popular favour because, to begin with, at Numantia, when he learned of the death of Tiberius, he recited in a loud voice the verse of Homer Odyssey, i. 47 (Athena, of Aegisthus).:— So perish also all others who on such wickedness venture,
+[Tiberius.21.4] Now, it is no wonder that the people so much hated Nasica, when even Scipio Africanus, than whom no one would seem to have been more justly or more deeply loved by the Romans, came within a little of forfeiting and losing the popular favour because, to begin with, at Numantia, when he learned of the death of Tiberius, he recited in a loud voice the verse of Homer[^22]:—
 
-[Tiberius.21.5] and because, in the second place, when Caius and Fulvius asked him in an assembly of the people what he thought about the death of Tiberius, he made a reply which showed his dislike of the measures advocated by him. Consequently the people began to interrupt him as he was speaking, a thing which they had never done before, and Scipio himself was thereby led on to abuse the people. Of these matters I have written circumstantially in my Life of Scipio.One of the lost biographies.
+```verso
+So perish also all others who on such wickedness
+venture,
+```
+
+[Tiberius.21.5] and because, in the second place, when Caius and Fulvius asked him in an assembly of the people what he thought about the death of Tiberius, he made a reply which showed his dislike of the measures advocated by him. Consequently the people began to interrupt him as he was speaking, a thing which they had never done before, and Scipio himself was thereby led on to abuse the people. Of these matters I have written circumstantially in my Life of Scipio.[^23]
 
 ### Livro Caius
 
@@ -278,11 +275,11 @@ URN: `null`
 
 [Caius.1.3] and in defending Vettius, a friend of his who was under prosecution, he had the people about him inspired and frantic with sympathetic delight, and made the other orators appear to be no better than children. Once more, therefore, the nobles began to be alarmed, and there was much talk among them about not permitting Caius to be made tribune.
 
-[Caius.1.4] By accident, however, it happened that the lot fell on him to go to Sardinia as quaestor for Orestes the consul.In 126 B.C. This gave pleasure to his enemies, and did not annoy Caius. For he was fond of war, and quite as well trained for military service as for pleading in the courts. Moreover, he still shrank from public life and the rostra, but was unable to resist the calls to this career which came from the people and his friends. He was therefore altogether satisfied with this opportunity of leaving the city.
+[Caius.1.4] By accident, however, it happened that the lot fell on him to go to Sardinia as quaestor for Orestes the consul.[^24] This gave pleasure to his enemies, and did not annoy Caius. For he was fond of war, and quite as well trained for military service as for pleading in the courts. Moreover, he still shrank from public life and the rostra, but was unable to resist the calls to this career which came from the people and his friends. He was therefore altogether satisfied with this opportunity of leaving the city.
 
 [Caius.1.5] And yet a strong opinion prevails that he was a demagogue pure and simple, and far more eager than Tiberius to win the favour of the multitude. But this is not the truth; nay, it would appear that he was led by a certain necessity rather than by his own choice to engage in public matters.
 
-[Caius.1.6] And Cicero the orator also relates De div. 1. 26, 56 that Caius declined all office and had chosen to live a quiet life, but that his brother appeared to him in a dream and addressed him, saying: Why, pray, dost thou hesitate, Caius? There is no escape; one life is fated for us both, and one death as champions of the people.
+[Caius.1.6] And Cicero the orator also relates[^25] that Caius declined all office and had chosen to live a quiet life, but that his brother appeared to him in a dream and addressed him, saying: “Why, pray, dost thou hesitate, Caius? There is no escape; one life is fated for us both, and one death as champions of the people.”
 
 #### Capítulo 2
 
@@ -298,13 +295,13 @@ URN: `null`
 
 #### Capítulo 3
 
-[Caius.3.1] After this, other fresh charges and indictments were brought against him, on the ground that he had caused the allies to revolt and had been privy to the conspiracy at Fregellae,Fregellae revolted, and was destroyed in 125 B.C. information of which was brought to Rome. But he cleared himself of all suspicion, and having established his entire innocence, immediately began a canvass for the tribuneship. All the men of note, without exception, were opposed to him, but so great a throng poured into the city from the country and took part in the elections that many could not be housed, and since the Campus Martius could not accommodate the multitude, they gave in their voices from the house-tops and tilings.
+[Caius.3.1] After this, other fresh charges and indictments were brought against him, on the ground that he had caused the allies to revolt and had been privy to the conspiracy at Fregellae,[^26] information of which was brought to Rome. But he cleared himself of all suspicion, and having established his entire innocence, immediately began a canvass for the tribuneship. All the men of note, without exception, were opposed to him, but so great a throng poured into the city from the country and took part in the elections that many could not be housed, and since the Campus Martius could not accommodate the multitude, they gave in their voices from the house-tops and tilings.
 
-[Caius.3.2] So far, however, did the nobility prevail against the people and disappoint the hopes of Caius that he was not returned first, as he expected, but fourth. But after entering upon his officeFor the year 123 B.C., ten years after Tiberius had entered upon the same office. he was at once first of all the tribunes, since he had an incomparable power in oratory, and his affliction gave him great boldness of speech in bewailing the fate of his brother.
+[Caius.3.2] So far, however, did the nobility prevail against the people and disappoint the hopes of Caius that he was not returned first, as he expected, but fourth. But after entering upon his office[^27] he was at once first of all the tribunes, since he had an incomparable power in oratory, and his affliction gave him great boldness of speech in bewailing the fate of his brother.
 
-[Caius.3.3] For to this subject he would bring the people round on every pretext, reminding them of what had happened in the case of Tiberius, and contrasting the conduct of their ancestors, who went to war with the people of Falerii on behalf of Genucius, a tribune whom they had insulted, and condemned Caius Veturius to death because he was the only man who would not make way for a tribune passing through the forum. But before your eyes, he said, these men beat Tiberius to death with clubs, and his dead body was dragged from the Capitol through the midst of the city to be thrown into the Tiber; moreover, those of his friends who were caught were put to death without trial.
+[Caius.3.3] For to this subject he would bring the people round on every pretext, reminding them of what had happened in the case of Tiberius, and contrasting the conduct of their ancestors, who went to war with the people of Falerii on behalf of Genucius, a tribune whom they had insulted, and condemned Caius Veturius to death because he was the only man who would not make way for a tribune passing through the forum. “But before your eyes,” he said, “these men beat Tiberius to death with clubs, and his dead body was dragged from the Capitol through the midst of the city to be thrown into the Tiber; moreover, those of his friends who were caught were put to death without trial.”
 
-[Caius.3.4] And yet it is ancient usage among us that if anyone who is arraigned on a capital charge does not answer to his summons, a trumpeter shall go to the door of this man’s house in the morning and summon him forth by sound of trumpet, and until this has been done the judges shall not vote on his case. So careful and guarded were the men of old in capital cases.
+[Caius.3.4] “And yet it is ancient usage among us that if anyone who is arraigned on a capital charge does not answer to his summons, a trumpeter shall go to the door of this man’s house in the morning and summon him forth by sound of trumpet, and until this has been done the judges shall not vote on his case. So careful and guarded were the men of old in capital cases.”
 
 #### Capítulo 4
 
@@ -312,9 +309,9 @@ URN: `null`
 
 [Caius.4.2] Of these laws, one had the direct effect of branding with infamy Marcus Octavius, who had been deposed from the tribunate by Tiberius; and by the other Popillius was affected, for as praetor he had banished the friends of Tiberius. Popillius, indeed, without standing his trial, fled out of Italy; but the other law was withdrawn by Caius himself, who said that he spared Octavius at the request of his mother Cornelia.
 
-[Caius.4.3] The people were pleased at this and gave their consent, honouring Cornelia no less on account of her sons than because of her father; indeed, in after times they erected a bronze statue of her, bearing the inscription: Cornelia, Mother of the Gracchi. There are on record also many things which Caius said about her in the coarse style of forensic speech, when he was attacking one of his enemies: What, said he, dost thou abuse Cornelia, who gave birth to Tiberius?
+[Caius.4.3] The people were pleased at this and gave their consent, honouring Cornelia no less on account of her sons than because of her father; indeed, in after times they erected a bronze statue of her, bearing the inscription: “Cornelia, Mother of the Gracchi.” There are on record also many things which Caius said about her in the coarse style of forensic speech, when he was attacking one of his enemies: “What,” said he, “dost thou abuse Cornelia, who gave birth to Tiberius?”
 
-[Caius.4.4] And since the one who had uttered the abuse was charged with effeminate practices, With what effrontery, said Caius, canst thou compare thyself with Cornelia? Hast thou borne such children as she did? And verily all Rome knows that she refrained from commerce with men longer than thou hast, though thou art a man. Such was the bitterness of his language, and many similar examples can be taken from his writings.
+[Caius.4.4] And since the one who had uttered the abuse was charged with effeminate practices, “With what effrontery,” said Caius, “canst thou compare thyself with Cornelia? Hast thou borne such children as she did? And verily all Rome knows that she refrained from commerce with men longer than thou hast, though thou art a man.” Such was the bitterness of his language, and many similar examples can be taken from his writings.
 
 #### Capítulo 5
 
@@ -322,7 +319,7 @@ URN: `null`
 
 [Caius.5.2] another related to the supplies of grain, and lowered the market price to the poor; and another dealt with the appointment of judges. This last law most of all curtailed the power of the senators; for they alone could serve as judges in criminal cases, and this privilege made them formidable both to the common people and to the equestrian order The law of Gracchus, however, added to the membership of the senate, which was three hundred, three hundred men from the equestrian order, and made service as judges a prerogative of the whole six hundred.
 
-[Caius.5.3] In his efforts to carry this law Caius is said to have shown remarkable earnestness in many ways, and especially in this, that whereas all popular orators before him had turned their faces towards the senate and that part of the forum called the comitium, he now set a new example by turning towards the other part of the forum as he harangued the people, and continued to do this from that time on, thus by a slight deviation and change of attitude stirring up a great question, arid to a certain extent changing the constitution from an aristocratic to a democratic form; for his implication was that speakers ought to address themselves to the people, and not to the senate.
+[Caius.5.3] In his efforts to carry this law Caius is said to have shown remarkable earnestness in many ways, and especially in this, that whereas all popular orators before him had turned their faces towards the senate and that part of the forum called the “comitium,” he now set a new example by turning towards the other part of the forum as he harangued the people, and continued to do this from that time on, thus by a slight deviation and change of attitude stirring up a great question, arid to a certain extent changing the constitution from an aristocratic to a democratic form; for his implication was that speakers ought to address themselves to the people, and not to the senate.
 
 #### Capítulo 6
 
@@ -352,7 +349,7 @@ URN: `null`
 
 #### Capítulo 9
 
-[Caius.9.1] Livius, accordingly, put his influence as tribune at the service of the senate to this end, and drew up laws which aimed at what was neither honourable nor advantageous; nay, he had the emulous eagerness of the rival demagogues of comedy to achieve one thing, namely, to surpass Caius in pleasing and gratifying the people.An allusion to the rival demagogues in the Knights of Aristophanes. In this way the senate showed most plainly that it was not displeased with the public measures of Caius, but rather was desirous by all means to humble or destroy the man himself.
+[Caius.9.1] Livius, accordingly, put his influence as tribune at the service of the senate to this end, and drew up laws which aimed at what was neither honourable nor advantageous; nay, he had the emulous eagerness of the rival demagogues of comedy to achieve one thing, namely, to surpass Caius in pleasing and gratifying the people.[^28] In this way the senate showed most plainly that it was not displeased with the public measures of Caius, but rather was desirous by all means to humble or destroy the man himself.
 
 [Caius.9.2] For when Caius proposed to found two colonies, and these composed of the most respectable citizens, they accused him of truckling to the people; but when Livius proposed to found twelve, and to send out to each of them three thousand of the needy citizens, they supported him. With Caius, because he distributed public land among the poor for which every man of them was required to pay a rental into the public treasury, they were angry, alleging that he was seeking thereby to win favour with the multitude; but Livius met with their approval when he proposed to relieve the tenants even from this rental.
 
@@ -368,15 +365,15 @@ URN: `null`
 
 [Caius.10.3] This Fulvius was a friend of Caius, and had been chosen a commissioner with him for the distribution of the public land; but he was a turbulent fellow, and was hated outright by the senators. Other men also suspected him of stirring up trouble with the allies and of secretly inciting the Italians to revolt. These things were said against him without proof or investigation, but Fulvius himself brought them into greater credence by a policy which was unsound and revolutionary.
 
-[Caius.10.4] This more than anything else was the undoing of Caius, who came in for a share of the hatred against Fulvius. And when Scipio Africanus died without any apparent cause, and certain marks of violence and blows were thought to be in evidence all over his dead body, as I have written in his Life,See the Tiberius Gracchus , ad fin., and cf. the Romulus, xxvii. 4. f. most of the consequent calumny fell upon Fulvius, who was Scipio’s enemy, and had abused him that day from the rostra, but suspicion attached itself also to Caius.
+[Caius.10.4] This more than anything else was the undoing of Caius, who came in for a share of the hatred against Fulvius. And when Scipio Africanus died without any apparent cause, and certain marks of violence and blows were thought to be in evidence all over his dead body, as I have written in his Life,[^29] most of the consequent calumny fell upon Fulvius, who was Scipio’s enemy, and had abused him that day from the rostra, but suspicion attached itself also to Caius.
 
-[Caius.10.5] And a deed so monstrous, and perpetrated upon a man who was the foremost and greatest Roman, went unpunished, nay, was not even so much as probed; for the multitude were opposed to any judicial enquiry and thwarted it, because they feared that Caius might be implicated in the charge if the murder were investigated. However, this had happened at an earlier time.In 129 B.C., six years before Caius became tribune.
+[Caius.10.5] And a deed so monstrous, and perpetrated upon a man who was the foremost and greatest Roman, went unpunished, nay, was not even so much as probed; for the multitude were opposed to any judicial enquiry and thwarted it, because they feared that Caius might be implicated in the charge if the murder were investigated. However, this had happened at an earlier time.[^30]
 
 #### Capítulo 11
 
 [Caius.11.1] In Africa, moreover, in connection with the planting of a colony on the site of Carthage, to which colony Caius gave the name Junonia (that is to say, in Greek, Heraea), there are said to have been many prohibitory signs from the gods. For the leading standard was caught by a gust of wind, and though the bearer clung to it with all his might, it was broken into pieces; the sacrificial victims lying on the altars were scattered by a hurricane and dispersed beyond the boundary-marks in the plan of the city, and the boundary-marks themselves were set upon by wolves, who tore them up and carried them a long way off.
 
-[Caius.11.2] Notwithstanding this, Caius settled and arranged everything in seventy days all told, and then returned to Rome, because he learned that Fulvius was being hard pressed by Drusus, and because matters there required his presence. For Lucius Opimius, a man of oligarchical principles and influential in the senate, who had previously failed in a candidacy for the consulship (when Caius had brought forward Fannius and supported his canvas for the office),See chapter viii. 2. now had the aid and assistance of many,
+[Caius.11.2] Notwithstanding this, Caius settled and arranged everything in seventy days all told, and then returned to Rome, because he learned that Fulvius was being hard pressed by Drusus, and because matters there required his presence. For Lucius Opimius, a man of oligarchical principles and influential in the senate, who had previously failed in a candidacy for the consulship (when Caius had brought forward Fannius and supported his canvas for the office),[^31] now had the aid and assistance of many,
 
 [Caius.11.3] and it was expected that he would be consul, and that as consul he would try to put down Caius, whose influence was already somewhat on the wane, and with whose peculiar measures the people had become sated, because the leaders who courted their favour were many and the senate readily yielded to them.
 
@@ -390,15 +387,15 @@ URN: `null`
 
 [Caius.12.4] But since no one paid any attention to his command, he waited till the night before the spectacle, and then, taking all the workmen whom he had under his orders in public contracts, he pulled down the seats, and when day came he had the place all clear for the people. For this proceeding the populace thought him a man, but his colleagues were annoyed and thought him reckless and violent. It was believed also that this conduct cost him his election to the tribunate for the third time, since, although he got a majority of the votes, his colleagues were unjust and fraudulent in their proclamation and returns. This, however, was disputed.
 
-[Caius.12.5] But he took his failure overmuch to heart, and what is more, when his enemies were exulting over him, he told them, it is said, with more boldness than was fitting, that they were laughing with sardonic laughter, and were not aware of the great darkness that enveloped them in consequence of his public measures.Blass compares the laughter of the doomed suitors in Odyssey, xx. 346 ff.—the fatuous smile of men whose fate is sealed, though they are unaware of it.
+[Caius.12.5] But he took his failure overmuch to heart, and what is more, when his enemies were exulting over him, he told them, it is said, with more boldness than was fitting, that they were laughing with sardonic laughter, and were not aware of the great darkness that enveloped them in consequence of his public measures.[^32]
 
 #### Capítulo 13
 
 [Caius.13.1] The enemies of Caius also effected the election of Opimius as consul, and then proceeded to revoke many of the laws which Caius had secured and to meddle with the organization of the colony at Carthage. This was by way of irritating Caius, that he might furnish ground for resentment, and so be got rid of. At first he endured all this patiently, but at last, under the instigations of his friends, and especially of Fulvius, he set out to gather a fresh body of partisans for opposition to the consul.
 
-[Caius.13.2] Here, we are told, his mother also took active part in his seditious measures, by secretly hiring from foreign parts and sending to Rome men who were ostensibly reapers; for to this matter there are said to have been obscure allusions in her lettersCf. Cicero, Brutus, 58, 211. to her son. Others, however, say that Cornelia was very much displeased with these activities of her son.
+[Caius.13.2] Here, we are told, his mother also took active part in his seditious measures, by secretly hiring from foreign parts and sending to Rome men who were ostensibly reapers; for to this matter there are said to have been obscure allusions in her letters[^33] to her son. Others, however, say that Cornelia was very much displeased with these activities of her son.
 
-[Caius.13.3] Be that as it may, on the day when Opimius and his supporters were going to annul the laws, the Capitol had been occupied by both factions since earliest morning, and after the consul had offered sacrifice, one of his servants, Quintus Antyllius, as he was carrying from one place to another the entrails of the victims, said to the partisans of Fulvius: Make way for honest citizens, ye rascals! Some say, too, that along with this speech Antyllius bared his arm and waved it with an insulting gesture.
+[Caius.13.3] Be that as it may, on the day when Opimius and his supporters were going to annul the laws, the Capitol had been occupied by both factions since earliest morning, and after the consul had offered sacrifice, one of his servants, Quintus Antyllius, as he was carrying from one place to another the entrails of the victims, said to the partisans of Fulvius: “Make way for honest citizens, ye rascals!” Some say, too, that along with this speech Antyllius bared his arm and waved it with an insulting gesture.
 
 [Caius.13.4] At any rate he was killed at once and on the spot, stabbed with large writing styles said to have been made for just such a purpose. The multitude were completely confused by the murder, but it produced an opposite state of mind in the leaders of the two factions. Caius was distressed, and upbraided his followers for having given their enemies ground for accusing them which had long been desired; but Opimius, as though he had got something for which he was waiting, was elated, and urged the people on to vengeance.
 
@@ -408,7 +405,7 @@ URN: `null`
 
 [Caius.14.2] After the bier had been set down in the midst of the throng, the senators began to inveigh against what they called a heinous and monstrous crime, but the people were moved to hatred and abuse of the oligarchs, who, they said, after murdering Tiberius Gracchus on the Capitol with their own hands, tribune that he was, had actually flung away his dead body besides;
 
-[Caius.14.3] whereas Antyllius, a mere servant, who perhaps had suffered more than he deserved, but was himself chiefly to blame for it, had been laid out in the forum, and was surrounded by the Roman senate, which shed tears and shared in the obsequies of a hireling fellow, to the end that the sole remaining champion of the people might be done away with. Then the senators went back into the senate-house, where they formally enjoined upon the consul Opimius to save the city as best he could,The formal decree of martial law: consul videret ne quid respublica detrimenti caperet (Cicero, In Cat. 1. 2, 4). and to put down the tyrants.
+[Caius.14.3] whereas Antyllius, a mere servant, who perhaps had suffered more than he deserved, but was himself chiefly to blame for it, had been laid out in the forum, and was surrounded by the Roman senate, which shed tears and shared in the obsequies of a hireling fellow, to the end that the sole remaining champion of the people might be done away with. Then the senators went back into the senate-house, where they formally enjoined upon the consul Opimius to save the city as best he could,[^34] and to put down the tyrants.
 
 [Caius.14.4] The consul therefore ordered the senators to take up arms, and every member of the equestrian order was notified to bring next morning two servants fully armed; Fulvius, on the other hand, made counter preparations and got together a rabble, but Caius, as he left the forum, stopped in front of his father’s statue, gazed at it for a long time without uttering a word, then burst into tears, and with a groan departed.
 
@@ -420,9 +417,9 @@ URN: `null`
 
 [Caius.15.1] When day came, Fulvius was with difficulty roused from his drunken sleep by his partisans, who armed themselves with the spoils of war about his house, which he had taken after a victory over the Gauls during his consulship, and with much threatening and shouting went to seize the Aventine hill. Caius, on the other hand, was unwilling to arm himself, but went forth in his toga, as though on his way to the forum, with only a short dagger on his person.
 
-[Caius.15.2] As he was going out at the door, his wife threw herself in his way, and with one arm round her husband and the other round their little son, said: Not to the rostra, O Caius, do I now send thee forth, as formerly, to serve as tribune and law-giver, nor yet to a glorious war, where, shouldst thou die (and all men must die), thou wouldst at all events leave me an honoured sorrow; but thou art exposing thyself to the murderers of Tiberius, and thou doest well to go unarmed, that thou mayest suffer rather than inflict wrong; but thy death will do the state no good.
+[Caius.15.2] As he was going out at the door, his wife threw herself in his way, and with one arm round her husband and the other round their little son, said: “Not to the rostra, O Caius, do I now send thee forth, as formerly, to serve as tribune and law-giver, nor yet to a glorious war, where, shouldst thou die (and all men must die), thou wouldst at all events leave me an honoured sorrow; but thou art exposing thyself to the murderers of Tiberius, and thou doest well to go unarmed, that thou mayest suffer rather than inflict wrong; but thy death will do the state no good.”
 
-[Caius.15.3] The worst has at last prevailed; by violence and the sword men’s controversies are now decided. If thy brother had only fallen at Numantia, his dead body would have been given back to us by terms of truce; but as it is, perhaps I too shall have to supplicate some river or sea to reveal to me at last thy body in its keeping. Why, pray, should men longer put faith in laws or gods, after the murder of Tiberius?
+[Caius.15.3] “The worst has at last prevailed; by violence and the sword men’s controversies are now decided. If thy brother had only fallen at Numantia, his dead body would have been given back to us by terms of truce; but as it is, perhaps I too shall have to supplicate some river or sea to reveal to me at last thy body in its keeping. Why, pray, should men longer put faith in laws or gods, after the murder of Tiberius?”
 
 [Caius.15.4] While Licinia was thus lamenting, Caius gently freed himself from her embrace and went away without a word, accompanied by his friends. Licinia eagerly sought to clutch his robe, but sank to the ground and lay there a long time speechless, until her servants lifted her up unconscious and carried her away to the house of her brother Crassus.
 
@@ -450,7 +447,7 @@ URN: `null`
 
 [Caius.17.5] The bodies of Caius and Fulvius and of the other slain were thrown into the Tiber, and they numbered three thousand; their property was sold and the proceeds paid into the public treasury. Moreover, their wives were forbidden to go into mourning, and Licinia, the wife of Caius, was also deprived of her marriage portion. Most cruel of all, however, was the treatment of the younger son of Fulvius, who had neither lifted a hand against the nobles nor been present at the fighting, but had come to effect a truce before the battle and had been arrested; after the battle he was slain.
 
-[Caius.17.6] However, what vexed the people more than this or anything else was the erection of a temple of Concord by OpimiusOpimus restored the temple of Concord which had been built by Camillus (see the Camillus, xlii. 4.); for it was felt that he was priding himself and exulting and in a manner celebrating a triumph in view of all this slaughter of citizens. Therefore at night, beneath the inscription on the temple, somebody carved this verse:— A work of mad discord produces a temple of Concord.
+[Caius.17.6] However, what vexed the people more than this or anything else was the erection of a temple of Concord by Opimius[^35]; for it was felt that he was priding himself and exulting and in a manner celebrating a triumph in view of all this slaughter of citizens. Therefore at night, beneath the inscription on the temple, somebody carved this verse:— “A work of mad discord produces a temple of Concord.”
 
 #### Capítulo 18
 
@@ -466,6 +463,38 @@ URN: `null`
 
 [Caius.19.3] Some were therefore led to think that old age or the greatness of her sorrows had impaired her mind and made her insensible to her misfortunes, whereas, really, such persons themselves were insensible how much help in the banishment of grief mankind derives from a noble nature and from honourable birth and rearing, as well as of the fact that while Fortune often prevails over virtue when it endeavours to ward off evils, she cannot rob virtue of the power to endure those evils with calm assurance.
 
----
-
-*Ὁ Διαφορεύς παρῆν*
+[^1]: In 183 B.C.
+[^2]: He was consul for the second time in 163 B.C. The year of his death is unknown. This story is told and commented on by Cicero in De divinatione i. 18, 36; ii. 29, 62.
+[^3]: Probably Ptolemy VI., surnamed Philometor, king of Egypt 181-146 B.C.
+[^4]: See the Nicias, viii. 3.
+[^5]: Princeps Senatus.
+[^6]: Presumably at the induction of Tiberius into office.
+[^7]: Cf. Livy. xxxviii. 57.
+[^8]: Cf. Polybius, xxxii. 13.
+[^9]: In the campaign of 146 B.C., which ended with the destruction of Carthage.
+[^10]: Consul in 137 B.C.
+[^11]: In 180-179 B.C.
+[^12]: In 321 B.C. Cf. Cicero De off., iii. 30, 109.
+[^13]: By Tiberius and his friends.
+[^14]: Scipio was sent against Numantia in 134 B.C., and took and destroyed the city in the following year, in which year also Tiberius was killed.
+[^15]: Probably a political pamphlet in the form of a letter. Cf. Cicero, de div. ii. 29, 62.
+[^16]: That is, in Roman money, nine sestertii, equivalent to about twenty pence, or forty cents.
+[^17]: In 133 B.C.
+[^18]: Cf. the Cato Major, xxii. 5.
+[^19]: For the story of Blossius, cf. Cicero, De am. 11. 37; Valerius Maximus, iv. 7. 1.
+[^20]: The pretender to the throne of Attalus Philometor (xiv. 1). He was defeated and taken prisoner by the Romans in 130 B.C.
+[^21]: In a lost biography.
+[^22]: Odyssey, i. 47 (Athena, of Aegisthus).
+[^23]: One of the lost biographies.
+[^24]: In 126 B.C.
+[^25]: De div. 1. 26, 56
+[^26]: Fregellae revolted, and was destroyed in 125 B.C.
+[^27]: For the year 123 B.C., ten years after Tiberius had entered upon the same office.
+[^28]: An allusion to the rival demagogues in the Knights of Aristophanes.
+[^29]: See the Tiberius Gracchus, ad fin., and cf. the Romulus, xxvii. 4. f.
+[^30]: In 129 B.C., six years before Caius became tribune.
+[^31]: See chapter viii. 2.
+[^32]: Blass compares the laughter of the doomed suitors in Odyssey, xx. 346 ff.—the fatuous smile of men whose fate is sealed, though they are unaware of it.
+[^33]: Cf. Cicero, Brutus, 58, 211.
+[^34]: The formal decree of martial law: consul videret ne quid respublica detrimenti caperet (Cicero, In Cat. 1. 2, 4).
+[^35]: Opimus restored the temple of Concord which had been built by Camillus (see the Camillus, xlii. 4.)

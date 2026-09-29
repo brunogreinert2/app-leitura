@@ -1,36 +1,28 @@
 ---
 id: plutarco-comparison-of-solon-and-publicola-eng-bernadotte-perrin-1914
-type: texto_primario
-title: "Comparison of Solon and Publicola"
-subtitle: null
+type: translation
+title: Comparison of Solon and Publicola
 author: Plutarch
-year_original: null
-language: eng
-translation:
-  - Bernadotte Perrin
+translator:
+- Bernadotte Perrin
 publisher: Harvard University Press
-area: null
-era: null
-tags: []
-status: rascunho
+language: eng
+tags:
+- moralists
+status: draft
 project: pedra_angular
-source: "Plutarch. Comparison of Solon and Publicola. Ed. Bernadotte Perrin. Cambridge, MA: Harvard University Press, 1914. Perseus Digital Library, Tufts University (CC BY-SA 4.0). URN: null"
-related: []
+urn_work: urn:cts:greekLit:tlg0007.tlg009
+urn: urn:cts:greekLit:tlg0007.tlg009.perseus-eng2
+source: 'Plutarch. Comparison of Solon and Publicola. Ed. Bernadotte Perrin. Cambridge, MA: Harvard University Press, 1914. Perseus Digital Library, Tufts University (CC BY-SA 4.0).'
+source_repo: PerseusDL/canonical-greekLit
+source_file: data/tlg0007/tlg009/tlg0007.tlg009.perseus-eng2.xml
+source_commit: e37eed2e8
+license: CC-BY-SA-4.0
 ---
 
 # Comparison of Solon and Publicola
 
-**Plutarch**
-
-Cambridge, MA: Harvard University Press, 1914.
-Perseus Digital Library, Tufts University (CC BY-SA 4.0).
-URN: `null`
-
----
-
-## Texto
-
-### Capítulo 1
+#### Capítulo 1
 
 [1.1] There is, then, something peculiar in this comparison, and something that has not been true of any other thus far, namely, that the second imitated the first, and the first bore witness for the second. For it must be plain that the verdict concerning happiness which Solon pronounced to Croesus, is more applicable to Publicola than to Tellus.
 
@@ -38,19 +30,31 @@ URN: `null`
 
 [1.3] Tellus, moreover, though he kept his post and fought like a brave man, died at the hands of his enemies; whereas Publicola slew his enemies, which is a better fortune than to be slain by them, saw his country victorious through his efforts as consul and general, and enjoyed honours and triumphs before he came to the end which Solon pronounced so enviable and blest.
 
-[1.4] Still further, what Solon says to Mimnermus,Fragment 21 (Bergk). in arguing with him on the proper duration of human life, May not an unlamented death be mine, but unto friends Let me be cause, when dead, for sorrow and for sighing, argues Publicola a happy man. For when he died, his loss filled not only friends and kindred, but the entire city, numbering many tens of thousands, with weeping and yearning and sorrow. For the women of Rome mourned for him as though they had lost a son, or a brother, or a common father.
+[1.4] Still further, what Solon says to Mimnermus,[^1] in arguing with him on the proper duration of human life,
 
-[1.5] Wealth I desire to have, says Solon, but wrongfully to get it, I do not wish, See Solon, ii. 3. believing that punishment would follow. And Publicola’s wealth was not only not ill got, but also nobly spent in benefactions to the needy. So that if Solon was the wisest, Publicola was the most happy of men, since what Solon prayed for as the greatest and fairest of blessings, these Publicola was privileged to win and continue to enjoy until the end.
+```verso
+May not an unlamented death be mine, but unto friends
+Let me be cause, when dead, for sorrow and for sighing,
+```
 
-### Capítulo 2
+argues Publicola a happy man. For when he died, his loss filled not only friends and kindred, but the entire city, numbering many tens of thousands, with weeping and yearning and sorrow. For the women of Rome mourned for him as though they had lost a son, or a brother, or a common father.
+
+[1.5] “Wealth I desire to have,” says Solon, “but wrongfully to get it, I do not wish,” [^2] believing that punishment would follow. And Publicola’s wealth was not only not ill got, but also nobly spent in benefactions to the needy. So that if Solon was the wisest, Publicola was the most happy of men, since what Solon prayed for as the greatest and fairest of blessings, these Publicola was privileged to win and continue to enjoy until the end.
+
+#### Capítulo 2
 
 [2.1] Thus did Solon enhance the fame of Publicola. And Publicola, too, in his political activities, enhanced the fame of Solon, by making him the fairest of examples for one who was arranging a democracy. For he took away the arrogant powers of the consulship and made it gracious and acceptable to all, and he adopted many of Solon’s laws. For instance, he put the appointment of their rulers in the power of the people, and gave defendants the right of appealing to the people, as Solon to the jurors. He did not, indeed, create a new senate, as Solon did, but he increased the one already existing to almost double its numbers.
 
 [2.2] And his appointment of quaestors over the public moneys mad a like origin. Its purpose was that the consul, if a worthy officer, might not be without leisure for his more important duties, and, if unworthy, might not have greater opportunities for injustice by having both the administration and the treasury in his hands. Hatred of tyranny was more intense in Publicola than in Solon. For in case any one attempted to usurp the power, by Solon’s law he could be punished only after conviction, whereas Publicola made it lawful to kill him before any trial.
 
-[2.3] Moreover, though Solon rightly and justly plumes himself on rejecting absolute power even when circumstances offered it to him and his fellow-citizens were willing that he should take it, it redounds no less to the honour of Publicola that, when he had received a tyrannical power, he made it more democratic, and did not use even the prerogatives which were his by right of possession. And of the wisdom of such a course Solon seems to have been conscious even before Publicola, when he saysFragment 6 (Bergk); cf. Aristotle, Const. of Athens, xii. 2. that a people then will yield the best obedience to its guides When it is neither humoured nor oppressed too much.
+[2.3] Moreover, though Solon rightly and justly plumes himself on rejecting absolute power even when circumstances offered it to him and his fellow-citizens were willing that he should take it, it redounds no less to the honour of Publicola that, when he had received a tyrannical power, he made it more democratic, and did not use even the prerogatives which were his by right of possession. And of the wisdom of such a course Solon seems to have been conscious even before Publicola, when he says[^3] that a people
 
-### Capítulo 3
+```verso
+then will yield the best obedience to its guides
+When it is neither humoured nor oppressed too much.
+```
+
+#### Capítulo 3
 
 [3.1] Peculiar to Solon was his remission of debts, and by this means especially he confirmed the liberties of the citizens. For equality under the laws is of no avail if the poor are robbed of it by their debts. Nay, in the very places where they are supposed to exercise their liberties most, there they are most in subjection to the rich, since in the courts of justice, the offices of state, and in public debates, they are under their orders and do them service.
 
@@ -62,9 +66,9 @@ As regards their political careers in general, Solon’s was more brilliant in t
 
 [3.4] And further, though Solon knew beforehand of the designs of Peisistratus, he was not able to hinder them, but yielded to his tyranny in its incipiency; whereas Publicola subverted and drove out a kingly power which was strong with the might which many ages bring. Thus, while exhibiting virtues equal to Solon’s, and a purpose identical with his, he enjoyed a good fortune and an efficacious power which supplemented his virtues.
 
-### Capítulo 4
+#### Capítulo 4
 
-[4.1] When we consider their military careers, moreover, Daïmacinus of Plataea does not allow Solon even the conduct of the war against the Megarians, as we have described it Solon, viii.; cf. Aristotle, Const. of Athens, xiv. 1. but Publicola, fighting and commanding in person, brought the greatest struggles to a successful issue. And still further, comparing their political activities, Solon, in play, so to speak, and counterfeiting madness, went forth to plead for the recovery of Salamis;
+[4.1] When we consider their military careers, moreover, Daïmacinus of Plataea does not allow Solon even the conduct of the war against the Megarians, as we have described it[^4] but Publicola, fighting and commanding in person, brought the greatest struggles to a successful issue. And still further, comparing their political activities, Solon, in play, so to speak, and counterfeiting madness, went forth to plead for the recovery of Salamis;
 
 [4.2] but Publicola, without any subterfuges, ran the greatest risks, set himself in opposition to the party of the Tarquins, and detected their treachery. Then, after being mainly instrumental in the capture and punishment of the traitors, he not only drove the tyrants themselves from the city, but extirpated their very hopes of return. And if he thus sturdily and resolutely confronted situations which called for active and spirited opposition, still better did he deal with those which required peaceable intercourse and gentle persuasion, as when he tactfully won over Porsena, an invincible and formidable foe, and made him a friend of Rome.
 
@@ -72,6 +76,7 @@ As regards their political careers in general, Solon’s was more brilliant in t
 
 [4.4] And so Publicola, in that instance, by yielding the territory which belonged to others, saved all that was assuredly his own, and procured besides, for those who were hard put to it to save their city, the camp of their besiegers with all its stores. He made his adversary judge in the controversy, won his case, and received besides what his people would gladly have given for the victory. For Porsena put a stop to the war, and left the Romans all his provisions for carrying it on, owing to the confidence in their virtue and nobility with which their consul had inspired him.
 
----
-
-*Ὁ Διαφορεύς παρῆν*
+[^1]: Fragment 21 (Bergk).
+[^2]: See Solon, ii. 3.
+[^3]: Fragment 6 (Bergk); cf. Aristotle, Const. of Athens, xii. 2.
+[^4]: Solon, viii.; cf. Aristotle, Const. of Athens, xiv. 1.

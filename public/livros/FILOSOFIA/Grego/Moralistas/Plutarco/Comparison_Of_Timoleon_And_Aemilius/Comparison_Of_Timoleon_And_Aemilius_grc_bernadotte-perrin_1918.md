@@ -1,35 +1,26 @@
 ---
 id: plutarco-comparison-of-timoleon-and-aemilius-grc-bernadotte-perrin-1918
-type: texto_primario
-title: "Σύγκρισις Τιμολέοντος καὶ Αἰμιλίου"
-subtitle: null
+type: primary_text
+title: Σύγκρισις Τιμολέοντος καὶ Αἰμιλίου
 author: Plutarch
-year_original: null
-language: grc
-translation: []
 publisher: Harvard University Press
-area: null
-era: null
-tags: []
-status: rascunho
+language: grc
+tags:
+- moralists
+status: draft
 project: pedra_angular
-source: "Plutarch. Σύγκρισις Τιμολέοντος καὶ Αἰμιλίου. Ed. Bernadotte Perrin. Cambridge, MA: Harvard University Press, 1918. Perseus Digital Library, Tufts University (CC BY-SA 4.0). URN: urn:cts:greekLit:tlg0007.tlg020.perseus-grc2"
-related: []
+urn_work: urn:cts:greekLit:tlg0007.tlg020
+urn: urn:cts:greekLit:tlg0007.tlg020.perseus-grc2
+source: 'Plutarch. Σύγκρισις Τιμολέοντος καὶ Αἰμιλίου. Ed. Bernadotte Perrin. Cambridge, MA: Harvard University Press, 1918. Perseus Digital Library, Tufts University (CC BY-SA 4.0).'
+source_repo: PerseusDL/canonical-greekLit
+source_file: data/tlg0007/tlg020/tlg0007.tlg020.perseus-grc2.xml
+source_commit: e37eed2e8
+license: CC-BY-SA-4.0
 ---
 
 # Σύγκρισις Τιμολέοντος καὶ Αἰμιλίου
 
-**Plutarch**
-
-Cambridge, MA: Harvard University Press, 1918.
-Perseus Digital Library, Tufts University (CC BY-SA 4.0).
-URN: `urn:cts:greekLit:tlg0007.tlg020.perseus-grc2`
-
----
-
-## Texto
-
-### Capítulo 1
+#### Capítulo 1
 
 [1.1] τοιούτων δὲ τῶν κατὰ τὴν ἱστορίαν ὄντων, δῆλον ὡς οὐκ ἔχει πολλὰς διαφορὰς οὐδὲ ἀνομοιότητας ἡ σύγκρισις.
 
@@ -41,7 +32,7 @@ URN: `urn:cts:greekLit:tlg0007.tlg020.perseus-grc2`
 
 [1.5] τὰ γὰρ ἀπʼ οὐκ ἴσης παρασκευῆς ἴσα κατορθώματα τῷ στρατηγῷ τὴν αἰτίαν περιτίθησι.
 
-### Capítulo 2
+#### Capítulo 2
 
 [2.1] καθαρῶν οὖν καὶ δικαίων ἐν τοῖς πράγμασιν ἀμφοτέρων γεγονότων, Αἰμίλιος μὲν ὑπὸ τῶν νόμων καὶ τῆς πατρίδος οὕτως ἔοικεν εὐθὺς ἀφικέσθαι παρεσκευασμένος, Τιμολέων δὲ τοιοῦτον αὐτὸς ἑαυτὸν παρέσχε.
 
@@ -66,7 +57,3 @@ URN: `urn:cts:greekLit:tlg0007.tlg020.perseus-grc2`
 [2.11] Τιμολέων δὲ γενναῖα πράξας περὶ τὸν ἀδελφὸν οὐκ ἀντέσχε τῷ λογισμῷ πρὸς τὸ πάθος, ἀλλὰ μετανοίᾳ καὶ λύπῃ ταπεινωθεὶς ἐτῶν εἴκοσι τὸ βῆμα καὶ τὴν ἀγορὰν ἰδεῖν οὐχ ὑπέμεινε.
 
 [2.12] δεῖ δὲ τὰ αἰσχρὰ φεύγειν καὶ αἰδεῖσθαι, τὸ δὲ πρὸς πᾶσαν ἀδοξίαν εὐλαβὲς ἐπιεικοῦς μὲν ἤθους καὶ ἁπαλοῦ, μέγεθος δὲ οὐκ ἔχοντος.
-
----
-
-*Ὁ Διαφορεύς παρῆν*

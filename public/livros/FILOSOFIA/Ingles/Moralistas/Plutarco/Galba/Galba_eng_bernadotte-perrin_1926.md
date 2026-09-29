@@ -1,64 +1,58 @@
 ---
 id: plutarco-galba-eng-bernadotte-perrin-1926
-type: texto_primario
-title: "Galba"
-subtitle: null
+type: translation
+title: Galba
 author: Plutarch
-year_original: null
-language: eng
-translation:
-  - Bernadotte Perrin
+translator:
+- Bernadotte Perrin
 publisher: Harvard University Press
-area: null
-era: null
-tags: []
-status: rascunho
+language: eng
+tags:
+- moralists
+status: draft
 project: pedra_angular
-source: "Plutarch. Galba. Ed. Bernadotte Perrin. Cambridge, MA: Harvard University Press, 1926. Perseus Digital Library, Tufts University (CC BY-SA 4.0). URN: null"
-related: []
+urn_work: urn:cts:greekLit:tlg0007.tlg065
+urn: urn:cts:greekLit:tlg0007.tlg065.perseus-eng2
+source: 'Plutarch. Galba. Ed. Bernadotte Perrin. Cambridge, MA: Harvard University Press, 1926. Perseus Digital Library, Tufts University (CC BY-SA 4.0).'
+source_repo: PerseusDL/canonical-greekLit
+source_file: data/tlg0007/tlg065/tlg0007.tlg065.perseus-eng2.xml
+source_commit: e37eed2e8
+license: CC-BY-SA-4.0
 ---
 
 # Galba
 
-**Plutarch**
+[^1]
 
-Cambridge, MA: Harvard University Press, 1926.
-Perseus Digital Library, Tufts University (CC BY-SA 4.0).
-URN: `null`
-
----
-
-## Texto
-
-### Capítulo 1
+#### Capítulo 1
 
 [1.1] Iphicrates the Athenian used to think that the mercenary soldier might well be fond of wealth and fond of pleasure, in order that his quest for the means to gratify his desires might lead him to fight with greater recklessness; but most people think that a body of soldiers, just like a natural body in full vigour, ought to have no initiative of its own, but should follow that of its commander.
 
-[1.2] Wherefore Paulus Aemilius, as we are told, finding that the army which he had taken over in Macedonia was infected with loquacity and meddlesomeness, as though they were all generals, gave out word that each man was to have his hand ready and his sword sharp, but that he himself would look out for the rest.See the Aemilius, xiii. 4.
+[1.2] Wherefore Paulus Aemilius, as we are told, finding that the army which he had taken over in Macedonia was infected with loquacity and meddlesomeness, as though they were all generals, gave out word that each man was to have his hand ready and his sword sharp, but that he himself would look out for the rest.[^2]
 
-[1.3] Moreover, PlatoCf. e.g. Republic 376 C. sees that a good commander or general can do nothing unless his army is amenable and loyal; and he thinks that the quality of obedience, like the quality characteristic of a king, requires a noble nature and a philosophic training, which, above all things, blends harmoniously the qualities of gentleness and humanity with those of high courage and aggressiveness. Many dire events, and particularly those which befell the Romans after the death of Nero, bear witness to this, and show plainly that an empire has nothing more fearful to show than a military force given over to untrained and unreasoning impulses.
+[1.3] Moreover, Plato[^3] sees that a good commander or general can do nothing unless his army is amenable and loyal; and he thinks that the quality of obedience, like the quality characteristic of a king, requires a noble nature and a philosophic training, which, above all things, blends harmoniously the qualities of gentleness and humanity with those of high courage and aggressiveness. Many dire events, and particularly those which befell the Romans after the death of Nero, bear witness to this, and show plainly that an empire has nothing more fearful to show than a military force given over to untrained and unreasoning impulses.
 
-[1.4] Demades, indeed, after Alexander had died, likened the Macedonian army to the blinded Cyclops, observing the many random and disorderly movements that it made; but the Roman Empire was a prey to convulsions and disasters like those caused by the Titans of mythology, being torn into many fragments, and again in many places collapsing upon itself, not so much through the ambition of those who were proclaimed emperors, as through the greed and licence of the soldiery, which drove out one commander with another as nail drives out nail.An allusion to the proverb ἥλῳ ὁ ἧλος ἐκκρούεται..
+[1.4] Demades, indeed, after Alexander had died, likened the Macedonian army to the blinded Cyclops, observing the many random and disorderly movements that it made; but the Roman Empire was a prey to convulsions and disasters like those caused by the Titans of mythology, being torn into many fragments, and again in many places collapsing upon itself, not so much through the ambition of those who were proclaimed emperors, as through the greed and licence of the soldiery, which drove out one commander with another as nail drives out nail.[^4]
 
-[1.5] And yet the PheraeanAlexander, tyrant of Pherae. See the Pelopidas, xxiv.-xxxv. who ruled Thessaly for ten months and was then promptly killed, was called the tragedy-tyrant by Dionysius, with scornful reference to the quickness of the change. But the house of the Caesars, the Palatium, in a shorter time than this received four emperors, the soldiery ushering one in and another out, as in play. But the suffering people had one consolation at least in the fact that they needed no other punishment of the authors of their sufferings, but saw them slain by one another’s hands, and first and most righteously of all, the man who ensnared the soldiery and taught them to expect from the deposition of a Caesar all the good things which he promised them, thus defiling a most noble deed by the pay he offered for it, and turning the revolt from Nero into treachery.
+[1.5] And yet the Pheraean[^5] who ruled Thessaly for ten months and was then promptly killed, was called the tragedy-tyrant by Dionysius, with scornful reference to the quickness of the change. But the house of the Caesars, the Palatium, in a shorter time than this received four emperors, the soldiery ushering one in and another out, as in play. But the suffering people had one consolation at least in the fact that they needed no other punishment of the authors of their sufferings, but saw them slain by one another’s hands, and first and most righteously of all, the man who ensnared the soldiery and taught them to expect from the deposition of a Caesar all the good things which he promised them, thus defiling a most noble deed by the pay he offered for it, and turning the revolt from Nero into treachery.
 
-### Capítulo 2
+#### Capítulo 2
 
-[2.1] It was Nymphidius Sabinus, prefect of the court guard along with Tigellinus, as I have already stated,Probably in the lost Life of Nero. who, when Nero’s case was altogether desperate, and it was clear that he was going to run away to Egypt, persuaded the soldiery, as though Nero were no longer there but had already fled, to proclaim Galba emperor,
+[2.1] It was Nymphidius Sabinus, prefect of the court guard along with Tigellinus, as I have already stated,[^6] who, when Nero’s case was altogether desperate, and it was clear that he was going to run away to Egypt, persuaded the soldiery, as though Nero were no longer there but had already fled, to proclaim Galba emperor,
 
-[2.2] and promised as largess seventy-five hundred drachmas apiece for the court, or praetorian, guards, as they were called, and twelve hundred and fifty drachmasPlutarch uses the Greek word drachma for the corresponding Roman denarius, a silver coin about equivalent to the franc. But a Roman writer would reckon by sestertii, the sestertius being worth about a quarter of the denarius. for those in service outside of Rome, a sum which it was impossible to raise without inflicting ten thousand times more evils upon the world than those inflicted by Nero.
+[2.2] and promised as largess seventy-five hundred drachmas apiece for the court, or praetorian, guards, as they were called, and twelve hundred and fifty drachmas[^7] for those in service outside of Rome, a sum which it was impossible to raise without inflicting ten thousand times more evils upon the world than those inflicted by Nero.
 
 [2.3] This promise was at once the death of Nero, and soon afterwards of Galba: the one the soldiers abandoned to his fate in order to get their reward, the other they killed because they did not get it. Then, in trying to find someone who would give them as high a price, they destroyed themselves in a succession of revolts and treacheries before their expectations were satisfied. Now, the accurate and circumstantial narration of these events belongs to formal history; but it is my duty also not to omit such incidents as are worthy of mention in the deeds and fates of the Caesars.
 
-### Capítulo 3
+#### Capítulo 3
 
 [3.1] That Sulpicius Galba was the richest private person who ever came to the imperial throne, is generally admitted; moreover, his connection with the noble house of the Servii gave him great prestige, although he prided himself more on his relationship to Catulus, who was the foremost man in his time in virtue and reputation, even if he gladly left to others the exercise of greater power.
 
-[3.2] Galba was also somehow related to Livia, the wife of Augustus Caesar, and therefore, at the instance of Livia, he was made consulIn 33 A.D. by the emperor. We are told also that he commanded an army in Germany with distinction, and that when he was pro-consul of Africa,In 45 A.D. he won such praise as few have done. But his simple and contented way of living, the sparing hand with which he dealt out money, always avoiding excess, were counted unto him, when he became emperor, as parsimony, so that the reputation which he bore for moderation and self-restraint was an insipid sort of thing.
+[3.2] Galba was also somehow related to Livia, the wife of Augustus Caesar, and therefore, at the instance of Livia, he was made consul[^8] by the emperor. We are told also that he commanded an army in Germany with distinction, and that when he was pro-consul of Africa,[^9] he won such praise as few have done. But his simple and contented way of living, the sparing hand with which he dealt out money, always avoiding excess, were counted unto him, when he became emperor, as parsimony, so that the reputation which he bore for moderation and self-restraint was an insipid sort of thing.
 
-[3.3] By Nero he was sent out as governor of Spain,In 61 A.D. before Nero had yet learned to be afraid of citizens who were held in high esteem. Galba, however, was thought to be of a gentle nature, and his great age gave an added confidence that he would always act with caution.
+[3.3] By Nero he was sent out as governor of Spain,[^10] before Nero had yet learned to be afraid of citizens who were held in high esteem. Galba, however, was thought to be of a gentle nature, and his great age gave an added confidence that he would always act with caution.
 
-### Capítulo 4
+#### Capítulo 4
 
 [4.1] But when, as the nefarious agents of Nero savagely and cruelly harried the provinces, Galba could help the people in no other way than by making it plain that he shared in their distress and sense of wrong, this somehow brought relief and comfort to those who were being condemned in court and sold into slavery. And when verses were made about Nero, and men circulated and sang them freely, he did not put a stop to it nor share in the displeasure of Nero’s agents; wherefore he was still more beloved by the inhabitants.
 
@@ -66,9 +60,9 @@ URN: `null`
 
 [4.3] But after Vindex had openly declared war, he wrote to Galba inviting him to assume the imperial power, and thus to serve what was a vigorous body in need of a head, meaning the Gallic provinces, which already had a hundred thousand men under arms, and could arm other thousands besides. Then Galba took counsel with his friends. Some of these thought it best for him to wait and see what movement Rome would set on foot in response to the revolution;
 
-[4.4] but Titus Vinius, the captain of the praetorian guard, said to them: O Galba, what counsels are these? For to ask whether we shall remain faithful to Nero means that we are already unfaithful. Assuming, then, that Nero is an enemy, we surely must not reject the friendship of Vindex; or else we must at once denounce him and make war upon him because he wishes the Romans to have thee as their ruler rather than Nero as their tyrant.
+[4.4] but Titus Vinius, the captain of the praetorian guard, said to them: “O Galba, what counsels are these? For to ask whether we shall remain faithful to Nero means that we are already unfaithful. Assuming, then, that Nero is an enemy, we surely must not reject the friendship of Vindex; or else we must at once denounce him and make war upon him because he wishes the Romans to have thee as their ruler rather than Nero as their tyrant.”
 
-### Capítulo 5
+#### Capítulo 5
 
 [5.1] After this, Galba issued an edict appointing a day on which he would grant individual manumissions to all who desired them, and gossip and rumour flying all abroad brought together a multitude of men who were eager for the revolution. At any rate, no sooner was Galba seen upon the tribunal than all with one voice hailed him as emperor.
 
@@ -80,7 +74,7 @@ URN: `null`
 
 [5.5] So he ordered the property of Galba to be sold, and Galba, when he heard of it, put up at public sale all that Nero owned in Spain, and found many readier buyers.
 
-### Capítulo 6
+#### Capítulo 6
 
 [6.1] Many were now falling away from Nero, and almost all of them attached themselves to Galba; only Clodius Macer in Africa, and Verginius Rufus in Gaul (where he commanded the German forces), acted on their own account, though each took a different course.
 
@@ -90,15 +84,15 @@ URN: `null`
 
 [6.4] Then indeed Galba was all alarm, and wrote to Verginius inviting him to join in efforts for the preservation alike of the empire and the freedom of the Romans. But after this he retired with his friends to Clunia, a city in Spain, and spent his time in repenting of what he had done and in longing for his habitual and wonted freedom from care, rather than in taking any of the steps now made necessary.
 
-### Capítulo 7
+#### Capítulo 7
 
-[7.1] It was now summer,Of 68 A.D. and shortly before sunset there came from Rome a freedman named Icelus, who had made the journey in seven days. Having learned that Galba was reposing by himself, he went in hot haste to his chamber, opened the door in spite of the chamberlains, entered, and announced that while Nero was still alive,
+[7.1] It was now summer,[^11] and shortly before sunset there came from Rome a freedman named Icelus, who had made the journey in seven days. Having learned that Galba was reposing by himself, he went in hot haste to his chamber, opened the door in spite of the chamberlains, entered, and announced that while Nero was still alive,
 
 [7.2] but in hiding, that the army first, and then the senate and people, had proclaimed Galba emperor, and that a little while afterwards it was reported that Nero was dead; Icelus himself, however, as he said, had not believed the report, but had gone and seen the dead body where it lay, and then had set out on his journey.
 
 [7.3] This announcement highly elated Galba, and there came running to his door a multitude of men who had gained complete confidence as the result of Icelus’ report. And yet the messenger’s speed was incredible. But two days afterwards Titus Vinius with others came from the camp and reported in detail the decrees of the senate. Vinius, accordingly, was advanced to a position of honour, and as for the freedman, he was allowed to wear the gold ring, received the name of Marcianus instead of Icelus, and had the chief influence among the freedmen.
 
-### Capítulo 8
+#### Capítulo 8
 
 [8.1] But at Rome Nymphidius Sabinus was forcing the entire control of affairs into his own hands, not slowly and little by little, but all at once. He thought that Galba was an old man and would hardly have the strength to be carried to Rome on a litter, by reason of his age, for he was in his seventy-third year; moreover, he knew that the soldiery in the city had long been well disposed towards him and were now devoted to him alone, regarding him as their benefactor because of the large gifts which he promised, but Galba as their debtor.
 
@@ -110,9 +104,9 @@ URN: `null`
 
 [8.5] Again, in his desire to gratify the people, he would not prevent them from beating to death any follower of Nero who fell into their hands. Accordingly, they cast Spiculus the gladiator under statues of Nero that were being dragged about in the forum, and killed him; Aponius, one of Nero’s informers, they threw to the ground and dragged waggons laden with stone over him; and many others, some of whom had done no wrong, they tore in pieces, so that Mauricus, who was justly deemed one of the best men in Rome, told the senate that he was afraid they would soon be searching for a Nero.
 
-### Capítulo 9
+#### Capítulo 9
 
-[9.1] Thus coming in his hopes nearer and nearer to his goal, Nymphidius was not averse to having it said that he was the son of the Caius CaesarCaligula. who succeeded Tiberius. For Caius, as it would appear, while still a young man, had been intimate with the mother of Nymphidius, a woman of comely appearance and a daughter of Callistus, Caesar’s freedman, by a hired sempstress.
+[9.1] Thus coming in his hopes nearer and nearer to his goal, Nymphidius was not averse to having it said that he was the son of the Caius Caesar[^12] who succeeded Tiberius. For Caius, as it would appear, while still a young man, had been intimate with the mother of Nymphidius, a woman of comely appearance and a daughter of Callistus, Caesar’s freedman, by a hired sempstress.
 
 [9.2] But this intimacy, as it would seem, was later than the birth of Nymphidius, and it was believed that he was a son of Martianus, the gladiator (with whom Nymphidia fell in love on account of his fame), and his resemblance to Martianus was thought to favour this connection.
 
@@ -120,7 +114,7 @@ URN: `null`
 
 [9.4] Some secret steps to this end he himself took at Rome through the agency of his friends, and certain women and men of senatorial rank secretly assisted him, and one of his friends, Gellianus, he sent to Spain to keep an eye upon matters there.
 
-### Capítulo 10
+#### Capítulo 10
 
 [10.1] But everything went well with Galba after the death of Nero. Verginius Rufus, it is true, who was still hesitating, gave him anxiety. For besides commanding a large and most efficient army, Verginius had the added prestige of his victory over Vindex and his subjugation of all Gaul, which was a large part of the Roman Empire and had been in the throes of revolt. Galba therefore feared that Verginius might listen to those who invited him to take the supreme power.
 
@@ -130,21 +124,21 @@ URN: `null`
 
 [10.4] This was due, in the one case, to Galba himself, who had a wholesome respect for Verginius, and in the other to Galba’s friends, especially Titus Vinius. Vinius was jealous of Verginius, and thought to block his career; but without knowing it he was aiding the man’s good genius, which was now removing him from all the wars and miseries which encompassed the other leaders, and bringing him into a calm haven of life, and an old age full of peace and quiet.
 
-### Capítulo 11
+#### Capítulo 11
 
 [11.1] At Narbo, a city of Gaul, Galba was met by the deputies from the senate, who greeted him and begged him to gratify speedily the eager desire of the people to see him. In his general interviews and meetings with them he was kind and unassuming, and when he entertained them, though there was an abundance of royal furniture and service at his command, which Nymphidius had sent him from Nero’s palace, he used none of it, but only what was his own, thus winning a good repute, and showing himself a man of large mind who was superior to vulgarity.
 
 [11.2] Vinius, however, by declaring to him that this dignified, simple, and unassuming course was merely a flattery of the people and a refinement of delicacy which thought itself unworthy of great things, soon persuaded him to make use of Nero’s riches, and in his receptions not to shrink from a regal wealth of outlay. And in general the aged man let it be seen little by little that he was going to be under the direction of Vinius.
 
-### Capítulo 12
+#### Capítulo 12
 
-[12.1] Now Vinius was to the last degree and beyond all compare a slave of money, and was also addicted to loose conduct with women. For when he was still a young man and was serving his first campaign, under Calvisius Sabinus, he brought his commander’s wife, an unchaste woman, by night into the camp in the garb of a soldier, and had commerce with her in the general’s quarters (the Romans call them principia).
+[12.1] Now Vinius was to the last degree and beyond all compare a slave of money, and was also addicted to loose conduct with women. For when he was still a young man and was serving his first campaign, under Calvisius Sabinus, he brought his commander’s wife, an unchaste woman, by night into the camp in the garb of a soldier, and had commerce with her in the general’s quarters (the Romans call them “principia”).
 
 [12.2] For this offence Caius Caesar put him in prison; but on the death of the emperor he had the good fortune to be released. While he was at supper with Claudius Caesar, he purloined a silver drinking-cup, and Caesar, learning of it, invited him to supper again the next day, and when he came, ordered the attendants to set before him no silver plate at all, but only earthenware.
 
 [12.3] This misdeed, it is true, owing to the comic turn which Caesar’s moderation took, was thought worthy of laughter, not of anger; but what he did when he had Galba under his control and was most influential with him in financial matters, was partly a cause and partly a pretext for tragic events and great calamities.
 
-### Capítulo 13
+#### Capítulo 13
 
 [13.1] For Nymphidius, as soon as Gellianus had come back to him, whom he had sent to be a sort of spy upon Galba, heard that Cornelius Laco had been appointed prefect of the praetorian guard, and that Vinius was all powerful with Galba, while Gellianus had never stood near him or seen him in private, but had been looked upon with suspicion and distrust by everyone.
 
@@ -154,13 +148,13 @@ URN: `null`
 
 [13.4] But since Galba gave no heed to him whatever and put no confidence in his reports, he determined not to wait before making his attempt. And yet Clodius Celsus of Antioch, a man of good sense, who was well-disposed and faithful to him, tried to dissuade him, saying that in his opinion not a single precinct in Rome would give Nymphidius the title of Caesar. But many ridiculed Galba, and especially Mithridates of Pontus, who scoffed about his bald head and wrinkled face, and said that now the Romans thought him a great personage, but when they saw him they would regard all the days in which he had borne the title of Caesar as a disgrace to them.
 
-### Capítulo 14
+#### Capítulo 14
 
 [14.1] It was decided, therefore, to bring Nymphidius into the camp about midnight and proclaim him emperor. But when it was evening, the leading military tribune, Antonius Honoratus, calling together the soldiers under his command, reviled himself and reviled them for changing about so often in so short a time, not according to any plan or choice of better things, but because some evil spirit drove them from one treachery to another.
 
-[14.2] In the first instance, he said, they had an excuse in the crimes of Nero; but now, if they were to betray Galba, what charge of murdering his mother or slaying his wife could they bring against him, or what feelings of shame that their emperor should appear in public as musician or tragic actor? Nay, not even with these provocations would we consent to abandon a Nero, but we had to be persuaded by Nymphidius that Nero had first abandoned us and fled to Egypt.
+[14.2] In the first instance, he said, they had an excuse in the crimes of Nero; but now, if they were to betray Galba, what charge of murdering his mother or slaying his wife could they bring against him, or what feelings of shame that their emperor should appear in public as musician or tragic actor? “Nay, not even with these provocations would we consent to abandon a Nero, but we had to be persuaded by Nymphidius that Nero had first abandoned us and fled to Egypt.”
 
-[14.3] Shall we, then, sacrifice Galba after Nero, and choosing the son of Nymphidia as our Caesar, shall we slay the scion of the house of Livia, as we have slain the son of Agrippina? Or, shall we inflict punishment on Nymphidius for his evil deeds, and thereby show ourselves avengers of Nero, but true and faithful guardians of Galba? So spoke the tribune, and all his soldiers took his side, and visiting their fellow-soldiers, exhorted them to maintain their fidelity to the emperor; and they brought over the greater part of them.
+[14.3] “Shall we, then, sacrifice Galba after Nero, and choosing the son of Nymphidia as our Caesar, shall we slay the scion of the house of Livia, as we have slain the son of Agrippina? Or, shall we inflict punishment on Nymphidius for his evil deeds, and thereby show ourselves avengers of Nero, but true and faithful guardians of Galba?” So spoke the tribune, and all his soldiers took his side, and visiting their fellow-soldiers, exhorted them to maintain their fidelity to the emperor; and they brought over the greater part of them.
 
 [14.4] But now loud shouts arose, and Nymphidius, either because he was convinced, as some say, that the soldiers were already calling him, or because he was anxious to win over betimes the element that was still unruly and mutinous, came up in a glare of lights, carrying in his hand a speech written out for him by Cingonius Varro; this he had got by heart to deliver to the soldiers.
 
@@ -168,7 +162,7 @@ URN: `null`
 
 [14.6] But after the soldiers at the gate had permitted him to enter with a few followers, a lance was hurled at him. This weapon was received in the shield which Septimius interposed, but others assailed him, with drawn swords, whereupon he fled, was pursued, and was cut down in a soldier’s hut. His dead body was dragged forth, surrounded with a paling, and exposed to public view all day.
 
-### Capítulo 15
+#### Capítulo 15
 
 [15.1] Such was the violent end of Nymphidius, and when Galba learned of it, he ordered such of his fellow-conspirators as had not at once taken their own lives to be put to death. Among these was Cingonius, who wrote the speech for Nymphidius, and Mithridates of Pontus. But it was held to be illegal and despotic, even though just, to put to death without a trial men who were not without distinction. For everyone expected a different mode of government, being thoroughly deceived, as is usual, by assurances made in the beginning.
 
@@ -178,7 +172,7 @@ URN: `null`
 
 [15.4] And now they were there to enforce their just rights as soldiers, and would not suffer the emperor to be seen or heard by those who came to meet him, but with tumultuous shouts demanded standards for their legion and regular quarters. When Galba put off their demand and told them to renew it at another time, they declared that the postponement was merely a way of refusing their demands, and were incensed, and followed along with unremitted shouts. Some actually drew their swords, and then Galba ordered his horsemen to charge upon them. Not a man of them stood his ground, but some were done to death at once in the rout, and others as they fled, nor was it a happy and auspicious omen that Galba should enter the city through so much slaughter and so many dead bodies. But whereas many had before this despised him and looked upon him as a weak old man, now all regarded him with shuddering fear.
 
-### Capítulo 16
+#### Capítulo 16
 
 [16.1] And now, in his desire to display a great change from Nero’s immoderate and extravagant manner of giving, he was thought to fall short of what was fitting. For example, after Canus had played on the flute for him at a banquet (now Canus was a performer of high repute), he was loud in his praises and ordered his purse to be brought to him; and taking from it a few gold pieces, he gave them to Canus, with the remark that the gift was made from his own, and not from the public moneys.
 
@@ -186,9 +180,15 @@ URN: `null`
 
 [16.3] The business had no limits, but was far extended and affected many; it gave the emperor himself a bad name, and brought envy and hatred upon Vinius as having made the emperor ungenerous and sordid with everybody else, while he himself used money lavishly, taking everything that was offered and selling freely.
 
-[16.4] For Hesiod Works and Days, 366. bids men to Drink without stint at the beginning and end of the cask, and so Vinius, seeing that Galba was old and feeble, sated himself with the good fortune which he thought was just beginning and at the same time was soon to end.
+[16.4] For Hesiod[^13] bids men to
 
-### Capítulo 17
+```verso
+Drink without stint at the beginning and end of the cask,
+```
+
+and so Vinius, seeing that Galba was old and feeble, sated himself with the good fortune which he thought was just beginning and at the same time was soon to end.
+
+#### Capítulo 17
 
 [17.1] But the aged emperor suffered injustice not only when Vinius, as at first, administered affairs badly, but also when he brought into odium or prevented wise measures set on foot by Galba himself; as, for instance, in the matter of punishing the adherents of Nero.
 
@@ -198,9 +198,9 @@ URN: `null`
 
 [17.4] For there was no spectacle on which the Roman people had so set their hearts as that of Tigellinus dragged away to punishment, and in all the theatres and circuses they would not cease demanding him, until they were quelled by an edict of the emperor in which he declared that Tigellinus was wasting away with consumption and had not much longer to live, and advised them not to exasperate the government or force it to be tyrannical.
 
-[17.5] Then, in mockery of the dissatisfied people, Tigellinus offered sacrifices for his preservation and prepared a splendid feast; and Vinius, rising from beside the emperor, afterwards went to a drinking-bout in Tigellinus’ house, leading his daughter, who was a widow. Tigellinus pledged her health with a gift of twenty-five myriads of money,See the note on Chap. ii. 2. and ordered the governess of his concubines to take the necklace from her own neck and put it about hers. The necklace was said to be worth fifteen myriads.
+[17.5] Then, in mockery of the dissatisfied people, Tigellinus offered sacrifices for his preservation and prepared a splendid feast; and Vinius, rising from beside the emperor, afterwards went to a drinking-bout in Tigellinus’ house, leading his daughter, who was a widow. Tigellinus pledged her health with a gift of twenty-five myriads of money,[^14] and ordered the governess of his concubines to take the necklace from her own neck and put it about hers. The necklace was said to be worth fifteen myriads.
 
-### Capítulo 18
+#### Capítulo 18
 
 [18.1] After this, even the reasonable measures of the emperor fell under censure, as, for instance, his treatment of the Gauls who had conspired with Vindex. For they were thought to have obtained their remission of tribute and their civil rights, not through the kindness of the emperor, but by purchase from Vinius.
 
@@ -208,21 +208,21 @@ URN: `null`
 
 [18.3] But the agitation at Rome was still smouldering, and at the same time a certain respect for Galba’s presence blunted and delayed the spirit of revolution, and the absence of any manifest occasion for a change repressed and kept under cover, somehow or other, the resentment of the soldiers. But the army which had formerly served under Verginius, and was now serving under Flaccus in Germany, thinking themselves deserving of great rewards on account of the battle they had fought against Vindex, and getting nothing, could not be appeased by their officers.
 
-[18.4] Of Flaccus himself, who was physically incapacitated by an acute gout, and inexperienced in the conduct of affairs, they made no account whatever. And once at a spectacle, when the military tribunes and centurions, after the Roman custom, invoked health and happiness upon the emperor Galba, the mass of the soldiery raised a storm of dissent at first, and then, when the officers persisted in their invocation, cried out in response, If he deserves it.
+[18.4] Of Flaccus himself, who was physically incapacitated by an acute gout, and inexperienced in the conduct of affairs, they made no account whatever. And once at a spectacle, when the military tribunes and centurions, after the Roman custom, invoked health and happiness upon the emperor Galba, the mass of the soldiery raised a storm of dissent at first, and then, when the officers persisted in their invocation, cried out in response, “If he deserves it.”
 
-### Capítulo 19
+#### Capítulo 19
 
 [19.1] The legions also that were under the command of Tigellinus frequently behaved with similar insolence, and letters on the subject were sent to Galba by his agents. So the emperor, fearing that it was not only his old age but also his childlessness that brought him into contempt, planned to adopt some young man of illustrious family and appoint him his successor.
 
-[19.2] Marcus Otho, now, was a man of good lineage, but from his very childhood corrupted by luxury and the pursuit of pleasure as few Romans were. And as Homer often calls Paris the husband of fair-haired Helen, giving him a dignity borrowed from his wife, since he had no other title to fame, so Otho was celebrated at Rome for his marriage with Poppaea. With Poppaea Nero was enamoured while she was the wife of Crispinus, but since he respected his own wife still and feared his mother, he put Otho up to soliciting her favours for him.
+[19.2] Marcus Otho, now, was a man of good lineage, but from his very childhood corrupted by luxury and the pursuit of pleasure as few Romans were. And as Homer often calls Paris “the husband of fair-haired Helen,” giving him a dignity borrowed from his wife, since he had no other title to fame, so Otho was celebrated at Rome for his marriage with Poppaea. With Poppaea Nero was enamoured while she was the wife of Crispinus, but since he respected his own wife still and feared his mother, he put Otho up to soliciting her favours for him.
 
 [19.3] For because of Otho’s lavish prodigality Nero made an intimate friend of him, and was well pleased to be rallied by him often for parsimony and meanness. Thus, we are told that Nero once anointed himself with a costly ointment and sprinkled a little of it upon Otho; whereupon Otho, entertaining the emperor in his turn on the following day, suddenly brought into play gold and silver pipes on all sides of the room, out of which the ointment gushed freely, like so much water.
 
 [19.4] But as for Poppaea, Otho corrupted her with hopes of Nero’s favour and seduced her first himself, and persuaded her to leave her husband. However, after she had come to live with him as his wife, he was not content to have only a share in her favours, and was loth to give Nero a share, while Poppaea herself, as we are told, was not displeased at the rivalry between them.
 
-[19.5] For it is said that she would shut out Nero although Otho was not at home; whether it was that she sought to keep his pleasure in her from cloying, or whether, as some say, she recoiled from a marriage with the emperor, but was not averse to having him as a lover, out of mere wantonness. Otho, accordingly, came into peril of his life; and it was strange that although his own wife and sister were put to death by Nero on account of his marriage with Poppaea, Otho himself was spared.Cf. Tacitus, Annals, xiii. 45 f.
+[19.5] For it is said that she would shut out Nero although Otho was not at home; whether it was that she sought to keep his pleasure in her from cloying, or whether, as some say, she recoiled from a marriage with the emperor, but was not averse to having him as a lover, out of mere wantonness. Otho, accordingly, came into peril of his life; and it was strange that although his own wife and sister were put to death by Nero on account of his marriage with Poppaea, Otho himself was spared.[^15]
 
-### Capítulo 20
+#### Capítulo 20
 
 [20.1] But Otho had the good will of Seneca, by whose advice and persuasion Nero sent him out as governor of Lusitania to the shores of the western ocean. Here he made himself acceptable and pleasing to his subjects, although he knew that his office had been given him to disguise and mitigate his banishment.
 
@@ -232,23 +232,23 @@ URN: `null`
 
 [20.4] and sometimes getting the support of Vinius, and of the freedmen Icelus and Asiaticus; for these were the most influential men at court. And as often as he entertained Galba, he would compliment the cohort on duty for the day by giving each man a gold piece, thus showing honour to the emperor, as it was thought, while really scheming for the support and favour of the soldiery.
 
-### Capítulo 21
+#### Capítulo 21
 
 [21.1] So, then, while Galba was deliberating upon a successor, Vinius suggested Otho. And yet not even this was done for nothing, but as a return for the marriage of his daughter. For it had been agreed that Otho should marry her when he had been adopted by Galba and declared his successor. But Galba always showed clearly that he placed the public good before his private interests, and in the present case that he aimed to adopt, not the man who was most agreeable to himself, but the one who would be most serviceable to the Romans.
 
-[21.2] And it does not seem that he would have chosen Otho merely as the heir of his own private fortune, since he knew that he was unrestrained and extravagant and immersed in debts amounting to five millions.See the note on Chap. ii. 2. Wherefore, after listening to Vinius calmly and without a word, he postponed his decision. But he appointed himself and Vinius consuls for the following year, and it was expected that on their accession to office he would declare his successor. And the soldiery would have been glad that Otho, rather than anyone else, should be so declared.
+[21.2] And it does not seem that he would have chosen Otho merely as the heir of his own private fortune, since he knew that he was unrestrained and extravagant and immersed in debts amounting to five millions.[^16] Wherefore, after listening to Vinius calmly and without a word, he postponed his decision. But he appointed himself and Vinius consuls for the following year, and it was expected that on their accession to office he would declare his successor. And the soldiery would have been glad that Otho, rather than anyone else, should be so declared.
 
-### Capítulo 22
+#### Capítulo 22
 
 [22.1] But while the emperor was hesitating and deliberating, he was overtaken by the disorders which broke out among the troops in Germany. For the soldiers in all parts of the empire had a common hatred of Galba because he had not given them their usual largess, but those in Germany made special excuses for themselves out of the fact that Verginius Rufus had been cast off in dishonour; that the Gauls who had fought against them were getting rewards,
 
-[22.2] while all those who had not joined Vindex were being punished; and that to Vindex alone Galba showed gratitude by honouring him when he was dead and giving him the distinction of public obsequies, on the ground that Vindex had proclaimed him emperor of the Romans.See Chap. iv. 3.
+[22.2] while all those who had not joined Vindex were being punished; and that to Vindex alone Galba showed gratitude by honouring him when he was dead and giving him the distinction of public obsequies, on the ground that Vindex had proclaimed him emperor of the Romans.[^17]
 
 [22.3] Such arguments as these were already circulating openly in the camp, when the first day of the first month came, which the Romans call the Calends of January. On this day Flaccus assembled the soldiers that they might take the customary oath of allegiance to the emperor; but they overturned and pulled down all the statues of Galba which they could find, and after swearing allegiance to the senate and people of Rome, went to their quarters.
 
-[22.4] Then their officers began to fear that their lawless spirit might issue in revolt, and one of them made this speech: What is wrong with us, my fellow soldiers? We are neither supporting the present emperor nor setting up another. It is as though we were averse, not to Galba, but to all rule and obedience.
+[22.4] Then their officers began to fear that their lawless spirit might issue in revolt, and one of them made this speech: “What is wrong with us, my fellow soldiers? We are neither supporting the present emperor nor setting up another. It is as though we were averse, not to Galba, but to all rule and obedience.”
 
-[22.5] Flaccus Hordeonius, indeed, who is nothing but a shadow and image of Galba, we must ignore, but there is Vitellius, who is only a day’s march distant from us, and commands the forces in the other Germany. His father was censor, thrice consul, and in a manner the colleague of Claudius Caesar, and Vitellius himself, in the poverty with which some reproach him, affords a splendid proof of probity and magnanimity. Come, let us choose him, and so show the world that we know how to select an emperor better than Iberians and Lusitanians.
+[22.5] “Flaccus Hordeonius, indeed, who is nothing but a shadow and image of Galba, we must ignore, but there is Vitellius, who is only a day’s march distant from us, and commands the forces in the other Germany. His father was censor, thrice consul, and in a manner the colleague of Claudius Caesar, and Vitellius himself, in the poverty with which some reproach him, affords a splendid proof of probity and magnanimity. Come, let us choose him, and so show the world that we know how to select an emperor better than Iberians and Lusitanians.”
 
 [22.6] While some of the soldiers were already for adopting this proposal and others for rejecting it, one standard-bearer stole away and brought tidings of the matter by night to Vitellius, as he was entertaining many guests. The news spread swiftly to the troops, and first Fabius Valens, commander of a legion, rode up next day with a large body of horsemen and saluted Vitellius as emperor.
 
@@ -256,7 +256,7 @@ URN: `null`
 
 [22.8] And straightway the army with Flaccus also, casting aside those fine and democratic oaths of theirs to support the senate, took oath that they would obey the orders of Vitellius the emperor.
 
-### Capítulo 23
+#### Capítulo 23
 
 [23.1] Thus was Vitellius proclaimed emperor in Germany; and when Galba learned of the revolution there he no longer deferred his act of adoption. Knowing that some of his friends favoured the selection of Dolabella, and most of them that of Otho, neither of whom was approved by himself, he suddenly, and without any previous notice of his intention, sent for Piso (whose parents, Crassus and Scribonia, had been put to death by Nero),
 
@@ -266,9 +266,9 @@ URN: `null`
 
 [23.4] Wherefore he was not without apprehension for the future, and fearing Piso, blaming Galba, and angry with Vinius, he went away full of various passions. For the soothsayers and Chaldaeans who were always about him would not suffer him to abandon his hopes or give up altogether, particularly Ptolemaeus, who dwelt much upon his frequent prediction that Nero would not kill Otho, but would die first himself, and that Otho would survive him and be emperor of the Romans (for now that he could point to the first part of the prediction as true, he thought that Otho should not despair of the second part). Above all, Otho was encouraged by those who secretly shared his resentment and chagrin on the ground that he had been thanklessly treated. Moreover, most of the adherents of Tigellinus and Nymphidius, men who had once been in high honour, but were now cast aside and of no account, treacherously went over to Otho, shared his resentment, and spurred him on to action.
 
-### Capítulo 24
+#### Capítulo 24
 
-[24.1] Among these were Veturius and Barbius the one an optio, the other a tesserarius (these are the Roman names for scout and messenger). In company with these Onomastus, a freedman of Otho’s, went round corrupting the soldiers, some with money, and others with fair promises. The soldiers were already disaffected and wanted only a pretext for treachery. For four days would not have sufficed to change the allegiance of a loyal army, and only so many days intervened between the act of adoption and the murder, since on the sixth day after the adoption (the Romans call it the eighteenth before the Calends of FebruaryJanuary 15th (A.D. xviii. Cal. Feb.), 68 A.D.), Galba and Piso were slain.
+[24.1] Among these were Veturius and Barbius the one an “optio,” the other a “tesserarius” (these are the Roman names for scout and messenger). In company with these Onomastus, a freedman of Otho’s, went round corrupting the soldiers, some with money, and others with fair promises. The soldiers were already disaffected and wanted only a pretext for treachery. For four days would not have sufficed to change the allegiance of a loyal army, and only so many days intervened between the act of adoption and the murder, since on the sixth day after the adoption (the Romans call it the eighteenth before the Calends of February[^18]), Galba and Piso were slain.
 
 [24.2] On that day, shortly after dawn, Galba was sacrificing in the Palatium in the presence of his friends; and as soon as Umbricius, the officiating priest, had taken the entrails of the victim in his hands and inspected them, he declared not ambiguously, but in so many words, that there were signs of a great commotion, and that peril mixed with treachery hung over the emperor’s head. Thus the god all but delivered Otho over to arrest.
 
@@ -276,7 +276,7 @@ URN: `null`
 
 [24.4] With the remark, then, that he had bought an old house and wished to show its defects to the vendors, he went away, and passing through what was called the house of Tiberius, went down into the forum, to where a gilded column stood, at which all the roads that intersect Italy terminate.
 
-### Capítulo 25
+#### Capítulo 25
 
 [25.1] Here, as we are told, the soldiers who first welcomed him and saluted him as emperor were no more than twenty-three. Therefore, although he was not sunken in spirit to match the weakness and effeminacy of his body, but was bold and adventurous in presence of danger, he began to be afraid.
 
@@ -288,11 +288,11 @@ URN: `null`
 
 [25.5] and Marius Celsus, a man of worth, was sent off to secure the allegiance of the Illyrian legion encamped in what was called the Vipsanian portico.
 
-### Capítulo 26
+#### Capítulo 26
 
 [26.1] And now, as Galba purposed to go forth, and Vinius would not permit it, while Celsus and Laco urged it and vehemently chided Vinius, a rumour spread insistently that Otho had been slain in the camp; and after a little, Julius Atticus, a soldier of distinction among the guards, was seen rushing up with his sword drawn, and crying out that he had slain the enemy of Caesar; and forcing his way through the crowd about Galba, he showed him his sword all stained with blood.
 
-[26.2] Then Galba fixed his eyes upon him and said, Who gave thee thy orders? Whereupon the man replied that it was his fidelity and the oath that he had sworn, at which the multitude cried out that he had done well, and gave him their applause. Then Galba got into his litter and was carried forth, wishing to sacrifice to Jupiter and show himself to the citizens. But when he was come into the forum, there met him, like a change of wind, a report that Otho was master of the army.
+[26.2] Then Galba fixed his eyes upon him and said, “Who gave thee thy orders?” Whereupon the man replied that it was his fidelity and the oath that he had sworn, at which the multitude cried out that he had done well, and gave him their applause. Then Galba got into his litter and was carried forth, wishing to sacrifice to Jupiter and show himself to the citizens. But when he was come into the forum, there met him, like a change of wind, a report that Otho was master of the army.
 
 [26.3] Then, as might be expected in so great a crowd, some cried out to him to turn back, others to go forward; some bade him to be of good courage, others urged him to be cautious; and so, while his litter was swept hither and thither, as in a surging sea, and often threatened to capsize, there came into view, first horsemen, and then men-at-arms, charging through the basilica of Paulus, and with one voice loudly ordering all private citizens out of their way.
 
@@ -300,21 +300,27 @@ URN: `null`
 
 [26.5] This was Sempronius Densus, a centurion, and though he had received no special favours from Galba, yet in defence of honour and the law he took his stand in front of the litter. And first, lifting up the switch with which centurions punish soldiers deserving of stripes, he cried out to the assailants and ordered them to spare the emperor. Then, as they came to close quarters with him, he drew his sword, and fought them off a long time, until he fell with a wound in the groin.
 
-### Capítulo 27
+#### Capítulo 27
 
-[27.1] The litter was upset at the place called Lacus Curtius, and there Galba tumbled out and lay in his corselet, while the soldiers ran up and struck at him. But he merely presented his neck to their swords, saying: Do your work, if this is better for the Roman people."
+[27.1] The litter was upset at the place called Lacus Curtius, and there Galba tumbled out and lay in his corselet, while the soldiers ran up and struck at him. But he merely presented his neck to their swords, saying: “Do your work, if this is better for the Roman people."”
 
 [27.2] So, then, after receiving many wounds in his legs and arms, he was slain, as most writers state, by a certain Camurius, of the fifteenth legion. Some, however, ascribe his death to Terentius, others to Lecanius, and others still to Fabius Fabulus, who, they say, cut off Galba’s head and was carrying it wrapped in his cloak, since its baldness made it difficult to grasp;
 
-[27.3] then, since his companions would not suffer him to hide his deed of valour, but insisted on his displaying it to all eyes, he impaled on his spear and thrust on high the head of an aged man, who had been a temperate ruler, a high priest, and a consul, and ran with it, like a bacchanal,So the Bacchanals with the head of Pentheus (Euripides, Bacchae, 1153 ff). whirling about often, and brandishing the spear all dripping with blood. But Otho, as they say, when the head was brought to him, cried out: This is nothing, fellow-soldiers; show me the head of Piso.
+[27.3] then, since his companions would not suffer him to hide his deed of valour, but insisted on his displaying it to all eyes, he impaled on his spear and thrust on high the head of an aged man, who had been a temperate ruler, a high priest, and a consul, and ran with it, like a bacchanal,[^19] whirling about often, and brandishing the spear all dripping with blood. But Otho, as they say, when the head was brought to him, cried out: “This is nothing, fellow-soldiers; show me the head of Piso.”
 
 [27.4] And after a little it was brought to him; for the young man had been wounded and tried to escape, and a certain Murcus ran him down and slew him at the temple of Vesta. Vinius also was slain, and he admitted himself a party to the conspiracy against Galba by crying out that he was put to death contrary to the wishes of Otho. However, they cut off his head, and Laco’s too, and brought them to Otho, of whom they demanded largess.
 
-[27.5] And as Archilochus saysBergk, Lyr. Gr.. Frag. ii.4 p. 398. that, Only seven lay dead on the ground, where we trod their bodies under foot. But we who slew are a thousand, so in this case, many who had no part in the murder smeared their hands and swords with blood and showed them to Otho, as they presented him with written petitions for largess. At any rate, a hundred and twenty were afterwards discovered by means of these petitions, all of whom were sought out and put to death by Vitellius.
+[27.5] And as Archilochus says[^20] that,
+
+```verso
+Only seven lay dead on the ground, where we trod their bodies under foot. But we who slew are a thousand,
+```
+
+so in this case, many who had no part in the murder smeared their hands and swords with blood and showed them to Otho, as they presented him with written petitions for largess. At any rate, a hundred and twenty were afterwards discovered by means of these petitions, all of whom were sought out and put to death by Vitellius.
 
 [27.6] Marius Celsus also came into the camp. There many denounced him for trying to persuade the soldiers to defend Galba, and the majority clamoured for his death, but Otho did not wish it; however, since he was afraid to oppose them, he said he would not put Celsus to death so quickly, since there were matters about which he must first question him. He therefore ordered that he be fettered and kept under guard, and handed over to those in whom he put most trust.
 
-### Capítulo 28
+#### Capítulo 28
 
 [28.1] A senate was at once convened. And as if they were now other men, or had other gods to swear by, they united in swearing an oath to support Otho—an oath which he himself had sworn in support of Galba, but had not kept. Moreover, they gave him the titles of Caesar and Augustus, while the dead bodies, all headless in their consular robes, were still strewn over the forum.
 
@@ -322,7 +328,7 @@ URN: `null`
 
 [28.3] They took it, and after heaping all manner of insult and outrage upon it, cast it into a place called Sessorium, where those under condemnation of the emperors are put to death. The body of Galba was taken up by Priscus Helvidius, with the permission of Otho; and it was buried at night by Argivus, a freed man.
 
-### Capítulo 29
+#### Capítulo 29
 
 [29.1] Such were the fortunes of Galba, a man surpassed by few Romans in lineage and wealth, and both in wealth and lineage the foremost of his time. During the reigns of five emperors he lived with honour and high repute, so that it was by his high repute, rather than by his military power, that he overthrew Nero.
 
@@ -330,8 +336,25 @@ URN: `null`
 
 [29.3] Wherefore, in the belief that he was not seizing the conduct of affairs for himself, but rather giving himself for the conduct of affairs, he set out with the idea of commanding the petted creatures of Tigellinus and Nymphidius as Scipio and Fabricius and Camillus used to command the Romans of their time.
 
-[29.4] But being gradually weighed down by his years, in arms and camps, indeed, he was an imperator of a severe and ancient type; but just as Nero put himself in the hands of his most insatiate favourites, so Galba put himself in the hands of Vinius and Laco and their freedmen, and they made merchandise of everything, so that he left behind him no one who wished him still in power, but very many who were moved to pity at his death.
+[29.4] But being gradually weighed down by his years, in arms and camps, indeed, he was an “imperator” of a severe and ancient type; but just as Nero put himself in the hands of his most insatiate favourites, so Galba put himself in the hands of Vinius and Laco and their freedmen, and they made merchandise of everything, so that he left behind him no one who wished him still in power, but very many who were moved to pity at his death.
 
----
-
-*Ὁ Διαφορεύς παρῆν*
+[^1]: With Plutarch’s Galba may be compared Suetonius, Galba; Dion Cassius, lxiv. 1-9; Tacitus, Hist. i. 1-45.
+[^2]: See the Aemilius, xiii. 4.
+[^3]: Cf. e.g. Republic 376 C.
+[^4]: An allusion to the proverb ἥλῳ ὁ ἧλος ἐκκρούεται..
+[^5]: Alexander, tyrant of Pherae. See the Pelopidas, xxiv.-xxxv.
+[^6]: Probably in the lost Life of Nero.
+[^7]: Plutarch uses the Greek word drachma for the corresponding Roman denarius, a silver coin about equivalent to the franc. But a Roman writer would reckon by sestertii, the sestertius being worth about a quarter of the denarius.
+[^8]: In 33 A.D.
+[^9]: In 45 A.D.
+[^10]: In 61 A.D.
+[^11]: Of 68 A.D.
+[^12]: Caligula.
+[^13]: Works and Days, 366.
+[^14]: See the note on Chap. ii. 2.
+[^15]: Cf. Tacitus, Annals, xiii. 45 f.
+[^16]: See the note on Chap. ii. 2.
+[^17]: See Chap. iv. 3.
+[^18]: January 15th (A.D. xviii. Cal. Feb.), 68 A.D.
+[^19]: So the Bacchanals with the head of Pentheus (Euripides, Bacchae, 1153 ff).
+[^20]: Bergk, Lyr. Gr.. Frag. ii.4 p. 398.

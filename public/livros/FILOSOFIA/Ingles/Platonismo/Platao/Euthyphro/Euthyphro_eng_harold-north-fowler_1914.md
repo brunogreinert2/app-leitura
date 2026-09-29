@@ -1,36 +1,29 @@
 ---
 id: platao-euthyphro-eng-harold-north-fowler-1914
-type: texto_primario
-title: "Euthyphro"
-subtitle: null
+type: translation
+title: Euthyphro
 author: Plato
-year_original: null
-language: eng
-translation:
-  - Harold North Fowler
+translator:
+- Harold North Fowler
 publisher: Harvard University Press
-area: null
-era: null
-tags: []
-status: rascunho
+language: eng
+tags:
+- classical-philosophy
+- platonism
+status: draft
 project: pedra_angular
-source: "Plato. Euthyphro. Ed. Harold North Fowler. Cambridge, MA: Harvard University Press, 1914. Perseus Digital Library, Tufts University (CC BY-SA 4.0). URN: null"
-related: []
+urn_work: urn:cts:greekLit:tlg0059.tlg001
+urn: urn:cts:greekLit:tlg0059.tlg001.perseus-eng2
+source: 'Plato. Euthyphro. Ed. Harold North Fowler. Cambridge, MA: Harvard University Press, 1914. Perseus Digital Library, Tufts University (CC BY-SA 4.0).'
+source_repo: PerseusDL/canonical-greekLit
+source_file: data/tlg0059/tlg001/tlg0059.tlg001.perseus-eng2.xml
+source_commit: e37eed2e8
+license: CC-BY-SA-4.0
 ---
 
 # Euthyphro
 
-**Plato**
-
-Cambridge, MA: Harvard University Press, 1914.
-Perseus Digital Library, Tufts University (CC BY-SA 4.0).
-URN: `null`
-
----
-
-## Texto
-
-[2] Euthyphro. What strange thing has happened, Socrates, that you have left your accustomed haunts in the Lyceum and are now haunting the portico where the king archon sits? For it cannot be that you have an action before the king, as I have.
+[2a] Euthyphro. What strange thing has happened, Socrates, that you have left your accustomed haunts in the Lyceum and are now haunting the portico where the king archon sits? For it cannot be that you have an action before the king, as I have.
 
 Socrates. Our Athenians, Euthyphro, do not call it an action, but an indictment.
 
@@ -50,7 +43,7 @@ Euthyphro. I don’t remember him, Socrates. But [2c] what sort of an indictment
 
 Socrates. What sort? No mean one, it seems to me; for the fact that, young as he is, he has apprehended so important a matter reflects no small credit upon him. For he says he knows how the youth are corrupted and who those are who corrupt them. He must be a wise man; who, seeing my lack of wisdom and that I am corrupting his fellows, comes to the State, as a boy runs to his mother, to accuse me. And he seems to me to be the only one of the public men who begins in the right way; for the right way [2d] is to take care of the young men first, to make them as good as possible, just as a good husbandman will naturally take care of the young plants first and afterwards of the rest.
 
-[3] Socrates. And so Meletus, perhaps, is first [3] [3a] clearing away us who corrupt the young plants, as he says; then after this, when he has turned his attention to the older men, he will bring countless most precious blessings upon the State,—at least, that is the natural outcome of the beginning he has made.
+Socrates. And so Meletus, perhaps, is first [3a] clearing away us who corrupt the young plants, as he says; then after this, when he has turned his attention to the older men, he will bring countless most precious blessings upon the State,—at least, that is the natural outcome of the beginning he has made.
 
 Euthyphro. I hope it may be so, Socrates; but I fear the opposite may result. For it seems to me that he begins by injuring the State at its very heart, when he undertakes to harm you. Now tell me, what does he say you do that corrupts the young? [3b]
 
@@ -72,7 +65,7 @@ Euthyphro. Prosecuting.
 
 Socrates. Whom?
 
-[4] Euthyphro. Such a man that they think I am insane because I am prosecutingThe Greek word has much the same meaning as the Latin prosequor, from which the English prosecute is derived, follow, pursue, and is at the same time the technical term for prosecute. him.
+[4a] Euthyphro. Such a man that they think I am insane because I am prosecuting[^1] him.
 
 Socrates. Why? Are you prosecuting one who has wings to fly away with?
 
@@ -100,9 +93,9 @@ Euthyphro. It is ridiculous, Socrates, that you think it matters whether the man
 
 Socrates. But, in the name of Zeus, Euthyphro, do you think your knowledge about divine laws and holiness and unholiness is so exact that, when the facts are as you say, you are not afraid of doing something unholy yourself in prosecuting your father for murder?
 
-[5] Euthyphro. I should be of no use, Socrates, [5] [5a] and Euthyphro would be in no way different from other men, if I did not have exact knowledge about all such things.
+Euthyphro. I should be of no use, Socrates, [5a] and Euthyphro would be in no way different from other men, if I did not have exact knowledge about all such things.
 
-Socrates. Then the best thing for me, my admirable Euthyphro, is to become your pupil and, before the suit with Meletus comes on, to challenge him and say that I always thought it very important before to know about divine matters and that now, since he says I am doing wrong by acting carelessly and making innovations in matters of religion, I have become your pupil. And Meletus, I should say, [5b] if you acknowledge that Euthyphro is wise in such matters, then believe that I also hold correct opinions, and do not bring me to trial; and if you do not acknowledge that, then bring a suit against him, my teacher, rather than against me, and charge him with corrupting the old, namely, his father and me, which he does by teaching me and by correcting and punishing his father. And if he does not do as I ask and does not release me from the indictment or bring it against you in my stead, I could say in the court the same things I said in my challenge to him, could I not?
+Socrates. Then the best thing for me, my admirable Euthyphro, is to become your pupil and, before the suit with Meletus comes on, to challenge him and say that I always thought it very important before to know about divine matters and that now, since he says I am doing wrong by acting carelessly and making innovations in matters of religion, I have become your pupil. And “Meletus,” I should say, [5b] “if you acknowledge that Euthyphro is wise in such matters, then believe that I also hold correct opinions, and do not bring me to trial; and if you do not acknowledge that, then bring a suit against him, my teacher, rather than against me, and charge him with corrupting the old, namely, his father and me, which he does by teaching me and by correcting and punishing his father.” And if he does not do as I ask and does not release me from the indictment or bring it against you in my stead, I could say in the court the same things I said in my challenge to him, could I not?
 
 Euthyphro. By Zeus, Socrates, if he should undertake to indict me, [5c] I fancy I should find his weak spot, and it would be much more a question about him in court than about me.
 
@@ -112,7 +105,7 @@ Euthyphro. Certainly, Socrates.
 
 Socrates. Tell me then, what do you say holiness is, and what unholiness?
 
-[6] Euthyphro. Well then, I say that holiness is doing what I am doing now, prosecuting the wrongdoer who commits murder or steals from the temples or does any such thing, whether he be your father, [5e] or your mother or anyone else, and not prosecuting him is unholy. And, Socrates, see what a sure proof I offer you,—a proof I have already given to others,—that this is established and right and that we ought not to let him who acts impiously go unpunished, no matter who he may be. Men believe [6] [6a] that Zeus is the best and most just of the gods, and they acknowledge that he put his father in bonds because he wickedly devoured his children, and he in turn had mutilated his father for similar reasons; but they are incensed against me because I proceed against my father when he has done wrong, and so they are inconsistent in what they say about the gods and about me.
+Euthyphro. Well then, I say that holiness is doing what I am doing now, prosecuting the wrongdoer who commits murder or steals from the temples or does any such thing, whether he be your father, [5e] or your mother or anyone else, and not prosecuting him is unholy. And, Socrates, see what a sure proof I offer you,—a proof I have already given to others,—that this is established and right and that we ought not to let him who acts impiously go unpunished, no matter who he may be. Men believe [6a] that Zeus is the best and most just of the gods, and they acknowledge that he put his father in bonds because he wickedly devoured his children, and he in turn had mutilated his father for similar reasons; but they are incensed against me because I proceed against my father when he has done wrong, and so they are inconsistent in what they say about the gods and about me.
 
 Socrates. Is not this, Euthyphro, the reason why I am being prosecuted, because when people tell such stories about the gods I find it hard to accept them? And therefore, probably, people will say I am wrong. Now if you, who know so much about such things, [6b] accept these tales, I suppose I too must give way. For what am I to say, who confess frankly that I know nothing about them? But tell me, in the name of Zeus, the god of friendship, do you really believe these things happened?
 
@@ -140,7 +133,7 @@ Euthyphro. If you wish me to explain in that way, I will do so.
 
 Socrates. I do wish it.
 
-[7] Euthyphro. Well then, what is dear to the gods is holy, [7] [7a] and what is not dear to them is unholy.
+Euthyphro. Well then, what is dear to the gods is holy, [7a] and what is not dear to them is unholy.
 
 Socrates. Excellent, Euthyphro, now you have answered as I asked you to answer. However, whether it is true, I am not yet sure; but you will, of course, show that what you say is true.
 
@@ -186,7 +179,7 @@ Socrates. Then the gods in each group love the things which they consider good a
 
 Euthyphro. Certainly.
 
-[8] Socrates. But you say that the same things are considered right by some of them and wrong by others; and it is because they disagree about these things [8] [8a] that they quarrel and wage war with each other. Is not this what you said?
+Socrates. But you say that the same things are considered right by some of them and wrong by others; and it is because they disagree about these things [8a] that they quarrel and wage war with each other. Is not this what you said?
 
 Euthyphro. It is.
 
@@ -226,7 +219,7 @@ Socrates. But I think, Euthyphro, those who dispute, both men and gods, if the g
 
 Euthyphro. Certainly.
 
-[9] Socrates. Come now, my dear Euthyphro, [9] [9a] inform me, that I may be made wiser, what proof you have that all the gods think that the man lost his life wrongfully, who, when he was a servant, committed murder, was bound by the master of the man he killed, and died as a result of his bonds before the master who had bound him found out from the advisers what he ought to do with him, and that it is right on account of such a man for a son to proceed against his father and accuse him of murder. Come, try to show me clearly about this, that [9b] the gods surely believe that this conduct is right; and if you show it to my satisfaction, I will glorify your wisdom as long as I live.
+Socrates. Come now, my dear Euthyphro, [9a] inform me, that I may be made wiser, what proof you have that all the gods think that the man lost his life wrongfully, who, when he was a servant, committed murder, was bound by the master of the man he killed, and died as a result of his bonds before the master who had bound him found out from the advisers what he ought to do with him, and that it is right on account of such a man for a son to proceed against his father and accuse him of murder. Come, try to show me clearly about this, that [9b] the gods surely believe that this conduct is right; and if you show it to my satisfaction, I will glorify your wisdom as long as I live.
 
 Euthyphro. But perhaps this is no small task, Socrates; though I could show you quite clearly.
 
@@ -234,7 +227,7 @@ Socrates. I understand; it is because you think I am slower to understand than t
 
 Euthyphro. Quite clearly, Socrates; that is, if they listen to me.
 
-Socrates. They will listen, if they find that you are a good speaker. [9c] But this occurred to me while you were talking, and I said to myself: If Euthyphro should prove to me no matter how clearly that all the gods think such a death is wrongful, what have I learned from Euthyphro about the question, what is holiness and what is unholiness? For this act would, as it seems, be hateful to the gods; but we saw just now that holiness and its opposite are not defined in this way; for we saw that what is hateful to the gods is also dear to them; and so I let you off any discussion of this point, Euthyphro. If you like, all the gods [9d] may think it wrong and may hate it. But shall we now emend our definition and say that whatever all the gods hate is unholy and whatever they all love is holy, and what some love and others hate is neither or both? Do you wish this now to be our definition of holiness and unholiness?
+Socrates. They will listen, if they find that you are a good speaker. [9c] But this occurred to me while you were talking, and I said to myself: “If Euthyphro should prove to me no matter how clearly that all the gods think such a death is wrongful, what have I learned from Euthyphro about the question, what is holiness and what is unholiness? For this act would, as it seems, be hateful to the gods; but we saw just now that holiness and its opposite are not defined in this way; for we saw that what is hateful to the gods is also dear to them;” and so I let you off any discussion of this point, Euthyphro. If you like, all the gods [9d] may think it wrong and may hate it. But shall we now emend our definition and say that whatever all the gods hate is unholy and whatever they all love is holy, and what some love and others hate is neither or both? Do you wish this now to be our definition of holiness and unholiness?
 
 Euthyphro. What is to hinder, Socrates?
 
@@ -246,7 +239,7 @@ Socrates. Then shall we examine this again, Euthyphro, to see if it is correct, 
 
 Euthyphro. We ought to inquire. However, I think this is now correct.
 
-[10] Socrates. We shall soon know more about this, my friend. [10] [10a] Just consider this question:—Is that which is holy loved by the gods because it is holy, or is it holy because it is loved by the gods?
+Socrates. We shall soon know more about this, my friend. [10a] Just consider this question:—Is that which is holy loved by the gods because it is holy, or is it holy because it is loved by the gods?
 
 Euthyphro. I don’t know what you mean, Socrates.
 
@@ -278,7 +271,7 @@ Socrates. And is this case like the former ones: those who love it do not love i
 
 Euthyphro. Obviously.
 
-Socrates. Now what do you say about that which is holy,[10d] Euthyphro. It is loved by all the gods, is it not, according to what you said?
+Socrates. Now what do you say about that which is holy, [10d] Euthyphro. It is loved by all the gods, is it not, according to what you said?
 
 Euthyphro. Yes.
 
@@ -306,11 +299,11 @@ Socrates. But we are agreed that what is dear to the gods is dear to them becaus
 
 Euthyphro. Very true.
 
-[11] Socrates. But if that which is dear to the gods and that which is holy were identical, my dear Euthyphro, then if the holy [11] [11a] were loved because it is holy, that which is dear to the gods would be loved because it is dear, and if that which is dear to the gods is dear because it is loved, then that which is holy would be holy because it is loved; but now you see that the opposite is the case, showing that the two are different from each other. For the one becomes lovable from the fact that it is loved, whereas the other is loved because it is in itself lovable. And, Euthyphro, it seems that when you were asked what holiness is you were unwilling to make plain its essence, but you mentioned something that has happened to this holiness, namely, [11b] that it is loved by the gods. But you did not tell as yet what it really is. So, if you please, do not hide it from me, but begin over again and tell me what holiness is, no matter whether it is loved by the gods or anything else happens it; for we shall not quarrel about that. But tell me frankly, What is holiness, and what is unholiness?
+Socrates. But if that which is dear to the gods and that which is holy were identical, my dear Euthyphro, then if the holy [11a] were loved because it is holy, that which is dear to the gods would be loved because it is dear, and if that which is dear to the gods is dear because it is loved, then that which is holy would be holy because it is loved; but now you see that the opposite is the case, showing that the two are different from each other. For the one becomes lovable from the fact that it is loved, whereas the other is loved because it is in itself lovable. And, Euthyphro, it seems that when you were asked what holiness is you were unwilling to make plain its essence, but you mentioned something that has happened to this holiness, namely, [11b] that it is loved by the gods. But you did not tell as yet what it really is. So, if you please, do not hide it from me, but begin over again and tell me what holiness is, no matter whether it is loved by the gods or anything else happens it; for we shall not quarrel about that. But tell me frankly, What is holiness, and what is unholiness?
 
 Euthyphro. But, Socrates, I do not know how to say what I mean. For whatever statement we advance, somehow or other it moves about and won’t stay where we put it.
 
-Socrates. Your statements, Euthyphro, [11c] are like works of mySocrates was the son of a sculptor and was himself educated to be a sculptor. This is doubtless the reason for his reference to Daedalus as an ancestor. Daedalus was a half mythical personage whose statues were said to have been so lifelike that they moved their eyes and walked about. ancestor Daedalus, and if I were the one who made or advanced them, you might laugh at me and say that on account of my relationship to him my works in words run away and won’t stay where they are put. But now—well, the statements are yours; so some other jest is demanded; for they stay fixed, as you yourself see.
+Socrates. Your statements, Euthyphro, [11c] are like works of my[^2] ancestor Daedalus, and if I were the one who made or advanced them, you might laugh at me and say that on account of my relationship to him my works in words run away and won’t stay where they are put. But now—well, the statements are yours; so some other jest is demanded; for they stay fixed, as you yourself see.
 
 Euthyphro. I think the jest does very well as it is; [11d] for I am not the one who makes these statements move about and not stay in the same place, but you are the Daedalus; for they would have stayed, so far as I am concerned.
 
@@ -318,11 +311,17 @@ Socrates. Apparently then, my friend, I am a more clever artist than Daedalus, i
 
 Euthyphro. I do.
 
-[12] Socrates. But is everything that is right also holy? [12] [12a] Or is all which is holy right, and not all which is right holy, but part of it holy and part something else?
+Socrates. But is everything that is right also holy? [12a] Or is all which is holy right, and not all which is right holy, but part of it holy and part something else?
 
 Euthyphro. I can’t follow you, Socrates.
 
-Socrates. And yet you are as much younger than I as you are wiser; but, as I said, you are indolent on account of your wealth of wisdom. But exert yourself, my friend; for it is not hard to understand what I mean. What I mean is the opposite of what the poet said, who wrote:Zeus the creator, him who made all things, [12b] thou wilt not name; for where fear is, there also is reverence.Stasinus, author of the Cypria (Fragm. 20, ed. Kinkel) Now I disagree with the poet. Shall I tell you how?
+Socrates. And yet you are as much younger than I as you are wiser; but, as I said, you are indolent on account of your wealth of wisdom. But exert yourself, my friend; for it is not hard to understand what I mean. What I mean is the opposite of what the poet said, who wrote:
+
+```verso
+Zeus the creator, him who made all things,
+```
+
+[12b] ““thou wilt not name; for where fear is, there also is reverence.”[^3]” Now I disagree with the poet. Shall I tell you how?
 
 Euthyphro. By all means.
 
@@ -334,7 +333,7 @@ Socrates. But I think that where reverence is, there also is fear; for does not 
 
 Euthyphro. Yes, he does fear.
 
-Socrates. Then it is not correct to say where fear is, there also is reverence. On the contrary, where reverence is, there also is fear; but reverence is not everywhere where fear is, since, as I think, fear is more comprehensive than reverence; for reverence is a part of fear, just as the odd is a part of number, so that it is not true that where number is, there also is the odd, but that where the odd is, there also is number. Perhaps you follow me now?
+Socrates. Then it is not correct to say “where fear is, there also is reverence.” On the contrary, where reverence is, there also is fear; but reverence is not everywhere where fear is, since, as I think, fear is more comprehensive than reverence; for reverence is a part of fear, just as the odd is a part of number, so that it is not true that where number is, there also is the odd, but that where the odd is, there also is number. Perhaps you follow me now?
 
 Euthyphro. Perfectly.
 
@@ -342,7 +341,7 @@ Socrates. It was something of this sort that I meant before, when I asked whethe
 
 Euthyphro. No, I agree; for I think the statement is correct.
 
-Socrates. Now observe the next point. If holiness is a part of the right, we must, apparently, find out what part of the right holiness is. Now if you asked me about one of the things I just mentioned, as, for example, what part of number the even was, and what kind of a number it was I should say, that which is not indivisible by two, but divisible by two; or don’t you agree?
+Socrates. Now observe the next point. If holiness is a part of the right, we must, apparently, find out what part of the right holiness is. Now if you asked me about one of the things I just mentioned, as, for example, what part of number the even was, and what kind of a number it was I should say, “that which is not indivisible by two, but divisible by two”; or don’t you agree?
 
 Euthyphro. I agree.
 
@@ -350,7 +349,7 @@ Euthyphro. I agree.
 
 Euthyphro. This then is my opinion, Socrates, that the part of the right which has to do with attention to the gods constitutes piety and holiness, and that the remaining part of the right is that which has to do with the service of men.
 
-[13] Socrates. I think you are correct, Euthyphro; [13] [13a] but there is one little point about which I still want information, for I do not yet understand what you mean by attention. I don’t suppose you mean the same kind of attention to the gods which is paid to other things. We say, for example, that not everyone knows how to attend to horses, but only he who is skilled in horsemanship, do we not?
+Socrates. I think you are correct, Euthyphro; [13a] but there is one little point about which I still want information, for I do not yet understand what you mean by “attention.” I don’t suppose you mean the same kind of attention to the gods which is paid to other things. We say, for example, that not everyone knows how to attend to horses, but only he who is skilled in horsemanship, do we not?
 
 Euthyphro. Certainly.
 
@@ -390,7 +389,7 @@ Socrates. Then holiness, since it is the art of attending to the gods, is a bene
 
 Euthyphro. No, by Zeus, not I.
 
-Socrates. Nor do I, Euthyphro, think that is what you meant. Far from it. But I asked what you meant by [13d] attention to the gods just because I did not think you meant anything like that.
+Socrates. Nor do I, Euthyphro, think that is what you meant. Far from it. But I asked what you meant by [13d] “attention to the gods” just because I did not think you meant anything like that.
 
 Euthyphro. You are right, Socrates; that is not what I mean.
 
@@ -420,7 +419,7 @@ Euthyphro. And what I say is true, Socrates.
 
 Socrates. Then, in the name of Zeus, tell me, what is that glorious result which the gods accomplish by using us as servants?
 
-[14] Euthyphro. They accomplish many fine results, Socrates. [14] [14a]
+Euthyphro. They accomplish many fine results, Socrates. [14a]
 
 Socrates. Yes, and so do generals, my friend; but nevertheless, you could easily tell the chief of them, namely, that they bring about victory in war. Is that not the case?
 
@@ -462,7 +461,7 @@ Socrates. Then holiness would be an art of barter between gods and men?
 
 Euthyphro. Yes, of barter, if you like to call it so.
 
-[15] Socrates. I don’t like to call it so, if it is not true. But tell me, what advantage accrues to the gods from the gifts they get from us? For everybody knows what they give, [15] [15a] since we have nothing good which they do not give. But what advantage do they derive from what they get from us? Or have we so much the better of them in our bartering that we get all good things from them and they nothing from us?
+Socrates. I don’t like to call it so, if it is not true. But tell me, what advantage accrues to the gods from the gifts they get from us? For everybody knows what they give, [15a] since we have nothing good which they do not give. But what advantage do they derive from what they get from us? Or have we so much the better of them in our bartering that we get all good things from them and they nothing from us?
 
 Euthyphro. Why you don’t suppose, Socrates, that the gods gain any advantage from what they get from us, do you?
 
@@ -494,8 +493,8 @@ Socrates. Then we must begin again at the beginning and ask what holiness is. Si
 
 Euthyphro. Some other time, Socrates. Now I am in a hurry and it is time for me to go.
 
-[16] Socrates. Oh my friend, what are you doing? You go away and leave me cast down from the high hope I had that I should learn from you what is holy, and what is not, and should get rid of Meletus’s indictment by showing him [16] [16a] that I have been made wise by Euthyphro about divine matters and am no longer through ignorance acting carelessly and making innovations in respect to them, and that I shall live a better life henceforth.
+Socrates. Oh my friend, what are you doing? You go away and leave me cast down from the high hope I had that I should learn from you what is holy, and what is not, and should get rid of Meletus’s indictment by showing him [16a] that I have been made wise by Euthyphro about divine matters and am no longer through ignorance acting carelessly and making innovations in respect to them, and that I shall live a better life henceforth.
 
----
-
-*Ὁ Διαφορεύς παρῆν*
+[^1]: The Greek word has much the same meaning as the Latin prosequor, from which the English prosecute is derived, follow, pursue, and is at the same time the technical term for prosecute.
+[^2]: Socrates was the son of a sculptor and was himself educated to be a sculptor. This is doubtless the reason for his reference to Daedalus as an ancestor. Daedalus was a half mythical personage whose statues were said to have been so lifelike that they moved their eyes and walked about.
+[^3]: Stasinus, author of the Cypria (Fragm. 20, ed. Kinkel)

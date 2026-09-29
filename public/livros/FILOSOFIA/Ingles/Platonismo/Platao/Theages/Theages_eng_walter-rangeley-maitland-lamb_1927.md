@@ -1,48 +1,41 @@
 ---
 id: platao-theages-eng-walter-rangeley-maitland-lamb-1927
-type: texto_primario
-title: "Theages"
-subtitle: null
+type: translation
+title: Theages
 author: Plato
-year_original: null
-language: eng
-translation:
-  - Walter Rangeley Maitland Lamb
+translator:
+- Walter Rangeley Maitland Lamb
 publisher: Harvard University Press
-area: null
-era: null
-tags: []
-status: rascunho
+language: eng
+tags:
+- classical-philosophy
+- platonism
+status: draft
 project: pedra_angular
-source: "Plato. Theages. Ed. Walter Rangeley Maitland Lamb. Cambridge, MA: Harvard University Press, 1927. Perseus Digital Library, Tufts University (CC BY-SA 4.0). URN: null"
-related: []
+urn_work: urn:cts:greekLit:tlg0059.tlg017
+urn: urn:cts:greekLit:tlg0059.tlg017.perseus-eng2
+source: 'Plato. Theages. Ed. Walter Rangeley Maitland Lamb. Cambridge, MA: Harvard University Press, 1927. Perseus Digital Library, Tufts University (CC BY-SA 4.0).'
+source_repo: PerseusDL/canonical-greekLit
+source_file: data/tlg0059/tlg017/tlg0059.tlg017.perseus-eng2.xml
+source_commit: e37eed2e8
+license: CC-BY-SA-4.0
 ---
 
 # Theages
 
-**Plato**
-
-Cambridge, MA: Harvard University Press, 1927.
-Perseus Digital Library, Tufts University (CC BY-SA 4.0).
-URN: `null`
-
----
-
-## Texto
-
-[121] Dem. Socrates, I was wanting to have some private talk with you, if you had time to spare; even if there is some demand, which is not particularly important, on your time, do spare some, nevertheless, for me.
+[121a] Dem. Socrates, I was wanting to have some private talk with you, if you had time to spare; even if there is some demand, which is not particularly important, on your time, do spare some, nevertheless, for me.
 
 Soc. Why, in any case I happen to have time to spare, and for you, moreover, I have plenty. Well, you are free to say whatever you wish.
 
-Dem. Then do you mind if we step aside here from the street into the portico of Zeus the Liberator This portico or colonnade was near that of the King Archon, close to the Agora?
+Dem. Then do you mind if we step aside here from the street into the portico of Zeus the Liberator [^1]?
 
 Soc. As you think best.
 
-Dem. Let us go, then. Socrates, it would seem that all growths follow the same course, both those that grow from the earth, and the animals, including man. In regard to the plants, as you know, we who cultivate the earth find it the easiest part of our work to make all our preparations that are needed before planting, and to do the planting itself; but when the plant begins to grow, thenceforward we have a great deal of difficult and vexatious business in tending the new growth. [121c] Such, it seems, is also the case in regard to men: I take my own concerns as evidence for judging of the rest. For indeed I have found the planting, or the procreation—whichever one ought to call it—of this son of mine the easiest thing in the world; but his upbringing has been vexatious and a constant source of alarm, so great are my fears for him. Among the many instances that I could mention, the desire which occupies him at the moment is a thing that especially alarms me: for it is not an ill-bred desire, but a dangerous one, since here we have him, Socrates, as he says, desiring to become wise. [121d] My opinion is that some of his fellow-townsmen, about his own age, who pay visits to the city, excite him with accounts of certain discussions they have heard there; and in his envy of these he has long been pestering me with the demand that I should take due thought for his needs, and pay fees to some sophist or other who will make him wise. Now I do not mind so much about the fees, but I believe he is running into no slight danger [122] [122a] where he is hastening.
+[121b] Dem. Let us go, then. Socrates, it would seem that all growths follow the same course, both those that grow from the earth, and the animals, including man. In regard to the plants, as you know, we who cultivate the earth find it the easiest part of our work to make all our preparations that are needed before planting, and to do the planting itself; but when the plant begins to grow, thenceforward we have a great deal of difficult and vexatious business in tending the new growth. [121c] Such, it seems, is also the case in regard to men: I take my own concerns as evidence for judging of the rest. For indeed I have found the planting, or the procreation—whichever one ought to call it—of this son of mine the easiest thing in the world; but his upbringing has been vexatious and a constant source of alarm, so great are my fears for him. Among the many instances that I could mention, the desire which occupies him at the moment is a thing that especially alarms me: for it is not an ill-bred desire, but a dangerous one, since here we have him, Socrates, as he says, desiring to become wise. [121d] My opinion is that some of his fellow-townsmen, about his own age, who pay visits to the city, excite him with accounts of certain discussions they have heard there; and in his envy of these he has long been pestering me with the demand that I should take due thought for his needs, and pay fees to some sophist or other who will make him wise. Now I do not mind so much about the fees, but I believe he is running into no slight danger [122a] where he is hastening.
 
-[122] Dem. I did for a time restrain him with good advice; but since I am no longer able to do so, I believe my best course is to comply with his request, in order that he may not resort, perchance, behind my back to somebody who will corrupt him. So I have come now on this very business of placing this youth with one of these sophists, or purveyors of wisdom, as they are held to be. It is a happy chance, therefore, that has thrown you in our way, as I should be particularly glad, with this plan of action in my mind, to ask your advice. Come, if you have any advice to give [122b] on what you have heard from me, you not only may, but should, give it.
+Dem. I did for a time restrain him with good advice; but since I am no longer able to do so, I believe my best course is to comply with his request, in order that he may not resort, perchance, behind my back to somebody who will corrupt him. So I have come now on this very business of placing this youth with one of these sophists, or purveyors of wisdom, as they are held to be. It is a happy chance, therefore, that has thrown you in our way, as I should be particularly glad, with this plan of action in my mind, to ask your advice. Come, if you have any advice to give [122b] on what you have heard from me, you not only may, but should, give it.
 
-Soc. Well, you know, Demodocus, they do say that advice is a holy thing. i.e. something above and apart from the adviser’s personal interests, and looking only to what is best. And so, if ever it is to be accounted holy, it must be in this instance, in which you now seek it. For there is no more divine matter on which a mortal could take counsel than the education either [122c] of himself or of his relations. Now, first of all, let you and me come to an agreement as to what we suppose that this thing can be, on which we are taking counsel; for it may happen that I conceive it to be one thing, and you another, and then when we have proceeded some little way in our conference, we may perceive how ridiculous we are, I the adviser and you the advised, in having no common ground in our notions.
+Soc. Well, you know, Demodocus, they do say that advice is a holy thing. [^2] And so, if ever it is to be accounted holy, it must be in this instance, in which you now seek it. For there is no more divine matter on which a mortal could take counsel than the education either [122c] of himself or of his relations. Now, first of all, let you and me come to an agreement as to what we suppose that this thing can be, on which we are taking counsel; for it may happen that I conceive it to be one thing, and you another, and then when we have proceeded some little way in our conference, we may perceive how ridiculous we are, I the adviser and you the advised, in having no common ground in our notions.
 
 Dem. Why, I think you are right there, Socrates, and we should do as you suggest.
 
@@ -54,7 +47,7 @@ Soc. Then tell me, what is the young person’s goodly name: how are we to addre
 
 Dem. Theages is his name, Socrates.
 
-Soc. Goodly is the name, Demodocus, and holy-sounding, Theages means god-guided. that you have bestowed on your son. Tell me, then, Theages, do you say you desire to become wise, and do you require your father here to find out a school of some man who is qualified to make you wise?
+[122e] Soc. Goodly is the name, Demodocus, and holy-sounding, [^3] that you have bestowed on your son. Tell me, then, Theages, do you say you desire to become wise, and do you require your father here to find out a school of some man who is qualified to make you wise?
 
 The. Yes.
 
@@ -64,9 +57,9 @@ The. Those who have knowledge, I say.
 
 Soc. Well now, has not your father taught and educated you in the subjects which form the education of everyone else here—all the sons of noble and honorable fathers—in letters, I mean, and harping and wrestling and the other sorts of contest?
 
-The. Yes, he has.
+[123a] The. Yes, he has.
 
-[123] Soc. And you think you are still lacking in some knowledge which it behoves your father to provide for you?
+Soc. And you think you are still lacking in some knowledge which it behoves your father to provide for you?
 
 The. I do
 
@@ -74,11 +67,11 @@ Soc. What knowledge is it? Tell us on our side, that we may oblige you.
 
 The. He knows it, as well as I, Socrates, since I have often told him; only he says this to you of set purpose, making as if he did not know what I desire. For he assails me too with other statements of the same sort, and refuses to place me with any instructor.
 
-Soc. Well, what you said to him before was spoken, as it were, without witnesses; but now you shall take me as a witness, and declare before me what is this wisdom that you desire. Come now; suppose you desired the wisdom whereby men steer a ship, and I happened to put this further question to you: Theages, what wisdom is it that you lack, when you blame your father for refusing to place you with people who would enable you to become wise? What answer would you have given me? What wisdom would you name? The steersman’s art, would you not?
+[123b] Soc. Well, what you said to him before was spoken, as it were, without witnesses; but now you shall take me as a witness, and declare before me what is this wisdom that you desire. Come now; suppose you desired the wisdom whereby men steer a ship, and I happened to put this further question to you: Theages, what wisdom is it that you lack, when you blame your father for refusing to place you with people who would enable you to become wise? What answer would you have given me? What wisdom would you name? The steersman’s art, would you not?
 
 The. Yes.
 
-Soc. And if a desire to be wise in the wisdom whereby they steer chariots led you to blame your father, and I asked what wisdom this was, what would you name in reply? The charioteer’s art, would you not?
+[123c] Soc. And if a desire to be wise in the wisdom whereby they steer chariots led you to blame your father, and I asked what wisdom this was, what would you name in reply? The charioteer’s art, would you not?
 
 The. Yes.
 
@@ -92,7 +85,7 @@ The. I know its name as well.
 
 Soc. Then what is it? Tell me.
 
-The. What other name, Socrates, can one give it but wisdom?
+[123d] The. What other name, Socrates, can one give it but wisdom?
 
 Soc. And the driver’s art too is wisdom? Or do you think it is ignorance?
 
@@ -144,7 +137,7 @@ The. Yes.
 
 Soc. Well, to govern people who do what? Endeavor your best to speak, as I did to you at the beginning.
 
-[124] The. To govern the people in the city, I imagine.
+[124a] The. To govern the people in the city, I imagine.
 
 Soc. And are the sick people also in the city?
 
@@ -154,7 +147,7 @@ Soc. Do I understand what art it is that you mean? For you strike me as meaning,
 
 The. Yes.
 
-Soc. Nor, I suppose, do you mean that whereby we know how to govern sawyers and borers and planers and turners, as a class together; for is not that carpentry?
+[124b] Soc. Nor, I suppose, do you mean that whereby we know how to govern sawyers and borers and planers and turners, as a class together; for is not that carpentry?
 
 The. Yes.
 
@@ -162,7 +155,7 @@ Soc. But perhaps it is that whereby we govern, not only all these, but farmers t
 
 The. That, Socrates, is what I have been intending to mean all the time.
 
-Soc. Then can you tell me whether Aegisthus, who slew Agamemnon in Argos, governed all these people that you mean craftsmen and ordinary people, both men and women, or some other persons?
+[124c] Soc. Then can you tell me whether Aegisthus, who slew Agamemnon in Argos, governed all these people that you mean craftsmen and ordinary people, both men and women, or some other persons?
 
 The. No, just those.
 
@@ -176,21 +169,21 @@ The. I have.
 
 Soc. Did he not govern these same people in his city?
 
-The. Yes.
+[124d] The. Yes.
 
 Soc. Or again, do you not consider that Archelaus, son of Perdiccas, who governed recently in Macedonia, governed these same people?
 
 The. I do.
 
-Soc. And who do you think were governed by Hippias, son of Peisistratus, who governed in this city? Were they not these people ?
+Soc. And who do you think were governed by Hippias, son of Peisistratus, who governed in this city? Were they not these people?
 
 The. To be sure they were.
 
-Soc. Now, can you tell me what appellation is given to Bacis and Sibyl and our native Amphilytus? In Aristophanes and Plato we find mention of only one Sibyl: later the name, like Bacis (an old Boeotian prophet), was applied to several oracular persons in different places. Amphilytus seems to have come from Acarnania to Athens in the time of Peisistratus.
+Soc. Now, can you tell me what appellation is given to Bacis and Sibyl and our native Amphilytus? [^4]
 
 The. Why, soothsayers, of course, Socrates.
 
-Soc. That is correct. But try to answer me in that way regarding those others—Hippias and Periander: what appellation is given them on account of their government?
+[124e] Soc. That is correct. But try to answer me in that way regarding those others—Hippias and Periander: what appellation is given them on account of their government?
 
 The. Despots, I suppose; it must be that.
 
@@ -202,27 +195,57 @@ Soc. And it is this that you say you desire?
 
 The. It seems so, from what I have said.
 
-[125] Soc. You scoundrel! So you were desiring to govern us, all the time that you were blaming your father for not sending you to some seminary of despots! And you, Demodocus, are you not ashamed of having known all the time what he is desiring, and though you could have sent him where you would have made him an expert in the wisdom which he desires, actually grudging it to him and refusing to send him? But now, look here, as he has declared against you in my presence, shall you and I consult together on the question of whose school we shall send him to, and whose classes will help him to become a wise despot?
+[125a] Soc. You scoundrel! So you were desiring to govern us, all the time that you were blaming your father for not sending you to some seminary of despots! And you, Demodocus, are you not ashamed of having known all the time what he is desiring, and though you could have sent him where you would have made him an expert in the wisdom which he desires, actually grudging it to him and refusing to send him? But now, look here, as he has declared against you in my presence, shall you and I consult together on the question of whose school we shall send him to, and whose classes will help him to become a wise despot?
 
-Dem. Yes, in faith, Socrates, let us certainly consult, as I feel this is a matter on which no slight counsel is needed.
+[125b] Dem. Yes, in faith, Socrates, let us certainly consult, as I feel this is a matter on which no slight counsel is needed.
 
 Soc. By and by, my good sir. Let us first cross-examine him thoroughly.
 
 Dem. Examine him then.
 
-Soc. Well now, what if we called in Euripides to our aid, Theages? For you know Euripides says:Despots are wise by converse with the wise. Soph. Fr. 14.1 This line, also quoted and attributed to Euripides in Plat. Rep. 568a, appears to belong really to Sophocles’ lost tragedy The Locrian Ajax. Now, if someone should ask Euripides: Euripides, in what [125c] are these men wise, by whose converse you say that despots are wise? I mean, suppose he had said:Farmers are wise by converse with the wise,and we had asked him,—Wise in what?—what answer would he have given us? Surely none other than,—In farming.
+Soc. Well now, what if we called in Euripides to our aid, Theages? For you know Euripides says:
+
+```verso
+Despots are wise by converse with the wise.
+```
+
+[^5] [^6] Now, if someone should ask Euripides: Euripides, in what [125c] are these men wise, by whose converse you say that despots are wise? I mean, suppose he had said:
+
+```verso
+Farmers are wise by converse with the wise,
+```
+
+and we had asked him,—Wise in what?—what answer would he have given us? Surely none other than,—In farming.
 
 The. That, and none other.
 
-Soc. Or again, if he had said:Piemen are wise by converse with the wise,and we had asked him, Wise in what?—what answer would he have given us? He would have said,—In the pie-making business,—would he not?
+Soc. Or again, if he had said:
+
+```verso
+Piemen are wise by converse with the wise,
+```
+
+and we had asked him, Wise in what?—what answer would he have given us? He would have said,—In the pie-making business,—would he not?
 
 The. Yes.
 
-Soc. Or again, if he had saidWrestlers are wise by converse with the wise,and we had asked him, Wise in what?—would he not reply,—[125d] In wrestling?
+Soc. Or again, if he had said
+
+```verso
+Wrestlers are wise by converse with the wise,
+```
+
+and we had asked him, Wise in what?—would he not reply,— [125d] In wrestling?
 
 The. Yes.
 
-Soc. But as he said:Despots are wise by converse with the wise,? Soph. Fr. 14.1 and we ask him,—In what do you mean that the latter are wise, Euripides?—what will he reply? What sort of subjects will he mention here?
+Soc. But as he said:
+
+```verso
+Despots are wise by converse with the wise,
+```
+
+[^7] and we ask him,—In what do you mean that the latter are wise, Euripides?—what will he reply? What sort of subjects will he mention here?
 
 The. Why, upon my word, I for my part do not know.
 
@@ -230,7 +253,7 @@ Soc. Well, do you mind if I tell you?
 
 The. If you do not mind.
 
-Soc. They are the same subjects that Anacreon said Callicrite understood; or do you not know the ode? Nothing is known of this poem.
+Soc. They are the same subjects that Anacreon said Callicrite understood; or do you not know the ode? [^8]
 
 The. I do.
 
@@ -238,9 +261,9 @@ Soc. Well then, do you desire to partake in some instruction of that sort from a
 
 The. You are joking all this time, Socrates, and making fun of me.
 
-Soc. Why, do you not say that you desire that wisdom which will enable you to govern all the citizens? And in doing that, will you be anything else but a despot ?
+Soc. Why, do you not say that you desire that wisdom which will enable you to govern all the citizens? And in doing that, will you be anything else but a despot?
 
-[126] The. I should indeed pray, I imagine, that I might become a despot, [126] [126a] if possible, over all men, and failing that, over as many as might be; so would you, I imagine, and everybody else besides: nay, even more, I daresay, that I might become a god; but I did not say I desired that.
+The. I should indeed pray, I imagine, that I might become a despot, [126a] if possible, over all men, and failing that, over as many as might be; so would you, I imagine, and everybody else besides: nay, even more, I daresay, that I might become a god; but I did not say I desired that.
 
 Soc. Well, what on earth then is it that you do desire? Do you not say you desire to govern the citizens?
 
@@ -250,7 +273,7 @@ Soc. Do you mean, as by Themistocles and Pericles and Cimon, and by all those wh
 
 The. Yes, in good earnest, I mean those people.
 
-Soc. Then what if you chanced to desire to become wise in horsemanship? To whom would you have had to resort before expecting to be a clever horseman? To whom else but the horse-masters?
+[126b] Soc. Then what if you chanced to desire to become wise in horsemanship? To whom would you have had to resort before expecting to be a clever horseman? To whom else but the horse-masters?
 
 The. To none else, I am sure.
 
@@ -264,17 +287,17 @@ The. I think so.
 
 Soc. Then pray tell me, since it is your wish to become wise in state-matters, do you expect to get your wisdom by resorting to any other persons than those statesmen, who not only have their own ability in state-matters, but have constant dealings with other cities besides their own, by their intercourse alike with Greek cities and with foreign peoples? Or do you think to get wisdom in their business by resorting to any other persons than these particular men?
 
-The. Well, Socrates, I have heard of the argument that you are said to put forward—that the sons of those statesmen are no better men than the sons of shoemakers Cf. Alcib. I.118 E;Protag 320 A, B.; and in my opinion your words are very true, from what I am able to gather. Hence I should be an utter fool if I supposed that any of these men would impart his wisdom to me when he never was of any use to his own son, as he would have been, if he were able to be of use in this matter to anyone at all in the world.
+[126d] The. Well, Socrates, I have heard of the argument that you are said to put forward—that the sons of those statesmen are no better men than the sons of shoemakers [^9]; and in my opinion your words are very true, from what I am able to gather. Hence I should be an utter fool if I supposed that any of these men would impart his wisdom to me when he never was of any use to his own son, as he would have been, if he were able to be of use in this matter to anyone at all in the world.
 
 Soc. Then which way, most excellent sir, would you turn if, when you came to have a son, he should trouble you in the same manner, [126e] and tell you he desired to become a good painter, and should blame you, his father, for refusing to spend money on him for that very purpose, but at the same time should disregard the practitioners of that very thing, the painters, and decline to learn from them? Or the flute-players, when he wished to become a flute-player, or the harp-players? Would you know what to do with him, and where else you should send him if he refused to learn from these?
 
 The. Upon my word, I should not.
 
-[127] Soc. And do you now, when you are behaving in just the same way to your father, feel surprised and blame him for being at a loss what to do with you and where to send you? Why, we are ready to place you with any well-bred Athenian statesman you may choose, who will train you free of charge Cf. the passage in the Protagoras(320 A, B)which shows that young men of good family were often placed with older friends of standing and experience in order to prepare for public life. Cf. also Meno 94 D.; and so not only will you be at no expense of money, but will gain far greater commendation amongst the mass of men than if you studied with anyone else.
+[127a] Soc. And do you now, when you are behaving in just the same way to your father, feel surprised and blame him for being at a loss what to do with you and where to send you? Why, we are ready to place you with any well-bred Athenian statesman you may choose, who will train you free of charge [^10]; and so not only will you be at no expense of money, but will gain far greater commendation amongst the mass of men than if you studied with anyone else.
 
 The. But then, Socrates, are not you too one of our well-bred gentlemen? Indeed, if you will agree to instruct me, I am content and seek no other.
 
-Soc. What do you mean by that, Theages?
+[127b] Soc. What do you mean by that, Theages?
 
 Dem. Nay, Socrates, there is nothing amiss in what he says, and you will oblige me at the same time; for I should count it the greatest possible stroke of luck if he should welcome your instruction and you also should consent to instruct him. Nay, indeed, I am quite ashamed to say how keenly I wish it; but I entreat you both—you, to consent to teach Theages, and you, to seek the teaching of no one else than Socrates; you will thus relieve me [127c] of a harassing load of anxiety. For just now I am sorely afraid of his falling in with some other person who is likely to corrupt him.
 
@@ -282,9 +305,9 @@ The. Have no more fears for me now, father, so long as you are able to persuade 
 
 Dem. Very rightly spoken. Socrates, from now onward we must address ourselves to you; for I am ready, in short, to place both myself and all that I hold dearest of what is mine in your hands—whatever you may require, [127d] absolutely—if you will open your arms to Theages here, and do him any service that you can.
 
-Soc. Demodocus, your zeal is no wonder to me, if you suppose that I especially could be of use to him; for I know of nothing for which a sensible man could be more zealous than for his own son’s utmost improvement. But how you came to form this opinion, that I would be better able to be of use to your son in his aim of becoming a good citizen than you would yourself, and how he came to suppose that I rather than yourself would be of use to him—this does fill me with wonder. For you, [127e] in the first place, are my elder, and further, you have held in your time many of the highest offices in Athens, and are respected by the people of Anagyrus A deme or township of Attica. above all your fellow-townsmen, and by the whole state as much as any man, whereas neither of you can notice anything like this about me.
+Soc. Demodocus, your zeal is no wonder to me, if you suppose that I especially could be of use to him; for I know of nothing for which a sensible man could be more zealous than for his own son’s utmost improvement. But how you came to form this opinion, that I would be better able to be of use to your son in his aim of becoming a good citizen than you would yourself, and how he came to suppose that I rather than yourself would be of use to him—this does fill me with wonder. For you, [127e] in the first place, are my elder, and further, you have held in your time many of the highest offices in Athens, and are respected by the people of Anagyrus [^11] above all your fellow-townsmen, and by the whole state as much as any man, whereas neither of you can notice anything like this about me.
 
-[128] Soc. And moreover, if Theages here does despise the instruction of our statesmen, and is looking for some other persons who profess to be able to educate young people, we have here Prodicus of Ceos, Gorgias of Leontini, Polus of Acragas, [128] [128a] and many more, who are so wise that they go to our cities and persuade the noblest and wealthiest of our young men—who have the choice of learning from any citizen they choose, free of charge—they persuade them to abandon that instruction and learn from them, with a deposit, besides, of a large sum of money as their fee, and to feel thankful in addition. Some of these persons might naturally have been chosen both by your son and by yourself, in preference to me; [128b] for I have no knowledge of those fair and beatific subjects of study: I only wish that I had. But what I always say, you know, is that I am in the position of knowing practically nothing except one little subject, that of love-matters. In this subject, however, I claim to be skilled above anybody who has ever lived or is now living in the world.
+Soc. And moreover, if Theages here does despise the instruction of our statesmen, and is looking for some other persons who profess to be able to educate young people, we have here Prodicus of Ceos, Gorgias of Leontini, Polus of Acragas, [128a] and many more, who are so wise that they go to our cities and persuade the noblest and wealthiest of our young men—who have the choice of learning from any citizen they choose, free of charge—they persuade them to abandon that instruction and learn from them, with a deposit, besides, of a large sum of money as their fee, and to feel thankful in addition. Some of these persons might naturally have been chosen both by your son and by yourself, in preference to me; [128b] for I have no knowledge of those fair and beatific subjects of study: I only wish that I had. But what I always say, you know, is that I am in the position of knowing practically nothing except one little subject, that of love-matters. In this subject, however, I claim to be skilled above anybody who has ever lived or is now living in the world.
 
 The. Do you see, father? Socrates does not seem to me to be at all willing now to spend his time on me; for there is readiness enough on my part, [128c] if he is willing. But he is only jesting in what he has just told us. For I know of some of my equals in age, and some a little older, who were of no account before they learnt from him, but after beginning to learn from him have in a very short time proved themselves superior to all whose inferiors they were before.
 
@@ -292,22 +315,33 @@ Soc. And do you know what the meaning of it is, son of Demodocus?
 
 The. Yes, on my soul, I do—that, if it be your pleasure, I too shall be able to become such as those others are.
 
-Soc. No, good sir, the meaning of it escapes you; but I will tell it you. There is something spiritual which, by a divine dispensation, has accompanied me from my childhood up. It is a voice that, when it occurs, always indicates to me a prohibition of something I may be about to do, but never urges me on to anything; and if one of my friends consults me and the voice occurs, the same thing happens: it prohibits, and does not allow him to act. And I will produce witnesses to convince you of these facts. You know our Charmides here, who has grown so handsome, the son of Glaucon: [128e] he once happened to be consulting me on his intention of training for the Nemean races, and he had no sooner begun to say that he intended to train than the voice occurred, and I tried to prevent him, saying—Just as you were speaking my spirit-voice has occurred: no, you must not train. Perhaps, said he, it indicates to you that I shall not win; but even if I am not to win, at any rate the exercise I shall get in the meantime will do me good.
+[128d] Soc. No, good sir, the meaning of it escapes you; but I will tell it you. There is something spiritual which, by a divine dispensation, has accompanied me from my childhood up. It is a voice that, when it occurs, always indicates to me a prohibition of something I may be about to do, but never urges me on to anything; and if one of my friends consults me and the voice occurs, the same thing happens: it prohibits, and does not allow him to act. And I will produce witnesses to convince you of these facts. You know our Charmides here, who has grown so handsome, the son of Glaucon: [128e] he once happened to be consulting me on his intention of training for the Nemean races, and he had no sooner begun to say that he intended to train than the voice occurred, and I tried to prevent him, saying—“Just as you were speaking my spirit-voice has occurred: no, you must not train.” “Perhaps,” said he, “it indicates to you that I shall not win; but even if I am not to win, at any rate the exercise I shall get in the meantime will do me good.”
 
-[129] Soc. So saying, he went and trained; and so you may as well inquire of him [129] [129a] as to the results he got from his training. Or if you like, ask Cleitomachus, brother of Timarchus, what Timarchus said to him when he was going straight to the prison to meet his death, he and Euathlus the racing runner, who had harbored Timarchus as a fugitive; for he will tell you that the words he spoke to him were these:
+Soc. So saying, he went and trained; and so you may as well inquire of him [129a] as to the results he got from his training. Or if you like, ask Cleitomachus, brother of Timarchus, what Timarchus said to him when he was going straight to the prison to meet his death, he and Euathlus the racing runner, who had harbored Timarchus as a fugitive; for he will tell you that the words he spoke to him were these:
 
 The. What?
 
-Soc. Cleitomachus, he said, I tell you I am going to my death now, because I would not take Socrates’ advice. Now, why on earth did Timarchus say that? I will tell you. When Timarchus and Philemon, [129b] son of Philemonides, got up from the wine-party to kill Nicias, son of Heroscamandrus, those two alone had knowledge of the plot; and Timarchus, as he got up, said to me: What say you, Socrates? Go on drinking, all of you; I have to get up and go somewhere, but I will join you a little later, if I get the chance. Then occurred that voice of mine, and I said to him: No, no, do not get up; for my accustomed spiritual sign has occurred to me. [129c] So he stopped. Then after an interval of time he again started to go, and said: Well, I am going, Socrates. Again the voice occurred, and so again I constrained him to stop. The third time, wishing to give me the slip, he got up without saying another word to me; he gave me the slip by watching until my attention was turned elsewhere. Thus it was that he went right off and committed the deed which was the cause of his going then to his death. And hence it was that he spoke those words to his brother which I quoted to you just now, that he was going to his death because he had not taken my advice. [129d] And moreover, in regard to the Sicilian business, The disastrous Sicilian expedition of 415-413 B.C. Cf. Thuc. vi. and vii. many will tell you what I said about the destruction of the army. As to bygones, you may hear from those who know: but there is an opportunity now of testing the worth of what the sign says. For as the handsome Sannio was setting out on campaign, the sign occurred to me, and he has gone now with Thrasyllus on an expedition bound for Ephesus and Ionia. 409 B.C., when Thrasyllus succeeded in recovering Colophon for Athens. He was one of the commanders put to death by the Athenians after the battle of Arginusae, 406 B.C. I accordingly expect him to be either killed or brought very near it, and I have great fears for our force as a whole. [129e] Now I have told you all this, because this spiritual power that attends me also exerts itself to the full in my intercourse with those who spend their time with me. To many, indeed, it is adverse, and it is not possible for these to get any good by conversing with me, and I am therefore unable to spend my time in conversing with them. And there are many with whom it does not prohibit my intercourse, yet the intercourse does them no good. But those who are assisted in their intercourse by that spiritual power are the persons whom you have noticed; for they make rapid progress there and then.
+Soc. “Cleitomachus,” he said, “I tell you I am going to my death now, because I would not take Socrates’ advice.” Now, why on earth did Timarchus say that? I will tell you. When Timarchus and Philemon, [129b] son of Philemonides, got up from the wine-party to kill Nicias, son of Heroscamandrus, those two alone had knowledge of the plot; and Timarchus, as he got up, said to me: “What say you, Socrates? Go on drinking, all of you; I have to get up and go somewhere, but I will join you a little later, if I get the chance.” Then occurred that voice of mine, and I said to him: “No, no, do not get up; for my accustomed spiritual sign has occurred to me.” [129c] So he stopped. Then after an interval of time he again started to go, and said: “Well, I am going, Socrates.” Again the voice occurred, and so again I constrained him to stop. The third time, wishing to give me the slip, he got up without saying another word to me; he gave me the slip by watching until my attention was turned elsewhere. Thus it was that he went right off and committed the deed which was the cause of his going then to his death. And hence it was that he spoke those words to his brother which I quoted to you just now, that he was going to his death because he had not taken my advice. [129d] And moreover, in regard to the Sicilian business, [^12] many will tell you what I said about the destruction of the army. As to bygones, you may hear from those who know: but there is an opportunity now of testing the worth of what the sign says. For as the handsome Sannio was setting out on campaign, the sign occurred to me, and he has gone now with Thrasyllus on an expedition bound for Ephesus and Ionia. [^13] I accordingly expect him to be either killed or brought very near it, and I have great fears for our force as a whole. [129e] Now I have told you all this, because this spiritual power that attends me also exerts itself to the full in my intercourse with those who spend their time with me. To many, indeed, it is adverse, and it is not possible for these to get any good by conversing with me, and I am therefore unable to spend my time in conversing with them. And there are many with whom it does not prohibit my intercourse, yet the intercourse does them no good. But those who are assisted in their intercourse by that spiritual power are the persons whom you have noticed; for they make rapid progress there and then.
 
-[130] Soc. And of these, again, who make progress some find the benefit [130] [130a] both solid and enduring; while there are many who, for as long a time as they are with me, make wonderful progress, but when they are parted from me relapse, and are no different from anybody else. This once befell Aristeides, Cf. Theaet. 151 A, from which this passage is derived. The Aristeides and Thucydides mentioned here were the grandsons respectively of Aristeides, the Athenian statesman of the time of the Persian wars, and of Thucydides, the aristocratic opponent of Pericles. Their fathers Lysimachus and Melesias appear in the Laches. son of Lysimachus, son of Aristeides. For by conversing with me he had made immense progress in a little time; and then he had to go on an expedition, and he went and sailed away. On his return he found that Thucydides, son of Melesias, son of Thucydides, had been conversing with me. Now Thucydides, the day before, had quarrelled with me [130b] over some arguments we had had. So when Aristeides saw me, after greeting me and talking of other affairs, he said: But Thucydides, I hear, Socrates, is somewhat on his dignity with you, and is annoyed as though he were somebody. Yes, that is so, I replied. Well, but does he not know, he said, what a sad slave he was, before he associated with you? It seems not, I replied, upon my soul. But indeed I myself also, he said, am in a ridiculous position, [130c] Socrates. How exactly? I asked. Because, he replied, before I sailed away, I was able to discuss things with anybody, and show myself inferior to none in argument, so that I even sought out the debates of the most accomplished people: but now, on the contrary, I shun them, wherever I notice there is anyone of education, so ashamed I am of my own ineptitude. Tell me, I said, did this power forsake you of a sudden, or little by little? Little by little, he replied. And when it was present with you, I asked, [130d] was it present through your having learnt something from me, or in some other way? I will tell you, Socrates, he said, what is incredible, upon my soul, yet true. For I never yet learnt anything from you, as you know yourself: but I made progress, whenever I was with you, if I was merely in the same house, without being in the same room, but more progress, when I was in the same room. And it seemed to me to be much more when I was in the same room and looked at you as you were speaking, than when [130e] I turned my eyes elsewhere: but my progress was far the greatest and most marked whenever I sat beside you and held and touched you. Now, however, he said, that condition has all oozed away.Such then, Theages, is the intercourse you would have with me: if God so wills, you will make very great and rapid progress, but otherwise, you will not. Consider, therefore, if it is not safer for you to be educated by one of those persons who have command themselves of the benefit which they bestow on mankind, rather than follow the course on which you may chance with me.
+Soc. And of these, again, who make progress some find the benefit [130a] both solid and enduring; while there are many who, for as long a time as they are with me, make wonderful progress, but when they are parted from me relapse, and are no different from anybody else. This once befell Aristeides, [^14] son of Lysimachus, son of Aristeides. For by conversing with me he had made immense progress in a little time; and then he had to go on an expedition, and he went and sailed away. On his return he found that Thucydides, son of Melesias, son of Thucydides, had been conversing with me. Now Thucydides, the day before, had quarrelled with me [130b] over some arguments we had had. So when Aristeides saw me, after greeting me and talking of other affairs, he said: “But Thucydides, I hear, Socrates, is somewhat on his dignity with you, and is annoyed as though he were somebody.” “Yes, that is so,” I replied. “Well, but does he not know,” he said, “what a sad slave he was, before he associated with you?” “It seems not,” I replied, “upon my soul.” “But indeed I myself also,” he said, “am in a ridiculous position, [130c] Socrates.” “How exactly?” I asked. “Because,” he replied, “before I sailed away, I was able to discuss things with anybody, and show myself inferior to none in argument, so that I even sought out the debates of the most accomplished people: but now, on the contrary, I shun them, wherever I notice there is anyone of education, so ashamed I am of my own ineptitude.” “Tell me,” I said, “did this power forsake you of a sudden, or little by little?” “Little by little,” he replied. “And when it was present with you,” I asked, [130d] “was it present through your having learnt something from me, or in some other way?” “I will tell you, Socrates,” he said, “what is incredible, upon my soul, yet true. For I never yet learnt anything from you, as you know yourself: but I made progress, whenever I was with you, if I was merely in the same house, without being in the same room, but more progress, when I was in the same room. And it seemed to me to be much more when I was in the same room and looked at you as you were speaking, than when [130e] I turned my eyes elsewhere: but my progress was far the greatest and most marked whenever I sat beside you and held and touched you. Now, however,” he said, “that condition has all oozed away.”Such then, Theages, is the intercourse you would have with me: if God so wills, you will make very great and rapid progress, but otherwise, you will not. Consider, therefore, if it is not safer for you to be educated by one of those persons who have command themselves of the benefit which they bestow on mankind, rather than follow the course on which you may chance with me.
 
-[131] The. Well then, I decide, Socrates, that our plan shall be to make trial of that spiritual sign by associating with each other. Thus, if it leaves us free, that will be best of all; if it does not, it will be time then for us to consider, at the moment, what we shall do—whether we shall associate with someone else, or try to conciliate the divine sign itself that occurs to you with prayers and sacrifices and anything else that the seers may indicate.
+[131a] The. Well then, I decide, Socrates, that our plan shall be to make trial of that spiritual sign by associating with each other. Thus, if it leaves us free, that will be best of all; if it does not, it will be time then for us to consider, at the moment, what we shall do—whether we shall associate with someone else, or try to conciliate the divine sign itself that occurs to you with prayers and sacrifices and anything else that the seers may indicate.
 
 Dem. In view of this, Socrates, say no more in opposition to the lad; for Theages is right in what he says.
 
 Soc. Well, if you consider that this is what we ought to do, let us do it.
 
----
-
-*Ὁ Διαφορεύς παρῆν*
+[^1]: This portico or colonnade was near that of the King Archon, close to the Agora
+[^2]: i.e. something above and apart from the adviser’s personal interests, and looking only to what is best.
+[^3]: Theages means god-guided.
+[^4]: In Aristophanes and Plato we find mention of only one Sibyl: later the name, like Bacis (an old Boeotian prophet), was applied to several oracular persons in different places. Amphilytus seems to have come from Acarnania to Athens in the time of Peisistratus.
+[^5]: Soph. Fr. 14.1
+[^6]: This line, also quoted and attributed to Euripides in Plat. Rep. 568a, appears to belong really to Sophocles’ lost tragedy The Locrian Ajax.
+[^7]: ? Soph. Fr. 14.1
+[^8]: Nothing is known of this poem.
+[^9]: Cf. Alcib. I.118 E;Protag 320 A, B.
+[^10]: Cf. the passage in the Protagoras(320 A, B)which shows that young men of good family were often placed with older friends of standing and experience in order to prepare for public life. Cf. also Meno 94 D.
+[^11]: A deme or township of Attica.
+[^12]: The disastrous Sicilian expedition of 415-413 B.C. Cf. Thuc. vi. and vii.
+[^13]: 409 B.C., when Thrasyllus succeeded in recovering Colophon for Athens. He was one of the commanders put to death by the Athenians after the battle of Arginusae, 406 B.C.
+[^14]: Cf. Theaet. 151 A, from which this passage is derived. The Aristeides and Thucydides mentioned here were the grandsons respectively of Aristeides, the Athenian statesman of the time of the Persian wars, and of Thucydides, the aristocratic opponent of Pericles. Their fathers Lysimachus and Melesias appear in the Laches.

@@ -1,48 +1,41 @@
 ---
 id: platao-cratylus-eng-harold-north-fowler-1926
-type: texto_primario
-title: "Cratylus"
-subtitle: null
+type: translation
+title: Cratylus
 author: Plato
-year_original: null
-language: eng
-translation:
-  - Harold North Fowler
+translator:
+- Harold North Fowler
 publisher: Harvard University Press
-area: null
-era: null
-tags: []
-status: rascunho
+language: eng
+tags:
+- classical-philosophy
+- platonism
+status: draft
 project: pedra_angular
-source: "Plato. Cratylus. Ed. Harold North Fowler. Cambridge, MA: Harvard University Press, 1926. Perseus Digital Library, Tufts University (CC BY-SA 4.0). URN: null"
-related: []
+urn_work: urn:cts:greekLit:tlg0059.tlg005
+urn: urn:cts:greekLit:tlg0059.tlg005.perseus-eng2
+source: 'Plato. Cratylus. Ed. Harold North Fowler. Cambridge, MA: Harvard University Press, 1926. Perseus Digital Library, Tufts University (CC BY-SA 4.0).'
+source_repo: PerseusDL/canonical-greekLit
+source_file: data/tlg0059/tlg005/tlg0059.tlg005.perseus-eng2.xml
+source_commit: e37eed2e8
+license: CC-BY-SA-4.0
 ---
 
 # Cratylus
 
-**Plato**
-
-Cambridge, MA: Harvard University Press, 1926.
-Perseus Digital Library, Tufts University (CC BY-SA 4.0).
-URN: `null`
-
----
-
-## Texto
-
-[383] Hermogenes. Here is Socrates; shall we take him as a partner in our discussion?
+[383a] Hermogenes. Here is Socrates; shall we take him as a partner in our discussion?
 
 Cratylus. If you like.
 
-Hermogenes. Cratylus, whom you see here, Socrates, says that everything has a right name of its own, which comes by nature, and that a name is not whatever people call a thing by agreement, just a piece of their own voice applied to the thing, but that there is a kind of inherent correctness in names, which is the same for all men, [383b] both Greeks and barbarians. So I ask him whether his name is in truth Cratylus, and he agrees that it is. And what is Socrates’ name? I said. Socrates, said he. Then that applies to all men, and the particular name by which we call each person is his name? And he said, Well, your name is not Hermogenes,i.e. you are no son of Hermes. Hermes was the patron deity of traders, bankers, and the like, and Hermogenes, as is suggested below, was not successful as a moneymaker. even if all mankind call you so.
+Hermogenes. Cratylus, whom you see here, Socrates, says that everything has a right name of its own, which comes by nature, and that a name is not whatever people call a thing by agreement, just a piece of their own voice applied to the thing, but that there is a kind of inherent correctness in names, which is the same for all men, [383b] both Greeks and barbarians. So I ask him whether his name is in truth Cratylus, and he agrees that it is. “And what is Socrates’ name?” I said. “Socrates,” said he. “Then that applies to all men, and the particular name by which we call each person is his name?” And he said, “Well, your name is not Hermogenes,[^1] even if all mankind call you so.”
 
-[384] Hermogenes. Now, though I am asking him [384] [384a] and am exerting myself to find out what in the world he means, he does not explain himself at all; he meets me with dissimulation, claiming to have some special knowledge of his own about it which would, if he chose to speak it out clearly, make me agree entirely with him. Now if you could interpret Cratylus’s oracular speech, I should like to hear you; or rather, I should like still better to hear, if you please, what you yourself think about the correctness of names.
+Hermogenes. Now, though I am asking him [384a] and am exerting myself to find out what in the world he means, he does not explain himself at all; he meets me with dissimulation, claiming to have some special knowledge of his own about it which would, if he chose to speak it out clearly, make me agree entirely with him. Now if you could interpret Cratylus’s oracular speech, I should like to hear you; or rather, I should like still better to hear, if you please, what you yourself think about the correctness of names.
 
 Socrates. Hermogenes, son of Hipponicus, there is an ancient saying [384b] that knowledge of high things is hard to gain; and surely knowledge of names is no small matter. Now if I had attended Prodicus’s fifty-drachma course of lectures, after which, as he himself says, a man has a complete education on this subject, there would be nothing to hinder your learning the truth about the correctness of names at once; but I have heard only the one-drachma course, [384c] and so I do not know what the truth is about such matters. However, I am ready to join you and Cratylus in looking for it. But as for his saying that Hermogenes is not truly your name, I suspect he is making fun of you; for perhaps he thinks that you want to make money and fail every time. But, as I said, it is difficult to know such things. We must join forces and try to find out whether you are right, or Cratylus.
 
 Hermogenes. For my part, Socrates, I have often talked with Cratylus and many others, [384d] and cannot come to the conclusion that there is any correctness of names other than convention and agreement. For it seems to me that whatever name you give to a thing is its right name; and if you give up that name and change it for another, the later name is no less correct than the earlier, just as we change the names of our servants; for I think no name belongs to any particular thing by nature, but only by the habit and custom of those who employ it and who established the usage. [384e] But if this is not the case, I am ready to hear and to learn from Cratylus or anyone else.
 
-[385] Socrates. It may be that you are right, Hermogenes; but let us see. Whatever name we decide to give each particular thing is its name?
+[385a] Socrates. It may be that you are right, Hermogenes; but let us see. Whatever name we decide to give each particular thing is its name?
 
 Hermogenes. Yes.
 
@@ -50,7 +43,7 @@ Socrates. Whether the giver be a private person or a state?
 
 Hermogenes. Yes.
 
-Socrates. Well, then, suppose I give a name to some thing or other, designating, for instance, that which we now call man as horse and that which we now call horse as man, will the real name of the same thing be man for the public and horse for me individually, and in the other case horse for the public and man for me individually? Is that your meaning? [385b]
+Socrates. Well, then, suppose I give a name to some thing or other, designating, for instance, that which we now call “man” as “horse” and that which we now call “horse” as “man,” will the real name of the same thing be “man” for the public and “horse” for me individually, and in the other case “horse” for the public and “man” for me individually? Is that your meaning? [385b]
 
 Hermogenes. Yes, that is my opinion.
 
@@ -106,7 +99,7 @@ Socrates. And whatever the number of names anyone says a thing has, it will real
 
 Hermogenes. Yes, Socrates, for I cannot conceive of any other kind of correctness in names than this; I may call a thing by one name, which I gave, and you by another, which you gave. And in the same way, I see that states have their own different names for the same things, [385e] and Greeks differ from other Greeks and from barbarians in their use of names.
 
-[386] Socrates. Now, Hermogenes, let us see. Do you think this is true of the real things, that their reality is a separate one for each person, as Protagoras said with his doctrine [386] [386a] that man is the measure of all things—that things are to me such as they seem to me, and to you such as they seem to you—or do you think things have some fixed reality of their own?
+Socrates. Now, Hermogenes, let us see. Do you think this is true of the real things, that their reality is a separate one for each person, as Protagoras said with his doctrine [386a] that man is the measure of all things—that things are to me such as they seem to me, and to you such as they seem to you—or do you think things have some fixed reality of their own?
 
 Hermogenes. It has sometimes happened to me, Socrates, to be so perplexed that I have been carried away even into this doctrine of Protagoras; but I do not at all believe he is right.
 
@@ -134,7 +127,7 @@ Socrates. And you are, I imagine, strongly of the opinion that if wisdom and fol
 
 Hermogenes. Quite right.
 
-Socrates. But neither do you believe with Euthydemus that all things belong equally to all men at the same time and perpetually,The doctrine here attributed to Euthydemus is not expressly enunciated by him in the dialogue which bears his name, but it is little more than a comprehensive statement of the several doctrines there proclaimed by him and his brother Dionysodorus. for on this assumption also some could not be good and others bad, if virtue and its opposite were always equally possessed by all.
+Socrates. But neither do you believe with Euthydemus that all things belong equally to all men at the same time and perpetually,[^2] for on this assumption also some could not be good and others bad, if virtue and its opposite were always equally possessed by all.
 
 Hermogenes. True.
 
@@ -146,7 +139,7 @@ Socrates. Can things themselves, then, possess such a nature as this, and that o
 
 Hermogenes. Certainly they are.
 
-[387] Socrates. Then actions also are performed according to their own nature, not according to our opinion. For instance, if we undertake to cut anything, ought we to cut it as we wish, and with whatever instrument we wish, or shall we, if we are willing to cut each thing in accordance with the nature of cutting and being cut, and with the natural instrument, succeed in cutting it, and do it rightly, whereas if we try to do it contrary to nature we shall fail and accomplish nothing? [387b]
+[387a] Socrates. Then actions also are performed according to their own nature, not according to our opinion. For instance, if we undertake to cut anything, ought we to cut it as we wish, and with whatever instrument we wish, or shall we, if we are willing to cut each thing in accordance with the nature of cutting and being cut, and with the natural instrument, succeed in cutting it, and do it rightly, whereas if we try to do it contrary to nature we shall fail and accomplish nothing? [387b]
 
 Hermogenes. I think the way is as you suggest.
 
@@ -192,7 +185,7 @@ Hermogenes. Certainly.
 
 Socrates. And then what has to be named, has to be named with something?
 
-[388] Hermogenes. True.
+[388a] Hermogenes. True.
 
 Socrates. And what is that with which we have to bore?
 
@@ -210,7 +203,7 @@ Socrates. Right. A name also, then, is a kind of instrument.
 
 Hermogenes. Certainly.
 
-Socrates. Then if I were to ask What instrument is the shuttle? Is it not that with which we weave?
+Socrates. Then if I were to ask “What instrument is the shuttle?” Is it not that with which we weave?
 
 Hermogenes. Yes. [388b]
 
@@ -278,7 +271,7 @@ Socrates. Do you think every man is a lawgiver, or only he who has the skill?
 
 Hermogenes. He who has the skill.
 
-[389] Socrates. Then it is not for every man, Hermogenes, [389] [389a] to give names, but for him who may be called the name-maker; and he, it appears, is the lawgiver, who is of all the artisans among men the rarest.
+Socrates. Then it is not for every man, Hermogenes, [389a] to give names, but for him who may be called the name-maker; and he, it appears, is the lawgiver, who is of all the artisans among men the rarest.
 
 Hermogenes. So it appears.
 
@@ -310,15 +303,15 @@ Socrates. For each kind of shuttle is, it appears, fitted by nature for its part
 
 Hermogenes. Yes.
 
-Socrates. Then, my dear friend, must not the law-giver also know how to embody in the sounds and syllables that name which is fitted by nature for each object? Must he not make and give all his names with his eye fixed upon the absolute or ideal name, if he is to be an authoritative giver of names? And if different lawgivers do not embody it in the same syllables, we must not forget this ideal name on that account; for different smiths do not embody the form in the same iron, [389e] though making the same instrument for the same purpose, but so long as they reproduce the same ideal, [390] [390a] though it be in different iron, still the instrument is as it should be, whether it be made here or in foreign lands, is it not?
+Socrates. Then, my dear friend, must not the law-giver also know how to embody in the sounds and syllables that name which is fitted by nature for each object? Must he not make and give all his names with his eye fixed upon the absolute or ideal name, if he is to be an authoritative giver of names? And if different lawgivers do not embody it in the same syllables, we must not forget this ideal name on that account; for different smiths do not embody the form in the same iron, [389e] though making the same instrument for the same purpose, but so long as they reproduce the same ideal, [390a] though it be in different iron, still the instrument is as it should be, whether it be made here or in foreign lands, is it not?
 
-[390] Hermogenes. Certainly.
+Hermogenes. Certainly.
 
 Socrates. On this basis, then, you will judge the law-giver, whether he be here or in a foreign land, so long as he gives to each thing the proper form of the name, in whatsoever syllables, to be no worse lawgiver, whether here or anywhere else, will you not?
 
 Hermogenes. Certainly. [390b]
 
-Socrates. Now who is likely to know whether the proper form of shuttle is embodied in any piece of wood? The carpenter who made it, or the weaver who is to use it ?
+Socrates. Now who is likely to know whether the proper form of shuttle is embodied in any piece of wood? The carpenter who made it, or the weaver who is to use it?
 
 Hermogenes. Probably the one who is to use it, Socrates.
 
@@ -360,7 +353,7 @@ Hermogenes. True.
 
 Socrates. Then, Hermogenes, the giving of names can hardly be, as you imagine, a trifling matter, or a task for trifling or casual persons: and Cratylus is right in saying that names belong to things by nature [390e] and that not every one is an artisan of names, but only he who keeps in view the name which belongs by nature to each particular thing and is able to embody its form in the letters and syllables.
 
-[391] Hermogenes. I do not know how to answer you, Socrates; nevertheless it is not easy to change my conviction suddenly. [391] [391a] I think you would be more likely to convince me, if you were to show me just what it is that you say is the natural correctness of names.
+Hermogenes. I do not know how to answer you, Socrates; nevertheless it is not easy to change my conviction suddenly. [391a] I think you would be more likely to convince me, if you were to show me just what it is that you say is the natural correctness of names.
 
 Socrates. I, my dear Hermogenes, do not say that there is any. You forget what I said a while ago, that I did not know, but would join you in looking for the truth. And now, as we are looking, you and I, we already see one thing we did not know before, that names do possess a certain natural correctness, and that not every man knows [391b] how to give a name well to anything whatsoever. Is not that true?
 
@@ -374,7 +367,7 @@ Socrates. Then investigate.
 
 Hermogenes. How shall I investigate?
 
-Socrates. The best way to investigate, my friend, is with the help of those who know; and you make sure of their favour by paying them money. They are the sophists, [391c] Truth was the title of a book written by Protagoras. of Protagoras altogether, should desire what is said in such a Truth, as if it were of any value.
+Socrates. The best way to investigate, my friend, is with the help of those who know; and you make sure of their favour by paying them money. They are the sophists, [391c] [^3] of Protagoras altogether, should desire what is said in such a Truth, as if it were of any value.
 
 Socrates. Then if you do not like that, [391d] you ought to learn from Homer and the other poets.
 
@@ -384,11 +377,23 @@ Socrates. In many passages; but chiefly and most admirably in those in which he 
 
 Hermogenes. Of course I know that if they call things, they call them rightly. But what are these instances to which you refer?
 
-Socrates. Do you not know that he says about the river in Troy which had the single combat with Hephaestus,Hom. Il. 21.342-380whom the gods call Xanthus, but men call ScamanderHom. Il. 20.74?
+Socrates. Do you not know that he says about the river in Troy which had the single combat with Hephaestus,[^4]
+
+```verso
+whom the gods call Xanthus, but men call Scamander
+```
+
+[^5]?
 
 Hermogenes. Oh yes.
 
-[392] Socrates. Well, do you not think this is a grand thing to know, that the name of that river is rightly Xanthus, rather than Scamander? Or, if you like, do you think it is a slight thing to learn about the bird which he says gods call chalcis, but men call cymindis,Hom. Il. 14.291 that it is much more correct for the same bird to be called chalcis than cymindis? Or to learn that the hill men call Batieia is called by the gods Myrina’s tomb,Hom. Il. 2.813 f and many other such statements by Homer and other poets? [392b] But perhaps these matters are too high for us to understand; it is, I think, more within human power to investigate the names Scamandrius and Astyanax, and understand what kind of correctness he ascribes to these, which he says are the names of Hector’s son. You recall, of course: the lines which contain the words to which I refer.
+[392a] Socrates. Well, do you not think this is a grand thing to know, that the name of that river is rightly Xanthus, rather than Scamander? Or, if you like, do you think it is a slight thing to learn about the bird which he says
+
+```verso
+gods call chalcis, but men call cymindis,
+```
+
+[^6] that it is much more correct for the same bird to be called chalcis than cymindis? Or to learn that the hill men call Batieia is called by the gods Myrina’s tomb,[^7] and many other such statements by Homer and other poets? [392b] But perhaps these matters are too high for us to understand; it is, I think, more within human power to investigate the names Scamandrius and Astyanax, and understand what kind of correctness he ascribes to these, which he says are the names of Hector’s son. You recall, of course: the lines which contain the words to which I refer.
 
 Hermogenes. Certainly.
 
@@ -396,15 +401,15 @@ Socrates. Which of the names of the boy do you imagine Homer thought was more co
 
 Hermogenes. I cannot say.
 
-Socrates. Look at it in this way: suppose you were asked, Do the wise or the unwise give names more correctly?
+Socrates. Look at it in this way: suppose you were asked, “Do the wise or the unwise give names more correctly?”
 
-Hermogenes. The wise, obviously, I should say.
+Hermogenes. “The wise, obviously,” I should say.
 
 Socrates. And do you think the women or the men of a city, regarded as a class in general, are the wiser?
 
 Hermogenes. The men.
 
-Socrates. And do you not know that Homer says the child of Hector was called Astyanax by the men of Troy;Hom. Il. 22.506 [392d] so he must have been called Scamandrius by the women, since the men called him Astyanax?
+Socrates. And do you not know that Homer says the child of Hector was called Astyanax by the men of Troy;[^8] [392d] so he must have been called Scamandrius by the women, since the men called him Astyanax?
 
 Hermogenes. Yes, probably.
 
@@ -416,7 +421,13 @@ Socrates. Then he thought Astyanax was more rightly the boy’s name than Scaman
 
 Hermogenes. So it appears.
 
-Socrates. Let us, then, consider the reason for this. Does he not himself indicate the reason most admirably? For he says— [392e] He alone defended their city and long walls.Hom. Il. 22.507But the verb is in the second person, addressed by Hecuba to Hector after his death. Therefore, as it seems, it is right to call the son of the defender Astyanax (Lord of the city), ruler of that which his father, as Homer says, defended.
+Socrates. Let us, then, consider the reason for this. Does he not himself indicate the reason most admirably? For he says— [392e]
+
+```verso
+He alone defended their city and long walls.
+```
+
+[^9][^10] Therefore, as it seems, it is right to call the son of the defender Astyanax (Lord of the city), ruler of that which his father, as Homer says, defended.
 
 Hermogenes. That is clear to me.
 
@@ -424,7 +435,7 @@ Socrates. Indeed? I do not yet understand about it myself, Hermogenes. Do you?
 
 Hermogenes. No, by Zeus, I do not.
 
-[393] Socrates. But, my good friend, did not Homer himself also give Hector his name?
+[393a] Socrates. But, my good friend, did not Homer himself also give Hector his name?
 
 Hermogenes. Why do you ask that?
 
@@ -440,11 +451,11 @@ Socrates. Good; but keep watch of me, and do not let me trick you; for by the sa
 
 Hermogenes. What do you mean?
 
-Socrates. Something quite simple. For instance, when we speak of the letters of the alphabet, you know, we speak their names, not merely the letters themselves, except in the case of four, ε, υ, ο, ω.In Plato’s time the names epsilon, ypsilon, omicron, and omega were not yet in vogue. The names used were εἶ, ὖ, οὖ,andὦ. [393e] We make names for all the other vowels and consonants by adding other letters to them; and so long as we include the letter in question and make its force plain, we may properly call it by that name, and that will designate it for us. Take beta, for instance, The addition of e(η), t(τ), a(α) does no harm and does not prevent the whole name from making clear the nature of that letter which the lawgiver wished to designate; he knew so well how to give names to letters.
+Socrates. Something quite simple. For instance, when we speak of the letters of the alphabet, you know, we speak their names, not merely the letters themselves, except in the case of four, ε, υ, ο, ω.[^11] [393e] We make names for all the other vowels and consonants by adding other letters to them; and so long as we include the letter in question and make its force plain, we may properly call it by that name, and that will designate it for us. Take beta, for instance, The addition of e(η), t(τ), a(α) does no harm and does not prevent the whole name from making clear the nature of that letter which the lawgiver wished to designate; he knew so well how to give names to letters.
 
 Hermogenes. I think you are right.
 
-[394] Socrates. Does not the same reasoning apply to a king? [394] [394a] A king’s son will probably be a king, a good man’s good, a handsome man’s handsome, and so forth; the offspring of each class will be of the same class, unless some unnatural birth takes place; so they should be called by the same names. But variety in the syllables is admissible, so that names which are the same appear different to the uninitiated, just as the physicians’ drugs, when prepared with various colors and perfumes, seem different to us, though they are the same, but to the physician, [394b] who considers only their medicinal value, they seem the same, and he is not confused by the additions. So perhaps the man who knows about names considers their value and is not confused if some letter is added, transposed, or subtracted, or even if the force of the name is expressed in entirely different letters. So, for instance, in the names we were just discussing, Astyanax and Hector, none of the letters is the same, except T, [394c] but nevertheless they have the same meaning. And what letters has Archepolis (ruler of the city) in common with them? Yet it means the same thing; and there are many other names which mean simply king. Others again mean general, such as Agis (leader), Polemarchus (war-lord), and Eupolemus (good warrior); and others indicate physicians, as Iatrocles (famous physician) and Acesimbrotus (healer of mortals); and we might perhaps find many others which differ in syllables and letters, but express the same meaning. Do you think that is true, or not? [394d]
+Socrates. Does not the same reasoning apply to a king? [394a] A king’s son will probably be a king, a good man’s good, a handsome man’s handsome, and so forth; the offspring of each class will be of the same class, unless some unnatural birth takes place; so they should be called by the same names. But variety in the syllables is admissible, so that names which are the same appear different to the uninitiated, just as the physicians’ drugs, when prepared with various colors and perfumes, seem different to us, though they are the same, but to the physician, [394b] who considers only their medicinal value, they seem the same, and he is not confused by the additions. So perhaps the man who knows about names considers their value and is not confused if some letter is added, transposed, or subtracted, or even if the force of the name is expressed in entirely different letters. So, for instance, in the names we were just discussing, Astyanax and Hector, none of the letters is the same, except T, [394c] but nevertheless they have the same meaning. And what letters has Archepolis (ruler of the city) in common with them? Yet it means the same thing; and there are many other names which mean simply “king.” Others again mean “general,” such as Agis (leader), Polemarchus (war-lord), and Eupolemus (good warrior); and others indicate physicians, as Iatrocles (famous physician) and Acesimbrotus (healer of mortals); and we might perhaps find many others which differ in syllables and letters, but express the same meaning. Do you think that is true, or not? [394d]
 
 Hermogenes. Certainly.
 
@@ -466,7 +477,7 @@ Hermogenes. Most assuredly, Socrates.
 
 Socrates. As the name of Orestes (mountain man) is undoubtedly correct, Hermogenes, whether it was given him by chance or by some poet who indicated by the name the fierceness, rudeness, and mountain-wildness of his nature.
 
-[395] Hermogenes. So it seems, Socrates.
+[395a] Hermogenes. So it seems, Socrates.
 
 Socrates. And his father’s name also appears to be in accordance with nature.
 
@@ -482,13 +493,13 @@ Hermogenes. What are the stories?
 
 Socrates. The many terrible misfortunes that happened to him both in his life, the last of which was the utter overthrow of his country, and in Hades, after his death, [395e] the balancing (ταλαντεία) of the stone above his head, in wonderful agreement with his name; and it seems exactly as if someone who wished to call him most wretched (ταλάντατον) disguised the name and said Tantalus instead; in some such way as that chance seems to have affected his name in the legend.
 
-[396] Socrates. And his father also, who is said to be Zeus, appears to have a very excellent name, but it is not easy to understand; [396] [396a] for the name of Zeus is exactly like a sentence; we divide it into two parts, and some of us use one part, others the other; for some call him Zena (Ζῆνα), and others Dia (Δία); but the two in combination express the nature of the god, which is just what we said a name should be able to do. For certainly no one is so much the author of life (ζῆν) for us and all others as the ruler and king of all. [396b] Thus this god is correctly named, through whom (δι’ ὅν) all living beings have the gift of life (ζῆν). But, as I say, the name is divided, though it is one name, into the two parts, Dia and Zena. And it might seem, at first hearing, highly irreverent to call him the son of Cronus and reasonable to say that Zeus is the offspring of some great intellect; and so he is, for κόρος (for Κρόνος) signifies not child, but the purity (καθαρόν) and unblemished nature of his mind. And Cronus, according to tradition, is the son of Uranus; but the upward gaze is rightly called by the name urania (οὐρανία), [396c] looking at the things above (ὁρῶ τὰ ἄνω), and the astronomers say, Hermogenes, that from this looking people acquire a pure mind, and Uranus is correctly named. If I remembered the genealogy of Hesiod and the still earlier ancestors of the gods he mentions, I would have gone on examining the correctness of their names until I had made a complete trial whether this wisdom which has suddenly come to me, I know not whence, [396d] will fail or not.
+Socrates. And his father also, who is said to be Zeus, appears to have a very excellent name, but it is not easy to understand; [396a] for the name of Zeus is exactly like a sentence; we divide it into two parts, and some of us use one part, others the other; for some call him Zena (Ζῆνα), and others Dia (Δία); but the two in combination express the nature of the god, which is just what we said a name should be able to do. For certainly no one is so much the author of life (ζῆν) for us and all others as the ruler and king of all. [396b] Thus this god is correctly named, through whom (δι’ ὅν) all living beings have the gift of life (ζῆν). But, as I say, the name is divided, though it is one name, into the two parts, Dia and Zena. And it might seem, at first hearing, highly irreverent to call him the son of Cronus and reasonable to say that Zeus is the offspring of some great intellect; and so he is, for κόρος (for Κρόνος) signifies not child, but the purity (καθαρόν) and unblemished nature of his mind. And Cronus, according to tradition, is the son of Uranus; but the upward gaze is rightly called by the name urania (οὐρανία), [396c] looking at the things above (ὁρῶ τὰ ἄνω), and the astronomers say, Hermogenes, that from this looking people acquire a pure mind, and Uranus is correctly named. If I remembered the genealogy of Hesiod and the still earlier ancestors of the gods he mentions, I would have gone on examining the correctness of their names until I had made a complete trial whether this wisdom which has suddenly come to me, I know not whence, [396d] will fail or not.
 
 Hermogenes. Indeed, Socrates, you do seem to me to be uttering oracles, exactly like an inspired prophet.
 
-Socrates. Yes, Hermogenes, and I am convinced that the inspiration came to me from Euthyphro the Prospaltian. For I was with him and listening to him a long time early this morning. So he must have been inspired, and he not only filled my ears but took possession of my soul with his superhuman wisdom. So I think this is our duty: [396e] we ought today to make use of this wisdom and finish the investigation of names, but tomorrow, if the rest of you agree, we will conjure it away and purify ourselves, when we have found some one, whether priest or sophist, [397] [397a] who is skilled in that kind of purifying.
+Socrates. Yes, Hermogenes, and I am convinced that the inspiration came to me from Euthyphro the Prospaltian. For I was with him and listening to him a long time early this morning. So he must have been inspired, and he not only filled my ears but took possession of my soul with his superhuman wisdom. So I think this is our duty: [396e] we ought today to make use of this wisdom and finish the investigation of names, but tomorrow, if the rest of you agree, we will conjure it away and purify ourselves, when we have found some one, whether priest or sophist, [397a] who is skilled in that kind of purifying.
 
-[397] Hermogenes. I agree, for I should be very glad to hear the rest of the talk about names.
+Hermogenes. I agree, for I should be very glad to hear the rest of the talk about names.
 
 Socrates. Very well. Then since we have outlined a general plan of investigation, where shall we begin, that we may discover whether the names themselves will bear witness that they are not at all distributed at haphazard, but have a certain correctness? [397b] Now the names of heroes and men might perhaps prove deceptive; for they are often given because they were names of ancestors, and in some cases, as we said in the beginning, they are quite inappropriate; many, too, are given as the expression of a prayer, such as Eutychides (fortunate), Sosias (saviour), Theophilus (beloved of God), and many others. I think we had better disregard such as these; but we are most likely to find the correct names in the nature of the eternal and absolute; for there the names ought to have been given with the greatest care, [397c] and perhaps some of them were given by a power more divine than is that of men.
 
@@ -506,7 +517,7 @@ Socrates. What shall we consider next? [397e]
 
 Hermogenes. Spirits, obviously.
 
-Socrates. Hermogenes, what does the name spirits really mean? See if you think there is anything in what I am going to say.
+Socrates. Hermogenes, what does the name “spirits” really mean? See if you think there is anything in what I am going to say.
 
 Hermogenes. Go on and say it.
 
@@ -518,7 +529,18 @@ Socrates. Nor that he says a golden race was the first race of men to be born?
 
 Hermogenes. Yes, I do know that.
 
-[398] Socrates. Well, he says of it:But since Fate has covered up this race, [398] [398a] They are called holy spirits under the earth,Noble, averters of evil, guardians of mortal men.Hes. WD 122 ff
+Socrates. Well, he says of it:
+
+```verso
+But since Fate has covered up this race,
+```
+
+[^12]
+
+```verso
+[398a] They are called holy spirits under the earth,
+Noble, averters of evil, guardians of mortal men.
+```
 
 Hermogenes. What of that?
 
@@ -536,17 +558,17 @@ Hermogenes. Yes, they are the wise.
 
 Socrates. This, then, I think, is what he certainly means to say of the spirits: because they were wise and knowing (δαήμονες) he called them spirits (δαίμονες) and in the old form of our language the two words are the same. Now he and all the other poets are right, who say that when a good man dies [398c] he has a great portion and honor among the dead, and becomes a spirit, a name which is in accordance with the other name of wisdom. And so I assert that every good man, whether living or dead, is of spiritual nature, and is rightly called a spirit.
 
-Hermogenes. And I, Socrates, believe I quite agree with you in that. But what is the word hero?
+Hermogenes. And I, Socrates, believe I quite agree with you in that. But what is the word “hero”?
 
 Socrates. That is easy to understand; for the name has been but slightly changed, and indicates their origin from love (ἔρως).
 
 Hermogenes. What do you mean? [398d]
 
-Socrates. Why, they were all born because a god fell in love with a mortal woman, or a mortal man with a goddess. Now if you consider the word hero also in the old Attic pronunciation,The old Attic alphabet was officially given up in favour of the Ionic alphabet in 404 or 403 B.C. The Attic for of the word hero is ἥρος, that of Eros ἔρως. Plato seems to think there was a change in pronunciation, as well as in spelling, and indeed that is quite possible. Or Plato may simply be confusing pronunciation with spelling, as he seems to do in several passages of this dialogue (cf. especially 410). you will understand better; for that will show you that it has been only slightly altered from the name of love (Eros), the source from which the heroes spring, to make a name for them. And either this is the reason why they are called heroes, or it is because they were wise and clever orators and dialecticians, able to ask questions (ἐρωτᾶν), for εἴρειν is the same as λέγειν (speak). Therefore, when their name is spoken in the Attic dialect, which I was mentioning just now, the heroes turn out to be orators and askers of questions, [398e] so that the heroic race proves to be a race of orators and sophists. That is easy to understand, but the case of men, and the reason why they are called men (ἄνθρωποι), is more difficult. Can you tell me what it is?
+Socrates. Why, they were all born because a god fell in love with a mortal woman, or a mortal man with a goddess. Now if you consider the word “hero” also in the old Attic pronunciation,[^13] you will understand better; for that will show you that it has been only slightly altered from the name of love (Eros), the source from which the heroes spring, to make a name for them. And either this is the reason why they are called heroes, or it is because they were wise and clever orators and dialecticians, able to ask questions (ἐρωτᾶν), for εἴρειν is the same as λέγειν (speak). Therefore, when their name is spoken in the Attic dialect, which I was mentioning just now, the heroes turn out to be orators and askers of questions, [398e] so that the heroic race proves to be a race of orators and sophists. That is easy to understand, but the case of men, and the reason why they are called men (ἄνθρωποι), is more difficult. Can you tell me what it is?
 
 Hermogenes. No, my friend, I cannot; and even if I might perhaps find out, I shall not try, because I think you are more likely to find out than I am.
 
-[399] Socrates. You have faith in the inspiration of Euthyphro, it seems.
+[399a] Socrates. You have faith in the inspiration of Euthyphro, it seems.
 
 Hermogenes. Evidently.
 
@@ -558,7 +580,7 @@ Socrates. Now it appears to me that the name of men (ἄνθρωπος) underwen
 
 Hermogenes. What do you mean? [399c]
 
-Socrates. I will tell you. The name man (ἄνθρωπος) indicates that the other animals do not examine, or consider, or look up at (ἀναθρεῖ) any of the things that they see, but man has no sooner seen—that is, ὄπωπε—than he looks up at and considers that which he has seen. Therefore of all the animals man alone is rightly called man (ἄνθρωπος), because he looks up at (ἀναθρεῖ) what he has seen (ὄπωπε).
+Socrates. I will tell you. The name “man” (ἄνθρωπος) indicates that the other animals do not examine, or consider, or look up at (ἀναθρεῖ) any of the things that they see, but man has no sooner seen—that is, ὄπωπε—than he looks up at and considers that which he has seen. Therefore of all the animals man alone is rightly called man (ἄνθρωπος), because he looks up at (ἀναθρεῖ) what he has seen (ὄπωπε).
 
 Hermogenes. Of course. May I ask you about the next word I should like to have explained?
 
@@ -570,13 +592,13 @@ Socrates. Yes, of course.
 
 Hermogenes. Let us try to analyze these, as we did the previous words.
 
-Socrates. You mean consider soul (ψυχή) and see why it is properly called by that name, and likewise body (σῶμα)?
+Socrates. You mean consider “soul” (ψυχή) and see why it is properly called by that name, and likewise “body” (σῶμα)?
 
 Hermogenes. Yes.
 
-Socrates. To speak on the spur of the moment, I think those who gave the soul its name had something of this sort in mind: they thought when it was present in the body it was the cause of its living, [399e] giving it the power to breathe and reviving it (ἀναψῦχον), and when this revivifying force fails, the body perishes and comes to an end therefore, I think, they called it ψυχή. But—please keep still a moment. I fancy I see something which will carry more conviction [400] [400a] to Euthyphro and his followers; for I think they would despise this attempt and would consider it cheap talk. Now see if you like the new one.
+Socrates. To speak on the spur of the moment, I think those who gave the soul its name had something of this sort in mind: they thought when it was present in the body it was the cause of its living, [399e] giving it the power to breathe and reviving it (ἀναψῦχον), and when this revivifying force fails, the body perishes and comes to an end therefore, I think, they called it ψυχή. But—please keep still a moment. I fancy I see something which will carry more conviction [400a] to Euthyphro and his followers; for I think they would despise this attempt and would consider it cheap talk. Now see if you like the new one.
 
-[400] Hermogenes. I am listening.
+Hermogenes. I am listening.
 
 Socrates. Do you think there is anything which holds and carries the whole nature of the body, so that it lives and moves, except the soul?
 
@@ -594,7 +616,7 @@ Socrates. Yes, it is. But it seems actually absurd that the name was given with 
 
 Hermogenes. Now what shall we say about the next word?
 
-Socrates. You mean body (σῶμα)?
+Socrates. You mean “body” (σῶμα)?
 
 Hermogenes. Yes.
 
@@ -602,9 +624,9 @@ Socrates. I think this admits of many explanations, if a little, even very littl
 
 Hermogenes. I think, Socrates, enough has been said about these words; but might we not consider the names of the gods in the same way in which you were speaking about that of Zeus a few minutes ago, and see what kind of correctness there is in them?
 
-Socrates. By Zeus, Hermogenes, we, if we are sensible, must recognize that there is one most excellent kind, since of the gods we know nothing, neither of them nor of their names, whatever they may be, by which they call themselves, for it is clear that they use the true names. But there is a second kind of correctness, [400e] that we call them, as is customary in prayers, by whatever names and patronymics are pleasing to them, since we know no other. [401] [401a] Now I think that is an excellent custom.
+Socrates. By Zeus, Hermogenes, we, if we are sensible, must recognize that there is one most excellent kind, since of the gods we know nothing, neither of them nor of their names, whatever they may be, by which they call themselves, for it is clear that they use the true names. But there is a second kind of correctness, [400e] that we call them, as is customary in prayers, by whatever names and patronymics are pleasing to them, since we know no other. [401a] Now I think that is an excellent custom.
 
-[401] Socrates. So, if you like, let us first make a kind of announcement to the gods, saying that we are not going to investigate about them—for we do not claim to be able to do that—but about men, and let us inquire what thought men had in giving them their names; for in that there is no impiety.
+Socrates. So, if you like, let us first make a kind of announcement to the gods, saying that we are not going to investigate about them—for we do not claim to be able to do that—but about men, and let us inquire what thought men had in giving them their names; for in that there is no impiety.
 
 Hermogenes. I think, Socrates, you are right; let us do as you say. [401b]
 
@@ -620,7 +642,7 @@ Socrates. At any rate, my dear Hermogenes, the first men who gave names were no 
 
 Hermogenes. What then?
 
-Socrates. I am sure the names were given by men of that kind; and if foreign names are examined, [401c] the meaning of each of them is equally evident. Take, for instance, that which we call οὐσία (reality, essence); some people call it ἐσσία, and still others ὠσία. First, then, in connection with the second of these forms, it is reasonable that the essence of things be called Hestia; and moreover, because we ourselves say of that which partakes of reality it is, (ἔστιν), the name Hestia would be correct in this connection also; for apparently we also called οὐσία (reality) ἐσσία in ancient times. And besides, if you consider it in connection with sacrifices, [401d] you would come to the conclusion that those who established them understood the name in that way; for those who called the essence of things ἐσσία would naturally sacrifice to Hestia first of all the gods. Those on the other hand, who say ὠσία would agree, well enough with Heracleitus that all things move and nothing remains still. So they would say the cause and ruler of things was the pushing power (ὠθοῦν), wherefore it had been rightly named ὠσία. But enough of this, considering that we know nothing. [401e] After Hestia it is right to consider Rhea and Cronus. The name of Cronus, however, has already been discussed. But perhaps I am talking nonsense.
+Socrates. I am sure the names were given by men of that kind; and if foreign names are examined, [401c] the meaning of each of them is equally evident. Take, for instance, that which we call οὐσία (reality, essence); some people call it ἐσσία, and still others ὠσία. First, then, in connection with the second of these forms, it is reasonable that the essence of things be called Hestia; and moreover, because we ourselves say of that which partakes of reality “it is,” (ἔστιν), the name Hestia would be correct in this connection also; for apparently we also called οὐσία (reality) ἐσσία in ancient times. And besides, if you consider it in connection with sacrifices, [401d] you would come to the conclusion that those who established them understood the name in that way; for those who called the essence of things ἐσσία would naturally sacrifice to Hestia first of all the gods. Those on the other hand, who say ὠσία would agree, well enough with Heracleitus that all things move and nothing remains still. So they would say the cause and ruler of things was the pushing power (ὠθοῦν), wherefore it had been rightly named ὠσία. But enough of this, considering that we know nothing. [401e] After Hestia it is right to consider Rhea and Cronus. The name of Cronus, however, has already been discussed. But perhaps I am talking nonsense.
 
 Hermogenes. Why, Socrates?
 
@@ -628,7 +650,7 @@ Socrates. My friend, I have thought of a swarm of wisdom.
 
 Hermogenes. What is it?
 
-[402] Socrates. It sounds absurd, but I think there is some probability in it.
+[402a] Socrates. It sounds absurd, but I think there is some probability in it.
 
 Hermogenes. What is this probability?
 
@@ -640,7 +662,25 @@ Socrates. Heracleitus says, you know, that all things move and nothing remains s
 
 Hermogenes. True. [402b]
 
-Socrates. Well, don’t you think he who gave to the ancestors of the other gods the names Rhea and Cronus had the same thought as Heracleitus? Do you think he gave both of them the names of streams merely by chance? Just so Homer, too, says—Ocean the origin of the gods, and their mother Tethys;Hom. Il. 14.201, 302 and I believe Hesiod says that also. Orpheus, too, says—Fair-flowing Ocean was the first to marry, [402c] and he wedded his sister Tethys, daughter of his mother.Orpheus FrSee how they agree with each other and all tend towards the doctrine of Heracleitus.
+Socrates. Well, don’t you think he who gave to the ancestors of the other gods the names “Rhea” and “Cronus” had the same thought as Heracleitus? Do you think he gave both of them the names of streams merely by chance? Just so Homer, too, says—
+
+```verso
+Ocean the origin of the gods, and their mother Tethys;
+```
+
+[^14] and I believe Hesiod says that also. Orpheus, too, says—
+
+```verso
+Fair-flowing Ocean was the first to marry,
+```
+
+[^15]
+
+```verso
+[402c] and he wedded his sister Tethys, daughter of his mother.
+```
+
+See how they agree with each other and all tend towards the doctrine of Heracleitus.
 
 Hermogenes. I think there is something in what you say, Socrates; but I do not know what the name of Tethys means.
 
@@ -658,7 +698,7 @@ Hermogenes. By all means.
 
 Socrates. I think Poseidon’s name was given by him who first applied it, [402e] because the power the sea restrained him as he was walking and hindered his advance; it acted as a bond (δεσμός) of his feet (ποδῶν). So he called the lord of this power Poseidon, regarding him as a foot-bond (ποσί-δεσμον). The e is inserted perhaps for euphony.
 
-[403] Socrates. But possibly that may not be right; possibly two lambdas were originally pronounced instead of the sigma, because the god knew (εἰδότος) many (πολλά) things. [403] [403a] Or it may be that from his shaking he was called the Shaker (ὁ σείων), and the pi and delta are additions. As for Pluto, he was so named as the giver of wealth (πλοῦτος), because wealth comes up from below out of the earth. And Hades—I fancy most people think that this is a name of the Invisible (ἀειδής), so they are afraid and call him Pluto. [403b]
+Socrates. But possibly that may not be right; possibly two lambdas were originally pronounced instead of the sigma, because the god knew (εἰδότος) many (πολλά) things. [403a] Or it may be that from his shaking he was called the Shaker (ὁ σείων), and the pi and delta are additions. As for Pluto, he was so named as the giver of wealth (πλοῦτος), because wealth comes up from below out of the earth. And Hades—I fancy most people think that this is a name of the Invisible (ἀειδής), so they are afraid and call him Pluto. [403b]
 
 Hermogenes. And what do you think yourself, Socrates?
 
@@ -692,11 +732,11 @@ Hermogenes. No, by Zeus, Socrates, there certainly is not.
 
 Socrates. Then, Hermogenes, we must believe that this is the reason why no one has been willing to come away from that other world, not even the Sirens, but they and all others have been overcome by his enchantments, [403e] so beautiful, as it appears, are the words which Hades has the power to speak; and from this point of view this god is a perfect sophist and a great benefactor of those in his realm, he who also bestows such great blessings upon us who are on earth; such abundance surrounds him there below, and for this reason he is called Pluto.
 
-[404] Socrates. Then, too, he refuses to consort with men while they have bodies, but only accepts their society [404] [404a] when the soul is pure of all the evils and desires of the body. Do you not think this shows him to be a philosopher and to understand perfectly that under these conditions he could restrain them by binding them with the desire of virtue, but that so long as they are infected with the unrest and madness of the body, not even his father Cronus could hold them to himself, though he bound them with his famous chains?
+Socrates. Then, too, he refuses to consort with men while they have bodies, but only accepts their society [404a] when the soul is pure of all the evils and desires of the body. Do you not think this shows him to be a philosopher and to understand perfectly that under these conditions he could restrain them by binding them with the desire of virtue, but that so long as they are infected with the unrest and madness of the body, not even his father Cronus could hold them to himself, though he bound them with his famous chains?
 
 Hermogenes. There seems to be something in that, Socrates. [404b]
 
-Socrates. And the name Hades is not in the least derived from the invisible (ἀειδές), but far more probably from knowing (εἰδέναι) all noble things, and for that reason he was called Hades by the lawgiver.
+Socrates. And the name “Hades” is not in the least derived from the invisible (ἀειδές), but far more probably from knowing (εἰδέναι) all noble things, and for that reason he was called Hades by the lawgiver.
 
 Hermogenes. Very well; what shall we say of Demeter, Hera, Apollo, Athena, Hephaestus, Ares, and the other gods
 
@@ -708,7 +748,7 @@ Socrates. But really the name is admirably appropriate to the power of the god.
 
 Hermogenes. How is that?
 
-[405] Socrates. I will try to tell you what I think about it; [405] [405a] for no single name could more aptly indicate the four functions of the god, touching upon them all and in a manner declaring his power in music, prophecy, medicine, and archery.
+Socrates. I will try to tell you what I think about it; [405a] for no single name could more aptly indicate the four functions of the god, touching upon them all and in a manner declaring his power in music, prophecy, medicine, and archery.
 
 Hermogenes. Go on; you seem to imply that it is a remarkable name.
 
@@ -720,9 +760,9 @@ Socrates. But this is the god who purifies and washes away (ἀπαλοούων)
 
 Hermogenes. Certainly.
 
-Socrates. With reference, then, to his acts of delivering and his washings, [405c] as being the physician of such diseases, he might properly be called Apoluon (ἀπαλούων, the washer), and with reference to soothsaying and truth and simplicity—for the two are identical—he might most properly be called by the name the Thessalians use; for all Thessalians call the god Aplun. And because he is always by his archery controller of darts (βολῶν) he is ever darting (ἀεὶ βάλλων). And with reference to music we have to understand that alpha often signifies together, and here it denotes moving together in the heavens about the poles, as we call them, and harmony in song, [405d] which is called concord; for, as the ingenious musicians and astronomers tell us, all these things move together by a kind of harmony. And this god directs the harmony, making them all move together, among both gods and men; and so, just as we call the ὁμοκέλευθον (him who accompanies), and ὁμόκοιτιν (bedfellow), by changing the ὁμο to alpha, ἀκόλουθον and ἄκοιτιν, so also we called him Apollo who was Homopolo, [405e] and the second lambda was inserted, because without it the name sounded of disaster (ἀπολῶ, ἀπόλωλα, etc.).
+Socrates. With reference, then, to his acts of delivering and his washings, [405c] as being the physician of such diseases, he might properly be called Apoluon (ἀπαλούων, the washer), and with reference to soothsaying and truth and simplicity—for the two are identical—he might most properly be called by the name the Thessalians use; for all Thessalians call the god Aplun. And because he is always by his archery controller of darts (βολῶν) he is ever darting (ἀεὶ βάλλων). And with reference to music we have to understand that alpha often signifies “together,” and here it denotes moving together in the heavens about the poles, as we call them, and harmony in song, [405d] which is called concord; for, as the ingenious musicians and astronomers tell us, all these things move together by a kind of harmony. And this god directs the harmony, making them all move together, among both gods and men; and so, just as we call the ὁμοκέλευθον (him who accompanies), and ὁμόκοιτιν (bedfellow), by changing the ὁμο to alpha, ἀκόλουθον and ἄκοιτιν, so also we called him Apollo who was Homopolo, [405e] and the second lambda was inserted, because without it the name sounded of disaster (ἀπολῶ, ἀπόλωλα, etc.).
 
-[406] Socrates. Even as it is, some have a suspicion of this, because they do not properly regard the force of the name, and therefore they fear it, thinking that it denotes some kind of ruin. But in fact, as was said, [406] [406a] the name touches upon all the qualities of the god, as simple, ever-darting, purifying, and accompanying. The Muses and music in general are named, apparently, from μῶσθαι, searching, and philosophy; and Leto from her gentleness, because whatever is asked of her, she is willing (ἐθελήμων). But perhaps her name is Letho, as she is called by many foreigners; and those who call her by that name seem to do so [406b] on account of the mild and gentle (λεῖον, Ληθώ) kindness of her character. Artemis appears to get her name from her healthy (ἀρτεμές) and well-ordered nature, and her love of virginity; or perhaps he who named her meant that she is learned in virtue (ἀρετή), or possibly, too, that she hates sexual intercourse (ἄροτον μισεῖ) of man and woman; or he who gave the goddess her name may have given it for any or all of these reasons.
+Socrates. Even as it is, some have a suspicion of this, because they do not properly regard the force of the name, and therefore they fear it, thinking that it denotes some kind of ruin. But in fact, as was said, [406a] the name touches upon all the qualities of the god, as simple, ever-darting, purifying, and accompanying. The Muses and music in general are named, apparently, from μῶσθαι, searching, and philosophy; and Leto from her gentleness, because whatever is asked of her, she is willing (ἐθελήμων). But perhaps her name is Letho, as she is called by many foreigners; and those who call her by that name seem to do so [406b] on account of the mild and gentle (λεῖον, Ληθώ) kindness of her character. Artemis appears to get her name from her healthy (ἀρτεμές) and well-ordered nature, and her love of virginity; or perhaps he who named her meant that she is learned in virtue (ἀρετή), or possibly, too, that she hates sexual intercourse (ἄροτον μισεῖ) of man and woman; or he who gave the goddess her name may have given it for any or all of these reasons.
 
 Hermogenes. What of Dionysus and Aphrodite?
 
@@ -742,9 +782,9 @@ Socrates. We call her Pallas, you know.
 
 Hermogenes. Yes, of course.
 
-Socrates. Those of us are right, I fancy, [406e] who think this name is derived from armed dances, for lifting oneself or anything else from the ground or [407] [407a] in the hands is called shaking (πάλλειν) and being shaken, or dancing and being danced.
+Socrates. Those of us are right, I fancy, [406e] who think this name is derived from armed dances, for lifting oneself or anything else from the ground or [407a] in the hands is called shaking (πάλλειν) and being shaken, or dancing and being danced.
 
-[407] Hermogenes. Yes, certainly.
+Hermogenes. Yes, certainly.
 
 Socrates. So that is the reason she is called Pallas.
 
@@ -754,11 +794,11 @@ Socrates. You mean Athena?
 
 Hermogenes. Yes.
 
-Socrates. That is a weightier matter, my friend. The ancients seem to have had the same belief about Athena as the interpreters of Homer have now; [407b] for most of these, in commenting on the poet, say that he represents Athena as mind (νοῦς) and intellect (διάνοια); and the maker of her name seems to have had a similar conception of her, but he gives her the still grander title of mind of God ἡ θεοῦ νόησις, seeming to say that she is a ἁ θεονόα; here he used the alpha in foreign fashion instead of eta, and dropped out the iota and sigma. But perhaps that was not his reason; he may have called her Theonoe because she has unequalled knowledge of divine things (τὰ θεῖα νοοῦσα). Perhaps, too, he may have wished to identify the goddess with wisdom of character (ἐν ἤθει νόησις) [407c] by calling her Ethonoe; and then he himself or others afterwards improved the name, as they thought, and called her Athenaa.
+Socrates. That is a weightier matter, my friend. The ancients seem to have had the same belief about Athena as the interpreters of Homer have now; [407b] for most of these, in commenting on the poet, say that he represents Athena as mind (νοῦς) and intellect (διάνοια); and the maker of her name seems to have had a similar conception of her, but he gives her the still grander title of “mind of God” ἡ θεοῦ νόησις, seeming to say that she is a ἁ θεονόα; here he used the alpha in foreign fashion instead of eta, and dropped out the iota and sigma. But perhaps that was not his reason; he may have called her Theonoe because she has unequalled knowledge of divine things (τὰ θεῖα νοοῦσα). Perhaps, too, he may have wished to identify the goddess with wisdom of character (ἐν ἤθει νόησις) [407c] by calling her Ethonoe; and then he himself or others afterwards improved the name, as they thought, and called her Athenaa.
 
 Hermogenes. And how do you explain Hephaestus?
 
-Socrates. You ask about the noble master of light?
+Socrates. You ask about “the noble master of light”?
 
 Hermogenes. To be sure.
 
@@ -774,11 +814,11 @@ Socrates. Ares, then, if you like, would be named for his virility and courage, 
 
 Hermogenes. Certainly.
 
-Socrates. For God’s sake, let us leave the gods, as I am afraid to talk about them; but ask me about any others you please, that you may see what Euthyphro’s horses are.Cf. Hom. Il. 5.221, Hom. Il. 8.105. [407e]
+Socrates. For God’s sake, let us leave the gods, as I am afraid to talk about them; but ask me about any others you please, “that you may see what” Euthyphro’s “horses are.”[^16] [407e]
 
 Hermogenes. I will do so, but first one more god. I want to ask you about Hermes, since Cratylus says I am not Hermogenes (son of Hermes). Let us investigate the name of Hermes, to find out whether there is anything in what he says.
 
-[408] Socrates. Well then, this name Hermes seems to me to have to do with speech; he is an interpreter (ἡρμηνεύς) and a messenger, [408] [408a] is wily and deceptive in speech, and is oratorical. All this activity is concerned with the power of speech. Now, as I said before, εἴρειν denotes the use of speech; moreover, Homer often uses the word ἐμήσατο, which means contrive. From these two words, then, the lawgiver imposes upon us the name of this god who contrived speech and the use of speech—εἴρεινmeans speak— [408b] and tells us: Ye human beings, he who contrived speech (εἴρειν ἐμήσατο) ought to be called Eiremes by you. We, however, have beautified the name, as we imagine, and call him Hermes. Iris also seems to have got her name from εἴρειν, because she is a messenger.
+Socrates. Well then, this name “Hermes” seems to me to have to do with speech; he is an interpreter (ἡρμηνεύς) and a messenger, [408a] is wily and deceptive in speech, and is oratorical. All this activity is concerned with the power of speech. Now, as I said before, εἴρειν denotes the use of speech; moreover, Homer often uses the word ἐμήσατο, which means contrive. From these two words, then, the lawgiver imposes upon us the name of this god who contrived speech and the use of speech—εἴρεινmeans speak— [408b] and tells us: “Ye human beings, he who contrived speech (εἴρειν ἐμήσατο) ought to be called Eiremes by you.” We, however, have beautified the name, as we imagine, and call him Hermes. Iris also seems to have got her name from εἴρειν, because she is a messenger.
 
 Hermogenes. By Zeus, I believe Cratylus was right in saying I was not Hermogenes; I certainly am no good contriver of speech.
 
@@ -790,7 +830,7 @@ Socrates. You know that speech makes all things (πᾶν) known and always makes
 
 Hermogenes. Certainly.
 
-Socrates. Well, the true part is smooth and divine and dwells aloft among the gods, but falsehood dwells below among common men, is rough and like the tragic goatThe chorus of the primitive performances from which tragedy developed appeared as satyrs, clad in goat-skins. Hence the name τραγῳδία (goat-song). The adjective τραγικός may mean either goat-like or tragic. In this passage it has both meanings.; for tales and falsehoods are most at home there, in the tragic life.
+Socrates. Well, the true part is smooth and divine and dwells aloft among the gods, but falsehood dwells below among common men, is rough and like the tragic goat[^17]; for tales and falsehoods are most at home there, in the tragic life.
 
 Hermogenes. Certainly.
 
@@ -806,7 +846,7 @@ Socrates. What, then, do you wish first? Shall we discuss the sun (Ἥλιος),
 
 Hermogenes. By all means.
 
-[409] Socrates. I think it would be clearer [409] [409a] if we were to use the Doric form of the name. The Dorians call it Ἅλιος. Now ἅλιος might be derived from collecting (ἁλίζειν) men when he rises, or because he always turns (ἀεὶ εἱλεῖν) about the earth in his course, or because he variegates the products of the earth, for variegate is identical with αἰολλεῖν.
+Socrates. I think it would be clearer [409a] if we were to use the Doric form of the name. The Dorians call it Ἅλιος. Now ἅλιος might be derived from collecting (ἁλίζειν) men when he rises, or because he always turns (ἀεὶ εἱλεῖν) about the earth in his course, or because he variegates the products of the earth, for variegate is identical with αἰολλεῖν.
 
 Hermogenes. And what of the moon, Selene?
 
@@ -834,7 +874,7 @@ Socrates. Because it has always a new and old gleam (σέλα νέον τε κα
 
 Hermogenes. That is a regular opera bouffe name, Socrates. But what have you to say of the month (μήν) and the stars?
 
-Socrates. The word month (μείς) would be properly pronounced μείης, from μειοῦσθαι, to grow less, and I think the stars (ἄστερα) get their name from ἀστραπή (lightning). But ἀστραπή, because it turns our eyes upwards (τὰ ὦπα ἀναστρέθει), would be called ἀναστρωπή, which is now pronounced more prettily ἀστραπή.
+Socrates. The word “month” (μείς) would be properly pronounced μείης, from μειοῦσθαι, to grow less, and I think the stars (ἄστερα) get their name from ἀστραπή (lightning). But ἀστραπή, because it turns our eyes upwards (τὰ ὦπα ἀναστρέθει), would be called ἀναστρωπή, which is now pronounced more prettily ἀστραπή.
 
 Hermogenes. And what of πῦρ (fire) and ὕδωρ (water)? [409d]
 
@@ -854,15 +894,15 @@ Socrates. If we should try to demonstrate the fitness of those words in accordan
 
 Hermogenes. Naturally.
 
-[410] Socrates. Well, this word πῦρ is probably foreign; for it is difficult to connect it with the Greek language, and besides, the Phrygians have the same word, only slightly altered. The same is the case with ὕδωρ (water), κύων (dog), and many other words.
+[410a] Socrates. Well, this word πῦρ is probably foreign; for it is difficult to connect it with the Greek language, and besides, the Phrygians have the same word, only slightly altered. The same is the case with ὕδωρ (water), κύων (dog), and many other words.
 
 Hermogenes. Yes, that is true.
 
-Socrates. So we must not propose forced explanations of these words, though something might be said about them. I therefore set aside πῦρ and ὕδωρ in this way. [410b] But is air called ἀήρ because it raises (αἴρει) things from the earth, or because it is always flowing (ἀεὶ ῥεῖ), or because wind arises from its flow? The poets call the winds ἀήτας, blasts. Perhaps the poet means to say air-flow (ἀητόρρουν), as he might say wind-flow (πνευματόρρουν). The word αἴθηρ (ether) I understand in this way: because it always runs and flows about the air (ἀεὶ θεῖ περὶ τὸν ἀέρα ῥέον), it may properly be called ἀειθεήρα. The word γῆ (earth) shows the meaning better [410c] in the form γαῖα; for γαῖα is a correct word for mother, as Homer says, for he uses γεγάασιν to mean γεγενῆσθαι (be born). Well, now what came next?
+Socrates. So we must not propose forced explanations of these words, though something might be said about them. I therefore set aside πῦρ and ὕδωρ in this way. [410b] But is air called ἀήρ because it raises (αἴρει) things from the earth, or because it is always flowing (ἀεὶ ῥεῖ), or because wind arises from its flow? The poets call the winds ἀήτας, blasts. Perhaps the poet means to say “air-flow” (ἀητόρρουν), as he might say “wind-flow” (πνευματόρρουν). The word αἴθηρ (ether) I understand in this way: because it always runs and flows about the air (ἀεὶ θεῖ περὶ τὸν ἀέρα ῥέον), it may properly be called ἀειθεήρα. The word γῆ (earth) shows the meaning better [410c] in the form γαῖα; for γαῖα is a correct word for “mother,” as Homer says, for he uses γεγάασιν to mean γεγενῆσθαι (be born). Well, now what came next?
 
 Hermogenes. The seasons, Socrates, and the two words for year.
 
-Socrates. The word ὧραι (seasons) should be pronounced in the old Attic fashion, ὅραι, if you wish to know the probable meaning; ΗΟΡΑΙ exist to divide winters and summers and winds and the fruits of the earth; and since they divide (ὁρίζουσι), they would rightly be called ὅραι. [410d] The two words for year, ἐνιαυτός and ἔτος, are really one. For that which brings to light within itself the plants and animals, each in its turn, and examines them, is called by some ἐνιαυτός, because of its activity within itself (ἐν ἑαυτῷ), and by others ἔτος, because it examines (ἐτάζει), just as we saw before that the name of Zeus was divided and some said Δία and others Ζῆνα. The whole phrase is that which examines within itself (τὸ ἐν ἁυτῷ ἐτάζον), and this one phrase is divided in speech so that the two words ἐνιαυτός and ἔτος [410e] are formed from one phrase.
+Socrates. The word ὧραι (seasons) should be pronounced in the old Attic fashion, ὅραι, if you wish to know the probable meaning; ΗΟΡΑΙ exist to divide winters and summers and winds and the fruits of the earth; and since they divide (ὁρίζουσι), they would rightly be called ὅραι. [410d] The two words for year, ἐνιαυτός and ἔτος, are really one. For that which brings to light within itself the plants and animals, each in its turn, and examines them, is called by some ἐνιαυτός, because of its activity within itself (ἐν ἑαυτῷ), and by others ἔτος, because it examines (ἐτάζει), just as we saw before that the name of Zeus was divided and some said Δία and others Ζῆνα. The whole phrase is “that which examines within itself” (τὸ ἐν ἁυτῷ ἐτάζον), and this one phrase is divided in speech so that the two words ἐνιαυτός and ἔτος [410e] are formed from one phrase.
 
 Hermogenes. Truly, Socrates, you are going ahead at a great rate.
 
@@ -872,7 +912,7 @@ Hermogenes. I am sure you are.
 
 Socrates. You will be surer presently.
 
-[411] Hermogenes. Now after the class of words you, have explained, I should like to examine the correctness of the noble words that relate to virtue, such as wisdom, intelligence, justice, and all the others of that sort.
+[411a] Hermogenes. Now after the class of words you, have explained, I should like to examine the correctness of the noble words that relate to virtue, such as wisdom, intelligence, justice, and all the others of that sort.
 
 Socrates. You are stirring up a mighty tribe of words, my friend; however, since I have put on the lion helmet, I must not play the coward, but must, it seems, examine wisdom, intelligence, thought, knowledge, [411b] and all the other noble words of which you speak.
 
@@ -888,13 +928,13 @@ Hermogenes. No, I did not notice that at all. [411d]
 
 Socrates. Surely the first one we mentioned is subject to such assumptions.
 
-Hermogenes. What is the word ?
+Hermogenes. What is the word?
 
 Socrates. Wisdom (φρόνησις); for it is perception (νόησις) of motion (φορᾶς) and flowing (ῥοῦ); or it might be understood as benefit (ὄνησις) of motion (φορᾶς); in either case it has to do with motion. And γνώμη (thought), if you please, certainly denotes contemplation and consideration of generation (γονῆς νώμησις); for to consider is the same as to contemplate. Or, if you please, νόησις (intelligence) is merely ἕσις (desire) τοῦ νεοῦ (of the new); but that things are new shows that they are always being generated; [411e] therefore the soul’s desire for generation is declared by the giver of the name νεόεσις; for in antiquity the name was not νόησις, but two epsilons had to be spoken instead of the eta.
 
-[412] Socrates. Σωφροσύνη (self-restraint) is σωτηρία (salvation) of φρόνησις (wisdom), which we have just been discussing. [412] [412a] And ἐπιστήμη (knowledge) indicates that the soul which is of any account accompanies (ἕπεται) things in their motion, neither falling behind them nor running in front of them; therefore we ought to insert an epsilon and call it ἐπεϊστήμη. Σύνεσις (intelligence) in its turn is a kind of reckoning together; when one says συνιέναι (understand), the same thing as ἐπίστασθαι is said; [412b] for συνιέναι means that the soul goes with things. Certainly σοφία (wisdom) denotes the touching of motion. This word is very obscure and of foreign origin; but we must remember that the poets often say of something which begins to advance ἐσύθη (it rushed). There was a famous Laconian whose name was Σοῦς (Rush), for this is the Laconian word for rapid motion. Now σοφία signifies the touching (ἐπαφή) of this rapid motion, the assumption being that things are in motion. And the word ἀγαθόν (good) [412c] is intended to denote the admirable (ἀγαστόν) in all nature. For since all things are in motion, they possess quickness and slowness; now not all that is swift, but only part of it, is admirable; this name ἀγαθόν is therefore given to the admirable (ἀγαστόν) part of the swift (θοοῦ).It is easy to conjecture that the word δικαιασύνη applies to the understanding (σύνεσις) of the just (τοῦ διαίον) but the word δίκαιον (just) is itself difficult. Up to a certain point, you see, many men seem to agree about it, but beyond that they differ. [412d] For those who think the universe is in motion believe that the greater part of it is of such a nature as to be a mere receptacle, and that there is some element which passes through all this, by means of which all created things are generated. And this element must be very rapid and very subtle; for it could not pass through all the universe unless it were very subtle, so that nothing could keep it out, and it must be very swift, so that all other things are relatively at rest. Since, then, it superintends and passes through (διαϊόν) all other things, [412e] this is rightly called by the name δίκαιον, the sound of the kappa being added merely for the sake of euphony.
+Socrates. Σωφροσύνη (self-restraint) is σωτηρία (salvation) of φρόνησις (wisdom), which we have just been discussing. [412a] And ἐπιστήμη (knowledge) indicates that the soul which is of any account accompanies (ἕπεται) things in their motion, neither falling behind them nor running in front of them; therefore we ought to insert an epsilon and call it ἐπεϊστήμη. Σύνεσις (intelligence) in its turn is a kind of reckoning together; when one says συνιέναι (understand), the same thing as ἐπίστασθαι is said; [412b] for συνιέναι means that the soul goes with things. Certainly σοφία (wisdom) denotes the touching of motion. This word is very obscure and of foreign origin; but we must remember that the poets often say of something which begins to advance ἐσύθη (it rushed). There was a famous Laconian whose name was Σοῦς (Rush), for this is the Laconian word for rapid motion. Now σοφία signifies the touching (ἐπαφή) of this rapid motion, the assumption being that things are in motion. And the word ἀγαθόν (good) [412c] is intended to denote the admirable (ἀγαστόν) in all nature. For since all things are in motion, they possess quickness and slowness; now not all that is swift, but only part of it, is admirable; this name ἀγαθόν is therefore given to the admirable (ἀγαστόν) part of the swift (θοοῦ).It is easy to conjecture that the word δικαιασύνη applies to the understanding (σύνεσις) of the just (τοῦ διαίον) but the word δίκαιον (just) is itself difficult. Up to a certain point, you see, many men seem to agree about it, but beyond that they differ. [412d] For those who think the universe is in motion believe that the greater part of it is of such a nature as to be a mere receptacle, and that there is some element which passes through all this, by means of which all created things are generated. And this element must be very rapid and very subtle; for it could not pass through all the universe unless it were very subtle, so that nothing could keep it out, and it must be very swift, so that all other things are relatively at rest. Since, then, it superintends and passes through (διαϊόν) all other things, [412e] this is rightly called by the name δίκαιον, the sound of the kappa being added merely for the sake of euphony.
 
-[413] Socrates. Up to this point, as I said just now, many men agree about justice (δίκαιον); [413] [413a] and I, Hermogenes, being very much in earnest about it, have persistently asked questions and have been told in secret teachings that this is justice, or the cause—for that through which creation takes place is a cause—and some one told me that it was for this reason rightly called Zeus (Δία). But when, after hearing this, I nevertheless ask them quietly, What then, my most excellent friend, if this is true, is justice? they think I am asking too many questions and am leaping over the trenches.A trench was the limit of the leap for the pentathletes. [413b] They say I have been told enough; they try to satisfy me by saying all sorts of different things, and they no longer agree. For one says the sun is justice, for the sun alone superintends all things, passing through and burning (διαϊόντα καὶ καίοντα) them. Then when I am pleased and tell this to some one, thinking it is a fine answer, he laughs at me and asks if I think there is no justice among men when the sun has set. So I beg him to tell me what he thinks it is, [413c] and he says Fire. But this is not easy to understand. He says it is not actual fire, but heat in the abstract that is in the fire. Another man says he laughs at all these notions, and that justice is what Anaxagoras says it is, mind; for mind, he says, is ruled only by itself, is mixed with nothing, orders all things, and passes through them. Then, my friend, I am far more perplexed than before I undertook to learn about the nature of justice. [413d] But I think the name—and that was the subject of our investigation—was given for the reasons I have mentioned.
+Socrates. Up to this point, as I said just now, many men agree about justice (δίκαιον); [413a] and I, Hermogenes, being very much in earnest about it, have persistently asked questions and have been told in secret teachings that this is justice, or the cause—for that through which creation takes place is a cause—and some one told me that it was for this reason rightly called Zeus (Δία). But when, after hearing this, I nevertheless ask them quietly, “What then, my most excellent friend, if this is true, is justice?” they think I am asking too many questions and am leaping over the trenches.[^18] [413b] They say I have been told enough; they try to satisfy me by saying all sorts of different things, and they no longer agree. For one says the sun is justice, for the sun alone superintends all things, passing through and burning (διαϊόντα καὶ καίοντα) them. Then when I am pleased and tell this to some one, thinking it is a fine answer, he laughs at me and asks if I think there is no justice among men when the sun has set. So I beg him to tell me what he thinks it is, [413c] and he says “Fire.” But this is not easy to understand. He says it is not actual fire, but heat in the abstract that is in the fire. Another man says he laughs at all these notions, and that justice is what Anaxagoras says it is, mind; for mind, he says, is ruled only by itself, is mixed with nothing, orders all things, and passes through them. Then, my friend, I am far more perplexed than before I undertook to learn about the nature of justice. [413d] But I think the name—and that was the subject of our investigation—was given for the reasons I have mentioned.
 
 Hermogenes. I think, Socrates, you must have heard this from some one and are not inventing it yourself.
 
@@ -904,7 +944,7 @@ Hermogenes. I do not at all think you had heard that.
 
 Socrates. Listen then; perhaps I may deceive you into thinking that all I am going to say is my own. What remains to consider after justice? I think we have not yet discussed courage. [413e] It is plain enough that injustice (ἀδικία) is really a mere hindrance of that which passes through (τοῦ διαϊόντος, but the word ἀδρεία (courage) implies that courage got its name in battle, and if the universe is flowing, a battle in the universe can be nothing else than an opposite current or flow (ῥοή). Now if we remove the delta from the word ἀνδρεία, the word ἀνρεία signifies exactly that activity.
 
-[414] Socrates. Of course it is clear that not the current opposed to every current is courage, but only that opposed to the current which is contrary to justice; [414] [414a] for otherwise courage would not be praised. The words ἄρρεν (male) and ἀνήρ (man) refer, like ἀνδρεία, to the upward (ἄνω) current or flow. The word γυνή (woman) seems to me to be much the same as γονή (birth). I think θῆλυ (female) is derived from θηλή (teat); and is not θηλή, Hermogenes, so called because it makes things flourish (τεθηλέναι), like plants wet with showers?
+Socrates. Of course it is clear that not the current opposed to every current is courage, but only that opposed to the current which is contrary to justice; [414a] for otherwise courage would not be praised. The words ἄρρεν (male) and ἀνήρ (man) refer, like ἀνδρεία, to the upward (ἄνω) current or flow. The word γυνή (woman) seems to me to be much the same as γονή (birth). I think θῆλυ (female) is derived from θηλή (teat); and is not θηλή, Hermogenes, so called because it makes things flourish (τεθηλέναι), like plants wet with showers?
 
 Hermogenes. Very likely, Socrates.
 
@@ -932,9 +972,9 @@ Socrates. Yes, quite true. But I think you, as a wise director, must observe the
 
 Hermogenes. I should like to do so.
 
-[415] Socrates. And I, too, Hermogenes. [415] [415a] But do not, my friend, demand too much precision, lest you enfeeble me of my sight.Hom. Il. 6.265 For now that τέχνη (art) is disposed of, I am nearing the loftiest height of my subject, when once we have investigated μηχανή(contrivance). For I think μηχανή signifies ἄνειν ἐπὶ πολύ (much accomplishment); for μῆκος (length) has about the same meaning as τὸ πολύ (much), and the name μηχανή is composed of these two, μῆκος and ἄνειν. But, as I was just saying, we must go on to the loftiest height of our subject; we must search for the meaning of the words ἀρετή (virtue) and κακία (wickedness). Now one of them I cannot yet see; [415b] but the other seems to be quite clear, since it agrees with everything we have said before. For inasmuch as all things are in motion, everything that moves badly (κακῶς ἰόν) would be evil (κακία); and when this evil motion in relation to its environment exists in the soul, it receives the general name κακία (evil) in the special sense of wickedness. But the nature of evil motion (κακῶς ἰέναι) is made clear, I think, also in the word δειλία (cowardice), which we have not yet discussed. We passed it by, [415c] when we ought to have examined it after ἀνδρεία (courage); and I fancy we passed over a good many other words. Now the meaning of δειλία is a strong bond of the soul; for λίαν (excessively) is, in a way, expressive of strength; so δειλία would be the excessive or greatest bond (δεσμός, δεῖν) of the soul; and so, too, ἀπορία (perplexity) is an evil, as is everything, apparently, which hinders motion and progress (πορεύεσθαι). This, then, seems to be the meaning of evil motion (κακῶς ἰέναι), that advance is halting and impeded; and the soul that is infected by it becomes filled with wickedness (κακία). If these are the reasons for the name of wickedness, virtue (ἀρετή) would be the opposite of this; it would signify first ease of motion, [415d] and secondly that the flow of the good soul is always unimpeded, and therefore it has received this name, which designates that which always flows (ἀεὶ ῥέον) without let or hindrance. It is properly called ἀειρειτή, or perhaps also αἱρετή, indicating that this condition is especially to be chosen; but it has been compressed and is pronounced ἀρετή. Perhaps you will say this is another invention of mine; but I say if what I said just now about κακία is right, [415e] this about the name of ἀρετή is right too.
+Socrates. And I, too, Hermogenes. [415a] But do not, my friend, demand too much precision, lest you “enfeeble me of my sight.”[^19] For now that τέχνη (art) is disposed of, I am nearing the loftiest height of my subject, when once we have investigated μηχανή(contrivance). For I think μηχανή signifies ἄνειν ἐπὶ πολύ (much accomplishment); for μῆκος (length) has about the same meaning as τὸ πολύ (much), and the name μηχανή is composed of these two, μῆκος and ἄνειν. But, as I was just saying, we must go on to the loftiest height of our subject; we must search for the meaning of the words ἀρετή (virtue) and κακία (wickedness). Now one of them I cannot yet see; [415b] but the other seems to be quite clear, since it agrees with everything we have said before. For inasmuch as all things are in motion, everything that moves badly (κακῶς ἰόν) would be evil (κακία); and when this evil motion in relation to its environment exists in the soul, it receives the general name κακία (evil) in the special sense of wickedness. But the nature of evil motion (κακῶς ἰέναι) is made clear, I think, also in the word δειλία (cowardice), which we have not yet discussed. We passed it by, [415c] when we ought to have examined it after ἀνδρεία (courage); and I fancy we passed over a good many other words. Now the meaning of δειλία is a strong bond of the soul; for λίαν (excessively) is, in a way, expressive of strength; so δειλία would be the excessive or greatest bond (δεσμός, δεῖν) of the soul; and so, too, ἀπορία (perplexity) is an evil, as is everything, apparently, which hinders motion and progress (πορεύεσθαι). This, then, seems to be the meaning of evil motion (κακῶς ἰέναι), that advance is halting and impeded; and the soul that is infected by it becomes filled with wickedness (κακία). If these are the reasons for the name of wickedness, virtue (ἀρετή) would be the opposite of this; it would signify first ease of motion, [415d] and secondly that the flow of the good soul is always unimpeded, and therefore it has received this name, which designates that which always flows (ἀεὶ ῥέον) without let or hindrance. It is properly called ἀειρειτή, or perhaps also αἱρετή, indicating that this condition is especially to be chosen; but it has been compressed and is pronounced ἀρετή. Perhaps you will say this is another invention of mine; but I say if what I said just now about κακία is right, [415e] this about the name of ἀρετή is right too.
 
-[416] Hermogenes. But what is the meaning of the word κακόν which you used in many of your derivations?
+[416a] Hermogenes. But what is the meaning of the word κακόν which you used in many of your derivations?
 
 Socrates. By Zeus, I think it is a strange word and hard to understand; so I apply to it that contrivance of mine.
 
@@ -990,13 +1030,13 @@ Hermogenes. Evidently. [416e]
 
 Socrates. What further words of this sort are left for us?
 
-[417] Hermogenes. Those that are related to the good and the beautiful, [417] [417a] such as συμφέροντα (advantageous), λυσιτελοῦντα (profitable), ὠφέλιμα (useful), κερδαλέα (gainful), and their opposites.
+Hermogenes. Those that are related to the good and the beautiful, [417a] such as συμφέροντα (advantageous), λυσιτελοῦντα (profitable), ὠφέλιμα (useful), κερδαλέα (gainful), and their opposites.
 
 Socrates. You might by this time be able to find the meaning of συμφέροντα by yourself in the light of the previous explanations, for it appears to be own brother to ἐπιστήμη. It means nothing else but the motion (φορά) of the soul in company with the world, and naturally things which are done by such a power are called συμφέροντα and σύμφορα because they are carried round with (συμπεριφέρεσθαι) the world. But κερδαλέον is from κέρδος (gain). [417b] If you restore nu in the word κέρδος in place of the delta, the meaning is plain; it signifies good, but in another way. Because it passes through and is mingled (κεράννυται) with all things, he who named it gave it this name which indicates that function; but he inserted a delta instead of nu and said κέρδος.
 
 Hermogenes. And what is λυσιτελοῦν?
 
-Socrates. I do not think, Hermogenes, the name-giver gives the meaning to λυσιτελοῦν which it has in the language of tradesfolk, when profit sets free (ἀπολύει) the sum invested, [417c] but he means that because it is the swiftest thing in the world it does not allow things to remain at rest and does not allow the motion to come to any end (τέλος) of movement or to stop or pause, but always, if any end of the motion is attempted, it sets it free, making it unceasing and immortal. It is in this sense, I think, that the good is dubbed λυσιτελοῦν, for it frees (λύει) the end (τέλος) of the motion. But the word ὠφέλιμον is a foreign one, which Homer often uses in the verbal form ὀφέλλειν. This is a synonym of increase and create. [417d]
+Socrates. I do not think, Hermogenes, the name-giver gives the meaning to λυσιτελοῦν which it has in the language of tradesfolk, when profit sets free (ἀπολύει) the sum invested, [417c] but he means that because it is the swiftest thing in the world it does not allow things to remain at rest and does not allow the motion to come to any end (τέλος) of movement or to stop or pause, but always, if any end of the motion is attempted, it sets it free, making it unceasing and immortal. It is in this sense, I think, that the good is dubbed λυσιτελοῦν, for it frees (λύει) the end (τέλος) of the motion. But the word ὠφέλιμον is a foreign one, which Homer often uses in the verbal form ὀφέλλειν. This is a synonym of “increase” and “create.” [417d]
 
 Hermogenes. What shall be our explanations of the opposites of these?
 
@@ -1014,9 +1054,9 @@ Hermogenes. Yes.
 
 Socrates. And βλαβερόν means that which harms (βλάπτον) the flow (ῥοῦν); [417e] but βλάπτον means wishing to fasten (ἅπτειν), and ἅπτειν is the same thing as δεῖν (bind), which the name-giver constantly finds fault with. Now τὸ βουλόμενον ἅπτειν ῥοῦν (that which wishes to fasten the flow) would most correctly be called βουλαπτεροῦν, but is called βλαβερόν merely, as I think, to make it prettier.
 
-Hermogenes. Elaborate names these are, Socrates, that result from your method. Just now, [418] [418a] when you pronounced βουλαπτεροῦν, you looked as if you had made up your mouth to whistle the flute-prelude of the hymn to Athena.
+Hermogenes. Elaborate names these are, Socrates, that result from your method. Just now, [418a] when you pronounced βουλαπτεροῦν, you looked as if you had made up your mouth to whistle the flute-prelude of the hymn to Athena.
 
-[418] Socrates. Not I, Hermogenes, am responsible, but those who gave the name.
+Socrates. Not I, Hermogenes, am responsible, but those who gave the name.
 
 Hermogenes. True. Well, what is the origin of ζημιῶδες?
 
@@ -1052,13 +1092,13 @@ Socrates. Similarly the word δέον (obligation) at first, when spoken in this
 
 Hermogenes. Yes, Socrates, it certainly does seem so.
 
-[419] Socrates. But it does not, if you employ the ancient word, [419] [419a] which is more likely to be right than the present one. You will find that it agrees with the previous words for good, if instead of the epsilon you restore the iota, as it was in old times for διόν (going through), not δέον, signifies good, which the name-giver praises. And so the giver of names does not contradict himself, but δέον (obligation, right), ὠφέλιμον (useful), λυσιτελοῦν (profitable), κερδαλέον (gainful), ἀγαθόν (good), ξυμφέρον (advantageous), and εὔπορον (prosperous), are plainly identical, signifying under different names the principle of arrangement and motion which has constantly been praised, [419b] whereas the principle of constraint and bondage is found fault with. And likewise in the case of ζημιῶδες, if you restore the ancient delta in place of the zeta, you will see that the name, pronounced δημιῶδες, was given to that which binds motion (δοῦντι τὸ ἰόν).
+Socrates. But it does not, if you employ the ancient word, [419a] which is more likely to be right than the present one. You will find that it agrees with the previous words for “good,” if instead of the epsilon you restore the iota, as it was in old times for διόν (going through), not δέον, signifies good, which the name-giver praises. And so the giver of names does not contradict himself, but δέον (obligation, right), ὠφέλιμον (useful), λυσιτελοῦν (profitable), κερδαλέον (gainful), ἀγαθόν (good), ξυμφέρον (advantageous), and εὔπορον (prosperous), are plainly identical, signifying under different names the principle of arrangement and motion which has constantly been praised, [419b] whereas the principle of constraint and bondage is found fault with. And likewise in the case of ζημιῶδες, if you restore the ancient delta in place of the zeta, you will see that the name, pronounced δημιῶδες, was given to that which binds motion (δοῦντι τὸ ἰόν).
 
 Hermogenes. What of ἡδονή (pleasure) and λύπη (pain) and ἐπιθυμία (desire), and the like, Socrates?
 
 Socrates. I do not think they are at all difficult, Hermogenes, for ἡδονή appears to have this name because it is the action that tends towards advantage (ἡ πρὸς τὴν ὄνησιν τείνουσα); the delta is inserted, so that we say ἡδονή instead of ἡονή. [419c] Λύπη appears to have received its name from the dissolution (διάλυσις) of the body which takes place through pain. Ἀνία (sorrow) is that which hinders motion (ἰέναι). Ἀλγηδών (distress) is, I think, a foreign word, derived from ἀλγεινός (distressing). Ὀδύνη (grief) appears to be so called from the putting on of pain (τῆς ἐνδύσεως τῆς λύπης). Ἀχθηδών (vexation) has a name, as anyone can see, made in the likeness of the weight (ἄχθος, burden) which vexation imposes upon motion. Χαρά (joy) seems to have its name from the plenteous diffusion (διάχυσις) of the flow of the soul. [419d] Τέρψις (delight) is from τερπνόν (delightful); and τερπνόν is called from the creeping (ἕρψις) of the soul, which is likened to a breath (πνοή), and would properly be called ἕρπνουν, but the name has been changed in course of time to τερπνόν. Εὐφροσύνη(mirth) needs no explanation, for it is clear to anyone that from the motion of the soul in harmony (εὖ) with the universe, it received the name εὐφεροσύνη, as it rightfully is; but we call it ευφροσύνη. [419e] Nor is there any difficulty about ἐπιθυμία (desire), for this name was evidently given to the power that goes (ἰοῦσα) into the soul (θυμός). And θυμός has its name from the raging (θύσις) and boiling of the soul.
 
-[420] Socrates. The name ἵμερος (longing) was given to the stream (ῥοῦς) which most draws the soul; [420] [420a] for because it flows with a rush (ἱέμενος) and with a desire for things and thus draws the soul on through the impulse of its flowing, all this power gives it the name of ἵμερος. And the word πόθος (yearning) signifies that it pertains not to that which is present, but to that which is elsewhere (ἄλλοθί που) or absent, and therefore the same feeling which is called ἵμερος when its object is present, is called πόθος when it is absent. And ἔρως (love) is so called because it flows in (ἐσρεῖ) from without, and this flowing is not inherent in him who has it, [420b] but is introduced through the eyes; for this reason it was in ancient times called ἔσρος, from ἐσρεῖν—for we used to employ omicron instead of omega—but now it is called ἔρως through the change of omicron to omega. Well, what more is there that you want to examine?
+Socrates. The name ἵμερος (longing) was given to the stream (ῥοῦς) which most draws the soul; [420a] for because it flows with a rush (ἱέμενος) and with a desire for things and thus draws the soul on through the impulse of its flowing, all this power gives it the name of ἵμερος. And the word πόθος (yearning) signifies that it pertains not to that which is present, but to that which is elsewhere (ἄλλοθί που) or absent, and therefore the same feeling which is called ἵμερος when its object is present, is called πόθος when it is absent. And ἔρως (love) is so called because it flows in (ἐσρεῖ) from without, and this flowing is not inherent in him who has it, [420b] but is introduced through the eyes; for this reason it was in ancient times called ἔσρος, from ἐσρεῖν—for we used to employ omicron instead of omega—but now it is called ἔρως through the change of omicron to omega. Well, what more is there that you want to examine?
 
 Hermogenes. What is your view about δόξα (opinion) and the like?
 
@@ -1068,13 +1108,13 @@ Hermogenes. I think you are hurrying things a bit, Socrates.
 
 Socrates. Yes, for I am running the last lap now. But I think I must still explain ἀνάγκη (compulsion) and ἑκούσιον (voluntary) because they naturally come next. Now by the word ἑκούσιον is expressed the yielding (εἶκον) and not opposing, but, as I say, yielding to the motion which is in accordance with the will; but the compulsory (τὸ ἀναγκαῖον) and resistant, being contrary to the will, is associated with error and ignorance; so it is likened to walking through ravines (ἄγκη), [420e] because they are hard to traverse, rough, and rugged, and retard motion; the word ἀναγκαῖον may, then, originate in a comparison with progress through a ravine. But let us not cease to use my strength, so long as it lasts and do not you cease from asking questions.
 
-[421] Hermogenes. I ask, then, about the greatest and noblest words, [421] [421a] truth (ἀλήθεια), falsehood (ψεῦδος), being (τὸ ὄν), and why name, the subject of our whole discourse, has the name ὄνομα.
+Hermogenes. I ask, then, about the greatest and noblest words, [421a] truth (ἀλήθεια), falsehood (ψεῦδος), being (τὸ ὄν), and why name, the subject of our whole discourse, has the name ὄνομα.
 
 Socrates. Does the word μαίσθαι (search) mean anything to you?
 
 Hermogenes. Yes, it means seek.
 
-Socrates. The word ὄνομα seems to be a word composed from a sentence signifying this is a being about which our search is. You can recognize that more readily in the adjective ὀνομαστόν, for that says clearly that this is [421b] ὄν οὗ μάσμα ἐστίν (being of which the search is). And ἀλήθεια (truth) is like the others; for the divine motion of the universe is, I think, called by this name, ἀλήθεια, because it is a divine wandering θεία ἄλη. But ψεῦδος (falsehood) is the opposite of motion; for once more that which is held back and forced to be quiet is found fault with, and it is compared to slumberers (εὕουσι); but the addition of the psi conceals the meaning of the word. The words τὸ ὄν (being) and οὐσία (existence) agree with ἀληθής with the loss of iota, for they mean going (ἰόν). And οὐκ ὄν (not being) means οὐκ ἰόν (not going), [421c] and indeed some people pronounce it so.
+Socrates. The word ὄνομα seems to be a word composed from a sentence signifying “this is a being about which our search is.” You can recognize that more readily in the adjective ὀνομαστόν, for that says clearly that this is [421b] ὄν οὗ μάσμα ἐστίν (being of which the search is). And ἀλήθεια (truth) is like the others; for the divine motion of the universe is, I think, called by this name, ἀλήθεια, because it is a divine wandering θεία ἄλη. But ψεῦδος (falsehood) is the opposite of motion; for once more that which is held back and forced to be quiet is found fault with, and it is compared to slumberers (εὕουσι); but the addition of the psi conceals the meaning of the word. The words τὸ ὄν (being) and οὐσία (existence) agree with ἀληθής with the loss of iota, for they mean going (ἰόν). And οὐκ ὄν (not being) means οὐκ ἰόν (not going), [421c] and indeed some people pronounce it so.
 
 Hermogenes. I think you have knocked these words to pieces manfully, Socrates; but if anyone should ask you what propriety or correctness there was in these words that you have employed—ἰόν and ρἕον and δοῦν—
 
@@ -1090,11 +1130,11 @@ Socrates. Saying, if there is a word we do not know about, that it is of foreign
 
 Hermogenes. That is not unlikely.
 
-Socrates. It is indeed quite probable. However, we must play the gameA proverbial expression. and investigate these questions vigorously. But let us bear in mind that if a person asks [421e] about the words by means of which names are formed, and again about those by means of which those words were formed, and keeps on doing this indefinitely, he who answers his questions will at last give up; will he not?
+Socrates. It is indeed quite probable. However, we must play the game[^20] and investigate these questions vigorously. But let us bear in mind that if a person asks [421e] about the words by means of which names are formed, and again about those by means of which those words were formed, and keeps on doing this indefinitely, he who answers his questions will at last give up; will he not?
 
 Hermogenes. Yes, I think so.
 
-[422] Socrates. Now at what point will he be right in giving up and stopping? Will it not be when he reaches the names which are the elements of the other names and words? For these, if they are the elements, can no longer rightly appear to be composed of other names. For instance, we said just now that ἀγαθόν was composed of ἀγαστόν and θοόν; and perhaps we might say that θοόν was composed of other words, and those of still others; [422b] but if we ever get hold of a word which is no longer composed of other words, we should be right ill saying that we had at last reached an element, and that we must no longer refer to other words for its derivation.
+[422a] Socrates. Now at what point will he be right in giving up and stopping? Will it not be when he reaches the names which are the elements of the other names and words? For these, if they are the elements, can no longer rightly appear to be composed of other names. For instance, we said just now that ἀγαθόν was composed of ἀγαστόν and θοόν; and perhaps we might say that θοόν was composed of other words, and those of still others; [422b] but if we ever get hold of a word which is no longer composed of other words, we should be right ill saying that we had at last reached an element, and that we must no longer refer to other words for its derivation.
 
 Hermogenes. I think you are right.
 
@@ -1126,7 +1166,7 @@ Socrates. Well, then, how can the earliest names, which are not as yet based upo
 
 Hermogenes. Yes. What other method is there, Socrates?
 
-[423] Socrates. If we wished to designate that which is above and is light, we should, I fancy, raise our hand towards heaven in imitation of the nature of the thing in question; but if the things to be designated were below or heavy, we should extend our hands towards the ground; and if we wished to mention a galloping horse or any other animal, we should, of course, make our bodily attitudes as much like theirs as possible.
+[423a] Socrates. If we wished to designate that which is above and is light, we should, I fancy, raise our hand towards heaven in imitation of the nature of the thing in question; but if the things to be designated were below or heavy, we should extend our hands towards the ground; and if we wished to mention a galloping horse or any other animal, we should, of course, make our bodily attitudes as much like theirs as possible.
 
 Hermogenes. I think you are quite right; there is no other way.
 
@@ -1168,7 +1208,7 @@ Hermogenes. I think so.
 
 Socrates. Well, then, if anyone could imitate this essential nature of each thing by means of letters and syllables, he would show what each thing really is, would he not?
 
-[424] Hermogenes. Certainly.
+[424a] Hermogenes. Certainly.
 
 Socrates. And what will you call him who can do this, as you called the others musician and painter? What will you call this man?
 
@@ -1186,9 +1226,9 @@ Socrates. Yes, most likely there are. Now what is the method of division with wh
 
 Hermogenes. Yes.
 
-Socrates. Must not we, too, separate first the vowels, then in their several classes the consonants or mutes, as they are called by those who specialize in phonetics, and also the letters which are neither vowels nor mutes, as well as the various classes that exist among the vowels themselves? [424d] And when we have made all these divisions properly, we must in turn give names to the things which ought to have them, if there are any names to which they can all, like the letters, be referred, from which it is possible to see what their nature is and whether there are any classes among them, as there are among letters. When we have properly examined all these points, we must know how to apply each letter with reference to its fitness, whether one letter is to be applied to one thing or many are to be combined; just as painters, when they wish to produce an imitation, sometimes use only red, [424e] sometimes some other color, and sometimes mix many colors, as when they are making a picture of a man or something of that sort, employing each color, I suppose, as they think the particular picture demands it. In just this way we, too, shall apply letters to things, using one letter for one thing, when that seems to be required, or many letters together, forming syllables, as they are called, and in turn combining syllables, [425] [425a] and by their combination forming nouns and verbs. And from nouns and verbs again we shall finally construct something great and fair and complete. Just as in our comparison we made the picture by the art of painting, so now we shall make language by the art of naming, or of rhetoric, or whatever it be.
+Socrates. Must not we, too, separate first the vowels, then in their several classes the consonants or mutes, as they are called by those who specialize in phonetics, and also the letters which are neither vowels nor mutes, as well as the various classes that exist among the vowels themselves? [424d] And when we have made all these divisions properly, we must in turn give names to the things which ought to have them, if there are any names to which they can all, like the letters, be referred, from which it is possible to see what their nature is and whether there are any classes among them, as there are among letters. When we have properly examined all these points, we must know how to apply each letter with reference to its fitness, whether one letter is to be applied to one thing or many are to be combined; just as painters, when they wish to produce an imitation, sometimes use only red, [424e] sometimes some other color, and sometimes mix many colors, as when they are making a picture of a man or something of that sort, employing each color, I suppose, as they think the particular picture demands it. In just this way we, too, shall apply letters to things, using one letter for one thing, when that seems to be required, or many letters together, forming syllables, as they are called, and in turn combining syllables, [425a] and by their combination forming nouns and verbs. And from nouns and verbs again we shall finally construct something great and fair and complete. Just as in our comparison we made the picture by the art of painting, so now we shall make language by the art of naming, or of rhetoric, or whatever it be.
 
-[425] Socrates. No, not we; I said that too hastily. For the ancients gave language its existing composite character; and we, if we are to examine all these matters with scientific ability, [425b] must take it to pieces as they put it together and see whether the words, both the earliest and the later, are given systematically or not; for if they are strung together at haphazard, it is a poor, unmethodical performance, my dear Hermogenes.
+Socrates. No, not we; I said that too hastily. For the ancients gave language its existing composite character; and we, if we are to examine all these matters with scientific ability, [425b] must take it to pieces as they put it together and see whether the words, both the earliest and the later, are given systematically or not; for if they are strung together at haphazard, it is a poor, unmethodical performance, my dear Hermogenes.
 
 Hermogenes. By Zeus, Socrates, may be it is.
 
@@ -1202,7 +1242,7 @@ Hermogenes. Yes, I agree most heartily. [425d]
 
 Socrates. It will, I imagine, seem ridiculous that things are made manifest through imitation in letters and syllables; nevertheless it cannot be otherwise. For there is no better theory upon which we can base the truth of the earliest names, unless you think we had better follow the example of the tragic poets, who, when they are in a dilemma, have recourse to the introduction of gods on machines. So we may get out of trouble by saying that the gods gave the earliest names, and therefore they are right. [425e] Is that the best theory for us? Or perhaps this one, that we got the earliest names from some foreign folk and the foreigners are more ancient than we are? Or that it is impossible to investigate them because of their antiquity, as is also the case with the foreign words?
 
-[426] Socrates. [426] [426a] All these are merely very clever evasions on the part of those who refuse to offer any rational theory of the correctness of the earliest names. And yet if anyone is, no matter why, ignorant of the correctness of the earliest names, he cannot know about that of the later, since they can be explained only by means of the earliest, about which he is ignorant. No, it is clear that anyone who claims to have scientific knowledge of names must be able first of all to explain the earliest names perfectly, [426b] or he can be sure that what he says about the later will be nonsense. Or do you disagree?
+Socrates. [426a] All these are merely very clever evasions on the part of those who refuse to offer any rational theory of the correctness of the earliest names. And yet if anyone is, no matter why, ignorant of the correctness of the earliest names, he cannot know about that of the later, since they can be explained only by means of the earliest, about which he is ignorant. No, it is clear that anyone who claims to have scientific knowledge of names must be able first of all to explain the earliest names perfectly, [426b] or he can be sure that what he says about the later will be nonsense. Or do you disagree?
 
 Hermogenes. No, Socrates, not in the least.
 
@@ -1212,19 +1252,38 @@ Hermogenes. I will do so. Go on, and do not be afraid. [426c]
 
 Socrates. First, then, the letter rho seems to me to be an instrument expressing all motion. We have not as yet said why motion has the name κίνησις; but it evidently should be ἴεσις, for in old times we did not employ eta, but epsilon. And the beginning of κίνησις is from κίειν, a foreign word equivalent to ἰέναι (go). So we should find that the ancient word corresponding to our modern form would be ἴεσις; but now by the employment of the foreign word κίειν, change of epsilon to eta, and the insertion of nu it has become κίνησις, though it ought to be κιείνεσις or εἶσις. [426d] And στάσις (rest) signifies the negation of motion, but is called στάσις for euphony. Well, the letter rho, as I was saying, appeared to be a fine instrument expressive of motion to the name-giver who wished to imitate rapidity, and he often applies it to motion. In the first place, in the words ῥεῖν (flow) and ῥοή (current) he imitates their rapidity by this letter, [426e] then in τρόμος (trembling) and in τρέχειν (run), and also in such words as κρούειν (strike), θραύειν (break), ἐρείκειν (rend), θρύπτειν (crush),κερματίζειν (crumble), ῥυμβεῖν (whirl), he expresses the action of them all chiefly by means of the letter rho; for he observed, I suppose, that the tongue is least at rest and most agitated in pronouncing this letter, and that is probably the reason why he employed it for these words. Iota again, he employs for everything subtle, which can most readily pass through all things.
 
-[427] Socrates. [427] [427a] Therefore he imitates the nature of ἰέναι (go) and ἵεσθαι (hasten) by means of iota, just as he has imitated all such notions as ψυχρόν (cold, shivering), ζέον (seething), σείεσθαι (shake), and σεισμός (shock) by means of phi, psi, sigma, and zeta, because those letters are pronounced with much breath. Whenever he imitates that which resembles blowing, the giver of names always appears to use for the most part such letters. And again he appears to have thought that the compression and pressure of the tongue in the pronunciation of delta and tau was naturally fitted [427b] to imitate the notion of binding and rest. And perceiving that the tongue has a gliding movement most in the pronunciation of lambda, he made the words λεῖα (level), ὀλισθάναιν (glide) itself, λιπαρόν (sleek), κολλῶδες (glutinous), and the like to conform to it. Where the gliding of the tongue is stopped by the sound of gamma he reproduced the nature of γλισχρόν (glutinous), γλυκύ (sweet), and γλοιῶδες (gluey). [427c] And again, perceiving that nu is an internal sound, he made the words ἔνδον (inside) and ἐντός (within), assimilating the meanings to the letters, and alpha again he assigned to greatness, and eta to length, because the letters are large. He needed the sign Ο for the expression of γόγγυλον (round), and made it the chief element of the word. And in this way the lawgiver appears to apply the other letters, making by letters and syllables a name for each and every thing, and from these names he compounds all the rest by imitation. [427d] This, Hermogenes, appears to me to be the theory of the correctness of names, unless, indeed, Cratylus has some other view.
+Socrates. [427a] Therefore he imitates the nature of ἰέναι (go) and ἵεσθαι (hasten) by means of iota, just as he has imitated all such notions as ψυχρόν (cold, shivering), ζέον (seething), σείεσθαι (shake), and σεισμός (shock) by means of phi, psi, sigma, and zeta, because those letters are pronounced with much breath. Whenever he imitates that which resembles blowing, the giver of names always appears to use for the most part such letters. And again he appears to have thought that the compression and pressure of the tongue in the pronunciation of delta and tau was naturally fitted [427b] to imitate the notion of binding and rest. And perceiving that the tongue has a gliding movement most in the pronunciation of lambda, he made the words λεῖα (level), ὀλισθάναιν (glide) itself, λιπαρόν (sleek), κολλῶδες (glutinous), and the like to conform to it. Where the gliding of the tongue is stopped by the sound of gamma he reproduced the nature of γλισχρόν (glutinous), γλυκύ (sweet), and γλοιῶδες (gluey). [427c] And again, perceiving that nu is an internal sound, he made the words ἔνδον (inside) and ἐντός (within), assimilating the meanings to the letters, and alpha again he assigned to greatness, and eta to length, because the letters are large. He needed the sign Ο for the expression of γόγγυλον (round), and made it the chief element of the word. And in this way the lawgiver appears to apply the other letters, making by letters and syllables a name for each and every thing, and from these names he compounds all the rest by imitation. [427d] This, Hermogenes, appears to me to be the theory of the correctness of names, unless, indeed, Cratylus has some other view.
 
 Hermogenes. Truly, Socrates, as I said in the beginning, Cratylus often troubles me a good deal; he declares that there is such a thing as correctness of names, but does not say clearly what it is; and so I cannot tell whether he speaks so obscurely about it on any given occasion intentionally or unintentionally. [427e] So now, Cratylus, tell me, in the presence of Socrates, do you like what Socrates says about names, or have you a better theory to propose? And if you have, tell us about it; then you will either learn from Socrates or instruct both him and me.
 
 Cratylus. But, Hermogenes, do you think it is an easy matter to learn or teach any subject so quickly, especially so important an one as this, which appears to me to be one of the most important?
 
-[428] Hermogenes. No, by Zeus, I do not. But I think Hesiod is right in saying:If you can only add little to little, it is worth while.Hes. WD 359 So now if you can make even a little progress, do not shirk the trouble, but oblige Socrates—you owe it to him—and me.
+[428a] Hermogenes. No, by Zeus, I do not. But I think Hesiod is right in saying:
+
+```verso
+If you can only add little to little, it is worth while.
+```
+
+[^21] So now if you can make even a little progress, do not shirk the trouble, but oblige Socrates—you owe it to him—and me.
 
 Socrates. For that matter, Cratylus, I would not positively affirm any of the things I have said. I merely expressed the opinions which I reached with the help of Hermogenes. So far as I am concerned, you need not hesitate, [428b] and if your view is better than mine, I will accept it. And I should not be at all surprised if it were better; for I think you have not only investigated such matters yourself but have been taught about them by others. So if you have any better theory to propound, put me down as one of your pupils in the course on the correctness of names.
 
-Cratylus. Yes, Socrates, I have, as you say, paid attention to these matters, and perhaps I might make you my pupil. However, I am afraid the opposite is the case, [428c] and I am impelled to say to you what Achilles says in the Prayers to Ajax. He says:Ajax, descendant of Zeus, son of Telamon, chief of thy people,All thou hast uttered is good in my sight and pleases my spirit.Hom. Il. 9.644 f And so, Socrates, your oracular utterances seem to me to be much to my mind, whether you are inspired by Euthyphro or some other Muse has dwelt within you all along without our knowing it. [428d]
+Cratylus. Yes, Socrates, I have, as you say, paid attention to these matters, and perhaps I might make you my pupil. However, I am afraid the opposite is the case, [428c] and I am impelled to say to you what Achilles says in the “Prayers” to Ajax. He says:
 
-Socrates. My excellent Cratylus, I myself have been marvelling at my own wisdom all along, and I cannot believe in it. So I think we ought to reexamine my utterances. For the worst of all deceptions is self-deception. How can it help being terrible, when the deceiver is always present and never stirs from the spot? So I think we must turn back repeatedly to what we have said and must try, as the poet says, to look both forwards and backwards.Hom. Il. 1.343; 3.109 [428e] Then let us now see what we have said. Correctness of a name, we say, is the quality of showing the nature of the thing named. Shall we call that a satisfactory statement?
+```verso
+Ajax, descendant of Zeus, son of Telamon, chief of thy people,
+All thou hast uttered is good in my sight and pleases my spirit.
+```
+
+[^22] And so, Socrates, your oracular utterances seem to me to be much to my mind, whether you are inspired by Euthyphro or some other Muse has dwelt within you all along without our knowing it. [428d]
+
+Socrates. My excellent Cratylus, I myself have been marvelling at my own wisdom all along, and I cannot believe in it. So I think we ought to reexamine my utterances. For the worst of all deceptions is self-deception. How can it help being terrible, when the deceiver is always present and never stirs from the spot? So I think we must turn back repeatedly to what we have said and must try, as the poet says, to look
+
+```verso
+both forwards and backwards.
+```
+
+[^23] [428e] Then let us now see what we have said. Correctness of a name, we say, is the quality of showing the nature of the thing named. Shall we call that a satisfactory statement?
 
 Cratylus. I am perfectly satisfied with it, Socrates.
 
@@ -1238,7 +1297,7 @@ Cratylus. Certainly.
 
 Socrates. Who are they?
 
-[429] Cratylus. The lawgivers, as you said in the beginning.
+[429a] Cratylus. The lawgivers, as you said in the beginning.
 
 Socrates. Shall we declare that this art arises in men like the other arts, or not? What I mean is this: Some painters are better, and others worse, are they not?
 
@@ -1280,11 +1339,11 @@ Socrates. Your reasoning is too clever for me at my age, my friend. However, tel
 
 Cratylus. Neither to speak nor to say it.
 
-Socrates. Nor utter it or use it as a form of address? For instance, if some one should meet you in hospitable fashion, should grasp your hand and say, Well met, my friend from Athens, son of Smicrion, Hermogenes, would he be saying or speaking or uttering or addressing these words not to you, but to Hermogenes—or to nobody?
+Socrates. Nor utter it or use it as a form of address? For instance, if some one should meet you in hospitable fashion, should grasp your hand and say, “Well met, my friend from Athens, son of Smicrion, Hermogenes,” would he be saying or speaking or uttering or addressing these words not to you, but to Hermogenes—or to nobody?
 
 Cratylus. I think, Socrates, the man would be producing sounds without sense.
 
-[430] Socrates. Even that reply is welcome; [430] [430a] for I can ask whether the words he produced would be true, or false, or partly true and partly false. Even that would suffice.
+Socrates. Even that reply is welcome; [430a] for I can ask whether the words he produced would be true, or false, or partly true and partly false. Even that would suffice.
 
 Cratylus. I should say that the man in such a case was merely making a noise, going through purposeless motions, as if he were beating a bronze pot.
 
@@ -1324,11 +1383,11 @@ Socrates. To put an end to contentious argument between you and me, [430d] since
 
 Cratylus. But it may be, Socrates, that this incorrect assignment is possible in the case of paintings, and not in the case of names, [430e] which must be always correctly assigned.
 
-Socrates. What do you mean? What difference is there between the two? Can I not step up to a man and say to him, This is your portrait, and show him perhaps his own likeness or, perhaps, that of a woman? And by show I mean bring before the sense of sight.
+Socrates. What do you mean? What difference is there between the two? Can I not step up to a man and say to him, “This is your portrait,” and show him perhaps his own likeness or, perhaps, that of a woman? And by “show” I mean bring before the sense of sight.
 
 Cratylus. Certainly.
 
-[431] Socrates. Well, then, can I not step up to the same man again and say, This is your name? A name is an imitation, just as a picture is. [431] [431a] Very well; can I not say to him, This is your name, and then bring before his sense of hearing perhaps the imitation of himself, saying that it is a man, or perhaps the imitation of the female of the human species, saying that it is a woman? Do you not believe that this is possible and sometimes happens?
+Socrates. Well, then, can I not step up to the same man again and say, “This is your name”? A name is an imitation, just as a picture is. [431a] Very well; can I not say to him, “This is your name,” and then bring before his sense of hearing perhaps the imitation of himself, saying that it is a man, or perhaps the imitation of the female of the human species, saying that it is a woman? Do you not believe that this is possible and sometimes happens?
 
 Cratylus. I am willing to concede it, Socrates, and grant that you are right.
 
@@ -1358,7 +1417,7 @@ Cratylus. Yes.
 
 Socrates. Perhaps, then, by Zeus, as is the case in the other arts, one lawgiver may be good and another bad, if we accept our previous conclusions.
 
-[432] Cratylus. That is true. But you see, Socrates, when by the science of grammar we assign these letters—alpha, beta, and the rest—to names, [432] [432a] if we take away or add or transpose any letter, it is not true that the name is written, but written incorrectly; it is not written at all, but immediately becomes a different word, if any such thing happens to it.
+Cratylus. That is true. But you see, Socrates, when by the science of grammar we assign these letters—alpha, beta, and the rest—to names, [432a] if we take away or add or transpose any letter, it is not true that the name is written, but written incorrectly; it is not written at all, but immediately becomes a different word, if any such thing happens to it.
 
 Socrates. Perhaps we are not considering the matter in the right way.
 
@@ -1376,11 +1435,11 @@ Socrates. Surely, Cratylus, the effect produced by the names upon the things of 
 
 Cratylus. Quite true.
 
-Socrates. Then do not be faint-hearted, but have the courage to admit that one name may be correctly and another incorrectly given; [432e] do not insist that it must have all the letters and be exactly the same as the thing named, but grant that an inappropriate letter may be employed. But if a letter, then grant that also a noun in a clause, and if a noun, then also a clause in a sentence may be employed which is not appropriate to the things in question, and the thing may none the less be named and described, so long as the intrinsic quality of the thing named is retained, [433] [433a] as is the case in the names of the letters of the alphabet, if you remember what Hermogenes and I were saying a while ago.
+Socrates. Then do not be faint-hearted, but have the courage to admit that one name may be correctly and another incorrectly given; [432e] do not insist that it must have all the letters and be exactly the same as the thing named, but grant that an inappropriate letter may be employed. But if a letter, then grant that also a noun in a clause, and if a noun, then also a clause in a sentence may be employed which is not appropriate to the things in question, and the thing may none the less be named and described, so long as the intrinsic quality of the thing named is retained, [433a] as is the case in the names of the letters of the alphabet, if you remember what Hermogenes and I were saying a while ago.
 
-[433] Cratylus. Yes, I remember.
+Cratylus. Yes, I remember.
 
-Socrates. Very well, then. So long as this intrinsic quality is present, even though the name have not all the proper letters, the thing will still be named; well, when it has all the proper letters; badly, when it has only a few of them. Let us, then, grant this, my friend, or we shall get into trouble, like the belated night wanderers in the road at Aegina,This seems to refer to some story unknown to us. and in very truth we shall be found to have arrived too late; [433b] otherwise you must look for some other principle of correctness in names, and must not admit that a name is the representation of a thing in syllables and letters. For if you maintain both positions, you cannot help contradicting yourself.
+Socrates. Very well, then. So long as this intrinsic quality is present, even though the name have not all the proper letters, the thing will still be named; well, when it has all the proper letters; badly, when it has only a few of them. Let us, then, grant this, my friend, or we shall get into trouble, like the belated night wanderers in the road at Aegina,[^24] and in very truth we shall be found to have arrived too late; [433b] otherwise you must look for some other principle of correctness in names, and must not admit that a name is the representation of a thing in syllables and letters. For if you maintain both positions, you cannot help contradicting yourself.
 
 Cratylus. Well, Socrates, I think what you say is reasonable, and I accept it.
 
@@ -1406,7 +1465,7 @@ Cratylus. Yes.
 
 Socrates. But if the primary names are to be representations of any things, can you suggest any better way of making them representations than by making them as much as possible like the things which they are to represent? [433e] Or do you prefer the theory advanced by Hermogenes and many others, who claim that names are conventional and represent things to those who established the convention and knew the things beforehand, and that convention is the sole principle of correctness in names, and it makes no difference whether we accept the existing convention or adopt an opposite one according to which small would be called great and great small? Which of these two theories do you prefer?
 
-[434] Cratylus. Representing by likeness the thing represented is absolutely and entirely superior to representation by chance signs.
+[434a] Cratylus. Representing by likeness the thing represented is absolutely and entirely superior to representation by chance signs.
 
 Socrates. You are right. Then if the name is like the thing, the letters of which the primary names are to be formed must be by their very nature like the things, must they not? Let me explain. Could a painting, to revert to our previous comparison, ever be made like any real thing, if there were no pigments out of which the painting is composed, [434b] which were by their nature like the objects which the painter’s art imitates? Is not that impossible?
 
@@ -1448,9 +1507,9 @@ Socrates. Excellent. However, do we not understand one another when anyone says 
 
 Cratylus. Yes, but that is by custom, my friend.
 
-Socrates. In saying custom do you think you are saying anything different from convention? Do you not mean by convention that when I speak I have a definite meaning and you recognize that I have that meaning? Is not that what you mean?
+Socrates. In saying “custom” do you think you are saying anything different from convention? Do you not mean by “convention” that when I speak I have a definite meaning and you recognize that I have that meaning? Is not that what you mean?
 
-[435] Cratylus. Yes.
+[435a] Cratylus. Yes.
 
 Socrates. Then if you recognize my meaning when I speak, that is an indication given to you by me.
 
@@ -1466,7 +1525,7 @@ Cratylus. You are perfectly right.
 
 Socrates. Now let us see what this manner of giving instruction is, to which you refer, and whether there is another method, but inferior to this, or there is no other at all. What do you think?
 
-[436] Cratylus. I think there is no other at all; this is both the best and the only method.
+[436a] Cratylus. I think there is no other at all; this is both the best and the only method.
 
 Socrates. Do you think this is also the method of discovering realities, and that he who has discovered the names has discovered also the things named; or do you think inquiry and discovery demand another method, and this belongs to instruction?
 
@@ -1486,7 +1545,7 @@ Cratylus. But, Socrates, surely that is not the case. [436c] He who gave the nam
 
 Socrates. But that, Cratylus, is no counter argument. For if the giver of names erred in the beginning [436d] and thenceforth forced all other names into agreement with his own initial error, there is nothing strange about that. It is just so sometimes in geometrical diagrams; the initial error is small and unnoticed, but all the numerous deductions are wrong, though consistent. Every one must therefore give great care and great attention to the beginning of any undertaking, to see whether his foundation is right or not. If that has been considered with proper care, everything else will follow. [436e] However, I should be surprised if names are really consistent. Let us review our previous discussion. Names, we said, indicate nature to us, assuming that all things are in motion and flux. Do you not think they do so?
 
-[437] Cratylus. Yes, and they indicate it correctly.
+[437a] Cratylus. Yes, and they indicate it correctly.
 
 Socrates. Let us first take up again the word ἐπιστήμη (knowledge) and see how ambiguous it is, seeming to indicate that it makes our soul stand still (ἵστησιν) at things, rather than that it is carried round with them, so it is better to speak the beginning of it as we now do than to insert the epsilon and say ἐπεϊστήμ; we should insert an iota rather than an epsilon. Then take βέβαιον (firm), which expresses position and rest, not motion. [437b] And ἱστορία (inquiry) means much the same, that it stops (ἵστησιν) the flow. And πιστόν (faithful) most certainly means that which stops (ἱστόν) motion. Then again, anyone can see that μνήμη (memory) expresses rest (μονή) in the soul, not motion. On the other hand, ἁμαρτία (error) and ξυμφορά (misfortune), if you consider merely the form of the names, will appear to be the same as σύνεσις (intellect) and ἐπιστήμη and all the other names of good significance. Moreover, ἀμαθία (ignorance) and ἀκολασία (unrestraint) also appear to be like them; for the former, ἀμαθία, [437c] seems to be τοῦ ἅμα θεῷ ἰόντος πορεία (the progress of one who goes with God), and ἀκολασία seems to be exactly ἀκολουθία τοῖς πράγμασιν (movement in company with things). And so names which we believe have the very worst meanings appear to be very like those which have the best. And I think we could, if we took pains, find many other words which would lead us to reverse our judgement and believe that the giver of names meant that things were not in progress or in motion, but were at rest.
 
@@ -1496,7 +1555,7 @@ Socrates. What of that, Cratylus? Are we to count names like votes, and shall co
 
 Cratylus. That is not reasonable.
 
-[438] Socrates. No, not in the least, my friend. [438] [438a] Now let us drop this and return to the point at which we digressed. A little while ago, you may remember, you said he who gave names must have known the things to which he gave them. Do you still hold that opinion, or not?
+Socrates. No, not in the least, my friend. [438a] Now let us drop this and return to the point at which we digressed. A little while ago, you may remember, you said he who gave names must have known the things to which he gave them. Do you still hold that opinion, or not?
 
 Cratylus. I do.
 
@@ -1532,7 +1591,7 @@ Socrates. What other way is left by which you could expect to know them? What ot
 
 Cratylus. I think that is true.
 
-[439] Socrates. Stop for Heaven’s sake! Did we not more than once agree that names which are rightly given are like the things named and are images of them?
+[439a] Socrates. Stop for Heaven’s sake! Did we not more than once agree that names which are rightly given are like the things named and are images of them?
 
 Cratylus. Yes.
 
@@ -1560,7 +1619,7 @@ Socrates. How, then, can that which is never in the same state be anything? For 
 
 Cratylus. It cannot do so at all.
 
-[440] Socrates. No, nor can it be known by anyone. [440] [440a] For at the moment when he who seeks to know it approaches, it becomes something else and different, so that its nature and state can no longer be known; and surely there is no knowledge which knows that which is in no state.
+Socrates. No, nor can it be known by anyone. [440a] For at the moment when he who seeks to know it approaches, it becomes something else and different, so that its nature and state can no longer be known; and surely there is no knowledge which knows that which is in no state.
 
 Cratylus. It is as you say.
 
@@ -1572,6 +1631,27 @@ Socrates. Some other time, then, my friend, you will teach me, when you come bac
 
 Cratylus. Very well, Socrates, and I hope you also will continue to think of these matters.
 
----
-
-*Ὁ Διαφορεύς παρῆν*
+[^1]: i.e. you are no son of Hermes. Hermes was the patron deity of traders, bankers, and the like, and Hermogenes, as is suggested below, was not successful as a moneymaker.
+[^2]: The doctrine here attributed to Euthydemus is not expressly enunciated by him in the dialogue which bears his name, but it is little more than a comprehensive statement of the several doctrines there proclaimed by him and his brother Dionysodorus.
+[^3]: Truth was the title of a book written by Protagoras.
+[^4]: Hom. Il. 21.342-380
+[^5]: Hom. Il. 20.74
+[^6]: Hom. Il. 14.291
+[^7]: Hom. Il. 2.813 f
+[^8]: Hom. Il. 22.506
+[^9]: Hom. Il. 22.507
+[^10]: But the verb is in the second person, addressed by Hecuba to Hector after his death.
+[^11]: In Plato’s time the names epsilon, ypsilon, omicron, and omega were not yet in vogue. The names used were εἶ, ὖ, οὖ,andὦ.
+[^12]: Hes. WD 122 ff
+[^13]: The old Attic alphabet was officially given up in favour of the Ionic alphabet in 404 or 403 B.C. The Attic for of the word hero is ἥρος, that of Eros ἔρως. Plato seems to think there was a change in pronunciation, as well as in spelling, and indeed that is quite possible. Or Plato may simply be confusing pronunciation with spelling, as he seems to do in several passages of this dialogue (cf. especially 410).
+[^14]: Hom. Il. 14.201, 302
+[^15]: Orpheus Fr
+[^16]: Cf. Hom. Il. 5.221, Hom. Il. 8.105.
+[^17]: The chorus of the primitive performances from which tragedy developed appeared as satyrs, clad in goat-skins. Hence the name τραγῳδία (goat-song). The adjective τραγικός may mean either goat-like or tragic. In this passage it has both meanings.
+[^18]: A trench was the limit of the leap for the pentathletes.
+[^19]: Hom. Il. 6.265
+[^20]: A proverbial expression.
+[^21]: Hes. WD 359
+[^22]: Hom. Il. 9.644 f
+[^23]: Hom. Il. 1.343; 3.109
+[^24]: This seems to refer to some story unknown to us.

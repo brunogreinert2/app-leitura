@@ -1,46 +1,42 @@
 ---
 id: plutarco-comparison-of-lysander-and-sulla-eng-bernadotte-perrin-1916
-type: texto_primario
-title: "Comparison of Lysander and Sulla"
-subtitle: null
+type: translation
+title: Comparison of Lysander and Sulla
 author: Plutarch
-year_original: null
-language: eng
-translation:
-  - Bernadotte Perrin
+translator:
+- Bernadotte Perrin
 publisher: Harvard University Press
-area: null
-era: null
-tags: []
-status: rascunho
+language: eng
+tags:
+- moralists
+status: draft
 project: pedra_angular
-source: "Plutarch. Comparison of Lysander and Sulla. Ed. Bernadotte Perrin. Cambridge, MA: Harvard University Press, 1916. Perseus Digital Library, Tufts University (CC BY-SA 4.0). URN: null"
-related: []
+urn_work: urn:cts:greekLit:tlg0007.tlg034
+urn: urn:cts:greekLit:tlg0007.tlg034.perseus-eng2
+source: 'Plutarch. Comparison of Lysander and Sulla. Ed. Bernadotte Perrin. Cambridge, MA: Harvard University Press, 1916. Perseus Digital Library, Tufts University (CC BY-SA 4.0).'
+source_repo: PerseusDL/canonical-greekLit
+source_file: data/tlg0007/tlg034/tlg0007.tlg034.perseus-eng2.xml
+source_commit: e37eed2e8
+license: CC-BY-SA-4.0
 ---
 
 # Comparison of Lysander and Sulla
 
-**Plutarch**
-
-Cambridge, MA: Harvard University Press, 1916.
-Perseus Digital Library, Tufts University (CC BY-SA 4.0).
-URN: `null`
-
----
-
-## Texto
-
-### Capítulo 1
+#### Capítulo 1
 
 [1.1] And now since we have completed this Life also, let us come at once to the Comparison. In this respect, then, they were alike, namely, that both were founders of their own greatness; but it was a peculiar virtue in Lysander that he obtained all his high offices with the consent of his fellow-citizens, and when affairs were in a sound condition; he did not force anything from them against their will, nor did he acquire any power which was contrary to the laws.
 
-[1.2] But in a time of sedition, the base man too is in honour,A proverb in hexameter verse, attributed to Callimachus of Alexandria. Plutarch uses it also in the Nicias, xi. 3, and in , Morals p. 479a. and so in Rome at that time, since the people was corrupt and their government in a distempered state, men of various origin rose to power. And it was no wonder that Sulla held sway, when such men as Glaucia and Saturninus drove such men as Metellus from the city, when sons of consuls were butchered in assemblies, when silver and gold purchased arms and men to wield them, and laws were enacted with fire and sword in defiance of all opposition.
+```verso
+[1.2] But in a time of sedition, the base man too is in honour,
+```
+
+[^1] and so in Rome at that time, since the people was corrupt and their government in a distempered state, men of various origin rose to power. And it was no wonder that Sulla held sway, when such men as Glaucia and Saturninus drove such men as Metellus from the city, when sons of consuls were butchered in assemblies, when silver and gold purchased arms and men to wield them, and laws were enacted with fire and sword in defiance of all opposition.
 
 [1.3] Now I do not blame the man who, in such a state of affairs, forced his way to supreme power; but I cannot regard his becoming first man, when the city was in such an evil plight, as a proof that he was also the best man. Whereas Lysander, since Sparta was at the height of good government and sobriety when she sent him forth upon the greatest commands and undertakings, was virtually decided to be first of her first men, and best of her best.
 
 [1.4] Lysander, therefore, though he often surrendered his power into the hands of his fellow-citizens, as often received it back again, since the honour accorded to virtue continued to rank highest in the state; but Sulla, when he had once been chosen leader of an army, remained in arms for ten years together, making himself now consul, and now dictator, but always being a usurper.
 
-### Capítulo 2
+#### Capítulo 2
 
 [2.1] It is true, indeed, that Lysander attempted, as I have said, to change the form of government, but it was by milder and more legal methods than Sulla’s; by persuasion, namely, not by force of arms, nor by subverting everything at once, as Sulla did, but by amending merely the appointment of the kings. And it seemed but natural justice, in a way, that the best of the best should rule in a city which had the leadership in Hellas by virtue of his excellence, and not of his noble birth.
 
@@ -50,19 +46,19 @@ URN: `null`
 
 [2.4] but Sulla cut down the number of Pompey’s soldiers out of jealousy, and tried to take away from Dolabella the naval command which he had given him, and when Lucretius Ofella sued for the consulship as a reward for many great services, ordered him to be slain before his eyes, causing all men to regard him with fear and horror because of his murdering his dearest friends.
 
-### Capítulo 3
+#### Capítulo 3
 
-[3.1] Still further, in their pursuit of riches and pleasures we discover that the purpose of one was more befitting a commander, that of the other more characteristic of a tyrant. For Lysander appears to have perpetrated no act of wantonness or youthful folly while he enjoyed such great authority and power, nay, if ever man did, he avoided the praise and reproach of the proverb: Lions at home, but foxes abroad; so sober, Spartan, and restrained was the way of life which he everywhere manifested.
+[3.1] Still further, in their pursuit of riches and pleasures we discover that the purpose of one was more befitting a commander, that of the other more characteristic of a tyrant. For Lysander appears to have perpetrated no act of wantonness or youthful folly while he enjoyed such great authority and power, nay, if ever man did, he avoided the praise and reproach of the proverb: “Lions at home, but foxes abroad”; so sober, Spartan, and restrained was the way of life which he everywhere manifested.
 
 [3.2] But Sulla allowed neither the poverty of his youth to set bounds to his desire; nor the years of his old age, but continued to introduce marriage and sumptuary laws for the citizens, while he himself was living in lewdness and adultery, as Sallust says. In these courses he so beggared and emptied the city of her wealth that he sold to allied and friendly cities their freedom and independence for money, although he was daily confiscating and selling at public auction the wealthiest and greatest estates.
 
-[3.3] Nay, there was no measuring what he lavishly squandered and threw away upon his flatterers. For what calculation or economy could be expected in his convivial associations and delights, when, on a public occasion, with the people standing about, at the sale of a large property, he ordered the crier to knock it down to one of his friends at a nominal price, and when another bidder raised the price and the crier announced the advance, he flew into a rage, saying: It is a dreadful wrong, my dear citizens, and a piece of usurpation, that I cannot dispose of my own spoils as I wish.
+[3.3] Nay, there was no measuring what he lavishly squandered and threw away upon his flatterers. For what calculation or economy could be expected in his convivial associations and delights, when, on a public occasion, with the people standing about, at the sale of a large property, he ordered the crier to knock it down to one of his friends at a nominal price, and when another bidder raised the price and the crier announced the advance, he flew into a rage, saying: “It is a dreadful wrong, my dear citizens, and a piece of usurpation, that I cannot dispose of my own spoils as I wish.”
 
 [3.4] But Lysander sent home for public use even the presents which had been given to him along with the rest of his spoils. Not that I commend what he did; for he, perhaps, by his acquisition of money for Sparta, injured her more than Sulla injured Rome by robbing her of it; but I offer this as a proof of the man’s indifference to riches.
 
 [3.5] Moreover, each had a peculiar experience with his own city. Sulla, who knew no restraint in his extravagance, tried to bring the citizens into ways of sobriety; while Lysander filled his city with the passions to which he himself was a stranger. The former erred, therefore, in falling below the standard of his own laws; the latter, in causing the citizens to fall below his own standard, since he taught Sparta to want what he himself had learned not to want. Such was their influence as statesmen.
 
-### Capítulo 4
+#### Capítulo 4
 
 [4.1] But as regards contests in war, achievements in generalship, number of trophies, and magnitude of dangers encountered, Sulla is beyond compare. Lysander, it is true, won two victories in as many naval battles; and I will add to his exploits his siege of Athens, which was really not a great affair, although the reputation of it was most brilliant.
 
@@ -70,11 +66,17 @@ URN: `null`
 
 [4.3] But Lysander threw away his life in gloriously, like a common targeteer or skirmisher, and bore witness to the wisdom of the ancient Spartans in avoiding assaults on walled cities, where not only an ordinary man, but even a child or a woman may chance to smite and slay the mightiest warrior, as Achilles, they say, was slain by Paris at the gates.
 
-[4.4] In Sulla’s case, at any rate, it is no easy matter even to enumerate the pitched battles which he won and the myriads of enemies whom he slew; Rome itself he captured twice, and he took the Piraeus of Athens, not by famine, as Lysander did, but by a series of great battles, after he had driven Archelaüs from the land to the sea. It is important, too, that we consider the character of their antagonists. For I think it was the merest child’s play to win a sea-fight against Antiochius, Alcibiades’ pilot, or to outwit Philocles, the Athenian demagogue, Inglorious foe, whose only weapon is a sharpened tongue;An iambic trimeter of unknown authorship (Nauck, Trag. Graec. Frag.2 p. 921). such men as these Mithridates would not have deigned to compare with his groom, nor Marius with his lictor.
+[4.4] In Sulla’s case, at any rate, it is no easy matter even to enumerate the pitched battles which he won and the myriads of enemies whom he slew; Rome itself he captured twice, and he took the Piraeus of Athens, not by famine, as Lysander did, but by a series of great battles, after he had driven Archelaüs from the land to the sea. It is important, too, that we consider the character of their antagonists. For I think it was the merest child’s play to win a sea-fight against Antiochius, Alcibiades’ pilot, or to outwit Philocles, the Athenian demagogue,
+
+```verso
+Inglorious foe, whose only weapon is a sharpened tongue;[^2]
+```
+
+such men as these Mithridates would not have deigned to compare with his groom, nor Marius with his lictor.
 
 [4.5] But of the dynasts, consuls, generals, and demagogues who lifted themselves against Sulla, to pass by the rest, who among the Romans was more formidable than Marius? who among the kings was more powerful than Mithridates? who among the Italians was more warlike than Lamponius and Telesinus? And yet Sulla banished the first of these, subdued the second, and slew the others.
 
-### Capítulo 5
+#### Capítulo 5
 
 [5.1] But what is of more weight, in my opinion, than any thing yet mentioned, Lysander achieved all his successes with the co-operation of the authorities at home; whereas Sulla, though he was overpowered by a hostile faction, and an exile, at a time when his wife was being driven from home, his house being demolished, and his friends being slain, when he himself, too, was confronting countless myriads of enemies in Boeotia and risking his life for his country, set up his trophy of victory;
 
@@ -86,6 +88,5 @@ URN: `null`
 
 [5.5] We may now consider whether we shall err very much from the truth in pronouncing our verdict that Sulla won the more successes, while Lysander had the fewer failings; and in giving to the one the preeminence in self-control and moderation, to the other, in generalship and valour.
 
----
-
-*Ὁ Διαφορεύς παρῆν*
+[^1]: A proverb in hexameter verse, attributed to Callimachus of Alexandria. Plutarch uses it also in the Nicias, xi. 3, and in , Morals p. 479a.
+[^2]: An iambic trimeter of unknown authorship (Nauck, Trag. Graec. Frag.2 p. 921).

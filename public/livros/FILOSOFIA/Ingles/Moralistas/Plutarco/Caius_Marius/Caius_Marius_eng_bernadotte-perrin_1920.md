@@ -1,62 +1,54 @@
 ---
 id: plutarco-caius-marius-eng-bernadotte-perrin-1920
-type: texto_primario
-title: "Caius Marius"
-subtitle: null
+type: translation
+title: Caius Marius
 author: Plutarch
-year_original: null
-language: eng
-translation:
-  - Bernadotte Perrin
+translator:
+- Bernadotte Perrin
 publisher: Harvard University Press
-area: null
-era: null
-tags: []
-status: rascunho
+language: eng
+tags:
+- moralists
+status: draft
 project: pedra_angular
-source: "Plutarch. Caius Marius. Ed. Bernadotte Perrin. Cambridge, MA: Harvard University Press, 1920. Perseus Digital Library, Tufts University (CC BY-SA 4.0). URN: null"
-related: []
+urn_work: urn:cts:greekLit:tlg0007.tlg031
+urn: urn:cts:greekLit:tlg0007.tlg031.perseus-eng2
+source: 'Plutarch. Caius Marius. Ed. Bernadotte Perrin. Cambridge, MA: Harvard University Press, 1920. Perseus Digital Library, Tufts University (CC BY-SA 4.0).'
+source_repo: PerseusDL/canonical-greekLit
+source_file: data/tlg0007/tlg031/tlg0007.tlg031.perseus-eng2.xml
+source_commit: e37eed2e8
+license: CC-BY-SA-4.0
 ---
 
 # Caius Marius
 
-**Plutarch**
-
-Cambridge, MA: Harvard University Press, 1920.
-Perseus Digital Library, Tufts University (CC BY-SA 4.0).
-URN: `null`
-
----
-
-## Texto
-
-### Capítulo 1
+#### Capítulo 1
 
 [1.1] Of a third name for Caius Marius we are ignorant, as we are in the case of Quintus Sertorius the subduer of Spain, and of Lucius Mummius the captor of Corinth; for Mummius received the surname of Achaïcus from his great exploit, as Scipio received that of Africanus, and Metellus that of Macedonicus.
 
 [1.2] From this circumstance particularly Poseidonius thinks to confute those who hold that the third name is the Roman proper name, as, for instance, Camillus, Marcellus, or Cato; for if that were so, he says, then those with only two names would have had no proper name at all. But it escapes his notice that his own line of reasoning, if extended to women, robs them of their proper names; for no woman is given the first name, which Poseidonius thinks was the proper name among the Romans.
 
-[1.3] Moreover, of the other two names, one was common to the whole family, as in the case of the Pompeii, the Manlii, or the Cornelii (just as a Greek might speak of the Heracleidae or the Pelopidae), and the other was a cognomen or epithet, given with reference to their natures or their actions, or to their bodily appearances or defects, Macrinus, for example, or Torquatus, or Sulla (like the Greek Mnemon, Grypus, or Callinicus).The full name of a Roman citizen consisted of a praenomen (the given, or proper name), a nomen designating his family or gens, and a cognomen, which was also hereditary. Women rarely had a praenomen, or proper name, but bore the family name only. However, in these matters the irregularity of custom furnishes many topics for discussion.
+[1.3] Moreover, of the other two names, one was common to the whole family, as in the case of the Pompeii, the Manlii, or the Cornelii (just as a Greek might speak of the Heracleidae or the Pelopidae), and the other was a cognomen or epithet, given with reference to their natures or their actions, or to their bodily appearances or defects, Macrinus, for example, or Torquatus, or Sulla (like the Greek Mnemon, Grypus, or Callinicus).[^1] However, in these matters the irregularity of custom furnishes many topics for discussion.
 
-### Capítulo 2
+#### Capítulo 2
 
 [2.1] As for the personal appearance of Marius, we have seen a marble statue of him at Ravenna in Gaul, and it very well portrays the harshness and bitterness of character which are ascribed to him. For since he was naturally virile and fond of war, and since he received a training in military rather than in civil life, his temper was fierce when he came to exercise authority.
 
 [2.2] Moreover, we are told that he never studied Greek literature, and never used the Greek language for any matter of real importance, thinking it ridiculous to study a literature the teachers of which were the subjects of another people; and when, after his second triumph and at the consecration of some temple, he furnished the public with Greek spectacles, though he came into the theatre, he merely sat down, and at once went away.
 
-[2.3] Accordingly, just as Plato was wont to say often to Xenocrates the philosopher, who had the reputation of being rather morose in his disposition, My good Xenocrates, sacrifice to the Graces, so if Marius could have been persuaded to sacrifice to the Greek Muses and Graces, he would not have put the ugliest possible crown upon a most illustrious career in field and forum, nor have been driven by the blasts of passion, ill-timed ambition, and insatiable greed upon the shore of a most cruel and savage old age. However, his actual career shall at once bring this into clear view.
+[2.3] Accordingly, just as Plato was wont to say often to Xenocrates the philosopher, who had the reputation of being rather morose in his disposition, “My good Xenocrates, sacrifice to the Graces,” so if Marius could have been persuaded to sacrifice to the Greek Muses and Graces, he would not have put the ugliest possible crown upon a most illustrious career in field and forum, nor have been driven by the blasts of passion, ill-timed ambition, and insatiable greed upon the shore of a most cruel and savage old age. However, his actual career shall at once bring this into clear view.
 
-### Capítulo 3
+#### Capítulo 3
 
-[3.1] Born of parents who were altogether obscure—poor people who lived by the labour of their own hands (Marius was his father’s name, Fulcinia that of his mother), it was not till late that he saw the city or got a taste of city ways. In the meantime he lived at Cirrhaeaton,Probably a corruption for Cereatae. a village in the territory of Arpinum, in a manner that was quite rude when compared with the polished life of a city, but temperate, and in harmony with the rearing which the ancient Romans gave their children.
+[3.1] Born of parents who were altogether obscure—poor people who lived by the labour of their own hands (Marius was his father’s name, Fulcinia that of his mother), it was not till late that he saw the city or got a taste of city ways. In the meantime he lived at Cirrhaeaton,[^2] a village in the territory of Arpinum, in a manner that was quite rude when compared with the polished life of a city, but temperate, and in harmony with the rearing which the ancient Romans gave their children.
 
-[3.2] His first service as a soldier was in a campaign against the Celtiberians, when Scipio Africanus was besieging Numantia,134-133 B.C. and he attracted the notice of his general by excelling the other young men in bravery, and by his very cheerful acceptance of the changed regimen which Scipio introduced into his army when it was spoiled by luxury and extravagance. It is said, too, that he encountered and laid low an enemy in the sight of his general.
+[3.2] His first service as a soldier was in a campaign against the Celtiberians, when Scipio Africanus was besieging Numantia,[^3] and he attracted the notice of his general by excelling the other young men in bravery, and by his very cheerful acceptance of the changed regimen which Scipio introduced into his army when it was spoiled by luxury and extravagance. It is said, too, that he encountered and laid low an enemy in the sight of his general.
 
-[3.3] Therefore he was advanced by his commander to many honours; and once, when the talk after supper had to do with generals, and one of the company (either because he really wished to know or merely sought to please) asked Scipio where the Roman people would find any such chieftain and leader to follow him, Scipio, gently tapping Marius on the shoulder as he reclined next him, said, Here, perhaps. So gifted by nature were both men; the one in showing himself great while still a young man, and the other in discerning the end from the beginning.
+[3.3] Therefore he was advanced by his commander to many honours; and once, when the talk after supper had to do with generals, and one of the company (either because he really wished to know or merely sought to please) asked Scipio where the Roman people would find any such chieftain and leader to follow him, Scipio, gently tapping Marius on the shoulder as he reclined next him, said, “Here, perhaps.” So gifted by nature were both men; the one in showing himself great while still a young man, and the other in discerning the end from the beginning.
 
-### Capítulo 4
+#### Capítulo 4
 
-[4.1] So, then, Marius, filled with high hopes, we are told, by this speech of Scipio in particular, as if it were a divine utterance in prophecy, set out upon a political career, and was made tribune of the peopleIn 119 B.C., at the age of thirty-eight. with the assistance of Caecilius Metellus, of whose house he had always been an hereditary adherent.
+[4.1] So, then, Marius, filled with high hopes, we are told, by this speech of Scipio in particular, as if it were a divine utterance in prophecy, set out upon a political career, and was made tribune of the people[^4] with the assistance of Caecilius Metellus, of whose house he had always been an hereditary adherent.
 
 [4.2] While serving as tribune he introduced a law concerning the mode of voting, which, as it was thought, would lessen the power of the nobles in judicial cases; whereupon Cotta the consul opposed him and persuaded the senate to contest the law, and to summon Marius before it to explain his procedure. The senate voted to do this, and Marius appeared before it. He did not, however, behave like a young man who had just entered political life without any brilliant services behind him, but assumed at once the assurance which his subsequent achievements gave him, and threatened to hale Cotta off to prison unless he had the vote rescinded.
 
@@ -64,11 +56,11 @@ URN: `null`
 
 [4.4] However, this opinion was quickly modified by another political procedure of his. For when a law was introduced providing for the distribution of grain to the citizens, he opposed it most strenuously and carried the day, thereby winning for himself an equal place in the esteem of both parties as a man who favoured neither at the expense of the general good.
 
-### Capítulo 5
+#### Capítulo 5
 
-[5.1] After his tribuneship, he became a candidate for the higher aedileship. For there are two classes of aediles, one taking its name of curule from the chairs with curving feet on which the magistrates sit in the exercise of their functions, the other, and the inferior, being called plebeian. When the superior aediles have been elected, the people cast a second vote for the others.
+[5.1] After his tribuneship, he became a candidate for the higher aedileship. For there are two classes of aediles, one taking its name of “curule” from the chairs with curving feet on which the magistrates sit in the exercise of their functions, the other, and the inferior, being called “plebeian.” When the superior aediles have been elected, the people cast a second vote for the others.
 
-[5.2] Accordingly, when it was clear that Marius was losing his election to the higher office, he immediately changed his tactics and applied for the other. But men thought him bold and obstinate, and he was defeated; nevertheless, although he had met with two failures in one day, a thing which had never happened to any candidate before, he did not lower his assurance in the least, but not long afterwards became a candidate for the praetorshipIn 115 B.C. and narrowly missed defeat; he was returned last of all, and was prosecuted for bribery.
+[5.2] Accordingly, when it was clear that Marius was losing his election to the higher office, he immediately changed his tactics and applied for the other. But men thought him bold and obstinate, and he was defeated; nevertheless, although he had met with two failures in one day, a thing which had never happened to any candidate before, he did not lower his assurance in the least, but not long afterwards became a candidate for the praetorship[^5] and narrowly missed defeat; he was returned last of all, and was prosecuted for bribery.
 
 [5.3] Suspicion was chiefly aroused by the sight of a servant of Cassius Sabaco inside the palings among the voters; for Sabaco was an especial friend of Marius. Sabaco was therefore summoned before the court, and testified that the heat had made him so thirsty that he had called for cold water, and that his servant had come in to him with a cup, and had then at once gone away after his master had drunk.
 
@@ -76,17 +68,17 @@ URN: `null`
 
 [5.5] The jurors accepted this plea in avoidance of testimony, but Marius himself contradicted Herennius, declaring that as soon as he had been elected to his magistracy he had ceased to be a client; which was not altogether true. For it is not every magistracy that frees its occupants (as well as their posterity) from their relations to a patron, but only that to which the law assigns the curule chair. However, although during the first days of the trial Marius fared badly and found the jurors severe towards him, on the last day, contrary to all expectation, there was a tie vote and he was acquitted.
 
-### Capítulo 6
+#### Capítulo 6
 
 [6.1] Well, then, for his praetorship Marius got only moderate commendation. After his praetorship, however, the province of Farther Spain was allotted to him, and here he is said to have cleared away the robbers, although the province was still uncivilized in its customs and in a savage state, and robbery was at that time still considered a most honourable occupation by the Spaniards. But when he returned to political life, he had neither wealth nor eloquence, with which the magnates of the time used to influence the people.
 
-[6.2] Still, the very intensity of his assurance, his indefatigable labours, and his plain and simple way of living, won him a certain popularity among his fellow citizens, and his honours brought him increasing influence, so that he married into the illustrious family of the Caesars and became the husband of Julia, who was the aunt of that Caesar who in after times became greatest among the Romans, and in some degree, because of his relationship, made Marius his example, as I have stated in his Life.See the Caesar , v. 1 f.
+[6.2] Still, the very intensity of his assurance, his indefatigable labours, and his plain and simple way of living, won him a certain popularity among his fellow citizens, and his honours brought him increasing influence, so that he married into the illustrious family of the Caesars and became the husband of Julia, who was the aunt of that Caesar who in after times became greatest among the Romans, and in some degree, because of his relationship, made Marius his example, as I have stated in his Life.[^6]
 
 [6.3] There is testimony both to the temperance of Marius, and also to his fortitude, of which his behaviour under a surgical operation is a proof. He was afflicted in both legs, as it would appear, with varicose veins, and as he disliked the deformity, he resolved to put himself into the physician’s hands. Refusing to be bound, he presented to him one leg, and then, without a motion or a groan, but with a steadfast countenance and in silence, endured incredible pain under the knife. When, however, the physician was proceeding to treat the other leg, Marius would suffer him no further, declaring that he saw the cure to be not worth the pain.
 
-### Capítulo 7
+#### Capítulo 7
 
-[7.1] When Caecilius Metellus the consul was appointed commander-in-chief for the war against Jugurtha,In 109 B.C. he took Marius with him to Africa in the capacity of legate. Here, in essaying great exploits and brilliant struggles, Marius was not careful, like the rest, to enhance the glory of Metellus and conduct himself in his interests; and deeming that he had not so much been called by Metellus to the office of legate as he was being introduced by Fortune into a most favourable opportunity as well as a most spacious theatre for exploits, he made a display of every sort of bravery.
+[7.1] When Caecilius Metellus the consul was appointed commander-in-chief for the war against Jugurtha,[^7] he took Marius with him to Africa in the capacity of legate. Here, in essaying great exploits and brilliant struggles, Marius was not careful, like the rest, to enhance the glory of Metellus and conduct himself in his interests; and deeming that he had not so much been called by Metellus to the office of legate as he was being introduced by Fortune into a most favourable opportunity as well as a most spacious theatre for exploits, he made a display of every sort of bravery.
 
 [7.2] And though the war brought many hardships, he neither shunned any great labour, nor disdained any that were small, but surpassed the officers of his own rank in giving good counsel and foreseeing what was advantageous, and vied with the common soldiers in frugality and endurance, thereby winning much goodwill among them.
 
@@ -94,21 +86,21 @@ URN: `null`
 
 [7.4] By doing all these things and thereby winning the hearts of the soldiers, Marius soon filled Africa, and soon filled Rome, with his name and fame, and men in the camp wrote to those at home that there would be no end or cessation of the war against the Barbarian unless they chose Caius Marius consul.
 
-### Capítulo 8
+#### Capítulo 8
 
 [8.1] At all this Metellus was evidently displeased. But it was the affair of Turpillius that most vexed him. This Turpillius was an hereditary guest-friend of Metellus, and at this time was serving in his army as chief of engineers. But he was put in charge of Vaga, a large city, and because he relied for safety on his doing the inhabitants no wrong, but rather treating them with kindness and humanity, he unawares came into the power of the enemy; for they admitted Jugurtha into their city. Still, they did Turpillius no harm, but obtained his release and sent him away safe and sound.
 
 [8.2] Accordingly, a charge of treachery was brought against him; and Marius, who was a member of the council which tried the case, was himself bitter, and exasperated most of the others against the accused, so that Metellus was reluctantly forced to pass sentence of death upon him. After a short time, however, the charge was found to be false, and almost everybody sympathized with Metellus in his grief; but Marius, full of joy and claiming the condemnation as his own work, was not ashamed to go about saying that he had fastened upon the path of Metellus a daemon who would avenge the murder of a guest-friend.
 
-[8.3] In consequence of this there was open enmity between the two men; and we are told that on one occasion when Marius was present Metellus said to him as if in mockery: Dost thou purpose to leave us, my good Sir, and sail for home, and stand for the consulship? Pray will it not satisfy thee to be fellow-consul with this my son? Now the son of Metellus was at this time a mere stripling.
+[8.3] In consequence of this there was open enmity between the two men; and we are told that on one occasion when Marius was present Metellus said to him as if in mockery: “Dost thou purpose to leave us, my good Sir, and sail for home, and stand for the consulship? Pray will it not satisfy thee to be fellow-consul with this my son?” Now the son of Metellus was at this time a mere stripling.
 
 [8.4] However, Marius was eager to be dismissed, and so, after making many postponements, and when only twelve days remained before the election of consuls, Metellus dismissed him. Marius accomplished the long journey from the camp to Utica and the sea in two days and one night, and offered sacrifice before he sailed. And the seer is said to have told him that the Deity revealed for Marius successes that were of incredible magnitude and beyond his every expectation.
 
 [8.5] Elated by this prophecy he put to sea. In three days he crossed the sea with a favouring wind, and was at once welcomed gladly by the populace, and after being introduced to the assembly by one of the tribunes, he first made many slanderous charges against Metellus, and then asked for the consulship, promising that he would either kill Jugurtha or take him alive.
 
-### Capítulo 9
+#### Capítulo 9
 
-[9.1] He was triumphantly elected,For the year 107 B.C., at the age of fifty. and at once began to levy troops. Contrary to law and custom he enlisted many a poor and insignificant man, although former commanders had not accepted such persons, but bestowed arms, just as they would any other honour, only on those whose property assessment made them worthy to receive these, each soldier being supposed to put his substance in pledge to the state.
+[9.1] He was triumphantly elected,[^8] and at once began to levy troops. Contrary to law and custom he enlisted many a poor and insignificant man, although former commanders had not accepted such persons, but bestowed arms, just as they would any other honour, only on those whose property assessment made them worthy to receive these, each soldier being supposed to put his substance in pledge to the state.
 
 [9.2] It was not this, however, that brought most odium upon Marius, but the boldly insolent and arrogant speeches with which he vexed the nobles, crying out that he had carried off the consulship as spoil from the effeminacy of the rich and well-born, and that he had wounds upon his own person with which to vaunt himself before the people, not monuments of the dead nor likenesses of other men.
 
@@ -116,11 +108,11 @@ URN: `null`
 
 [9.4] Such talk was not mere empty boasting, nor was his desire to make himself hated by the nobility without purpose; indeed the people, who were delighted to have the senate insulted and always measured the greatness of a man’s spirit by the boastfulness of his speech, encouraged him, and incited him not to spare men of high repute if he wished to please the multitude.
 
-### Capítulo 10
+#### Capítulo 10
 
 [10.1] When he had crossed to Africa, Metellus, now become a victim of jealousy, and vexed because, after he had brought the war to an end and had nothing further to do except to seize the person of Jugurtha, Marius was coming to enjoy the crown and the triumph,—a man whose ingratitude towards his benefactor had raised him to power,—would not consent to meet him, but privately left the country while Rutilius, who had become his legate, handed over the army to Marius.
 
-[10.2] And in the end a retribution fell upon Marius; for Sulla robbed him of the glory of his success, as Marius had robbed Metellus. How this came to pass, I will narrate briefly, since the details are given more at length in my Life of Sulla. Chapter iii. Bocchus, the king of the Barbarians in the interior, was a son-in-law of Jugurtha, and apparently gave him little or no assistance in his war, alleging his faithlessness as an excuse, and fearing the growth of his power.
+[10.2] And in the end a retribution fell upon Marius; for Sulla robbed him of the glory of his success, as Marius had robbed Metellus. How this came to pass, I will narrate briefly, since the details are given more at length in my Life of Sulla.[^9] Bocchus, the king of the Barbarians in the interior, was a son-in-law of Jugurtha, and apparently gave him little or no assistance in his war, alleging his faithlessness as an excuse, and fearing the growth of his power.
 
 [10.3] But when Jugurtha in his flight and wandering felt compelled to make him his last hope and sought haven with him, Bocchus received him, more out of regard for his position as a suppliant than from goodwill, and kept him in his hands. So far as his open acts were concerned, Bocchus entreated Marius in behalf of his father-in-law, writing that he would not give him up and assuming a bold tone; but secretly he planned to betray him, and sent for Lucius Sulla, who was quaestor for Marius and had been of some service to Bocchus during the campaign.
 
@@ -130,9 +122,9 @@ URN: `null`
 
 [10.6] By constantly using this ring Sulla provoked Marius, who was an ambitious man, loath to share his glory with another, and quarrelsome. And the enemies of Marius gave Sulla most encouragement, by attributing the first and greatest successes of the war to Metellus, but the last, and the termination of it, to Sulla, that so the people might cease admiring Marius and giving him their chief allegiance.
 
-### Capítulo 11
+#### Capítulo 11
 
-[11.1] Soon, however, all this envy and hatred and slander of Marius was removed and dissipated by the peril which threatened Italy from the west, as soon as the state felt the need of a great general and looked about for a helmsman whom she might employ to save her from so great a deluge of war. Then the people would have nothing to do with anyone of high birth or of a wealthy house who offered himself at the consular elections, but proclaimed Marius consulFor the year 104 B.C. in spite of his absence from the city.
+[11.1] Soon, however, all this envy and hatred and slander of Marius was removed and dissipated by the peril which threatened Italy from the west, as soon as the state felt the need of a great general and looked about for a helmsman whom she might employ to save her from so great a deluge of war. Then the people would have nothing to do with anyone of high birth or of a wealthy house who offered himself at the consular elections, but proclaimed Marius consul[^10] in spite of his absence from the city.
 
 [11.2] For no sooner had word been brought to the people of the capture of Jugurtha than the reports about the Teutones and Cimbri fell upon their ears. What these reports said about the numbers and strength of the invading hosts was disbelieved at first, but afterwards it was found to be short of the truth. For three hundred thousand armed fighting men were advancing, and much larger hordes of women and children were said to accompany them, in quest of land to support so vast a multitude, and of cities in which to settle and live, just as the Gauls before them, as they learned, had wrested the best part of Italy from the Tyrrhenians and now occupied it.
 
@@ -142,7 +134,7 @@ URN: `null`
 
 [11.5] Therefore, while they had many names for different detachments, they called their whole army by the general name of Galloscythians. Others, however, say that the Cimmerians who were first known to the ancient Greeks were not a large part of the entire people, but merely a body of exiles or a faction which was driven away by the Scythians and passed from the Maeotic Lake into Asia under the lead of Lygdamis; whereas the largest and most warlike part of the people dwelt at the confines of the earth along the outer sea, occupying a land that is shaded, wooded, and wholly sunless by reason of the height and thickness of the trees, which reach inland as far as the Hercynii;
 
-[11.6] and as regards the heavens, they are under that portion of them where the pole gets a great elevation by reason of the declination of the parallels, and appears to have a position not far removed from the spectator’s zenith, and a day and a night divide the year into two equal parts; which was of advantage to Homer in his story of Odysseus consulting the shades of the dead. Odyssey , Book XI. See vv. 14 ff. , describing the Cimmerians.
+[11.6] and as regards the heavens, they are under that portion of them where the pole gets a great elevation by reason of the declination of the parallels, and appears to have a position not far removed from the spectator’s zenith, and a day and a night divide the year into two equal parts; which was of advantage to Homer in his story of Odysseus consulting the shades of the dead.[^11]
 
 [11.7] From these regions, then, these Barbarians sallied forth against Italy, being called at first Cimmerians, and then, not inappropriately, Cimbri. But all this is based on conjecture rather than on sure historical evidence.
 
@@ -150,25 +142,25 @@ URN: `null`
 
 [11.9] indeed, by their feeble resistance they were mainly instrumental in drawing the on-rushing Barbarians down upon Rome. For when the invaders had conquered those who opposed them, and had got abundance of booty, they determined not to settle themselves anywhere until they had destroyed Rome and ravaged Italy.
 
-### Capítulo 12
+#### Capítulo 12
 
-[12.1] Learning of these things from many quarters, the Romans summoned Marius to the command. And he was appointed consul for the second time, See chapter xi. 1. Marius was still in Africa. although the law forbade that a man in his absence and before the lapse of a specified time should be elected again; still, the people would not listen to those who opposed the election. For they considered that this would not be the first time that the law had given way before the demands of the general good, and that the present occasion demanded it no less imperatively than when they had made Scipio consul contrary to the laws,In 147 B.C., when Scipio had not reached the age required by law. although at that time they were not fearful of losing their own city, but desirous of destroying that of the Carthaginians.
+[12.1] Learning of these things from many quarters, the Romans summoned Marius to the command. And he was appointed consul for the second time,[^12] although the law forbade that a man in his absence and before the lapse of a specified time should be elected again; still, the people would not listen to those who opposed the election. For they considered that this would not be the first time that the law had given way before the demands of the general good, and that the present occasion demanded it no less imperatively than when they had made Scipio consul contrary to the laws,[^13] although at that time they were not fearful of losing their own city, but desirous of destroying that of the Carthaginians.
 
 [12.2] This course was adopted, Marius came across the sea from Africa with his army, and on the very Calends of January, which with the Romans is the first day of the year, assumed the consulship and celebrated his triumph, exhibiting to the Romans Jugurtha in chains. This was a sight which they had despaired of beholding, nor could any one have expected, while Jugurtha was alive, to conquer the enemy; so versatile was he in adapting himself to the turns of fortune, and so great craft did he combine with his courage.
 
-[12.3] But we are told that when he had been led in triumph he lost his reason; and that when, after the triumph, he was cast into prison, where some tore his tunic from his body, and others were so eager to snatch away his golden earring that they tore off with it the lobe of his ear, and when he had been thrust down naked into the dungeon pit, in utter bewilderment and with a grin on his lips he said: Hercules! How cold this Roman bath is!
+[12.3] But we are told that when he had been led in triumph he lost his reason; and that when, after the triumph, he was cast into prison, where some tore his tunic from his body, and others were so eager to snatch away his golden earring that they tore off with it the lobe of his ear, and when he had been thrust down naked into the dungeon pit, in utter bewilderment and with a grin on his lips he said: “Hercules! How cold this Roman bath is!”
 
 [12.4] But the wretch, after struggling with hunger for six days and up to the last moment clinging to the desire of life, paid the penalty which his crimes deserved. In the triumphal procession there were carried, we are told, three thousand and seven pounds of gold, of uncoined silver five thousand seven hundred and seventy-five, and in coined money two hundred and eighty-seven thousand drachmas.
 
 [12.5] After the procession was over, Marius called the senate into session on the Capitol, and made his entry, either through inadvertence or with a vulgar display of his good fortune, in his triumphal robes; but perceiving quickly that the senators were offended at this, he rose and went out, changed to the usual robe with purple border, and then came back.
 
-### Capítulo 13
+#### Capítulo 13
 
 [13.1] Setting out on the expedition, he laboured to perfect his army as it went along, practising the men in all kinds of running and in long marches, and compelling them to carry their own baggage and to prepare their own food. Hence, in after times, men who were fond of toil and did whatever was enjoined upon them contentedly and without a murmur, were called Marian mules. Some, however, think that this name had a different origin.
 
-[13.2] Namely, when Scipio was besieging Numantia,Cf. chapter iii. 2 . he wished to inspect not only the arms and the horses, but also the mules and the waggons, that every man might have them in readiness and good order. Marius, accordingly, brought out for inspection both a horse that had been most excellently taken care of by him, and a mule that for health, docility, and strength far surpassed all the rest. The commanding officer was naturally well pleased with the beasts of Marius and often spoke about them, so that in time those who wanted to bestow facetious praise on a persevering, patient, laborious man would call him a Marian mule.
+[13.2] Namely, when Scipio was besieging Numantia,[^14] he wished to inspect not only the arms and the horses, but also the mules and the waggons, that every man might have them in readiness and good order. Marius, accordingly, brought out for inspection both a horse that had been most excellently taken care of by him, and a mule that for health, docility, and strength far surpassed all the rest. The commanding officer was naturally well pleased with the beasts of Marius and often spoke about them, so that in time those who wanted to bestow facetious praise on a persevering, patient, laborious man would call him a Marian mule.
 
-### Capítulo 14
+#### Capítulo 14
 
 [14.1] And now, as it would seem, a great piece of good fortune befell Marius. For the Barbarians had a reflux, as it were, in their course, and streamed first into Spain. This gave Marius time to exercise the bodies of his men, to raise their spirits to a sturdier courage, and, what was most important of all, to let them find out what sort of a man he was.
 
@@ -180,25 +172,25 @@ URN: `null`
 
 [14.5] Here there were many accusers, but not a single advocate, wherefore Trebonius himself courageously took the stand and told all about the matter, bringing witnesses to show that he had often refused the solicitations of Lusius and that in spite of large offers he had never prostituted himself to anyone. Then Marius, filled with delight and admiration, ordered the customary crown for brave exploits to be brought, and with his own hands placed it on the head of Trebonius, declaring that at a time which called for noble examples he had displayed most noble conduct.
 
-[14.6] Tidings of this were brought to Rome and helped in no small degree to secure for Marius his third consulship;For the year 103 B.C. at the same time, too, the Barbarians were expected in the spring, and the Romans were unwilling to risk battle with them under any other general. However, the Barbarians did not come as soon as they were expected, and once more the period of Marius’s consulship expired.
+[14.6] Tidings of this were brought to Rome and helped in no small degree to secure for Marius his third consulship;[^15] at the same time, too, the Barbarians were expected in the spring, and the Romans were unwilling to risk battle with them under any other general. However, the Barbarians did not come as soon as they were expected, and once more the period of Marius’s consulship expired.
 
 [14.7] As the consular elections were at hand, and as his colleague in the office had died, Marius left Manius Aquillius in charge of the forces and came himself to Rome. Here many men of great merit were candidates for the consulship, but Lucius Saturninus, who had more influence with the people than any other tribune, was won over by the flattering attentions of Marius, and in his harangues urged the people to elect Marius consul. Marius affected to decline the office and declared that he did not want it, but Saturninus called him a traitor to his country for refusing to command her armies at a time of so great peril.
 
-[14.8] Now, it was clear that Saturninus was playing his part at the instigation of Marius, and playing it badly, too, but the multitude, seeing that the occasion required the ability as well as the good fortune of Marius, voted for his fourth consulship,102 B.C. and made Catulus Lutatius his colleague, a man who was esteemed by the nobility and not disliked by the common people.
+[14.8] Now, it was clear that Saturninus was playing his part at the instigation of Marius, and playing it badly, too, but the multitude, seeing that the occasion required the ability as well as the good fortune of Marius, voted for his fourth consulship,[^16] and made Catulus Lutatius his colleague, a man who was esteemed by the nobility and not disliked by the common people.
 
-### Capítulo 15
+#### Capítulo 15
 
 [15.1] Learning that the enemy were near, Marius rapidly crossed the Alps, and built a fortified camp along the river Rhone. Into this he brought together an abundance of stores, that he might never be forced by lack of provisions to give battle contrary to his better judgment.
 
 [15.2] The conveyance of what was needful for his army, which had previously been a long and costly process where it was by sea, he rendered easy and speedy. That is, the mouths of the Rhone, encountering the sea, took up great quantities of mud and sand packed close with clay by the action of the billows, and made the entrance of the river difficult, laborious, and slow for vessels carrying supplies.
 
-[15.3] So Marius brought his army to the place, since the men had nothing else to do, and ran a great canal. Into this he diverted a great part of the river and brought it round to a suitable place on the coast, a deep bay where large ships could float, and where the water could flow out smoothly and without waves to the sea. This canal, indeed, still bears the name of Marius.Cf. Strabo, iv. 8 (p. 183) .
+[15.3] So Marius brought his army to the place, since the men had nothing else to do, and ran a great canal. Into this he diverted a great part of the river and brought it round to a suitable place on the coast, a deep bay where large ships could float, and where the water could flow out smoothly and without waves to the sea. This canal, indeed, still bears the name of Marius.[^17]
 
 [15.4] The Barbarians divided themselves into two bands, and it fell to the lot of the Cimbri to proceed through Noricum in the interior of the country against Catulus, and force a passage there, while the Teutones and Ambrones were to march through Liguria along the sea-coast against Marius.
 
 [15.5] On the part of the Cimbri there was considerable delay and loss of time, but the Teutones and Ambrones set out at once passed through the intervening country, and made their appearance before Marius. Their numbers were limitless, they were hideous in their aspect, and their speech and cries were unlike those of other peoples. They covered a large part of the plain, and after pitching their camp challenged Marius to battle.
 
-### Capítulo 16
+#### Capítulo 16
 
 [16.1] Marius, however, paid no heed to them, but kept his soldiers inside their fortifications, bitterly rebuking those who would have made a display of their courage, and calling those whose high spirit made them wish to rush forth and give battle traitors to their country. For it was not, he said, triumphs or trophies that should now be the object of their ambition, but how they might ward off so great a cloud and thunder-bolt of war and secure the safety of Italy.
 
@@ -206,11 +198,11 @@ URN: `null`
 
 [16.3] And so in the case of his soldiers, not only did the daily sight of the enemy lessen somewhat their amazement at them, but also, when they heard the threats and the intolerable boasting of the Barbarians, their anger rose and warmed and set on fire their spirits; for the enemy were ravaging and plundering all the country round, and besides, often attacked the Roman fortifications with great temerity and shamelessness, so that indignant speeches of his soldiers reached the ears of Marius.
 
-[16.4] What cowardice, pray, has Marius discovered in us that he keeps us out of battle like women under lock and key? Come, let us act like freemen and ask him if he is waiting for other soldiers to fight in defence of Italy, and will use us as workmen all the time, whenever there is need of digging ditches and clearing out mud and diverting a river or two.
+[16.4] “What cowardice, pray, has Marius discovered in us that he keeps us out of battle like women under lock and key? Come, let us act like freemen and ask him if he is waiting for other soldiers to fight in defence of Italy, and will use us as workmen all the time, whenever there is need of digging ditches and clearing out mud and diverting a river or two.”
 
-[16.5] For it was to this end, as it would seem, that he exercised us in those many toils,Cf. chapter xiii. 1 . and these are the achievements of his consulships which he will exhibit to his fellow-citizens on his return to Rome. Or does he fear the fate of Carbo and Caepio, whom the enemy defeated?Carbo in 113 B.C., Caepio in 105 B.C. See the Dictionary of Proper Names. But they were far behind Marius in reputation and excellence, and led an army that was far inferior to his. Surely it is better to do something, even if we perish as they did, rather than to sit here and enjoy the spectacle of our allies being plundered.
+[16.5] “For it was to this end, as it would seem, that he exercised us in those many toils,[^18] and these are the achievements of his consulships which he will exhibit to his fellow-citizens on his return to Rome. Or does he fear the fate of Carbo and Caepio, whom the enemy defeated?[^19] But they were far behind Marius in reputation and excellence, and led an army that was far inferior to his. Surely it is better to do something, even if we perish as they did, rather than to sit here and enjoy the spectacle of our allies being plundered.”
 
-### Capítulo 17
+#### Capítulo 17
 
 [17.1] Marius was delighted to hear of such expressions, and tried to calm the soldiers down by telling them that he did not distrust them, but in consequence of certain oracles was awaiting a fit time and place for his victory. And indeed he used to carry about ceremoniously in a litter a certain Syrian woman, named Martha, who was said to have the gift of prophecy, and he would make sacrifices at her bidding. She had previously been rejected by the senate when she wished to appear before them with reference to these matters and predicted future events.
 
@@ -220,25 +212,25 @@ URN: `null`
 
 [17.4] Many signs also appeared, most of which were of the ordinary kind; but from Ameria and Tuder, cities of Italy, it was reported that at night there had been seen in the heavens flaming spears, and shields which at first moved in different directions, and then clashed together, assuming the formations and movements of men in battle, and finally some of them would give way, while others pressed on in pursuit, and all streamed away to the westward.
 
-[17.5] Moreover, about this time Bataces, the priest of the Great Mother,Cybelé, Mother of the Gods. came from Pessinus announcing that the goddess had declared to him from her shrine that the Romans were to be victorious and triumphant in war. The senate gave credence to the story and voted that a temple should be built for the goddess in commemoration of the victory; but when Bataces came before the assembly and desired to tell the story, Aulus Pompeius, a tribune of the people, prevented him, calling him an impostor, and driving him with insults from the rostra.
+[17.5] Moreover, about this time Bataces, the priest of the Great Mother,[^20] came from Pessinus announcing that the goddess had declared to him from her shrine that the Romans were to be victorious and triumphant in war. The senate gave credence to the story and voted that a temple should be built for the goddess in commemoration of the victory; but when Bataces came before the assembly and desired to tell the story, Aulus Pompeius, a tribune of the people, prevented him, calling him an impostor, and driving him with insults from the rostra.
 
 [17.6] And lo, this did more than anything else to gain credence for the man’s story. For hardly had Aulus gone back to his house after the assembly was dissolved, when he broke out with so violent a fever that he died within a week, and everybody knew and talked about it.
 
-### Capítulo 18
+#### Capítulo 18
 
 [18.1] But the Teutones, since Marius kept quiet, attempted to take his camp by storm; many missiles, however, were hurled against them from the fortifications, and they lost some of their men. They therefore decided to march forward, expecting to cross the Alps without molestation. So they packed up their baggage and began to march past the camp of the Romans. Then, indeed, the immensity of their numbers was made specially evident by the length of their line and the time required for their passage; for it is said they were six days in passing the fortifications of Marius, although they moved continuously.
 
-[18.2] And they marched close to the camp, inquiring with laughter whether the Romans had any messages for their wives; for, said they, we shall soon be with them. But when the Barbarians had passed by and were going on their way, Marius also broke camp and followed close upon them, always halting near by and at their very side, but strongly fortifying his camps and keeping strong positions in his front, so that he could pass the night in safety.
+[18.2] And they marched close to the camp, inquiring with laughter whether the Romans had any messages for their wives; “for,” said they, “we shall soon be with them.” But when the Barbarians had passed by and were going on their way, Marius also broke camp and followed close upon them, always halting near by and at their very side, but strongly fortifying his camps and keeping strong positions in his front, so that he could pass the night in safety.
 
 [18.3] Thus the two armies went on until they came to the place called Aquae Sextiae, from which they had to march only a short distance and they would be in the Alps. For this reason, indeed, Marius made preparations to give battle here, and he occupied for his camp a position that was strong, but poorly supplied with water, wishing, as they say, by this circumstance also to incite his soldiers to fight.
 
-[18.4] At any rate, when many of them were dissatisfied and said they would be thirsty there, he pointed to a river that ran near the barbarian fortifications, and told them they could get water there, but the price of it was blood. Why, then, they said, dost thou not lead us at once against the enemy, while our blood is still moist ? To which Marius calmly replied: We must first make our camp strong.
+[18.4] At any rate, when many of them were dissatisfied and said they would be thirsty there, he pointed to a river that ran near the barbarian fortifications, and told them they could get water there, but the price of it was blood. “Why, then,” they said, “dost thou not lead us at once against the enemy, while our blood is still moist?” To which Marius calmly replied: “We must first make our camp strong.”
 
-### Capítulo 19
+#### Capítulo 19
 
 [19.1] His soldiers, accordingly, though reluctant, obeyed; but the throng of camp-servants, who had no water either for themselves or their beasts, went down in a body to the river, some taking hatchets, some axes, and some also swords and lances along with their water-jars, determined to get water even if they had to fight for it. With these only a few of the enemy at first engaged, since the main body were taking their meal after bathing, and some were still bathing.
 
-[19.2] For streams of warm water burst from the ground in this place, and at these the Romans surprised a number of the Barbarians, who were enjoying themselves and making merry in this wonderfully pleasant place. Their cries brought more of the Barbarians to the spot, and Marius had difficulty in longer restraining his soldiers, since they had fears now for their servants. Besides, the most warlike division of the enemy, by whom at an earlier time the Romans under Manlius and Caepio had been defeatedCf. chapter xvi. 5 . (they were called Ambrones and of themselves numbered more than thirty thousand), had sprung up from their meal and were running to get their arms.
+[19.2] For streams of warm water burst from the ground in this place, and at these the Romans surprised a number of the Barbarians, who were enjoying themselves and making merry in this wonderfully pleasant place. Their cries brought more of the Barbarians to the spot, and Marius had difficulty in longer restraining his soldiers, since they had fears now for their servants. Besides, the most warlike division of the enemy, by whom at an earlier time the Romans under Manlius and Caepio had been defeated[^21] (they were called Ambrones and of themselves numbered more than thirty thousand), had sprung up from their meal and were running to get their arms.
 
 [19.3] However, though their bodies were surfeited and weighed down with food and their spirits excited and disordered with strong wine, they did not rush on in a disorderly or frantic course, nor raise an inarticulate battle-cry, but rhythmically clashing their arms and leaping to the sound they would frequently shout out all together their tribal name Ambrones, either to encourage one another, or to terrify their enemies in advance by the declaration.
 
@@ -250,7 +242,7 @@ URN: `null`
 
 [19.7] Here the women met them, swords and axes in their hands, and with hideous shrieks of rage tried to drive back fugitives and pursuers alike, the fugitives as traitors, and the pursuers as foes; they mixed themselves up with the combatants, with bare hands tore away the shields of the Romans or grasped their swords, and endured wounds and mutilations, their fierce spirits unvanquished to the end. So, then, as we are told, the battle at the river was brought on by accident rather than by the intention of the commander.
 
-### Capítulo 20
+#### Capítulo 20
 
 [20.1] After destroying many of the Ambrones the Romans withdrew and night came on; but in spite of so great a success the army did not indulge in paeans of victory, or drinking in the tents, or friendly converse over suppers, or that sweetest of all delights for men who have fought and won a battle, gentle sleep, but that night more than any other was spent in fears and commotions.
 
@@ -264,25 +256,25 @@ URN: `null`
 
 [20.6] for since the enemy were on precarious ground their blows would have no force and the locking of their shields no strength, but the unevenness of the ground would keep them turning and tossing about. This was the advice he gave his men, and they saw that he was first to act accordingly; for he was in better training than any of them, and in daring far surpassed them all.
 
-### Capítulo 21
+#### Capítulo 21
 
 [21.1] Accordingly, the Romans awaited the enemy’s onset, then closed with them and checked their upward rush, and at last, crowding them back little by little, forced them into the plain. Here, while the Barbarians in front were at last forming in line on level ground, there was shouting and commotion in their rear. For Marcellus had watched his opportunity, and when the cries of battle were borne up over the hills he put his men upon the run and fell with loud shouts upon the enemy’s rear, where he cut down the hindmost of them.
 
 [21.2] Those in the rear forced along those who were in front of them, and quickly plunged the whole army into confusion, and under this double attack they could riot hold out long, but broke ranks and fled. The Romans pursued them and either slew or took alive over a hundred thousand of them, besides making themselves masters of their tents, waggons, and property, all of which, with the exception of what was pilfered, was given to Marius by vote of the soldiers. And though the gift that he received was so splendid, it was thought to be wholly unworthy of his services in the campaign, where the danger that threatened had been so great.
 
-[21.3] There are some writers, however, who give a different account of the division of the spoils, and also of the number of the slain. Nevertheless, it is said that the people of Massalia fenced their vineyards round with the bones of the fallen, and that the soil, after the bodies had wasted away in it and the rains had fallen all winter upon it, grew so rich and became so full to its depths of the putrefied matter that sank into it, that it produced an exceeding great harvest in after years, and confirmed the saying of ArchilochusBergk, Poet. Lyr. Graeci , ii. 4 pp. 428 f. that fields are fattened by such a process.
+[21.3] There are some writers, however, who give a different account of the division of the spoils, and also of the number of the slain. Nevertheless, it is said that the people of Massalia fenced their vineyards round with the bones of the fallen, and that the soil, after the bodies had wasted away in it and the rains had fallen all winter upon it, grew so rich and became so full to its depths of the putrefied matter that sank into it, that it produced an exceeding great harvest in after years, and confirmed the saying of Archilochus[^22] that “fields are fattened” by such a process.
 
 [21.4] And it is said that extraordinary rains generally dash down after great battles, whether it is that some divine power drenches and hallows the ground with purifying waters from Heaven, or that the blood and putrefying matter send up a moist and heavy vapour which condenses the air, this being easily moved and readily changed to the highest degree by the slightest cause.
 
-### Capítulo 22
+#### Capítulo 22
 
 [22.1] After the battle, Marius collected such of the arms and spoils of the Barbarians as were handsome, entire, and fitted to make a show in his triumphal procession; all the rest he heaped up on a huge pyre and set on foot a magnificent sacrifice.
 
 [22.2] The soldiers had taken their stand about the pyre in arms, with chaplets on their heads, and Marius himself, having put on his purple-bordered robe and girt it about him, as the custom was, had taken a lighted torch, held it up towards heaven with both hands, and was just about to set fire to the pyre, when some friends were seen riding swiftly towards him, and there was deep silence and expectancy on the part of all.
 
-[22.3] But when the horsemen were near, they leaped to the ground and greeted Marius, bringing him the glad news that he had been elected consul for the fifth time,For the year 101 B.C. and giving him letters to that effect. This great cause for rejoicing having been added to the celebration of their victory, the soldiers, transported with delight, sent forth a universal shout, accompanied by the clash and clatter of their arms, and after his officers had crowned Marius afresh with wreaths of bay, he set fire to the pyre and completed the sacrifice.
+[22.3] But when the horsemen were near, they leaped to the ground and greeted Marius, bringing him the glad news that he had been elected consul for the fifth time,[^23] and giving him letters to that effect. This great cause for rejoicing having been added to the celebration of their victory, the soldiers, transported with delight, sent forth a universal shout, accompanied by the clash and clatter of their arms, and after his officers had crowned Marius afresh with wreaths of bay, he set fire to the pyre and completed the sacrifice.
 
-### Capítulo 23
+#### Capítulo 23
 
 [23.1] However, that power which permits no great successes to bring a pure and unmixed enjoyment, but diversifies human life with a blending of evil and of good-be it Fortune, or Nemesis, or Inevitable Necessity, within a few days brought to Marius tidings of his colleague Catulus, which, like a cloud in a calm and serene sky, involved Rome in another tempest of fear.
 
@@ -296,17 +288,17 @@ URN: `null`
 
 [23.6] The Barbarians attacked and captured the fortress on the further side of the Atiso, and they so much admired the Romans there, who showed themselves bravest of men and fought worthily of their country, that they let them go on parole, making them take oath upon the bronze bull. This was subsequently captured, after the battle, and was carried, we are told, to the house of Catulus as the chief prize of the victory. But the country was now destitute of defenders, and the Barbarians inundated and ravaged it.
 
-### Capítulo 24
+#### Capítulo 24
 
 [24.1] In view of these things Marius was summoned to Rome. When he had arrived there, it was the general expectation that he would celebrate the triumph which the senate had readily voted him. But he refused to do so, either because he did not wish to deprive his soldiers and comrades-in-arms of their due honours, or because he would encourage the multitude in view of the present crisis by entrusting the glory of his first success to the fortune of the state, in the hope that it would be returned to him enhanced by a second.
 
 [24.2] Having said what was suitable to the occasion, he set out to join Catulus, whom he tried to encourage, while at the same time he summoned his own soldiers from Gaul. When these had come, he crossed the Po and tried to keep the Barbarians out of the part of Italy lying this side of the river. But the Barbarians declined battle, alleging that they were waiting for their brethren the Teutones and wondered why they were so long in coming; this was either because they were really ignorant of their destruction, or because they wished to have the appearance of disbelieving it.
 
-[24.3] For they terribly mishandled those who brought tidings of it, and sent to Marius demanding territory for themselves and their brethren and enough cities for them to dwell in. When Marius asked their ambassadors whom they meant by their brethren, they said they meant the Teutones. At this, all the other Romans who heard them burst out laughing, and Marius scoffingly said: Then don’t trouble yourselves about your brethren, for they have land, and they will have it forever—land which we have given them.
+[24.3] For they terribly mishandled those who brought tidings of it, and sent to Marius demanding territory for themselves and their brethren and enough cities for them to dwell in. When Marius asked their ambassadors whom they meant by their brethren, they said they meant the Teutones. At this, all the other Romans who heard them burst out laughing, and Marius scoffingly said: “Then don’t trouble yourselves about your brethren, for they have land, and they will have it forever—land which we have given them.”
 
-[24.4] The ambassadors understood his sarcasm and fell to abusing him, declaring that he should be punished for it, by the Cimbri at once, and by the Teutones when they came. Verily, said Marius, they are here, and it will not be right for you to go away before you have embraced your brethren. Saying this, he ordered the kings of the Teutones to be produced in fetters; for they had been captured among the Alps, where they were fugitives, by the Sequani.
+[24.4] The ambassadors understood his sarcasm and fell to abusing him, declaring that he should be punished for it, by the Cimbri at once, and by the Teutones when they came. “Verily,” said Marius, “they are here, and it will not be right for you to go away before you have embraced your brethren.” Saying this, he ordered the kings of the Teutones to be produced in fetters; for they had been captured among the Alps, where they were fugitives, by the Sequani.
 
-### Capítulo 25
+#### Capítulo 25
 
 [25.1] When these things had been reported to the Cimbri, they once more advanced against Marius, who kept quiet and carefully guarded his camp. And it is said that it was in preparation for this battle that Marius introduced an innovation in the structure of the javelin. Up to this time, it seems, that part of the shaft which was let into the iron head was fastened there by two iron nails; but now, leaving one of these as it was, Marius removed the other, and put in its place a wooden pin that could easily be broken.
 
@@ -314,7 +306,7 @@ URN: `null`
 
 [25.3] Marius replied that the Romans never allowed their enemies to give them advice about fighting, but that he would nevertheless gratify the Cimbri in this matter. Accordingly, they decided that the day should be the third following, and the place the plain of Vercellae, which was suitable for the operations of the Roman cavalry, and would give the Cimbri room to deploy their numbers.
 
-[25.4] When, therefore, the appointed time had come, the Romans drew up their forces for battle. Catulus had twenty thousand three hundred soldiers, while those of Marius amounted to thirty-two thousand, which were divided between both wings and had Catulus between them in the centre, as Sulla, who fought in this battle, has stated.In his Memoirs ; cf. the Sulla , iv. 3 .
+[25.4] When, therefore, the appointed time had come, the Romans drew up their forces for battle. Catulus had twenty thousand three hundred soldiers, while those of Marius amounted to thirty-two thousand, which were divided between both wings and had Catulus between them in the centre, as Sulla, who fought in this battle, has stated.[^24]
 
 [25.5] He says also that Marius hoped that the two lines would engage at their extremities chiefly and on the wings, in order that his soldiers might have the whole credit for the victory and that Catulus might not participate in the struggle nor even engage the enemy (since the centre, as is usual in battle-fronts of great extent, would be folded back); and therefore arranged the forces in this manner.
 
@@ -322,19 +314,19 @@ URN: `null`
 
 [25.7] and their horsemen, fifteen thousand strong, rode out in splendid style, with helmets made to resemble the maws of frightful wild beasts or the heads of strange animals, which, with their towering crests of feathers, made their wearers appear taller than they really were; they were also equipped with breastplates of iron, and carried gleaming white shields. For hurling, each man had two lances; and at close quarters they used large, heavy swords.
 
-### Capítulo 26
+#### Capítulo 26
 
 [26.1] At this time, however, they did not charge directly upon the Romans, but swerved to the right and tried to draw them along gradually until they got them between themselves and their infantry, which was drawn up on their left. The Roman commanders perceived the crafty design, but did not succeed in holding their soldiers back; for one of them shouted that the enemy was taking to flight, and then all set out to pursue them.
 
-[26.2] Meanwhile the infantry of the Barbarians came on to the attack like a vast sea in motion. Then Marius, after washing his hands, lifted them to heaven and vowed a hecatomb to the gods; Catulus also in like manner lifted his hands and vowed that he would consecrate the fortune of that day. It is said, too, that Marius offered sacrifice, and that when the victims had been shown to him, he cried with a loud voice: Mine is the victory.
+[26.2] Meanwhile the infantry of the Barbarians came on to the attack like a vast sea in motion. Then Marius, after washing his hands, lifted them to heaven and vowed a hecatomb to the gods; Catulus also in like manner lifted his hands and vowed that he would consecrate the fortune of that day. It is said, too, that Marius offered sacrifice, and that when the victims had been shown to him, he cried with a loud voice: “Mine is the victory.”
 
 [26.3] After the attack had begun, however, an experience befell Marius which signified the divine displeasure, according to Sulla. For an immense cloud of dust was raised, as was to be expected, and the two armies were hidden from one another by it, so that Marius, when he first led his forces to the attack, missed the enemy, passed by their lines of battle, and moved aimlessly up and down the plain for some time. Meanwhile, as chance would have it, the Barbarians engaged fiercely with Catulus, and he and his soldiers, among whom Sulla says he himself was posted, bore the brunt of the struggle.
 
-[26.4] The Romans were favoured in the struggle, Sulla says, by the heat, and by the sun, which shone in the faces of the Cimbri. For the Barbarians were well able to endure cold, and had been brought up in shady and chilly regions, as I have said. Chapter xi. 5 f . They were therefore undone by the heat; they sweated profusely, breathed with difficulty, and were forced to hold their shields before their faces. For the battle was fought after the summer solstice, which falls, by Roman reckoning, three days before the new moon of the month now called August,a.d. III. Kalendas Augusti. but then Sextilis.
+[26.4] The Romans were favoured in the struggle, Sulla says, by the heat, and by the sun, which shone in the faces of the Cimbri. For the Barbarians were well able to endure cold, and had been brought up in shady and chilly regions, as I have said.[^25] They were therefore undone by the heat; they sweated profusely, breathed with difficulty, and were forced to hold their shields before their faces. For the battle was fought after the summer solstice, which falls, by Roman reckoning, three days before the new moon of the month now called August,[^26] but then Sextilis.
 
-[26.5] Moreover, the dust, by hiding the enemy, helped to encourage the Romans. For they could not see from afar the great numbers of the foe, but each one of them fell at a run upon the man just over against him, and fought him hand to hand, without having been terrified by the sight of the rest of the host. And their bodies were so inured to toil and so thoroughly trained that not a Roman was observed to sweat or pant, in spite of the great heat and the run with which they came to the encounter. This is what Catulus himself is said to have writtenCatulus wrote a history of his consulship, of which Cicero speaks in terms of high praise ( Brutus 35, 132 ff. ). in extolling his soldiers.
+[26.5] Moreover, the dust, by hiding the enemy, helped to encourage the Romans. For they could not see from afar the great numbers of the foe, but each one of them fell at a run upon the man just over against him, and fought him hand to hand, without having been terrified by the sight of the rest of the host. And their bodies were so inured to toil and so thoroughly trained that not a Roman was observed to sweat or pant, in spite of the great heat and the run with which they came to the encounter. This is what Catulus himself is said to have written[^27] in extolling his soldiers.
 
-### Capítulo 27
+#### Capítulo 27
 
 [27.1] The greatest number and the best fighters of the enemy were cut to pieces on the spot; for to prevent their ranks from being broken, those who fought in front were bound fast to one another with long chains which were passed through their belts. The fugitives, however, were driven back to their entrenchments, where the Romans beheld a most tragic spectacle.
 
@@ -344,11 +336,11 @@ URN: `null`
 
 [27.4] Now, the enemy’s property became the booty of the soldiers of Marius, but the spoils of battle, the standards, and the trumpets, were brought, we are told, to the camp of Catulus and Catulus relied chiefly upon this as a proof that the victory was won by his men. Furthermore, a dispute for the honour of the victory arose among the soldiers, as was natural, and the members of an embassy from Parma were chosen to act as arbitrators. These men the soldiers of Catulus conducted among the dead bodies of the enemy, which were clearly seen to have been pierced by their javelins; for these could be known by the name of Catulus which had been cut into the shaft.
 
-[27.5] However, the entire success was attributed to Marius, both on account of his former victory and of his superior rank.Marius was consul still, while Catulus had not been re-elected, and was only pro-consul. Above all, the people hailed him as the third founder of Rome,With Romulus and Camillus. See the Camillus , xxxi. 2 . on the ground that the peril which he had averted from the city was not less than that of the Gallic invasion; and all of them, as they made merry at home with their wives and children, would bring ceremonial offerings of food and libations of wine to Marius as well as to the gods, and they were insistent that he alone should celebrate both triumphs.
+[27.5] However, the entire success was attributed to Marius, both on account of his former victory and of his superior rank.[^28] Above all, the people hailed him as the third founder of Rome,[^29] on the ground that the peril which he had averted from the city was not less than that of the Gallic invasion; and all of them, as they made merry at home with their wives and children, would bring ceremonial offerings of food and libations of wine to Marius as well as to the gods, and they were insistent that he alone should celebrate both triumphs.
 
 [27.6] Marius, however, would not do this, but celebrated his triumph with Catulus, wishing to show himself a man of moderation after a course of so great good fortune. Perhaps, too, he was afraid of the soldiers, who were drawn up and ready, in case Catulus were deprived of his honour, to prevent Marius also from celebrating a triumph.
 
-### Capítulo 28
+#### Capítulo 28
 
 [28.1] Thus, then, his fifth consulship was coming to an end; but he was as eager for a sixth as another would have been for his first. He tried to win over the people by obsequious attentions, and yielded to the multitude in order to gain its favour, thus doing violence, not only to the dignity and majesty of his high office, but also to his own nature, since he wished to be a compliant man of the people when he was naturally at farthest remove from this.
 
@@ -362,13 +354,13 @@ URN: `null`
 
 [28.6] And yet the people had never bestowed so many consulships upon any other man except Corvinus Valerius. In the case of Corvinus, however, forty-five years are said to have elapsed between his first and his last consulship; whereas Marius, after his first consulship, ran through the other five without a break.
 
-### Capítulo 29
+#### Capítulo 29
 
-[29.1] In this last consulship100 B.C. particularly did Marius make himself hated, because he took part with Saturninus in many of his misdeeds. One of these was the murder of Nonius, whom Saturninus slew because he was a rival candidate for the tribuneship. Then, as tribune, Saturninus introduced his agrarian law, to which was added a clause providing that the senators should come forward and take oath that they would abide by whatsoever the people might vote and make no opposition to it.
+[29.1] In this last consulship[^30] particularly did Marius make himself hated, because he took part with Saturninus in many of his misdeeds. One of these was the murder of Nonius, whom Saturninus slew because he was a rival candidate for the tribuneship. Then, as tribune, Saturninus introduced his agrarian law, to which was added a clause providing that the senators should come forward and take oath that they would abide by whatsoever the people might vote and make no opposition to it.
 
 [29.2] In the senate Marius made pretence of opposing this part of the law, and declared that he would not take the oath, and that he thought no other sensible man would; for even if the law were not a bad one, it was an insult to the senate that it should be compelled to make such concessions, instead of making them under persuasion and of its own free will. He said this, however, not because it was his real mind, but that he might catch Metellus in the toils of a fatal trick.
 
-[29.3] For he himself regarded lying as part of a man’s excellence and ability, made no account of his agreements with the senators, and did not intend to keep them; whereas he knew that Metellus was a steadfast man, who thought with Pindar that truth is the foundation of great excellence,Fragment 221 (Boeckh). and he therefore wished to bind him beforehand by a statement to the senate that he would not take the oath, and then have his refusal to do so plunge him into a hatred on the part of the people that could never be removed. And this was what came to pass.
+[29.3] For he himself regarded lying as part of a man’s excellence and ability, made no account of his agreements with the senators, and did not intend to keep them; whereas he knew that Metellus was a steadfast man, who thought with Pindar that “truth is the foundation of great excellence,”[^31] and he therefore wished to bind him beforehand by a statement to the senate that he would not take the oath, and then have his refusal to do so plunge him into a hatred on the part of the people that could never be removed. And this was what came to pass.
 
 [29.4] For Metellus declared that he would not take the oath, and the senate broke up for a while; but after a few days Saturninus summoned the senators to the rostra and tried to force them to take the oath. When Marius came forward there was silence, and the eyes of all were fastened upon him. Then, bidding a long farewell to all his boastful and insincere expressions in the senate, he said his throat was not broad enough to pronounce an opinion once for all upon so important a matter, but that he would take the oath, and obey the law, if it was a law; adding this bit of sophistry as a cloak for his shame.
 
@@ -378,9 +370,9 @@ URN: `null`
 
 [29.7] Upon this, Saturninus got a vote passed that the consuls should proclaim Metellus interdicted from fire, water, and shelter; and the meanest part of the populace supported them and was ready to put the man to death. The best citizens, however, sympathised with Metellus and crowded hastily about him, but he would not allow a faction to be raised on his account, and departed from the city, following the dictates of prudence.
 
-[29.8] For, said he, either matters will mend and the people will change their minds and I shall return at their invitation, or, if matters remain as they are, it is best that I should be away. But what great goodwill and esteem Metellus enjoyed during his exile, and how he spent his time in philosophical studies at Rhodes, will be better told in his Life.No such Life is extant.
+[29.8] “For,” said he, “either matters will mend and the people will change their minds and I shall return at their invitation, or, if matters remain as they are, it is best that I should be away.” But what great goodwill and esteem Metellus enjoyed during his exile, and how he spent his time in philosophical studies at Rhodes, will be better told in his Life.[^32]
 
-### Capítulo 30
+#### Capítulo 30
 
 [30.1] And now Marius, who was forced, in return for this assistance, to look on quietly while Saturninus ran to extremes of daring and power, brought about unawares a mischief that was not to be cured, but made its way by arms and slaughter directly towards tyranny and subversion of the government. And since he stood in awe of the nobles, while he courted the favour of time multitude, he was led to commit an act of the utmost meanness and duplicity.
 
@@ -390,31 +382,31 @@ URN: `null`
 
 [30.4] Marius did all he could to save the men, but it was of no avail, and when they came down into the forum they were put to death. This affair made Marius obnoxious alike to the nobles and to the people, and when the time for electing censors came he did not present himself as a candidate, although everyone expected that he would, but allowed other and inferior men to be elected, for fear that he would be defeated. However, he tried to put a good face upon his conduct by saying that he was unwilling to incur the hatred of many citizens by a severe examination into their lives and manners.
 
-### Capítulo 31
+#### Capítulo 31
 
-[31.1] When a decree was introduced recalling Metellus from exile, Marius opposed it strongly both by word and deed, but finding his efforts vain, at last desisted; and after the people had adopted the measure with alacrity, unable to endure the sight of Metellus returning, he set sail for Cappadocia and Galatia,In 99 B.C. ostensibly to make the sacrifices which he had vowed to the Mother of the Gods, but really having another reason for his journey which the people did not suspect.
+[31.1] When a decree was introduced recalling Metellus from exile, Marius opposed it strongly both by word and deed, but finding his efforts vain, at last desisted; and after the people had adopted the measure with alacrity, unable to endure the sight of Metellus returning, he set sail for Cappadocia and Galatia,[^33] ostensibly to make the sacrifices which he had vowed to the Mother of the Gods, but really having another reason for his journey which the people did not suspect.
 
 [31.2] He had, that is, no natural aptitude for peace or civil life, but had reached his eminence by arms. And now, thinking that his influence and reputation were gradually fading away because of his inactivity and quietude, he sought occasions for new enterprises. For he hoped that if he stirred up the kings of Asia and incited Mithridates to action, who was expected to make war upon Rome, he would at once be chosen to lead the Roman armies against him, and would fill the city with new triumphs, and his own house with Pontic spoils and royal wealth.
 
-[31.3] For this reason, though Mithridates treated him with all deference and respect, he would not bend or yield, but said: O King, either strive to be stronger than Rome, or do her bidding without a word. This speech startled the king, who had often heard the Roman speech, but then for the first time in all its boldness.
+[31.3] For this reason, though Mithridates treated him with all deference and respect, he would not bend or yield, but said: “O King, either strive to be stronger than Rome, or do her bidding without a word.” This speech startled the king, who had often heard the Roman speech, but then for the first time in all its boldness.
 
-### Capítulo 32
+#### Capítulo 32
 
 [32.1] On returning to Rome, he built a house for himself near the forum, either, as he himself said, because he was unwilling that those who paid their respects to him should have the trouble of coming a long distance, or because he thought that distance was the reason why he did not have larger crowds at his door than others. The reason, however, was not of this nature; it was rather his inferiority to others in the graces of intercourse and in political helpfulness, which caused him to be neglected, like an instrument of war in time of peace.
 
 [32.2] Of all those who eclipsed him in popular esteem he was most vexed and annoyed by Sulla, whose rise to power was due to the jealousy which the nobles felt towards Marius, and who was making his quarrels with Marius the basis of his political activity. And when Bocchus the Numidian, who had been designated an ally of the Romans, set up trophy-bearing Victories on the Capitol, and by their side gilded figures representing Jugurtha surrendered by him to Sulla, Marius was transported with rage and fury to see Sulla thus appropriating to himself the glory of his achievements, and was making preparations to tear down the votive offerings.
 
-[32.3] But Sulla too was furious, and civil dissension was just on the point of breaking out, when it was stopped by the Social War, which suddenly burst upon the city.90-89 B.C. See the Sulla , vi. 1 f. That is, the most warlike and most numerous of the Italian peoples combined against Rome, and came within a little of destroying her supremacy, since they were not only strong in arms and men, but also had generals whose daring and ability were amazing and made them a match for the Romans.
+[32.3] But Sulla too was furious, and civil dissension was just on the point of breaking out, when it was stopped by the Social War, which suddenly burst upon the city.[^34] That is, the most warlike and most numerous of the Italian peoples combined against Rome, and came within a little of destroying her supremacy, since they were not only strong in arms and men, but also had generals whose daring and ability were amazing and made them a match for the Romans.
 
-### Capítulo 33
+#### Capítulo 33
 
 [33.1] This war, which was varied in its events and most changeful in its fortunes, added much to Sulla’s reputation and power, but took away as much from Marius. For he was slow in making his attacks, and always given to hesitation and delay, whether it was that old age had quenched his wonted energy and fire (for he was now past his sixty-sixth year), or that, as he himself said, a feeling of shame led him to go beyond his powers in trying to endure the hardships of the campaign when his nerves were diseased and his body unfit for work.
 
-[33.2] However, even then he won a great victory in which he slew six thousand of the enemy; and he never allowed them to get a grip upon him, but even when he was hemmed about with-trenches bided his time, and was not unduly irritated by their insults and challenges. We are told that Publius Silo,Pompaedius Silo, leader of the Marsi. Cf. the Cato Minor , ii. 1-4 . who had the greatest authority and power among the enemy, once said to him, If thou art a great general, Marius, come down and fight it out with us; to which Marius answered, Nay, but do thou, if thou art a great general, force me to fight it out with you against my will.
+[33.2] However, even then he won a great victory in which he slew six thousand of the enemy; and he never allowed them to get a grip upon him, but even when he was hemmed about with-trenches bided his time, and was not unduly irritated by their insults and challenges. We are told that Publius Silo,[^35] who had the greatest authority and power among the enemy, once said to him, “If thou art a great general, Marius, come down and fight it out with us”; to which Marius answered, “Nay, but do thou, if thou art a great general, force me to fight it out with you against my will.”
 
-[33.3] And at another time, when the enemy had given him an opportunity to attack them, but the Romans had played the coward, and both sides had withdrawn, he called an assembly of his soldiers and said to them: I do not know whether to call the enemy or you the greater cowards; for they were not able to see your backs, nor you their napes. At last, however, he gave up his command, on the ground that his infirmities made him quite incapable of exercising it.
+[33.3] And at another time, when the enemy had given him an opportunity to attack them, but the Romans had played the coward, and both sides had withdrawn, he called an assembly of his soldiers and said to them: “I do not know whether to call the enemy or you the greater cowards; for they were not able to see your backs, nor you their napes.” At last, however, he gave up his command, on the ground that his infirmities made him quite incapable of exercising it.
 
-### Capítulo 34
+#### Capítulo 34
 
 [34.1] But when the Italians had at last made their submission, and many persons at Rome were suing for the command in the Mithridatic war, with the aid of the popular leaders, contrary to all expectation the tribune Sulpicius, a most audacious man; brought Marius forward and proposed to make him pro-consul in command against Mithridates. The people were divided in opinion, some preferring Marius, and others calling for Sulla and bidding Marius go to the warm baths at Baiae and look out for his health, since he was worn out with old age and rheums, as he himself said.
 
@@ -426,23 +418,23 @@ URN: `null`
 
 [34.5] but as if in need of all things, and after winning triumphs and fame, was setting out, with all his years upon him, for Cappadocia and the Euxine sea, to fight it out with Archelaüs and Neoptolemus,the satraps of Mithridates. And the justification for this which Marius offered was thought to be altogether silly; he said, namely, that he wished to take part personally in the campaign in order to give his son a military training.
 
-### Capítulo 35
+#### Capítulo 35
 
 [35.1] These things brought to a head the secret disease from which the state had long been suffering, and Marius found a most suitable instrument for the destruction of the commonwealth in the audacity of Sulpicius, who was in all things an admirer and an imitator of Saturninus, except that he charged him with timidity and hesitation in his political measures.
 
 [35.2] Sulpicius himself was not a man of hesitation, but kept six hundred of the Knights about him as a body-guard, which he called his anti-senate; he also made an attack with armed men upon the consuls as they were holding an assembly, and when one of them fled from the forum, Sulpicius seized his son and butchered him; Sulla, however, the other consul, as he was being pursued past the house of Marius, did what no one would have expected and burst into the house. His pursuers ran past the house and therefore missed him, and it is said that Marius himself sent him off safely by another door so that he came in haste to his camp.
 
-[35.3] But Sulla himself, in his Memoirs, says he did not fly for refuge to the house of Marius, but withdrew thither in order to consult with Marius about the step which Sulpicius was trying to force him to take (by surrounding him with drawn swords and driving him to the house of Marius), and that finally he went from there to the forum and rescinded the consular decree for the suspension of public business, as Sulpicius and his party demanded.These proceedings are much more clearly narrated in the Sulla , chapter viii . Cf. also Appian Bell. Civ i. 55 .
+[35.3] But Sulla himself, in his Memoirs, says he did not fly for refuge to the house of Marius, but withdrew thither in order to consult with Marius about the step which Sulpicius was trying to force him to take (by surrounding him with drawn swords and driving him to the house of Marius), and that finally he went from there to the forum and rescinded the consular decree for the suspension of public business, as Sulpicius and his party demanded.[^36]
 
 [35.4] When this had been done, Sulpicius, who was now master of the situation, got the command conferred upon Marius by vote of the people; and Marius, who was making his preparations for departure, sent out two military tribunes to take over the command of Sulla’s army. Sulla, however, called upon his soldiers (who were no fewer than thirty-five thousand legionaries) to resent this, and led them forth against Rome. His soldiers also fell upon the tribunes whom Marius had sent and slew them.
 
-[35.5] Marius, too, put to death many of Sulla’s friends in Rome, and proclaimed freedom to the slaves if they would fight on his side. It is said, however, that only three of them joined his ranks, and after a feeble resistance to Sulla’s entry into the city he was speedily driven out and took to flight.Cf. the Sulla , chapter xi . As soon as he had made his escape from the city his companions were scattered, and since it was dark, he took refuge at one of his farmsteads, called Solonium.
+[35.5] Marius, too, put to death many of Sulla’s friends in Rome, and proclaimed freedom to the slaves if they would fight on his side. It is said, however, that only three of them joined his ranks, and after a feeble resistance to Sulla’s entry into the city he was speedily driven out and took to flight.[^37] As soon as he had made his escape from the city his companions were scattered, and since it was dark, he took refuge at one of his farmsteads, called Solonium.
 
 [35.6] He also sent his son to get provisions from the estate of his father-in-law, Mucius, which was not far off, while he himself went down to the coast at Ostia, where a friend of his, Numerius, had provided a vessel for him. Then, without waiting for his son, but taking his step-son Granius with him, he set sail. The younger Marius reached the estate of Mucius, but as he was getting supplies and packing them up, day overtook him and he did not altogether escape the vigilance of his enemies; for some horsemen came riding towards the place, moved by suspicion.
 
 [35.7] When the overseer of the farm saw them coming, he hid Marius in a waggon loaded with beans, yoked up his oxen, and met the horsemen as he was driving the waggon to the city. In this way young Marius was conveyed to the house of his wife, where he got what he wanted, and then by night came to the sea, boarded a ship that was bound for Africa, and crossed over.
 
-### Capítulo 36
+#### Capítulo 36
 
 [36.1] The elder Marius, after putting to sea was borne by a favouring wind along the coast of Italy; but since he was afraid of one Geminius, who was a powerful man in Terracina and an enemy of his, he told his sailors to keep clear of Terracina. The sailors were willing enough to do as he wished, but the wind veered round and blew towards the shore, bringing in a heavy surge, and it was thought that the vessel would not hold out against the beating of the waves besides, Marius was in a wretched plight from sea-sickness, and therefore they made their way, though with difficulty, to the coast near Circeii.
 
@@ -454,9 +446,15 @@ URN: `null`
 
 [36.5] When, that is, he was quite young and living in the country, he had caught in his cloak a falling eagle’s nest, which had seven young ones in it; at sight of this, his parents were amazed, and made enquiries of the seers, who told them that their son would be most illustrious of men, and was destined to receive the highest command and power seven times.
 
-[36.6] Some say that this really happened to Marius; but others say that those who heard the story from him at this time and during the rest of his flight, believed it, and recorded it, though it was wholly fabulous. For, they say, an eagle does not lay more than two eggs at one time, and Musaeus also was wrong when, speaking of the eagle, he says: Three indeed she layeth, and two hatcheth, but one only doth she feed. Fragment 21 (Kinkel, Ep. Graec. Frag. , p. 229). However, that Marius, during his flight and in his extremest difficulties, often said that he should attain to a seventh consulship, is generally admitted.
+[36.6] Some say that this really happened to Marius; but others say that those who heard the story from him at this time and during the rest of his flight, believed it, and recorded it, though it was wholly fabulous. For, they say, an eagle does not lay more than two eggs at one time, and Musaeus also was wrong when, speaking of the eagle, he says:
 
-### Capítulo 37
+```verso
+Three indeed she layeth, and two hatcheth, but one only doth she feed.
+```
+
+[^38] However, that Marius, during his flight and in his extremest difficulties, often said that he should attain to a seventh consulship, is generally admitted.
+
+#### Capítulo 37
 
 [37.1] But presently, when they were about twenty furlongs distant from Minturnae, an Italian city, they saw from afar a troop of horsemen riding towards them, and also, as it chanced, two merchant vessels sailing along. Accordingly, with all the speed and strength they had, they ran down to the sea, threw themselves into the water, and began to swim to the ships. Granius and his party reached one of the ships and crossed over to the opposite island, Aenaria by name;
 
@@ -470,7 +468,7 @@ URN: `null`
 
 [37.6] Marius begged that this might be done, and the man took him to the marsh, bade him crouch down in a hollow place by the side of the river, and threw over him a mass of reeds and other material which was light enough to cover without injuring him.
 
-### Capítulo 38
+#### Capítulo 38
 
 [38.1] Not much time had elapsed, however, when a din and tumult at the hut fell upon the ears of Marius. For Geminius had sent a number of men from Terracina in pursuit of him, some of whom had chanced to come to the old man’s hut, and were frightening and berating him for having received and hidden an enemy of Rome.
 
@@ -484,25 +482,25 @@ URN: `null`
 
 [38.6] with a saucy and exultant look at Marius the animal at first stopped in front of him, and then, giving a magnificent bray, went frisking past him triumphantly. From this Marius drew an omen and concluded that the Deity was indicating a way of escape for him by sea rather than by land; for the ass made no account of its dry fodder, hut turned from that to the water. After explaining this to Fannia, Marius lay down to rest alone, after ordering the door of the apartment to be closed.
 
-### Capítulo 39
+#### Capítulo 39
 
 [39.1] Upon deliberation, the magistrates and councillors of Minturnae decided not to delay, but to put Marius to death. No one of the citizens, however, would undertake the task, so a horseman, either a Gaul or a Cimbrian (for the story is told both ways), took a sword and went into to the room where Marius was.
 
-[39.2] Now, that part of the room where Marius happened to be lying had not a very good light, but was gloomy, and we are told that to the soldier the eyes of Marius seemed to shoot out a strong flame, and that a loud voice issued from the shadows saying: Man, dost thou dare to slay Caius Marius? At once, then, the Barbarian fled from the room, threw his sword down on the ground, and dashed out of doors, with this one cry: I cannot kill Caius Marius.
+[39.2] Now, that part of the room where Marius happened to be lying had not a very good light, but was gloomy, and we are told that to the soldier the eyes of Marius seemed to shoot out a strong flame, and that a loud voice issued from the shadows saying: “Man, dost thou dare to slay Caius Marius?” At once, then, the Barbarian fled from the room, threw his sword down on the ground, and dashed out of doors, with this one cry: “I cannot kill Caius Marius.”
 
-[39.3] Consternation reigned, of course, and then came pity, a change of heart, and self-reproach for having come to so unlawful and ungrateful a decision against a man who had been the saviour of Italy, and who ought in all decency to be helped. So, then, the talk ran, let him go where he will as an exile, to suffer elsewhere his allotted fate. And let us pray that the gods may not visit us with their displeasure for casting Marius out of our city in poverty and rags. Moved by such considerations, they rushed into his room in a body, surrounded him, and began to lead him forth to the sea.
+[39.3] Consternation reigned, of course, and then came pity, a change of heart, and self-reproach for having come to so unlawful and ungrateful a decision against a man who had been the saviour of Italy, and who ought in all decency to be helped. “So, then,” the talk ran, “let him go where he will as an exile, to suffer elsewhere his allotted fate. And let us pray that the gods may not visit us with their displeasure for casting Marius out of our city in poverty and rags.” Moved by such considerations, they rushed into his room in a body, surrounded him, and began to lead him forth to the sea.
 
 [39.4] But although this one and that one were eager to do him some service and all made what haste they could, still there was delay. For the grove of Marica, as it was called, which was held in veneration, and from which nothing was permitted to be carried out that had ever been carried in, lay between them and the sea as they were going, and if they went round it they must needs lose time. At last, however, one of the older men cried out and said that no path could forbid men’s steps and passage if it were the path of safety for Marius. And the speaker himself was the first to take some of the things that were being carried to the ship arid pass through the holy place.
 
-### Capítulo 40
+#### Capítulo 40
 
 [40.1] Everything was speedily provided through such readiness as this, and a certain Belaeus furnished a ship for Marius. Belaeus afterwards had a painting made representing these scenes, and dedicated it in the temple at the spot where Marius embarked and put to sea. Favoured by the wind he was borne along by chance to the island of Aenaria, where he found Granius and the rest of his friends, and set sail with them for Africa.
 
 [40.2] But their supply of fresh water failed, and they were compelled to touch at Erycina in Sicily. In this neighbourhood, as it chanced, the Roman quaestor was on the watch, and almost captured Marius himself as he landed; he did kill about sixteen of his men who came ashore for water. Marius therefore put out to sea with all speed and crossed to the island of Meninx, where he first learned that his son had come off safely with Cethegus, and that they Were on their way to Iampsas the king of Numidia, intending to ask his aid.
 
-[40.3] At this news Marius was a little refreshed, and made bold to push on from the island to the neighbourhood of Carthage. The Roman governor of Africa at this time was Sextilius, a man who had received neither good nor ill at he hands of Marius, but whom, as it was expected, pity alone would move to give him aid. Hardly, however, had Marius landed with a few companions, when an official met him, stood directly in front of him, and said: Sextilius the governor forbids thee, Marius, to set foot in Africa; and if thou disobeyest, he declares that he will uphold the decrees of the senate and treat thee as an enemy of Rome.
+[40.3] At this news Marius was a little refreshed, and made bold to push on from the island to the neighbourhood of Carthage. The Roman governor of Africa at this time was Sextilius, a man who had received neither good nor ill at he hands of Marius, but whom, as it was expected, pity alone would move to give him aid. Hardly, however, had Marius landed with a few companions, when an official met him, stood directly in front of him, and said: “Sextilius the governor forbids thee, Marius, to set foot in Africa; and if thou disobeyest, he declares that he will uphold the decrees of the senate and treat thee as an enemy of Rome.”
 
-[40.4] When he heard this, Marius was rendered speechless by grief and indignation, and for a long time kept quiet, looking sternly at the official. Then, when asked by him what he had to say, and what answer he would make to the governor, he answered with a deep groan: Tell him, then, that thou hast seen Caius Marius a fugitive, seated amid the ruins of Carthage. And it was not inaptly that he compared the fate of that city with his own reversal of fortune.
+[40.4] When he heard this, Marius was rendered speechless by grief and indignation, and for a long time kept quiet, looking sternly at the official. Then, when asked by him what he had to say, and what answer he would make to the governor, he answered with a deep groan: “Tell him, then, that thou hast seen Caius Marius a fugitive, seated amid the ruins of Carthage.” And it was not inaptly that he compared the fate of that city with his own reversal of fortune.
 
 [40.5] Meanwhile Iampsas the king of Numidia, hesitating which course to take, did indeed treat the younger Marius and his party with respect, but always had some excuse for detaining them when they wished to go away, and clearly had no good end in view in thus postponing their departure. However, something occurred which, though not at all extraordinary, led to their escape. The younger Marius, that is, being a handsome fellow, one of the concubines of the king was pained to see him treated unworthily, and this feeling of compassion ripened into love.
 
@@ -510,7 +508,7 @@ URN: `null`
 
 [40.7] At once, therefore, they boarded a fishing-boat and crossed over to the island of Cercina, which was not far distant from the mainland; and scarcely had they put out from land when horsemen sent by the king were seen riding towards the spot whence they had sailed. It would seem that Marius never escaped a greater peril than this.
 
-### Capítulo 41
+#### Capítulo 41
 
 [41.1] But in Rome, Sulla was heard of as waging war with the generals of Mithridates in Boeotia, and the consuls quarrelled and were resorting to arms. A battle took place, Octavius won the day, cast out Cinna, who was trying to be too arbitrary in his rule, and put Cornelius Merula in his place as consul; whereupon Cinna assembled a force from the other parts of Italy and made war anew upon Octavius and his colleague.
 
@@ -520,7 +518,7 @@ URN: `null`
 
 [41.4] and in mean attire, his hair uncut since the day of his flight, being now over seventy years of age, came with slow steps to meet the consul. For he wished that men should pity him; but with his appeal for compassion there was mingled the look that was natural to him and now more terrifying than ever, and through his downcast mien there flashed a spirit which had been, not humbled, but made savage by his reverses.
 
-### Capítulo 42
+#### Capítulo 42
 
 [42.1] After greeting Cinna and presenting himself to Cinna’s soldiers, he at once began his work and greatly changed the posture of affairs. In the first place, by cutting off the grain-ships with his fleet and plundering the merchants, he made himself master of the city’s supplies; next, he sailed to the maritime cities and took them; and finally, he seized Ostia itself, which was treacherously surrendered to him, plundering the property there and killing most of its inhabitants, and by throwing a bridge across the river completely cut off the enemy from such stores as might come by sea.
 
@@ -532,7 +530,7 @@ URN: `null`
 
 [42.5] This man, then, before Marius entered the city, was dragged down from the rostra by men who had been sent on before, and butchered; and we are told that a Chaldaean chart was found in his bosom after he had been slain. Now, it seems very unaccountable that, of two most illustrious commanders, Marius should succeed by regarding divinations, but Octavius should be ruined.
 
-### Capítulo 43
+#### Capítulo 43
 
 [43.1] Matters being at this pass, the senate met and sent a deputation to Cinna and Marius, begging them to enter the city and spare the citizens. Cinna, accordingly, as consul, seated on his chair of office, received the embassy and gave them a kindly answer; but Marius, standing by the consul’s chair without speaking a word, made it clear all the while, by the heaviness of his countenance and the gloominess of his look, that he would at once fill the city with slaughter. After the conference was over they moved on towards the city.
 
@@ -546,7 +544,7 @@ URN: `null`
 
 [43.6] All the more worthy of praise and admiration, then, was the behaviour of the slaves of Cornutus. They concealed their master in his house; then they hung up by the neck one of the many dead bodies that lay about, put a gold ring on its finger, and showed it to the guards of Marius, after which they decked it out as if it were their master’s body and gave it burial. Nobody suspected the ruse, and thus Cornutus escaped notice and was conveyed by his slaves into Gaul.
 
-### Capítulo 44
+#### Capítulo 44
 
 [44.1] Marcus Antonius also, the orator, found a faithful friend, but it did not save him. For this friend, who was a poor plebeian and had received into his house a leading man of Rome, whom he wished to entertain as well as he could, sent a slave to a neighbouring innkeeper to get some wine. As the slave tasted the wine more carefully than usual and ordered some of better quality, the innkeeper asked him what was the reason that he did not buy the new and ordinary wine as usual, instead of wanting some that was choice and expensive.
 
@@ -556,17 +554,24 @@ URN: `null`
 
 [44.4] So indescribable, however, as it would seem, was the grace and charm of his words, that when Antonius began to speak and pray for his life, not a soldier had the hardihood to lay hands on him or even to look him in the face, but they all bent their heads down and wept. Perceiving that there was some delay, Annius went upstairs, and saw that Antonius was pleading and that the soldiers were abashed and enchanted by his words; so he cursed his men, and running up to Antonius, with his own hands cut off his head.
 
-[44.5] Again, the friends of Catulus Lutatius, who had been a colleague of Marius in the consulship, and with him had celebrated a triumph over the Cimbri, interceded for him and begged Marius to spare his life; but the only answer they could get was: He must die. Catulus therefore shut himself up in a room, lighted up a great quantity of charcoal, and was suffocated.
+[44.5] Again, the friends of Catulus Lutatius, who had been a colleague of Marius in the consulship, and with him had celebrated a triumph over the Cimbri, interceded for him and begged Marius to spare his life; but the only answer they could get was: “He must die.” Catulus therefore shut himself up in a room, lighted up a great quantity of charcoal, and was suffocated.
 
-[44.6] But headless trunks thrown into the streets and trampled under foot excited no pity, though everybody trembled and shuddered at the sight. The people were most distressed, however, by the wanton licence of the Bardyaei, as they were called, who butchered fathers of families in their houses, outraged their children, violated their wives, and could not be checked in their career of rapine and murder until Cinna and Sertorius, after taking counsel together, fell upon them as they were asleep in their camp, and transfixed them all with javelins.Cf. the Sertorius , v. 5 .
+[44.6] But headless trunks thrown into the streets and trampled under foot excited no pity, though everybody trembled and shuddered at the sight. The people were most distressed, however, by the wanton licence of the Bardyaei, as they were called, who butchered fathers of families in their houses, outraged their children, violated their wives, and could not be checked in their career of rapine and murder until Cinna and Sertorius, after taking counsel together, fell upon them as they were asleep in their camp, and transfixed them all with javelins.[^39]
 
-### Capítulo 45
+#### Capítulo 45
 
-[45.1] Meanwhile, as if a change of wind were coming on, messengers arrived from all quarters with reports that Sulla had finished the war with Mithridates, had recovered the provinces, and was sailing for home with a large force. This gave a brief stay and a slight cessation to the city’s unspeakable evils, since men supposed that the war was all but upon them. Accordingly, Marius was elected consul for the seventh time, and assuming office on the very Calends of January,86 B.C. which is the first day of the year, he had a certain Sextus Lucinus thrown down the Tarpeian rock. This was thought to be a most significant portent of the evils that were once more to fall both upon the partisans of Marius and upon the city.
+[45.1] Meanwhile, as if a change of wind were coming on, messengers arrived from all quarters with reports that Sulla had finished the war with Mithridates, had recovered the provinces, and was sailing for home with a large force. This gave a brief stay and a slight cessation to the city’s unspeakable evils, since men supposed that the war was all but upon them. Accordingly, Marius was elected consul for the seventh time, and assuming office on the very Calends of January,[^40] which is the first day of the year, he had a certain Sextus Lucinus thrown down the Tarpeian rock. This was thought to be a most significant portent of the evils that were once more to fall both upon the partisans of Marius and upon the city.
 
 [45.2] But Marius himself, now worn out with toils, deluged, as it were, with anxieties, and wearied, could not sustain his spirits, which shook within him as he again faced the overpowering thought of a new war, of fresh struggles, of terrors known by experience to be dreadful, and of utter weariness. He reflected, too, that it was not Octavius or Merula in command of a promiscuous throng and a seditious rabble against whom he was now to run the hazard of war, but that the famous Sulla was coming against him, the man who had once ejected him from the country, and had now shut Mithridates up to the shores of the Euxine Sea.
 
-[45.3] Tortured by such reflections, and bringing into review his long wandering, his flights, and his perils, as he was driven over land and sea, he fell into a state of dreadful despair, and was a prey to nightly terrors and harassing dreams, wherein he would ever seem to hear a voice saying:— Dreadful, indeed, is the lion’s lair, even though it be empty. A hexameter verse of unknown authorship. And since above all things he dreaded the sleepless nights, he gave himself up to drinking-bouts and drunkenness at unseasonable hours and in a manner unsuited to his years, trying thus to induce sleep as a way of escape from his anxious thoughts,
+[45.3] Tortured by such reflections, and bringing into review his long wandering, his flights, and his perils, as he was driven over land and sea, he fell into a state of dreadful despair, and was a prey to nightly terrors and harassing dreams, wherein he would ever seem to hear a voice saying:—
+
+```verso
+Dreadful, indeed, is the lion’s lair, even though it
+be empty.
+```
+
+[^41] And since above all things he dreaded the sleepless nights, he gave himself up to drinking-bouts and drunkenness at unseasonable hours and in a manner unsuited to his years, trying thus to induce sleep as a way of escape from his anxious thoughts,
 
 [45.4] And finally, when one came with tidings from the sea, fresh terrors fell upon him, partly because he feared the future, and partly because he was wearied to satiety by the present, so that it needed only a slight impulse to throw him into a pleurisy, as Poseidonius the philosopher relates, who says that he went in personally and conversed with Marius on the subjects of his embassy after Marius had fallen ill.
 
@@ -576,7 +581,7 @@ URN: `null`
 
 [45.7] So fierce and inexorable was the passion for directing that war which had been instilled into him by his envy and lust of power. And therefore, though he had lived to be seventy years old, and was the first man to be elected consul for the seventh time, and was possessed of a house and wealth which would have sufficed for many kingdoms at once, he lamented his fortune, in that he was dying before he had satisfied and completed his desires.
 
-### Capítulo 46
+#### Capítulo 46
 
 [46.1] Plato, however, when he was now at the point of death, lauded his guardian genius and Fortune because, to begin with, he had been born a man and not an irrational animal; again, because he was a Greek and not a Barbarian; and still again, because his birth had fallen in the times of Socrates.
 
@@ -588,8 +593,47 @@ URN: `null`
 
 [46.5] So, then, Marius died, seventeen days after entering upon his seventh consulship. And immediately Rome was filled with great rejoicing and a confident hope that she was rid of a grievous tyranny; but in a few days the people perceived that they had got a nerve and vigorous master in exchange for the old one; such bitterness and cruelty did the younger Marius display, putting to death the best and most esteemed citizens.
 
-[46.6] He got the reputation of being bold and fond of danger in fighting his enemies, and in the beginning was called a son of Mars; but his deeds soon showed what he really was, and he was called instead a son of Venus. And finally he was shut up in Praeneste by Sulla, and after many vain attempts to save his life, when the city was captured and he could not escape, he slew himself.See the Sulla , xxxii. 1 .
+[46.6] He got the reputation of being bold and fond of danger in fighting his enemies, and in the beginning was called a son of Mars; but his deeds soon showed what he really was, and he was called instead a son of Venus. And finally he was shut up in Praeneste by Sulla, and after many vain attempts to save his life, when the city was captured and he could not escape, he slew himself.[^42]
 
----
-
-*Ὁ Διαφορεύς παρῆν*
+[^1]: The full name of a Roman citizen consisted of a praenomen (the given, or proper name), a nomen designating his family or gens, and a cognomen, which was also hereditary. Women rarely had a praenomen, or proper name, but bore the family name only.
+[^2]: Probably a corruption for Cereatae.
+[^3]: 134-133 B.C.
+[^4]: In 119 B.C., at the age of thirty-eight.
+[^5]: In 115 B.C.
+[^6]: See the Caesar, v. 1 f.
+[^7]: In 109 B.C.
+[^8]: For the year 107 B.C., at the age of fifty.
+[^9]: Chapter iii.
+[^10]: For the year 104 B.C.
+[^11]: Odyssey, Book XI. See vv. 14 ff., describing the Cimmerians.
+[^12]: See chapter xi. 1. Marius was still in Africa.
+[^13]: In 147 B.C., when Scipio had not reached the age required by law.
+[^14]: Cf. chapter iii. 2.
+[^15]: For the year 103 B.C.
+[^16]: 102 B.C.
+[^17]: Cf. Strabo, iv. 8 (p. 183).
+[^18]: Cf. chapter xiii. 1.
+[^19]: Carbo in 113 B.C., Caepio in 105 B.C. See the Dictionary of Proper Names.
+[^20]: Cybelé, Mother of the Gods.
+[^21]: Cf. chapter xvi. 5.
+[^22]: Bergk, Poet. Lyr. Graeci, ii. 4 pp. 428 f.
+[^23]: For the year 101 B.C.
+[^24]: In his Memoirs; cf. the Sulla, iv. 3.
+[^25]: Chapter xi. 5 f.
+[^26]: a.d. III. Kalendas Augusti.
+[^27]: Catulus wrote a history of his consulship, of which Cicero speaks in terms of high praise ( Brutus 35, 132 ff.).
+[^28]: Marius was consul still, while Catulus had not been re-elected, and was only pro-consul.
+[^29]: With Romulus and Camillus. See the Camillus, xxxi. 2.
+[^30]: 100 B.C.
+[^31]: Fragment 221 (Boeckh).
+[^32]: No such Life is extant.
+[^33]: In 99 B.C.
+[^34]: 90-89 B.C. See the Sulla, vi. 1 f.
+[^35]: Pompaedius Silo, leader of the Marsi. Cf. the Cato Minor, ii. 1-4.
+[^36]: These proceedings are much more clearly narrated in the Sulla, chapter viii. Cf. also Appian Bell. Civ i. 55.
+[^37]: Cf. the Sulla, chapter xi.
+[^38]: Fragment 21 (Kinkel, Ep. Graec. Frag., p. 229).
+[^39]: Cf. the Sertorius, v. 5.
+[^40]: 86 B.C.
+[^41]: A hexameter verse of unknown authorship.
+[^42]: See the Sulla, xxxii. 1.

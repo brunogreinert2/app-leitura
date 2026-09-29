@@ -1,36 +1,28 @@
 ---
 id: plutarco-demetrius-eng-bernadotte-perrin-1920
-type: texto_primario
-title: "Demetrius"
-subtitle: null
+type: translation
+title: Demetrius
 author: Plutarch
-year_original: null
-language: eng
-translation:
-  - Bernadotte Perrin
+translator:
+- Bernadotte Perrin
 publisher: Harvard University Press
-area: null
-era: null
-tags: []
-status: rascunho
+language: eng
+tags:
+- moralists
+status: draft
 project: pedra_angular
-source: "Plutarch. Demetrius. Ed. Bernadotte Perrin. Cambridge, MA: Harvard University Press, 1920. Perseus Digital Library, Tufts University (CC BY-SA 4.0). URN: null"
-related: []
+urn_work: urn:cts:greekLit:tlg0007.tlg057
+urn: urn:cts:greekLit:tlg0007.tlg057.perseus-eng2
+source: 'Plutarch. Demetrius. Ed. Bernadotte Perrin. Cambridge, MA: Harvard University Press, 1920. Perseus Digital Library, Tufts University (CC BY-SA 4.0).'
+source_repo: PerseusDL/canonical-greekLit
+source_file: data/tlg0007/tlg057/tlg0007.tlg057.perseus-eng2.xml
+source_commit: e37eed2e8
+license: CC-BY-SA-4.0
 ---
 
 # Demetrius
 
-**Plutarch**
-
-Cambridge, MA: Harvard University Press, 1920.
-Perseus Digital Library, Tufts University (CC BY-SA 4.0).
-URN: `null`
-
----
-
-## Texto
-
-### Capítulo 1
+#### Capítulo 1
 
 [1.1] Those who first assumed that the arts are like the bodily senses, seem to me to have perceived very clearly the power of making distinctions which both possess, by which power we are enabled to apprehend opposites, as well in the one case as in the other. For the arts and the senses have this power in common; though in the use to which we put the distinctions made, they differ.
 
@@ -42,13 +34,13 @@ URN: `null`
 
 [1.5] still, when men have led reckless lives, and have become conspicuous, in the exercise of power or in great undertakings, for badness, perhaps it will not be much amiss for me to introduce a pair or two of them into my biographies, though not that I may merely divert and amuse my readers by giving variety to my writing.
 
-[1.6] Ismenias the Theban used to exhibit both good and bad players to his pupils on the flute and say, you must play like this one, or again, you must not play like this one; and Antigenidas used to think that young men would listen with more pleasure to good flute-players if they were given an experience of bad ones also. So, I think, we also shall be more eager to observe and imitate the better lives if we are not left without narratives of the blameworthy and the bad.
+[1.6] Ismenias the Theban used to exhibit both good and bad players to his pupils on the flute and say, “you must play like this one,” or again, “you must not play like this one”; and Antigenidas used to think that young men would listen with more pleasure to good flute-players if they were given an experience of bad ones also. So, I think, we also shall be more eager to observe and imitate the better lives if we are not left without narratives of the blameworthy and the bad.
 
-[1.7] This book will therefore contain the Lives of Demetrius the City-besieger and Antony the Imperator, men who bore most ample testimony to the truth of Plato’s sayingIt is uncertain what passage in Plato is meant. that great natures exhibit great vices also, as well as great virtues. Both alike were amorous, bibulous, warlike, munificent, extravagant, and domineering, and they had corresponding resemblances in their fortunes.
+[1.7] This book will therefore contain the Lives of Demetrius the City-besieger and Antony the Imperator, men who bore most ample testimony to the truth of Plato’s saying[^1] that great natures exhibit great vices also, as well as great virtues. Both alike were amorous, bibulous, warlike, munificent, extravagant, and domineering, and they had corresponding resemblances in their fortunes.
 
 [1.8] For not only were they all through their lives winning great successes, but meeting with great reverses; making innumerable conquests, but suffering innumerable losses; unexpectedly falling low, but unexpectedly recovering themselves again; but they also came to their end, the one in captivity to his enemies, and the other on the verge of this calamity.
 
-### Capítulo 2
+#### Capítulo 2
 
 [2.1] To begin, then, Antigonus had two sons by Stratonicé the daughter of Corrhagus, one of whom he named Demetrius, after his brother, arid the other Philip, after his father. This is what the majority of writers say. But some have it that Demetrius was not the son, but the nephew of Antigonus; for his own father died when the boy was quite young, and then his mother immediately married Antigonus, so that Demetrius was considered to be his son.
 
@@ -56,45 +48,45 @@ URN: `null`
 
 [2.3] And in like manner his disposition also was fitted to inspire in men both fear and favour. For while he was a most agreeable companion, and most dainty of princes in the leisure devoted to drinking and luxurious ways of living, on the other hand he had a most energetic and eager persistency and efficiency in action. Wherefore he used to make Dionysus his pattern, more than any other deity, since this god was most terrible in waging war, and on the other hand most skilful, when war was over, in making peace minister to joy and pleasure.
 
-### Capítulo 3
+#### Capítulo 3
 
 [3.1] Moreover, Demetrius was also exceedingly fond of his father; and from his devotion to his mother it was apparent that he honoured his father also from genuine affection rather than out of deference to his power. On one occasion, when Antigonus was busy with an embassy, Demetrius came home from hunting; he went up to his father and kissed him, and then sat down by his side just as he was, javelins in hand.
 
-[3.2] Then Antigonus, as the ambassadors were now going away with their answers, called out to them in a loud voice and said: O men, carry back this report also about us, that this is the way we feel towards one another, implying that no slight vigour in the royal estate and proof of its power were to be seen in his harmonious and trustful relations with his son.
+[3.2] Then Antigonus, as the ambassadors were now going away with their answers, called out to them in a loud voice and said: “O men, carry back this report also about us, that this is the way we feel towards one another,” implying that no slight vigour in the royal estate and proof of its power were to be seen in his harmonious and trustful relations with his son.
 
-[3.3] So utterly unsociable a thing, it seems, is empire, and so full of ill-will and distrust, that the oldest and greatest of the successors of Alexander could make it a thing to glory in that he was not afraid of his son, but allowed him near his person lance in hand. However, this house was almost the only one which kept itself pure from crimes of this nature for very many generations, or, to speak more definitely, Philip was the only one of the descendants of Antigonus who put a son to death.Philip V., King of Macedonia. Cf. the Aemilius Paulus, viii. 6 .
+[3.3] So utterly unsociable a thing, it seems, is empire, and so full of ill-will and distrust, that the oldest and greatest of the successors of Alexander could make it a thing to glory in that he was not afraid of his son, but allowed him near his person lance in hand. However, this house was almost the only one which kept itself pure from crimes of this nature for very many generations, or, to speak more definitely, Philip was the only one of the descendants of Antigonus who put a son to death.[^2].
 
 [3.4] But almost all the other lines afford many examples of men who killed their sons, and of many who killed their mothers and wives; and as for men killing their brothers, just as geometricians assume their postulates, so this crime came to be a common and recognized postulate in the plans of princes to secure their own safety.
 
-### Capítulo 4
+#### Capítulo 4
 
 [4.1] In proof that in the beginning Demetrius was naturally humane and fond of his companions, the following illustration may be given. Mithridates the son of Ariobarzanes was a companion of his, and an intimate of the same age. He was one of the courtiers of Antigonus, and though he neither was nor was held to be a base fellow, still, in consequence of a dream, Antigonus conceived a suspicion of him.
 
 [4.2] Antigonus dreamed, namely, that he was traversing a large and fair field and sowing gold-dust. From this, to begin with, there sprang up a golden crop, but when he came back after a little while, he could see nothing but stubble. In his vexation and distress, he heard in his dream sundry voices saying that Mithridates had reaped the golden crop for himself and gone off to the Euxine Sea.
 
-[4.3] Antigonus was much disturbed by this vision, and after he had put his son under oath of silence, told it to him, adding that he had fully determined to destroy Mithridates and put him out of the way. On hearing this, Demetrius was exceedingly distressed, and when the young man, as was his wont, came to share his diversions with him, though he did not venture to open his lips on the matter or to warn him orally, because of his oath, he gradually drew him away from his friends, and when they were by themselves, with the sharp butt of his lance he wrote on the ground so that he could see it, Fly, Mithridates. Mithridates understood, and ran away by night to Cappadocia.
+[4.3] Antigonus was much disturbed by this vision, and after he had put his son under oath of silence, told it to him, adding that he had fully determined to destroy Mithridates and put him out of the way. On hearing this, Demetrius was exceedingly distressed, and when the young man, as was his wont, came to share his diversions with him, though he did not venture to open his lips on the matter or to warn him orally, because of his oath, he gradually drew him away from his friends, and when they were by themselves, with the sharp butt of his lance he wrote on the ground so that he could see it, “Fly, Mithridates.” Mithridates understood, and ran away by night to Cappadocia.
 
-[4.4] And soon the vision of Antigonus was accomplished for him by fate. For Mithridates made himself master of a large and fair territory, and founded the line of Pontic kings, which, in the eighth generation, was brought to an end by the Romans.In 63 B.C., when Pompey conquered Mithridates VI. and dismembered his kingdom. This, then, is an illustration of the strong natural bent of Demetrius towards kindness and justice.
+[4.4] And soon the vision of Antigonus was accomplished for him by fate. For Mithridates made himself master of a large and fair territory, and founded the line of Pontic kings, which, in the eighth generation, was brought to an end by the Romans.[^3] This, then, is an illustration of the strong natural bent of Demetrius towards kindness and justice.
 
-### Capítulo 5
+#### Capítulo 5
 
 [5.1] But just as among the elements of the universe, according to Empedocles, love and hate produce mutual dissension and war, particularly among those elements which touch or lie near one another, so the continuous wars which the successors of Alexander waged against one another were aggravated and more inflamed in some cases by the close proximity of interests and territories, as at this time in the case of Antigonus and Ptolemy.
 
-[5.2] Antigonus himself was tarrying in Phrygia, and hearing there that Ptolemy had crossed over from Cyprus and was ravaging Syria and reducing or turning from their allegiance its cities, he sent against him his son Demetrius, who was only twenty-two years of age, and was then for the first time engaging with sole command in an expedition where great interests were at stake. But since he was young and inexperienced, and had for his adversary a man trained in the training-school of Alexander who had independently waged many great contests, he met with utter defeat near the city of Gaza,In the spring of 312 B.C. where eight thousand of his men were taken prisoners and five thousand were slain.
+[5.2] Antigonus himself was tarrying in Phrygia, and hearing there that Ptolemy had crossed over from Cyprus and was ravaging Syria and reducing or turning from their allegiance its cities, he sent against him his son Demetrius, who was only twenty-two years of age, and was then for the first time engaging with sole command in an expedition where great interests were at stake. But since he was young and inexperienced, and had for his adversary a man trained in the training-school of Alexander who had independently waged many great contests, he met with utter defeat near the city of Gaza,[^4] where eight thousand of his men were taken prisoners and five thousand were slain.
 
 [5.3] He lost also his tent, his money, and in a word, all his, personal effects. But Ptolemy sent these back to him, together with his friends, accompanying them with the considerate and humane message that their warfare must not be waged for all things alike, but only for glory and dominion. Demetrius accepted the kindness, and prayed the gods that he might not long be indebted to Ptolemy for it, but might speedily make him a like return.
 
 [5.4] And he took his disaster, not like a stripling thwarted at the outset of an undertaking, but like a sensible general acquainted with reverses of fortune, and busied himself with the levying of men and the preparation of arms, while he kept the cities well in hand and practised his new recruits.
 
-### Capítulo 6
+#### Capítulo 6
 
-[6.1] When Antigonus learned of the battle, he said that Ptolemy had conquered beardless youths, but must now fight with men;The competitors at the great games were divided into three classes: boys, beardless youths, and men (Plato, Laws, 833 c). however, not wishing to humble or curtail the spirit of his son, he did not oppose his request that he might fight again on his own account, but suffered him to do it. And not long after, up came Cilles, a general of Ptolemy, with a splendid army, intending to drive Demetrius out of all Syria, and looking down upon him because of his previous defeat.
+[6.1] When Antigonus learned of the battle, he said that Ptolemy had conquered beardless youths, but must now fight with men;[^5] however, not wishing to humble or curtail the spirit of his son, he did not oppose his request that he might fight again on his own account, but suffered him to do it. And not long after, up came Cilles, a general of Ptolemy, with a splendid army, intending to drive Demetrius out of all Syria, and looking down upon him because of his previous defeat.
 
 [6.2] But Demetrius fell upon him suddenly and took him by surprise, put him to rout, and captured his camp, general and all; he also took seven thousand of his soldiers prisoners, and made himself master of vast treasures. However, he rejoiced to have won the day, not by reason of what he was going to have, but of what he could restore, and was delighted, not so much with the wealth and glory which his victory brought, as with the power it gave him to recompense the kindness and return the favour of Ptolemy.
 
 [6.3] And yet he did not do this on his own responsibility, but first wrote to his father about it. And when his father gave him permission and bade him dispose of everything as he liked, he sent back to Ptolemy both Cilles himself and his friends, after loading them with gifts. This reverse drove Ptolemy out of Syria, and brought Antigonus down from Celaenae; he rejoiced at the victory and yearned to get sight of the son who had won it.
 
-### Capítulo 7
+#### Capítulo 7
 
 [7.1] After this, Demetrius was sent to bring into subjection the Arabs known as Nabataean, and incurred great peril by getting into regions which had no water; but he was neither terrified nor greatly disturbed, and his demeanour overawed the Barbarians, so that he took much booty and seven hundred camels from them and returned.
 
@@ -102,19 +94,19 @@ URN: `null`
 
 [7.3] But after ordering his soldiers to take and make booty of everything which they could carry or drive from the country, he returned to the sea-coast, leaving Seleucus more confirmed than before in his possession of the realm; for by ravaging the country Demetrius was thought to admit that it no longer belonged to his father. However, while Ptolemy was besieging Halicarnassus, Demetrius came swiftly to the aid of the city and rescued it.
 
-### Capítulo 8
+#### Capítulo 8
 
 [8.1] The glory won by this noble deed inspired father and son with a wonderful eagerness to give freedom to all Greece, which had been reduced to subjection by Cassander and Ptolemy. No nobler or juster war than this was waged by any one of the kings; for the vast wealth which they together had amassed by subduing the Barbarians, was now lavishly spent upon the Greeks, to win glory and honour.
 
 [8.2] As soon as father and son had determined to sail against Athens, one of his friends said to Antigonus that they must keep that city, if they took it, in their own hands, since it was a gangway to Greece. But Antigonus would not hear of it; he said that the goodwill of a people was a noble gangway which no waves could shake, and that Athens, the beacon-tower of the whole world, would speedily flash the glory of their deeds to all mankind.
 
-[8.3] So Demetrius sailed, with five thousand talents of money and a fleet of two hundred and fifty ships, against Athens, where Demetrius the Phalerean was administering the affairs of the city for Cassander and a garrison was set in Munychia. By virtue of forethought combined with good fortune, he appeared off Piraeus on the twenty-sixth of the month Thargelion.May-June, 307 B.C.
+[8.3] So Demetrius sailed, with five thousand talents of money and a fleet of two hundred and fifty ships, against Athens, where Demetrius the Phalerean was administering the affairs of the city for Cassander and a garrison was set in Munychia. By virtue of forethought combined with good fortune, he appeared off Piraeus on the twenty-sixth of the month Thargelion.[^6]
 
 [8.4] Nobody knew beforehand of his approach, but as soon as his fleet was seen in the vicinity, everybody thought that the ships belonged to Ptolemy and prepared to receive them. At last, however, the generals discovered their mistake and came to the rescue, and there was confusion, as is natural when men are compelled to defend themselves against enemies who are making an unexpected landing. For Demetrius, finding the entrances to the harbours open and sailing through them, was presently inside and in view of all, and signalled from his ship a demand for quiet and silence.
 
 [8.5] When this was secured, he proclaimed by voice of herald at his side that he had been sent by his father on what he prayed might be a happy errand, to set Athens free, and to expel her garrison, and to restore to the people their laws and their ancient form of government.
 
-### Capítulo 9
+#### Capítulo 9
 
 [9.1] On hearing this proclamation, most of the people at once threw their shields down in front of them, and with clapping of hands and loud cries urged Demetrius to land, hailing him as their saviour and benefactor. The party of Demetrius the Phalerean also thought they must by all means receive the conqueror, even though he should confirm none of his promises, but nevertheless sent ambassadors to supplicate his mercy. These Demetrius met in a friendly spirit, and sent back with them one of his father’s friends, Aristodemus of Miletus.
 
@@ -124,63 +116,77 @@ URN: `null`
 
 [9.4] Some of his enemies learned of this, and made a sudden descent upon him. Then, in a fright, he donned a shabby cloak and ran for his life and got away, narrowly escaping a most shameful capture in consequence of his rash ardour. His tent, together with his belongings, was carried off by his enemies.
 
-[9.5] Megara, however, was captured, and the soldiers would have plundered it had not the Athenians made strong intercession for its citizens; Demetrius also expelled its garrison and gave the city its freedom. While he was still engaged in this, he bethought himself of Stilpo the philosopher, who was famous for his election of a life of tranquillity. Accordingly, Demetrius summoned him and asked him whether any one had robbed him of anything. No one, said Stilpo, for I saw nobody carrying away knowledge.
+[9.5] Megara, however, was captured, and the soldiers would have plundered it had not the Athenians made strong intercession for its citizens; Demetrius also expelled its garrison and gave the city its freedom. While he was still engaged in this, he bethought himself of Stilpo the philosopher, who was famous for his election of a life of tranquillity. Accordingly, Demetrius summoned him and asked him whether any one had robbed him of anything. “No one,” said Stilpo, “for I saw nobody carrying away knowledge.”
 
-[9.6] But nearly all the servants in the city were stolen away, and when Demetrius once more tried to deal kindly with the philosopher, and finally, on going away, said: Your city, Stilpo, I leave in freedom, Thou sayest truly, replied Stilpo, for thou hast not left a single one of our slaves.
+[9.6] But nearly all the servants in the city were stolen away, and when Demetrius once more tried to deal kindly with the philosopher, and finally, on going away, said: “Your city, Stilpo, I leave in freedom,” “Thou sayest truly,” replied Stilpo, “for thou hast not left a single one of our slaves.”
 
-### Capítulo 10
+#### Capítulo 10
 
 [10.1] Coming back again to Munychia and encamping before it, he drove out the garrison and demolished the fortress, and this accomplished, at last, on the urgent invitation of the Athenians, he made his entry into the upper city, where he assembled the people and gave them back their ancient form of government. He also promised that they should receive from his father a hundred and fifty thousand bushels of grain, and enough ship timber to build a hundred triremes.
 
-[10.2] It was fourteen years since the Athenians had lost their democratic form of government, and during the period which followed the Lamian war and the battle at Crannon323-322 B.C. See the Phocion, xxiii.; xxvi. 1. their government had been administered, nominally as an oligarchy, but really as a monarchy, owing to the great influence of the Phalerean. And now that Demetrius had shown himself great and splendid in his benefactions, the Athenians rendered him odious and obnoxious by the extravagance of the honours which they voted him.
+[10.2] It was fourteen years since the Athenians had lost their democratic form of government, and during the period which followed the Lamian war and the battle at Crannon[^7] their government had been administered, nominally as an oligarchy, but really as a monarchy, owing to the great influence of the Phalerean. And now that Demetrius had shown himself great and splendid in his benefactions, the Athenians rendered him odious and obnoxious by the extravagance of the honours which they voted him.
 
 [10.3] For instance, they were the first people in the world to give Demetrius and Antigonus the title of King, although both had up to that time shrunk from using the word, and although this was the only royal prerogative still left to the descendants of Philip and Alexander which it was thought that others could not assume or share; moreover, the Athenians were the only people to give them the appellation of Saviour-gods, and they put a stop to the ancient custom of designating the year with the name of the annual archon, and elected every year a priest of the Saviour-gods, whose name they prefixed to their public edicts and private contracts.
 
-[10.4] They also decreed that the figures of Demetrius and Antigonus should be woven into the sacred robe,Every fifth year, at the Panathenaic festival, a sacred robe was carried in solemn procession and deposited with the goddess Athena on the Acropolis. On it were represented the exploits of the goddess, particularly in the Battle of the Giants. along with those of the gods; and the spot where Demetrius first alighted from his chariot they consecrated and covered with an altar, which they styled the altar of Demetrius Alighter; they also created two new tribes, Demetrias and Antigonis; and they increased the number of the senators, which had been five hundred, to six hundred, since each of the tribes must furnish fifty senators.
+[10.4] They also decreed that the figures of Demetrius and Antigonus should be woven into the sacred robe,[^8] along with those of the gods; and the spot where Demetrius first alighted from his chariot they consecrated and covered with an altar, which they styled the altar of Demetrius Alighter; they also created two new tribes, Demetrias and Antigonis; and they increased the number of the senators, which had been five hundred, to six hundred, since each of the tribes must furnish fifty senators.
 
-### Capítulo 11
+#### Capítulo 11
 
 [11.1] But the most monstrous thing that came into the head of Stratocles (he it was who invented these elegant and clever bits of obsequiousness) was his motion that envoys sent by public decree and at public expense to Antigonus or Demetrius should be called sacred deputies, instead of ambassadors, like those who conducted to Delphi and Olympia the ancient sacrifices in behalf of the cities at the great Hellenic festivals.
 
-[11.2] In all other ways also Stratocles was an audacious fellow; he lived an abandoned life, and was thought to imitate the scurrility and buffoonery of the ancient Cleon in his familiarities with the people. He had taken up with a mistress named Phylacion; and one day when she had bought in the market-place for his supper some brains and neck-bones, Aha! he cried, thou hast bought just such delicacies for me as we statesmen used to play ball with.
+[11.2] In all other ways also Stratocles was an audacious fellow; he lived an abandoned life, and was thought to imitate the scurrility and buffoonery of the ancient Cleon in his familiarities with the people. He had taken up with a mistress named Phylacion; and one day when she had bought in the market-place for his supper some brains and neck-bones, “Aha!” he cried, “thou hast bought just such delicacies for me as we statesmen used to play ball with.”
 
-[11.3] Again, when the Athenians suffered their naval defeat near Amorgus,In 322 B.C. A Macedonian fleet was victorious. before the tidings of the disaster could reach the city he put a garland on his head and drove through the Cerameicus, and after announcing that the Athenians were victorious, moved a sacrifice of glad tidings and made a generous distribution of meat to the people by tribes. Then, a little later, when the wrecks were brought home from the battle and the people in their wrath called him out, he faced the tumult recklessly and said: What harm have I done you, pray, if for two days ye have been happy? Such was the effrontery of Stratocles.
+[11.3] Again, when the Athenians suffered their naval defeat near Amorgus,[^9] before the tidings of the disaster could reach the city he put a garland on his head and drove through the Cerameicus, and after announcing that the Athenians were victorious, moved a sacrifice of glad tidings and made a generous distribution of meat to the people by tribes. Then, a little later, when the wrecks were brought home from the battle and the people in their wrath called him out, he faced the tumult recklessly and said: “What harm have I done you, pray, if for two days ye have been happy?” Such was the effrontery of Stratocles.
 
-### Capítulo 12
+#### Capítulo 12
 
-[12.1] But there are things hotter even than fire, as Aristophanes puts it. Knights, 382. For some one else, outdoing Stratocles in servility, proposed that whenever Demetrius visited the city he should be received with the hospitable honours paid to Demeter and Dionysus, and that to the citizen who surpassed all others in the splendour and costliness of his reception, a sum of money should be granted from the public treasury for a dedicatory offering.
+[12.1] But there are things hotter even than fire, as Aristophanes puts it.[^10] For some one else, outdoing Stratocles in servility, proposed that whenever Demetrius visited the city he should be received with the hospitable honours paid to Demeter and Dionysus, and that to the citizen who surpassed all others in the splendour and costliness of his reception, a sum of money should be granted from the public treasury for a dedicatory offering.
 
-[12.2] And finally, they changed the name of the month Mounychion to Demetrion, and that of the last day of a month, the Old and New, to Demetrias, and to the festival called Dionysia they gave the new name of Demetria. Most of these innovations were marked with the divine displeasure. The sacred robe, for instance, in which they had decreed that the figures of Demetrius and Antigonus should be woven along with those of Zeus and Athena, as it was being carried in procession through the midst of the Cerameicus, was rent by a hurricane which smote it;The peplos was spread like a sail on the mast of the sacred Panathenaic ship.
+[12.2] And finally, they changed the name of the month Mounychion to Demetrion, and that of the last day of a month, the “Old and New,” to Demetrias, and to the festival called Dionysia they gave the new name of Demetria. Most of these innovations were marked with the divine displeasure. The sacred robe, for instance, in which they had decreed that the figures of Demetrius and Antigonus should be woven along with those of Zeus and Athena, as it was being carried in procession through the midst of the Cerameicus, was rent by a hurricane which smote it;[^11]
 
 [12.3] again, all around the altars of those Saviour-gods the soil teemed with hemlock, a plant which did not grow in many other parts of the country at all; and on the day for the celebration of the Dionysia, the sacred procession had to be omitted on account of severe cold weather that came out of season. And a heavy frost followed, which not only blasted all the vines and fig-trees with its cold, but also destroyed most of the grain in the blade.
 
-[12.4] Therefore Philippides, who was an enemy of Stratocles, assailed him in a comedy with these versesCf. Kock, Com. Att. Frag. iii. p. 308.:— Through him it was that hoar-frost blasted all the vines, Through his impiety the robe was rent in twain, Because he gave the gods’ own honours unto men. Such work undoes a people, not its comedy.
+[12.4] Therefore Philippides, who was an enemy of Stratocles, assailed him in a comedy with these verses[^12]:—
 
-[12.5] Philippides was a friend of Lysimachus, and for his sake the king bestowed many favours on the Athenian people. Moreover, when he was about to undertake anything or make an expedition, he thought it a good omen to meet or catch sight of Philippides. And in general the character of Philippides gave him a good repute, since he was no busybody, and had none of the officious ways of a courtier. On one occasion Lysimachus wished to do him a kindness, and said: Philippides, what have I that I can share with thee? O King, said Philippides, anything but one of thy state secrets. Such a man, then, I purposely compare with Stratocles, the man of the stage with the man of the bema.
+```verso
+Through him it was that hoar-frost blasted all the vines,
+Through his impiety the robe was rent in twain,
+Because he gave the gods’ own honours unto men.
+Such work undoes a people, not its comedy.
+```
 
-### Capítulo 13
+[12.5] Philippides was a friend of Lysimachus, and for his sake the king bestowed many favours on the Athenian people. Moreover, when he was about to undertake anything or make an expedition, he thought it a good omen to meet or catch sight of Philippides. And in general the character of Philippides gave him a good repute, since he was no busybody, and had none of the officious ways of a courtier. On one occasion Lysimachus wished to do him a kindness, and said: “Philippides, what have I that I can share with thee?” “O King,” said Philippides, “anything but one of thy state secrets.” Such a man, then, I purposely compare with Stratocles, the man of the stage with the man of the bema.
+
+#### Capítulo 13
 
 [13.1] But there was one honour proposed for Demetrius which was more strange and monstrous than any other. Dromocleides the Sphettian moved, when the dedication of certain shields at Delphi was in question, that the Athenians should get an oracle from Demetrius. And I will transcribe his very words from the decree; they run thus:
 
-[13.2] May it be for the best.A pious formula prefixed to important documents. Decreed by the people that the people elect one man from the Athenians, who shall go to the Saviour-god, and, after a sacrifice with good omens, shall enquire of the Saviour-god in what most speedy, decorous, and reverent manner the people may accomplish the restoration to their places of the dedicatory offerings; and that whatever answer he shall give, the people shall act according thereunto. With such mockery of adulation they finally perverted the man’s mind, which even before was not wholly sound.
+[13.2] “May it be for the best.[^13] Decreed by the people that the people elect one man from the Athenians, who shall go to the Saviour-god, and, after a sacrifice with good omens, shall enquire of the Saviour-god in what most speedy, decorous, and reverent manner the people may accomplish the restoration to their places of the dedicatory offerings; and that whatever answer he shall give, the people shall act according thereunto.” With such mockery of adulation they finally perverted the man’s mind, which even before was not wholly sound.
 
-### Capítulo 14
+#### Capítulo 14
 
 [14.1] Furthermore, while he lingered in Athens at this time, Demetrius took to wife Eurydicé, a widow. She was a descendant of the ancient Miltiades, had married Ophelas the ruler of Cyrené, and after his death had come back to Athens.
 
 [14.2] The Athenians, accordingly, took this marriage as a graceful compliment to their city; but in general Demetrius made a rather light matter of marriages, and had many wives at the same time, of whom Phila enjoyed the greatest esteem and honour, both because of her father, Antipater, and because she had been the wife of Craterus, the one of all the successors of Alexander who left behind him the most goodwill among the Macedonians. This woman, as it would appear, his father had persuaded Demetrius to marry when he was quite young, although she was not of his age, but older;
 
-[14.3] and when his son was disinclined to the match, it is said that Antigonus whispered in his ear the verse of Euripides: Where there is gain, ’gainst nature’s dictates must one wed, substituting off-hand must one wed for the similar inflection must one serve. However, so slight was the respect which Demetrius paid to Phila and to the rest of his wives, that he consorted freely with many courtesans, as well as with many women of free birth, and as regards this indulgence he had the worst reputation of all the kings of his time.
+[14.3] and when his son was disinclined to the match, it is said that Antigonus whispered in his ear the verse of Euripides:
 
-### Capítulo 15
+```verso
+Where there is gain, ’gainst nature’s dictates must
+one wed,
+```
+
+substituting off-hand “must one wed” for the similar inflection “must one serve.” However, so slight was the respect which Demetrius paid to Phila and to the rest of his wives, that he consorted freely with many courtesans, as well as with many women of free birth, and as regards this indulgence he had the worst reputation of all the kings of his time.
+
+#### Capítulo 15
 
 [15.1] And now his father summoned him to wage war against Ptolemy for the possession of Cyprus. He must needs obey the summons, but was loth to abandon the war for the liberation of Greece, which was a nobler and more glorious war, and therefore sent to Cleonides, the general of Ptolemy who was occupying Sicyon and Corinth with a garrison, and offered him money to set the cities free.
 
-[15.2] Cleonides, however, would not accept the bribe, and Demetrius therefore put to sea in haste, and taking additional forces, sailed against Cyprus.In 306 B.C. There he joined battle with Menelaüs, a brother of Ptolemy, and promptly defeated him; but Ptolemy himself appeared on the scene with a large land and naval force combined, and there were sundry interchanges of threats and boasts, Ptolemy ordering Demetrius to sail away before the entire force should assemble and crush him, and Demetrius offering to let Ptolemy go if he would agree to withdraw his garrisons from Sicyon and Corinth.
+[15.2] Cleonides, however, would not accept the bribe, and Demetrius therefore put to sea in haste, and taking additional forces, sailed against Cyprus.[^14] There he joined battle with Menelaüs, a brother of Ptolemy, and promptly defeated him; but Ptolemy himself appeared on the scene with a large land and naval force combined, and there were sundry interchanges of threats and boasts, Ptolemy ordering Demetrius to sail away before the entire force should assemble and crush him, and Demetrius offering to let Ptolemy go if he would agree to withdraw his garrisons from Sicyon and Corinth.
 
 [15.3] And not only Demetrius and Ptolemy themselves, but also all the other potentates, awaited with great expectancy the uncertain issue of the impending struggle; they felt that not Cyprus, nor yet Syria, but the absolute supremacy would at once be the prize of the victor.
 
-### Capítulo 16
+#### Capítulo 16
 
 [16.1] Well, then, Ptolemy himself sailed to the attack with a hundred and fifty ships, and ordered Menelaüs to put out from Salamis with sixty ships, and when the struggle was fiercest, to assail the ships of Demetrius in the rear, and throw them into confusion. But to these sixty ships Demetrius opposed only ten ships (for that small number sufficed to block the narrow exit from the harbour),
 
@@ -190,7 +196,7 @@ URN: `null`
 
 [16.4] At this time, at any rate, although she was past her prime and found Demetrius much younger than herself, she so mastered and swayed him by her charms that he was a lover for her alone, but a beloved for all other women. After the sea-fight, Menelaüs also made no further resistance, but handed over Salamis to Demetrius, together with his fleet, and his land forces, which comprised twelve hundred horsemen and twelve thousand men-at-arms.
 
-### Capítulo 17
+#### Capítulo 17
 
 [17.1] This victory, which was so fair and brilliant, Demetrius adorned still more by his humanity and kindness of heart. He gave the enemy’s dead a magnificent burial, and set his captives free; moreover, upon the Athenians he bestowed twelve hundred suits of armour from the spoils.
 
@@ -200,9 +206,9 @@ URN: `null`
 
 [17.4] Aristodemus, however, would make no answer to anybody, but step by step and with a solemn face drew near in perfect silence. Antigonus, therefore, thoroughly frightened, and no longer able to restrain himself, came to the door to meet Aristodemus, who was now escorted by a large throng which was hurrying to the palace.
 
-[17.5] Accordingly, when he had come near, he stretched out his hand and cried with a loud voice: Hail, King Antigonus, we have conquered Ptolemy in a sea-fight, and now hold Cyprus, with twelve thousand eight hundred soldiers as prisoners of war. To this Antigonus replied: Hail to thee also, by Heaven! but for torturing us in this way, thou shalt undergo punishment; the reward for thy good tidings thou shalt be some time in getting.
+[17.5] Accordingly, when he had come near, he stretched out his hand and cried with a loud voice: “Hail, King Antigonus, we have conquered Ptolemy in a sea-fight, and now hold Cyprus, with twelve thousand eight hundred soldiers as prisoners of war.” To this Antigonus replied: “Hail to thee also, by Heaven! but for torturing us in this way, thou shalt undergo punishment; the reward for thy good tidings thou shalt be some time in getting.”
 
-### Capítulo 18
+#### Capítulo 18
 
 [18.1] Upon this, the multitude for the first time saluted Antigonus and Demetrius as kings. Antigonus, accordingly, was immediately crowned by his friends, and Demetrius received a diadem from his father, with a letter in which he was addressed as King. The followers of Ptolemy in Egypt on their part also, when these things were reported to them, gave him the title of King, that they might not appear to lose spirit on account of their defeat.
 
@@ -212,21 +218,21 @@ URN: `null`
 
 [18.4] Consequently they became harsher in their judicial decisions also; they laid aside that dissemblance of power which formerly had often made them more lenient and gentle with their subjects. So great influence had a flatterer’s single word, and with so great a change did it fill the whole world.
 
-### Capítulo 19
+#### Capítulo 19
 
-[19.1] Antigonus, elated by the achievements of Demetrius at Cyprus, at onceDuring the same year, namely, 306 B.C. made an expedition against Ptolemy; he himself led his forces by land, while Demetrius with a great fleet cooperated with him by sea. How the enterprise was to issue, Medius, a friend of Antigonus, was warned by a vision in his sleep.
+[19.1] Antigonus, elated by the achievements of Demetrius at Cyprus, at once[^15] made an expedition against Ptolemy; he himself led his forces by land, while Demetrius with a great fleet cooperated with him by sea. How the enterprise was to issue, Medius, a friend of Antigonus, was warned by a vision in his sleep.
 
 [19.2] He dreamed, namely, that Antigonus himself, with his whole army, was competing in a race over the course and back; he ran vigorously and swiftly at first, then, little by little, his strength failed him; and at last, after he had made the turn, he became weak, breathed heavily, and with difficulty made the finish. And conformably to the vision, Antigonus himself encountered many difficulties by land, and since Demetrius also encountered a great storm and a heavy sea and was cast upon a rough coast which had no harbours, losing many of his ships, he returned without accomplishing anything.
 
 [19.3] Antigonus was at this time almost eighty years old, and his great size and weight, even more than his old age, made it difficult for him to conduct expeditions. He therefore made use of his son instead, whose good fortune and experience now enabled him to conduct the greatest affairs successfully, and whose luxuries, extravagances, and revelries gave his father no concern. For although in time of peace Demetrius plunged deep into these excesses and devoted his leisure to his pleasures without restraint and intemperately, yet in time of war he was as sober as those who were abstemious by nature.
 
-[19.4] And we are told that once, after Lamia was known of all men to be in complete control of Demetrius, he came home from abroad and greeted his father with a kiss, whereupon Antigonus said with a laugh, One would think, my son, that thou wert kissing Lamia. Again, on another occasion, when Demetrius had been at his revels for several days, and excused his absence by saying that he was troubled with a flux, So I learned, said Antigonus, but was it Thasian or Chian wine that flowed?
+[19.4] And we are told that once, after Lamia was known of all men to be in complete control of Demetrius, he came home from abroad and greeted his father with a kiss, whereupon Antigonus said with a laugh, “One would think, my son, that thou wert kissing Lamia.” Again, on another occasion, when Demetrius had been at his revels for several days, and excused his absence by saying that he was troubled with a flux, “So I learned,” said Antigonus, “but was it Thasian or Chian wine that flowed?”
 
-[19.5] And again, learning that his son was sick, Antigonus was going to see him, and met a certain beauty at his door; he went in, however, sat down by his son, and felt his pulse. The fever has left me now, said Demetrius. No doubt, my boy, said Antigonus, I met it just now at the door as it was going away.
+[19.5] And again, learning that his son was sick, Antigonus was going to see him, and met a certain beauty at his door; he went in, however, sat down by his son, and felt his pulse. “The fever has left me now,” said Demetrius. “No doubt, my boy,” said Antigonus, “I met it just now at the door as it was going away.”
 
 [19.6] These failings of Demetrius were treated with such lenity by his father because the young man was so efficient otherwise. The Scythians, in the midst of their drinking and carousing, twang their bow-strings, as though summoning back their courage when it is dissolved in pleasure; but Demetrius, giving himself up completely, now to pleasure, and now to duty, and keeping the one completely separate from the other, was no less formidable in his preparations for war.
 
-### Capítulo 20
+#### Capítulo 20
 
 [20.1] Nay, he was actually thought to be a better general in preparing than in employing a force, for he wished everything to be at hand in abundance for his needs, and could never be satisfied with the largeness of his undertakings in building ships and engines of war, or in gazing at them with great delight. For he had good natural parts and was given to speculation, and did not apply his ingenuity to things that would afford useless pleasure or diversion, like other kings who played on the flute, or painted, or chased metals.
 
@@ -234,13 +240,13 @@ URN: `null`
 
 [20.3] But with Demetrius, even the work of his hands was kingly, and his method had grandeur about it, since what he produced displayed loftiness of purpose and spirit combined with elegance and ingenuity, so that men thought it worthy, not only to be designed and paid for by a king, but actually to be wrought by his hand. For its magnitude terrified even his friends, and its beauty delighted even his enemies. And this has still more truth in it than elegance of diction.
 
-[20.4] His enemies would stand on shore and admire his galleys of fifteen or sixteen banks of oars as they sailed along past, and his city-takers were a spectacle to those whom he was besieging, as the actual facts testify. For Lysimachus, although he was the bitterest enemy Demetrius had among the kings, and had arrayed himself against him when he was besieging Soli in Cilicia, sent and asked Demetrius to show him his engines of war, and his ships in full career; and when Demetrius had shown them, Lysimachus expressed his admiration and went away.
+[20.4] His enemies would stand on shore and admire his galleys of fifteen or sixteen banks of oars as they sailed along past, and his “city-takers” were a spectacle to those whom he was besieging, as the actual facts testify. For Lysimachus, although he was the bitterest enemy Demetrius had among the kings, and had arrayed himself against him when he was besieging Soli in Cilicia, sent and asked Demetrius to show him his engines of war, and his ships in full career; and when Demetrius had shown them, Lysimachus expressed his admiration and went away.
 
 [20.5] The Rhodians also, after they had been for a long time besieged by Demetrius and had come to terms with him, asked him for some of his engines of war, that they might keep them as a reminder of his power as well as of their own bravery.
 
-### Capítulo 21
+#### Capítulo 21
 
-[21.1] Now, he made war upon the RhodiansIn 305-304 B.C. The siege lasted about a year. because they were allies of Ptolemy, and brought up against their walls his greatest city-taker. Its base was square, and each of its sides measured at the bottom forty-eight cubits. It rose to a height of sixty-six cubits, and tapered from base to summit.
+[21.1] Now, he made war upon the Rhodians[^16] because they were allies of Ptolemy, and brought up against their walls his greatest “city-taker.” Its base was square, and each of its sides measured at the bottom forty-eight cubits. It rose to a height of sixty-six cubits, and tapered from base to summit.
 
 [21.2] Within, it was divided off into many storeys and chambers, and the side of it which faced the enemy had windows opening out of every storey, and out through these issued missiles of every sort; for it was full of men who fought in every style of fighting. Moreover, it did not totter or lean when it moved, but remained firm and erect on its base, advancing evenly with much noise and great impetus, and this astounded the minds and at the same time greatly charmed the eyes of those who beheld it.
 
@@ -248,17 +254,17 @@ URN: `null`
 
 [21.4] This coat of mail Demetrius wore himself; the other was worn by Alcimus the Epeirot, the sturdiest and most warlike of all the men under him, and the only one whose suit of armour weighed a hundred pounds (the rest used suits of fifty pounds weight); he fell in battle at Rhodes near the theatre.
 
-### Capítulo 22
+#### Capítulo 22
 
 [22.1] But the Rhodians on their part made a vigorous resistance, and Demetrius, although he was accomplishing nothing worthy of mention, nevertheless kept up the fight against them in a rage, because, when Phila his wife sent him letters, bedding, and clothing, the Rhodians had captured the vessel containing them, and had sent it, just as it was, to Ptolemy. In this they did not imitate the considerate kindness of the Athenians, who, having captured Philip’s letter-carriers when he was making war upon them, read all the other letters, indeed, but one of them, which was from Olympias, they would not open; instead, they sent it back to the king with its seal unbroken.
 
 [22.2] However, although Demetrius was exceedingly exasperated by this when the Rhodians soon after gave him a chance to retaliate, he would not allow himself to do so. It happened, namely, that Protogenes the Caunian had been making a painting for them which illustrated the story of Ialysus, and this picture, nearly finished, had been captured by Demetrius in one of the suburbs of the city. The Rhodians sent a herald and, begged Demetrius to spare and not destroy the work, whereupon he replied that he would rather burn the likenesses of his father than so great a labour of art.
 
-[22.3] For we are told that it took Protogenes seven years to complete the painting. And Apelles says he was so smitten with amazement on beholding the work that his voice actually failed him, and that when at last he had recovered it, he cried, Great is the toil and astonishing the work, remarking, however, that it had not the graces which made the fame of his own paintings touch the heavens.
+[22.3] For we are told that it took Protogenes seven years to complete the painting. And Apelles says he was so smitten with amazement on beholding the work that his voice actually failed him, and that when at last he had recovered it, he cried, “Great is the toil and astonishing the work,” remarking, however, that it had not the graces which made the fame of his own paintings touch the heavens.
 
-[22.4] This painting, then, crowded into the same place with the rest at Rome, the fire destroyed.When Strabo wrote, during the reign of Augustus, the painting was still at Rhodes, where it had been seen and admired by Cicero ( Orat. 2, 5); when the elder Pliny wrote, a generation or two later, it had been carried to Rome and placed in the temple of Peace (cf. Strabo, xiv. p. 652; Pliny, N.H. xxxv. 10, 36). As for the Rhodians, they continued their strenuous resistance in the war until Demetrius, who wanted a pretext for abandoning it, was induced to make terms with them by a deputation of Athenians, on condition that the Rhodians should be allies of Antigonus and Demetrius, except in a war against Ptolemy.
+[22.4] This painting, then, crowded into the same place with the rest at Rome, the fire destroyed.[^17] As for the Rhodians, they continued their strenuous resistance in the war until Demetrius, who wanted a pretext for abandoning it, was induced to make terms with them by a deputation of Athenians, on condition that the Rhodians should be allies of Antigonus and Demetrius, except in a war against Ptolemy.
 
-### Capítulo 23
+#### Capítulo 23
 
 [23.1] And now the Athenians called upon Demetrius because Cassander was besieging their city. So Demetrius sailed to their help with three hundred and thirty ships and a great number of men-at-arms, and not only drove Cassander out of Attica, but actually pursued him in his headlong flight as far as Thermopylae, and then took Heracleia, which joined him of its own accord, and six thousand Macedonians, who also came over to him.
 
@@ -266,11 +272,11 @@ URN: `null`
 
 [23.3] For instance, they assigned him the rear chamber of the Parthenon for his quarters; and there he lived, and there it was said that Athena received and entertained him, although he was no very orderly guest and did not occupy his quarters with the decorum due to a virgin.
 
-[23.4] And yet on one occasion when his father understood that his brother Philip was quartered in a house occupied by three young women, he said not a word to Philip himself, but in his presence said to the quartermaster whom he had summoned, See here, wilt thou not remove my son from his narrow quarters?
+[23.4] And yet on one occasion when his father understood that his brother Philip was quartered in a house occupied by three young women, he said not a word to Philip himself, but in his presence said to the quartermaster whom he had summoned, “See here, wilt thou not remove my son from his narrow quarters?”
 
-### Capítulo 24
+#### Capítulo 24
 
-[24.1] But Demetrius, who ought to have revered Athena, if for no other reason, at least because she was his elder sister (for this was what he liked to have her calledSince the Athenians had made him a Saviour-god. ), filled the acropolis with such wanton treatment of free-born youth and native Athenian women that the place was then thought to be particularly pure when he shared his dissolute life there with Chrysis and Lamia and Demo and Anticyra, the well-known prostitutes.
+[24.1] But Demetrius, who ought to have revered Athena, if for no other reason, at least because she was his elder sister (for this was what he liked to have her called[^18]), filled the acropolis with such wanton treatment of free-born youth and native Athenian women that the place was then thought to be particularly pure when he shared his dissolute life there with Chrysis and Lamia and Demo and Anticyra, the well-known prostitutes.
 
 [24.2] Now, to give all the particulars plainly would disgrace the fair fame of the city, but I may not pass over the modesty and virtue of Democles. He was still a young boy, and it did not escape the notice of Demetrius that he had a surname which indicated his comeliness; for he was called Democles the Beautiful. But he yielded to none of the many who sought to win him by prayers or gifts or threats, and finally, shunning the palaestras and the gymnasium, used to go for his bath to a private bathing-room. Here Demetrius, who had watched his opportunity, came upon him when he was alone.
 
@@ -278,13 +284,13 @@ URN: `null`
 
 [24.4] For the people released Cleomedon from his sentence, but they passed an edict that no citizen should bring a letter from Demetrius before the assembly. However, when Demetrius heard of it and was beyond measure incensed thereat, they took fright again, and not only rescinded the decree, but actually put to death some of those who had introduced and spoken in favour of it, and drove others into exile; furthermore, they voted besides that it was the pleasure of the Athenian people that whatsoever King Demetrius should ordain in future, this should be held righteous towards the gods and just towards men.
 
-[24.5] And when one of the better class of citizens declared that Stratocles was mad to introduce such a motion, Demochares of Leuconoë said: He would indeed be mad not to be mad. For Stratocles reaped much advantage from his flatteries. Demochares, however, was brought under accusation for this and sent into exile. So fared it with the Athenians, who imagined that because they were rid of their garrison they therefore had their freedom.
+[24.5] And when one of the better class of citizens declared that Stratocles was mad to introduce such a motion, Demochares of Leuconoë said: “He would indeed be mad not to be mad.” For Stratocles reaped much advantage from his flatteries. Demochares, however, was brought under accusation for this and sent into exile. So fared it with the Athenians, who imagined that because they were rid of their garrison they therefore had their freedom.
 
-### Capítulo 25
+#### Capítulo 25
 
-[25.1] And now Demetrius proceeded into Peloponnesus,Early in 303 B.C. where not one of his enemies opposed him, but all abandoned their cities and fled. He received into allegiance Acte, as it is called, and Arcadia (except Mantineia), and freed Argos, Sicyon, and Corinth by paying their garrisons a hundred talents.
+[25.1] And now Demetrius proceeded into Peloponnesus,[^19] where not one of his enemies opposed him, but all abandoned their cities and fled. He received into allegiance Acte, as it is called, and Arcadia (except Mantineia), and freed Argos, Sicyon, and Corinth by paying their garrisons a hundred talents.
 
-[25.2] At Argos, then, where there was a celebration of the festival of Hera, he presided at the games and attended the solemn assemblies with the Greeks, and married Deïdameia,Although both Eurydice and Phila were still living. the daughter of Aeacides king of the Molossians, and the sister of Pyrrhus. As for the Sicyonians, he told them their city was in the wrong place, and persuaded them to change its site to that which it now has; moreover, with the site he also changed the name of the city, calling it Demetrias instead of Sicyon.
+[25.2] At Argos, then, where there was a celebration of the festival of Hera, he presided at the games and attended the solemn assemblies with the Greeks, and married Deïdameia,[^20] the daughter of Aeacides king of the Molossians, and the sister of Pyrrhus. As for the Sicyonians, he told them their city was in the wrong place, and persuaded them to change its site to that which it now has; moreover, with the site he also changed the name of the city, calling it Demetrias instead of Sicyon.
 
 [25.3] And at the Isthmus of Corinth, where a general assembly was held and throngs of people came together, he was proclaimed Commander-in-chief of the Greeks, as Philip and Alexander had been proclaimed before him; and to these he considered himself in no slight measure superior, lifted up as he was by the good fortune and power which he then enjoyed. And certainly King Alexander never refused to bestow the royal title upon other kings, nor did he proclaim himself King of Kings, although many kings received their position and title from him;
 
@@ -294,31 +300,42 @@ URN: `null`
 
 [25.6] And of all the kings Lysimachus had most hatred for Demetrius. He was once reviling the man’s passion for Lamia, and said that this was the first time he had ever seen a harlot coming forward to play a great tragic part; Demetrius, however, declared that his own harlot was more chaste than the Penelope of Lysimachus.
 
-### Capítulo 26
+#### Capítulo 26
 
-[26.1] But to resume the story, when Demetrius was getting ready to return to Athens, he wrote letters to the people saying that he wished to he initiated into the mysteries as soon as he arrived, and to pass through all the grades in the ceremony, from the lowest to the highest (the epoptica). Now, this was not lawful, and had not been done before, but the lesser rites were performed in the month Anthesterion, the great rites in Boëdromion; and the supreme rites (the epoptica) were celebrated after an interval of at least a year from the great rites.
+[26.1] But to resume the story, when Demetrius was getting ready to return to Athens, he wrote letters to the people saying that he wished to he initiated into the mysteries as soon as he arrived, and to pass through all the grades in the ceremony, from the lowest to the highest (the “epoptica”). Now, this was not lawful, and had not been done before, but the lesser rites were performed in the month Anthesterion, the great rites in Boëdromion; and the supreme rites (the “epoptica”) were celebrated after an interval of at least a year from the great rites.
 
-[26.2] And yet when the letter of Demetrius was read, no one ventured to oppose the proposition except Pythodorus the Torch-bearer, and he accomplished nothing; instead, on motion of Stratocles, it was voted to call the current month, which was Munychion, Anthesterion, and so to regard it, and the lesser rites at Agra were performed for Demetrius; after which Munychion was again changed and became Boëdromion instead of Anthesterion, Demetrius received the remaining rites of initiation, and at the same time was also admitted to the highest grade of epoptos.
+[26.2] And yet when the letter of Demetrius was read, no one ventured to oppose the proposition except Pythodorus the Torch-bearer, and he accomplished nothing; instead, on motion of Stratocles, it was voted to call the current month, which was Munychion, Anthesterion, and so to regard it, and the lesser rites at Agra were performed for Demetrius; after which Munychion was again changed and became Boëdromion instead of Anthesterion, Demetrius received the remaining rites of initiation, and at the same time was also admitted to the highest grade of “epoptos.”
 
-[26.3] Hence Philippides, in his abuse of Stratocles, wrotePart of the fragment cited at xii. 4.:— Who abridged the whole year into a single month, and with reference to the quartering of Demetrius in the Parthenon:— Who took the acropolis for a caravansery, And introduced to its virgin goddess his courtesans.
+[26.3] Hence Philippides, in his abuse of Stratocles, wrote[^21]:—
 
-### Capítulo 27
+```verso
+Who abridged the whole year into a single month,
+```
+
+and with reference to the quartering of Demetrius in the Parthenon:—
+
+```verso
+Who took the acropolis for a caravansery,
+And introduced to its virgin goddess his courtesans.
+```
+
+#### Capítulo 27
 
 [27.1] But among the many lawless and shocking things done by Demetrius in the city at this time, this is said to have given the Athenians most displeasure, namely, that after he had ordered them to procure speedily two hundred and fifty talents for his use, and after they had levied the money rigorously and inexorably, when he saw the sum that had been collected, he commanded that it should be given to Lamia and her fellow courtesans to buy soap with. For the shame they felt was more intolerable to the people than their loss, and the words which accompanied it than the deed itself.
 
-[27.2] But some say that those who received this treatment were Thessalians, not Athenians. Apart from this incident, however, Lamia, when she was preparing a supper for the king, exacted money on her own account from many citizens. And the costliness of this supper gave it so wide a renown that it was described in full by Lynceus the Samian. Hence also a comic poet not inaptly called Lamia a veritable City-taker.See chapter xx. 4. And Demochares of Soli called Demetrius himself Fable, because he too, like Fable, had a Lamia.The name of a fabulous monster reputed to eat men’s flesh.
+[27.2] But some say that those who received this treatment were Thessalians, not Athenians. Apart from this incident, however, Lamia, when she was preparing a supper for the king, exacted money on her own account from many citizens. And the costliness of this supper gave it so wide a renown that it was described in full by Lynceus the Samian. Hence also a comic poet not inaptly called Lamia “a veritable City-taker.”[^22] And Demochares of Soli called Demetrius himself “Fable,” because he too, like Fable, had a Lamia.[^23]
 
 [27.3] And not only among the wives of Demetrius, but also among his friends, did the favour and affection which he bestowed on Lamia awaken envy and jealousy. At all events, some ambassadors from him once came to Lysimachus, and Lysimachus, in an hour of leisure, showed them on his thighs and shoulders deep scars of wounds made by a lion’s claws; he also told them about the battle he had fought against the beast, with which he had been caged by Alexander the king. Then they laughingly told him that their own king also carried, on his neck, the bites of a dreadful wild beast,-a Lamia.
 
-[27.4] And it was astonishing that while in the beginning he was displeased at Phila’s disparity in years, he was vanquished by Lamia, and loved her so long, although she was already past her prime. At all events, when Lamia was playing on the flute at a supper, and Demetrius asked Demo, surnamed Mania, what she thought of her, O King, said Mania, I think her an old woman. And at another time, when some sweetmeats were served up, and Demetrius said to Mania, Dost thou see how many presents I get from Lamia? My mother, said Mania, will send thee more, if thou wilt make her also thy mistress.
+[27.4] And it was astonishing that while in the beginning he was displeased at Phila’s disparity in years, he was vanquished by Lamia, and loved her so long, although she was already past her prime. At all events, when Lamia was playing on the flute at a supper, and Demetrius asked Demo, surnamed Mania, what she thought of her, “O King,” said Mania, “I think her an old woman.” And at another time, when some sweetmeats were served up, and Demetrius said to Mania, “Dost thou see how many presents I get from Lamia?” “My mother,” said Mania, “will send thee more, if thou wilt make her also thy mistress.”
 
 [27.5] And there is on record also Lamia’s comment on the famous judgment of Bocchoris. There was, namely, a certain Egyptian who was in love with Thonis the courtesan, and was asked a great sum of money for her favours; then he dreamed that he enjoyed those favours, and ceased from his desires.
 
 [27.6] Thereupon Thonis brought an action against him for payment due, and Bocchoris, on hearing the case, ordered the man to bring into court in its coffer the sum total demanded of him, and to move it hither and thither with his hand, and the courtesan was to grasp its shadow, since the thing imagined is a shadow of the reality. This judgment Lamia thought to be unjust; for though the dream put an end to the young man’s passion, the shadow of the money did not set the courtesan free from her desire for it. So much, then, for Lamia.
 
-### Capítulo 28
+#### Capítulo 28
 
-[28.1] But the fortunes and achievements of the man whose Life I am narrating, brings my narrative back, as it were, from the comic to the tragic stage. For all the other kings leagued themselves together against Antigonus and united their forces, and so Demetrius set forth from Greece,Late in 302 B.C. and finding his father eager beyond his years for the war, he was himself still more encouraged.
+[28.1] But the fortunes and achievements of the man whose Life I am narrating, brings my narrative back, as it were, from the comic to the tragic stage. For all the other kings leagued themselves together against Antigonus and united their forces, and so Demetrius set forth from Greece,[^24] and finding his father eager beyond his years for the war, he was himself still more encouraged.
 
 [28.2] And yet it would seem that if Antigonus had made some trifling concessions and had slackened his excessive passion for dominion, he might have always retained the supremacy for himself and have left it to his son. But he was naturally stern and haughty, and was harsh in what he said no less than in what he did, and therefore exasperated and incited against himself many young and powerful men; and their combination and partnership at this time he said he would scatter asunder with a single stone and a single shout, as if they were a flock of granivorous birds.
 
@@ -326,23 +343,23 @@ URN: `null`
 
 [28.4] For he was wont to be lofty and boastful as he engaged in his conflicts, making pompous speeches in a loud voice, and many times also by the utterance of a casual jest or joke when the enemy was close at hand he would show the firmness of his own spirit and his contempt for them; but now he was observed to be thoughtful and silent for the most part, and he presented his son to the army and pronounced him his successor.
 
-[28.5] But what more than anything else astonished everybody was his conversing alone in his tent with his son, although it was not his custom to have secret conferences even with him; instead, he made his own plans, followed his own counsels, and then gave his orders openly. At all events, we are told that Demetrius, when he was still a stripling, asked his father when they were going to break camp; and that Antigonus replied in anger: Art thou in distress lest thou alone shouldst not hear the trumpet?
+[28.5] But what more than anything else astonished everybody was his conversing alone in his tent with his son, although it was not his custom to have secret conferences even with him; instead, he made his own plans, followed his own counsels, and then gave his orders openly. At all events, we are told that Demetrius, when he was still a stripling, asked his father when they were going to break camp; and that Antigonus replied in anger: “Art thou in distress lest thou alone shouldst not hear the trumpet?”
 
-### Capítulo 29
+#### Capítulo 29
 
-[29.1] At this time, moreover, bad omens also subdued their spirits. For Demetrius dreamed that Alexander, in brilliant array of armour, asked him what watchword they were going to give for the battle; and when he replied, Zeus and Victory, Alexander said: Then I will go away and join your adversaries; they surely will receive me.The watchword should have been Alexander and Victory.
+[29.1] At this time, moreover, bad omens also subdued their spirits. For Demetrius dreamed that Alexander, in brilliant array of armour, asked him what watchword they were going to give for the battle; and when he replied, “Zeus and Victory,” Alexander said: “Then I will go away and join your adversaries; they surely will receive me.”[^25]
 
 [29.2] Moreover, Antigonus, when his phalanx was already forming and he was leaving his tent, stumbled and fell prone upon his face, injuring himself severely; but he rose to his feet, and stretching out his hands towards heaven prayed that the gods would grant him victory, or a painless death before his defeat.
 
-[29.3] After the armies had engaged,Near the village of Ipsus, in Phrygia, 301 B.C. Demetrius, with the largest and best part of the cavalry, clashed with Antiochus, the son of Seleucus; he fought brilliantly and routed his enemy, but by pursuing him too fiercely and eagerly he threw away the victory. For he himself was not able to turn back and rejoin his infantry, since the enemy’s elephants were thrown in his way; and Seleucus, observing that his opponents’ phalanx was unprotected by cavalry, took measures accordingly. He did not actually charge upon them, but kept them in fear of a charge by continually riding around them, thus giving them an opportunity to come over to his side. And this was what actually came to pass.
+[29.3] After the armies had engaged,[^26] Demetrius, with the largest and best part of the cavalry, clashed with Antiochus, the son of Seleucus; he fought brilliantly and routed his enemy, but by pursuing him too fiercely and eagerly he threw away the victory. For he himself was not able to turn back and rejoin his infantry, since the enemy’s elephants were thrown in his way; and Seleucus, observing that his opponents’ phalanx was unprotected by cavalry, took measures accordingly. He did not actually charge upon them, but kept them in fear of a charge by continually riding around them, thus giving them an opportunity to come over to his side. And this was what actually came to pass.
 
-[29.4] For a large body of them, detached from the rest, came over to him of their own accord, and the rest were routed. Then, as throngs of his enemies bore down upon him and one of his followers said, They are making at thee, O King, Who else, pray, said Antigonus, should be their mark? But Demetrius will come to my aid.
+[29.4] For a large body of them, detached from the rest, came over to him of their own accord, and the rest were routed. Then, as throngs of his enemies bore down upon him and one of his followers said, “They are making at thee, O King,” “Who else, pray,” said Antigonus, “should be their mark? But Demetrius will come to my aid.”
 
 [29.5] This was his hope to the last, and to the last he kept watching eagerly for his son; then a whole cloud of javelins were let fly at him and lie fell. The rest of his friends and attendants abandoned him, and one only remained by his dead body, Thorax of Larissa.
 
-### Capítulo 30
+#### Capítulo 30
 
-[30.1] The battle having been decided in this manner, the victorious kings carved up the entire domain which had been subject to Antigonus and Demetrius, as if it had been a great carcass, and took each his portion, adding thus to the provinces which the victors already had, those of the vanquished kings. But Demetrius, with five thousand foot and four thousand horse, came in unbroken flight to Ephesus. Here everybody thought that his lack of resources would lead him to lay hands upon the templeThe rich temple of Artemis (Diana).;
+[30.1] The battle having been decided in this manner, the victorious kings carved up the entire domain which had been subject to Antigonus and Demetrius, as if it had been a great carcass, and took each his portion, adding thus to the provinces which the victors already had, those of the vanquished kings. But Demetrius, with five thousand foot and four thousand horse, came in unbroken flight to Ephesus. Here everybody thought that his lack of resources would lead him to lay hands upon the temple[^27];
 
 [30.2] but he, fearing lest his soldiers might do this, departed speedily, and sailed for Greece, putting his chief remaining hopes in Athens. For he had left ships there, and moneys, and his wife Deïdameia, and he thought that in his evil plight no refuge could be more secure than the goodwill of Athens.
 
@@ -352,11 +369,11 @@ URN: `null`
 
 [30.5] Therefore men of sense look first of all at their own acts and achievements, and then estimate the value of the statues, paintings, or deifications offered to them, putting faith in these as genuine honours, or refusing to do so on the ground that they are compulsory; since it is certainly true that a people will often, in the very act of conferring its honours, have most hatred for those who accept such honours immoderately, ostentatiously, and from unwilling givers.
 
-### Capítulo 31
+#### Capítulo 31
 
 [31.1] Be that as it may, in this case Demetrius thought himself grievously wronged; but since he was unable to avenge himself, he sent a message to the Athenians in which he mildly expostulated with them, and asked that his ships be given back to him, among which was also the one having thirteen banks of oars. These he obtained, and then coasted along to the Isthmus, where he found his affairs in a sorry state. For his garrisons were everywhere being expelled, and there was a general defection to his enemies.
 
-[31.2] He therefore left Pyrrhus in charge of Greece, while he himself put to sea and sailed to the Chersonesus.The Thracian Chersonesus, the modern Gallipoli. Here he ravaged the territory of Lysimachus, thereby enriching and holding together his own forces, which were beginning to recover their spirit and to show themselves formidable again. Nor did the other kings try to help Lysimachus; they thought that he was no less objectionable than Demetrius, and that because he had more power he was even more to be feared.
+[31.2] He therefore left Pyrrhus in charge of Greece, while he himself put to sea and sailed to the Chersonesus.[^28] Here he ravaged the territory of Lysimachus, thereby enriching and holding together his own forces, which were beginning to recover their spirit and to show themselves formidable again. Nor did the other kings try to help Lysimachus; they thought that he was no less objectionable than Demetrius, and that because he had more power he was even more to be feared.
 
 [31.3] Not long afterwards, however, Seleucus sent and asked the hand of Stratonicé, the daughter of Demetrius and Phila, in marriage. He had already, by Apama the Persian, a son Antiochus; but he thought that his realms would suffice for more successors than one, and that he needed this alliance with Demetrius, since he saw that Lysimachus also was taking one of Ptolemy’s daughters for himself, and the other for Agathocles his son.
 
@@ -364,7 +381,7 @@ URN: `null`
 
 [31.5] He thought his territories outraged by these descents of Demetrius upon them, and besides, he wished to upbraid Seleucus for making an alliance with the common enemy independently of the other kings. So he went up to see him.
 
-### Capítulo 32
+#### Capítulo 32
 
 [32.1] On learning of this, Demetrius set out from the sea-coast for the city of Quinda; and finding twelve hundred talents of its treasure still left, he packed them up, got them safely on board ship, and put to sea with all speed. His wife Phila was already with him, and at Rhosus he was met by Seleucus.
 
@@ -374,11 +391,11 @@ URN: `null`
 
 [32.4] So far all was courtesy on the part of Seleucus. But presently he asked Demetrius to cede Cilicia to him for a sum of money, and when Demetrius would not consent, angrily demanded Tyre and Sidon from him. It seemed a violent and outrageous proceeding that one who had possessed himself of the whole domain from India to the Syrian sea should be so needy still and so beggarly in spirit as for the sake of two cities to harass a man who was his relative by marriage and had suffered a reverse of fortune.
 
-[32.5] Moreover, he bore splendid testimony to the wisdom of PlatoThe passage cannot be determined. in urging the man who would be truly rich, not to make his possessions greater, but his inordinate desires fewer; since he who puts no end to his greed, this man is never rid of poverty and want.
+[32.5] Moreover, he bore splendid testimony to the wisdom of Plato[^29] in urging the man who would be truly rich, not to make his possessions greater, but his inordinate desires fewer; since he who puts no end to his greed, this man is never rid of poverty and want.
 
-### Capítulo 33
+#### Capítulo 33
 
-[33.1] Demetrius, however, was not cowed, but declared that not even if he should lose ten thousand battles like that at Ipsus would he consent to pay for the privilege of having Seleucus as a son-in-law. Then he strengthened his cities with garrisons, while he himself, learning that Lachares had usurped sovereign power over the Athenians in consequence of their dissensions, thought to appear upon the scene and make an easy capture of the city. So he crossed the sea in safety with a great fleet,In 297 B.C. but as he was sailing along the coast of Attica he encountered a storm in which most of his ships were lost and a great number of men perished with them.
+[33.1] Demetrius, however, was not cowed, but declared that not even if he should lose ten thousand battles like that at Ipsus would he consent to pay for the privilege of having Seleucus as a son-in-law. Then he strengthened his cities with garrisons, while he himself, learning that Lachares had usurped sovereign power over the Athenians in consequence of their dissensions, thought to appear upon the scene and make an easy capture of the city. So he crossed the sea in safety with a great fleet,[^30] but as he was sailing along the coast of Attica he encountered a storm in which most of his ships were lost and a great number of men perished with them.
 
 [33.2] He himself, however, escaped alive, and began a petty war against the Athenians. But since he could accomplish nothing, he sent men to collect another fleet for him, while he himself passed on into Peloponnesus and laid siege to Messene. Here, in an attack upon the walls, he came near losing his life; for a missile from a catapult struck him in the face and passed through his jaw into his mouth.
 
@@ -386,7 +403,7 @@ URN: `null`
 
 [33.5] A slight respite was afforded the Athenians by the appearance off Aegina to a hundred and fifty ships which Ptolemy sent to assist them. Then numerous ships came to Demetrius from Peloponnesus, and many from Cyprus, so that his entire assemblage numbered three hundred, in consequence of which the ships of Ptolemy put off to sea in flight, and Lachares the tyrant abandoned the city and ran away.
 
-### Capítulo 34
+#### Capítulo 34
 
 [34.1] Then the Athenians, although they had decreed death to anyone who should so much as mention peace and reconciliation with Demetrius, straightway threw open the nearest gates and sent ambassadors to him. They did not expect any kindly treatment from him, but were driven to the step by their destitution,
 
@@ -396,19 +413,26 @@ URN: `null`
 
 [34.4] For avoiding all harshness of tone and bitterness of speech, he merely chided them lightly and in a friendly manner, and then declared himself reconciled, gave them besides a hundred thousand bushels of grain, and established the magistrates who were most acceptable to the people. So Dromocleides the orator, seeing that the people, in their joy, were shouting all sorts of proposals, and were eager to outdo the customary eulogies of the public speakers on the bema, brought in a motion that Piraeus and Munychia should be handed over to Demetrius the king.
 
-[34.5] This was voted, and Demetrius on his own account put a garrison into the MuseiumA hill S.W. of the Acropolis. also, that the people might not again shake off the yoke and give him further trouble.
+[34.5] This was voted, and Demetrius on his own account put a garrison into the Museium[^31] also, that the people might not again shake off the yoke and give him further trouble.
 
-### Capítulo 35
+#### Capítulo 35
 
 [35.1] And now that he was in possession of Athens, he at once laid plans against Sparta. Near Mantineia, where Archidamus the king confronted him, he conquered and routed his foe, and then invaded Laconia. And after he had fought a second pitched battle hard by Sparta itself, where he captured five hundred men and slew two hundred, it was thought that he as good as had the city in his power, although up to this time it had never been taken.
 
-[35.2] But with none of the kings does Fortune appear to have taken so great and sudden turns, and in the career of no other did she so many times show herself now small and now great, now resplendent and now abased, now insignificant and now all powerful. For this reason, too, we are told that in his worst reverses Demetrius would apostrophise Fortune in the words of Aeschylus:— My flame thou fannest, indeed, and thou seemest to quench me, too. Nauck, Trag. Graec. Frag.2 p. 107 (μ’ ἔφυσας).
+[35.2] But with none of the kings does Fortune appear to have taken so great and sudden turns, and in the career of no other did she so many times show herself now small and now great, now resplendent and now abased, now insignificant and now all powerful. For this reason, too, we are told that in his worst reverses Demetrius would apostrophise Fortune in the words of Aeschylus:—
+
+```verso
+My flame thou fannest, indeed, and thou seemest
+to quench me, too.
+```
+
+[^32]
 
 [35.3] And so at this time, when events so generously favoured the increase of his dominion and power, word was brought to him, first, that Lysimachus had deprived him of his cities in Asia, and next, that Ptolemy had taken Cyprus, with the exception of the single city of Salamis, and had shut up in Salamis under siege his children and his mother.
 
-[35.4] However, even Fortune, who, like the woman in Archilochus, in one deceitful hand bore water, and in the other fire,Fragment 93 (Bergk, Poet. Lyr. Graeci, ii.4 p. 410). while by tidings so dreadful and terrifying she drew him away from Sparta, at once inspired him with other hopes of new and great achievements, and on this wise.
+[35.4] However, even Fortune, who, like the woman in Archilochus, “in one deceitful hand bore water, and in the other fire,”[^33] while by tidings so dreadful and terrifying she drew him away from Sparta, at once inspired him with other hopes of new and great achievements, and on this wise.
 
-### Capítulo 36
+#### Capítulo 36
 
 [36.1] After Cassander’s death, the eldest of his sons, Philip, reigned for a short time over the Macedonians and then died, and the two remaining brothers quarrelled with one another over the succession. One of them, Antipater, murdered his mother, Thessalonicé, and the other, Alexander, summoned to his help Pyrrhus from Epeirus, and Demetrius from Peloponnesus.
 
@@ -418,19 +442,19 @@ URN: `null`
 
 [36.4] This frightened Alexander, and he did not venture to attempt anything. Demetrius also made the excuse that he was not in condition to take wine, and went away very soon. On the following day he busied himself with preparations for departure, telling Alexander that unexpected troubles had arisen, which demanded his attention, asking his pardon for leaving so quickly, and assuring him that he would pay him a longer visit at another time when his affairs permitted it. Alexander was therefore well pleased, convinced that Demetrius was leaving his territories, not in hostility, but of his own free will, and escorted him on his way as far as Thessaly.
 
-[36.5] But when they came to Larissa, once more invitations to entertainments passed between them, and each plotted against the life of the other. This, more than anything else, put Alexander into the power of Demetrius. For he hesitated to take measures of precaution, that he might not thereby teach Demetrius also to take counter-measures, and he was forestalled by meeting the doom he was himself devising (since he delayed measures to prevent the other from escaping out of his hands).The Greek of the parenthesis is hopelessly corrupt. And so, when Demetrius rose up from table before supper was over, Alexander, filled with fear, rose up also and followed close upon his heels towards the door.
+[36.5] But when they came to Larissa, once more invitations to entertainments passed between them, and each plotted against the life of the other. This, more than anything else, put Alexander into the power of Demetrius. For he hesitated to take measures of precaution, that he might not thereby teach Demetrius also to take counter-measures, and he was forestalled by meeting the doom he was himself devising (since he delayed measures to prevent the other from escaping out of his hands).[^34] And so, when Demetrius rose up from table before supper was over, Alexander, filled with fear, rose up also and followed close upon his heels towards the door.
 
-[36.6] Demetrius, then, on reaching the door where his own body-guards stood, said merely, Smite any one who follows me, and quietly went out himself; but Alexander was cut down by the guards, together with those of his friends who came to his aid. One of these, we are told, as he was smitten, said that Demetrius had got one day’s start of them.
+[36.6] Demetrius, then, on reaching the door where his own body-guards stood, said merely, “Smite any one who follows me,” and quietly went out himself; but Alexander was cut down by the guards, together with those of his friends who came to his aid. One of these, we are told, as he was smitten, said that Demetrius had got one day’s start of them.
 
-### Capítulo 37
+#### Capítulo 37
 
 [37.1] That night, then, naturally, was full of tumult. But with the day the Macedonians, who were in confusion and afraid of the forces of Demetrius, found that no enemy came against them, but that Demetrius sent to them a request for an interview and for an opportunity to explain what had been done. They therefore took heart and promised to receive him in a friendly spirit.
 
-[37.2] When he came to them, there was no need of his making long speeches, but owing to their hatred of Antipater, who was a matricide, and to their lack of a better man, they proclaimed Demetrius king of the Macedonians, and at once went down with him into Macedonia.In 294 B.C. Furthermore, to the Macedonians at home the change was not unwelcome, for they ever remembered with hatred the crimes which Cassander had committed against the posterity of Alexander the Great.
+[37.2] When he came to them, there was no need of his making long speeches, but owing to their hatred of Antipater, who was a matricide, and to their lack of a better man, they proclaimed Demetrius king of the Macedonians, and at once went down with him into Macedonia.[^35] Furthermore, to the Macedonians at home the change was not unwelcome, for they ever remembered with hatred the crimes which Cassander had committed against the posterity of Alexander the Great.
 
 [37.3] And if there still remained any kindly memories of the elder Antipater’s moderation and justice, of these also Demetrius reaped the benefit, since he was the husband of Phila, Antipater’s daughter, and had a son by her to be his successor in the realm, a son who was already quite a youth, and was serving in the army under his father.
 
-### Capítulo 38
+#### Capítulo 38
 
 [38.1] While Demetrius was enjoying a good fortune so illustrious as this, he had tidings concerning his children and his mother, namely, that they had been set free, and that Ptolemy had given them gifts and honours besides; he had tidings also concerning his daughter who was wedded to Seleucus, namely, that she was now the wife of Antiochus the son of Seleucus, and had the title of Queen of Upper Asia.
 
@@ -438,37 +462,37 @@ URN: `null`
 
 [38.3] But Erasistratus, his physician, perceived quite easily that he was in love, and wishing to discover who was the object of his passion (a matter not so easy to decide), he would spend day after day in the young man’s chamber, and if any of the beauties of the court came in, male or female, he would study the countenance of Antiochus, and watch those parts and movements of his person which nature has made to sympathize most with the inclinations of the soul.
 
-[38.4] Accordingly, when any one else came in, Antiochus showed no change; but whenever Stratonicé came to see him, as she often did, either alone, or with Seleucus, lo, those tell-tale signs of which Sappho singsFragment 2 (Bergk, Poet. Lyr. Graeci, iii.4 pp. 88 ff.). were all there in him,—stammering speech, fiery flushes, darkened vision, sudden sweats, irregular palpitations of the heart, and finally, as his soul was taken by storm, helplessness, stupor, and pallor.
+[38.4] Accordingly, when any one else came in, Antiochus showed no change; but whenever Stratonicé came to see him, as she often did, either alone, or with Seleucus, lo, those tell-tale signs of which Sappho sings[^36] were all there in him,—stammering speech, fiery flushes, darkened vision, sudden sweats, irregular palpitations of the heart, and finally, as his soul was taken by storm, helplessness, stupor, and pallor.
 
 [38.5] And besides all this, Erasistratus reasoned further that in all probability the king’s son, had he loved any other woman, would not have persisted to the death in refusing to speak about it. He thought it a difficult matter to explain the case fully to Seleucus, but nevertheless, relying on the father’s kindly feelings towards his son, he took the risk one day, and told him that love was the young man’s trouble, a love that could neither be satisfied nor cured.
 
-[38.6] The king was amazed, and asked why his son’s love could not be satisfied. Because, indeed, said Erasistratus, he is in love with my wife. Then canst thou not, O Erasistratus, said Seleucus, since thou art my son’s friend, give him thy wife in addition to thy friendship, especially when thou seest that he is the only anchor of our storm-tossed house? Thou art his father, said Erasistratus, and yet thou wouldst not have done so if Antiochus had set his affections on Stratonicé.
+[38.6] The king was amazed, and asked why his son’s love could not be satisfied. “Because, indeed,” said Erasistratus, “he is in love with my wife.” “Then canst thou not, O Erasistratus,” said Seleucus, “since thou art my son’s friend, give him thy wife in addition to thy friendship, especially when thou seest that he is the only anchor of our storm-tossed house?” “Thou art his father,” said Erasistratus, “and yet thou wouldst not have done so if Antiochus had set his affections on Stratonicé.”
 
-[38.7] My friend, said Seleucus, would that someone in heaven or on earth might speedily convert and turn his passion in this direction; since I would gladly let my kingdom also go, if I might keep Antiochus. So spake Seleucus with deep emotion and many tears, whereupon Erasistratus clasped him by the hand and told him he had no need of Erasistratus; for as father, husband, and king, he was himself at the same time the best physician also for his household.
+[38.7] “My friend,” said Seleucus, “would that someone in heaven or on earth might speedily convert and turn his passion in this direction; since I would gladly let my kingdom also go, if I might keep Antiochus.” So spake Seleucus with deep emotion and many tears, whereupon Erasistratus clasped him by the hand and told him he had no need of Erasistratus; for as father, husband, and king, he was himself at the same time the best physician also for his household.
 
 [38.8] Consequently Seleucus called an assembly of the entire people and declared it to be his wish and purpose to make Antiochus king of all Upper Asia, and Stratonicé his queen, the two being husband and wife; he also declared it to be his opinion that his son, accustomed as he was to be submissive and obedient in all things, would not oppose his father in this marriage;
 
 [38.9] and that if his wife were reluctant to take this extraordinary step, he called upon his friends to teach and persuade her to regard as just and honourable whatever seemed good to the king and conducive to the general welfare. On this wise, then, we are told, Antiochus and Stratonicé became husband and wife.
 
-### Capítulo 39
+#### Capítulo 39
 
 [39.1] As for Demetrius, after Macedonia he became master of Thessaly also. And now that he had most of Peloponnesus, and, on this side the Isthmus, Megara and Athens, he turned his arms against the Boeotians. These at first made friendly agreements with him on reasonable terms; afterwards, however, when Cleonymus the Spartan made his way into Thebes with an army, the Boeotians were lifted up in spirit, and since at the same time Pisis of Thespiae, who was their leading man at this time in reputation and influence, added his instigations to the step, they revolted.
 
-[39.2] But when Demetrius brought up his engines-of-war against Thebes and laid siege to the city, Cleonymus took fright and stole away, and the Boeotians, in terror, surrendered.In 293 B.C. Demetrius put garrisons in their cities, exacted large sums of money from them, and left as their overseer and governor Hieronymus the historian, thereby getting a reputation for clemency, and particularly by his treatment of Pisis. For after capturing him Demetrius did him no harm, but actually greeted him, showed him kindness, and appointed him polemarch in Thespiae.
+[39.2] But when Demetrius brought up his engines-of-war against Thebes and laid siege to the city, Cleonymus took fright and stole away, and the Boeotians, in terror, surrendered.[^37] Demetrius put garrisons in their cities, exacted large sums of money from them, and left as their overseer and governor Hieronymus the historian, thereby getting a reputation for clemency, and particularly by his treatment of Pisis. For after capturing him Demetrius did him no harm, but actually greeted him, showed him kindness, and appointed him polemarch in Thespiae.
 
 [39.3] Not long afterwards, however, Lysimachus was taken prisoner by Dromichaetes, and in view of this Demetrius set out with all speed for Thrace, thinking to occupy a region destitute of defenders. Thereupon the Boeotians revolted again, and at the same time word was brought that Lysimachus had been set free. Quickly, therefore, and in wrath, Demetrius turned back, and finding that the Boeotians had been defeated in battle by his son Antigonus, once more laid siege to Thebes.
 
-### Capítulo 40
+#### Capítulo 40
 
-[40.1] But Pyrrhus now overran Thessaly and was seen as far south as Thermopylae; Demetrius therefore left Antigonus to conduct the siege of Thebes, and himself set out against this new foe. Pyrrhus, however, made a swift retreat, whereupon Demetrius stationed ten thousand men-at-arms and a thousand horsemen in Thessaly and once more devoted himself to Thebes. Here he brought up against the city his famous City-taker,Cf. chapter xxi. 1. but this was so laboriously and slowly propelled, owing to its weight and great size, that in the space of two months it hardly advanced two furlongs.
+[40.1] But Pyrrhus now overran Thessaly and was seen as far south as Thermopylae; Demetrius therefore left Antigonus to conduct the siege of Thebes, and himself set out against this new foe. Pyrrhus, however, made a swift retreat, whereupon Demetrius stationed ten thousand men-at-arms and a thousand horsemen in Thessaly and once more devoted himself to Thebes. Here he brought up against the city his famous City-taker,[^38] but this was so laboriously and slowly propelled, owing to its weight and great size, that in the space of two months it hardly advanced two furlongs.
 
-[40.2] Besides, the Boeotians made a stout resistance, and Demetrius many times, out of contumacy rather than from need, forced his soldiers to risk their lives in battle. Antigonus saw that they were falling in great numbers, and in great concern said: Why, my father, should we suffer these lives to be squandered without any necessity for it? But Demetrius was incensed, and said: Why, pray, art thou disturbed at this? Are rations due from thee to the dead?
+[40.2] Besides, the Boeotians made a stout resistance, and Demetrius many times, out of contumacy rather than from need, forced his soldiers to risk their lives in battle. Antigonus saw that they were falling in great numbers, and in great concern said: “Why, my father, should we suffer these lives to be squandered without any necessity for it?” But Demetrius was incensed, and said: “Why, pray, art thou disturbed at this? Are rations due from thee to the dead?”
 
-[40.3] However, wishing not to be thought reckless of other lives only, but also to share the perils of battle, he was pierced through the neck by a catapult-bolt. And yet, sore wounded as he was, he did not give up, but took Thebes again.In 290 B.C. The siege lasted nearly a year. His entry into the city filled the citizens with acute fear; they thought they were to suffer the most dreadful punishments; but he put to death only thirteen of them, banished a few, and pardoned the rest.
+[40.3] However, wishing not to be thought reckless of other lives only, but also to share the perils of battle, he was pierced through the neck by a catapult-bolt. And yet, sore wounded as he was, he did not give up, but took Thebes again.[^39] His entry into the city filled the citizens with acute fear; they thought they were to suffer the most dreadful punishments; but he put to death only thirteen of them, banished a few, and pardoned the rest.
 
-[40.4] And so it was the fate of Thebes, which had been occupied less than ten years,Cassander began the restoration of the city (after its utter annihilation by Alexander in 335 B.C.) in 315 B.C. to be captured twice during this time. Furthermore, the time for the Pythian games being now at hand, Demetrius ventured upon a most unheard of proceeding. Since, namely, the Aetolians occupied the passes about Delphi, he conducted the games and the festival in person at Athens, declaring it to be especially fitting that Apollo should be honoured there, since he was a patron deity of the Athenians and was said to have been the founder of their race.
+[40.4] And so it was the fate of Thebes, which had been occupied less than ten years,[^40] to be captured twice during this time. Furthermore, the time for the Pythian games being now at hand, Demetrius ventured upon a most unheard of proceeding. Since, namely, the Aetolians occupied the passes about Delphi, he conducted the games and the festival in person at Athens, declaring it to be especially fitting that Apollo should be honoured there, since he was a patron deity of the Athenians and was said to have been the founder of their race.
 
-### Capítulo 41
+#### Capítulo 41
 
 [41.1] From Athens Demetrius returned to Macedonia, and since he was himself not prone by nature to keep quiet, and since he saw that his followers were more devoted to him when they were on a campaign, but at home were turbulent and meddlesome, he made an expedition against the Aetolians. After ravaging the country, he left Pantauchus there with a large part of his forces, while he himself moved against Pyrrhus. Pyrrhus also moved against him, but they missed one another on the march.
 
@@ -480,21 +504,21 @@ URN: `null`
 
 [41.5] this was left behind half-finished when the reversal of his fortunes came, and no succeeding king of Macedonia ventured to use it, although not a few of them were given to pomp and luxury.
 
-### Capítulo 42
+#### Capítulo 42
 
 [42.1] And not only by such displays did he vex his subjects, who were unused to them, but his luxurious ways of living were also offensive, and above all else the difficulty of getting access to him or conversing with him. For either he would give no audience at all, or he was stern and harsh with his auditors. For instance, he kept an embassy from the Athenians, for whose favour he was more solicitous than for that of any other Greeks, two years in waiting; and when a single envoy came to him from Sparta, he thought himself despised, and was incensed.
 
-[42.2] However, when he cried, What meanest thou? Have the Spartans sent but one envoy? he got the neat and laconic reply, Yea, O king, to one man. On one occasion, when he was thought to be riding abroad in a more affable mood than usual, and seemed to encounter his subjects without displeasure, there was a large concourse of people who presented him with written petitions. He received them all and folded them away in his cloak, whereupon the people were delighted and escorted him on his way; but when he came to the bridge over the Axius, he shook out the folds of his cloak and cast all the petitions into the river.
+[42.2] However, when he cried, “What meanest thou? Have the Spartans sent but one envoy?” he got the neat and laconic reply, “Yea, O king, to one man.” On one occasion, when he was thought to be riding abroad in a more affable mood than usual, and seemed to encounter his subjects without displeasure, there was a large concourse of people who presented him with written petitions. He received them all and folded them away in his cloak, whereupon the people were delighted and escorted him on his way; but when he came to the bridge over the Axius, he shook out the folds of his cloak and cast all the petitions into the river.
 
-[42.3] This was a great vexation to the Macedonians, who thought themselves insulted, not ruled, and they called to mind, or listened to those who called to mind, how reasonable Philip used to be in such matters, and how accessible. An old woman once assailed Demetrius as he was passing by, and demanded many times that he give her a hearing. I have no time, said Demetrius. Then don’t be king, screamed the old woman.
+[42.3] This was a great vexation to the Macedonians, who thought themselves insulted, not ruled, and they called to mind, or listened to those who called to mind, how reasonable Philip used to be in such matters, and how accessible. An old woman once assailed Demetrius as he was passing by, and demanded many times that he give her a hearing. “I have no time,” said Demetrius. “Then don’t be king,” screamed the old woman.
 
 [42.4] Demetrius was stung to the quick, and after thinking upon the matter, went back to his house, and postponing every thing else, for several days devoted himself entirely to those who wished audience of him, beginning with the old woman who had rebuked him.
 
-[42.5] And surely nothing so befits a king as the work of justice. For Ares is tyrant, in the words of Timotheus,Bergk, Poet. Lyr. Graeci, iii.4 p. 622. Cf. the Agesilaüs, xiv. 2. but Law is king of all things, according to Pindar;Bergk, op. cit. i.4 p. 439. and Homer speaks of kings as receiving from Zeus for protection and safe-keeping, not city-takers nor bronze-beaked ships, but ordinances of justice; Iliad, i. 238 f. and he calls a disciple and confidant of Zeus, not the most warlike or unjust or murderous of kings, but the most just.Minos, Odyssey, xix. 179.
+[42.5] And surely nothing so befits a king as the work of justice. For “Ares is tyrant,” in the words of Timotheus,[^41] but “Law is king of all things,” according to Pindar;[^42] and Homer speaks of kings as receiving from Zeus for protection and safe-keeping, not city-takers nor bronze-beaked ships, but “ordinances of justice”;[^43] and he calls a disciple and “confidant” of Zeus, not the most warlike or unjust or murderous of kings, but the most just.[^44]
 
 [42.6] Demetrius, on the contrary, was delighted to receive a surname most unlike those given to the king of the gods; for Zeus is surnamed City-guardian, or City-protector; but Demetrius, City-besieger. Thus a power devoid of wisdom advances evil to the place of good, and makes injustice co-dweller with fame.
 
-### Capítulo 43
+#### Capítulo 43
 
 [43.1] But while Demetrius lay most dangerously sick at Pella, he almost lost Macedonia; for Pyrrhus swiftly overran it and advanced as far as Edessa. As soon, however, as Demetrius had somewhat recovered his strength he easily drove Pyrrhus out of the country, and then came to a kind of agreement with him, being unwilling that continual collisions and local conflicts with this opponent should defeat his set purpose.
 
@@ -506,11 +530,11 @@ URN: `null`
 
 [43.5] But this ship was merely for show; and since she differed little from a stationary edifice on land, being meant for exhibition and not for use, she was moved only with difficulty and danger. However, in the ships of Demetrius their beauty did not mar their fighting qualities, nor did the magnificence of their equipment rob them of their usefulness, but they had a speed and effectiveness which was more remarkable than their great size.
 
-### Capítulo 44
+#### Capítulo 44
 
 [44.1] Accordingly, while this great force, the like of which no man had possessed since Alexander, was getting under way against Asia, the three kings, Seleucus, Ptolemy, and Lysimachus, formed a league against Demetrius. Next, they sent a joint embassy to Pyrrhus, urging him to attack Macedonia, and not to regard a truce by which Demetrius had not given him the privilege of having no war made upon him, but had taken for himself the privilege of making war first on the enemy of his choice.
 
-[44.2] Pyrrhus granted their requests, and a great war encompassed Demetrius before his preparations were completed. For at one and the same timeIn the spring of 294 B.C. Ptolemy sailed to Greece with a great fleet and tried to bring it to revolt, while Lysimachus invaded Macedonia from Thrace, and Pyrrhus from the neighbouring Epeirus, and both plundered the land. But Demetrius left his son in charge of Greece, while he himself, hastening to the rescue of Macedonia, set out first against Lysimachus. But tidings came to him that Pyrrhus had taken Beroea.
+[44.2] Pyrrhus granted their requests, and a great war encompassed Demetrius before his preparations were completed. For at one and the same time[^45] Ptolemy sailed to Greece with a great fleet and tried to bring it to revolt, while Lysimachus invaded Macedonia from Thrace, and Pyrrhus from the neighbouring Epeirus, and both plundered the land. But Demetrius left his son in charge of Greece, while he himself, hastening to the rescue of Macedonia, set out first against Lysimachus. But tidings came to him that Pyrrhus had taken Beroea.
 
 [44.3] The report quickly came to the ears of the Macedonians, and then Demetrius could no longer maintain discipline, but his camp was full of lamentations and tears, coupled with wrathful execrations against himself, and the soldiers would not hold together, but insisted on going away, ostensibly to their homes, but in reality to Lysimachus.
 
@@ -520,29 +544,50 @@ URN: `null`
 
 [44.6] and at last some of the soldiers ventured to go to Demetrius, bidding him to go away and save himself; for the Macedonians, they said, were tired of waging war in support of his luxurious way of living. Demetrius thought this very moderate language compared with the harshness of the rest; so he went to his tent, and, as if he had been an actor and not a real king, put on a dark cloak in place of his stage-robes of royalty, and stole away unnoticed.
 
-[44.7] Most of the soldiers at once fell to pillaging and tearing down his tent, and fought with one another for the spoils; but Pyrrhus came up, mastered the camp without a blow, and took possession of it. And all Macedonia was divided between Pyrrhus and Lysimachus, after Demetrius had reigned over it securely for seven years.From 394 to 287 B.C.
+[44.7] Most of the soldiers at once fell to pillaging and tearing down his tent, and fought with one another for the spoils; but Pyrrhus came up, mastered the camp without a blow, and took possession of it. And all Macedonia was divided between Pyrrhus and Lysimachus, after Demetrius had reigned over it securely for seven years.[^46]
 
-### Capítulo 45
+#### Capítulo 45
 
 [45.1] When Demetrius thus lost his power and fled for refuge to Cassandreia, his wife Phila was full of grief and could not endure to see her husband, that most afflicted of kings, once more in private station and in exile; she gave up all hope, and in hatred of his fortune, which was more secure in adversity than in prosperity, she drank poison and died. But Demetrius, determined to cling still to what was left of his wrecked fortunes, went off to Greece, and tried to assemble his friends and generals who were there.
 
-[45.2] The Menelaüs of SophoclesNauck, Trag. Graec. Frag.2 p. 315. applies this simile to his own fortunes:— But my fate on the swiftly turning wheel of God Goes whirling round forever and ever changes shape, Just as the moon’s appearance for two kindly nights Could never be identical and show no change, But out of darkness first she comes forth young and new, With face that ever grows more beautiful and full, And when she reaches largest and most generous phase, Again she vanisheth away and comes to naught.
+[45.2] The Menelaüs of Sophocles[^47] applies this simile to his own fortunes:—
 
-[45.3] This simile might be better used of the fortunes of Demetrius, now waxing and now waning, now full-orbed and now diminished, since even at this time, when his power seemed to fail altogether and suffer extinction, it shot forth new rays of light, and sundry accessions of strength little by little filled out the measure of his hopes. At first he went about visiting the cities in the garb of a private man and without the insignia of a king, and one who saw him thus at Thebes applied to him, not inaptly, the verses of Euripides Bacchae, 4 f., with adaptation from the first person.:— Exchanging now the form of god for that of man, He visits Dirce’s rivulets and Ismenus’ flood.
+```verso
+But my fate on the swiftly turning wheel of God
+Goes whirling round forever and ever changes shape,
+Just as the moon’s appearance for two kindly nights
+Could never be identical and show no change,
+But out of darkness first she comes forth young and new,
+With face that ever grows more beautiful and full,
+And when she reaches largest and most generous phase,
+Again she vanisheth away and comes to naught.
+```
 
-### Capítulo 46
+[45.3] This simile might be better used of the fortunes of Demetrius, now waxing and now waning, now full-orbed and now diminished, since even at this time, when his power seemed to fail altogether and suffer extinction, it shot forth new rays of light, and sundry accessions of strength little by little filled out the measure of his hopes. At first he went about visiting the cities in the garb of a private man and without the insignia of a king, and one who saw him thus at Thebes applied to him, not inaptly, the verses of Euripides[^48]:—
 
-[46.1] But as soon as he had entered upon the path of hope, as upon a royal highway, and had gathered about himself a body and form of sovereignty, he restored to the Thebans their ancient form of government; the Athenians, however, revolted from him. They voted to elect archons, as had been their custom of old, and took away from Diphilus, who had been appointed priest of the Saviour-gods, the privilege of giving his name to the current year;See chapter x. 3. and when they saw that Demetrius had more strength than they expected, they summoned Pyrrhus to their aid from Macedonia. Demetrius came up against them in a rage, and began a strenuous siege of the city.
+```verso
+Exchanging now the form of god for that of man,
+He visits Dirce’s rivulets and Ismenus’ flood.
+```
 
-[46.2] But the people sent to him Crates the philosopher, a man of great repute and influence, and Demetrius, partly because he was induced to grant the ambassador’s appeals in behalf of the Athenians, and partly because he was convinced when the philosopher showed him what would be an advantageous course, raised the siege, and after assembling all the ships he had,See chapter xliii. 3. and putting on board eleven thousand soldiers, together with his cavalry, he sailed for Asia, to wrest Caria and Lydia from Lysimachus.
+#### Capítulo 46
 
-[46.3] He was met at Miletus by Eurydicé, a sister of Phila, who brought with her one of her daughters by Ptolemy, Ptolemaïs, who had been betrothed to Demetrius before thisAs early as 301 B.C. Cf. chapter xxxii. 3. through the agency of Seleucus. Demetrius married her now, and Eurydicé gave the bride away. After the marriage Demetrius at once turned his arms against the cities, many of which attached themselves to him of their own accord, and many also he forced into submission.
+[46.1] But as soon as he had entered upon the path of hope, as upon a royal highway, and had gathered about himself a body and form of sovereignty, he restored to the Thebans their ancient form of government; the Athenians, however, revolted from him. They voted to elect archons, as had been their custom of old, and took away from Diphilus, who had been appointed priest of the Saviour-gods, the privilege of giving his name to the current year;[^49] and when they saw that Demetrius had more strength than they expected, they summoned Pyrrhus to their aid from Macedonia. Demetrius came up against them in a rage, and began a strenuous siege of the city.
+
+[46.2] But the people sent to him Crates the philosopher, a man of great repute and influence, and Demetrius, partly because he was induced to grant the ambassador’s appeals in behalf of the Athenians, and partly because he was convinced when the philosopher showed him what would be an advantageous course, raised the siege, and after assembling all the ships he had,[^50] and putting on board eleven thousand soldiers, together with his cavalry, he sailed for Asia, to wrest Caria and Lydia from Lysimachus.
+
+[46.3] He was met at Miletus by Eurydicé, a sister of Phila, who brought with her one of her daughters by Ptolemy, Ptolemaïs, who had been betrothed to Demetrius before this[^51] through the agency of Seleucus. Demetrius married her now, and Eurydicé gave the bride away. After the marriage Demetrius at once turned his arms against the cities, many of which attached themselves to him of their own accord, and many also he forced into submission.
 
 [46.4] He took Sardis also; and some of the generals of Lysimachus came over to him bringing money and troops. But when Agathocles, the son of Lysimachus, came against him with an army, Demetrius retired into Phrygia; he had determined, if once he could reach Armenia, to bring Media to revolt and attempt the upper provinces, which afforded an ejected commander many refuges and retreats.
 
-[46.5] Agathocles followed him, and though Demetrius had the advantage in their engagements, he was shut off from getting provisions and forage, and was in great straits; besides, his soldiers were suspicious that he was trying to make his way towards Armenia and Media. And not only did famine press them harder, but also some mistake was made in crossing the river Lycus, and a large number of men were carried away by the current and lost. But nevertheless they would have their pleasantries; and one of them wrote up in front of the tent of Demetrius the opening words of the Oedipus, slightly changed:— O child of blind and aged Antigonus, what are These regions whither we are come?
+[46.5] Agathocles followed him, and though Demetrius had the advantage in their engagements, he was shut off from getting provisions and forage, and was in great straits; besides, his soldiers were suspicious that he was trying to make his way towards Armenia and Media. And not only did famine press them harder, but also some mistake was made in crossing the river Lycus, and a large number of men were carried away by the current and lost. But nevertheless they would have their pleasantries; and one of them wrote up in front of the tent of Demetrius the opening words of the “Oedipus,” slightly changed:—
 
-### Capítulo 47
+```verso
+O child of blind and aged Antigonus, what are
+These regions whither we are come?
+```
+
+#### Capítulo 47
 
 [47.1] But at last sickness assailed them as well as famine, which is wont to happen when men have recourse to foods which they must eat to save their lives, and after losing no less than eight thousand men in all, Demetrius retraced his steps with the rest and came down to Tarsus. Here he would gladly have spared the country, which was then under Seleucus, and so have given its ruler no ground of complaint;
 
@@ -552,7 +597,7 @@ URN: `null`
 
 [47.4] Incited by this advice, Seleucus marched into Cilicia with a large force. Then Demetrius, filled with amazement and alarm at the sudden change of attitude in Seleucus, withdrew to the strongest fastnesses of the Taurus, and sending messengers to Seleucus, asked that above all things he might be permitted to acquire a petty empire among the independent Barbarians, in which he might end his days without further wanderings and flights; but if this might not be, he begged him to give his troops food for the winter there, and not to drive him forth, stripped and destitute of all things, and cast him into the hands of his enemies.
 
-### Capítulo 48
+#### Capítulo 48
 
 [48.1] But Seleucus was suspicious of all this, and told Demetrius that he might, if he wished, spend two months in winter quarters in Cataonia, provided he gave the chief among his friends as hostages; and at the same time he fortified the passes into Syria against him. Then Demetrius, like a wild beast, hemmed in and attacked on all sides, was driven to defend himself; he overran the country, and when Seleucus attacked him, engaged with him and always had the advantage.
 
@@ -562,7 +607,7 @@ URN: `null`
 
 [48.4] But at last, after forty days, he recovered strength, and taking the soldiers that remained, set out, so far as his enemies could see or conjecture, for Cilicia; then, in the night and without signal by trumpet, he set out in the opposite direction, crossed the range of Amanus, and plundered the lower country as far as Cyrrhestica.
 
-### Capítulo 49
+#### Capítulo 49
 
 [49.1] When Seleucus made his appearance there and encamped near by, Demetrius set his army in motion by night and advanced against him. Seleucus was ignorant of his approach for a long time, and lay sleeping. But when some deserters came and told him of his peril, he was astounded, and leaping up ordered the trumpets to be sounded, at the same time pulling on his boots and shouting to his companions that a terrible wild beast was upon them. But Demetrius, perceiving from the noise which his enemies made that they had been informed of his approach, drew off his troops with all speed.
 
@@ -574,7 +619,7 @@ URN: `null`
 
 [49.5] And when one of them ventured to speak out boldly and say that Demetrius ought to surrender himself to Seleucus, Demetrius drew his sword and would have killed himself; but his friends encompassed him, and with encouraging words persuaded him to do as the man had said. So he sent to Seleucus and put himself at his disposal.
 
-### Capítulo 50
+#### Capítulo 50
 
 [50.1] When Seleucus heard of it, he declared that it was not the good fortune of Demetrius that brought him safety, but his own, which, in addition to her other blessings, gave him an opportunity to show generosity and kindness. Then he called his overseers and bade them pitch a royal tent, and to make all other arrangements and preparations for a magnificent reception and entertainment.
 
@@ -588,7 +633,7 @@ URN: `null`
 
 [50.6] any friend also who shared his exile and wished to visit him could do so, and notwithstanding his captivity sundry people kept coming to him from Seleucus bringing kindly messages and exhorting him to be of good cheer, since as soon as Antiochus came with Stratonicé, he was to be set at liberty.
 
-### Capítulo 51
+#### Capítulo 51
 
 [51.1] Demetrius, however, finding himself in this plight, sent word to his son and the friends and commanders who were at Athens and Corinth, bidding them put no trust in letters or seal purporting to be his, but to treat him as dead, and to preserve for Antigonus his cities and the rest of his power.
 
@@ -596,26 +641,77 @@ URN: `null`
 
 [51.3] But Lysimachus did not; he sent to Seleucus the promise of a large sum of money if he killed Demetrius. But Seleucus, who had always had a feeling of aversion for Lysimachus, all the more for this proposal thought him abominable and barbarous, and continued to keep Demetrius under watch and ward for Antiochus his son and Stratonicé, that the favour of his release might come from them.
 
-### Capítulo 52
+#### Capítulo 52
 
 [52.1] But Demetrius, who in the beginning bore up under the misfortune that had come upon him, and presently grew accustomed to it and endured his situation with a better grace, at first, in one way or another, exercised his body, resorting to hunting, so far as he could, or riding; then, little by little, he came to have the greatest indifference and aversion to these sports, took eagerly to drinking and dice, and spent most of his time at these.
 
 [52.2] This was either because he sought escape from the thoughts on his present condition which tormented him when he was sober, and tried to smother his reflections in drunkenness; or because he had convinced himself that this was the real life, which he had long desired and striven to attain, but had foolishly missed it through folly and empty ambition, thereby bringing many troubles upon himself, and many upon others; he had sought in arms and fleets and armies to find the highest good, but now, to his surprise, had discovered it in idleness and leisure and repose.
 
-[52.3] For what other end than this can worthless kings seek to attain by their wars and perils? Wicked and foolish indeed are they, not only because they seek after luxury and pleasure instead of virtue and honour, but also because they do not even know how to enjoy real pleasure or true luxury. So, then, Demetrius, after an imprisonment of three yearsFrom 386 to 383 B.C. in the Syrian Chersonese, through inactivity and surfeit of food and wine, fell sick and died, in the fifty-fifth year of his life.
+[52.3] For what other end than this can worthless kings seek to attain by their wars and perils? Wicked and foolish indeed are they, not only because they seek after luxury and pleasure instead of virtue and honour, but also because they do not even know how to enjoy real pleasure or true luxury. So, then, Demetrius, after an imprisonment of three years[^52] in the Syrian Chersonese, through inactivity and surfeit of food and wine, fell sick and died, in the fifty-fifth year of his life.
 
-[52.4] Seleucus was in ill repute for this, and repented him bitterly for having cherished such suspicions against Demetrius, and for allowing himself to be outdone even by Dromichaetes, a barbarous Thracian, who had given Lysimachus,Cf. chapter xxxix. 3. his captive, a treatment so humane and royal.
+[52.4] Seleucus was in ill repute for this, and repented him bitterly for having cherished such suspicions against Demetrius, and for allowing himself to be outdone even by Dromichaetes, a barbarous Thracian, who had given Lysimachus,[^53] his captive, a treatment so humane and royal.
 
-### Capítulo 53
+#### Capítulo 53
 
 [53.1] Moreover, there was something dramatic and theatrical even in the funeral ceremonies of Demetrius. For his son Antigonus, when he learned that his remains had been sent home, put to sea with his entire fleet and met them off the islands. They were given to him in a golden urn, and he placed them in the largest of his admiral’s ships.
 
 [53.2] Of the cities where the fleet touched in its passage, some brought garlands to adorn the urn, others sent men in funeral attire to assist in escorting it home and burying it. When the fleet put in at Corinth, the cinerary vase was conspicuous on the vessel’s poop, adorned with royal purple and a king’s diadem, and young men stood about it in arms as a bodyguard. Moreover, the most celebrated flute-player then living, Xenophantus, sat near, and with the most solemn melody upon his flute accompanied the rowers;
 
-[53.3] to this melody the oars kept perfect time, and their splashing, like funereal beatings of the breast, answered to the cadences of the flute-tones. But the most pity and lamentation among those who had come in throngs to the sea-shore was awakened by the sight of Antigonus himself, who was bowed down and in tears. After garlands and other honours had been bestowed upon the remains at Corinth, they were brought by Antigonus to Demetrias for burial, a city named after his father, who had settled it from the small villages about Iolcus.Cf. chapter xxv. 2.
+[53.3] to this melody the oars kept perfect time, and their splashing, like funereal beatings of the breast, answered to the cadences of the flute-tones. But the most pity and lamentation among those who had come in throngs to the sea-shore was awakened by the sight of Antigonus himself, who was bowed down and in tears. After garlands and other honours had been bestowed upon the remains at Corinth, they were brought by Antigonus to Demetrias for burial, a city named after his father, who had settled it from the small villages about Iolcus.[^54]
 
 [53.4] The children left by Demetrius were these: Antigonus and Stratonicé, by Phila; two named Demetrius, one who was surnamed the Thin, by a woman of Illyria, and one who ruled Cyrené, by Ptolemaïs; and, by Deïdameia, Alexander, who lived and died in Egypt. It is said also that he had a son named Corrhagus, by Eurydicé. His line came down in a succession of kings to Perseus, the last, in whose reign the Romans subdued Macedonia. And now that the Macedonian play has been performed, let us introduce the Roman.
 
----
-
-*Ὁ Διαφορεύς παρῆν*
+[^1]: It is uncertain what passage in Plato is meant.
+[^2]: Philip V., King of Macedonia. Cf. the Aemilius Paulus, viii. 6
+[^3]: In 63 B.C., when Pompey conquered Mithridates VI. and dismembered his kingdom.
+[^4]: In the spring of 312 B.C.
+[^5]: The competitors at the great games were divided into three classes: boys, beardless youths, and men (Plato, Laws, 833 c).
+[^6]: May-June, 307 B.C.
+[^7]: 323-322 B.C. See the Phocion, xxiii.; xxvi. 1.
+[^8]: Every fifth year, at the Panathenaic festival, a sacred robe was carried in solemn procession and deposited with the goddess Athena on the Acropolis. On it were represented the exploits of the goddess, particularly in the Battle of the Giants.
+[^9]: In 322 B.C. A Macedonian fleet was victorious.
+[^10]: Knights, 382.
+[^11]: The peplos was spread like a sail on the mast of the sacred Panathenaic ship.
+[^12]: Cf. Kock, Com. Att. Frag. iii. p. 308.
+[^13]: A pious formula prefixed to important documents.
+[^14]: In 306 B.C.
+[^15]: During the same year, namely, 306 B.C.
+[^16]: In 305-304 B.C. The siege lasted about a year.
+[^17]: When Strabo wrote, during the reign of Augustus, the painting was still at Rhodes, where it had been seen and admired by Cicero (Orat. 2, 5); when the elder Pliny wrote, a generation or two later, it had been carried to Rome and placed in the temple of Peace (cf. Strabo, xiv. p. 652; Pliny, N.H. xxxv. 10, 36).
+[^18]: Since the Athenians had made him a Saviour-god.
+[^19]: Early in 303 B.C.
+[^20]: Although both Eurydice and Phila were still living.
+[^21]: Part of the fragment cited at xii. 4.
+[^22]: See chapter xx. 4.
+[^23]: The name of a fabulous monster reputed to eat men’s flesh.
+[^24]: Late in 302 B.C.
+[^25]: The watchword should have been Alexander and Victory.
+[^26]: Near the village of Ipsus, in Phrygia, 301 B.C.
+[^27]: The rich temple of Artemis (Diana).
+[^28]: The Thracian Chersonesus, the modern Gallipoli.
+[^29]: The passage cannot be determined.
+[^30]: In 297 B.C.
+[^31]: A hill S.W. of the Acropolis.
+[^32]: Nauck, Trag. Graec. Frag.2 p. 107 (μ’ ἔφυσας).
+[^33]: Fragment 93 (Bergk, Poet. Lyr. Graeci, ii.4 p. 410).
+[^34]: The Greek of the parenthesis is hopelessly corrupt.
+[^35]: In 294 B.C.
+[^36]: Fragment 2 (Bergk, Poet. Lyr. Graeci, iii.4 pp. 88 ff.).
+[^37]: In 293 B.C.
+[^38]: Cf. chapter xxi. 1.
+[^39]: In 290 B.C. The siege lasted nearly a year.
+[^40]: Cassander began the restoration of the city (after its utter annihilation by Alexander in 335 B.C.) in 315 B.C.
+[^41]: Bergk, Poet. Lyr. Graeci, iii.4 p. 622. Cf. the Agesilaüs, xiv. 2.
+[^42]: Bergk, op. cit. i.4 p. 439.
+[^43]: Iliad, i. 238 f.
+[^44]: Minos, Odyssey, xix. 179.
+[^45]: In the spring of 294 B.C.
+[^46]: From 394 to 287 B.C.
+[^47]: Nauck, Trag. Graec. Frag.2 p. 315.
+[^48]: Bacchae, 4 f., with adaptation from the first person.
+[^49]: See chapter x. 3.
+[^50]: See chapter xliii. 3.
+[^51]: As early as 301 B.C. Cf. chapter xxxii. 3.
+[^52]: From 386 to 383 B.C.
+[^53]: Cf. chapter xxxix. 3.
+[^54]: Cf. chapter xxv. 2.

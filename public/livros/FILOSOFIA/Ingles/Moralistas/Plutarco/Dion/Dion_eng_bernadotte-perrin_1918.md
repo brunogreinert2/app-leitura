@@ -1,38 +1,30 @@
 ---
 id: plutarco-dion-eng-bernadotte-perrin-1918
-type: texto_primario
-title: "Dion"
-subtitle: null
+type: translation
+title: Dion
 author: Plutarch
-year_original: null
-language: eng
-translation:
-  - Bernadotte Perrin
+translator:
+- Bernadotte Perrin
 publisher: Harvard University Press
-area: null
-era: null
-tags: []
-status: rascunho
+language: eng
+tags:
+- moralists
+status: draft
 project: pedra_angular
-source: "Plutarch. Dion. Ed. Bernadotte Perrin. Cambridge, MA: Harvard University Press, 1918. Perseus Digital Library, Tufts University (CC BY-SA 4.0). URN: null"
-related: []
+urn_work: urn:cts:greekLit:tlg0007.tlg060
+urn: urn:cts:greekLit:tlg0007.tlg060.perseus-eng2
+source: 'Plutarch. Dion. Ed. Bernadotte Perrin. Cambridge, MA: Harvard University Press, 1918. Perseus Digital Library, Tufts University (CC BY-SA 4.0).'
+source_repo: PerseusDL/canonical-greekLit
+source_file: data/tlg0007/tlg060/tlg0007.tlg060.perseus-eng2.xml
+source_commit: e37eed2e8
+license: CC-BY-SA-4.0
 ---
 
 # Dion
 
-**Plutarch**
+#### Capítulo 1
 
-Cambridge, MA: Harvard University Press, 1918.
-Perseus Digital Library, Tufts University (CC BY-SA 4.0).
-URN: `null`
-
----
-
-## Texto
-
-### Capítulo 1
-
-[1.1] If it be true, then, O Sossius Senecio,One of the many friends whom Plutarch made during his residence at Rome. See on Theseus, i. 1. as Simonides says,Fragment 50; Bergk, Poet. Lyr. Graeci, iii. 4 p. 412. that Ilium is not wroth with the Corinthians for coming up against her with the Achaeans, because the Trojans also had Glaucus, who sprang from Corinth, as a zealous ally, so it is likely that neither Romans nor Greeks will quarrel with the Academy, since they fare alike in this treatise containing the lives of Dion and Brutus,
+[1.1] If it be true, then, O Sossius Senecio,[^1] as Simonides says,[^2] that Ilium “is not wroth with the Corinthians” for coming up against her with the Achaeans, because the Trojans also had Glaucus, who sprang from Corinth, as a zealous ally, so it is likely that neither Romans nor Greeks will quarrel with the Academy, since they fare alike in this treatise containing the lives of Dion and Brutus,
 
 [1.2] for Dion was an immediate disciple of Plato, while Brutus was nourished on the doctrines of Plato. Both therefore set out from one training-school, as it were, to engage in the greatest struggles.
 
@@ -40,7 +32,7 @@ URN: `null`
 
 [1.4] For as Hippomachus the trainer used to declare that he could recognize his pupils from afar even though they were but carrying meat from the market-place, so it is natural that the principles of those who have been trained alike should permeate their actions; inducing in these a similar rhythm and harmony along with their propriety.
 
-### Capítulo 2
+#### Capítulo 2
 
 [2.1] Moreover, the fortunes of the two men, which were the same in what befell them rather than in what they elected to do, make their lives alike.
 
@@ -54,11 +46,11 @@ URN: `null`
 
 [2.6] in envy of good men and opposition to their noble deeds, try to confound and terrify them, causing their virtue to rock and totter, in order that they may not continue erect and inviolate in the path of honour and so attain a better portion after death than the spirits themselves.
 
-[2.7] But this subject must be reserved for discussion elsewhere, and in this, the twelfth bookThe Pericles was part of the tenth book (chapter ii. 3), the Demosthenes part of the fifth (chapter iii. 1). The ordinary arrangement of the Lives purely arbitrary. of my Parallel Lives, I shall begin with that of the elder man.
+[2.7] But this subject must be reserved for discussion elsewhere, and in this, the twelfth book[^3] of my Parallel Lives, I shall begin with that of the elder man.
 
-### Capítulo 3
+#### Capítulo 3
 
-[3.1] Dionysius the Elder, after assuming the reins of government,In 405 B.C. at once married the daughter of Hermocrates the Syracusan.
+[3.1] Dionysius the Elder, after assuming the reins of government,[^4] at once married the daughter of Hermocrates the Syracusan.
 
 [3.2] But she, since the tyranny was not yet securely established, was terribly and outrageously abused in her person by the seditious Syracusans, and in consequence put an end to her own life.
 
@@ -70,23 +62,23 @@ URN: `null`
 
 [3.6] Aristomache, on the contrary, was for a long time a barren wife, although Dionysius was desirous to have children by her; at any rate, he accused the mother of his Locrian wife of giving Aristomache drugs to prevent conception, and put her to death.
 
-### Capítulo 4
+#### Capítulo 4
 
 [4.1] Now, Dion was a brother of Aristomache, and at first was honoured because of his sister; afterwards, however, he gave proof of his wisdom, and was presently beloved by the tyrant for his own sake.
 
 [4.2] In addition to all his other favours, Dionysius ordered his treasurers to give Dion whatever he asked, although they were to tell Dionysius on the same day what they had given.
 
-[4.3] But though Dion was even before of a lofty character, magnanimous, and manly, he advanced still more in these high qualities when, by some divine good fortune, Plato came to Sicily.About 388 B.C., if this first visit is not a myth.
+[4.3] But though Dion was even before of a lofty character, magnanimous, and manly, he advanced still more in these high qualities when, by some divine good fortune, Plato came to Sicily.[^5]
 
 [4.4] This was not of man’s devising, but some heavenly power, as it would seem, laying far in advance of the time a foundation for the liberty of Syracuse, and devising a subversion of tyranny, brought Plato from Italy to Syracuse and made Dion his disciple.
 
 [4.5] Dion was then quite young, but of all the companions of Plato he was by far the quickest to learn and the readiest to answer the call of virtue,
 
-[4.6] as Plato himself has written, Epist. vii. p. 327. and as events testify. For though he had been reared in habits of submission under a tyrant, and though he was fully accustomed to a life that was subservient and timorous, as well as to ostentatious service at court and vulgar luxury and a regimen that counts pleasures and excesses as the highest good,
+[4.6] as Plato himself has written,[^6] and as events testify. For though he had been reared in habits of submission under a tyrant, and though he was fully accustomed to a life that was subservient and timorous, as well as to ostentatious service at court and vulgar luxury and a regimen that counts pleasures and excesses as the highest good,
 
 [4.7] nevertheless, as soon as he got a taste of a rational philosophy which led the way to virtue, his soul was speedily on fire; and since he very artlessly and impulsively expected, from his own ready obedience to the call of higher things, that the same arguments would have a like persuasive force with Dionysius, he earnestly set to work and at last brought it to pass that the tyrant, in a leisure hour, should meet Plato and hear him discourse.
 
-### Capítulo 5
+#### Capítulo 5
 
 [5.1] At this meeting the general subject was human virtue, and most of the discussion turned upon manliness. And when Plato set forth that tyrants least of all men had this quality, and then, treating of justice, maintained that the life of the just was blessed,
 
@@ -94,7 +86,7 @@ URN: `null`
 
 [5.3] At last he got exceedingly angry and asked the philosopher why he had come to Sicily.
 
-[5.4] And when Plato said that he was come to seek a virtuous man, the tyrant answered and said: Well, by the gods, it appears that you have not yet found such an one.
+[5.4] And when Plato said that he was come to seek a virtuous man, the tyrant answered and said: “Well, by the gods, it appears that you have not yet found such an one.”
 
 [5.5] Dion thought that this was the end of his anger, and as Plato was eager for it, sent him away upon a trireme, which was conveying Pollis the Spartan to Greece.
 
@@ -104,23 +96,23 @@ URN: `null`
 
 [5.8] In spite of all this, Dion stood in no less honour and credit with Dionysius than before, but had the management of the most important embassies, as, for instance, when he was Bent to Carthage and won great admiration.
 
-[5.9] The tyrant also bore with his freedom of speech, and Dion was almost the only one who spoke his mind fearlessly, as, for example, when he rebuked Dionysius for what he said about Gelon. The tyrant was ridiculing the government of Gelon,Gelon had been tyrant of Syracuse 485-478 B.C. and when he said that Gelon himself, true to his name, became the laughing-stock (gelos) of Sicily, the rest of his hearers pretended to admire the joke, but Dion was disgusted and said: Indeed, thou art now tyrant because men trusted thee for Gelon’s sake; but no man hereafter will be trusted for thy sake.
+[5.9] The tyrant also bore with his freedom of speech, and Dion was almost the only one who spoke his mind fearlessly, as, for example, when he rebuked Dionysius for what he said about Gelon. The tyrant was ridiculing the government of Gelon,[^7] and when he said that Gelon himself, true to his name, became the laughing-stock (“gelos”) of Sicily, the rest of his hearers pretended to admire the joke, but Dion was disgusted and said: “Indeed, thou art now tyrant because men trusted thee for Gelon’s sake; but no man hereafter will be trusted for thy sake.”
 
 [5.10] For, as a matter of fact, Gelon seems to have made a city under absolute rule a very fair thing to look upon, but Dionysius a very shameful thing.
 
-### Capítulo 6
+#### Capítulo 6
 
-[6.1] Dionysius had three children by his Locrian wife, and four by Aristomache, two of whom were daughters, Sophrosyne and Arete. Sophrosyne became the wife of his son Dionysius,Cf. chapter iii. 3. and Arete of his brother Thearides, but after the death of Thearides, Arete became the wife of Dion, her uncle.
+[6.1] Dionysius had three children by his Locrian wife, and four by Aristomache, two of whom were daughters, Sophrosyne and Arete. Sophrosyne became the wife of his son Dionysius,[^8] and Arete of his brother Thearides, but after the death of Thearides, Arete became the wife of Dion, her uncle.
 
 [6.2] Now, when Dionysius was sick and seemed likely to die, Dion tried to confer with him in the interests of his children by Aristomache, but the physicians, who wished to ingratiate themselves with the heir apparent, would not permit it;
 
-[6.3] moreover, according to Timaeus, when the sick man asked for a sleeping potion, they gave him one that robbed him of his senses and made death follow sleep.In 367 B.C.
+[6.3] moreover, according to Timaeus, when the sick man asked for a sleeping potion, they gave him one that robbed him of his senses and made death follow sleep.[^9]
 
 [6.4] However, in the first conference held between the young Dionysius and his friends, Dion discoursed upon the needs of the situation in such a manner that his wisdom made all the rest appear children, and his boldness of speech made them seem mere slaves of tyranny, who were wont to give their counsels timorously and ignobly to gratify the young man.
 
 [6.5] But what most amazed them in their fear of the peril that threatened the realm from Carthage, was Dion’s promise that, if Dionysius wanted peace, he would sail at once to Africa and put a stop to the war on the best terms possible; but if war was the king’s desire, he himself would furnish him with fifty swift triremes for the war, and maintain them at his own costs.
 
-### Capítulo 7
+#### Capítulo 7
 
 [7.1] Dionysius, then, was greatly astonished at his magnanimity and delighted with his ardour;
 
@@ -132,11 +124,11 @@ URN: `null`
 
 [7.5] In this way the tyranny, being softened, like iron in the fire, appeared to its subjects to be kindly, and gradually remitted its excessive cruelty, though its edge was blunted not so much by any clemency in the sovereign as by his love of ease.
 
-[7.6] As a consequence, the laxity of the young king gained ground little by little, until at last those adamantine bonds with which the elder Dionysius said he had left the monarchy fastened, were melted and destroyed.
+[7.6] As a consequence, the laxity of the young king gained ground little by little, until at last those “adamantine bonds” with which the elder Dionysius said he had left the monarchy fastened, were melted and destroyed.
 
 [7.7] For it is said that the young king once kept up a drinking bout for ninety consecutive days from its beginning, and that during this time his court gave no access or admission to men or matters of consequence, but drunkenness and raillery and music and dancing and buffoonery held full sway.
 
-### Capítulo 8
+#### Capítulo 8
 
 [8.1] Dion, then, as was natural, was obnoxious to these men, since he indulged in no pleasure or youthful folly. And so they tried to calumniate him by actually giving to his virtues plausible names of vices; for instance, they called his dignity haughtiness, and his boldness of speech self-will.
 
@@ -144,11 +136,11 @@ URN: `null`
 
 [8.3] And in very truth his character had naturally a certain majesty, together with a harshness that repelled intercourse and was hard to deal with. For not only to a man who was young and whose ears had been corrupted by flattery was he an unpleasant and irksome associate, but many also who were intimate with him and who loved the simplicity and nobility of his disposition, were apt to find fault with the manner of his intercourse with men, on the ground that he dealt with those who sought his aid more rudely and harshly than was needful in public life.
 
-[8.4] On this head Plato also afterwards wrote to him, Epist. iv. ad fin. in a tone almost prophetic, that he should be on his guard against self-will, which was a companion of solitude.Cf. the Coriolanus, xv. 4.
+[8.4] On this head Plato also afterwards wrote to him,[^10] in a tone almost prophetic, that he should be on his guard against self-will, which was a “companion of solitude.”[^11]
 
 [8.5] However, at this time, though circumstances led men to think him of more value than any one else, and the only or the chief supporter and guardian of the storm-tossed tyranny, he knew that it was not out of goodwill, but against the wishes of the tyrant and owing to his needs, that he was first and greatest.
 
-### Capítulo 9
+#### Capítulo 9
 
 [9.1] Considering, then, that a reason for this lay in the tyrant’s want of education, he sought to engage him in liberal studies, and to give him a taste of such literature and science as formed the character, in order that he might cease to be afraid of virtue, and become accustomed to take delight in what was high and noble.
 
@@ -166,7 +158,7 @@ URN: `null`
 
 [9.8] Yes, the man who was angry with Plato because he would not pronounce him the most valiant man alive, had a spirit as timorous as this, and so full of all the evils induced by cowardice.
 
-### Capítulo 10
+#### Capítulo 10
 
 [10.1] This tyrant’s son, as I have said, Dion saw to be dwarfed and deformed in character from his lack of education, and therefore exhorted him to apply himself to study, and to use every entreaty with the first of philosophers to come to Sicily,
 
@@ -174,17 +166,17 @@ URN: `null`
 
 [10.3] in this way he would procure great happiness for himself, and great happiness for his people, and that obedience which they now rendered dejectedly and under the compulsion of his authority, this his moderation and justice would base upon goodwill and a filial spirit, and he would become a king instead of a tyrant.
 
-[10.4] For the adamantine bonds of sovereignty were not, as his father used to say, fear and force and a multitude of ships and numberless barbarian body-guards, but goodwill and ardour and favour engendered by virtue and justice; these, though they were more flexible than the bonds of severity and harshness, were stronger to maintain a lasting leadership.
+[10.4] For the “adamantine bonds” of sovereignty were not, as his father used to say, fear and force and a multitude of ships and numberless barbarian body-guards, but goodwill and ardour and favour engendered by virtue and justice; these, though they were more flexible than the bonds of severity and harshness, were stronger to maintain a lasting leadership.
 
 [10.5] And besides all this, it was mean and spiritless in a ruler, while his body was magnificently clothed and his habitation resplendent with luxurious furnishings, to be no more majestic in his intercourse and conversation than an ordinary man, and not to insist that the royal palace of his soul should be adorned in meet and royal fashion.
 
-### Capítulo 11
+#### Capítulo 11
 
 [11.1] Since Dion frequently gave him such advice, and artfully mingled with it some of Plato’s doctrines, Dionysius was seized with a keen and even frenzied passion for the teachings and companionship of Plato.
 
 [11.2] At once, then, many letters began to come to Athens from Dionysius, and many injunctions from Dion, as well as others from the Pythagorean philosophers of Italy, all of whom urged Plato to come and get control of a youthful soul now tossed about on a sea of great authority and power, and steady it by his weighty reasonings.
 
-[11.3] Plato, accordingly, as he tells us himself, Epist. vii. p. 328. out of shame more than any thing else, lest men should think him nothing but theory and unwilling to take any action; and further, because he expected that by the purification of one man, who was, as it were, a controlling factor, he would cure all Sicily of her distempers, yielded to these requests.
+[11.3] Plato, accordingly, as he tells us himself,[^12] out of shame more than any thing else, lest men should think him nothing but theory and unwilling to take any action; and further, because he expected that by the purification of one man, who was, as it were, a controlling factor, he would cure all Sicily of her distempers, yielded to these requests.
 
 [11.4] But the enemies of Dion, afraid of the alteration in Dionysius, persuaded him to recall from exile Philistus, a man versed in letters and acquainted with the ways of tyrants, that they might have in him a counterpoise to Plato and philosophy.
 
@@ -194,7 +186,7 @@ URN: `null`
 
 [11.7] Philistus took refuge with some friends in Adria, and there, it would seem, in his leisure, composed the greater part of his history. For he did not return to Syracuse while the elder Dionysius was alive, but after his death, as I have said, the envy which the other courtiers felt towards Dion brought about his recall; they thought him a more suitable man for their purposes, and a stauncher friend of the tyranny.
 
-### Capítulo 12
+#### Capítulo 12
 
 [12.1] Philistus, then, as soon as he had returned, was in close touch with the tyranny; and there were others also who brought slanders and accusations against Dion to the tyrant, alleging that he had been in conference with Theodotes and Heracleides concerning a subversion of the government.
 
@@ -202,21 +194,21 @@ URN: `null`
 
 [12.3] but if Dionysius should oppose his efforts and refuse to be softened, he had determined to depose him and restore the civil power to the Syracusan people; not that he approved of a democracy, but he thought it altogether better than a tyranny in lack of a sound and healthy aristocracy.
 
-### Capítulo 13
+#### Capítulo 13
 
-[13.1] Such was the condition of affairs when Plato came to Sicily,Soon after 368 B.C. and in the first instances he met with astonishing friendliness and honour.
+[13.1] Such was the condition of affairs when Plato came to Sicily,[^13] and in the first instances he met with astonishing friendliness and honour.
 
 [13.2] For a royal chariot, magnificently adorned, awaited him as he left his trireme, and the tyrant offered a sacrifice of thanksgiving for the great blessing that had been bestowed upon his government.
 
 [13.3] Moreover, the modesty that characterized his banquets, the decorum of the courtiers, and the mildness of the tyrant himself in all his dealings with the public, inspired the citizens with marvellous hopes of his reformation.
 
-[13.4] There was also something like a general rush for letters and philosophy, and the palace was filled with dust, as they say, owing to the multitude of geometricians there.Geometrical figures were traced in loose sand strewn upon the floor.
+[13.4] There was also something like a general rush for letters and philosophy, and the palace was filled with dust, as they say, owing to the multitude of geometricians there.[^14]
 
-[13.5] After a few days had passed, there was one of the customary sacrifices of the country in the palace grounds; and when the herald, as was the custom, prayed that the tyranny might abide unshaken for many generations, it is said that Dionysius, who was standing near, cried: Stop cursing us!
+[13.5] After a few days had passed, there was one of the customary sacrifices of the country in the palace grounds; and when the herald, as was the custom, prayed that the tyranny might abide unshaken for many generations, it is said that Dionysius, who was standing near, cried: “Stop cursing us!”
 
 [13.6] This quite vexed Philistus and his party, who thought that time and familiarity would render Plato’s influence almost irresistible, if now, after a brief intimacy, he had so altered and transformed the sentiments of the youthful prince.
 
-### Capítulo 14
+#### Capítulo 14
 
 [14.1] They therefore no longer abused Dion one by one and secretly, but all together and openly, saying that he was manifestly enchanting and bewitching Dionysius with Plato’s doctrines, in order that the tyrant might of his own accord relinquish and give up the power, which Dion would then assume and devolve upon the children of Aristomache, whose uncle he was.
 
@@ -232,7 +224,7 @@ URN: `null`
 
 [14.7] And when Dion wished to defend himself, he would not suffer it, but at once placed him, just as he was, on board a small boat, and commanded the sailors in it to set him ashore in Italy.
 
-### Capítulo 15
+#### Capítulo 15
 
 [15.1] At this proceeding, which seemed to men a cruel one, the women in the household of the tyrant put on mourning, but the citizens of Syracuse were cheered by the expectation of a revolution and a speedy change in the government, since Dion’s treatment caused such a commotion and the rest of the courtiers distrusted the tyrant.
 
@@ -244,7 +236,7 @@ URN: `null`
 
 [15.5] Besides, many other things were sent to him from the women of the court and from his adherents, so that, as far as wealth and riches went, he was a brilliant figure among the Greeks, to whom the affluence of the exile gave some idea of the power of the tyrant.
 
-### Capítulo 16
+#### Capítulo 16
 
 [16.1] As for Plato, Dionysius at once removed him to the acropolis, where he contrived to give him a guard of honour under pretence of hospitable kindness, in order that he might not accompany Dion and bear witness to his wrongs.
 
@@ -258,15 +250,15 @@ URN: `null`
 
 [16.6] as soon as peace was made he would summon Dion home, and he asked him to be quiet, and to attempt no revolution, and to say no evil of him to the Greeks.
 
-### Capítulo 17
+#### Capítulo 17
 
 [17.1] This Plato tried to effect, and kept Dion with him in the Academy, where he turned his attention to philosophy.
 
-[17.2] Dion dwelt in the upper city of AthensThe upper city, as distinguished from the Piraeus. with Callippus, one of his acquaintances, but for diversion he bought a country-place, and afterwards, when he sailed to Sicily, he gave this to Speusippus,
+[17.2] Dion dwelt in the upper city of Athens[^15] with Callippus, one of his acquaintances, but for diversion he bought a country-place, and afterwards, when he sailed to Sicily, he gave this to Speusippus,
 
 [17.3] who was his most intimate friend at Athens. For Plato desired that Dion’s disposition should be tempered and sweetened by association with men of charming presence who indulged seasonably in graceful pleasantries.
 
-[17.4] And such a man was Speusippus; wherefore Timon, in his Silli, spoke of him as good at a jest.
+[17.4] And such a man was Speusippus; wherefore Timon, in his “Silli,” spoke of him as “good at a jest.”
 
 [17.5] And when Plato himself was called upon to furnish a chorus of boys, Dion had the chorus trained and defrayed all the expense of its maintenance, and Plato encouraged in him such an ambition to please the Athenians, on the ground that it would procure goodwill for Dion rather than fame for himself.
 
@@ -278,9 +270,9 @@ URN: `null`
 
 [17.9] And it is related that Dion once went to pay a visit to Ptoeodorus the Megarian, upon his invitation. Now Ptoeodorus, it would seem, was one of the wealthy and influential men of the city;
 
-[17.10] and when, therefore, Dion saw a crowd of people at his door, and a press of business, which made him difficult of access and hard to come at, he turned to his friends, who were vexed and indignant at it, and said: Why should we blame this man? For we ourselves used to do just so in Syracuse.
+[17.10] and when, therefore, Dion saw a crowd of people at his door, and a press of business, which made him difficult of access and hard to come at, he turned to his friends, who were vexed and indignant at it, and said: “Why should we blame this man? For we ourselves used to do just so in Syracuse.”
 
-### Capítulo 18
+#### Capítulo 18
 
 [18.1] But as time went on, Dionysius became jealous of Dion and afraid of his popularity among the Greeks. He therefore stopped sending him his revenues, and handed his estate over to his own private stewards.
 
@@ -298,9 +290,16 @@ URN: `null`
 
 [18.8] Dion also received many injunctions from his wife and sister, that he should beg Plato to listen to Dionysius and not afford him an excuse for further severity.
 
-[18.9] Thus it was, then, that Plato, as he himself says, came for the third time to the straits of Scylla, That he might once more measure back his way to fell Charybdis. Odyssey, xii. 428, with slight adaptation from the first person.
+[18.9] Thus it was, then, that Plato, as he himself says,
 
-### Capítulo 19
+```verso
+That he might once more measure back his way to
+fell Charybdis.
+```
+
+[^16]
+
+#### Capítulo 19
 
 [19.1] His arrival filled Dionysius with great joy, and the Sicilians again with great hope; they all prayed and laboured zealously that Plato might triumph over Philistus, and philosophy over tyranny.
 
@@ -314,29 +313,29 @@ URN: `null`
 
 [19.6] But while matters stood thus between them, and no one knew of it, as they supposed, Helicon of Cyzicus, one of Plato’s intimates, predicted an eclipse of the sun. This took place as he had predicted, in consequence of which he was admired by the tyrant and presented with a talent of silver.
 
-[19.7] Thereupon Aristippus, jesting with the rest of the philosophers, said that he himself also could predict something strange. And when they besought him to tell what it was, Well, then, said he, I predict that ere long Plato and Dionysius will become enemies.
+[19.7] Thereupon Aristippus, jesting with the rest of the philosophers, said that he himself also could predict something strange. And when they besought him to tell what it was, “Well, then,” said he, “I predict that ere long Plato and Dionysius will become enemies.”
 
 [19.8] At last Dionysius sold the estate of Dion and appropriated the money, and removing Plato from his lodging in the palace garden, put him in charge of his mercenaries, who had long hated the philosopher and sought to kill him, on the ground that he was trying to persuade Dionysius to renounce the tyranny and live without a bodyguard.
 
-### Capítulo 20
+#### Capítulo 20
 
 [20.1] Now when Archytas and his fellow Pythagoreans learned that Plato was in such peril, they quickly sent a galley with an embassy, demanding him from Dionysius and declaring that Plato had taken them for sureties of his safety when he sailed to Syracuse.
 
-[20.2] Dionysius sought to disprove his enmity to Plato by giving banquets in his honour and making kind provisions for his journey, and went so far as to say something like this to him: I suppose, Plato, thou wilt bring many dire accusations against me to the ears of your fellow philosophers.
+[20.2] Dionysius sought to disprove his enmity to Plato by giving banquets in his honour and making kind provisions for his journey, and went so far as to say something like this to him: “I suppose, Plato, thou wilt bring many dire accusations against me to the ears of your fellow philosophers.”
 
-[20.3] To this Plato answered with a smile: Heaven forbid that there should be such a dearth of topics for discussion in the Academy that any one mention thee.
+[20.3] To this Plato answered with a smile: “Heaven forbid that there should be such a dearth of topics for discussion in the Academy that any one mention thee.”
 
-[20.4] Such, they say, was the dismissal of Plato; Plato’s own words, Epist. vii. p. 349 f. however, do not entirely agree with this account.
+[20.4] Such, they say, was the dismissal of Plato; Plato’s own words,[^17] however, do not entirely agree with this account.
 
-### Capítulo 21
+#### Capítulo 21
 
 [21.1] But Dion was vexed by all this, and shortly afterwards became altogether hostile when he learned how his wife had been treated, on which matter Plato also spoke covertly in a letter to Dionysius. The case was as follows.
 
-[21.2] After the expulsion of Dion and when Dionysius was sending Plato back,For the first time; cf. chapter xvi. 3. he bade him learn from Dion confidentially whether he would oppose his wife’s marrying another man;
+[21.2] After the expulsion of Dion and when Dionysius was sending Plato back,[^18] he bade him learn from Dion confidentially whether he would oppose his wife’s marrying another man;
 
 [21.3] for there was a report, whether true or concocted by Dion’s enemies, that his marriage had not proved agreeable to him, and that he did not live harmoniously with his wife.
 
-[21.4] Accordingly, after Plato came to Athens and had conferred with Dion about everything, he wrote a letter to the tyrant which spoke of other matters in a way that was clear to anybody, but of this particular matter in language that could be understood by Dionysius alone, saying that he had talked with Dion about that business, and that Dion would evidently be exceedingly angry if Dionysius should carry it through.Cf. Epist. xiii. p. 362 ad fin.
+[21.4] Accordingly, after Plato came to Athens and had conferred with Dion about everything, he wrote a letter to the tyrant which spoke of other matters in a way that was clear to anybody, but of this particular matter in language that could be understood by Dionysius alone, saying that he had talked with Dion about that business, and that Dion would evidently be exceedingly angry if Dionysius should carry it through.[^19]
 
 [21.5] Now, as long as there were many hopes of a reconciliation, the tyrant took no violent measures with his sister, but suffered her to continue living with Dion’s young son;
 
@@ -344,11 +343,11 @@ URN: `null`
 
 [21.7] For the elder tyrant also, as it would appear, had a sister, Theste, whose husband, Polyxenus, had become his enemy. When, therefore, Polyxenus was moved by fear to run away and go into exile from Sicily, the tyrant sent for his sister and upbraided her because she had been privy to her husband’s flight and had not told her brother about it.
 
-[21.8] But she, without consternation, and, indeed, without fear, replied: Dost thou think me, Dionysius, such a mean and cowardly wife that, had I known beforehand of my husband’s flight, I would not have sailed off with him and shared his fortunes? Indeed, I did not know about it; since it would have been well for me to be called the wife of Polyxenus the exile, rather than the sister of Dionysius the tyrant.
+[21.8] But she, without consternation, and, indeed, without fear, replied: “Dost thou think me, Dionysius, such a mean and cowardly wife that, had I known beforehand of my husband’s flight, I would not have sailed off with him and shared his fortunes? Indeed, I did not know about it; since it would have been well for me to be called the wife of Polyxenus the exile, rather than the sister of Dionysius the tyrant.”
 
 [21.9] The tyrant is said to have admired Theste for this bold speech. And the Syracusans also admired the virtue of the woman, so that even after the dissolution of the tyranny she retained the honours and services paid to royalty, and when she died, the citizens, by public consent, attended her funeral. This is a digression, it is true, but not a useless one.
 
-### Capítulo 22
+#### Capítulo 22
 
 [22.1] From this time on Dion turned his thoughts to war. With this Plato himself would have nothing to do, out of respect for his tie of hospitality with Dionysius, and because of his age. But Speusippus and the rest of his companions co-operated with Dion and besought him to free Sicily, which stretched out her arms to him and eagerly awaited his coming.
 
@@ -358,7 +357,7 @@ URN: `null`
 
 [22.4] Encouraged by this information from Speusippus, Dion collected mercenaries secretly and by the agency of others, concealing his purpose.
 
-[22.5] He was assisted also by many statesmen and philosophers, such as Eudemus the Cyprian, on whose death Aristotle wrote his dialogue On the Soul, and Timonides the Leucadian.
+[22.5] He was assisted also by many statesmen and philosophers, such as Eudemus the Cyprian, on whose death Aristotle wrote his dialogue “On the Soul,” and Timonides the Leucadian.
 
 [22.6] Furthermore, they enlisted on his side Miltas the Thessalian also, who was a seer and had studied in the Academy.
 
@@ -366,17 +365,17 @@ URN: `null`
 
 [22.8] The rendezvous was the island of Zacynthus, and here the soldiers were assembled. They numbered fewer than eight hundred, but they were all well known in consequence of many great campaigns, their bodies were exceptionally well trained, while in experience and daring they had no equals in the world, and were capable of inciting and inflaming to share their prowess all the host which Dion expected to have in Sicily.
 
-### Capítulo 23
+#### Capítulo 23
 
 [23.1] At first, indeed, when these men heard that their expedition was directed against Dionysius and Sicily, they were full of consternation and denounced the enterprise, declaring that Dion, in a mad frenzy of anger, or in despair, was plunging into desperate undertakings; they were also enraged at their own leaders and recruiting officers for not having told them at the very outset about the war.
 
 [23.2] But when Dion addressed them, setting forth in detail the unsound condition of the tyranny, and declaring that he was taking them, not as soldiers, but as commanders of the Syracusans and the rest of the Sicilians, who had long been ready for a revolt; and when, after Dion, Alcimenes, who was an Achaean of the highest birth and reputation and a member of time expedition, had argued with them, they were persuaded.
 
-[23.3] It was now midsummer,357 B.C. the Etesian windsWinds blowing steadily from the North during the summer. prevailed at sea, and the moon was at the full. Dion had prepared a magnificent sacrifice to Apollo, and marched in solemn procession to the temple with his soldiers, who were arrayed in full armour.
+[23.3] It was now midsummer,[^20] the Etesian winds[^21] prevailed at sea, and the moon was at the full. Dion had prepared a magnificent sacrifice to Apollo, and marched in solemn procession to the temple with his soldiers, who were arrayed in full armour.
 
 [23.4] After the sacrifice, he gave them a banquet in the stadium of the Zacynthians, where, as they reclined on their couches, they wondered at the splendour of the gold and silver beakers, and of the tables, for it passed the limits set by a private man’s fortune; they reasoned, too, that a man who was already past his prime and was master of such great affluence, would not engage in hazardous enterprises unless he had solid hopes of success, and friends over there who offered him unbounded resources.
 
-### Capítulo 24
+#### Capítulo 24
 
 [24.1] But after the libations and the customary prayers, the moon was eclipsed. Now, to Dion this was nothing astonishing, for he knew that eclipses recurred at regular intervals, and that the shadow projected on the moon was caused by the interposition of the earth between her and the sun.
 
@@ -398,7 +397,7 @@ URN: `null`
 
 [24.10] an eagle, moreover, was servant of Zeus, and a spear, an emblem of authority and power, wherefore this prodigy showed that the greatest of the gods desired the utter dissolution of the tyranny. Such, at all events, is the account which Theopompus has given.
 
-### Capítulo 25
+#### Capítulo 25
 
 [25.1] The soldiers of Dion filled two merchant-ships, and a third transport of small size, together with two thirty-oared galleys, accompanied these.
 
@@ -428,7 +427,7 @@ URN: `null`
 
 [25.14] But as soon as the two commanders had met and greeted one another, Dion restored the city to Synalus, without doing it any harm, and Synalus entertained the soldiers and supplied Dion with what he wanted.
 
-### Capítulo 26
+#### Capítulo 26
 
 [26.1] But what most of all encouraged them was the accidental absence of Dionysius from Syracuse; for it chanced that he had recently sailed with eighty ships to Italy.
 
@@ -450,11 +449,11 @@ URN: `null`
 
 [26.10] When the man awoke and perceived what had happened, he wandered about a long time in search of what he had lost, but could not find it, and therefore determined not to go to the tyrant without the letters, but to run away and disappear.
 
-### Capítulo 27
+#### Capítulo 27
 
 [27.1] Dionysius, therefore, was destined to learn of the war in Sicily late and from other sources; but meanwhile, as Dion proceeded on his march, he was joined by the Camarinaeans, and no small multitude of the rural Syracusans revolted and swelled his ranks.
 
-[27.2] Moreover, the Leontines and Campanians who were guarding EpipolaeThe plateau west of the city of Syracuse. See the note on Nicias, xvii. 1. with Timocrates, in consequence of a false report which Dion sent to them that he would attack their cities first, deserted Timocrates and went off to assist their own peoples.
+[27.2] Moreover, the Leontines and Campanians who were guarding Epipolae[^22] with Timocrates, in consequence of a false report which Dion sent to them that he would attack their cities first, deserted Timocrates and went off to assist their own peoples.
 
 [27.3] When news of this was brought to Dion as he lay encamped near Acrae, he roused up his soldiers while it was still night and came to the river Anapus, which is ten furlongs distant from the city.
 
@@ -462,7 +461,7 @@ URN: `null`
 
 [27.5] No fewer than five thousand men had joined him on the march, and though they were wretchedly armed with such weapons as came to hand, their enthusiasm made up for their lack of equipment, so that when Dion gave the word they advanced on the run, exhorting one another with joyful shouts to win their liberty.
 
-### Capítulo 28
+#### Capítulo 28
 
 [28.1] As for the Syracusans in the city, the men of note and cultivation, in fresh apparel, went to meet them at the gates, while the multitude set upon the tyrant’s friends and seized those called tale-bearers, wicked men whom the gods hated, who went up and down in the city busily mingling with the Syracusans and reporting to the tyrant the sentiments and utterances of every one.
 
@@ -472,11 +471,11 @@ URN: `null`
 
 [28.4] A hundred of his mercenaries followed Dion as a body-guard, and his officers led the rest in good order, the Syracusans looking on and welcoming as it were a sacred religious procession for the return of liberty and democracy into the city, after an absence of forty-eight years.
 
-### Capítulo 29
+#### Capítulo 29
 
 [29.1] After Dion had entered the city by the Temenitid gate, he stopped the noise of the people by a blast of the trumpet, and made proclamation that Dion and Megacles, who were come to overthrow the tyranny, declared the Syracusans and the rest of the Sicilians free from the tyrant.
 
-[29.2] Then, wishing to harangue the people himself, he went up through the Achradina,An extension of the city, covering the eastern part of the plateau of Epipolae. while on either side of the street the Syracusans set out tables and sacrificial meats and mixing-bowls, and all, as he came to them, pelted him with flowers, and addressed him with vows and prayers as if he were a god.
+[29.2] Then, wishing to harangue the people himself, he went up through the Achradina,[^23] while on either side of the street the Syracusans set out tables and sacrificial meats and mixing-bowls, and all, as he came to them, pelted him with flowers, and addressed him with vows and prayers as if he were a god.
 
 [29.3] Now, there stood below the acropolis and the Pentapyla a tall and conspicuous sun-dial, which Dionysius had set up. Mounted upon this, Dion harangued the citizens and exhorted them to assert their liberty.
 
@@ -490,7 +489,7 @@ URN: `null`
 
 [29.8] These he distributed among the citizens as far as they would go, and all the rest equipped themselves as best they could and zealously offered their services as men-at-arms.
 
-### Capítulo 30
+#### Capítulo 30
 
 [30.1] At first, Dionysius sent envoys privately to Dion and tried to make terms with him; then, when Dion bade him confer publicly with the Syracusans, on the ground that they were a free people, the envoys brought generous propositions from the tyrant, who promised such moderate taxes and easy military service as the people themselves should agree to by vote.
 
@@ -516,11 +515,11 @@ URN: `null`
 
 [30.12] But as they gave ground, the Greeks pressed all the harder upon them, so that they turned their backs and were driven into the shelter of the citadel; they had slain seventy-four of Dion’s men, and had lost many of their own number.
 
-### Capítulo 31
+#### Capítulo 31
 
 [31.1] The victory was a brilliant one, and the Syracusans rewarded Dion’s mercenaries with a hundred minas, while the mercenaries honoured Dion with a wreath of gold.
 
-[31.2] And now heralds came down from Dionysius bringing letters to Dion from the women of his family. There was also one addressed outside, To his father, from Hipparinus;
+[31.2] And now heralds came down from Dionysius bringing letters to Dion from the women of his family. There was also one addressed outside, “To his father, from Hipparinus”;
 
 [31.3] for this was the name of Dion’s son. Timaeus, it is true, says he was called Aretaeus, from his mother Arete; but on this point at least, in my opinion, Timonides is rather to be trusted, who was a friend and fellow-soldier of Dion’s.
 
@@ -530,7 +529,7 @@ URN: `null`
 
 [31.6] For there were reminders of his zealous services in behalf of the tyranny, and threats against the persons of his dearest ones, his sister, children, and wife; there were also dire injunctions coupled with lamentations, and, what affected him most of all, a demand that he should not abolish, but assume, the tyranny; that he should not give liberty to men who hated him and would never forget their wrongs, but take the power himself, and thereby assure his friends and kindred of their safety.
 
-### Capítulo 32
+#### Capítulo 32
 
 [32.1] When all this had been read aloud, it did not occur to the Syracusans, as it should have done, to be astonished at the firmness and magnanimity of Dion, who was resisting in behalf of honour and justice such strong claims of relationship,
 
@@ -542,7 +541,7 @@ URN: `null`
 
 [32.5] At once, then, he sought to win the favour of the multitude, having a certain natural gift of persuading and moving a populace that seeks to be courted, and winning them over to his following all the more easily because they were repelled by the gravity of Dion. This they resented as severe and out of place in a public man, because their power had given them license and boldness, and they wished to be flattered by popular leaders before they were really a people.
 
-### Capítulo 33
+#### Capítulo 33
 
 [33.1] So, to begin with, they held an assembly of their own calling, and chose Heracleides admiral.
 
@@ -554,7 +553,7 @@ URN: `null`
 
 [33.5] For if he advised to let Dionysius leave the citadel under a truce, he would be charged with sparing and preserving him; and if, wishing to give no offence, he simply continued the siege, it would be said that he was protracting the war, in order that he might the longer be in command and overawe the citizens.
 
-### Capítulo 34
+#### Capítulo 34
 
 [34.1] Now, there was a certain Sosis, a man whose baseness and impudence gave him renown in Syracuse, where it was thought that abundance of liberty could only be shown by such license of speech as his.
 
@@ -574,7 +573,7 @@ URN: `null`
 
 [34.9] at once, then, they ran after them, and found no one, but saw a razor lying under a hollow rock in the quarter from which Sosis had been seen to come.
 
-### Capítulo 35
+#### Capítulo 35
 
 [35.1] Well, then, the case of Sosis was already desperate; but when, in addition to these proofs, his servants testified that while it was still night he had left the house alone and carrying the razor, Dion’s accusers withdrew, and the people, after condemning Sosis to death, were reconciled with Dion.
 
@@ -590,7 +589,7 @@ URN: `null`
 
 [35.7] And yet Philistus has stated explicitly that this was said to Dionysius by another, and not by himself.
 
-### Capítulo 36
+#### Capítulo 36
 
 [36.1] But Timaeus, finding a fair excuse for his animosity in the zeal and fidelity which Philistus showed in behalf of the tyranny, gluts himself with the slanders against him. Now, those who were wronged by Philistus while he lived may perhaps be pardoned for carrying their resentment to the length of maltreating his unconscious body;
 
@@ -600,7 +599,7 @@ URN: `null`
 
 [36.4] Verily, he who neither praises the conduct of Philistus, nor gloats insultingly over his misfortunes, takes the fittest course.
 
-### Capítulo 37
+#### Capítulo 37
 
 [37.1] After the death of Philistus, Dionysius sent to Dion offering to surrender to him the acropolis, his munitions of war, and his mercenaries, with five months’ full pay for these,
 
@@ -616,7 +615,7 @@ URN: `null`
 
 [37.7] So the people, attempting, as it were, to stand at once upon their feet after their long sickness of tyranny, and to act the part of independence out of season, stumbled in their undertakings, and yet hated Dion, who, like a physician, wished to subject the city to a strict and temperate regimen.
 
-### Capítulo 38
+#### Capítulo 38
 
 [38.1] As they met in assembly to assign new commands, the time being midsummer, extraordinary peals of thunder and evil portents from the heavens occurred for fifteen days together, and dispersed the people, whose superstitious fears prevented them from appointing other generals.
 
@@ -630,7 +629,7 @@ URN: `null`
 
 [38.6] Then the citizens, seeing that the mercenaries were few in number and did not offer to attack, despised them, and having become far more numerous than they, set upon them, thinking to overpower them easily before they got out of the city, amid slay them all.
 
-### Capítulo 39
+#### Capítulo 39
 
 [39.1] And now Dion, seeing that fortune compelled him either to fight against his fellow citizens or perish with his mercenaries, fervently besought the Syracusans, stretching out his hands to them, and pointing out to them the acropolis, which was full of enemies peering over the walls and watching what was going on below;
 
@@ -640,7 +639,7 @@ URN: `null`
 
 [39.4] They came upon him as he was crossing a river, and their horsemen rode up for a skirmish; but when they saw that he no longer bore with their faults in a mild and paternal spirit, but was angrily wheeling his mercenaries about and putting them in battle array, they broke into a more disgraceful flight than before, and retired into the city, with the loss of a few men.
 
-### Capítulo 40
+#### Capítulo 40
 
 [40.1] The Leontines received Dion with splendid honours, took his mercenaries into their service, and gave them civic rights; they also sent an embassy to the Syracusans with a demand that they should do the mercenaries justice.
 
@@ -648,7 +647,7 @@ URN: `null`
 
 [40.3] By this decision of their confederates, however, the Syracusans would not abide, being now insolent and full of pride because they were subject to no one, but had generals who were in slavish fear of the people.
 
-### Capítulo 41
+#### Capítulo 41
 
 [41.1] After this, there put in at the city triremes from Dionysius, under the command of Nypsius the Neapolitan, who brought food and money for the beleaguered garrison of the acropolis.
 
@@ -662,7 +661,7 @@ URN: `null`
 
 [41.6] For it was a sack of the city that was now going on, its men being slain, its walls torn down, and its women and children dragged shrieking to the acropolis, while its generals gave up all for lost and were unable to employ the citizens against the enemy, who were everywhere inextricably mingled with them.
 
-### Capítulo 42
+#### Capítulo 42
 
 [42.1] While the city was in this plight and the Achradina in imminent peril, all knew who was the only man left upon whom they could fasten their hopes, but no one spoke his name, because they were ashamed of their ingratitude and folly towards Dion.
 
@@ -680,23 +679,23 @@ URN: `null`
 
 [42.8] At once, then, Dion led his visitors to the place of assembly, the people eagerly gathered there, Archonides and Hellanicus with their companions came before them, reported to them briefly the great disaster, and called upon the mercenaries to put away their feelings of resentment and come to the aid of the Syracusans, since those who had wronged them had suffered a heavier punishment than those who had been wronged would have thought it right to exact.
 
-### Capítulo 43
+#### Capítulo 43
 
 [43.1] When the messengers had made an end of speaking, there was a profound silence in the theatre; then Dion rose and began to speak, but copious tears checked his utterance; his mercenaries, however, sympathized with him and bade him take heart.
 
-[43.2] Accordingly, after he had recovered a little from his grief, he said: Men of Peloponnesus and allies, I have brought you together here to deliberate upon your own course of action.
+[43.2] Accordingly, after he had recovered a little from his grief, he said: “Men of Peloponnesus and allies, I have brought you together here to deliberate upon your own course of action.”
 
-[43.3] As for me, it is not meet that I should consult my own interests now that Syracuse is perishing, but if I cannot save her, I shall return to seek a grave amid the blazing ruins of my native city.
+[43.3] “As for me, it is not meet that I should consult my own interests now that Syracuse is perishing, but if I cannot save her, I shall return to seek a grave amid the blazing ruins of my native city.”
 
-[43.4] But you, if you are willing even now, after all that has passed, to come to our help, who are the most foolish and the most unfortunate of men, pray restore the city of Syracuse and the work of your own hands.Syracuse was colonized from Corinth, in Peloponnesus.
+[43.4] “But you, if you are willing even now, after all that has passed, to come to our help, who are the most foolish and the most unfortunate of men, pray restore the city of Syracuse and the work of your own hands.[^24]”
 
-[43.5] If, however, in your displeasure at the Syracusans, you shall leave them to their fate, at least for your former bravery and zeal in my behalf may you obtain a worthy reward from the gods, and may you think of Dion as one who abandoned neither you when you were wronged, nor, afterwards, his fellow citizens when they were in distress.
+[43.5] “If, however, in your displeasure at the Syracusans, you shall leave them to their fate, at least for your former bravery and zeal in my behalf may you obtain a worthy reward from the gods, and may you think of Dion as one who abandoned neither you when you were wronged, nor, afterwards, his fellow citizens when they were in distress.”
 
 [43.6] While he was still speaking, the mercenaries sprang to their feet with shouts and bade him lead them speedily to the city’s relief, while the Syracusan envoys embraced them passionately, invoking many blessings from the gods upon Dion, and many upon his mercenaries.
 
 [43.7] And when the tumult was allayed, Dion ordered his men to go to their quarters and make themselves ready, and, after taking supper, to come with their arms to that very place, for he was determined to go to the rescue by night.
 
-### Capítulo 44
+#### Capítulo 44
 
 [44.1] But the soldiers of Dionysius at Syracuse, as long as it was day, did much mischief to the city; when night came, however, they retired to the acropolis, having lost some few of their number.
 
@@ -716,7 +715,7 @@ URN: `null`
 
 [44.9] As the Syracusans fled, some were overtaken and slain in the streets, and those who sought cover in their houses were driven out again by the fire, many buildings being now a-blaze and falling upon those who were running about.
 
-### Capítulo 45
+#### Capítulo 45
 
 [45.1] Owing to this disaster more than to any thing else, the city was thrown open to Dion by unanimous consent. For he was no longer marching in haste, since he had heard that the enemy had shut themselves up in the acropolis.
 
@@ -730,7 +729,7 @@ URN: `null`
 
 [45.6] and at once sent his light-armed troops to charge upon the enemy, in order that the Syracusans might take courage at the sight he also marshalled his men-at-arms in person, together with those of the citizens who kept running up and forming with them, dividing his commands and forming companies in column, that he might make a more formidable attack from many points at once.
 
-### Capítulo 46
+#### Capítulo 46
 
 [46.1] When he had made these preparations and had prayed to the gods, and was seen leading his forces through the city against the enemy, shouts of joy and loud battle-cries mingled with prayers and supplications were raised by the Syracusans, who called Dion their saviour and god, and his mercenaries their brethren and fellow citizens.
 
@@ -746,7 +745,7 @@ URN: `null`
 
 [46.7] No immediate enjoyment of their victory, however, and none of the glad congratulations befitting so great an achievement were possible for the Syracusans in that emergency; they turned their attention to their burning houses, and only by toiling all night did they succeed in putting out the fire.
 
-### Capítulo 47
+#### Capítulo 47
 
 [47.1] When it was day, not one of the other popular leaders would remain in the city, but passed judgement on themselves by taking to flight; Heracleides and Theodotes, however, came of their own accord and surrendered themselves to Dion, acknowledging that they had done wrong, and begging him to treat them better than they had treated him;
 
@@ -762,11 +761,11 @@ URN: `null`
 
 [47.7] whereas successes in war, even though they had to be shared with no man, must at least be shared with fortune.
 
-[47.8] Moreover, if envy led Heracleides [8] to be faithless and base, surely anger must not drive Dion to sully his virtue; for although taking vengeance for a wrong was in the eyes of the law more just than the doing of the wrong unprovoked, by nature it sprang from one and the same weakness.
+[47.8] Moreover, if envy led Heracleides to be faithless and base, surely anger must not drive Dion to sully his virtue; for although taking vengeance for a wrong was in the eyes of the law more just than the doing of the wrong unprovoked, by nature it sprang from one and the same weakness.
 
 [47.9] Furthermore, baseness in a man, even though it be a grievous thing, was not so altogether savage and obstinate that it could not be conquered by frequent benefactions and altered by a sense of gratitude.
 
-### Capítulo 48
+#### Capítulo 48
 
 [48.1] After using such arguments as these, Dion set Heracleides and Theodotes free.
 
@@ -786,7 +785,7 @@ URN: `null`
 
 [48.9] so that Dion was altogether at a loss what to do, and was blamed by his friends for having strengthened against himself a man so perverse and so corrupted by envy and baseness as Heracleides was.
 
-### Capítulo 49
+#### Capítulo 49
 
 [49.1] Now, Pharax was encamped at Neapolis, in the territory of Agrigentum, and thither Dion led forth the Syracusans. Dion wished to settle the issue between them at a later opportunity, but Heracleides and his sailors kept crying out against him, saying that his wish was not to decide the war by a battle, but to have it last forever, that he might remain in power.
 
@@ -796,13 +795,13 @@ URN: `null`
 
 [49.4] Immediately, therefore, he took with him his most influential and zealous supporters and rode all night, and about nine o’clock next day was at the gates of the city, having covered seven hundred furlongs.
 
-[49.5] But Heracleides, who, in spite of all his efforts, arrived too late with his ships, put out to sea again, and being without definite plans, fell in with Gaesylus the Spartan, who insisted that he was sailing from Sparta to take command of the Sicilians, as Gylippus had formerly done.See the Nicias, chapters xix. ff.
+[49.5] But Heracleides, who, in spite of all his efforts, arrived too late with his ships, put out to sea again, and being without definite plans, fell in with Gaesylus the Spartan, who insisted that he was sailing from Sparta to take command of the Sicilians, as Gylippus had formerly done.[^25]
 
 [49.6] Heracleides, accordingly, gladly took up this man, attached him to himself like an amulet, as it were against the influence of Dion, and showed him to his confederates; then, secretly sending a herald to Syracuse, he ordered the citizens to receive their Spartan commander.
 
 [49.7] Dion, however, made answer that the Syracusans had commanders enough, and that if their situation absolutely required a Spartan also, he himself was the man, since he had been made a citizen of Sparta. Thereupon Gaesylus gave up his pretensions to the command, and sailing to Dion, effected a reconciliation between him and Heracleides, who took oaths and made the most solemn pledges, in support of which Gaesylus himself swore that he would avenge Dion and punish Heracleides if he worked any more mischief.
 
-### Capítulo 50
+#### Capítulo 50
 
 [50.1] After this the Syracusans discharged their fleet, since it was of no use, while it involved great outlays for the crews, and caused dissension among their commanders; they also laid siege to the citadel after they had finished building the wall that enclosed it.
 
@@ -812,19 +811,19 @@ URN: `null`
 
 [50.4] For since, among the illustrations men give of the mutations of fortune, the expulsion of Dionysius is still to this day the strongest and plainest, what joy must we suppose those men themselves then felt, and how great a pride, who, with the fewest resources, over-threw the greatest tyranny that ever was!
 
-### Capítulo 51
+#### Capítulo 51
 
 [51.1] After Apollocrates had sailed away, and when Dion was on his way to the acropolis, the women could not restrain themselves nor await his entrance, but ran out to the gates, Aristomache leading Dion’s son, while Arete followed after them in tears, and at a loss how to greet and address her husband now that she had lived with another man.
 
-[51.2] After Dion had greeted his sister first, and then his little son, Aristomache led Arete to him, and said: We were unhappy, Dion, while thou wast in exile;
+[51.2] After Dion had greeted his sister first, and then his little son, Aristomache led Arete to him, and said: “We were unhappy, Dion, while thou wast in exile;”
 
-[51.3] but now that thou art come and art victorious, thou hast taken away our sorrow from all of us, except from this woman alone, whom I was so unfortunate as to see forced to wed another while thou wast still alive.
+[51.3] “but now that thou art come and art victorious, thou hast taken away our sorrow from all of us, except from this woman alone, whom I was so unfortunate as to see forced to wed another while thou wast still alive.”
 
-[51.4] Since, then, fortune has made thee our lord and master, how wilt thou judge of the compulsion laid upon her? Is it as her uncle or as her husband that she is to greet thee?
+[51.4] “Since, then, fortune has made thee our lord and master, how wilt thou judge of the compulsion laid upon her? Is it as her uncle or as her husband that she is to greet thee?”
 
 [51.5] So spake Aristomache, and Dion, bursting into tears, embraced his wife fondly, gave her his son, and bade her go to his own house and there he himself also dwelt, after he had put the citadel in charge of the Syracusans.
 
-### Capítulo 52
+#### Capítulo 52
 
 [52.1] And now that his enterprise had been so successful, he thought it not right to enjoy his present good fortune before distributing thanks to his friends, rewards to his allies, and particularly to his Athenian associates and to his mercenaries some mark of kindness and honour, his generosity leading him beyond his resources.
 
@@ -832,13 +831,13 @@ URN: `null`
 
 [52.3] he was nevertheless so modest in his dress, his attendance, and his table, just as though he were messing with Plato in the Academy, and not living among captains of mercenaries and paid soldiers, who find in their daily feastings, and other enjoyments, a solace for their toils and perils.
 
-[52.4] Plato, indeed, wrote to him Epist. iv. p. 320: ὥστε τοὺς ἐξ ἁπάσης τῆς οἰκουμένης εἰς ἕνα τόπον ἀποβλέπειν, καὶ ἐν μάλιστα πρὸς σέ, that the eyes of all the world were now fixed upon him alone, but Dion himself, as it would seem, kept his eyes fixed upon one spot in one city, namely, the Academy, and considered that his spectators and judges there admired neither great exploits nor boldness nor victories, but watched to see only whether he made a discreet and decorous use of his good fortune, and showed himself modest in his high estate.
+[52.4] Plato, indeed, wrote to him[^26] that the eyes of all the world were now fixed upon him alone, but Dion himself, as it would seem, kept his eyes fixed upon one spot in one city, namely, the Academy, and considered that his spectators and judges there admired neither great exploits nor boldness nor victories, but watched to see only whether he made a discreet and decorous use of his good fortune, and showed himself modest in his high estate.
 
-[52.5] Nevertheless, he made it a point not to remit or relax at all the gravity of his manners or his haughtiness in dealing with the people, although his situation called for a gracious demeanour, and although Plato, as I have said,In chapter viii. 3. wrote and warned him that self-will was a companion of solitude.
+[52.5] Nevertheless, he made it a point not to remit or relax at all the gravity of his manners or his haughtiness in dealing with the people, although his situation called for a gracious demeanour, and although Plato, as I have said,[^27] wrote and warned him that self-will was “a companion of solitude.”
 
 [52.6] But he seems to have been of a temper naturally averse to graciousness, and, besides, he was ambitious to curb the Syracusans, who were given to excessive license and luxury.
 
-### Capítulo 53
+#### Capítulo 53
 
 [53.1] For Heracleides once more set himself in opposition to him. To begin with, when he was invited by Dion to attend the council, he refused to come, saying that as a man in private station he would meet in assembly with the other citizens.
 
@@ -846,15 +845,15 @@ URN: `null`
 
 [53.3] And in fact Dion did send for assistance to the Corinthians, hoping the more easily to establish the civil polity which he had in mind if they were at his side.
 
-[53.4] And he had it in mind to put a curb upon unmixed democracy in Syracuse, regarding it as not a civil polity, but rather, in the words of Plato, Republic, viii. p. 557 d. a bazaar of polities; also to establish and set in order a mixture of democracy and royalty, somewhat after the Spartan and Cretan fashion, wherein an aristocracy should preside, and administer the most important affairs; for he saw that the Corinthians had a polity which leaned towards oligarchy, and that they transacted little public business in their assembly of the people.
+[53.4] And he had it in mind to put a curb upon unmixed democracy in Syracuse, regarding it as not a civil polity, but rather, in the words of Plato,[^28] a “bazaar of polities”; also to establish and set in order a mixture of democracy and royalty, somewhat after the Spartan and Cretan fashion, wherein an aristocracy should preside, and administer the most important affairs; for he saw that the Corinthians had a polity which leaned towards oligarchy, and that they transacted little public business in their assembly of the people.
 
 [53.5] Accordingly, since he expected that these measures would find their chief opponent in Heracleides, and since the man was in every way turbulent, fickle, and seditious, he now yielded to those who had long wished to kill him, but whom he had hitherto restrained; so they made their way into the house of Heracleides and slew him.
 
 [53.6] His death was keenly resented by the Syracusans; but nevertheless, when Dion gave him a splendid funeral, followed the body to its grave with his army, and then discoursed to them upon the matter, they came to see that it was impossible for the city to be free from tumults while Heracleides and Dion together conducted its affairs.
 
-### Capítulo 54
+#### Capítulo 54
 
-[54.1] Now, there was a certain comrade of Dion’s named Callippus, an Athenian, who, as Plato says, Epist. vi. p. 333. had become intimately acquainted with him, not as a fellow pupil in philosophy, but in consequence of initiation into the mysteries and the recurrent comradeship which this brought. He took part in Dion’s expedition and was held in honour by him, so that he even entered Syracuse with him at the head of all his comrades, with a garland on his head, after winning glorious distinction in battle.
+[54.1] Now, there was a certain comrade of Dion’s named Callippus, an Athenian, who, as Plato says,[^29] had become intimately acquainted with him, not as a fellow pupil in philosophy, but in consequence of initiation into the mysteries and the recurrent comradeship which this brought. He took part in Dion’s expedition and was held in honour by him, so that he even entered Syracuse with him at the head of all his comrades, with a garland on his head, after winning glorious distinction in battle.
 
 [54.2] But now that the chief and noblest friends of Dion had been consumed away by the war, and Heracleides was dead, he saw that the people of Syracuse were without a leader, and that he himself was very much in favour with Dion’s soldiers.
 
@@ -864,7 +863,7 @@ URN: `null`
 
 [54.5] By this means Callippus succeeded in quickly discovering and banding together the evil-minded and discontented citizens, and, whenever any one who had repulsed his overtures told Dion about them, Dion was not disturbed nor vexed, but assumed that Callippus was merely carrying out his injunctions.
 
-### Capítulo 55
+#### Capítulo 55
 
 [55.1] As the plot was ripening, Dion saw an apparition of great size and portentous aspect. He was sitting late in the day in the vestibule of his house, alone and lost in thought,
 
@@ -874,7 +873,7 @@ URN: `null`
 
 [55.4] This, indeed, did not occur a second time. But a few days afterwards his son, who was hardly a boy any more, in a fit of angry displeasure caused by some trivial and childish grievance, threw himself headlong from the roof and was killed.
 
-### Capítulo 56
+#### Capítulo 56
 
 [56.1] While Dion was thus heavily afflicted, Callippus was all the more intent upon his plot, and spread a report among the Syracusans that Dion, being now childless, had made up his mind to send for Apollocrates, the son of Dionysius, and make him his successor, since he was his wife’s nephew and his sister’s grandson.
 
@@ -886,9 +885,9 @@ URN: `null`
 
 [56.5] This was done in the following manner. The one who gives this pledge goes down into the sanctuary of Demeter and Persephone, where, after certain sacred rites have been performed, he puts on the purple vestment of the goddess, takes a blazing torch in his hand, and recites the oath.
 
-[56.6] All this Callippus did, and recited the oath; but he made such a mockery of the rods as to wait for the festival of the goddess by whom he had sworn, the Coreia, and then to do the murder.353 B.C. And yet it is possible that he took no account of the day, since he knew that the goddess would have been utterly outraged even if at another time her mystic were slain by his mystagogue.Implying that Callippus had himself initiated Dion into the mysteries of Demeter.
+[56.6] All this Callippus did, and recited the oath; but he made such a mockery of the rods as to wait for the festival of the goddess by whom he had sworn, the Coreia, and then to do the murder.[^30] And yet it is possible that he took no account of the day, since he knew that the goddess would have been utterly outraged even if at another time her mystic were slain by his mystagogue.[^31]
 
-### Capítulo 57
+#### Capítulo 57
 
 [57.1] Many had conspired to do the deed, and as Dion was sitting with his friends in an apartment containing couches for entertainment, some of the conspirators invested the house outside, while others stood at the doors and windows of the apartment.
 
@@ -900,7 +899,7 @@ URN: `null`
 
 [57.5] At once, too, they cast his sister into prison, together with his wife, who was big with child. His wife had a most wretched confinement, and gave birth in the prison to a male child, which the women ventured to rear, with the consent of their guards, and all the more because Callippus was already involved in great trouble.
 
-### Capítulo 58
+#### Capítulo 58
 
 [58.1] At the outset, indeed, after he had killed Dion, Callippus was a glorious personage, and had Syracuse in his power. He actually wrote letter to the city of Athens, which, next to the gods, he ought to have held in awe and fear after setting his hands to so great a pollution.
 
@@ -908,7 +907,7 @@ URN: `null`
 
 [58.3] However, Callippus did not long remain a scandal to fortune and the gods, as though they had no eyes for a man who won leadership and power by so great impiety, but speedily paid a fitting penalty.
 
-[58.4] For on setting out to take Catana, he at once lost Syracuse; at which time, as they say, he remarked that he had lost a city and got a cheese-grater.Apparently the meaning in Sicilian Greek, of the word Catana. Callippus maintained himself in Syracuse only thirteen months.
+[58.4] For on setting out to take Catana, he at once lost Syracuse; at which time, as they say, he remarked that he had lost a city and got a cheese-grater.[^32]
 
 [58.5] Then he attacked Messana and lost most of his soldiers, among whom were the murderers of Dion; and since no city in Sicily would receive him, but all hated and spurned him, he took possession of Rhegium.
 
@@ -920,8 +919,38 @@ URN: `null`
 
 [58.9] Afterwards, having been persuaded by the enemies of Dion, he got a ship ready for them, pretending that they were to be sent into Peloponnesus, and ordered the sailors, during the voyage, to cut their throats and cast them into the sea. Others, however, say that they were thrown overboard alive, and the little boy with them.
 
-[58.10] But Hicetas also met with a punishment worthy of his crimes. For he himself was captured by Timoleon and put to death, and the Syracusans, to avenge Dion, slew his two daughters also; of which things I have written at length in my Life of Timoleon.Chapters xxxii. and xxxiii.
+[58.10] But Hicetas also met with a punishment worthy of his crimes. For he himself was captured by Timoleon and put to death, and the Syracusans, to avenge Dion, slew his two daughters also; of which things I have written at length in my Life of Timoleon.[^33]
 
----
-
-*Ὁ Διαφορεύς παρῆν*
+[^1]: One of the many friends whom Plutarch made during his residence at Rome. See on Theseus, i. 1.
+[^2]: Fragment 50; Bergk, Poet. Lyr. Graeci, iii. 4 p. 412.
+[^3]: The Pericles was part of the tenth book (chapter ii. 3), the Demosthenes part of the fifth (chapter iii. 1). The ordinary arrangement of the Lives purely arbitrary.
+[^4]: In 405 B.C.
+[^5]: About 388 B.C., if this first visit is not a myth.
+[^6]: Epist. vii. p. 327.
+[^7]: Gelon had been tyrant of Syracuse 485-478 B.C.
+[^8]: Cf. chapter iii. 3.
+[^9]: In 367 B.C.
+[^10]: Epist. iv. ad fin.
+[^11]: Cf. the Coriolanus, xv. 4.
+[^12]: Epist. vii. p. 328.
+[^13]: Soon after 368 B.C.
+[^14]: Geometrical figures were traced in loose sand strewn upon the floor.
+[^15]: The upper city, as distinguished from the Piraeus.
+[^16]: Odyssey, xii. 428, with slight adaptation from the first person.
+[^17]: Epist. vii. p. 349 f.
+[^18]: For the first time; cf. chapter xvi. 3.
+[^19]: Cf. Epist. xiii. p. 362 ad fin.
+[^20]: 357 B.C.
+[^21]: Winds blowing steadily from the North during the summer.
+[^22]: The plateau west of the city of Syracuse. See the note on Nicias, xvii. 1.
+[^23]: An extension of the city, covering the eastern part of the plateau of Epipolae.
+[^24]: Syracuse was colonized from Corinth, in Peloponnesus.
+[^25]: See the Nicias, chapters xix. ff.
+[^26]: Epist. iv. p. 320: ὥστε τοὺς ἐξ ἁπάσης τῆς οἰκουμένης εἰς ἕνα τόπον ἀποβλέπειν, καὶ ἐν μάλιστα πρὸς σέ,
+[^27]: In chapter viii. 3.
+[^28]: Republic, viii. p. 557 d.
+[^29]: Epist. vi. p. 333.
+[^30]: 353 B.C.
+[^31]: Implying that Callippus had himself initiated Dion into the mysteries of Demeter.
+[^32]: Apparently the meaning in Sicilian Greek, of the word Catana. Callippus maintained himself in Syracuse only thirteen months.
+[^33]: Chapters xxxii. andxxxiii.

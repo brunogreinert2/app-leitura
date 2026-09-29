@@ -1,36 +1,28 @@
 ---
 id: plutarco-comparison-of-lycurgus-and-numa-eng-bernadotte-perrin-1914
-type: texto_primario
-title: "Comparison of Lycurgus and Numa"
-subtitle: null
+type: translation
+title: Comparison of Lycurgus and Numa
 author: Plutarch
-year_original: null
-language: eng
-translation:
-  - Bernadotte Perrin
+translator:
+- Bernadotte Perrin
 publisher: Harvard University Press
-area: null
-era: null
-tags: []
-status: rascunho
+language: eng
+tags:
+- moralists
+status: draft
 project: pedra_angular
-source: "Plutarch. Comparison of Lycurgus and Numa. Ed. Bernadotte Perrin. Cambridge, MA: Harvard University Press, 1914. Perseus Digital Library, Tufts University (CC BY-SA 4.0). URN: null"
-related: []
+urn_work: urn:cts:greekLit:tlg0007.tlg006
+urn: urn:cts:greekLit:tlg0007.tlg006.perseus-eng2
+source: 'Plutarch. Comparison of Lycurgus and Numa. Ed. Bernadotte Perrin. Cambridge, MA: Harvard University Press, 1914. Perseus Digital Library, Tufts University (CC BY-SA 4.0).'
+source_repo: PerseusDL/canonical-greekLit
+source_file: data/tlg0007/tlg006/tlg0007.tlg006.perseus-eng2.xml
+source_commit: e37eed2e8
+license: CC-BY-SA-4.0
 ---
 
 # Comparison of Lycurgus and Numa
 
-**Plutarch**
-
-Cambridge, MA: Harvard University Press, 1914.
-Perseus Digital Library, Tufts University (CC BY-SA 4.0).
-URN: `null`
-
----
-
-## Texto
-
-### Capítulo 1
+#### Capítulo 1
 
 [1.1] Now that we have recounted the lives of Numa and Lycurgus, and both lie clearly before us, we must attempt, even though the task be difficult, to assemble and put together their points of difference. For their points of likeness are obvious from their careers: their wise moderation, their piety, their talent for governing and educating, and their both deriving their laws from a divine source. But each also performed noble deeds peculiar to himself. To begin with, Numa accepted, but Lycurgus resigned, a kingdom.
 
@@ -42,9 +34,9 @@ URN: `null`
 
 Numa’s muse, however, was gentle and humane, and he converted his people to peace and righteousness, and softened their violent and fiery tempers. And if we must ascribe to the administration of Lycurgus the treatment of the Helots,
 
-[1.5] a most savage and lawless practice, we shall own that Numa was far more Hellenic as a lawgiver, since he gave acknowledged slaves a taste of the dignity of freedom, by making it the custom for them to feast in the company of their masters during the SaturnaliaA mid-winter harvest festival in honour of Saturnus. For this too was one of the institutions of Numa, as we are told, who thereby admitted to the enjoyment of the yearly fruits of the earth those who had helped to produce them. Some, however, fancy that this custom was a reminder of the equality which characterized the famous Saturnian age, when there was neither slave nor master, but all were regarded as kinsmen and equals.
+[1.5] a most savage and lawless practice, we shall own that Numa was far more Hellenic as a lawgiver, since he gave acknowledged slaves a taste of the dignity of freedom, by making it the custom for them to feast in the company of their masters during the Saturnalia[^1] For this too was one of the institutions of Numa, as we are told, who thereby admitted to the enjoyment of the yearly fruits of the earth those who had helped to produce them. Some, however, fancy that this custom was a reminder of the equality which characterized the famous Saturnian age, when there was neither slave nor master, but all were regarded as kinsmen and equals.
 
-### Capítulo 2
+#### Capítulo 2
 
 [2.1] In general, both alike manifestly strove to lead their peoples to independence and sobriety; but as regards the other virtues, the one set his affections more on bravery, the other on righteousness; unless, indeed, the different natures or usages on which the government of each was based required different provisions.
 
@@ -58,23 +50,34 @@ Numa’s muse, however, was gentle and humane, and he converted his people to pe
 
 [2.6] But as regards the redistribution of the land, Lycurgus, in my opinion, is not to be censured for making it, nor Numa for not making it. In the one case, the resulting equality was the foundation and base of his polity; but in the other, since the allotment of lands was recent, there was no urgent reason for introducing another division, or for disturbing the first assignment, which probably was still in force.
 
-### Capítulo 3
+#### Capítulo 3
 
 [3.1] With regard to community in marriage and parentage, though both, by a sound policy, inculcated in husbands a freedom from selfish jealousy, still, their methods were not entirely alike. The Roman husband, if he had a sufficient number of children to rear, and another, who lacked children, could persuade him to the step, relinquished his wife to him, having the power of surrendering her entirely, or only for a season; but the Spartan, while his wife remained in his house, and the marriage retained its original rights and obligations, might allow any one who gained his consent to share his wife for the purpose of getting children by her.
 
-[3.2] And many husbands, as we have said, Lycurgus, xv. 7. would actually invite into their homes men whom they thought most likely to procure them handsome and noble children. What, then, is the difference between the two customs? We may say, perhaps, that the Spartan implies a complete indifference to the wife, and to the jealous emotions which confound and consume the hearts of most men; while the Roman, as if with shame-faced modesty, makes a veil of the new betrothal, and concedes that community of wives is really insupportable.
+[3.2] And many husbands, as we have said,[^2] would actually invite into their homes men whom they thought most likely to procure them handsome and noble children. What, then, is the difference between the two customs? We may say, perhaps, that the Spartan implies a complete indifference to the wife, and to the jealous emotions which confound and consume the hearts of most men; while the Roman, as if with shame-faced modesty, makes a veil of the new betrothal, and concedes that community of wives is really insupportable.
 
-[3.3] Still further, Numa’s watchful care of young maidens was more conducive to feminine decorum; but the treatment of them by Lycurgus, being entirely unconfined and unfeminine, has given occasion to the poets. They call them phainomerides, bare-thighed (so Ibycus), and revile them as mad after men. Thus Euripides says Andromache, 587f. (Kirchhoff), slightly adapted.:— They leave their homes to mingle with the youths; Their thighs are naked, flying free their robes.
+[3.3] Still further, Numa’s watchful care of young maidens was more conducive to feminine decorum; but the treatment of them by Lycurgus, being entirely unconfined and unfeminine, has given occasion to the poets. They call them “phainomerides,” bare-thighed (so Ibycus), and revile them as mad after men. Thus Euripides says[^3]:—
 
-[3.4] For in fact the flaps of the tunic worn by their maidens were not sewn together below the waist, but would fly back and lay bare the whole thigh as they walked. Sophocles pictures the thing very clearly in these wordsFragment 788 (Nauck).:— And that young maid, whose tunic, still unsewn, Lays bare her gleaming thigh Between its folds, Hermione.
+```verso
+They leave their homes to mingle with the youths;
+Their thighs are naked, flying free their robes.
+```
 
-[3.5] And so their women, it is said, were too bold, putting on men’s airs with their husbands even, to begin with, since they ruled their houses absolutely, and besides, on public occasions, taking part in debate and the freest speech on the most important subjects. But Numa, while carefully preserving to the matrons that dignified and honourable relation to their husbands which was bestowed on them by Romulus,Cf. Romulus, xix. 6. when he tried by kindly usage to efface the memory of the violence done them, nevertheless enjoined great modesty upon them, forbade them all busy intermeddling, taught them sobriety, and accustomed them to be silent; wine they were to refrain from entirely, and were not to speak, even on the most necessary topics, unless their husbands were with them.
+[3.4] For in fact the flaps of the tunic worn by their maidens were not sewn together below the waist, but would fly back and lay bare the whole thigh as they walked. Sophocles pictures the thing very clearly in these words[^4]:—
+
+```verso
+And that young maid, whose tunic, still unsewn,
+Lays bare her gleaming thigh
+Between its folds, Hermione.
+```
+
+[3.5] And so their women, it is said, were too bold, putting on men’s airs with their husbands even, to begin with, since they ruled their houses absolutely, and besides, on public occasions, taking part in debate and the freest speech on the most important subjects. But Numa, while carefully preserving to the matrons that dignified and honourable relation to their husbands which was bestowed on them by Romulus,[^5] when he tried by kindly usage to efface the memory of the violence done them, nevertheless enjoined great modesty upon them, forbade them all busy intermeddling, taught them sobriety, and accustomed them to be silent; wine they were to refrain from entirely, and were not to speak, even on the most necessary topics, unless their husbands were with them.
 
 [3.6] At any rate, it is said that when a woman once pleaded her own cause in the forum, the senate sent to inquire of an oracle what the event might portend for the city. And for their usual gentleness and readiness to obey, there is strong evidence in the specific mention made of those who were less amenable. For just as our Greek historians record the names of those who first slew kinsfolk, or made war on their brothers, or were parricides, or matricides,
 
 [3.7] so the Romans make record of the fact that Spurius Carvilius was the first to divorce his wife, two hundred and thirty years after the founding of Rome, there being no precedent for it; also that the wife of Pinarius, Thalaea by name, was the first woman to quarrel with her own mother-in-law, Gegania, in the reign of Tarquinius Superbus. In such fitting and proper manner were marriages regulated by their lawgiver.
 
-### Capítulo 4
+#### Capítulo 4
 
 [4.1] Further, the practice of the two peoples in the matter of giving their young maids in marriage conforms to their education of them in general. Lycurgus made them brides only when they were fully ripe and eager for it, in order that intercourse with a husband, coming at a time when nature craved it, might produce a kindly love, instead of the timorous hate that follows unnatural compulsion; also that their bodies might be vigorous enough to endure the strain of conception and child-birth, convinced as he was that marriage had no other end than the production of children. The Romans, on the other hand, gave their maidens in marriage when they were twelve years old, or even younger. In this way more than any other, it was thought, both their bodies and their dispositions would be pure and undefiled when their husbands took control of them.
 
@@ -88,12 +91,15 @@ But surely, by his careful attention to boys, by their collection into companies
 
 [4.5] This, indeed, was what helped Lycurgus to secure, among other things, the stability and permanence of his laws. The Spartans took oaths to maintain these laws, it is true, but this would have availed little had he not, by means of his training and education of the boys, infused his laws, as it were, into their characters, and made the emulous love of his government an integral part of their rearing. The result was that for more than five hundred years the sovereign and fundamental features of his legislation remained in force, like a strong and penetrating dye.
 
-[4.6] But that which was the end and aim of Numa’s government, namely, the continuance of peace and friendship between Rome and other nations, straightway vanished from the earth with him. After his death the double doors of the templeCf. Numa, xx. 1. which he had kept continuously closed, as if he really had war caged and confined there, were thrown wide open, and Italy was filled with the blood of the slain. Thus not even for a little time did the beautiful edifice of justice which he had reared remain standing, because it lacked the cement of education.
+[4.6] But that which was the end and aim of Numa’s government, namely, the continuance of peace and friendship between Rome and other nations, straightway vanished from the earth with him. After his death the double doors of the temple[^6] which he had kept continuously closed, as if he really had war caged and confined there, were thrown wide open, and Italy was filled with the blood of the slain. Thus not even for a little time did the beautiful edifice of justice which he had reared remain standing, because it lacked the cement of education.
 
-[4.7] What, then! some one will say, was not Rome advanced and bettered by her wars? That is a question which will need a long answer, if I am to satisfy men who hold that betterment consists in wealth, luxury and empire, rather than in safety, gentleness, and that independence which is attended by righteousness. However, it will be thought, I suppose, to favour the superior claims of Lycurgus, that, whereas the Romans increased in power as they did after abandoning the institutions of Numa’s time,
+[4.7] “What, then!” some one will say, “was not Rome advanced and bettered by her wars?” That is a question which will need a long answer, if I am to satisfy men who hold that betterment consists in wealth, luxury and empire, rather than in safety, gentleness, and that independence which is attended by righteousness. However, it will be thought, I suppose, to favour the superior claims of Lycurgus, that, whereas the Romans increased in power as they did after abandoning the institutions of Numa’s time,
 
 [4.8] the Lacedaemonians, on the other hand, just as soon as they forsook the precepts of Lycurgus, sank from the highest to the lowest place, lost their supremacy over the Greeks, and were in danger of utter destruction. Nevertheless, this remains a great feature in Numa’s career, and one really divine, that he was a stranger, and yet was summoned to the throne, where he changed the whole nature of the state by force of persuasion alone, and mastered a city which was not yet in sympathy with his views; and that he accomplished this without appeal to arms or any violence (unlike Lycurgus, who led the nobles in arms against the commons), but by his wisdom and justice won the hearts of all the citizens and brought them into harmony.
 
----
-
-*Ὁ Διαφορεύς παρῆν*
+[^1]: A mid-winter harvest festival in honour of Saturnus.
+[^2]: Lycurgus, xv. 7.
+[^3]: Andromache, 587f. (Kirchhoff), slightly adapted.
+[^4]: Fragment 788 (Nauck).
+[^5]: Cf. Romulus, xix. 6.
+[^6]: Cf. Numa, xx. 1.

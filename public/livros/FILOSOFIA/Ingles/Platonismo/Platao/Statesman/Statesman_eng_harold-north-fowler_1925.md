@@ -1,46 +1,39 @@
 ---
 id: platao-statesman-eng-harold-north-fowler-1925
-type: texto_primario
-title: "Statesman"
-subtitle: null
+type: translation
+title: Statesman
 author: Plato
-year_original: null
-language: eng
-translation:
-  - Harold North Fowler
+translator:
+- Harold North Fowler
 publisher: Harvard University Press
-area: null
-era: null
-tags: []
-status: rascunho
+language: eng
+tags:
+- classical-philosophy
+- platonism
+status: draft
 project: pedra_angular
-source: "Plato. Statesman. Ed. Harold North Fowler. Cambridge, MA: Harvard University Press, 1925. Perseus Digital Library, Tufts University (CC BY-SA 4.0). URN: null"
-related: []
+urn_work: urn:cts:greekLit:tlg0059.tlg008
+urn: urn:cts:greekLit:tlg0059.tlg008.perseus-eng2
+source: 'Plato. Statesman. Ed. Harold North Fowler. Cambridge, MA: Harvard University Press, 1925. Perseus Digital Library, Tufts University (CC BY-SA 4.0).'
+source_repo: PerseusDL/canonical-greekLit
+source_file: data/tlg0059/tlg008/tlg0059.tlg008.perseus-eng2.xml
+source_commit: e37eed2e8
+license: CC-BY-SA-4.0
 ---
 
 # Statesman
 
-**Plato**
-
-Cambridge, MA: Harvard University Press, 1925.
-Perseus Digital Library, Tufts University (CC BY-SA 4.0).
-URN: `null`
-
----
-
-## Texto
-
-[257] Soc. Really I am greatly indebted to you, Theodorus, for my acquaintance with Theaetetus and with the Stranger, too.
+[257a] Soc. Really I am greatly indebted to you, Theodorus, for my acquaintance with Theaetetus and with the Stranger, too.
 
 Theo. Presently, Socrates, you will be three times as much indebted, when they have worked out the statesman and the philosopher for you.
 
 Soc. Indeed! My dear Theodorus, can I believe my ears? Were those really the words of the great calculator and geometrician?
 
-Theo. Why, what do you mean, Socrates?
+[257b] Theo. Why, what do you mean, Socrates?
 
 Soc. When you rated sophist, statesman, and philosopher at the same value, though they are farther apart in worth than your mathematical proportion can express.
 
-Theo. By Ammon, our special divinity, Theodorus was from Cyrene, not far from the oasis of Ammon. that is a good hit, Socrates; evidently you haven’t forgotten your mathematics, and you are quite right in, finding fault with my bad arithmetic. I will get even with you at some other time; but now, Stranger, I turn to you. Do not grow tired of being kind to us, but go on and tell us about the statesman or the philosopher, [257c] whichever you prefer to take first.
+Theo. By Ammon, our special divinity, [^1] that is a good hit, Socrates; evidently you haven’t forgotten your mathematics, and you are quite right in, finding fault with my bad arithmetic. I will get even with you at some other time; but now, Stranger, I turn to you. Do not grow tired of being kind to us, but go on and tell us about the statesman or the philosopher, [257c] whichever you prefer to take first.
 
 Str. That is the thing to do, Theodorus, since we have once begun, and we must not stop until we have finished with them. But what shall I do about Theaetetus here?
 
@@ -50,9 +43,9 @@ Str. Shall we give him a rest and take his schoolmate here, the young Socrates, 
 
 Theo. Make the change as you suggest. They are young, and if they have a chance to rest by turns, they will bear any labor better.
 
-Soc. And besides, Stranger, it seems to me that they are both related to me after a fashion;
+[257d] Soc. And besides, Stranger, it seems to me that they are both related to me after a fashion;
 
-[258] Soc. one of them anyhow, as you say, looks like me in his cast of countenance, and the other has the same name and appellation, which implies some sort of kinship. [258] [258a] Of course we ought always to be eager to get acquainted with our relatives by debating with them. Now I myself had an argument with Theaetetus yesterday and have been listening to his answers just now, but I do not know Socrates in either way and must examine him, too. But let him reply to you now; my turn will come by and by.
+Soc. one of them anyhow, as you say, looks like me in his cast of countenance, and the other has the same name and appellation, which implies some sort of kinship. [258a] Of course we ought always to be eager to get acquainted with our relatives by debating with them. Now I myself had an argument with Theaetetus yesterday and have been listening to his answers just now, but I do not know Socrates in either way and must examine him, too. But let him reply to you now; my turn will come by and by.
 
 Str. Very well; Socrates, do you hear what Socrates says?
 
@@ -62,7 +55,7 @@ Str. And do you agree?
 
 Y. Soc. Certainly.
 
-Str. There seems to be no objection on your part, and I suppose there should be still less on mine. Well, then, after the sophist, I think it is our next duty to seek for the statesman; so please tell me: should we rank him also among those who have a science, or not?
+[258b] Str. There seems to be no objection on your part, and I suppose there should be still less on mine. Well, then, after the sophist, I think it is our next duty to seek for the statesman; so please tell me: should we rank him also among those who have a science, or not?
 
 Y. Soc. Yes.
 
@@ -74,15 +67,15 @@ Str. In that case, Socrates, I think the division will not be along the same lin
 
 Y. Soc. How will it be?
 
-Str. Along other lines.
+[258c] Str. Along other lines.
 
 Y. Soc. Very likely.
 
-Str. Where, then, shall we find the statesman’s path? For we must find it, separate it from the rest, and imprint upon it the seal of a single class; then we must set the mark of another single class upon all the other paths that lead away from this, and make our soul conceive of all sciences as of two classes. i.e. one class is to be separated and then all the rest are to be marked as one other class—the familiar division into two parts.
+Str. Where, then, shall we find the statesman’s path? For we must find it, separate it from the rest, and imprint upon it the seal of a single class; then we must set the mark of another single class upon all the other paths that lead away from this, and make our soul conceive of all sciences as of two classes. [^2]
 
 Y. Soc. This, Stranger, is now your affair, I think, not mine.
 
-Str. And yet, Socrates, it must be your affair, too, when we have found the path.
+[258d] Str. And yet, Socrates, it must be your affair, too, when we have found the path.
 
 Y. Soc. Quite true.
 
@@ -102,7 +95,7 @@ Str. Shall we then assume that the statesman, king, master, and householder too,
 
 Y. Soc. In what way?
 
-[259] Str. By this example: If anyone, though himself in private station, is able to advise one of the public physicians, must not his art be called by the same name as that of the man whom he advises?
+[259a] Str. By this example: If anyone, though himself in private station, is able to advise one of the public physicians, must not his art be called by the same name as that of the man whom he advises?
 
 Y. Soc. Yes.
 
@@ -110,11 +103,11 @@ Str. Well, then, if a man who is himself in private station is wise enough to ad
 
 Y. Soc. We shall.
 
-Str. But certainly the science of a true king is kingly science?
+[259b] Str. But certainly the science of a true king is kingly science?
 
 Y. Soc. Yes.
 
-Str. And will not he who possesses this science, whether he happen to be a ruler or a private citizen, rightly be called kingly, when considered purely with reference to his art?
+Str. And will not he who possesses this science, whether he happen to be a ruler or a private citizen, rightly be called “kingly,” when considered purely with reference to his art?
 
 Y. Soc. At least he has a right to be.
 
@@ -126,7 +119,7 @@ Str. Well, so far as government is concerned, is there any difference between th
 
 Y. Soc. No.
 
-Str. Then as for the point we were just discussing, it is clear that all these are the objects of one science, and whether a man calls this the art of kingship or statesmanship or householding, let us not quarrel with him.
+[259c] Str. Then as for the point we were just discussing, it is clear that all these are the objects of one science, and whether a man calls this the art of kingship or statesmanship or householding, let us not quarrel with him.
 
 Y. Soc. By no means.
 
@@ -134,7 +127,7 @@ Str. But this is plain, that any king can do little with his hands or his whole 
 
 Y. Soc. Yes, that is plain.
 
-Str. Shall we say, then, that the king is more akin to the intellectual than to the manual or the practical in general?
+[259d] Str. Shall we say, then, that the king is more akin to the intellectual than to the manual or the practical in general?
 
 Y. Soc. Certainly.
 
@@ -150,7 +143,7 @@ Str. Now pay attention to see if we can perceive any natural line of cleavage in
 
 Y. Soc. Tell us of what sort it is.
 
-Str. Of this sort. We recognized a sort of art of calculation.
+[259e] Str. Of this sort. We recognized a sort of art of calculation.
 
 Y. Soc. Yes.
 
@@ -170,7 +163,7 @@ Str. As supplying knowledge, not manual labor.
 
 Y. Soc. True.
 
-[260] Str. So he may fairly be said to participate in intellectual science.
+[260a] Str. So he may fairly be said to participate in intellectual science.
 
 Y. Soc. Certainly.
 
@@ -194,7 +187,7 @@ Str. On this point, then, so long as we ourselves are in agreement, we need not 
 
 Y. Soc. Of course not.
 
-Str. Now to which of these two classes is the kingly man to be assigned? Shall we assign him to the art of judging, as a kind of spectator, or rather to the art of commanding, inasmuch as he is a ruler?
+[260c] Str. Now to which of these two classes is the kingly man to be assigned? Shall we assign him to the art of judging, as a kind of spectator, or rather to the art of commanding, inasmuch as he is a ruler?
 
 Y. Soc. Rather to the latter, of course.
 
@@ -210,9 +203,9 @@ Str. And in like manner heralds receive the purposes of others in the form of or
 
 Y. Soc. Very true.
 
-Str. Shall we, then, join the art of the king in the same class with the art of the interpreter, [260e] the boatswain, the prophet, the herald, and many other kindred arts, all of which involve giving orders? Or, as we just now made a comparison of functions, shall we now by comparison make a name also—since the class of those who issue orders of their own is virtually nameless—and assign kings to the science of giving orders of one’s own, disregarding all the rest and leaving to someone else the task of naming them? For the object of our present quest is the ruler, [261] [261a] not his opposite.
+Str. Shall we, then, join the art of the king in the same class with the art of the interpreter, [260e] the boatswain, the prophet, the herald, and many other kindred arts, all of which involve giving orders? Or, as we just now made a comparison of functions, shall we now by comparison make a name also—since the class of those who issue orders of their own is virtually nameless—and assign kings to the science of giving orders of one’s own, disregarding all the rest and leaving to someone else the task of naming them? For the object of our present quest is the ruler, [261a] not his opposite.
 
-[261] Y. Soc. Quite right.
+Y. Soc. Quite right.
 
 Str. Then since a reasonable distinction between this class and the rest has been made, by distinguishing the commands given as one’s own or another’s, shall we again divide this class, if there is in it any further line of section?
 
@@ -258,11 +251,11 @@ Str. But we shall find that the statesman is not one who tends a single creature
 
 Y. Soc. That seems to be true, now that you mention it.
 
-Str. Shall we call the art of caring for many living creatures the art of tending a herd or something like community management?
+[261e] Str. Shall we call the art of caring for many living creatures the art of tending a herd or something like community management?
 
 Y. Soc. Whichever we happen to say.
 
-[262] Str. Good, Socrates! If you preserve this attitude of indifference to mere names, you will turn out richer in wisdom when you are old. But now we will, as you suggest, not trouble ourselves about the name; but do you see a way in which a man may show that the art of herding is twofold, [262] [262a] and may thereby cause that which is now sought among a double number of things to be sought among half as many?
+Str. Good, Socrates! If you preserve this attitude of indifference to mere names, you will turn out richer in wisdom when you are old. But now we will, as you suggest, not trouble ourselves about the name; but do you see a way in which a man may show that the art of herding is twofold, [262a] and may thereby cause that which is now sought among a double number of things to be sought among half as many?
 
 Y. Soc. I am quite willing to try. I think one kind is the care of men, the other that of beasts.
 
@@ -278,9 +271,9 @@ Str. I must try to speak still more clearly, Socrates, out of regard for your ca
 
 Y. Soc. What is it, then, that you say we did wrongly in making our division just now?
 
-Str. It was very much as if, in undertaking to divide the human race into two parts, [262d] one should make the division as most people in this country do; they separate the Hellenic race from all the rest as one, and to all the other races, which are countless in number and have no relation in blood or language to one another, they give the single name barbarian; then, because of this single name, they think it is a single species. Or it was as if a man should think he was dividing number into two classes by cutting off a myriad from all the other numbers, with the notion that he was making one separate class, [262e] and then should give one name to all the rest, and because of that name should think that this also formed one class distinct from the other. A better division, more truly classified and more equal, would be made by dividing number into odd and even, and the human race into male and female; as for the Lydians and Phrygians and various others they could be opposed to the rest and split off from them when it was impossible to find and separate two parts, [263] [263a] each of which formed a class.
+Str. It was very much as if, in undertaking to divide the human race into two parts, [262d] one should make the division as most people in this country do; they separate the Hellenic race from all the rest as one, and to all the other races, which are countless in number and have no relation in blood or language to one another, they give the single name “barbarian”; then, because of this single name, they think it is a single species. Or it was as if a man should think he was dividing number into two classes by cutting off a myriad from all the other numbers, with the notion that he was making one separate class, [262e] and then should give one name to all the rest, and because of that name should think that this also formed one class distinct from the other. A better division, more truly classified and more equal, would be made by dividing number into odd and even, and the human race into male and female; as for the Lydians and Phrygians and various others they could be opposed to the rest and split off from them when it was impossible to find and separate two parts, [263a] each of which formed a class.
 
-[263] Y. Soc. Very true; but that’s just the trouble, Stranger: how can we get a clearer knowledge of class and part, and see that they are not the same thing, but different?
+Y. Soc. Very true; but that’s just the trouble, Stranger: how can we get a clearer knowledge of class and part, and see that they are not the same thing, but different?
 
 Str. Socrates, you most excellent young man, it is no small task you impose upon me. We have already strayed away from our subject more than we ought, and you wish us to wander still farther afield. So for the present let us return to our subject, as is proper; then we will go on the trail of this other matter by and by, when we have time. [263b] Only take very good care not to imagine that you ever heard me declare flatly—
 
@@ -294,7 +287,7 @@ Str. That when there is a class of anything, it must necessarily be a part of th
 
 Y. Soc. I will do so.
 
-Str. Then please go on to the next point.
+[263c] Str. Then please go on to the next point.
 
 Y. Soc. What is it?
 
@@ -308,7 +301,7 @@ Y. Soc. That is true, too.
 
 Str. But indeed, my most courageous young friend, perhaps, if there is any other animal capable of thought, such as the crane appears to be, or any other like creature, and it perchance gives names, just as you do, it might in its pride of self oppose cranes to all other animals, and group the rest, men included, under one head, calling them by one name, which might very well be that of beasts. Now let us try to be on our guard against all that sort of thing.
 
-Y. Soc. How can we guard against it?
+[263e] Y. Soc. How can we guard against it?
 
 Str. By not dividing the whole class of living beings, that so we may avoid such errors.
 
@@ -322,7 +315,7 @@ Str. That part of intellectual science which involves giving commands was a part
 
 Y. Soc. Yes.
 
-[264] Str. Well, even at that stage of our discussion all animals had already been divided into tame and wild. [264] [264a] For if their nature admits of domestication they are called tame; if it does not, they are called wild.
+Str. Well, even at that stage of our discussion all animals had already been divided into tame and wild. [264a] For if their nature admits of domestication they are called tame; if it does not, they are called wild.
 
 Y. Soc. Excellent.
 
@@ -350,7 +343,7 @@ Str. And surely, even if you have not wandered over the plains of Thessaly, you 
 
 Y. Soc. Yes, of course.
 
-Str. The reason why I asked you all these questions is that the rearing of flocks is in part aquatic and in part an affair of the dry land.
+[264d] Str. The reason why I asked you all these questions is that the rearing of flocks is in part aquatic and in part an affair of the dry land.
 
 Y. Soc. Yes, that is true.
 
@@ -378,13 +371,13 @@ Str. And the art of tending animals that walk must, like an even number, be divi
 
 Y. Soc. Evidently.
 
-[265] Str. And now I think I see two paths leading in that direction in which our argument has started: the quicker way, by separating a relatively small part and a larger, and the other way, which is more in accord with what we said a while ago about the need of making the division as nearly in the middle as we can, but is longer. So we can proceed by whichever of the two we wish.
+[265a] Str. And now I think I see two paths leading in that direction in which our argument has started: the quicker way, by separating a relatively small part and a larger, and the other way, which is more in accord with what we said a while ago about the need of making the division as nearly in the middle as we can, but is longer. So we can proceed by whichever of the two we wish.
 
 Y. Soc. Can we not go by both?
 
 Str. Not by both at once, silly boy; but obviously we can take them in turn.
 
-Y. Soc. Then I choose both in turn.
+[265b] Y. Soc. Then I choose both in turn.
 
 Str. That is easy enough, since we have but a short distance to go. At the beginning, certainly, or middle of our journey it would have been hard to comply with your demand. But now, since this is your wish, let us go first by the longer way, for we are fresher now and shall get along on it more easily. So attend to the division.
 
@@ -396,7 +389,7 @@ Y. Soc. How by nature?
 
 Str. Because one class is naturally without horns, and the other has horns.
 
-Y. Soc. That is obvious.
+[265c] Y. Soc. That is obvious.
 
 Str. Now divide the art of tending herds of walking animals into two parts, assigning one to each class of animals; and define the parts, for if you try to give them names, the matter will become needlessly complicated.
 
@@ -406,7 +399,7 @@ Str. In this way: say that the science which tends herds of walking animals is d
 
 Y. Soc. Assume that I have said that; [265d] for you have made it perfectly clear.
 
-Str. And furthermore our king is very clearly the herdsman of a herd devoid of horns.
+Str. And furthermore our “king” is very clearly the herdsman of a herd devoid of horns.
 
 Y. Soc. Of course; that is evident.
 
@@ -418,7 +411,7 @@ Str. Shall we make our division on the basis of having or not having cloven hoof
 
 Y. Soc. No. What is it?
 
-Str. Why, I mean that horses and asses can breed from each other.
+[265e] Str. Why, I mean that horses and asses can breed from each other.
 
 Y. Soc. Oh yes.
 
@@ -434,7 +427,7 @@ Str. So I suppose we must proceed as we have done heretofore and divide this int
 
 Y. Soc. Yes, we must.
 
-[266] Str. And yet tame gregarious animals have all, with the exception of about two species, been already divided; for dogs are not properly to be counted among gregarious creatures.
+[266a] Str. And yet tame gregarious animals have all, with the exception of about two species, been already divided; for dogs are not properly to be counted among gregarious creatures.
 
 Y. Soc. No, they are not. But how shall we divide the two species?
 
@@ -442,15 +435,15 @@ Str. As you and Theaetetus ought by rights to divide them, since you are interes
 
 Y. Soc. How do you mean?
 
-Str. By the diameter, of course, and again by the diameter of the square of the diameter. The word diameter here denotes the diagonal of a square. The early Greek mathematicians worked out their arithmetical problems largely by geometrical methods (cf. Plat. Theaet. 147 D ff). The diagonal of the unit square (√2) was naturally of especial interest. It was called sometimes, as here simply ἡ διάμετρος, sometimes, as just below,ἡ διάμετρος ἡ δυνάμει δίπους, or, more briefly,ἡ διάμετρος δίπους. Given a square the side of which is the unit (i.e. one square foot), the length of the diagonal will be √2 and the square constructed with that diagonal as its side will contain two square feet. The length of the diagonal of this square will be √4=2 feet, and its area will be four square feet.
+Str. By the diameter, of course, and again by the diameter of the square of the diameter. [^3]
 
 Y. Soc. What do you mean by that?
 
-Str. Is the nature which our human race possesses related to walking in any other way than as the diameter which is the square root of two feet? There is here a play upon words. Man, being a two-footed (δίπους) animal, is compared to the diagonal of the unit square (√2,διάμετρος δίπους).
+[266b] Str. Is the nature which our human race possesses related to walking in any other way than as the diameter which is the square root of two feet? [^4]
 
 Y. Soc. No.
 
-Str. And the nature of the remaining species, again, considered from the point of view of the square root, is the diameter of the square of our root, if it is the nature of twice two feet. i.e. the remaining species is four-footed. Our diameter is √2, and four is the area of the square constructed on the diagonal of the square which has √2 as its side. All this satirizes the tendency of contemporary thinkers to play with numbers.
+Str. And the nature of the remaining species, again, considered from the point of view of the square root, is the diameter of the square of our root, if it is the nature of twice two feet. [^5]
 
 Y. Soc. Of course; and now I think I almost understand what you wish to make plain.
 
@@ -458,7 +451,7 @@ Str. Socrates, do we see that besides this something else has turned up [266c] i
 
 Y. Soc. No. What is it?
 
-Str. Our human race shares the same lot and runs in the same heat as the most excellent and at the same time most easy-going race of creatures. The animal referred to is the pig. See P. Shorey, Classical Philology,1917, July, p. 308.
+Str. Our human race shares the same lot and runs in the same heat as the most excellent and at the same time most easy-going race of creatures. [^6]
 
 Y. Soc. Yes, I see that; it is a very queer result.
 
@@ -466,11 +459,11 @@ Str. Indeed? But is it not reasonable that they arrive last, who are the slowest
 
 Y. Soc. Yes, that is true.
 
-Str. And do we fail to notice this further point, that the king appears in a still more ridiculous light, running along with the herd and paired in the race with the man of all others [266d] who is most in training for a life of careless ease? i.e. the swineherd, the pig belonging to γένει εὐχερεστάτῳ.
+Str. And do we fail to notice this further point, that the king appears in a still more ridiculous light, running along with the herd and paired in the race with the man of all others [266d] who is most in training for a life of careless ease? [^7]
 
 Y. Soc. Certainly he does.
 
-Str. For now, Socrates, we have shown more clearly the truth of that which we said yesterday in our search for the sophist. See Plat. Soph. 227B.
+Str. For now, Socrates, we have shown more clearly the truth of that which we said yesterday in our search for the sophist. [^8]
 
 Y. Soc. What was it?
 
@@ -484,7 +477,7 @@ Y. Soc. By all means.
 
 Str. I say, then, that we ought at that time to have divided walking animals immediately into biped and quadruped, then seeing that the human race falls into the same division with the feathered creatures and no others, we must again divide the biped class into featherless and feathered, and when that division is made and the art of herding human beings is made plain, we ought to take the statesmanlike and kingly man and place him as a sort of charioteer therein, handing over to him the reins of the state, because that is his own proper science.
 
-[267] Y. Soc. You have cleared up the argument finely, and as if it were a debt you were paying, you threw in the digression as interest and for good measure.
+[267a] Y. Soc. You have cleared up the argument finely, and as if it were a debt you were paying, you threw in the digression as interest and for good measure.
 
 Str. Now let us go back to the beginning and join together the definition of the name of the statesman’s art link by link to the end.
 
@@ -514,7 +507,7 @@ Str. And our argument defined this, not as the tending of horses or other beasts
 
 Y. Soc. Yes, it did.
 
-Str. Let us, then, observe the point of difference between kings and all other herdsmen.
+[267e] Str. Let us, then, observe the point of difference between kings and all other herdsmen.
 
 Y. Soc. What point of difference?
 
@@ -522,7 +515,7 @@ Str. Let us see whether anyone who is designated by the name of another art says
 
 Y. Soc. What do you mean?
 
-[268] Str. For instance, merchants, husbandmen, and all who prepare grain for use, and also gymnastic trainers and physicians would certainly all dispute with the herdsmen of humanity, whom we have called statesmen, [268] [268a] and would assert that they themselves take care of the tending of humanity, and not the tending of the common herd only, but even that of the rulers themselves, would they not?
+Str. For instance, merchants, husbandmen, and all who prepare grain for use, and also gymnastic trainers and physicians would certainly all dispute with the herdsmen of humanity, whom we have called statesmen, [268a] and would assert that they themselves take care of the tending of humanity, and not the tending of the common herd only, but even that of the rulers themselves, would they not?
 
 Y. Soc. And would they be right?
 
@@ -536,7 +529,7 @@ Y. Soc. It cannot possibly be right.
 
 Str. We suspected a little while ago that although we might be outlining a sort of kingly shape we had not yet perfected an accurate portrait of the statesman, and could not do so until, by removing those who crowd about him and contend with him for a share in his herdsmanship, we separated him from them and made him stand forth alone and uncontaminated. Was our fear justified?
 
-Y. Soc. It certainly was.
+[268d] Y. Soc. It certainly was.
 
 Str. Then we must attend to that, Socrates, if we are not to end our argument in disgrace.
 
@@ -556,15 +549,15 @@ Y. Soc. Please tell the story.
 
 Str. Of the portents recorded in ancient tales many did happen and will happen again. Such an one is the portent connected with the tale of the quarrel between Atreus and Thyestes. You have doubtless heard of it and remember what is said to have taken place.
 
-Y. Soc. You refer, I suppose, to the token of the golden lamb. Hermes revenged upon the Pelopidae the death of his son Myrtilus by causing a lamb with golden fleece to be born among the flocks of Atreus. When his claim to the succession was disputed, Atreus promised to show this prodigy to prove that the gods were on his side. Thyestes persuaded Aerope, the wife of Atreus, to give him the lamb, and Atreus was in danger of losing his kingdom, had not Zeus, who favored his claim, made the sun and the Pleiades return from their setting towards their rising. This is the form of the story given in a scholium on Eur. Orest. 988, and Plato seems to have this form in mind, though variants existed. The lamb was a token (σημεῖον) of the favor of the gods, and the changed course of the sun and stars was a testimony (μαρτυρήσας) to the right of Atreus.
+Y. Soc. You refer, I suppose, to the token of the golden lamb. [^9]
 
-[269] Str. Oh no; I mean the change in the rising and setting of the sun and the other heavenly bodies, how in those times they used to set in the quarter where they now rise, and used to rise where they now set, but the god at the time of the quarrel, you recall, changed all that to the present system as a testimony in favor of Atreus.
+[269a] Str. Oh no; I mean the change in the rising and setting of the sun and the other heavenly bodies, how in those times they used to set in the quarter where they now rise, and used to rise where they now set, but the god at the time of the quarrel, you recall, changed all that to the present system as a testimony in favor of Atreus.
 
 Y. Soc. Yes, I’ve heard that, too.
 
 Str. And again we have often heard the tale of the reign of Cronus.
 
-Y. Soc. Yes, very often.
+[269b] Y. Soc. Yes, very often.
 
 Str. And how about the story that the ancient folk were earthborn and not begotten of one another?
 
@@ -580,9 +573,9 @@ Y. Soc. What reason?
 
 Str. Absolute and perpetual immutability is a property of only the most divine things of all, and body does not belong to this class. Now that which we call heaven and the universe has received from its creator many blessed qualities, but then, too, it partakes also of a bodily nature; [269e] therefore it is impossible for it to be entirely free from change; it moves, however, so far as it is able to do so, with a single motion in the same place and the same manner, and therefore it has acquired the reverse motion in a circle, because that involves the least deviation from its own motion. But to turn itself for ever is hardly possible except for the power that guides all moving things; and that this should turn now in one direction and now in the opposite direction is contrary to divine law.
 
-[270] Str. As the result of all this, we must not say either that the universe turns itself always, or that it is always turned by God in two opposite courses, [270] [270a] or again that two divinities opposed to one another turn it. The only remaining alternative is what I suggested a little while ago, that the universe is guided at one time by an extrinsic divine cause, acquiring the power of living again and receiving renewed immortality from the Creator, and at another time it is left to itself and then moves by its own motion, being left to itself at such a moment that it moves backwards through countless ages, because it is immensely large and most evenly balanced, and turns upon the smallest pivot.
+Str. As the result of all this, we must not say either that the universe turns itself always, or that it is always turned by God in two opposite courses, [270a] or again that two divinities opposed to one another turn it. The only remaining alternative is what I suggested a little while ago, that the universe is guided at one time by an extrinsic divine cause, acquiring the power of living again and receiving renewed immortality from the Creator, and at another time it is left to itself and then moves by its own motion, being left to itself at such a moment that it moves backwards through countless ages, because it is immensely large and most evenly balanced, and turns upon the smallest pivot.
 
-Y. Soc. All that account of yours appears, at any rate, very reasonable.
+[270b] Y. Soc. All that account of yours appears, at any rate, very reasonable.
 
 Str. Then, in the light of what has been said, let us consider and gain understanding of the event which we said was the cause of all those wonderful portents; for it is really just this.
 
@@ -604,21 +597,21 @@ Str. And animals cannot well endure many great and various changes at once. That
 
 Y. Soc. Of course.
 
-Str. Inevitably, then, there is at that time great destruction of animals in general, and only a small part of the human race survives; [270d] and the survivors have many experiences wonderful and strange, the greatest of which, a consequence of the reversal of everything at the time when the world begins to turn in the direction opposed to that of its present revolution, is this. The tale of Atreus introduces the fanciful theory of the reversal of the revolution of the heavenly bodies, and this, especially in an age when the stars were believed to exercise a direct influence upon mankind and other creatures, naturally brings with it the reversal of all processes of growth. This leads to a new birth of mankind, and the Stranger then briefly describes the age of innocence, the fall of man and the barbarism that follows, and the partial restoration of man through divine interposition and the gift of the various arts of civilization. Plato does not offer this as a real explanation of the existing condition of the world, but it serves, like the myths introduced in other dialogues to present, in connection with accepted mythology, a theory which may account for some of the facts of life.
+Str. Inevitably, then, there is at that time great destruction of animals in general, and only a small part of the human race survives; [270d] and the survivors have many experiences wonderful and strange, the greatest of which, a consequence of the reversal of everything at the time when the world begins to turn in the direction opposed to that of its present revolution, is this. [^10]
 
 Y. Soc. What is that experience?
 
-Str. First the age of all animals, whatever it was at the moment, stood still, and every mortal creature stopped growing older in appearance [270e] and then reversed its growth and became, as it were, younger and more tender; the hoary locks of the old men grew dark, and bearded cheeks grew smooth again as their possessors reverted to their earlier ages, and the bodies of young men grew smoother and smaller day by day and night by night, until they became as new-born babes, to which they were likened in mind and body; and then at last they wasted away entirely and wholly disappeared. And the bodies of those who died by violence in those times quickly underwent the same changes, [271] [271a] were destroyed, and disappeared in a few days.
+Str. First the age of all animals, whatever it was at the moment, stood still, and every mortal creature stopped growing older in appearance [270e] and then reversed its growth and became, as it were, younger and more tender; the hoary locks of the old men grew dark, and bearded cheeks grew smooth again as their possessors reverted to their earlier ages, and the bodies of young men grew smoother and smaller day by day and night by night, until they became as new-born babes, to which they were likened in mind and body; and then at last they wasted away entirely and wholly disappeared. And the bodies of those who died by violence in those times quickly underwent the same changes, [271a] were destroyed, and disappeared in a few days.
 
-[271] Y. Soc. But then, Stranger, how did animals come into existence in those days? How were they begotten of one another?
+Y. Soc. But then, Stranger, how did animals come into existence in those days? How were they begotten of one another?
 
-Str. It is clear, Socrates, that being begotten of one another was no part of the natural order of that time, but the earth-born race which, according to tradition, once existed, was the race which returned at that time out of the earth; and the memory of it was preserved by our earliest ancestors, who were born in the beginning of our period and therefore were next neighbors to the end of the previous period of the world’s revolution, [271b] with no interval between. For they were to us the heralds of these stories which are nowadays unduly disbelieved by many people. For you must, I think, consider what would result. It is a natural consequence of the return of the old to childhood that those who are dead and lying in the earth take shape and come to life again, since the process of birth is reversed along with the reversal of the world’s revolution; for this reason they are inevitably earth-born, [271c] and hence arises their name and the tradition about them, except those of them whom God removed to some other fate. This may refer to philosophers (cf. Plat. Phaedo 82c) or, more probably, to those who, like Menelaus, were transferred to the abode of the blessed, or, like Heracles, became gods. Such individuals would be exempt from the consequences of any subsequent reversal of the World’s revolution.
+Str. It is clear, Socrates, that being begotten of one another was no part of the natural order of that time, but the earth-born race which, according to tradition, once existed, was the race which returned at that time out of the earth; and the memory of it was preserved by our earliest ancestors, who were born in the beginning of our period and therefore were next neighbors to the end of the previous period of the world’s revolution, [271b] with no interval between. For they were to us the heralds of these stories which are nowadays unduly disbelieved by many people. For you must, I think, consider what would result. It is a natural consequence of the return of the old to childhood that those who are dead and lying in the earth take shape and come to life again, since the process of birth is reversed along with the reversal of the world’s revolution; for this reason they are inevitably earth-born, [271c] and hence arises their name and the tradition about them, except those of them whom God removed to some other fate. [^11]
 
 Y. Soc. Certainly that follows from what preceded. But was the life in the reign of Cronus, which you mentioned, in that previous period of revolution or in ours? For evidently the change in the course of the stars and the sun takes place in both periods.
 
 Str. You have followed my account very well. [271d] No, the life about which you ask, when all the fruits of the earth sprang up of their own accord for men, did not belong at all to the present period of revolution, but this also belonged to the previous one. For then, in the beginning, God ruled and supervised the whole revolution, and so again, in the same way, all the parts of the universe were divided by regions among gods who ruled them, and, moreover, the animals were distributed by species and flocks among inferior deities as divine shepherds, each of whom was in all respects the independent guardian of the creatures under his own care, [271e] so that no creature was wild, nor did they eat one another, and there was no war among them, nor any strife whatsoever. To tell all the other consequences of such an order of the world would be an endless task. But the reason for the story of the spontaneous life of mankind is as follows:
 
-[272] Str. God himself was their shepherd, watching over them, just as man, being an animal of different and more divine nature than the rest, now tends the lower species of animals. And under his care there were no states, [272] [272a] nor did men possess wives or children; for they all came to life again out of the earth, with no recollection of their former lives. So there were no states or families, but they had fruits in plenty from the trees and other plants, which the earth furnished them of its own accord, without help from agriculture. And they lived for the most part in the open air, without clothing or bedding; for the climate was tempered for their comfort, and the abundant grass that grew up out of the earth furnished them soft couches. [272b] That, Socrates, was the life of men in the reign of Cronus; but the life of the present age, which is said to be the age of Zeus, you know by your own experience. Would you be able and willing to decide which of them is the more blessed?
+Str. God himself was their shepherd, watching over them, just as man, being an animal of different and more divine nature than the rest, now tends the lower species of animals. And under his care there were no states, [272a] nor did men possess wives or children; for they all came to life again out of the earth, with no recollection of their former lives. So there were no states or families, but they had fruits in plenty from the trees and other plants, which the earth furnished them of its own accord, without help from agriculture. And they lived for the most part in the open air, without clothing or bedding; for the climate was tempered for their comfort, and the abundant grass that grew up out of the earth furnished them soft couches. [272b] That, Socrates, was the life of men in the reign of Cronus; but the life of the present age, which is said to be the age of Zeus, you know by your own experience. Would you be able and willing to decide which of them is the more blessed?
 
 Y. Soc. Certainly not.
 
@@ -628,9 +621,9 @@ Y. Soc. Do so, by all means.
 
 Str. Well, then, if the foster children of Cronus, having all this leisure and the ability to converse not only with human beings but also with beasts, [272c] made full use of all these opportunities with a view to philosophy, talking with the animals and with one another and learning from every creature that, through possession of some peculiar power he may have had in any respect beyond his fellows perceptions tending towards an increase of wisdom, it would be easy to decide that the people of those old times were immeasurably happier than those of our epoch. Or if they merely ate and drank till they were full and gossiped with each other and the animals, telling such stories as are even now told about them, [272d] in that case, too, it would, in my opinion, be very easy to reach a decision. However, let us pass those matters by, so long as there is no one capable of reporting to us what the desires of the people in those days were in regard to knowledge and the employment of speech. The reason why we revived this legend must be told, in order that we may get ahead afterwards. For when the time of all those conditions was accomplished and the change was to take place and all the earth-born race had at length been used up, [272e] since every soul had fulfilled all its births by falling into the earth as seed its prescribed number of times, then the helmsman of the universe dropped the tiller and withdrew to his place of outlook, and fate and innate desire made the earth turn backwards.
 
-[273] Str. So, too, all the gods who share, each in his own sphere, the rule of the Supreme Spirit, promptly perceiving what was taking place, let go the parts of the world which were under their care. [273] [273a] And as the universe was turned back and there came the shock of collision, as the beginning and the end rushed in opposite directions, it produced a great earthquake within itself and caused a new destruction of all sorts of living creatures. But after that, when a sufficient time had elapsed, there was rest now from disturbance and confusion, calm followed the earthquakes, and the world went on its own accustomed course in orderly fashion, exercising care and rule [273b] over itself and all within itself, and remembering and practising the teachings of the Creator and Father to the extent of its power, at first more accurately and at last more carelessly; and the reason for this was the material element in its composition, because this element, which was inherent in the primeval nature, was infected with great disorder before the attainment of the existing orderly universe. For from its Composer the universe has received only good things; but from its previous condition it retains in itself and creates in the animals all the elements of harshness and injustice [273c] which have their origin in the heavens. Now as long as the world was nurturing the animals within itself under the guidance of the Pilot, it produced little evil and great good; but in becoming separated from him it always got on most excellently during the time immediately after it was let go, but as time went on and it grew forgetful, the ancient condition of disorder prevailed more and more [273d] and towards the end of the time reached its height, and the universe, mingling but little good with much of the opposite sort, was in danger of destruction for itself and those within it. Therefore at that moment God, who made the order of the universe, perceived that it was in dire trouble, and fearing that it might founder in the tempest of confusion and sink in the boundless sea of diversity, [273e] he took again his place as its helmsman, reversed whatever had become unsound and unsettled in the previous period when the world was left to itself, set the world in order, restored it and made it immortal and ageless. So now the whole tale is told; but for our purpose of exhibiting the nature of the king it will be enough to revert to the earlier part of the story. For when the universe was turned again into the present path of generation, the age of individuals came again to a stop, and that led to new processes, the reverse of those which had gone before. For the animals which had grown so small as almost to disappear grew larger, and those newly born from the earth with hoary hair died and passed below the earth again.
+Str. So, too, all the gods who share, each in his own sphere, the rule of the Supreme Spirit, promptly perceiving what was taking place, let go the parts of the world which were under their care. [273a] And as the universe was turned back and there came the shock of collision, as the beginning and the end rushed in opposite directions, it produced a great earthquake within itself and caused a new destruction of all sorts of living creatures. But after that, when a sufficient time had elapsed, there was rest now from disturbance and confusion, calm followed the earthquakes, and the world went on its own accustomed course in orderly fashion, exercising care and rule [273b] over itself and all within itself, and remembering and practising the teachings of the Creator and Father to the extent of its power, at first more accurately and at last more carelessly; and the reason for this was the material element in its composition, because this element, which was inherent in the primeval nature, was infected with great disorder before the attainment of the existing orderly universe. For from its Composer the universe has received only good things; but from its previous condition it retains in itself and creates in the animals all the elements of harshness and injustice [273c] which have their origin in the heavens. Now as long as the world was nurturing the animals within itself under the guidance of the Pilot, it produced little evil and great good; but in becoming separated from him it always got on most excellently during the time immediately after it was let go, but as time went on and it grew forgetful, the ancient condition of disorder prevailed more and more [273d] and towards the end of the time reached its height, and the universe, mingling but little good with much of the opposite sort, was in danger of destruction for itself and those within it. Therefore at that moment God, who made the order of the universe, perceived that it was in dire trouble, and fearing that it might founder in the tempest of confusion and sink in the boundless sea of diversity, [273e] he took again his place as its helmsman, reversed whatever had become unsound and unsettled in the previous period when the world was left to itself, set the world in order, restored it and made it immortal and ageless. So now the whole tale is told; but for our purpose of exhibiting the nature of the king it will be enough to revert to the earlier part of the story. For when the universe was turned again into the present path of generation, the age of individuals came again to a stop, and that led to new processes, the reverse of those which had gone before. For the animals which had grown so small as almost to disappear grew larger, and those newly born from the earth with hoary hair died and passed below the earth again.
 
-[274] Str. And all other things changed, [274] [274a] imitating the condition of the universe and conforming to it, and so too pregnancy and birth and nurture necessarily imitated and conformed to the rest; for no living creature could any longer come into being by the union of other elements, but just as the universe was ordered to be the ruler of its own course, so in the same way the parts were ordered, so far as they could, to grow and beget and give nourishment of themselves under the same guidance. [274b] And now we have come at last to the point for the sake of which this whole discourse was begun. For much might be said, and at great length, about the other animals, their previous forms and the causes of their several changes; but about mankind there is less to say and it is more to our purpose. For men, deprived of the care of the deity who had possessed and tended us, since most of the beasts who were by nature unfriendly had grown fierce, and they themselves were feeble and unprotected, were ravaged by the beasts [274c] and were in the first ages still without resources or skill; the food which had formerly offered itself freely had failed them, and they did not yet know how to provide for themselves, because no necessity had hitherto compelled them. On all these accounts they were in great straits; and that is the reason why the gifts of the gods that are told of in the old traditions were given us with the needful information and instruction,—fire by Prometheus, the arts by Hephaestus and the goddess who is his fellow-artisan, seeds and plants by other deities. The fellow-artisan of Hephaestus is Athena; seeds and plants are the gifts of Demeter and Dionysus. [274d] And from these has arisen all that constitutes human life, since, as I said a moment ago, the care of the gods had failed men and they had to direct their own lives and take care of themselves, like the whole universe, which we imitate and follow through all time, being born and living now in our present manner and in that other epoch in the other manner. [274e] So, then, let our tale be finished; but we will turn it to account for opening our eyes to the great error we made in the exposition of the king and the statesman in our earlier discussion.
+Str. And all other things changed, [274a] imitating the condition of the universe and conforming to it, and so too pregnancy and birth and nurture necessarily imitated and conformed to the rest; for no living creature could any longer come into being by the union of other elements, but just as the universe was ordered to be the ruler of its own course, so in the same way the parts were ordered, so far as they could, to grow and beget and give nourishment of themselves under the same guidance. [274b] And now we have come at last to the point for the sake of which this whole discourse was begun. For much might be said, and at great length, about the other animals, their previous forms and the causes of their several changes; but about mankind there is less to say and it is more to our purpose. For men, deprived of the care of the deity who had possessed and tended us, since most of the beasts who were by nature unfriendly had grown fierce, and they themselves were feeble and unprotected, were ravaged by the beasts [274c] and were in the first ages still without resources or skill; the food which had formerly offered itself freely had failed them, and they did not yet know how to provide for themselves, because no necessity had hitherto compelled them. On all these accounts they were in great straits; and that is the reason why the gifts of the gods that are told of in the old traditions were given us with the needful information and instruction,—fire by Prometheus, the arts by Hephaestus and the goddess who is his fellow-artisan, seeds and plants by other deities. [^12] [274d] And from these has arisen all that constitutes human life, since, as I said a moment ago, the care of the gods had failed men and they had to direct their own lives and take care of themselves, like the whole universe, which we imitate and follow through all time, being born and living now in our present manner and in that other epoch in the other manner. [274e] So, then, let our tale be finished; but we will turn it to account for opening our eyes to the great error we made in the exposition of the king and the statesman in our earlier discussion.
 
 Y. Soc. How, then, did we err, and what is the great error you say we have committed?
 
@@ -638,7 +631,7 @@ Str. In one way we made a comparatively slight error, in another a very importan
 
 Y. Soc. How did we do that?
 
-[275] Str. When we were asked about the king and the statesman of the present movement of the world and mode of generation, we told of the shepherd of the human flock in the time of the reverse movement, [275] [275a] and he was a god, not a man, besides. That was a very great error. Then when we declared that he was ruler of the whole state, but did not fully tell in what manner he ruled, what we said was true, though it was not complete nor clear, and therefore our error was less in this case than in the other.
+Str. When we were asked about the king and the statesman of the present movement of the world and mode of generation, we told of the shepherd of the human flock in the time of the reverse movement, [275a] and he was a god, not a man, besides. That was a very great error. Then when we declared that he was ruler of the whole state, but did not fully tell in what manner he ruled, what we said was true, though it was not complete nor clear, and therefore our error was less in this case than in the other.
 
 Y. Soc. True.
 
@@ -646,7 +639,7 @@ Str. Apparently, then, we must expect a complete description of the statesman on
 
 Y. Soc. Very good.
 
-Str. And this is why I introduced the myth, not only in order to show that all men compete for the care of the flock with him whom we are now seeking, but also that we may more clearly see him who alone ought to have the care of human beings as shepherds and neatherds care for their flocks and herds, and therefore alone deserves to be honored with that appellation.
+[275b] Str. And this is why I introduced the myth, not only in order to show that all men compete for the care of the flock with him whom we are now seeking, but also that we may more clearly see him who alone ought to have the care of human beings as shepherds and neatherds care for their flocks and herds, and therefore alone deserves to be honored with that appellation.
 
 Y. Soc. Quite right.
 
@@ -672,13 +665,13 @@ Y. Soc. True, if there were such a name.
 
 Str. Is not caring for herds common to them all, with no especial mention of feeding or any other activity? If we called it an art of tending herds or caring for them or managing them, as all herdsmen do, we could wrap up the statesman with the rest, since the argument showed that we ought to do so.
 
-[276] Y. Soc. Quite right; but how would the next [276] [276a] division be made?
+Y. Soc. Quite right; but how would the next [276a] division be made?
 
 Str. Just as we divided the art of feeding herds before by distinguishing between those that go on foot and the winged, and the unmixed breeds and the hornless, we might divide the art of tending herds by these same distinctions, embracing in the word both the kingship of the present time and that of the time of Cronus.
 
 Y. Soc. Evidently; but again I wonder what the next step is.
 
-Str. It Is clear that if we had used the word tending herds, [276b] we should never have met with the contention that there is no caring for them at all in statesmanship, though the earlier contention was justified that there is no art in the case of human beings that deserves the name of feeding, and if there be such an art, it belongs much more to many others than to the king.
+Str. It Is clear that if we had used the word “tending” herds, [276b] we should never have met with the contention that there is no caring for them at all in statesmanship, though the earlier contention was justified that there is no art in the case of human beings that deserves the name of feeding, and if there be such an art, it belongs much more to many others than to the king.
 
 Y. Soc. Quite right.
 
@@ -720,13 +713,13 @@ Y. Soc. By all means.
 
 Str. And if we call the art of those who use compulsion tyrannical or something of the sort and the voluntary care of voluntary bipeds political, may we not declare that he who possesses this latter art of caretaking is really the true king and statesman?
 
-[277] Y. Soc. Well, Stranger, it looks as though our account of the statesman were complete now.
+[277a] Y. Soc. Well, Stranger, it looks as though our account of the statesman were complete now.
 
 Str. That would be a fine thing for us, Socrates. But not you alone must think so; I must think so, too, in agreement with you. As a matter of fact, however, in my opinion our figure of the king is not yet perfect, but like statue-makers who sometimes in their misapplied enthusiasm make too numerous and too large additions and thus delay the completion of their several works, [277b] we too, at this time, wishing to make quick progress, and also to make clear in a grand style the error of our previous course, and, moreover, fancying that the use of great illustrations was proper in the case of a king, have taken up a marvellous mass of myth and have consequently been obliged to use a greater part of it than we should. So we have made our discourse too long and after all have never made an end of the tale, [277c] but our talk, just like a picture of a living creature, seems to have a good enough outline, but not yet to have received the clearness that comes from pigments and the blending of colors. And yet it is more fitting to portray any living being by speech and argument than by painting or any handicraft whatsoever to persons who are able to follow argument; but to others it is better to do it by means of works of craftsmanship.
 
 Y. Soc. That is true; but explain wherein you think our exposition is still deficient.
 
-Str. It is difficult, my dear fellow, to set forth any of the greater ideas, except by the use of examples; for it would seem that each of us knows everything that he knows as if in a dream and then again, when he is as it were awake, knows nothing of it all.
+[277d] Str. It is difficult, my dear fellow, to set forth any of the greater ideas, except by the use of examples; for it would seem that each of us knows everything that he knows as if in a dream and then again, when he is as it were awake, knows nothing of it all.
 
 Y. Soc. What do you mean by that?
 
@@ -734,9 +727,9 @@ Str. I seem at present in absurd fashion to have touched upon our experience in 
 
 Y. Soc. In what respect?
 
-Str. Why, my friend, the very example I employ requires another example. i.e. the nature of example is to be explained below by means of an example. The example of the letters of the alphabet is employed also in the Plat. Theaet. 202 ff, but the Stranger cannot properly refer to that, as he was not present at the time. Or is this a dramatic slip on Plato’s part?
+Str. Why, my friend, the very example I employ requires another example. [^13]
 
-Y. Soc. Indeed? What is it? Don’t hesitate to tell on my account.
+[277e] Y. Soc. Indeed? What is it? Don’t hesitate to tell on my account.
 
 Str. I will tell, since you on your part are prepared to listen. We know that children, when they are just getting some knowledge of letters—
 
@@ -746,7 +739,7 @@ Str. Recognize the several letters well enough in the short and easy syllables, 
 
 Y. Soc. Yes, of course.
 
-[278] Str. And then again in other syllables they are in doubt about those same letters, and err in opinion and speech about them.
+[278a] Str. And then again in other syllables they are in doubt about those same letters, and err in opinion and speech about them.
 
 Y. Soc. Yes, certainly.
 
@@ -754,7 +747,7 @@ Str. Would not the easiest and best way to lead them to the letters which they d
 
 Y. Soc. What?
 
-Str. To lead them first to those cases in which they had correct opinions about these same letters and then to lead them and set them beside the groups which they did not yet recognize [278b] and by comparing them to show that their nature is the same in both combinations alike, and to continue until the letters about which their opinions are correct have been shown in juxtaposition with all those of which they are ignorant. Being shown in this way they become examples There is here a play on the words παρα-τιθέμενα δειχθῇ, δειχθέντα δέ, παρα-δείγματα Placed beside, they are shown and being shown, they become paradigms, i.e. objects of comparison, i.e. examples. and bring it about that every letter is in all syllables always called by the same name, either by differentiation from the other letters, [278c] in case it is different, or because it is the same.
+Str. To lead them first to those cases in which they had correct opinions about these same letters and then to lead them and set them beside the groups which they did not yet recognize [278b] and by comparing them to show that their nature is the same in both combinations alike, and to continue until the letters about which their opinions are correct have been shown in juxtaposition with all those of which they are ignorant. Being shown in this way they become examples [^14] and bring it about that every letter is in all syllables always called by the same name, either by differentiation from the other letters, [278c] in case it is different, or because it is the same.
 
 Y. Soc. Certainly.
 
@@ -774,7 +767,7 @@ Str. Then if this is the case, would it be a bad thing if you and I first tried 
 
 Y. Soc. That is a very good idea.
 
-[279] Str. Then we must take up our former argument again, and since there are countless others who contend that they, rather than the royal class, have the care of states, we must accordingly remove all these and isolate the king; and, as we said, to accomplish this we need an example.
+[279a] Str. Then we must take up our former argument again, and since there are countless others who contend that they, rather than the royal class, have the care of states, we must accordingly remove all these and isolate the king; and, as we said, to accomplish this we need an example.
 
 Y. Soc. Certainly.
 
@@ -790,9 +783,9 @@ Str. I will answer you by actually going through the process.
 
 Y. Soc. Excellent
 
-Str. Well, then, all things which we make or acquire are for the sake of doing something or else they are for defence against suffering; and of the defensive class some are spells and antidotes, both divine and human, and some are material defences; [279d] and of the material defences some are equipment for war and some are protections; and of protections some are screens and some are defences against heat and cold; and such defences are either shelters or coverings; and coverings are either rugs to spread under us or wrappings to wrap round us; and wrappings are either all of one piece or composed of several pieces; [279e] and of the composite garments some are stitched and others put together without stitching; and of the unstitched some are made of the fibres of plants and some are of hair; and of those made with hair some are stuck together with liquids and cement and others are fastened without any such extraneous matter. Now to these protective coverings made of materials fastened without extraneous matter we give the name of clothes; [280] [280a] and just as we called the art statecraft which was concerned with the state, so we shall call the art concerned with clothes, from the nature of its activity, clothes-making, shall we not? And may we say further that weaving, in so far as the greatest part of it is, as we saw, concerned with the making of clothes, differs in name only from this art of clothes-making, just as in the other case the royal art differed from statecraft?
+Str. Well, then, all things which we make or acquire are for the sake of doing something or else they are for defence against suffering; and of the defensive class some are spells and antidotes, both divine and human, and some are material defences; [279d] and of the material defences some are equipment for war and some are protections; and of protections some are screens and some are defences against heat and cold; and such defences are either shelters or coverings; and coverings are either rugs to spread under us or wrappings to wrap round us; and wrappings are either all of one piece or composed of several pieces; [279e] and of the composite garments some are stitched and others put together without stitching; and of the unstitched some are made of the fibres of plants and some are of hair; and of those made with hair some are stuck together with liquids and cement and others are fastened without any such extraneous matter. Now to these protective coverings made of materials fastened without extraneous matter we give the name of clothes; [280a] and just as we called the art statecraft which was concerned with the state, so we shall call the art concerned with clothes, from the nature of its activity, clothes-making, shall we not? And may we say further that weaving, in so far as the greatest part of it is, as we saw, concerned with the making of clothes, differs in name only from this art of clothes-making, just as in the other case the royal art differed from statecraft?
 
-[280] Y. Soc. That is perfectly correct.
+Y. Soc. That is perfectly correct.
 
 Str. Let us next reflect that a person might think that this description of the art of weaving was satisfactory, [280b] because he cannot understand that it has not yet been distinguished from the closely co-operative arts, though it has been separated from many other kindred arts.
 
@@ -802,7 +795,7 @@ Str. You do not seem to have followed what I have been saying; so I think I had 
 
 Y. Soc. I understand.
 
-Str. And we removed the entire manufacture of cloth made from flax and broom-cords and all that we just now called vegetable fibres; and then, too, we separated off the process of felting and the kind of joining that employs piercing and sewing, most important of which is the shoemaker’s art.
+[280c] Str. And we removed the entire manufacture of cloth made from flax and broom-cords and all that we just now called vegetable fibres; and then, too, we separated off the process of felting and the kind of joining that employs piercing and sewing, most important of which is the shoemaker’s art.
 
 Y. Soc. Yes, to be sure.
 
@@ -810,7 +803,7 @@ Str. And we separated off the art of making coverings of leather in single piece
 
 Y. Soc. That seems to be the case.
 
-[281] Str. But, my boy, this is not yet completely stated; for the man who is engaged in the first part of the making of clothes [281] [281a] appears to do something the opposite of weaving.
+Str. But, my boy, this is not yet completely stated; for the man who is engaged in the first part of the making of clothes [281a] appears to do something the opposite of weaving.
 
 Y. Soc. How so?
 
@@ -836,7 +829,7 @@ Y. Soc. By no means.
 
 Str. But surely all these will contest the claim of the art of weaving in the matter of the treatment and the production of clothes; they will grant that the part of weaving is the most important, but will claim that their own parts are of some importance, too.
 
-Y. Soc. Yes, certainly.
+[281c] Y. Soc. Yes, certainly.
 
 Str. Then we must believe that besides these the arts which produce the tools by means of which the works of weaving are accomplished will claim to be collaborators in every work of weaving.
 
@@ -866,19 +859,19 @@ Str. Next, then, shall we designate all the arts which produce spindles, shuttle
 
 Y. Soc. Quite right.
 
-[282] Str. And among the causal arts we may properly include washing and mending and all the care of clothing in such ways; and, since the art of adornment is a wide one, we may classify them as a part of it under the name of fulling.
+[282a] Str. And among the causal arts we may properly include washing and mending and all the care of clothing in such ways; and, since the art of adornment is a wide one, we may classify them as a part of it under the name of fulling.
 
 Y. Soc. Good.
 
 Str. And, again, carding and spinning and all the processes concerned with the actual fabrication of the clothing under consideration, form collectively one art familiar to every one—the art of wool-working.
 
-Y. Soc. Of course.
+[282b] Y. Soc. Of course.
 
 Str. And wool-working comprises two divisions, and each of these is a part of two arts at once.
 
 Y. Soc. How is that?
 
-Str. Carding, and one half of the use of the weaver’s rod, The weaver’s rod (for the Greeks appear to have used a rod, not a comb) was used to drive the threads of the woof close together, and also to keep the threads of the warp and woof distinct (cf. Plat. Crat. 388a). All the processes here described, familiar as they were to the ancients, have been done away with, or, at least, greatly modified, in Europe and America by the modern methods of industry. and the other crafts which separate things that are joined—all this collectively is a part of the art of wool-working; and in all things we found two great arts, that of composition and that of division.
+Str. Carding, and one half of the use of the weaver’s rod, [^15] and the other crafts which separate things that are joined—all this collectively is a part of the art of wool-working; and in all things we found two great arts, that of composition and that of division.
 
 Y. Soc. Yes.
 
@@ -914,7 +907,7 @@ Str. And if any such lap of wool is twisted with a spindle and made into a hard 
 
 Y. Soc. Right.
 
-[283] Str. And the threads, in turn, which are more loosely twisted and have in respect to the force used in the carding a softness adapted to the interweaving with the warp we will call the woof, and the art devoted to these [283] [283a] we will call the art of preparing the woof. i.e. the pull (ὁλκή)of the carder’s comb was less strong in the preparation of the threads of the woof than in that of the threads of the warp.
+Str. And the threads, in turn, which are more loosely twisted and have in respect to the force used in the carding a softness adapted to the interweaving with the warp we will call the woof, and the art devoted to these [283a] we will call the art of preparing the woof. [^16]
 
 Y. Soc. Quite right.
 
@@ -962,7 +955,7 @@ Str. Then we must assume that there are these two kinds of great and small, and 
 
 Y. Soc. Of course.
 
-[284] Str. If we assert that the greater has no relation to anything except the less, it will never have any relation to the standard of the mean, will it?
+[284a] Str. If we assert that the greater has no relation to anything except the less, it will never have any relation to the standard of the mean, will it?
 
 Y. Soc. No.
 
@@ -974,7 +967,7 @@ Str. And if we do away with the art of statesmanship, our subsequent search for 
 
 Y. Soc. Certainly.
 
-Str. Then just as in the case of the sophist Plat. Soph. 235 we forced the conclusion that not-being exists, since that was the point at which we had lost our hold of the argument, so now we must force this second conclusion, that the greater and the less are to be measured in relation, [284c] not only to one another, but also to the establishment of the standard of the mean, must we not? For if this is not admitted, neither the statesman nor any other man who has knowledge of practical affairs can be said without any doubt to exist.
+Str. Then just as in the case of the sophist [^17] we forced the conclusion that not-being exists, since that was the point at which we had lost our hold of the argument, so now we must force this second conclusion, that the greater and the less are to be measured in relation, [284c] not only to one another, but also to the establishment of the standard of the mean, must we not? For if this is not admitted, neither the statesman nor any other man who has knowledge of practical affairs can be said without any doubt to exist.
 
 Y. Soc. Then we must by all means do now the same that we did then.
 
@@ -982,15 +975,15 @@ Str. This, Socrates, is a still greater task than that was; and yet we remember 
 
 Y. Soc. As what?
 
-Str. That sometime we shall need this principle of the mean for the demonstration of absolute precise truth. But our belief that the demonstration is for our present purpose good and sufficient is, in my opinion, magnificently supported by this argument—that we must believe that all the arts alike exist and that the greater and the less are measured in relation not only to one another but also to the establishment of the standard of the mean. For if this exists, they exist also, and if they exist, it exists also, but neither can ever exist if the other does not.
+[284d] Str. That sometime we shall need this principle of the mean for the demonstration of absolute precise truth. But our belief that the demonstration is for our present purpose good and sufficient is, in my opinion, magnificently supported by this argument—that we must believe that all the arts alike exist and that the greater and the less are measured in relation not only to one another but also to the establishment of the standard of the mean. For if this exists, they exist also, and if they exist, it exists also, but neither can ever exist if the other does not.
 
-Y. Soc. That is quite right. But what comes next?
+[284e] Y. Soc. That is quite right. But what comes next?
 
 Str. We should evidently divide the science of measurement into two parts in accordance with what has been said. One part comprises all the arts which measure number, length, depth, breadth, and thickness in relation to their opposites; the other comprises those which measure them in relation to the moderate, the fitting, the opportune, the needful, and all the other standards that are situated in the mean between the extremes.
 
 Y. Soc. Both of your divisions are extensive, and there is a great difference between them.
 
-[285] Str. Yes, for what many clever persons occasionally say, Socrates, fancying that it is a wise remark, [285] [285a] namely, that the science of measurement has to do with everything, is precisely the same as what we have just said. For in a certain way all things which are in the province of art do partake of measurement; but because people are not in the habit of considering things by dividing them into classes, they hastily put these widely different relations i.e. relations to each other and relations to the standard of the mean. into the same category, thinking they are alike; and again they do the opposite of this when they fail to divide other things into parts. What they ought to do is this: when a person at first sees only the unity or common quality of many things, [285b] he must not give up until he sees all the differences in them, so far as they exist in classes; and conversely, when all sorts of dissimilarities are seen in a large number of objects he must find it impossible to be discouraged or to stop until has gathered into one circle of similarity all the things which are related to each other and has included them in some sort of class on the basis of their essential nature. No more need be said, then, about this or about deficiency and excess; let us only bear carefully in mind that two kinds of measurement which apply to them have been found, [285c] and let us remember what those kinds are.
+Str. Yes, for what many clever persons occasionally say, Socrates, fancying that it is a wise remark, [285a] namely, that the science of measurement has to do with everything, is precisely the same as what we have just said. For in a certain way all things which are in the province of art do partake of measurement; but because people are not in the habit of considering things by dividing them into classes, they hastily put these widely different relations [^18] into the same category, thinking they are alike; and again they do the opposite of this when they fail to divide other things into parts. What they ought to do is this: when a person at first sees only the unity or common quality of many things, [285b] he must not give up until he sees all the differences in them, so far as they exist in classes; and conversely, when all sorts of dissimilarities are seen in a large number of objects he must find it impossible to be discouraged or to stop until has gathered into one circle of similarity all the things which are related to each other and has included them in some sort of class on the basis of their essential nature. No more need be said, then, about this or about deficiency and excess; let us only bear carefully in mind that two kinds of measurement which apply to them have been found, [285c] and let us remember what those kinds are.
 
 Y. Soc. We will remember.
 
@@ -998,7 +991,7 @@ Str. Now that we have finished this discussion, let us take up another which con
 
 Y. Soc. What is it?
 
-Str. Suppose we were asked the following question about a group of pupils learning their letters: When a pupil is asked of what letters some word or other composed, [285d] is the question asked for the sake of the one particular word before him or rather to make him more learned about all words in the lesson?
+Str. Suppose we were asked the following question about a group of pupils learning their letters: “When a pupil is asked of what letters some word or other composed, [285d] is the question asked for the sake of the one particular word before him or rather to make him more learned about all words in the lesson?”
 
 Y. Soc. Clearly to make him more learned about them all.
 
@@ -1006,9 +999,9 @@ Str. And how about our own investigation of the statesman? Has it been undertake
 
 Y. Soc. Clearly this also is done with a view to them all.
 
-Str. Of course no man of sense would wish to pursue the discussion of weaving for its own sake; but most people, it seems to me, fail to notice that some things have sensible resemblances which are easily perceived; [285e] and it is not at all difficult to show them when anyone wishes, in response to a request for an explanation of some one of them, to exhibit them easily without trouble and really without explanation. But, on the other hand, the greatest and noblest conceptions [286] [286a] have no image wrought plainly for human vision, which he who wishes to satisfy the mind of the inquirer can apply to some one of his senses and by mere exhibition satisfy the mind.
+Str. Of course no man of sense would wish to pursue the discussion of weaving for its own sake; but most people, it seems to me, fail to notice that some things have sensible resemblances which are easily perceived; [285e] and it is not at all difficult to show them when anyone wishes, in response to a request for an explanation of some one of them, to exhibit them easily without trouble and really without explanation. But, on the other hand, the greatest and noblest conceptions [286a] have no image wrought plainly for human vision, which he who wishes to satisfy the mind of the inquirer can apply to some one of his senses and by mere exhibition satisfy the mind.
 
-[286] Str. We must therefore endeavor by practice to acquire the power of giving and understanding a rational definition of each one of them; for immaterial things, which are the noblest and greatest, can be exhibited by reason only, and it is for their sake that all we are saying is said. But it is always easier to practise [286b] in small matters than in greater ones.
+Str. We must therefore endeavor by practice to acquire the power of giving and understanding a rational definition of each one of them; for immaterial things, which are the noblest and greatest, can be exhibited by reason only, and it is for their sake that all we are saying is said. But it is always easier to practise [286b] in small matters than in greater ones.
 
 Y. Soc. Excellent.
 
@@ -1016,7 +1009,7 @@ Str. Let us, then, remember the reason for all that we have said about these mat
 
 Y. Soc. What is the reason?
 
-Str. The reason is chiefly just that irritating impatience which we exhibited in relation to the long talk about weaving and the revolution of the universe and the sophist’s long talk about the existence of not-being. See Plat. theaet. 283, Plat. Theaet. 277, Plat. Soph. 261 We felt that they were too long, and we reproached ourselves for all of them, [286c] fearing that our talk was not only long, but irrelevant. Consider, therefore, that the reason for what has just been said is my wish to avoid any such impatience in the future.
+Str. The reason is chiefly just that irritating impatience which we exhibited in relation to the long talk about weaving and the revolution of the universe and the sophist’s long talk about the existence of not-being. [^19] We felt that they were too long, and we reproached ourselves for all of them, [286c] fearing that our talk was not only long, but irrelevant. Consider, therefore, that the reason for what has just been said is my wish to avoid any such impatience in the future.
 
 Y. Soc. Very well. Please go on with what you have to say.
 
@@ -1024,7 +1017,7 @@ Str. What I have to say, then, is that you and I, remembering what has just been
 
 Y. Soc. Quite right.
 
-[287] Str. But we must not always judge of length by fitness, either. For we shall not in the least want a length that is fitted to give pleasure, except, perhaps, as a secondary consideration; and again reason counsels us to accept fitness for the easiest and quickest completion of the inquiry in which we are engaged, not as the first, but as the second thing to be desired. By far our first and most important object should be to exalt the method itself of ability to divide by classes, [286e] and therefore, if a discourse, even though it be very long, makes the hearer better able to discover the truth, we should accept it eagerly and should not be offended by its length, or if it is short, we should judge it in the same way. And, moreover, anyone who finds fault with the length of discourses in our discussions, or objects to roundabout methods, must not merely find fault with the speeches for their length and then pass them quickly and hastily by, [287] [287a] but he must also show that there is ground for the belief that if they had been briefer they would have made their hearers better dialecticians and quicker to discover through reason the truth of realities. About other people and the praise or blame they direct towards other qualities in discourse, we need not be concerned; we need not even appear to hear them. But enough of this, if you feel about it as I do; so let us go back to the statesman [287b] and apply to him the example of weaving that we spoke of a while ago.
+Str. But we must not always judge of length by fitness, either. For we shall not in the least want a length that is fitted to give pleasure, except, perhaps, as a secondary consideration; and again reason counsels us to accept fitness for the easiest and quickest completion of the inquiry in which we are engaged, not as the first, but as the second thing to be desired. By far our first and most important object should be to exalt the method itself of ability to divide by classes, [286e] and therefore, if a discourse, even though it be very long, makes the hearer better able to discover the truth, we should accept it eagerly and should not be offended by its length, or if it is short, we should judge it in the same way. And, moreover, anyone who finds fault with the length of discourses in our discussions, or objects to roundabout methods, must not merely find fault with the speeches for their length and then pass them quickly and hastily by, [287a] but he must also show that there is ground for the belief that if they had been briefer they would have made their hearers better dialecticians and quicker to discover through reason the truth of realities. About other people and the praise or blame they direct towards other qualities in discourse, we need not be concerned; we need not even appear to hear them. But enough of this, if you feel about it as I do; so let us go back to the statesman [287b] and apply to him the example of weaving that we spoke of a while ago.
 
 Y. Soc. Very well; let us do so.
 
@@ -1056,7 +1049,7 @@ Str. That they do not possess this instrumental function. For they are not, like
 
 Y. Soc. What is this class of possessions?
 
-[288] Str. That very various class which is made with dry and wet materials and such as are wrought by fire and without fire; it is called collectively the class of receptacles; it is a very large class and has, so far as I can see, [288] [288a] nothing at all to do with the art we are studying.
+Str. That very various class which is made with dry and wet materials and such as are wrought by fire and without fire; it is called collectively the class of receptacles; it is a very large class and has, so far as I can see, [288a] nothing at all to do with the art we are studying.
 
 Y. Soc. No, of course not.
 
@@ -1068,11 +1061,11 @@ Str. We call it a vehicle, and it certainly is not at all the work of statesmans
 
 Y. Soc. I understand.
 
-Str. And is there a fourth class? Shall we say that there is one, differing from those three, one to which most of the things we have mentioned belong—all clothing, most arms, all circuit walls of earth or of stone, and countless other things? And since they are all made for defence, they may most rightly be called by the collective name of defence, and this may much more properly be considered for the most part the work of the art of building or of weaving than of statesmanship.
+[288b] Str. And is there a fourth class? Shall we say that there is one, differing from those three, one to which most of the things we have mentioned belong—all clothing, most arms, all circuit walls of earth or of stone, and countless other things? And since they are all made for defence, they may most rightly be called by the collective name of defence, and this may much more properly be considered for the most part the work of the art of building or of weaving than of statesmanship.
 
 Y. Soc. Certainly.
 
-Str. And should we care to make a fifth class, of ornamentation and painting and all the imitations created by the use of painting and music solely for our pleasure and properly included under one name?
+[288c] Str. And should we care to make a fifth class, of ornamentation and painting and all the imitations created by the use of painting and music solely for our pleasure and properly included under one name?
 
 Y. Soc. What is its name?
 
@@ -1082,7 +1075,7 @@ Y. Soc. To be sure.
 
 Str. So this one name will properly be applied to all the members of this class; for none of them is practised for any serious purpose, but all of them merely for play.
 
-Y. Soc. I understand that pretty well, too.
+[288d] Y. Soc. I understand that pretty well, too.
 
 Str. And shall we not make a sixth class of that which furnishes to all these the materials of which and in which all the arts we have mentioned fashion their works, a very various class, the offspring of many other arts?
 
@@ -1092,7 +1085,7 @@ Str. Gold and silver and all the products of the mines and all the materials whi
 
 Y. Soc. Good.
 
-[289] Str. And property in food and all the things which, mingling parts of themselves with parts of the body, have any function of keeping it in health, [289] [289a] we may say is the seventh class, and we will call it collectively our nourishment, unless we have some better name to give it. All this we can assign to the arts of husbandry, hunting, gymnastics, medicine, and cooking more properly than to that of statesmanship.
+Str. And property in food and all the things which, mingling parts of themselves with parts of the body, have any function of keeping it in health, [289a] we may say is the seventh class, and we will call it collectively our nourishment, unless we have some better name to give it. All this we can assign to the arts of husbandry, hunting, gymnastics, medicine, and cooking more properly than to that of statesmanship.
 
 Y. Soc. Of course.
 
@@ -1116,7 +1109,7 @@ Str. The bought servants, acquired by purchase, whom we can without question cal
 
 Y. Soc. Certainly not.
 
-[290] Str. How about those free men who put themselves voluntarily in the position of servants of those whom we mentioned before? I mean the men who carry about and distribute among one another the productions of husbandry and the other arts, whether in the domestic marketplaces or by travelling from city to city by land or sea, exchanging money for wares or money for money, the men whom we call brokers, [290] [290a] merchants, shipmasters, and peddlers; do they lay any claim to statesmanship?
+Str. How about those free men who put themselves voluntarily in the position of servants of those whom we mentioned before? I mean the men who carry about and distribute among one another the productions of husbandry and the other arts, whether in the domestic marketplaces or by travelling from city to city by land or sea, exchanging money for wares or money for money, the men whom we call brokers, [290a] merchants, shipmasters, and peddlers; do they lay any claim to statesmanship?
 
 Y. Soc. Possibly to commercial statesmanship
 
@@ -1128,7 +1121,7 @@ Str. But there are people who perform services of another kind. How about them?
 
 Y. Soc. What services and what men do you mean?
 
-Str. The class of heralds and those who become by long practice skilled as clerks and other clever men who perform various services in connection with public offices. What shall we call them?
+[290b] Str. The class of heralds and those who become by long practice skilled as clerks and other clever men who perform various services in connection with public offices. What shall we call them?
 
 Y. Soc. What you called the others, servants; they are not themselves rulers in the states.
 
@@ -1144,11 +1137,11 @@ Str. And then, too, the priests, according to law and custom, know how to give t
 
 Y. Soc. At least they seem to be so.
 
-Str. At last, then, I think we are, as it were, on the track of our quarry. For the bearing of the priests and prophets is indeed full of pride, and they win high esteem because of the magnitude of their undertakings. In Egypt, for example, no king can rule without being a priest, [290e] and if he happens to have forced his way to the throne from some other class, he must enroll himself in the class of priests afterwards; and among the Greeks, too, you would find that in many states the performance of the greatest public sacrifices is a duty imposed upon the highest officials. Yes, among you Athenians this is very plain, for they say the holiest and most national of the ancient sacrifices are performed by the man whom the lot has chosen to be the King. The second in order of the nine annual archons.
+Str. At last, then, I think we are, as it were, on the track of our quarry. For the bearing of the priests and prophets is indeed full of pride, and they win high esteem because of the magnitude of their undertakings. In Egypt, for example, no king can rule without being a priest, [290e] and if he happens to have forced his way to the throne from some other class, he must enroll himself in the class of priests afterwards; and among the Greeks, too, you would find that in many states the performance of the greatest public sacrifices is a duty imposed upon the highest officials. Yes, among you Athenians this is very plain, for they say the holiest and most national of the ancient sacrifices are performed by the man whom the lot has chosen to be the King. [^20]
 
 Y. Soc. Yes, certainly.
 
-[291] Str. We must, then, examine these elected kings and priests and their assistants, and also another very large crowd of people which has just come in sight now that the others are out of the way.
+[291a] Str. We must, then, examine these elected kings and priests and their assistants, and also another very large crowd of people which has just come in sight now that the others are out of the way.
 
 Y. Soc. Who are these people?
 
@@ -1188,7 +1181,7 @@ Str. Do not these three become after a fashion five, producing out of themselves
 
 Y. Soc. What names?
 
-Str. People nowadays are likely to take into consideration enforced subjection and voluntary obedience, poverty and wealth, law and lawlessness as they occur in governments, and so they divide two of the forms we mentioned, giving to the two aspects of monarchy the two names tyranny and royalty.
+[291e] Str. People nowadays are likely to take into consideration enforced subjection and voluntary obedience, poverty and wealth, law and lawlessness as they occur in governments, and so they divide two of the forms we mentioned, giving to the two aspects of monarchy the two names tyranny and royalty.
 
 Y. Soc. Certainly.
 
@@ -1196,7 +1189,7 @@ Str. And the state that is ruled by the few is called, as the case may be, arist
 
 Y. Soc. To be sure.
 
-[292] Str. In the case of democracy, however, [292] [292a] whether the multitude rule those who have property by violence or with their willing consent, and whether the laws are carefully observed or not, no one ever habitually changes the name.
+Str. In the case of democracy, however, [292a] whether the multitude rule those who have property by violence or with their willing consent, and whether the laws are carefully observed or not, no one ever habitually changes the name.
 
 Y. Soc. True.
 
@@ -1204,7 +1197,7 @@ Str. Now then, do we believe that any of these forms of government which are def
 
 Y. Soc. I don’t see why not.
 
-Str. Look a bit more closely along the line I am going to point out.
+[292b] Str. Look a bit more closely along the line I am going to point out.
 
 Y. Soc. What is it?
 
@@ -1226,19 +1219,19 @@ Y. Soc. You are right.
 
 Str. Then is this our understanding, that the distinction between forms of government ought not to be found in the words few or many, or voluntary or unwilling, or wealth or poverty, but some science must be the distinguishing feature, if we are to be consistent with our previous statement?
 
-Y. Soc. Yes, indeed; it cannot be otherwise.
+[292d] Y. Soc. Yes, indeed; it cannot be otherwise.
 
 Str. Necessarily, then, our present duty is to inquire in which, if any, of these forms of government is engendered the science of ruling men, which is about the greatest of sciences and the most difficult to acquire. We must discover that in order to see what men are to be distinguished from the wise king—men, I mean, who pretend to be, and make many believe that they are, statesmen, but are really not such at all.
 
 Y. Soc. Yes, we must do this; that is implied in what was said before.
 
-Str. Does it seem at all possible that a multitude in a state could acquire this science?
+[292e] Str. Does it seem at all possible that a multitude in a state could acquire this science?
 
 Y. Soc. By no means.
 
 Str. But in a state of one thousand men could perhaps a hundred or as many as fifty acquire it adequately?
 
-[293] Y. Soc. No, in that case this would be the easiest of all the arts; for we know that a city of a thousand men could never produce that number of finished draught-players in comparison with those in other Greek cities, still less so many kings. For the man who possesses the kingly science, whether he rule or not, [293] [293a] must be called kingly, as our previous argument showed.
+Y. Soc. No, in that case this would be the easiest of all the arts; for we know that a city of a thousand men could never produce that number of finished draught-players in comparison with those in other Greek cities, still less so many kings. For the man who possesses the kingly science, whether he rule or not, [293a] must be called kingly, as our previous argument showed.
 
 Str. You did well to remind me. And in agreement with this, we must, I suppose, look for the right kind of rule in one or two or very few men, whenever such right rule occurs.
 
@@ -1256,7 +1249,7 @@ Str. And whether they purge the state for its good by killing or banishing some 
 
 Y. Soc. Everything else that you have said seems reasonable; but that government should be carried on without laws is a hard saying.
 
-[294] Str. You got ahead of me a little with your question, Socrates; [294] [294a] for I was just going to ask whether you accepted all I have said, or were displeased with anything. But now it is clear that we shall have to discuss the question of the propriety of government without laws.
+Str. You got ahead of me a little with your question, Socrates; [294a] for I was just going to ask whether you accepted all I have said, or were displeased with anything. But now it is clear that we shall have to discuss the question of the propriety of government without laws.
 
 Y. Soc. Of course we shall.
 
@@ -1296,7 +1289,7 @@ Str. And therefore they nowadays assign equal exercise to whole classes; they ma
 
 Y. Soc. That is true.
 
-[295] Str. And so we must believe that the law-maker who is to watch over the herds and maintain justice and the obligation of contracts, [295] [295a] will never be able by making laws for all collectively, to provide exactly that which is proper for each individual.
+Str. And so we must believe that the law-maker who is to watch over the herds and maintain justice and the obligation of contracts, [295a] will never be able by making laws for all collectively, to provide exactly that which is proper for each individual.
 
 Y. Soc. Probably not, at any rate.
 
@@ -1320,7 +1313,7 @@ Str. What if he should come back again after a briefer absence than he expected?
 
 Y. Soc. Most assuredly.
 
-[296] Str. But he who has made written or unwritten laws about the just and unjust, the honorable and disgraceful, the good and the bad for the herds of men that are tended in their several cities in accordance with the laws of the law-makers, is not to be permitted to give other laws contrary to those, if the scientific law-maker, or another like him, should come! [296] [296a] Would not such a prohibition appear in truth as ridiculous as the other?
+Str. But he who has made written or unwritten laws about the just and unjust, the honorable and disgraceful, the good and the bad for the herds of men that are tended in their several cities in accordance with the laws of the law-makers, is not to be permitted to give other laws contrary to those, if the scientific law-maker, or another like him, should come! [296a] Would not such a prohibition appear in truth as ridiculous as the other?
 
 Y. Soc. It certainly would.
 
@@ -1332,11 +1325,11 @@ Str. Yes, it is very plausible; for they say that if anyone has anything better 
 
 Y. Soc. And is that not right?
 
-Str. Perhaps. But suppose a man does not use persuasion, but makes an improvement by force. What is this force to be called? Answer me—or, no, not yet; first answer in reference to what we were talking of before.
+[296b] Str. Perhaps. But suppose a man does not use persuasion, but makes an improvement by force. What is this force to be called? Answer me—or, no, not yet; first answer in reference to what we were talking of before.
 
 Y. Soc. What do you mean?
 
-Str. Suppose a physician who has right knowledge of his profession does not persuade, but forces, his patient, whether man, woman, or child, to do the better thing, though it be contrary to the written precepts, what will such violence be called? The last name in the world to call it would be unscientific and baneful error, as the phrase is, would it not? [296c] And the patient so forced might rightly say anything else rather than that he had been treated in a baneful or unscientific way by the physicians who used force upon him.
+Str. Suppose a physician who has right knowledge of his profession does not persuade, but forces, his patient, whether man, woman, or child, to do the better thing, though it be contrary to the written precepts, what will such violence be called? The last name in the world to call it would be “unscientific and baneful error,” as the phrase is, would it not? [296c] And the patient so forced might rightly say anything else rather than that he had been treated in a baneful or unscientific way by the physicians who used force upon him.
 
 Y. Soc. Very true.
 
@@ -1350,7 +1343,7 @@ Y. Soc. Very true.
 
 Str. But would the violence be just if he who uses it is rich, and unjust if he is poor? Or if a man, whether rich or poor, by persuasion or by other means, in accordance with written laws or contrary to them, does what is for the good of the people, must not this be the truest criterion of right government, [296e] in accordance with which the wise and good man will govern the affairs of his subjects?
 
-[297] Str. Just as the captain of a ship keeps watch for what is at any moment for the good of the vessel and the sailors, [297] [297a] not by writing rules, but by making his science his law, and thus preserves his fellow voyagers, so may not a right government be established in the same way by men who could rule by this principle, making science more powerful than the laws? And whatever the wise rulers do, they can commit no error, so long as they maintain one great principle and by always dispensing absolute justice to them [297b] with wisdom and science are able to preserve the citizens and make them better than they were, so far as that is possible. Is not this true?
+Str. Just as the captain of a ship keeps watch for what is at any moment for the good of the vessel and the sailors, [297a] not by writing rules, but by making his science his law, and thus preserves his fellow voyagers, so may not a right government be established in the same way by men who could rule by this principle, making science more powerful than the laws? And whatever the wise rulers do, they can commit no error, so long as they maintain one great principle and by always dispensing absolute justice to them [297b] with wisdom and science are able to preserve the citizens and make them better than they were, so far as that is possible. Is not this true?
 
 Y. Soc. There is no denying the truth of what you have just said.
 
@@ -1378,11 +1371,11 @@ Str. Let us return once more to the images which we always have to use in portra
 
 Y. Soc. What images?
 
-Str. The noble captain of a ship and the physician who is worth as much as many others. Cf. Hom. Il. 12.514: ἰητρὸς γὰρ ἀνὴρ πολλῶν ἀντάξιος ἄλλων. The image of the physician was used above, 293. The image of the captain (for the Greek κυβερνήτης had an importance commensurate with that of the captain, rather than of the pilot, in modern times) has just been used. See also Plat. Rep. 6.488 A; Plat. Laws 12.963 B. Let us make a simile of them and use it to help us to discover something.
+Str. The noble captain of a ship and the “physician who is worth as much as many others.” [^21] Let us make a simile of them and use it to help us to discover something.
 
 Y. Soc. What is your simile?
 
-[298] Str. Something of this sort: Imagine that we all thought in regard to captains and physicians: We are most abominably treated by them. For whomsoever of us either of them wishes to save, he saves, one of them just like the other, and whomsoever he wishes to maltreat, he maltreats. They cut us up and burn us and order us to bring them payments of money, as if they were exacting tribute, of which they spend little or nothing for their patients; they themselves and their servants use the rest. [298b] And finally they are bribed by the patient’s relatives or enemies and actually bring about his death. And as for the captains, they commit countless other misdeeds they make plots and leave us deserted ashore when they put out to sea, they bring on mishaps at sea and so cast us into the water, and are guilty of other wrong-doings. Now suppose, with these thoughts in mind, we deliberated about them [298c] and decided that we would no longer allow either of these arts to rule without control over slaves or free men, but that we would call an assembly either of all the people or of the rich only, and that anyone, whether he were engaged in some other form of skilled labor or were without any special qualifications, should be free to offer an opinion about navigation and diseases, how drugs and surgical or medical instruments should be applied to the patients, and how [298d] ships and nautical instruments should be used for navigation and in meeting dangers, not only those of winds and sea that affect the voyage itself, but also those met in encounters with pirates, and if battles have to be fought between ships of war; and that whatever the majority decided about these matters, whether any physicians or ship captains or merely unskilled persons took part in the deliberations, should be inscribed upon tablets and slabs [298e] or in some instances should be adopted as unwritten ancestral customs, and that henceforth forever navigation and the care of the sick should be conducted in accordance with these provisions.
+[298a] Str. Something of this sort: Imagine that we all thought in regard to captains and physicians: “We are most abominably treated by them. For whomsoever of us either of them wishes to save, he saves, one of them just like the other, and whomsoever he wishes to maltreat, he maltreats. They cut us up and burn us and order us to bring them payments of money, as if they were exacting tribute, of which they spend little or nothing for their patients; they themselves and their servants use the rest. [298b] And finally they are bribed by the patient’s relatives or enemies and actually bring about his death. And as for the captains, they commit countless other misdeeds they make plots and leave us deserted ashore when they put out to sea, they bring on mishaps at sea and so cast us into the water, and are guilty of other wrong-doings.” Now suppose, with these thoughts in mind, we deliberated about them [298c] and decided that we would no longer allow either of these arts to rule without control over slaves or free men, but that we would call an assembly either of all the people or of the rich only, and that anyone, whether he were engaged in some other form of skilled labor or were without any special qualifications, should be free to offer an opinion about navigation and diseases, how drugs and surgical or medical instruments should be applied to the patients, and how [298d] ships and nautical instruments should be used for navigation and in meeting dangers, not only those of winds and sea that affect the voyage itself, but also those met in encounters with pirates, and if battles have to be fought between ships of war; and that whatever the majority decided about these matters, whether any physicians or ship captains or merely unskilled persons took part in the deliberations, should be inscribed upon tablets and slabs [298e] or in some instances should be adopted as unwritten ancestral customs, and that henceforth forever navigation and the care of the sick should be conducted in accordance with these provisions.
 
 Y. Soc. That is a most absurd state of things that you have described.
 
@@ -1390,19 +1383,19 @@ Str. And suppose that rulers of the people are set up annually, whether from the
 
 Y. Soc. That is still harder to imagine.
 
-[299] Str. Now consider what comes next. When the year of office has passed for each set of rulers, there will have to be sessions of courts in which the judges are chosen by lot [299] [299a] either from a selected list of the rich or from the whole people, and the rulers will have to be brought before these courts and examined as to their conduct in office, and anyone who pleases can bring against the captains an accusation for failure to command the ships during the year in accordance with the written laws or the ancestral customs, and similarly against the physicians for their treatment of the sick; and if any of them is found guilty, the court shall decide what his punishment or his fine shall be.
+Str. Now consider what comes next. When the year of office has passed for each set of rulers, there will have to be sessions of courts in which the judges are chosen by lot [299a] either from a selected list of the rich or from the whole people, and the rulers will have to be brought before these courts and examined as to their conduct in office, and anyone who pleases can bring against the captains an accusation for failure to command the ships during the year in accordance with the written laws or the ancestral customs, and similarly against the physicians for their treatment of the sick; and if any of them is found guilty, the court shall decide what his punishment or his fine shall be.
 
 Y. Soc. Surely anyone who consents voluntarily [299b] to hold office under such conditions would richly deserve any penalty or fine that might be imposed.
 
-Str. And then, in addition to all this, there will have to be a law that if anyone is found to be investigating the art of pilotage or navigation or the subject of health and true medical doctrine about winds and things hot and cold, contrary to the written rules, or to be indulging in any speculation whatsoever on such matters, he shall in the first place not be called a physician or a ship captain, but a star-gazer, This passage obviously refers to the trial of Socrates. The word μετέωρα was used by those who made all sorts of general accusations against Socrates (see Plat. Apol. 18 B, 19 B, with its reference to the Clouds of Aristophanes), and the reference of the words διαφθείροντα ἄλλους νεωτέρους to the accusation brought against him by Miletus, Anytus, and Lycon (Plat. Apol. 24 C: φησὶ γὰρ δὴ τοὺς νέους ἀδικεῖν με διαφθείροντα) is perfectly plain. a kind of loquacious sophist, and secondly anyone who is properly qualified may bring an accusation against him and hale him into court for corrupting the young and persuading them [299c] to attack the arts of navigation and medicine in opposition to the laws and to govern the ships and the sick according to their own will; and if he is found to be so persuading either young or old contrary to the laws and written rules, he shall suffer the most extreme penalties. Nothing, they say, ought to be wiser than the laws; for no one is ignorant of medicine and the laws of health or of the pilot’s art and navigation, since anyone who pleases can learn [299d] the existing written rules and ancestral customs. Now if these regulations which I speak of were to be applied to these sciences, Socrates, and to strategy and every part of the entire art of hunting and to painting or every kind of imitation and to carpentry including every kind of utensil-making, or even to husbandry and all the art that is concerned with plants, or if we were to see an art of horse-breeding conducted by written rules, or herdsmanship in general or prophecy or everything that is included in the art of serving, [299e] or draught-playing or the whole science of number, whether arithmetic or plane geometry or solid geometry or problems of motion—what would you think of carrying on all these in such a way, by written rules and not by knowledge?
+Str. And then, in addition to all this, there will have to be a law that if anyone is found to be investigating the art of pilotage or navigation or the subject of health and true medical doctrine about winds and things hot and cold, contrary to the written rules, or to be indulging in any speculation whatsoever on such matters, he shall in the first place not be called a physician or a ship captain, but a star-gazer, [^22] a kind of loquacious sophist, and secondly anyone who is properly qualified may bring an accusation against him and hale him into court for corrupting the young and persuading them [299c] to attack the arts of navigation and medicine in opposition to the laws and to govern the ships and the sick according to their own will; and if he is found to be so persuading either young or old contrary to the laws and written rules, he shall suffer the most extreme penalties. Nothing, they say, ought to be wiser than the laws; for no one is ignorant of medicine and the laws of health or of the pilot’s art and navigation, since anyone who pleases can learn [299d] the existing written rules and ancestral customs. Now if these regulations which I speak of were to be applied to these sciences, Socrates, and to strategy and every part of the entire art of hunting and to painting or every kind of imitation and to carpentry including every kind of utensil-making, or even to husbandry and all the art that is concerned with plants, or if we were to see an art of horse-breeding conducted by written rules, or herdsmanship in general or prophecy or everything that is included in the art of serving, [299e] or draught-playing or the whole science of number, whether arithmetic or plane geometry or solid geometry or problems of motion—what would you think of carrying on all these in such a way, by written rules and not by knowledge?
 
-Y. Soc. Clearly all the arts would be utterly ruined, nor could they ever rise again, through the operation of the law prohibiting investigation; and so life, which is hard enough now, [300] [300a] would then become absolutely unendurable.
+Y. Soc. Clearly all the arts would be utterly ruined, nor could they ever rise again, through the operation of the law prohibiting investigation; and so life, which is hard enough now, [300a] would then become absolutely unendurable.
 
-[300] Str. Here is a further point. If we ordained that each of the aforesaid arts must be carried on by written rules and that the observance of our written rules be under the charge of the man who is elected or chosen by lot, but he should disregard the written rules and for the sake of some gain or to do a favor to some one should try to act contrary to them, without possessing any knowledge, would not this be a greater evil than the former?
+Str. Here is a further point. If we ordained that each of the aforesaid arts must be carried on by written rules and that the observance of our written rules be under the charge of the man who is elected or chosen by lot, but he should disregard the written rules and for the sake of some gain or to do a favor to some one should try to act contrary to them, without possessing any knowledge, would not this be a greater evil than the former?
 
 Y. Soc. Most assuredly.
 
-Str. Since the laws are made after long experience and after commissioners of some kind have carefully considered each detail with delicate skill and have persuaded the people to pass them, anyone, I fancy, who ventured to violate them would be involved in error many times greater than the first, and would cause even greater ruin than the written laws to all kinds of transactions.
+[300b] Str. Since the laws are made after long experience and after commissioners of some kind have carefully considered each detail with delicate skill and have persuaded the people to pass them, anyone, I fancy, who ventured to violate them would be involved in error many times greater than the first, and would cause even greater ruin than the written laws to all kinds of transactions.
 
 Y. Soc. Of course he would.
 
@@ -1414,7 +1407,7 @@ Str. These laws, then, written by men who know in so far as knowledge is possibl
 
 Y. Soc. Of course.
 
-Str. And yet we said, if we remember, that the man of knowledge, the real statesman, would by his art make many changes in his practice without regard to his writings, when he thought another course was better though it violated the rules he had written [300d] and sent to his absent subjects. See 295 E.
+Str. And yet we said, if we remember, that the man of knowledge, the real statesman, would by his art make many changes in his practice without regard to his writings, when he thought another course was better though it violated the rules he had written [300d] and sent to his absent subjects. [^23]
 
 Y. Soc. Yes, we did say that.
 
@@ -1430,11 +1423,11 @@ Str. And yet we agreed definitely a while ago that no multitude is able to acqui
 
 Y. Soc. Yes, that is definitely agreed.
 
-Str. Then if there is a kingly See 292 E. art, neither the collective body of the wealthy nor the whole people could ever acquire this science of statesmanship.
+Str. Then if there is a kingly [^24] art, neither the collective body of the wealthy nor the whole people could ever acquire this science of statesmanship.
 
 Y. Soc. No; certainly not.
 
-[301] Str. Such states, then, it seems, if they are to imitate well, so far as possible, that true form of government— [301] [301a] by a single ruler who rules with science—must never do anything in contravention of their existing written laws and ancestral customs.
+Str. Such states, then, it seems, if they are to imitate well, so far as possible, that true form of government— [301a] by a single ruler who rules with science—must never do anything in contravention of their existing written laws and ancestral customs.
 
 Y. Soc. You are quite right.
 
@@ -1446,7 +1439,7 @@ Str. And again, when one man rules according to laws [301b] and imitates the sci
 
 Y. Soc. Yes, I think we do.
 
-Str. Accordingly, if one man who is really scientific rules, he will assuredly be called by the same name, king, and by no other; and so the five names of what are now called the forms of government have become only one. What are called five distinct forms of government are resolved into one—the one right form of which all others are imitations (297 C). This is to be sought in some small number or one person (ibid.). We have found it in the really scientific monarchy, and the other so-called forms of government, being merely imitations of this, require no names of their own.
+Str. Accordingly, if one man who is really scientific rules, he will assuredly be called by the same name, king, and by no other; and so the five names of what are now called the forms of government have become only one. [^25]
 
 Y. Soc. So it seems, at least.
 
@@ -1462,7 +1455,7 @@ Str. But, as the case now stands, since, as we claim, no king is produced in our
 
 Y. Soc. Yes, I suppose we are.
 
-[302] Str. Can we wonder, then, Socrates, at all the evils that arise and are destined to arise in such kinds of government, when they are based upon such a foundation, and must conduct their affairs in accordance with written laws and with customs, without knowledge? [302] [302a] For every one can see that any other art built upon such a foundation would ruin all its works that are so produced. Ought we not rather to wonder at the stability that inheres in the state? For states have labored under such conditions for countless ages, nevertheless some of them are lasting and are not overthrown. Many, to be sure, like ships that founder at sea, are destroyed, have been destroyed, and will be destroyed hereafter, through the worthlessness of their captains and crews who have the greatest ignorance of the greatest things, [302b] men who have no knowledge of statesmanship, but think they have in every respect most perfect knowledge of this above all other sciences.
+Str. Can we wonder, then, Socrates, at all the evils that arise and are destined to arise in such kinds of government, when they are based upon such a foundation, and must conduct their affairs in accordance with written laws and with customs, without knowledge? [302a] For every one can see that any other art built upon such a foundation would ruin all its works that are so produced. Ought we not rather to wonder at the stability that inheres in the state? For states have labored under such conditions for countless ages, nevertheless some of them are lasting and are not overthrown. Many, to be sure, like ships that founder at sea, are destroyed, have been destroyed, and will be destroyed hereafter, through the worthlessness of their captains and crews who have the greatest ignorance of the greatest things, [302b] men who have no knowledge of statesmanship, but think they have in every respect most perfect knowledge of this above all other sciences.
 
 Y. Soc. Very true.
 
@@ -1470,7 +1463,7 @@ Str. Is it, then, our duty to see which of these not right forms of government i
 
 Y. Soc. Yes, it is our duty, of course.
 
-Str. Well then, you may say that of the three forms, the same is both the hardest and the easiest.
+[302c] Str. Well then, you may say that of the three forms, the same is both the hardest and the easiest.
 
 Y. Soc. What do you mean?
 
@@ -1482,11 +1475,11 @@ Str. Let us, then, by dividing each of these into two parts, make six, and by di
 
 Y. Soc. How shall we make the division?
 
-Str. We said that monarchy comprised royalty and tyranny, and the rule of the few comprised aristocracy, which has a name of good omen, and oligarchy; but to the rule of the many we gave then only a single name, democracy; now, however, that also must be divided.
+[302d] Str. We said that monarchy comprised royalty and tyranny, and the rule of the few comprised aristocracy, which has a name of good omen, and oligarchy; but to the rule of the many we gave then only a single name, democracy; now, however, that also must be divided.
 
 Y. Soc. How? On what principle shall we divide that?
 
-Str. On the same that we used for the others, though the name of this form is already twofold in meaning. The name is said to be twofold in meaning, probably because it was applied in cases in which there was a regularly constituted popular government and also in cases of mob rule. At any rate, the distinction between ruling according to law [302e] and without law applies alike to this and the rest.
+Str. On the same that we used for the others, though the name of this form is already twofold in meaning. [^26] At any rate, the distinction between ruling according to law [302e] and without law applies alike to this and the rest.
 
 Y. Soc. Yes, it does.
 
@@ -1496,17 +1489,17 @@ Y. Soc. So it seems, from what has been said.
 
 Str. Monarchy, then, when bound by good written rules, which we call laws, is the best of all the six; but without law it is hard and most oppressive to live with.
 
-[303] Y. Soc. I fancy it is.
+[303a] Y. Soc. I fancy it is.
 
-Str. But just as few is intermediate between one and a multitude, so the government of the few must be considered intermediate, both in good and in evil. But the government of the multitude is weak in all respects and able to do nothing great, either good or bad, when compared with the other forms of government, because in this the powers of government are distributed in small shares among many men; therefore of all these governments when they are lawful, this is the worst, and when they are all lawless it is the best; [303b] and if they are all without restraint, life is most desirable in a democracy, but if they are orderly, that is the worst to live in; but life in the first kind of state is by far the first and best, with the exception of the seventh, for that must be set apart from all the others, as God is set apart from men. The concentration of power in the hands of one man makes monarchy most efficient, but, since no human monarch is perfect, monarchy must be regulated by laws. Its efficiency makes it under such conditions the best government to live under. But without restraint of law monarchy becomes tyranny—the worst kind of oppression. Oligarchy occupies a position intermediate between monarchy and democracy—less efficient than the one and more efficient than the other, because power is distributed among a small number of persons—and is, therefore, when lawful less good, and when lawless less bad, than monarchy. Democracy, in turn, since power is too greatly subdivided, is inefficient, either for good or evil, and is, therefore, when lawful less good, and when lawless less bad, than either of the others.
+Str. But just as few is intermediate between one and a multitude, so the government of the few must be considered intermediate, both in good and in evil. But the government of the multitude is weak in all respects and able to do nothing great, either good or bad, when compared with the other forms of government, because in this the powers of government are distributed in small shares among many men; therefore of all these governments when they are lawful, this is the worst, and when they are all lawless it is the best; [303b] and if they are all without restraint, life is most desirable in a democracy, but if they are orderly, that is the worst to live in; but life in the first kind of state is by far the first and best, with the exception of the seventh, for that must be set apart from all the others, as God is set apart from men. [^27]
 
 Y. Soc. That statement appears to be true to the facts, and we must do as you say.
 
 Str. Then those who participate in all those governments with the exception of the scientific one—are to be eliminated [303c] as not being statesmen, but partisans and since they preside over the greatest counterfeits, they are themselves counterfeits, and since they are the greatest of imitators and cheats, they are the greatest of all sophists.
 
-Y. Soc. This term sophist seems to have come round quite rightly to the so-called statesmen.
+Y. Soc. This term “sophist” seems to have come round quite rightly to the so-called statesmen.
 
-Str. Well, this part has been exactly like a play. Just as we remarked a moment ago, 291 A. a festive troop of centaurs or satyrs was coming into view, which we had to separate from the art of statesmanship; [303d] and now we have succeeded in doing this, though it has been very difficult.
+Str. Well, this part has been exactly like a play. Just as we remarked a moment ago, [^28] a festive troop of centaurs or satyrs was coming into view, which we had to separate from the art of statesmanship; [303d] and now we have succeeded in doing this, though it has been very difficult.
 
 Y. Soc. So it seems.
 
@@ -1514,11 +1507,11 @@ Str. But another group remains, which is still more difficult to separate, becau
 
 Y. Soc. How so?
 
-Str. Why, the refiners first remove earth and stones and all that sort of thing; [303e] and after that there remain the precious substances which are mixed with the gold and akin to it and can be removed only by fire—copper and silver and sometimes adamant. Plat. Tim. 59 B, defines adamant as χρυσοῦ ὄζος a branch of gold. It was, then, a substance akin to gold. Platinum has been suggested. These are removed by the difficult processes of smelting and tests, leaving before our eyes what is called unalloyed gold in all its purity.
+Str. Why, the refiners first remove earth and stones and all that sort of thing; [303e] and after that there remain the precious substances which are mixed with the gold and akin to it and can be removed only by fire—copper and silver and sometimes adamant. [^29] These are removed by the difficult processes of smelting and tests, leaving before our eyes what is called unalloyed gold in all its purity.
 
 Y. Soc. Yes, that is said, at least, to be the process.
 
-[304] Str. By the same method I think all that is different and alien and incompatible has now been eliminated by us from the science of statesmanship, and what is precious and akin to it is left. Herein are included the arts [304] [304a] of the general and of the judge and that kind of oratory which partakes of the kingly art because it persuades men to justice and thereby helps to steer the ship of state. Now in what way shall we most easily eliminate these and show him whom we seek alone by himself and undisguised?
+Str. By the same method I think all that is different and alien and incompatible has now been eliminated by us from the science of statesmanship, and what is precious and akin to it is left. Herein are included the arts [304a] of the general and of the judge and that kind of oratory which partakes of the kingly art because it persuades men to justice and thereby helps to steer the ship of state. Now in what way shall we most easily eliminate these and show him whom we seek alone by himself and undisguised?
 
 Y. Soc. Clearly we must do this somehow.
 
@@ -1526,7 +1519,7 @@ Str. Then if it is a question of trying, he will be shown. But I think we had be
 
 Y. Soc. What is it?
 
-Str. Shall we agree that there is such a thing as learning music and the sciences of handicraft in general?
+[304b] Str. Shall we agree that there is such a thing as learning music and the sciences of handicraft in general?
 
 Y. Soc. There is.
 
@@ -1562,7 +1555,7 @@ Str. And that would, I think, be no other than the function of the statesman.
 
 Y. Soc. A most excellent conclusion.
 
-Str. So rhetoric also seems to have been quickly separated from statesmanship Cf. 303 C. [304e] as a different species, subservient to the other.
+Str. So rhetoric also seems to have been quickly separated from statesmanship [^30] [304e] as a different species, subservient to the other.
 
 Y. Soc. Yes.
 
@@ -1578,7 +1571,7 @@ Str. And the power which is able and knows how to deliberate and decide whether 
 
 Y. Soc. If we are consistent, we must assume that it is different.
 
-[305] Str. Shall we, then, assume that it controls the other, if we are to agree with our views in the former examples?
+[305a] Str. Shall we, then, assume that it controls the other, if we are to agree with our views in the former examples?
 
 Y. Soc. Yes.
 
@@ -1590,7 +1583,7 @@ Str. We shall, then, not call the art of the generals statesmanship, since it is
 
 Y. Soc. No; that would not be reasonable.
 
-Str. Now let us examine the function of the righteous judges.
+[305b] Str. Now let us examine the function of the righteous judges.
 
 Y. Soc. Certainly.
 
@@ -1608,17 +1601,17 @@ Y. Soc. Right.
 
 Str. Therefore those arts which we have just described, as they control neither one another nor themselves, but have each its own peculiar sphere of action, are quite properly called by special names corresponding to those special actions.
 
-Y. Soc. That appears, at least, to be the case.
+[305e] Y. Soc. That appears, at least, to be the case.
 
-Str. But the art which holds sway over them all and watches over the laws and all things in the state, weaving them all most perfectly together, we may, I think, by giving to its function a designation which indicates its power over the community, with full propriety call statecraft.
+Str. But the art which holds sway over them all and watches over the laws and all things in the state, weaving them all most perfectly together, we may, I think, by giving to its function a designation which indicates its power over the community, with full propriety call “statecraft.”
 
 Y. Soc. Most assuredly.
 
-Str. Shall we then proceed to discuss it after the model supplied by weaving, See 287-290, 303-305. now that all the classes in the state have been made plain to us?
+Str. Shall we then proceed to discuss it after the model supplied by weaving, [^31] now that all the classes in the state have been made plain to us?
 
 Y. Soc. By all means.
 
-[306] Str. Then the kingly process of weaving must be described, [306] [306a] its nature, the manner in which it combines the threads, and the kind of web it produces.
+Str. Then the kingly process of weaving must be described, [306a] its nature, the manner in which it combines the threads, and the kind of web it produces.
 
 Y. Soc. Evidently.
 
@@ -1630,7 +1623,7 @@ Str. It is difficult, for the assertion that one part of virtue is in a way at v
 
 Y. Soc. I do not understand.
 
-Str. I will say it again in another way. I suppose you believe [306b] that courage The word ἀνδρεία has a much wider meaning than the English courage. Like the Latin virtus, it embraces all qualities which are desirable in a perfect man, especially the more active and positive virtues. When applied to one particular kind of virtue it is applied to courage, but throughout this discussion it is used in the wider sense, for which there is no single English equivalent. is one part of virtue.
+Str. I will say it again in another way. I suppose you believe [306b] that courage [^32] is one part of virtue.
 
 Y. Soc. Certainly.
 
@@ -1668,7 +1661,7 @@ Y. Soc. Not in the least.
 
 Str. I wonder if I can express to you in words what I have in mind.
 
-Y. Soc. Why not?
+[306e] Y. Soc. Why not?
 
 Str. You seem to think that is an easy thing to do. However, let us consider the matter as it appears in the opposite classes. For example, when we admire, as we frequently do in many actions, quickness and energy and acuteness of mind or body or even of voice, we express our praise of them by one word, courage.
 
@@ -1678,7 +1671,7 @@ Str. We say acute and courageous in the first instance, also quick and courageou
 
 Y. Soc. Yes, we do.
 
-[307] Str. But do we not also praise [307] [307a] the gentle type of movement in many actions?
+Str. But do we not also praise [307a] the gentle type of movement in many actions?
 
 Y. Soc. We do, decidedly.
 
@@ -1686,7 +1679,7 @@ Str. And in doing so, do we not say the opposite of what we said about the other
 
 Y. Soc. How is that?
 
-Str. We are always saying How quiet! and How restrained! when we are admiring the workings of the mind, and again we speak of actions as slow and gentle, of the voice as smooth and deep, and of every rhythmic motion and of music in general as having appropriate slowness; [307b] and we apply to them all the term which signifies, not courage, but decorum.
+Str. We are always saying “How quiet!” and “How restrained!” when we are admiring the workings of the mind, and again we speak of actions as slow and gentle, of the voice as smooth and deep, and of every rhythmic motion and of music in general as having appropriate slowness; [307b] and we apply to them all the term which signifies, not courage, but decorum.
 
 Y. Soc. Very true.
 
@@ -1706,13 +1699,13 @@ Str. Now this opposition of these two classes is mere child’s play but when it
 
 Y. Soc. What matters does it affect?
 
-Str. The whole course of life, in all probability. For those who are especially decorous are ready to live always a quiet and retired life and to mind their own business; this is the manner of their intercourse with every one at home, and they are equally ready at all times to keep peace in some way or other with foreign states. And because of this desire of theirs, which is often inopportune and excessive, when they have their own way they quite unconsciously become unwarlike, and they make the young men unwarlike also; they are at the mercy of aggressors; and thus in a few years they [308] [308a] and their children and the whole state often pass by imperceptible degrees from freedom to slavery.
+[307e] Str. The whole course of life, in all probability. For those who are especially decorous are ready to live always a quiet and retired life and to mind their own business; this is the manner of their intercourse with every one at home, and they are equally ready at all times to keep peace in some way or other with foreign states. And because of this desire of theirs, which is often inopportune and excessive, when they have their own way they quite unconsciously become unwarlike, and they make the young men unwarlike also; they are at the mercy of aggressors; and thus in a few years they [308a] and their children and the whole state often pass by imperceptible degrees from freedom to slavery.
 
-[308] Y. Soc. That is a hard and terrible experience.
+Y. Soc. That is a hard and terrible experience.
 
 Str. But how about those who incline towards courage? Do they not constantly urge their countries to war, because of their excessive desire for a warlike life? Do they not involve them in hostilities with many powerful opponents and either utterly destroy their native lands or enslave and subject them to their foes?
 
-Y. Soc. Yes, that is true, too.
+[308b] Y. Soc. Yes, that is true, too.
 
 Str. Then in these examples how can we deny that these two classes are always filled with the greatest hostility and opposition to one another?
 
@@ -1726,7 +1719,7 @@ Str. Let us then take up another question.
 
 Y. Soc. What question?
 
-Str. Whether any constructive science voluntarily composes any, even the most worthless, of its works out of good and bad materials, or every science invariably rejects the bad, so far as possible, taking only the materials which are good and fitting, out of which, whether they be like or unlike, it gathers all elements together and produces one form or value.
+[308c] Str. Whether any constructive science voluntarily composes any, even the most worthless, of its works out of good and bad materials, or every science invariably rejects the bad, so far as possible, taking only the materials which are good and fitting, out of which, whether they be like or unlike, it gathers all elements together and produces one form or value.
 
 Y. Soc. The latter, of course.
 
@@ -1734,7 +1727,7 @@ Str. Then neither will the true natural art of statecraft [308d] ever voluntaril
 
 Y. Soc. Certainly.
 
-[309] Str. In the same way I think the kingly art, keeping for itself the function of supervision, will not allow the duly appointed teachers and foster fathers to give any training, unless they can thereby produce characters suitable to the constitution it is creating, but in these things only it exhorts them to give instruction. And those men who have no capacity for courage and self-restraint and the other qualities which tend towards virtue, but by the force of an evil nature are carried away into godlessness, [309] [309a] violence, and injustice, it removes by inflicting upon them the punishments of death and exile and deprivation of the most important civic rights.
+Str. In the same way I think the kingly art, keeping for itself the function of supervision, will not allow the duly appointed teachers and foster fathers to give any training, unless they can thereby produce characters suitable to the constitution it is creating, but in these things only it exhorts them to give instruction. And those men who have no capacity for courage and self-restraint and the other qualities which tend towards virtue, but by the force of an evil nature are carried away into godlessness, [309a] violence, and injustice, it removes by inflicting upon them the punishments of death and exile and deprivation of the most important civic rights.
 
 Y. Soc. That is about what people say, at any rate.
 
@@ -1746,7 +1739,7 @@ Str. As for the rest of the people, those whose natures are capable, if they get
 
 Y. Soc. In what manner?
 
-Str. First it binds the eternal part of their souls with a divine bond, to which that part is akin, and after the divine it binds the animal part of them with human bonds.
+[309c] Str. First it binds the eternal part of their souls with a divine bond, to which that part is akin, and after the divine it binds the animal part of them with human bonds.
 
 Y. Soc. Again I ask What do you mean?
 
@@ -1774,15 +1767,15 @@ Str. Then can we say that such interweaving and binding together of the bad with
 
 Y. Soc. Of course not.
 
-[310] Str. But we may say that in those only who were of noble nature from their birth and have been nurtured as befits such natures it is implanted by the laws, and for them this is the medicine prescribed by science, and, as we said before, this bond which unites unlike and divergent parts of virtue is more divine.
+[310a] Str. But we may say that in those only who were of noble nature from their birth and have been nurtured as befits such natures it is implanted by the laws, and for them this is the medicine prescribed by science, and, as we said before, this bond which unites unlike and divergent parts of virtue is more divine.
 
 Y. Soc. Very true.
 
 Str. The remaining bonds, moreover, being human, are not very difficult to devise or, after one has devised them, to create, when once this divine bond exists.
 
-Y. Soc. How so? And what are the bonds?
+[310b] Y. Soc. How so? And what are the bonds?
 
-Str. Those made between states concerning intermarriages and the sharing of children by adoption, More or less equivalent to naturalization. It apparently means the adoption into one state of children born to citizens of another. This was not, as a rule, practiced in the Greek city states, but Plato here seems to recommend it. and those relating to portionings and marriages within the state. For most people make such bonds without proper regard to the procreation of children.
+Str. Those made between states concerning intermarriages and the sharing of children by adoption, [^33] and those relating to portionings and marriages within the state. For most people make such bonds without proper regard to the procreation of children.
 
 Y. Soc. How is that?
 
@@ -1810,7 +1803,7 @@ Str. But the soul, on the other hand, that is too full of modesty and contains n
 
 Y. Soc. That also is likely to happen.
 
-[311] Str. It was these bonds, then, that I said there was no difficulty in creating, provided that both classes have one and the same opinion about the honorable and the good. For indeed the whole business of the kingly weaving is comprised in this and this alone,—in never allowing the self-restrained characters to be separated from the courageous, but in weaving them together by common beliefs and honors and dishonors and opinions and interchanges of pledges, thus making of them a smooth and, as we say, well-woven fabric, [311] [311a] and then entrusting to them in common for ever the offices of the state.
+Str. It was these bonds, then, that I said there was no difficulty in creating, provided that both classes have one and the same opinion about the honorable and the good. For indeed the whole business of the kingly weaving is comprised in this and this alone,—in never allowing the self-restrained characters to be separated from the courageous, but in weaving them together by common beliefs and honors and dishonors and opinions and interchanges of pledges, thus making of them a smooth and, as we say, well-woven fabric, [311a] and then entrusting to them in common for ever the offices of the state.
 
 Y. Soc. How is that to be done?
 
@@ -1818,7 +1811,7 @@ Str. When one official is needed, by choosing a president who possesses both qua
 
 Y. Soc. That also seems, at least, to be true.
 
-Str. The courageous natures, on the other hand, are deficient in justice and caution in comparison with the former, but excel in boldness of action; and unless both these qualities are present it is impossible for a state to be entirely prosperous in public and private matters.
+[311b] Str. The courageous natures, on the other hand, are deficient in justice and caution in comparison with the former, but excel in boldness of action; and unless both these qualities are present it is impossible for a state to be entirely prosperous in public and private matters.
 
 Y. Soc. Yes, certainly.
 
@@ -1826,6 +1819,36 @@ Str. This, then, is the end, let us declare, of the web of the statesman’s act
 
 Y. Soc. You have given us, Stranger, a most complete and admirable treatment of the king and the statesman.
 
----
-
-*Ὁ Διαφορεύς παρῆν*
+[^1]: Theodorus was from Cyrene, not far from the oasis of Ammon.
+[^2]: i.e. one class is to be separated and then all the rest are to be marked as one other class—the familiar division into two parts.
+[^3]: The word diameter here denotes the diagonal of a square. The early Greek mathematicians worked out their arithmetical problems largely by geometrical methods (cf. Plat. Theaet. 147 D ff). The diagonal of the unit square (√2) was naturally of especial interest. It was called sometimes, as here simply ἡ διάμετρος, sometimes, as just below,ἡ διάμετρος ἡ δυνάμει δίπους, or, more briefly,ἡ διάμετρος δίπους. Given a square the side of which is the unit (i.e. one square foot), the length of the diagonal will be √2 and the square constructed with that diagonal as its side will contain two square feet. The length of the diagonal of this square will be √4=2 feet, and its area will be four square feet.
+[^4]: There is here a play upon words. Man, being a two-footed (δίπους) animal, is compared to the diagonal of the unit square (√2,διάμετρος δίπους).
+[^5]: i.e. the remaining species is four-footed. Our diameter is √2, and four is the area of the square constructed on the diagonal of the square which has √2 as its side. All this satirizes the tendency of contemporary thinkers to play with numbers.
+[^6]: The animal referred to is the pig. See P. Shorey, Classical Philology,1917, July, p. 308.
+[^7]: i.e. the swineherd, the pig belonging to γένει εὐχερεστάτῳ.
+[^8]: See Plat. Soph. 227B.
+[^9]: Hermes revenged upon the Pelopidae the death of his son Myrtilus by causing a lamb with golden fleece to be born among the flocks of Atreus. When his claim to the succession was disputed, Atreus promised to show this prodigy to prove that the gods were on his side. Thyestes persuaded Aerope, the wife of Atreus, to give him the lamb, and Atreus was in danger of losing his kingdom, had not Zeus, who favored his claim, made the sun and the Pleiades return from their setting towards their rising. This is the form of the story given in a scholium on Eur. Orest. 988, and Plato seems to have this form in mind, though variants existed. The lamb was a token (σημεῖον) of the favor of the gods, and the changed course of the sun and stars was a testimony (μαρτυρήσας) to the right of Atreus.
+[^10]: The tale of Atreus introduces the fanciful theory of the reversal of the revolution of the heavenly bodies, and this, especially in an age when the stars were believed to exercise a direct influence upon mankind and other creatures, naturally brings with it the reversal of all processes of growth. This leads to a new birth of mankind, and the Stranger then briefly describes the age of innocence, the fall of man and the barbarism that follows, and the partial restoration of man through divine interposition and the gift of the various arts of civilization. Plato does not offer this as a real explanation of the existing condition of the world, but it serves, like the myths introduced in other dialogues to present, in connection with accepted mythology, a theory which may account for some of the facts of life.
+[^11]: This may refer to philosophers (cf. Plat. Phaedo 82c) or, more probably, to those who, like Menelaus, were transferred to the abode of the blessed, or, like Heracles, became gods. Such individuals would be exempt from the consequences of any subsequent reversal of the World’s revolution.
+[^12]: The fellow-artisan of Hephaestus is Athena; seeds and plants are the gifts of Demeter and Dionysus.
+[^13]: i.e. the nature of example is to be explained below by means of an example. The example of the letters of the alphabet is employed also in the Plat. Theaet. 202 ff, but the Stranger cannot properly refer to that, as he was not present at the time. Or is this a dramatic slip on Plato’s part?
+[^14]: There is here a play on the words παρα-τιθέμενα δειχθῇ, δειχθέντα δέ, παρα-δείγματα Placed beside, they are shown and being shown, they become paradigms, i.e. objects of comparison, i.e. examples.
+[^15]: The weaver’s rod (for the Greeks appear to have used a rod, not a comb) was used to drive the threads of the woof close together, and also to keep the threads of the warp and woof distinct (cf. Plat. Crat. 388a). All the processes here described, familiar as they were to the ancients, have been done away with, or, at least, greatly modified, in Europe and America by the modern methods of industry.
+[^16]: i.e. the pull (ὁλκή)of the carder’s comb was less strong in the preparation of the threads of the woof than in that of the threads of the warp.
+[^17]: Plat. Soph. 235
+[^18]: i.e. relations to each other and relations to the standard of the mean.
+[^19]: See Plat. theaet. 283, Plat. Theaet. 277, Plat. Soph. 261
+[^20]: The second in order of the nine annual archons.
+[^21]: Cf. Hom. Il. 12.514: ἰητρὸς γὰρ ἀνὴρ πολλῶν ἀντάξιος ἄλλων. The image of the physician was used above, 293. The image of the captain (for the Greek κυβερνήτης had an importance commensurate with that of the captain, rather than of the pilot, in modern times) has just been used. See also Plat. Rep. 6.488 A; Plat. Laws 12.963 B.
+[^22]: This passage obviously refers to the trial of Socrates. The word μετέωρα was used by those who made all sorts of general accusations against Socrates (see Plat. Apol. 18 B, 19 B, with its reference to the Clouds of Aristophanes), and the reference of the words διαφθείροντα ἄλλους νεωτέρους to the accusation brought against him by Miletus, Anytus, and Lycon (Plat. Apol. 24 C: φησὶ γὰρ δὴ τοὺς νέους ἀδικεῖν με διαφθείροντα) is perfectly plain.
+[^23]: See 295 E.
+[^24]: See 292 E.
+[^25]: What are called five distinct forms of government are resolved into one—the one right form of which all others are imitations (297 C). This is to be sought in some small number or one person (ibid.). We have found it in the really scientific monarchy, and the other so-called forms of government, being merely imitations of this, require no names of their own.
+[^26]: The name is said to be twofold in meaning, probably because it was applied in cases in which there was a regularly constituted popular government and also in cases of mob rule.
+[^27]: The concentration of power in the hands of one man makes monarchy most efficient, but, since no human monarch is perfect, monarchy must be regulated by laws. Its efficiency makes it under such conditions the best government to live under. But without restraint of law monarchy becomes tyranny—the worst kind of oppression. Oligarchy occupies a position intermediate between monarchy and democracy—less efficient than the one and more efficient than the other, because power is distributed among a small number of persons—and is, therefore, when lawful less good, and when lawless less bad, than monarchy. Democracy, in turn, since power is too greatly subdivided, is inefficient, either for good or evil, and is, therefore, when lawful less good, and when lawless less bad, than either of the others.
+[^28]: 291 A.
+[^29]: Plat. Tim. 59 B, defines adamant as χρυσοῦ ὄζος a branch of gold. It was, then, a substance akin to gold. Platinum has been suggested.
+[^30]: Cf. 303 C.
+[^31]: See 287-290, 303-305.
+[^32]: The word ἀνδρεία has a much wider meaning than the English courage. Like the Latin virtus, it embraces all qualities which are desirable in a perfect man, especially the more active and positive virtues. When applied to one particular kind of virtue it is applied to courage, but throughout this discussion it is used in the wider sense, for which there is no single English equivalent.
+[^33]: More or less equivalent to naturalization. It apparently means the adoption into one state of children born to citizens of another. This was not, as a rule, practiced in the Greek city states, but Plato here seems to recommend it.

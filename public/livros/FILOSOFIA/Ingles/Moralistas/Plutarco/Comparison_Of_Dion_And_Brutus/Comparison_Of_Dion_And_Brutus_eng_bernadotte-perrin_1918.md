@@ -1,36 +1,28 @@
 ---
 id: plutarco-comparison-of-dion-and-brutus-eng-bernadotte-perrin-1918
-type: texto_primario
-title: "Comparison of Dion and Brutus"
-subtitle: null
+type: translation
+title: Comparison of Dion and Brutus
 author: Plutarch
-year_original: null
-language: eng
-translation:
-  - Bernadotte Perrin
+translator:
+- Bernadotte Perrin
 publisher: Harvard University Press
-area: null
-era: null
-tags: []
-status: rascunho
+language: eng
+tags:
+- moralists
+status: draft
 project: pedra_angular
-source: "Plutarch. Comparison of Dion and Brutus. Ed. Bernadotte Perrin. Cambridge, MA: Harvard University Press, 1918. Perseus Digital Library, Tufts University (CC BY-SA 4.0). URN: null"
-related: []
+urn_work: urn:cts:greekLit:tlg0007.tlg062
+urn: urn:cts:greekLit:tlg0007.tlg062.perseus-eng2
+source: 'Plutarch. Comparison of Dion and Brutus. Ed. Bernadotte Perrin. Cambridge, MA: Harvard University Press, 1918. Perseus Digital Library, Tufts University (CC BY-SA 4.0).'
+source_repo: PerseusDL/canonical-greekLit
+source_file: data/tlg0007/tlg062/tlg0007.tlg062.perseus-eng2.xml
+source_commit: e37eed2e8
+license: CC-BY-SA-4.0
 ---
 
 # Comparison of Dion and Brutus
 
-**Plutarch**
-
-Cambridge, MA: Harvard University Press, 1918.
-Perseus Digital Library, Tufts University (CC BY-SA 4.0).
-URN: `null`
-
----
-
-## Texto
-
-### Capítulo 1
+#### Capítulo 1
 
 [1.1] We see, therefore, that both men had many noble traits, and especially that they rose to the greatest heights from the most inconsiderable beginnings; but this is most to the credit of Dion.
 
@@ -46,7 +38,7 @@ URN: `null`
 
 [1.7] whereas Dion was living with greater confidence and pleasure in his banishment than the tyrant who banished him, and yet of his own accord he hazarded a peril so great in order to save Sicily.
 
-### Capítulo 2
+#### Capítulo 2
 
 [2.1] And verily it was not a like thing for Syracuse to be rid of Dionysius and Rome of Caesar. For Dionysius was even an avowed tyrant, and filled Sicily with countless ills;
 
@@ -54,7 +46,7 @@ URN: `null`
 
 [2.3] Therefore the Roman people felt at once a yearning for Caesar, and in consequence became harsh and implacable towards his murderers; whereas Dion, for letting Dionysius escape from Syracuse, and for not demolishing the tomb of the former tyrant, was held most culpable by his countrymen.
 
-### Capítulo 3
+#### Capítulo 3
 
 [3.1] Next, as regards their actual military achievements, Dion was a consummate general; where he himself made the plans, he achieved the best results, and where failure was due to others, he restored and bettered the situation.
 
@@ -78,7 +70,7 @@ URN: `null`
 
 [3.11] but the enemies of Brutus were wont to say that of all the conspirators against Caesar he alone had one aim from first to last, namely the restoration to the Romans of their ancient form of government.
 
-### Capítulo 4
+#### Capítulo 4
 
 [4.1] However, apart from these considerations, the struggle against Dionysius was surely unlike that against Caesar.
 
@@ -96,16 +88,12 @@ URN: `null`
 
 [4.8] And in fact Plato censures him for choosing such friends as proved his ruin.
 
-### Capítulo 5
+#### Capítulo 5
 
 [5.1] Further, no one arose to avenge Dion’s death; but in the case of Brutus, Antony, an enemy, gave him illustrious burial, and Octavius, an enemy, actually took care to preserve his honours.
 
 [5.2] For a bronze statue of him stood in Mediolanum in Cisalpine Gaul. This statue, at a later time, Octavius noticed as he passed by, for it was a good likeness and an artistic piece of work; then stopping, after a little, in the hearing of many he summoned the magistrates and declared that he had caught their city violating its treaty and harbouring an enemy of his.
 
-[5.3] At first, then, as was natural, they denied it, and looked at one another in perplexity, not knowing what he meant. Then Octavius, turning to the statue and knitting his brows, said: Well, is not this an enemy of mine who stands here? At this, the magistrates were still more dumbfounded and held their peace.
+[5.3] At first, then, as was natural, they denied it, and looked at one another in perplexity, not knowing what he meant. Then Octavius, turning to the statue and knitting his brows, said: “Well, is not this an enemy of mine who stands here?” At this, the magistrates were still more dumbfounded and held their peace.
 
 [5.4] But Octavius, with a smile, praised the Gauls because they were true to their friends even in adversity, and gave orders that the statue should remain where it was.
-
----
-
-*Ὁ Διαφορεύς παρῆν*

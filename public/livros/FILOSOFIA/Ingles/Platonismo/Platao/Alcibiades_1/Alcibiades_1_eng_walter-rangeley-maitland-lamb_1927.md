@@ -1,38 +1,31 @@
 ---
 id: platao-alcibiades-1-eng-walter-rangeley-maitland-lamb-1927
-type: texto_primario
-title: "Alcibiades 1"
-subtitle: null
+type: translation
+title: Alcibiades 1
 author: Plato
-year_original: null
-language: eng
-translation:
-  - Walter Rangeley Maitland Lamb
+translator:
+- Walter Rangeley Maitland Lamb
 publisher: Harvard University Press
-area: null
-era: null
-tags: []
-status: rascunho
+language: eng
+tags:
+- classical-philosophy
+- platonism
+status: draft
 project: pedra_angular
-source: "Plato. Alcibiades 1. Ed. Walter Rangeley Maitland Lamb. Cambridge, MA: Harvard University Press, 1927. Perseus Digital Library, Tufts University (CC BY-SA 4.0). URN: null"
-related: []
+urn_work: urn:cts:greekLit:tlg0059.tlg013
+urn: urn:cts:greekLit:tlg0059.tlg013.perseus-eng2
+source: 'Plato. Alcibiades 1. Ed. Walter Rangeley Maitland Lamb. Cambridge, MA: Harvard University Press, 1927. Perseus Digital Library, Tufts University (CC BY-SA 4.0).'
+source_repo: PerseusDL/canonical-greekLit
+source_file: data/tlg0059/tlg013/tlg0059.tlg013.perseus-eng2.xml
+source_commit: e37eed2e8
+license: CC-BY-SA-4.0
 ---
 
 # Alcibiades 1
 
-**Plato**
+[103a] Soc. Son of Cleinias, I think it must surprise you that I, the first of all your lovers, am the only one of them who has not given up his suit and thrown you over, and whereas they have all pestered you with their conversation I have not spoken one word to you for so many years. The cause of this has been nothing human, but a certain spiritual opposition, [^1] of whose power you shall be informed at some later time. However, it now opposes me no longer, [103b] so I have accordingly come to you; and I am in good hopes that it will not oppose me again in the future. Now I have been observing you all this time, and have formed a pretty good notion of your behavior to your lovers: for although they were many and high-spirited, everyone of them has found your spirit too strong for him and has run away.
 
-Cambridge, MA: Harvard University Press, 1927.
-Perseus Digital Library, Tufts University (CC BY-SA 4.0).
-URN: `null`
-
----
-
-## Texto
-
-[103] Soc. Son of Cleinias, I think it must surprise you that I, the first of all your lovers, am the only one of them who has not given up his suit and thrown you over, and whereas they have all pestered you with their conversation I have not spoken one word to you for so many years. The cause of this has been nothing human, but a certain spiritual opposition, Socrates refers to the spiritual sign which occasionally warned him against an intended action: cf. Plat. Apol. 31c-d, Plat. Apol. 40a-b. of whose power you shall be informed at some later time. However, it now opposes me no longer, [103b] so I have accordingly come to you; and I am in good hopes that it will not oppose me again in the future. Now I have been observing you all this time, and have formed a pretty good notion of your behavior to your lovers: for although they were many and high-spirited, everyone of them has found your spirit too strong for him and has run away.
-
-[104] Soc. Let me explain the reason of your spirit being too much for them. You say you have no need of any man in any matter; for your resources are so great, beginning with the body and ending with the soul, that you lack nothing. You think, in the first place, that you are foremost in beauty and stature—and you are not mistaken in this, as is plain for all to see—and in the second place, that you are of the most gallant family in your city, the greatest city in Greece, and [104b] that there you have, through your father, very many of the best people as your friends and kinsmen, who would assist you in case of need, and other connections also, through your mother, who are not a whit inferior to these, nor fewer. And you reckon upon a stronger power than all those that I have mentioned, in Pericles, son of Xanthippus, whom your father left as guardian of you and your brother when he died, and who is able to do whatever he likes not only in this city but all over Greece and among many great nations of the barbarians. [104c] And I will add besides the wealth of your house: but on this, I observe, you presume least of all. Well, you puff yourself up on all these advantages, and have overcome your lovers, while they in their inferiority have yielded to your might, and all this has not escaped you; so I am very sure that you wonder what on earth I mean by not getting rid of my passion, and what can be my hope in remaining when the rest have fled.
+[104a] Soc. Let me explain the reason of your spirit being too much for them. You say you have no need of any man in any matter; for your resources are so great, beginning with the body and ending with the soul, that you lack nothing. You think, in the first place, that you are foremost in beauty and stature—and you are not mistaken in this, as is plain for all to see—and in the second place, that you are of the most gallant family in your city, the greatest city in Greece, and [104b] that there you have, through your father, very many of the best people as your friends and kinsmen, who would assist you in case of need, and other connections also, through your mother, who are not a whit inferior to these, nor fewer. And you reckon upon a stronger power than all those that I have mentioned, in Pericles, son of Xanthippus, whom your father left as guardian of you and your brother when he died, and who is able to do whatever he likes not only in this city but all over Greece and among many great nations of the barbarians. [104c] And I will add besides the wealth of your house: but on this, I observe, you presume least of all. Well, you puff yourself up on all these advantages, and have overcome your lovers, while they in their inferiority have yielded to your might, and all this has not escaped you; so I am very sure that you wonder what on earth I mean by not getting rid of my passion, and what can be my hope in remaining when the rest have fled.
 
 Alc. Perhaps also, Socrates, you are not aware that [104d] you have only just anticipated me. For I, in fact, had the intention of coming and asking you first that very same question—what is your aim and expectation in bothering me by making a particular point of always turning up wherever I may be. For I really do wonder what can be your object, and should be very glad if you would tell me.
 
@@ -40,15 +33,15 @@ Soc. Then you will listen to me, presumably, with keen attention if, as you say,
 
 Alc. Why, to be sure: only speak.
 
-Soc. Look to it, then; for it would be no wonder if I should make as much difficulty about stopping as I have made about starting.
+[104e] Soc. Look to it, then; for it would be no wonder if I should make as much difficulty about stopping as I have made about starting.
 
 Alc. My good sir, speak; for I will listen.
 
-[105] Soc. Speak I must, I suppose. Now, although it is hard for a lover to parley with a man who does not yield to lovers, I must make bold nevertheless to put my meaning into words. For if I saw you, Alcibiades, content with the things I set forth just now, and minded to pass your life in enjoying them, I should long ago have put away my love, [105] [105a] so at least I persuade myself: but as it is, I shall propound to your face quite another set of your thoughts, whereby you will understand that I have had you continually before my mind. For I believe, if some god should ask you: Alcibiades, do you prefer to live with your present possessions, or to die immediately if you are not to have the chance of acquiring greater things? I believe you would choose to die. But let me tell you what I imagine must be the present hope of your life. You think that if you come shortly before the Athenian Assembly—which [105b] you expect to occur in a very few days—you will stand forth and prove to the people that you are more worthy of honor than either Pericles or anyone else who has ever existed, and that having proved this you will have the greatest power in the state; and that if you are the greatest here, you will be the same among all the other Greeks, and not only Greeks, but all the barbarians who inhabit the same continent with us. And if that same god should say to you again, that you are to hold sway here in Europe, [105c] but are not to be allowed to cross over into Asia and to interfere with the affairs of that region, I believe you would be equally loth to live on those sole conditions either—if you are not to fill, one may say, the whole world with your name and your power; and I fancy that, except Cyrus and Xerxes, you think there has never existed a single man who was of any account. So then that this is your hope, I know well enough; I am not merely guessing. And I daresay you will reply, since you know that what I say is true: Well, [105d] Socrates, and what has that to do with your point? I am going to tell you, dear son of Cleinias and Deinomache. Without me it is impossible for all those designs of yours to be crowned with achievement; so great is the power I conceive myself to have over your affairs and over you, and it is for this very reason, I believe, that the god has so long prevented me from talking with you, and I was waiting to see when he would allow me. For as [105e] you have hopes of proving yourself in public to be invaluable to the state and, having proved it, of winning forthwith unlimited power, so do I hope to win supreme power over you by proving that I am invaluable to you, and that neither guardian nor kinsman nor anyone else is competent to transmit to you the power that you long for except me, with the god’s help, however. In your younger days, to be sure, before you had built such high hopes, the god, as I believe, prevented me from talking with you, in order that I might not waste my words: but now he has set me on; [106] [106a] for now you will listen to me.
+Soc. Speak I must, I suppose. Now, although it is hard for a lover to parley with a man who does not yield to lovers, I must make bold nevertheless to put my meaning into words. For if I saw you, Alcibiades, content with the things I set forth just now, and minded to pass your life in enjoying them, I should long ago have put away my love, [105a] so at least I persuade myself: but as it is, I shall propound to your face quite another set of your thoughts, whereby you will understand that I have had you continually before my mind. For I believe, if some god should ask you: “Alcibiades, do you prefer to live with your present possessions, or to die immediately if you are not to have the chance of acquiring greater things?” I believe you would choose to die. But let me tell you what I imagine must be the present hope of your life. You think that if you come shortly before the Athenian Assembly—which [105b] you expect to occur in a very few days—you will stand forth and prove to the people that you are more worthy of honor than either Pericles or anyone else who has ever existed, and that having proved this you will have the greatest power in the state; and that if you are the greatest here, you will be the same among all the other Greeks, and not only Greeks, but all the barbarians who inhabit the same continent with us. And if that same god should say to you again, that you are to hold sway here in Europe, [105c] but are not to be allowed to cross over into Asia and to interfere with the affairs of that region, I believe you would be equally loth to live on those sole conditions either—if you are not to fill, one may say, the whole world with your name and your power; and I fancy that, except Cyrus and Xerxes, you think there has never existed a single man who was of any account. So then that this is your hope, I know well enough; I am not merely guessing. And I daresay you will reply, since you know that what I say is true: “Well, [105d] Socrates, and what has that to do with your point?” I am going to tell you, dear son of Cleinias and Deinomache. Without me it is impossible for all those designs of yours to be crowned with achievement; so great is the power I conceive myself to have over your affairs and over you, and it is for this very reason, I believe, that the god has so long prevented me from talking with you, and I was waiting to see when he would allow me. For as [105e] you have hopes of proving yourself in public to be invaluable to the state and, having proved it, of winning forthwith unlimited power, so do I hope to win supreme power over you by proving that I am invaluable to you, and that neither guardian nor kinsman nor anyone else is competent to transmit to you the power that you long for except me, with the god’s help, however. In your younger days, to be sure, before you had built such high hopes, the god, as I believe, prevented me from talking with you, in order that I might not waste my words: but now he has set me on; [106a] for now you will listen to me.
 
-[106] Alc. You seem to me far more extraordinary, Socrates, now that you have begun to speak, than before, when you followed me about in silence; though even then you looked strange enough. Well, as to my intending all this or not, you have apparently made your decision, and any denial of mine will not avail me to persuade you. Very good: but supposing I have intended ever so much what you say, how are you the sole means through which I can hope to attain it? Can you tell me?
+Alc. You seem to me far more extraordinary, Socrates, now that you have begun to speak, than before, when you followed me about in silence; though even then you looked strange enough. Well, as to my intending all this or not, you have apparently made your decision, and any denial of mine will not avail me to persuade you. Very good: but supposing I have intended ever so much what you say, how are you the sole means through which I can hope to attain it? Can you tell me?
 
-Soc. Are you asking whether I can make a long speech, such as you are used to hearing? No, my gift is not of that sort. But I fancy I could prove to you that the case is so, if you will consent to do me just one little service.
+[106b] Soc. Are you asking whether I can make a long speech, such as you are used to hearing? No, my gift is not of that sort. But I fancy I could prove to you that the case is so, if you will consent to do me just one little service.
 
 Alc. Why, if you mean a service that is not troublesome, I consent.
 
@@ -64,9 +57,9 @@ Soc. Well, you have the intentions [106c] which I say you have, I suppose?
 
 Alc. Be it so, if you like, in order that I may know what you will say next.
 
-Soc. Now then: you intend, as I say, to come forward as adviser to the Athenians in no great space of time; well, suppose I were to take hold of you as you were about to ascend the platform, and were to ask you: Alcibiades, on what subject do the Athenians propose to take advice, that you should stand up to advise them? Is it something about which you have better knowledge than they? What would be your reply?
+Soc. Now then: you intend, as I say, to come forward as adviser to the Athenians in no great space of time; well, suppose I were to take hold of you as you were about to ascend the platform, and were to ask you: “Alcibiades, on what subject do the Athenians propose to take advice, that you should stand up to advise them? Is it something about which you have better knowledge than they?” What would be your reply?
 
-Alc. I should say, I suppose, it was something about which I knew better than they.
+[106d] Alc. I should say, I suppose, it was something about which I knew better than they.
 
 Soc. Then you are a good adviser on things about which you actually know.
 
@@ -84,7 +77,7 @@ Soc. Well then, would you have been willing to inquire into or learn what you th
 
 Alc. No, indeed.
 
-Soc. So there was a time when you did not think that you knew what you now actually know.
+[106e] Soc. So there was a time when you did not think that you knew what you now actually know.
 
 Alc. There must have been.
 
@@ -92,7 +85,7 @@ Soc. Well, but I know pretty nearly the things that you have learnt: tell me if 
 
 Alc. No, I have taken no other lessons than those.
 
-[107] Soc. Then tell me, will it be when the Athenians are taking advice how they are to do their writing correctly that you are to stand up and advise them?
+[107a] Soc. Then tell me, will it be when the Athenians are taking advice how they are to do their writing correctly that you are to stand up and advise them?
 
 Alc. Upon my word, not I.
 
@@ -108,7 +101,7 @@ Soc. Then what will be the subject of the advice? For I presume it will not be a
 
 Alc. No, indeed.
 
-Soc. For a builder will give better advice than you in that matter.
+[107b] Soc. For a builder will give better advice than you in that matter.
 
 Alc. Yes.
 
@@ -144,7 +137,7 @@ Soc. Because, I imagine, you do not understand shipbuilding. Is that, and that a
 
 Alc. That is just the reason.
 
-Soc. Well, on what sort of affairs of their own do you mean that they will be deliberating?
+[107d] Soc. Well, on what sort of affairs of their own do you mean that they will be deliberating?
 
 Alc. On war, Socrates, or on peace, or on any other of the state’s affairs.
 
@@ -156,7 +149,7 @@ Soc. And on whom it is better to do so, ought they not?
 
 Alc. Yes.
 
-Soc. And at such time as it is better?
+[107e] Soc. And at such time as it is better?
 
 Alc. Certainly.
 
@@ -172,7 +165,7 @@ Soc. And can you tell me what the wrestling-master would have in view when he ad
 
 Alc. Yes.
 
-[108] Soc. And so far as is better, too?
+[108a] Soc. And so far as is better, too?
 
 Alc. So far.
 
@@ -192,7 +185,7 @@ Soc. And so far as is better?
 
 Alc. I agree.
 
-Soc. Well now, since you applied the term better to the two cases [108b] of harping for accompaniment of a song and close wrestling, what do you call the better in the case of harping, to correspond with what in the case of wrestling I call gymnastic? What do you call the other?
+Soc. Well now, since you applied the term “better” to the two cases [108b] of harping for accompaniment of a song and close wrestling, what do you call the “better” in the case of harping, to correspond with what in the case of wrestling I call gymnastic? What do you call the other?
 
 Alc. I do not understand.
 
@@ -204,7 +197,7 @@ Soc. And was not the art here gymnastic?
 
 Alc. To be sure.
 
-Soc. And I said that the better Socrates means by better or the better way the general method of attaining excellence in any art. in the case of wrestling was gymnastic.
+[108c] Soc. And I said that the better [^2] in the case of wrestling was gymnastic.
 
 Alc. You did.
 
@@ -212,7 +205,7 @@ Soc. And I was quite fair?
 
 Alc. I think so.
 
-Soc. Come then, in your turn—for it would befit you also, I fancy, to argue fairly Socrates here repeats καλῶς (which means handsomely as well as correctly) in allusion to Alcibiades’ good looks. Cf. Plat. Alc.1 113b—tell me, first, what is the art which includes harping and singing and treading the measure correctly? What is it called as a whole? You cannot yet tell me?
+Soc. Come then, in your turn—for it would befit you also, I fancy, to argue fairly [^3]—tell me, first, what is the art which includes harping and singing and treading the measure correctly? What is it called as a whole? You cannot yet tell me?
 
 Alc. No, indeed.
 
@@ -220,23 +213,23 @@ Soc. Well, try another way: who are the goddesses that foster the art?
 
 Alc. The Muses, you mean, Socrates?
 
-Soc. I do. Now, just think, and say by what name the art is called after them.
+[108d] Soc. I do. Now, just think, and say by what name the art is called after them.
 
-Alc. Music, Music with the Greeks included poetry and dancing as well as our music. I suppose you mean.
+Alc. Music, [^4] I suppose you mean.
 
 Soc. Yes, I do. And what is that which proceeds correctly by its rule? As in the other case I was correct in mentioning to you gymnastic as that which goes by the art, so I ask you, accordingly, what you say in this case. What manner of proceeding is required?
 
 Alc. A musical one, I suppose.
 
-Soc. You are right. Come then, what is it that you term better, in respect of what is better in waging war and being at peace? [108e] Just as in our other instances you said that the better implied the more musical and again, in the parallel case, the more gymnastical, try now if you can tell me what is the better in this case.
+Soc. You are right. Come then, what is it that you term “better,” in respect of what is better in waging war and being at peace? [108e] Just as in our other instances you said that the “better” implied the more musical and again, in the parallel case, the more gymnastical, try now if you can tell me what is the “better” in this case.
 
 Alc. But I am quite unable.
 
-[109] Soc. But surely that is disgraceful; for if you should speak to somebody as his adviser on food, and say that one sort was better than another, at this time and in this quantity, and he then asked you—What do you mean by the better, Alcibiades?—in a matter like that you could tell him you meant the more wholesome, although you do not set up to be a physician; yet in a case where you set up [109] [109a] to have knowledge and are ready to stand up and advise as though you knew, are you not ashamed to be unable, as appears, to answer a question upon it? Does it not seem disgraceful?
+Soc. But surely that is disgraceful; for if you should speak to somebody as his adviser on food, and say that one sort was better than another, at this time and in this quantity, and he then asked you—What do you mean by the “better,” Alcibiades?—in a matter like that you could tell him you meant the more wholesome, although you do not set up to be a physician; yet in a case where you set up [109a] to have knowledge and are ready to stand up and advise as though you knew, are you not ashamed to be unable, as appears, to answer a question upon it? Does it not seem disgraceful?
 
 Alc. Very.
 
-Soc. Then consider and do your best to tell me the connection of better in being at peace or at war with those to whom we ought to be so disposed.
+Soc. Then consider and do your best to tell me the connection of “better” in being at peace or at war with those to whom we ought to be so disposed.
 
 Alc. Well, I am considering, but I fail to perceive it.
 
@@ -254,7 +247,7 @@ Alc. Why, there you have all the difference in the world.
 
 Soc. Well then, on which sort are you going to advise the Athenians to make war—those who are acting unjustly, or those who are doing what is just?
 
-Alc. That is a hard question: for even if someone decides that he must go to war with those who are doing what is just, he would not admit that they were doing so.
+[109c] Alc. That is a hard question: for even if someone decides that he must go to war with those who are doing what is just, he would not admit that they were doing so.
 
 Soc. For that would not be lawful, I suppose?
 
@@ -264,11 +257,11 @@ Soc. So you too will appeal to these things in making your speeches?
 
 Alc. Necessarily.
 
-Soc. Then must not that better about which I was asking in reference to making or not making war, on those on whom we ought to or not, and when we ought to or not, be simply and solely the juster?
+Soc. Then must not that “better” about which I was asking in reference to making or not making war, on those on whom we ought to or not, and when we ought to or not, be simply and solely the juster?
 
 Alc. Apparently it is.
 
-Soc. How now, friend Alcibiades? Have you overlooked your own ignorance of this matter, or have I overlooked Cf. above, Plat. Alc.1 106e. your learning it and taking lessons of a master who taught you to distinguish the more just and the more unjust? And who is he? Inform me in my turn, in order that you may introduce me to him as another pupil.
+[109d] Soc. How now, friend Alcibiades? Have you overlooked your own ignorance of this matter, or have I overlooked [^5] your learning it and taking lessons of a master who taught you to distinguish the more just and the more unjust? And who is he? Inform me in my turn, in order that you may introduce me to him as another pupil.
 
 Alc. You are joking, Socrates.
 
@@ -288,7 +281,7 @@ Soc. I do, if you thought you did not know.
 
 Alc. And was there not a time when I held that view?
 
-[110] Soc. Well spoken. Then can you tell me at what time it was [110] [110a] that you thought you did not know what is just and unjust? Pray, was it a year ago that you were inquiring, and thought you did not know? Or did you think you knew? Please answer truly, that our debates may not be futile.
+Soc. Well spoken. Then can you tell me at what time it was [110a] that you thought you did not know what is just and unjust? Pray, was it a year ago that you were inquiring, and thought you did not know? Or did you think you knew? Please answer truly, that our debates may not be futile.
 
 Alc. Well, I thought I knew.
 
@@ -304,13 +297,13 @@ Soc. So I know well enough that then you thought you knew.
 
 Alc. How do you know it so well?
 
-Soc. Many a time I heard you, when as a child you were dicing or playing some other game at your teacher’s or elsewhere, instead of showing hesitation about what was just and unjust, speak in very loud and confident tones about one or other of your playmates, saying he was a rascal and a cheat who played unfairly. Is not this a true account?
+[110b] Soc. Many a time I heard you, when as a child you were dicing or playing some other game at your teacher’s or elsewhere, instead of showing hesitation about what was just and unjust, speak in very loud and confident tones about one or other of your playmates, saying he was a rascal and a cheat who played unfairly. Is not this a true account?
 
 Alc. But what was I to do, Socrates, when somebody cheated me?
 
-Soc. Yet if you were ignorant then whether you were being unfairly treated or not, how can you ask—What are you to do?
+Soc. Yet if you were ignorant then whether you were being unfairly treated or not, how can you ask—“What are you to do?”
 
-Alc. Well, but on my word, I was not ignorant: no, I clearly understood that I was being wronged.
+[110c] Alc. Well, but on my word, I was not ignorant: no, I clearly understood that I was being wronged.
 
 Soc. So you thought you knew, even as a child, it seems, what was just and unjust.
 
@@ -324,7 +317,7 @@ Soc. Then when did you think you were ignorant? Consider; I believe you will fai
 
 Alc. Upon my word, Socrates, I really cannot say.
 
-Soc. So you do not know it by discovery.
+[110d] Soc. So you do not know it by discovery.
 
 Alc. Not at all, apparently.
 
@@ -338,7 +331,7 @@ Alc. I learnt it, I suppose, in the same way as everyone else.
 
 Soc. Back we come to the same argument. From whom? Please tell me.
 
-Alc. From the many.
+[110e] Alc. From the many.
 
 Soc. They are no very serious teachers with whom you take refuge, if you ascribe it to the many!
 
@@ -354,7 +347,7 @@ Alc. I think so: at any rate, there are many other things that they are able to 
 
 Soc. What sort of things?
 
-[111] Alc. For instance, it was from them that I learnt to speak Greek, and I could not say who was my teacher, but can only ascribe it to the same people who, you say, are not serious teachers.
+[111a] Alc. For instance, it was from them that I learnt to speak Greek, and I could not say who was my teacher, but can only ascribe it to the same people who, you say, are not serious teachers.
 
 Soc. Ah, gallant sir, the many may be good teachers of that, and they can justly be praised for their teaching of such subjects.
 
@@ -366,7 +359,7 @@ Alc. What do you mean by that?
 
 Soc. You know that those who are going to teach anything should first know it themselves, do you not?
 
-Alc. Of course.
+[111b] Alc. Of course.
 
 Soc. And that those who know should agree with each other and not differ?
 
@@ -388,11 +381,11 @@ Soc. And on these matters, as we stated, they not only agree with each other and
 
 Alc. They do.
 
-Soc. Then naturally they will be good teachers of these matters.
+[111d] Soc. Then naturally they will be good teachers of these matters.
 
 Alc. Yes.
 
-Soc. And if we should wish to provide anyone with knowledge of them, we should be right in sending him to be taught by the many that you speak of?
+Soc. And if we should wish to provide anyone with knowledge of them, we should be right in sending him to be taught by “the many” that you speak of?
 
 Alc. Certainly.
 
@@ -412,7 +405,7 @@ Soc. And you would have proof of their being bad teachers of that, if you saw th
 
 Alc. I should.
 
-[112] Soc. Well then, do you now find that the many agree with themselves or each other [112] [112a] about just and unjust men or things?
+Soc. Well then, do you now find that the many agree with themselves or each other [112a] about just and unjust men or things?
 
 Alc. Far from it, on my word, Socrates.
 
@@ -424,7 +417,7 @@ Soc. And I suppose you never yet saw or heard of people differing so sharply on 
 
 Alc. No, indeed.
 
-Soc. But on questions of justice or injustice I am sure you have; [112b] and if you have not seen them, at any rate you have heard of them from many people, especially Homer. For you have heard i.e., at the recitations of rhapsodes; cf. the Ion of Plato. the Odyssey and the Iliad?
+Soc. But on questions of justice or injustice I am sure you have; [112b] and if you have not seen them, at any rate you have heard of them from many people, especially Homer. For you have heard [^6] the Odyssey and the Iliad?
 
 Alc. I certainly have, I suppose, Socrates.
 
@@ -434,9 +427,9 @@ Alc. Yes.
 
 Soc. And from this difference arose the fights and deaths of the Achaeans, and of the Trojans as well, and of the suitors of Penelope in their strife with Odysseus.
 
-Alc. That is true.
+[112c] Alc. That is true.
 
-Soc. And I imagine that when the Athenians and Spartans and Boeotians lost their men at Tanagra, 457 B.C. and later at Coronea, 447 B.C. among whom your own father perished, the difference that caused their deaths and fights was solely on a question of just and unjust, was it not?
+Soc. And I imagine that when the Athenians and Spartans and Boeotians lost their men at Tanagra, [^7] and later at Coronea, [^8] among whom your own father perished, the difference that caused their deaths and fights was solely on a question of just and unjust, was it not?
 
 Alc. That is true.
 
@@ -452,9 +445,9 @@ Soc. Then how is it likely that you should know what is just and unjust, when yo
 
 Alc. By what you say, it is not likely.
 
-Soc. There again, Alcibiades, do you see how unfairly you speak?
+[112e] Soc. There again, Alcibiades, do you see how unfairly you speak?
 
-Alc. In what ?
+Alc. In what?
 
 Soc. In stating that I say so.
 
@@ -466,9 +459,9 @@ Alc. Well, do I say it?
 
 Soc. Yes.
 
-Alc. How, pray ?
+Alc. How, pray?
 
-Soc. I will show you, in the following way. If I ask you which is the greater number, one or two, you will answer two?
+Soc. I will show you, in the following way. If I ask you which is the greater number, one or two, you will answer “two”?
 
 Alc. Yes, I shall.
 
@@ -484,11 +477,11 @@ Soc. And I was asking, and you were answering?
 
 Alc. Yes.
 
-[113] Soc. Then is it I, the questioner, or you the answerer, that are found to be speaking about these things?
+[113a] Soc. Then is it I, the questioner, or you the answerer, that are found to be speaking about these things?
 
 Alc. I.
 
-Soc. And what if I ask what are the letters in Socrates, and you tell me? Which will be the speaker?
+Soc. And what if I ask what are the letters in “Socrates,” and you tell me? Which will be the speaker?
 
 Alc. I.
 
@@ -496,7 +489,7 @@ Soc. Come then, tell me, as a principle, when we have question and answer, which
 
 Alc. The answerer, I should say, Socrates.
 
-Soc. And throughout the argument so far, I was the questioner?
+[113b] Soc. And throughout the argument so far, I was the questioner?
 
 Alc. Yes.
 
@@ -510,17 +503,23 @@ Alc. Apparently, Socrates, from what we have admitted, it was I.
 
 Soc. And it was said that Alcibiades, the fair son of Cleinias, did not know about just and unjust, but thought he did, and intended to go to the Assembly as adviser to the Athenians on what he knows nothing about; is not that so?
 
-Alc. Apparently.
+[113c] Alc. Apparently.
 
-Soc. Then, to quote Euripides, Eur. Hipp. 352—σοῦ τάδ’, οὐκ ἐμοῦ κλύεις. the result is, Alcibiades, that you may be said to have heard it from yourself, not me,Eur. Hipp. 352 and it is not I who say it, but you, and you tax me with it in vain. And indeed what you say is quite true. For it is a mad scheme this, that you meditate, my excellent friend—of teaching things that you do not know, since you have taken no care to learn them.
+Soc. Then, to quote Euripides, [^9] the result is, Alcibiades, that you may be said to have
 
-Alc. I think, Socrates, that the Athenians and the rest of the Greeks rarely deliberate as to which is the more just or unjust course: for they regard questions of this sort as obvious; and so they pass them over and consider which course will prove more expedient in the result. For the just and the expedient, I take it, are not the same, but many people have profited by great wrongs that they have committed, whilst others, I imagine, have had no advantage from doing what was right.
+```verso
+heard it from yourself, not me,
+```
+
+[^10] and it is not I who say it, but you, and you tax me with it in vain. And indeed what you say is quite true. For it is a mad scheme this, that you meditate, my excellent friend—of teaching things that you do not know, since you have taken no care to learn them.
+
+[113d] Alc. I think, Socrates, that the Athenians and the rest of the Greeks rarely deliberate as to which is the more just or unjust course: for they regard questions of this sort as obvious; and so they pass them over and consider which course will prove more expedient in the result. For the just and the expedient, I take it, are not the same, but many people have profited by great wrongs that they have committed, whilst others, I imagine, have had no advantage from doing what was right.
 
 Soc. What then? Granting that the just and the expedient [113e] are in fact as different as they can be, you surely do not still suppose you know what is expedient for mankind, and why it is so?
 
 Alc. Well, what is the obstacle, Socrates,—unless you are going to ask me again from whom I learnt it, or how I discovered it for myself?
 
-[114] Soc. What a way of going on! If your answer is incorrect, and a previous argument can be used to prove it so, you claim to be told something new, and a different line of proof, as though the previous one were like a poor worn-out coat which you refuse to wear any longer; you must be provided instead with something clean and unsoiled in the way of evidence. [114] [114a] But I shall ignore your sallies in debate, and shall none the less ask you once more, where you learnt your knowledge of what is expedient, and who is your teacher, asking in one question all the things I asked before; and now you will clearly find yourself in the same plight, and will be unable to prove that you know the expedient either through discovery or through learning. But as you are dainty, and would dislike a repeated taste of the same argument, I pass over this question of whether you know or do not know [114b] what is expedient for the Athenians: but why have you not made it clear whether the just and the expedient are the same or different? If you like, question me as I did you, or if you prefer, argue out the matter in your own way.
+Soc. What a way of going on! If your answer is incorrect, and a previous argument can be used to prove it so, you claim to be told something new, and a different line of proof, as though the previous one were like a poor worn-out coat which you refuse to wear any longer; you must be provided instead with something clean and unsoiled in the way of evidence. [114a] But I shall ignore your sallies in debate, and shall none the less ask you once more, where you learnt your knowledge of what is expedient, and who is your teacher, asking in one question all the things I asked before; and now you will clearly find yourself in the same plight, and will be unable to prove that you know the expedient either through discovery or through learning. But as you are dainty, and would dislike a repeated taste of the same argument, I pass over this question of whether you know or do not know [114b] what is expedient for the Athenians: but why have you not made it clear whether the just and the expedient are the same or different? If you like, question me as I did you, or if you prefer, argue out the matter in your own way.
 
 Alc. But I am not sure I should be able, Socrates, to set it forth to you.
 
@@ -562,13 +561,13 @@ Alc. Speak, then.
 
 Soc. Just answer my questions.
 
-Alc. No, you yourself must be the speaker.
+[114e] Alc. No, you yourself must be the speaker.
 
 Soc. What? Do you not wish above all things to be persuaded?
 
 Alc. By all means, to be sure.
 
-Soc. And you would best be persuaded if you should say the case is so?
+Soc. And you would best be persuaded if you should say “the case is so”?
 
 Alc. I agree.
 
@@ -576,7 +575,7 @@ Soc. Then answer; and if you do not hear your own self say that the just is expe
 
 Alc. I will not: but I may as well answer; for I do not think I shall come to any harm.
 
-[115] Soc. You are quite a prophet! Now tell me, do you consider some just things to be expedient, and others not?
+[115a] Soc. You are quite a prophet! Now tell me, do you consider some just things to be expedient, and others not?
 
 Alc. Yes.
 
@@ -600,7 +599,7 @@ Soc. And some base things are good?
 
 Alc. Yes.
 
-Soc. Do you mean as in one of the many cases where men have gone to rescue a comrade or kinsman in battle, and have been either wounded or killed, while those who did not go to the rescue, as duty bade, have got off safe and sound?
+[115b] Soc. Do you mean as in one of the many cases where men have gone to rescue a comrade or kinsman in battle, and have been either wounded or killed, while those who did not go to the rescue, as duty bade, have got off safe and sound?
 
 Alc. Precisely.
 
@@ -612,7 +611,7 @@ Soc. But you call it evil, in respect of the deaths and wounds?
 
 Alc. Yes.
 
-Soc. And is not the courage one thing, and the death another?
+[115c] Soc. And is not the courage one thing, and the death another?
 
 Alc. Certainly.
 
@@ -624,7 +623,7 @@ Soc. Then see if, inasmuch as it is noble, it is also good; for in the present c
 
 Alc. Good.
 
-Soc. And most of all, the greatest goods, and of such things you would least allow yourself to be deprived?
+[115d] Soc. And most of all, the greatest goods, and of such things you would least allow yourself to be deprived?
 
 Alc. To be sure.
 
@@ -644,7 +643,7 @@ Soc. And life and courage are the extreme opposites of death and cowardice?
 
 Alc. Yes.
 
-Soc. And you would most desire to have the former, and least the latter?
+[115e] Soc. And you would most desire to have the former, and least the latter?
 
 Alc. Yes.
 
@@ -664,7 +663,7 @@ Soc. But evil, in respect of the working of evil by death?
 
 Alc. Yes.
 
-[116] Soc. So we may fairly describe each of these workings as follows: as you call either of them evil because of the evil it produces, [116] [116a] so you must call it good because of the good it produces.
+Soc. So we may fairly describe each of these workings as follows: as you call either of them evil because of the evil it produces, [116a] so you must call it good because of the good it produces.
 
 Alc. I believe that is so.
 
@@ -678,7 +677,7 @@ Alc. I believe what you say is true, Socrates.
 
 Soc. So nothing noble, in so far as it is noble, is evil, and nothing base, in so far as it is base, is good.
 
-Alc. Apparently.
+[116b] Alc. Apparently.
 
 Soc. Now then, consider it again in this way: whoever does nobly, does well too, does he not?
 
@@ -704,7 +703,7 @@ Soc. And welfare is noble?
 
 Alc. Yes.
 
-Soc. Hence we have seen again that noble and good are the same thing.
+[116c] Soc. Hence we have seen again that noble and good are the same thing.
 
 Alc. Apparently.
 
@@ -724,7 +723,7 @@ Soc. And that those who do noble things must do good things?
 
 Alc. Yes.
 
-Soc. And that good things are expedient?
+[116d] Soc. And that good things are expedient?
 
 Alc. Yes.
 
@@ -736,7 +735,7 @@ Soc. Well now, are not you the speaker of all this, and I the questioner?
 
 Alc. I seem to be, apparently.
 
-Soc. So if anyone stands up to advise either the Athenians or the Peparethians, Peparethus is a small island off the coast of Thessaly. imagining that he understands what is just and unjust, and says that just things are sometimes evil, could you do other than laugh him to scorn, since you actually say yourself that [116e] just and expedient are the same?
+Soc. So if anyone stands up to advise either the Athenians or the Peparethians, [^11] imagining that he understands what is just and unjust, and says that just things are sometimes evil, could you do other than laugh him to scorn, since you actually say yourself that [116e] just and expedient are the same?
 
 Alc. But by Heaven, Socrates, I do not even know what I am saying, I feel altogether in such a strange state! For from moment to moment I change my view under your questioning.
 
@@ -746,7 +745,7 @@ Alc. I am, quite.
 
 Soc. Well, do you suppose that if someone should ask you whether you have two eyes or three, two hands or four, or anything else of that sort, you would answer differently from moment to moment, or always the same thing?
 
-[117] Alc. I begin to have misgivings about myself, but still I think I should make the same answer.
+[117a] Alc. I begin to have misgivings about myself, but still I think I should make the same answer.
 
 Soc. And the reason would be, because you know?
 
@@ -758,7 +757,7 @@ Alc. Very likely.
 
 Soc. And you say you are bewildered in answering about just and unjust, noble and base, evil and good, expedient and inexpedient? Now, is it not obvious that your bewilderment is caused by your ignorance of these things?
 
-Alc. I agree.
+[117b] Alc. I agree.
 
 Soc. Then is it the case that when a man does not know a thing he must needs be bewildered in spirit regarding that thing?
 
@@ -778,7 +777,7 @@ Alc. State it.
 
 Soc. It is, my friend, that while not knowing the matter you do not suppose that you know it.
 
-Alc. Here again, how do you mean?
+[117c] Alc. Here again, how do you mean?
 
 Soc. Do your share, in seeing for yourself. Are you bewildered about the kind of thing that you do not know and are aware of not knowing? For instance, you know, I suppose, that you do not know about the preparation of a tasty dish?
 
@@ -788,7 +787,7 @@ Soc. Then do you think for yourself how you are to prepare it, and get bewildere
 
 Alc. I do the latter.
 
-Soc. And what if you should be on a ship at sea? Would you think [117d] whether the tiller should be moved inwards or outwards, The tiller was the handle of an oar at the side of the stern, and was moved towards or away from the center of the ship. and in your ignorance bewilder yourself, or would you entrust it to the helmsman, and be quiet?
+Soc. And what if you should be on a ship at sea? Would you think [117d] whether the tiller should be moved inwards or outwards, [^12] and in your ignorance bewilder yourself, or would you entrust it to the helmsman, and be quiet?
 
 Alc. I would leave it to him.
 
@@ -802,7 +801,7 @@ Alc. Here again, how do you mean?
 
 Soc. We set about acting, I suppose, when we think we know what we are doing?
 
-Alc. Yes.
+[117e] Alc. Yes.
 
 Soc. But when people think they do not know, I suppose they hand it over to others?
 
@@ -816,7 +815,7 @@ Soc. Who then are those who make mistakes? For, I take it, they cannot be those 
 
 Alc. No, indeed.
 
-[118] Soc. But since it is neither those who know, nor those of the ignorant [118] [118a] who know that they do not know, the only people left, I think, are those who do not know, but think that they do?
+Soc. But since it is neither those who know, nor those of the ignorant [118a] who know that they do not know, the only people left, I think, are those who do not know, but think that they do?
 
 Alc. Yes, only those.
 
@@ -842,13 +841,13 @@ Alc. I am afraid so.
 
 Soc. Alack then, Alcibiades, for the plight you are in! I shrink indeed from giving it a name, but still, as we are alone, let me speak out. You are wedded to stupidity, my fine friend, of the vilest kind; you are impeached of this by your own words, out of your own mouth; and this, it seems, is why you dash into politics before you have been educated. And you are not alone in this plight, but you share it with most of those who manage our city’s affairs, [118c] except just a few, and perhaps your guardian, Pericles.
 
-Alc. Yes, you know, Socrates, they say he did not get his wisdom independently, but consorted with many wise men, such as Pythocleides A musician of Ceos (who was perhaps also a Pythagorean philosopher) who taught in Athens. and Anaxagoras An Ionian philosopher who lived in Athens c. 480-430 B.C.; and now, old as he is, he still confers with Damon An Athenian musician and sophist. for that very purpose.
+Alc. Yes, you know, Socrates, they say he did not get his wisdom independently, but consorted with many wise men, such as Pythocleides [^13] and Anaxagoras [^14]; and now, old as he is, he still confers with Damon [^15] for that very purpose.
 
 Soc. Well, but did you ever find a man who was wise in anything and yet unable to make another man wise in the same things as himself? For instance, the man who taught you letters was wise himself, and also made you wise, and anyone else he wished to, did he not?
 
 Alc. Yes.
 
-Soc. And you too, who learnt from him, will be able to make another man wise?
+[118d] Soc. And you too, who learnt from him, will be able to make another man wise?
 
 Alc. Yes.
 
@@ -862,7 +861,7 @@ Alc. I agree.
 
 Soc. Well then, can you tell me whom Pericles made wise? One of his sons, to begin with?
 
-Alc. But what if the two sons of Pericles were simpletons, Socrates?
+[118e] Alc. But what if the two sons of Pericles were simpletons, Socrates?
 
 Soc. Well, Cleinias, your brother.
 
@@ -872,13 +871,13 @@ Soc. Well, if Cleinias is mad and the two sons of Pericles were simpletons, what
 
 Alc. I believe I am myself to blame for not attending to him.
 
-[119] Soc. But tell me of any other Athenian or foreigner, slave or freeman, who is accounted to have become wiser through converse with Pericles; as I can tell you that Pythodorus A friend of Zeno: cf. Plat. Parm. 126. son of Isolochus, and Callias, An Athenian general. son of Calliades, became through that of Zeno Of Elea, in S. Italy; a disciple of Parmenides who criticized the Pythagorean teaching.; each of them has paid Zeno a hundred minae, About 600-800 pounds, or the total expenses of two or three years at an English University. and has become both wise and distinguished.
+[119a] Soc. But tell me of any other Athenian or foreigner, slave or freeman, who is accounted to have become wiser through converse with Pericles; as I can tell you that Pythodorus [^16] son of Isolochus, and Callias, [^17] son of Calliades, became through that of Zeno [^18]; each of them has paid Zeno a hundred minae, [^19] and has become both wise and distinguished.
 
 Alc. Well, upon my word, I cannot.
 
 Soc. Very good: then what is your intention regarding yourself? Will you remain as you are, or take some trouble?
 
-Alc. We must put our heads together, Socrates. And indeed, as soon as you speak, I take the point and agree. For the men who manage the city’s affairs, apart from a few, do strike me as uneducated.
+[119b] Alc. We must put our heads together, Socrates. And indeed, as soon as you speak, I take the point and agree. For the men who manage the city’s affairs, apart from a few, do strike me as uneducated.
 
 Soc. Then what does that mean?
 
@@ -898,7 +897,7 @@ Alc. Well, but with whom is it to be?
 
 Soc. Is that a worthy question to be asked by a man who considers himself high-spirited?
 
-Alc. How do you mean? Is not my contest with these men?
+[119d] Alc. How do you mean? Is not my contest with these men?
 
 Soc. Well, suppose you were intending to steer a warship into action, would you be content to be the best hand among the crew at steering or, while regarding this skill as a necessary qualification, would you keep your eye on your actual opponents in the fight, and not, as now, on your fellow-fighters? These, I conceive, you ought so far to surpass that they would not feel fit to be your opponents, but only [119e] to be your despised fellow-fighters against the enemy, if you mean really to make your mark with some noble action that will be worthy both of yourself and of the city.
 
@@ -906,7 +905,7 @@ Alc. Why, I do mean to.
 
 Soc. So you think it quite fitting for you to be satisfied if you are better than the soldiers, but neglect to keep your eye on the enemy’s leaders with a view to showing yourself better than they are, or to plan and practise against them!
 
-[120] Alc. Of whom are you speaking now, Socrates?
+[120a] Alc. Of whom are you speaking now, Socrates?
 
 Soc. Do you not know that our city makes war occasionally on the Spartans and on the Great King?
 
@@ -916,7 +915,7 @@ Soc. And if you are minded to be the head of our state, you would be right in th
 
 Alc. That sounds like the truth.
 
-Soc. No, my good friend; you ought rather to keep your eye on Meidias [120b] the quail-filliper Meidias is mentioned by Aristophanes (Aristoph. Birds 1297) for his skill in the game of filliping quails which were specially trained not to flinch. and others of his sort—who undertake to manage the city’s affairs, while they still have the slavish hair Slaves in Athens were largely natives of western Asia. and had thick, close hair, very different from the wavy locks of the Greeks. (as the women would say) showing in their minds through their lack of culture, and have not yet got rid of it; who, moreover, have come with their outlandish speech to flatter the state, not to rule it—to these, I tell you, should your eyes be turned; and then you can disregard yourself, and need neither learn what is to be learnt for the great contest in which you are to be engaged, nor practise [120c] what requires practice, and so ensure that you are perfectly prepared before entering upon a political career.
+Soc. No, my good friend; you ought rather to keep your eye on Meidias [120b] the quail-filliper [^20] and others of his sort—who undertake to manage the city’s affairs, while they still have the slavish hair [^21] (as the women would say) showing in their minds through their lack of culture, and have not yet got rid of it; who, moreover, have come with their outlandish speech to flatter the state, not to rule it—to these, I tell you, should your eyes be turned; and then you can disregard yourself, and need neither learn what is to be learnt for the great contest in which you are to be engaged, nor practise [120c] what requires practice, and so ensure that you are perfectly prepared before entering upon a political career.
 
 Alc. Why, Socrates, I believe you are right; though I think neither the Spartan generals nor the Persian king are at all different from other people.
 
@@ -932,7 +931,7 @@ Soc. And do you think you will come to any harm by taking pains over yourself?
 
 Alc. By no means; rather that I shall get much benefit.
 
-Soc. And on this single count that notion i.e. about the Spartan generals and the Persian king, Plat. Alc.1 120c. of yours is so much to the bad.
+Soc. And on this single count that notion [^22] of yours is so much to the bad.
 
 Alc. True.
 
@@ -950,21 +949,21 @@ Alc. That must be so.
 
 Soc. Then let us consider, by comparing our lot with theirs, whether the Spartan and Persian kings appear to be of inferior birth. Do we not know that the former are descendants of Hercules and the latter of Achaemenes, and that the line of Hercules and the line of Achaemenes go back to Perseus, son of Zeus?
 
-[121] Alc. Yes, and mine, Socrates, to Eurysaces, and that of Eurysaces to Zeus!
+[121a] Alc. Yes, and mine, Socrates, to Eurysaces, and that of Eurysaces to Zeus!
 
-Soc. Yes, and mine, noble Alcibiades, to Daedalus, Socrates’ father, Sophroniscus, was a sculptor, and Daedalus was the legendary inventor of sculpture. and Daedalus to Hephaestus, son of Zeus! But take the lines of those people, i.e., the kings of Sparta and Persia. going back from them: you have a succession of kings reaching to Zeus—on the one hand, kings of Argos and Sparta; on the other, of Persia, which they have always ruled, and frequently Asia also, as at present; whereas we are private persons ourselves, and so were our fathers. And then, [121b] suppose that you had to make what show you could of your ancestors, and of Salamis as the native land of Eurysaces, or of Aegina as the home of the yet earlier Aeacus, to impress Artaxerxes, son of Xerxes, how you must expect to be laughed at! Why, I am afraid we are quite outdone by those persons in pride of birth and upbringing altogether. Or have you not observed how great are the advantages of the Spartan kings, and how their wives are kept under statutory ward of the ephors, in order that every possible precaution may be taken against the king being born [121c] of any but the Heracleidae? And the Persian king so far surpasses us that no one has a suspicion that he could have been born of anybody but the king before him; and hence the king’s wife has nothing to guard her except fear. When the eldest son, the heir to the throne, is born, first of all the king’s subjects who are in his palace have a feast, and then for ever after on that date the whole of Asia celebrates the king’s birthday with sacrifice and feasting: but when we are born, as the comic poet The saying, which became proverbial, is thought to have occurred in one of the (now lost) plays of Plato, the Athenian comic poet, who lived c. 460-389 B.C. says, [121d] even the neighbors barely notice it,Plato Comicus? Alcibiades. After that comes the nurture of the child, not at the hands of a woman-nurse of little worth, but of the most highly approved eunuchs in the king’s service, who are charged with the whole tendance of the new-born child, and especially with the business of making him as handsome as possible by moulding his limbs into a correct shape; and while doing this they are in high honor. [121e] When the boys are seven years old they are given horses and have riding lessons, and they begin to follow the chase. And when the boy reaches fourteen years he is taken over by the royal tutors, as they call them there: these are four men chosen as the most highly esteemed among the Persians of mature age, namely, the wisest one, the justest one, the most temperate one, [122] [122a] and the bravest one.
+Soc. Yes, and mine, noble Alcibiades, to Daedalus, [^23] and Daedalus to Hephaestus, son of Zeus! But take the lines of those people, [^24] going back from them: you have a succession of kings reaching to Zeus—on the one hand, kings of Argos and Sparta; on the other, of Persia, which they have always ruled, and frequently Asia also, as at present; whereas we are private persons ourselves, and so were our fathers. And then, [121b] suppose that you had to make what show you could of your ancestors, and of Salamis as the native land of Eurysaces, or of Aegina as the home of the yet earlier Aeacus, to impress Artaxerxes, son of Xerxes, how you must expect to be laughed at! Why, I am afraid we are quite outdone by those persons in pride of birth and upbringing altogether. Or have you not observed how great are the advantages of the Spartan kings, and how their wives are kept under statutory ward of the ephors, in order that every possible precaution may be taken against the king being born [121c] of any but the Heracleidae? And the Persian king so far surpasses us that no one has a suspicion that he could have been born of anybody but the king before him; and hence the king’s wife has nothing to guard her except fear. When the eldest son, the heir to the throne, is born, first of all the king’s subjects who are in his palace have a feast, and then for ever after on that date the whole of Asia celebrates the king’s birthday with sacrifice and feasting: but when we are born, as the comic poet [^25] says, [121d] ““even the neighbors barely notice it,”[^26]” Alcibiades. After that comes the nurture of the child, not at the hands of a woman-nurse of little worth, but of the most highly approved eunuchs in the king’s service, who are charged with the whole tendance of the new-born child, and especially with the business of making him as handsome as possible by moulding his limbs into a correct shape; and while doing this they are in high honor. [121e] When the boys are seven years old they are given horses and have riding lessons, and they begin to follow the chase. And when the boy reaches fourteen years he is taken over by the royal tutors, as they call them there: these are four men chosen as the most highly esteemed among the Persians of mature age, namely, the wisest one, the justest one, the most temperate one, [122a] and the bravest one.
 
-[122] Soc. The first of these teaches him the magian lore of Zoroaster, Zoroaster was the reputed founder of the Persian religion, of which the ministers were the Magi or hereditary priests. son of Horomazes; and that is the worship of the gods: he teaches him also what pertains to a king. The justest teaches him to be truthful all his life long; the most temperate, not to be mastered by even a single pleasure, in order that he may be accustomed to be a free man and a veritable king, who is the master first of all that is in him, not the slave; while the bravest trains him to be fearless and undaunted, telling him that to be daunted is to be enslaved. But you, [122b] Alcibiades, had a tutor set over you by Pericles from amongst his servants,who was old as to be the most useless of them, Zopyrus the Thracian. I might describe to you at length the nurture and education of your competitors, were it not too much of a task; and besides, what I have said suffices to show the rest that follows thereon. But about your birth, Alcibiades, or nurture or education, or about those of any other Athenian, one may say that nobody cares, unless it be some lover whom you chance to have. And again, if you chose to glance at the wealth, the luxury, [122c] the robes with sweeping trains, the anointings with myrrh, the attendant troops of menials, and all the other refinements of the Persians, you would be ashamed at your own case, on perceiving its inferiority to theirs. Should you choose, again, to look at the temperance and orderliness, the facility and placidity, the magnanimity and discipline, the courage and endurance, and the toil-loving, success-loving, honor-loving spirit of the Spartans, you would count yourself but a child [122d] in all these things. If again you regard wealth, and think yourself something in that way, I must not keep silence on this point either, if you are to realize where you stand. For in this respect you have only to look at the wealth of the Spartans, and you will perceive that our riches here are far inferior to theirs. Think of all the land that they have both in their own and in the Messenian country: not one of our estates could compete with theirs in extent and excellence, nor again in ownership of slaves, and especially of those of the helot class, nor yet of horses, [122e] nor of all the flocks and herds that graze in Messene. However, I pass over all these things: but there is more gold and silver privately held in Lacedaemon than in the whole of Greece; for during many generations treasure has been passing in to them from every part of Greece, and often from the barbarians also, but not passing out to anyone; and just as in the fable of Aesop, [123] [123a] where the fox remarked to the lion on the direction of the footmarks, the traces of the money going into Lacedaemon are clear enough, but nowhere are any to be seen of it coming out;
+Soc. The first of these teaches him the magian lore of Zoroaster, [^27] son of Horomazes; and that is the worship of the gods: he teaches him also what pertains to a king. The justest teaches him to be truthful all his life long; the most temperate, not to be mastered by even a single pleasure, in order that he may be accustomed to be a free man and a veritable king, who is the master first of all that is in him, not the slave; while the bravest trains him to be fearless and undaunted, telling him that to be daunted is to be enslaved. But you, [122b] Alcibiades, had a tutor set over you by Pericles from amongst his servants,who was old as to be the most useless of them, Zopyrus the Thracian. I might describe to you at length the nurture and education of your competitors, were it not too much of a task; and besides, what I have said suffices to show the rest that follows thereon. But about your birth, Alcibiades, or nurture or education, or about those of any other Athenian, one may say that nobody cares, unless it be some lover whom you chance to have. And again, if you chose to glance at the wealth, the luxury, [122c] the robes with sweeping trains, the anointings with myrrh, the attendant troops of menials, and all the other refinements of the Persians, you would be ashamed at your own case, on perceiving its inferiority to theirs. Should you choose, again, to look at the temperance and orderliness, the facility and placidity, the magnanimity and discipline, the courage and endurance, and the toil-loving, success-loving, honor-loving spirit of the Spartans, you would count yourself but a child [122d] in all these things. If again you regard wealth, and think yourself something in that way, I must not keep silence on this point either, if you are to realize where you stand. For in this respect you have only to look at the wealth of the Spartans, and you will perceive that our riches here are far inferior to theirs. Think of all the land that they have both in their own and in the Messenian country: not one of our estates could compete with theirs in extent and excellence, nor again in ownership of slaves, and especially of those of the helot class, nor yet of horses, [122e] nor of all the flocks and herds that graze in Messene. However, I pass over all these things: but there is more gold and silver privately held in Lacedaemon than in the whole of Greece; for during many generations treasure has been passing in to them from every part of Greece, and often from the barbarians also, but not passing out to anyone; and just as in the fable of Aesop, [123a] where the fox remarked to the lion on the direction of the footmarks, the traces of the money going into Lacedaemon are clear enough, but nowhere are any to be seen of it coming out;
 
-[123] Soc. so that one can be pretty sure that those people are the richest of the Greeks in gold and silver, and that among themselves the richest is the king; for the largest and most numerous receipts of the kind are those of the kings, [123b] and besides there is the levy of the royal tribute in no slight amount, which the Spartans pay to their kings. Now, the Spartan fortunes, though great compared with the wealth of other Greeks, are nought beside that of the Persians and their king. For I myself was once told by a trustworthy person, who had been up to their court, that he traversed a very large tract of excellent land, nearly a day’s journey, which the inhabitants called the girdle of the king’s wife, and another which was similarly called her veil; [123c] and many other fine and fertile regions reserved for the adornment of the consort; and each of these regions was named after some part of her apparel. So I imagine, if someone should say to the king’s mother Amestris, who was wife of Xerxes, The son of Deinomache The mother of Alcibiades. intends to challenge your son; the mother’s dresses are worth perhaps fifty minae at the outside, while the son has under three hundred acres at Erchiae, In Attica, about fifteen miles east of Athens. she would wonder to what on earth this [123d] Alcibiades could be trusting, that he proposed to contend against Artaxerxes; and I expect she would remark—The only possible things that the man can be trusting to for his enterprise are industry and wisdom; for these are the only things of any account among the Greeks. Whereas if she were informed that this Alcibiades who is actually making such an attempt is, in the first place, as yet barely twenty years old, and secondly, altogether uneducated; and further, that when his lover tells him that he must first learn, and take pains over himself, and practise, [123e] before he enters on a contest with the king, he refuses, and says he will do very well as he is; I expect she would ask in surprise, On what, then, can the youngster rely? And if we told her, On beauty, stature, birth, wealth, and mental gifts, she would conclude we were mad, Alcibiades, when she compared the advantages of her own people in all these respects.
+Soc. so that one can be pretty sure that those people are the richest of the Greeks in gold and silver, and that among themselves the richest is the king; for the largest and most numerous receipts of the kind are those of the kings, [123b] and besides there is the levy of the royal tribute in no slight amount, which the Spartans pay to their kings. Now, the Spartan fortunes, though great compared with the wealth of other Greeks, are nought beside that of the Persians and their king. For I myself was once told by a trustworthy person, who had been up to their court, that he traversed a very large tract of excellent land, nearly a day’s journey, which the inhabitants called the girdle of the king’s wife, and another which was similarly called her veil; [123c] and many other fine and fertile regions reserved for the adornment of the consort; and each of these regions was named after some part of her apparel. So I imagine, if someone should say to the king’s mother Amestris, who was wife of Xerxes, “The son of Deinomache [^28] intends to challenge your son; the mother’s dresses are worth perhaps fifty minae at the outside, while the son has under three hundred acres at Erchiae, [^29]” she would wonder to what on earth this [123d] Alcibiades could be trusting, that he proposed to contend against Artaxerxes; and I expect she would remark—“The only possible things that the man can be trusting to for his enterprise are industry and wisdom; for these are the only things of any account among the Greeks.” Whereas if she were informed that this Alcibiades who is actually making such an attempt is, in the first place, as yet barely twenty years old, and secondly, altogether uneducated; and further, that when his lover tells him that he must first learn, and take pains over himself, and practise, [123e] before he enters on a contest with the king, he refuses, and says he will do very well as he is; I expect she would ask in surprise, “On what, then, can the youngster rely?” And if we told her, “On beauty, stature, birth, wealth, and mental gifts,” she would conclude we were mad, Alcibiades, when she compared the advantages of her own people in all these respects.
 
-[124] Soc. And I imagine that even Lampido, daughter of Leotychides [124] [124a] and wife of Archidamus and mother of Agis, who have all been kings, would wonder in the same way, when she compared her people’s resources, at your intention of having a contest with her son despite your bad upbringing. And yet, does it not strike you as disgraceful that our enemies’ wives should have a better idea of the qualities that we need for an attempt against them than we have ourselves? Ah, my remarkable friend, listen to me and the Delphic motto, [124b] Know thyself; for these people are our competitors, not those whom you think; and there is nothing that will give us ascendancy over them save only pains and skill. If you are found wanting in these, you will be found wanting also in achievement of renown among Greeks and barbarians both; and of this I observe you to be more enamored than anyone else ever was of anything.
+Soc. And I imagine that even Lampido, daughter of Leotychides [124a] and wife of Archidamus and mother of Agis, who have all been kings, would wonder in the same way, when she compared her people’s resources, at your intention of having a contest with her son despite your bad upbringing. And yet, does it not strike you as disgraceful that our enemies’ wives should have a better idea of the qualities that we need for an attempt against them than we have ourselves? Ah, my remarkable friend, listen to me and the Delphic motto, [124b] “Know thyself”; for these people are our competitors, not those whom you think; and there is nothing that will give us ascendancy over them save only pains and skill. If you are found wanting in these, you will be found wanting also in achievement of renown among Greeks and barbarians both; and of this I observe you to be more enamored than anyone else ever was of anything.
 
 Alc. Well then, what are the pains that I must take, Socrates? Can you enlighten me? For I must say your words are remarkably like the truth.
 
-Soc. Yes, I can: but we must put our heads together, Cf. above, Plat. Alc. 1.119b. you know, as to the way in which [124c] we can improve ourselves to the utmost. For observe that when I speak of the need of being educated I am not referring only to you, apart from myself; since my case is identical with yours except in one point.
+Soc. Yes, I can: but we must put our heads together, [^30] you know, as to the way in which [124c] we can improve ourselves to the utmost. For observe that when I speak of the need of being educated I am not referring only to you, apart from myself; since my case is identical with yours except in one point.
 
-Alc. What is that ?
+Alc. What is that?
 
 Soc. My guardian is better and wiser than your one, Pericles.
 
@@ -972,7 +971,7 @@ Alc. Who is he, Socrates?
 
 Soc. God, Alcibiades, who until this day would not let me converse with you; and trusting in him I say that through no other man but me will you attain to eminence.
 
-Alc. You are jesting, Socrates.
+[124d] Alc. You are jesting, Socrates.
 
 Soc. Perhaps; I am right, however, in saying that we need to take pains—all men rather badly, but we two very badly indeed.
 
@@ -1018,7 +1017,7 @@ Soc. Well, what sort of thing? The business of what men?
 
 Alc. Of Athenian gentlemen.
 
-[125] Soc. Do you mean by gentlemen the intelligent or the unintelligent?
+[125a] Soc. Do you mean by “gentlemen” the intelligent or the unintelligent?
 
 Alc. The intelligent.
 
@@ -1042,7 +1041,7 @@ Soc. Well now, is not the shoemaker unintelligent in the making of clothes?
 
 Alc. Yes.
 
-Soc. So he is bad in that?
+[125b] Soc. So he is bad in that?
 
 Alc. Yes.
 
@@ -1078,7 +1077,7 @@ Soc. Or harvesting?
 
 Alc. No.
 
-Soc. Doing nothing, or doing something?
+[125c] Soc. Doing nothing, or doing something?
 
 Alc. Doing something, I say.
 
@@ -1114,7 +1113,7 @@ Soc. Well, what art is this? Suppose I should ask you over again, as I did just 
 
 Alc. The pilot’s.
 
-Soc. And what knowledge—to repeat what was said a moment ago—makes them rule over their fellow-singers?
+[125e] Soc. And what knowledge—to repeat what was said a moment ago—makes them rule over their fellow-singers?
 
 Alc. That which you just mentioned, the chorus-teacher’s.
 
@@ -1128,23 +1127,23 @@ Alc. No, no.
 
 Soc. Rather good counsel?
 
-[126] Alc. So I should think, for the preservation of his passengers.
+[126a] Alc. So I should think, for the preservation of his passengers.
 
 Soc. Quite right. And now, for what is the good counsel of which you speak?
 
 Alc. For the better management and preservation of the city.
 
-Soc. And what is it that becomes present or absent when we get this better management and preservation? If, for example, you should ask me, What is it that becomes present or absent when the body is better managed and preserved?—I should reply, Health becomes present, and disease absent. Do not you think so too?
+Soc. And what is it that becomes present or absent when we get this better management and preservation? If, for example, you should ask me, “What is it that becomes present or absent when the body is better managed and preserved?”—I should reply, “Health becomes present, and disease absent.” Do not you think so too?
 
-Alc. Yes.
+[126b] Alc. Yes.
 
-Soc. And if, again, you asked me, What becomes present in a better condition of the eyes?—I should answer in just the same way, Sight becomes present, and blindness absent. So, in the case of the ears, deafness is caused to be absent, and hearing to be present, when they are improved and getting better treatment.
+Soc. And if, again, you asked me, “What becomes present in a better condition of the eyes?”—I should answer in just the same way, “Sight becomes present, and blindness absent.” So, in the case of the ears, deafness is caused to be absent, and hearing to be present, when they are improved and getting better treatment.
 
 Alc. Correct.
 
 Soc. Well then, what is it that becomes present or absent when a state is improved and has better treatment and management?
 
-Alc. To my mind, Socrates, friendship with one another will be there, while hatred and faction will be absent.
+[126c] Alc. To my mind, Socrates, friendship with one another will be there, while hatred and faction will be absent.
 
 Soc. Now, by friendship do you mean agreement or disagreement?
 
@@ -1190,7 +1189,7 @@ Soc. Nor has he any need, since that is a woman’s pursuit.
 
 Alc. Yes.
 
-[127] Soc. Or again, could a woman agree with a man about soldiering, when she has not learnt it?
+[127a] Soc. Or again, could a woman agree with a man about soldiering, when she has not learnt it?
 
 Alc. Oh, no.
 
@@ -1212,13 +1211,13 @@ Alc. Apparently not.
 
 Soc. So women are not loved by men, in so far as they do their own work.
 
-Alc. It seems not.
+[127b] Alc. It seems not.
 
 Soc. Nor are men by women, in so far as they do theirs.
 
 Alc. No.
 
-Soc. And states, therefore, are not well ordered in so far as each person does his own business? Cf. Plat. Charm. 161e, Plat. Rep. 1.332 ff.
+Soc. And states, therefore, are not well ordered in so far as each person does his own business? [^31]
 
 Alc. I think they are, Socrates.
 
@@ -1226,7 +1225,7 @@ Soc. How can you say that? Without the presence of friendship, which we say must
 
 Alc. But it seems to me that friendship arises among them just on that account—that each of the two parties does its own business.
 
-Soc. It was not so a moment since: but now, what do you mean this time? Does friendship arise where there is no agreement? And is it possible that agreement should arise where some know about the business, but others do not?
+[127c] Soc. It was not so a moment since: but now, what do you mean this time? Does friendship arise where there is no agreement? And is it possible that agreement should arise where some know about the business, but others do not?
 
 Alc. Impossible.
 
@@ -1250,7 +1249,7 @@ Soc. Answer the questions asked, Alcibiades: only do that, and with Heaven’s f
 
 Alc. That shall be, so far as my answering can avail.
 
-[128] Soc. Come then, what is taking pains over oneself— [128] [128a] for we may perchance be taking, unawares, no pains over ourselves, though we think we are—and when does a man actually do it? Does he take pains over himself at the same time as over his own things?
+Soc. Come then, what is “taking pains over oneself”— [128a] for we may perchance be taking, unawares, no pains over ourselves, though we think we are—and when does a man actually do it? Does he take pains over himself at the same time as over his own things?
 
 Alc. I at least believe so.
 
@@ -1268,7 +1267,7 @@ Alc. Yes.
 
 Soc. And likewise clothes and coverlets belong to the whole body?
 
-Alc. Yes.
+[128b] Alc. Yes.
 
 Soc. Now when we take pains over our shoes, we take pains over our feet?
 
@@ -1288,7 +1287,7 @@ Alc. Shoe-making.
 
 Soc. So by shoe-making we take pains over our shoes?
 
-Alc. Yes.
+[128c] Alc. Yes.
 
 Soc. And over our foot too by shoe-making? Or by that art whereby we make feet better?
 
@@ -1330,7 +1329,7 @@ Soc. Come then, whatever kind of art can we use for taking pains over ourselves?
 
 Alc. I cannot say.
 
-Soc. Well, so much at least has been admitted, that it is not one which would help us to make a single one of our possessions better, but one which would help to make ourselves so?
+[128e] Soc. Well, so much at least has been admitted, that it is not one which would help us to make a single one of our possessions better, but one which would help to make ourselves so?
 
 Alc. That is true.
 
@@ -1344,7 +1343,7 @@ Alc. True.
 
 Soc. Well then, could we ever know what art makes the man himself better, if we were ignorant of what we are ourselves?
 
-[129] Alc. Impossible.
+[129a] Alc. Impossible.
 
 Soc. Well, and is it an easy thing to know oneself, and was it a mere scamp who inscribed these words on the temple at Delphi; or is it a hard thing, and not a task for anybody?
 
@@ -1354,7 +1353,7 @@ Soc. But, Alcibiades, whether it is easy or not, here is the fact for us all the
 
 Alc. That is so.
 
-Soc. Come then, in what way can the same-in-itself This seems to be a sudden adumbration of the Platonic idea or form which remains constant, and so the same, behind the shifting objects of sense related to it through its influences or impress. Cf. below, Plat. Alc. 1.130d. be discovered? For thus we may discover what we are ourselves; whereas if we remain in ignorance of it we must surely fail.
+[129b] Soc. Come then, in what way can the same-in-itself [^32] be discovered? For thus we may discover what we are ourselves; whereas if we remain in ignorance of it we must surely fail.
 
 Alc. Rightly spoken.
 
@@ -1362,7 +1361,7 @@ Soc. Steady, then, in Heaven’s name! To whom are you talking now? To me, are y
 
 Alc. Yes.
 
-Soc. And I in turn to you ?
+Soc. And I in turn to you?
 
 Alc. Yes.
 
@@ -1376,7 +1375,7 @@ Alc. Yes.
 
 Soc. And Socrates uses speech in talking?
 
-Alc. Of course.
+[129c] Alc. Of course.
 
 Soc. And you call talking and using speech the same thing, I suppose.
 
@@ -1442,7 +1441,7 @@ Soc. Oh, but you can—that he is the user of the body.
 
 Alc. Yes.
 
-[130] Soc. And the user of it must be the soul?
+[130a] Soc. And the user of it must be the soul?
 
 Alc. It must.
 
@@ -1464,7 +1463,7 @@ Alc. Very well.
 
 Soc. But yet we have admitted that what actually rules the body is man?
 
-Alc. We have.
+[130b] Alc. We have.
 
 Soc. And does the body rule itself?
 
@@ -1486,7 +1485,7 @@ Soc. The unlikeliest thing in the world: for if one of the two does not share in
 
 Alc. You are right.
 
-Soc. But since neither the body nor the combination of the two is man, we are reduced, I suppose, to this: either man is nothing at all, or if something, he turns out to be nothing else than soul.
+[130c] Soc. But since neither the body nor the combination of the two is man, we are reduced, I suppose, to this: either man is nothing at all, or if something, he turns out to be nothing else than soul.
 
 Alc. Precisely so.
 
@@ -1498,7 +1497,7 @@ Soc. And if it is tolerably, though not exactly, we are content; exact knowledge
 
 Alc. What is that?
 
-Soc. The point suggested in that remark a moment ago, Cf. Plat. Alc. 1.129b. that we should first consider the same-in-itself; but so far, instead of the same, we have been considering what each single thing is in itself. And perhaps we shall be satisfied with that: for surely we cannot say that anything has more absolute possession of ourselves than the soul.
+Soc. The point suggested in that remark a moment ago, [^33] that we should first consider the same-in-itself; but so far, instead of the same, we have been considering what each single thing is in itself. And perhaps we shall be satisfied with that: for surely we cannot say that anything has more absolute possession of ourselves than the soul.
 
 Alc. No, indeed.
 
@@ -1506,13 +1505,13 @@ Soc. And it is proper to take the view that you and I are conversing with each o
 
 Alc. Quite so.
 
-Soc. Well, that is just what we suggested a little while ago—that Socrates, in using words to talk with Alcibiades, is holding speech, not with your face, it would seem, but with Alcibiades—that is, with his soul.
+[130e] Soc. Well, that is just what we suggested a little while ago—that Socrates, in using words to talk with Alcibiades, is holding speech, not with your face, it would seem, but with Alcibiades—that is, with his soul.
 
 Alc. I believe so.
 
 Soc. Then he who enjoins a knowledge of oneself bids us become acquainted with the soul.
 
-[131] Alc. So it seems.
+[131a] Alc. So it seems.
 
 Soc. And anyone who gets to know something belonging to the body knows the things that are his, but not himself.
 
@@ -1558,7 +1557,7 @@ Soc. And he who loves your body quits you, and is gone, as soon as its bloom is 
 
 Alc. Apparently.
 
-Soc. Whereas he who loves your soul will not quit you so long as it makes for what is better?
+[131d] Soc. Whereas he who loves your soul will not quit you so long as it makes for what is better?
 
 Alc. So it seems.
 
@@ -1578,11 +1577,11 @@ Soc. And you said that I only just anticipated you in coming to you, for otherwi
 
 Alc. Yes, that was so.
 
-[132] Soc. Then the reason was that I was the only lover of you, whereas the rest were lovers of what is yours; and that is losing its charm, [132] [132a] while you are beginning to bloom. So now, if you are not blighted and deformed by the Athenian people, I shall never forsake you. For my chiefest fear is of your being blighted by becoming a lover of the people, since many a good Athenian has come to that ere now. For fair of face is the people of great-hearted Erechtheus;Hom. Il. 2.547 but you should get a view of it stripped: so take the precaution that I recommend.
+Soc. Then the reason was that I was the only lover of you, whereas the rest were lovers of what is yours; and that is losing its charm, [132a] while you are beginning to bloom. So now, if you are not blighted and deformed by the Athenian people, I shall never forsake you. For my chiefest fear is of your being blighted by becoming a lover of the people, since many a good Athenian has come to that ere now. For fair of face is “the people of great-hearted Erechtheus;”[^34] but you should get a view of it stripped: so take the precaution that I recommend.
 
 Alc. What is it?
 
-Soc. Exercise yourself first, my wonderful friend, in learning what you ought to know before entering on politics; you must wait till you have learnt, in order that you may be armed with an antidote and so come to no harm.
+[132b] Soc. Exercise yourself first, my wonderful friend, in learning what you ought to know before entering on politics; you must wait till you have learnt, in order that you may be armed with an antidote and so come to no harm.
 
 Alc. Your advice seems to me good, Socrates; but try to explain in what way we can take pains over ourselves.
 
@@ -1590,7 +1589,7 @@ Soc. Well, we have made one step in advance; for there is a pretty fair agreemen
 
 Alc. That is so.
 
-Soc. And the next step, we see, is to take care of the soul, and look to that.
+[132c] Soc. And the next step, we see, is to take care of the soul, and look to that.
 
 Alc. Clearly.
 
@@ -1602,11 +1601,11 @@ Soc. Then how shall we obtain the most certain knowledge of it? For if we know t
 
 Alc. With what intent do you say that, Socrates?
 
-Soc. I will tell you what I suspect to be the real advice which the inscription gives us. I rather think there are not many illustrations of it to be found, but only in the case of sight.
+[132d] Soc. I will tell you what I suspect to be the real advice which the inscription gives us. I rather think there are not many illustrations of it to be found, but only in the case of sight.
 
 Alc. What do you mean by that?
 
-Soc. Consider in your turn: suppose that, instead of speaking to a man, it said to the eye of one of us, as a piece of advice See thyself, how should we apprehend the meaning of the admonition? Would it not be, that the eye should look at that by looking at which it would see itself?
+Soc. Consider in your turn: suppose that, instead of speaking to a man, it said to the eye of one of us, as a piece of advice “See thyself,” how should we apprehend the meaning of the admonition? Would it not be, that the eye should look at that by looking at which it would see itself?
 
 Alc. Clearly.
 
@@ -1618,15 +1617,15 @@ Soc. Quite right. And there is also something of that sort in the eye that we se
 
 Alc. To be sure.
 
-[133] Soc. And have you observed that the face of the person who looks into another’s eye is shown in the optic confronting him, [133] [133a] as in a mirror, and we call this the pupil, The Greek κόρη and the Latin pupilla both mean little girl or doll, and were used to indicate the dark center of the eye in which a tiny image can be seen reflected. for in a sort it is an image of the person looking?
+Soc. And have you observed that the face of the person who looks into another’s eye is shown in the optic confronting him, [133a] as in a mirror, and we call this the pupil, [^35] for in a sort it is an image of the person looking?
 
-Alc. That is true.
+[133b] Alc. That is true.
 
 Soc. Then an eye viewing another eye, and looking at the most perfect part of it, the thing wherewith it sees, will thus see itself.
 
 Alc. Apparently.
 
-Soc. But if it looks at any other thing in man or at anything in nature but what resembles this, i.e. it must look at the pupil of a man’s eye, or at what is comparable to that perfect part in other things. it will not see itself.
+Soc. But if it looks at any other thing in man or at anything in nature but what resembles this, [^36] it will not see itself.
 
 Alc. That is true.
 
@@ -1638,7 +1637,7 @@ Soc. And if the soul too, my dear Alcibiades, is to know herself, she must surel
 
 Alc. I agree, Socrates.
 
-Soc. And can we find any part of the soul that we can call more divine than this, which is the seat of knowledge and thought?
+[133c] Soc. And can we find any part of the soul that we can call more divine than this, which is the seat of knowledge and thought?
 
 Alc. We cannot.
 
@@ -1646,7 +1645,7 @@ Soc. Then this part of her resembles God, and whoever looks at this, and comes t
 
 Alc. Apparently.
 
-Soc. And self-knowledge we admitted to be temperance. Above, Plat. Alc. 1.131b.
+Soc. And self-knowledge we admitted to be temperance. [^37]
 
 Alc. To be sure.
 
@@ -1654,7 +1653,7 @@ Soc. So if we have no knowledge of ourselves and no temperance, shall we be able
 
 Alc. How can that be, Socrates?
 
-Soc. For I expect it seems impossible to you that without knowing Alcibiades you should know that the belongings of Alcibiades are in fact his.
+[133d] Soc. For I expect it seems impossible to you that without knowing Alcibiades you should know that the belongings of Alcibiades are in fact his.
 
 Alc. Impossible indeed, upon my word.
 
@@ -1684,7 +1683,7 @@ Alc. No, indeed.
 
 Soc. No, nor an economist either.
 
-[134] Alc. No, indeed.
+[134a] Alc. No, indeed.
 
 Soc. Nor will he know what he is doing.
 
@@ -1710,7 +1709,7 @@ Soc. Then it is impossible to be happy if one is not temperate and good.
 
 Alc. Impossible.
 
-Soc. So it is the bad men who are wretched.
+[134b] Soc. So it is the bad men who are wretched.
 
 Alc. Yes, very.
 
@@ -1726,7 +1725,7 @@ Soc. And if you are to manage the city’s affairs properly and honorably, you m
 
 Alc. Of course.
 
-Soc. But could one possibly impart a thing that one had not?
+[134c] Soc. But could one possibly impart a thing that one had not?
 
 Alc. How, indeed?
 
@@ -1738,7 +1737,7 @@ Soc. Hence it is not licence or authority for doing what one pleases that you ha
 
 Alc. Apparently.
 
-Soc. For you and the state, if you act justly and temperately, will act so as to please God.
+[134d] Soc. For you and the state, if you act justly and temperately, will act so as to please God.
 
 Alc. Naturally.
 
@@ -1754,7 +1753,7 @@ Soc. And so you will act aright and well?
 
 Alc. Yes.
 
-Soc. Well now, if you act in this way, I am ready to warrant that you must be happy.
+[134e] Soc. Well now, if you act in this way, I am ready to warrant that you must be happy.
 
 Alc. And I can rely on your warranty.
 
@@ -1762,7 +1761,7 @@ Soc. But if you act unjustly, with your eyes on the godless and dark, the probab
 
 Alc. That is probable.
 
-[135] Soc. For if a man, my dear Alcibiades, is at liberty to do what he pleases, but is lacking in mind, what is the probable result to him personally, or to the state as well? For instance, if he is sick and at liberty to do what he pleases—without a medical mind, [135] [135a] but with a despot’s power which prevents anyone from even reproving him—what will be the result? Will not his health, in all likelihood, be shattered?
+Soc. For if a man, my dear Alcibiades, is at liberty to do what he pleases, but is lacking in mind, what is the probable result to him personally, or to the state as well? For instance, if he is sick and at liberty to do what he pleases—without a medical mind, [135a] but with a despot’s power which prevents anyone from even reproving him—what will be the result? Will not his health, in all likelihood, be shattered?
 
 Alc. That is true.
 
@@ -1790,7 +1789,7 @@ Soc. And the nobler more becoming?
 
 Alc. Of course.
 
-Soc. Then it becomes a bad man to be a slave, since it is better.
+[135c] Soc. Then it becomes a bad man to be a slave, since it is better.
 
 Alc. Yes.
 
@@ -1812,7 +1811,7 @@ Alc. I think I perceive only too clearly.
 
 Soc. Then do you know how you may escape from the condition in which you now find yourself? Let us not give it a name, where a handsome person is concerned!
 
-Alc. I do.
+[135d] Alc. I do.
 
 Soc. How?
 
@@ -1824,14 +1823,50 @@ Alc. Well, what should I say?
 
 Soc. If it be God’s will.
 
-Alc. Then I say it. And yet I say this besides, that we are like to make a change in our parts, Socrates, so that I shall have yours and you mine. For from this day onward it must be the case that I am your attendant, and you have me always in attendance on you. παιδαγωγεῖν is used here simply in the sense of following about as personal attendant.
+Alc. Then I say it. And yet I say this besides, that we are like to make a change in our parts, Socrates, so that I shall have yours and you mine. For from this day onward it must be the case that I am your attendant, and you have me always in attendance on you. [^38]
 
-Soc. Ah, generous friend! So my love will be just like a stork; for after hatching a winged love in you it is to be cherished in return by its nestling. It was commonly believed that aged storks were fed by younger storks which they had previously hatched and reared.
+[135e] Soc. Ah, generous friend! So my love will be just like a stork; for after hatching a winged love in you it is to be cherished in return by its nestling. [^39]
 
 Alc. Well, that is the position, and I shall begin here and now to take pains over justice.
 
 Soc. I should like to think you will continue to do so; yet I am apprehensive, not from any distrust of your nature, but in view of the might of the state, lest it overcome both me and you.
 
----
-
-*Ὁ Διαφορεύς παρῆν*
+[^1]: Socrates refers to the spiritual sign which occasionally warned him against an intended action: cf. Plat. Apol. 31c-d, Plat. Apol. 40a-b.
+[^2]: Socrates means by better or the better way the general method of attaining excellence in any art.
+[^3]: Socrates here repeats καλῶς (which means handsomely as well as correctly) in allusion to Alcibiades’ good looks. Cf. Plat. Alc.1 113b
+[^4]: Music with the Greeks included poetry and dancing as well as our music.
+[^5]: Cf. above, Plat. Alc.1 106e.
+[^6]: i.e., at the recitations of rhapsodes; cf. the Ion of Plato.
+[^7]: 457 B.C.
+[^8]: 447 B.C.
+[^9]: Eur. Hipp. 352—σοῦ τάδ’, οὐκ ἐμοῦ κλύεις.
+[^10]: Eur. Hipp. 352
+[^11]: Peparethus is a small island off the coast of Thessaly.
+[^12]: The tiller was the handle of an oar at the side of the stern, and was moved towards or away from the center of the ship.
+[^13]: A musician of Ceos (who was perhaps also a Pythagorean philosopher) who taught in Athens.
+[^14]: An Ionian philosopher who lived in Athens c. 480-430 B.C.
+[^15]: An Athenian musician and sophist.
+[^16]: A friend of Zeno: cf. Plat. Parm. 126.
+[^17]: An Athenian general.
+[^18]: Of Elea, in S. Italy; a disciple of Parmenides who criticized the Pythagorean teaching.
+[^19]: About 600-800 pounds, or the total expenses of two or three years at an English University.
+[^20]: Meidias is mentioned by Aristophanes (Aristoph. Birds 1297) for his skill in the game of filliping quails which were specially trained not to flinch.
+[^21]: Slaves in Athens were largely natives of western Asia. and had thick, close hair, very different from the wavy locks of the Greeks.
+[^22]: i.e. about the Spartan generals and the Persian king, Plat. Alc.1 120c.
+[^23]: Socrates’ father, Sophroniscus, was a sculptor, and Daedalus was the legendary inventor of sculpture.
+[^24]: i.e., the kings of Sparta and Persia.
+[^25]: The saying, which became proverbial, is thought to have occurred in one of the (now lost) plays of Plato, the Athenian comic poet, who lived c. 460-389 B.C.
+[^26]: Plato Comicus?
+[^27]: Zoroaster was the reputed founder of the Persian religion, of which the ministers were the Magi or hereditary priests.
+[^28]: The mother of Alcibiades.
+[^29]: In Attica, about fifteen miles east of Athens.
+[^30]: Cf. above, Plat. Alc. 1.119b.
+[^31]: Cf. Plat. Charm. 161e, Plat. Rep. 1.332 ff.
+[^32]: This seems to be a sudden adumbration of the Platonic idea or form which remains constant, and so the same, behind the shifting objects of sense related to it through its influences or impress. Cf. below, Plat. Alc. 1.130d.
+[^33]: Cf. Plat. Alc. 1.129b.
+[^34]: Hom. Il. 2.547
+[^35]: The Greek κόρη and the Latin pupilla both mean little girl or doll, and were used to indicate the dark center of the eye in which a tiny image can be seen reflected.
+[^36]: i.e. it must look at the pupil of a man’s eye, or at what is comparable to that perfect part in other things.
+[^37]: Above, Plat. Alc. 1.131b.
+[^38]: παιδαγωγεῖν is used here simply in the sense of following about as personal attendant.
+[^39]: It was commonly believed that aged storks were fed by younger storks which they had previously hatched and reared.

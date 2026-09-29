@@ -1,34 +1,26 @@
 ---
 id: plutarco-beasts-are-rational-eng-william-w-goodwin-1874
-type: texto_primario
-title: "That brute beasts make use of reason"
-subtitle: null
+type: translation
+title: That brute beasts make use of reason
 author: Plutarch
-year_original: null
-language: eng
-translation:
-  - William W. Goodwin
+translator:
+- Sir A. J.
 publisher: Little, Brown, and Company
-area: null
-era: null
-tags: []
-status: rascunho
+language: eng
+tags:
+- moralists
+status: draft
 project: pedra_angular
-source: "Plutarch. That brute beasts make use of reason. Ed. William W. Goodwin. Boston: Little, Brown, and Company, 1874. Perseus Digital Library, Tufts University (CC BY-SA 4.0). URN: null"
-related: []
+urn_work: urn:cts:greekLit:tlg0007.tlg130
+urn: urn:cts:greekLit:tlg0007.tlg130.perseus-eng4
+source: 'Plutarch. That brute beasts make use of reason. Ed. William W. Goodwin. Boston: Little, Brown, and Company, 1874. Perseus Digital Library, Tufts University (CC BY-SA 4.0).'
+source_repo: PerseusDL/canonical-greekLit
+source_file: data/tlg0007/tlg130/tlg0007.tlg130.perseus-eng4.xml
+source_commit: e37eed2e8
+license: CC-BY-SA-4.0
 ---
 
 # That brute beasts make use of reason
-
-**Plutarch**
-
-Boston: Little, Brown, and Company, 1874.
-Perseus Digital Library, Tufts University (CC BY-SA 4.0).
-URN: `null`
-
----
-
-## Texto
 
 [1] ULYSSES. All these things, Circe, I believe that I have learned and well remember. But I would willingly ask thee, whether thou hast any Grecians here, which being men thou hast transformed into wolves and lions.
 
@@ -100,7 +92,7 @@ Agamemnon hunted all Boeotia in pursuit of Argynnus, who fled his embraces; and 
 
 Hercules in like manner pursuing his beardless friend, forsook his choicest associates and abandoned the fleet.
 
-In the vaulted room belonging to Apollo surnamed Ptous, one of you men secretly wrote this inscription, Achilles the fair; when Achilles at that time had a son. [And I hear the inscription is still remaining.]It seems incredible that Plutarch could have put this into the mouth of Gryllus, even by carelessness. (G.) Yet if a cock tread a cock in the absence of the hen, he is burned alive, upon the signification of the soothsayer that it portends some fatal calamity. This is a plain confession in men themselves, that the beasts excel them in chastity, and that force is not to be put upon Nature for the sake of pleasure. But your incontinence is such, that Nature, though she have the law to assist her, is not able to keep it within bounds; insomuch that, like a rapid inundation, those inordinate desires overwhelm Nature with continual violence, trouble, and confusion. For men have copulated with she-goats, sows, and mares; and women have run mad after male beasts. And from such copulations sprang the Minotaurs and Silvans, and, as I am apt to believe, the Sphinxes and Centaurs. It is true, that sometimes, constrained by hunger, a dog or a bird has fed upon human flesh; but never yet did any beast attempt to couple with human kind. But men constrain and force the beasts to these and many other unlawful pleasures.
+In the vaulted room belonging to Apollo surnamed Ptous, one of you men secretly wrote this inscription, Achilles the fair; when Achilles at that time had a son. [And I hear the inscription is still remaining.][^1] Yet if a cock tread a cock in the absence of the hen, he is burned alive, upon the signification of the soothsayer that it portends some fatal calamity. This is a plain confession in men themselves, that the beasts excel them in chastity, and that force is not to be put upon Nature for the sake of pleasure. But your incontinence is such, that Nature, though she have the law to assist her, is not able to keep it within bounds; insomuch that, like a rapid inundation, those inordinate desires overwhelm Nature with continual violence, trouble, and confusion. For men have copulated with she-goats, sows, and mares; and women have run mad after male beasts. And from such copulations sprang the Minotaurs and Silvans, and, as I am apt to believe, the Sphinxes and Centaurs. It is true, that sometimes, constrained by hunger, a dog or a bird has fed upon human flesh; but never yet did any beast attempt to couple with human kind. But men constrain and force the beasts to these and many other unlawful pleasures.
 
 [8] GRYLLUS. Now being thus wicked and incontinent in reference to the aforesaid lustful desires, it is no less easy to be proved that men are more intemperate than beasts, even in those things which are necessary, that is to say, in eating and drinking, the pleasure of which we always enjoy with some benefit to ourselves. But you, pursuing the pleasures of eating and drinking beyond the satisfaction of nature, are punished with many and tedious diseases, which, arising from the single fountain of superfluous gormandizing, fill your bodies with all manner of wind and vapors not easy for purgation to expel. In the first place, all sorts of beasts, according to their kind, feed upon one sort of food, which is proper to their natures; some upon grass, some upon roots, and others upon fruits. They that feed upon flesh never mind any other sort of food. Neither do they rob the weaker animals of their nourishment. But the lion suffers the hart, and the wolf the sheep, to feed upon what Nature has provided for them. But man, such is his voracity, falls upon all, to satisfy the pleasures of his appetite; tries all things, tastes all things; and, as if he were yet to seek what was the most proper diet and most agreeable to his nature, among all the creatures is the only all-devourer. And first he makes use of flesh, not for want, as having the liberty to take his choice of herbs and fruits, the plenty of which is inexhaustible; but out of luxury and being closed with necessaries, he seeks after inconvenient and impure diet, purchased by the slaughter of living creatures; by that means showing himself more cruel than the most savage of wild beasts. For blood, murder, and flesh are proper to nourish the kite, the wolf, and dragon; but to men they are delicious viands. Then making use of all, he does not do like the beasts, which abstain from most creatures and are at enmity only with a few, and that only compelled by the necessities of hunger; but neither fowl nor fish nor any thing that lives upon the land escapes your tables, though they bear the epithets of human and hospitable.
 
@@ -114,8 +106,6 @@ GRYLLUS. From these very creatures, most worthy and best of men, Ulysses, the na
 
 ULYSSES. Have a care, Gryllus; it is a dangerous thing to allow them reason that have no knowledge of a Deity.
 
-GRYLLUS. Must we then deny that thou, most noble Ulysses, being so wise and full of stratagems as thou art, wast begotten by Sisyphus?
+GRYLLUS. Must we then deny that thou, most noble Ulysses, being so wise and full of stratagems as thou art, wast begotten by Sisyphus? […]
 
----
-
-*Ὁ Διαφορεύς παρῆν*
+[^1]: It seems incredible that Plutarch could have put this into the mouth of Gryllus, even by carelessness. (G.)

@@ -1,42 +1,38 @@
 ---
 id: plutarco-timoleon-eng-bernadotte-perrin-1918
-type: texto_primario
-title: "Timoleon"
-subtitle: null
+type: translation
+title: Timoleon
 author: Plutarch
-year_original: null
-language: eng
-translation:
-  - Bernadotte Perrin
+translator:
+- Bernadotte Perrin
 publisher: Harvard University Press
-area: null
-era: null
-tags: []
-status: rascunho
+language: eng
+tags:
+- moralists
+status: draft
 project: pedra_angular
-source: "Plutarch. Timoleon. Ed. Bernadotte Perrin. Cambridge, MA: Harvard University Press, 1918. Perseus Digital Library, Tufts University (CC BY-SA 4.0). URN: null"
-related: []
+urn_work: urn:cts:greekLit:tlg0007.tlg018
+urn: urn:cts:greekLit:tlg0007.tlg018.perseus-eng2
+source: 'Plutarch. Timoleon. Ed. Bernadotte Perrin. Cambridge, MA: Harvard University Press, 1918. Perseus Digital Library, Tufts University (CC BY-SA 4.0).'
+source_repo: PerseusDL/canonical-greekLit
+source_file: data/tlg0007/tlg018/tlg0007.tlg018.perseus-eng2.xml
+source_commit: e37eed2e8
+license: CC-BY-SA-4.0
 ---
 
 # Timoleon
 
-**Plutarch**
-
-Cambridge, MA: Harvard University Press, 1918.
-Perseus Digital Library, Tufts University (CC BY-SA 4.0).
-URN: `null`
-
----
-
-## Texto
-
-### Capítulo 0
+#### Capítulo 0
 
 [0.1] I began the writing of my Lives for the sake of others, but I find that I am continuing the work and delighting in it now for my own sake also, using history as a mirror and endeavouring in a manner to fashion and adorn my life in conformity with the virtues therein depicted.
 
-[0.2] For the result is like nothing else than daily living and associating together, when I receive and welcome each subject of my history in turn as my guest, so to speak, and observe carefully how large he was and of what mien,As Priam admired Achilles, Iliad, xxiv. 630. and select from his career what is most important and most beautiful to know.
+[0.2] For the result is like nothing else than daily living and associating together, when I receive and welcome each subject of my history in turn as my guest, so to speak, and observe carefully “how large he was and of what mien,”[^1] and select from his career what is most important and most beautiful to know.
 
-[0.3] And oh! what greater joy than this canst thou obtain, An iambic trimeter from the Tympanistae of Sophocles (Nauck, Trag. Graec. Frag.2, p. 270). and more efficacious for moral improvement?
+```verso
+[0.3] And oh! what greater joy than this canst thou obtain,
+```
+
+[^2] and more efficacious for moral improvement?
 
 [0.4] Democritus says we ought to pray that we may be visited by phantoms which are propitious, and that from out the circumambient air such only may encounter us as are agreeable to our natures and good, rather than those which are perverse and bad, thereby intruding into philosophy a doctrine which is not true, and which leads astray into boundless superstitions.
 
@@ -46,33 +42,33 @@ URN: `null`
 
 [0.7] the men were alike not only in the good principles which they adopted, but also in the good fortune which they enjoyed in their conduct of affairs,
 
-[0.8] and they will make it hard for my readers to decide whether the greatest of their successful achievements were due to their good fortune or their wisdom.In the MSS. this Introduction stands as the first chapter of the Aemilius Paulus.
+[0.8] and they will make it hard for my readers to decide whether the greatest of their successful achievements were due to their good fortune or their wisdom.[^3]
 
-### Capítulo 1
+#### Capítulo 1
 
 [1.1] The state of affairs in Syracuse, before the expedition of Timoleon into Sicily, was as follows.
 
-[1.2] After Dion had driven out Dionysius the tyrant, he was at once treacherously slain,See the Dion, chapter lvii. This was in 354 B.C. and those who had helped him to free Syracuse were divided among themselves. The city, therefore, was continually exchanging one tyrant for another, and owing to a multitude of ills was almost abandoned,
+[1.2] After Dion had driven out Dionysius the tyrant, he was at once treacherously slain,[^4] and those who had helped him to free Syracuse were divided among themselves. The city, therefore, was continually exchanging one tyrant for another, and owing to a multitude of ills was almost abandoned,
 
 [1.3] while as for the rest of Sicily, part of it was ruined and already wholly without inhabitants by reason of the wars, and most of the cities were occupied by Barbarians of mixed races and soldiers out of employment, who readily consented to the successive changes in the despotic power.
 
-[1.4] At last Dionysius, in the tenth year of his exile,346 B.C. collected mercenaries, drove out Nisaeus; who was at that time master of Syracuse, recovered the power again, and established himself as tyrant anew; he had been unaccountably deprived by a small force of the greatest tyranny that ever was, and now more unaccountably still he had become, from a lowly exile, master of those who drove him forth.
+[1.4] At last Dionysius, in the tenth year of his exile,[^5] collected mercenaries, drove out Nisaeus; who was at that time master of Syracuse, recovered the power again, and established himself as tyrant anew; he had been unaccountably deprived by a small force of the greatest tyranny that ever was, and now more unaccountably still he had become, from a lowly exile, master of those who drove him forth.
 
 [1.5] Accordingly, those of the Syracusans who remained in the city were the slaves of a tyrant who at all times was unreasonable, and whose spirit at this time was rendered altogether savage by misfortunes,
 
 [1.6] but the best and most distinguished of them had recourse to Hicetas the ruler of Leontini, put themselves under his protection, and chose him their general for the war; not that he was better than any acknowledged tyrant, but because they had no other refuge, and felt confidence in one who was a Syracusan by birth and possessed a force that was able to cope with that of Dionysius.
 
-### Capítulo 2
+#### Capítulo 2
 
 [2.1] Meanwhile the Carthaginians came with a large armament to Sicily and were watching their opportunity, and the Sicilian Greeks, in their fright, wished to send an embassy to Greece and ask for assistance from the Corinthians,
 
-[2.2] not only because they trusted them on account of their kinshipSyracuse was founded by Corinthians in 735 B.C. and in consequence of the many benefits they had already received from them, but also in general because they saw that the city was always a lover of freedom and a hater of tyrants, and had waged the most and greatest of her wars, not for supremacy and aggrandizement, but for the liberty of the Greeks.
+[2.2] not only because they trusted them on account of their kinship[^6] and in consequence of the many benefits they had already received from them, but also in general because they saw that the city was always a lover of freedom and a hater of tyrants, and had waged the most and greatest of her wars, not for supremacy and aggrandizement, but for the liberty of the Greeks.
 
 [2.3] Hicetas, however, since he had made a tyranny for himself, and not the freedom of Syracuse, his sole object in taking the field, had already held secret conferences with the Carthaginians; yet openly he commended the plan of the Syracusans and joined them in sending the embassy to Peloponnesus,
 
 [2.4] not because he wished that an allied force should come from there, but because he hoped that if, as was likely, the Corinthians should refuse their assistance because the disturbed condition of Greece kept them busy at home, he might more easily turn the control of affairs into the hands of the Carthaginians and use these invaders as allies and helpers in a struggle against the Syracusans or against Dionysius. This, then, was fully proved a little later.
 
-### Capítulo 3
+#### Capítulo 3
 
 [3.1] But when the embassy arrived, the Corinthians, since they were wont to be ever solicitous for their colonial cities and for Syracuse in particular, and since by good fortune there was nothing in Greece at that time to disturb them, but they were enjoying peace and leisure, voted readily to give the assistance desired.
 
@@ -88,15 +84,15 @@ URN: `null`
 
 [3.7] Therefore he won followers among the citizens and as an efficient warrior was given posts of high command. And Timoleon aided him in obtaining these, trying to conceal his mistakes altogether or to make them seem trifling, and embellishing and enhancing his good natural qualities.
 
-### Capítulo 4
+#### Capítulo 4
 
-[4.1] In the battle fought by the Corinthians against the Argives and Cleonaeans,Perhaps between 368 and 366 B.C. Timoleon was stationed among the men-at-arms, and Timophanes, who commanded the cavalry, was overtaken by extreme peril.
+[4.1] In the battle fought by the Corinthians against the Argives and Cleonaeans,[^7] Timoleon was stationed among the men-at-arms, and Timophanes, who commanded the cavalry, was overtaken by extreme peril.
 
 [4.2] For his horse was wounded and threw him in among the enemy, and of his comrades, some scattered in panic flight, while the few who remained fought against great numbers and were with difficulty holding their ground.
 
 [4.3] Accordingly, when Timoleon saw what had happened, he came running to the help of Timophanes and held his shield over him as he lay on the ground, and after receiving many javelins and many hand to hand blows upon his person and his armour, at last succeeded in repulsing the enemy and saving his brother.
 
-[4.4] After this, the Corinthians, fearing lest they should suffer a second loss of their city through the treachery of their allies,As they had at hands of the Argives in 393 B.C. voted to maintain four hundred mercenaries, and put Timophanes in command of them;
+[4.4] After this, the Corinthians, fearing lest they should suffer a second loss of their city through the treachery of their allies,[^8] voted to maintain four hundred mercenaries, and put Timophanes in command of them;
 
 [4.5] but he, without regard for honour and justice, at once took measures to bring the city under his own power, and, after putting to death without a trial great numbers of the leading citizens, declared himself tyrant. At this, Timoleon was greatly distressed, and considering his brother’s baseness to be his own misfortune, he attempted to reason with him and exhort him to renounce that unfortunate and mad ambition of his and seek to make some amends for his transgressions against his fellow citizens.
 
@@ -104,9 +100,9 @@ URN: `null`
 
 [4.7] and the three, surrounding him, besought him even now to listen to reason and change his mind.
 
-[4.8] But Timophanes first mocked them, and then lost his temper and was violent, whereupon Timoleon withdrew a little space from him and stood weeping with muffled head, while the other two, drawing their swords speedily despatched him. Diodorus (xvi. 65, 4) says that Timoleon slew his brother with his own hand in the market place; Nepos (Timoleon, i. 4) supports Plutarch’s account, though with differing details.
+[4.8] But Timophanes first mocked them, and then lost his temper and was violent, whereupon Timoleon withdrew a little space from him and stood weeping with muffled head, while the other two, drawing their swords speedily despatched him.[^9]
 
-### Capítulo 5
+#### Capítulo 5
 
 [5.1] The deed having been noised abroad, the most influential Corinthians applauded Timoleon for his hatred of baseness and greatness of soul, in that, although a kindly man and fond of his family, he had nevertheless set his country before his family, and honour and justice before expediency; for when his brother was fighting valiantly for his country, Timoleon had saved his life, but after he had plotted against her and enslaved her, Timoleon had slain him.
 
@@ -116,7 +112,7 @@ URN: `null`
 
 [5.4] but his friends would not suffer this, and brought all manner of entreaty and constraint to bear upon him, so that he made up his mind to live by himself, apart from the world. So he gave up all public life, and for a long while did not even return to the city, but spent his time wandering in great distress of mind among the most desolate parts of the country.
 
-### Capítulo 6
+#### Capítulo 6
 
 [6.1] So true is it that the purposes of men, unless they acquire firmness and strength from reason and philosophy for the activities of life, are unsettled and easily carried away by casual praise and blame, being forced out of their native reckonings.
 
@@ -126,17 +122,17 @@ URN: `null`
 
 [6.4] For repentance makes even the noble action base; whereas the choice which springs from a wise and understanding calculation does not change, even though its results are unsuccessful.
 
-[6.5] For this reason Phocion the Athenian,See the Phocion, xxiii. 4. after having opposed the activities of Leosthenes, when Leosthenes was thought to be successful and the Athenians were seen sacrificing and exulting over the victory,Won by the allied Greeks under Leosthenes over Antipater of Macedonia, in 323 B.C. The victory was soon followed by the defeat of the Greeks at Crannon. said he could have wished that the achievement were his own, but was glad that he counselled as he did.
+[6.5] For this reason Phocion the Athenian,[^10] after having opposed the activities of Leosthenes, when Leosthenes was thought to be successful and the Athenians were seen sacrificing and exulting over the victory,[^11] said he could have wished that the achievement were his own, but was glad that he counselled as he did.
 
 [6.6] And with more force Aristides the Locrian, one of Plato’s companions, when Dionysius the Elder asked him for one of his daughters in marriage, said he would be more pleased to see the maid dead than living with a tyrant;
 
 [6.7] and when, after a little while, Dionysius put his children to death and then asked him insultingly whether he was still of the same mind about giving his daughters in marriage, answered that he was afflicted by what had been done, but did not repent him of what had been said. Such utterances as these, then, betoken perhaps a larger and more consummate virtue.
 
-### Capítulo 7
+#### Capítulo 7
 
 [7.1] But the grief of Timoleon over what had been done, whether it was due to pity for his dead brother or to reverence for his mother, so shattered and confounded his mental powers that almost twenty years passed without his setting his hand to a single conspicuous or public enterprise.
 
-[7.2] Accordingly, when he had been nominated general, and the people had readily approved of it and given him their votes, Telecleides, who was at that time the foremost man in the city for reputation and influence, rose up and exhorted Timoleon to be a noble and brave man in his enterprises. For if, said he, thou contendest successfully, we shall think of thee as a tyrannicide; but if poorly, as a fratricide.
+[7.2] Accordingly, when he had been nominated general, and the people had readily approved of it and given him their votes, Telecleides, who was at that time the foremost man in the city for reputation and influence, rose up and exhorted Timoleon to be a noble and brave man in his enterprises. “For if,” said he, “thou contendest successfully, we shall think of thee as a tyrannicide; but if poorly, as a fratricide.”
 
 [7.3] But while Timoleon was getting ready for his voyage and collecting soldiers, a letter was brought to the Corinthians from Hicetas which disclosed his treacherous change of sides.
 
@@ -148,7 +144,7 @@ URN: `null`
 
 [7.7] When this letter had been read publicly if any of the Corinthians had before been lukewarm towards the expedition, their wrath against Hicetas now incited them all, so that they eagerly joined in supplying Timoleon and helping him get ready for his voyage.
 
-### Capítulo 8
+#### Capítulo 8
 
 [8.1] When the fleet was ready, and the soldiers provided with what they needed, the priestesses of Persephone fancied they saw in their dreams that goddess and her mother making ready for a journey, and heard them say that they were going to sail with Timoleon to Sicily.
 
@@ -156,7 +152,7 @@ URN: `null`
 
 [8.3] From the votive offerings suspended there a fillet which had crowns and figures of Victory embroidered upon it slipped away and fell directly upon the head of Timoleon, so that it appeared as if he were being crowned by the god and thus sent forth upon his undertaking.
 
-[8.4] And now, with seven Corinthian ships, and two from Corcyra, and a tenth which the Leucadians furnished, he set sail.In 344 B.C.
+[8.4] And now, with seven Corinthian ships, and two from Corcyra, and a tenth which the Leucadians furnished, he set sail.[^12]
 
 [8.5] And at night, after he had entered the open sea and was enjoying a favouring wind, the heavens seemed to burst open on a sudden above his ship, and to pour forth an abundant and conspicuous fire.
 
@@ -166,7 +162,7 @@ URN: `null`
 
 [8.8] for Sicily, they said, was sacred to Persephone, since mythology makes it the scene of her rape; and the island was given to her as a wedding present.
 
-### Capítulo 9
+#### Capítulo 9
 
 [9.1] Such, then, were the signs from Heaven which encouraged the expedition; and making haste, since they were crossing the open sea, they skirted the coast of Italy.
 
@@ -184,7 +180,7 @@ URN: `null`
 
 [9.8] Moreover, it seemed impossible to overcome both the ships of the Barbarians confronting them there with twice their numbers, and the force under Hicetas in Syracuse, where they had come to take command.
 
-### Capítulo 10
+#### Capítulo 10
 
 [10.1] However, after Timoleon had met the envoys of Hicetas and the commanders of the Carthaginians, he calmly said that he would obey their commands (for what would he accomplish by refusing?), but he wished that, before he went away, their proposals and his reply should be made in the presence of the people of Rhegium, a Greek city and a friend of both parties;
 
@@ -202,7 +198,7 @@ URN: `null`
 
 [10.8] Therefore at this time also he allowed Timoleon to make the city a base of operations, and persuaded his citizens to join the Corinthians in their struggle to set Sicily free.
 
-### Capítulo 11
+#### Capítulo 11
 
 [11.1] But the Carthaginians in Rhegium, after Timoleon had put to sea and the assembly had been dissolved, were indignant, and in their discomfiture afforded amusement to the Rhegians, seeing that, though Phoenicians, they were not pleased with what was effected by deceit.
 
@@ -214,9 +210,9 @@ URN: `null`
 
 [11.5] And now it was that the Syracusans altogether despaired of their deliverance, seeing their harbour in the power of the Carthaginians, their city in the hands of Hicetas and their citadel in the possession of Dionysius; while Timoleon had but a hold as it were on the fringe of Sicily in the little city of Tauromenium, with a feeble hope and a small force to support him; for apart from a thousand soldiers and provisions barely sufficient for them, he had nothing.
 
-[11.6] Nor did the cities feel confidence in him, over full of ills as they were and embittered against all leaders of armies, particularly by reason of the perfidy of CallippusThe false friend of Dion ( Dion, chapters liv-lvii.) and Pharax,Cf. the Dion, xlviii. 3; xlix. 1. f. one of whom was an Athenian, and the other a Lacedaemonian; but both of them, while declaring that they came to secure the freedom of Sicily and wished to overthrow its tyrants, made the calamities of Sicily under her tyrants seem as gold in comparison, and brought her people to think those more to be envied who had perished in slavery than those who had lived to see her independence.
+[11.6] Nor did the cities feel confidence in him, over full of ills as they were and embittered against all leaders of armies, particularly by reason of the perfidy of Callippus[^13] and Pharax,[^14] one of whom was an Athenian, and the other a Lacedaemonian; but both of them, while declaring that they came to secure the freedom of Sicily and wished to overthrow its tyrants, made the calamities of Sicily under her tyrants seem as gold in comparison, and brought her people to think those more to be envied who had perished in slavery than those who had lived to see her independence.
 
-### Capítulo 12
+#### Capítulo 12
 
 [12.1] Expecting, therefore, that the Corinthian leader would be no whit better than those who had preceded him, but that the same sophistries and lures were come to them again, and that with fair hopes and kind promises they were to be made docile enough to receive a new master in place of an old one, they all suspected and repulsed the appeals of the Corinthians except the people of Adranum.
 
@@ -236,7 +232,7 @@ URN: `null`
 
 [12.9] Moreover, the people of Adranum threw open their gates and joined Timoleon, reporting to him with terror and amazement that at the beginning of the battle the sacred portals of their temple flew open of their own accord, and the spear of the god was seen to be trembling to the tip of its point, while copious sweat ran down his face.
 
-### Capítulo 13
+#### Capítulo 13
 
 [13.1] These prodigies, as it would seem, were a sign not only of the victory which was then won, but also of the achievements succeeding them, to which that struggle afforded a propitious beginning.
 
@@ -256,9 +252,9 @@ URN: `null`
 
 [13.9] having been born and reared in a tyranny which was the greatest and most illustrious of all tyrannies and having held this for ten years, and then for twelve other years, after the expedition of Dion, having been involved in harassing struggles and wars, and having surpassed in his sufferings all his acts of tyranny.
 
-[13.10] For he lived to see the violent deaths of his grown-up sons and the violation of his maiden daughters, and the shameful abuse of the person of his wife, who was at the same time his sister, and who, while living, was subjected to the most wanton pleasures of his enemies, and after being murdered, together with her children, was cast into the sea. These things, then, have been fully described in my Life of Dion.There is nothing in the Dion to justify this statement. The cruelties described were committed by the revolting people of Locri, to whom Dionysius had made himself odious during his residence there from 356 to 346 B.C. Cf. Athenaeus, p. 541 c-e.
+[13.10] For he lived to see the violent deaths of his grown-up sons and the violation of his maiden daughters, and the shameful abuse of the person of his wife, who was at the same time his sister, and who, while living, was subjected to the most wanton pleasures of his enemies, and after being murdered, together with her children, was cast into the sea. These things, then, have been fully described in my Life of Dion.[^15]
 
-### Capítulo 14
+#### Capítulo 14
 
 [14.1] But as for Dionysius, after his arrival at Corinth there was no Greek who did not long to behold and speak to him.
 
@@ -268,31 +264,31 @@ URN: `null`
 
 [14.4] Some thought that Dionysius did these things as an aimless loiterer, and because he was naturally easy-going and fond of license; but others thought that it was in order to be held in contempt and not in fear by the Corinthians, nor under suspicion of being oppressed by the change in his life and of striving after power, that he engaged in these practices and played an unnatural part, making a display of great silliness in the way he amused himself.
 
-### Capítulo 15
+#### Capítulo 15
 
 [15.1] However, certain sayings of his are preserved, from which it would appear that he accommodated himself to his present circumstances not ignobly.
 
-[15.2] Once, namely, when he landed at Leucadia,On his voyage from Syracuse to Corinth. a city which had been colonized by Corinthians, just like Syracuse, he said he had the same feelings as young men who have been guilty of misdemeanours;
+[15.2] Once, namely, when he landed at Leucadia,[^16] a city which had been colonized by Corinthians, just like Syracuse, he said he had the same feelings as young men who have been guilty of misdemeanours;
 
 [15.3] for just as these pass their time merrily with their brothers, but shun their fathers from a feeling of shame, so he was ashamed to live in their common mother-city, and would gladly dwell there with them.
 
-[15.4] And again, in Corinth, when a stranger somewhat rudely derided him about his associations with philosophers, in which he used to take delight when he was a tyrant, and finally asked him what good Plato’s wisdom did him now, Dost thou think, said he, that I have had no help from Plato, when I bear my change of fortune as I do?
+[15.4] And again, in Corinth, when a stranger somewhat rudely derided him about his associations with philosophers, in which he used to take delight when he was a tyrant, and finally asked him what good Plato’s wisdom did him now, “Dost thou think,” said he, “that I have had no help from Plato, when I bear my change of fortune as I do?”
 
 [15.5] Further, when Aristoxenus the musician and certain others inquired what his complaint against Plato was and what its origin, he told them that of the many ills with which tyranny abounded there was none so great as this, that not one of those reputed to be friends speaks frankly with the tyrant; for indeed it was by such friends that he himself had been deprived of Plato’s good will.
 
-[15.6] Again, when one of those who wish to be witty, in mockery of Dionysius shook out his robe on coming into his presence,To show that no weapon was concealed there. as if into the presence of a tyrant, Dionysius turned the jest upon him by bidding him do so when he went out from his presence, that he might not take anything in the house away with him.
+[15.6] Again, when one of those who wish to be witty, in mockery of Dionysius shook out his robe on coming into his presence,[^17] as if into the presence of a tyrant, Dionysius turned the jest upon him by bidding him do so when he went out from his presence, that he might not take anything in the house away with him.
 
-[15.7] And when Philip of Macedon, at a banquet, began to talk in banter about the lyric poems and tragedies which Dionysius the Elder had left behind him, and pretended to wonder when that monarch found time for these compositions, Dionysius not inaptly replied by saying: When thou and I and all those whom men call happy are busy at the bowl.
+[15.7] And when Philip of Macedon, at a banquet, began to talk in banter about the lyric poems and tragedies which Dionysius the Elder had left behind him, and pretended to wonder when that monarch found time for these compositions, Dionysius not inaptly replied by saying: “When thou and I and all those whom men call happy are busy at the bowl.”
 
-[15.8] Now, Plato did not live to see Dionysius when he was in Corinth, but he was already dead;Plato died in 348 B.C.; Dionysius came to Corinth in 343 B.C. Diogenes of Sinope, however, on meeting him for the first time, said: How little thou deservest, Dionysius, thus to live!
+[15.8] Now, Plato did not live to see Dionysius when he was in Corinth, but he was already dead;[^18] Diogenes of Sinope, however, on meeting him for the first time, said: “How little thou deservest, Dionysius, thus to live!”
 
-[15.9] Upon this, Dionysius stopped and said: It is good of thee, O Diogenes, to sympathize with me in my misfortunes. How is that? said Diogenes; Dost thou suppose that I am sympathizing with thee? Nay, I am indignant that such a slave as thou, and one so worthy to have grown old and died in the tyrant’s estate, just as thy father did, should be living here with us in mirth and luxury.
+[15.9] Upon this, Dionysius stopped and said: “It is good of thee, O Diogenes, to sympathize with me in my misfortunes.” “How is that?” said Diogenes; “Dost thou suppose that I am sympathizing with thee? Nay, I am indignant that such a slave as thou, and one so worthy to have grown old and died in the tyrant’s estate, just as thy father did, should be living here with us in mirth and luxury.”
 
 [15.10] Wherefore, when I compare with these words the mournful utterances of Philistus about the daughters of Leptines, how from the great blessings of the tyranny they fell to a lowly life, they seem the lamentations of a woman who pines for her alabaster caskets and purple gowns and golden trinkets.
 
 [15.11] These details, then, will not seem foreign to my biography, I think, nor without usefulness, to readers who are not in haste, and are not occupied with other matters.
 
-### Capítulo 16
+#### Capítulo 16
 
 [16.1] But though the misfortune of Dionysius seemed extraordinary, none the less did the good fortune of Timoleon have something marvellous about it.
 
@@ -316,9 +312,9 @@ URN: `null`
 
 [16.11] To this man, then, the Corinthians gave a reward of ten minas, because he had put his just resentment at the service of the deity who was guarding Timoleon, and had not at an earlier time expended the wrath which had long been in his heart, but with a personal motive had reserved it, under Fortune’s guidance, for the preservation of that general.
 
-[16.12] Moreover, their good fortune in the present crisis raised their hopes for the future also, and they anticipated that men would revere and protect Timoleon, looking upon him as a sacred personage, and one who had come under divine guidance to avenge the wrongs of Sicily.The Greek of this sentence is obscure, and has thus far defied emendation.
+[16.12] Moreover, their good fortune in the present crisis raised their hopes for the future also, and they anticipated that men would revere and protect Timoleon, looking upon him as a sacred personage, and one who had come under divine guidance to avenge the wrongs of Sicily.[^19]
 
-### Capítulo 17
+#### Capítulo 17
 
 [17.1] But when Hicetas had failed in this attempt and saw that many were now thronging to the support of Timoleon, he found fault with himself because, when so large a force of the Carthaginians was at hand, he was using it in small detachments and secretly, as though he were ashamed of it, bringing in his allied troops like a thief and by stealth; he therefore called in Mago their general together with his whole armament.
 
@@ -328,7 +324,7 @@ URN: `null`
 
 [17.4] But those of the Corinthians who held the acropolis were beset with difficulty and danger; for they no longer had sufficient food, but suffered lack because the harbours were blockaded; and they were forever dividing up their forces in skirmishes and battles around the walls, and in repelling all sorts of engines and every species of siege warfare.
 
-### Capítulo 18
+#### Capítulo 18
 
 [18.1] However, Timoleon came to their aid by sending them grain from Catana in small fishing boats and light skiffs; these would make their way in, especially in stormy weather, by stealing along through the barbarian triremes, which lay at wide intervals from one another because of the roughness of the sea.
 
@@ -344,7 +340,7 @@ URN: `null`
 
 [18.7] They were confounded by the tidings and went back in haste, having neither taken the city against which they went forth, nor kept the one they had.
 
-### Capítulo 19
+#### Capítulo 19
 
 [19.1] In these successes, then, foresight and valour might still dispute the claims of Fortune; but that which followed them would seem to have been wholly due to good fortune.
 
@@ -358,7 +354,7 @@ URN: `null`
 
 [19.6] While he was thus babbling and playing the trickster, the Corinthians who had come down from Bruttium to Rhegium, since no one was lying in wait for them and the unexpected cessation of the storm had made the strait smooth and calm to look upon, speedily manned the ferry-boats and fishing craft which they found at hand, put off and made their way across to Sicily, with such safety and in so great a calm that their horses also swam along by the side of the boats and were towed by the reins.
 
-### Capítulo 20
+#### Capítulo 20
 
 [20.1] When they had all crossed over, Timoleon took them and at once occupied Messana, then, uniting them with his other forces, marched against Syracuse, relying on the good fortune and success that attended his efforts rather than on the strength of his army; for his followers were not more than four thousand in number.
 
@@ -372,17 +368,17 @@ URN: `null`
 
 [20.6] And so now, as they were busy together with their fishing, they conversed, expressing their admiration of the richness of the sea and the character of the adjacent lands.
 
-[20.7] And one of those who were serving on the Corinthian side said: Can it really be that you, who are Greeks, are eager to barbarize a city of such great size and furnished with such great advantages, thus settling Carthaginians, who are the basest and bloodiest of men, nearer to us, when you ought to pray for many Sicilies to lie as a barrier between Greece and them?
+[20.7] And one of those who were serving on the Corinthian side said: “Can it really be that you, who are Greeks, are eager to barbarize a city of such great size and furnished with such great advantages, thus settling Carthaginians, who are the basest and bloodiest of men, nearer to us, when you ought to pray for many Sicilies to lie as a barrier between Greece and them?”
 
-[20.8] Or do you suppose that they have collected an army and are come hither from the pillars of Heracles and the Atlantic sea in order to risk their lives in behalf of the dynasty of Hicetas?
+[20.8] “Or do you suppose that they have collected an army and are come hither from the pillars of Heracles and the Atlantic sea in order to risk their lives in behalf of the dynasty of Hicetas?”
 
-[20.9] He, if he reasoned like a true leader, would not be casting out his kindred people, nor would he be leading against his country her natural enemies, but would be enjoying a befitting amount of honour and power, with the consent of Timoleon and the Corinthians.
+[20.9] “He, if he reasoned like a true leader, would not be casting out his kindred people, nor would he be leading against his country her natural enemies, but would be enjoying a befitting amount of honour and power, with the consent of Timoleon and the Corinthians.”
 
 [20.10] Such speeches as these the mercenaries disseminated in their camp, and made Mago suspicious of treachery, though he had long wanted a pretext for going away.
 
 [20.11] Therefore when Hicetas begged him to remain and tried to show him how much superior they were to their enemies, he thought rather that they were more inferior to Timoleon in bravery and good fortune than they surpassed him in the number of their forces, and weighing anchor at once, sailed off to Libya, thus letting Sicily slip out of his hands disgracefully and for no reason that man could suggest.
 
-### Capítulo 21
+#### Capítulo 21
 
 [21.1] On the day after his departure, Timoleon came up with his forces arrayed for battle. But when they learned of Mago’s flight and saw the docks empty of vessels, they could not help laughing at his cowardice, and went about the city proclaiming a reward for any one who told them whither the Carthaginian fleet had fled away from them.
 
@@ -398,13 +394,13 @@ URN: `null`
 
 [21.7] So prosperous was the course of his enterprises, and such was the speed with which Fortune crowned the beauty of his achievements.
 
-### Capítulo 22
+#### Capítulo 22
 
-[22.1] When he had become master of the citadel, he did not repeat the experience of Dion,See the Dion, chapter liii. 1. nor did he spare the place on account of the beauty and great cost of its architecture, but guarding against the suspicions which had brought calumny and then destruction upon his predecessor, he made proclamation that all Syracusans who wished should come with implements of iron and help in the demolition of the tyrants’ bulwarks.
+[22.1] When he had become master of the citadel, he did not repeat the experience of Dion,[^20] nor did he spare the place on account of the beauty and great cost of its architecture, but guarding against the suspicions which had brought calumny and then destruction upon his predecessor, he made proclamation that all Syracusans who wished should come with implements of iron and help in the demolition of the tyrants’ bulwarks.
 
 [22.2] And when they had all come up, considering that day with its proclamation to be a most secure beginning of freedom, they overthrew and demolished, not only the citadel, but also the palaces and the tombs of the tyrants.
 
-[22.3] Then, as soon as he had levelled off the place, [3] Timoleon built the courts of justice there, thus gratifying the citizens by making their democracy triumphant over tyranny.
+[22.3] Then, as soon as he had levelled off the place, Timoleon built the courts of justice there, thus gratifying the citizens by making their democracy triumphant over tyranny.
 
 [22.4] But the city which he had taken had not citizens enough, since some had perished in their wars and seditions, while others had gone into exile from tyrannical governments. Indeed, for lack of population the market place of Syracuse had produced such a quantity of dense herbage that horses were pastured in it, while their grooms lay down in the grass;
 
@@ -416,7 +412,7 @@ URN: `null`
 
 [22.8] For otherwise the land was likely to lie uncultivated, and they expected a great war from Africa, since they learned that the Carthaginians, after Mago’s suicide, had impaled his dead body, in their rage at his conduct of the expedition, and that they were assembling a great force with the intention of crossing into Sicily in the summer.
 
-### Capítulo 23
+#### Capítulo 23
 
 [23.1] When these letters from Timoleon had been delivered and were accompanied by Syracusan envoys who begged them to take thought for their city and to become anew its founders, the Corinthians did not seize the opportunity for their own aggrandizement, nor did they appropriate the city for themselves,
 
@@ -432,9 +428,9 @@ URN: `null`
 
 [23.7] thus at once reserving for the original Syracusans the power to purchase their own houses, and devising an abundance of money for the community; this had so little, both for other purposes, and especially for the war, that it actually sold its public statues at auction, a regular vote of condemnation being passed against each, as though they were men submitting their accounts.
 
-[23.8] It was at this time, they say, that the statue of Gelon, their ancient tyrant, was preserved by the Syracusans, though they condemned the rest, because they admired and honoured him for the victory which he had won over the Carthaginians at Himera.In 480 B.C., on the same day, it is said, as the victory at Salamis. Cf. Herodotus, vii. 166.
+[23.8] It was at this time, they say, that the statue of Gelon, their ancient tyrant, was preserved by the Syracusans, though they condemned the rest, because they admired and honoured him for the victory which he had won over the Carthaginians at Himera.[^21]
 
-### Capítulo 24
+#### Capítulo 24
 
 [24.1] Seeing the city thus beginning to revive and fill itself with people, since its citizens were streaming into it from all sides, Timoleon determined to set the other cities also free, and utterly to root out all tyrannies from Sicily. He therefore made an expedition into their territories and compelled Hicetas to forsake the cause of Carthage, and to agree to demolish his citadels and live as a private person in Leontini.
 
@@ -442,9 +438,9 @@ URN: `null`
 
 [24.3] Moreover, he wished that his mercenaries might get booty from the enemy’s country and not remain idle. Accordingly, while he himself returned to Syracuse in order to apply himself to the establishment of the civil polity and to assist the lawgivers who had come from Corinth, Cephalus and Dionysius, in arranging its most important details in the most attractive way,
 
-[24.4] he sent forth the troops under Deinarchus and DemaretusCf. chapter xxii. 3. into that part of the island which the Carthaginians controlled, where they brought many cities to revolt from the Barbarians, and not only lived in plenty themselves, but actually raised moneys for the war from the spoils they made.
+[24.4] he sent forth the troops under Deinarchus and Demaretus[^22] into that part of the island which the Carthaginians controlled, where they brought many cities to revolt from the Barbarians, and not only lived in plenty themselves, but actually raised moneys for the war from the spoils they made.
 
-### Capítulo 25
+#### Capítulo 25
 
 [25.1] Meanwhile the Carthaginians put in at Lilybaeum with an army of seventy thousand men, two hundred triremes, and a thousand transports carrying engines of war, four-horse chariots, grain in abundance, and other requisite equipment. Their purpose was, not to carry on the war by piece-meal any more, but at one time to drive the invading Greeks out of all Sicily;
 
@@ -458,11 +454,11 @@ URN: `null`
 
 [25.6] As for these men, then, Timoleon counted it gain that they had shown what they were before the battle; the rest he encouraged and led them with all speed to the river Crimesus, where he heard that the Carthaginians also were concentrating.
 
-### Capítulo 26
+#### Capítulo 26
 
 [26.1] As he was marching up a hill, from the crest of which they expected to look down upon the camp and the forces of the enemy, there met them by chance some mules laden with parsley;
 
-[26.2] and it occurred to the soldiers that the sign was a bad one, because we are generally accustomed to wreath the tombs of the dead with parsley; and this has given rise to a proverb, namely, that one who is dangerously sick needs only parsley.
+[26.2] and it occurred to the soldiers that the sign was a bad one, because we are generally accustomed to wreath the tombs of the dead with parsley; and this has given rise to a proverb, namely, that one who is dangerously sick “needs only parsley.”
 
 [26.3] Accordingly, wishing to free them from their superstitious fears and take away their despondency, Timoleon halted them on their march, and after discoursing otherwise as befitted the occasion, said also that the wreath for their victory had come into their hands in advance and of its own accord, the wreath with which Corinthians crown the victors at the Isthmian games, considering the garland of parsley to be traditionally sacred in their country.
 
@@ -472,9 +468,9 @@ URN: `null`
 
 [26.6] Moreover, the soothsayers, observing two eagles coming up on the wing, one of which bore a serpent pierced with its talons, while the other flew with a loud and inspiring cry, pointed them out to the soldiers, and all betook themselves to invoking the gods with prayers.
 
-### Capítulo 27
+#### Capítulo 27
 
-[27.1] Now, the season of the year was early summer, the month of Thargelion was drawing to a close, and the summer solstice was near;It was early in June, 339 B.C.
+[27.1] Now, the season of the year was early summer, the month of Thargelion was drawing to a close, and the summer solstice was near;[^23]
 
 [27.2] the river exhaled a thick mist which at first hid the plain in darkness, and nothing could be seen in the enemy’s camp, only an inarticulate and confused noise made its way up to the hill, showing that the vast host was moving forward.
 
@@ -494,7 +490,7 @@ URN: `null`
 
 [27.10] Then, his men re-echoing his shout, and begging him to lead them on without delay, he signalled to his horsemen to ride along outside and past the line of chariots and attack the enemy on the flank, while he himself made his vanguard lock their shields in close array, ordered the trumpet to sound the charge, and fell upon the Carthaginians.
 
-### Capítulo 28
+#### Capítulo 28
 
 [28.1] But these withstood his first onset sturdily, and owing to the iron breastplates and bronze helmets with which their persons were protected, and the great shields which they held in front of them, repelled the spear thrusts.
 
@@ -518,7 +514,7 @@ URN: `null`
 
 [28.11] For no others were superior to these in birth or wealth or reputation, nor is it recorded that so many native Carthaginians ever perished in a single battle before, but they used Libyans for the most part and Iberians and Numidians for their battles, and thus sustained their defeats at the cost of other nations.
 
-### Capítulo 29
+#### Capítulo 29
 
 [29.1] The rank of those who had fallen was made known to the Greeks from the spoils. For those who stripped the bodies made very little account of bronze and iron; so abundant was silver, so abundant gold. For they crossed the river and seized the camp with its baggage-trains.
 
@@ -532,7 +528,7 @@ URN: `null`
 
 [29.6] when in her alone of Greek cities they saw the most conspicuous temples, not adorned with Greek spoils, nor possessed of joyless memorials in the shape of votive offerings from the slaughter of kinsmen and fellow citizens, but decked with barbarian spoils which set forth in fairest inscriptions the justice as well as the valour of the victors, declaring that Corinthians and Timoleon their general set the Greeks dwelling in Sicily free from Carthaginians, and thus dedicated thank-offerings to the gods.
 
-### Capítulo 30
+#### Capítulo 30
 
 [30.1] After this, he left his mercenaries in the enemy’s territory plundering the dominion of the Carthaginians, and went himself to Syracuse;
 
@@ -542,11 +538,11 @@ URN: `null`
 
 [30.4] Mamercus, however, the tyrant of Catana, and Hicetas, whether through envy of the successes won by Timoleon, or because they feared him as one who distrusted tyrants and would make no peace with them, formed an alliance with the Carthaginians and urged them to send a general with an army if they did not wish to be cast out of Sicily altogether.
 
-[30.5] Accordingly, Gisco set sailIn the spring of 338 B.C. with a fleet of seventy ships, and added Greek mercenaries to his forces, although the Carthaginians had never before employed Greek soldiers; they did so at this time, however, because they had come to admire them as the best and most irresistible fighters in the world.
+[30.5] Accordingly, Gisco set sail[^24] with a fleet of seventy ships, and added Greek mercenaries to his forces, although the Carthaginians had never before employed Greek soldiers; they did so at this time, however, because they had come to admire them as the best and most irresistible fighters in the world.
 
 [30.6] After they had all united their forces in the territory of Messana, they slew four hundred of Timoleon’s mercenaries who had been sent thither as auxiliaries, and in that part of the island belonging to the Carthaginians, near the place called Ietae, they set an ambush for the mercenaries under Euthymus the Leucadian and cut them to pieces.
 
-[30.7] Herein even most of all did the good fortune of Timoleon become famous. For these were some of the men who, with Philomelus the Phocian and Onomarchus, had seized Delphi and shared in their spoliation of the sanctuary.This was at the beginning of the second so-called Sacred War, 356 B.C.
+[30.7] Herein even most of all did the good fortune of Timoleon become famous. For these were some of the men who, with Philomelus the Phocian and Onomarchus, had seized Delphi and shared in their spoliation of the sanctuary.[^25]
 
 [30.8] Then, since all mankind hated them and shunned them as men who had put themselves under a curse, they wandered about Peloponnesus, where they were enlisted in his service by Timoleon, in the dearth of other soldiers.
 
@@ -554,9 +550,14 @@ URN: `null`
 
 [30.10] So, then, the good will of the gods towards Timoleon was no less to be admired in his reverses than in his successes.
 
-### Capítulo 31
+#### Capítulo 31
 
-[31.1] But the people of Syracuse were vexed at the insults heaped upon them by the tyrants. For Mamercus, who valued himself highly as a writer of poems and tragedies, boasted of his victory over the mercenaries, and in dedicating their shields to the gods wrote the following insolent couplet:— These bucklers, purple-painted, decked with ivory, gold, and amber, We captured with our simple little shields.
+[31.1] But the people of Syracuse were vexed at the insults heaped upon them by the tyrants. For Mamercus, who valued himself highly as a writer of poems and tragedies, boasted of his victory over the mercenaries, and in dedicating their shields to the gods wrote the following insolent couplet:—
+
+```verso
+These bucklers, purple-painted, decked with ivory, gold, and amber,
+We captured with our simple little shields.
+```
 
 [31.2] And after this, when Timoleon was on an expedition to Calauria, Hicetas burst into the territory of Syracuse, took much booty, wrought much wanton havoc, and was marching off past Calauria itself, despising Timoleon, who had but few soldiers.
 
@@ -572,17 +573,23 @@ URN: `null`
 
 [31.8] These could not withstand the violence of their onset, but fled, all alike losing their arms, and a thousand being left dead on the field.
 
-### Capítulo 32
+#### Capítulo 32
 
 [32.1] Not long afterwards Timoleon made an expedition into the territory of Leontini and captured Hicetas alive, together with his son Eupolemus and his master of horse Euthymus, who were bound and brought to Timoleon by his soldiers.
 
 [32.2] Hicetas, then, and his young son, were punished as tyrants and traitors and put to death, and Euthymus, though a brave man in action and of surpassing boldness, found no pity because of a certain insult to the Corinthians which was alleged against him.
 
-[32.3] It is said, namely, that when the Corinthians had taken the field against them, Euthymus told the men of Leontini in a public harangue that it was nothing fearful or dreadful if Corinthian women came forth from their homes. An adaptation of Euripides, Medeia, 215 (Kirchhoff), where Medea speaks to the chorus in the first person.
+[32.3] It is said, namely, that when the Corinthians had taken the field against them, Euthymus told the men of Leontini in a public harangue that it was nothing fearful or dreadful if
+
+```verso
+Corinthian women came forth from their homes.
+```
+
+[^26]
 
 [32.4] So natural is it for most men to be more galled by bitter words than hostile acts; since insolence is harder for them to bear than injury. Besides, defensive acts are tolerated in an enemy as a necessary right, but insults are thought to spring from an excess of hatred or baseness.
 
-### Capítulo 33
+#### Capítulo 33
 
 [33.1] After Timoleon had returned, the Syracusans brought the wives and daughters of Hicetas and his friends to public trial, and then put them to death.
 
@@ -590,9 +597,9 @@ URN: `null`
 
 [33.3] But apparently he neglected them and abandoned them to the wrath of the citizens, who were bent on taking vengeance in behalf of Dion, who drove out Dionysius.
 
-[33.4] For Hicetas was the man who took Arete the wife of Dion, and Aristomache his sister, and his son, who was still a boy, and threw them into the sea alive, concerning which things I have written in my Life of Dion. Chapter lviii. 4.
+[33.4] For Hicetas was the man who took Arete the wife of Dion, and Aristomache his sister, and his son, who was still a boy, and threw them into the sea alive, concerning which things I have written in my Life of Dion.[^27]
 
-### Capítulo 34
+#### Capítulo 34
 
 [34.1] After this, Timoleon made an expedition against Mamercus to Catana, conquered and routed him in a pitched battle near the stream of the Abolus, and slew above two thousand of his soldiers, a large part of whom were the Carthaginians sent him as auxiliaries by Gisco.
 
@@ -608,7 +615,7 @@ URN: `null`
 
 [34.7] However, he was not so fortunate as to die in this way, but was taken away, still living, and crucified like a robber.
 
-### Capítulo 35
+#### Capítulo 35
 
 [35.1] In this manner, then, did Timoleon extirpate the tyrannies and put a stop to their wars. He found the whole island reduced to a savage state by its troubles and hated by its inhabitants, but he made it so civilized and so desirable in the eyes of all men that others came by sea to dwell in the places from which their own citizens used to run away before.
 
@@ -618,11 +625,18 @@ URN: `null`
 
 [35.4] All the other inhabitants also cherished like feelings towards him, and no conclusion of war, no institution of laws, no settlement of territory, no arrangement of civil polity seemed satisfactory, unless he gave the finishing touches to it, like a master builder adding to a work that is drawing to completion some grace which pleases gods and men.
 
-### Capítulo 36
+#### Capítulo 36
 
 [36.1] At any rate, though in his time Greece produced many men who were great and wrought great things, such as Timotheus, Agesilaüs, Pelopidas, and Epaminondas (whom Timoleon most emulated), still, the lustre of their achievements was tarnished by a certain degree of violence and laborious effort, so that some of them were followed by censure and repentance;
 
-[36.2] whereas in the career of Timoleon, setting aside his necessary treatment of his brother, there is nothing to which it were not meet, as Timaeus says, to apply the words of Sophocles:— Ye Gods, pray tell what Cypris or what winning love. Was partner in this work? Nauck, Trag. Graec. Frag.2 p. 316.
+[36.2] whereas in the career of Timoleon, setting aside his necessary treatment of his brother, there is nothing to which it were not meet, as Timaeus says, to apply the words of Sophocles:—
+
+```verso
+Ye Gods, pray tell what Cypris or what winning love.
+Was partner in this work?
+```
+
+[^28]
 
 [36.3] For just as the poetry of Antimachus and the pictures of Dionysius, both Colophonians, for all their strength and vigour, seem forced and laboured, while the paintings of Nicomachus and the verses of Homer not only have power and grace besides, but also give the impression of having been executed readily and easily;
 
@@ -638,7 +652,7 @@ URN: `null`
 
 [36.9] but he remained in Sicily, enjoying the blessings of his own creation, the greatest of which was the sight of so many cities and myriads of people whose happiness was due to him.
 
-### Capítulo 37
+#### Capítulo 37
 
 [37.1] But since, as it would seem, not only all larks must grow a crest, as Simonides says, but also every democracy a false accuser, even Timoleon was attacked by two of the popular leaders at Syracuse, Laphystius and Demaenetus.
 
@@ -650,7 +664,7 @@ URN: `null`
 
 [37.5] having been removed betimes by a happy fortune, pure and unstained with blood, from the evils which were rife in the mother country, and having displayed ability and valour in his dealings with Barbarians and tyrants, as well as justice and gentleness in his dealings with the Greeks and his friends;
 
-[37.6] having set up most of the trophies of his contests without causing his fellow citizens either tears or mourning, and having in even less than eight years346-338 B.C. handed over to her inhabitants a Sicily purged of her perpetual intestine miseries and complaints;
+[37.6] having set up most of the trophies of his contests without causing his fellow citizens either tears or mourning, and having in even less than eight years[^29] handed over to her inhabitants a Sicily purged of her perpetual intestine miseries and complaints;
 
 [37.7] at last, being now advanced in years, he began to lose his sight, and then, after a little, became completely blind. He had done nothing himself to occasion this, nor was he therein the sport and mockery of Fortune, but suffered from some congenital disease, as it would seem, which came upon him with his years;
 
@@ -660,7 +674,7 @@ URN: `null`
 
 [37.10] yet after his return to Syracuse, he at once laid aside the sole command and begged the citizens to excuse him from it, now that matters had reached the happiest conclusion.
 
-### Capítulo 38
+#### Capítulo 38
 
 [38.1] Well, then, that he himself should bear his misfortune without repining is less a matter for wonder;
 
@@ -676,9 +690,9 @@ URN: `null`
 
 [38.7] And when this opinion had been adopted, his retainers would conduct his car back again through the theatre, and the citizens, after sending him on his way with shouts of applause, would proceed at once to transact the rest of the public business by themselves.
 
-### Capítulo 39
+#### Capítulo 39
 
-[39.1] Cherished in old age amid such honour and good will, like a common father, a slight cause co-operated with his great age to bring him to his end.In 337 or 336 B.C.
+[39.1] Cherished in old age amid such honour and good will, like a common father, a slight cause co-operated with his great age to bring him to his end.[^30]
 
 [39.2] A number of days having been allowed in which the Syracusans might prepare for his funeral, while the country folk and strangers came together, the whole ceremony was conducted with great magnificence, and besides, young men selected by lot carried his bier with all its decorations through the precinct where the palace of Dionysius had stood before Timoleon destroyed it.
 
@@ -686,12 +700,39 @@ URN: `null`
 
 [39.4] And finally, when the bier had been placed upon the funeral pyre, Demetrius, who had the loudest voice of any herald of the time, read from manuscript the following decree:—
 
-[39.5] By the people of Syracuse, Timoleon, son of Timodemus, from Corinth, is here buried at a public cost of two hundred minas, and is honoured for all time with annual contests, musical, equestrian, and gymnastic, because he overthrew the tyrants, subdued the Barbarians, re-peopled the largest of the devastated cities, and then restored their laws to the Greeks of Sicily.
+[39.5] “By the people of Syracuse, Timoleon, son of Timodemus, from Corinth, is here buried at a public cost of two hundred minas, and is honoured for all time with annual contests, musical, equestrian, and gymnastic, because he overthrew the tyrants, subdued the Barbarians, re-peopled the largest of the devastated cities, and then restored their laws to the Greeks of Sicily.”
 
 [39.6] Furthermore, they buried his ashes in the market place, and afterwards, when they had surrounded it with porticoes and built palaestras in it, they set it apart as a gymnasium for their young men, and named it Timoleonteum.
 
 [39.7] And they themselves, using the civil polity and the laws which he had ordained, enjoyed a long course of unbroken prosperity and happiness.
 
----
-
-*Ὁ Διαφορεύς παρῆν*
+[^1]: As Priam admired Achilles, Iliad, xxiv. 630.
+[^2]: An iambic trimeter from the Tympanistae of Sophocles (Nauck, Trag. Graec. Frag.2, p. 270).
+[^3]: In the MSS. this Introduction stands as the first chapter of the Aemilius Paulus.
+[^4]: See the Dion, chapter lvii. This was in 354 B.C.
+[^5]: 346 B.C.
+[^6]: Syracuse was founded by Corinthians in 735 B.C.
+[^7]: Perhaps between 368 and 366 B.C.
+[^8]: As they had at hands of the Argives in 393 B.C.
+[^9]: Diodorus (xvi. 65, 4) says that Timoleon slew his brother with his own hand in the market place; Nepos (Timoleon, i. 4) supports Plutarch’s account, though with differing details.
+[^10]: See the Phocion, xxiii. 4.
+[^11]: Won by the allied Greeks under Leosthenes over Antipater of Macedonia, in 323 B.C. The victory was soon followed by the defeat of the Greeks at Crannon.
+[^12]: In 344 B.C.
+[^13]: The false friend of Dion (Dion, chapters liv-lvii.)
+[^14]: Cf. the Dion, xlviii. 3; xlix. 1. f.
+[^15]: There is nothing in the Dion to justify this statement. The cruelties described were committed by the revolting people of Locri, to whom Dionysius had made himself odious during his residence there from 356 to 346 B.C. Cf. Athenaeus, p. 541 c-e.
+[^16]: On his voyage from Syracuse to Corinth.
+[^17]: To show that no weapon was concealed there.
+[^18]: Plato died in 348 B.C.; Dionysius came to Corinth in 343 B.C.
+[^19]: The Greek of this sentence is obscure, and has thus far defied emendation.
+[^20]: See the Dion, chapter liii. 1.
+[^21]: In 480 B.C., on the same day, it is said, as the victory at Salamis. Cf. Herodotus, vii. 166.
+[^22]: Cf. chapter xxii. 3.
+[^23]: It was early in June, 339 B.C.
+[^24]: In the spring of 338 B.C.
+[^25]: This was at the beginning of the second so-called Sacred War, 356 B.C.
+[^26]: An adaptation of Euripides, Medeia, 215 (Kirchhoff), where Medea speaks to the chorus in the first person.
+[^27]: Chapter lviii. 4.
+[^28]: Nauck, Trag. Graec. Frag.2 p. 316.
+[^29]: 346-338 B.C.
+[^30]: In 337 or 336 B.C.

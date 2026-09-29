@@ -1,34 +1,26 @@
 ---
 id: plutarco-of-envy-and-hatred-eng-william-w-goodwin-1874
-type: texto_primario
-title: "Of Envy and Hatred"
-subtitle: null
+type: translation
+title: Of Envy and Hatred
 author: Plutarch
-year_original: null
-language: eng
-translation:
-  - William W. Goodwin
+translator:
+- P. Lancaster
 publisher: Little, Brown, and Company
-area: null
-era: null
-tags: []
-status: rascunho
+language: eng
+tags:
+- moralists
+status: draft
 project: pedra_angular
-source: "Plutarch. Of Envy and Hatred. Ed. William W. Goodwin. Boston: Little, Brown, and Company, 1874. Perseus Digital Library, Tufts University (CC BY-SA 4.0). URN: null"
-related: []
+urn_work: urn:cts:greekLit:tlg0007.tlg105
+urn: urn:cts:greekLit:tlg0007.tlg105.perseus-eng2
+source: 'Plutarch. Of Envy and Hatred. Ed. William W. Goodwin. Boston: Little, Brown, and Company, 1874. Perseus Digital Library, Tufts University (CC BY-SA 4.0).'
+source_repo: PerseusDL/canonical-greekLit
+source_file: data/tlg0007/tlg105/tlg0007.tlg105.perseus-eng2.xml
+source_commit: e37eed2e8
+license: CC-BY-SA-4.0
 ---
 
 # Of Envy and Hatred
-
-**Plutarch**
-
-Boston: Little, Brown, and Company, 1874.
-Perseus Digital Library, Tufts University (CC BY-SA 4.0).
-URN: `null`
-
----
-
-## Texto
 
 [1] Envy and hatred are passions so like each other that they are often taken for the same. And generally, vice has (as it were) many hooks, whereby it gives unto those passions that hang thereto many opportunities to be twisted and entangled with one another; for as differing diseases of the body agree in many like causes and effects, so do the disturbance of the mind. He who is in prosperity is equally an occasion of grief to the envious and to the malicious man; therefore we look upon benevolence, which is a willing our neighbor’s good, as an opposite to both envy and hatred, and fancy these two to be the same because they have a contrary purpose to that of love. But their resemblances make them not so much one as their unlikeness makes them distinct. Therefore we endeavor to describe each of them apart, beginning at the original of either passion.
 
@@ -42,7 +34,7 @@ We see then herein a great difference betwixt envy and hate, that the one is nat
 
 [5] Further, envy is always unjust; for none wrong by being happy, and upon this sole account they are envied. But hatred is often just; for there are some men so much to be avoided and disliked, that we should judge those worthy to be hated themselves who do not shun and detest them. And of this it is no weak evidence, that many will acknowledge they hate, but none will confess they envy; and hatred of the evil is registered amongst laudable things.
 
-Therefore, as some were commending Charillus, the nephew of Lycurgus and king of Sparta, for his universally mild and gentle disposition,—How, answered his colleague, can Charillus be a virtuous person, who is pleasing even to the vicious? So the poet too, when he had variously and with an infinite curiosity described the deformities of Thersites’s body, easily couched all the baseness of his manners in a word,— Most hateful to Achilles and Ulysses too; for to be an enemy to the good is the greatest extravagance of vice.
+Therefore, as some were commending Charillus, the nephew of Lycurgus and king of Sparta, for his universally mild and gentle disposition,—How, answered his colleague, can Charillus be a virtuous person, who is pleasing even to the vicious? So the poet too, when he had variously and with an infinite curiosity described the deformities of Thersites’s body, easily couched all the baseness of his manners in a word,— “Most hateful to Achilles and Ulysses too;” for to be an enemy to the good is the greatest extravagance of vice.
 
 Men will deny the envy; and when it is alleged, will feign a thousand excuses, pretending they were angry, or that they feared or hated the person, cloaking envy with the name of any passion they can think of, and concealing it as the most loathsome sickness of the soul.
 
@@ -56,7 +48,7 @@ On the contrary, hatred is not vanquished by the greatness and glory of its obje
 
 [7] We shall better understand this from the poising them together.
 
-Men let go their enmity and hatred, when either they are persuaded they were not injured at all, or if they now believe them to be good whom before they hated as evil, or, lastly, when they are appeased by the insinuations of a benefit received. For as Thucydides saith, A later service or good turn, if it be done at the right moment, will take away the ill resenting of a former fault, though this was greater than the recompense.Thucyd. I. 42.
+Men let go their enmity and hatred, when either they are persuaded they were not injured at all, or if they now believe them to be good whom before they hated as evil, or, lastly, when they are appeased by the insinuations of a benefit received. For as Thucydides saith, A later service or good turn, if it be done at the right moment, will take away the ill resenting of a former fault, though this was greater than the recompense.[^1]
 
 Yet the first of these removes not envy, for men will persist in this vice, though they know they are not wronged; and the two latter (the esteem or credit of a person, and the bestowing a favor) do exasperate it more. For they most envy the virtuous, as those who are in possession of the chiefest good; and when they receive a kindness from any in prosperity, it is with reluctance, as though they grudged then not only the power but the will of conferring it; the one of which comes from their happy fortune, the other from their virtue. Both are good. Therefore envy is an entirely distinct affection from hatred, since, as we see, the very things that appease the one only rouse and exasperate the other.
 
@@ -64,6 +56,4 @@ Yet the first of these removes not envy, for men will persist in this vice, thou
 
 The design of hatred is to endamage; and hence they define it, an insidious desire and purpose of doing hurt. But envy aims not at this. Many envy their familiars and kinsfolk, but have no thoughts of their ruin nor of so much as bringing any troubles upon them; only their felicity is a burden. Though they will perhaps diminish their glory and splendor what they can, yet they endeavor not their utter subversion; being, as it were, content to pull down so much only of an high stately house as hindered the light and obscured them with too great a shade.
 
----
-
-*Ὁ Διαφορεύς παρῆν*
+[^1]: Thucyd. I. 42.
