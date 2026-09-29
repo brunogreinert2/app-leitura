@@ -21,6 +21,20 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
+
+      # ---- portão do acervo (Saneamento, 2026-09-29) ----
+      # Antes de construir qualquer coisa: nenhum id publicado sumiu (LEI 6) e
+      # nenhum arquivo do acervo piorou contra a norma. Falhou aqui, não publica.
+      # O mesmo portão roda no commit (.githooks/pre-commit); este pega quem
+      # commitou sem o gancho ativado.
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - name: Portão do acervo
+        run: |
+          pip install -r scripts/acervo/requirements.txt
+          python scripts/acervo/portao_acervo.py --completo
+
       - uses: actions/setup-node@v4
         with:
           node-version: 22
@@ -40,9 +54,6 @@ jobs:
       #
       # --sem-gemeo-md porque o corpus já é servido em /livros/ — copiá-lo para
       # dentro de /rolo/ duplicaria 98 MB no site sem ganhar nada.
-      - uses: actions/setup-python@v5
-        with:
-          python-version: '3.12'
       - name: Gerar rolos estáticos em /rolo/
         run: |
           python scripts/rolo/gerador_rolo.py --tudo --sem-gemeo-md \

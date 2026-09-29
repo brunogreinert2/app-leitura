@@ -1,0 +1,171 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://pedraangular.app.br/schema/frontmatter.schema.json",
+  "title": "Pedra Angular — front matter de uma obra do acervo",
+  "description": "Fonte única da verdade do YAML do acervo (Fase 0.2 do Saneamento, 2026-09-29). Os documentos de norma apontam para cá em vez de repetir campos. Regra de ouro: campo desconhecido fica AUSENTE — nunca null, nunca \"\". As chaves x-antes / x-valores-antes registram os nomes antigos, para o validador apontar a migração e a Fase 5 aplicá-la.",
+  "type": "object",
+  "additionalProperties": false,
+  "required": ["id", "type", "title", "language", "status", "project"],
+
+  "x-removidos": {
+    "area": "vira etiqueta em tags",
+    "era": "vira etiqueta em tags",
+    "coautoria": "sempre vazio no corpus (170 de 170); se houver coautor, author vira lista",
+    "translation": "fundido em translator",
+    "isbn": "sempre vazio no corpus",
+    "collection": "sempre vazio no corpus",
+    "autor": "grafia portuguesa de author"
+  },
+
+  "properties": {
+    "id": {
+      "description": "Identidade de URL da obra. Eterno depois de publicado (LEI 6, N3). Kebab-case; o _ só é aceito porque 8 ids já publicados o usam — id novo não usa _.",
+      "type": "string",
+      "pattern": "^[a-z0-9]+([-_][a-z0-9]+)*$"
+    },
+    "type": {
+      "description": "Natureza do arquivo.",
+      "enum": ["primary_text", "translation", "interlinear", "commentary", "character", "guide"],
+      "x-valores-antes": {
+        "texto_primario": "primary_text",
+        "traducao": "translation",
+        "comentario": "commentary",
+        "personagem": "character",
+        "guia": "guide"
+      }
+    },
+    "title": { "description": "Título na língua do texto.", "$ref": "#/$defs/texto" },
+    "subtitle": { "$ref": "#/$defs/texto" },
+    "original_title": { "description": "Título da obra na língua original, quando o arquivo é tradução.", "$ref": "#/$defs/texto" },
+    "author": {
+      "description": "Autor da obra (não o tradutor). Lista quando houver coautoria.",
+      "$ref": "#/$defs/texto_ou_lista",
+      "x-antes": ["autor"]
+    },
+    "translator": {
+      "description": "Tradutores. Ausente ou [] quando o arquivo é o original.",
+      "$ref": "#/$defs/lista_de_texto",
+      "x-antes": ["translation", "translator"]
+    },
+    "editor": { "description": "Editor da edição crítica usada.", "$ref": "#/$defs/texto_ou_lista" },
+    "base_edition": {
+      "description": "Edição de base, em uma linha. Ex.: \"Burnet, Oxford: Clarendon Press, 1905\".",
+      "$ref": "#/$defs/texto",
+      "x-antes": ["edition", "edicao_base"]
+    },
+    "publisher": { "$ref": "#/$defs/texto" },
+    "year_original": {
+      "description": "Data da obra original, se conhecida. Texto livre: \"c. 360 a.C.\" vale.",
+      "$ref": "#/$defs/ano"
+    },
+    "publication_year": { "description": "Ano da edição usada como fonte.", "$ref": "#/$defs/ano" },
+
+    "language": {
+      "description": "ISO 639-3, lista fechada. Obra bilíngue ou interlinear declara lista. Nunca pt-BR, en, la.",
+      "oneOf": [
+        { "$ref": "#/$defs/idioma" },
+        { "type": "array", "items": { "$ref": "#/$defs/idioma" }, "minItems": 2, "uniqueItems": true }
+      ],
+      "x-valores-antes": { "pt-BR": "por", "en": "eng", "la": "lat", "pt-BR/grc": ["por", "grc"] }
+    },
+
+    "tags": {
+      "description": "Categorias viram etiquetas, não pastas (Proposta §4). Kebab-case, em inglês.",
+      "type": "array",
+      "items": { "type": "string", "pattern": "^[a-z0-9]+(-[a-z0-9]+)*$" },
+      "uniqueItems": true
+    },
+    "status": {
+      "description": "Ciclo de vida. reviewed só por mão humana, nunca por script nem por IA.",
+      "enum": ["draft", "reviewed", "published"],
+      "x-valores-antes": { "rascunho": "draft", "revisado": "reviewed", "publicado": "published" },
+      "x-sem-equivalente": ["canonical_source", "vivo", "piloto_interlinear"]
+    },
+    "project": { "const": "pedra_angular" },
+    "related": { "description": "Ids de outras obras do acervo.", "$ref": "#/$defs/lista_de_texto" },
+
+    "reference_system": {
+      "description": "Sistema de referência canônica; informa a busca por endereço no app.",
+      "enum": ["verse", "chapter-section", "book-line", "stephanus", "bekker", "svf"],
+      "x-antes": ["sistema_referencia"],
+      "x-valores-antes": { "versiculo": "verse", "capitulo-secao": "chapter-section", "livro-verso": "book-line" }
+    },
+    "abbrev": { "description": "Abreviatura da obra para âncoras (Bíblias).", "$ref": "#/$defs/texto", "x-antes": ["abrev"] },
+    "book_number": { "type": "integer", "minimum": 1, "x-antes": ["livro_numero"] },
+    "canon": { "$ref": "#/$defs/texto" },
+    "section": { "$ref": "#/$defs/texto", "x-antes": ["secao"] },
+    "scope": { "$ref": "#/$defs/texto" },
+
+    "urn_work": {
+      "description": "URN CTS da OBRA, sem versão. Ex.: urn:cts:greekLit:tlg0059.tlg007. Obra fora de catálogo: urn:cts:pedraAngular:pa0001.pa001.",
+      "type": "string",
+      "pattern": "^urn:cts:[A-Za-z]+:[A-Za-z0-9]+\\.[A-Za-z0-9]+$",
+      "x-antes": ["urn_obra"]
+    },
+    "urn": {
+      "description": "URN CTS da EDIÇÃO/TRADUÇÃO. Perseus: …perseus-eng1. Edição do PA: …pa-por1. Tem de começar pela urn_work.",
+      "type": "string",
+      "pattern": "^urn:cts:[A-Za-z]+:[A-Za-z0-9]+\\.[A-Za-z0-9]+\\.[A-Za-z0-9-]+$",
+      "x-antes": ["urn_edicao", "o trecho URN: dentro de source"]
+    },
+
+    "source": {
+      "description": "Citação da fonte, em uma linha, para humano. Não repete campos: a citação completa do 'Como citar' é montada pelo gerador.",
+      "$ref": "#/$defs/texto"
+    },
+    "source_repo": { "description": "Ex.: PerseusDL/canonical-greekLit.", "$ref": "#/$defs/texto" },
+    "source_file": { "description": "Caminho do arquivo no repositório de origem.", "$ref": "#/$defs/texto" },
+    "source_commit": { "description": "Hash do commit de onde o arquivo foi tirado.", "type": "string", "pattern": "^[0-9a-f]{7,40}$" },
+    "license": {
+      "description": "Identificador SPDX. public-domain não é id SPDX (o SPDX não tem um): é o único valor fora do padrão.",
+      "enum": ["public-domain", "CC-BY-SA-4.0", "CC-BY-SA-3.0", "CC-BY-4.0", "CC0-1.0"],
+      "x-antes": ["licenca"],
+      "x-valores-antes": {
+        "dominio_publico": "public-domain",
+        "domínio público": "public-domain",
+        "Domínio público": "public-domain",
+        "CC BY-SA 4.0": "CC-BY-SA-4.0",
+        "CC BY-SA 4.0 (Perseus Digital Library)": "CC-BY-SA-4.0",
+        "CC BY-SA 3.0 (transcrição Wikisource)": "CC-BY-SA-3.0",
+        "CC BY 4.0": "CC-BY-4.0",
+        "CC0": "CC0-1.0"
+      }
+    },
+    "publishable": { "description": "false só para obra em análise de licença.", "type": "boolean" },
+
+    "pa_exclusive": {
+      "description": "true = texto que só existe no PA (OCR próprio, tradução ou edição própria).",
+      "type": "boolean",
+      "x-antes": ["exclusivo_pa"]
+    },
+    "physical_source": { "description": "Exemplar ou scan de onde veio.", "$ref": "#/$defs/texto", "x-antes": ["fonte_fisica"] },
+    "ocr_engine": { "description": "Ex.: olmOCR-2.", "$ref": "#/$defs/texto", "x-antes": ["ocr"] },
+    "processing": { "description": "Script e versão que gerou o arquivo.", "$ref": "#/$defs/texto" },
+
+    "born": { "$ref": "#/$defs/ano" },
+    "died": { "$ref": "#/$defs/ano" },
+    "nationality": { "$ref": "#/$defs/texto" },
+    "aliases": { "description": "Nomes alternativos (personagens).", "$ref": "#/$defs/lista_de_texto" }
+  },
+
+  "allOf": [
+    {
+      "description": "Todo texto (não personagem, não guia) declara licença e fonte.",
+      "if": { "properties": { "type": { "enum": ["primary_text", "translation", "interlinear", "commentary"] } } },
+      "then": { "required": ["license", "source"] }
+    },
+    {
+      "description": "Tradução declara tradutor.",
+      "if": { "properties": { "type": { "const": "translation" } }, "required": ["type"] },
+      "then": { "required": ["translator"], "properties": { "translator": { "minItems": 1 } } }
+    }
+  ],
+
+  "$defs": {
+    "texto": { "type": "string", "minLength": 1, "not": { "enum": ["null", "None", "~"] } },
+    "lista_de_texto": { "type": "array", "items": { "$ref": "#/$defs/texto" } },
+    "texto_ou_lista": { "oneOf": [ { "$ref": "#/$defs/texto" }, { "type": "array", "items": { "$ref": "#/$defs/texto" }, "minItems": 1 } ] },
+    "ano": { "oneOf": [ { "type": "integer" }, { "$ref": "#/$defs/texto" } ] },
+    "idioma": { "enum": ["grc", "lat", "heb", "por", "eng", "ara", "rus", "fra", "deu", "spa", "ita", "ell"] }
+  }
+}

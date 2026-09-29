@@ -1,0 +1,4 @@
+#!/bin/sh
+# Portão do acervo (Saneamento, Fases 0.4 e 0.5): LEI 6 + norma, só o que não piora.
+# Ativar uma vez por clone:  git config core.hooksPath .githooks
+exec python scripts/acervo/portao_acervo.py --pre-commit

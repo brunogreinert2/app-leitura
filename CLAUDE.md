@@ -82,6 +82,22 @@ Textos longos (capítulos bíblicos inteiros, verbetes extensos) precisam rolar 
     número do versículo ou no marcador canônico (passagem exata). Ambos passam
     por `src/lib/rolo.ts`.
 
+## Portão do acervo (desde 2026-09-29)
+
+- **O front matter tem uma norma só:** `scripts/acervo/frontmatter.schema.json`.
+  Campos e valores em inglês; campo desconhecido fica ausente, nunca `null`.
+- **Todo commit que toca `public/livros/` passa pelo portão**
+  (`scripts/acervo/portao_acervo.py`, chamado pelo `.githooks/pre-commit`;
+  ativar uma vez por clone com `git config core.hooksPath .githooks`). O deploy
+  roda o mesmo portão com `--completo` antes de construir.
+- **O que ele barra:** id publicado que some (LEI 6: obra, `anchor-…`,
+  `marker-…`, registrados em `scripts/acervo/publicados/`); arquivo que piora
+  contra a norma (base em `scripts/acervo/base_validacao.tsv`, que só desce);
+  arquivo novo com qualquer erro.
+- **Nunca editar à mão** `publicados/` nem `base_validacao.tsv`: o portão os
+  atualiza e os põe no commit.
+- Plano e decisões: `C:\Claude\Saneamento\` (Proposta, FASE0_NORMAS, CONTINUAR_AQUI).
+
 ## Documentos
 
 - `docs/SPEC.md` — especificação consolidada (fonte: briefs do vault + decisões de 2026-07-02)

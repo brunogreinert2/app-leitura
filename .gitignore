@@ -16,3 +16,6 @@ PESSOAL_atalhos.md
 # O site nunca usa esta pasta: o CI gera em dist/rolo, que já está ignorado
 # acima. São ~300 MB e 2200 arquivos regenerados a cada execução.
 scripts/rolo/rolo/
+
+# relatórios do validador do acervo: derivados, refazem-se rodando o validador
+scripts/acervo/relatorio/

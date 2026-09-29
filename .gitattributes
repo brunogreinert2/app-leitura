@@ -1,0 +1,3 @@
+# Gancho de shell com fim de linha CRLF quebra no Windows: o sh procura um
+# programa chamado "python" seguido de um retorno de carro, que nao existe.
+.githooks/* text eol=lf
