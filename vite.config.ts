@@ -50,7 +50,10 @@ export default defineConfig({
         // A lista abaixo tira essas rotas da NavigationRoute e as devolve à
         // rede. /livros entra por precaução: hoje o precache o cobre, mas um
         // livro que passe de 8 MB ficaria de fora e cairia no mesmo buraco.
-        navigateFallbackDenylist: [/^\/rolo(\/|$)/, /^\/livros(\/|$)/],
+        // /portico (2026-09-29) é o site da norma, montado no deploy a partir
+        // do repositório portico: páginas estáticas que uma IA recebe por
+        // link, e que não podem virar a casca da SPA.
+        navigateFallbackDenylist: [/^\/rolo(\/|$)/, /^\/livros(\/|$)/, /^\/portico(\/|$)/],
       },
       manifest: {
         // "Leitura —" nao acrescentava nada e aparecia DUAS vezes na barra

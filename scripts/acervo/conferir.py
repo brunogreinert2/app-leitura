@@ -26,32 +26,7 @@ try:
 except Exception:
     pass
 
-COMO_CONSERTAR = {
-    "F00-sem-front-matter": "comece o arquivo com --- , os campos, e --- (modelo no frontmatter.schema.json).",
-    "F01-yaml-invalido": "o bloco entre os --- não é YAML válido: aspas sem fechar, dois-pontos sobrando, tabulação.",
-    "F10-migravel-campo": "renomeie o campo para o nome novo, em inglês.",
-    "F11-migravel-valor": "troque o valor pelo equivalente novo.",
-    "F12-urn-no-source": "tire a URN de dentro do source e ponha num campo próprio: urn: urn:cts:…",
-    "F13-campo-removido": "apague o campo (area e era viram etiquetas em tags).",
-    "F20-vazio": "apague a linha inteira. Campo desconhecido fica ausente — nunca null, nunca \"\".",
-    "F30-campo-desconhecido": "esse campo não existe na norma: apague, ou peça para ele entrar no esquema.",
-    "F31-obrigatorio-ausente": "acrescente o campo; texto precisa de license e source, tradução de translator.",
-    "F32-valor-invalido": "use um valor da lista fechada do esquema (idioma: grc, lat, por, eng…; licença: public-domain, CC-BY-SA-4.0…).",
-    "C01-null": "a palavra null vazou para o texto: é um campo vazio do conversor. Apague ou preencha.",
-    "C02-xml": "sobrou marcação XML/HTML (<…>, &…;, <!-- -->). O acervo é texto puro.",
-    "C03-wikilink": "tire os [[ ]]: wikilink é da cópia do Obsidian, não do acervo.",
-    "C04-imagem": "imagem entra por {{img:id}} sozinha na linha, nunca ![]().",
-    "C05-citacao": "o > não existe no acervo. Verso e interlinear vão num bloco ```verso ou ```interlinear.",
-    "C06-tabela": "tabela não existe no acervo.",
-    "C07-realce": "==realce== não existe no acervo.",
-    "C08-marcador-duplo": "o mesmo ponto tem dois marcadores ([217] [217a]): deixe só o da seção, [217a].",
-    "C09-colagem": "parece texto colado sem espaço (\"verse:Never\"). Confira contra a fonte.",
-    "C10-cerca": "bloco de código só pode ser ```interlinear ou ```verso.",
-    "C11-nota-sem-definicao": "a nota [^n] é usada mas não tem a linha [^n]: texto no fim do arquivo.",
-    "C12-definicao-sem-uso": "há uma definição [^n]: que nenhum trecho usa.",
-    "C13-ancora-duplicada": "a mesma âncora ^id aparece duas vezes: cada endereço tem de ser único.",
-    "A01-sem-urn": "falta a URN da edição. Se a obra está no catálogo TLG/PHI/Perseus, ponha urn_work e urn.",
-}
+COMO_CONSERTAR = vc.COMO_CONSERTAR
 
 
 def main(args: list[str]) -> int:

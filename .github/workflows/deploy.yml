@@ -63,6 +63,16 @@ jobs:
             --saida dist/rolo
           echo "rolos gerados: $(ls dist/rolo/*.html | wc -l) · $(du -sh dist/rolo | cut -f1)"
 
+      # ---- o Pórtico em /portico/ (2026-09-29) ----
+      # A norma, o andamento público, o diário e o conferidor de .md. As fontes
+      # moram no repositório portico; este passo só o monta, lendo daqui os
+      # temas, as fontes e a norma do acervo (scripts/acervo). Como os rolos,
+      # é derivado: nasce no build e não entra no git.
+      - name: Montar o Pórtico em /portico/
+        run: |
+          git clone --depth 1 https://github.com/brunogreinert2/portico.git ../portico
+          python ../portico/gerar.py --publico dist/portico --app-leitura .
+
       - uses: actions/upload-pages-artifact@v3
         with:
           path: dist
