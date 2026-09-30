@@ -20,6 +20,7 @@ Every page below is plain HTML, readable without JavaScript. Pages are kept unde
 - O texto-fonte em Markdown de cada obra · source Markdown: `https://pedraangular.app.br/livros/...` (o caminho está no catálogo)
 - Por URN (CTS) · by CTS URN: `https://pedraangular.app.br/urn/?<urn>[:<passage>]`, e.g. [Sofista 216a](https://pedraangular.app.br/urn/?urn:cts:greekLit:tlg0059.tlg007.perseus-grc2:216a); all URNs, no JavaScript needed: [https://pedraangular.app.br/urn/](https://pedraangular.app.br/urn/)
 - Como citar · how to cite: every work page starts with a ready citation and BibTeX (`#como-citar`)
+- O acervo inteiro · the whole collection: DOI [10.5281/zenodo.23068915](https://doi.org/10.5281/zenodo.23068915) (always the latest version). To download everything, use this archive (one zip per version), not a crawl of the site.
 
 ## Atenção · Caveats
 

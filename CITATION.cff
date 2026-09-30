@@ -11,6 +11,15 @@ authors:
   - name: "Διαφορεύς"
     alias: "Diaphoreus"
 version: "1.0.0"
+# DOI de conceito: sempre a versão mais nova (é o que se cita em geral).
+doi: "10.5281/zenodo.23068915"
+identifiers:
+  - type: doi
+    value: "10.5281/zenodo.23068915"
+    description: "Todas as versões do acervo (DOI de conceito)"
+  - type: doi
+    value: "10.5281/zenodo.23068916"
+    description: "Versão 1.0.0"
 license: CC-BY-SA-4.0
 url: "https://pedraangular.app.br"
 repository-code: "https://github.com/brunogreinert2/app-leitura"

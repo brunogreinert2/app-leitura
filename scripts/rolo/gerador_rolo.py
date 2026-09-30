@@ -432,6 +432,19 @@ def versao_do_acervo() -> str:
 VERSAO_ACERVO = versao_do_acervo()
 
 
+def doi_do_acervo() -> str:
+    """O DOI de conceito do acervo (todas as versões), do mesmo CITATION.cff."""
+    cff = Path(__file__).resolve().parents[2] / "CITATION.cff"
+    if cff.exists():
+        m = re.search(r'^doi:\s*"?([^"\s]+)', cff.read_text(encoding="utf-8"), re.M)
+        if m:
+            return m.group(1)
+    return ""
+
+
+DOI_ACERVO = doi_do_acervo()
+
+
 def _nomes(v) -> str:
     return "; ".join(map(str, v)) if isinstance(v, list) else str(v or "")
 
@@ -452,13 +465,14 @@ def como_citar(meta: dict, slug: str, site: str) -> tuple[str, str]:
     partes = [f"{autor.upper()}. " if autor else "", f"{titulo}. ",
               "".join(r + ". " for r in resp),
               f"Pedra Angular (org. Διαφορεύς){versao}. ",
+              f"DOI: {DOI_ACERVO}. " if DOI_ACERVO else "",
               f"URN: {meta['urn']}. " if meta.get("urn") else "",
               f"Disponível em: {url}. Acesso em: [data do acesso]."]
     texto = "".join(partes)
     campos = [("author", autor), ("title", titulo),
               ("note", "; ".join(resp + ([f"URN {meta['urn']}"] if meta.get("urn") else []))),
               ("howpublished", f"Pedra Angular (org. Διαφορεύς){versao}"),
-              ("url", url), ("urldate", "")]
+              ("doi", DOI_ACERVO), ("url", url), ("urldate", "")]
     bib = f"@misc{{pa-{slug},\n" + ",\n".join(f"  {k} = {{{v}}}" for k, v in campos if v or k == "urldate") + "\n}"
     return texto, bib
 

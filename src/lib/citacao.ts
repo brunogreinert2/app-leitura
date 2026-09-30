@@ -22,6 +22,8 @@ const PALAVRAS = {
 } as const
 
 export const VERSAO_ACERVO = (cff.match(/^version:\s*"?([\w.-]+)/m) ?? [])[1] ?? ''
+/** DOI de conceito do acervo (todas as versões), do mesmo CITATION.cff. */
+export const DOI_ACERVO = (cff.match(/^doi:\s*"?([^"\s]+)/m) ?? [])[1] ?? ''
 
 function nomes(v: unknown): string {
   if (Array.isArray(v)) return v.map(String).join('; ')
@@ -47,6 +49,7 @@ export function comoCitar(
     `${titulo}. ` +
     resp.map((r) => `${r}. `).join('') +
     `Pedra Angular (${w.org} Διαφορεύς)${versao}. ` +
+    (DOI_ACERVO ? `DOI: ${DOI_ACERVO}. ` : '') +
     (urn ? `URN: ${urn}. ` : '') +
     `${w.disponivel}: ${url}. ${w.acesso}.`
   const campos: [string, string][] = [
@@ -54,6 +57,7 @@ export function comoCitar(
     ['title', titulo],
     ['note', [...resp, ...(urn ? [`URN ${urn}`] : [])].join('; ')],
     ['howpublished', `Pedra Angular (${w.org} Διαφορεύς)${versao}`],
+    ['doi', DOI_ACERVO],
     ['url', url],
     ['urldate', ''],
   ]
