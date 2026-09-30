@@ -12,7 +12,7 @@ tags:
 status: reviewed
 project: pedra_angular
 urn_work: urn:cts:greekLit:tlg0059.tlg007
-urn: urn:cts:greekLit:tlg0059.tlg007.pa-por1
+urn: urn:cts:greekLit:tlg0059.tlg007.pa-por2
 source: O Dialético (Thiago Maia) / eBooksBrasil.org
 license: LicenseRef-eBooksBrasil
 ---

@@ -418,7 +418,51 @@ ROTULOS = [
     ("source", "Fonte"),
 ]
 
-def ficha_html(meta: dict, slug: str, md_href: str) -> str:
+def versao_do_acervo() -> str:
+    """A versão do acervo é a do CITATION.cff na raiz do repositório — o mesmo
+    arquivo que o GitHub e o Zenodo leem. Uma fonte só para o número."""
+    cff = Path(__file__).resolve().parents[2] / "CITATION.cff"
+    if cff.exists():
+        m = re.search(r'^version:\s*"?([\w.\-]+)', cff.read_text(encoding="utf-8"), re.M)
+        if m:
+            return m.group(1)
+    return ""
+
+
+VERSAO_ACERVO = versao_do_acervo()
+
+
+def _nomes(v) -> str:
+    return "; ".join(map(str, v)) if isinstance(v, list) else str(v or "")
+
+
+def como_citar(meta: dict, slug: str, site: str) -> tuple[str, str]:
+    """(citação em texto, BibTeX) de uma obra. Fase 6: autor, obra, tradutor ou
+    editor, Pedra Angular com a versão do acervo, URN, endereço e data de acesso
+    — que só quem cita sabe, por isso fica marcada."""
+    autor, titulo = _nomes(meta.get("author")), str(meta.get("title") or slug)
+    url = f"{site}/rolo/{slug}.html"
+    resp = []
+    if meta.get("translator"):
+        resp.append(f"Tradução de {_nomes(meta['translator'])}")
+    if meta.get("editor"):
+        resp.append(f"Edição de {_nomes(meta['editor'])}")
+    versao = f", versão {VERSAO_ACERVO}" if VERSAO_ACERVO else ""
+    partes = [f"{autor.upper()}. " if autor else "", f"{titulo}. ",
+              "".join(r + ". " for r in resp),
+              f"Pedra Angular (org. Διαφορεύς){versao}. ",
+              f"URN: {meta['urn']}. " if meta.get("urn") else "",
+              f"Disponível em: {url}. Acesso em: [data do acesso]."]
+    texto = "".join(partes)
+    campos = [("author", autor), ("title", titulo),
+              ("note", "; ".join(resp + ([f"URN {meta['urn']}"] if meta.get("urn") else []))),
+              ("howpublished", f"Pedra Angular (org. Διαφορεύς){versao}"),
+              ("url", url), ("urldate", "")]
+    bib = f"@misc{{pa-{slug},\n" + ",\n".join(f"  {k} = {{{v}}}" for k, v in campos if v or k == "urldate") + "\n}"
+    return texto, bib
+
+
+def ficha_html(meta: dict, slug: str, md_href: str, site: str = "https://pedraangular.app.br") -> str:
     itens = []
     for chave, rotulo in ROTULOS:
         v = meta.get(chave)
@@ -429,6 +473,13 @@ def ficha_html(meta: dict, slug: str, md_href: str) -> str:
     itens.append(
         f'        <dt>Markdown</dt><dd><a href="{atributo(md_href)}">{html.escape(md_href)}</a></dd>'
     )
+    if meta.get("urn"):
+        pelo_urn = f"{site}/urn/?{meta['urn']}"
+        itens.append(f'        <dt>Endereço por URN</dt><dd><a href="{atributo(pelo_urn)}">{html.escape(pelo_urn)}</a>'
+                     f' <span class=n>(uma passagem: acrescente <code>:216a</code>, <code>:1.1</code>…)</span></dd>')
+    texto, bib = como_citar(meta, slug, site)
+    itens.append(f'        <dt>Como citar</dt><dd id="como-citar">{html.escape(texto)}'
+                 f'<details><summary>BibTeX (Zotero, LaTeX)</summary><pre>{html.escape(bib)}</pre></details></dd>')
     return "\n".join(itens)
 
 def meta_tags(meta: dict) -> str:
@@ -448,6 +499,15 @@ def meta_tags(meta: dict) -> str:
         v = meta.get(chave)
         if v:
             saida.append(f'<meta name="{nome}" content="{atributo(str(v))}">')
+    # as etiquetas que o Zotero e o Google Acadêmico leem sozinhos (Fase 6)
+    if meta.get("title"):
+        saida.append(f'<meta name="citation_title" content="{atributo(str(meta["title"]))}">')
+    autores = meta.get("author") or []
+    for a in (autores if isinstance(autores, list) else [autores]):
+        saida.append(f'<meta name="citation_author" content="{atributo(str(a))}">')
+    saida.append('<meta name="citation_publisher" content="Pedra Angular">')
+    if meta.get("urn"):
+        saida.append(f'<meta name="DC.identifier" content="{atributo(str(meta["urn"]))}">')
     saida.append('<meta name="generator" content="gerador_rolo.py — Pedra Angular">')
     return "\n".join(saida)
 
@@ -839,7 +899,7 @@ def gerar_obra(entrada: dict, raiz_corpus: Path, template: str, saida: Path, css
             "META_TAGS": meta_tags(meta),
             "SLUG": atributo(slug),
             "MD_HREF": atributo(md_href),
-            "FICHA": ficha_html(meta, slug, md_href),
+            "FICHA": ficha_html(meta, slug, md_href, site),
             "CORPO": corpo,
             "FONTE_CSS": css_fonte,
         },
@@ -868,6 +928,10 @@ def gerar_obra(entrada: dict, raiz_corpus: Path, template: str, saida: Path, css
         "md_href": md_href,
         "partes": len(partes),
         "partes_grandes": grandes,
+        "urn": str(meta.get("urn") or ""),
+        # o prefixo das âncoras de versículo desta obra (anchor-gn-1-1 -> "gn"),
+        # para o resolvedor de URN levar "bible.Gen.alm-por1:1.1" ao versículo
+        "ancora": (re.search(r'id="anchor-([a-z0-9]+)-\d+-\d+"', corpo) or [None, ""])[1],
     }
 
 # ---------------------------------------------------------------- coleção (era)
@@ -1327,6 +1391,98 @@ def gerar_catalogo_enxuto(fichas: list[dict], saida: Path, site: str) -> list[tu
     return [(n, kb) for n, kb, _ in pedacos]
 
 
+RESOLVEDOR_URN = r"""<script>
+/* /urn/?<urn>[:<passagem>] -> a obra no rolo, na passagem. Sem JavaScript, a
+   lista abaixo faz o mesmo trabalho à mão. */
+(function () {
+  var q = decodeURIComponent((location.search || location.hash).replace(/^[?#]/, ''));
+  if (!/^urn:cts:/.test(q)) return;
+  var saida = document.getElementById('resolvendo');
+  saida.hidden = false;
+  fetch('mapa.json').then(function (r) { return r.json(); }).then(function (mapa) {
+    var p = q.split(':');                       // urn cts ns obra [passagem]
+    var obra = p.slice(0, 4).join(':'), pass = p.slice(4).join(':');
+    var e = mapa[obra];
+    if (!e) {                                    // URN de obra, sem edição: as edições
+      var eds = Object.keys(mapa).filter(function (u) { return u.indexOf(obra + '.') === 0; });
+      if (!eds.length) { saida.textContent = 'URN não encontrada: ' + q; return; }
+      if (eds.length === 1) { obra = eds[0]; e = mapa[obra]; }
+      else {
+        saida.innerHTML = 'Esta obra tem ' + eds.length + ' edições no acervo:<ul>' + eds.map(function (u) {
+          return '<li><a href="?' + u + (pass ? ':' + pass : '') + '">' + u + '</a> — ' + mapa[u][2] + '</li>';
+        }).join('') + '</ul>';
+        return;
+      }
+    }
+    var alvo = '/rolo/' + e[0] + '.html', m;
+    if (pass) {
+      if (e[1] && (m = pass.match(/^(\d+)[.:](\d+)$/))) alvo += '#anchor-' + e[1] + '-' + m[1] + '-' + m[2];
+      else alvo += '#marker-' + pass;
+    }
+    location.replace(alvo);
+  });
+})();
+</script>"""
+
+
+def gerar_urn(fichas: list[dict], saida: Path, site: str) -> int:
+    """/urn/ (Fase 6): a URN de cada obra leva a ela. Listas estáticas por
+    espaço de nomes (legíveis sem JavaScript, cada uma cabendo numa leitura),
+    o mapa em JSON e o resolvedor. /urn/urn:cts:… cai no 404, que manda para cá."""
+    pasta = saida.parent / "urn"
+    pasta.mkdir(parents=True, exist_ok=True)
+    com_urn = sorted((f for f in fichas if f.get("urn")), key=lambda f: f["urn"])
+    mapa = {f["urn"]: [f["slug"], f.get("ancora", ""), f["titulo"]] for f in com_urn}
+    (pasta / "mapa.json").write_text(json.dumps(mapa, ensure_ascii=False, separators=(",", ":")), encoding="utf-8")
+
+    grupos: dict[str, list[dict]] = {}
+    for f in com_urn:
+        ns = f["urn"].split(":")[2]
+        if ns == "pedraAngular":
+            ns += "-biblia" if ":bible." in f["urn"] else ""
+        grupos.setdefault(ns, []).append(f)
+    listas = []
+    for ns, fs in sorted(grupos.items()):
+        # cada lista cabe numa leitura: parte em pedaços de 180 obras
+        for k in range(0, len(fs), 180):
+            nome = ns if len(fs) <= 180 else f"{ns}-{k // 180 + 1}"
+            linhas = cabeca(f"URN — {nome}", "../rolo/")
+            linhas.append(f"<h1>URN — {html.escape(nome)}</h1><p><a href=\"./\">todas as listas</a></p><ul>")
+            for f in fs[k:k + 180]:
+                url = f"{site}/rolo/{f['slug']}.html"
+                linhas.append(f'<li><code>{html.escape(f["urn"])}</code> → <a href="{atributo(url)}">'
+                              f'{html.escape(url)}</a> <span class=n>— {html.escape(f["titulo"])}</span></li>')
+            linhas.append("</ul></div></body></html>")
+            (pasta / f"{nome}.html").write_text("\n".join(linhas), encoding="utf-8")
+            listas.append((nome, len(fs[k:k + 180])))
+
+    ex = [("urn:cts:greekLit:tlg0059.tlg007.perseus-grc2:216a", "Platão, Sofista 216a"),
+          ("urn:cts:pedraAngular:bible.Matt.alm-por1:23.23", "Mateus 23:23, Almeida 1911"),
+          ("urn:cts:pedraAngular:bible.Gen", "Gênesis: as edições do acervo")]
+    linhas = cabeca("Endereço por URN", "../rolo/")
+    linhas += [
+        "<h1>Endereço por URN</h1>",
+        '<p id="resolvendo" hidden>Procurando…</p>',
+        "<p>Toda obra do acervo tem uma URN no padrão CTS (a mesma gramática do Perseus). "
+        "Obra que está num catálogo (greekLit, latinLit) usa a URN de lá, com a edição do Pedra "
+        "Angular (<code>.pa-por1</code>); a Bíblia usa <code>urn:cts:pedraAngular:bible.&lt;livro OSIS&gt;"
+        ".&lt;edição&gt;</code>; o resto, <code>urn:cts:pedraAngular:paNNNN.paNNN</code>. Uma URN publicada "
+        "não muda nunca.</p>",
+        f"<p>Para ir direto: <code>{html.escape(site)}/urn/?&lt;urn&gt;</code>, e para uma passagem, "
+        "<code>:&lt;passagem&gt;</code> no fim (<code>:216a</code>, <code>:1.1</code>; na Bíblia, "
+        "<code>capítulo.versículo</code>).</p><ul>",
+        *[f'<li><a href="{atributo(site + "/urn/?" + u)}">{html.escape(site)}/urn/?{html.escape(u)}</a> '
+          f'<span class=n>— {html.escape(r)}</span></li>' for u, r in ex],
+        "</ul><h2>Todas as URNs (sem JavaScript)</h2><ul>",
+        *[f'<li><a href="{atributo(n)}.html">{html.escape(site)}/urn/{html.escape(n)}.html</a> '
+          f'<span class=n>— {q} obras</span></li>' for n, q in listas],
+        f'</ul><p class=n>Mapa completo, para programas: <a href="mapa.json">{html.escape(site)}/urn/mapa.json</a></p>',
+        RESOLVEDOR_URN, "</div></body></html>",
+    ]
+    (pasta / "index.html").write_text("\n".join(linhas), encoding="utf-8")
+    return len(com_urn)
+
+
 def gerar_404(destino: Path, site: str) -> None:
     """A página de endereço inexistente do site inteiro (o GitHub Pages serve
     /404.html). Antes era a do GitHub, em inglês e fora dos temas de contraste."""
@@ -1343,6 +1499,9 @@ def gerar_404(destino: Path, site: str) -> None:
         "</ul>",
         '<p lang="en" class=n>Page not found. The library is at /rolo/ and the reader at /.</p>',
         f"<p class=n>Gerado em {html.escape(carimbo_da_geracao())}</p>",
+        # /urn/urn:cts:… não existe como arquivo: o resolvedor mora em /urn/?…
+        "<script>if (/^\\/urn\\/urn:cts:/.test(location.pathname))"
+        " location.replace('/urn/?' + decodeURIComponent(location.pathname.slice(5)));</script>",
         "</div></body></html>",
     ]
     destino.write_text("\n".join(linhas), encoding="utf-8")
@@ -2074,6 +2233,8 @@ def main() -> int:
     maior = max(pedacos, key=lambda p: p[1])
     print(f"  catálogo enxuto: {len(pedacos)} pedaços, o maior {maior[0]} com {maior[1]} KB")
     gerar_404(args.saida.parent / "404.html", args.site.rstrip("/"))
+    n_urn = gerar_urn(fichas, args.saida, args.site.rstrip("/"))
+    print(f"  urn: {n_urn} obras em {args.saida.parent / 'urn'}")
     print(f"  404: {args.saida.parent/'404.html'}")
     n_sitemap = gerar_sitemap(args.saida, args.site)
     print(f"  sitemap: {n_sitemap} endereços → {args.saida.parent/'sitemap.xml'}")

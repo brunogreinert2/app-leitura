@@ -4438,12 +4438,6 @@
       "arquivo": "FILOSOFIA/Latim/Estoicismo_Latino/Seneca/Phoenissae/Phoenissae_lat_rudolf-peiper_1921.md"
     },
     {
-      "id": "seneca-thyestes-la-rudolf-peiper-1921",
-      "titulo": "Thyestes",
-      "autor": "Seneca, Lucius Annaeus",
-      "arquivo": "FILOSOFIA/Latim/Estoicismo_Latino/Seneca/Thyestes/Thyestes_la_rudolf-peiper_1921.md"
-    },
-    {
       "id": "seneca-thyestes-lat-rudolf-peiper-1921",
       "titulo": "Thyestes",
       "autor": "Seneca, Lucius Annaeus",
@@ -6724,6 +6718,7 @@
   ],
   "redirecionamentos": {
     "eclesiastes_interlinear_heb-pt-via-portugues": "eclesiastes_interlinear_heb-pt",
-    "platao-sofista-interlinear-pt-grc-via-portugues": "platao-sofista-interlinear-pt-grc"
+    "platao-sofista-interlinear-pt-grc-via-portugues": "platao-sofista-interlinear-pt-grc",
+    "seneca-thyestes-la-rudolf-peiper-1921": "seneca-thyestes-lat-rudolf-peiper-1921"
   }
 }

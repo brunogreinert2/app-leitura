@@ -18,7 +18,7 @@ related:
 - platao-o-sofista-odialetico
 - platao-sophist-grc-john-burnet-1905
 urn_work: urn:cts:greekLit:tlg0059.tlg007
-urn: urn:cts:greekLit:tlg0059.tlg007.perseus-grc2
+urn: urn:cts:greekLit:tlg0059.tlg007.pa-por1
 source: 'O Dialético (Thiago Maia) / eBooksBrasil.org; Plato. Σοφιστής. Ed. John Burnet. Oxford: Clarendon Press, 1905. Perseus Digital Library, Tufts University (CC BY-SA 4.0).'
 license: CC-BY-SA-4.0
 ---

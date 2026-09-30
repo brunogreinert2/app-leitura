@@ -4,6 +4,7 @@ type: primary_text
 title: Thyestes
 author: Seneca, Lucius Annaeus
 publisher: Teubner
+editor: Rudolf Peiper
 language: lat
 tags:
 - stoicism
