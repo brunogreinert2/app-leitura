@@ -61,13 +61,15 @@ divergência para que este arquivo seja corrigido.
   `ocr_png_to_md.js`, `olmocr…`), agrupar páginas (`12_…`), TEI para `.md`
   (`13_…`), Parmênides (`14`–`17`), corretor de latim (`18`), léxico (`19`),
   imagens do Marcgrave (`20`), `traduzir_lote.py` (grego → português direto do
-  grego). Os `.bak` são histórico: não use.
+  grego). O que saiu de uso está em `_OBSOLETO_2026-09-30` (com um `LEIA.md`
+  dizendo o que substituiu cada coisa): não use nada de lá.
 - `Projeto_Prometeu` — PDFs a transcrever (`0_entrada` → `1_ocr` → `2_revisao`).
 - `Diaphoreus` — o ACERVO antigo. **Não é mais a fonte** (decisão D1 do Saneamento,
   2026-09-29): a verdade é `app-leitura/public/livros`. `MINHAS_CONTRIBUICOES`,
-  `SCRIPTS` e `fontes` guardam origens úteis. **Nunca rode `oficina.py espelhar`
-  nem siga `C:\Projetos\OFICINA\COMO_PUBLICAR_NO_APP.md`**: copiam o ACERVO
-  antigo por cima do acervo saneado.
+  `SCRIPTS` e `fontes` guardam origens úteis. O caminho antigo de "espelhar o
+  ACERVO para o app" (`oficina.py`, `COMO_PUBLICAR_NO_APP.md`) foi aposentado em
+  2026-09-30 e mora em `C:\Projetos\OFICINA\_OBSOLETO_2026-09-30`: copiaria o
+  ACERVO antigo por cima do acervo saneado.
 - `Antigo_Testamento`, `StLovelace-GitHusserl…` — materiais de origem.
 
 **`C:\Claude`** — o software. As bancadas pelas quais os textos do dono passam antes

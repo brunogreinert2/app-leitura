@@ -22,59 +22,33 @@ de BIBLIAS e FILOSOFIA, o 1º nível é sempre o idioma da edição
 `ESTRUTURA_BIBLIOTECA_v2_idioma.md` pra entender por quê antes de criar
 pasta nova fora desse padrão.
 
-## Adicionar uma COLEÇÃO inteira (o jeito rápido)
+## Adicionar textos (livros, coleções, personagens)
 
-1. Crie uma pasta em `public/livros/` (ex.: `CLASSICOS_GREGO_LATIM/`)
-   e despeje os `.md`/`.txt` dentro (subpastas à vontade).
-2. Rode:
+**O jeito certo é o Guardião:** abra o Claude Code e digite `/guardiao`
+(o ofício está em `.claude/skills/guardiao/SKILL.md`). Ele confere o
+arquivo, escolhe a pasta, preenche o front matter (URN, licença, tags),
+converte do TEI quando há, e publica.
 
-```
-npm run gera:catalogo
-```
+À mão, desde 2026-09-30, são três passos:
 
-Ele acrescenta ao catálogo tudo que ainda não estiver listado, lendo
-título/autor do YAML de cada arquivo. As entradas que você já ajustou
-à mão não são tocadas. Na biblioteca, a coleção aparece como UMA pasta
-fechada — não polui nada, por maior que seja.
+1. Confira o arquivo em https://pedraangular.app.br/portico/contribuir.html
+   (diz na hora se ele está na norma).
+2. Ponha o `.md` na pasta certa dentro de `public/livros/`
+   (`ACERVO/Idioma/Corrente/Autor/Obra/`; o nome do arquivo segue
+   `Autor_Titulo_lang_Tradutor_Ano.md`).
+3. `git add`, `git commit`, `git push` (seção abaixo).
 
-## Adicionar um livro novo
+**Não é mais preciso** rodar `npm run gera:catalogo` nem
+`npm run gera:personagens`, nem editar o `catalogo.json` à mão: o portão
+do acervo, que roda em todo commit, põe a obra nova no catálogo sozinho.
 
-1. Copie o `.md` (cópia de leitura do vault) para a pasta desejada
-   dentro de `public/livros/` — pode criar pastas novas à vontade.
-2. Abra `public/livros/catalogo.json` e acrescente um bloco na lista,
-   copiando o formato dos existentes:
-
-```json
-{
-  "id": "um-id-unico-sem-espacos",
-  "titulo": "Título que aparece no app",
-  "autor": "Autor",
-  "arquivo": "PASTA/Sub-pasta/Nome_do_arquivo.md",
-  "sistema_referencia": "versiculo"
-}
-```
-
-- `arquivo` é o caminho dentro de `public/livros/`, com `/` (nunca `\`).
-- `sistema_referencia` é opcional: `"versiculo"` (âncoras `^gn-1-1`),
-  `"capitulo-secao"` (marcadores `[1.1]`), ou omitir.
-- Cuidado com a vírgula entre os blocos `{ } , { }` — é o erro mais comum.
-
-## Adicionar um personagem
-
-1. Copie o `.md` para `public/livros/PERSONAGENS/`.
-   O NOME DO ARQUIVO é o alvo do wikilink: `[[Platão]]` acha `Platão.md`.
-2. Para nomes alternativos, acrescente no YAML do verbete:
+**Personagem:** o nome do arquivo em `public/livros/PERSONAGENS/` é o
+alvo do wikilink — `[[Platão]]` acha `Platão.md`. Nomes alternativos vão
+no YAML do verbete:
 
 ```yaml
 aliases:
-  - David - O rei
-  - Davi - O rei
-```
-
-3. Rode no terminal, dentro da pasta do projeto:
-
-```
-npm run gera:personagens
+  - Platão de Atenas
 ```
 
 ## Publicar (site + apps instalados se atualizam sozinhos)
@@ -87,7 +61,7 @@ git commit -m "Descreva o que mudou"
 git push
 ```
 
-Em ~1 minuto o site novo está no ar. Quem tem o app instalado recebe a
+Em ~10 minutos o site novo está no ar (o deploy refaz também o rolo e o Pórtico). Quem tem o app instalado recebe a
 atualização na próxima vez que abrir com internet.
 
 ## Testar no computador antes de publicar

@@ -2,6 +2,11 @@
 > estrutura em vigor é `ESTRUTURA_BIBLIOTECA_v2_idioma.md` (idioma como
 > 1º nível dentro de cada seção; Grego/Latim deixaram de ser seções de
 > topo e viraram subpasta de Filosofia).
+>
+> **Os comandos `oficina.py espelhar` abaixo não existem mais** (2026-09-30):
+> o ACERVO Diaphoreus deixou de ser a fonte (decisão D1 do Saneamento) e o
+> `oficina.py` foi para `C:\Projetos\OFICINA\_OBSOLETO_2026-09-30`. Texto novo
+> entra pelo Guardião (`/guardiao`).
 
 # Estrutura da Biblioteca — Proposta de Organização da Sidebar
 
