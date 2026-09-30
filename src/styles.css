@@ -2660,3 +2660,12 @@ button {
   border-left: 3px solid var(--color-accent);
   padding-left: 0.8125rem;
 }
+
+/* Apagar tudo (Meus arquivos): o único gesto da biblioteca que não se desfaz
+   sozinho. Distinto pelo FORMATO — borda dupla e grossa, negrito — e pelo
+   texto, que diz o que acontece; nunca só pela cor (vale em todos os temas). */
+.botao-perigo {
+  border-style: double;
+  border-width: 4px;
+  font-weight: 700;
+}

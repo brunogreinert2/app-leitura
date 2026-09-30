@@ -153,6 +153,21 @@ export function DetailsDialog({ open, onClose, entry, parsed, catalog, persisten
           <button className="wikilink-box-open" onClick={() => copiar(rolo, 'rolo')}>
             {t(copied === 'rolo' ? 'detalhes.copiado' : 'detalhes.copiarLinkAcervoIA')}
           </button>
+          {/* Saiba mais (2026-09-30): quem recebe uma atualização quer saber o que
+              entrou — o Diário do Pórtico é o "commit para humanos". Abre fora do
+              app (nova aba): no app instalado não há barra de voltar. */}
+          <nav className="detalhes-saiba-mais" aria-label={t('detalhes.saibaMais')} style={{ marginBottom: '0.75rem' }}>
+            {([
+              ['/portico/diario.html', 'detalhes.novidades'],
+              ['/portico/', 'detalhes.saibaMais'],
+              ['/portico/nota-editorial.html', 'detalhes.notaEditorial'],
+              ['/rolo/', 'detalhes.semApp'],
+            ] as const).map(([href, chave]) => (
+              <a key={href} className="wikilink-box-open" href={href} target="_blank" rel="noopener">
+                {t(chave)} <span aria-hidden="true">↗</span>
+              </a>
+            ))}
+          </nav>
           <button className="copy-dialog-cancel" onClick={onClose}>
             {t('aparencia.fechar')}
           </button>

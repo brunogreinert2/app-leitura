@@ -18,6 +18,7 @@ import {
 } from './components/ThemeDialog'
 import { Sidebar } from './components/Sidebar'
 import { DetailsDialog } from './components/DetailsDialog'
+import { ExcluirTudoDialog } from './components/ExcluirTudoDialog'
 import { useFontSize } from './components/FontControls'
 import { buildPersonRegistry } from './lib/persons'
 import {
@@ -114,6 +115,7 @@ export function App() {
   const [libraryOpen, setLibraryOpen] = useState(false)
   const [themeOpen, setThemeOpen] = useState(false)
   const [localFiles, setLocalFiles] = useState<LocalFile[]>([])
+  const [excluirAberto, setExcluirAberto] = useState(false)
   // Editor de textos próprios: null | novo | edição de um LocalFile
   const [editor, setEditor] = useState<{ file: LocalFile | null } | null>(null)
   // Muda a key do Reader após salvar edição (re-parseia o conteúdo)
@@ -364,6 +366,14 @@ export function App() {
     setStack((s) => s.filter((e) => e.id !== entry.id))
   }
 
+  // Apaga só os textos de Meus arquivos; tema, letra e demais preferências ficam.
+  const handleExcluirTudo = async () => {
+    const ids = new Set(localFiles.map((f) => f.id))
+    for (const id of ids) await removeLocalFile(id).catch(() => {})
+    setLocalFiles(await listLocalFiles().catch(() => []))
+    setStack((s) => s.filter((e) => !ids.has(e.id)))
+  }
+
   const handleExportData = () => {
     exportBackup().catch(() => window.alert(t('arquivos.exportarFalhou')))
   }
@@ -542,6 +552,15 @@ export function App() {
         onExportData={handleExportData}
         onImportData={handleImportData}
         onCheckUpdate={checkNow}
+        totalLocais={localFiles.length}
+        onExcluirTudo={() => setExcluirAberto(true)}
+      />
+      <ExcluirTudoDialog
+        open={excluirAberto}
+        total={localFiles.length}
+        onClose={() => setExcluirAberto(false)}
+        onBackup={() => exportBackup().catch(() => window.alert(t('arquivos.exportarFalhou')))}
+        onApagar={handleExcluirTudo}
       />
       <TextEditor
         sugerirTitulo={sugerirTitulo}

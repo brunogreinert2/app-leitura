@@ -439,7 +439,8 @@ def _nomes(v) -> str:
 def como_citar(meta: dict, slug: str, site: str) -> tuple[str, str]:
     """(citação em texto, BibTeX) de uma obra. Fase 6: autor, obra, tradutor ou
     editor, Pedra Angular com a versão do acervo, URN, endereço e data de acesso
-    — que só quem cita sabe, por isso fica marcada."""
+    — que só quem cita sabe, por isso fica marcada. Espelho no app:
+    src/lib/citacao.ts (ficha Detalhes). Mexeu num, mexa no outro."""
     autor, titulo = _nomes(meta.get("author")), str(meta.get("title") or slug)
     url = f"{site}/rolo/{slug}.html"
     resp = []

@@ -23,6 +23,10 @@ interface Props {
   onImportData: (file: File) => void
   /** Força checar se há versão nova do app agora, sem esperar a checagem automática. */
   onCheckUpdate: () => void
+  /** Quantos textos há em Meus arquivos; com zero, o "Excluir tudo" nem aparece. */
+  totalLocais?: number
+  /** Abre o diálogo de dois passos que apaga todos os textos de Meus arquivos. */
+  onExcluirTudo?: () => void
   /** Fixar na bancada: só oferecido onde há espaço (ver useTelaLarga). */
   fixo?: boolean
   onAlternarFixo?: () => void
@@ -41,6 +45,8 @@ export function LibraryDrawer({
   onExportData,
   onImportData,
   onCheckUpdate,
+  totalLocais = 0,
+  onExcluirTudo,
   fixo,
   onAlternarFixo,
   ativo,
@@ -168,6 +174,19 @@ export function LibraryDrawer({
             }}
           />
         </div>
+        {/* Separado do Exportar/Importar e com o nome do que faz: apagar é o
+            único gesto desta área que não se desfaz sozinho. */}
+        {totalLocais > 0 && onExcluirTudo && (
+          <div className="lib-import">
+            <button
+              className="toc-action toc-action-larga botao-perigo"
+              onClick={onExcluirTudo}
+              aria-label={t('biblioteca.excluirTudo')}
+            >
+              {t('acao.excluirTudo')}
+            </button>
+          </div>
+        )}
         <div className="lib-import">
           <button
             className="toc-action toc-action-larga"
