@@ -196,7 +196,7 @@ export function DetailsDialog({ open, onClose, entry, parsed, catalog, persisten
   if (parsed?.headings.length) rows.push([t('detalhes.secoes'), String(parsed.headings.length)])
   rows.push([t('detalhes.caminho'), entry.arquivo])
   // Fase 6: a citação pronta, a mesma do topo da página no rolo
-  const citacao = entry.local ? null : comoCitar(meta, entry.id)
+  const citacao = entry.local ? null : comoCitar(meta, entry.id, idioma)
   if (citacao) rows.push([t('detalhes.comoCitar'), citacao.texto])
 
   return (
