@@ -287,6 +287,28 @@ def pre_commit() -> int:
     if not mudados and not catalogo_mexeu:
         return 0
 
+    # Texto novo fora do catálogo (2026-09-30): o portão roda o gerador sozinho
+    # e põe o catálogo no mesmo commit — subir texto é conferir, pôr na pasta e
+    # commitar. O gerador só ACRESCENTA: entrada já ajustada não é tocada.
+    por_arquivo, _ = ler_catalogo()
+    fora = [r for r in mudados if r not in por_arquivo]
+    geradores = []
+    if any(not r.startswith("PERSONAGENS/") for r in fora):
+        geradores.append(("gera-catalogo.mjs", "catalogo.json"))
+    if any(r.startswith("PERSONAGENS/") for r in fora):
+        geradores.append(("gera-personagens.mjs", "personagens.json"))
+    for script, saida in geradores:
+        try:
+            r = subprocess.run(["node", str(REPO / "scripts" / script)], cwd=REPO,
+                               capture_output=True, text=True, encoding="utf-8")
+        except OSError:
+            print(f"portão do acervo: sem node para rodar {script}; rode `npm run "
+                  f"{'gera:catalogo' if 'catalogo' in script else 'gera:personagens'}` "
+                  "e faça o commit de novo.", file=sys.stderr)
+            return 1
+        print(r.stdout.strip())
+        git("add", "--", str((LIVROS / saida).relative_to(REPO)))
+
     por_arquivo, redirec = ler_catalogo()
     ctx = vc.carregar_esquema()
     obras_tocadas = {por_arquivo[r] for r in mudados if r in por_arquivo}

@@ -51,10 +51,13 @@ Textos longos (capítulos bíblicos inteiros, verbetes extensos) precisam rolar 
   automático: `git push` na master → GitHub Actions builda e publica
   em ~1 min. Se o passo "deploy" falhar com "try again later", é
   soluço do Pages: `gh run rerun <id> --failed`.
-- **Adicionar livros**: copiar `.md`/`.txt` para `public/livros/<PASTA>/`
-  (pasta = menu da biblioteca) e rodar `npm run gera:catalogo` (lê
-  título/autor/sistema_referencia do YAML; não toca entradas já
-  ajustadas). Personagens: `.md` em `public/livros/PERSONAGENS/` +
+- **Adicionar livros**: conferir o arquivo em
+  https://pedraangular.app.br/portico/contribuir.html, copiar para
+  `public/livros/<PASTA>/` (pasta = menu da biblioteca) e commitar. Desde
+  2026-09-30 o portão roda sozinho o `gera:catalogo` (e o `gera:personagens`,
+  para PERSONAGENS/) quando o commit traz texto fora do catálogo; o gerador só
+  acrescenta, não toca entradas já ajustadas. Build local não é preciso: o
+  deploy faz. Personagens: `.md` em `public/livros/PERSONAGENS/` +
   `npm run gera:personagens`. Guia completo: `docs/COMO_EDITAR.md`.
 - **Cores/temas**: variáveis CSS por `[data-theme]` no topo de
   `src/styles.css`; lista de temas (com preview) em
