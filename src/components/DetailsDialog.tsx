@@ -3,6 +3,7 @@ import { useDialogoAcessivel } from '../lib/useDialogoAcessivel'
 import type { Catalog as CatalogData, CatalogEntry } from '../types'
 import type { ParsedBook } from '../lib/markdown'
 import { roloUrl } from '../lib/rolo'
+import { comoCitar } from '../lib/citacao'
 import { useT, useIdiomaAtual } from './idiomaContext'
 import { rotuloDaPasta, type Tradutor, type Idioma } from '../lib/i18n'
 import type { Persistencia } from '../lib/usePersistencia'
@@ -112,10 +113,10 @@ export function DetailsDialog({ open, onClose, entry, parsed, catalog, persisten
   const caixaRef = useRef<HTMLDivElement>(null)
   useDialogoAcessivel(open, onClose, caixaRef)
   const { idioma } = useIdiomaAtual()
-  const [copied, setCopied] = useState<'app' | 'rolo' | null>(null)
+  const [copied, setCopied] = useState<'app' | 'rolo' | 'citacao' | 'bibtex' | null>(null)
   if (!open) return null
 
-  const copiar = (texto: string, qual: 'app' | 'rolo') => {
+  const copiar = (texto: string, qual: 'app' | 'rolo' | 'citacao' | 'bibtex') => {
     navigator.clipboard.writeText(texto).then(() => {
       setCopied(qual)
       window.setTimeout(() => setCopied(null), 2000)
@@ -179,6 +180,9 @@ export function DetailsDialog({ open, onClose, entry, parsed, catalog, persisten
   if (parsed) rows.push([t('detalhes.tamanho'), formatBytes(parsed.bytes)])
   if (parsed?.headings.length) rows.push([t('detalhes.secoes'), String(parsed.headings.length)])
   rows.push([t('detalhes.caminho'), entry.arquivo])
+  // Fase 6: a citação pronta, a mesma do topo da página no rolo
+  const citacao = entry.local ? null : comoCitar(meta, entry.id)
+  if (citacao) rows.push([t('detalhes.comoCitar'), citacao.texto])
 
   return (
     <>
@@ -210,6 +214,16 @@ export function DetailsDialog({ open, onClose, entry, parsed, catalog, persisten
             <button className="wikilink-box-open" onClick={() => copiar(roloUrl(entry.id), 'rolo')}>
               {t(copied === 'rolo' ? 'detalhes.copiado' : 'detalhes.copiarLinkIA')}
             </button>
+            {citacao && (
+              <>
+                <button className="wikilink-box-open" onClick={() => copiar(citacao.texto, 'citacao')}>
+                  {t(copied === 'citacao' ? 'detalhes.copiado' : 'detalhes.copiarCitacao')}
+                </button>
+                <button className="wikilink-box-open" onClick={() => copiar(citacao.bibtex, 'bibtex')}>
+                  {t(copied === 'bibtex' ? 'detalhes.copiado' : 'detalhes.copiarBibtex')}
+                </button>
+              </>
+            )}
           </>
         )}
         <button className="copy-dialog-cancel" onClick={onClose}>
