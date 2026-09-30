@@ -103,6 +103,13 @@ Textos longos (capítulos bíblicos inteiros, verbetes extensos) precisam rolar 
   portão aceita id publicado com apelido válido. Apagar um apelido barra o
   commit. Primeiros 496: os `marker-N` falsos que o rolo dava às notas até
   2026-09-29 (hoje a chamada de nota tem id próprio, `nota-ref-N`).
+- **Sintaxe do corpo (revista 2026-09-30):** `public/livros/` É o acervo (D1: o app
+  é a verdade) e aceita `>` (citação, assinatura `> Ὁ Διαφορεύς παρῆν`, interlinear),
+  `[[wikilink]]` (personagens) e `![]()`. A regra 1 acima ("ACERVO sem wikilinks")
+  descreve a divisão antiga acervo/cópia de leitura e não vale mais para esta pasta.
+  Fora da norma: tabela, `==realce==`, HTML/XML, `null`.
+- **Nunca** publicar texto das publicações das Testemunhas de Jeová (decisão do Bruno;
+  a ficha antiga do personagem Davi foi retirada por isso em 2026-09-30).
 - **Marcador canônico:** `MARKER_RE` (src/lib/remarkMarkers.ts, única cópia no
   app) e `RX_MARCADOR` (gerador_rolo.py) são idênticos e aceitam quantos níveis
   a tradição tiver (`[1.1.1]`). Mexeu num, mexa no outro.
