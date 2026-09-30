@@ -116,6 +116,36 @@ public/livros/<ACERVO>/<Idioma>/<Corrente>/<Autor>/<Obra>/<Obra>_<idioma>_<edito
 - Para o YAML vale o esquema do acervo; o `CONVENCOES.md` do vault é anterior a ele
   e vale para o nome do arquivo.
 
+## 4b. Triagem: vale a pena o trabalho?
+
+Quando o dono apontar uma pasta ("faz a triagem de `C:\Projetos\OFICINA\Arquivo\VIGOTSKY`"),
+trabalhe **só dentro dela** e **não altere nada** lá. O objetivo é saber, antes de
+qualquer OCR ou conversão, o que pode entrar no acervo e quanto trabalho dá.
+
+Para cada arquivo (PDF, imagem, `.md`, `.docx`…):
+1. **Identifique** pela capa, folha de rosto e ficha catalográfica (as primeiras
+   páginas do PDF; `pdfinfo`/`pdftotext` ou leitura da página como imagem):
+   autor, obra, **tradutor**, editora, ano e cidade da edição, idioma.
+2. **Julgue os direitos** — são camadas separadas, e todas precisam estar livres:
+   - **A obra:** domínio público no Brasil quando passaram 70 anos, contados de
+     1º de janeiro do ano seguinte à morte do autor (Lei 9.610/1998, art. 41).
+   - **A tradução:** é obra própria do tradutor, com o mesmo prazo contado da
+     morte **dele**. Tradução recente de autor antigo quase sempre **não** pode.
+   - **A edição:** notas, introdução e aparato crítico de um editor moderno
+     também são dele; o texto do autor pode entrar sem eles.
+   - Licença aberta declarada (Creative Commons, etc.) libera o que ela cobre.
+   Na dúvida, "precisa verificar" — nunca "pode" por palpite. Você dá um parecer
+   técnico, não jurídico; a decisão final é do dono.
+3. **Estime o trabalho:** PDF com texto (nascido digital) → Conversor; PDF só de
+   imagem (escaneado) → OCR (`C:\Projetos\OFICINA`) e Corretor; já em `.md` →
+   direto ao caminho da seção 5. Diga se o texto original (grego, latim, russo…)
+   existe já livre noutra fonte melhor (Perseus, First1KGreek, Wikisource).
+4. **Relate** numa tabela, no chat: arquivo · obra · tradutor/edição · veredito
+   (**pode** / **não pode** / **precisa verificar**) · por quê · trabalho estimado.
+   Termine com a recomendação: o que vale fazer primeiro.
+
+Só depois do "pode" do dono é que um arquivo segue para a seção 5.
+
 ## 5. O caminho de um texto novo
 
 ### 5.1 Levantar
