@@ -41,14 +41,47 @@ divergência para que este arquivo seja corrigido.
   URN. O que sai do texto ganha apelido em `public/livros/_apelidos/<id>.json`.
 - **O formato é generoso** (N7): `>`, `[[wikilink]]`, `![]()`, `{{img:id}}` são
   permitidos. Nunca "limpe" isso de um texto.
-- **O app é bilíngue** (pt/en): todo texto de interface nasce nas duas línguas.
+- **O app é poliglota**: hoje português e inglês; o grego vem (boas-vindas, sobre
+  o projeto, o site inteiro) e outras línguas depois. Todo texto de interface nasce
+  em todas as línguas que o app já tiver (`src/lib/i18n.ts`), e nada de interface
+  se escreve de um jeito que só caiba em duas.
 - **Datas no padrão ISO** (2026-09-30), inclusive no Diário.
 - **Nada depende só de cor** (N29).
 - **Trabalho alheio se respeita.** Um texto já bem estruturado por alguém (ex.:
   os "Fragmentos" cedidos por Bruno Palavro) entra com o front matter na norma e
   a forma dele intacta. Não se reescreve o que outra pessoa fez bem.
 
-## 3. Onde o texto mora (a regra das pastas)
+## 3. O mapa da casa
+
+**`C:\Projetos`** — a matéria-prima, onde o dono põe a mão. Você vai trabalhar muito aqui:
+- `Perseus\canonical-greekLit`, `canonical-latinLit` e `First1KGreek` — os TEI-XML
+  de origem (clones locais; ver `C:\Claude\Saneamento\caminhos.py`).
+- `OFICINA` (a pasta de scripts, **não** o software Oficina): o encanamento
+  numerado do OCR e da tradução — imagens (`09_jp2…`), OCR para `.md` (`11_…`,
+  `ocr_png_to_md.js`, `olmocr…`), agrupar páginas (`12_…`), TEI para `.md`
+  (`13_…`), Parmênides (`14`–`17`), corretor de latim (`18`), léxico (`19`),
+  imagens do Marcgrave (`20`), `traduzir_lote.py` (grego → português direto do
+  grego). Os `.bak` são histórico: não use.
+- `Projeto_Prometeu` — PDFs a transcrever (`0_entrada` → `1_ocr` → `2_revisao`).
+- `Diaphoreus` — o ACERVO antigo. **Não é mais a fonte** (decisão D1 do Saneamento,
+  2026-09-29): a verdade é `app-leitura/public/livros`. `MINHAS_CONTRIBUICOES`,
+  `SCRIPTS` e `fontes` guardam origens úteis. **Nunca rode `oficina.py espelhar`
+  nem siga `C:\Projetos\OFICINA\COMO_PUBLICAR_NO_APP.md`**: copiam o ACERVO
+  antigo por cima do acervo saneado.
+- `Antigo_Testamento`, `StLovelace-GitHusserl…` — materiais de origem.
+
+**`C:\Claude`** — o software. As bancadas pelas quais os textos do dono passam antes
+de chegar a você (cada uma tem o seu `CLAUDE.md`):
+- `conversor` — PDF nascido digital → `.md` do corpus.
+- `corretor` — `.md` cru do OCR → `.md` do corpus.
+- `oficina` — o **software** Oficina: projeta edições físicas (formato, papel).
+- `gerador` — diagramação: compõe a página impressa a partir do `.md`.
+- `atelie` — a casca que junta as quatro bancadas numa janela.
+- `portico` — o Pórtico (NORMAS, Diário, andamento); `andamento` — as fichas.
+- `Saneamento` — as ferramentas de conversão do TEI e o histórico do saneamento.
+- `app-infantil`, `ateliedeotica`, `laboratorio` — outras frentes; não são do acervo.
+
+## 4. Onde o texto mora (a regra das pastas e dos nomes)
 
 ```
 public/livros/<ACERVO>/<Idioma>/<Corrente>/<Autor>/<Obra>/<Obra>_<idioma>_<editor>_<ano>.md
@@ -65,22 +98,33 @@ public/livros/<ACERVO>/<Idioma>/<Corrente>/<Autor>/<Obra>/<Obra>_<idioma>_<edito
   Pergunte só se o caso for ambíguo de verdade, e já trazendo a sua proposta.
 - **Autor e Obra:** nome da tradição em português, sem acento (`Platao`,
   `Isocrates`); a obra pelo título da edição (`Sophist`, `Panegyricus`).
-- **Arquivo:** `<Obra>_<grc|lat|heb|por|eng>_<editor-em-minusculas>_<ano>.md`.
-- **id** (no front matter, e é o que vai para o catálogo):
-  `<autor>-<obra>-<idioma>-<editor>-<ano>`, minúsculo, com hífens, sem acento
-  (ex.: `platao-sophist-grc-john-burnet-1905`). Id novo não usa `_`.
+- **Nome do arquivo — a convenção do dono**, que vale para o computador dele e não
+  só para o app: `C:\Markdown\Segundo Cérebro\_META\CONVENCOES.md`, §1.1 (leia).
+  `Autor_Titulo_lang_Tradutor_Ano[_vNN].md`: autor **sempre primeiro**, sobrenome
+  em ASCII sem acento; título legível; `lang` do arquivo (`pt`, `la`, `grc`, `en`,
+  `he`); tradutor pelo sobrenome — numa edição crítica do original, o **editor**
+  (`Burnet`, `Schenkl`); omitido em obra original sem tradução; `sd` sem data;
+  `_v01` só em obra de vários volumes. Ex.: `Platao_Republica_grc_Burnet_1905.md`,
+  `Isocrates_Panegirico_grc_Norlin_1980.md`. Personagem: o nome do personagem.
+  Os arquivos antigos que fogem disso (`Sophist_grc_john-burnet_1905.md`) **ficam
+  como estão**: o caminho em `/livros/` já foi publicado.
+- **id** (front matter e catálogo): o mesmo esqueleto do nome, minúsculo, com hífen,
+  sem acento (`platao-republica-grc-burnet-1905`). Id novo não usa `_`. Publicado,
+  não muda nunca (LEI 6).
+- Para o YAML vale o esquema do acervo; o `CONVENCOES.md` do vault é anterior a ele
+  e vale para o nome do arquivo.
 
-## 4. O caminho de um texto novo
+## 5. O caminho de um texto novo
 
-### 4.1 Levantar
+### 5.1 Levantar
 Leia só o front matter e o começo de cada arquivo. Agrupe por origem:
 - **Com TEI-XML de origem** (Perseus `canonical-greekLit`/`canonical-latinLit`,
   First1KGreek — em `C:\Projetos\Perseus\…` e `C:\Projetos\First1KGreek`, ver
-  `C:\Claude\Saneamento\caminhos.py`): **reconverter do XML** (4.2).
+  `C:\Claude\Saneamento\caminhos.py`): **reconverter do XML** (5.2).
 - **Sem TEI** (OCR próprio, traduções, textos cedidos): manter o corpo, pôr o
-  front matter na norma (4.3).
+  front matter na norma (5.3).
 
-### 4.2 Do TEI (o padrão mais alto do acervo)
+### 5.2 Do TEI (o padrão mais alto do acervo)
 O TEI é heterogêneo: cada obra traz uma estrutura um pouco diferente, e é ali
 que está a informação preciosa (páginas de Stephanus e Bekker, seções, notas do
 editor, páginas de Spanheim). **Nada disso se joga fora.**
@@ -94,13 +138,13 @@ editor, páginas de Spanheim). **Nada disso se joga fora.**
   perfil `spanheim` do Juliano), nunca aceite perder marcadores.
 - Notas do editor saem do texto corrido para `[^n]`.
 
-### 4.3 Sem TEI
+### 5.3 Sem TEI
 O corpo fica byte a byte (inclusive CRLF). Só o front matter muda: campos e
 valores em inglês (`title`, `author`, `translator`, `language: grc`…), sem campo
 vazio, nada perdido — o que não tiver campo vai para `processing` ou fica como
 pergunta ao dono. Referência: `C:\Claude\Saneamento\migrar_front_matter.py`.
 
-### 4.4 O front matter: você preenche, o dono confirma
+### 5.4 O front matter: você preenche, o dono confirma
 Preencha tudo que as fontes dizem (cabeçalho do TEI, catálogo CTS, o próprio
 arquivo). Regras:
 - **URN:** obra de catálogo CTS (greekLit, latinLit, First1K) usa a URN de lá,
@@ -117,7 +161,7 @@ arquivo). Regras:
 - **Pergunte ao dono** só: autoria de tradução ou transcrição dele; licença
   duvidosa; texto que talvez não deva entrar; e a corrente, se ambígua.
 
-### 4.5 Subir
+### 5.5 Subir
 1. Rode `python scripts/acervo/validar_corpus.py --raiz <arquivo ou pasta>`:
    zero erro.
 2. Lote grande (mais de uns 10 arquivos): num ramo (`git switch -c lote-<assunto>`),
@@ -131,7 +175,7 @@ arquivo). Regras:
 5. Confira no site: a obra em `/rolo/<id>.html`, a citação no topo, a URN em
    `/urn/?<urn>`. O rodapé "Gerado em … commit …" diz se a página é a nova.
 
-### 4.6 Contar
+### 5.6 Contar
 - **Diário** (`C:\Claude\portico\diario\AAAA-MM-DD-assunto.md`): rascunho curto,
   em linguagem de gente, datas ISO — **mostre ao dono antes de publicar**.
   O Pórtico se refaz no deploy do app (ou `gh workflow run deploy.yml`).
@@ -139,7 +183,7 @@ arquivo). Regras:
   a da frente que você tocou; depois `python C:\Claude\portico\gerar.py` e commit
   do `andamento_publico.json` no repositório `portico`.
 
-## 5. Armadilhas conhecidas deste ambiente (Windows)
+## 6. Armadilhas conhecidas deste ambiente (Windows)
 
 - O Bash daqui **come barras invertidas dentro de heredoc**: arquivo com `\` se
   edita com Edit/Write, ou com um script `.py` escrito pelo Write.
@@ -149,7 +193,7 @@ arquivo). Regras:
 - Preserve CRLF de quem o tem (leia com `newline=""`).
 - Faixa Unicode em regex sempre com `\u` (N79); teste com grego politônico.
 
-## 6. Ao terminar
+## 7. Ao terminar
 
 Diga ao dono, em poucas linhas: o que subiu (quantas obras, onde), o que ficou
 de fora e por quê, e o que depende dele. Se aprendeu uma regra nova com ele,
