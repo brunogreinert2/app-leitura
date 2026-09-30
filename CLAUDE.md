@@ -15,7 +15,7 @@ PWA de leitura, **somente leitura**, para o corpus em Markdown/YAML dos projetos
 ## Regras do domínio (inegociáveis)
 
 1. Existem duas camadas do mesmo corpus:
-   - **ACERVO** — fonte canônica, CommonMark puro (notas `[^n]` nos escopos `[^intro1]`, `[^ap1]`, `[^pa1]`; marcadores `[n.n]`; YAML obrigatório; SEM wikilinks). Intocável, feito para durar e para imprimir. O app NUNCA lê nem toca o acervo diretamente.
+   - **ACERVO** — fonte canônica, CommonMark puro (notas `[^n]` nos escopos `[^intro1]`, `[^ap1]`, `[^pa1]`; marcadores `[n.n]`; YAML obrigatório; a sintaxe é a do formato comum, NORMAS N7 v3: `>`, `[[wikilink]]`, `![]()` e `{{img:id}}` são permitidos). Intocável, feito para durar e para imprimir. O app NUNCA lê nem toca o acervo diretamente.
    - **CÓPIAS DE LEITURA** — espelho flexível dos mesmos livros (hoje no Obsidian). Podem conter wikilinks `[[ ]]`, inclusive criados pelo usuário. **É esta camada que o app consome.**
 2. O app nunca edita, nunca grava de volta, nunca altera o arquivo de origem — nem cópia, nem acervo.
 3. Wikilinks são recurso opcional por arquivo: presença habilita preview/índice de nomes, ausência não quebra nada.
@@ -108,8 +108,9 @@ Textos longos (capítulos bíblicos inteiros, verbetes extensos) precisam rolar 
   2026-09-29 (hoje a chamada de nota tem id próprio, `nota-ref-N`).
 - **Sintaxe do corpo (revista 2026-09-30):** `public/livros/` É o acervo (D1: o app
   é a verdade) e aceita `>` (citação, assinatura `> Ὁ Διαφορεύς παρῆν`, interlinear),
-  `[[wikilink]]` (personagens) e `![]()`. A regra 1 acima ("ACERVO sem wikilinks")
-  descreve a divisão antiga acervo/cópia de leitura e não vale mais para esta pasta.
+  `[[wikilink]]` (personagens) e `![]()`, como manda o formato comum do
+  ecossistema (NORMAS N7, versão 3, 2026-09-30). O app ainda não desenha imagem
+  (`{{img:id}}`, `![]()`): é trabalho a fazer, não proibição.
   Fora da norma: tabela, `==realce==`, HTML/XML, `null`.
 - **Nunca** publicar texto das publicações das Testemunhas de Jeová (decisão do Διαφορεύς;
   a ficha antiga do personagem Davi foi retirada por isso em 2026-09-30).
