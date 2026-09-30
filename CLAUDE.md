@@ -108,7 +108,7 @@ Textos longos (capítulos bíblicos inteiros, verbetes extensos) precisam rolar 
   `[[wikilink]]` (personagens) e `![]()`. A regra 1 acima ("ACERVO sem wikilinks")
   descreve a divisão antiga acervo/cópia de leitura e não vale mais para esta pasta.
   Fora da norma: tabela, `==realce==`, HTML/XML, `null`.
-- **Nunca** publicar texto das publicações das Testemunhas de Jeová (decisão do Bruno;
+- **Nunca** publicar texto das publicações das Testemunhas de Jeová (decisão do Διαφορεύς;
   a ficha antiga do personagem Davi foi retirada por isso em 2026-09-30).
 - **Marcador canônico:** `MARKER_RE` (src/lib/remarkMarkers.ts, única cópia no
   app) e `RX_MARCADOR` (gerador_rolo.py) são idênticos e aceitam quantos níveis

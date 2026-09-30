@@ -7,7 +7,7 @@
 
 > Como dividir o menu lateral (Φ) do app para caber tudo o que já temos e o
 > que vem por aí, sem virar uma lista ilegível. Baseado no que existe hoje
-> no ACERVO (826 arquivos, contagem de 2026-07-04) e no pedido do Bruno:
+> no ACERVO (826 arquivos, contagem de 2026-07-04) e no pedido do Διαφορεύς:
 > poucas seções de topo (~10 no máximo), Bíblias e Filosofia como porta de
 > entrada fácil (pt-BR/inglês, sem grego pesado logo de cara), e Grego/Latim
 > como acervo completo no idioma original, cada um subdividido.
@@ -48,7 +48,7 @@ até o dia em que uma tradução for adicionada.
 |---|-------|----------|---------|
 | — | *(fixo, fora da lista de seções)* **Bem-vindo ao Leitor** | `IMPRESSOES_APP.md` | Item único fixado no topo, não é uma seção com filhos. |
 | 1 | **Bíblias** | 3 versões pt-BR completas + Novo Testamento grego | Pedido explícito: uso primário, principalmente para idosos com presbiopia. Fica em primeiro lugar na lista, acima até de Filosofia. |
-| 2 | **Hebraico** | Material interlinear hebraico/português | Corpus e idioma próprios — não é "bíblia pt-BR de leitura corrida" nem cabe em Grego/Latim. Seção separada, como o Bruno pediu. |
+| 2 | **Hebraico** | Material interlinear hebraico/português | Corpus e idioma próprios — não é "bíblia pt-BR de leitura corrida" nem cabe em Grego/Latim. Seção separada, como o Διαφορεύς pediu. |
 | 3 | **Filosofia** | Só edições pt-BR/inglês, por corrente | Porta de entrada de leitura corrida. |
 | 4 | **Grego** | Acervo grego completo, por corrente/período | Estudo/cotejo com o original. |
 | 5 | **Latim** | Acervo latino completo, por corrente/período | Estudo/cotejo com o original. |
@@ -74,7 +74,7 @@ BIBLIAS/
 ```
 
 As 3 pt-BR ficam nessa ordem (Almeida primeiro por ser o nome mais
-reconhecido por leitor brasileiro; Bruno pode reordenar à vontade, é só
+reconhecido por leitor brasileiro; Διαφορεύς pode reordenar à vontade, é só
 gosto). Cada uma continua sendo 66 arquivos de livro — o catálogo lista
 livro por livro dentro da pasta da tradução, não como ROLO único; "rolo"
 vira conceito só de bastidor (concatenar pra gerar um arquivo grande), não
@@ -102,7 +102,7 @@ não precisar reorganizar depois quando crescer.
 
 Mantém as subpastas por corrente que já existem, mas cada uma só lista o
 que **já tem edição em pt-BR ou inglês agora**. Hoje isso é bem mais magro
-que o acervo em grego/latim — é exatamente o efeito que o Bruno pediu.
+que o acervo em grego/latim — é exatamente o efeito que o Διαφορεύς pediu.
 
 ```
 FILOSOFIA/
@@ -215,7 +215,7 @@ citados, não texto corrido).
    Proclo gramático homônimo. Precisa sair antes de espelhar Grego, ou ele
    entra sem querer em Neoplatonismo. Ver troubleshooting do `git rm` na
    conversa — o índice do git nesse repositório deu sinal de problema.
-2. **Licença/domínio público como filtro de publicação** — Bruno confirmou
+2. **Licença/domínio público como filtro de publicação** — Διαφορεύς confirmou
    que a tradução do Sofista em pt-BR (Paleikat-Cruz-Costa) e a do
    Encheirídion em pt-BR (Dinucci-Julien, 2012) **não são domínio
    público** e vão ser removidas do app. Isso muda o estado real da seção

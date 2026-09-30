@@ -11,7 +11,7 @@ related:
 # Estrutura v2 — idioma dentro de cada seção
 
 **Aplicado em 2026-08-01.** Revisão da v1 (`ESTRUTURA_BIBLIOTECA.md`,
-2026-07-04), a partir de uma observação do Bruno: o idioma vivia em dois
+2026-07-04), a partir de uma observação do Διαφορεύς: o idioma vivia em dois
 lugares diferentes dependendo da seção, e isso era inconsistente.
 
 ## O problema com a v1
@@ -87,7 +87,7 @@ abaixo).
 ## Convenção de interlineares (2026-08-01, 2ª rodada)
 
 Um texto interlinear envolve 2+ idiomas ao mesmo tempo — não pertence a
-uma única prateleira de idioma. Decisão do Bruno: **mora dentro de cada
+uma única prateleira de idioma. Decisão do Διαφορεύς: **mora dentro de cada
 idioma envolvido, independentemente**, numa subpasta `Interlineares_X`
 (X = o outro idioma da dupla). Duplicar o arquivo entre as duas pastas é
 aceitável — "custa pouco" pra um `.md` de texto.

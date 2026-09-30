@@ -34,4 +34,4 @@ O núcleo de sua metafísica repousa na Teoria das Formas. Em diálogos como [[A
 
 No diálogo [[Timaio]], Platão introduz a figura do [[Demiurgo]], o artesão supremo que modela a matéria caótica preexistente tomando como base o reino eterno das Formas estáveis. O Demiurgo não cria o mundo do nada (ex nihilo), mas atua como a inteligência ordenadora que subjuga a necessidade (ananke) ao princípio do Logos, transformando a entropia primordial em um cosmos geometricamente ordenado. ^p3
 
-Odiado por Nietzche: Opinião Bruno.
+Odiado por Nietzche: Opinião de Διαφορεύς.

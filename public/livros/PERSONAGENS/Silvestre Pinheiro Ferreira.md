@@ -7,6 +7,9 @@ tags:
 - portuguese-philosophy
 status: draft
 project: pedra_angular
+license: CC-BY-SA-4.0
+pa_exclusive: true
+processing: preparado por Διαφορεύς, Claude Sonnet 4.6
 born: 1769
 died: 1846
 nationality: Português

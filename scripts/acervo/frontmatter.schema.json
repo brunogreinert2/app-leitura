@@ -117,7 +117,7 @@
     "source_file": { "description": "Caminho do arquivo no repositório de origem.", "$ref": "#/$defs/texto" },
     "source_commit": { "description": "Hash do commit de onde o arquivo foi tirado.", "type": "string", "pattern": "^[0-9a-f]{7,40}$" },
     "license": {
-      "description": "Identificador SPDX. public-domain não é id SPDX (o SPDX não tem um). LicenseRef-eBooksBrasil segue a forma SPDX para licença própria: os termos gerais do site eBooksBrasil (ebooksbrasil.org), que valem para todas as edições dele (decisão do Bruno, 2026-09-30): distribuição gratuita, proibido o uso comercial.",
+      "description": "Identificador SPDX. public-domain não é id SPDX (o SPDX não tem um). LicenseRef-eBooksBrasil segue a forma SPDX para licença própria: os termos gerais do site eBooksBrasil (ebooksbrasil.org), que valem para todas as edições dele (decisão do Διαφορεύς, 2026-09-30): distribuição gratuita, proibido o uso comercial.",
       "enum": ["public-domain", "CC-BY-SA-4.0", "CC-BY-SA-3.0", "CC-BY-4.0", "CC0-1.0", "LicenseRef-eBooksBrasil"],
       "x-antes": ["licenca"],
       "x-valores-antes": {

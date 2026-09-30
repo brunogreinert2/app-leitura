@@ -8,7 +8,7 @@ tsconfig.tsbuildinfo
 __pycache__/
 *.pyc
 
-# arquivos pessoais do Bruno, nunca sobem pro GitHub
+# arquivos pessoais do Διαφορεύς, nunca sobem pro GitHub
 publicar.ps1
 PESSOAL_atalhos.md
 

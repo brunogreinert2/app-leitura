@@ -1,7 +1,7 @@
 /**
  * Alfinete grego — o fixador dos painéis laterais.
  *
- * Desenho do Bruno (gerado como imagem e como traço), redesenhado em vetor:
+ * Desenho do Διαφορεύς (gerado como imagem e como traço), redesenhado em vetor:
  * capitel em duas faixas, corpo com meandro, saia flarada e agulha, a 45º.
  *
  * VETOR E `currentColor`, não a imagem original, por quatro motivos medidos

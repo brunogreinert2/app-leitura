@@ -1701,7 +1701,7 @@ def gerar_indice(fichas: list[dict], saida: Path, colecoes: list[dict],
             f'<li><a href="abreviaturas.html">Abreviaturas de âncora</a>'
             f' <span class=n>{n_abrev} abreviaturas</span></li>\n</ul>'
         )
-    # O colofão marca CURADORIA, não tradução: fecha tanto a obra que Bruno
+    # O colofão marca CURADORIA, não tradução: fecha tanto a obra que Διαφορεύς
     # traduziu quanto a que apenas reuniu. Quem quer a distinção real lê o campo
     # "Tradutor" na ficha de cada obra.
     linhas.append(

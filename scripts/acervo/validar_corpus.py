@@ -55,7 +55,7 @@ RE_FM = re.compile(r"\A---[ \t]*\r?\n(.*?)\r?\n---[ \t]*(?:\r?\n|\Z)", re.S)
 # C03 (wikilink [[ ]]), C04 (imagem ![]()) e C05 (citação >) saíram em
 # 2026-09-30: são sintaxe permitida no acervo — o wikilink é por onde aparecem
 # os personagens, o > desenha o risco vertical da citação, da assinatura e do
-# interlinear. A proibição vinha da D2 da Fase 0 e estava errada (Bruno).
+# interlinear. A proibição vinha da D2 da Fase 0 e estava errada (Διαφορεύς).
 # Os códigos não se reaproveitam.
 REGRAS_LINHA = [
     # "null[ificamine]" e suplemento de editor em latim, nao vazamento; "null and
