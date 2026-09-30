@@ -1,0 +1,29 @@
+# Pedra Angular
+
+> Biblioteca aberta de textos clássicos, filosóficos e bíblicos em Markdown, nas línguas originais (grego, latim, hebraico) e em tradução. Cada obra e cada passagem têm um endereço permanente: um endereço publicado nunca deixa de responder. An open library of classical, philosophical and biblical texts in Markdown, with permanent addresses for every work and passage.
+
+Every page below is plain HTML, readable without JavaScript. Pages are kept under 80 KB of text where possible; long works are also split into parts. The footer of each page says when it was generated and from which commit ("Gerado em ... commit ..."): if yours looks old, your tool may be reading a cached copy.
+
+## Comece aqui · Start here
+
+- [Pórtico](https://pedraangular.app.br/portico/): como o acervo é feito, a norma que ele segue, como citar. For an AI, read this first.
+- [Catálogo em pedaços](https://pedraangular.app.br/rolo/catalogo/): id, título, autor e idioma de cada obra, um arquivo por acervo ([JSON](https://pedraangular.app.br/rolo/catalogo/index.json)).
+- [A estante](https://pedraangular.app.br/rolo/): todas as obras e a gramática dos endereços, com exemplos prontos.
+
+## Endereços · Addresses
+
+- Obra · work: `https://pedraangular.app.br/rolo/<id>.html`
+- Partes de uma obra longa · parts of a long work: `https://pedraangular.app.br/rolo/<id>/`
+- Passagem · passage: a obra mais a âncora, `#anchor-<ref>` (versículo, capítulo) ou `#marker-<ref>` (Stephanus, Bekker, seções)
+- Exemplo · example: [Mateus 23:23, grego](https://pedraangular.app.br/rolo/biblia-40-mateus-grc-sblgnt-2010.html#anchor-mt-23-23), também na parte: [capítulo 23](https://pedraangular.app.br/rolo/biblia-40-mateus-grc-sblgnt-2010/23.html#anchor-mt-23-23)
+- Exemplo · example: [Platão, Sofista 216a](https://pedraangular.app.br/rolo/platao-sophist-grc-john-burnet-1905.html#marker-216a)
+- O texto-fonte em Markdown de cada obra · source Markdown: `https://pedraangular.app.br/livros/...` (o caminho está no catálogo)
+
+## Atenção · Caveats
+
+- Salmos: a LXX, a Vulgata e a Douay-Rheims seguem a numeração grega, que em boa parte do saltério corre um número atrás da hebraica (o Salmo 91 hebraico, "Qui habitat", é o 90 na Vulgata). Confira a versão antes de citar por número.
+
+## Opcional · Optional
+
+- [Diário](https://pedraangular.app.br/portico/diario.html): o que mudou, com data ([feed Atom](https://pedraangular.app.br/portico/feed.xml))
+- [Código do site](https://github.com/brunogreinert2/app-leitura) e [do Pórtico](https://github.com/brunogreinert2/portico)

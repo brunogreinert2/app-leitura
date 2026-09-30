@@ -1225,6 +1225,90 @@ def carimbo_da_geracao() -> str:
     return f"{data}, commit {commit[:8]}" if commit else data
 
 
+def gerar_catalogo_enxuto(fichas: list[dict], saida: Path, site: str) -> list[tuple[str, int]]:
+    """/rolo/catalogo/: o catálogo em pedaços que cabem numa leitura (2026-09-30).
+
+    O livros/catalogo.json completo (292 KB) é o que o app usa, e passava da
+    regra dos 80 KB justamente na porta que o Pórtico manda uma IA ler primeiro.
+    Aqui: um JSON por acervo, só id, título, autor e idioma, e um índice com os
+    endereços por extenso. Acervo que passe do limite divide pelo 1º nível de
+    pasta. Devolve (arquivo, KB) de cada pedaço."""
+    carimbo = carimbo_da_geracao()
+    pasta = saida / "catalogo"
+    pasta.mkdir(parents=True, exist_ok=True)
+    grupos: dict[str, list[dict]] = {}
+    for f in fichas:
+        col = "GERAL" if f["colecao"].endswith(".md") else f["colecao"]
+        grupos.setdefault(col, []).append(f)
+
+    def entrada(f):
+        return {"id": f["slug"], "titulo": f["titulo"], "autor": f["autor"], "idioma": f["idioma"]}
+
+    def escrever(nome, obras):
+        dados = {"_gerado": carimbo, "acervo": nome,
+                 "endereco_da_obra": f"{site}/rolo/<id>.html",
+                 "obras": [entrada(f) for f in obras]}
+        texto = json.dumps(dados, ensure_ascii=False, separators=(",", ":"))
+        (pasta / f"{nome}.json").write_text(texto, encoding="utf-8")
+        return len(texto.encode("utf-8"))
+
+    pedacos = []
+    for col, obras in sorted(grupos.items()):
+        tam = escrever(col, obras)
+        if tam > LIMITE_PARTE:
+            (pasta / f"{col}.json").unlink()
+            por_sub: dict[str, list[dict]] = {}
+            for f in obras:
+                por_sub.setdefault((f.get("sub") or "_").split("/")[0] or "_", []).append(f)
+            for sub, lista in sorted(por_sub.items()):
+                nome = f"{col}_{sub}"
+                pedacos.append((nome, escrever(nome, lista) // 1024, len(lista)))
+        else:
+            pedacos.append((col, tam // 1024, len(obras)))
+
+    indice = {"_gerado": carimbo,
+              "sobre": "Catálogo do acervo Pedra Angular em pedaços que cabem numa leitura. "
+                       "O completo, usado pelo app: " + f"{site}/livros/catalogo.json",
+              "endereco_da_obra": f"{site}/rolo/<id>.html",
+              "endereco_da_passagem": f"{site}/rolo/<id>.html#anchor-<referência> ou #marker-<endereço>",
+              "pedacos": [{"acervo": n, "obras": q, "url": f"{site}/rolo/catalogo/{n}.json"} for n, _, q in pedacos]}
+    (pasta / "index.json").write_text(json.dumps(indice, ensure_ascii=False, indent=1), encoding="utf-8")
+
+    linhas = cabeca("Catálogo", "../")
+    linhas.append("<h1>Catálogo — Pedra Angular</h1>")
+    linhas.append(f"<p>O acervo em pedaços que cabem numa leitura: id, título, autor e idioma de cada obra. "
+                  f"O endereço de uma obra é <code>{html.escape(site)}/rolo/&lt;id&gt;.html</code>. "
+                  f"O catálogo completo, que o app usa, é "
+                  f"<a href=\"{site}/livros/catalogo.json\">{html.escape(site)}/livros/catalogo.json</a>.</p><ul>")
+    for n, kb, q in pedacos:
+        url = f"{site}/rolo/catalogo/{n}.json"
+        linhas.append(f'<li><a href="{atributo(url)}">{html.escape(url)}</a> <span class=n>— {q} obras · {kb} KB</span></li>')
+    linhas.append(f"</ul><p class=n>Gerado em {html.escape(carimbo)}</p>\n</div></body></html>")
+    (pasta / "index.html").write_text("\n".join(linhas), encoding="utf-8")
+    return [(n, kb) for n, kb, _ in pedacos]
+
+
+def gerar_404(destino: Path, site: str) -> None:
+    """A página de endereço inexistente do site inteiro (o GitHub Pages serve
+    /404.html). Antes era a do GitHub, em inglês e fora dos temas de contraste."""
+    linhas = cabeca_leve("Página não encontrada", "pt-BR", "/rolo/") + [
+        "<h1>Página não encontrada</h1>",
+        "<p>Este endereço não existe no Pedra Angular. Todo endereço de obra e de "
+        "passagem que já foi publicado continua valendo; se você chegou por um link "
+        "antigo, confira se ele foi copiado inteiro.</p>",
+        "<ul>",
+        f'<li><a href="{site}/">{html.escape(site)}/</a> <span class=n>— o leitor</span></li>',
+        f'<li><a href="{site}/rolo/">{html.escape(site)}/rolo/</a> <span class=n>— a estante inteira, em HTML puro</span></li>',
+        f'<li><a href="{site}/rolo/catalogo/">{html.escape(site)}/rolo/catalogo/</a> <span class=n>— o catálogo</span></li>',
+        f'<li><a href="{site}/portico/">{html.escape(site)}/portico/</a> <span class=n>— como o acervo é feito</span></li>',
+        "</ul>",
+        '<p lang="en" class=n>Page not found. The library is at /rolo/ and the reader at /.</p>',
+        f"<p class=n>Gerado em {html.escape(carimbo_da_geracao())}</p>",
+        "</div></body></html>",
+    ]
+    destino.write_text("\n".join(linhas), encoding="utf-8")
+
+
 def gerar_redirecionamentos(mapa: dict[str, str], fichas: list[dict], saida: Path) -> int:
     """Páginas de id aposentado.
 
@@ -1484,6 +1568,9 @@ def gerar_indice(fichas: list[dict], saida: Path, colecoes: list[dict],
     # os endereços inteiros, clicáveis, antes de qualquer lista.
     existentes = {f["slug"] for f in fichas}
     prontos = [
+        f'<li><a href="{site}/rolo/catalogo/">{site}/rolo/catalogo/</a>'
+        ' <span class=n>— o catálogo em pedaços por acervo, cada um cabe numa leitura (também em JSON: '
+        f'<a href="{site}/rolo/catalogo/index.json">{site}/rolo/catalogo/index.json</a>)</span></li>',
         f'<li><a href="{site}/livros/catalogo.json">{site}/livros/catalogo.json</a>'
         f' <span class=n>— o catálogo inteiro: id, título, autor e arquivo de cada obra {preco_catalogo}</span></li>',
         f'<li><a href="{site}/portico/">{site}/portico/</a>'
@@ -1944,6 +2031,11 @@ def main() -> int:
     gerar_indice(fichas, args.saida, colecoes, catalogo_path=catalogo, site=args.site.rstrip("/"))
     if n_abrev:
         print(f"  abreviaturas: {n_abrev} → {args.saida/'abreviaturas.html'}")
+    pedacos = gerar_catalogo_enxuto(fichas, args.saida, args.site.rstrip("/"))
+    maior = max(pedacos, key=lambda p: p[1])
+    print(f"  catálogo enxuto: {len(pedacos)} pedaços, o maior {maior[0]} com {maior[1]} KB")
+    gerar_404(args.saida.parent / "404.html", args.site.rstrip("/"))
+    print(f"  404: {args.saida.parent/'404.html'}")
     n_sitemap = gerar_sitemap(args.saida, args.site)
     print(f"  sitemap: {n_sitemap} endereços → {args.saida.parent/'sitemap.xml'}")
     total = sum(f["bytes"] for f in fichas)
