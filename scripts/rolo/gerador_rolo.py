@@ -1118,8 +1118,19 @@ def cabeca(titulo: str, prefixo: str = "", extra_head: str = "") -> list[str]:
         '<div class=w id=conteudo>',
     ]
 
+# Exemplos de passagem da raiz: (id, âncora, o que é). Só entram os que existem
+# no catálogo gerado — um exemplo que não abre é pior que nenhum.
+EXEMPLOS_PASSAGEM = [
+    ("biblia-40-mateus-grc-sblgnt-2010", "anchor-mt-23-23", "Mateus 23:23, grego (SBLGNT)"),
+    ("biblia-01-genesis-por-alm1911-1911", "anchor-gn-1-1", "Gênesis 1:1, português (Almeida 1911)"),
+    ("platao-sophist-grc-john-burnet-1905", "marker-216a", "Platão, Sofista 216a, grego (Stephanus)"),
+    ("aristoteles-etica-a-nicomaco-grc-ingram-bywater-1894", "marker-1094a", "Aristóteles, Ética a Nicômaco 1094a (Bekker)"),
+    ("epicteto-encheiridion-grc-heinrich-schenkl-1916", "marker-1.1", "Epicteto, Encheirídion 1.1, grego"),
+]
+
+
 def gerar_indice(fichas: list[dict], saida: Path, colecoes: list[dict],
-                 catalogo_path: Path | None = None) -> None:
+                 catalogo_path: Path | None = None, site: str = "https://pedraangular.app.br") -> None:
     """Índice em dois andares, e o mapa antes da lista.
 
     Listar 893 obras custa ~66 mil caracteres mesmo no formato mais enxuto —
@@ -1214,20 +1225,48 @@ def gerar_indice(fichas: list[dict], saida: Path, colecoes: list[dict],
         "<p class=n>Projeto de curadoria de uma pessoa só. O texto é de domínio "
         "público; o trabalho é reunir, normalizar e endereçar.</p>"
     )
+    # ENDEREÇOS PRONTOS (2026-09-29). Uma IA que lê esta página com uma ferramenta
+    # de busca muitas vezes só consegue abrir URL que JÁ apareceu escrita por
+    # extenso — não monta endereço a partir de uma regra. Com a regra só num
+    # bloco de código e em caminho relativo, chegar a Mateus 23 custava quatro
+    # saltos de índice (relato de um Claude no teste de 2026-09-29). Aqui vão
+    # os endereços inteiros, clicáveis, antes de qualquer lista.
+    existentes = {f["slug"] for f in fichas}
+    prontos = [
+        f'<li><a href="{site}/livros/catalogo.json">{site}/livros/catalogo.json</a>'
+        f' <span class=n>— o catálogo inteiro: id, título, autor e arquivo de cada obra {preco_catalogo}</span></li>',
+        f'<li><a href="{site}/portico/">{site}/portico/</a>'
+        ' <span class=n>— como o acervo é feito e a norma que ele segue; para uma IA, ler primeiro</span></li>',
+    ]
+    if n_abrev:
+        prontos.append(f'<li><a href="{site}/rolo/abreviaturas.html">{site}/rolo/abreviaturas.html</a>'
+                       ' <span class=n>— a abreviatura de cada livro, que forma a âncora de versículo</span></li>')
+    for slug, ancora, rotulo in EXEMPLOS_PASSAGEM:
+        if slug in existentes:
+            url = f"{site}/rolo/{slug}.html#{ancora}"
+            prontos.append(f'<li><a href="{atributo(url)}">{html.escape(url)}</a>'
+                           f' <span class=n>— {html.escape(rotulo)}</span></li>')
+    linhas.append(
+        "<h2>Endereços prontos · Ready-made addresses</h2>\n"
+        "<p>Endereços completos, para abrir direto. Troque o id da obra (do catálogo) "
+        "e a âncora da passagem para chegar a qualquer ponto do acervo.</p>\n<ul>\n"
+        + "\n".join(prontos) + "\n</ul>"
+    )
     mapa = [
         "COMO MONTAR UM ENDEREÇO · HOW TO BUILD AN ADDRESS (sem ler a lista inteira)",
         "",
-        f"  obra · work ....... /rolo/<id>.html          ex.: /rolo/{slug_ex}.html",
-        "  passagem · passage  /rolo/<id>.html#anchor-<referência>",
-        "                      ex.: #anchor-gn-1-1 (Gênesis 1:1), #anchor-ec-3-1 (Eclesiastes 3:1)",
-        "  marcador · marker . /rolo/<id>.html#marker-<endereço>",
-        "                      ex.: #marker-327a (Stephanus), #marker-1094a1 (Bekker)",
-        "  índice · index .... /rolo/<ACERVO>.html       ex.: /rolo/FILOSOFIA.html",
-        "  markdown de origem  /livros/<caminho>.md",
-        f"  catálogo · catalogue  /livros/catalogo.json    {preco_catalogo}",
+        f"  obra · work ....... {site}/rolo/<id>.html",
+        f"                      ex.: {site}/rolo/{slug_ex}.html",
+        f"  passagem · passage  {site}/rolo/<id>.html#anchor-<referência>",
+        "                      ex.: #anchor-gn-1-1 (Gênesis 1:1), #anchor-mt-23-23 (Mateus 23:23)",
+        f"  marcador · marker . {site}/rolo/<id>.html#marker-<endereço>",
+        "                      ex.: #marker-327a (Stephanus), #marker-1094a (Bekker), #marker-1.1 (capítulo.seção)",
+        f"  índice · index .... {site}/rolo/<ACERVO>.html   ex.: {site}/rolo/FILOSOFIA.html",
+        f"  markdown de origem  {site}/livros/<caminho>.md",
+        f"  catálogo · catalogue  {site}/livros/catalogo.json    {preco_catalogo}",
     ]
     if n_abrev:
-        mapa.append(f"  abreviaturas ...... /rolo/abreviaturas.html  ({n_abrev} abreviaturas)")
+        mapa.append(f"  abreviaturas ...... {site}/rolo/abreviaturas.html  ({n_abrev} abreviaturas)")
     mapa += [
         "",
         "O <id> é o mesmo do catálogo e nunca muda depois de publicado.",
@@ -1632,7 +1671,7 @@ def main() -> int:
         n_red = gerar_redirecionamentos(redirs, fichas, args.saida)
         print(f"  redirecionamentos: {n_red} id(s) aposentado(s) continuam respondendo")
     n_abrev = gerar_pagina_abreviaturas(fichas, args.saida)
-    gerar_indice(fichas, args.saida, colecoes, catalogo_path=catalogo)
+    gerar_indice(fichas, args.saida, colecoes, catalogo_path=catalogo, site=args.site.rstrip("/"))
     if n_abrev:
         print(f"  abreviaturas: {n_abrev} → {args.saida/'abreviaturas.html'}")
     n_sitemap = gerar_sitemap(args.saida, args.site)
