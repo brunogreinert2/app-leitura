@@ -89,6 +89,20 @@ def ids_da_obra(rel: str) -> set[str]:
 REGISTRO_URN = Path(__file__).resolve().parent / "urn_pedraangular.tsv"
 
 
+def conferir_urn_unica() -> list[str]:
+    """Uma URN, uma obra. O lote 2 tinha dado ao Sofista interlinear a URN da
+    edição de Burnet que ele cita (2026-09-30): o resolvedor levava ao errado."""
+    donos: dict[str, list[str]] = {}
+    for p in LIVROS.rglob("*.md"):
+        if p.relative_to(LIVROS).as_posix().startswith("_"):
+            continue
+        m = re.match(r"\A---\r?\n(.*?)\r?\n---", p.read_text(encoding="utf-8"), re.S)
+        u = m and re.search(r"^urn:\s*(\S+)", m.group(1), re.M)
+        if u:
+            donos.setdefault(u.group(1).strip("'\""), []).append(p.relative_to(LIVROS).as_posix())
+    return [f"URN repetida {u}: {', '.join(a)}" for u, a in sorted(donos.items()) if len(a) > 1]
+
+
 def conferir_urn_pa(rels) -> list[str]:
     """D19: toda URN do espaço pedraAngular usada no acervo tem a obra (autor.obra)
     no registro — os números são atribuídos uma vez, ali, e nunca reaproveitados."""
@@ -278,7 +292,7 @@ def pre_commit() -> int:
     obras_tocadas = {por_arquivo[r] for r in mudados if r in por_arquivo}
     falhas = conferir_lei6(obras_tocadas, por_arquivo, redirec)
     falhas_norma, nova_base = conferir_norma(mudados, por_arquivo, ler_base_norma(), ctx)
-    falhas += falhas_norma + conferir_urn_pa(mudados)
+    falhas += falhas_norma + conferir_urn_pa(mudados) + conferir_urn_unica()
 
     if falhas:
         print("\nPORTÃO DO ACERVO: commit barrado.\n", file=sys.stderr)
@@ -317,7 +331,7 @@ def completo() -> int:
     ctx = vc.carregar_esquema()
     falhas = conferir_lei6(None, por_arquivo, redirec)
     falhas_norma, _ = conferir_norma(todos_os_md(), por_arquivo, ler_base_norma(), ctx)
-    falhas += falhas_norma + conferir_urn_pa(todos_os_md())
+    falhas += falhas_norma + conferir_urn_pa(todos_os_md()) + conferir_urn_unica()
     for f in falhas:
         print("✗ " + f)
     print(f"portão do acervo (completo): {len(falhas)} falha(s)")

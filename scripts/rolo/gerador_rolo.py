@@ -475,11 +475,14 @@ def ficha_html(meta: dict, slug: str, md_href: str, site: str = "https://pedraan
     )
     if meta.get("urn"):
         pelo_urn = f"{site}/urn/?{meta['urn']}"
-        itens.append(f'        <dt>Endereço por URN</dt><dd><a href="{atributo(pelo_urn)}">{html.escape(pelo_urn)}</a>'
+        itens.append(f'        <dt>Endereço por URN</dt><dd style="overflow-wrap:anywhere"><a href="{atributo(pelo_urn)}">{html.escape(pelo_urn)}</a>'
                      f' <span class=n>(uma passagem: acrescente <code>:216a</code>, <code>:1.1</code>…)</span></dd>')
     texto, bib = como_citar(meta, slug, site)
-    itens.append(f'        <dt>Como citar</dt><dd id="como-citar">{html.escape(texto)}'
-                 f'<details><summary>BibTeX (Zotero, LaTeX)</summary><pre>{html.escape(bib)}</pre></details></dd>')
+    # endereço e BibTeX são compridos: quebram na tela do celular, sem rolagem lateral
+    quebra = "overflow-wrap:anywhere"
+    itens.append(f'        <dt>Como citar</dt><dd id="como-citar" style="{quebra}">{html.escape(texto)}'
+                 f'<details><summary>BibTeX (Zotero, LaTeX)</summary>'
+                 f'<pre style="white-space:pre-wrap;{quebra}">{html.escape(bib)}</pre></details></dd>')
     return "\n".join(itens)
 
 def meta_tags(meta: dict) -> str:

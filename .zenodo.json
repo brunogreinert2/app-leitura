@@ -1,0 +1,15 @@
+{
+  "title": "Pedra Angular — acervo de textos-fonte de filosofia e das escrituras",
+  "upload_type": "dataset",
+  "description": "<p>Biblioteca aberta de textos clássicos, filosóficos e bíblicos em Markdown, nas línguas originais (grego, latim, hebraico) e em tradução. Cada obra traz metadados normalizados, licença declarada e URN CTS; cada passagem tem endereço permanente em https://pedraangular.app.br/rolo/. O acervo está em public/livros/; a norma do front matter, em scripts/acervo/frontmatter.schema.json.</p><p>Cada obra conserva a licença da sua fonte (declarada no campo license de cada arquivo): domínio público, CC BY-SA 4.0 (Perseus, First1KGreek, textos próprios do projeto), CC BY 4.0 (SBLGNT) e os termos do eBooksBrasil.</p>",
+  "creators": [
+    {"name": "Διαφορεύς"}
+  ],
+  "license": "cc-by-sa-4.0",
+  "access_right": "open",
+  "keywords": ["classics", "philosophy", "bible", "ancient greek", "latin", "hebrew", "CTS URN", "digital library"],
+  "related_identifiers": [
+    {"identifier": "https://pedraangular.app.br", "relation": "isDocumentedBy", "scheme": "url"}
+  ],
+  "language": "por"
+}

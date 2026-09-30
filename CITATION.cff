@@ -1,0 +1,25 @@
+cff-version: 1.2.0
+message: "Se você usar o acervo, cite-o assim. Cada obra tem a sua citação pronta na página dela (https://pedraangular.app.br/rolo/)."
+type: dataset
+title: "Pedra Angular — acervo de textos-fonte de filosofia e das escrituras"
+abstract: >-
+  Biblioteca aberta de textos clássicos, filosóficos e bíblicos em Markdown,
+  nas línguas originais (grego, latim, hebraico) e em tradução, com metadados
+  normalizados, licença declarada em cada obra, URN CTS em cada obra e
+  endereços permanentes para cada passagem.
+authors:
+  - name: "Διαφορεύς"
+    alias: "Diaphoreus"
+version: "1.0.0"
+license: CC-BY-SA-4.0
+url: "https://pedraangular.app.br"
+repository-code: "https://github.com/brunogreinert2/app-leitura"
+keywords:
+  - classics
+  - philosophy
+  - bible
+  - ancient greek
+  - latin
+  - hebrew
+  - CTS URN
+  - digital library
