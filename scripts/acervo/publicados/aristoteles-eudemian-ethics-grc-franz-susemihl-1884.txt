@@ -157,3 +157,9 @@ nota-ref-8
 nota-ref-8-2
 nota-ref-9
 nota-ref-9-2
+parte:1
+parte:2
+parte:3
+parte:7
+parte:8
+parte:notas-1

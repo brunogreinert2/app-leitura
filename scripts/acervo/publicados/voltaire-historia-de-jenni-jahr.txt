@@ -26,3 +26,17 @@ nota-ref-6
 nota-ref-6-2
 nota-ref-7
 nota-ref-7-2
+parte:1.apresentacao
+parte:1.biografia-do-autor
+parte:10
+parte:11
+parte:12
+parte:2
+parte:3
+parte:4
+parte:5
+parte:6
+parte:7
+parte:8
+parte:9
+parte:notas-1

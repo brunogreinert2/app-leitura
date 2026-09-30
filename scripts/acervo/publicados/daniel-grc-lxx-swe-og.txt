@@ -416,3 +416,16 @@ anchor-dnog-9-8
 anchor-dnog-9-9
 nota-ref-pa1
 nota-ref-pa1-2
+parte:1
+parte:10
+parte:11
+parte:12
+parte:2
+parte:3
+parte:4
+parte:5
+parte:6
+parte:7
+parte:8
+parte:9
+parte:notas-pa1

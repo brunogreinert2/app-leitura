@@ -29,6 +29,8 @@ USO
 """
 from __future__ import annotations
 import argparse, base64, html, json, os, re, shutil, sys
+import unicodedata
+from collections import Counter
 from pathlib import Path
 
 AQUI = Path(__file__).resolve().parent
@@ -488,6 +490,144 @@ def preencher(template: str, campos: dict) -> str:
         fora = fora.replace("{{" + chave + "}}", valor)
     return fora
 
+# ---------------------------------------------------------------- partes (2026-09-29)
+# Uma obra longa também sai em partes, AO LADO da página inteira: 448 das 1.116
+# páginas de obra passavam de 80 KB de texto, e uma ferramenta de leitura de IA
+# corta antes disso — a âncora de Mateus 23:23 ficava depois do corte.
+#
+# O nome de cada parte é CANÔNICO, não posicional: o número do título
+# ("Capítulo 23" → 23; Livro 1 › Capítulo 4 → 1.4) ou, sem título, a página
+# canônica dos marcadores (Stephanus 327). Publicado, é eterno (LEI 6): o
+# portão registra os nomes (parte:23) como registra as âncoras.
+LIMITE_PARTE = 80 * 1024
+RX_EL_TITULO = re.compile(r'^<(?:h(\d)|div role="heading" aria-level="(\d+)")')
+RX_TAGS = re.compile(r"<[^>]+>")
+RX_PAGINA_MARCADOR = re.compile(r'id="marker-(\d+)(?:[a-z]\d*)?"')     # 327a e 142 → página
+RX_DEF_NOTA = re.compile(r'^<p class="paragrafo[^"]*"[^>]*><sup class="nota-ref" id="([^"]+)">\[([^\]]+)\]</sup>:')
+ROMANOS = {"I": 1, "V": 5, "X": 10, "L": 50, "C": 100}
+
+
+def _romano(tok: str) -> int:
+    if not tok or any(c not in ROMANOS for c in tok):
+        return 0
+    total = 0
+    for i, c in enumerate(tok):
+        v = ROMANOS[c]
+        total += -v if i + 1 < len(tok) and ROMANOS[tok[i + 1]] > v else v
+    return total
+
+
+def _slug_titulo(el: str) -> str:
+    t = unicodedata.normalize("NFKD", html.unescape(RX_TAGS.sub(" ", el)))
+    t = "".join(c for c in t if not unicodedata.combining(c)).lower()
+    return re.sub(r"[^a-z0-9]+", "-", t).strip("-")[:40]
+
+
+def texto_kb(els: list[str]) -> int:
+    return len(re.sub(r"\s+", " ", html.unescape(RX_TAGS.sub(" ", "\n".join(els)))).encode("utf-8"))
+
+
+RX_SPAN_APELIDO = re.compile(r'<span id="[^"]*" class="apelido"></span>')
+
+
+def _sem_apelido(el: str) -> str:
+    """A divisão em partes olha o elemento SEM os apelidos: o portão calcula as
+    partes sem eles, e um apelido colado na definição de nota ([^1]: …) a
+    escondia — o gerador e o portão davam nomes diferentes (13 em 19.028)."""
+    return RX_SPAN_APELIDO.sub("", el)
+
+
+def _nivel(el: str) -> int:
+    m = RX_EL_TITULO.match(_sem_apelido(el))
+    return int(m.group(1) or m.group(2)) if m else 0
+
+
+def _numero(el: str) -> str:
+    """O número do título: algarismo ("Capítulo 23") ou romano ("Livro I")."""
+    texto = html.unescape(RX_TAGS.sub(" ", el))
+    m = re.search(r"\d+", texto)
+    if m:
+        return m.group(0)
+    for tok in re.findall(r"\b[IVXLC]+\b", texto):
+        if _romano(tok):
+            return str(_romano(tok))
+    return ""
+
+
+def _junta(prefixo: str, n: str) -> str:
+    return f"{prefixo}.{n}" if prefixo else n
+
+
+def dividir_em_partes(els: list[str], prefixo: str = "") -> list[tuple[str, list[str]]]:
+    """[(nome, elementos)]. Corta no primeiro nível de título numerado; parte
+    que ainda passe do limite desce ao nível seguinte; sem título, pela página
+    canônica dos marcadores. O que vem antes do primeiro corte (o título da
+    obra, uma introdução) fica com a primeira parte."""
+    if texto_kb(els) <= LIMITE_PARTE:
+        return [(prefixo, els)]
+    for nv in sorted({_nivel(e) for e in els[1:]} - {0}):
+        cortes = [i for i, e in enumerate(els) if i > 0 and _nivel(e) == nv and _numero(e)]
+        if len(cortes) < 2:
+            continue
+        partes = []
+        for k, i in enumerate(cortes):
+            ini = 0 if k == 0 else i
+            fim = cortes[k + 1] if k + 1 < len(cortes) else len(els)
+            partes += dividir_em_partes(els[ini:fim], _junta(prefixo, _numero(els[i])))
+        return partes
+    # títulos sem número (Zaratustra, Dicionário Filosófico): o nome sai do
+    # próprio título — estável enquanto o título não mudar
+    for nv in sorted({_nivel(e) for e in els[1:]} - {0}):
+        cortes = [i for i, e in enumerate(els) if i > 0 and _nivel(e) == nv and _slug_titulo(e)]
+        if len(cortes) < 2:
+            continue
+        partes = []
+        for k, i in enumerate(cortes):
+            ini = 0 if k == 0 else i
+            fim = cortes[k + 1] if k + 1 < len(cortes) else len(els)
+            partes += dividir_em_partes(els[ini:fim], _junta(prefixo, _slug_titulo(els[i])))
+        return partes
+    # sem título nenhum: a página canônica (Stephanus/Bekker 327a → 327)
+    grupos: list[tuple[str, list[str]]] = []
+    for e in els:
+        m = RX_PAGINA_MARCADOR.search(_sem_apelido(e))
+        if m and (not grupos or grupos[-1][0] != m.group(1)):
+            grupos.append((m.group(1), [e]))
+        elif grupos:
+            grupos[-1][1].append(e)
+        else:
+            grupos.append(("", [e]))
+    paginas = [g for g in grupos if g[0]]
+    if len(paginas) < 2:
+        return [(prefixo, els)]                    # indivisível: vai no relatório
+    if not grupos[0][0] and len(grupos) > 1:       # preâmbulo junto da 1ª página
+        grupos[1] = (grupos[1][0], grupos[0][1] + grupos[1][1])
+        grupos = grupos[1:]
+    return [(_junta(prefixo, pg), g) for pg, g in grupos]
+
+
+def partes_da_obra(corpo: str) -> list[tuple[str, list[str]]]:
+    """[] se a obra cabe numa leitura; senão as partes, com nomes únicos."""
+    els = [l for l in corpo.split("\n") if l.strip()]
+    if texto_kb(els) <= LIMITE_PARTE:
+        return []
+    # As definições das notas ([^n]: …) ficam no fim do arquivo; juntas, só na
+    # República são 2.826. Saem do texto e formam partes próprias, notas-<n>.
+    texto = [e for e in els if not RX_DEF_NOTA.match(_sem_apelido(e))]
+    defs = [e for e in els if RX_DEF_NOTA.match(_sem_apelido(e))]
+    blocos: list[tuple[str, list[str]]] = []
+    for e in defs:
+        if not blocos or texto_kb(blocos[-1][1] + [e]) > LIMITE_PARTE:
+            blocos.append((f"notas-{RX_DEF_NOTA.match(_sem_apelido(e)).group(2)}", []))
+        blocos[-1][1].append(e)
+    partes, vistos = [], Counter()
+    for nome, grupo in dividir_em_partes(texto) + blocos:
+        nome = nome or "0"
+        vistos[nome] += 1
+        partes.append((nome if vistos[nome] == 1 else f"{nome}-{vistos[nome]}", grupo))
+    return partes
+
+
 def com_apelidos(corpo: str, raiz_corpus: Path, slug: str) -> str:
     """LEI 6. Um id publicado que saiu do texto (o [216] de página, o marker-1
     falso das notas) continua existindo: um <span> vazio com o id antigo,
@@ -513,8 +653,110 @@ def com_apelidos(corpo: str, raiz_corpus: Path, slug: str) -> str:
     return novo_corpo
 
 
+def _rotulo_parte(nome: str, els: list[str]) -> str:
+    if nome.startswith("notas-"):
+        return f"Notas, a partir da {nome[6:]}"
+    titulo = next((e for e in els if _nivel(e)), "")
+    texto = re.sub(r"\s+", " ", html.unescape(RX_TAGS.sub(" ", titulo))).strip()
+    return texto or f"Parte {nome}"
+
+
+CSS_PARTES = """
+/* só o que o texto de uma parte usa; a casca vem de casca_css */
+.paragrafo{margin:0 0 .9em}
+.marcador,.versiculo{font-family:var(--mono,monospace);font-size:.74em;opacity:.85;white-space:nowrap}
+.nota-ref{font-size:.7em}
+.paragrafo.verso{margin-left:2.4rem}
+.paragrafo.citacao{border-left:3px solid currentColor;margin-left:1.2rem;padding-left:1rem;font-style:italic}
+.nav-partes{font-family:var(--ui-fonte,sans-serif);font-size:.85em}
+"""
+
+
+def escrever_casca_compartilhada(saida: Path) -> None:
+    """casca.css e casca.js, uma vez só, na raiz do rolo: as 19 mil páginas de
+    parte os leem (mesma origem, LEI 3) em vez de repetir 7 KB cada uma."""
+    css = re.sub(r"^\s*<style>|</style>\s*$", "", casca_css("").strip())
+    (saida / "casca.css").write_text(css + CSS_PARTES, encoding="utf-8")
+    js = re.sub(r"^\s*<script>|</script>\s*$", "", CASCA_JS.strip())
+    (saida / "casca.js").write_text(js, encoding="utf-8")
+
+
+def cabeca_leve(titulo: str, lang: str, prefixo: str = "../") -> list[str]:
+    """A casca de cabeca(), com CSS e JS em arquivo compartilhado."""
+    return [
+        f"<!DOCTYPE html><html lang={lang or 'pt-BR'} data-theme=noite><head><meta charset=UTF-8>",
+        '<meta name="viewport" content="width=device-width, initial-scale=1.0">',
+        f"<title>{html.escape(titulo)} · Pedra Angular</title>",
+        f'<link rel="stylesheet" href="{prefixo}casca.css"><script src="{prefixo}casca.js"></script>',
+        "</head><body>",
+        '<a class=pular href="#conteudo">Pular para o conteúdo</a>',
+        barra_angular(prefixo),
+        '<nav id="ui-sumario" class="sumario" hidden aria-label="Sumário desta página"></nav>',
+        '<div class=w id=conteudo>',
+    ]
+
+
+def escrever_partes(partes, slug: str, titulo: str, meta: dict, md_href: str, lang_html: str,
+                    template: str, saida: Path, css_fonte: str, site: str) -> list[tuple[str, int]]:
+    """As páginas /rolo/<id>/<parte>.html e o índice /rolo/<id>/index.html.
+    Devolve as partes que ainda passam do limite (para o relatório)."""
+    pasta = saida / slug
+    pasta.mkdir(parents=True, exist_ok=True)
+    base = f"{site}/rolo/{slug}"
+    grandes = []
+    for k, (nome, els) in enumerate(partes):
+        rotulo = _rotulo_parte(nome, els)
+        nav = [f'<a href="index.html">todas as partes</a>', f'<a href="../{slug}.html">a obra inteira</a>']
+        if k > 0:
+            nav.insert(0, f'<a href="{atributo(partes[k - 1][0])}.html">← anterior</a>')
+        if k + 1 < len(partes):
+            nav.append(f'<a href="{atributo(partes[k + 1][0])}.html">próxima →</a>')
+        barra = f'<p class="paragrafo nav-partes">{" · ".join(nav)}</p>'
+        endereco = f'<p class="paragrafo nav-partes">Esta parte: {html.escape(base)}/{html.escape(nome)}.html</p>'
+        autor = meta.get("author") or ""
+        pagina = cabeca_leve(f"{titulo} — {rotulo}", lang_html) + [
+            f"<h1>{html.escape(titulo)}</h1>",
+            f"<p class=n>{html.escape(autor)}{' · ' if autor else ''}{html.escape(rotulo)}</p>",
+            barra, endereco,
+            f'<article id="texto" lang="{atributo(lang_html)}">', *els, "</article>",
+            barra, "</div></body></html>",
+        ]
+        (pasta / f"{nome}.html").write_text("\n".join(pagina), encoding="utf-8")
+        if texto_kb(els) > LIMITE_PARTE:
+            grandes.append((nome, texto_kb(els) // 1024))
+
+    linhas = cabeca(f"{titulo} — partes", "../")
+    linhas.append(f"<h1>{html.escape(titulo)} — partes</h1>")
+    linhas.append(
+        f"<p>A obra inteira está em <a href=\"../{atributo(slug)}.html\">{html.escape(base)}.html</a>. "
+        f"Aqui ela vem em {len(partes)} partes, uma por capítulo, livro ou seção, cada uma "
+        "cabendo numa leitura. As âncoras são as mesmas da obra inteira: "
+        f"<code>{html.escape(base)}/&lt;parte&gt;.html#anchor-…</code>.</p><ul>"
+    )
+    for nome, els in partes:
+        linhas.append(
+            f'<li><a href="{atributo(nome)}.html">{html.escape(base)}/{html.escape(nome)}.html</a>'
+            f' <span class=n>— {html.escape(_rotulo_parte(nome, els))} · {texto_kb(els) // 1024} KB</span></li>'
+        )
+    linhas.append("</ul>\n</div></body></html>")
+    (pasta / "index.html").write_text("\n".join(linhas), encoding="utf-8")
+    return grandes
+
+
+def corpo_da_obra(md: str, meta: dict, raiz_corpus: Path, slug: str) -> tuple[str, int]:
+    """O corpo HTML exatamente como vai ao ar — com colofão e apelidos. O
+    portão (scripts/acervo/portao_acervo.py) usa esta mesma função para saber
+    que partes existem: dois cálculos do mesmo fato divergem."""
+    corpo, n_head = corpo_html(md)
+    # Colofão (D23): a assinatura da edição mora no front matter e sai no fim,
+    # com o risco vertical da citação — nunca escrita no texto com ">".
+    if meta.get("colophon"):
+        corpo += f'\n<p class="paragrafo citacao colofao-obra">{inline(meta["colophon"])}</p>'
+    return com_apelidos(corpo, raiz_corpus, slug), n_head
+
+
 def gerar_obra(entrada: dict, raiz_corpus: Path, template: str, saida: Path, css_fonte: str,
-               gemeo_md: bool = True) -> dict | None:
+               gemeo_md: bool = True, site: str = "https://pedraangular.app.br") -> dict | None:
     caminho = raiz_corpus / entrada["arquivo"]
     if not caminho.exists():
         print(f"  ! ausente: {entrada['arquivo']}", file=sys.stderr)
@@ -526,12 +768,7 @@ def gerar_obra(entrada: dict, raiz_corpus: Path, template: str, saida: Path, css
     autor = meta.get("author") or entrada.get("autor") or ""
     if autor in ("—", "-", "null"):
         autor = meta.get("translator", "")
-    corpo, n_head = corpo_html(md)
-    # Colofão (D23): a assinatura da edição mora no front matter e sai no fim,
-    # com o risco vertical da citação — nunca escrita no texto com ">".
-    if meta.get("colophon"):
-        corpo += f'\n<p class="paragrafo citacao colofao-obra">{inline(meta["colophon"])}</p>'
-    corpo = com_apelidos(corpo, raiz_corpus, slug)
+    corpo, n_head = corpo_da_obra(md, meta, raiz_corpus, slug)
     lang_html = idioma_bcp47(meta.get("language"))
     descricao = " · ".join(
         [p for p in [titulo, autor, meta.get("source", "")[:120]] if p]
@@ -540,6 +777,18 @@ def gerar_obra(entrada: dict, raiz_corpus: Path, template: str, saida: Path, css
     # /rolo/ seria duplicar o corpus inteiro no site sem ganhar nada. Solto (num
     # pendrive, numa pasta), o gêmeo é a única forma de ter a fonte por perto.
     md_href = f"{slug}.md" if gemeo_md else f"../livros/{entrada['arquivo']}"
+
+    # Obra longa: partes ao lado (ver partes_da_obra). A página inteira fica, e
+    # ganha no topo o endereço do índice das partes, por extenso.
+    partes = partes_da_obra(corpo)
+    grandes = []
+    if partes:
+        grandes = escrever_partes(partes, slug, titulo, meta, md_href, lang_html,
+                                  template, saida, css_fonte, site)
+        corpo = (f'<p class="paragrafo nav-partes">Obra longa: também em {len(partes)} partes, uma por '
+                 f'capítulo, livro ou seção, cada uma cabendo numa leitura — '
+                 f'<a href="{atributo(slug)}/index.html">{html.escape(site)}/rolo/{html.escape(slug)}/</a></p>\n'
+                 + corpo)
 
     doc = preencher(
         template,
@@ -578,6 +827,8 @@ def gerar_obra(entrada: dict, raiz_corpus: Path, template: str, saida: Path, css
         "bytes": destino.stat().st_size,
         "headings": n_head,
         "md_href": md_href,
+        "partes": len(partes),
+        "partes_grandes": grandes,
     }
 
 # ---------------------------------------------------------------- coleção (era)
@@ -1246,6 +1497,13 @@ def gerar_indice(fichas: list[dict], saida: Path, colecoes: list[dict],
             url = f"{site}/rolo/{slug}.html#{ancora}"
             prontos.append(f'<li><a href="{atributo(url)}">{html.escape(url)}</a>'
                            f' <span class=n>— {html.escape(rotulo)}</span></li>')
+    # a mesma passagem numa PARTE: para ferramenta que corta a leitura longa
+    mateus = next((f for f in fichas if f["slug"] == "biblia-40-mateus-grc-sblgnt-2010" and f.get("partes")), None)
+    if mateus:
+        url = f"{site}/rolo/{mateus['slug']}/23.html#anchor-mt-23-23"
+        prontos.append(f'<li><a href="{atributo(url)}">{html.escape(url)}</a>'
+                       ' <span class=n>— a mesma passagem na página só do capítulo 23: obra longa também sai em '
+                       'partes que cabem numa leitura</span></li>')
     linhas.append(
         "<h2>Endereços prontos · Ready-made addresses</h2>\n"
         "<p>Endereços completos, para abrir direto. Troque o id da obra (do catálogo) "
@@ -1261,6 +1519,8 @@ def gerar_indice(fichas: list[dict], saida: Path, colecoes: list[dict],
         "                      ex.: #anchor-gn-1-1 (Gênesis 1:1), #anchor-mt-23-23 (Mateus 23:23)",
         f"  marcador · marker . {site}/rolo/<id>.html#marker-<endereço>",
         "                      ex.: #marker-327a (Stephanus), #marker-1094a (Bekker), #marker-1.1 (capítulo.seção)",
+        f"  parte · part ...... {site}/rolo/<id>/<parte>.html   (obra longa; lista em {site}/rolo/<id>/)",
+        "                      ex.: /23.html (capítulo 23), /1.4.html (livro 1, capítulo 4)",
         f"  índice · index .... {site}/rolo/<ACERVO>.html   ex.: {site}/rolo/FILOSOFIA.html",
         f"  markdown de origem  {site}/livros/<caminho>.md",
         f"  catálogo · catalogue  {site}/livros/catalogo.json    {preco_catalogo}",
@@ -1642,12 +1902,22 @@ def main() -> int:
     css_local = css_fonte_local("fontes")
     print(f"→ {len(alvo)} obras")
     fichas = []
+    escrever_casca_compartilhada(args.saida)
     for i, e in enumerate(alvo, 1):
-        f = gerar_obra(e, args.corpus, template, args.saida, css_local, gemeo_md=not args.sem_gemeo_md)
+        f = gerar_obra(e, args.corpus, template, args.saida, css_local, gemeo_md=not args.sem_gemeo_md,
+                       site=args.site.rstrip("/"))
         if f:
             fichas.append(f)
             if i % 50 == 0 or len(alvo) < 60:
                 print(f"  [{i:4}/{len(alvo)}] {f['slug']}  {f['bytes']/1024:.0f} KB")
+    # Partes: quantas, e as que nem divididas cabem numa leitura (texto corrido
+    # sem título nem marcador). Relatório, não bloqueio: a obra inteira continua lá.
+    com_partes = [f for f in fichas if f["partes"]]
+    grandes = [(f["slug"], n, kb) for f in fichas for n, kb in f["partes_grandes"]]
+    print(f"  partes: {sum(f['partes'] for f in com_partes)} em {len(com_partes)} obras longas; "
+          f"{len(grandes)} ainda acima de {LIMITE_PARTE // 1024} KB de texto")
+    for slug_g, n, kb in sorted(grandes, key=lambda x: -x[2])[:10]:
+        print(f"    ! {slug_g}/{n}: {kb} KB", file=sys.stderr)
 
     colecoes = []
     if args.colecoes:

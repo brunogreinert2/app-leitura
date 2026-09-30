@@ -71,9 +71,15 @@ def chave(rel: str, por_arquivo: dict) -> str:
 
 
 def ids_da_obra(rel: str) -> set[str]:
-    _, md = gr.separar_yaml((LIVROS / rel).read_text(encoding="utf-8"))
-    corpo, _ = gr.corpo_html(md)
-    return set(RE_ID_PUBLICADO.findall(corpo))
+    """Os endereços que a obra publica: âncoras, marcadores, chamadas de nota
+    e — desde 2026-09-29 — as partes (/rolo/<id>/<parte>.html), como parte:<nome>.
+    O corpo sai da MESMA função que o gerador usa (corpo_da_obra); sem o id da
+    obra, sem apelidos, que o portão confere à parte."""
+    meta, md = gr.separar_yaml((LIVROS / rel).read_text(encoding="utf-8"))
+    corpo, _ = gr.corpo_da_obra(md, meta, LIVROS, "")
+    ids = set(RE_ID_PUBLICADO.findall(corpo))
+    ids |= {f"parte:{nome}" for nome, _ in gr.partes_da_obra(corpo)}
+    return ids
 
 
 # --------------------------------------------------------------------------

@@ -1,1 +1,3 @@
 nota-ref-pa1
+parte:0
+parte:notas-pa1
