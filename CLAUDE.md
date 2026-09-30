@@ -51,7 +51,8 @@ Textos longos (capítulos bíblicos inteiros, verbetes extensos) precisam rolar 
   automático: `git push` na master → GitHub Actions builda e publica
   em ~1 min. Se o passo "deploy" falhar com "try again later", é
   soluço do Pages: `gh run rerun <id> --failed`.
-- **Adicionar livros**: conferir o arquivo em
+- **Adicionar livros**: o jeito certo é o Guardião (`/guardiao`,
+  `.claude/skills/guardiao/SKILL.md`), que faz tudo abaixo. À mão: conferir o arquivo em
   https://pedraangular.app.br/portico/contribuir.html, copiar para
   `public/livros/<PASTA>/` (pasta = menu da biblioteca) e commitar. Desde
   2026-09-30 o portão roda sozinho o `gera:catalogo` (e o `gera:personagens`,
