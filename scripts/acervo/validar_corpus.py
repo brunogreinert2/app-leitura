@@ -58,8 +58,9 @@ RE_FM = re.compile(r"\A---[ \t]*\r?\n(.*?)\r?\n---[ \t]*(?:\r?\n|\Z)", re.S)
 # interlinear. A proibição vinha da D2 da Fase 0 e estava errada (Bruno).
 # Os códigos não se reaproveitam.
 REGRAS_LINHA = [
-    # "null[ificamine]" e suplemento de editor em latim, nao vazamento
-    ("C01-null", "erro", "literal null no texto", re.compile(r"\bnull\b(?!\[)")),
+    # "null[ificamine]" e suplemento de editor em latim, nao vazamento; "null and
+    # void" e a expressao inglesa (Plutarco de Perrin, Leis de Bury)
+    ("C01-null", "erro", "literal null no texto", re.compile(r"\bnull\b(?!\[)(?!\s+and\s+void)")),
     ("C02-xml", "erro", "tag ou entidade XML/HTML", re.compile(r"<[A-Za-z/!][^>\n]*>|&(?:[a-z]+|#\d+);")),
     ("C06-tabela", "erro", "tabela | (fora da sintaxe do acervo)", re.compile(r"^\s*\|.*\|\s*$")),
     ("C07-realce", "erro", "==realce== (fora da sintaxe do acervo)", re.compile(r"==[^=\n]+==")),

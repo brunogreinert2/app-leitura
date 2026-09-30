@@ -27,7 +27,7 @@ URN: `urn:cts:greekLit:tlg0557.tlg004.perseus-grc2`
 
 ## Texto
 
-<!-- estrutura TEI não mapeada: subtype="sentence" — revisão manual necessária [^pa1] -->
+*Estrutura da edição de origem ainda não mapeada: texto em modo plano.*[^pa1]
 
 Ἐπικτήτου. θεοὺς δικαίᾳ καὶ μεμετρημένῃ διαθέσει τίμα, ἀλλὰ μὴ ἀμέτροις δωρεαῖς κολάκευε· οὔτε γὰρ κολακείᾳ χαίρει θεὸς οὔτε ὁ κολακεύων τιμᾷ τὸ θεῖον.
 

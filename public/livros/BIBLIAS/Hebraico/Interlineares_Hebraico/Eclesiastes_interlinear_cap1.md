@@ -1,37 +1,24 @@
 ---
 id: eclesiastes_interlinear_heb-pt
-derived_from:
-  - eclesiastes_01
-  - WLC (Westminster Leningrad Codex) — hebraico massorético, domínio público
-coautoria:
-  - Διαφορεύς
-  - Claude Sonnet 4.6      # montagem do alinhamento verso-a-verso
-
-# --- IDENTIFICAÇÃO ---
-title: "Eclesiastes — Interlinear Hebraico/Português"
-title_hebrew: קֹהֶלֶת (Qohélet)
-chapters_included: "1 (teste piloto)"
-
-# --- FONTES ---
-source_hebrew: WLC (Westminster Leningrad Codex)
-source_hebrew_status: domínio público (uso acadêmico livre)
-source_portuguese: Almeida Revista e Corrigida (1911), normalizada (ver eclesiastes_diaphoreus_2026)
-source_portuguese_file: Biblia_Eclesiastes_pt_Diaphoreus_2026_base-ALM1911.md
-
-# --- NATUREZA DESTE ARQUIVO ---
-purpose: >
-  Teste piloto de alinhamento interlinear verso-a-verso entre o texto
-  hebraico massorético (WLC) e a tradução portuguesa já normalizada no
-  vault (ALM1911/Diaphoreus). Objetivo: permitir controle de qualidade
-  filológico direto — verificar se a tradução portuguesa corresponde
-  fielmente ao hebraico, identificar expressões hebraicas recorrentes
-  que a tradução nivela (ex.: רְעוּת רוּחַ vs. outras expressões "de
-  vento"/"de espírito" no livro).
-notas_filologicas:
-  - "v14: הֶבֶל וּרְעוּת רוּחַ (hebel u-re'ut ruach) — 'vapor e aflição/má-vontade de espírito'. Confirma que [[Aflição d'espírito]] corresponde a uma expressão hebraica própria (רְעוּת רוּחַ), distinta de outras expressões 'de vento' usadas em outros versos do livro (ex. רְדֹף רוּח /redafe ruach/, 'correr atrás do vento'). Merece verbete próprio distinguindo as duas."
-
-status: piloto_interlinear
+type: interlinear
+title: Eclesiastes — Interlinear Hebraico/Português
+original_title: קֹהֶלֶת (Qohélet)
+language:
+- heb
+- por
+status: draft
+project: pedra_angular
+related:
+- eclesiastes_01
+scope: capítulo 1 (teste piloto)
+source: 'Hebraico: WLC (Westminster Leningrad Codex), domínio público (uso acadêmico livre); português: Almeida Revista e Corrigida (1911), normalizada (ver eclesiastes_diaphoreus_2026), arquivo Biblia_Eclesiastes_pt_Diaphoreus_2026_base-ALM1911.md'
+license: CC-BY-SA-4.0
+pa_exclusive: true
+processing: preparado por Διαφορεύς, Claude Sonnet 4.6 (montagem do alinhamento verso a verso)
 ---
+
+*Teste piloto de alinhamento interlinear verso-a-verso entre o texto hebraico massorético (WLC) e a tradução portuguesa já normalizada no vault (ALM1911/Diaphoreus). Objetivo: permitir controle de qualidade filológico direto — verificar se a tradução portuguesa corresponde fielmente ao hebraico, identificar expressões hebraicas recorrentes que a tradução nivela (ex.: רְעוּת רוּחַ vs. outras expressões "de vento"/"de espírito" no livro).*
+
 ## 1
 
 **1** דִּבְרֵי קֹהֶלֶת בֶּן־דָּוִד מֶלֶךְ בִּירוּשָׁלִָם׃
@@ -87,3 +74,7 @@ status: piloto_interlinear
 
 **18** כִּי בְּרֹב חָכְמָה רָב־כָּעַס וְיֹוסִיף דַּעַת יֹוסִיף מַכְאֹוב׃
 > Porque na muita sabedoria há muito enfado; e o que se aumenta em ciência, acrescenta o trabalho. ^v18
+
+## Notas filológicas
+
+- v14: הֶבֶל וּרְעוּת רוּחַ (hebel u-re'ut ruach) — 'vapor e aflição/má-vontade de espírito'. Confirma que [[Aflição d'espírito]] corresponde a uma expressão hebraica própria (רְעוּת רוּחַ), distinta de outras expressões 'de vento' usadas em outros versos do livro (ex. רְדֹף רוּח /redafe ruach/, 'correr atrás do vento'). Merece verbete próprio distinguindo as duas.

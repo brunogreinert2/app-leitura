@@ -30,8 +30,6 @@ URN: `urn:cts:latinLit:phi1017.phi010.perseus-lat2`
 
 ## Texto
 
-<!-- sem div[@type="textpart"] -->
-
 ---
 
 *Ὁ Διαφορεύς παρῆν*

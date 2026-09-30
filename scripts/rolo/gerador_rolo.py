@@ -639,6 +639,8 @@ def com_apelidos(corpo: str, raiz_corpus: Path, slug: str) -> str:
     mapa = json.loads(arq.read_text(encoding="utf-8"))
     por_alvo: dict[str, list[str]] = {}
     for antigo, novo in mapa.items():
+        if antigo.startswith("parte:"):       # parte não é id de elemento: vira página (paginas_de_parte_antiga)
+            continue
         por_alvo.setdefault(novo, []).append(antigo)
 
     def inserir(m: "re.Match[str]") -> str:
@@ -743,6 +745,42 @@ def escrever_partes(partes, slug: str, titulo: str, meta: dict, md_href: str, la
     return grandes
 
 
+def paginas_de_parte_antiga(partes, slug: str, titulo: str, raiz_corpus: Path, saida: Path) -> int:
+    """LEI 6 para as partes. Uma obra achatada que ganha estrutura muda de
+    partes: a /rolo/<id>/0.html publicada deixa de existir. O apelido
+    `"parte:0": "<id>"` (livros/_apelidos/<id>.json) diz onde aquele trecho
+    começa hoje; aqui a página antiga vira um aviso que leva até lá — escrito no
+    corpo, para quem não segue o refresh. O portão aceita o apelido como aceita
+    o de âncora: o alvo tem de existir (2026-09-30)."""
+    arq = raiz_corpus / "_apelidos" / f"{slug}.json"
+    if not arq.exists():
+        return 0
+    antigas = {k[6:]: v for k, v in json.loads(arq.read_text(encoding="utf-8")).items() if k.startswith("parte:")}
+    atuais = {nome for nome, _ in partes}
+    escritas = 0
+    for nome, alvo in antigas.items():
+        if nome in atuais:
+            continue
+        dono = next((n for n, els in partes if any(f'id="{alvo}"' in e for e in els)), None)
+        href = f"{dono}.html#{alvo}" if dono else f"../{slug}.html#{alvo}"
+        linhas = cabeca(titulo, "../", extra_head=(
+            f'<link rel="canonical" href="{atributo(href)}">'
+            f'<meta http-equiv="refresh" content="3; url={atributo(href)}">'
+            '<meta name="robots" content="noindex">'))
+        linhas += [
+            "<h1>Endereço antigo</h1>",
+            f"<p>Esta parte de <em>{html.escape(titulo)}</em> mudou de nome quando a obra ganhou a "
+            f'estrutura da edição. O mesmo trecho está em <a href="{atributo(href)}">{html.escape(href)}</a>.</p>',
+            f'<p><a href="{atributo(href)}">Ir para o texto →</a></p>',
+            "</div></body></html>",
+        ]
+        pasta = saida / slug
+        pasta.mkdir(parents=True, exist_ok=True)
+        (pasta / f"{nome}.html").write_text("\n".join(linhas), encoding="utf-8")
+        escritas += 1
+    return escritas
+
+
 def corpo_da_obra(md: str, meta: dict, raiz_corpus: Path, slug: str) -> tuple[str, int]:
     """O corpo HTML exatamente como vai ao ar — com colofão e apelidos. O
     portão (scripts/acervo/portao_acervo.py) usa esta mesma função para saber
@@ -789,6 +827,7 @@ def gerar_obra(entrada: dict, raiz_corpus: Path, template: str, saida: Path, css
                  f'capítulo, livro ou seção, cada uma cabendo numa leitura — '
                  f'<a href="{atributo(slug)}/index.html">{html.escape(site)}/rolo/{html.escape(slug)}/</a></p>\n'
                  + corpo)
+    paginas_de_parte_antiga(partes, slug, titulo, raiz_corpus, saida)
 
     doc = preencher(
         template,

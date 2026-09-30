@@ -27,7 +27,7 @@ URN: `urn:cts:greekLit:tlg0557.tlg005.perseus-grc2`
 
 ## Texto
 
-<!-- estrutura TEI não mapeada: subtype="sentence" — revisão manual necessária [^pa1] -->
+*Estrutura da edição de origem ainda não mapeada: texto em modo plano.*[^pa1]
 
 ὁ τύχῃ βίος συμπεπλεγμένος ἔοικε χειμάρρῳ ποταμῷ· καὶ γὰρ ταραχώδης καὶ ἰλύος ἀνάμεστος καὶ δυσέμβατος καὶ τυραννικὸς καὶ πολύηχος καὶ ὀλιγοχρόνιος.
 

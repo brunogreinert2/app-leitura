@@ -49,7 +49,7 @@ Estrangeiro — Quando se acha, Sócrates, um interlocutor [217d] dócil e compl
 
 Sócrates — Depende de ti convidar dentre os presentes quem te aprouver; todos te ouvirão de muito bom grado. Porém se me aceitares um conselho, sugiro escolheres um dos jovens, Teeteto, por exemplo, ou quem julgares mais indicado.
 
-Estrangeiro — Sinto-me acanhado, Sócrates, por ser a primeira vez que falo convosco, de medo de não poder sustentar um diálogo de períodos curtos, em que os interlocutores se alternem, e de alongar-me numa fala estirada como em solilóquio, ou então conversar com [217e] meu parceiro como se estivesse nalguma exibição pública. A verdade é que, formulada nesses termos, semelhante questão não exige resposta concisa, porém mui longa explanação. Por outro lado, esquivar-me a tão amável convite, teu e dos demais presentes, máxime depois do que disseste, seria revelar rusticidade de todo em todo destoante do vosso bom [218] [218a] acolhimento. Folgo imenso por ter Teeteto como companheiro nesse diálogo, tanto mais que já conversamos antes e tu agora o recomendas.
+Estrangeiro — Sinto-me acanhado, Sócrates, por ser a primeira vez que falo convosco, de medo de não poder sustentar um diálogo de períodos curtos, em que os interlocutores se alternem, e de alongar-me numa fala estirada como em solilóquio, ou então conversar com [217e] meu parceiro como se estivesse nalguma exibição pública. A verdade é que, formulada nesses termos, semelhante questão não exige resposta concisa, porém mui longa explanação. Por outro lado, esquivar-me a tão amável convite, teu e dos demais presentes, máxime depois do que disseste, seria revelar rusticidade de todo em todo destoante do vosso bom [218a] acolhimento. Folgo imenso por ter Teeteto como companheiro nesse diálogo, tanto mais que já conversamos antes e tu agora o recomendas.
 
 Teeteto — Resta saber, Estrangeiro, se essa escolha será do agrado de todos, como Sócrates imagina.
 
@@ -871,7 +871,7 @@ Estrangeiro — Concordas comigo por convicção ou te deixas levar pelo hábito
 
 Teeteto — De que modo? E por que me fazes semelhante pergunta?
 
-XXIV — Estrangeiro — O fato, meu bem-aventurado amigo, é que nos metemos [236e] numa investigação espinhosíssima. Este manifestar-se e este parecer sem que o seja, o poder dizer-se o que não é verdade, sempre foi problema inextricável, assim na antigüidade como no nosso tempo. Pois afirmar que é realmente possível falar ou opinar em falso sem deixar-se colher de nenhum modo nas malhas da contradição, é o que é difícil, Teeteto, [237] [237a] de compreender.
+XXIV — Estrangeiro — O fato, meu bem-aventurado amigo, é que nos metemos [236e] numa investigação espinhosíssima. Este manifestar-se e este parecer sem que o seja, o poder dizer-se o que não é verdade, sempre foi problema inextricável, assim na antigüidade como no nosso tempo. Pois afirmar que é realmente possível falar ou opinar em falso sem deixar-se colher de nenhum modo nas malhas da contradição, é o que é difícil, Teeteto, [237a] de compreender.
 
 Teeteto — Por quê?
 
