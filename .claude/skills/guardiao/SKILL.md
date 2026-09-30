@@ -134,7 +134,22 @@ Para cada arquivo (PDF, imagem, `.md`, `.docx`…):
    - **A edição:** notas, introdução e aparato crítico de um editor moderno
      também são dele; o texto do autor pode entrar sem eles.
    - Licença aberta declarada (Creative Commons, etc.) libera o que ela cobre.
-   Na dúvida, "precisa verificar" — nunca "pode" por palpite. Você dá um parecer
+     Atenção ao "exceto quando houver ressalva": figura ou trecho de terceiros
+     excluído da licença fica de fora.
+   - **Casos já decididos pelo dono:**
+     - Creative Commons (CC BY, CC BY-SA, CC0) declarado no próprio arquivo → **pode**,
+       com a licença exata no `license` (`CC-BY-4.0`…).
+     - **Ridendo Castigat Mores / Nelson Jahr Garcia** e **eBooksBrasil** → **pode**,
+       `license: LicenseRef-eBooksBrasil` (termos gerais do site; sem uso comercial).
+     - "**Distribuição gratuita**", "publicado com recursos do MEC/de uma
+       universidade/de um edital" → **não é licença**: grátis para baixar não é
+       livre para republicar, e dinheiro público não põe obra em domínio público.
+       Veredito: **precisa verificar** — procurar licença explícita no arquivo, ou
+       rascunhar ao dono um pedido de autorização à editora (com autorização
+       escrita, pode).
+   **Nunca julgue pelo nome do arquivo nem pelo título** — o dono baixa com
+   critério, e o que decide está dentro do arquivo. Na dúvida, "precisa
+   verificar" — nunca "pode" nem "não pode" por palpite. Você dá um parecer
    técnico, não jurídico; a decisão final é do dono.
 3. **Estime o trabalho:** PDF com texto (nascido digital) → Conversor; PDF só de
    imagem (escaneado) → OCR (`C:\Projetos\OFICINA`) e Corretor; já em `.md` →
