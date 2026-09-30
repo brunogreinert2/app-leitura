@@ -11,6 +11,8 @@ status: draft
 project: pedra_angular
 abbrev: Sf
 book_number: 36
+urn_work: urn:cts:pedraAngular:bible.Zeph
+urn: urn:cts:pedraAngular:bible.Zeph.blivre-por1
 source: Bíblia Livre, 2018. Via github.com/damarals/biblias (JSON canônico), 2026.
 license: public-domain
 publishable: true

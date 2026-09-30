@@ -28,6 +28,8 @@ book_number: 46
 canon: católico (73 livros), sem o apêndice clementino
 section: Prophets
 scope: 55 versículos em 4 capítulos
+urn_work: urn:cts:pedraAngular:bible.Mal
+urn: urn:cts:pedraAngular:bible.Mal.douay-eng1
 source: The Holy Bible, Douay-Rheims version, revised by Bishop Richard Challoner (1749-1752). Arquivo TextOther/Mal.eng do repositório bitbucket.org/clementinetextproject/text, alinhado versículo a versículo com a Vulgata Clementina.
 license: public-domain
 publishable: true

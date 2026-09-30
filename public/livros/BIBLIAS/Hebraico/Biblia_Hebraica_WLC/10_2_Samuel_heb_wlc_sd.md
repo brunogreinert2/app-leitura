@@ -12,6 +12,8 @@ project: pedra_angular
 reference_system: verse
 abbrev: 2Sm
 book_number: 10
+urn_work: urn:cts:pedraAngular:bible.2Sam
+urn: urn:cts:pedraAngular:bible.2Sam.wlc-heb1
 source: Westminster Leningrad Codex via OpenScriptures morphhb (github.com/openscriptures/morphhb), 2026. Texto massorético, sem a camada morfológica.
 license: public-domain
 publishable: true

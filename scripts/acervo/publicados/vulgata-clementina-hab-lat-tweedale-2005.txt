@@ -54,3 +54,4 @@ anchor-hab-3-6
 anchor-hab-3-7
 anchor-hab-3-8
 anchor-hab-3-9
+urn:cts:pedraAngular:bible.Hab.clem-lat1

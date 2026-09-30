@@ -28,6 +28,8 @@ book_number: 47
 canon: católico (73 livros), sem o apêndice clementino
 section: Gospels
 scope: 1070 versículos em 28 capítulos
+urn_work: urn:cts:pedraAngular:bible.Matt
+urn: urn:cts:pedraAngular:bible.Matt.douay-eng1
 source: The Holy Bible, Douay-Rheims version, revised by Bishop Richard Challoner (1749-1752). Arquivo TextOther/Mt.eng do repositório bitbucket.org/clementinetextproject/text, alinhado versículo a versículo com a Vulgata Clementina.
 license: public-domain
 publishable: true

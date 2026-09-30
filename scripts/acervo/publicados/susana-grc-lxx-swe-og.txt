@@ -46,3 +46,4 @@ anchor-susog-1-8
 anchor-susog-1-9
 nota-ref-pa1
 nota-ref-pa1-2
+urn:cts:greekLit:tlg0527.tlg054.1st1K-grc1

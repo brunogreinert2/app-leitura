@@ -11,6 +11,8 @@ status: draft
 project: pedra_angular
 abbrev: Mq
 book_number: 33
+urn_work: urn:cts:pedraAngular:bible.Mic
+urn: urn:cts:pedraAngular:bible.Mic.alm-por1
 source: Almeida Revista e Corrigida 1911, 1911. Via github.com/damarals/biblias (JSON canônico), 2026.
 license: public-domain
 publishable: true

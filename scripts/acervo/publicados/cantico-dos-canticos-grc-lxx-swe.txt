@@ -116,3 +116,4 @@ anchor-ct-8-8
 anchor-ct-8-9
 nota-ref-pa1
 nota-ref-pa1-2
+urn:cts:greekLit:tlg0527.tlg031.1st1K-grc1

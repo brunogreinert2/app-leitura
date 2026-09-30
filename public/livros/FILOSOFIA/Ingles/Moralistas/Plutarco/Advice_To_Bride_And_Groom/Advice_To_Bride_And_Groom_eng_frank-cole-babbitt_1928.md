@@ -11,6 +11,8 @@ tags:
 - moralists
 status: draft
 project: pedra_angular
+urn_work: urn:cts:greekLit:tlg0007.tlg078
+urn: urn:cts:greekLit:tlg0007.tlg078.pa-eng1
 source: 'Plutarch. Advice to Bride and Groom. Ed. Frank Cole Babbitt. Cambridge, MA: Harvard University Press, 1928. Perseus Digital Library, Tufts University (CC BY-SA 4.0).'
 license: CC-BY-SA-4.0
 ---

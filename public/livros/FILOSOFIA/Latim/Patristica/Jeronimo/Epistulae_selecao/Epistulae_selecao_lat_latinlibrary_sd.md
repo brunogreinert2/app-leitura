@@ -11,6 +11,8 @@ tags:
 - century-5-ce
 status: draft
 project: pedra_angular
+urn_work: urn:cts:latinLit:stoa0162.stoa004
+urn: urn:cts:latinLit:stoa0162.stoa004.pa-lat1
 source: The Latin Library (thelatinlibrary.com), mirror local, 2026.
 license: public-domain
 ---

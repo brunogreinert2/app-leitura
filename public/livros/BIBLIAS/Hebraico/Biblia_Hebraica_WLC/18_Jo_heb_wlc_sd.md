@@ -12,6 +12,8 @@ project: pedra_angular
 reference_system: verse
 abbrev: Jó
 book_number: 18
+urn_work: urn:cts:pedraAngular:bible.Job
+urn: urn:cts:pedraAngular:bible.Job.wlc-heb1
 source: Westminster Leningrad Codex via OpenScriptures morphhb (github.com/openscriptures/morphhb), 2026. Texto massorético, sem a camada morfológica.
 license: public-domain
 publishable: true

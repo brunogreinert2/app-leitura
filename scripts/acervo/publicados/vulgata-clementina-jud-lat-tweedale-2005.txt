@@ -23,3 +23,4 @@ anchor-jud-1-6
 anchor-jud-1-7
 anchor-jud-1-8
 anchor-jud-1-9
+urn:cts:pedraAngular:bible.Jude.clem-lat1

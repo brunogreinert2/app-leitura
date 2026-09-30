@@ -102,3 +102,4 @@ anchor-phlp-4-6
 anchor-phlp-4-7
 anchor-phlp-4-8
 anchor-phlp-4-9
+urn:cts:pedraAngular:bible.Phil.clem-lat1

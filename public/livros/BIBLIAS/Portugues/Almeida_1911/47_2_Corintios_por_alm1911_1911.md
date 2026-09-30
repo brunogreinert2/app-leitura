@@ -11,6 +11,8 @@ status: draft
 project: pedra_angular
 abbrev: 2Co
 book_number: 47
+urn_work: urn:cts:pedraAngular:bible.2Cor
+urn: urn:cts:pedraAngular:bible.2Cor.alm-por1
 source: Almeida Revista e Corrigida 1911, 1911. Via github.com/damarals/biblias (JSON canônico), 2026.
 license: public-domain
 publishable: true

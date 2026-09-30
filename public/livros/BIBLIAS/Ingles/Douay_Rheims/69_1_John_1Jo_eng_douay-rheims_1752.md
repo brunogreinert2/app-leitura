@@ -28,6 +28,8 @@ book_number: 69
 canon: católico (73 livros), sem o apêndice clementino
 section: Catholic epistles
 scope: 105 versículos em 5 capítulos
+urn_work: urn:cts:pedraAngular:bible.1John
+urn: urn:cts:pedraAngular:bible.1John.douay-eng1
 source: The Holy Bible, Douay-Rheims version, revised by Bishop Richard Challoner (1749-1752). Arquivo TextOther/1Jo.eng do repositório bitbucket.org/clementinetextproject/text, alinhado versículo a versículo com a Vulgata Clementina.
 license: public-domain
 publishable: true

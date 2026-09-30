@@ -13,3 +13,4 @@ marker-55
 marker-60
 marker-65
 marker-70
+urn:cts:latinLit:stoa0058.stoa028.perseus-lat1

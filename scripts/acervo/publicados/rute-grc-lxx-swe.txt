@@ -85,3 +85,4 @@ anchor-rt-4-8
 anchor-rt-4-9
 nota-ref-pa1
 nota-ref-pa1-2
+urn:cts:greekLit:tlg0527.tlg010.1st1K-grc1

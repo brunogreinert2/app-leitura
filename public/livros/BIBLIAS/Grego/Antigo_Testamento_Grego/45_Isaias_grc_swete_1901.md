@@ -12,6 +12,8 @@ tags:
 - septuagint
 status: draft
 project: pedra_angular
+urn_work: urn:cts:pedraAngular:bible.Isa
+urn: urn:cts:pedraAngular:bible.Isa.swete-grc1
 source: https://github.com/OpenGreekAndLatin/First1KGreek/tree/master/data/tlg0527/tlg048
 license: CC-BY-SA-4.0
 processing: sept_swete_first1k_to_pedra_angular.py v1.0, 2026-08-14

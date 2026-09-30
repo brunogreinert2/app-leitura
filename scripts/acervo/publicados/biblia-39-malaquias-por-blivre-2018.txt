@@ -53,3 +53,4 @@ anchor-ml-4-3
 anchor-ml-4-4
 anchor-ml-4-5
 anchor-ml-4-6
+urn:cts:pedraAngular:bible.Mal.blivre-por1

@@ -55,3 +55,4 @@ anchor-mal-4-5
 anchor-mal-4-6
 nota-ref-pa1
 nota-ref-pa1-2
+urn:cts:greekLit:tlg0527.tlg047.1st1K-grc1

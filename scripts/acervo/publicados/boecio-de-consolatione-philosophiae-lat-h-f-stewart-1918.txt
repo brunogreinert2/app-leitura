@@ -742,3 +742,4 @@ parte:2
 parte:3
 parte:4
 parte:5
+urn:cts:latinLit:stoa0058.stoa001.perseus-lat2

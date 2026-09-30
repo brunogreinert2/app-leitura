@@ -11,6 +11,8 @@ status: draft
 project: pedra_angular
 abbrev: Sl
 book_number: 19
+urn_work: urn:cts:pedraAngular:bible.Ps
+urn: urn:cts:pedraAngular:bible.Ps.alm-por1
 source: Almeida Revista e Corrigida 1911, 1911. Via github.com/damarals/biblias (JSON canônico), 2026.
 license: public-domain
 publishable: true

@@ -11,6 +11,8 @@ status: draft
 project: pedra_angular
 abbrev: Lc
 book_number: 42
+urn_work: urn:cts:pedraAngular:bible.Luke
+urn: urn:cts:pedraAngular:bible.Luke.alm-por1
 source: Almeida Revista e Corrigida 1911, 1911. Via github.com/damarals/biblias (JSON canônico), 2026.
 license: public-domain
 publishable: true

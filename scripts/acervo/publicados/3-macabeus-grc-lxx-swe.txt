@@ -227,3 +227,4 @@ anchor-3mcc-7-8
 anchor-3mcc-7-9
 nota-ref-pa1
 nota-ref-pa1-2
+urn:cts:greekLit:tlg0527.tlg025.1st1K-grc1

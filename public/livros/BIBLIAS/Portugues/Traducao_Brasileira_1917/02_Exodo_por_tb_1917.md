@@ -12,6 +12,8 @@ status: draft
 project: pedra_angular
 abbrev: Êx
 book_number: 2
+urn_work: urn:cts:pedraAngular:bible.Exod
+urn: urn:cts:pedraAngular:bible.Exod.tb-por1
 source: Tradução Brasileira, 1917. Via github.com/damarals/biblias (JSON canônico), 2026.
 license: public-domain
 publishable: true

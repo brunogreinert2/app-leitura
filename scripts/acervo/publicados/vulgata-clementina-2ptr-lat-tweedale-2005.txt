@@ -59,3 +59,4 @@ anchor-2ptr-3-6
 anchor-2ptr-3-7
 anchor-2ptr-3-8
 anchor-2ptr-3-9
+urn:cts:pedraAngular:bible.2Pet.clem-lat1

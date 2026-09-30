@@ -435,3 +435,4 @@ anchor-1co-9-6
 anchor-1co-9-7
 anchor-1co-9-8
 anchor-1co-9-9
+urn:cts:pedraAngular:bible.1Cor.blivre-por1

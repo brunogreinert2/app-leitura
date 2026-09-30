@@ -11,6 +11,8 @@ status: draft
 project: pedra_angular
 abbrev: Ml
 book_number: 39
+urn_work: urn:cts:pedraAngular:bible.Mal
+urn: urn:cts:pedraAngular:bible.Mal.blivre-por1
 source: Bíblia Livre, 2018. Via github.com/damarals/biblias (JSON canônico), 2026.
 license: public-domain
 publishable: true

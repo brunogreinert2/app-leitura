@@ -26,6 +26,8 @@ book_number: 45
 canon: católico (73 livros), sem o apêndice clementino
 section: Profetas
 scope: 211 versículos em 14 capítulos
+urn_work: urn:cts:pedraAngular:bible.Zech
+urn: urn:cts:pedraAngular:bible.Zech.clem-lat1
 source: 'Biblia Sacra juxta Vulgatam Clementinam. Editio electronica: Michael Tweedale et al., The Clementine Text Project (2005; correções posteriores). Arquivo Text/Zach.lat do repositório bitbucket.org/clementinetextproject/text.'
 license: public-domain
 publishable: true

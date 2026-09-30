@@ -11,6 +11,8 @@ status: draft
 project: pedra_angular
 abbrev: Jó
 book_number: 18
+urn_work: urn:cts:pedraAngular:bible.Job
+urn: urn:cts:pedraAngular:bible.Job.blivre-por1
 source: Bíblia Livre, 2018. Via github.com/damarals/biblias (JSON canônico), 2026.
 license: public-domain
 publishable: true

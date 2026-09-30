@@ -26,6 +26,8 @@ book_number: 8
 canon: católico (73 livros), sem o apêndice clementino
 section: Livros históricos
 scope: 85 versículos em 4 capítulos
+urn_work: urn:cts:pedraAngular:bible.Ruth
+urn: urn:cts:pedraAngular:bible.Ruth.clem-lat1
 source: 'Biblia Sacra juxta Vulgatam Clementinam. Editio electronica: Michael Tweedale et al., The Clementine Text Project (2005; correções posteriores). Arquivo Text/Rt.lat do repositório bitbucket.org/clementinetextproject/text.'
 license: public-domain
 publishable: true

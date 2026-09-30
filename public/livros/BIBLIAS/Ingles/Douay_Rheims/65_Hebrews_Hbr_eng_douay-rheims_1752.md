@@ -28,6 +28,8 @@ book_number: 65
 canon: católico (73 livros), sem o apêndice clementino
 section: Pauline epistles
 scope: 303 versículos em 13 capítulos
+urn_work: urn:cts:pedraAngular:bible.Heb
+urn: urn:cts:pedraAngular:bible.Heb.douay-eng1
 source: The Holy Bible, Douay-Rheims version, revised by Bishop Richard Challoner (1749-1752). Arquivo TextOther/Hbr.eng do repositório bitbucket.org/clementinetextproject/text, alinhado versículo a versículo com a Vulgata Clementina.
 license: public-domain
 publishable: true

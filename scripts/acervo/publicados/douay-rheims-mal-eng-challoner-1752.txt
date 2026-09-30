@@ -53,3 +53,4 @@ anchor-mal-4-3
 anchor-mal-4-4
 anchor-mal-4-5
 anchor-mal-4-6
+urn:cts:pedraAngular:bible.Mal.douay-eng1

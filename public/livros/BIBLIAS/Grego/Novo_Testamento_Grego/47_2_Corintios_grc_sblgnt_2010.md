@@ -12,6 +12,8 @@ status: draft
 project: pedra_angular
 abbrev: 2Co
 book_number: 47
+urn_work: urn:cts:pedraAngular:bible.2Cor
+urn: urn:cts:pedraAngular:bible.2Cor.sblgnt-grc1
 source: SBL Greek New Testament, ed. Michael W. Holmes, 2010. Via github.com/LogosBible/SBLGNT (CC BY 4.0), 2026.
 license: CC-BY-4.0
 publishable: true

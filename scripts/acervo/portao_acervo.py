@@ -79,7 +79,31 @@ def ids_da_obra(rel: str) -> set[str]:
     corpo, _ = gr.corpo_da_obra(md, meta, LIVROS, "")
     ids = set(RE_ID_PUBLICADO.findall(corpo))
     ids |= {f"parte:{nome}" for nome, _ in gr.partes_da_obra(corpo)}
+    # A URN também é endereço publicado (Fase 6, 2026-09-30): trocar ou apagar a
+    # URN de uma obra barra o commit, como sumir uma âncora.
+    if meta.get("urn"):
+        ids.add(f"urn:{meta['urn']}".replace("urn:urn:", "urn:"))
     return ids
+
+
+REGISTRO_URN = Path(__file__).resolve().parent / "urn_pedraangular.tsv"
+
+
+def conferir_urn_pa(rels) -> list[str]:
+    """D19: toda URN do espaço pedraAngular usada no acervo tem a obra (autor.obra)
+    no registro — os números são atribuídos uma vez, ali, e nunca reaproveitados."""
+    if not REGISTRO_URN.exists():
+        return []
+    registradas = {l.split("\t")[0] for l in REGISTRO_URN.read_text(encoding="utf-8").splitlines()
+                   if l and not l.startswith("#")}
+    falhas = []
+    for rel in rels:
+        meta, _ = gr.separar_yaml((LIVROS / rel).read_text(encoding="utf-8"))
+        urn = str(meta.get("urn") or "")
+        if urn.startswith("urn:cts:pedraAngular:") and urn.rsplit(".", 1)[0] not in registradas:
+            falhas.append(f"{rel}: URN {urn} usa uma obra que não está em "
+                          f"scripts/acervo/urn_pedraangular.tsv (registre antes de usar)")
+    return falhas
 
 
 # --------------------------------------------------------------------------
@@ -254,7 +278,7 @@ def pre_commit() -> int:
     obras_tocadas = {por_arquivo[r] for r in mudados if r in por_arquivo}
     falhas = conferir_lei6(obras_tocadas, por_arquivo, redirec)
     falhas_norma, nova_base = conferir_norma(mudados, por_arquivo, ler_base_norma(), ctx)
-    falhas += falhas_norma
+    falhas += falhas_norma + conferir_urn_pa(mudados)
 
     if falhas:
         print("\nPORTÃO DO ACERVO: commit barrado.\n", file=sys.stderr)
@@ -293,7 +317,7 @@ def completo() -> int:
     ctx = vc.carregar_esquema()
     falhas = conferir_lei6(None, por_arquivo, redirec)
     falhas_norma, _ = conferir_norma(todos_os_md(), por_arquivo, ler_base_norma(), ctx)
-    falhas += falhas_norma
+    falhas += falhas_norma + conferir_urn_pa(todos_os_md())
     for f in falhas:
         print("✗ " + f)
     print(f"portão do acervo (completo): {len(falhas)} falha(s)")

@@ -18,6 +18,8 @@ tags:
 - ethics
 status: draft
 project: pedra_angular
+urn_work: urn:cts:pedraAngular:pa0001.pa001
+urn: urn:cts:pedraAngular:pa0001.pa001.pa-eng1
 source: Spinoza, Baruch de (1677). Ethica, Ordine Geometrico Demonstrata. Trad. R. H. M. Elwes (1883). ebooksBrasil.org, a partir do Project Gutenberg
 license: LicenseRef-eBooksBrasil
 ---

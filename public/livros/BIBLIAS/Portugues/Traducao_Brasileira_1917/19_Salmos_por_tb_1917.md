@@ -12,6 +12,8 @@ status: draft
 project: pedra_angular
 abbrev: Sl
 book_number: 19
+urn_work: urn:cts:pedraAngular:bible.Ps
+urn: urn:cts:pedraAngular:bible.Ps.tb-por1
 source: Tradução Brasileira, 1917. Via github.com/damarals/biblias (JSON canônico), 2026.
 license: public-domain
 publishable: true

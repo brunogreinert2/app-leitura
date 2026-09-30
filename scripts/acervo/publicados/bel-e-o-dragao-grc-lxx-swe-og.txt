@@ -35,3 +35,4 @@ anchor-belog-1-8
 anchor-belog-1-9
 nota-ref-pa1
 nota-ref-pa1-2
+urn:cts:greekLit:tlg0527.tlg058.1st1K-grc1

@@ -12,6 +12,8 @@ status: draft
 project: pedra_angular
 abbrev: 1Jo
 book_number: 62
+urn_work: urn:cts:pedraAngular:bible.1John
+urn: urn:cts:pedraAngular:bible.1John.tb-por1
 source: Tradução Brasileira, 1917. Via github.com/damarals/biblias (JSON canônico), 2026.
 license: public-domain
 publishable: true

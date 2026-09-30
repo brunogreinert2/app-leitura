@@ -12,6 +12,8 @@ status: draft
 project: pedra_angular
 abbrev: 1Pe
 book_number: 60
+urn_work: urn:cts:pedraAngular:bible.1Pet
+urn: urn:cts:pedraAngular:bible.1Pet.sblgnt-grc1
 source: SBL Greek New Testament, ed. Michael W. Holmes, 2010. Via github.com/LogosBible/SBLGNT (CC BY 4.0), 2026.
 license: CC-BY-4.0
 publishable: true

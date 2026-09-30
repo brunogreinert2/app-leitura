@@ -19,3 +19,4 @@ anchor-ob-1-6
 anchor-ob-1-7
 anchor-ob-1-8
 anchor-ob-1-9
+urn:cts:pedraAngular:bible.Obad.blivre-por1

@@ -23,6 +23,8 @@ status: draft
 project: pedra_angular
 reference_system: chapter-section
 scope: obra completa — Livro I (diuinae litterae) e Livro II (saeculares litterae)
+urn_work: urn:cts:pedraAngular:pa0011.pa001
+urn: urn:cts:pedraAngular:pa0011.pa001.pa-lat1
 source: 'Cassiodori Senatoris Institutiones, ed. R. A. B. Mynors (Oxford: Clarendon Press, 1937; reimpr. 1961). Transcrição eletrônica de James J. O''Donnell (Georgetown University), redistribuída em la.wikisource.org, exportada em 2026-08-01.'
 license: CC-BY-SA-3.0
 publishable: true

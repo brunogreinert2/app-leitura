@@ -11,6 +11,8 @@ status: draft
 project: pedra_angular
 abbrev: Am
 book_number: 30
+urn_work: urn:cts:pedraAngular:bible.Amos
+urn: urn:cts:pedraAngular:bible.Amos.blivre-por1
 source: Bíblia Livre, 2018. Via github.com/damarals/biblias (JSON canônico), 2026.
 license: public-domain
 publishable: true

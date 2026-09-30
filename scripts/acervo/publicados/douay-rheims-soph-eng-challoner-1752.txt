@@ -51,3 +51,4 @@ anchor-soph-3-6
 anchor-soph-3-7
 anchor-soph-3-8
 anchor-soph-3-9
+urn:cts:pedraAngular:bible.Zeph.douay-eng1

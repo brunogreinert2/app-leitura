@@ -223,3 +223,4 @@ anchor-ecl-9-9
 nota-ref-pa1
 nota-ref-pa1-2
 nota-ref-pa2
+urn:cts:pedraAngular:bible.Eccl.stx-grc1

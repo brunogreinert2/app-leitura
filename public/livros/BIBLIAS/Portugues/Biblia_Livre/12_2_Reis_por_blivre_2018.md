@@ -11,6 +11,8 @@ status: draft
 project: pedra_angular
 abbrev: 2Rs
 book_number: 12
+urn_work: urn:cts:pedraAngular:bible.2Kgs
+urn: urn:cts:pedraAngular:bible.2Kgs.blivre-por1
 source: Bíblia Livre, 2018. Via github.com/damarals/biblias (JSON canônico), 2026.
 license: public-domain
 publishable: true

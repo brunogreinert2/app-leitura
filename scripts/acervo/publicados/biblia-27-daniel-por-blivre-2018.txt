@@ -355,3 +355,4 @@ anchor-dn-9-6
 anchor-dn-9-7
 anchor-dn-9-8
 anchor-dn-9-9
+urn:cts:pedraAngular:bible.Dan.blivre-por1

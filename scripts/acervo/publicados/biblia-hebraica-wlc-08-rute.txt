@@ -83,3 +83,4 @@ anchor-rt-4-6
 anchor-rt-4-7
 anchor-rt-4-8
 anchor-rt-4-9
+urn:cts:pedraAngular:bible.Ruth.wlc-heb1

@@ -1345,3 +1345,4 @@ parte:7
 parte:8
 parte:9
 parte:notas-pa1
+urn:cts:pedraAngular:bible.Isa.swete-grc1

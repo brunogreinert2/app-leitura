@@ -344,3 +344,4 @@ anchor-jdt-9-6
 anchor-jdt-9-7
 anchor-jdt-9-8
 anchor-jdt-9-9
+urn:cts:pedraAngular:bible.Jdt.clem-lat1

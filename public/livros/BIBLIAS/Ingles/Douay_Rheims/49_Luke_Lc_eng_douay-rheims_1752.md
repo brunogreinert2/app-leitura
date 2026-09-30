@@ -28,6 +28,8 @@ book_number: 49
 canon: católico (73 livros), sem o apêndice clementino
 section: Gospels
 scope: 1151 versículos em 24 capítulos
+urn_work: urn:cts:pedraAngular:bible.Luke
+urn: urn:cts:pedraAngular:bible.Luke.douay-eng1
 source: The Holy Bible, Douay-Rheims version, revised by Bishop Richard Challoner (1749-1752). Arquivo TextOther/Lc.eng do repositório bitbucket.org/clementinetextproject/text, alinhado versículo a versículo com a Vulgata Clementina.
 license: public-domain
 publishable: true

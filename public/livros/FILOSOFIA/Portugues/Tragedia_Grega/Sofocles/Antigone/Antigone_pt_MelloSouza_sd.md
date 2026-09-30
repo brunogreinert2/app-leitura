@@ -15,6 +15,8 @@ tags:
 - ancient-theatre
 status: draft
 project: pedra_angular
+urn_work: urn:cts:greekLit:tlg0011.tlg002
+urn: urn:cts:greekLit:tlg0011.tlg002.pa-por1
 source: Sófocles. Antígone. Trad. J. B. de Mello e Souza. Clássicos Jackson vol. XXII. ebooksBrasil.org, 2005
 license: LicenseRef-eBooksBrasil
 ---

@@ -195,3 +195,4 @@ anchor-os-9-6
 anchor-os-9-7
 anchor-os-9-8
 anchor-os-9-9
+urn:cts:pedraAngular:bible.Hos.tb-por1

@@ -11,6 +11,8 @@ status: draft
 project: pedra_angular
 abbrev: Jo
 book_number: 43
+urn_work: urn:cts:pedraAngular:bible.John
+urn: urn:cts:pedraAngular:bible.John.blivre-por1
 source: Bíblia Livre, 2018. Via github.com/damarals/biblias (JSON canônico), 2026.
 license: public-domain
 publishable: true

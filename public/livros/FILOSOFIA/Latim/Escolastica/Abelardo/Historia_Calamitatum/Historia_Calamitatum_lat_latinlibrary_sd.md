@@ -10,6 +10,8 @@ tags:
 - century-12-ce
 status: draft
 project: pedra_angular
+urn_work: urn:cts:pedraAngular:pa0002.pa002
+urn: urn:cts:pedraAngular:pa0002.pa002.pa-lat1
 source: The Latin Library (thelatinlibrary.com), mirror local, 2026.
 license: public-domain
 ---

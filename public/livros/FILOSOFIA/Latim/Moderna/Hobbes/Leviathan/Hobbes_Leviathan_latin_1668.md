@@ -20,6 +20,8 @@ tags:
 - natural-law
 status: reviewed
 project: pedra_angular
+urn_work: urn:cts:pedraAngular:pa0007.pa001
+urn: urn:cts:pedraAngular:pa0007.pa001.pa-lat1
 source: Hobbes, Thomas (1668)
 license: CC-BY-SA-4.0
 pa_exclusive: true

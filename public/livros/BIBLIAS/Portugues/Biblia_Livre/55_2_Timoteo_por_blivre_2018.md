@@ -11,6 +11,8 @@ status: draft
 project: pedra_angular
 abbrev: 2Tm
 book_number: 55
+urn_work: urn:cts:pedraAngular:bible.2Tim
+urn: urn:cts:pedraAngular:bible.2Tim.blivre-por1
 source: Bíblia Livre, 2018. Via github.com/damarals/biblias (JSON canônico), 2026.
 license: public-domain
 publishable: true

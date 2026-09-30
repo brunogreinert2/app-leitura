@@ -227,3 +227,4 @@ parte:8
 parte:90
 parte:96
 parte:97
+urn:cts:pedraAngular:pa0012.pa001.pa-lat1

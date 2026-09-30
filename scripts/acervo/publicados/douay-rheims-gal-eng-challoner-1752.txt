@@ -147,3 +147,4 @@ anchor-gal-6-6
 anchor-gal-6-7
 anchor-gal-6-8
 anchor-gal-6-9
+urn:cts:pedraAngular:bible.Gal.douay-eng1

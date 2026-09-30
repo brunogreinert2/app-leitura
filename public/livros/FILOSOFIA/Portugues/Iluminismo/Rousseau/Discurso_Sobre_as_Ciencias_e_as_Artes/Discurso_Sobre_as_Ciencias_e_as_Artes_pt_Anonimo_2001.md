@@ -11,6 +11,8 @@ tags:
 - century-18-ce
 status: draft
 project: pedra_angular
+urn_work: urn:cts:pedraAngular:pa0020.pa001
+urn: urn:cts:pedraAngular:pa0020.pa001.pa-por1
 source: Rousseau, Jean-Jacques. Discurso Sobre as Ciências e as Artes. Edição Ridendo Castigat Mores (Nélson Jahr Garcia). eBooksBrasil.org, 2001 (tradutor não identificado na fonte)
 license: LicenseRef-eBooksBrasil
 ---

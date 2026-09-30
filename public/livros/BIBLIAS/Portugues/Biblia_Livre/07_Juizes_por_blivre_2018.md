@@ -11,6 +11,8 @@ status: draft
 project: pedra_angular
 abbrev: Jz
 book_number: 7
+urn_work: urn:cts:pedraAngular:bible.Judg
+urn: urn:cts:pedraAngular:bible.Judg.blivre-por1
 source: Bíblia Livre, 2018. Via github.com/damarals/biblias (JSON canônico), 2026.
 license: public-domain
 publishable: true

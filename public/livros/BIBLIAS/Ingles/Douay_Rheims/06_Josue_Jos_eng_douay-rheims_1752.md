@@ -28,6 +28,8 @@ book_number: 6
 canon: católico (73 livros), sem o apêndice clementino
 section: Historical books
 scope: 658 versículos em 24 capítulos
+urn_work: urn:cts:pedraAngular:bible.Josh
+urn: urn:cts:pedraAngular:bible.Josh.douay-eng1
 source: The Holy Bible, Douay-Rheims version, revised by Bishop Richard Challoner (1749-1752). Arquivo TextOther/Jos.eng do repositório bitbucket.org/clementinetextproject/text, alinhado versículo a versículo com a Vulgata Clementina.
 license: public-domain
 publishable: true

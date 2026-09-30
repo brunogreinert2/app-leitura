@@ -106,3 +106,4 @@ anchor-jac-5-6
 anchor-jac-5-7
 anchor-jac-5-8
 anchor-jac-5-9
+urn:cts:pedraAngular:bible.Jas.douay-eng1

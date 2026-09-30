@@ -13,6 +13,8 @@ tags:
 - ancient-rome
 status: draft
 project: pedra_angular
+urn_work: urn:cts:latinLit:phi0474.phi043
+urn: urn:cts:latinLit:phi0474.phi043.pa-por1
 source: Cícero, Marco Túlio (51 a.C.). Da República. Trad. anônima. Apresentação de Nélson Jahr Garcia. ebooksBrasil.org, ed. Ridendo Castigat Mores
 license: LicenseRef-eBooksBrasil
 ---

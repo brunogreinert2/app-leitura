@@ -26,6 +26,8 @@ book_number: 37
 canon: católico (73 livros), sem o apêndice clementino
 section: Profetas
 scope: 147 versículos em 9 capítulos
+urn_work: urn:cts:pedraAngular:bible.Amos
+urn: urn:cts:pedraAngular:bible.Amos.clem-lat1
 source: 'Biblia Sacra juxta Vulgatam Clementinam. Editio electronica: Michael Tweedale et al., The Clementine Text Project (2005; correções posteriores). Arquivo Text/Am.lat do repositório bitbucket.org/clementinetextproject/text.'
 license: public-domain
 publishable: true

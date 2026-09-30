@@ -12,6 +12,8 @@ status: draft
 project: pedra_angular
 abbrev: Mt
 book_number: 40
+urn_work: urn:cts:pedraAngular:bible.Matt
+urn: urn:cts:pedraAngular:bible.Matt.sblgnt-grc1
 source: SBL Greek New Testament, ed. Michael W. Holmes, 2010. Via github.com/LogosBible/SBLGNT (CC BY 4.0), 2026.
 license: CC-BY-4.0
 publishable: true

@@ -111,3 +111,4 @@ anchor-1tim-6-6
 anchor-1tim-6-7
 anchor-1tim-6-8
 anchor-1tim-6-9
+urn:cts:pedraAngular:bible.1Tim.clem-lat1

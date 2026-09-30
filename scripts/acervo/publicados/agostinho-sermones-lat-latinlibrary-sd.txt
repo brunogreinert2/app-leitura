@@ -36,3 +36,4 @@ parte:90
 parte:92
 parte:95
 parte:99
+urn:cts:pedraAngular:pa0008.pa010.pa-lat1

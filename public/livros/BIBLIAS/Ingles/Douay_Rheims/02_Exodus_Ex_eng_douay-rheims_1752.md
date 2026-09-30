@@ -28,6 +28,8 @@ book_number: 2
 canon: católico (73 livros), sem o apêndice clementino
 section: Pentateuch
 scope: 1211 versículos em 40 capítulos
+urn_work: urn:cts:pedraAngular:bible.Exod
+urn: urn:cts:pedraAngular:bible.Exod.douay-eng1
 source: The Holy Bible, Douay-Rheims version, revised by Bishop Richard Challoner (1749-1752). Arquivo TextOther/Ex.eng do repositório bitbucket.org/clementinetextproject/text, alinhado versículo a versículo com a Vulgata Clementina.
 license: public-domain
 publishable: true

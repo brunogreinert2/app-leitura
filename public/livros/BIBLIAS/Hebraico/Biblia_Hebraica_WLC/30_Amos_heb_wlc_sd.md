@@ -12,6 +12,8 @@ project: pedra_angular
 reference_system: verse
 abbrev: Am
 book_number: 30
+urn_work: urn:cts:pedraAngular:bible.Amos
+urn: urn:cts:pedraAngular:bible.Amos.wlc-heb1
 source: Westminster Leningrad Codex via OpenScriptures morphhb (github.com/openscriptures/morphhb), 2026. Texto massorético, sem a camada morfológica.
 license: public-domain
 publishable: true

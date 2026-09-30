@@ -11,6 +11,8 @@ project: pedra_angular
 related:
 - eclesiastes_01
 scope: capítulo 1 (teste piloto)
+urn_work: urn:cts:pedraAngular:bible.Eccl
+urn: urn:cts:pedraAngular:bible.Eccl.pa-heb1
 source: 'Hebraico: WLC (Westminster Leningrad Codex), domínio público (uso acadêmico livre); português: Almeida Revista e Corrigida (1911), normalizada (ver eclesiastes_diaphoreus_2026), arquivo Biblia_Eclesiastes_pt_Diaphoreus_2026_base-ALM1911.md'
 license: CC-BY-SA-4.0
 pa_exclusive: true

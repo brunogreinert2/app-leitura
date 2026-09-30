@@ -12,6 +12,8 @@ tags:
 - septuagint
 status: draft
 project: pedra_angular
+urn_work: urn:cts:pedraAngular:bible.Eccl
+urn: urn:cts:pedraAngular:bible.Eccl.stx-grc1
 source: https://sacred-texts.com/bib/osrc/ (sept.zip)
 license: public-domain
 processing: sept_osrc_to_pedra_angular.py v1.0, 2026-07-05; incluído no Antigo Testamento grego em 2026-08-13 como única exceção de fonte dos 55 livros — ver [^pa2]

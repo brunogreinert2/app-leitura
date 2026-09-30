@@ -11,6 +11,8 @@ status: draft
 project: pedra_angular
 abbrev: 1Cr
 book_number: 13
+urn_work: urn:cts:pedraAngular:bible.1Chr
+urn: urn:cts:pedraAngular:bible.1Chr.blivre-por1
 source: Bíblia Livre, 2018. Via github.com/damarals/biblias (JSON canônico), 2026.
 license: public-domain
 publishable: true

@@ -26,6 +26,8 @@ book_number: 4
 canon: católico (73 livros), sem o apêndice clementino
 section: Pentateuco
 scope: 1288 versículos em 36 capítulos
+urn_work: urn:cts:pedraAngular:bible.Num
+urn: urn:cts:pedraAngular:bible.Num.clem-lat1
 source: 'Biblia Sacra juxta Vulgatam Clementinam. Editio electronica: Michael Tweedale et al., The Clementine Text Project (2005; correções posteriores). Arquivo Text/Nm.lat do repositório bitbucket.org/clementinetextproject/text.'
 license: public-domain
 publishable: true

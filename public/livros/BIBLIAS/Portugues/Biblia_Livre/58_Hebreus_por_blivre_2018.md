@@ -11,6 +11,8 @@ status: draft
 project: pedra_angular
 abbrev: Hb
 book_number: 58
+urn_work: urn:cts:pedraAngular:bible.Heb
+urn: urn:cts:pedraAngular:bible.Heb.blivre-por1
 source: Bíblia Livre, 2018. Via github.com/damarals/biblias (JSON canônico), 2026.
 license: public-domain
 publishable: true

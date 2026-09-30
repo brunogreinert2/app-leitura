@@ -254,3 +254,4 @@ anchor-2co-9-6
 anchor-2co-9-7
 anchor-2co-9-8
 anchor-2co-9-9
+urn:cts:pedraAngular:bible.2Cor.tb-por1

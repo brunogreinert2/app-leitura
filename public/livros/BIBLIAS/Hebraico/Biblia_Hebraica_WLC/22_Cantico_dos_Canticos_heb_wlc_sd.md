@@ -12,6 +12,8 @@ project: pedra_angular
 reference_system: verse
 abbrev: Ct
 book_number: 22
+urn_work: urn:cts:pedraAngular:bible.Song
+urn: urn:cts:pedraAngular:bible.Song.wlc-heb1
 source: Westminster Leningrad Codex via OpenScriptures morphhb (github.com/openscriptures/morphhb), 2026. Texto massorético, sem a camada morfológica.
 license: public-domain
 publishable: true

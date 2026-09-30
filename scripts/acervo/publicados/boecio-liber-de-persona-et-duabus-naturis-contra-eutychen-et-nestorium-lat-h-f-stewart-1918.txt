@@ -166,3 +166,4 @@ marker-95-3
 marker-95-4
 marker-95-5
 marker-95-6
+urn:cts:latinLit:stoa0058.stoa023.perseus-lat1

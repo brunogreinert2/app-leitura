@@ -11,6 +11,8 @@ status: draft
 project: pedra_angular
 abbrev: Tt
 book_number: 56
+urn_work: urn:cts:pedraAngular:bible.Titus
+urn: urn:cts:pedraAngular:bible.Titus.blivre-por1
 source: Bíblia Livre, 2018. Via github.com/damarals/biblias (JSON canônico), 2026.
 license: public-domain
 publishable: true

@@ -14,6 +14,8 @@ tags:
 - german-philosophy
 status: draft
 project: pedra_angular
+urn_work: urn:cts:pedraAngular:pa0017.pa001
+urn: urn:cts:pedraAngular:pa0017.pa001.pa-por1
 source: Kant, Immanuel. Crítica da Razão Pura. Trad. J. Rodrigues de Merege. Edição Acrópolis. eBooksBrasil.org, 2001
 license: LicenseRef-eBooksBrasil
 ---

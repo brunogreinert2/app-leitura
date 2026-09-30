@@ -12,6 +12,8 @@ status: draft
 project: pedra_angular
 abbrev: Mt
 book_number: 40
+urn_work: urn:cts:pedraAngular:bible.Matt
+urn: urn:cts:pedraAngular:bible.Matt.tb-por1
 source: Tradução Brasileira, 1917. Via github.com/damarals/biblias (JSON canônico), 2026.
 license: public-domain
 publishable: true

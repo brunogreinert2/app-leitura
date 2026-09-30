@@ -26,6 +26,8 @@ book_number: 22
 canon: católico (73 livros), sem o apêndice clementino
 section: Livros sapienciais
 scope: 1070 versículos em 42 capítulos
+urn_work: urn:cts:pedraAngular:bible.Job
+urn: urn:cts:pedraAngular:bible.Job.clem-lat1
 source: 'Biblia Sacra juxta Vulgatam Clementinam. Editio electronica: Michael Tweedale et al., The Clementine Text Project (2005; correções posteriores). Arquivo Text/Job.lat do repositório bitbucket.org/clementinetextproject/text.'
 license: public-domain
 publishable: true

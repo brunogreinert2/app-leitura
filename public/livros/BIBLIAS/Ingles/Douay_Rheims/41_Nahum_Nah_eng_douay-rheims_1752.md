@@ -28,6 +28,8 @@ book_number: 41
 canon: católico (73 livros), sem o apêndice clementino
 section: Prophets
 scope: 47 versículos em 3 capítulos
+urn_work: urn:cts:pedraAngular:bible.Nah
+urn: urn:cts:pedraAngular:bible.Nah.douay-eng1
 source: The Holy Bible, Douay-Rheims version, revised by Bishop Richard Challoner (1749-1752). Arquivo TextOther/Nah.eng do repositório bitbucket.org/clementinetextproject/text, alinhado versículo a versículo com a Vulgata Clementina.
 license: public-domain
 publishable: true

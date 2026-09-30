@@ -1,7 +1,7 @@
 ---
 id: plutarco-the-eng-frank-cole-babbitt-1936
 type: primary_text
-title: The
+title: On the E at Delphi
 author: Plutarch
 translator:
 - Frank Cole Babbitt
@@ -11,6 +11,8 @@ tags:
 - moralists
 status: draft
 project: pedra_angular
+urn_work: urn:cts:greekLit:tlg0007.tlg090
+urn: urn:cts:greekLit:tlg0007.tlg090.pa-eng1
 source: 'Plutarch. The. Ed. Frank Cole Babbitt. Cambridge, MA: Harvard University Press, 1936. Perseus Digital Library, Tufts University (CC BY-SA 4.0).'
 license: CC-BY-SA-4.0
 ---

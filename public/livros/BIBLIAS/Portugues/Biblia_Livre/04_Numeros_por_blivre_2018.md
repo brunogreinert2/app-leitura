@@ -11,6 +11,8 @@ status: draft
 project: pedra_angular
 abbrev: Nm
 book_number: 4
+urn_work: urn:cts:pedraAngular:bible.Num
+urn: urn:cts:pedraAngular:bible.Num.blivre-por1
 source: Bíblia Livre, 2018. Via github.com/damarals/biblias (JSON canônico), 2026.
 license: public-domain
 publishable: true

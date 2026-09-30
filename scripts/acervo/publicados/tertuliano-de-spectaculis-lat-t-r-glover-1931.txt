@@ -28,3 +28,4 @@ marker-6.1
 marker-7.1
 marker-8.1
 marker-9.1
+urn:cts:latinLit:stoa0275.stoa027.perseus-lat2

@@ -103,3 +103,4 @@ anchor-mq-7-6
 anchor-mq-7-7
 anchor-mq-7-8
 anchor-mq-7-9
+urn:cts:pedraAngular:bible.Mic.alm-por1

@@ -26,6 +26,8 @@ book_number: 51
 canon: católico (73 livros), sem o apêndice clementino
 section: Atos
 scope: 1004 versículos em 28 capítulos
+urn_work: urn:cts:pedraAngular:bible.Acts
+urn: urn:cts:pedraAngular:bible.Acts.clem-lat1
 source: 'Biblia Sacra juxta Vulgatam Clementinam. Editio electronica: Michael Tweedale et al., The Clementine Text Project (2005; correções posteriores). Arquivo Text/Act.lat do repositório bitbucket.org/clementinetextproject/text.'
 license: public-domain
 publishable: true

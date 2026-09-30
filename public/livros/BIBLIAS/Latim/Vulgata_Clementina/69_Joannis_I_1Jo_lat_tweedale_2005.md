@@ -26,6 +26,8 @@ book_number: 69
 canon: católico (73 livros), sem o apêndice clementino
 section: Epístolas católicas
 scope: 105 versículos em 5 capítulos
+urn_work: urn:cts:pedraAngular:bible.1John
+urn: urn:cts:pedraAngular:bible.1John.clem-lat1
 source: 'Biblia Sacra juxta Vulgatam Clementinam. Editio electronica: Michael Tweedale et al., The Clementine Text Project (2005; correções posteriores). Arquivo Text/1Jo.lat do repositório bitbucket.org/clementinetextproject/text.'
 license: public-domain
 publishable: true

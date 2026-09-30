@@ -26,6 +26,8 @@ book_number: 2
 canon: católico (73 livros), sem o apêndice clementino
 section: Pentateuco
 scope: 1211 versículos em 40 capítulos
+urn_work: urn:cts:pedraAngular:bible.Exod
+urn: urn:cts:pedraAngular:bible.Exod.clem-lat1
 source: 'Biblia Sacra juxta Vulgatam Clementinam. Editio electronica: Michael Tweedale et al., The Clementine Text Project (2005; correções posteriores). Arquivo Text/Ex.lat do repositório bitbucket.org/clementinetextproject/text.'
 license: public-domain
 publishable: true

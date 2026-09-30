@@ -11,6 +11,8 @@ status: draft
 project: pedra_angular
 abbrev: Hb
 book_number: 58
+urn_work: urn:cts:pedraAngular:bible.Heb
+urn: urn:cts:pedraAngular:bible.Heb.alm-por1
 source: Almeida Revista e Corrigida 1911, 1911. Via github.com/damarals/biblias (JSON canônico), 2026.
 license: public-domain
 publishable: true

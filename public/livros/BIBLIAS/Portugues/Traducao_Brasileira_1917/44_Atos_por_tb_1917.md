@@ -12,6 +12,8 @@ status: draft
 project: pedra_angular
 abbrev: At
 book_number: 44
+urn_work: urn:cts:pedraAngular:bible.Acts
+urn: urn:cts:pedraAngular:bible.Acts.tb-por1
 source: Tradução Brasileira, 1917. Via github.com/damarals/biblias (JSON canônico), 2026.
 license: public-domain
 publishable: true

@@ -12,6 +12,8 @@ status: draft
 project: pedra_angular
 abbrev: 2Cr
 book_number: 14
+urn_work: urn:cts:pedraAngular:bible.2Chr
+urn: urn:cts:pedraAngular:bible.2Chr.tb-por1
 source: Tradução Brasileira, 1917. Via github.com/damarals/biblias (JSON canônico), 2026.
 license: public-domain
 publishable: true

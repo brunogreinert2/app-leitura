@@ -12,6 +12,8 @@ status: draft
 project: pedra_angular
 abbrev: Cl
 book_number: 51
+urn_work: urn:cts:pedraAngular:bible.Col
+urn: urn:cts:pedraAngular:bible.Col.sblgnt-grc1
 source: SBL Greek New Testament, ed. Michael W. Holmes, 2010. Via github.com/LogosBible/SBLGNT (CC BY 4.0), 2026.
 license: CC-BY-4.0
 publishable: true

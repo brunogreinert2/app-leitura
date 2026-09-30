@@ -11,6 +11,8 @@ status: draft
 project: pedra_angular
 abbrev: Ec
 book_number: 21
+urn_work: urn:cts:pedraAngular:bible.Eccl
+urn: urn:cts:pedraAngular:bible.Eccl.blivre-por1
 source: Bíblia Livre, 2018. Via github.com/damarals/biblias (JSON canônico), 2026.
 license: public-domain
 publishable: true

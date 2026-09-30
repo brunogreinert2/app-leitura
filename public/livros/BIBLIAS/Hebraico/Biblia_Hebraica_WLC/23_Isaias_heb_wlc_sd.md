@@ -12,6 +12,8 @@ project: pedra_angular
 reference_system: verse
 abbrev: Is
 book_number: 23
+urn_work: urn:cts:pedraAngular:bible.Isa
+urn: urn:cts:pedraAngular:bible.Isa.wlc-heb1
 source: Westminster Leningrad Codex via OpenScriptures morphhb (github.com/openscriptures/morphhb), 2026. Texto massorético, sem a camada morfológica.
 license: public-domain
 publishable: true

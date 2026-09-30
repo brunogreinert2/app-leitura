@@ -211,3 +211,4 @@ anchor-bar-6-71
 anchor-bar-6-72
 anchor-bar-6-8
 anchor-bar-6-9
+urn:cts:pedraAngular:bible.Bar.douay-eng1

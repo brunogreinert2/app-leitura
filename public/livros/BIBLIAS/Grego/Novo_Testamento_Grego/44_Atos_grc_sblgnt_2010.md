@@ -12,6 +12,8 @@ status: draft
 project: pedra_angular
 abbrev: At
 book_number: 44
+urn_work: urn:cts:pedraAngular:bible.Acts
+urn: urn:cts:pedraAngular:bible.Acts.sblgnt-grc1
 source: SBL Greek New Testament, ed. Michael W. Holmes, 2010. Via github.com/LogosBible/SBLGNT (CC BY 4.0), 2026.
 license: CC-BY-4.0
 publishable: true

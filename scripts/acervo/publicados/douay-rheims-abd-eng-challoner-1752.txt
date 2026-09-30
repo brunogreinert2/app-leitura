@@ -19,3 +19,4 @@ anchor-abd-1-6
 anchor-abd-1-7
 anchor-abd-1-8
 anchor-abd-1-9
+urn:cts:pedraAngular:bible.Obad.douay-eng1

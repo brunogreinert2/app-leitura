@@ -11,6 +11,8 @@ status: draft
 project: pedra_angular
 abbrev: 1Sm
 book_number: 9
+urn_work: urn:cts:pedraAngular:bible.1Sam
+urn: urn:cts:pedraAngular:bible.1Sam.blivre-por1
 source: Bíblia Livre, 2018. Via github.com/damarals/biblias (JSON canônico), 2026.
 license: public-domain
 publishable: true

@@ -26,6 +26,8 @@ book_number: 50
 canon: católico (73 livros), sem o apêndice clementino
 section: Evangelhos
 scope: 879 versículos em 21 capítulos
+urn_work: urn:cts:pedraAngular:bible.John
+urn: urn:cts:pedraAngular:bible.John.clem-lat1
 source: 'Biblia Sacra juxta Vulgatam Clementinam. Editio electronica: Michael Tweedale et al., The Clementine Text Project (2005; correções posteriores). Arquivo Text/Jo.lat do repositório bitbucket.org/clementinetextproject/text.'
 license: public-domain
 publishable: true

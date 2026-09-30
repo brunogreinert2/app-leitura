@@ -93,3 +93,4 @@ anchor-col-4-6
 anchor-col-4-7
 anchor-col-4-8
 anchor-col-4-9
+urn:cts:pedraAngular:bible.Col.douay-eng1

@@ -71,3 +71,4 @@ anchor-jl-3-6
 anchor-jl-3-7
 anchor-jl-3-8
 anchor-jl-3-9
+urn:cts:pedraAngular:bible.Joel.tb-por1

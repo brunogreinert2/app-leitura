@@ -45,3 +45,4 @@ anchor-nah-3-6
 anchor-nah-3-7
 anchor-nah-3-8
 anchor-nah-3-9
+urn:cts:pedraAngular:bible.Nah.clem-lat1

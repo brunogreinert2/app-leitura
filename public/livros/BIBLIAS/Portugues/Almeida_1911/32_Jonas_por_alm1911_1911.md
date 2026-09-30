@@ -11,6 +11,8 @@ status: draft
 project: pedra_angular
 abbrev: Jn
 book_number: 32
+urn_work: urn:cts:pedraAngular:bible.Jonah
+urn: urn:cts:pedraAngular:bible.Jonah.alm-por1
 source: Almeida Revista e Corrigida 1911, 1911. Via github.com/damarals/biblias (JSON canônico), 2026.
 license: public-domain
 publishable: true

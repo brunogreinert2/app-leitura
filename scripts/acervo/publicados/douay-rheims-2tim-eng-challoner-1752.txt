@@ -81,3 +81,4 @@ anchor-2tim-4-6
 anchor-2tim-4-7
 anchor-2tim-4-8
 anchor-2tim-4-9
+urn:cts:pedraAngular:bible.2Tim.douay-eng1

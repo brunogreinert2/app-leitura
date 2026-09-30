@@ -2609,3 +2609,4 @@ parte:96
 parte:97
 parte:98
 parte:99
+urn:cts:pedraAngular:bible.Ps.tb-por1

@@ -12,6 +12,8 @@ status: draft
 project: pedra_angular
 abbrev: Jn
 book_number: 32
+urn_work: urn:cts:pedraAngular:bible.Jonah
+urn: urn:cts:pedraAngular:bible.Jonah.tb-por1
 source: Tradução Brasileira, 1917. Via github.com/damarals/biblias (JSON canônico), 2026.
 license: public-domain
 publishable: true

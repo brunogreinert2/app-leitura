@@ -11,6 +11,8 @@ status: draft
 project: pedra_angular
 abbrev: Ed
 book_number: 15
+urn_work: urn:cts:pedraAngular:bible.Ezra
+urn: urn:cts:pedraAngular:bible.Ezra.blivre-por1
 source: Bíblia Livre, 2018. Via github.com/damarals/biblias (JSON canônico), 2026.
 license: public-domain
 publishable: true

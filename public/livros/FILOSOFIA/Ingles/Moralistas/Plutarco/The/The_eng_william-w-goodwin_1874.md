@@ -1,7 +1,7 @@
 ---
 id: plutarco-the-eng-william-w-goodwin-1874
 type: primary_text
-title: Of the word
+title: On the E at Delphi
 author: Plutarch
 translator:
 - William W. Goodwin
@@ -11,6 +11,8 @@ tags:
 - moralists
 status: draft
 project: pedra_angular
+urn_work: urn:cts:greekLit:tlg0007.tlg090
+urn: urn:cts:greekLit:tlg0007.tlg090.pa-eng2
 source: 'Plutarch. Of the word. Ed. William W. Goodwin. Boston: Little, Brown, and Company, 1874. Perseus Digital Library, Tufts University (CC BY-SA 4.0).'
 license: CC-BY-SA-4.0
 ---

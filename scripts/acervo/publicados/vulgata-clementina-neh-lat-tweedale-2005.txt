@@ -402,3 +402,4 @@ anchor-neh-9-6
 anchor-neh-9-7
 anchor-neh-9-8
 anchor-neh-9-9
+urn:cts:pedraAngular:bible.Neh.clem-lat1

@@ -12,6 +12,8 @@ tags:
 - century-16-ce
 status: draft
 project: pedra_angular
+urn_work: urn:cts:pedraAngular:pa0022.pa001
+urn: urn:cts:pedraAngular:pa0022.pa001.pa-por1
 source: Machiavelli, Niccolò (1513/1532). Trad. anônima. ebooksBrasil.org, ed. Ridendo Castigat Mores
 license: LicenseRef-eBooksBrasil
 ---

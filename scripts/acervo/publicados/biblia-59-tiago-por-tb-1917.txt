@@ -106,3 +106,4 @@ anchor-tg-5-6
 anchor-tg-5-7
 anchor-tg-5-8
 anchor-tg-5-9
+urn:cts:pedraAngular:bible.Jas.tb-por1

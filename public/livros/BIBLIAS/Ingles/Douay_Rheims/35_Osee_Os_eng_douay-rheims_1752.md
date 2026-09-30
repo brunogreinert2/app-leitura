@@ -28,6 +28,8 @@ book_number: 35
 canon: católico (73 livros), sem o apêndice clementino
 section: Prophets
 scope: 198 versículos em 14 capítulos
+urn_work: urn:cts:pedraAngular:bible.Hos
+urn: urn:cts:pedraAngular:bible.Hos.douay-eng1
 source: The Holy Bible, Douay-Rheims version, revised by Bishop Richard Challoner (1749-1752). Arquivo TextOther/Os.eng do repositório bitbucket.org/clementinetextproject/text, alinhado versículo a versículo com a Vulgata Clementina.
 license: public-domain
 publishable: true

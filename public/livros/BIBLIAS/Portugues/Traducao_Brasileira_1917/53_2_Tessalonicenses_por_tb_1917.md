@@ -12,6 +12,8 @@ status: draft
 project: pedra_angular
 abbrev: 2Ts
 book_number: 53
+urn_work: urn:cts:pedraAngular:bible.2Thess
+urn: urn:cts:pedraAngular:bible.2Thess.tb-por1
 source: Tradução Brasileira, 1917. Via github.com/damarals/biblias (JSON canônico), 2026.
 license: public-domain
 publishable: true

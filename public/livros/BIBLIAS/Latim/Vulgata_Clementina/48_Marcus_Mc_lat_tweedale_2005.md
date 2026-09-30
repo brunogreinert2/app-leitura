@@ -26,6 +26,8 @@ book_number: 48
 canon: católico (73 livros), sem o apêndice clementino
 section: Evangelhos
 scope: 677 versículos em 16 capítulos
+urn_work: urn:cts:pedraAngular:bible.Mark
+urn: urn:cts:pedraAngular:bible.Mark.clem-lat1
 source: 'Biblia Sacra juxta Vulgatam Clementinam. Editio electronica: Michael Tweedale et al., The Clementine Text Project (2005; correções posteriores). Arquivo Text/Mc.lat do repositório bitbucket.org/clementinetextproject/text.'
 license: public-domain
 publishable: true

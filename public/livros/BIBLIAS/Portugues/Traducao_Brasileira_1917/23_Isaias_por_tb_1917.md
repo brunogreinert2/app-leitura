@@ -12,6 +12,8 @@ status: draft
 project: pedra_angular
 abbrev: Is
 book_number: 23
+urn_work: urn:cts:pedraAngular:bible.Isa
+urn: urn:cts:pedraAngular:bible.Isa.tb-por1
 source: Tradução Brasileira, 1917. Via github.com/damarals/biblias (JSON canônico), 2026.
 license: public-domain
 publishable: true

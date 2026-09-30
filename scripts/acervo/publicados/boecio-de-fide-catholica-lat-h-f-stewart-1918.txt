@@ -54,3 +54,4 @@ marker-80
 marker-85
 marker-90
 marker-95
+urn:cts:latinLit:stoa0058.stoa006.perseus-lat1

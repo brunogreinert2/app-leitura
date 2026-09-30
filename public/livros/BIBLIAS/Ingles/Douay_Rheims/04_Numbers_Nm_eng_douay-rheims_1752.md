@@ -28,6 +28,8 @@ book_number: 4
 canon: católico (73 livros), sem o apêndice clementino
 section: Pentateuch
 scope: 1288 versículos em 36 capítulos
+urn_work: urn:cts:pedraAngular:bible.Num
+urn: urn:cts:pedraAngular:bible.Num.douay-eng1
 source: The Holy Bible, Douay-Rheims version, revised by Bishop Richard Challoner (1749-1752). Arquivo TextOther/Nm.eng do repositório bitbucket.org/clementinetextproject/text, alinhado versículo a versículo com a Vulgata Clementina.
 license: public-domain
 publishable: true

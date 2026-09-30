@@ -26,6 +26,8 @@ book_number: 49
 canon: católico (73 livros), sem o apêndice clementino
 section: Evangelhos
 scope: 1151 versículos em 24 capítulos
+urn_work: urn:cts:pedraAngular:bible.Luke
+urn: urn:cts:pedraAngular:bible.Luke.clem-lat1
 source: 'Biblia Sacra juxta Vulgatam Clementinam. Editio electronica: Michael Tweedale et al., The Clementine Text Project (2005; correções posteriores). Arquivo Text/Lc.lat do repositório bitbucket.org/clementinetextproject/text.'
 license: public-domain
 publishable: true

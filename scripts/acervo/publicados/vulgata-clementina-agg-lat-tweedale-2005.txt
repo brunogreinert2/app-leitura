@@ -36,3 +36,4 @@ anchor-agg-2-6
 anchor-agg-2-7
 anchor-agg-2-8
 anchor-agg-2-9
+urn:cts:pedraAngular:bible.Hag.clem-lat1

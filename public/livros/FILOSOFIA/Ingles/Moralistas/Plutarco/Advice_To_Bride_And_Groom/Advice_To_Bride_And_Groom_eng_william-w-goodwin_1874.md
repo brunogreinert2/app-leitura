@@ -11,6 +11,8 @@ tags:
 - moralists
 status: draft
 project: pedra_angular
+urn_work: urn:cts:greekLit:tlg0007.tlg078
+urn: urn:cts:greekLit:tlg0007.tlg078.pa-eng2
 source: 'Plutarch. Conjugal Precepts. Ed. William W. Goodwin. Boston: Little, Brown, and Company, 1874. Perseus Digital Library, Tufts University (CC BY-SA 4.0).'
 license: CC-BY-SA-4.0
 ---

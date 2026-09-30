@@ -12,6 +12,8 @@ status: draft
 project: pedra_angular
 abbrev: Rt
 book_number: 8
+urn_work: urn:cts:pedraAngular:bible.Ruth
+urn: urn:cts:pedraAngular:bible.Ruth.tb-por1
 source: Tradução Brasileira, 1917. Via github.com/damarals/biblias (JSON canônico), 2026.
 license: public-domain
 publishable: true

@@ -26,6 +26,8 @@ book_number: 15
 canon: católico (73 livros), sem o apêndice clementino
 section: Livros históricos
 scope: 280 versículos em 10 capítulos
+urn_work: urn:cts:pedraAngular:bible.Ezra
+urn: urn:cts:pedraAngular:bible.Ezra.clem-lat1
 source: 'Biblia Sacra juxta Vulgatam Clementinam. Editio electronica: Michael Tweedale et al., The Clementine Text Project (2005; correções posteriores). Arquivo Text/Esr.lat do repositório bitbucket.org/clementinetextproject/text.'
 license: public-domain
 publishable: true

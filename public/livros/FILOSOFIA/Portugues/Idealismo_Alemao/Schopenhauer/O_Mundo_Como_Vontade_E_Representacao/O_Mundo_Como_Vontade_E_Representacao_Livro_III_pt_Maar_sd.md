@@ -17,6 +17,8 @@ tags:
 - aesthetics
 status: draft
 project: pedra_angular
+urn_work: urn:cts:pedraAngular:pa0019.pa001
+urn: urn:cts:pedraAngular:pa0019.pa001.pa-por1
 source: Schopenhauer, Arthur (1819/1844). Die Welt als Wille und Vorstellung, Livro III. Trad. Wolfgang Leo Maar. ebooksBrasil.org, ed. Acrópolis
 license: LicenseRef-eBooksBrasil
 ---

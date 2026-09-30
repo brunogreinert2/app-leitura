@@ -11,6 +11,8 @@ status: draft
 project: pedra_angular
 abbrev: 1Ts
 book_number: 52
+urn_work: urn:cts:pedraAngular:bible.1Thess
+urn: urn:cts:pedraAngular:bible.1Thess.blivre-por1
 source: Bíblia Livre, 2018. Via github.com/damarals/biblias (JSON canônico), 2026.
 license: public-domain
 publishable: true

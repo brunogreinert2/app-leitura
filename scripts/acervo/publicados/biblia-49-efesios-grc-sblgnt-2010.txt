@@ -153,3 +153,4 @@ anchor-ef-6-6
 anchor-ef-6-7
 anchor-ef-6-8
 anchor-ef-6-9
+urn:cts:pedraAngular:bible.Eph.sblgnt-grc1

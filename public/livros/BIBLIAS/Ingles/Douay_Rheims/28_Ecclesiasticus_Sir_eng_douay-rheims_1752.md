@@ -28,6 +28,8 @@ book_number: 28
 canon: católico (73 livros), sem o apêndice clementino
 section: Wisdom books
 scope: 1592 versículos em 51 capítulos
+urn_work: urn:cts:pedraAngular:bible.Sir
+urn: urn:cts:pedraAngular:bible.Sir.douay-eng1
 source: The Holy Bible, Douay-Rheims version, revised by Bishop Richard Challoner (1749-1752). Arquivo TextOther/Sir.eng do repositório bitbucket.org/clementinetextproject/text, alinhado versículo a versículo com a Vulgata Clementina.
 license: public-domain
 publishable: true

@@ -87,3 +87,4 @@ anchor-1thes-5-6
 anchor-1thes-5-7
 anchor-1thes-5-8
 anchor-1thes-5-9
+urn:cts:pedraAngular:bible.1Thess.clem-lat1

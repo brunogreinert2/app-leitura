@@ -12,6 +12,8 @@ project: pedra_angular
 reference_system: verse
 abbrev: Pv
 book_number: 20
+urn_work: urn:cts:pedraAngular:bible.Prov
+urn: urn:cts:pedraAngular:bible.Prov.wlc-heb1
 source: Westminster Leningrad Codex via OpenScriptures morphhb (github.com/openscriptures/morphhb), 2026. Texto massorético, sem a camada morfológica.
 license: public-domain
 publishable: true

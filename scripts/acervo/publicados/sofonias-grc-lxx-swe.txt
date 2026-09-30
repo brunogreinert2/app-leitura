@@ -51,3 +51,4 @@ anchor-soph-3-8
 anchor-soph-3-9
 nota-ref-pa1
 nota-ref-pa1-2
+urn:cts:greekLit:tlg0527.tlg044.1st1K-grc1

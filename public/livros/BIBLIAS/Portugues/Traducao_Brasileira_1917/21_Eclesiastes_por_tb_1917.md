@@ -12,6 +12,8 @@ status: draft
 project: pedra_angular
 abbrev: Ec
 book_number: 21
+urn_work: urn:cts:pedraAngular:bible.Eccl
+urn: urn:cts:pedraAngular:bible.Eccl.tb-por1
 source: Tradução Brasileira, 1917. Via github.com/damarals/biblias (JSON canônico), 2026.
 license: public-domain
 publishable: true

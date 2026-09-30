@@ -11,6 +11,8 @@ status: draft
 project: pedra_angular
 abbrev: 2Pe
 book_number: 61
+urn_work: urn:cts:pedraAngular:bible.2Pet
+urn: urn:cts:pedraAngular:bible.2Pet.blivre-por1
 source: Bíblia Livre, 2018. Via github.com/damarals/biblias (JSON canônico), 2026.
 license: public-domain
 publishable: true

@@ -59,3 +59,4 @@ parte:3.7
 parte:3.8
 parte:3.9
 parte:4
+urn:cts:pedraAngular:pa0005.pa001.pa-lat1

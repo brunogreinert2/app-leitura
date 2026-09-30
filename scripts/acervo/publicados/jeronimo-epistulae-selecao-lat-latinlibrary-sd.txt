@@ -78,3 +78,4 @@ marker-8.1
 marker-8.2
 marker-9.1
 marker-9.2
+urn:cts:latinLit:stoa0162.stoa004.pa-lat1

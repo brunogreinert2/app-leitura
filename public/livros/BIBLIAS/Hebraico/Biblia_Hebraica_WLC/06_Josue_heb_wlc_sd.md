@@ -12,6 +12,8 @@ project: pedra_angular
 reference_system: verse
 abbrev: Js
 book_number: 6
+urn_work: urn:cts:pedraAngular:bible.Josh
+urn: urn:cts:pedraAngular:bible.Josh.wlc-heb1
 source: Westminster Leningrad Codex via OpenScriptures morphhb (github.com/openscriptures/morphhb), 2026. Texto massorético, sem a camada morfológica.
 license: public-domain
 publishable: true

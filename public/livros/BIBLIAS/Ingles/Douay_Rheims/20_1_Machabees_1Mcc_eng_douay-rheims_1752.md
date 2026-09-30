@@ -28,6 +28,8 @@ book_number: 20
 canon: católico (73 livros), sem o apêndice clementino
 section: Historical books
 scope: 929 versículos em 16 capítulos
+urn_work: urn:cts:pedraAngular:bible.1Macc
+urn: urn:cts:pedraAngular:bible.1Macc.douay-eng1
 source: The Holy Bible, Douay-Rheims version, revised by Bishop Richard Challoner (1749-1752). Arquivo TextOther/1Mcc.eng do repositório bitbucket.org/clementinetextproject/text, alinhado versículo a versículo com a Vulgata Clementina.
 license: public-domain
 publishable: true

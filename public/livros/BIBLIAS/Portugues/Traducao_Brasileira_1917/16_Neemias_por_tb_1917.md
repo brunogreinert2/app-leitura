@@ -12,6 +12,8 @@ status: draft
 project: pedra_angular
 abbrev: Ne
 book_number: 16
+urn_work: urn:cts:pedraAngular:bible.Neh
+urn: urn:cts:pedraAngular:bible.Neh.tb-por1
 source: Tradução Brasileira, 1917. Via github.com/damarals/biblias (JSON canônico), 2026.
 license: public-domain
 publishable: true

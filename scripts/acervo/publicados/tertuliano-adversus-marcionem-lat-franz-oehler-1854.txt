@@ -206,3 +206,4 @@ parte:5.5
 parte:5.6
 parte:5.7
 parte:5.8
+urn:cts:latinLit:stoa0275.stoa006.opp-lat1

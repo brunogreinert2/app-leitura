@@ -12,3 +12,4 @@ anchor-3jo-1-6
 anchor-3jo-1-7
 anchor-3jo-1-8
 anchor-3jo-1-9
+urn:cts:pedraAngular:bible.3John.douay-eng1

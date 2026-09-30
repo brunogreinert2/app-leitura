@@ -240,3 +240,4 @@ parte:60
 parte:7
 parte:77
 parte:notas-pa1
+urn:cts:latinLit:stoa0162.stoa004.perseus-lat2

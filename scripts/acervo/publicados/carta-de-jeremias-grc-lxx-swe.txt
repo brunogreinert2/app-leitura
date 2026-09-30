@@ -72,3 +72,4 @@ anchor-epjr-1-8
 anchor-epjr-1-9
 nota-ref-pa1
 nota-ref-pa1-2
+urn:cts:greekLit:tlg0527.tlg052.1st1K-grc1

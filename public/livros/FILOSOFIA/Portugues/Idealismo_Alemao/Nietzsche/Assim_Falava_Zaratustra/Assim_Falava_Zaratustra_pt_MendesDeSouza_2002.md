@@ -15,6 +15,8 @@ tags:
 - german-philosophy
 status: draft
 project: pedra_angular
+urn_work: urn:cts:pedraAngular:pa0018.pa001
+urn: urn:cts:pedraAngular:pa0018.pa001.pa-por1
 source: Garcia, Nélson Jahr (ed.) (2002)
 license: LicenseRef-eBooksBrasil
 ---

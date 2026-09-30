@@ -12,6 +12,8 @@ tags:
 - century-18-ce
 status: reviewed
 project: pedra_angular
+urn_work: urn:cts:pedraAngular:pa0021.pa007
+urn: urn:cts:pedraAngular:pa0021.pa007.pa-por1
 source: Garcia, Nélson Jahr (ed.)
 license: LicenseRef-eBooksBrasil
 ---

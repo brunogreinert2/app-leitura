@@ -48,3 +48,4 @@ anchor-jon-4-8
 anchor-jon-4-9
 nota-ref-pa1
 nota-ref-pa1-2
+urn:cts:greekLit:tlg0527.tlg041.1st1K-grc1

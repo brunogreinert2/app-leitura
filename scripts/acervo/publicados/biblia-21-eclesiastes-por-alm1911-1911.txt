@@ -220,3 +220,4 @@ anchor-ec-9-6
 anchor-ec-9-7
 anchor-ec-9-8
 anchor-ec-9-9
+urn:cts:pedraAngular:bible.Eccl.alm-por1

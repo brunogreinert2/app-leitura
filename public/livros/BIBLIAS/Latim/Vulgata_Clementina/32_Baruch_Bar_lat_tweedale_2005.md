@@ -26,6 +26,8 @@ book_number: 32
 canon: católico (73 livros), sem o apêndice clementino
 section: Profetas
 scope: 213 versículos em 6 capítulos
+urn_work: urn:cts:pedraAngular:bible.Bar
+urn: urn:cts:pedraAngular:bible.Bar.clem-lat1
 source: 'Biblia Sacra juxta Vulgatam Clementinam. Editio electronica: Michael Tweedale et al., The Clementine Text Project (2005; correções posteriores). Arquivo Text/Bar.lat do repositório bitbucket.org/clementinetextproject/text.'
 license: public-domain
 publishable: true

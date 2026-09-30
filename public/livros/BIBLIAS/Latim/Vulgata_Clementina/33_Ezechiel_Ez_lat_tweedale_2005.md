@@ -26,6 +26,8 @@ book_number: 33
 canon: católico (73 livros), sem o apêndice clementino
 section: Profetas
 scope: 1272 versículos em 48 capítulos
+urn_work: urn:cts:pedraAngular:bible.Ezek
+urn: urn:cts:pedraAngular:bible.Ezek.clem-lat1
 source: 'Biblia Sacra juxta Vulgatam Clementinam. Editio electronica: Michael Tweedale et al., The Clementine Text Project (2005; correções posteriores). Arquivo Text/Ez.lat do repositório bitbucket.org/clementinetextproject/text.'
 license: public-domain
 publishable: true

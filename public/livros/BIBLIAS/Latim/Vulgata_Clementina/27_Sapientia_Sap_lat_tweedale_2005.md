@@ -26,6 +26,8 @@ book_number: 27
 canon: católico (73 livros), sem o apêndice clementino
 section: Livros sapienciais
 scope: 439 versículos em 19 capítulos
+urn_work: urn:cts:pedraAngular:bible.Wis
+urn: urn:cts:pedraAngular:bible.Wis.clem-lat1
 source: 'Biblia Sacra juxta Vulgatam Clementinam. Editio electronica: Michael Tweedale et al., The Clementine Text Project (2005; correções posteriores). Arquivo Text/Sap.lat do repositório bitbucket.org/clementinetextproject/text.'
 license: public-domain
 publishable: true

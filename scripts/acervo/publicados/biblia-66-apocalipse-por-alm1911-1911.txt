@@ -402,3 +402,4 @@ anchor-ap-9-6
 anchor-ap-9-7
 anchor-ap-9-8
 anchor-ap-9-9
+urn:cts:pedraAngular:bible.Rev.alm-por1

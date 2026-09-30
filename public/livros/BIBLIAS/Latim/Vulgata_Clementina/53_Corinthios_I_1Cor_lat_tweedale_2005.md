@@ -26,6 +26,8 @@ book_number: 53
 canon: católico (73 livros), sem o apêndice clementino
 section: Epístolas paulinas
 scope: 437 versículos em 16 capítulos
+urn_work: urn:cts:pedraAngular:bible.1Cor
+urn: urn:cts:pedraAngular:bible.1Cor.clem-lat1
 source: 'Biblia Sacra juxta Vulgatam Clementinam. Editio electronica: Michael Tweedale et al., The Clementine Text Project (2005; correções posteriores). Arquivo Text/1Cor.lat do repositório bitbucket.org/clementinetextproject/text.'
 license: public-domain
 publishable: true

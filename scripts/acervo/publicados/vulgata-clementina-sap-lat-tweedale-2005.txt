@@ -437,3 +437,4 @@ anchor-sap-9-6
 anchor-sap-9-7
 anchor-sap-9-8
 anchor-sap-9-9
+urn:cts:pedraAngular:bible.Wis.clem-lat1

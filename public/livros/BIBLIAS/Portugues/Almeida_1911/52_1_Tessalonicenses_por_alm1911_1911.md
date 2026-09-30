@@ -11,6 +11,8 @@ status: draft
 project: pedra_angular
 abbrev: 1Ts
 book_number: 52
+urn_work: urn:cts:pedraAngular:bible.1Thess
+urn: urn:cts:pedraAngular:bible.1Thess.alm-por1
 source: Almeida Revista e Corrigida 1911, 1911. Via github.com/damarals/biblias (JSON canônico), 2026.
 license: public-domain
 publishable: true

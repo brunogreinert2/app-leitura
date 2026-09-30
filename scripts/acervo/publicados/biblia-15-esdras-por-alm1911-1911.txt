@@ -278,3 +278,4 @@ anchor-ed-9-6
 anchor-ed-9-7
 anchor-ed-9-8
 anchor-ed-9-9
+urn:cts:pedraAngular:bible.Ezra.alm-por1

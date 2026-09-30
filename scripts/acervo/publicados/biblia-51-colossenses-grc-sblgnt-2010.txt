@@ -93,3 +93,4 @@ anchor-cl-4-6
 anchor-cl-4-7
 anchor-cl-4-8
 anchor-cl-4-9
+urn:cts:pedraAngular:bible.Col.sblgnt-grc1

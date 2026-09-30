@@ -556,3 +556,4 @@ anchor-2mcc-9-6
 anchor-2mcc-9-7
 anchor-2mcc-9-8
 anchor-2mcc-9-9
+urn:cts:pedraAngular:bible.2Macc.clem-lat1
