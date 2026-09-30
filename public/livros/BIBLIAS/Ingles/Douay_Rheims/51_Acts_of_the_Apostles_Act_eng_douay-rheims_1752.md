@@ -1,42 +1,37 @@
 ---
 id: douay-rheims-act-eng-challoner-1752
-type: texto_primario
-title: "Acts of the Apostles (Douay-Rheims)"
-subtitle: null
-original_title: "Acts of the Apostles"
-author: null
+type: primary_text
+title: Acts of the Apostles (Douay-Rheims)
+original_title: Acts of the Apostles
+translator:
+- Gregory Martin
+- Richard Challoner
 year_original: 1610
-language: eng
-translation:
-  - Gregory Martin
-  - Richard Challoner
-editor: null
-publisher: null
 publication_year: 1752
-area: Escrituras
-era: século XVI-XVIII (tradução da Vulgata)
-sistema_referencia: versiculo
-abrev: "Act"
-livro_numero: 51
-secao: "Acts"
-canon: "católico (73 livros), sem o apêndice clementino"
-scope: "1004 versículos em 28 capítulos"
+language: eng
 tags:
-  - ingles
-  - biblia
-  - douay-rheims
-  - vulgata
-  - acts
-coautoria:
-  - Διαφορεύς
-  - Claude Opus 5
-status: rascunho
+- bible
+- scripture
+- century-16-ce
+- century-17-ce
+- century-18-ce
+- douay-rheims
+- vulgate
+- acts
+status: draft
 project: pedra_angular
-source: "The Holy Bible, Douay-Rheims version, revised by Bishop Richard Challoner (1749-1752). Arquivo TextOther/Act.eng do repositório bitbucket.org/clementinetextproject/text, alinhado versículo a versículo com a Vulgata Clementina."
-license: "domínio público"
-publishable: true
 related:
-  - "Vulgata Clementina, Act"
+- Vulgata Clementina, Act
+reference_system: verse
+abbrev: Act
+book_number: 51
+canon: católico (73 livros), sem o apêndice clementino
+section: Acts
+scope: 1004 versículos em 28 capítulos
+source: The Holy Bible, Douay-Rheims version, revised by Bishop Richard Challoner (1749-1752). Arquivo TextOther/Act.eng do repositório bitbucket.org/clementinetextproject/text, alinhado versículo a versículo com a Vulgata Clementina.
+license: public-domain
+publishable: true
+processing: preparado por Διαφορεύς, Claude Opus 5
 ---
 
 # Acts of the Apostles

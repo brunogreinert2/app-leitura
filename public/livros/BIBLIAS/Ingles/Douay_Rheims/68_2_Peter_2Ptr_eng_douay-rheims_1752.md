@@ -1,42 +1,37 @@
 ---
 id: douay-rheims-2ptr-eng-challoner-1752
-type: texto_primario
-title: "2 Peter (Douay-Rheims)"
-subtitle: null
-original_title: "2 Peter"
-author: null
+type: primary_text
+title: 2 Peter (Douay-Rheims)
+original_title: 2 Peter
+translator:
+- Gregory Martin
+- Richard Challoner
 year_original: 1610
-language: eng
-translation:
-  - Gregory Martin
-  - Richard Challoner
-editor: null
-publisher: null
 publication_year: 1752
-area: Escrituras
-era: século XVI-XVIII (tradução da Vulgata)
-sistema_referencia: versiculo
-abrev: "2Ptr"
-livro_numero: 68
-secao: "Catholic epistles"
-canon: "católico (73 livros), sem o apêndice clementino"
-scope: "61 versículos em 3 capítulos"
+language: eng
 tags:
-  - ingles
-  - biblia
-  - douay-rheims
-  - vulgata
-  - catholic-epistles
-coautoria:
-  - Διαφορεύς
-  - Claude Opus 5
-status: rascunho
+- bible
+- scripture
+- century-16-ce
+- century-17-ce
+- century-18-ce
+- douay-rheims
+- vulgate
+- catholic-epistles
+status: draft
 project: pedra_angular
-source: "The Holy Bible, Douay-Rheims version, revised by Bishop Richard Challoner (1749-1752). Arquivo TextOther/2Ptr.eng do repositório bitbucket.org/clementinetextproject/text, alinhado versículo a versículo com a Vulgata Clementina."
-license: "domínio público"
-publishable: true
 related:
-  - "Vulgata Clementina, 2Ptr"
+- Vulgata Clementina, 2Ptr
+reference_system: verse
+abbrev: 2Ptr
+book_number: 68
+canon: católico (73 livros), sem o apêndice clementino
+section: Catholic epistles
+scope: 61 versículos em 3 capítulos
+source: The Holy Bible, Douay-Rheims version, revised by Bishop Richard Challoner (1749-1752). Arquivo TextOther/2Ptr.eng do repositório bitbucket.org/clementinetextproject/text, alinhado versículo a versículo com a Vulgata Clementina.
+license: public-domain
+publishable: true
+processing: preparado por Διαφορεύς, Claude Opus 5
 ---
 
 # 2 Peter

@@ -1,22 +1,20 @@
 ---
 id: biblia-27-daniel-por-tb-1917
-type: texto_primario
-title: "Daniel (Tradução Brasileira)"
-author: null
-language: por
-translator: "Comissão da Sociedade Bíblica Americana (H. C. Tucker et al.)"
-editor: null
-year_original: null
+type: primary_text
+title: Daniel (Tradução Brasileira)
+translator:
+- Comissão da Sociedade Bíblica Americana (H. C. Tucker et al.)
 publisher: SBB
-source: "Tradução Brasileira, 1917. Via github.com/damarals/biblias (JSON canônico), 2026."
-license: "dominio_publico"
-publishable: true
-status: rascunho
+language: por
+tags:
+- bible
+status: draft
 project: pedra_angular
-livro_numero: 27
-abrev: Dn
-related: []
-tags: [biblia]
+abbrev: Dn
+book_number: 27
+source: Tradução Brasileira, 1917. Via github.com/damarals/biblias (JSON canônico), 2026.
+license: public-domain
+publishable: true
 ---
 
 # Daniel

@@ -1,20 +1,22 @@
 ---
 id: juliano-tlg017-grc-wilmer-cave-wright-1923
-type: texto_primario
-title: "Κατὰ Γαλιλαίων"
-subtitle: null
+type: primary_text
+title: Κατὰ Γαλιλαίων
 author: Julian the Emperor
-year_original: null
-language: grc
-translation: []
 publisher: William Heinemann
-area: null
-era: null
-tags: []
-status: rascunho
+language: grc
+tags:
+- neoplatonism
+- late-antiquity
+status: draft
 project: pedra_angular
-source: "Julian the Emperor. Κατὰ Γαλιλαίων. Ed. Wilmer Cave Wright. London: William Heinemann, 1923. Perseus Digital Library, Tufts University (CC BY-SA 4.0). URN: urn:cts:greekLit:tlg2003.tlg017.perseus-grc2"
-related: []
+urn_work: urn:cts:greekLit:tlg2003.tlg017
+urn: urn:cts:greekLit:tlg2003.tlg017.perseus-grc2
+source: 'Julian the Emperor. Κατὰ Γαλιλαίων. Ed. Wilmer Cave Wright. London: William Heinemann, 1923. Perseus Digital Library, Tufts University (CC BY-SA 4.0).'
+source_repo: PerseusDL/canonical-greekLit
+source_file: data/tlg2003/tlg017/tlg2003.tlg017.perseus-grc2.xml
+source_commit: e37eed2e8
+license: CC-BY-SA-4.0
 ---
 
 # Κατὰ Γαλιλαίων

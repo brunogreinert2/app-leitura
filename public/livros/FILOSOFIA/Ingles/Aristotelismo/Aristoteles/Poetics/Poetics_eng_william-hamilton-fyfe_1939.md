@@ -1,21 +1,24 @@
 ---
 id: aristoteles-poetics-eng-william-hamilton-fyfe-1939
-type: texto_primario
-title: "Poetics"
-subtitle: null
+type: primary_text
+title: Poetics
 author: Aristotle
-year_original: null
-language: eng
-translation:
-  - William Hamilton Fyfe
+translator:
+- William Hamilton Fyfe
 publisher: William Heinemann Ltd.
-area: null
-era: null
-tags: []
-status: rascunho
+language: eng
+tags:
+- aristotelianism
+- classical-philosophy
+status: draft
 project: pedra_angular
-source: "Aristotle. Poetics. Ed. William Hamilton Fyfe. London: William Heinemann Ltd., 1939. Perseus Digital Library, Tufts University (CC BY-SA 4.0). URN: null"
-related: []
+urn_work: urn:cts:greekLit:tlg0086.tlg034
+urn: urn:cts:greekLit:tlg0086.tlg034.perseus-eng2
+source: 'Aristotle. Poetics. Ed. William Hamilton Fyfe. London: William Heinemann Ltd., 1939. Perseus Digital Library, Tufts University (CC BY-SA 4.0).'
+source_repo: PerseusDL/canonical-greekLit
+source_file: data/tlg0086/tlg034/tlg0086.tlg034.perseus-eng2.xml
+source_commit: e37eed2e8
+license: CC-BY-SA-4.0
 ---
 
 # Poetics

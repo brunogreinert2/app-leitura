@@ -1,41 +1,33 @@
 ---
 id: cassiodoro-institutiones-lat-mynors-1937
-type: texto_primario
-title: "Institutiones Diuinarum et Humanarum Litterarum"
-subtitle: null
-original_title: "Institutiones diuinarum et humanarum litterarum"
-author: "Cassiodoro"
-year_original: 562
-language: lat
-translation: []
+type: primary_text
+title: Institutiones Diuinarum et Humanarum Litterarum
+original_title: Institutiones diuinarum et humanarum litterarum
+author: Cassiodoro
 editor:
-  - Roger Aubrey Baskerville Mynors
+- Roger Aubrey Baskerville Mynors
 publisher: Clarendon Press
+year_original: 562
 publication_year: 1937
-collection: null
-isbn: null
-area: Patrística Latina
-era: 6º século d.C.
-sistema_referencia: capitulo-secao
-scope: "obra completa — Livro I (diuinae litterae) e Livro II (saeculares litterae)"
+language: lat
 tags:
-  - latim
-  - cassiodoro
-  - patristica
-  - vivarium
-  - artes-liberais
-  - trivium-quadrivium
-  - enciclopedismo
-  - antiguidade-tardia
-coautoria:
-  - Διαφορεύς
-  - Claude Opus 5
-status: rascunho
+- patristics
+- century-6-ce
+- vivarium
+- liberal-arts
+- trivium
+- quadrivium
+- encyclopedism
+- late-antiquity
+status: draft
 project: pedra_angular
-source: "Cassiodori Senatoris Institutiones, ed. R. A. B. Mynors (Oxford: Clarendon Press, 1937; reimpr. 1961). Transcrição eletrônica de James J. O'Donnell (Georgetown University), redistribuída em la.wikisource.org, exportada em 2026-08-01."
-license: "CC BY-SA 3.0 (transcrição Wikisource)"
+reference_system: chapter-section
+scope: obra completa — Livro I (diuinae litterae) e Livro II (saeculares litterae)
+source: 'Cassiodori Senatoris Institutiones, ed. R. A. B. Mynors (Oxford: Clarendon Press, 1937; reimpr. 1961). Transcrição eletrônica de James J. O''Donnell (Georgetown University), redistribuída em la.wikisource.org, exportada em 2026-08-01.'
+license: CC-BY-SA-3.0
 publishable: true
-related: []
+pa_exclusive: true
+processing: preparado por Διαφορεύς, Claude Opus 5
 ---
 
 # Institutiones Diuinarum et Humanarum Litterarum

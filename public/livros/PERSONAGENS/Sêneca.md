@@ -1,28 +1,27 @@
 ---
 id: personagem-seneca-lucio-anneo
-type: personagem
-title: "Arquivo Mestre: Sêneca, Lúcio Anneo"
+type: character
+title: 'Arquivo Mestre: Sêneca, Lúcio Anneo'
+language: por
+tags:
+- ancient-philosophy
+- century-1-ce
+- stoicism
+- ethics
+- letters
+- practical-wisdom
+- examined-life
+status: draft
+project: pedra_angular
+related:
+- '[[Epicteto]]'
+- '[[Marco Aurélio]]'
+- '[[Sêneca, o velho]]'
+license: CC-BY-SA-4.0
+processing: preparado por Διαφορεύς, Gemini (3.1 Pro ou 3.5 Flash), Claude Sonnet 4.6
 born: -4
 died: 65
 nationality: Romano
-area: Filosofia Antiga
-era: século I d.C.
-tags:
-  - estoicismo
-  - etica
-  - cartas
-  - sabedoria-pratica
-  - vida-examinada
-coautoria:
-  - Διαφορεύς
-  - Gemini (3.1 Pro ou 3.5 Flash)
-  - Claude Sonnet 4.6
-project: pedra_angular
-related:
-  - "[[Epicteto]]"
-  - "[[Marco Aurélio]]"
-  - "[[Sêneca, o velho]]"
-status: rascunho
 ---
 # Sêneca, Lúcio Anneo
 

@@ -1,19 +1,20 @@
 ---
 id: biblia-hebraica-wlc-19-salmos
-type: texto_primario
-title: "Salmos (Bíblia Hebraica — WLC)"
-author: null
+type: primary_text
+title: Salmos (Bíblia Hebraica — WLC)
+editor: Westminster Leningrad Codex 4.20
 language: heb
-editor: "Westminster Leningrad Codex 4.20"
-source: "Westminster Leningrad Codex via OpenScriptures morphhb (github.com/openscriptures/morphhb), 2026. Texto massorético, sem a camada morfológica."
-license: "dominio_publico"
-publishable: true
-status: rascunho
+tags:
+- bible
+- tanakh
+status: draft
 project: pedra_angular
-livro_numero: 19
-abrev: Sl
-sistema_referencia: versiculo
-tags: [biblia, hebraico, tanakh]
+reference_system: verse
+abbrev: Sl
+book_number: 19
+source: Westminster Leningrad Codex via OpenScriptures morphhb (github.com/openscriptures/morphhb), 2026. Texto massorético, sem a camada morfológica.
+license: public-domain
+publishable: true
 ---
 
 # Salmos — תהלים

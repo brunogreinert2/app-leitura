@@ -1,22 +1,17 @@
 ---
 id: abelardo-dialogus-inter-philosophum-iudaeum-et-christianum-lat-latinlibrary-sd
-type: texto_primario
-title: "Dialogus inter Philosophum, Iudaeum et Christianum"
-subtitle: null
-author: "Pedro Abelardo"
+type: primary_text
+title: Dialogus inter Philosophum, Iudaeum et Christianum
+author: Pedro Abelardo
 year_original: 1141
 language: lat
-translation: []
-publisher: null
-area: Escolástica
-era: 12º século d.C.
 tags:
-  - latim
-  - abelardo
-status: rascunho
+- scholasticism
+- century-12-ce
+status: draft
 project: pedra_angular
-source: "The Latin Library (thelatinlibrary.com), mirror local, 2026."
-related: []
+source: The Latin Library (thelatinlibrary.com), mirror local, 2026.
+license: public-domain
 ---
 
 # Dialogus inter Philosophum, Iudaeum et Christianum

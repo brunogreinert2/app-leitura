@@ -1,42 +1,37 @@
 ---
 id: douay-rheims-jud-eng-challoner-1752
-type: texto_primario
-title: "Jude (Douay-Rheims)"
-subtitle: null
-original_title: "Jude"
-author: null
+type: primary_text
+title: Jude (Douay-Rheims)
+original_title: Jude
+translator:
+- Gregory Martin
+- Richard Challoner
 year_original: 1610
-language: eng
-translation:
-  - Gregory Martin
-  - Richard Challoner
-editor: null
-publisher: null
 publication_year: 1752
-area: Escrituras
-era: século XVI-XVIII (tradução da Vulgata)
-sistema_referencia: versiculo
-abrev: "Jud"
-livro_numero: 72
-secao: "Catholic epistles"
-canon: "católico (73 livros), sem o apêndice clementino"
-scope: "25 versículos em 1 capítulos"
+language: eng
 tags:
-  - ingles
-  - biblia
-  - douay-rheims
-  - vulgata
-  - catholic-epistles
-coautoria:
-  - Διαφορεύς
-  - Claude Opus 5
-status: rascunho
+- bible
+- scripture
+- century-16-ce
+- century-17-ce
+- century-18-ce
+- douay-rheims
+- vulgate
+- catholic-epistles
+status: draft
 project: pedra_angular
-source: "The Holy Bible, Douay-Rheims version, revised by Bishop Richard Challoner (1749-1752). Arquivo TextOther/Jud.eng do repositório bitbucket.org/clementinetextproject/text, alinhado versículo a versículo com a Vulgata Clementina."
-license: "domínio público"
-publishable: true
 related:
-  - "Vulgata Clementina, Jud"
+- Vulgata Clementina, Jud
+reference_system: verse
+abbrev: Jud
+book_number: 72
+canon: católico (73 livros), sem o apêndice clementino
+section: Catholic epistles
+scope: 25 versículos em 1 capítulos
+source: The Holy Bible, Douay-Rheims version, revised by Bishop Richard Challoner (1749-1752). Arquivo TextOther/Jud.eng do repositório bitbucket.org/clementinetextproject/text, alinhado versículo a versículo com a Vulgata Clementina.
+license: public-domain
+publishable: true
+processing: preparado por Διαφορεύς, Claude Opus 5
 ---
 
 # Jude

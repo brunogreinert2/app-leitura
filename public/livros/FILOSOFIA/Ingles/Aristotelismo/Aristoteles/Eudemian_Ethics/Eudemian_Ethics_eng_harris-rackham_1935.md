@@ -1,21 +1,24 @@
 ---
 id: aristoteles-eudemian-ethics-eng-harris-rackham-1935
-type: texto_primario
-title: "Eudemian Ethics"
-subtitle: null
+type: primary_text
+title: Eudemian Ethics
 author: Aristotle
-year_original: null
-language: eng
-translation:
-  - Harris Rackham
+translator:
+- Harris Rackham
 publisher: William Heinemann Ltd.
-area: null
-era: null
-tags: []
-status: rascunho
+language: eng
+tags:
+- classical-philosophy
+- aristotelianism
+status: draft
 project: pedra_angular
-source: "Aristotle. Eudemian Ethics. Ed. Harris Rackham. London: William Heinemann Ltd., 1935. Perseus Digital Library, Tufts University (CC BY-SA 4.0). URN: null"
-related: []
+urn_work: urn:cts:greekLit:tlg0086.tlg009
+urn: urn:cts:greekLit:tlg0086.tlg009.perseus-eng2
+source: 'Aristotle. Eudemian Ethics. Ed. Harris Rackham. London: William Heinemann Ltd., 1935. Perseus Digital Library, Tufts University (CC BY-SA 4.0).'
+source_repo: PerseusDL/canonical-greekLit
+source_file: data/tlg0086/tlg009/tlg0086.tlg009.perseus-eng2.xml
+source_commit: e37eed2e8
+license: CC-BY-SA-4.0
 ---
 
 # Eudemian Ethics

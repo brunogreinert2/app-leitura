@@ -1,41 +1,35 @@
 ---
 id: vulgata-clementina-mal-lat-tweedale-2005
-type: texto_primario
-title: "Malachias (Vulgata Clementina)"
-subtitle: null
-original_title: "Malachias"
-author: null
-year_original: 1592
-language: lat
-translation:
-  - Hieronymus Stridonensis
+type: primary_text
+title: Malachias (Vulgata Clementina)
+original_title: Malachias
+translator:
+- Hieronymus Stridonensis
 editor:
-  - Michael Tweedale
-publisher: null
+- Michael Tweedale
+year_original: 1592
 publication_year: 2005
-area: Escrituras
-era: século IV d.C. (recensão de 1592)
-sistema_referencia: versiculo
-abrev: "Mal"
-livro_numero: 46
-secao: "Profetas"
-canon: "católico (73 livros), sem o apêndice clementino"
-scope: "55 versículos em 4 capítulos"
+language: lat
 tags:
-  - latim
-  - vulgata
-  - biblia
-  - clementina
-  - profetas
-coautoria:
-  - Διαφορεύς
-  - Claude Opus 5
-status: rascunho
+- bible
+- scripture
+- century-4-ce
+- century-15-ce
+- vulgate
+- clementine-vulgate
+- prophets
+status: draft
 project: pedra_angular
-source: "Biblia Sacra juxta Vulgatam Clementinam. Editio electronica: Michael Tweedale et al., The Clementine Text Project (2005; correções posteriores). Arquivo Text/Mal.lat do repositório bitbucket.org/clementinetextproject/text."
-license: "domínio público"
+reference_system: verse
+abbrev: Mal
+book_number: 46
+canon: católico (73 livros), sem o apêndice clementino
+section: Profetas
+scope: 55 versículos em 4 capítulos
+source: 'Biblia Sacra juxta Vulgatam Clementinam. Editio electronica: Michael Tweedale et al., The Clementine Text Project (2005; correções posteriores). Arquivo Text/Mal.lat do repositório bitbucket.org/clementinetextproject/text.'
+license: public-domain
 publishable: true
-related: []
+processing: preparado por Διαφορεύς, Claude Opus 5
 ---
 
 # Malachias

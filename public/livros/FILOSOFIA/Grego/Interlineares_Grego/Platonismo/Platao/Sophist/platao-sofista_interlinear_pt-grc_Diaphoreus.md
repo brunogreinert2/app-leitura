@@ -1,26 +1,26 @@
 ---
 id: platao-sofista-interlinear-pt-grc
-type: texto_primario
+type: primary_text
 title: O Sofista (Interlinear Português–Grego)
-subtitle: null
 author: Platão
-year_original: null
-language: pt-BR/grc
-translation:
-  - null
 publisher: Diaphoreus
-area: Filosofia Antiga
-era: século IV a.C.
+language:
+- por
+- grc
 tags:
-  - platonismo
-status: rascunho
+- classical-philosophy
+- ancient-philosophy
+- century-4-bce
+- platonism
+status: draft
 project: pedra_angular
-source:
-- O Dialético (Thiago Maia) / eBooksBrasil.org
-- "Plato. Σοφιστής. Ed. John Burnet. Oxford: Clarendon Press, 1905. Perseus Digital Library, Tufts University (CC BY-SA 4.0). URN: urn:cts:greekLit:tlg0059.tlg007.perseus-grc2"
 related:
-  - platao-o-sofista-odialetico
-  - platao-sophist-grc-john-burnet-1905
+- platao-o-sofista-odialetico
+- platao-sophist-grc-john-burnet-1905
+urn_work: urn:cts:greekLit:tlg0059.tlg007
+urn: urn:cts:greekLit:tlg0059.tlg007.perseus-grc2
+source: 'O Dialético (Thiago Maia) / eBooksBrasil.org; Plato. Σοφιστής. Ed. John Burnet. Oxford: Clarendon Press, 1905. Perseus Digital Library, Tufts University (CC BY-SA 4.0).'
+license: CC-BY-SA-4.0
 ---
 
 # O Sofista, Interlinear em Português e Grego

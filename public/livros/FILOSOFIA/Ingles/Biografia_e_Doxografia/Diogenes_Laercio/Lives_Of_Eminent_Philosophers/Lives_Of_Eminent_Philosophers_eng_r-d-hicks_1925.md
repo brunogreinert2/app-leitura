@@ -1,21 +1,25 @@
 ---
 id: diogenes-laercio-lives-of-eminent-philosophers-eng-r-d-hicks-1925
-type: texto_primario
-title: "Lives of Eminent Philosophers"
-subtitle: null
+type: primary_text
+title: Lives of Eminent Philosophers
 author: Diogenes Laertius
-year_original: null
-language: eng
-translation:
-  - R. D. Hicks
+translator:
+- R. D. Hicks
 publisher: Harvard University Press
-area: null
-era: null
-tags: []
-status: rascunho
+language: eng
+tags:
+- classical-philosophy
+- biography
+- doxography
+status: draft
 project: pedra_angular
-source: "Diogenes Laertius. Lives of Eminent Philosophers. Ed. R. D. Hicks. Cambridge, MA: Harvard University Press, 1925. Perseus Digital Library, Tufts University (CC BY-SA 4.0). URN: null"
-related: []
+urn_work: urn:cts:greekLit:tlg0004.tlg001
+urn: urn:cts:greekLit:tlg0004.tlg001.perseus-eng2
+source: 'Diogenes Laertius. Lives of Eminent Philosophers. Ed. R. D. Hicks. Cambridge, MA: Harvard University Press, 1925. Perseus Digital Library, Tufts University (CC BY-SA 4.0).'
+source_repo: PerseusDL/canonical-greekLit
+source_file: data/tlg0004/tlg001/tlg0004.tlg001.perseus-eng2.xml
+source_commit: e37eed2e8
+license: CC-BY-SA-4.0
 ---
 
 # Lives of Eminent Philosophers

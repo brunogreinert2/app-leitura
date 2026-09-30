@@ -1,20 +1,22 @@
 ---
 id: platao-alcibiades-1-grc-john-burnet-1910
-type: texto_primario
-title: "Ἀλκιβιάδης αʹ"
-subtitle: null
+type: primary_text
+title: Ἀλκιβιάδης αʹ
 author: Plato
-year_original: null
-language: grc
-translation: []
 publisher: Clarendon Press
-area: null
-era: null
-tags: []
-status: rascunho
+language: grc
+tags:
+- classical-philosophy
+- platonism
+status: draft
 project: pedra_angular
-source: "Plato. Ἀλκιβιάδης αʹ. Ed. John Burnet. Oxford: Clarendon Press, 1910. Perseus Digital Library, Tufts University (CC BY-SA 4.0). URN: urn:cts:greekLit:tlg0059.tlg013.perseus-grc2"
-related: []
+urn_work: urn:cts:greekLit:tlg0059.tlg013
+urn: urn:cts:greekLit:tlg0059.tlg013.perseus-grc2
+source: 'Plato. Ἀλκιβιάδης αʹ. Ed. John Burnet. Oxford: Clarendon Press, 1910. Perseus Digital Library, Tufts University (CC BY-SA 4.0).'
+source_repo: PerseusDL/canonical-greekLit
+source_file: data/tlg0059/tlg013/tlg0059.tlg013.perseus-grc2.xml
+source_commit: e37eed2e8
+license: CC-BY-SA-4.0
 ---
 
 # Ἀλκιβιάδης αʹ

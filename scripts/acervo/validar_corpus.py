@@ -52,13 +52,15 @@ RE_FM = re.compile(r"\A---[ \t]*\r?\n(.*?)\r?\n---[ \t]*(?:\r?\n|\Z)", re.S)
 
 # --- regras do corpo ------------------------------------------------------
 # (codigo, nivel, descricao, regex por linha). Nivel: erro | aviso.
+# C03 (wikilink [[ ]]), C04 (imagem ![]()) e C05 (citação >) saíram em
+# 2026-09-30: são sintaxe permitida no acervo — o wikilink é por onde aparecem
+# os personagens, o > desenha o risco vertical da citação, da assinatura e do
+# interlinear. A proibição vinha da D2 da Fase 0 e estava errada (Bruno).
+# Os códigos não se reaproveitam.
 REGRAS_LINHA = [
     # "null[ificamine]" e suplemento de editor em latim, nao vazamento
     ("C01-null", "erro", "literal null no texto", re.compile(r"\bnull\b(?!\[)")),
     ("C02-xml", "erro", "tag ou entidade XML/HTML", re.compile(r"<[A-Za-z/!][^>\n]*>|&(?:[a-z]+|#\d+);")),
-    ("C03-wikilink", "erro", "wikilink [[ ]] no acervo", re.compile(r"\[\[")),
-    ("C04-imagem", "erro", "imagem inline ![]() (N9: use {{img:id}})", re.compile(r"!\[[^\]]*\]\(")),
-    ("C05-citacao", "erro", "linha de citação > (fora da sintaxe do acervo)", re.compile(r"^\s*>")),
     ("C06-tabela", "erro", "tabela | (fora da sintaxe do acervo)", re.compile(r"^\s*\|.*\|\s*$")),
     ("C07-realce", "erro", "==realce== (fora da sintaxe do acervo)", re.compile(r"==[^=\n]+==")),
     # [217] [217a] ou o mesmo marcador duas vezes seguidas: o defeito do Sofista de Fowler
@@ -116,9 +118,6 @@ COMO_CONSERTAR = {
     "F32-valor-invalido": "use um valor da lista fechada do esquema (idioma: grc, lat, por, eng…; licença: public-domain, CC-BY-SA-4.0…).",
     "C01-null": "a palavra null vazou para o texto: é um campo vazio do conversor. Apague ou preencha.",
     "C02-xml": "sobrou marcação XML/HTML (<…>, &…;, <!-- -->). O acervo é texto puro.",
-    "C03-wikilink": "tire os [[ ]]: wikilink é da cópia do Obsidian, não do acervo.",
-    "C04-imagem": "imagem entra por {{img:id}} sozinha na linha, nunca ![]().",
-    "C05-citacao": "o > não existe no acervo. Verso e interlinear vão num bloco ```verso ou ```interlinear.",
     "C06-tabela": "tabela não existe no acervo.",
     "C07-realce": "==realce== não existe no acervo.",
     "C08-marcador-duplo": "o mesmo ponto tem dois marcadores ([217] [217a]): deixe só o da seção, [217a].",

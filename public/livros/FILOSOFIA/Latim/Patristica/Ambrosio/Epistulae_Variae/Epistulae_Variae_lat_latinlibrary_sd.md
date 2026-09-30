@@ -1,22 +1,17 @@
 ---
 id: ambrosio-epistulae-variae-lat-latinlibrary-sd
-type: texto_primario
-title: "Epistulae Variae"
-subtitle: null
-author: "Ambrósio de Milão"
+type: primary_text
+title: Epistulae Variae
+author: Ambrósio de Milão
 year_original: 390
 language: lat
-translation: []
-publisher: null
-area: Patrística
-era: 4º século d.C.
 tags:
-  - latim
-  - ambrosio
-status: rascunho
+- patristics
+- century-4-ce
+status: draft
 project: pedra_angular
-source: "The Latin Library (thelatinlibrary.com), mirror local, 2026."
-related: []
+source: The Latin Library (thelatinlibrary.com), mirror local, 2026.
+license: public-domain
 ---
 
 # Epistulae Variae

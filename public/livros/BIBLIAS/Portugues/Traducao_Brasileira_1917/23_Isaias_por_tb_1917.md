@@ -1,22 +1,20 @@
 ---
 id: biblia-23-isaias-por-tb-1917
-type: texto_primario
-title: "Isaías (Tradução Brasileira)"
-author: null
-language: por
-translator: "Comissão da Sociedade Bíblica Americana (H. C. Tucker et al.)"
-editor: null
-year_original: null
+type: primary_text
+title: Isaías (Tradução Brasileira)
+translator:
+- Comissão da Sociedade Bíblica Americana (H. C. Tucker et al.)
 publisher: SBB
-source: "Tradução Brasileira, 1917. Via github.com/damarals/biblias (JSON canônico), 2026."
-license: "dominio_publico"
-publishable: true
-status: rascunho
+language: por
+tags:
+- bible
+status: draft
 project: pedra_angular
-livro_numero: 23
-abrev: Is
-related: []
-tags: [biblia]
+abbrev: Is
+book_number: 23
+source: Tradução Brasileira, 1917. Via github.com/damarals/biblias (JSON canônico), 2026.
+license: public-domain
+publishable: true
 ---
 
 # Isaías

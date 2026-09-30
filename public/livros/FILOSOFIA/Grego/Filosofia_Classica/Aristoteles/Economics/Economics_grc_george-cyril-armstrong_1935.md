@@ -1,20 +1,22 @@
 ---
 id: aristoteles-economics-grc-george-cyril-armstrong-1935
-type: texto_primario
-title: "Οἰκονομικά"
-subtitle: null
+type: primary_text
+title: Οἰκονομικά
 author: Aristotle
-year_original: null
-language: grc
-translation: []
 publisher: William Heinemann Ltd.
-area: null
-era: null
-tags: []
-status: rascunho
+language: grc
+tags:
+- classical-philosophy
+- aristotelianism
+status: draft
 project: pedra_angular
-source: "Aristotle. Οἰκονομικά. Ed. George Cyril Armstrong. London: William Heinemann Ltd., 1935. Perseus Digital Library, Tufts University (CC BY-SA 4.0). URN: urn:cts:greekLit:tlg0086.tlg029.perseus-grc2"
-related: []
+urn_work: urn:cts:greekLit:tlg0086.tlg029
+urn: urn:cts:greekLit:tlg0086.tlg029.perseus-grc2
+source: 'Aristotle. Οἰκονομικά. Ed. George Cyril Armstrong. London: William Heinemann Ltd., 1935. Perseus Digital Library, Tufts University (CC BY-SA 4.0).'
+source_repo: PerseusDL/canonical-greekLit
+source_file: data/tlg0086/tlg029/tlg0086.tlg029.perseus-grc2.xml
+source_commit: e37eed2e8
+license: CC-BY-SA-4.0
 ---
 
 # Οἰκονομικά

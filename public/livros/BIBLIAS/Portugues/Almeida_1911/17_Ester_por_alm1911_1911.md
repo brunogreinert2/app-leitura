@@ -1,22 +1,19 @@
 ---
 id: biblia-17-ester-por-alm1911-1911
-type: texto_primario
-title: "Ester (Almeida Revista e Corrigida 1911)"
-author: null
+type: primary_text
+title: Ester (Almeida Revista e Corrigida 1911)
+translator:
+- João Ferreira de Almeida (revisão de 1911)
 language: por
-translator: "João Ferreira de Almeida (revisão de 1911)"
-editor: null
-year_original: null
-publisher: null
-source: "Almeida Revista e Corrigida 1911, 1911. Via github.com/damarals/biblias (JSON canônico), 2026."
-license: "dominio_publico"
-publishable: true
-status: rascunho
+tags:
+- bible
+status: draft
 project: pedra_angular
-livro_numero: 17
-abrev: Et
-related: []
-tags: [biblia]
+abbrev: Et
+book_number: 17
+source: Almeida Revista e Corrigida 1911, 1911. Via github.com/damarals/biblias (JSON canônico), 2026.
+license: public-domain
+publishable: true
 ---
 
 # Ester

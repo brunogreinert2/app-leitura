@@ -1,23 +1,17 @@
 ---
 id: tomas-de-aquino-de-principio-individuationis-lat-latinlibrary-sd
-type: texto_primario
-title: "De Principio Individuationis"
-subtitle: null
-author: "Tomás de Aquino"
+type: primary_text
+title: De Principio Individuationis
+author: Tomás de Aquino
 year_original: 1270
 language: lat
-translation: []
-publisher: null
-area: Escolástica
-era: 13º século d.C.
 tags:
-  - latim
-  - tomas-de-aquino
-  - escolastica
-status: rascunho
+- scholasticism
+- century-13-ce
+status: draft
 project: pedra_angular
-source: "The Latin Library (thelatinlibrary.com), mirror local, 2026."
-related: []
+source: The Latin Library (thelatinlibrary.com), mirror local, 2026.
+license: public-domain
 ---
 
 # De Principio Individuationis

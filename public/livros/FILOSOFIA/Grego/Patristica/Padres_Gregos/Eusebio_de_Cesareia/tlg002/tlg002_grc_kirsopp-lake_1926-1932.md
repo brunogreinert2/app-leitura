@@ -1,20 +1,21 @@
 ---
 id: eusebio-de-cesareia-tlg002-grc-kirsopp-lake-1926-1932
-type: texto_primario
-title: "Ἐκκλησιαστικὴ ἱστορία"
-subtitle: null
+type: primary_text
+title: Ἐκκλησιαστικὴ ἱστορία
 author: Eusebius of Caesarea
-year_original: null
-language: grc
-translation: []
 publisher: William Heinemann
-area: null
-era: null
-tags: []
-status: rascunho
+language: grc
+tags:
+- patristics
+status: draft
 project: pedra_angular
-source: "Eusebius of Caesarea. Ἐκκλησιαστικὴ ἱστορία. Ed. Kirsopp Lake. London: William Heinemann, 1926-1932. Perseus Digital Library, Tufts University (CC BY-SA 4.0). URN: urn:cts:greekLit:tlg2018.tlg002.perseus-grc2"
-related: []
+urn_work: urn:cts:greekLit:tlg2018.tlg002
+urn: urn:cts:greekLit:tlg2018.tlg002.perseus-grc2
+source: 'Eusebius of Caesarea. Ἐκκλησιαστικὴ ἱστορία. Ed. Kirsopp Lake. London: William Heinemann, 1926-1932. Perseus Digital Library, Tufts University (CC BY-SA 4.0).'
+source_repo: PerseusDL/canonical-greekLit
+source_file: data/tlg2018/tlg002/tlg2018.tlg002.perseus-grc2.xml
+source_commit: e37eed2e8
+license: CC-BY-SA-4.0
 ---
 
 # Ἐκκλησιαστικὴ ἱστορία

@@ -1,31 +1,30 @@
 ---
 id: personagem-rene-descartes
-type: personagem
-title: "Arquivo Mestre: René Descartes"
+type: character
+title: 'Arquivo Mestre: René Descartes'
+language: por
+tags:
+- modern-philosophy
+- century-17-ce
+- cogito
+- methodic-doubt
+- mind-body-dualism
+- res-cogitans
+- res-extensa
+- method
+- rationalism
+- epistemology
+- metaphysics
+status: published
+project: pedra_angular
+related:
+- '[[Spinoza]]'
+- '[[Voltaire]]'
+license: CC-BY-SA-4.0
+processing: preparado por Διαφορεύς, Gemini (3.1 Pro ou 3.5 Flash), Claude Sonnet 4.6
 born: 1596
 died: 1650
 nationality: Francês
-area: Filosofia Moderna
-era: século XVII d.C.
-tags:
-  - cogito-ergo-sum
-  - duvida-metodica
-  - dualismo-mente-corpo
-  - res-cogitans
-  - res-extensa
-  - metodo
-  - racionalismo
-  - epistemologia
-  - metafisica
-coautoria:
-  - Διαφορεύς
-  - Gemini (3.1 Pro ou 3.5 Flash)
-  - Claude Sonnet 4.6
-project: pedra_angular
-related:
-  - "[[Spinoza]]"
-  - "[[Voltaire]]"
-status: canonical_source
 ---
 
 

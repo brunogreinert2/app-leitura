@@ -1,42 +1,37 @@
 ---
 id: douay-rheims-2rg-eng-challoner-1752
-type: texto_primario
-title: "2 Kings (Douay-Rheims)"
-subtitle: null
-original_title: "2 Kings"
-author: null
+type: primary_text
+title: 2 Kings (Douay-Rheims)
+original_title: 2 Kings
+translator:
+- Gregory Martin
+- Richard Challoner
 year_original: 1610
-language: eng
-translation:
-  - Gregory Martin
-  - Richard Challoner
-editor: null
-publisher: null
 publication_year: 1752
-area: Escrituras
-era: século XVI-XVIII (tradução da Vulgata)
-sistema_referencia: versiculo
-abrev: "2Rg"
-livro_numero: 10
-secao: "Historical books"
-canon: "católico (73 livros), sem o apêndice clementino"
-scope: "695 versículos em 24 capítulos"
+language: eng
 tags:
-  - ingles
-  - biblia
-  - douay-rheims
-  - vulgata
-  - historical-books
-coautoria:
-  - Διαφορεύς
-  - Claude Opus 5
-status: rascunho
+- bible
+- scripture
+- century-16-ce
+- century-17-ce
+- century-18-ce
+- douay-rheims
+- vulgate
+- historical-books
+status: draft
 project: pedra_angular
-source: "The Holy Bible, Douay-Rheims version, revised by Bishop Richard Challoner (1749-1752). Arquivo TextOther/2Rg.eng do repositório bitbucket.org/clementinetextproject/text, alinhado versículo a versículo com a Vulgata Clementina."
-license: "domínio público"
-publishable: true
 related:
-  - "Vulgata Clementina, 2Rg"
+- Vulgata Clementina, 2Rg
+reference_system: verse
+abbrev: 2Rg
+book_number: 10
+canon: católico (73 livros), sem o apêndice clementino
+section: Historical books
+scope: 695 versículos em 24 capítulos
+source: The Holy Bible, Douay-Rheims version, revised by Bishop Richard Challoner (1749-1752). Arquivo TextOther/2Rg.eng do repositório bitbucket.org/clementinetextproject/text, alinhado versículo a versículo com a Vulgata Clementina.
+license: public-domain
+publishable: true
+processing: preparado por Διαφορεύς, Claude Opus 5
 ---
 
 # 2 Kings

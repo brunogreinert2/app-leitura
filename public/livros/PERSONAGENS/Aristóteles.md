@@ -1,27 +1,27 @@
 ---
 id: personagem-aristoteles-estagira
-type: personagem
-title: "Arquivo Mestre: Aristóteles de Estagira"
+type: character
+title: 'Arquivo Mestre: Aristóteles de Estagira'
+language: por
+tags:
+- ancient-philosophy
+- century-4-bce
+- actuality-and-potentiality
+- hylomorphism
+- substance
+- categories
+- peripatetic
+status: published
+project: pedra_angular
+related:
+- '[[Platão]]'
+- '[[Sócrates]]'
+- '[[Parmênides]]'
+license: CC-BY-SA-4.0
+processing: preparado por Διαφορεύς, Claude Sonnet 4.6
 born: -384
 died: -322
 nationality: Grego
-area: Filosofia Antiga
-era: século IV a.C.
-tags:
-  - ato-e-potencia
-  - hilemorfismo
-  - substancia
-  - categorias
-  - peripatetismo
-coautoria:
-  - Διαφορεύς
-  - Claude Sonnet 4.6
-project: pedra_angular
-related:
-  - "[[Platão]]"
-  - "[[Sócrates]]"
-  - "[[Parmênides]]"
-status: canonical_source
 ---
 
 # Aristóteles de Estagira

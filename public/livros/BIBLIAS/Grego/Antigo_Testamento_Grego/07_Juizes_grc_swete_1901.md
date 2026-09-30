@@ -1,24 +1,25 @@
 ---
 id: juizes-grc-lxx-swe-alex
-type: texto_primario
+type: primary_text
 title: Juízes
-subtitle: null
-author: null
-year_original: null
+base_edition: Septuaginta, ed. Henry Barclay Swete (Cambridge University Press, 1901-1909; domínio público), digitalizada pelo Open Greek and Latin Project / First1KGreek (Universidade de Leipzig, 2015) a partir do scan do Internet Archive; texto disponível sob CC BY-SA 4.0. [Cod. Alexandrinus]
 language: grc
-edition: "Septuaginta, ed. Henry Barclay Swete (Cambridge University Press, 1901-1909; domínio público), digitalizada pelo Open Greek and Latin Project / First1KGreek (Universidade de Leipzig, 2015) a partir do scan do Internet Archive; texto disponível sob CC BY-SA 4.0. [Cod. Alexandrinus]"
-area: Textos Biblicos
-era: "trad. sec. III-I a.C.; edição impressa de base: Swete 1901-1909"
 tags:
-  - biblia
-  - antigo-testamento
-  - grego
-  - septuaginta
-status: rascunho
+- bible
+- century-1-bce
+- century-3-bce
+- old-testament
+- septuagint
+status: draft
 project: pedra_angular
-source: "https://github.com/OpenGreekAndLatin/First1KGreek/tree/master/data/tlg0527/tlg008"
-processing: "sept_swete_first1k_to_pedra_angular.py v1.0, 2026-08-14"
-related: []
+urn_work: urn:cts:greekLit:tlg0527.tlg008
+urn: urn:cts:greekLit:tlg0527.tlg008.1st1K-grc1
+source: https://github.com/OpenGreekAndLatin/First1KGreek/tree/master/data/tlg0527/tlg008
+source_repo: OpenGreekAndLatin/First1KGreek
+source_file: data/tlg0527/tlg008/tlg0527.tlg008.1st1K-grc1.xml
+source_commit: bfea9acd
+license: CC-BY-SA-4.0
+processing: sept_swete_first1k_to_pedra_angular.py v1.0, 2026-08-14
 ---
 
 # Juízes

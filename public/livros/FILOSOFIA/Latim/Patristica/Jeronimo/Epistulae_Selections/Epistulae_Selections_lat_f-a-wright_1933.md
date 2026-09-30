@@ -1,20 +1,21 @@
 ---
 id: jeronimo-epistulae-selections-lat-f-a-wright-1933
-type: texto_primario
-title: "Epistulae. Selections."
-subtitle: null
+type: primary_text
+title: Epistulae. Selections.
 author: Jerome, Saint
-year_original: null
-language: lat
-translation: []
 publisher: William Heinemann Ltd.
-area: null
-era: null
-tags: []
-status: rascunho
+language: lat
+tags:
+- patristics
+status: draft
 project: pedra_angular
-source: "Jerome, Saint. Epistulae. Selections.. Ed. F.A. Wright. London: William Heinemann Ltd., 1933. Perseus Digital Library, Tufts University (CC BY-SA 4.0). URN: urn:cts:latinLit:stoa0162.stoa004.perseus-lat2"
-related: []
+urn_work: urn:cts:latinLit:stoa0162.stoa004
+urn: urn:cts:latinLit:stoa0162.stoa004.perseus-lat2
+source: 'Jerome, Saint. Epistulae. Selections.. Ed. F.A. Wright. London: William Heinemann Ltd., 1933. Perseus Digital Library, Tufts University (CC BY-SA 4.0).'
+source_repo: PerseusDL/canonical-latinLit
+source_file: data/stoa0162/stoa004/stoa0162.stoa004.perseus-lat2.xml
+source_commit: b90226f0
+license: CC-BY-SA-4.0
 ---
 
 # Epistulae. Selections.

@@ -1,22 +1,18 @@
 ---
 id: cicero-academica-lat-latinlibrary-sd
-type: texto_primario
-title: "Academica"
-subtitle: null
-author: "Marco Túlio Cícero"
+type: primary_text
+title: Academica
+author: Marco Túlio Cícero
 year_original: -45
 language: lat
-translation: []
-publisher: null
-area: Filosofia Antiga
-era: 1º século a.C.
 tags:
-  - latim
-  - cicero
-status: rascunho
+- roman-republic
+- ancient-philosophy
+- century-1-bce
+status: draft
 project: pedra_angular
-source: "The Latin Library (thelatinlibrary.com), mirror local, 2026."
-related: []
+source: The Latin Library (thelatinlibrary.com), mirror local, 2026.
+license: public-domain
 ---
 
 # Academica

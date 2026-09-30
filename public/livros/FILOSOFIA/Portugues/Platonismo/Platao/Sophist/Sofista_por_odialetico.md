@@ -1,22 +1,18 @@
 ---
 id: platao-o-sofista-odialetico
-type: texto_primario
+type: primary_text
 title: O Sofista
-subtitle: null
 author: Platão
-year_original: null
-language: pt-BR
-translation:
-  - null
 publisher: eBooksBrasil.org
-area: Filosofia Antiga
-era: século IV a.C.
+language: por
 tags:
-  - platonismo
-status: revisado
+- platonism
+- ancient-philosophy
+- century-4-bce
+status: reviewed
 project: pedra_angular
 source: O Dialético (Thiago Maia) / eBooksBrasil.org
-related: []
+license: LicenseRef-eBooksBrasil
 ---
 
 # O Sofista

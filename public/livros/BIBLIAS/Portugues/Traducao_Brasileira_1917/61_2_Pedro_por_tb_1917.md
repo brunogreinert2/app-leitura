@@ -1,22 +1,20 @@
 ---
 id: biblia-61-2-pedro-por-tb-1917
-type: texto_primario
-title: "2 Pedro (Tradução Brasileira)"
-author: null
-language: por
-translator: "Comissão da Sociedade Bíblica Americana (H. C. Tucker et al.)"
-editor: null
-year_original: null
+type: primary_text
+title: 2 Pedro (Tradução Brasileira)
+translator:
+- Comissão da Sociedade Bíblica Americana (H. C. Tucker et al.)
 publisher: SBB
-source: "Tradução Brasileira, 1917. Via github.com/damarals/biblias (JSON canônico), 2026."
-license: "dominio_publico"
-publishable: true
-status: rascunho
+language: por
+tags:
+- bible
+status: draft
 project: pedra_angular
-livro_numero: 61
-abrev: 2Pe
-related: []
-tags: [biblia]
+abbrev: 2Pe
+book_number: 61
+source: Tradução Brasileira, 1917. Via github.com/damarals/biblias (JSON canônico), 2026.
+license: public-domain
+publishable: true
 ---
 
 # 2 Pedro

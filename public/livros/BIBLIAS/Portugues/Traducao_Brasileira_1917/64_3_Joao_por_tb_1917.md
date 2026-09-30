@@ -1,22 +1,20 @@
 ---
 id: biblia-64-3-joao-por-tb-1917
-type: texto_primario
-title: "3 João (Tradução Brasileira)"
-author: null
-language: por
-translator: "Comissão da Sociedade Bíblica Americana (H. C. Tucker et al.)"
-editor: null
-year_original: null
+type: primary_text
+title: 3 João (Tradução Brasileira)
+translator:
+- Comissão da Sociedade Bíblica Americana (H. C. Tucker et al.)
 publisher: SBB
-source: "Tradução Brasileira, 1917. Via github.com/damarals/biblias (JSON canônico), 2026."
-license: "dominio_publico"
-publishable: true
-status: rascunho
+language: por
+tags:
+- bible
+status: draft
 project: pedra_angular
-livro_numero: 64
-abrev: 3Jo
-related: []
-tags: [biblia]
+abbrev: 3Jo
+book_number: 64
+source: Tradução Brasileira, 1917. Via github.com/damarals/biblias (JSON canônico), 2026.
+license: public-domain
+publishable: true
 ---
 
 # 3 João

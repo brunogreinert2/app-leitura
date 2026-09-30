@@ -1,24 +1,22 @@
 ---
 id: sofocles-antigone-pt-mellosouza-sd
-type: texto_primario
+type: primary_text
 title: Antígone
 subtitle: Tragédia
 author: Sófocles
-year_original: -442
-language: pt-BR
-translation:
-  - J. B. de Mello e Souza
+translator:
+- J. B. de Mello e Souza
 publisher: Clássicos Jackson (vol. XXII) — ed. digital ebooksBrasil.org
-area: Literatura Dramática Grega
-era: século V a.C.
+year_original: -442
+language: por
 tags:
-  - tragedia-grega
-  - sofocles
-  - teatro-antigo
-status: rascunho
+- greek-tragedy
+- century-5-bce
+- ancient-theatre
+status: draft
 project: pedra_angular
 source: Sófocles. Antígone. Trad. J. B. de Mello e Souza. Clássicos Jackson vol. XXII. ebooksBrasil.org, 2005
-related: []
+license: LicenseRef-eBooksBrasil
 ---
 
 # Antígone

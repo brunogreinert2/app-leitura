@@ -1,28 +1,26 @@
 ---
 id: personagem-miranda-fricker
-type: personagem
-title: "Arquivo Mestre: Miranda Fricker"
-born: 1966
-died: null
-nationality: Britânica
-area: Filosofia Contemporânea
-era: séculos XX–XXI d.C.
+type: character
+title: 'Arquivo Mestre: Miranda Fricker'
+language: por
 tags:
-  - injustica-epistemica
-  - injustica-testemunhal
-  - injustica-hermeneutica
-  - credibilidade
-  - lacuna-hermeneutica
-  - epistemologia-social
-  - etica
-  - feminismo
-coautoria:
-  - Διαφορεύς
-  - Gemini (3.1 Pro ou 3.5 Flash)
-  - Claude Sonnet 4.6
+- filosofia-contemporanea
+- century-20-ce
+- century-21-ce
+- epistemic-injustice
+- testimonial-injustice
+- hermeneutical-injustice
+- credibility
+- hermeneutical-gap
+- social-epistemology
+- ethics
+- feminism
+status: published
 project: pedra_angular
-related: []
-status: canonical_source
+license: CC-BY-SA-4.0
+processing: preparado por Διαφορεύς, Gemini (3.1 Pro ou 3.5 Flash), Claude Sonnet 4.6
+born: 1966
+nationality: Britânica
 ---
 
 

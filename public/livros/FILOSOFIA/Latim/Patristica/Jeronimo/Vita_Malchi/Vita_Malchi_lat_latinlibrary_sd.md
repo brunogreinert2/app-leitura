@@ -1,22 +1,18 @@
 ---
 id: jeronimo-vita-malchi-lat-latinlibrary-sd
-type: texto_primario
-title: "Vita Malchi"
-subtitle: null
-author: "Jerônimo de Estridão"
+type: primary_text
+title: Vita Malchi
+author: Jerônimo de Estridão
 year_original: 391
 language: lat
-translation: []
-publisher: null
-area: Patrística
-era: 4-5º século d.C.
 tags:
-  - latim
-  - jeronimo
-status: rascunho
+- patristics
+- century-4-ce
+- century-5-ce
+status: draft
 project: pedra_angular
-source: "The Latin Library (thelatinlibrary.com), mirror local, 2026."
-related: []
+source: The Latin Library (thelatinlibrary.com), mirror local, 2026.
+license: public-domain
 ---
 
 # Vita Malchi

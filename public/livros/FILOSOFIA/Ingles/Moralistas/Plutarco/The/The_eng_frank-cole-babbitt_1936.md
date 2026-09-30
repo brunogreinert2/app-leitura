@@ -1,21 +1,18 @@
 ---
 id: plutarco-the-eng-frank-cole-babbitt-1936
-type: texto_primario
-title: "The"
-subtitle: null
+type: primary_text
+title: The
 author: Plutarch
-year_original: null
-language: eng
-translation:
-  - Frank Cole Babbitt
+translator:
+- Frank Cole Babbitt
 publisher: Harvard University Press
-area: null
-era: null
-tags: []
-status: rascunho
+language: eng
+tags:
+- moralists
+status: draft
 project: pedra_angular
-source: "Plutarch. The. Ed. Frank Cole Babbitt. Cambridge, MA: Harvard University Press, 1936. Perseus Digital Library, Tufts University (CC BY-SA 4.0). URN: null"
-related: []
+source: 'Plutarch. The. Ed. Frank Cole Babbitt. Cambridge, MA: Harvard University Press, 1936. Perseus Digital Library, Tufts University (CC BY-SA 4.0).'
+license: CC-BY-SA-4.0
 ---
 
 # The

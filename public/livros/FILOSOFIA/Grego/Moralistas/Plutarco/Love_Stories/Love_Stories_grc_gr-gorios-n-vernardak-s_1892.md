@@ -1,20 +1,21 @@
 ---
 id: plutarco-love-stories-grc-gr-gorios-n-vernardak-s-1892
-type: texto_primario
-title: "Ἐρωτικαὶ διηγήσεις"
-subtitle: null
+type: primary_text
+title: Ἐρωτικαὶ διηγήσεις
 author: Plutarch
-year_original: null
-language: grc
-translation: []
 publisher: Teubner
-area: null
-era: null
-tags: []
-status: rascunho
+language: grc
+tags:
+- moralists
+status: draft
 project: pedra_angular
-source: "Plutarch. Ἐρωτικαὶ διηγήσεις. Ed. Grēgorios N. Vernardakēs. Leipzig: Teubner, 1892. Perseus Digital Library, Tufts University (CC BY-SA 4.0). URN: urn:cts:greekLit:tlg0007.tlg114.perseus-grc2"
-related: []
+urn_work: urn:cts:greekLit:tlg0007.tlg114
+urn: urn:cts:greekLit:tlg0007.tlg114.perseus-grc2
+source: 'Plutarch. Ἐρωτικαὶ διηγήσεις. Ed. Grēgorios N. Vernardakēs. Leipzig: Teubner, 1892. Perseus Digital Library, Tufts University (CC BY-SA 4.0).'
+source_repo: PerseusDL/canonical-greekLit
+source_file: data/tlg0007/tlg114/tlg0007.tlg114.perseus-grc2.xml
+source_commit: e37eed2e8
+license: CC-BY-SA-4.0
 ---
 
 # Ἐρωτικαὶ διηγήσεις

@@ -1,23 +1,19 @@
 ---
 id: agostinho-sermones-lat-latinlibrary-sd
-type: texto_primario
-title: "Sermones (seleção)"
-subtitle: null
-author: "Agostinho de Hipona"
+type: primary_text
+title: Sermones (seleção)
+author: Agostinho de Hipona
 year_original: 410
 language: lat
-translation: []
-publisher: null
-area: Patrística
-era: 4-5º século d.C.
 tags:
-  - latim
-  - agostinho
-  - sermoes
-status: rascunho
+- patristics
+- century-4-ce
+- century-5-ce
+- sermons
+status: draft
 project: pedra_angular
-source: "The Latin Library (thelatinlibrary.com), mirror local, 2026."
-related: []
+source: The Latin Library (thelatinlibrary.com), mirror local, 2026.
+license: public-domain
 ---
 
 # Sermones (seleção)

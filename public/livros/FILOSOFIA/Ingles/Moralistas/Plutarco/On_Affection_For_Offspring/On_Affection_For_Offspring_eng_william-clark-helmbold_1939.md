@@ -1,21 +1,23 @@
 ---
 id: plutarco-on-affection-for-offspring-eng-william-clark-helmbold-1939
-type: texto_primario
-title: "On Affection for Offspring"
-subtitle: null
+type: primary_text
+title: On Affection for Offspring
 author: Plutarch
-year_original: null
-language: eng
-translation:
-  - William Clark Helmbold
+translator:
+- William Clark Helmbold
 publisher: Harvard University Press
-area: null
-era: null
-tags: []
-status: rascunho
+language: eng
+tags:
+- moralists
+status: draft
 project: pedra_angular
-source: "Plutarch. On Affection for Offspring. Ed. William Clark Helmbold. Cambridge, MA: Harvard University Press, 1939. Perseus Digital Library, Tufts University (CC BY-SA 4.0). URN: null"
-related: []
+urn_work: urn:cts:greekLit:tlg0007.tlg098
+urn: urn:cts:greekLit:tlg0007.tlg098.perseus-eng3
+source: 'Plutarch. On Affection for Offspring. Ed. William Clark Helmbold. Cambridge, MA: Harvard University Press, 1939. Perseus Digital Library, Tufts University (CC BY-SA 4.0).'
+source_repo: PerseusDL/canonical-greekLit
+source_file: data/tlg0007/tlg098/tlg0007.tlg098.perseus-eng3.xml
+source_commit: e37eed2e8
+license: CC-BY-SA-4.0
 ---
 
 # On Affection for Offspring

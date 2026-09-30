@@ -1,22 +1,17 @@
 ---
 id: ambrosio-epistula-ad-sororem-marcellinam-lat-latinlibrary-sd
-type: texto_primario
-title: "Epistula ad Sororem Marcellinam"
-subtitle: null
-author: "Ambrósio de Milão"
+type: primary_text
+title: Epistula ad Sororem Marcellinam
+author: Ambrósio de Milão
 year_original: 386
 language: lat
-translation: []
-publisher: null
-area: Patrística
-era: 4º século d.C.
 tags:
-  - latim
-  - ambrosio
-status: rascunho
+- patristics
+- century-4-ce
+status: draft
 project: pedra_angular
-source: "The Latin Library (thelatinlibrary.com), mirror local, 2026."
-related: []
+source: The Latin Library (thelatinlibrary.com), mirror local, 2026.
+license: public-domain
 ---
 
 # Epistula ad Sororem Marcellinam

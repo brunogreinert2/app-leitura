@@ -1,21 +1,24 @@
 ---
 id: aristoteles-politica-eng-harris-rackham-1944
-type: texto_primario
-title: "Politics"
-subtitle: null
+type: primary_text
+title: Politics
 author: Aristotle
-year_original: null
-language: eng
-translation:
-  - Harris Rackham
+translator:
+- Harris Rackham
 publisher: William Heinemann Ltd.
-area: null
-era: null
-tags: []
-status: rascunho
+language: eng
+tags:
+- classical-philosophy
+- aristotelianism
+status: draft
 project: pedra_angular
-source: "Aristotle. Politics. Ed. Harris Rackham. London: William Heinemann Ltd., 1944. Perseus Digital Library, Tufts University (CC BY-SA 4.0). URN: null"
-related: []
+urn_work: urn:cts:greekLit:tlg0086.tlg035
+urn: urn:cts:greekLit:tlg0086.tlg035.perseus-eng2
+source: 'Aristotle. Politics. Ed. Harris Rackham. London: William Heinemann Ltd., 1944. Perseus Digital Library, Tufts University (CC BY-SA 4.0).'
+source_repo: PerseusDL/canonical-greekLit
+source_file: data/tlg0086/tlg035/tlg0086.tlg035.perseus-eng2.xml
+source_commit: e37eed2e8
+license: CC-BY-SA-4.0
 ---
 
 # Politics

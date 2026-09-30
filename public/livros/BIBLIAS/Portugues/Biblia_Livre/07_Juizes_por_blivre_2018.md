@@ -1,22 +1,19 @@
 ---
 id: biblia-07-juizes-por-blivre-2018
-type: texto_primario
-title: "Juízes (Bíblia Livre)"
-author: null
+type: primary_text
+title: Juízes (Bíblia Livre)
+translator:
+- Projeto Bíblia Livre (revisão da Almeida 1819)
 language: por
-translator: "Projeto Bíblia Livre (revisão da Almeida 1819)"
-editor: null
-year_original: null
-publisher: null
-source: "Bíblia Livre, 2018. Via github.com/damarals/biblias (JSON canônico), 2026."
-license: "dominio_publico"
-publishable: true
-status: rascunho
+tags:
+- bible
+status: draft
 project: pedra_angular
-livro_numero: 7
-abrev: Jz
-related: []
-tags: [biblia]
+abbrev: Jz
+book_number: 7
+source: Bíblia Livre, 2018. Via github.com/damarals/biblias (JSON canônico), 2026.
+license: public-domain
+publishable: true
 ---
 
 # Juízes

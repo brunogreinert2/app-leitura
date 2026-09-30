@@ -1,21 +1,23 @@
 ---
 id: plutarco-to-an-uneducated-ruler-eng-william-clark-helmbold-1936
-type: texto_primario
-title: "To an Uneducated Ruler"
-subtitle: null
+type: primary_text
+title: To an Uneducated Ruler
 author: Plutarch
-year_original: null
-language: eng
-translation:
-  - William Clark Helmbold
+translator:
+- William Clark Helmbold
 publisher: Harvard University Press
-area: null
-era: null
-tags: []
-status: rascunho
+language: eng
+tags:
+- moralists
+status: draft
 project: pedra_angular
-source: "Plutarch. To an Uneducated Ruler. Ed. William Clark Helmbold. Cambridge, MA: Harvard University Press, 1936. Perseus Digital Library, Tufts University (CC BY-SA 4.0). URN: null"
-related: []
+urn_work: urn:cts:greekLit:tlg0007.tlg116
+urn: urn:cts:greekLit:tlg0007.tlg116.perseus-eng3
+source: 'Plutarch. To an Uneducated Ruler. Ed. William Clark Helmbold. Cambridge, MA: Harvard University Press, 1936. Perseus Digital Library, Tufts University (CC BY-SA 4.0).'
+source_repo: PerseusDL/canonical-greekLit
+source_file: data/tlg0007/tlg116/tlg0007.tlg116.perseus-eng3.xml
+source_commit: e37eed2e8
+license: CC-BY-SA-4.0
 ---
 
 # To an Uneducated Ruler

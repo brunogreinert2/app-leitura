@@ -1,42 +1,37 @@
 ---
 id: douay-rheims-mc-eng-challoner-1752
-type: texto_primario
-title: "Mark (Douay-Rheims)"
-subtitle: null
-original_title: "Mark"
-author: null
+type: primary_text
+title: Mark (Douay-Rheims)
+original_title: Mark
+translator:
+- Gregory Martin
+- Richard Challoner
 year_original: 1610
-language: eng
-translation:
-  - Gregory Martin
-  - Richard Challoner
-editor: null
-publisher: null
 publication_year: 1752
-area: Escrituras
-era: século XVI-XVIII (tradução da Vulgata)
-sistema_referencia: versiculo
-abrev: "Mc"
-livro_numero: 48
-secao: "Gospels"
-canon: "católico (73 livros), sem o apêndice clementino"
-scope: "677 versículos em 16 capítulos"
+language: eng
 tags:
-  - ingles
-  - biblia
-  - douay-rheims
-  - vulgata
-  - gospels
-coautoria:
-  - Διαφορεύς
-  - Claude Opus 5
-status: rascunho
+- bible
+- scripture
+- century-16-ce
+- century-17-ce
+- century-18-ce
+- douay-rheims
+- vulgate
+- gospels
+status: draft
 project: pedra_angular
-source: "The Holy Bible, Douay-Rheims version, revised by Bishop Richard Challoner (1749-1752). Arquivo TextOther/Mc.eng do repositório bitbucket.org/clementinetextproject/text, alinhado versículo a versículo com a Vulgata Clementina."
-license: "domínio público"
-publishable: true
 related:
-  - "Vulgata Clementina, Mc"
+- Vulgata Clementina, Mc
+reference_system: verse
+abbrev: Mc
+book_number: 48
+canon: católico (73 livros), sem o apêndice clementino
+section: Gospels
+scope: 677 versículos em 16 capítulos
+source: The Holy Bible, Douay-Rheims version, revised by Bishop Richard Challoner (1749-1752). Arquivo TextOther/Mc.eng do repositório bitbucket.org/clementinetextproject/text, alinhado versículo a versículo com a Vulgata Clementina.
+license: public-domain
+publishable: true
+processing: preparado por Διαφορεύς, Claude Opus 5
 ---
 
 # Mark

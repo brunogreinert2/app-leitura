@@ -1,22 +1,19 @@
 ---
 id: voltaire-zadig-jahr
-type: texto_primario
+type: primary_text
 title: Zadig
 subtitle: ou o Destino
 author: Voltaire
-year_original: 1747
-language: pt-BR
-translation:
-  - null
 publisher: eBooksBrasil.org
-area: Filosofia
-era: século XVIII d.C.
+year_original: 1747
+language: por
 tags:
-  - iluminismo
-status: revisado
+- enlightenment
+- century-18-ce
+status: reviewed
 project: pedra_angular
 source: Garcia, Nélson Jahr (ed.)
-related: []
+license: LicenseRef-eBooksBrasil
 ---
 
 # Zadig

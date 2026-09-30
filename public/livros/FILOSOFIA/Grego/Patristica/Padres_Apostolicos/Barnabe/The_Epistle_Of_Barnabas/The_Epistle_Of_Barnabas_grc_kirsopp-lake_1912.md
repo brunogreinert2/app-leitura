@@ -1,20 +1,18 @@
 ---
 id: barnabe-the-epistle-of-barnabas-grc-kirsopp-lake-1912
-type: texto_primario
-title: "Βαρνάβα ἐπιστολή"
-subtitle: null
+type: primary_text
+title: Βαρνάβα ἐπιστολή
 author: Barnabas
-year_original: null
-language: grc
-translation: []
 publisher: Harvard University Press
-area: null
-era: null
-tags: []
-status: rascunho
+language: grc
+tags:
+- patristics
+status: draft
 project: pedra_angular
-source: "Barnabas. Βαρνάβα ἐπιστολή. Ed. Kirsopp Lake. Cambridge, Massachusetts, USA: Harvard University Press, 1912. Perseus Digital Library, Tufts University (CC BY-SA 4.0). URN: urn:cts:greekLit:tlg1216.tlg001.perseus-grc2"
-related: []
+urn_work: urn:cts:greekLit:tlg1216.tlg001
+urn: urn:cts:greekLit:tlg1216.tlg001.perseus-grc2
+source: 'Barnabas. Βαρνάβα ἐπιστολή. Ed. Kirsopp Lake. Cambridge, Massachusetts, USA: Harvard University Press, 1912. Perseus Digital Library, Tufts University (CC BY-SA 4.0).'
+license: CC-BY-SA-4.0
 ---
 
 # Βαρνάβα ἐπιστολή

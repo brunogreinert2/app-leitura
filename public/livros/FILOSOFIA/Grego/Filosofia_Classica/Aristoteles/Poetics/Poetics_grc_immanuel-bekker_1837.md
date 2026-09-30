@@ -1,20 +1,22 @@
 ---
 id: aristoteles-poetics-grc-immanuel-bekker-1837
-type: texto_primario
-title: "Περὶ ποιητικῆς"
-subtitle: null
+type: primary_text
+title: Περὶ ποιητικῆς
 author: Aristotle
-year_original: null
-language: grc
-translation: []
 publisher: Oxford University Press
-area: null
-era: null
-tags: []
-status: rascunho
+language: grc
+tags:
+- aristotelianism
+- classical-philosophy
+status: draft
 project: pedra_angular
-source: "Aristotle. Περὶ ποιητικῆς. Ed. Immanuel Bekker. Oxford: Oxford University Press, 1837. Perseus Digital Library, Tufts University (CC BY-SA 4.0). URN: urn:cts:greekLit:tlg0086.tlg034.digicorpus-grc2"
-related: []
+urn_work: urn:cts:greekLit:tlg0086.tlg034
+urn: urn:cts:greekLit:tlg0086.tlg034.digicorpus-grc2
+source: 'Aristotle. Περὶ ποιητικῆς. Ed. Immanuel Bekker. Oxford: Oxford University Press, 1837. Perseus Digital Library, Tufts University (CC BY-SA 4.0).'
+source_repo: PerseusDL/canonical-greekLit
+source_file: data/tlg0086/tlg034/tlg0086.tlg034.digicorpus-grc2.xml
+source_commit: e37eed2e8
+license: CC-BY-SA-4.0
 ---
 
 # Περὶ ποιητικῆς

@@ -1,21 +1,23 @@
 ---
 id: plutarco-sayings-of-kings-and-commanders-eng-frank-cole-babbitt-1931
-type: texto_primario
-title: "Sayings of Kings and Commanders"
-subtitle: null
+type: primary_text
+title: Sayings of Kings and Commanders
 author: Plutarch
-year_original: null
-language: eng
-translation:
-  - Frank Cole Babbitt
+translator:
+- Frank Cole Babbitt
 publisher: Harvard University Press
-area: null
-era: null
-tags: []
-status: rascunho
+language: eng
+tags:
+- moralists
+status: draft
 project: pedra_angular
-source: "Plutarch. Sayings of Kings and Commanders. Ed. Frank Cole Babbitt. Cambridge, MA: Harvard University Press, 1931. Perseus Digital Library, Tufts University (CC BY-SA 4.0). URN: null"
-related: []
+urn_work: urn:cts:greekLit:tlg0007.tlg081
+urn: urn:cts:greekLit:tlg0007.tlg081.perseus-eng3
+source: 'Plutarch. Sayings of Kings and Commanders. Ed. Frank Cole Babbitt. Cambridge, MA: Harvard University Press, 1931. Perseus Digital Library, Tufts University (CC BY-SA 4.0).'
+source_repo: PerseusDL/canonical-greekLit
+source_file: data/tlg0007/tlg081/tlg0007.tlg081.perseus-eng3.xml
+source_commit: e37eed2e8
+license: CC-BY-SA-4.0
 ---
 
 # Sayings of Kings and Commanders

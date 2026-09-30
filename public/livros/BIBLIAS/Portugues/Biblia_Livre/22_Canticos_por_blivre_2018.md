@@ -1,22 +1,19 @@
 ---
 id: biblia-22-canticos-por-blivre-2018
-type: texto_primario
-title: "Cânticos (Bíblia Livre)"
-author: null
+type: primary_text
+title: Cânticos (Bíblia Livre)
+translator:
+- Projeto Bíblia Livre (revisão da Almeida 1819)
 language: por
-translator: "Projeto Bíblia Livre (revisão da Almeida 1819)"
-editor: null
-year_original: null
-publisher: null
-source: "Bíblia Livre, 2018. Via github.com/damarals/biblias (JSON canônico), 2026."
-license: "dominio_publico"
-publishable: true
-status: rascunho
+tags:
+- bible
+status: draft
 project: pedra_angular
-livro_numero: 22
-abrev: Ct
-related: []
-tags: [biblia]
+abbrev: Ct
+book_number: 22
+source: Bíblia Livre, 2018. Via github.com/damarals/biblias (JSON canônico), 2026.
+license: public-domain
+publishable: true
 ---
 
 # Cânticos

@@ -1,23 +1,19 @@
 ---
 id: machiavelli-o-principe-pt-anonimo-sd
-type: texto_primario
+type: primary_text
 title: O Príncipe
-subtitle: null
 author: Niccolò Machiavelli
-year_original: 1513
-language: pt-BR
-translation: null
 publisher: Ridendo Castigat Mores (ebooksBrasil.org)
-area: Filosofia Política
-era: século XVI d.C.
+year_original: 1513
+language: por
 tags:
-  - filosofia-politica
-  - renascimento
-  - maquiavel
-status: rascunho
+- renaissance
+- political-philosophy
+- century-16-ce
+status: draft
 project: pedra_angular
 source: Machiavelli, Niccolò (1513/1532). Trad. anônima. ebooksBrasil.org, ed. Ridendo Castigat Mores
-related: []
+license: LicenseRef-eBooksBrasil
 ---
 
 # O Príncipe

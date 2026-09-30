@@ -1,22 +1,19 @@
 ---
 id: biblia-48-galatas-por-alm1911-1911
-type: texto_primario
-title: "Gálatas (Almeida Revista e Corrigida 1911)"
-author: null
+type: primary_text
+title: Gálatas (Almeida Revista e Corrigida 1911)
+translator:
+- João Ferreira de Almeida (revisão de 1911)
 language: por
-translator: "João Ferreira de Almeida (revisão de 1911)"
-editor: null
-year_original: null
-publisher: null
-source: "Almeida Revista e Corrigida 1911, 1911. Via github.com/damarals/biblias (JSON canônico), 2026."
-license: "dominio_publico"
-publishable: true
-status: rascunho
+tags:
+- bible
+status: draft
 project: pedra_angular
-livro_numero: 48
-abrev: Gl
-related: []
-tags: [biblia]
+abbrev: Gl
+book_number: 48
+source: Almeida Revista e Corrigida 1911, 1911. Via github.com/damarals/biblias (JSON canônico), 2026.
+license: public-domain
+publishable: true
 ---
 
 # Gálatas

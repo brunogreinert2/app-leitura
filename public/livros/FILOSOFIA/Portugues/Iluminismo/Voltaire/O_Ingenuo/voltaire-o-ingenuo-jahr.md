@@ -1,22 +1,18 @@
 ---
 id: voltaire-o-ingenuo-jahr
-type: texto_primario
+type: primary_text
 title: O Ingênuo
-subtitle: null
 author: Voltaire
-year_original: 1767
-language: pt-BR
-translation:
-  - null
 publisher: eBooksBrasil.org
-area: Filosofia
-era: século XVIII d.C.
+year_original: 1767
+language: por
 tags:
-  - iluminismo
-status: revisado
+- enlightenment
+- century-18-ce
+status: reviewed
 project: pedra_angular
 source: Garcia, Nélson Jahr (ed.)
-related: []
+license: LicenseRef-eBooksBrasil
 ---
 
 # O Ingênuo

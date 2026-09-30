@@ -1,22 +1,19 @@
 ---
 id: biblia-57-filemom-por-alm1911-1911
-type: texto_primario
-title: "Filemom (Almeida Revista e Corrigida 1911)"
-author: null
+type: primary_text
+title: Filemom (Almeida Revista e Corrigida 1911)
+translator:
+- João Ferreira de Almeida (revisão de 1911)
 language: por
-translator: "João Ferreira de Almeida (revisão de 1911)"
-editor: null
-year_original: null
-publisher: null
-source: "Almeida Revista e Corrigida 1911, 1911. Via github.com/damarals/biblias (JSON canônico), 2026."
-license: "dominio_publico"
-publishable: true
-status: rascunho
+tags:
+- bible
+status: draft
 project: pedra_angular
-livro_numero: 57
-abrev: Fm
-related: []
-tags: [biblia]
+abbrev: Fm
+book_number: 57
+source: Almeida Revista e Corrigida 1911, 1911. Via github.com/damarals/biblias (JSON canônico), 2026.
+license: public-domain
+publishable: true
 ---
 
 # Filemom

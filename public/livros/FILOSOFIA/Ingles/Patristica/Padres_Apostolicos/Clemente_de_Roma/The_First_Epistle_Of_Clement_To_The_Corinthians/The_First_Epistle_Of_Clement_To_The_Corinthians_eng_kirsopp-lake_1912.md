@@ -1,21 +1,23 @@
 ---
 id: clemente-de-roma-the-first-epistle-of-clement-to-the-corinthians-eng-kirsopp-lake-1912
-type: texto_primario
-title: "The First Epistle of Clement to the Corinthians"
-subtitle: null
+type: primary_text
+title: The First Epistle of Clement to the Corinthians
 author: Clement of Rome
-year_original: null
-language: eng
-translation:
-  - Kirsopp Lake
+translator:
+- Kirsopp Lake
 publisher: William Heinemann
-area: null
-era: null
-tags: []
-status: rascunho
+language: eng
+tags:
+- patristics
+status: draft
 project: pedra_angular
-source: "Clement of Rome. The First Epistle of Clement to the Corinthians. Ed. Kirsopp Lake. London: William Heinemann, 1912. Perseus Digital Library, Tufts University (CC BY-SA 4.0). URN: null"
-related: []
+urn_work: urn:cts:greekLit:tlg1271.tlg001
+urn: urn:cts:greekLit:tlg1271.tlg001.perseus-eng1
+source: 'Clement of Rome. The First Epistle of Clement to the Corinthians. Ed. Kirsopp Lake. London: William Heinemann, 1912. Perseus Digital Library, Tufts University (CC BY-SA 4.0).'
+source_repo: PerseusDL/canonical-greekLit
+source_file: data/tlg1271/tlg001/tlg1271.tlg001.perseus-eng1.xml
+source_commit: e37eed2e8
+license: CC-BY-SA-4.0
 ---
 
 # The First Epistle of Clement to the Corinthians

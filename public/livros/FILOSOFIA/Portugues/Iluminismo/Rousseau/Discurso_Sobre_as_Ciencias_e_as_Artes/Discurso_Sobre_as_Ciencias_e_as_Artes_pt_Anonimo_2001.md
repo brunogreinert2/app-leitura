@@ -1,22 +1,18 @@
 ---
 id: rousseau-discurso-sobre-as-ciencias-e-as-artes-pt-anonimo-2001
-type: texto_primario
+type: primary_text
 title: Discurso Sobre as Ciências e as Artes
-subtitle: null
 author: Jean-Jacques Rousseau
+publisher: Edição Ridendo Castigat Mores (Nélson Jahr Garcia) — ed. digital eBooksBrasil.org, 2001
 year_original: 1750
-language: pt-BR
-translation:
-  - null
-publisher: "Edição Ridendo Castigat Mores (Nélson Jahr Garcia) — ed. digital eBooksBrasil.org, 2001"
-area: Filosofia
-era: século XVIII d.C.
+language: por
 tags:
-  - iluminismo
-status: rascunho
+- enlightenment
+- century-18-ce
+status: draft
 project: pedra_angular
-source: "Rousseau, Jean-Jacques. Discurso Sobre as Ciências e as Artes. Edição Ridendo Castigat Mores (Nélson Jahr Garcia). eBooksBrasil.org, 2001 (tradutor não identificado na fonte)"
-related: []
+source: Rousseau, Jean-Jacques. Discurso Sobre as Ciências e as Artes. Edição Ridendo Castigat Mores (Nélson Jahr Garcia). eBooksBrasil.org, 2001 (tradutor não identificado na fonte)
+license: LicenseRef-eBooksBrasil
 ---
 
 DISCURSO QUE CONQUISTOU O PRÊMIO DA ACADEMIA DE DIJON NO ANO DE 1750 SOBRE ESTA QUESTÃO: SE O RESTABELECIMENTO DAS CIÊNCIAS E DAS ARTES CONTRIBUIU PARA PURIFICAR OS COSTUMES.

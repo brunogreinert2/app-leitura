@@ -1,22 +1,19 @@
 ---
 id: biblia-31-obadias-por-blivre-2018
-type: texto_primario
-title: "Obadias (Bíblia Livre)"
-author: null
+type: primary_text
+title: Obadias (Bíblia Livre)
+translator:
+- Projeto Bíblia Livre (revisão da Almeida 1819)
 language: por
-translator: "Projeto Bíblia Livre (revisão da Almeida 1819)"
-editor: null
-year_original: null
-publisher: null
-source: "Bíblia Livre, 2018. Via github.com/damarals/biblias (JSON canônico), 2026."
-license: "dominio_publico"
-publishable: true
-status: rascunho
+tags:
+- bible
+status: draft
 project: pedra_angular
-livro_numero: 31
-abrev: Ob
-related: []
-tags: [biblia]
+abbrev: Ob
+book_number: 31
+source: Bíblia Livre, 2018. Via github.com/damarals/biblias (JSON canônico), 2026.
+license: public-domain
+publishable: true
 ---
 
 # Obadias

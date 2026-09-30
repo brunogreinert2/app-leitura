@@ -1,42 +1,37 @@
 ---
 id: douay-rheims-jon-eng-challoner-1752
-type: texto_primario
-title: "Jonas (Douay-Rheims)"
-subtitle: null
-original_title: "Jonas"
-author: null
+type: primary_text
+title: Jonas (Douay-Rheims)
+original_title: Jonas
+translator:
+- Gregory Martin
+- Richard Challoner
 year_original: 1610
-language: eng
-translation:
-  - Gregory Martin
-  - Richard Challoner
-editor: null
-publisher: null
 publication_year: 1752
-area: Escrituras
-era: século XVI-XVIII (tradução da Vulgata)
-sistema_referencia: versiculo
-abrev: "Jon"
-livro_numero: 39
-secao: "Prophets"
-canon: "católico (73 livros), sem o apêndice clementino"
-scope: "48 versículos em 4 capítulos"
+language: eng
 tags:
-  - ingles
-  - biblia
-  - douay-rheims
-  - vulgata
-  - prophets
-coautoria:
-  - Διαφορεύς
-  - Claude Opus 5
-status: rascunho
+- bible
+- scripture
+- century-16-ce
+- century-17-ce
+- century-18-ce
+- douay-rheims
+- vulgate
+- prophets
+status: draft
 project: pedra_angular
-source: "The Holy Bible, Douay-Rheims version, revised by Bishop Richard Challoner (1749-1752). Arquivo TextOther/Jon.eng do repositório bitbucket.org/clementinetextproject/text, alinhado versículo a versículo com a Vulgata Clementina."
-license: "domínio público"
-publishable: true
 related:
-  - "Vulgata Clementina, Jon"
+- Vulgata Clementina, Jon
+reference_system: verse
+abbrev: Jon
+book_number: 39
+canon: católico (73 livros), sem o apêndice clementino
+section: Prophets
+scope: 48 versículos em 4 capítulos
+source: The Holy Bible, Douay-Rheims version, revised by Bishop Richard Challoner (1749-1752). Arquivo TextOther/Jon.eng do repositório bitbucket.org/clementinetextproject/text, alinhado versículo a versículo com a Vulgata Clementina.
+license: public-domain
+publishable: true
+processing: preparado por Διαφορεύς, Claude Opus 5
 ---
 
 # Jonas

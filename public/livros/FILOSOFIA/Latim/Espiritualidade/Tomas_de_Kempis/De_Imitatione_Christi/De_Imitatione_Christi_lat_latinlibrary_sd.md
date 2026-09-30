@@ -1,22 +1,17 @@
 ---
 id: tomas-de-kempis-de-imitatione-christi-lat-latinlibrary-sd
-type: texto_primario
-title: "De Imitatione Christi"
-subtitle: null
-author: "Tomás de Kempis"
+type: primary_text
+title: De Imitatione Christi
+author: Tomás de Kempis
 year_original: 1427
 language: lat
-translation: []
-publisher: null
-area: Espiritualidade Cristã
-era: 15º século d.C.
 tags:
-  - latim
-  - tomas-de-kempis
-status: rascunho
+- spirituality
+- century-15-ce
+status: draft
 project: pedra_angular
-source: "The Latin Library (thelatinlibrary.com), mirror local, 2026."
-related: []
+source: The Latin Library (thelatinlibrary.com), mirror local, 2026.
+license: public-domain
 ---
 
 # De Imitatione Christi

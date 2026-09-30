@@ -1,22 +1,17 @@
 ---
 id: boecio-de-dacia-de-summo-bono-lat-latinlibrary-sd
-type: texto_primario
-title: "De Summo Bono"
-subtitle: null
-author: "Boécio da Dácia"
+type: primary_text
+title: De Summo Bono
+author: Boécio da Dácia
 year_original: 1270
 language: lat
-translation: []
-publisher: null
-area: Escolástica
-era: 13º século d.C.
 tags:
-  - latim
-  - boecio_de_dacia
-status: rascunho
+- scholasticism
+- century-13-ce
+status: draft
 project: pedra_angular
-source: "The Latin Library (thelatinlibrary.com), mirror local, 2026."
-related: []
+source: The Latin Library (thelatinlibrary.com), mirror local, 2026.
+license: public-domain
 ---
 
 # De Summo Bono

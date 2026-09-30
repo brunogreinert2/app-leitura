@@ -1,23 +1,20 @@
 ---
 id: cicero-de-re-publica-pt-anonimo-sd
-type: texto_primario
+type: primary_text
 title: Da República
-subtitle: null
 author: Marco Túlio Cícero
-year_original: -51
-language: pt-BR
-translation: null
 publisher: Ridendo Castigat Mores (ebooksBrasil.org)
-area: Filosofia Política
-era: século I a.C.
+year_original: -51
+language: por
 tags:
-  - filosofia-politica
-  - roma-antiga
-  - cicero
-status: rascunho
+- roman-republic
+- political-philosophy
+- century-1-bce
+- ancient-rome
+status: draft
 project: pedra_angular
 source: Cícero, Marco Túlio (51 a.C.). Da República. Trad. anônima. Apresentação de Nélson Jahr Garcia. ebooksBrasil.org, ed. Ridendo Castigat Mores
-related: []
+license: LicenseRef-eBooksBrasil
 ---
 
 # Da República

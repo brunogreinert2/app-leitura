@@ -1,22 +1,18 @@
 ---
 id: jeronimo-epistulae-selecao-lat-latinlibrary-sd
-type: texto_primario
-title: "Epistulae (seleção)"
-subtitle: null
-author: "Jerônimo de Estridão"
+type: primary_text
+title: Epistulae (seleção)
+author: Jerônimo de Estridão
 year_original: 400
 language: lat
-translation: []
-publisher: null
-area: Patrística
-era: 4-5º século d.C.
 tags:
-  - latim
-  - jeronimo
-status: rascunho
+- patristics
+- century-4-ce
+- century-5-ce
+status: draft
 project: pedra_angular
-source: "The Latin Library (thelatinlibrary.com), mirror local, 2026."
-related: []
+source: The Latin Library (thelatinlibrary.com), mirror local, 2026.
+license: public-domain
 ---
 
 # Epistulae (seleção)

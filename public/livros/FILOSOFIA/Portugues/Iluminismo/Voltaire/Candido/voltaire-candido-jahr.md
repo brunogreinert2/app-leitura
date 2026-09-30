@@ -1,22 +1,19 @@
 ---
 id: voltaire-candido-jahr
-type: texto_primario
+type: primary_text
 title: Cândido
 subtitle: ou o Otimismo
 author: Voltaire
-year_original: 1759
-language: pt-BR
-translation:
-  - null
 publisher: eBooksBrasil.org
-area: Filosofia
-era: século XVIII d.C.
+year_original: 1759
+language: por
 tags:
-  - iluminismo
-status: revisado
+- enlightenment
+- century-18-ce
+status: reviewed
 project: pedra_angular
 source: Garcia, Nélson Jahr (ed.)
-related: []
+license: LicenseRef-eBooksBrasil
 ---
 
 # Cândido

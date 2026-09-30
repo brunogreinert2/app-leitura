@@ -1,20 +1,21 @@
 ---
 id: joao-damasceno-tlg066-grc-george-ratcliffe-woodward-1914
-type: texto_primario
-title: "Βαρλαάμ καί Ἰωάσαφ"
-subtitle: null
+type: primary_text
+title: Βαρλαάμ καί Ἰωάσαφ
 author: John of Damascus
-year_original: null
-language: grc
-translation: []
 publisher: William Heinemann
-area: null
-era: null
-tags: []
-status: rascunho
+language: grc
+tags:
+- patristics
+status: draft
 project: pedra_angular
-source: "John of Damascus. Βαρλαάμ καί Ἰωάσαφ. Ed. George Ratcliffe Woodward. London: William Heinemann, 1914. Perseus Digital Library, Tufts University (CC BY-SA 4.0). URN: urn:cts:greekLit:tlg2934.tlg066.perseus-grc2"
-related: []
+urn_work: urn:cts:greekLit:tlg2934.tlg066
+urn: urn:cts:greekLit:tlg2934.tlg066.perseus-grc2
+source: 'John of Damascus. Βαρλαάμ καί Ἰωάσαφ. Ed. George Ratcliffe Woodward. London: William Heinemann, 1914. Perseus Digital Library, Tufts University (CC BY-SA 4.0).'
+source_repo: PerseusDL/canonical-greekLit
+source_file: data/tlg2934/tlg066/tlg2934.tlg066.perseus-grc2.xml
+source_commit: e37eed2e8
+license: CC-BY-SA-4.0
 ---
 
 # Βαρλαάμ καί Ἰωάσαφ

@@ -1,19 +1,20 @@
 ---
 id: biblia-hebraica-wlc-07-juizes
-type: texto_primario
-title: "Juízes (Bíblia Hebraica — WLC)"
-author: null
+type: primary_text
+title: Juízes (Bíblia Hebraica — WLC)
+editor: Westminster Leningrad Codex 4.20
 language: heb
-editor: "Westminster Leningrad Codex 4.20"
-source: "Westminster Leningrad Codex via OpenScriptures morphhb (github.com/openscriptures/morphhb), 2026. Texto massorético, sem a camada morfológica."
-license: "dominio_publico"
-publishable: true
-status: rascunho
+tags:
+- bible
+- tanakh
+status: draft
 project: pedra_angular
-livro_numero: 7
-abrev: Jz
-sistema_referencia: versiculo
-tags: [biblia, hebraico, tanakh]
+reference_system: verse
+abbrev: Jz
+book_number: 7
+source: Westminster Leningrad Codex via OpenScriptures morphhb (github.com/openscriptures/morphhb), 2026. Texto massorético, sem a camada morfológica.
+license: public-domain
+publishable: true
 ---
 
 # Juízes — שופטים

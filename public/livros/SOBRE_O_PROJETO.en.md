@@ -1,8 +1,12 @@
 ---
 id: sobre-o-projeto
+type: guide
 title: About this project
-autor: Pedra Angular
+author: Pedra Angular
 language: eng
+status: published
+project: pedra_angular
+license: CC-BY-SA-4.0
 ---
 
 # About this project

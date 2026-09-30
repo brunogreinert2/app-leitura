@@ -1,28 +1,26 @@
 ---
 id: personagem-ailton-krenak
-type: personagem
-title: "Arquivo Mestre: Ailton Krenak"
-born: 1953
-died: null
-nationality: Brasileiro
-area: Pensamento Indígena
-era: séculos XX–XXI d.C.
+type: character
+title: 'Arquivo Mestre: Ailton Krenak'
+language: por
 tags:
-  - perspectivismo-amerindio
-  - adiar-o-fim-do-mundo
-  - humanidade-como-conceito-estreito
-  - terra-como-ser-vivo
-  - cosmologia-indigena
-  - filosofia-contemporanea
-  - ecologia
-  - brasil
-coautoria:
-  - Διαφορεύς
-  - Gemini (3.1 Pro ou 3.5 Flash)
-  - Claude Sonnet 4.6
+- pensamento-indigena
+- century-20-ce
+- century-21-ce
+- amerindian-perspectivism
+- postponing-the-end-of-the-world
+- humanity-as-narrow-concept
+- earth-as-living-being
+- indigenous-cosmology
+- contemporary-philosophy
+- ecology
+- brazil
+status: published
 project: pedra_angular
-related: []
-status: canonical_source
+license: CC-BY-SA-4.0
+processing: preparado por Διαφορεύς, Gemini (3.1 Pro ou 3.5 Flash), Claude Sonnet 4.6
+born: 1953
+nationality: Brasileiro
 ---
 
 

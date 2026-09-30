@@ -1,30 +1,29 @@
 ---
 id: personagem-voltaire
-type: personagem
-title: "Arquivo Mestre: Voltaire (François-Marie Arouet)"
+type: character
+title: 'Arquivo Mestre: Voltaire (François-Marie Arouet)'
+language: por
+tags:
+- iluminismo
+- century-18-ce
+- tolerance
+- religious-freedom
+- deism
+- skepticism
+- institutional-critique
+- ecrasez-l-infame
+- modern-philosophy
+- ethics
+- politics
+status: published
+project: pedra_angular
+related:
+- '[[Descartes]]'
+license: CC-BY-SA-4.0
+processing: preparado por Διαφορεύς, Gemini (3.1 Pro ou 3.5 Flash), Claude Sonnet 4.6
 born: 1694
 died: 1778
 nationality: Francês
-area: Iluminismo
-era: século XVIII d.C.
-tags:
-  - tolerancia
-  - liberdade-religiosa
-  - deismo
-  - ceticismo
-  - critica-das-instituicoes
-  - ecrasez-l-infame
-  - filosofia-moderna
-  - etica
-  - politica
-coautoria:
-  - Διαφορεύς
-  - Gemini (3.1 Pro ou 3.5 Flash)
-  - Claude Sonnet 4.6
-project: pedra_angular
-related:
-  - "[[Descartes]]"
-status: canonical_source
 ---
 
 

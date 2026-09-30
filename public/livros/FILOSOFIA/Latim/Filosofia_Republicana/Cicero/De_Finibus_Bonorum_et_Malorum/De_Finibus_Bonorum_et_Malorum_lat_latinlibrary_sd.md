@@ -1,22 +1,18 @@
 ---
 id: cicero-de-finibus-bonorum-et-malorum-lat-latinlibrary-sd
-type: texto_primario
-title: "De Finibus Bonorum et Malorum"
-subtitle: null
-author: "Marco Túlio Cícero"
+type: primary_text
+title: De Finibus Bonorum et Malorum
+author: Marco Túlio Cícero
 year_original: -45
 language: lat
-translation: []
-publisher: null
-area: Filosofia Antiga
-era: 1º século a.C.
 tags:
-  - latim
-  - cicero
-status: rascunho
+- roman-republic
+- ancient-philosophy
+- century-1-bce
+status: draft
 project: pedra_angular
-source: "The Latin Library (thelatinlibrary.com), mirror local, 2026."
-related: []
+source: The Latin Library (thelatinlibrary.com), mirror local, 2026.
+license: public-domain
 ---
 
 # De Finibus Bonorum et Malorum

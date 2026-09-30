@@ -1,33 +1,32 @@
 ---
 id: personagem-friedrich-nietzsche
-type: personagem
-title: "Arquivo Mestre: Friedrich Nietzsche"
+type: character
+title: 'Arquivo Mestre: Friedrich Nietzsche'
+language: por
+tags:
+- modern-philosophy
+- century-19-ce
+- will-to-power
+- eternal-return
+- overman
+- nihilism
+- transvaluation-of-values
+- apollonian-dionysian
+- death-of-god
+- ethics
+- metaphysics
+- cultural-criticism
+status: published
+project: pedra_angular
+related:
+- '[[Schopenhauer]]'
+- '[[Sócrates]]'
+- '[[Platão]]'
+license: CC-BY-SA-4.0
+processing: preparado por Διαφορεύς, Gemini (3.1 Pro ou 3.5 Flash), Claude Sonnet 4.6
 born: 1844
 died: 1900
 nationality: Alemão
-area: Filosofia Moderna
-era: século XIX d.C.
-tags:
-  - vontade-de-poder
-  - eterno-retorno
-  - alem-do-homem
-  - niilismo
-  - transvaloracao-dos-valores
-  - dionisiaco-apolineo
-  - morte-de-deus
-  - etica
-  - metafisica
-  - critica-cultural
-coautoria:
-  - Διαφορεύς
-  - Gemini (3.1 Pro ou 3.5 Flash)
-  - Claude Sonnet 4.6
-project: pedra_angular
-related:
-  - "[[Schopenhauer]]"
-  - "[[Sócrates]]"
-  - "[[Platão]]"
-status: canonical_source
 ---
 
 

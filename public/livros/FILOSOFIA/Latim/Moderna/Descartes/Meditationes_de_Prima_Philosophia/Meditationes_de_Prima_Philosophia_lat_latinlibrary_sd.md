@@ -1,22 +1,17 @@
 ---
 id: descartes-meditationes-de-prima-philosophia-lat-latinlibrary-sd
-type: texto_primario
-title: "Meditationes de Prima Philosophia"
-subtitle: null
-author: "René Descartes"
+type: primary_text
+title: Meditationes de Prima Philosophia
+author: René Descartes
 year_original: 1641
 language: lat
-translation: []
-publisher: null
-area: Filosofia Moderna
-era: 17º século d.C.
 tags:
-  - latim
-  - descartes
-status: rascunho
+- modern-philosophy
+- century-17-ce
+status: draft
 project: pedra_angular
-source: "The Latin Library (thelatinlibrary.com), mirror local, 2026."
-related: []
+source: The Latin Library (thelatinlibrary.com), mirror local, 2026.
+license: public-domain
 ---
 
 # Meditationes de Prima Philosophia

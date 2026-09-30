@@ -1,43 +1,31 @@
 ---
 id: hobbes-leviathan-latin-1668
-type: texto_primario
-title: "Leviathan"
-subtitle: "sive De Materia, Forma, & Potestate Civitatis Ecclesiasticæ et Civilis"
-original_title: "Leviathan, sive De Materia, Forma, & Potestate Civitatis Ecclesiasticæ et Civilis"
-author: "Thomas Hobbes"
+type: primary_text
+title: Leviathan
+subtitle: sive De Materia, Forma, & Potestate Civitatis Ecclesiasticæ et Civilis
+original_title: Leviathan, sive De Materia, Forma, & Potestate Civitatis Ecclesiasticæ et Civilis
+author: Thomas Hobbes
+publisher: 'Amsterdam: Joan Blaeu'
 year_original: 1668
-language: la
-translation: null
-publisher: "Amsterdam: Joan Blaeu"
 publication_year: 1668
-area: "Filosofia Política"
-era: "século XVII d.C."
+language: lat
 tags:
-  - hobbes
-  - leviathan
-  - contrato-social
-  - estado-de-natureza
-  - soberania
-  - filosofia-politica
-  - filosofia-moderna
-  - estado
-  - direito-natural
-status: revisado
+- modern-philosophy
+- political-philosophy
+- century-17-ce
+- social-contract
+- state-of-nature
+- sovereignty
+- state
+- natural-law
+status: reviewed
 project: pedra_angular
-source: "Hobbes, Thomas (1668)"
-related: []
-contributor: "Getty Research Institute"
-extracted_from: "segundo volume da edição de 1668 da Opera Philosophica de Hobbes (Blaeu)"
-open_library: OL25209583M
-internet_archive: leviathansivedem00hobb
-work_id: OL16514585W
-isbn: null
-coautoria:
-  - "Διαφορεύς"
-  - "Claude Sonnet 4.6"
-  - "OLMocr-7B"
-  - "Claude Sonnet 5"
-date_added: 2026-07-01
+source: Hobbes, Thomas (1668)
+license: CC-BY-SA-4.0
+pa_exclusive: true
+physical_source: segundo volume da edição de 1668 da Opera Philosophica de Hobbes (Blaeu); exemplar do Getty Research Institute, Internet Archive leviathansivedem00hobb (Open Library OL25209583M, obra OL16514585W)
+ocr_engine: OLMocr-7B
+processing: 'transcrição e revisão: Διαφορεύς, Claude Sonnet 4.6, Claude Sonnet 5'
 ---
 Link PDF: https://archive.org/details/leviathansivedem00hobb
 

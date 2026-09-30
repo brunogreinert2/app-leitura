@@ -1,22 +1,19 @@
 ---
 id: voltaire-historia-de-jenni-jahr
-type: texto_primario
+type: primary_text
 title: História de Jenni
 subtitle: ou o Sábio e o Ateu
 author: Voltaire
-year_original: 1775
-language: pt-BR
-translation:
-  - null
 publisher: eBooksBrasil.org
-area: Filosofia
-era: século XVIII d.C.
+year_original: 1775
+language: por
 tags:
-  - iluminismo
-status: revisado
+- enlightenment
+- century-18-ce
+status: reviewed
 project: pedra_angular
 source: Garcia, Nélson Jahr (ed.)
-related: []
+license: LicenseRef-eBooksBrasil
 ---
 
 # História de Jenni ou o Ateu e o Sábio

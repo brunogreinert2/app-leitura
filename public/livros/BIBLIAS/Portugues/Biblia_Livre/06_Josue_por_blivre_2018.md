@@ -1,22 +1,19 @@
 ---
 id: biblia-06-josue-por-blivre-2018
-type: texto_primario
-title: "Josué (Bíblia Livre)"
-author: null
+type: primary_text
+title: Josué (Bíblia Livre)
+translator:
+- Projeto Bíblia Livre (revisão da Almeida 1819)
 language: por
-translator: "Projeto Bíblia Livre (revisão da Almeida 1819)"
-editor: null
-year_original: null
-publisher: null
-source: "Bíblia Livre, 2018. Via github.com/damarals/biblias (JSON canônico), 2026."
-license: "dominio_publico"
-publishable: true
-status: rascunho
+tags:
+- bible
+status: draft
 project: pedra_angular
-livro_numero: 6
-abrev: Js
-related: []
-tags: [biblia]
+abbrev: Js
+book_number: 6
+source: Bíblia Livre, 2018. Via github.com/damarals/biblias (JSON canônico), 2026.
+license: public-domain
+publishable: true
 ---
 
 # Josué

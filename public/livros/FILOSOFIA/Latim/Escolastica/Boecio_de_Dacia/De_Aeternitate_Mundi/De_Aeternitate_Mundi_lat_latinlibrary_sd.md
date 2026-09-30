@@ -1,22 +1,17 @@
 ---
 id: boecio-de-dacia-de-aeternitate-mundi-lat-latinlibrary-sd
-type: texto_primario
-title: "De Aeternitate Mundi"
-subtitle: null
-author: "Boécio da Dácia"
+type: primary_text
+title: De Aeternitate Mundi
+author: Boécio da Dácia
 year_original: 1270
 language: lat
-translation: []
-publisher: null
-area: Escolástica
-era: 13º século d.C.
 tags:
-  - latim
-  - boecio_de_dacia
-status: rascunho
+- scholasticism
+- century-13-ce
+status: draft
 project: pedra_angular
-source: "The Latin Library (thelatinlibrary.com), mirror local, 2026."
-related: []
+source: The Latin Library (thelatinlibrary.com), mirror local, 2026.
+license: public-domain
 ---
 
 # De Aeternitate Mundi

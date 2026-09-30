@@ -1,22 +1,19 @@
 ---
 id: biblia-08-rute-por-blivre-2018
-type: texto_primario
-title: "Rute (Bíblia Livre)"
-author: null
+type: primary_text
+title: Rute (Bíblia Livre)
+translator:
+- Projeto Bíblia Livre (revisão da Almeida 1819)
 language: por
-translator: "Projeto Bíblia Livre (revisão da Almeida 1819)"
-editor: null
-year_original: null
-publisher: null
-source: "Bíblia Livre, 2018. Via github.com/damarals/biblias (JSON canônico), 2026."
-license: "dominio_publico"
-publishable: true
-status: rascunho
+tags:
+- bible
+status: draft
 project: pedra_angular
-livro_numero: 8
-abrev: Rt
-related: []
-tags: [biblia]
+abbrev: Rt
+book_number: 8
+source: Bíblia Livre, 2018. Via github.com/damarals/biblias (JSON canônico), 2026.
+license: public-domain
+publishable: true
 ---
 
 # Rute

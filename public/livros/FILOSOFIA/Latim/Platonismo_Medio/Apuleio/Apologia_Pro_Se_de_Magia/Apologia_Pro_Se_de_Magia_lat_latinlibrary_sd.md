@@ -1,22 +1,18 @@
 ---
 id: apuleio-apologia-pro-se-de-magia-lat-latinlibrary-sd
-type: texto_primario
-title: "Apologia (Pro Se de Magia)"
-subtitle: null
-author: "Apuleio de Madauros"
+type: primary_text
+title: Apologia (Pro Se de Magia)
+author: Apuleio de Madauros
 year_original: 158
 language: lat
-translation: []
-publisher: null
-area: Filosofia Antiga
-era: 2º século d.C.
 tags:
-  - latim
-  - apuleio
-status: rascunho
+- middle-platonism
+- ancient-philosophy
+- century-2-ce
+status: draft
 project: pedra_angular
-source: "The Latin Library (thelatinlibrary.com), mirror local, 2026."
-related: []
+source: The Latin Library (thelatinlibrary.com), mirror local, 2026.
+license: public-domain
 ---
 
 # Apologia (Pro Se de Magia)

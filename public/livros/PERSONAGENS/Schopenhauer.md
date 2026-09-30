@@ -1,30 +1,29 @@
 ---
 id: personagem-arthur-schopenhauer
-type: personagem
-title: "Arquivo Mestre: Arthur Schopenhauer"
+type: character
+title: 'Arquivo Mestre: Arthur Schopenhauer'
+language: por
+tags:
+- modern-philosophy
+- century-19-ce
+- will-to-live
+- representation
+- pessimism
+- denial-of-the-will
+- asceticism
+- compassion
+- metaphysics
+- ethics
+- aesthetics
+status: published
+project: pedra_angular
+related:
+- '[[Nietzsche]]'
+license: CC-BY-SA-4.0
+processing: preparado por Διαφορεύς, Gemini (3.1 Pro ou 3.5 Flash), Claude Sonnet 4.6
 born: 1788
 died: 1860
 nationality: Alemão
-area: Filosofia Moderna
-era: século XIX d.C.
-tags:
-  - vontade-de-viver
-  - representacao
-  - pessimismo
-  - negacao-da-vontade
-  - ascese
-  - compaixao
-  - metafisica
-  - etica
-  - estetica
-coautoria:
-  - Διαφορεύς
-  - Gemini (3.1 Pro ou 3.5 Flash)
-  - Claude Sonnet 4.6
-project: pedra_angular
-related:
-  - "[[Nietzsche]]"
-status: canonical_source
 ---
 
 

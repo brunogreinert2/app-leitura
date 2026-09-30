@@ -1,22 +1,21 @@
 ---
 id: kant-critica-da-razao-pura-pt-merege-2001
-type: texto_primario
+type: primary_text
 title: Crítica da Razão Pura
-subtitle: null
 author: Immanuel Kant
+translator:
+- J. Rodrigues de Merege
+publisher: Edição Acrópolis — ed. digital eBooksBrasil.org, 2001
 year_original: 1781
-language: pt-BR
-translation:
-  - J. Rodrigues de Merege
-publisher: "Edição Acrópolis — ed. digital eBooksBrasil.org, 2001"
-area: Filosofia
-era: século XVIII d.C.
+language: por
 tags:
-  - filosofia-alema
-status: rascunho
+- german-idealism
+- century-18-ce
+- german-philosophy
+status: draft
 project: pedra_angular
-source: "Kant, Immanuel. Crítica da Razão Pura. Trad. J. Rodrigues de Merege. Edição Acrópolis. eBooksBrasil.org, 2001"
-related: []
+source: Kant, Immanuel. Crítica da Razão Pura. Trad. J. Rodrigues de Merege. Edição Acrópolis. eBooksBrasil.org, 2001
+license: LicenseRef-eBooksBrasil
 ---
 Crítica da Razão Pura  
 Emmanuel Kant  

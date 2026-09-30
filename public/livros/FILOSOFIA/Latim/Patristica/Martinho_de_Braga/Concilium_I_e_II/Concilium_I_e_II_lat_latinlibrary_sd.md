@@ -1,22 +1,17 @@
 ---
 id: martinho-de-braga-concilium-i-e-ii-lat-latinlibrary-sd
-type: texto_primario
-title: "Concilium I e II"
-subtitle: null
-author: "Martinho de Braga"
+type: primary_text
+title: Concilium I e II
+author: Martinho de Braga
 year_original: 572
 language: lat
-translation: []
-publisher: null
-area: Patrística
-era: 6º século d.C.
 tags:
-  - latim
-  - martinho_de_braga
-status: rascunho
+- patristics
+- century-6-ce
+status: draft
 project: pedra_angular
-source: "The Latin Library (thelatinlibrary.com), mirror local, 2026."
-related: []
+source: The Latin Library (thelatinlibrary.com), mirror local, 2026.
+license: public-domain
 ---
 
 # Concilium I e II

@@ -1,26 +1,26 @@
 ---
 id: personagem-teodoro-de-cirene
-type: personagem
-title: "Arquivo Mestre: Teodoro de Cirene"
+type: character
+title: 'Arquivo Mestre: Teodoro de Cirene'
+language: por
+tags:
+- matematica-grega
+- century-4-bce
+- century-5-bce
+- irrationality
+- incommensurable-numbers
+- geometry
+- greek-mathematics
+- platonic-character
+status: published
+project: pedra_angular
+related:
+- '[[Platão]]'
+license: CC-BY-SA-4.0
+processing: preparado por Διαφορεύς, Gemini (3.1 Pro ou 3.5 Flash), Claude Sonnet 4.6
 born: -465
 died: -398
 nationality: Grego
-area: Matemática Grega
-era: séculos V–IV a.C.
-tags:
-  - irracionalidade
-  - numeros-incomensuraveis
-  - geometria
-  - matematica-grega
-  - personagem-platonico
-coautoria:
-  - Διαφορεύς
-  - Gemini (3.1 Pro ou 3.5 Flash)
-  - Claude Sonnet 4.6
-project: pedra_angular
-related:
-  - "[[Platão]]"
-status: canonical_source
 ---
 
 

@@ -1,25 +1,25 @@
 ---
 id: spinoza-ethics-en-elwes-1883
-type: texto_primario
+type: primary_text
 title: Ethics
 subtitle: Demonstrated in Geometric Order (Ethica, Ordine Geometrico Demonstrata)
 author: Baruch de Spinoza
-year_original: 1677
-language: en
-translation:
-  - R. H. M. Elwes
+translator:
+- R. H. M. Elwes
 publisher: ed. digital ebooksBrasil.org (a partir do Project Gutenberg)
-area: Metafísica / Ética
-era: século XVII d.C.
+year_original: 1677
+language: eng
 tags:
-  - racionalismo
-  - metafisica
-  - etica
-  - spinoza
-status: rascunho
+- modern-philosophy
+- metafisica-etica
+- century-17-ce
+- rationalism
+- metaphysics
+- ethics
+status: draft
 project: pedra_angular
 source: Spinoza, Baruch de (1677). Ethica, Ordine Geometrico Demonstrata. Trad. R. H. M. Elwes (1883). ebooksBrasil.org, a partir do Project Gutenberg
-related: []
+license: LicenseRef-eBooksBrasil
 ---
 
 # Ethics

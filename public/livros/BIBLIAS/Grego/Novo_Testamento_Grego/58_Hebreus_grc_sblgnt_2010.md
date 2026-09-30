@@ -1,22 +1,20 @@
 ---
 id: biblia-58-hebreus-grc-sblgnt-2010
-type: texto_primario
-title: "Hebreus (Novo Testamento Grego, SBLGNT)"
-author: null
+type: primary_text
+title: Hebreus (Novo Testamento Grego, SBLGNT)
+editor: Michael W. Holmes
+publisher: Society of Biblical Literature / Logos Bible Software
 language: grc
-translator: null
-editor: "Michael W. Holmes"
-year_original: null
-publisher: "Society of Biblical Literature / Logos Bible Software"
-source: "SBL Greek New Testament, ed. Michael W. Holmes, 2010. Via github.com/LogosBible/SBLGNT (CC BY 4.0), 2026."
-license: "CC BY 4.0"
-publishable: true
-status: rascunho
+tags:
+- bible
+- new-testament
+status: draft
 project: pedra_angular
-livro_numero: 58
-abrev: Hb
-related: []
-tags: [biblia, grego, novo-testamento]
+abbrev: Hb
+book_number: 58
+source: SBL Greek New Testament, ed. Michael W. Holmes, 2010. Via github.com/LogosBible/SBLGNT (CC BY 4.0), 2026.
+license: CC-BY-4.0
+publishable: true
 ---
 
 # Hebreus

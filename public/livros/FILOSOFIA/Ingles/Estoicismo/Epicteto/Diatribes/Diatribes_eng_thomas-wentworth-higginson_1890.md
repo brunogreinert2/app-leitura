@@ -1,21 +1,23 @@
 ---
 id: epicteto-diatribes-eng-thomas-wentworth-higginson-1890
-type: texto_primario
-title: "The Discourses of Epictetus"
-subtitle: null
+type: primary_text
+title: The Discourses of Epictetus
 author: Epictetus
-year_original: null
-language: eng
-translation:
-  - Thomas Wentworth Higginson
+translator:
+- Thomas Wentworth Higginson
 publisher: Thomas Nelson and Sons
-area: null
-era: null
-tags: []
-status: rascunho
+language: eng
+tags:
+- stoicism
+status: draft
 project: pedra_angular
-source: "Epictetus. The Discourses of Epictetus. Ed. Thomas Wentworth Higginson. New York: Thomas Nelson and Sons, 1890. Perseus Digital Library, Tufts University (CC BY-SA 4.0). URN: null"
-related: []
+urn_work: urn:cts:greekLit:tlg0557.tlg001
+urn: urn:cts:greekLit:tlg0557.tlg001.perseus-eng4
+source: 'Epictetus. The Discourses of Epictetus. Ed. Thomas Wentworth Higginson. New York: Thomas Nelson and Sons, 1890. Perseus Digital Library, Tufts University (CC BY-SA 4.0).'
+source_repo: PerseusDL/canonical-greekLit
+source_file: data/tlg0557/tlg001/tlg0557.tlg001.perseus-eng4.xml
+source_commit: e37eed2e8
+license: CC-BY-SA-4.0
 ---
 
 # The Discourses of Epictetus

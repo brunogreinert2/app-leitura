@@ -1,21 +1,23 @@
 ---
 id: plutarco-caius-marcius-coriolanus-eng-bernadotte-perrin-1916
-type: texto_primario
-title: "Caius Marcius Coriolanus"
-subtitle: null
+type: primary_text
+title: Caius Marcius Coriolanus
 author: Plutarch
-year_original: null
-language: eng
-translation:
-  - Bernadotte Perrin
+translator:
+- Bernadotte Perrin
 publisher: Harvard University Press
-area: null
-era: null
-tags: []
-status: rascunho
+language: eng
+tags:
+- moralists
+status: draft
 project: pedra_angular
-source: "Plutarch. Caius Marcius Coriolanus. Ed. Bernadotte Perrin. Cambridge, MA: Harvard University Press, 1916. Perseus Digital Library, Tufts University (CC BY-SA 4.0). URN: null"
-related: []
+urn_work: urn:cts:greekLit:tlg0007.tlg016
+urn: urn:cts:greekLit:tlg0007.tlg016.perseus-eng2
+source: 'Plutarch. Caius Marcius Coriolanus. Ed. Bernadotte Perrin. Cambridge, MA: Harvard University Press, 1916. Perseus Digital Library, Tufts University (CC BY-SA 4.0).'
+source_repo: PerseusDL/canonical-greekLit
+source_file: data/tlg0007/tlg016/tlg0007.tlg016.perseus-eng2.xml
+source_commit: e37eed2e8
+license: CC-BY-SA-4.0
 ---
 
 # Caius Marcius Coriolanus

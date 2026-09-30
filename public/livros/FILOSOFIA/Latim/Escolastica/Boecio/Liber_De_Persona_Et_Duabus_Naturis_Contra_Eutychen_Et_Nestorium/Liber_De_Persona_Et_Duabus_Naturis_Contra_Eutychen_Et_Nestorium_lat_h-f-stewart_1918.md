@@ -1,20 +1,21 @@
 ---
 id: boecio-liber-de-persona-et-duabus-naturis-contra-eutychen-et-nestorium-lat-h-f-stewart-1918
-type: texto_primario
-title: "Liber De Persona et Duabus Naturis Contra Eutychen Et Nestorium"
-subtitle: null
+type: primary_text
+title: Liber De Persona et Duabus Naturis Contra Eutychen Et Nestorium
 author: Boethius
-year_original: null
-language: lat
-translation: []
 publisher: William Heinemann Ltd.
-area: null
-era: null
-tags: []
-status: rascunho
+language: lat
+tags:
+- scholasticism
+status: draft
 project: pedra_angular
-source: "Boethius. Liber De Persona et Duabus Naturis Contra Eutychen Et Nestorium. Ed. H. F. Stewart. Cambridge, MA: William Heinemann Ltd., 1918. Perseus Digital Library, Tufts University (CC BY-SA 4.0). URN: urn:cts:latinLit:stoa0058.stoa023.perseus-lat1"
-related: []
+urn_work: urn:cts:latinLit:stoa0058.stoa023
+urn: urn:cts:latinLit:stoa0058.stoa023.perseus-lat1
+source: 'Boethius. Liber De Persona et Duabus Naturis Contra Eutychen Et Nestorium. Ed. H. F. Stewart. Cambridge, MA: William Heinemann Ltd., 1918. Perseus Digital Library, Tufts University (CC BY-SA 4.0).'
+source_repo: PerseusDL/canonical-latinLit
+source_file: data/stoa0058/stoa023/stoa0058.stoa023.perseus-lat1.xml
+source_commit: b90226f0
+license: CC-BY-SA-4.0
 ---
 
 # Liber De Persona et Duabus Naturis Contra Eutychen Et Nestorium

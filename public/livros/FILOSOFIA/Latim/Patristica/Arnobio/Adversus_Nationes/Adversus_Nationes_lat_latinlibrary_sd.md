@@ -1,22 +1,18 @@
 ---
 id: arnobio-adversus-nationes-lat-latinlibrary-sd
-type: texto_primario
-title: "Adversus Nationes"
-subtitle: null
-author: "Arnóbio de Sicca"
+type: primary_text
+title: Adversus Nationes
+author: Arnóbio de Sicca
 year_original: 305
 language: lat
-translation: []
-publisher: null
-area: Patrística
-era: 3-4º século d.C.
 tags:
-  - latim
-  - arnobio
-status: rascunho
+- patristics
+- century-3-ce
+- century-4-ce
+status: draft
 project: pedra_angular
-source: "The Latin Library (thelatinlibrary.com), mirror local, 2026."
-related: []
+source: The Latin Library (thelatinlibrary.com), mirror local, 2026.
+license: public-domain
 ---
 
 # Adversus Nationes

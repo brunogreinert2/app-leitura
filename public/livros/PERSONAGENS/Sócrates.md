@@ -1,28 +1,28 @@
 ---
 id: personagem-socrates-de-atenas
-type: personagem
-title: "Arquivo Mestre: Sócrates de Atenas"
+type: character
+title: 'Arquivo Mestre: Sócrates de Atenas'
+language: por
+tags:
+- ancient-philosophy
+- century-4-bce
+- century-5-bce
+- maieutics
+- socratic-irony
+- moral-intellectualism
+- ignorance
+- dialectic
+- ethics
+status: published
+project: pedra_angular
+related:
+- '[[Platão]]'
+- '[[Aristóteles]]'
+license: CC-BY-SA-4.0
+processing: preparado por Διαφορεύς, Gemini (3.1 Pro ou 3.5 Flash), Claude Sonnet 4.6
 born: -470
 died: -399
 nationality: Grego
-area: Filosofia Antiga
-era: séculos V–IV a.C.
-tags:
-  - maieutica
-  - ironia-socratica
-  - intelectualismo-moral
-  - ignorancia
-  - dialetica
-  - etica
-coautoria:
-  - Διαφορεύς
-  - Gemini (3.1 Pro ou 3.5 Flash)
-  - Claude Sonnet 4.6
-project: pedra_angular
-related:
-  - "[[Platão]]"
-  - "[[Aristóteles]]"
-status: canonical_source
 ---
 
 # Sócrates de Atenas

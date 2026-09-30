@@ -1,9 +1,11 @@
 ---
 id: impressoes-app
-type: guia
+type: guide
 title: Bem-vindo ao Leitor
+language: por
+status: draft
 project: pedra_angular
-status: vivo
+license: CC-BY-SA-4.0
 ---
 
 Este é um leitor de textos clássicos que funciona **inteiro no seu aparelho**: depois da primeira visita, não precisa de internet para nada. Toque nos títulos abaixo para abrir cada assunto — no corpo do texto, todo título começa fechado e abre com um toque.

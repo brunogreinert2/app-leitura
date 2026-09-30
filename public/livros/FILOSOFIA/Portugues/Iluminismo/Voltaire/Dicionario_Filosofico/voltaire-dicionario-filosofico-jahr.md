@@ -1,22 +1,18 @@
 ---
 id: voltaire-dicionario-filosofico-jahr
-type: texto_primario
+type: primary_text
 title: Dicionário Filosófico
-subtitle: null
 author: Voltaire
-year_original: 1764
-language: pt-BR
-translation:
-  - null
 publisher: eBooksBrasil.org
-area: Filosofia
-era: século XVIII d.C.
+year_original: 1764
+language: por
 tags:
-  - iluminismo
-status: revisado
+- enlightenment
+- century-18-ce
+status: reviewed
 project: pedra_angular
 source: Garcia, Nélson Jahr (ed.)
-related: []
+license: LicenseRef-eBooksBrasil
 ---
 
 # Dicionário Filosófico

@@ -1,21 +1,23 @@
 ---
 id: plutarco-whether-land-or-sea-animals-are-cleverer-eng-harold-cherniss-1957
-type: texto_primario
-title: "Whether land or sea animals are cleverer"
-subtitle: null
+type: primary_text
+title: Whether land or sea animals are cleverer
 author: Plutarch
-year_original: null
-language: eng
-translation:
-  - Harold Cherniss
+translator:
+- Harold Cherniss
 publisher: Harvard University Press
-area: null
-era: null
-tags: []
-status: rascunho
+language: eng
+tags:
+- moralists
+status: draft
 project: pedra_angular
-source: "Plutarch. Whether land or sea animals are cleverer. Ed. Harold Cherniss. Cambridge, MA: Harvard University Press, 1957. Perseus Digital Library, Tufts University (CC BY-SA 4.0). URN: null"
-related: []
+urn_work: urn:cts:greekLit:tlg0007.tlg129
+urn: urn:cts:greekLit:tlg0007.tlg129.perseus-eng3
+source: 'Plutarch. Whether land or sea animals are cleverer. Ed. Harold Cherniss. Cambridge, MA: Harvard University Press, 1957. Perseus Digital Library, Tufts University (CC BY-SA 4.0).'
+source_repo: PerseusDL/canonical-greekLit
+source_file: data/tlg0007/tlg129/tlg0007.tlg129.perseus-eng3.xml
+source_commit: e37eed2e8
+license: CC-BY-SA-4.0
 ---
 
 # Whether land or sea animals are cleverer

@@ -1,29 +1,28 @@
 ---
 id: personagem-platao-de-atenas
-type: personagem
-title: "Arquivo Mestre: Platão de Atenas"
+type: character
+title: 'Arquivo Mestre: Platão de Atenas'
+language: por
+tags:
+- ancient-philosophy
+- century-4-bce
+- theory-of-forms
+- anamnesis
+- demiurge
+- allegory-of-the-cave
+- idealism
+- academy
+status: published
+project: pedra_angular
+related:
+- '[[Sócrates]]'
+- '[[Aristóteles]]'
+- '[[Parmênides]]'
+license: CC-BY-SA-4.0
+processing: preparado por Διαφορεύς, Gemini (3.1 Pro ou 3.5 Flash), Claude Sonnet 4.6
 born: -427
 died: -347
 nationality: Grego
-area: Filosofia Antiga
-era: século IV a.C.
-tags:
-  - teoria-das-formas
-  - anamnese
-  - demiurgo
-  - alegoria-da-caverna
-  - idealismo
-  - academia
-coautoria:
-  - Διαφορεύς
-  - Gemini (3.1 Pro ou 3.5 Flash)
-  - Claude Sonnet 4.6
-project: pedra_angular
-related:
-  - "[[Sócrates]]"
-  - "[[Aristóteles]]"
-  - "[[Parmênides]]"
-status: canonical_source
 ---
 
 

@@ -1,21 +1,23 @@
 ---
 id: inacio-de-antioquia-epistles-eng-kirsopp-lake-1912
-type: texto_primario
-title: "Epistles"
-subtitle: null
+type: primary_text
+title: Epistles
 author: Ignatius of Antioch
-year_original: null
-language: eng
-translation:
-  - Kirsopp Lake
+translator:
+- Kirsopp Lake
 publisher: Harvard University Press
-area: null
-era: null
-tags: []
-status: rascunho
+language: eng
+tags:
+- patristics
+status: draft
 project: pedra_angular
-source: "Ignatius of Antioch. Epistles. Ed. Kirsopp Lake. Cambridge, MA: Harvard University Press, 1912. Perseus Digital Library, Tufts University (CC BY-SA 4.0). URN: null"
-related: []
+urn_work: urn:cts:greekLit:tlg1443.tlg001
+urn: urn:cts:greekLit:tlg1443.tlg001.perseus-eng1
+source: 'Ignatius of Antioch. Epistles. Ed. Kirsopp Lake. Cambridge, MA: Harvard University Press, 1912. Perseus Digital Library, Tufts University (CC BY-SA 4.0).'
+source_repo: PerseusDL/canonical-greekLit
+source_file: data/tlg1443/tlg001/tlg1443.tlg001.perseus-eng1.xml
+source_commit: e37eed2e8
+license: CC-BY-SA-4.0
 ---
 
 # Epistles

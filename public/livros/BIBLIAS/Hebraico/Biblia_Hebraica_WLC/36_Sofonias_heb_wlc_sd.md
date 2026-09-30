@@ -1,19 +1,20 @@
 ---
 id: biblia-hebraica-wlc-36-sofonias
-type: texto_primario
-title: "Sofonias (Bíblia Hebraica — WLC)"
-author: null
+type: primary_text
+title: Sofonias (Bíblia Hebraica — WLC)
+editor: Westminster Leningrad Codex 4.20
 language: heb
-editor: "Westminster Leningrad Codex 4.20"
-source: "Westminster Leningrad Codex via OpenScriptures morphhb (github.com/openscriptures/morphhb), 2026. Texto massorético, sem a camada morfológica."
-license: "dominio_publico"
-publishable: true
-status: rascunho
+tags:
+- bible
+- tanakh
+status: draft
 project: pedra_angular
-livro_numero: 36
-abrev: Sf
-sistema_referencia: versiculo
-tags: [biblia, hebraico, tanakh]
+reference_system: verse
+abbrev: Sf
+book_number: 36
+source: Westminster Leningrad Codex via OpenScriptures morphhb (github.com/openscriptures/morphhb), 2026. Texto massorético, sem a camada morfológica.
+license: public-domain
+publishable: true
 ---
 
 # Sofonias — צפניה

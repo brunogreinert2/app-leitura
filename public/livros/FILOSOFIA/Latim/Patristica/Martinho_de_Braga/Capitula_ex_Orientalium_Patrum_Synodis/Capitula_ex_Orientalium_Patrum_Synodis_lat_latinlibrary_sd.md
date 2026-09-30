@@ -1,22 +1,17 @@
 ---
 id: martinho-de-braga-capitula-ex-orientalium-patrum-synodis-lat-latinlibrary-sd
-type: texto_primario
-title: "Capitula ex Orientalium Patrum Synodis"
-subtitle: null
-author: "Martinho de Braga"
+type: primary_text
+title: Capitula ex Orientalium Patrum Synodis
+author: Martinho de Braga
 year_original: 572
 language: lat
-translation: []
-publisher: null
-area: Patrística
-era: 6º século d.C.
 tags:
-  - latim
-  - martinho_de_braga
-status: rascunho
+- patristics
+- century-6-ce
+status: draft
 project: pedra_angular
-source: "The Latin Library (thelatinlibrary.com), mirror local, 2026."
-related: []
+source: The Latin Library (thelatinlibrary.com), mirror local, 2026.
+license: public-domain
 ---
 
 # Capitula ex Orientalium Patrum Synodis

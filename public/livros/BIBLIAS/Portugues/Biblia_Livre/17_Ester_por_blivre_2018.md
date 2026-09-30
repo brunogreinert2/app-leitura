@@ -1,22 +1,19 @@
 ---
 id: biblia-17-ester-por-blivre-2018
-type: texto_primario
-title: "Ester (Bíblia Livre)"
-author: null
+type: primary_text
+title: Ester (Bíblia Livre)
+translator:
+- Projeto Bíblia Livre (revisão da Almeida 1819)
 language: por
-translator: "Projeto Bíblia Livre (revisão da Almeida 1819)"
-editor: null
-year_original: null
-publisher: null
-source: "Bíblia Livre, 2018. Via github.com/damarals/biblias (JSON canônico), 2026."
-license: "dominio_publico"
-publishable: true
-status: rascunho
+tags:
+- bible
+status: draft
 project: pedra_angular
-livro_numero: 17
-abrev: Et
-related: []
-tags: [biblia]
+abbrev: Et
+book_number: 17
+source: Bíblia Livre, 2018. Via github.com/damarals/biblias (JSON canônico), 2026.
+license: public-domain
+publishable: true
 ---
 
 # Ester

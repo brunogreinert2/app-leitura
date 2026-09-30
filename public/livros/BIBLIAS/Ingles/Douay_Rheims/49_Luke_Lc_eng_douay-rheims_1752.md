@@ -1,42 +1,37 @@
 ---
 id: douay-rheims-lc-eng-challoner-1752
-type: texto_primario
-title: "Luke (Douay-Rheims)"
-subtitle: null
-original_title: "Luke"
-author: null
+type: primary_text
+title: Luke (Douay-Rheims)
+original_title: Luke
+translator:
+- Gregory Martin
+- Richard Challoner
 year_original: 1610
-language: eng
-translation:
-  - Gregory Martin
-  - Richard Challoner
-editor: null
-publisher: null
 publication_year: 1752
-area: Escrituras
-era: século XVI-XVIII (tradução da Vulgata)
-sistema_referencia: versiculo
-abrev: "Lc"
-livro_numero: 49
-secao: "Gospels"
-canon: "católico (73 livros), sem o apêndice clementino"
-scope: "1151 versículos em 24 capítulos"
+language: eng
 tags:
-  - ingles
-  - biblia
-  - douay-rheims
-  - vulgata
-  - gospels
-coautoria:
-  - Διαφορεύς
-  - Claude Opus 5
-status: rascunho
+- bible
+- scripture
+- century-16-ce
+- century-17-ce
+- century-18-ce
+- douay-rheims
+- vulgate
+- gospels
+status: draft
 project: pedra_angular
-source: "The Holy Bible, Douay-Rheims version, revised by Bishop Richard Challoner (1749-1752). Arquivo TextOther/Lc.eng do repositório bitbucket.org/clementinetextproject/text, alinhado versículo a versículo com a Vulgata Clementina."
-license: "domínio público"
-publishable: true
 related:
-  - "Vulgata Clementina, Lc"
+- Vulgata Clementina, Lc
+reference_system: verse
+abbrev: Lc
+book_number: 49
+canon: católico (73 livros), sem o apêndice clementino
+section: Gospels
+scope: 1151 versículos em 24 capítulos
+source: The Holy Bible, Douay-Rheims version, revised by Bishop Richard Challoner (1749-1752). Arquivo TextOther/Lc.eng do repositório bitbucket.org/clementinetextproject/text, alinhado versículo a versículo com a Vulgata Clementina.
+license: public-domain
+publishable: true
+processing: preparado por Διαφορεύς, Claude Opus 5
 ---
 
 # Luke

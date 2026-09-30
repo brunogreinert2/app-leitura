@@ -1,42 +1,37 @@
 ---
 id: douay-rheims-joel-eng-challoner-1752
-type: texto_primario
-title: "Joel (Douay-Rheims)"
-subtitle: null
-original_title: "Joel"
-author: null
+type: primary_text
+title: Joel (Douay-Rheims)
+original_title: Joel
+translator:
+- Gregory Martin
+- Richard Challoner
 year_original: 1610
-language: eng
-translation:
-  - Gregory Martin
-  - Richard Challoner
-editor: null
-publisher: null
 publication_year: 1752
-area: Escrituras
-era: século XVI-XVIII (tradução da Vulgata)
-sistema_referencia: versiculo
-abrev: "Joel"
-livro_numero: 36
-secao: "Prophets"
-canon: "católico (73 livros), sem o apêndice clementino"
-scope: "73 versículos em 3 capítulos"
+language: eng
 tags:
-  - ingles
-  - biblia
-  - douay-rheims
-  - vulgata
-  - prophets
-coautoria:
-  - Διαφορεύς
-  - Claude Opus 5
-status: rascunho
+- bible
+- scripture
+- century-16-ce
+- century-17-ce
+- century-18-ce
+- douay-rheims
+- vulgate
+- prophets
+status: draft
 project: pedra_angular
-source: "The Holy Bible, Douay-Rheims version, revised by Bishop Richard Challoner (1749-1752). Arquivo TextOther/Joel.eng do repositório bitbucket.org/clementinetextproject/text, alinhado versículo a versículo com a Vulgata Clementina."
-license: "domínio público"
-publishable: true
 related:
-  - "Vulgata Clementina, Joel"
+- Vulgata Clementina, Joel
+reference_system: verse
+abbrev: Joel
+book_number: 36
+canon: católico (73 livros), sem o apêndice clementino
+section: Prophets
+scope: 73 versículos em 3 capítulos
+source: The Holy Bible, Douay-Rheims version, revised by Bishop Richard Challoner (1749-1752). Arquivo TextOther/Joel.eng do repositório bitbucket.org/clementinetextproject/text, alinhado versículo a versículo com a Vulgata Clementina.
+license: public-domain
+publishable: true
+processing: preparado por Διαφορεύς, Claude Opus 5
 ---
 
 # Joel

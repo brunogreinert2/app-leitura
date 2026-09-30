@@ -1,22 +1,18 @@
 ---
 id: lactancio-divinae-institutiones-lat-latinlibrary-sd
-type: texto_primario
-title: "Divinae Institutiones"
-subtitle: null
-author: "Lactâncio"
+type: primary_text
+title: Divinae Institutiones
+author: Lactâncio
 year_original: 308
 language: lat
-translation: []
-publisher: null
-area: Patrística
-era: 3-4º século d.C.
 tags:
-  - latim
-  - lactancio
-status: rascunho
+- patristics
+- century-3-ce
+- century-4-ce
+status: draft
 project: pedra_angular
-source: "The Latin Library (thelatinlibrary.com), mirror local, 2026."
-related: []
+source: The Latin Library (thelatinlibrary.com), mirror local, 2026.
+license: public-domain
 ---
 
 # Divinae Institutiones

@@ -1,22 +1,17 @@
 ---
 id: pico-della-mirandola-oratio-de-hominis-dignitate-lat-latinlibrary-sd
-type: texto_primario
-title: "Oratio de Hominis Dignitate"
-subtitle: null
-author: "Giovanni Pico della Mirandola"
+type: primary_text
+title: Oratio de Hominis Dignitate
+author: Giovanni Pico della Mirandola
 year_original: 1486
 language: lat
-translation: []
-publisher: null
-area: Renascimento
-era: 15º século d.C.
 tags:
-  - latim
-  - pico_della_mirandola
-status: rascunho
+- renaissance
+- century-15-ce
+status: draft
 project: pedra_angular
-source: "The Latin Library (thelatinlibrary.com), mirror local, 2026."
-related: []
+source: The Latin Library (thelatinlibrary.com), mirror local, 2026.
+license: public-domain
 ---
 
 # Oratio de Hominis Dignitate

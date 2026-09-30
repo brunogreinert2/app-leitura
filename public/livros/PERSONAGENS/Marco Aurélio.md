@@ -1,31 +1,29 @@
 ---
 id: personagem-marco-aurelio
-type: personagem
-title: "Arquivo Mestre: Marco Aurélio Antonino"
+type: character
+title: 'Arquivo Mestre: Marco Aurélio Antonino'
+language: por
+tags:
+- ancient-philosophy
+- century-2-ce
+- duty
+- logos
+- prosoche
+- kata-physin
+- ephemerality
+- stoicism
+- ethics
+- rome
+status: published
+project: pedra_angular
+related:
+- '[[Epicteto]]'
+- '[[Sêneca]]'
+license: CC-BY-SA-4.0
+processing: preparado por Διαφορεύς, Gemini (3.1 Pro ou 3.5 Flash), Claude Sonnet 4.6
 born: 121
 died: 180
 nationality: Romano
-area: Filosofia Antiga
-era: século II d.C.
-tags:
-  - dever
-  - logos
-  - meditacoes
-  - prosoche
-  - kata-physin
-  - efemeridade
-  - estoicismo
-  - etica
-  - roma
-coautoria:
-  - Διαφορεύς
-  - Gemini (3.1 Pro ou 3.5 Flash)
-  - Claude Sonnet 4.6
-project: pedra_angular
-related:
-  - "[[Epicteto]]"
-  - "[[Sêneca]]"
-status: canonical_source
 ---
 
 

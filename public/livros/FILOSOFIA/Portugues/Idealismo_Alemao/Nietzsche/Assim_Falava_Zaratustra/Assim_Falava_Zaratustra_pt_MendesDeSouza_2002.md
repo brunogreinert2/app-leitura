@@ -1,22 +1,22 @@
 ---
 id: nietzsche-assim-falava-zaratustra-pt-mendesdesouza-2002
-type: texto_primario
+type: primary_text
 title: Assim Falava Zaratustra
 subtitle: Um livro para todos e para ninguém
 author: Friedrich Nietzsche
-year_original: 1883
-language: pt-BR
-translation:
-  - José Mendes de Souza
+translator:
+- José Mendes de Souza
 publisher: eBooksBrasil.org
-area: Filosofia
-era: século XIX d.C.
+year_original: 1883
+language: por
 tags:
-  - filosofia-alema
-status: rascunho
+- german-idealism
+- century-19-ce
+- german-philosophy
+status: draft
 project: pedra_angular
 source: Garcia, Nélson Jahr (ed.) (2002)
-related: []
+license: LicenseRef-eBooksBrasil
 ---
 
 # Assim Falava Zaratustra

@@ -1,20 +1,21 @@
 ---
 id: epicteto-dissertationum-epictetearum-sive-ab-arriano-sive-ab-aliis-digestarum-fragmenta-grc-heinrich-schenkl-1916
-type: texto_primario
-title: "Dissertationum Epictetearum sive ab Arriano sive ab aliis digestarum fragmenta"
-subtitle: null
+type: primary_text
+title: Dissertationum Epictetearum sive ab Arriano sive ab aliis digestarum fragmenta
 author: Epictetus
-year_original: null
-language: grc
-translation: []
 publisher: B. G. Teubner
-area: null
-era: null
-tags: []
-status: rascunho
+language: grc
+tags:
+- stoicism
+status: draft
 project: pedra_angular
-source: "Epictetus. Dissertationum Epictetearum sive ab Arriano sive ab aliis digestarum fragmenta. Ed. Heinrich Schenkl. Leipzig: B. G. Teubner, 1916. Perseus Digital Library, Tufts University (CC BY-SA 4.0). URN: urn:cts:greekLit:tlg0557.tlg003.perseus-grc2"
-related: []
+urn_work: urn:cts:greekLit:tlg0557.tlg003
+urn: urn:cts:greekLit:tlg0557.tlg003.perseus-grc2
+source: 'Epictetus. Dissertationum Epictetearum sive ab Arriano sive ab aliis digestarum fragmenta. Ed. Heinrich Schenkl. Leipzig: B. G. Teubner, 1916. Perseus Digital Library, Tufts University (CC BY-SA 4.0).'
+source_repo: PerseusDL/canonical-greekLit
+source_file: data/tlg0557/tlg003/tlg0557.tlg003.perseus-grc2.xml
+source_commit: e37eed2e8
+license: CC-BY-SA-4.0
 ---
 
 # Dissertationum Epictetearum sive ab Arriano sive ab aliis digestarum fragmenta

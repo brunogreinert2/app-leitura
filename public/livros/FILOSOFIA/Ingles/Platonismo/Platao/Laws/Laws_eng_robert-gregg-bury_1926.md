@@ -1,21 +1,24 @@
 ---
 id: platao-laws-eng-robert-gregg-bury-1926
-type: texto_primario
-title: "Laws"
-subtitle: null
+type: primary_text
+title: Laws
 author: Plato
-year_original: null
-language: eng
-translation:
-  - Robert Gregg Bury
+translator:
+- Robert Gregg Bury
 publisher: Harvard University Press
-area: null
-era: null
-tags: []
-status: rascunho
+language: eng
+tags:
+- classical-philosophy
+- platonism
+status: draft
 project: pedra_angular
-source: "Plato. Laws. Ed. Robert Gregg Bury. Cambridge, MA: Harvard University Press, 1926. Perseus Digital Library, Tufts University (CC BY-SA 4.0). URN: null"
-related: []
+urn_work: urn:cts:greekLit:tlg0059.tlg034
+urn: urn:cts:greekLit:tlg0059.tlg034.perseus-eng2
+source: 'Plato. Laws. Ed. Robert Gregg Bury. Cambridge, MA: Harvard University Press, 1926. Perseus Digital Library, Tufts University (CC BY-SA 4.0).'
+source_repo: PerseusDL/canonical-greekLit
+source_file: data/tlg0059/tlg034/tlg0059.tlg034.perseus-eng2.xml
+source_commit: e37eed2e8
+license: CC-BY-SA-4.0
 ---
 
 # Laws

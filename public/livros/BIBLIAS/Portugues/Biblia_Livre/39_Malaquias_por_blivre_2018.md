@@ -1,22 +1,19 @@
 ---
 id: biblia-39-malaquias-por-blivre-2018
-type: texto_primario
-title: "Malaquias (Bíblia Livre)"
-author: null
+type: primary_text
+title: Malaquias (Bíblia Livre)
+translator:
+- Projeto Bíblia Livre (revisão da Almeida 1819)
 language: por
-translator: "Projeto Bíblia Livre (revisão da Almeida 1819)"
-editor: null
-year_original: null
-publisher: null
-source: "Bíblia Livre, 2018. Via github.com/damarals/biblias (JSON canônico), 2026."
-license: "dominio_publico"
-publishable: true
-status: rascunho
+tags:
+- bible
+status: draft
 project: pedra_angular
-livro_numero: 39
-abrev: Ml
-related: []
-tags: [biblia]
+abbrev: Ml
+book_number: 39
+source: Bíblia Livre, 2018. Via github.com/damarals/biblias (JSON canônico), 2026.
+license: public-domain
+publishable: true
 ---
 
 # Malaquias

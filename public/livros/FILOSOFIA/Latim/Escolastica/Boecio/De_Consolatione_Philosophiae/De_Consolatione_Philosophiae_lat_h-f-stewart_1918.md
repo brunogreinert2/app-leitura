@@ -1,20 +1,21 @@
 ---
 id: boecio-de-consolatione-philosophiae-lat-h-f-stewart-1918
-type: texto_primario
-title: "De consolatione philosophiae"
-subtitle: null
+type: primary_text
+title: De consolatione philosophiae
 author: Boethius
-year_original: null
-language: lat
-translation: []
 publisher: William Heinemann Ltd.
-area: null
-era: null
-tags: []
-status: rascunho
+language: lat
+tags:
+- scholasticism
+status: draft
 project: pedra_angular
-source: "Boethius. De consolatione philosophiae. Ed. H. F. Stewart. Cambridge, MA: William Heinemann Ltd., 1918. Perseus Digital Library, Tufts University (CC BY-SA 4.0). URN: urn:cts:latinLit:stoa0058.stoa001.perseus-lat2"
-related: []
+urn_work: urn:cts:latinLit:stoa0058.stoa001
+urn: urn:cts:latinLit:stoa0058.stoa001.perseus-lat2
+source: 'Boethius. De consolatione philosophiae. Ed. H. F. Stewart. Cambridge, MA: William Heinemann Ltd., 1918. Perseus Digital Library, Tufts University (CC BY-SA 4.0).'
+source_repo: PerseusDL/canonical-latinLit
+source_file: data/stoa0058/stoa001/stoa0058.stoa001.perseus-lat2.xml
+source_commit: b90226f0
+license: CC-BY-SA-4.0
 ---
 
 # De consolatione philosophiae

@@ -1,21 +1,23 @@
 ---
 id: epicteto-fragments-eng-george-long-1890
-type: texto_primario
-title: "Fragments"
-subtitle: null
+type: primary_text
+title: Fragments
 author: Epictetus
-year_original: null
-language: eng
-translation:
-  - George Long
+translator:
+- George Long
 publisher: George Bell and Sons
-area: null
-era: null
-tags: []
-status: rascunho
+language: eng
+tags:
+- stoicism
+status: draft
 project: pedra_angular
-source: "Epictetus. Fragments. Ed. George Long. London: George Bell and Sons, 1890. Perseus Digital Library, Tufts University (CC BY-SA 4.0). URN: null"
-related: []
+urn_work: urn:cts:greekLit:tlg0557.tlg003a
+urn: urn:cts:greekLit:tlg0557.tlg003a.perseus-eng3
+source: 'Epictetus. Fragments. Ed. George Long. London: George Bell and Sons, 1890. Perseus Digital Library, Tufts University (CC BY-SA 4.0).'
+source_repo: PerseusDL/canonical-greekLit
+source_file: data/tlg0557/tlg003a/tlg0557.tlg003a.perseus-eng3.xml
+source_commit: e37eed2e8
+license: CC-BY-SA-4.0
 ---
 
 # Fragments

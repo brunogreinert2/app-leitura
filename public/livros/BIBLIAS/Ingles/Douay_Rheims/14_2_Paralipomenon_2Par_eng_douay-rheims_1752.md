@@ -1,42 +1,37 @@
 ---
 id: douay-rheims-2par-eng-challoner-1752
-type: texto_primario
-title: "2 Paralipomenon (Douay-Rheims)"
-subtitle: null
-original_title: "2 Paralipomenon"
-author: null
+type: primary_text
+title: 2 Paralipomenon (Douay-Rheims)
+original_title: 2 Paralipomenon
+translator:
+- Gregory Martin
+- Richard Challoner
 year_original: 1610
-language: eng
-translation:
-  - Gregory Martin
-  - Richard Challoner
-editor: null
-publisher: null
 publication_year: 1752
-area: Escrituras
-era: século XVI-XVIII (tradução da Vulgata)
-sistema_referencia: versiculo
-abrev: "2Par"
-livro_numero: 14
-secao: "Historical books"
-canon: "católico (73 livros), sem o apêndice clementino"
-scope: "822 versículos em 36 capítulos"
+language: eng
 tags:
-  - ingles
-  - biblia
-  - douay-rheims
-  - vulgata
-  - historical-books
-coautoria:
-  - Διαφορεύς
-  - Claude Opus 5
-status: rascunho
+- bible
+- scripture
+- century-16-ce
+- century-17-ce
+- century-18-ce
+- douay-rheims
+- vulgate
+- historical-books
+status: draft
 project: pedra_angular
-source: "The Holy Bible, Douay-Rheims version, revised by Bishop Richard Challoner (1749-1752). Arquivo TextOther/2Par.eng do repositório bitbucket.org/clementinetextproject/text, alinhado versículo a versículo com a Vulgata Clementina."
-license: "domínio público"
-publishable: true
 related:
-  - "Vulgata Clementina, 2Par"
+- Vulgata Clementina, 2Par
+reference_system: verse
+abbrev: 2Par
+book_number: 14
+canon: católico (73 livros), sem o apêndice clementino
+section: Historical books
+scope: 822 versículos em 36 capítulos
+source: The Holy Bible, Douay-Rheims version, revised by Bishop Richard Challoner (1749-1752). Arquivo TextOther/2Par.eng do repositório bitbucket.org/clementinetextproject/text, alinhado versículo a versículo com a Vulgata Clementina.
+license: public-domain
+publishable: true
+processing: preparado por Διαφορεύς, Claude Opus 5
 ---
 
 # 2 Paralipomenon

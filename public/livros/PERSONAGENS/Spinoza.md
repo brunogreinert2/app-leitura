@@ -1,29 +1,29 @@
 ---
 id: personagem-baruch-espinosa
-type: personagem
-title: "Arquivo Mestre: Baruch de Espinosa"
+type: character
+title: 'Arquivo Mestre: Baruch de Espinosa'
+language: por
+tags:
+- modern-philosophy
+- century-17-ce
+- deus-sive-natura
+- single-substance
+- monism
+- conatus
+- geometric-method
+- determinism
+- rationalism
+- pantheism
+- metaphysics
+status: published
+project: pedra_angular
+related:
+- '[[Descartes]]'
+license: CC-BY-SA-4.0
+processing: preparado por Διαφορεύς, Claude Sonnet 4.6
 born: 1632
 died: 1677
 nationality: Holandês
-area: Filosofia Moderna
-era: século XVII d.C.
-tags:
-  - deus-sive-natura
-  - substancia-unica
-  - monismo
-  - conatus
-  - geometria-etica
-  - determinismo
-  - racionalismo
-  - panteismo
-  - metafisica
-coautoria:
-  - Διαφορεύς
-  - Claude Sonnet 4.6
-project: pedra_angular
-related:
-  - "[[Descartes]]"
-status: canonical_source
 ---
 
 # Baruch de Espinosa (Amesterdão, 1632 — Haia, 1677)

@@ -1,22 +1,18 @@
 ---
 id: voltaire-micromegas-jahr
-type: texto_primario
+type: primary_text
 title: Micrômegas
-subtitle: null
 author: Voltaire
-year_original: 1752
-language: pt-BR
-translation:
-  - null
 publisher: eBooksBrasil.org
-area: Filosofia
-era: século XVIII d.C.
+year_original: 1752
+language: por
 tags:
-  - iluminismo
-status: revisado
+- enlightenment
+- century-18-ce
+status: reviewed
 project: pedra_angular
 source: Garcia, Nélson Jahr (ed.)
-related: []
+license: LicenseRef-eBooksBrasil
 ---
 
 # Micrômegas

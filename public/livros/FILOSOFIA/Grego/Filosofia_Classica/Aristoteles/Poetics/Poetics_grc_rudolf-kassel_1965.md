@@ -1,20 +1,22 @@
 ---
 id: aristoteles-poetics-grc-rudolf-kassel-1965
-type: texto_primario
-title: "Περὶ ποιητικῆς"
-subtitle: null
+type: primary_text
+title: Περὶ ποιητικῆς
 author: Aristotle
-year_original: null
-language: grc
-translation: []
 publisher: Clarendon Press
-area: null
-era: null
-tags: []
-status: rascunho
+language: grc
+tags:
+- aristotelianism
+- classical-philosophy
+status: draft
 project: pedra_angular
-source: "Aristotle. Περὶ ποιητικῆς. Ed. Rudolf Kassel. Oxford, UK: Clarendon Press, 1965. Perseus Digital Library, Tufts University (CC BY-SA 4.0). URN: urn:cts:greekLit:tlg0086.tlg034.perseus-grc2"
-related: []
+urn_work: urn:cts:greekLit:tlg0086.tlg034
+urn: urn:cts:greekLit:tlg0086.tlg034.perseus-grc2
+source: 'Aristotle. Περὶ ποιητικῆς. Ed. Rudolf Kassel. Oxford, UK: Clarendon Press, 1965. Perseus Digital Library, Tufts University (CC BY-SA 4.0).'
+source_repo: PerseusDL/canonical-greekLit
+source_file: data/tlg0086/tlg034/tlg0086.tlg034.perseus-grc2.xml
+source_commit: e37eed2e8
+license: CC-BY-SA-4.0
 ---
 
 # Περὶ ποιητικῆς

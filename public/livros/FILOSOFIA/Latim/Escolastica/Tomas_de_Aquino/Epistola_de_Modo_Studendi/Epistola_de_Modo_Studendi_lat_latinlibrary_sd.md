@@ -1,23 +1,17 @@
 ---
 id: tomas-de-aquino-epistola-de-modo-studendi-lat-latinlibrary-sd
-type: texto_primario
-title: "Epistola de Modo Studendi"
-subtitle: null
-author: "Tomás de Aquino"
+type: primary_text
+title: Epistola de Modo Studendi
+author: Tomás de Aquino
 year_original: 1260
 language: lat
-translation: []
-publisher: null
-area: Escolástica
-era: 13º século d.C.
 tags:
-  - latim
-  - tomas-de-aquino
-  - escolastica
-status: rascunho
+- scholasticism
+- century-13-ce
+status: draft
 project: pedra_angular
-source: "The Latin Library (thelatinlibrary.com), mirror local, 2026."
-related: []
+source: The Latin Library (thelatinlibrary.com), mirror local, 2026.
+license: public-domain
 ---
 
 # Epistola de Modo Studendi

@@ -1,21 +1,18 @@
 ---
 id: plutarco-advice-to-bride-and-groom-eng-frank-cole-babbitt-1928
-type: texto_primario
-title: "Advice to Bride and Groom"
-subtitle: null
+type: primary_text
+title: Advice to Bride and Groom
 author: Plutarch
-year_original: null
-language: eng
-translation:
-  - Frank Cole Babbitt
+translator:
+- Frank Cole Babbitt
 publisher: Harvard University Press
-area: null
-era: null
-tags: []
-status: rascunho
+language: eng
+tags:
+- moralists
+status: draft
 project: pedra_angular
-source: "Plutarch. Advice to Bride and Groom. Ed. Frank Cole Babbitt. Cambridge, MA: Harvard University Press, 1928. Perseus Digital Library, Tufts University (CC BY-SA 4.0). URN: null"
-related: []
+source: 'Plutarch. Advice to Bride and Groom. Ed. Frank Cole Babbitt. Cambridge, MA: Harvard University Press, 1928. Perseus Digital Library, Tufts University (CC BY-SA 4.0).'
+license: CC-BY-SA-4.0
 ---
 
 # Advice to Bride and Groom

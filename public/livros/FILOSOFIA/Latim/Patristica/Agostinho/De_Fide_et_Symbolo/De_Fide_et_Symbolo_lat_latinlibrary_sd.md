@@ -1,22 +1,18 @@
 ---
 id: agostinho-de-fide-et-symbolo-lat-latinlibrary-sd
-type: texto_primario
-title: "De Fide et Symbolo"
-subtitle: null
-author: "Agostinho de Hipona"
+type: primary_text
+title: De Fide et Symbolo
+author: Agostinho de Hipona
 year_original: 393
 language: lat
-translation: []
-publisher: null
-area: Patrística
-era: 4-5º século d.C.
 tags:
-  - latim
-  - agostinho
-status: rascunho
+- patristics
+- century-4-ce
+- century-5-ce
+status: draft
 project: pedra_angular
-source: "The Latin Library (thelatinlibrary.com), mirror local, 2026."
-related: []
+source: The Latin Library (thelatinlibrary.com), mirror local, 2026.
+license: public-domain
 ---
 
 # De Fide et Symbolo

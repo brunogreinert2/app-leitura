@@ -1,19 +1,20 @@
 ---
 id: biblia-hebraica-wlc-13-1_cronicas
-type: texto_primario
-title: "1 Crônicas (Bíblia Hebraica — WLC)"
-author: null
+type: primary_text
+title: 1 Crônicas (Bíblia Hebraica — WLC)
+editor: Westminster Leningrad Codex 4.20
 language: heb
-editor: "Westminster Leningrad Codex 4.20"
-source: "Westminster Leningrad Codex via OpenScriptures morphhb (github.com/openscriptures/morphhb), 2026. Texto massorético, sem a camada morfológica."
-license: "dominio_publico"
-publishable: true
-status: rascunho
+tags:
+- bible
+- tanakh
+status: draft
 project: pedra_angular
-livro_numero: 13
-abrev: 1Cr
-sistema_referencia: versiculo
-tags: [biblia, hebraico, tanakh]
+reference_system: verse
+abbrev: 1Cr
+book_number: 13
+source: Westminster Leningrad Codex via OpenScriptures morphhb (github.com/openscriptures/morphhb), 2026. Texto massorético, sem a camada morfológica.
+license: public-domain
+publishable: true
 ---
 
 # 1 Crônicas — דברי הימים א

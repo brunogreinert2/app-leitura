@@ -1,31 +1,31 @@
 ---
 id: personagem-parmenides-de-eleia
-type: personagem
-title: "Arquivo Mestre: Parmênides de Eleia"
+type: character
+title: 'Arquivo Mestre: Parmênides de Eleia'
+language: por
+tags:
+- ancient-philosophy
+- century-5-bce
+- century-6-bce
+- being
+- non-being
+- immobility-of-being
+- way-of-truth
+- way-of-opinion
+- ontological-monism
+- presocratics
+- ontology
+- eleatics
+status: published
+project: pedra_angular
+related:
+- '[[Platão]]'
+- '[[Aristóteles]]'
+license: CC-BY-SA-4.0
+processing: preparado por Διαφορεύς, Gemini (3.1 Pro ou 3.5 Flash), Claude Sonnet 4.6
 born: -515
 died: -450
 nationality: Grego
-area: Filosofia Antiga
-era: séculos VI–V a.C.
-tags:
-  - ser
-  - nao-ser
-  - imobilidade-do-ser
-  - via-da-verdade
-  - via-da-opiniao
-  - monismo-ontologico
-  - pre-socraticos
-  - ontologia
-  - eleatas
-coautoria:
-  - Διαφορεύς
-  - Gemini (3.1 Pro ou 3.5 Flash)
-  - Claude Sonnet 4.6
-project: pedra_angular
-related:
-  - "[[Platão]]"
-  - "[[Aristóteles]]"
-status: canonical_source
 ---
 
 

@@ -1,43 +1,37 @@
 ---
 id: douay-rheims-3rg-eng-challoner-1752
-type: texto_primario
-title: "3 Kings (Douay-Rheims)"
-subtitle: null
-original_title: "3 Kings"
-author: null
+type: primary_text
+title: 3 Kings (Douay-Rheims)
+original_title: 3 Kings
+translator:
+- Gregory Martin
+- Richard Challoner
 year_original: 1610
-language: eng
-translation:
-  - Gregory Martin
-  - Richard Challoner
-editor: null
-publisher: null
 publication_year: 1752
-area: Escrituras
-era: século XVI-XVIII (tradução da Vulgata)
-sistema_referencia: versiculo
-abrev: "3Rg"
-livro_numero: 11
-secao: "Historical books"
-canon: "católico (73 livros), sem o apêndice clementino"
-scope: "817 versículos em 22 capítulos"
+language: eng
 tags:
-  - ingles
-  - biblia
-  - douay-rheims
-  - vulgata
-  - historical-books
-coautoria:
-  - Διαφορεύς
-  - Claude Opus 5
-status: rascunho
+- bible
+- scripture
+- century-16-ce
+- century-17-ce
+- century-18-ce
+- douay-rheims
+- vulgate
+- historical-books
+status: draft
 project: pedra_angular
-source: "The Holy Bible, Douay-Rheims version, revised by Bishop Richard Challoner (1749-1752). Arquivo TextOther/3Rg.eng do repositório bitbucket.org/clementinetextproject/text, alinhado versículo a versículo com a Vulgata Clementina."
-license: "domínio público"
-publishable: true
-nota_processador: "Erro de numeração na transcrição inglesa, restituído: 6:26 -> 6:25. A fonte trazia dois versículos rotulados 6:26 e nenhum 6:25; a Vulgata Clementina alinhada tem 6:25 com conteúdo correspondente ao primeiro deles. Nenhum texto foi alterado, apenas o número restituído."
 related:
-  - "Vulgata Clementina, 3Rg"
+- Vulgata Clementina, 3Rg
+reference_system: verse
+abbrev: 3Rg
+book_number: 11
+canon: católico (73 livros), sem o apêndice clementino
+section: Historical books
+scope: 817 versículos em 22 capítulos
+source: The Holy Bible, Douay-Rheims version, revised by Bishop Richard Challoner (1749-1752). Arquivo TextOther/3Rg.eng do repositório bitbucket.org/clementinetextproject/text, alinhado versículo a versículo com a Vulgata Clementina.
+license: public-domain
+publishable: true
+processing: 'preparado por Διαφορεύς, Claude Opus 5; Erro de numeração na transcrição inglesa, restituído: 6:26 -> 6:25. A fonte trazia dois versículos rotulados 6:26 e nenhum 6:25; a Vulgata Clementina alinhada tem 6:25 com conteúdo correspondente ao primeiro deles. Nenhum texto foi alterado, apenas o número restituído.'
 ---
 
 # 3 Kings

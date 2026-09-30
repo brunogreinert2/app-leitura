@@ -1,22 +1,18 @@
 ---
 id: voltaire-ouvidos-conde-chesterfield-jahr
-type: texto_primario
+type: primary_text
 title: Os Ouvidos do Conde de Chesterfield e o Capelão Goudman
-subtitle: null
 author: Voltaire
-year_original: 1775
-language: pt-BR
-translation:
-  - null
 publisher: eBooksBrasil.org
-area: Filosofia
-era: século XVIII d.C.
+year_original: 1775
+language: por
 tags:
-  - iluminismo
-status: revisado
+- enlightenment
+- century-18-ce
+status: reviewed
 project: pedra_angular
 source: Garcia, Nélson Jahr (ed.)
-related: []
+license: LicenseRef-eBooksBrasil
 ---
 
 # Os Ouvidos do Conde de Chesterfield e o Capelão Goudman

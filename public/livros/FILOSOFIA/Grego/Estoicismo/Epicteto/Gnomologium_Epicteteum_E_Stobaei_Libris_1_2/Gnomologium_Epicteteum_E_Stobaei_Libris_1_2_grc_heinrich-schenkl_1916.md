@@ -1,20 +1,18 @@
 ---
 id: epicteto-gnomologium-epicteteum-e-stobaei-libris-1-2-grc-heinrich-schenkl-1916
-type: texto_primario
-title: "Gnomologium Epicteteum (e Stobaei libris 1-2)"
-subtitle: null
+type: primary_text
+title: Gnomologium Epicteteum (e Stobaei libris 1-2)
 author: Epictetus
-year_original: null
-language: grc
-translation: []
 publisher: B. G. Teubner
-area: null
-era: null
-tags: []
-status: rascunho
+language: grc
+tags:
+- stoicism
+status: draft
 project: pedra_angular
-source: "Epictetus. Gnomologium Epicteteum (e Stobaei libris 1-2). Ed. Heinrich Schenkl. Leipzig: B. G. Teubner, 1916. Perseus Digital Library, Tufts University (CC BY-SA 4.0). URN: urn:cts:greekLit:tlg0557.tlg004.perseus-grc2"
-related: []
+urn_work: urn:cts:greekLit:tlg0557.tlg004
+urn: urn:cts:greekLit:tlg0557.tlg004.perseus-grc2
+source: 'Epictetus. Gnomologium Epicteteum (e Stobaei libris 1-2). Ed. Heinrich Schenkl. Leipzig: B. G. Teubner, 1916. Perseus Digital Library, Tufts University (CC BY-SA 4.0).'
+license: CC-BY-SA-4.0
 ---
 
 # Gnomologium Epicteteum (e Stobaei libris 1-2)

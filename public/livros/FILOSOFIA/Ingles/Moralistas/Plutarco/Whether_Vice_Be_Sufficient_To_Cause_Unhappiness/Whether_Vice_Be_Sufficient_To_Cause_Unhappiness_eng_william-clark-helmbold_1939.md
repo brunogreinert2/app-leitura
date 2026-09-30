@@ -1,21 +1,23 @@
 ---
 id: plutarco-whether-vice-be-sufficient-to-cause-unhappiness-eng-william-clark-helmbold-1939
-type: texto_primario
-title: "Whether vice be sufficient to cause unhappiness"
-subtitle: null
+type: primary_text
+title: Whether vice be sufficient to cause unhappiness
 author: Plutarch
-year_original: null
-language: eng
-translation:
-  - William Clark Helmbold
+translator:
+- William Clark Helmbold
 publisher: Harvard University Press
-area: null
-era: null
-tags: []
-status: rascunho
+language: eng
+tags:
+- moralists
+status: draft
 project: pedra_angular
-source: "Plutarch. Whether vice be sufficient to cause unhappiness. Ed. William Clark Helmbold. Cambridge, MA: Harvard University Press, 1939. Perseus Digital Library, Tufts University (CC BY-SA 4.0). URN: null"
-related: []
+urn_work: urn:cts:greekLit:tlg0007.tlg099
+urn: urn:cts:greekLit:tlg0007.tlg099.perseus-eng3
+source: 'Plutarch. Whether vice be sufficient to cause unhappiness. Ed. William Clark Helmbold. Cambridge, MA: Harvard University Press, 1939. Perseus Digital Library, Tufts University (CC BY-SA 4.0).'
+source_repo: PerseusDL/canonical-greekLit
+source_file: data/tlg0007/tlg099/tlg0007.tlg099.perseus-eng3.xml
+source_commit: e37eed2e8
+license: CC-BY-SA-4.0
 ---
 
 # Whether vice be sufficient to cause unhappiness

@@ -1,22 +1,20 @@
 ---
 id: biblia-64-3-joao-grc-sblgnt-2010
-type: texto_primario
-title: "3_Joao (Novo Testamento Grego, SBLGNT)"
-author: null
+type: primary_text
+title: 3_Joao (Novo Testamento Grego, SBLGNT)
+editor: Michael W. Holmes
+publisher: Society of Biblical Literature / Logos Bible Software
 language: grc
-translator: null
-editor: "Michael W. Holmes"
-year_original: null
-publisher: "Society of Biblical Literature / Logos Bible Software"
-source: "SBL Greek New Testament, ed. Michael W. Holmes, 2010. Via github.com/LogosBible/SBLGNT (CC BY 4.0), 2026."
-license: "CC BY 4.0"
-publishable: true
-status: rascunho
+tags:
+- bible
+- new-testament
+status: draft
 project: pedra_angular
-livro_numero: 64
-abrev: 3Jo
-related: []
-tags: [biblia, grego, novo-testamento]
+abbrev: 3Jo
+book_number: 64
+source: SBL Greek New Testament, ed. Michael W. Holmes, 2010. Via github.com/LogosBible/SBLGNT (CC BY 4.0), 2026.
+license: CC-BY-4.0
+publishable: true
 ---
 
 # 3_Joao

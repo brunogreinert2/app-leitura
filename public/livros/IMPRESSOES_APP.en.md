@@ -1,10 +1,11 @@
 ---
 id: impressoes-app
-type: guia
+type: guide
 title: Welcome to the Reader
-project: pedra_angular
 language: eng
-status: vivo
+status: draft
+project: pedra_angular
+license: CC-BY-SA-4.0
 ---
 
 This is a reader for classical texts that runs **entirely on your device**: after the first visit it needs no internet at all. Tap any heading below to open that topic — in the body of a text every heading starts closed and opens with one tap.

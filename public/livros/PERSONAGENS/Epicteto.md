@@ -1,29 +1,29 @@
 ---
 id: personagem-epicteto
-type: personagem
-title: "Arquivo Mestre: Epicteto de Hierápolis"
+type: character
+title: 'Arquivo Mestre: Epicteto de Hierápolis'
+language: por
+tags:
+- ancient-philosophy
+- century-1-ce
+- century-2-ce
+- dichotomy-of-control
+- prohairesis
+- eudaimonia
+- dogmata
+- assent
+- stoicism
+- ethics
+status: published
+project: pedra_angular
+related:
+- '[[Sêneca]]'
+- '[[Marco Aurélio]]'
+license: CC-BY-SA-4.0
+processing: preparado por Διαφορεύς, Gemini (3.1 Pro ou 3.5 Flash), Claude Sonnet 4.6
 born: 50
 died: 135
 nationality: Grego
-area: Filosofia Antiga
-era: séculos I–II d.C.
-tags:
-  - dicotomia-do-controle
-  - prohairesis
-  - eudaimonia
-  - dogmas
-  - assentimento
-  - estoicismo
-  - etica
-coautoria:
-  - Διαφορεύς
-  - Gemini (3.1 Pro ou 3.5 Flash)
-  - Claude Sonnet 4.6
-project: pedra_angular
-related:
-  - "[[Sêneca]]"
-  - "[[Marco Aurélio]]"
-status: canonical_source
 ---
 
 

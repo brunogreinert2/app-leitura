@@ -1,22 +1,19 @@
 ---
 id: biblia-03-levitico-por-alm1911-1911
-type: texto_primario
-title: "Levítico (Almeida Revista e Corrigida 1911)"
-author: null
+type: primary_text
+title: Levítico (Almeida Revista e Corrigida 1911)
+translator:
+- João Ferreira de Almeida (revisão de 1911)
 language: por
-translator: "João Ferreira de Almeida (revisão de 1911)"
-editor: null
-year_original: null
-publisher: null
-source: "Almeida Revista e Corrigida 1911, 1911. Via github.com/damarals/biblias (JSON canônico), 2026."
-license: "dominio_publico"
-publishable: true
-status: rascunho
+tags:
+- bible
+status: draft
 project: pedra_angular
-livro_numero: 3
-abrev: Lv
-related: []
-tags: [biblia]
+abbrev: Lv
+book_number: 3
+source: Almeida Revista e Corrigida 1911, 1911. Via github.com/damarals/biblias (JSON canônico), 2026.
+license: public-domain
+publishable: true
 ---
 
 # Levítico

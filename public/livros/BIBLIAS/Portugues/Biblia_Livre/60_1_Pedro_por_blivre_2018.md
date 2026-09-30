@@ -1,22 +1,19 @@
 ---
 id: biblia-60-1-pedro-por-blivre-2018
-type: texto_primario
-title: "1 Pedro (Bíblia Livre)"
-author: null
+type: primary_text
+title: 1 Pedro (Bíblia Livre)
+translator:
+- Projeto Bíblia Livre (revisão da Almeida 1819)
 language: por
-translator: "Projeto Bíblia Livre (revisão da Almeida 1819)"
-editor: null
-year_original: null
-publisher: null
-source: "Bíblia Livre, 2018. Via github.com/damarals/biblias (JSON canônico), 2026."
-license: "dominio_publico"
-publishable: true
-status: rascunho
+tags:
+- bible
+status: draft
 project: pedra_angular
-livro_numero: 60
-abrev: 1Pe
-related: []
-tags: [biblia]
+abbrev: 1Pe
+book_number: 60
+source: Bíblia Livre, 2018. Via github.com/damarals/biblias (JSON canônico), 2026.
+license: public-domain
+publishable: true
 ---
 
 # 1 Pedro

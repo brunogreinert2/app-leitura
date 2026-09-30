@@ -1,19 +1,20 @@
 ---
 id: biblia-hebraica-wlc-39-malaquias
-type: texto_primario
-title: "Malaquias (Bíblia Hebraica — WLC)"
-author: null
+type: primary_text
+title: Malaquias (Bíblia Hebraica — WLC)
+editor: Westminster Leningrad Codex 4.20
 language: heb
-editor: "Westminster Leningrad Codex 4.20"
-source: "Westminster Leningrad Codex via OpenScriptures morphhb (github.com/openscriptures/morphhb), 2026. Texto massorético, sem a camada morfológica."
-license: "dominio_publico"
-publishable: true
-status: rascunho
+tags:
+- bible
+- tanakh
+status: draft
 project: pedra_angular
-livro_numero: 39
-abrev: Ml
-sistema_referencia: versiculo
-tags: [biblia, hebraico, tanakh]
+reference_system: verse
+abbrev: Ml
+book_number: 39
+source: Westminster Leningrad Codex via OpenScriptures morphhb (github.com/openscriptures/morphhb), 2026. Texto massorético, sem a camada morfológica.
+license: public-domain
+publishable: true
 ---
 
 # Malaquias — מלאכי

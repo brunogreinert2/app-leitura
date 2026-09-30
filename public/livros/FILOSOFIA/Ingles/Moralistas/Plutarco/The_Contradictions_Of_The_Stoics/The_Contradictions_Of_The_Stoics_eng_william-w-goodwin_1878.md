@@ -1,21 +1,23 @@
 ---
 id: plutarco-the-contradictions-of-the-stoics-eng-william-w-goodwin-1878
-type: texto_primario
-title: "The contradictions of the Stoics"
-subtitle: null
+type: primary_text
+title: The contradictions of the Stoics
 author: Plutarch
-year_original: null
-language: eng
-translation:
-  - William W. Goodwin
+translator:
+- William W. Goodwin
 publisher: Little, Brown, and Company
-area: null
-era: null
-tags: []
-status: rascunho
+language: eng
+tags:
+- moralists
+status: draft
 project: pedra_angular
-source: "Plutarch. The contradictions of the Stoics. Ed. William W. Goodwin. Boston: Little, Brown, and Company, 1878. Perseus Digital Library, Tufts University (CC BY-SA 4.0). URN: null"
-related: []
+urn_work: urn:cts:greekLit:tlg0007.tlg136
+urn: urn:cts:greekLit:tlg0007.tlg136.perseus-eng2
+source: 'Plutarch. The contradictions of the Stoics. Ed. William W. Goodwin. Boston: Little, Brown, and Company, 1878. Perseus Digital Library, Tufts University (CC BY-SA 4.0).'
+source_repo: PerseusDL/canonical-greekLit
+source_file: data/tlg0007/tlg136/tlg0007.tlg136.perseus-eng2.xml
+source_commit: e37eed2e8
+license: CC-BY-SA-4.0
 ---
 
 # The contradictions of the Stoics

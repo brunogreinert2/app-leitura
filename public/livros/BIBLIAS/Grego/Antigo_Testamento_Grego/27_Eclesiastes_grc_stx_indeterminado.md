@@ -1,24 +1,20 @@
 ---
 id: eclesiastes-grc-lxx-sts
-type: texto_primario
+type: primary_text
 title: Eclesiastes
-subtitle: null
-author: null
-year_original: null
+base_edition: Septuaginta (tradição de domínio público, via sacred-texts.com/bib/osrc); edição crítica de base não identificada explicitamente pela fonte — ver nota do processador [^pa2].
 language: grc
-edition: "Septuaginta (tradição de domínio público, via sacred-texts.com/bib/osrc); edição crítica de base não identificada explicitamente pela fonte — ver nota do processador [^pa2]."
-area: Textos Biblicos
-era: "trad. sec. III-I a.C.; filiação crítica do dump não identificada explicitamente como Rahlfs 1935"
 tags:
-  - biblia
-  - antigo-testamento
-  - grego
-  - septuaginta
-status: rascunho
+- bible
+- century-1-bce
+- century-3-bce
+- old-testament
+- septuagint
+status: draft
 project: pedra_angular
-source: "https://sacred-texts.com/bib/osrc/ (sept.zip)"
-processing: "sept_osrc_to_pedra_angular.py v1.0, 2026-07-05; incluído no Antigo Testamento grego em 2026-08-13 como única exceção de fonte dos 55 livros — ver [^pa2]"
-related: []
+source: https://sacred-texts.com/bib/osrc/ (sept.zip)
+license: public-domain
+processing: sept_osrc_to_pedra_angular.py v1.0, 2026-07-05; incluído no Antigo Testamento grego em 2026-08-13 como única exceção de fonte dos 55 livros — ver [^pa2]
 ---
 
 # Eclesiastes

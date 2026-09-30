@@ -1,22 +1,20 @@
 ---
 id: biblia-52-1-tessalonicenses-grc-sblgnt-2010
-type: texto_primario
-title: "1_Tessalonicenses (Novo Testamento Grego, SBLGNT)"
-author: null
+type: primary_text
+title: 1_Tessalonicenses (Novo Testamento Grego, SBLGNT)
+editor: Michael W. Holmes
+publisher: Society of Biblical Literature / Logos Bible Software
 language: grc
-translator: null
-editor: "Michael W. Holmes"
-year_original: null
-publisher: "Society of Biblical Literature / Logos Bible Software"
-source: "SBL Greek New Testament, ed. Michael W. Holmes, 2010. Via github.com/LogosBible/SBLGNT (CC BY 4.0), 2026."
-license: "CC BY 4.0"
-publishable: true
-status: rascunho
+tags:
+- bible
+- new-testament
+status: draft
 project: pedra_angular
-livro_numero: 52
-abrev: 1Ts
-related: []
-tags: [biblia, grego, novo-testamento]
+abbrev: 1Ts
+book_number: 52
+source: SBL Greek New Testament, ed. Michael W. Holmes, 2010. Via github.com/LogosBible/SBLGNT (CC BY 4.0), 2026.
+license: CC-BY-4.0
+publishable: true
 ---
 
 # 1_Tessalonicenses

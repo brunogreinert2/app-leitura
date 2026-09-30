@@ -1,30 +1,28 @@
 ---
 id: personagem-michel-foucault
-type: personagem
-title: "Arquivo Mestre: Michel Foucault"
+type: character
+title: 'Arquivo Mestre: Michel Foucault'
+language: por
+tags:
+- filosofia-contemporanea
+- century-20-ce
+- biopower
+- genealogy
+- archaeology-of-knowledge
+- discipline
+- panopticon
+- dispositif
+- governmentality
+- critical-theory
+- power
+- subjectivity
+status: published
+project: pedra_angular
+license: CC-BY-SA-4.0
+processing: preparado por Διαφορεύς, Gemini (3.1 Pro ou 3.5 Flash), Claude Sonnet 4.6
 born: 1926
 died: 1984
 nationality: Francês
-area: Filosofia Contemporânea
-era: século XX d.C.
-tags:
-  - biopoder
-  - genealogia
-  - arqueologia-do-saber
-  - disciplina
-  - panoptico
-  - dispositivo
-  - governamentalidade
-  - teoria-critica
-  - poder
-  - subjetividade
-coautoria:
-  - Διαφορεύς
-  - Gemini (3.1 Pro ou 3.5 Flash)
-  - Claude Sonnet 4.6
-project: pedra_angular
-related: []
-status: canonical_source
 ---
 
 

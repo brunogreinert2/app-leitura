@@ -1,22 +1,18 @@
 ---
 id: voltaire-breves-contos-3-jahr
-type: texto_primario
+type: primary_text
 title: Breves Contos
 subtitle: III
 author: Voltaire
-year_original: null
-language: pt-BR
-translation:
-  - null
 publisher: eBooksBrasil.org
-area: Filosofia
-era: século XVIII d.C.
+language: por
 tags:
-  - iluminismo
-status: revisado
+- enlightenment
+- century-18-ce
+status: reviewed
 project: pedra_angular
 source: Garcia, Nélson Jahr (ed.)
-related: []
+license: LicenseRef-eBooksBrasil
 ---
 
 # Breves Contos III

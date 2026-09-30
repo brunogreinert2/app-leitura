@@ -1,22 +1,19 @@
 ---
 id: biblia-64-3-joao-por-blivre-2018
-type: texto_primario
-title: "3 João (Bíblia Livre)"
-author: null
+type: primary_text
+title: 3 João (Bíblia Livre)
+translator:
+- Projeto Bíblia Livre (revisão da Almeida 1819)
 language: por
-translator: "Projeto Bíblia Livre (revisão da Almeida 1819)"
-editor: null
-year_original: null
-publisher: null
-source: "Bíblia Livre, 2018. Via github.com/damarals/biblias (JSON canônico), 2026."
-license: "dominio_publico"
-publishable: true
-status: rascunho
+tags:
+- bible
+status: draft
 project: pedra_angular
-livro_numero: 64
-abrev: 3Jo
-related: []
-tags: [biblia]
+abbrev: 3Jo
+book_number: 64
+source: Bíblia Livre, 2018. Via github.com/damarals/biblias (JSON canônico), 2026.
+license: public-domain
+publishable: true
 ---
 
 # 3 João

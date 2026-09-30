@@ -1,41 +1,35 @@
 ---
 id: vulgata-clementina-2par-lat-tweedale-2005
-type: texto_primario
-title: "Paralipomenon II (Vulgata Clementina)"
-subtitle: null
-original_title: "Paralipomenon II"
-author: null
-year_original: 1592
-language: lat
-translation:
-  - Hieronymus Stridonensis
+type: primary_text
+title: Paralipomenon II (Vulgata Clementina)
+original_title: Paralipomenon II
+translator:
+- Hieronymus Stridonensis
 editor:
-  - Michael Tweedale
-publisher: null
+- Michael Tweedale
+year_original: 1592
 publication_year: 2005
-area: Escrituras
-era: século IV d.C. (recensão de 1592)
-sistema_referencia: versiculo
-abrev: "2Par"
-livro_numero: 14
-secao: "Livros históricos"
-canon: "católico (73 livros), sem o apêndice clementino"
-scope: "822 versículos em 36 capítulos"
+language: lat
 tags:
-  - latim
-  - vulgata
-  - biblia
-  - clementina
-  - livros-hist-ricos
-coautoria:
-  - Διαφορεύς
-  - Claude Opus 5
-status: rascunho
+- bible
+- scripture
+- century-4-ce
+- century-15-ce
+- vulgate
+- clementine-vulgate
+- historical-books
+status: draft
 project: pedra_angular
-source: "Biblia Sacra juxta Vulgatam Clementinam. Editio electronica: Michael Tweedale et al., The Clementine Text Project (2005; correções posteriores). Arquivo Text/2Par.lat do repositório bitbucket.org/clementinetextproject/text."
-license: "domínio público"
+reference_system: verse
+abbrev: 2Par
+book_number: 14
+canon: católico (73 livros), sem o apêndice clementino
+section: Livros históricos
+scope: 822 versículos em 36 capítulos
+source: 'Biblia Sacra juxta Vulgatam Clementinam. Editio electronica: Michael Tweedale et al., The Clementine Text Project (2005; correções posteriores). Arquivo Text/2Par.lat do repositório bitbucket.org/clementinetextproject/text.'
+license: public-domain
 publishable: true
-related: []
+processing: preparado por Διαφορεύς, Claude Opus 5
 ---
 
 # Paralipomenon II

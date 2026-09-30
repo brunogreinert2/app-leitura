@@ -1,21 +1,24 @@
 ---
 id: aristoteles-economics-eng-george-cyril-armstrong-1935
-type: texto_primario
-title: "Economics"
-subtitle: null
+type: primary_text
+title: Economics
 author: Aristotle
-year_original: null
-language: eng
-translation:
-  - George Cyril Armstrong
+translator:
+- George Cyril Armstrong
 publisher: William Heinemann Ltd.
-area: null
-era: null
-tags: []
-status: rascunho
+language: eng
+tags:
+- classical-philosophy
+- aristotelianism
+status: draft
 project: pedra_angular
-source: "Aristotle. Economics. Ed. George Cyril Armstrong. London: William Heinemann Ltd., 1935. Perseus Digital Library, Tufts University (CC BY-SA 4.0). URN: null"
-related: []
+urn_work: urn:cts:greekLit:tlg0086.tlg029
+urn: urn:cts:greekLit:tlg0086.tlg029.perseus-eng2
+source: 'Aristotle. Economics. Ed. George Cyril Armstrong. London: William Heinemann Ltd., 1935. Perseus Digital Library, Tufts University (CC BY-SA 4.0).'
+source_repo: PerseusDL/canonical-greekLit
+source_file: data/tlg0086/tlg029/tlg0086.tlg029.perseus-eng2.xml
+source_commit: e37eed2e8
+license: CC-BY-SA-4.0
 ---
 
 # Economics

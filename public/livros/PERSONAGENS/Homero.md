@@ -1,31 +1,30 @@
 ---
 id: personagem-homero
-type: personagem
-title: "Arquivo Mestre: Homero"
+type: character
+title: 'Arquivo Mestre: Homero'
+language: por
+tags:
+- literatura-antiga
+- century-8-bce
+- epic
+- arete
+- kleos
+- nostos
+- xenia
+- moira
+- ancient-literature
+- archaic-greece
+- myth
+status: published
+project: pedra_angular
+related:
+- '[[Platão]]'
+- '[[Aristóteles]]'
+license: CC-BY-SA-4.0
+processing: preparado por Διαφορεύς, Gemini (3.1 Pro ou 3.5 Flash), Claude Sonnet 4.6
 born: -800
 died: -750
 nationality: Grego
-area: Literatura Antiga
-era: século VIII a.C.
-tags:
-  - epopeia
-  - arete
-  - kleos
-  - nostos
-  - xenia
-  - moira
-  - literatura-antiga
-  - grecia-arcaica
-  - mito
-coautoria:
-  - Διαφορεύς
-  - Gemini (3.1 Pro ou 3.5 Flash)
-  - Claude Sonnet 4.6
-project: pedra_angular
-related:
-  - "[[Platão]]"
-  - "[[Aristóteles]]"
-status: canonical_source
 ---
 
 

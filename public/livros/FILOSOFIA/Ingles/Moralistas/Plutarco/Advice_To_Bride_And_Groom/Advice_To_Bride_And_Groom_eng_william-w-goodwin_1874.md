@@ -1,21 +1,18 @@
 ---
 id: plutarco-advice-to-bride-and-groom-eng-william-w-goodwin-1874
-type: texto_primario
-title: "Conjugal Precepts"
-subtitle: null
+type: primary_text
+title: Conjugal Precepts
 author: Plutarch
-year_original: null
-language: eng
-translation:
-  - William W. Goodwin
+translator:
+- William W. Goodwin
 publisher: Little, Brown, and Company
-area: null
-era: null
-tags: []
-status: rascunho
+language: eng
+tags:
+- moralists
+status: draft
 project: pedra_angular
-source: "Plutarch. Conjugal Precepts. Ed. William W. Goodwin. Boston: Little, Brown, and Company, 1874. Perseus Digital Library, Tufts University (CC BY-SA 4.0). URN: null"
-related: []
+source: 'Plutarch. Conjugal Precepts. Ed. William W. Goodwin. Boston: Little, Brown, and Company, 1874. Perseus Digital Library, Tufts University (CC BY-SA 4.0).'
+license: CC-BY-SA-4.0
 ---
 
 # Conjugal Precepts

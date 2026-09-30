@@ -1,22 +1,17 @@
 ---
 id: martinho-de-braga-formula-vitae-honestae-lat-latinlibrary-sd
-type: texto_primario
-title: "Formula Vitae Honestae"
-subtitle: null
-author: "Martinho de Braga"
+type: primary_text
+title: Formula Vitae Honestae
+author: Martinho de Braga
 year_original: 570
 language: lat
-translation: []
-publisher: null
-area: Patrística
-era: 6º século d.C.
 tags:
-  - latim
-  - martinho_de_braga
-status: rascunho
+- patristics
+- century-6-ce
+status: draft
 project: pedra_angular
-source: "The Latin Library (thelatinlibrary.com), mirror local, 2026."
-related: []
+source: The Latin Library (thelatinlibrary.com), mirror local, 2026.
+license: public-domain
 ---
 
 # Formula Vitae Honestae

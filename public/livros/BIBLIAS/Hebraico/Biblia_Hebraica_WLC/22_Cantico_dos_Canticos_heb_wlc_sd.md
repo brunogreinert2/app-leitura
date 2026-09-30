@@ -1,19 +1,20 @@
 ---
 id: biblia-hebraica-wlc-22-cantico_dos_canticos
-type: texto_primario
-title: "Cântico dos Cânticos (Bíblia Hebraica — WLC)"
-author: null
+type: primary_text
+title: Cântico dos Cânticos (Bíblia Hebraica — WLC)
+editor: Westminster Leningrad Codex 4.20
 language: heb
-editor: "Westminster Leningrad Codex 4.20"
-source: "Westminster Leningrad Codex via OpenScriptures morphhb (github.com/openscriptures/morphhb), 2026. Texto massorético, sem a camada morfológica."
-license: "dominio_publico"
-publishable: true
-status: rascunho
+tags:
+- bible
+- tanakh
+status: draft
 project: pedra_angular
-livro_numero: 22
-abrev: Ct
-sistema_referencia: versiculo
-tags: [biblia, hebraico, tanakh]
+reference_system: verse
+abbrev: Ct
+book_number: 22
+source: Westminster Leningrad Codex via OpenScriptures morphhb (github.com/openscriptures/morphhb), 2026. Texto massorético, sem a camada morfológica.
+license: public-domain
+publishable: true
 ---
 
 # Cântico dos Cânticos — שיר השירים

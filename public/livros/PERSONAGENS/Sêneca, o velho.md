@@ -1,27 +1,26 @@
 ---
 id: personagem-seneca-maior
-type: personagem
-title: "Arquivo Mestre: Sêneca, o Velho (Sêneca Maior)"
+type: character
+title: 'Arquivo Mestre: Sêneca, o Velho (Sêneca Maior)'
+language: por
+tags:
+- retorica-latina
+- century-1-bce
+- controversia
+- suasoria
+- declamation
+- roman-rhetoric
+- rome
+- latin-literature
+status: published
+project: pedra_angular
+related:
+- '[[Sêneca]]'
+license: CC-BY-SA-4.0
+processing: preparado por Διαφορεύς, Gemini (3.1 Pro ou 3.5 Flash), Claude Sonnet 4.6
 born: -54
 died: 39
 nationality: Romano
-area: Retórica Latina
-era: séculos I a.C.–I d.C.
-tags:
-  - controversia
-  - suasoria
-  - declamacao
-  - retorica-romana
-  - roma
-  - literatura-latina
-coautoria:
-  - Διαφορεύς
-  - Gemini (3.1 Pro ou 3.5 Flash)
-  - Claude Sonnet 4.6
-project: pedra_angular
-related:
-  - "[[Sêneca]]"
-status: canonical_source
 ---
 
 

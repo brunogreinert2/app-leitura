@@ -1,40 +1,29 @@
 ---
 id: lucrecio-de-rerum-natura-lat-perseus-sd
-type: texto_primario
-title: "De Rerum Natura"
-subtitle: null
-original_title: "De rerum natura libri sex"
-author: "Lucrécio"
+type: primary_text
+title: De Rerum Natura
+original_title: De rerum natura libri sex
+author: Lucrécio
 year_original: -55
 language: lat
-translation: []
-editor: null
-publisher: null
-publication_year: null
-collection: null
-isbn: null
-area: Filosofia Antiga
-era: século I a.C.
-sistema_referencia: livro-verso
-abrev: "Lucr."
-scope: "obra completa — seis livros, 7415 versos"
 tags:
-  - latim
-  - lucrecio
-  - epicurismo
-  - atomismo
-  - poesia-didatica
-  - filosofia-antiga
-  - roma-republicana
-coautoria:
-  - Διαφορεύς
-  - Claude Opus 5
-status: rascunho
+- roman-republic
+- ancient-philosophy
+- century-1-bce
+- epicureanism
+- atomism
+- didactic-poetry
+status: draft
 project: pedra_angular
-source: "Titus Lucretius Carus, De Rerum Natura. Perseus Digital Library, Tufts University, urn:cts:latinLit:phi0550.phi001.perseus-lat1 (arquivo canonical-latinLit, texto id 1999.02.0130). A edição impressa de base não é registrada pelo Perseus — ver Notas do Processador."
-license: "CC BY-SA 4.0 (Perseus Digital Library)"
+reference_system: book-line
+abbrev: Lucr.
+scope: obra completa — seis livros, 7415 versos
+urn_work: urn:cts:latinLit:phi0550.phi001
+urn: urn:cts:latinLit:phi0550.phi001.perseus-lat1
+source: Titus Lucretius Carus, De Rerum Natura. Perseus Digital Library, Tufts University, urn:cts:latinLit:phi0550.phi001.perseus-lat1 (arquivo canonical-latinLit, texto id 1999.02.0130). A edição impressa de base não é registrada pelo Perseus — ver Notas do Processador.
+license: CC-BY-SA-4.0
 publishable: true
-related: []
+processing: preparado por Διαφορεύς, Claude Opus 5
 ---
 
 # De Rerum Natura

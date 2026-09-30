@@ -1,22 +1,19 @@
 ---
 id: biblia-40-mateus-por-blivre-2018
-type: texto_primario
-title: "Mateus (Bíblia Livre)"
-author: null
+type: primary_text
+title: Mateus (Bíblia Livre)
+translator:
+- Projeto Bíblia Livre (revisão da Almeida 1819)
 language: por
-translator: "Projeto Bíblia Livre (revisão da Almeida 1819)"
-editor: null
-year_original: null
-publisher: null
-source: "Bíblia Livre, 2018. Via github.com/damarals/biblias (JSON canônico), 2026."
-license: "dominio_publico"
-publishable: true
-status: rascunho
+tags:
+- bible
+status: draft
 project: pedra_angular
-livro_numero: 40
-abrev: Mt
-related: []
-tags: [biblia]
+abbrev: Mt
+book_number: 40
+source: Bíblia Livre, 2018. Via github.com/damarals/biblias (JSON canônico), 2026.
+license: public-domain
+publishable: true
 ---
 
 # Mateus

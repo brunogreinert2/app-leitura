@@ -1,24 +1,24 @@
 ---
 id: schopenhauer-o-mundo-como-vontade-e-representacao-livro-iii-pt-maar-sd
-type: texto_primario
+type: primary_text
 title: O Mundo como Vontade e Representação — Livro III
-subtitle: "Segunda Consideração: O Mundo Como Representação"
+subtitle: 'Segunda Consideração: O Mundo Como Representação'
 author: Arthur Schopenhauer
-year_original: 1819
-language: pt-BR
-translation:
-  - Wolfgang Leo Maar
+translator:
+- Wolfgang Leo Maar
 publisher: Acrópolis — ed. digital ebooksBrasil.org
-area: Filosofia / Estética
-era: século XIX d.C.
+year_original: 1819
+language: por
 tags:
-  - idealismo
-  - estetica
-  - schopenhauer
-status: rascunho
+- german-idealism
+- filosofia-estetica
+- century-19-ce
+- idealism
+- aesthetics
+status: draft
 project: pedra_angular
 source: Schopenhauer, Arthur (1819/1844). Die Welt als Wille und Vorstellung, Livro III. Trad. Wolfgang Leo Maar. ebooksBrasil.org, ed. Acrópolis
-related: []
+license: LicenseRef-eBooksBrasil
 ---
 
 # O Mundo como Vontade e Representação — Livro III

@@ -1,20 +1,21 @@
 ---
 id: clemente-de-alexandria-tlg008-grc-g-w-butterworth-1919
-type: texto_primario
-title: "ὁ Προτρεπτικὸς εἰς ὑπομονὴν ἢ πρὸς τοὺς νεωστὶ βεβαπτισμένους"
-subtitle: null
+type: primary_text
+title: ὁ Προτρεπτικὸς εἰς ὑπομονὴν ἢ πρὸς τοὺς νεωστὶ βεβαπτισμένους
 author: Clement of Alexandria
-year_original: null
-language: grc
-translation: []
 publisher: Harvard University Press
-area: null
-era: null
-tags: []
-status: rascunho
+language: grc
+tags:
+- patristics
+status: draft
 project: pedra_angular
-source: "Clement of Alexandria. ὁ Προτρεπτικὸς εἰς ὑπομονὴν ἢ πρὸς τοὺς νεωστὶ βεβαπτισμένους. Ed. G.W. Butterworth. Cambridge, MA: Harvard University Press, 1919. Perseus Digital Library, Tufts University (CC BY-SA 4.0). URN: urn:cts:greekLit:tlg0555.tlg008.perseus-grc2"
-related: []
+urn_work: urn:cts:greekLit:tlg0555.tlg008
+urn: urn:cts:greekLit:tlg0555.tlg008.perseus-grc2
+source: 'Clement of Alexandria. ὁ Προτρεπτικὸς εἰς ὑπομονὴν ἢ πρὸς τοὺς νεωστὶ βεβαπτισμένους. Ed. G.W. Butterworth. Cambridge, MA: Harvard University Press, 1919. Perseus Digital Library, Tufts University (CC BY-SA 4.0).'
+source_repo: PerseusDL/canonical-greekLit
+source_file: data/tlg0555/tlg008/tlg0555.tlg008.perseus-grc2.xml
+source_commit: e37eed2e8
+license: CC-BY-SA-4.0
 ---
 
 # ὁ Προτρεπτικὸς εἰς ὑπομονὴν ἢ πρὸς τοὺς νεωστὶ βεβαπτισμένους

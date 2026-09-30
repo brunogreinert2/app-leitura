@@ -1,20 +1,23 @@
 ---
 id: diogenes-laercio-lives-of-eminent-philosophers-grc-r-d-hicks-1925
-type: texto_primario
-title: "Βίοι καὶ γνῶμαι τῶν ἐν φιλοσοφίᾳ εὐδοκιμησάντων"
-subtitle: null
+type: primary_text
+title: Βίοι καὶ γνῶμαι τῶν ἐν φιλοσοφίᾳ εὐδοκιμησάντων
 author: Diogenes Laertius
-year_original: null
-language: grc
-translation: []
 publisher: Harvard University Press
-area: null
-era: null
-tags: []
-status: rascunho
+language: grc
+tags:
+- classical-philosophy
+- biography
+- doxography
+status: draft
 project: pedra_angular
-source: "Diogenes Laertius. Βίοι καὶ γνῶμαι τῶν ἐν φιλοσοφίᾳ εὐδοκιμησάντων. Ed. R. D. Hicks. Cambridge, MA: Harvard University Press, 1925. Perseus Digital Library, Tufts University (CC BY-SA 4.0). URN: urn:cts:greekLit:tlg0004.tlg001.perseus-grc2"
-related: []
+urn_work: urn:cts:greekLit:tlg0004.tlg001
+urn: urn:cts:greekLit:tlg0004.tlg001.perseus-grc2
+source: 'Diogenes Laertius. Βίοι καὶ γνῶμαι τῶν ἐν φιλοσοφίᾳ εὐδοκιμησάντων. Ed. R. D. Hicks. Cambridge, MA: Harvard University Press, 1925. Perseus Digital Library, Tufts University (CC BY-SA 4.0).'
+source_repo: PerseusDL/canonical-greekLit
+source_file: data/tlg0004/tlg001/tlg0004.tlg001.perseus-grc2.xml
+source_commit: e37eed2e8
+license: CC-BY-SA-4.0
 ---
 
 # Βίοι καὶ γνῶμαι τῶν ἐν φιλοσοφίᾳ εὐδοκιμησάντων

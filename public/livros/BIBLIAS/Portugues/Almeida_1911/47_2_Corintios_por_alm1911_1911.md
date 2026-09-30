@@ -1,22 +1,19 @@
 ---
 id: biblia-47-2-corintios-por-alm1911-1911
-type: texto_primario
-title: "2 Coríntios (Almeida Revista e Corrigida 1911)"
-author: null
+type: primary_text
+title: 2 Coríntios (Almeida Revista e Corrigida 1911)
+translator:
+- João Ferreira de Almeida (revisão de 1911)
 language: por
-translator: "João Ferreira de Almeida (revisão de 1911)"
-editor: null
-year_original: null
-publisher: null
-source: "Almeida Revista e Corrigida 1911, 1911. Via github.com/damarals/biblias (JSON canônico), 2026."
-license: "dominio_publico"
-publishable: true
-status: rascunho
+tags:
+- bible
+status: draft
 project: pedra_angular
-livro_numero: 47
-abrev: 2Co
-related: []
-tags: [biblia]
+abbrev: 2Co
+book_number: 47
+source: Almeida Revista e Corrigida 1911, 1911. Via github.com/damarals/biblias (JSON canônico), 2026.
+license: public-domain
+publishable: true
 ---
 
 # 2 Coríntios

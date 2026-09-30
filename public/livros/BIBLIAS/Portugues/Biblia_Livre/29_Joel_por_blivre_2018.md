@@ -1,22 +1,19 @@
 ---
 id: biblia-29-joel-por-blivre-2018
-type: texto_primario
-title: "Joel (Bíblia Livre)"
-author: null
+type: primary_text
+title: Joel (Bíblia Livre)
+translator:
+- Projeto Bíblia Livre (revisão da Almeida 1819)
 language: por
-translator: "Projeto Bíblia Livre (revisão da Almeida 1819)"
-editor: null
-year_original: null
-publisher: null
-source: "Bíblia Livre, 2018. Via github.com/damarals/biblias (JSON canônico), 2026."
-license: "dominio_publico"
-publishable: true
-status: rascunho
+tags:
+- bible
+status: draft
 project: pedra_angular
-livro_numero: 29
-abrev: Jl
-related: []
-tags: [biblia]
+abbrev: Jl
+book_number: 29
+source: Bíblia Livre, 2018. Via github.com/damarals/biblias (JSON canônico), 2026.
+license: public-domain
+publishable: true
 ---
 
 # Joel

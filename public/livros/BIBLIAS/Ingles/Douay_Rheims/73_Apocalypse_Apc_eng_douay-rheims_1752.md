@@ -1,42 +1,37 @@
 ---
 id: douay-rheims-apc-eng-challoner-1752
-type: texto_primario
-title: "Apocalypse (Douay-Rheims)"
-subtitle: null
-original_title: "Apocalypse"
-author: null
+type: primary_text
+title: Apocalypse (Douay-Rheims)
+original_title: Apocalypse
+translator:
+- Gregory Martin
+- Richard Challoner
 year_original: 1610
-language: eng
-translation:
-  - Gregory Martin
-  - Richard Challoner
-editor: null
-publisher: null
 publication_year: 1752
-area: Escrituras
-era: século XVI-XVIII (tradução da Vulgata)
-sistema_referencia: versiculo
-abrev: "Apc"
-livro_numero: 73
-secao: "Apocalypse"
-canon: "católico (73 livros), sem o apêndice clementino"
-scope: "405 versículos em 22 capítulos"
+language: eng
 tags:
-  - ingles
-  - biblia
-  - douay-rheims
-  - vulgata
-  - apocalypse
-coautoria:
-  - Διαφορεύς
-  - Claude Opus 5
-status: rascunho
+- bible
+- scripture
+- century-16-ce
+- century-17-ce
+- century-18-ce
+- douay-rheims
+- vulgate
+- apocalypse
+status: draft
 project: pedra_angular
-source: "The Holy Bible, Douay-Rheims version, revised by Bishop Richard Challoner (1749-1752). Arquivo TextOther/Apc.eng do repositório bitbucket.org/clementinetextproject/text, alinhado versículo a versículo com a Vulgata Clementina."
-license: "domínio público"
-publishable: true
 related:
-  - "Vulgata Clementina, Apc"
+- Vulgata Clementina, Apc
+reference_system: verse
+abbrev: Apc
+book_number: 73
+canon: católico (73 livros), sem o apêndice clementino
+section: Apocalypse
+scope: 405 versículos em 22 capítulos
+source: The Holy Bible, Douay-Rheims version, revised by Bishop Richard Challoner (1749-1752). Arquivo TextOther/Apc.eng do repositório bitbucket.org/clementinetextproject/text, alinhado versículo a versículo com a Vulgata Clementina.
+license: public-domain
+publishable: true
+processing: preparado por Διαφορεύς, Claude Opus 5
 ---
 
 # Apocalypse

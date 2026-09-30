@@ -1,23 +1,17 @@
 ---
 id: tomas-de-aquino-de-ente-et-essentia-lat-latinlibrary-sd
-type: texto_primario
-title: "De Ente et Essentia"
-subtitle: null
-author: "Tomás de Aquino"
+type: primary_text
+title: De Ente et Essentia
+author: Tomás de Aquino
 year_original: 1256
 language: lat
-translation: []
-publisher: null
-area: Escolástica
-era: 13º século d.C.
 tags:
-  - latim
-  - tomas-de-aquino
-  - escolastica
-status: rascunho
+- scholasticism
+- century-13-ce
+status: draft
 project: pedra_angular
-source: "The Latin Library (thelatinlibrary.com), mirror local, 2026."
-related: []
+source: The Latin Library (thelatinlibrary.com), mirror local, 2026.
+license: public-domain
 ---
 
 # De Ente et Essentia

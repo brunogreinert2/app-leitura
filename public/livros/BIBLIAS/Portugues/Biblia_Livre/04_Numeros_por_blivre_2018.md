@@ -1,22 +1,19 @@
 ---
 id: biblia-04-numeros-por-blivre-2018
-type: texto_primario
-title: "Números (Bíblia Livre)"
-author: null
+type: primary_text
+title: Números (Bíblia Livre)
+translator:
+- Projeto Bíblia Livre (revisão da Almeida 1819)
 language: por
-translator: "Projeto Bíblia Livre (revisão da Almeida 1819)"
-editor: null
-year_original: null
-publisher: null
-source: "Bíblia Livre, 2018. Via github.com/damarals/biblias (JSON canônico), 2026."
-license: "dominio_publico"
-publishable: true
-status: rascunho
+tags:
+- bible
+status: draft
 project: pedra_angular
-livro_numero: 4
-abrev: Nm
-related: []
-tags: [biblia]
+abbrev: Nm
+book_number: 4
+source: Bíblia Livre, 2018. Via github.com/damarals/biblias (JSON canônico), 2026.
+license: public-domain
+publishable: true
 ---
 
 # Números

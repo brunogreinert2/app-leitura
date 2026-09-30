@@ -1,29 +1,27 @@
 ---
 id: personagem-frantz-fanon
-type: personagem
-title: "Arquivo Mestre: Frantz Fanon"
+type: character
+title: 'Arquivo Mestre: Frantz Fanon'
+language: por
+tags:
+- filosofia-contemporanea
+- century-20-ce
+- colonialism
+- racism
+- black-consciousness
+- decolonization
+- phenomenology-of-blackness
+- white-masks
+- critical-theory
+- postcolonialism
+- psychoanalysis
+status: published
+project: pedra_angular
+license: CC-BY-SA-4.0
+processing: preparado por Διαφορεύς, Gemini (3.1 Pro ou 3.5 Flash), Claude Sonnet 4.6
 born: 1925
 died: 1961
 nationality: Martinicano
-area: Filosofia Contemporânea
-era: século XX d.C.
-tags:
-  - colonialismo
-  - racismo
-  - consciencia-negra
-  - descolonizacao
-  - fenomenologia-da-negritude
-  - mascara-branca
-  - teoria-critica
-  - pos-colonialismo
-  - psicanalise
-coautoria:
-  - Διαφορεύς
-  - Gemini (3.1 Pro ou 3.5 Flash)
-  - Claude Sonnet 4.6
-project: pedra_angular
-related: []
-status: canonical_source
 ---
 
 
