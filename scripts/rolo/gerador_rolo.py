@@ -1248,6 +1248,7 @@ ROTULO_EN = {
     "Estoicismo Latino": "Latin Stoicism",
     "Filosofia Classica": "Classical Philosophy",
     "Filosofia Republicana": "Republican Philosophy",
+    "Epistemologia Genetica": "Genetic Epistemology",
     "Historico Cultural": "Cultural-Historical",
     "Iluminismo": "Enlightenment",
     "Moderna": "Modern",

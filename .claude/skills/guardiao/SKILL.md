@@ -96,12 +96,16 @@ public/livros/<ACERVO>/<Idioma>/<Corrente>/<Autor>/<Obra>/<Obra>_<idioma>_<edito
   O dono decidiu que a separação principal é por idioma.
 - **Corrente:** **você** escolhe, com o seu conhecimento de história da filosofia
   — o dono não precisa pesquisar "a escola" de um autor. Reuse uma pasta que já
-  exista (`ls` antes) sem perguntar. **Pasta nova — corrente ou ACERVO — se
-  consulta antes de criar** (decisão do dono, 2026-09-30, depois de o Vygotsky
-  ter sido posto sozinho em `FILOSOFIA/.../Psicologia_Historico_Cultural`): traga
-  a proposta pronta, com nome curto sem acento e `_` no lugar de espaço
-  (`Pre_Socraticos`, `Retorica`, `Padres_Apostolicos`), e a alternativa — inclusive
-  a de abrir um ACERVO novo quando a obra não é de filosofia. Um ACERVO novo
+  exista (`ls` antes) sem perguntar. **A corrente é a escola do AUTOR da obra,
+  não a do assunto**: um estudo de um piagetiano sobre Vygotsky vai para a
+  escola de Piaget (`Epistemologia_Genetica`), não para a de Vygotsky — o
+  crédito é de quem escreveu. Saber a escola é trabalho seu ("tu deve saber
+  mais que eu disso", 2026-09-30): corrente nova você cria com nome curto sem
+  acento e `_` no lugar de espaço (`Pre_Socraticos`, `Retorica`), lendo a obra
+  para confirmar de onde o autor fala, e diz no relatório qual criou e por quê.
+  **ACERVO novo** (seção da biblioteca, como `PSICOLOGIA`) **se consulta antes de
+  criar** (decisão do dono, 2026-09-30, depois de o Vygotsky ter sido posto
+  sozinho em `FILOSOFIA/.../Psicologia_Historico_Cultural`). Um ACERVO novo
   pede também o rótulo em `src/lib/i18n.ts` (`pasta.<NOME>`, em todas as línguas)
   e em `scripts/rolo/gerador_rolo.py` (o dicionário perto de `"FILOSOFIA": "Philosophy"`).
 - **Autor e Obra:** nome da tradição em português, sem acento (`Platao`,
