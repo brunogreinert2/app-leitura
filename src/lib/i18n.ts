@@ -305,6 +305,7 @@ const PT = {
   // depender desta lista.
   'pasta.BIBLIAS': 'Bíblias',
   'pasta.FILOSOFIA': 'Filosofia',
+  'pasta.PSICOLOGIA': 'Psicologia',
   'pasta.PERSONAGENS': 'Personagens',
   'pasta.GERAL': 'Geral',
   'pasta.MEUS ARQUIVOS': 'Meus arquivos',
@@ -324,6 +325,7 @@ const PT = {
   'pasta.ESTOICISMO LATINO': 'Estoicismo Latino',
   'pasta.FILOSOFIA CLASSICA': 'Filosofia Clássica',
   'pasta.FILOSOFIA REPUBLICANA': 'Filosofia Republicana',
+  'pasta.HISTORICO CULTURAL': 'Histórico-Cultural',
   'pasta.ILUMINISMO': 'Iluminismo',
   'pasta.MODERNA': 'Moderna',
   'pasta.MORALISTAS': 'Moralistas',
@@ -598,6 +600,7 @@ const EN: Record<Chave, string> = {
 
   'pasta.BIBLIAS': 'Bibles',
   'pasta.FILOSOFIA': 'Philosophy',
+  'pasta.PSICOLOGIA': 'Psychology',
   'pasta.PERSONAGENS': 'Figures',
   'pasta.GERAL': 'General',
   'pasta.MEUS ARQUIVOS': 'My files',
@@ -617,6 +620,7 @@ const EN: Record<Chave, string> = {
   'pasta.ESTOICISMO LATINO': 'Latin Stoicism',
   'pasta.FILOSOFIA CLASSICA': 'Classical Philosophy',
   'pasta.FILOSOFIA REPUBLICANA': 'Republican Philosophy',
+  'pasta.HISTORICO CULTURAL': 'Cultural-Historical',
   'pasta.ILUMINISMO': 'Enlightenment',
   'pasta.MODERNA': 'Modern',
   'pasta.MORALISTAS': 'Moralia',

@@ -1229,6 +1229,7 @@ ROTULO_EN = {
     # acervo
     "BIBLIAS": "Bibles",
     "FILOSOFIA": "Philosophy",
+    "PSICOLOGIA": "Psychology",
     "PERSONAGENS": "Figures",
     "GERAL": "General",
     # idioma (o segundo nível de todo acervo)
@@ -1247,6 +1248,7 @@ ROTULO_EN = {
     "Estoicismo Latino": "Latin Stoicism",
     "Filosofia Classica": "Classical Philosophy",
     "Filosofia Republicana": "Republican Philosophy",
+    "Historico Cultural": "Cultural-Historical",
     "Iluminismo": "Enlightenment",
     "Moderna": "Modern",
     "Moralistas": "Moralia",

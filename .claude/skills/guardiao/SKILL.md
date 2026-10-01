@@ -90,14 +90,20 @@ public/livros/<ACERVO>/<Idioma>/<Corrente>/<Autor>/<Obra>/<Obra>_<idioma>_<edito
 ```
 
 - **ACERVO:** `FILOSOFIA`, `BIBLIAS`, `PERSONAGENS` (personagens não têm subpasta).
+  Acervo novo só com o "sim" do dono (ver Corrente, abaixo).
 - **Idioma** (do texto, não do autor): `Grego`, `Latim`, `Hebraico`, `Portugues`,
   `Ingles`, `Arabe`. Interlinear: `Interlineares_Grego`, `Interlineares_Hebraico`.
   O dono decidiu que a separação principal é por idioma.
-- **Corrente:** **você** decide, com o seu conhecimento de história da filosofia
+- **Corrente:** **você** escolhe, com o seu conhecimento de história da filosofia
   — o dono não precisa pesquisar "a escola" de um autor. Reuse uma pasta que já
-  exista (`ls` antes); crie uma nova só se nenhuma servir, com nome curto sem
-  acento e `_` no lugar de espaço (`Pre_Socraticos`, `Retorica`, `Padres_Apostolicos`).
-  Pergunte só se o caso for ambíguo de verdade, e já trazendo a sua proposta.
+  exista (`ls` antes) sem perguntar. **Pasta nova — corrente ou ACERVO — se
+  consulta antes de criar** (decisão do dono, 2026-09-30, depois de o Vygotsky
+  ter sido posto sozinho em `FILOSOFIA/.../Psicologia_Historico_Cultural`): traga
+  a proposta pronta, com nome curto sem acento e `_` no lugar de espaço
+  (`Pre_Socraticos`, `Retorica`, `Padres_Apostolicos`), e a alternativa — inclusive
+  a de abrir um ACERVO novo quando a obra não é de filosofia. Um ACERVO novo
+  pede também o rótulo em `src/lib/i18n.ts` (`pasta.<NOME>`, em todas as línguas)
+  e em `scripts/rolo/gerador_rolo.py` (o dicionário perto de `"FILOSOFIA": "Philosophy"`).
 - **Autor e Obra:** nome da tradição em português, sem acento (`Platao`,
   `Isocrates`); a obra pelo título da edição (`Sophist`, `Panegyricus`).
 - **Nome do arquivo — a convenção do dono**, que vale para o computador dele e não
@@ -148,7 +154,9 @@ Para cada arquivo (PDF, imagem, `.md`, `.docx`…):
        rascunhar ao dono um pedido de autorização à editora (com autorização
        escrita, pode).
    **Nunca julgue pelo nome do arquivo nem pelo título** — o dono baixa com
-   critério, e o que decide está dentro do arquivo. Na dúvida, "precisa
+   critério, e o que decide está dentro do arquivo. Isso vale também para o
+   relatório final e para comentário de passagem: "quase certamente é tradução
+   recente" sem ter aberto o PDF é palpite pelo nome (erro cometido em 2026-09-30). Na dúvida, "precisa
    verificar" — nunca "pode" nem "não pode" por palpite. Você dá um parecer
    técnico, não jurídico; a decisão final é do dono.
 3. **Estime o trabalho:** PDF com texto (nascido digital) → Conversor; PDF só de
