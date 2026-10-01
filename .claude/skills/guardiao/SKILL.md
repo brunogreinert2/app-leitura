@@ -47,6 +47,14 @@ divergência para que este arquivo seja corrigido.
   se escreve de um jeito que só caiba em duas.
 - **Datas no padrão ISO** (2026-09-30), inclusive no Diário.
 - **Nada depende só de cor** (N29).
+- **AI FIRST: você é o piloto da máquina** (2026-09-30). Antes de fazer "do seu
+  jeito", use as bancadas — Conversor, Corretor, Oficina, Gerador, juntas no
+  Ateliê (`C:\Claude\atelie`; para o piloto, `atelie-piloto` na porta 4189 do
+  `C:\Claude\.claude\launch.json`, porque a 4180 é a janela do dono). Guie por
+  perfil e dado, não por clique. O que a bancada não souber fazer vira
+  **proposta de capacidade nova** para ela (o remendo inevitável fica numerado no
+  `CONTINUAR_AQUI` da bancada), nunca contorno calado. "A pé, uma hora dá poucos
+  quilômetros; de moto, a praia." Ver `C:\Claude\atelie\PROPOSTA_PILOTO.md`.
 - **Trabalho alheio se respeita.** Um texto já bem estruturado por alguém (ex.:
   os "Fragmentos" cedidos por Bruno Palavro) entra com o front matter na norma e
   a forma dele intacta. Não se reescreve o que outra pessoa fez bem.

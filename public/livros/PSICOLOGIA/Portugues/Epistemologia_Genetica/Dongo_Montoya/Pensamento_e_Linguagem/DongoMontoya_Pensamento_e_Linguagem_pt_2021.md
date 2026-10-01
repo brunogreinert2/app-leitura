@@ -895,7 +895,7 @@ Isso não significa que a linguagem, uma vez adquirida, não possa contribuir, d
 
 #### Transição da inteligência sensório-motora para a inteligência conceitual
 
-Na pesquisa sobre a transição dos esquemas sensório-motores para os esquemas conceptuais, Piaget (1978a [1945]) mostra que os primeiros “esquemas verbais” da criança refletem o uso da linguagem, a qual se reporta a objetos exteriores assimilados em função dos esquemas sensório-motores em via de interiorização ou de conceptualização. “A denominação, como já se verificou pelas introduções precedentes, não é a simples atribuição de um nome, mas o enunciado de uma ação possível: a palavra se limita quase a traduzir, neste nível, a organização de esquemas sensório- motores que poderiam passar sem ela” (ibidem, p.285).
+Na pesquisa sobre a transição dos esquemas sensório-motores para os esquemas conceptuais, Piaget (1978a [1945]) mostra que os primeiros “esquemas verbais” da criança refletem o uso da linguagem, a qual se reporta a objetos exteriores assimilados em função dos esquemas sensório-motores em via de interiorização ou de conceptualização. “A denominação, como já se verificou pelas introduções precedentes, não é a simples atribuição de um nome, mas o enunciado de uma ação possível: a palavra se limita quase a traduzir, neste nível, a organização de esquemas sensório-motores que poderiam passar sem ela” (ibidem, p.285).
 
 Esquemas verbais -----------pré-conceitos ------------------conceitos Semissignos -------------------------------------------------signos verdadeiros Imagens estáticas -------------------------------------------Imagens dinâmicas
 
