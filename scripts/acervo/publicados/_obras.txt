@@ -1108,4 +1108,5 @@ vulgata-clementina-soph-lat-tweedale-2005
 vulgata-clementina-tit-lat-tweedale-2005
 vulgata-clementina-tob-lat-tweedale-2005
 vulgata-clementina-zach-lat-tweedale-2005
+vygotsky-pensamento-e-linguagem-pt-anonimo-2001
 zacarias-grc-lxx-swe
