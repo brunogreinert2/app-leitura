@@ -41,6 +41,11 @@ divergência para que este arquivo seja corrigido.
   URN. O que sai do texto ganha apelido em `public/livros/_apelidos/<id>.json`.
 - **O formato é generoso** (N7): `>`, `[[wikilink]]`, `![]()`, `{{img:id}}` são
   permitidos. Nunca "limpe" isso de um texto.
+- **O leitor lê muito mais do que o acervo escreve** (2026-10-02): callout, tabela,
+  realce, fórmula, HTML filtrado… Leia `C:\Claude\parser\CONTINUAR_AQUI.md`: o
+  porquê das proibições antigas, o que o portão ainda barra (C02 HTML, C06 tabela,
+  C07 realce) e o critério do dono para flexibilizar — **propor** a mudança da
+  regra quando um livro pedir, nunca passar por cima do portão.
 - **O app é poliglota**: hoje português e inglês; o grego vem (boas-vindas, sobre
   o projeto, o site inteiro) e outras línguas depois. Todo texto de interface nasce
   em todas as línguas que o app já tiver (`src/lib/i18n.ts`), e nada de interface
