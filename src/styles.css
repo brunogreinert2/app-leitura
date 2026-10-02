@@ -2703,3 +2703,73 @@ button {
   border-radius: 2px;
   background: color-mix(in srgb, var(--color-accent) 18%, transparent);
 }
+
+/* ===== Anel de Leitura do motor (C:\Claude\parser, passo 4b) ===== */
+
+/* Caixa de nota do Obsidian (> [!note]). Mesmo risco à esquerda da citação,
+   mais grosso e no acento, num fundo de superfície: lê-se como "à parte"
+   sem gritar. Os tipos de alerta usam a cor de erro, que já tem contraste
+   medido em todos os temas (N26). */
+.reader-body .callout {
+  margin: 1em 0;
+  padding: 0.6em 0.9em;
+  border-left: 4px solid var(--color-accent);
+  border-radius: 0.3em;
+  background: var(--color-surface);
+}
+.reader-body .callout-warning,
+.reader-body .callout-danger,
+.reader-body .callout-failure,
+.reader-body .callout-bug {
+  border-left-color: var(--color-error);
+}
+.reader-body .callout-titulo {
+  font-weight: bold;
+  margin-bottom: 0.35em;
+}
+.reader-body details.callout > summary.callout-titulo {
+  cursor: pointer;
+  margin-bottom: 0;
+}
+.reader-body details.callout[open] > summary.callout-titulo {
+  margin-bottom: 0.35em;
+}
+.reader-body .callout-conteudo > :first-child {
+  margin-top: 0;
+}
+.reader-body .callout-conteudo > :last-child {
+  margin-bottom: 0;
+}
+
+/* Embed do Obsidian (![[arquivo]]): o leitor ainda não tem o arquivo para
+   pôr no lugar, então mostra o nome numa moldura tracejada — "aqui ia isto". */
+.reader-body .embed {
+  border: 1px dashed var(--color-border);
+  border-radius: 0.2em;
+  padding: 0 0.3em;
+}
+.reader-body .embed-imagem::before {
+  content: '🖼\FE0E  ';
+}
+.reader-body .embed-nota::before {
+  content: '↪ ';
+}
+
+/* [[#Seção]]: link para dentro do próprio texto. */
+.reader-body .wikilink-interno {
+  text-decoration: underline dotted;
+  text-underline-offset: 0.2em;
+}
+
+/* Matemática (MathML do temml): a fonte de matemática do aparelho. */
+.reader-body math {
+  font-family: 'Cambria Math', 'STIX Two Math', 'Noto Sans Math', math;
+}
+.reader-body math[display='block'] {
+  margin: 0.8em 0;
+  padding: 0.2em 0;
+  /* fórmula larga rola para o lado no celular; sem o overflow-y, o navegador
+     acrescentava uma barra vertical (setinhas ao lado da fórmula) */
+  overflow-x: auto;
+  overflow-y: hidden;
+}

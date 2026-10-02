@@ -1,9 +1,48 @@
-import { defineConfig } from 'vite'
+import { defineConfig, type Plugin } from 'vite'
 import react from '@vitejs/plugin-react'
 import { VitePWA } from 'vite-plugin-pwa'
 
+/**
+ * O temml (matemática do motor, src/motor/matematica.ts) monta a expressão
+ * que lê o TeX com faixas de "surrogatas soltas" do Unicode — \uD800-\uDBFF.
+ * O empacotador do Vite 8 (Rolldown) junta os pedaços num texto só e escreve
+ * essas faixas como "�d800": a expressão quebra, e \sum, \frac, \sqrt saem em
+ * vermelho, como comandos desconhecidos. Visto no app em 2026-10-02 (no dev e
+ * no build de produção; no Node, sem empacotador, funcionava).
+ *
+ * É a lição de sempre das faixas Unicode (NORMAS, \u nunca literal): aqui o
+ * literal é criado pelo empacotador. O conserto troca, só nesses dois
+ * trechos, \uD800 por \\uD800: o texto passa a levar a barra, a expressão
+ * regular lê o mesmo escape, e o empacotador não tem mais o que estragar.
+ * Se o temml mudar esses trechos, o build PARA aqui em vez de quebrar calado.
+ * Guarda irmã: scripts/conferir-surrogatas.mjs, no deploy.
+ */
+function temmlSemSurrogataSolta(): Plugin {
+  const trocas: [string, string][] = [
+    [String.raw`"|[\uD800-\uDBFF][\uDC00-\uDFFF]"`, String.raw`"|[\\uD800-\\uDBFF][\\uDC00-\\uDFFF]"`],
+    [String.raw`[^\uD800-\uDFFF]"`, String.raw`[^\\uD800-\\uDFFF]"`],
+  ]
+  return {
+    name: 'temml-sem-surrogata-solta',
+    enforce: 'pre',
+    transform(codigo, id) {
+      if (!/[\\/]temml[\\/]dist[\\/]temml\.mjs$/.test(id)) return
+      let novo = codigo
+      for (const [de, para] of trocas) {
+        if (!novo.includes(de)) throw new Error(`temml mudou: não achei ${de} — rever vite.config.ts`)
+        novo = novo.replaceAll(de, para)
+      }
+      return novo
+    },
+  }
+}
+
 export default defineConfig({
+  // No dev, o pré-empacotamento de dependências não passa pelos plugins:
+  // o temml fica de fora dele para receber o conserto acima.
+  optimizeDeps: { exclude: ['temml'] },
   plugins: [
+    temmlSemSurrogataSolta(),
     react(),
     VitePWA({
       // 'prompt' (não 'autoUpdate'): o app avisa quando há versão nova

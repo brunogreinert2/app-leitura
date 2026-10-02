@@ -45,6 +45,8 @@ jobs:
       - run: npx tsc -b
       # Domínio próprio (pedraangular.app.br) serve na RAIZ do site
       - run: npx vite build --base=/
+      # nenhuma surrogata Unicode estragada pelo empacotador (ver vite.config.ts)
+      - run: node scripts/conferir-surrogatas.mjs dist
 
       # ---- rolos estáticos: a mesma obra numa porta que dispensa JavaScript ----
       # O app é uma SPA: quem só busca a URL (crawler, agente de IA) recebe a

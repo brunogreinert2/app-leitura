@@ -37,6 +37,11 @@ const PRINT_STYLE = PRINT_FONTS + `
   blockquote { margin: 1em 0; padding-left: 1em; border-left: 3px solid #ccc; color: #333; }
   sup { font-size: 0.75em; }
   .footnotes { font-size: 0.9em; border-top: 1px solid #ccc; margin-top: 2em; padding-top: 1em; }
+  .callout { margin: 1em 0; padding: 0.5em 0.8em; border-left: 4px solid #444; background: #f4f4f4; }
+  .callout-titulo { font-weight: bold; }
+  .embed { border: 1px dashed #999; padding: 0 0.3em; }
+  math { font-family: 'Cambria Math', 'STIX Two Math', 'Noto Sans Math', math; }
+  .verso { white-space: pre-line; padding-left: 2em; }
   @media print { body { margin: 0; max-width: none; } }
 `
 

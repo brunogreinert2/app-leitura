@@ -22,7 +22,11 @@ export function FootnoteRef(props: Record<string, unknown>) {
 
   // Exibe o label original do corpus ([^1] → 1, [^intro1] → intro1),
   // não o índice sequencial do renderizador — fiel à edição impressa.
+  // A nota inline (^[…]) não tem label escrito: markdown.tsx põe em
+  // data-rotulo o número que ela tem na lista do fim. O `label` continua
+  // sendo o id, que é por onde a caixa da nota a encontra.
   const { children: _ignored, ...rest } = props
+  const exibido = typeof props['data-rotulo'] === 'string' ? props['data-rotulo'] : label
 
   return (
     <a
@@ -48,7 +52,7 @@ export function FootnoteRef(props: Record<string, unknown>) {
       onPointerCancel={cancelTimer}
       onContextMenu={(e) => e.preventDefault()}
     >
-      {label}
+      {exibido}
     </a>
   )
 }

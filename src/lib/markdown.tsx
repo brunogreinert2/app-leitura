@@ -5,11 +5,13 @@ import type { Root as HastRoot } from 'hast'
 import type { Element as HastElement, ElementContent } from 'hast'
 import { splitFrontmatter, type BookMeta } from './frontmatter'
 import { escritaDoCabecalho, type Escrita } from '../motor/idioma'
-import { criarProcessador, liftDeepHeadingMarkers } from '../motor/processador'
+import { criarProcessador, liftDeepHeadingMarkers, PREFIXO_NOTA_INLINE } from '../motor/processador'
+import { VFile } from 'vfile'
 import { FootnoteRef } from '../components/FootnoteRef'
 import { BackrefLink } from '../components/BackrefLink'
 import { CollapsibleSection } from '../components/CollapsibleSection'
 import { WikilinkRef } from '../components/WikilinkRef'
+import { CalloutTitulo } from '../components/CalloutTitulo'
 
 export interface ParsedBook {
   meta: BookMeta | null
@@ -177,26 +179,53 @@ function nestSections(tree: HastRoot) {
  * ([^1], [^intro1]...) em vez da numeração sequencial da <ol>.
  */
 function labelFootnoteList(tree: HastRoot) {
+  const rotuloInline = new Map<string, string>()
   for (const node of tree.children) {
     if (node.type !== 'element' || node.properties?.dataFootnotes === undefined) continue
     for (const ol of node.children) {
       if (ol.type !== 'element' || ol.tagName !== 'ol') continue
       ol.properties = { ...ol.properties, className: ['footnote-list'] }
+      const idDe = (li: ElementContent) =>
+        li.type === 'element'
+          ? decodeURIComponent(String(li.properties?.id ?? '').replace(/^user-content-fn-/, ''))
+          : ''
+      // A nota inline (^[…]) não tem rótulo escrito: o motor a chama de
+      // nota-inline-N. Ela ganha o primeiro número que nenhuma nota ESCRITA
+      // usa — com [^1] no texto, a inline é 2, nunca um segundo "1".
+      const escritos = new Set(ol.children.map(idDe).filter((id) => id && !id.startsWith(PREFIXO_NOTA_INLINE)))
+      let proximo = 1
       for (const li of ol.children) {
         if (li.type !== 'element' || li.tagName !== 'li') continue
-        const label = String(li.properties?.id ?? '').replace(/^user-content-fn-/, '')
+        const bruto = idDe(li)
+        let label = bruto
+        if (bruto.startsWith(PREFIXO_NOTA_INLINE)) {
+          while (escritos.has(String(proximo))) proximo++
+          label = String(proximo++)
+          rotuloInline.set(bruto, label)
+        }
         const target = li.children.find((c) => c.type === 'element' && c.tagName === 'p') ?? li
         if (target.type === 'element') {
           target.children.unshift({
             type: 'element',
             tagName: 'span',
             properties: { className: ['fn-label'] },
-            children: [{ type: 'text', value: `${decodeURIComponent(label)}. ` }],
+            children: [{ type: 'text', value: `${label}. ` }],
           })
         }
       }
     }
   }
+  if (!rotuloInline.size) return
+  // a chamada no meio do texto mostra o mesmo número (FootnoteRef lê data-rotulo)
+  const marcar = (no: { type?: string; properties?: Record<string, unknown>; children?: unknown[] }) => {
+    if (no.type === 'element' && no.properties?.dataFootnoteRef !== undefined) {
+      const id = decodeURIComponent(String(no.properties.href ?? '').replace(/^#user-content-fn-/, ''))
+      const rotulo = rotuloInline.get(id)
+      if (rotulo) no.properties.dataRotulo = rotulo
+    }
+    for (const filho of no.children ?? []) marcar(filho as typeof no)
+  }
+  marcar(tree as unknown as Parameters<typeof marcar>[0])
 }
 
 /** Varre os wikilinks do texto e monta o índice de nomes (F4). */
@@ -217,8 +246,11 @@ function collectNames(tree: HastRoot): NameEntry[] {
 
 export function parseBook(raw: string): ParsedBook {
   const { meta, content } = splitFrontmatter(raw)
-  const mdast = processor.parse(liftDeepHeadingMarkers(content))
-  const hast = processor.runSync(mdast) as HastRoot
+  // O motor recebe o texto exato (a regra do cifrão olha o arquivo) e o
+  // front matter (o {{img:id}} procura a imagem no `assets:`).
+  const arquivo = new VFile({ value: liftDeepHeadingMarkers(content), data: { meta } })
+  const mdast = processor.parse(arquivo)
+  const hast = processor.runSync(mdast, arquivo) as HastRoot
   const headings = collectHeadings(hast)
   const names = collectNames(hast)
   labelFootnoteList(hast)
@@ -242,6 +274,20 @@ export function parseBook(raw: string): ParsedBook {
           <CollapsibleSection {...props} />
         ) : (
           <section {...(props as React.HTMLAttributes<HTMLElement>)} />
+        ),
+      // Título padrão da caixa de nota (callout): o motor escreve em
+      // português e marca o tipo; aqui sai na língua da interface.
+      div: (props: Record<string, unknown>) =>
+        props['data-callout-padrao'] != null ? (
+          <CalloutTitulo {...props} />
+        ) : (
+          <div {...(props as React.HTMLAttributes<HTMLDivElement>)} />
+        ),
+      summary: (props: Record<string, unknown>) =>
+        props['data-callout-padrao'] != null ? (
+          <CalloutTitulo {...props} como="summary" />
+        ) : (
+          <summary {...(props as React.HTMLAttributes<HTMLElement>)} />
         ),
       span: (props: Record<string, unknown>) =>
         props['data-target'] != null ? (

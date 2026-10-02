@@ -11,6 +11,7 @@
     "gera:catalogo": "node scripts/gera-catalogo.mjs"
   },
   "dependencies": {
+    "hast-util-from-html": "^2.0.3",
     "hast-util-raw": "^9.1.0",
     "hast-util-sanitize": "^5.0.2",
     "hast-util-to-jsx-runtime": "^2.3.6",
@@ -19,10 +20,13 @@
     "react-dom": "^19.2.7",
     "rehype-stringify": "^10.0.1",
     "remark-gfm": "^4.0.1",
+    "remark-math": "^6.0.0",
     "remark-parse": "^11.0.0",
     "remark-rehype": "^11.1.2",
+    "temml": "^0.13.5",
     "unified": "^11.0.5",
     "unist-util-visit": "^5.1.0",
+    "vfile": "^6.0.3",
     "yaml": "^2.9.0"
   },
   "devDependencies": {
