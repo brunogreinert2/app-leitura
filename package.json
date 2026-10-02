@@ -11,6 +11,8 @@
     "gera:catalogo": "node scripts/gera-catalogo.mjs"
   },
   "dependencies": {
+    "hast-util-raw": "^9.1.0",
+    "hast-util-sanitize": "^5.0.2",
     "hast-util-to-jsx-runtime": "^2.3.6",
     "idb": "^8.0.3",
     "react": "^19.2.7",

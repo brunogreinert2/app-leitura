@@ -18,6 +18,7 @@ import { remarkGrego } from './remarkGrego'
 import { remarkHighlight } from './remarkHighlight'
 import { remarkInterlinear } from './remarkInterlinear'
 import { remarkVerso } from './remarkVerso'
+import { remarkTagDesconhecidaComoTexto, rehypeHtmlCru } from './htmlCru'
 import { liftDeepHeadingMarkers, remarkDeepHeadingDepth } from './remarkDeepHeadings'
 import { FootnoteRef } from '../components/FootnoteRef'
 import { BackrefLink } from '../components/BackrefLink'
@@ -77,11 +78,14 @@ const processor = unified()
   .use(remarkHighlight)
   .use(remarkHebrew)
   .use(remarkGrego)
+  .use(remarkTagDesconhecidaComoTexto)
   .use(remarkRehype, {
+    allowDangerousHtml: true,
     footnoteLabel: 'Notas',
     footnoteLabelTagName: 'h2',
     footnoteBackLabel: 'Voltar ao texto',
   })
+  .use(rehypeHtmlCru)
 
 /** Texto plano de um nó hast (para títulos do sumário). */
 function hastText(node: unknown): string {

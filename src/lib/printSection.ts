@@ -12,6 +12,7 @@ import { remarkMarkers } from './remarkMarkers'
 import { remarkHighlight } from './remarkHighlight'
 import { remarkHebrew } from './remarkHebrew'
 import { remarkGrego } from './remarkGrego'
+import { remarkTagDesconhecidaComoTexto, rehypeHtmlCru } from './htmlCru'
 
 /**
  * Pipeline separado do processor interativo de markdown.tsx: aqui não
@@ -32,11 +33,14 @@ const printProcessor = unified()
   .use(remarkHighlight)
   .use(remarkHebrew)
   .use(remarkGrego)
+  .use(remarkTagDesconhecidaComoTexto)
   .use(remarkRehype, {
+    allowDangerousHtml: true,
     footnoteLabel: 'Notas',
     footnoteLabelTagName: 'h2',
     footnoteBackLabel: 'Voltar ao texto',
   })
+  .use(rehypeHtmlCru)
   .use(rehypeStringify)
 
 /* A aba de impressão é um documento novo: as @font-face do app não valem lá
