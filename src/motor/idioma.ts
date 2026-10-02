@@ -1,3 +1,7 @@
+// MOTOR DO ECOSSISTEMA — cópia gerada, NÃO EDITE AQUI.
+// Fonte: C:\Claude\parser\motor\idioma.ts
+// Para mudar: edite a fonte e rode `npm run espalhar` em C:\Claude\parser.
+// sha256: 29516d731b0f824c21a3ccc4bab0c72015e2d55ba49b2355beba1eaf4ae634b3
 /**
  * Detecção de escrita por faixa Unicode — a MESMA de `idioma_da_linha` em
  * `scripts/rolo/gerador_rolo.py`. Estava escrita três vezes no projeto (duas

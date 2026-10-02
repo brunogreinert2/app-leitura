@@ -1,3 +1,7 @@
+// MOTOR DO ECOSSISTEMA — cópia gerada, NÃO EDITE AQUI.
+// Fonte: C:\Claude\parser\motor\htmlCru.ts
+// Para mudar: edite a fonte e rode `npm run espalhar` em C:\Claude\parser.
+// sha256: 3038853ace6e9a416e40043dd5be484b81d8c1e73fd63759d7ebc586508d5d4b
 import type { Root as MdastRoot, Html } from 'mdast'
 import type { Root as HastRoot, Element as HastElement } from 'hast'
 import type { VFile } from 'vfile'

@@ -1,3 +1,7 @@
+// MOTOR DO ECOSSISTEMA — cópia gerada, NÃO EDITE AQUI.
+// Fonte: C:\Claude\parser\motor\remarkIdiomaAncora.ts
+// Para mudar: edite a fonte e rode `npm run espalhar` em C:\Claude\parser.
+// sha256: feacc8902f85b3275be3dd2bb7a179b9b23612054289ffc8d259a729550d5242
 import { visit } from 'unist-util-visit'
 import type { Root, Text, Parent } from 'mdast'
 import { escritaDaAncora, ehRtl, type Escrita } from './idioma'

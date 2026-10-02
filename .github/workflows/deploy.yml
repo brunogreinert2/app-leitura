@@ -40,6 +40,8 @@ jobs:
           node-version: 22
           cache: npm
       - run: npm ci
+      # src/motor é cópia do motor do ecossistema (C:\Claude\parser): não se edita à mão
+      - run: node scripts/conferir-motor.mjs
       - run: npx tsc -b
       # Domínio próprio (pedraangular.app.br) serve na RAIZ do site
       - run: npx vite build --base=/

@@ -1,3 +1,7 @@
+// MOTOR DO ECOSSISTEMA — cópia gerada, NÃO EDITE AQUI.
+// Fonte: C:\Claude\parser\motor\remarkBlockAnchors.ts
+// Para mudar: edite a fonte e rode `npm run espalhar` em C:\Claude\parser.
+// sha256: 606fba239d3bad838bacfe74d9853919d57d74abff0dfba8c84546928e51d8c6
 import { visit } from 'unist-util-visit'
 import type { Root, Text } from 'mdast'
 

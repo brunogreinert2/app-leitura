@@ -1,25 +1,11 @@
-import { unified } from 'unified'
-import remarkParse from 'remark-parse'
-import remarkGfm from 'remark-gfm'
-import remarkRehype from 'remark-rehype'
 import { toJsxRuntime } from 'hast-util-to-jsx-runtime'
 import { Fragment, jsx, jsxs } from 'react/jsx-runtime'
 import type { ReactNode } from 'react'
 import type { Root as HastRoot } from 'hast'
 import type { Element as HastElement, ElementContent } from 'hast'
 import { splitFrontmatter, type BookMeta } from './frontmatter'
-import { escritaDoCabecalho, type Escrita } from './idioma'
-import { remarkMarkers } from './remarkMarkers'
-import { remarkWikilinks } from './remarkWikilinks'
-import { remarkBlockAnchors } from './remarkBlockAnchors'
-import { remarkIdiomaAncora } from './remarkIdiomaAncora'
-import { remarkHebrew } from './remarkHebrew'
-import { remarkGrego } from './remarkGrego'
-import { remarkHighlight } from './remarkHighlight'
-import { remarkInterlinear } from './remarkInterlinear'
-import { remarkVerso } from './remarkVerso'
-import { remarkTagDesconhecidaComoTexto, rehypeHtmlCru } from './htmlCru'
-import { liftDeepHeadingMarkers, remarkDeepHeadingDepth } from './remarkDeepHeadings'
+import { escritaDoCabecalho, type Escrita } from '../motor/idioma'
+import { criarProcessador, liftDeepHeadingMarkers } from '../motor/processador'
 import { FootnoteRef } from '../components/FootnoteRef'
 import { BackrefLink } from '../components/BackrefLink'
 import { CollapsibleSection } from '../components/CollapsibleSection'
@@ -47,7 +33,7 @@ export interface ParsedBook {
    * Idioma declarado em `language:`. É o PADRÃO de cada trecho: português,
    * inglês e latim usam o mesmo alfabeto e não se distinguem por código de
    * caractere, então quando a contagem de palavras não decide, quem manda é
-   * o que o arquivo declara. Ver lib/idioma.ts.
+   * o que o arquivo declara. Ver motor/idioma.ts.
    */
   escritaPadrao: Escrita
 }
@@ -65,27 +51,9 @@ export interface HeadingInfo {
   line?: number
 }
 
-const processor = unified()
-  .use(remarkParse)
-  .use(remarkGfm)
-  .use(remarkDeepHeadingDepth)
-  .use(remarkInterlinear)
-  .use(remarkVerso)
-  .use(remarkIdiomaAncora)
-  .use(remarkBlockAnchors)
-  .use(remarkWikilinks)
-  .use(remarkMarkers)
-  .use(remarkHighlight)
-  .use(remarkHebrew)
-  .use(remarkGrego)
-  .use(remarkTagDesconhecidaComoTexto)
-  .use(remarkRehype, {
-    allowDangerousHtml: true,
-    footnoteLabel: 'Notas',
-    footnoteLabelTagName: 'h2',
-    footnoteBackLabel: 'Voltar ao texto',
-  })
-  .use(rehypeHtmlCru)
+// O formato inteiro vem do motor do ecossistema (src/motor, fonte em
+// C:\Claude\parser\motor). Aqui só o que é da tela: React, sumário, seções.
+const processor = criarProcessador()
 
 /** Texto plano de um nó hast (para títulos do sumário). */
 function hastText(node: unknown): string {

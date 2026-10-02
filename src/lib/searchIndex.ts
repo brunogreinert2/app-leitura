@@ -1,5 +1,5 @@
 import type { HeadingInfo } from './markdown'
-import { MARKER_RE } from './remarkMarkers'
+import { MARKER_RE } from '../motor/remarkMarkers'
 
 /**
  * Índice de busca por livro, construído sobre o MARKDOWN FONTE — a busca

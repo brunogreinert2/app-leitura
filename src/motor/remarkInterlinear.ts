@@ -1,3 +1,7 @@
+// MOTOR DO ECOSSISTEMA — cópia gerada, NÃO EDITE AQUI.
+// Fonte: C:\Claude\parser\motor\remarkInterlinear.ts
+// Para mudar: edite a fonte e rode `npm run espalhar` em C:\Claude\parser.
+// sha256: 88f9cdb59f1842a8cbb70b1a7a04bc59a22a88fcbb32c8a8c9b9e0fb7a403582
 import type { Code, Paragraph, Root, Text } from 'mdast'
 
 /**

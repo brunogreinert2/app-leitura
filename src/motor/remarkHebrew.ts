@@ -1,3 +1,7 @@
+// MOTOR DO ECOSSISTEMA — cópia gerada, NÃO EDITE AQUI.
+// Fonte: C:\Claude\parser\motor\remarkHebrew.ts
+// Para mudar: edite a fonte e rode `npm run espalhar` em C:\Claude\parser.
+// sha256: ed18b9560f3787d25bf68696ddd5bf0e5d82175106b67c598edecf32ca6e61b4
 import { visit } from 'unist-util-visit'
 import type { Root, Text, PhrasingContent } from 'mdast'
 

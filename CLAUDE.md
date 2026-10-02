@@ -40,9 +40,13 @@ Textos longos (capítulos bíblicos inteiros, verbetes extensos) precisam rolar 
 
 ## Mexeu no leitor? Rode a tortura
 
-`C:\Claude\parser\` é o motor de leitura do ecossistema (`proposta.md`). Antes
-de commitar mudança em `src/lib/markdown.tsx`, `remark*.ts`, `htmlCru.ts` ou
-`printSection.ts`: `npm run tortura` dentro de `C:\Claude\parser`. São 34
+`C:\Claude\parser\` é o motor de leitura do ecossistema (`proposta.md`).
+**`src/motor/` é cópia, não se edita aqui**: a fonte é `C:\Claude\parser\motor\`;
+edite lá, rode `npm run espalhar` em `C:\Claude\parser` e commite a cópia nova
+aqui. Uma cópia editada à mão é barrada no pre-commit e no deploy
+(`scripts/conferir-motor.mjs`). Antes de commitar mudança no motor ou em
+`src/lib/markdown.tsx` / `printSection.ts`: `npm run tortura` dentro de
+`C:\Claude\parser`. São 34
 casos (`tortura/casos/*.md`) passados pelo `parseBook` de verdade; a regra é
 "desenha ou mostra como texto, nada some". Sai com erro se algum caso piorar.
 Os ◐ são pendentes conhecidos, cada um com o motivo no próprio caso.
@@ -124,8 +128,8 @@ Os ◐ são pendentes conhecidos, cada um com o motivo no próprio caso.
   Fora da norma: tabela, `==realce==`, HTML/XML, `null`.
 - **Nunca** publicar texto das publicações das Testemunhas de Jeová (decisão do Διαφορεύς;
   a ficha antiga do personagem Davi foi retirada por isso em 2026-09-30).
-- **Marcador canônico:** `MARKER_RE` (src/lib/remarkMarkers.ts, única cópia no
-  app) e `RX_MARCADOR` (gerador_rolo.py) são idênticos e aceitam quantos níveis
+- **Marcador canônico:** `MARKER_RE` (src/motor/remarkMarkers.ts, cópia do motor cuja
+  fonte é `C:\Claude\parser\motor\`; única no app) e `RX_MARCADOR` (gerador_rolo.py) são idênticos e aceitam quantos níveis
   a tradição tiver (`[1.1.1]`). Mexeu num, mexa no outro.
 - Plano e decisões: `C:\Claude\Saneamento\` (Proposta, FASE0_NORMAS, CONTINUAR_AQUI).
 

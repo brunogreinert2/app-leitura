@@ -1,46 +1,15 @@
-import { unified } from 'unified'
-import remarkParse from 'remark-parse'
-import remarkGfm from 'remark-gfm'
-import remarkRehype from 'remark-rehype'
 import rehypeStringify from 'rehype-stringify'
-import { liftDeepHeadingMarkers, remarkDeepHeadingDepth } from './remarkDeepHeadings'
-import { remarkInterlinear } from './remarkInterlinear'
-import { remarkBlockAnchors } from './remarkBlockAnchors'
-import { remarkIdiomaAncora } from './remarkIdiomaAncora'
-import { remarkWikilinks } from './remarkWikilinks'
-import { remarkMarkers } from './remarkMarkers'
-import { remarkHighlight } from './remarkHighlight'
-import { remarkHebrew } from './remarkHebrew'
-import { remarkGrego } from './remarkGrego'
-import { remarkTagDesconhecidaComoTexto, rehypeHtmlCru } from './htmlCru'
+import { criarProcessador, liftDeepHeadingMarkers } from '../motor/processador'
 
 /**
  * Pipeline separado do processor interativo de markdown.tsx: aqui não
  * há seção recolhível nem componente React algum — só markdown virando
- * HTML estático numa aba nova, pronta pra Ctrl+P. Reaproveita os mesmos
- * plugins (marcadores, wikilinks como texto, hebraico) pra fidelidade
- * com o que aparece na tela.
+ * HTML estático numa aba nova, pronta pra Ctrl+P. O formato é o MESMO da
+ * tela, pedido ao motor (src/motor/processador.ts): antes esta lista era
+ * montada à mão aqui, tinha esquecido o remarkVerso, e um ```verso saía
+ * impresso como caixa de código.
  */
-const printProcessor = unified()
-  .use(remarkParse)
-  .use(remarkGfm)
-  .use(remarkDeepHeadingDepth)
-  .use(remarkInterlinear)
-  .use(remarkIdiomaAncora)
-  .use(remarkBlockAnchors)
-  .use(remarkWikilinks)
-  .use(remarkMarkers)
-  .use(remarkHighlight)
-  .use(remarkHebrew)
-  .use(remarkGrego)
-  .use(remarkTagDesconhecidaComoTexto)
-  .use(remarkRehype, {
-    allowDangerousHtml: true,
-    footnoteLabel: 'Notas',
-    footnoteLabelTagName: 'h2',
-    footnoteBackLabel: 'Voltar ao texto',
-  })
-  .use(rehypeHtmlCru)
+const printProcessor = criarProcessador()
   .use(rehypeStringify)
 
 /* A aba de impressão é um documento novo: as @font-face do app não valem lá

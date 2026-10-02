@@ -5,7 +5,7 @@ import {
   vozPara,
   NOME_DA_ESCRITA,
   type Escrita,
-} from '../lib/idioma'
+} from '../motor/idioma'
 import { useT } from './idiomaContext'
 
 /**

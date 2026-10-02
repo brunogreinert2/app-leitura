@@ -1,3 +1,7 @@
+// MOTOR DO ECOSSISTEMA — cópia gerada, NÃO EDITE AQUI.
+// Fonte: C:\Claude\parser\motor\remarkVerso.ts
+// Para mudar: edite a fonte e rode `npm run espalhar` em C:\Claude\parser.
+// sha256: 41230dde00b40b614a6934cb39b485664e32eb95713cbef1b476ab798ae0f26a
 import type { Code, Paragraph, Root } from 'mdast'
 
 /**

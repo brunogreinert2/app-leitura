@@ -1,3 +1,7 @@
+// MOTOR DO ECOSSISTEMA — cópia gerada, NÃO EDITE AQUI.
+// Fonte: C:\Claude\parser\motor\remarkDeepHeadings.ts
+// Para mudar: edite a fonte e rode `npm run espalhar` em C:\Claude\parser.
+// sha256: 3400d8b30158801d76ea885dd817ef03827032966368785441fbd6450f95e275
 import { visit } from 'unist-util-visit'
 import type { Root, Heading, Text } from 'mdast'
 

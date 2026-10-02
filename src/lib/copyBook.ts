@@ -1,5 +1,5 @@
 import type { HeadingInfo } from './markdown'
-import { ANCHOR_RE } from './remarkBlockAnchors'
+import { ANCHOR_RE } from '../motor/remarkBlockAnchors'
 
 /**
  * As âncoras de bloco (^gn-1-1) são endereço, não texto — na tela elas

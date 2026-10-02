@@ -47,7 +47,7 @@ RX_CIRILICO = re.compile(r"[\u0400-\u04FF]")
 # Etiqueta de idioma no fim da linha: `Curto ^eng`. Existe porque a detecção
 # por faixa Unicode só separa hebraico, grego e cirílico — português, inglês e
 # latim dividem o alfabeto e, numa linha curta, nada os distingue. É a mesma
-# convenção do app (src/lib/idioma.ts, CODIGOS) e a lista aqui tem de ficar
+# convenção do app (src/motor/idioma.ts, CODIGOS) e a lista aqui tem de ficar
 # IGUAL à de lá: é o MESMO arquivo .md sendo lido nas duas superfícies, e uma
 # lista que diverge faz o rolo e o app lerem o mesmo texto em vozes diferentes.
 #
@@ -182,7 +182,7 @@ def separar_yaml(texto: str) -> tuple[dict, str]:
     return meta, corpo
 
 # ---------------------------------------------------------------- markdown inline
-# Mesmíssimo padrão de src/lib/remarkBlockAnchors.ts no app. Não é coincidência
+# Mesmíssimo padrão de src/motor/remarkBlockAnchors.ts no app. Não é coincidência
 # que sejam iguais: é o que garante que o id que o app calcula para um versículo
 # seja exatamente o id que existe no rolo. Se um dia divergirem, os links do app
 # passam a apontar para o nada — silenciosamente.
@@ -195,7 +195,7 @@ RX_ITALICO = re.compile(r"(?<![\*\w])\*([^*\n]+?)\*(?!\*)")
 RX_CODIGO = re.compile(r"`([^`\n]+?)`")
 # Marcador canônico literal: [1.1], [327a], [5.a], [48.b2]. NUNCA reformatado —
 # vira endereço navegável preservando o literal exato. Idêntico ao MARKER_RE de
-# src/lib/remarkMarkers.ts, pelo mesmo motivo da âncora acima.
+# src/motor/remarkMarkers.ts, pelo mesmo motivo da âncora acima.
 RX_MARCADOR = re.compile(r"\[((?:\d+(?:[a-z]\d*)?|[A-Za-z][A-Za-z0-9_]*(?=\.\d))(?:\.[0-9a-z]+)*)\]")
 # ^ D26 (2026-09-29): o primeiro nível pode ser um NOME quando vem seguido de
 #   nível numérico — [Agis.1.1] (Vidas de Plutarco), [frag_1.1], [praef.1].
