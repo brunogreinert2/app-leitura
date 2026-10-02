@@ -2688,3 +2688,18 @@ button {
   border: none;
   font-weight: 700;
 }
+
+/* A palavra achada pelo Ctrl+F do editor. O foco fica no campo de busca
+   (EditorLocalizar.tsx), e um textarea sem foco não pinta a seleção: esta
+   moldura é que mostra onde está. Fixa na tela, por cima do texto, sem
+   pegar clique. Contorno de 2px no acento: aparece em todos os temas sem
+   apagar a letra por baixo. */
+.editor-localizar-moldura {
+  position: fixed;
+  z-index: 71;
+  pointer-events: none;
+  outline: 2px solid var(--color-accent);
+  outline-offset: 1px;
+  border-radius: 2px;
+  background: color-mix(in srgb, var(--color-accent) 18%, transparent);
+}
