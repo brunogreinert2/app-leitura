@@ -38,6 +38,15 @@ PWA de leitura, **somente leitura**, para o corpus em Markdown/YAML dos projetos
 
 Textos longos (capítulos bíblicos inteiros, verbetes extensos) precisam rolar liso em celular fraco. Virtualizar a renderização se necessário. Medir antes de adicionar qualquer dependência.
 
+## Mexeu no leitor? Rode a tortura
+
+`C:\Claude\parser\` é o motor de leitura do ecossistema (`proposta.md`). Antes
+de commitar mudança em `src/lib/markdown.tsx`, `remark*.ts`, `htmlCru.ts` ou
+`printSection.ts`: `npm run tortura` dentro de `C:\Claude\parser`. São 34
+casos (`tortura/casos/*.md`) passados pelo `parseBook` de verdade; a regra é
+"desenha ou mostra como texto, nada some". Sai com erro se algum caso piorar.
+Os ◐ são pendentes conhecidos, cada um com o motivo no próprio caso.
+
 ## Convenções de código
 
 - Português nos textos de UI; código e identificadores em inglês.
