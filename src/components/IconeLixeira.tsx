@@ -1,5 +1,5 @@
 /**
- * Ícone de lixeira — acompanha o "Excluir todos os meus textos".
+ * Ícone de lixeira — acompanha o "Excluir todos os meus arquivos".
  *
  * Mesmo padrão do IconeAtualizar: vetor e `currentColor`, medida numérica no
  * atributo e tamanho real vindo do CSS (.toc-action-larga svg).

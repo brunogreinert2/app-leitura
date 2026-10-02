@@ -15,7 +15,7 @@ interface Props {
 }
 
 /**
- * "Excluir todos os meus textos" em dois passos (2026-09-30).
+ * "Excluir todos os meus arquivos" em dois passos (2026-09-30).
  *
  * 1. Oferece a cópia antes — no caminho natural, não num menu que ninguém acha.
  * 2. Confirma dizendo exatamente o que acontece, com a contagem: "Apagar os 270
