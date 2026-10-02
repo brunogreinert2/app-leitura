@@ -903,6 +903,13 @@ button {
   border-bottom: 2px solid var(--color-borda-ui);
 }
 
+/* Faixa no fim do painel (Excluir todos): fecha em cima e embaixo, como as
+   faixas do topo, e deixa um respiro depois da lista. */
+.lib-fim {
+  border-top: 2px solid var(--color-borda-ui);
+  margin-top: 1.5rem;
+}
+
 .lib-import .toc-action {
   flex: 1;
 }
@@ -2662,10 +2669,22 @@ button {
 }
 
 /* Apagar tudo (Meus arquivos): o único gesto da biblioteca que não se desfaz
-   sozinho. Distinto pelo FORMATO — borda dupla e grossa, negrito — e pelo
+   sozinho. Distinto pela FORMA — icone de lixeira e negrito — e pelo
    texto, que diz o que acontece; nunca só pela cor (vale em todos os temas). */
 .botao-perigo {
-  border-style: double;
-  border-width: 4px;
+  /* SEM CAIXA PROPRIA: os botoes do painel sao faixas de uma grade (so
+     filetes de 2px entre eles). A moldura dupla destoava da grade e repetia o
+     sinal do ALFINETE, onde moldura quer dizer "ligado". A distincao agora e
+     o icone de lixeira + negrito: forma, nao cor.
+     QUEBRA DE LINHA: em caixa alta, negrito e espacado, o rotulo nao cabe nos
+     20rem do painel; com o nowrap herdado de .toc-action ele alargava o
+     painel e criava a rolagem lateral que deixava as outras faixas "abertas".
+     Aqui ele quebra em vez de alargar. */
+  min-width: 0;
+  white-space: normal;
+  text-wrap: balance;
+  padding: 0.625rem 1rem;
+  line-height: 1.35;
+  border: none;
   font-weight: 700;
 }

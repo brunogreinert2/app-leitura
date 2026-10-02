@@ -5,6 +5,7 @@ import { LibraryTree } from './LibraryTree'
 import { IconeAlfinete } from './IconeAlfinete'
 import { GregaMeandro } from './GregaMeandro'
 import { IconeAtualizar } from './IconeAtualizar'
+import { IconeLixeira } from './IconeLixeira'
 import { useT } from './idiomaContext'
 
 interface Props {
@@ -174,19 +175,6 @@ export function LibraryDrawer({
             }}
           />
         </div>
-        {/* Separado do Exportar/Importar e com o nome do que faz: apagar é o
-            único gesto desta área que não se desfaz sozinho. */}
-        {totalLocais > 0 && onExcluirTudo && (
-          <div className="lib-import">
-            <button
-              className="toc-action toc-action-larga botao-perigo"
-              onClick={onExcluirTudo}
-              aria-label={t('biblioteca.excluirTudo')}
-            >
-              {t('acao.excluirTudo')}
-            </button>
-          </div>
-        )}
         <div className="lib-import">
           <button
             className="toc-action toc-action-larga"
@@ -209,6 +197,22 @@ export function LibraryDrawer({
             query={query}
             ativo={ativo}
           />
+        )}
+        {/* NO FIM DO PAINEL, depois da lista: apagar é o único gesto desta
+            área que não se desfaz sozinho, e no topo ficava fácil demais de
+            tocar sem querer (sobretudo no celular). Aqui só chega quem rolou
+            até ele de propósito. */}
+        {totalLocais > 0 && onExcluirTudo && (
+          <div className="lib-import lib-fim">
+            <button
+              className="toc-action toc-action-larga botao-perigo"
+              onClick={onExcluirTudo}
+              aria-label={t('biblioteca.excluirTudo')}
+            >
+              <IconeLixeira />
+              <span>{t('acao.excluirTudo')}</span>
+            </button>
+          </div>
         )}
       </nav>
     </>
