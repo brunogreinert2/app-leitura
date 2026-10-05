@@ -190,7 +190,14 @@ RX_ANCORA = re.compile(r"\s*\^([A-Za-z0-9][A-Za-z0-9-]*)\s*$")
 RX_WIKILINK = re.compile(r"\[\[([^\]|]+?)(?:\|([^\]]+?))?\]\]")
 RX_VERSICULO = re.compile(r"\*\*(\d+[a-z]?)\*\*")
 RX_ROTULO = re.compile(r"\*\*([A-Za-zÀ-ÿ]{2,12}(?: \([^)]{1,24}\))?)\*\*")
-RX_NEGRITO = re.compile(r"\*\*(.+?)\*\*")
+# A GUARDA `(?=[^*\s])` NAO E ZELO: e a lacuna de manuscrito. Sem ela,
+# `(*****)` do De Re Publica vira `(<strong>*</strong>)` — o aparato critico
+# some e nasce um asterisco em negrito. O motor (`parser/motor/`) e o Gerador
+# deixam a lacuna literal; o rolo era o unico que a estragava. Medido em
+# 2026-10-05: 94 ocorrencias em 4 arquivos (De Re Publica, De Divinatione).
+# `C:/Claude/conferir_enfase.py` roda as duas regras nos mesmos casos e
+# reprova divergencia nova.
+RX_NEGRITO = re.compile(r"\*\*(?=[^*\s])(.+?)\*\*")
 RX_ITALICO = re.compile(r"(?<![\*\w])\*([^*\n]+?)\*(?!\*)")
 RX_CODIGO = re.compile(r"`([^`\n]+?)`")
 # Marcador canônico literal: [1.1], [327a], [5.a], [48.b2]. NUNCA reformatado —
