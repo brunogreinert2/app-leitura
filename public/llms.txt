@@ -29,4 +29,4 @@ Every page below is plain HTML, readable without JavaScript. Pages are kept unde
 ## Opcional · Optional
 
 - [Diário](https://pedraangular.app.br/portico/diario.html): o que mudou, com data ([feed Atom](https://pedraangular.app.br/portico/feed.xml))
-- [Código do site](https://github.com/brunogreinert2/app-leitura) e [do Pórtico](https://github.com/brunogreinert2/portico)
+- [Código do site](https://github.com/brunogreinert2/app-leitura)

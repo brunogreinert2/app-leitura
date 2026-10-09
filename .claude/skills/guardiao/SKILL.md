@@ -18,9 +18,11 @@ que um texto perfeito que não sobe. Preciosismo não; descuido também não.
 
 As regras mudam, e as cópias envelhecem. Leia na fonte, a cada sessão:
 
-1. **`C:\Claude\portico\NORMAS.md`** — a norma do ecossistema (8 leis + N1–N79).
-   Se não estiver no disco: https://pedraangular.app.br/portico/normas.md.
+1. **`C:\Claude\portico\NORMAS.md`** — a norma do ecossistema (9 leis + N1–N79).
    O **N7** define o formato dos arquivos; o **Anexo B**, o que nunca se viola.
+   O NORMAS.md não é publicado: https://pedraangular.app.br/portico/normas.md
+   traz só as nove leis, escritas para quem lê. Sem o disco, o formato está no
+   item 4.
 2. **`scripts/acervo/frontmatter.schema.json`** — os campos do front matter,
    os valores permitidos e a descrição de cada um.
 3. **`CLAUDE.md`** deste repositório — operação do site, portão, rolo, apelidos.
