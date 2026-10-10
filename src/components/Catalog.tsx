@@ -45,6 +45,7 @@ export function Catalog({
           Φ
         </button>
         <div className="catalog-header-title">
+          <span className="marca-nome">Pedra Angular</span>
           <h1>{t('biblioteca')}</h1>
           <p className="catalog-subtitle">{t('catalogo.subtitulo')}</p>
         </div>

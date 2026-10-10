@@ -682,10 +682,49 @@ button {
 
 .reader-title {
   flex: 1;
+  /* sem isto um filho com nowrap empurra a barra para fora da tela */
+  min-width: 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 0.2rem;
+  /* para o nome da casa saber quanto espaço tem (ver .marca-nome) */
+  container-type: inline-size;
+}
+
+.reader-title-texto {
   font-weight: bold;
   overflow: hidden;
   text-overflow: ellipsis;
   white-space: nowrap;
+}
+
+/* O NOME DA CASA na barra: "Pedra Angular" em caixa alta bem espaçada, acima do
+   título do que está aberto (decisão do Διαφορεύς, 2026-10-11, a partir do
+   cartão das redes). É a Cardo, a serifada do acervo, e a cor do texto
+   secundário, que em todo tema passa do contraste 7:1.
+   Não cabe? Some inteiro em vez de cortar: nome pela metade não é nome. */
+.marca-nome {
+  display: block;
+  font-family: 'Cardo', serif;
+  font-size: 0.8125rem;
+  font-weight: 400;
+  line-height: 1.2;
+  letter-spacing: 0.32em;
+  text-transform: uppercase;
+  white-space: nowrap;
+  color: var(--color-muted);
+  /* o espaçamento também entra DEPOIS da última letra; sem descontá-lo o nome
+     parece 4px mais largo do que é */
+  margin-right: -0.32em;
+}
+
+/* 10rem é a largura do nome composto. No celular, com a obra aberta, a área do
+   título fica menor que isso: o nome sai e o título fica com a linha toda. */
+@container (max-width: 10rem) {
+  .marca-nome {
+    display: none;
+  }
 }
 
 .font-controls {
