@@ -329,6 +329,7 @@ const PT = {
   'pasta.PORTUGUES': 'Português',
   'pasta.LATIM': 'Latim',
   'pasta.HEBRAICO': 'Hebraico',
+  'pasta.ARAMAICO': 'Aramaico',
   'pasta.ARABE': 'Árabe',
   // — escola e categoria (terceiro nível) —
   'pasta.ARISTOTELISMO': 'Aristotelismo',
@@ -638,6 +639,7 @@ const EN: Record<Chave, string> = {
   'pasta.PORTUGUES': 'Portuguese',
   'pasta.LATIM': 'Latin',
   'pasta.HEBRAICO': 'Hebrew',
+  'pasta.ARAMAICO': 'Aramaic',
   'pasta.ARABE': 'Arabic',
   // — escola e categoria (terceiro nível) —
   'pasta.ARISTOTELISMO': 'Aristotelianism',

@@ -987,6 +987,11 @@ sofonias-grc-lxx-swe
 spinoza-ethics-en-elwes-1883
 susana-grc-lxx-swe-og
 susana-grc-lxx-swe-teod
+targum-onkelos-taj-01-genesis
+targum-onkelos-taj-02-exodo
+targum-onkelos-taj-03-levitico
+targum-onkelos-taj-04-numeros
+targum-onkelos-taj-05-deuteronomio
 teofrasto-tlg009-grc-hermann-diels-1909
 tertuliano-ad-martyras-lat-franz-oehler-1853
 tertuliano-ad-nationes-lat-franz-oehler-1853

@@ -170,6 +170,6 @@
     "lista_de_texto": { "type": "array", "items": { "$ref": "#/$defs/texto" } },
     "texto_ou_lista": { "oneOf": [ { "$ref": "#/$defs/texto" }, { "type": "array", "items": { "$ref": "#/$defs/texto" }, "minItems": 1 } ] },
     "ano": { "oneOf": [ { "type": "integer" }, { "$ref": "#/$defs/texto" } ] },
-    "idioma": { "enum": ["grc", "lat", "heb", "por", "eng", "ara", "rus", "fra", "deu", "spa", "ita", "ell"] }
+    "idioma": { "enum": ["grc", "lat", "heb", "arc", "por", "eng", "ara", "rus", "fra", "deu", "spa", "ita", "ell"] }
   }
 }

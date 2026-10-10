@@ -6726,6 +6726,41 @@
       "titulo": "Pensamento e linguagem",
       "autor": "Adrian Oscar Dongo-Montoya",
       "arquivo": "PSICOLOGIA/Portugues/Epistemologia_Genetica/Dongo_Montoya/Pensamento_e_Linguagem/DongoMontoya_Pensamento_e_Linguagem_pt_2021.md"
+    },
+    {
+      "id": "targum-onkelos-taj-01-genesis",
+      "titulo": "Gênesis (Targum Onkelos)",
+      "autor": "—",
+      "arquivo": "BIBLIAS/Aramaico/Targum_Onkelos/01_Genesis_arc_onkelos_sd.md",
+      "sistema_referencia": "versiculo"
+    },
+    {
+      "id": "targum-onkelos-taj-02-exodo",
+      "titulo": "Êxodo (Targum Onkelos)",
+      "autor": "—",
+      "arquivo": "BIBLIAS/Aramaico/Targum_Onkelos/02_Exodo_arc_onkelos_sd.md",
+      "sistema_referencia": "versiculo"
+    },
+    {
+      "id": "targum-onkelos-taj-03-levitico",
+      "titulo": "Levítico (Targum Onkelos)",
+      "autor": "—",
+      "arquivo": "BIBLIAS/Aramaico/Targum_Onkelos/03_Levitico_arc_onkelos_sd.md",
+      "sistema_referencia": "versiculo"
+    },
+    {
+      "id": "targum-onkelos-taj-04-numeros",
+      "titulo": "Números (Targum Onkelos)",
+      "autor": "—",
+      "arquivo": "BIBLIAS/Aramaico/Targum_Onkelos/04_Numeros_arc_onkelos_sd.md",
+      "sistema_referencia": "versiculo"
+    },
+    {
+      "id": "targum-onkelos-taj-05-deuteronomio",
+      "titulo": "Deuteronômio (Targum Onkelos)",
+      "autor": "—",
+      "arquivo": "BIBLIAS/Aramaico/Targum_Onkelos/05_Deuteronomio_arc_onkelos_sd.md",
+      "sistema_referencia": "versiculo"
     }
   ],
   "redirecionamentos": {

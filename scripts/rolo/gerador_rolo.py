@@ -117,6 +117,7 @@ IDIOMAS_BCP47 = {
     "ell": "el", "el": "el",
     "lat": "la", "la": "la",
     "heb": "he", "he": "he",
+    "arc": "arc",  # aramaico (Targum): escrita quadrada, direita para a esquerda
     "ara": "ar", "ar": "ar",
     "rus": "ru", "ru": "ru",
     "fra": "fr", "fre": "fr", "fr": "fr",
@@ -1245,6 +1246,7 @@ ROTULO_EN = {
     "Portugues": "Portuguese",
     "Latim": "Latin",
     "Hebraico": "Hebrew",
+    "Aramaico": "Aramaic",
     "Arabe": "Arabic",
     # escola e categoria (terceiro nível): substantivos comuns, traduzem limpo
     "Aristotelismo": "Aristotelianism",
@@ -1297,7 +1299,7 @@ def bilingue(nome: str) -> str:
 # arquivos dizem, e um idioma novo aparece sozinho.
 NOMES_IDIOMA = {
     "pt-BR": "português", "en": "inglês", "grc": "grego antigo", "el": "grego moderno",
-    "la": "latim", "he": "hebraico", "ar": "árabe", "ru": "russo",
+    "la": "latim", "he": "hebraico", "arc": "aramaico", "ar": "árabe", "ru": "russo",
     "fr": "francês", "de": "alemão", "es": "espanhol", "it": "italiano",
 }
 
