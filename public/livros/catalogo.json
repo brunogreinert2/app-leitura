@@ -6908,6 +6908,160 @@
       "autor": "—",
       "arquivo": "BIBLIAS/Aramaico/Targum_Jonatas/39_Malaquias_arc_jonatas_sd.md",
       "sistema_referencia": "versiculo"
+    },
+    {
+      "id": "targum-escritos-mg-08-rute",
+      "titulo": "Rute (Targum dos Escritos)",
+      "autor": "—",
+      "arquivo": "BIBLIAS/Aramaico/Targum_dos_Escritos/08_Rute_arc_targum_sd.md",
+      "sistema_referencia": "versiculo"
+    },
+    {
+      "id": "targum-escritos-ws-13-1_cronicas",
+      "titulo": "1 Crônicas (Targum dos Escritos)",
+      "autor": "—",
+      "arquivo": "BIBLIAS/Aramaico/Targum_dos_Escritos/13_1_Cronicas_arc_targum_sd.md",
+      "sistema_referencia": "versiculo"
+    },
+    {
+      "id": "targum-escritos-ws-14-2_cronicas",
+      "titulo": "2 Crônicas (Targum dos Escritos)",
+      "autor": "—",
+      "arquivo": "BIBLIAS/Aramaico/Targum_dos_Escritos/14_2_Cronicas_arc_targum_sd.md",
+      "sistema_referencia": "versiculo"
+    },
+    {
+      "id": "targum-sheni-ws-17-ester",
+      "titulo": "Ester (Targum Sheni)",
+      "autor": "—",
+      "arquivo": "BIBLIAS/Aramaico/Targum_dos_Escritos/17_Ester_arc_sheni_1898.md",
+      "sistema_referencia": "versiculo"
+    },
+    {
+      "id": "targum-escritos-mg-17-ester",
+      "titulo": "Ester (Targum dos Escritos)",
+      "autor": "—",
+      "arquivo": "BIBLIAS/Aramaico/Targum_dos_Escritos/17_Ester_arc_targum_sd.md",
+      "sistema_referencia": "versiculo"
+    },
+    {
+      "id": "targum-escritos-mg-18-jo",
+      "titulo": "Jó (Targum dos Escritos)",
+      "autor": "—",
+      "arquivo": "BIBLIAS/Aramaico/Targum_dos_Escritos/18_Jo_arc_targum_sd.md",
+      "sistema_referencia": "versiculo"
+    },
+    {
+      "id": "targum-escritos-mg-19-salmos",
+      "titulo": "Salmos (Targum dos Escritos)",
+      "autor": "—",
+      "arquivo": "BIBLIAS/Aramaico/Targum_dos_Escritos/19_Salmos_arc_targum_sd.md",
+      "sistema_referencia": "versiculo"
+    },
+    {
+      "id": "targum-escritos-mg-20-proverbios",
+      "titulo": "Provérbios (Targum dos Escritos)",
+      "autor": "—",
+      "arquivo": "BIBLIAS/Aramaico/Targum_dos_Escritos/20_Proverbios_arc_targum_sd.md",
+      "sistema_referencia": "versiculo"
+    },
+    {
+      "id": "targum-escritos-mg-21-eclesiastes",
+      "titulo": "Eclesiastes (Targum dos Escritos)",
+      "autor": "—",
+      "arquivo": "BIBLIAS/Aramaico/Targum_dos_Escritos/21_Eclesiastes_arc_targum_sd.md",
+      "sistema_referencia": "versiculo"
+    },
+    {
+      "id": "targum-escritos-melamed-22-cantico_dos_canticos",
+      "titulo": "Cântico dos Cânticos (Targum, manuscritos iemenitas)",
+      "autor": "—",
+      "arquivo": "BIBLIAS/Aramaico/Targum_dos_Escritos/22_Cantico_dos_Canticos_arc_melamed_1921.md",
+      "sistema_referencia": "versiculo"
+    },
+    {
+      "id": "targum-escritos-mg-22-cantico_dos_canticos",
+      "titulo": "Cântico dos Cânticos (Targum dos Escritos)",
+      "autor": "—",
+      "arquivo": "BIBLIAS/Aramaico/Targum_dos_Escritos/22_Cantico_dos_Canticos_arc_targum_sd.md",
+      "sistema_referencia": "versiculo"
+    },
+    {
+      "id": "targum-escritos-mg-25-lamentacoes",
+      "titulo": "Lamentações (Targum dos Escritos)",
+      "autor": "—",
+      "arquivo": "BIBLIAS/Aramaico/Targum_dos_Escritos/25_Lamentacoes_arc_targum_sd.md",
+      "sistema_referencia": "versiculo"
+    },
+    {
+      "id": "targum-pseudo-jonatas-te-01-genesis",
+      "titulo": "Gênesis (Targum Pseudo-Jônatas)",
+      "autor": "—",
+      "arquivo": "BIBLIAS/Aramaico/Targum_Pseudo_Jonatas/01_Genesis_arc_pseudojonatas_sd.md",
+      "sistema_referencia": "versiculo"
+    },
+    {
+      "id": "targum-pseudo-jonatas-te-02-exodo",
+      "titulo": "Êxodo (Targum Pseudo-Jônatas)",
+      "autor": "—",
+      "arquivo": "BIBLIAS/Aramaico/Targum_Pseudo_Jonatas/02_Exodo_arc_pseudojonatas_sd.md",
+      "sistema_referencia": "versiculo"
+    },
+    {
+      "id": "targum-pseudo-jonatas-te-03-levitico",
+      "titulo": "Levítico (Targum Pseudo-Jônatas)",
+      "autor": "—",
+      "arquivo": "BIBLIAS/Aramaico/Targum_Pseudo_Jonatas/03_Levitico_arc_pseudojonatas_sd.md",
+      "sistema_referencia": "versiculo"
+    },
+    {
+      "id": "targum-pseudo-jonatas-te-04-numeros",
+      "titulo": "Números (Targum Pseudo-Jônatas)",
+      "autor": "—",
+      "arquivo": "BIBLIAS/Aramaico/Targum_Pseudo_Jonatas/04_Numeros_arc_pseudojonatas_sd.md",
+      "sistema_referencia": "versiculo"
+    },
+    {
+      "id": "targum-pseudo-jonatas-te-05-deuteronomio",
+      "titulo": "Deuteronômio (Targum Pseudo-Jônatas)",
+      "autor": "—",
+      "arquivo": "BIBLIAS/Aramaico/Targum_Pseudo_Jonatas/05_Deuteronomio_arc_pseudojonatas_sd.md",
+      "sistema_referencia": "versiculo"
+    },
+    {
+      "id": "targum-yerushalmi-ws-01-genesis",
+      "titulo": "Gênesis (Targum Yerushalmi, fragmentos)",
+      "autor": "—",
+      "arquivo": "BIBLIAS/Aramaico/Targum_Yerushalmi/01_Genesis_arc_yerushalmi_sd.md",
+      "sistema_referencia": "versiculo"
+    },
+    {
+      "id": "targum-yerushalmi-ws-02-exodo",
+      "titulo": "Êxodo (Targum Yerushalmi, fragmentos)",
+      "autor": "—",
+      "arquivo": "BIBLIAS/Aramaico/Targum_Yerushalmi/02_Exodo_arc_yerushalmi_sd.md",
+      "sistema_referencia": "versiculo"
+    },
+    {
+      "id": "targum-yerushalmi-ws-03-levitico",
+      "titulo": "Levítico (Targum Yerushalmi, fragmentos)",
+      "autor": "—",
+      "arquivo": "BIBLIAS/Aramaico/Targum_Yerushalmi/03_Levitico_arc_yerushalmi_sd.md",
+      "sistema_referencia": "versiculo"
+    },
+    {
+      "id": "targum-yerushalmi-ws-04-numeros",
+      "titulo": "Números (Targum Yerushalmi, fragmentos)",
+      "autor": "—",
+      "arquivo": "BIBLIAS/Aramaico/Targum_Yerushalmi/04_Numeros_arc_yerushalmi_sd.md",
+      "sistema_referencia": "versiculo"
+    },
+    {
+      "id": "targum-yerushalmi-ws-05-deuteronomio",
+      "titulo": "Deuteronômio (Targum Yerushalmi, fragmentos)",
+      "autor": "—",
+      "arquivo": "BIBLIAS/Aramaico/Targum_Yerushalmi/05_Deuteronomio_arc_yerushalmi_sd.md",
+      "sistema_referencia": "versiculo"
     }
   ],
   "redirecionamentos": {
