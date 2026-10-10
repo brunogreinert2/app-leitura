@@ -6761,6 +6761,153 @@
       "autor": "—",
       "arquivo": "BIBLIAS/Aramaico/Targum_Onkelos/05_Deuteronomio_arc_onkelos_sd.md",
       "sistema_referencia": "versiculo"
+    },
+    {
+      "id": "targum-jonatas-mg-06-josue",
+      "titulo": "Josué (Targum Jônatas)",
+      "autor": "—",
+      "arquivo": "BIBLIAS/Aramaico/Targum_Jonatas/06_Josue_arc_jonatas_sd.md",
+      "sistema_referencia": "versiculo"
+    },
+    {
+      "id": "targum-jonatas-mg-07-juizes",
+      "titulo": "Juízes (Targum Jônatas)",
+      "autor": "—",
+      "arquivo": "BIBLIAS/Aramaico/Targum_Jonatas/07_Juizes_arc_jonatas_sd.md",
+      "sistema_referencia": "versiculo"
+    },
+    {
+      "id": "targum-jonatas-mg-09-1_samuel",
+      "titulo": "1 Samuel (Targum Jônatas)",
+      "autor": "—",
+      "arquivo": "BIBLIAS/Aramaico/Targum_Jonatas/09_1_Samuel_arc_jonatas_sd.md",
+      "sistema_referencia": "versiculo"
+    },
+    {
+      "id": "targum-jonatas-mg-10-2_samuel",
+      "titulo": "2 Samuel (Targum Jônatas)",
+      "autor": "—",
+      "arquivo": "BIBLIAS/Aramaico/Targum_Jonatas/10_2_Samuel_arc_jonatas_sd.md",
+      "sistema_referencia": "versiculo"
+    },
+    {
+      "id": "targum-jonatas-mg-11-1_reis",
+      "titulo": "1 Reis (Targum Jônatas)",
+      "autor": "—",
+      "arquivo": "BIBLIAS/Aramaico/Targum_Jonatas/11_1_Reis_arc_jonatas_sd.md",
+      "sistema_referencia": "versiculo"
+    },
+    {
+      "id": "targum-jonatas-mg-12-2_reis",
+      "titulo": "2 Reis (Targum Jônatas)",
+      "autor": "—",
+      "arquivo": "BIBLIAS/Aramaico/Targum_Jonatas/12_2_Reis_arc_jonatas_sd.md",
+      "sistema_referencia": "versiculo"
+    },
+    {
+      "id": "targum-jonatas-mg-23-isaias",
+      "titulo": "Isaías (Targum Jônatas)",
+      "autor": "—",
+      "arquivo": "BIBLIAS/Aramaico/Targum_Jonatas/23_Isaias_arc_jonatas_sd.md",
+      "sistema_referencia": "versiculo"
+    },
+    {
+      "id": "targum-jonatas-mg-24-jeremias",
+      "titulo": "Jeremias (Targum Jônatas)",
+      "autor": "—",
+      "arquivo": "BIBLIAS/Aramaico/Targum_Jonatas/24_Jeremias_arc_jonatas_sd.md",
+      "sistema_referencia": "versiculo"
+    },
+    {
+      "id": "targum-jonatas-mg-26-ezequiel",
+      "titulo": "Ezequiel (Targum Jônatas)",
+      "autor": "—",
+      "arquivo": "BIBLIAS/Aramaico/Targum_Jonatas/26_Ezequiel_arc_jonatas_sd.md",
+      "sistema_referencia": "versiculo"
+    },
+    {
+      "id": "targum-jonatas-mg-28-oseias",
+      "titulo": "Oseias (Targum Jônatas)",
+      "autor": "—",
+      "arquivo": "BIBLIAS/Aramaico/Targum_Jonatas/28_Oseias_arc_jonatas_sd.md",
+      "sistema_referencia": "versiculo"
+    },
+    {
+      "id": "targum-jonatas-mg-29-joel",
+      "titulo": "Joel (Targum Jônatas)",
+      "autor": "—",
+      "arquivo": "BIBLIAS/Aramaico/Targum_Jonatas/29_Joel_arc_jonatas_sd.md",
+      "sistema_referencia": "versiculo"
+    },
+    {
+      "id": "targum-jonatas-mg-30-amos",
+      "titulo": "Amós (Targum Jônatas)",
+      "autor": "—",
+      "arquivo": "BIBLIAS/Aramaico/Targum_Jonatas/30_Amos_arc_jonatas_sd.md",
+      "sistema_referencia": "versiculo"
+    },
+    {
+      "id": "targum-jonatas-mg-31-obadias",
+      "titulo": "Obadias (Targum Jônatas)",
+      "autor": "—",
+      "arquivo": "BIBLIAS/Aramaico/Targum_Jonatas/31_Obadias_arc_jonatas_sd.md",
+      "sistema_referencia": "versiculo"
+    },
+    {
+      "id": "targum-jonatas-mg-32-jonas",
+      "titulo": "Jonas (Targum Jônatas)",
+      "autor": "—",
+      "arquivo": "BIBLIAS/Aramaico/Targum_Jonatas/32_Jonas_arc_jonatas_sd.md",
+      "sistema_referencia": "versiculo"
+    },
+    {
+      "id": "targum-jonatas-mg-33-miqueias",
+      "titulo": "Miqueias (Targum Jônatas)",
+      "autor": "—",
+      "arquivo": "BIBLIAS/Aramaico/Targum_Jonatas/33_Miqueias_arc_jonatas_sd.md",
+      "sistema_referencia": "versiculo"
+    },
+    {
+      "id": "targum-jonatas-mg-34-naum",
+      "titulo": "Naum (Targum Jônatas)",
+      "autor": "—",
+      "arquivo": "BIBLIAS/Aramaico/Targum_Jonatas/34_Naum_arc_jonatas_sd.md",
+      "sistema_referencia": "versiculo"
+    },
+    {
+      "id": "targum-jonatas-mg-35-habacuque",
+      "titulo": "Habacuque (Targum Jônatas)",
+      "autor": "—",
+      "arquivo": "BIBLIAS/Aramaico/Targum_Jonatas/35_Habacuque_arc_jonatas_sd.md",
+      "sistema_referencia": "versiculo"
+    },
+    {
+      "id": "targum-jonatas-mg-36-sofonias",
+      "titulo": "Sofonias (Targum Jônatas)",
+      "autor": "—",
+      "arquivo": "BIBLIAS/Aramaico/Targum_Jonatas/36_Sofonias_arc_jonatas_sd.md",
+      "sistema_referencia": "versiculo"
+    },
+    {
+      "id": "targum-jonatas-mg-37-ageu",
+      "titulo": "Ageu (Targum Jônatas)",
+      "autor": "—",
+      "arquivo": "BIBLIAS/Aramaico/Targum_Jonatas/37_Ageu_arc_jonatas_sd.md",
+      "sistema_referencia": "versiculo"
+    },
+    {
+      "id": "targum-jonatas-mg-38-zacarias",
+      "titulo": "Zacarias (Targum Jônatas)",
+      "autor": "—",
+      "arquivo": "BIBLIAS/Aramaico/Targum_Jonatas/38_Zacarias_arc_jonatas_sd.md",
+      "sistema_referencia": "versiculo"
+    },
+    {
+      "id": "targum-jonatas-mg-39-malaquias",
+      "titulo": "Malaquias (Targum Jônatas)",
+      "autor": "—",
+      "arquivo": "BIBLIAS/Aramaico/Targum_Jonatas/39_Malaquias_arc_jonatas_sd.md",
+      "sistema_referencia": "versiculo"
     }
   ],
   "redirecionamentos": {
