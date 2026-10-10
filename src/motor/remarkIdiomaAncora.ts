@@ -1,7 +1,7 @@
 // MOTOR DO ECOSSISTEMA — cópia gerada, NÃO EDITE AQUI.
 // Fonte: C:\Claude\parser\motor\remarkIdiomaAncora.ts
 // Para mudar: edite a fonte e rode `npm run espalhar` em C:\Claude\parser.
-// sha256: da6aa38bb0dc236b0f720e9184746367089abfc80f30185decdbda1ed8120b86
+// sha256: 1c027b839a0b42ba57fa32196f486493db77f61a5d543aa3b26f183f129fd09c
 import { visit } from 'unist-util-visit'
 import type { Root, Text, Parent } from 'mdast'
 import { escritaDaAncora, ehRtl, type Escrita } from './idioma'
@@ -47,6 +47,13 @@ export function semEtiquetaDeIdioma(linha: string): string {
   return m && escritaDaAncora(m[1]) ? linha.slice(0, m.index) : linha
 }
 
+/** O bloco abre por `**5**`: o número do versículo (o mesmo teste de remarkBlockAnchors). */
+function abreComNumero(bloco: Parent): boolean {
+  const primeiro = bloco.children[0] as { type?: string; children?: { type?: string; value?: string }[] }
+  const unico = primeiro?.children?.length === 1 ? primeiro.children[0] : null
+  return primeiro?.type === 'strong' && unico?.type === 'text' && /^\d+[a-z]?$/.test((unico.value ?? '').trim())
+}
+
 export function remarkIdiomaAncora() {
   return (tree: Root) => {
     visit(tree, (node) => {
@@ -71,7 +78,14 @@ export function remarkIdiomaAncora() {
          reconhece de volta na hora de escolher a voz, e ele é BCP 47 válido,
          então navegador e leitor de tela também o entendem. */
       props.lang = escrita
-      if (ehRtl(escrita)) props.dir = 'rtl'
+      /* VERSÍCULO NUMERADO NÃO VIRA DE LADO (decisão do Διαφορεύς, 2026-10-10).
+         Em `**5** texto ^dn-2-5 ^arc` o número fica à esquerda, como em todo o
+         resto da Bíblia Hebraica do acervo, que não leva etiqueta: quem corre
+         da direita para a esquerda é o run (remarkHebrew), não o parágrafo.
+         Sem isto os capítulos aramaicos de Daniel saíam com o número do outro
+         lado da página, no meio de um livro em que ele fica à esquerda. A
+         linha solta (interlinear, verso, palavra isolada) continua virando. */
+      if (ehRtl(escrita) && !abreComNumero(pai)) props.dir = 'rtl'
     })
   }
 }
