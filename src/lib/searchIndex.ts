@@ -1,5 +1,6 @@
 import type { HeadingInfo } from './markdown'
 import { MARKER_RE } from '../motor/remarkMarkers'
+import { semEtiquetaDeIdioma } from '../motor/remarkIdiomaAncora'
 
 /**
  * Índice de busca por livro, construído sobre o MARKDOWN FONTE — a busca
@@ -63,7 +64,8 @@ export function getBookIndex(bookId: string, source: string, headings: HeadingIn
   const markerLines = new Map<string, number>()
 
   for (let i = 0; i < lines.length; i++) {
-    const anchor = ANCHOR_LINE_RE.exec(lines[i])
+    // `texto ^dn-2-5 ^arc`: a etiqueta de idioma (N76) vem depois do endereço
+    const anchor = ANCHOR_LINE_RE.exec(semEtiquetaDeIdioma(lines[i]))
     if (anchor && !anchorLines.has(anchor[1])) anchorLines.set(anchor[1], i + 1)
     MARKER_RE.lastIndex = 0
     for (const m of lines[i].matchAll(MARKER_RE)) {

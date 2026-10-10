@@ -4,6 +4,7 @@ type: primary_text
 title: Gênesis (Bíblia Hebraica — WLC)
 editor: Westminster Leningrad Codex 4.20
 language: heb
+language_also: arc 31:47 (duas palavras)
 tags:
 - bible
 - tanakh

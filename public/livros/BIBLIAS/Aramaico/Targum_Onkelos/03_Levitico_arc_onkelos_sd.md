@@ -26,7 +26,7 @@ urn: urn:cts:pedraAngular:bible.Lev.onkelos-arc1
 source: Wikisource hebraica (he.wikisource.org, página "תרגום אונקלוס"), pela versão "Targum Onkelos, vocalized according to the Yemenite Taj" do Sefaria-Export, lida em 2026-10-09.
 source_repo: Sefaria/Sefaria-Export
 source_file: json/Tanakh/Targum/Onkelos/Torah/Onkelos Leviticus/Hebrew/Targum Onkelos, vocalized according to the Yemenite Taj.json
-license: CC-BY-SA-4.0
+license: CC-BY-SA-3.0
 publishable: true
 processing: JSON do Sefaria-Export convertido para Markdown por Claude Sonnet (no chat); dividido por livro, posto na forma das Bíblias do acervo e conferido versículo a versículo contra a fonte por Διαφορεύς, Claude Opus 5.5, em 2026-10-09. Nenhuma normalização de grafia ou de vocalização; só os espaços nas pontas do versículo saíram.
 ---

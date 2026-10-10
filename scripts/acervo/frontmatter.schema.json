@@ -68,6 +68,11 @@
       ],
       "x-valores-antes": { "pt-BR": "por", "en": "eng", "la": "lat", "pt-BR/grc": ["por", "grc"] }
     },
+    "language_also": {
+      "description": "Trechos da obra noutra língua, quando capítulos inteiros mudam de língua no meio do livro: o aramaico de Daniel e de Esdras dentro da Bíblia Hebraica. O código ISO 639-3 primeiro (máquina), a referência depois (gente). Ex.: \"arc 2:4b-7:28\". As linhas em si levam a etiqueta de idioma (^arc, NORMAS N76).",
+      "type": "string",
+      "pattern": "^(grc|lat|heb|arc|por|eng|ara|rus|fra|deu|spa|ita|ell) \\S.*$"
+    },
 
     "tags": {
       "description": "Categorias viram etiquetas, não pastas (Proposta §4). Kebab-case, em inglês.",
@@ -117,8 +122,8 @@
     "source_file": { "description": "Caminho do arquivo no repositório de origem.", "$ref": "#/$defs/texto" },
     "source_commit": { "description": "Hash do commit de onde o arquivo foi tirado.", "type": "string", "pattern": "^[0-9a-f]{7,40}$" },
     "license": {
-      "description": "Identificador SPDX. public-domain não é id SPDX (o SPDX não tem um). LicenseRef-eBooksBrasil segue a forma SPDX para licença própria: os termos gerais do site eBooksBrasil (ebooksbrasil.org), que valem para todas as edições dele (decisão do Διαφορεύς, 2026-09-30): distribuição gratuita, proibido o uso comercial.",
-      "enum": ["public-domain", "CC-BY-SA-4.0", "CC-BY-SA-3.0", "CC-BY-4.0", "CC0-1.0", "LicenseRef-eBooksBrasil"],
+      "description": "Identificador SPDX. public-domain não é id SPDX (o SPDX não tem um). LicenseRef-eBooksBrasil segue a forma SPDX para licença própria: os termos gerais do site eBooksBrasil (ebooksbrasil.org), que valem para todas as edições dele (decisão do Διαφορεύς, 2026-09-30): distribuição gratuita, proibido o uso comercial. CC-BY-NC-4.0 entrou em 2026-10-10 (decisão do Διαφορεύς: o Pedra Angular não tem uso comercial); texto sob NC nunca vai para edição vendida.",
+      "enum": ["public-domain", "CC-BY-SA-4.0", "CC-BY-SA-3.0", "CC-BY-4.0", "CC-BY-NC-4.0", "CC0-1.0", "LicenseRef-eBooksBrasil"],
       "x-antes": ["licenca"],
       "x-valores-antes": {
         "dominio_publico": "public-domain",

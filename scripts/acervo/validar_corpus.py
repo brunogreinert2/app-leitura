@@ -46,7 +46,7 @@ RAIZ_PADRAO = AQUI.parent.parent / "public" / "livros"
 
 # N76: a lista fechada da etiqueta de idioma. Tem de ser identica a
 # ETIQUETAS_IDIOMA do gerador_rolo.py e CODIGOS do idioma.ts.
-ETIQUETAS_IDIOMA = {"por", "eng", "lat", "grc", "heb", "rus"}
+ETIQUETAS_IDIOMA = {"por", "eng", "lat", "grc", "heb", "arc", "rus"}
 
 RE_FM = re.compile(r"\A---[ \t]*\r?\n(.*?)\r?\n---[ \t]*(?:\r?\n|\Z)", re.S)
 

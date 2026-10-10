@@ -1,7 +1,7 @@
 // MOTOR DO ECOSSISTEMA — cópia gerada, NÃO EDITE AQUI.
 // Fonte: C:\Claude\parser\motor\remarkIdiomaAncora.ts
 // Para mudar: edite a fonte e rode `npm run espalhar` em C:\Claude\parser.
-// sha256: feacc8902f85b3275be3dd2bb7a179b9b23612054289ffc8d259a729550d5242
+// sha256: da6aa38bb0dc236b0f720e9184746367089abfc80f30185decdbda1ed8120b86
 import { visit } from 'unist-util-visit'
 import type { Root, Text, Parent } from 'mdast'
 import { escritaDaAncora, ehRtl, type Escrita } from './idioma'
@@ -33,6 +33,19 @@ import { escritaDaAncora, ehRtl, type Escrita } from './idioma'
  * remarkBlockAnchors, que continua vendo a âncora de passagem intacta.
  */
 const ETIQUETA_RE = /\s*\^([A-Za-z-]{2,6})\s*$/
+
+/**
+ * A linha sem a etiqueta de idioma do fim: `texto ^dn-2-5 ^arc` → `texto ^dn-2-5`.
+ *
+ * Para quem lê o MARKDOWN CRU, linha a linha, em vez da árvore (o índice de
+ * busca e o copiar do app): a etiqueta vem DEPOIS do endereço, então quem
+ * procura a âncora no fim da linha sem tirar a etiqueta antes acha `arc` no
+ * lugar de `dn-2-5` — e o versículo perde o endereço sem que nada avise.
+ */
+export function semEtiquetaDeIdioma(linha: string): string {
+  const m = ETIQUETA_RE.exec(linha)
+  return m && escritaDaAncora(m[1]) ? linha.slice(0, m.index) : linha
+}
 
 export function remarkIdiomaAncora() {
   return (tree: Root) => {

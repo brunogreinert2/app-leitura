@@ -1,7 +1,7 @@
 // MOTOR DO ECOSSISTEMA — cópia gerada, NÃO EDITE AQUI.
 // Fonte: C:\Claude\parser\motor\idioma.ts
 // Para mudar: edite a fonte e rode `npm run espalhar` em C:\Claude\parser.
-// sha256: 29516d731b0f824c21a3ccc4bab0c72015e2d55ba49b2355beba1eaf4ae634b3
+// sha256: 2952cfd80743aa019180025f12a96f98481bf2b82019e1cf02976a2f52104edc
 /**
  * Detecção de escrita por faixa Unicode — a MESMA de `idioma_da_linha` em
  * `scripts/rolo/gerador_rolo.py`. Estava escrita três vezes no projeto (duas
@@ -14,7 +14,10 @@
  * escolha da voz depende disso (NORMAS.md N38).
  */
 
-export type Escrita = 'he' | 'grc' | 'ru' | 'pt-BR' | 'en' | 'la'
+/* `arc` é o aramaico (Targum, Daniel, Esdras): a mesma escrita quadrada do
+   hebraico, outra língua. A faixa Unicode não distingue as duas; quem diz que
+   é aramaico é o cabeçalho (`language: arc`) ou a etiqueta `^arc` na linha. */
+export type Escrita = 'he' | 'arc' | 'grc' | 'ru' | 'pt-BR' | 'en' | 'la'
 
 /**
  * Português, inglês e latim escrevem com o MESMO alfabeto — o código dos
@@ -84,6 +87,9 @@ function dominante(texto: string): Escrita | null {
  */
 export function idiomaDoTexto(texto: string, padrao: Escrita = 'pt-BR'): Escrita {
   const escritaDominante = dominante(texto)
+  // A escrita quadrada é certeza; QUAL língua a usa, não. Num arquivo
+  // declarado aramaico, letra hebraica é aramaico.
+  if (escritaDominante === 'he' && padrao === 'arc') return 'arc'
   if (escritaDominante) return escritaDominante
 
   // Trecho curto não dá amostra: número de versículo, título de uma palavra.
@@ -113,6 +119,7 @@ const CODIGOS: Record<string, Escrita> = {
   lat: 'la', la: 'la',
   grc: 'grc', ell: 'grc', el: 'grc',
   heb: 'he', he: 'he',
+  arc: 'arc',
   rus: 'ru', ru: 'ru',
 }
 
@@ -138,7 +145,7 @@ export function escritaDaAncora(codigo: string): Escrita | null {
 }
 
 export function ehRtl(escrita: Escrita): boolean {
-  return escrita === 'he'
+  return escrita === 'he' || escrita === 'arc'
 }
 
 /**
@@ -148,6 +155,10 @@ export function ehRtl(escrita: Escrita): boolean {
  */
 const VOZES: Record<Escrita, string[]> = {
   he: ['he-il', 'he'],
+  // Aramaico não tem voz em sistema nenhum. A voz hebraica lê a mesma escrita
+  // e a mesma vocalização: é a aproximação viva mais próxima, e é anunciada
+  // como aproximação (N78).
+  arc: ['arc', 'he-il', 'he'],
   grc: ['el-gr', 'el', 'grc'],
   ru: ['ru-ru', 'ru'],
   'pt-BR': ['pt-br', 'pt'],
@@ -190,6 +201,7 @@ export function vozPara(
 /** Rótulo em português, para avisar o leitor quando falta uma voz. */
 export const NOME_DA_ESCRITA: Record<Escrita, string> = {
   he: 'hebraico',
+  arc: 'aramaico',
   grc: 'grego',
   ru: 'russo',
   'pt-BR': 'português',

@@ -60,6 +60,7 @@ ETIQUETAS_IDIOMA = {
     "lat": "la", "la": "la",
     "grc": "grc", "ell": "grc", "el": "grc",
     "heb": "he", "he": "he",
+    "arc": "arc",
     "rus": "ru", "ru": "ru",
 }
 RX_ETIQUETA_IDIOMA = re.compile(r"\s*\^([A-Za-z-]{2,6})\s*$")
@@ -73,7 +74,7 @@ def etiqueta_idioma(t: str) -> tuple[str, str, str]:
     lang = ETIQUETAS_IDIOMA.get(m.group(1).lower(), "")
     if not lang:
         return t, "", ""  # âncora comum: é endereço, não idioma
-    return t[: m.start()].rstrip(), lang, "rtl" if lang == "he" else "ltr"
+    return t[: m.start()].rstrip(), lang, "rtl" if lang in ("he", "arc") else "ltr"
 
 
 # Fatia mínima de letras numa escrita para ela mandar na linha inteira.
@@ -87,8 +88,12 @@ LIMIAR_ESCRITA = 0.30
 RX_LETRA = re.compile(r"[^\W\d_]", re.UNICODE)
 
 
-def idioma_da_linha(t: str) -> tuple[str, str]:
-    """(lang, dir) — mesma heurística do motor, para o HTML já nascer certo."""
+def idioma_da_linha(t: str, lang_doc: str = "") -> tuple[str, str]:
+    """(lang, dir) — mesma heurística do motor, para o HTML já nascer certo.
+
+    A escrita quadrada é certeza; QUAL língua a usa, não: hebraico e aramaico
+    dividem o alfabeto. Num arquivo declarado aramaico (`lang_doc == "arc"`),
+    letra hebraica é aramaico — mesma regra de `idiomaDoTexto` no motor."""
     letras = len(RX_LETRA.findall(t))
     if not letras:
         return "", "ltr"
@@ -98,6 +103,8 @@ def idioma_da_linha(t: str) -> tuple[str, str]:
         (RX_CIRILICO, "ru", "ltr"),
     ):
         if len(rx.findall(t)) / letras >= LIMIAR_ESCRITA:
+            if lang == "he" and lang_doc == "arc":
+                return "arc", direcao
             return lang, direcao
     return "", "ltr"
 
@@ -296,7 +303,7 @@ def blocos_logicos(md: str) -> list[list[str]]:
     return blocos
 
 
-def corpo_html(md: str, prefixo_id: str = "") -> tuple[str, int]:
+def corpo_html(md: str, prefixo_id: str = "", lang_doc: str = "") -> tuple[str, int]:
     """Emite uma sequência PLANA de elementos. A hierarquia fica em data-n —
     o motor a reconstrói. Plano no HTML significa que qualquer leitor ingênuo
     (incluindo uma IA) lê o texto na ordem certa, do começo ao fim."""
@@ -360,7 +367,7 @@ def corpo_html(md: str, prefixo_id: str = "") -> tuple[str, int]:
             conteudo = inline(texto, marcadores)
             # Título também aceita etiqueta: é justamente onde a detecção falha,
             # porque título costuma ter duas ou três palavras.
-            hl, hd = (lang_marcado, dir_marcado) if lang_marcado else idioma_da_linha(texto)
+            hl, hd = (lang_marcado, dir_marcado) if lang_marcado else idioma_da_linha(texto, lang_doc)
             attr_h = (f' lang="{hl}"' if hl else "") + (' dir="rtl"' if hd == "rtl" else "")
             if n <= 6:
                 saida.append(f'<h{n} data-n="{n}" style="--n:{n}"{attr_h}{attr_id}>{conteudo}</h{n}>')
@@ -389,7 +396,7 @@ def corpo_html(md: str, prefixo_id: str = "") -> tuple[str, int]:
             # O primeiro segmento já perdeu o prefixo de citação/lista acima.
             partes = [corpo] + segmentos[1:]
             # Etiqueta escrita vence detecção: o que o autor declarou não se discute.
-            lang, direcao = (lang_marcado, dir_marcado) if lang_marcado else idioma_da_linha(" ".join(partes))
+            lang, direcao = (lang_marcado, dir_marcado) if lang_marcado else idioma_da_linha(" ".join(partes), lang_doc)
             attr_lang = f' lang="{lang}"' if lang else ""
             attr_dir = ' dir="rtl"' if direcao == "rtl" else ""
             miolo = "<br>".join(inline(p, marcadores) for p in partes if p)
@@ -398,7 +405,7 @@ def corpo_html(md: str, prefixo_id: str = "") -> tuple[str, int]:
             )
             continue
 
-        lang, direcao = (lang_marcado, dir_marcado) if lang_marcado else idioma_da_linha(corpo)
+        lang, direcao = (lang_marcado, dir_marcado) if lang_marcado else idioma_da_linha(corpo, lang_doc)
         attr_lang = f' lang="{lang}"' if lang else ""
         attr_dir = ' dir="rtl"' if direcao == "rtl" else ""
         saida.append(
@@ -415,6 +422,12 @@ ROTULOS = [
     ("editor", "Editor"),
     ("base_edition", "Edição de base"),
     ("language", "Idioma"),
+    # TRECHOS NOUTRA LINGUA. Um livro pode estar quase todo numa lingua e
+    # trazer capitulos inteiros noutra: Daniel 2:4b-7:28 e Esdras 4:8-6:18 e
+    # 7:12-26 sao ARAMAICO dentro da Biblia Hebraica. O campo `language` diz a
+    # lingua da obra; este diz onde ela deixa de valer. Formato: o codigo
+    # primeiro (maquina), a referencia depois (gente).
+    ("language_also", "Trechos noutra língua"),
     ("year_original", "Ano do original"),
     ("publisher", "Editora"),
     ("reference_system", "Sistema de referência"),
@@ -867,11 +880,20 @@ def paginas_de_parte_antiga(partes, slug: str, titulo: str, raiz_corpus: Path, s
     return escritas
 
 
+def lang_do_documento(meta: dict) -> str:
+    """BCP 47 do `language:` da obra, sem relatar desconhecido (isso é papel
+    do idioma_bcp47, que conta cada obra uma vez só)."""
+    bruto = meta.get("language")
+    if isinstance(bruto, list):
+        bruto = bruto[0] if bruto else ""
+    return IDIOMAS_BCP47.get(str(bruto or "").strip().split("/")[0].strip().lower(), "")
+
+
 def corpo_da_obra(md: str, meta: dict, raiz_corpus: Path, slug: str) -> tuple[str, int]:
     """O corpo HTML exatamente como vai ao ar — com colofão e apelidos. O
     portão (scripts/acervo/portao_acervo.py) usa esta mesma função para saber
     que partes existem: dois cálculos do mesmo fato divergem."""
-    corpo, n_head = corpo_html(md)
+    corpo, n_head = corpo_html(md, lang_doc=lang_do_documento(meta))
     # Colofão (D23): a assinatura da edição mora no front matter e sai no fim,
     # com o risco vertical da citação — nunca escrita no texto com ">".
     if meta.get("colophon"):
@@ -946,6 +968,8 @@ def gerar_obra(entrada: dict, raiz_corpus: Path, template: str, saida: Path, css
         # a abreviatura é por OBRA, não global: cada tradução tem a sua
         # ("1Cor" na Almeida, "1Co" alhures) e é ela que forma a âncora
         "abrev": meta.get("abbrev") or meta.get("abrev", ""),
+        # os trechos noutra lingua, para o indice-raiz poder conta-los
+        "language_also": meta.get("language_also", ""),
         # estantes extras onde a obra também deve ser encontrada — ver
         # gerar_indice(). O arquivo continua morando num lugar só.
         "tambem_em": entrada.get("tambem_em") or [],
@@ -1743,6 +1767,19 @@ def gerar_indice(fichas: list[dict], saida: Path, colecoes: list[dict],
     frase_idiomas = ", ".join(
         f"{NOMES_IDIOMA.get(cod, cod)} ({n})" for cod, n in idiomas.most_common()
     )
+    # AS LINGUAS QUE MORAM DENTRO DE OUTRAS. O censo conta uma lingua por
+    # obra, e por isso o aramaico nao aparecia em lugar nenhum: ele nao tem
+    # obra propria no acervo, tem CAPITULOS dentro de livros hebraicos. Um
+    # idioma que o acervo tem e nao cita e um idioma que ninguem acha.
+    outras = Counter()
+    for f in fichas:
+        cod = (f.get("language_also") or "").split()[:1]
+        if cod:
+            outras[cod[0]] += 1
+    frase_outras = ", ".join(
+        f"{NOMES_IDIOMA.get(c, c)} ({k} obra{'s' if k > 1 else ''})"
+        for c, k in outras.most_common()
+    )
     n_abrev = len({f["abrev"] for f in fichas if f.get("abrev")})
     if catalogo_path and catalogo_path.exists():
         kb = catalogo_path.stat().st_size / 1024
@@ -1756,7 +1793,11 @@ def gerar_indice(fichas: list[dict], saida: Path, colecoes: list[dict],
     linhas = cabeca("Rolos")
     linhas.append("<h1>Rolos — Pedra Angular</h1>")
     linhas.append(
-        f"<p>{total} obras em {frase_idiomas}. Cada obra é um arquivo "
+        f"<p>{total} obras em {frase_idiomas}."
+        + (f" Dentro delas há trechos em {frase_outras}: capítulos inteiros "
+           "que mudam de língua no meio do livro, declarados na ficha de cada "
+           "obra." if frase_outras else "")
+        + " Cada obra é um arquivo "
         "estático com o texto escrito no corpo da página: legível sem JavaScript, por "
         "humano, por navegador e por qualquer ferramenta que só busque a URL.</p>"
     )

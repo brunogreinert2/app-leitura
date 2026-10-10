@@ -1,15 +1,23 @@
 // MOTOR DO ECOSSISTEMA — cópia gerada, NÃO EDITE AQUI.
 // Fonte: C:\Claude\parser\motor\remarkHebrew.ts
 // Para mudar: edite a fonte e rode `npm run espalhar` em C:\Claude\parser.
-// sha256: ed18b9560f3787d25bf68696ddd5bf0e5d82175106b67c598edecf32ca6e61b4
-import { visit } from 'unist-util-visit'
-import type { Root, Text, PhrasingContent } from 'mdast'
+// sha256: 9e4e2fbcfd51e0003b3755efb324a61e24d643f9d2a2d4ca90d68b6f288ecba8
+import type { Root, Text, Parent, PhrasingContent } from 'mdast'
+import { escritaDoCabecalho } from './idioma'
 
 /**
  * Runs de texto hebraico viram <span class="hebrew" dir="rtl">, isolados
  * pelo algoritmo bidi: o hebraico corre corretamente da direita para a
  * esquerda DENTRO do run, mas o parágrafo (número do versículo, layout)
  * permanece da esquerda para a direita — requisito do interlinear.
+ *
+ * A ESCRITA É UMA, AS LÍNGUAS SÃO DUAS. O alfabeto quadrado escreve hebraico e
+ * aramaico, e a faixa Unicode não os separa. O `lang` do run vem, nesta ordem:
+ *   1. da etiqueta do bloco (`^arc`, `^heb` — remarkIdiomaAncora, que roda antes);
+ *   2. do cabeçalho do arquivo (`language: arc`, em `file.data.meta`);
+ *   3. na falta dos dois, `he`.
+ * Sem isto um Targum inteiro, ou Daniel 2–7 dentro da Bíblia Hebraica, saía
+ * dizendo ao leitor de tela que era hebraico.
  */
 /* Bloco hebraico + formas de apresentação; espaços permitidos entre
    caracteres hebraicos dentro do mesmo run.
@@ -28,32 +36,51 @@ const HEBREW_RUN_RE = new RegExp(
   'g',
 )
 
+type LinguaQuadrada = 'he' | 'arc'
+
+function linguaDoBloco(no: Parent, herdada: LinguaQuadrada): LinguaQuadrada {
+  const lang = (no.data as { hProperties?: { lang?: unknown } } | undefined)?.hProperties?.lang
+  return lang === 'arc' || lang === 'he' ? lang : herdada
+}
+
+function marcar(no: Parent, herdada: LinguaQuadrada) {
+  const lingua = linguaDoBloco(no, herdada)
+  for (let i = 0; i < no.children.length; i++) {
+    const filho = no.children[i]
+    if (filho.type !== 'text') {
+      if ('children' in filho) marcar(filho as Parent, lingua)
+      continue
+    }
+    const node = filho as Text
+    HEBREW_RUN_RE.lastIndex = 0
+    if (!HEBREW_RUN_RE.test(node.value)) continue
+
+    const parts: PhrasingContent[] = []
+    let last = 0
+    HEBREW_RUN_RE.lastIndex = 0
+    for (const m of node.value.matchAll(HEBREW_RUN_RE)) {
+      if (m.index > last) parts.push({ type: 'text', value: node.value.slice(last, m.index) })
+      parts.push({
+        type: 'hebrewRun',
+        data: {
+          hName: 'span',
+          hProperties: { className: ['hebrew'], lang: lingua, dir: 'rtl' },
+          hChildren: [{ type: 'text', value: m[0] }],
+        },
+      } as unknown as PhrasingContent)
+      last = m.index + m[0].length
+    }
+    if (last < node.value.length) parts.push({ type: 'text', value: node.value.slice(last) })
+
+    no.children.splice(i, 1, ...parts)
+    i += parts.length - 1
+  }
+}
+
 export function remarkHebrew() {
-  return (tree: Root) => {
-    visit(tree, 'text', (node: Text, index, parent) => {
-      if (!parent || index === undefined) return
-      HEBREW_RUN_RE.lastIndex = 0
-      if (!HEBREW_RUN_RE.test(node.value)) return
-
-      const parts: PhrasingContent[] = []
-      let last = 0
-      HEBREW_RUN_RE.lastIndex = 0
-      for (const m of node.value.matchAll(HEBREW_RUN_RE)) {
-        if (m.index > last) parts.push({ type: 'text', value: node.value.slice(last, m.index) })
-        parts.push({
-          type: 'hebrewRun',
-          data: {
-            hName: 'span',
-            hProperties: { className: ['hebrew'], lang: 'he', dir: 'rtl' },
-            hChildren: [{ type: 'text', value: m[0] }],
-          },
-        } as unknown as PhrasingContent)
-        last = m.index + m[0].length
-      }
-      if (last < node.value.length) parts.push({ type: 'text', value: node.value.slice(last) })
-
-      parent.children.splice(index, 1, ...parts)
-      return index + parts.length
-    })
+  return (tree: Root, file?: { data?: unknown }) => {
+    const meta = (file?.data as { meta?: { language?: unknown } } | undefined)?.meta
+    const doArquivo = escritaDoCabecalho(meta?.language) === 'arc' ? 'arc' : 'he'
+    marcar(tree as unknown as Parent, doArquivo)
   }
 }

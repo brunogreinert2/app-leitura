@@ -1,5 +1,6 @@
 import type { HeadingInfo } from './markdown'
 import { ANCHOR_RE } from '../motor/remarkBlockAnchors'
+import { semEtiquetaDeIdioma } from '../motor/remarkIdiomaAncora'
 
 /**
  * As âncoras de bloco (^gn-1-1) são endereço, não texto — na tela elas
@@ -10,7 +11,8 @@ import { ANCHOR_RE } from '../motor/remarkBlockAnchors'
 function stripAnchors(text: string): string {
   return text
     .split('\n')
-    .map((line) => line.replace(ANCHOR_RE, ''))
+    // a etiqueta de idioma sai primeiro: `texto ^dn-2-5 ^arc` tem as duas (N76)
+    .map((line) => semEtiquetaDeIdioma(line).replace(ANCHOR_RE, ''))
     .join('\n')
 }
 

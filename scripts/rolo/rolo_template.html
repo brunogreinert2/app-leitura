@@ -574,7 +574,8 @@ let fila=[],idx=0,lendo=false;
    lang= pelo gerador). Latim não tem voz em sistema nenhum: o italiano é a
    aproximação viva mais próxima da pronúncia eclesiástica — mesma escolha do
    app, em src/lib/idioma.ts. */
-const VOZ_DE={'pt-BR':'pt-BR','en':'en-US','la':'it-IT','grc':'el-GR','he':'he-IL','ru':'ru-RU'};
+/* Aramaico tambem nao tem voz: a hebraica le a mesma escrita e a mesma vocalizacao. */
+const VOZ_DE={'pt-BR':'pt-BR','en':'en-US','la':'it-IT','grc':'el-GR','he':'he-IL','arc':'he-IL','ru':'ru-RU'};
 function coletar(no,out){
   /* Carrega o lang junto com o texto: sem ele a etiqueta de idioma marcaria o
      HTML mas não trocaria a voz, e a linha em inglês sairia com sotaque
