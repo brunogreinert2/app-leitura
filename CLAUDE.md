@@ -126,6 +126,12 @@ Os ◐ são pendentes conhecidos, cada um com o motivo no próprio caso.
   ecossistema (NORMAS N7, versão 3, 2026-09-30). O app ainda não desenha imagem
   (`{{img:id}}`, `![]()`): é trabalho a fazer, não proibição.
   Fora da norma: tabela, `==realce==`, HTML/XML, `null`.
+- **A marca de página `<!-- pa:pagina N -->` passa no portão (2026-10-13):** é o
+  molde do ecossistema para a página da edição de origem — o Conversor e o
+  Corretor a escrevem, o Gerador a desenha como `[p. 01]`. Vem sozinha na linha,
+  no meio do parágrafo ou colada na palavra (`pala<!-- pa:pagina 02 -->vra`): é o
+  ponto exato da virada. O motor e o rolo não a mostram. É a única exceção da
+  regra C02; qualquer outro comentário ou tag continua barrado.
 - **Nunca** publicar texto das publicações das Testemunhas de Jeová (decisão do Διαφορεύς;
   a ficha antiga do personagem Davi foi retirada por isso em 2026-09-30).
 - **Marcador canônico:** `MARKER_RE` (src/motor/remarkMarkers.ts, cópia do motor cuja

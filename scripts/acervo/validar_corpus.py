@@ -61,7 +61,12 @@ REGRAS_LINHA = [
     # "null[ificamine]" e suplemento de editor em latim, nao vazamento; "null and
     # void" e a expressao inglesa (Plutarco de Perrin, Leis de Bury)
     ("C01-null", "erro", "literal null no texto", re.compile(r"\bnull\b(?!\[)(?!\s+and\s+void)")),
-    ("C02-xml", "erro", "tag ou entidade XML/HTML", re.compile(r"<[A-Za-z/!][^>\n]*>|&(?:[a-z]+|#\d+);")),
+    # A marca de página `<!-- pa:pagina N -->` é a única marcação que passa
+    # (Διαφορεύς, 2026-10-13): é o bilhete do extrator que o Conversor e o
+    # Corretor escrevem, o Gerador desenha na margem e o rolo e o motor não
+    # mostram. Sem ela a paginação da edição de origem se perde no acervo.
+    ("C02-xml", "erro", "tag ou entidade XML/HTML",
+     re.compile(r"<(?!!-- pa:pagina \d+ -->)[A-Za-z/!][^>\n]*>|&(?:[a-z]+|#\d+);")),
     ("C06-tabela", "erro", "tabela | (fora da sintaxe do acervo)", re.compile(r"^\s*\|.*\|\s*$")),
     ("C07-realce", "erro", "==realce== (fora da sintaxe do acervo)", re.compile(r"==[^=\n]+==")),
     # [217] [217a] ou o mesmo marcador duas vezes seguidas: o defeito do Sofista de Fowler

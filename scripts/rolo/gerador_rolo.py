@@ -280,6 +280,11 @@ def atributo(valor: str) -> str:
     return html.escape(valor, quote=True)
 
 # ---------------------------------------------------------------- markdown -> corpo HTML
+RX_SO_COMENTARIO = re.compile(r"<!--.*?-->", re.S)
+RX_MARCA_PAGINA_COLADA = re.compile(r"(?<=\S)<!-- pa:pagina \d+ -->(?=\S)")
+RX_MARCA_PAGINA_SOLTA = re.compile(r"\s*<!-- pa:pagina \d+ -->\s*")
+
+
 def blocos_logicos(md: str) -> list[list[str]]:
     """Agrupa as linhas físicas em blocos lógicos.
 
@@ -331,6 +336,18 @@ def corpo_html(md: str, prefixo_id: str = "", lang_doc: str = "") -> tuple[str, 
 
     for bloco in blocos_logicos(md):
         segmentos = [l.rstrip() for l in bloco]
+        # A marca de página do Corretor (`<!-- pa:pagina N -->`) também vem NO
+        # MEIO do parágrafo, no ponto exato da virada — até dentro da palavra
+        # (`estran<!-- pa:pagina 02 -->geiro`). Sozinha na linha ela já era
+        # pulada logo abaixo; no meio, o inline() a escapava e ela saía escrita
+        # no texto. O motor do app já a esconde (tortura, caso 52b).
+        # Só a linha que TEM a marca é tocada: o resto do acervo sai byte a byte
+        # como saía (conferido nos 1158 rolos).
+        segmentos = [
+            s if "<!-- pa:pagina" not in s or RX_SO_COMENTARIO.fullmatch(s.strip())
+            else RX_MARCA_PAGINA_SOLTA.sub(" ", RX_MARCA_PAGINA_COLADA.sub("", s)).strip()
+            for s in segmentos
+        ]
         crua = segmentos[0]
 
         # A etiqueta de idioma sai ANTES da âncora de endereço: as duas fecham o
