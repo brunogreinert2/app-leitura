@@ -452,6 +452,9 @@ ester-grc-lxx-swe
 eusebio-de-cesareia-tlg002-grc-kirsopp-lake-1926-1932
 exodo-grc-lxx-swe
 ezequiel-grc-lxx-swe
+ferreira-manual-do-cidadao-pt-1834-v01
+ferreira-manual-do-cidadao-pt-1834-v02
+ferreira-manual-do-cidadao-pt-1834-v03
 genesis-grc-lxx-swe
 habacuque-grc-lxx-swe
 hermas-the-shepherd-of-hermas-eng-kirsopp-lake-1913
