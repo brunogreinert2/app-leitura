@@ -1,4 +1,6 @@
-import { defineConfig, type Plugin } from 'vite'
+import { realpathSync } from 'node:fs'
+import { fileURLToPath } from 'node:url'
+import { defineConfig, searchForWorkspaceRoot, type Plugin } from 'vite'
 import react from '@vitejs/plugin-react'
 import { VitePWA } from 'vite-plugin-pwa'
 
@@ -41,6 +43,34 @@ export default defineConfig({
   // No dev, o pré-empacotamento de dependências não passa pelos plugins:
   // o temml fica de fora dele para receber o conserto acima.
   optimizeDeps: { exclude: ['temml'] },
+  // O WORKER TEM LINHA DE MONTAGEM PRÓPRIA, e ela não herda `plugins`. O de
+  // títulos (src/lib/titulos.worker.ts) carrega o motor inteiro, temml junto:
+  // sem repetir o conserto aqui, o pacote do worker sairia com a surrogata
+  // estragada — o sumário do editor leria fórmula em título diferente do
+  // leitor, e a guarda do deploy (conferir-surrogatas) barraria a publicação.
+  worker: { plugins: () => [temmlSemSurrogataSolta()] },
+  // E O WORKER NÃO TEM `document`. A biblioteca que traduz entidades HTML
+  // (&amp;, &nbsp;…), usada pelo leitor de Markdown, tem duas versões: a "de
+  // navegador" cria um elemento na página para o navegador traduzir por ela, e
+  // quebrava o worker no carregamento ("document is not defined"); a outra é
+  // uma tabela pura. Aponta-se para a tabela em todo lugar — é a mesma que
+  // roda no Node, ou seja, a que a tortura do parser já testa.
+  resolve: {
+    alias: {
+      'decode-named-character-reference': fileURLToPath(
+        new URL('./node_modules/decode-named-character-reference/index.js', import.meta.url),
+      ),
+    },
+  },
+  // No dev, a pasta do projeto pode ser alcançada por um atalho (aqui,
+  // C:\Claude\app-leitura aponta para a pasta real). O Vite resolve os módulos
+  // pelo caminho REAL e só serve o que está sob a raiz por onde foi aberto: o
+  // arquivo do worker, pedido direto pelo navegador, voltava 403 e a conta
+  // dos títulos caía para a linha principal. Liberar também o caminho real
+  // conserta — e não muda nada para quem abre o projeto sem atalho.
+  server: {
+    fs: { allow: [searchForWorkspaceRoot(process.cwd()), realpathSync(process.cwd())] },
+  },
   plugins: [
     temmlSemSurrogataSolta(),
     react(),

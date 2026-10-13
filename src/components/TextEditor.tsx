@@ -1,7 +1,10 @@
-import { useEffect, useRef, useState, type KeyboardEvent } from 'react'
+import { useEffect, useMemo, useRef, useState, type KeyboardEvent } from 'react'
 import { useDialogoAcessivel } from '../lib/useDialogoAcessivel'
+import type { HeadingInfo } from '../lib/titulos'
+import { pedirTitulos, dispensarTitulos } from '../lib/pedirTitulos'
 import { useT } from './idiomaContext'
-import { EditorLocalizar } from './EditorLocalizar'
+import { EditorLocalizar, topoDoPonto } from './EditorLocalizar'
+import { Sidebar } from './Sidebar'
 
 interface Props {
   open: boolean
@@ -10,7 +13,22 @@ interface Props {
   /** Título inicial (edição) ou vazio (texto novo). */
   initialTitle: string
   initialContent: string
-  onSave: (titulo: string, conteudo: string) => void
+  /**
+   * Linha do arquivo (1-based) em que o editor abre: o parágrafo que estava
+   * na tela ao tocar em Editar. Sem ela (texto novo), abre no começo.
+   */
+  linhaInicial?: number
+  /**
+   * Os títulos que a leitura já tinha deste mesmo texto, com a linha do
+   * arquivo. Enquanto nada for digitado, o sumário do editor é este — sem
+   * passar o texto pelo motor de novo.
+   */
+  titulosIniciais?: HeadingInfo[]
+  /** `linha` = onde estava o cursor, para a leitura voltar ao mesmo ponto. */
+  onSave: (titulo: string, conteudo: string, linha: number) => void
+  /** O mesmo alfinete do sumário da leitura: fixado lá, fixado aqui. */
+  sumarioFixo?: boolean
+  onAlternarSumarioFixo?: () => void
   /** Título derivado do que foi colado (front matter). Ver App.sugerirTitulo. */
   sugerirTitulo?: (conteudo: string) => string | null
   onCancel: () => void
@@ -52,6 +70,24 @@ function clearDraft() {
   }
 }
 
+/** Onde começa a linha `linha` (1-based). Passou do fim do texto: o fim. */
+function inicioDaLinha(texto: string, linha: number): number {
+  let pos = 0
+  for (let n = 1; n < linha; n++) {
+    const quebra = texto.indexOf('\n', pos)
+    if (quebra === -1) return texto.length
+    pos = quebra + 1
+  }
+  return pos
+}
+
+/** Em que linha (1-based) cai o ponto `pos`. */
+function linhaDoPonto(texto: string, pos: number): number {
+  let n = 1
+  for (let i = texto.indexOf('\n'); i !== -1 && i < pos; i = texto.indexOf('\n', i + 1)) n++
+  return n
+}
+
 /** `- `, `* `, `+ ` ou `3. `, com checklist opcional (`[ ]`/`[x]`) logo depois. */
 const LIST_RE = /^(\s*)([-*+]|\d+\.)(\s+)(\[[ xX]\]\s+)?(.*)$/
 
@@ -65,15 +101,24 @@ const LIST_RE = /^(\s*)([-*+]|\d+\.)(\s+)(\[[ xX]\]\s+)?(.*)$/
  * sobrevive a fechar sem salvar (autosave local); Enter numa lista
  * continua o marcador (vazio sai da lista); Ctrl+B/I/K envolvem a
  * seleção sem tirar a mão do teclado.
+ *
+ * E o Ξ, que a leitura tem e o editor não tinha: num texto longo, sem
+ * sumário só se chegava ao capítulo certo rolando. É o mesmo painel da
+ * leitura, com os títulos do texto COMO ESTÁ SENDO ESCRITO — um capítulo
+ * recém-digitado aparece nele antes de salvar.
  */
 export function TextEditor({
   open,
   fileId,
   initialTitle,
   initialContent,
+  linhaInicial,
+  titulosIniciais,
   onSave,
   onCancel,
   sugerirTitulo,
+  sumarioFixo,
+  onAlternarSumarioFixo,
 }: Props) {
   const t = useT()
   const caixaRef = useRef<HTMLDivElement>(null)
@@ -85,9 +130,46 @@ export function TextEditor({
   const draftTimer = useRef<number | undefined>(undefined)
   // null = fechada; false = só localizar (Ctrl+F); true = com substituir (Ctrl+H)
   const [localizar, setLocalizar] = useState<boolean | null>(null)
+  const [sumarioAberto, setSumarioAberto] = useState(false)
+  const sumarioVisivel = sumarioAberto || !!sumarioFixo
+  const [titulos, setTitulos] = useState<HeadingInfo[]>([])
+  // O texto de que `titulos` saiu: evita refazer a conta para o mesmo texto.
+  // null = ainda não há lista nenhuma (o painel diz "carregando", não "vazio").
+  const titulosDe = useRef<string | null>(null)
+  const sumarioJaVisivel = useRef(false)
+  // Uma conta por vez: num livro grande ela leva segundos, e empilhar um
+  // pedido a cada pausa faria o sumário chegar atrasado várias contas.
+  const calculando = useRef(false)
+  // Cada abertura do editor é uma sessão: resposta de sessão antiga é lixo.
+  const sessao = useRef(0)
+  const [rodada, setRodada] = useState(0)
+  const [linhaDoCursor, setLinhaDoCursor] = useState(1)
+
+  /**
+   * Cursor no começo da linha, e a linha no alto da caixa.
+   *
+   * As duas coisas, sempre juntas e sempre ditas: um textarea não rola
+   * sozinho até o cursor, e onde o navegador deixa o cursor depende de COMO
+   * o texto chegou à caixa — foi o que fazia o editor abrir no fim do
+   * arquivo na primeira vez e no começo nas seguintes.
+   */
+  const irParaLinha = (linha: number) => {
+    const area = areaRef.current
+    if (!area) return
+    const pos = inicioDaLinha(area.value, linha)
+    area.focus({ preventScroll: true })
+    area.setSelectionRange(pos, pos)
+    area.scrollTop = topoDoPonto(area, pos)
+    setLinhaDoCursor(linhaDoPonto(area.value, pos))
+  }
 
   useEffect(() => {
     if (!open) return
+    setSumarioAberto(false)
+    setTitulos([])
+    titulosDe.current = null
+    calculando.current = false
+    sessao.current++
     const target = fileId ?? 'novo'
     draftTargetRef.current = target
     // Rascunho sobrevive a fechar sem salvar (crash, aba fechada por engano) —
@@ -99,10 +181,68 @@ export function TextEditor({
     } else {
       setTitulo(initialTitle)
       setConteudo(initialContent)
+      // Texto igual ao que a leitura mostrava: os títulos dela servem.
+      if (titulosIniciais?.length) {
+        setTitulos(titulosIniciais)
+        titulosDe.current = initialContent
+      }
     }
-    window.setTimeout(() => areaRef.current?.focus(), 100)
+    window.setTimeout(() => irParaLinha(linhaInicial ?? 1), 100)
     // eslint-disable-next-line react-hooks/exhaustive-deps
   }, [open, initialTitle, initialContent, fileId])
+
+  /**
+   * Os títulos do sumário, tirados do texto em edição.
+   *
+   * Só com o painel à vista — fechado, não há para quem calcular. Ao abrir, na
+   * hora; depois, meio segundo após a última tecla. A conta em si corre num
+   * worker (pedirTitulos): medido, são 3,6 s num livro de 1 MB, e na linha
+   * principal a caixa de texto congelaria esse tempo a cada pausa.
+   */
+  useEffect(() => {
+    if (!open || !sumarioVisivel) {
+      sumarioJaVisivel.current = false
+      return
+    }
+    const espera = sumarioJaVisivel.current ? 500 : 0
+    sumarioJaVisivel.current = true
+    const area = areaRef.current
+    if (area) setLinhaDoCursor(linhaDoPonto(area.value, area.selectionStart))
+    if (titulosDe.current === conteudo || calculando.current) return
+    const id = window.setTimeout(() => {
+      const estaSessao = sessao.current
+      calculando.current = true
+      void pedirTitulos(conteudo).then((lista) => {
+        if (sessao.current !== estaSessao) return
+        calculando.current = false
+        titulosDe.current = conteudo
+        setTitulos(lista)
+        // O texto pode ter mudado enquanto a conta corria: confere de novo.
+        setRodada((n) => n + 1)
+      })
+    }, espera)
+    return () => window.clearTimeout(id)
+  }, [open, sumarioVisivel, conteudo, rodada])
+
+  // Editor fechado, worker dispensado — e a conta em curso morre com ele.
+  useEffect(() => {
+    if (!open) return
+    return () => {
+      sessao.current++
+      dispensarTitulos()
+    }
+  }, [open])
+
+  // A seção onde o CURSOR está: o último título antes dele.
+  const secaoDoCursor = useMemo(() => {
+    let atual: string | undefined
+    for (const h of titulos) {
+      if (h.line === undefined) continue
+      if (h.line > linhaDoCursor) break
+      atual = h.id
+    }
+    return atual
+  }, [titulos, linhaDoCursor])
 
   /**
    * Ctrl+F e Ctrl+H enquanto o editor está aberto.
@@ -156,7 +296,8 @@ export function TextEditor({
       sugerirTitulo?.(conteudo) ||
       t('editor.textoDe', { data: new Date().toLocaleDateString() })
     clearDraft()
-    onSave(nome, conteudo)
+    const area = areaRef.current
+    onSave(nome, conteudo, area ? linhaDoPonto(area.value, area.selectionStart) : 1)
   }
 
   /** Cola a área de transferência na posição do cursor. */
@@ -266,7 +407,7 @@ export function TextEditor({
 
   return (
     <div
-      className="editor-overlay"
+      className={`editor-overlay${sumarioFixo ? ' editor-sumario-fixo' : ''}`}
       role="dialog"
       aria-modal="true"
       aria-label={t('editor')}
@@ -285,6 +426,14 @@ export function TextEditor({
         />
         <button className="editor-save" onClick={save} disabled={!conteudo.trim()}>
           {t('editor.salvar')}
+        </button>
+        {/* O mesmo Ξ, no mesmo canto da barra de leitura: última coisa à direita. */}
+        <button
+          className="toc-button phi-button"
+          onClick={() => setSumarioAberto(true)}
+          aria-label={t('sumario.abrir')}
+        >
+          Ξ
         </button>
       </header>
       <EditorLocalizar
@@ -309,8 +458,47 @@ export function TextEditor({
         value={conteudo}
         onChange={(e) => setConteudo(e.target.value)}
         onKeyDown={onKeyDown}
+        // Só com o sumário à vista: é para ele que a linha do cursor importa.
+        onSelect={(e) => {
+          if (!sumarioVisivel) return
+          const area = e.currentTarget
+          setLinhaDoCursor(linhaDoPonto(area.value, area.selectionStart))
+        }}
         placeholder={t('editor.dica')}
       />
+      {/* Esc com o sumário aberto fecha O SUMÁRIO. Sem parar o evento aqui ele
+          chegaria também ao ouvinte do editor, que leria como "cancelar a
+          edição" — e perguntaria se é para descartar o texto. */}
+      <div
+        onKeyDown={(e) => {
+          if (e.key !== 'Escape' || !sumarioAberto || sumarioFixo) return
+          e.preventDefault()
+          e.stopPropagation()
+          setSumarioAberto(false)
+        }}
+      >
+        <Sidebar
+          headings={titulos}
+          names={[]}
+          vazio={t(titulosDe.current === null ? 'detalhes.carregando' : 'editor.semTitulos')}
+          open={sumarioVisivel}
+          fixo={sumarioFixo}
+          onAlternarFixo={onAlternarSumarioFixo}
+          onClose={() => {
+            if (sumarioFixo) onAlternarSumarioFixo?.()
+            setSumarioAberto(false)
+          }}
+          secaoAtual={secaoDoCursor}
+          onNavigate={(id) => {
+            const linha = titulos.find((h) => h.id === id)?.line
+            if (linha === undefined) return
+            // O foco vai para o texto ANTES de o painel fechar: senão o painel,
+            // ao sair, devolveria o foco ao Ξ e o cursor não estaria onde se pediu.
+            irParaLinha(linha)
+            if (!sumarioFixo) setSumarioAberto(false)
+          }}
+        />
+      </div>
     </div>
   )
 }

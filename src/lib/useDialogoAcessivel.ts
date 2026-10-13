@@ -49,8 +49,12 @@ export function useDialogoAcessivel(
     // De onde viemos, para poder devolver o foco no fim.
     const anterior = document.activeElement as HTMLElement | null
 
+    // `inert` fica de fora: um painel fechado DENTRO do diálogo (o sumário do
+    // editor) continua no DOM e com layout, mas não recebe foco. Contado como
+    // "último", o Tab nunca daria a volta — o último de verdade não bateria
+    // com ele, e o foco vazaria para a página atrás do diálogo.
     const focaveis = () => [...caixa.querySelectorAll<HTMLElement>(FOCAVEIS)].filter(
-      (e) => e.offsetParent !== null,
+      (e) => e.offsetParent !== null && !e.closest('[inert]'),
     )
 
     // O primeiro item, não a caixa: quem chega quer agir, não ouvir o rótulo.

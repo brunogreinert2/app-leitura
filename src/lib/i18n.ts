@@ -245,6 +245,7 @@ const PT = {
   'editor.ocorrenciaDe': '{i} de {n}',
   'editor.semOcorrencia': 'nenhuma ocorrência',
   'editor.descartar': 'Descartar o que foi digitado?',
+  'editor.semTitulos': 'Este texto ainda não tem títulos. Uma linha começada por # vira um item aqui.',
   'editor.colarBloqueado':
     'O navegador bloqueou a leitura da área de transferência. Toque na caixa de texto e cole (Ctrl+V ou segurar → Colar).',
   'editor.textoDe': 'Texto de {data}',
@@ -567,6 +568,7 @@ const EN: Record<Chave, string> = {
   'editor.ocorrenciaDe': '{i} of {n}',
   'editor.semOcorrencia': 'no matches',
   'editor.descartar': 'Discard what you typed?',
+  'editor.semTitulos': 'This text has no headings yet. A line starting with # becomes an entry here.',
   'editor.colarBloqueado':
     'The browser blocked reading the clipboard. Tap the text box and paste (Ctrl+V, or hold → Paste).',
   'editor.textoDe': 'Text from {data}',

@@ -78,18 +78,8 @@ interface Moldura {
   height: number
 }
 
-/**
- * Onde um trecho do textarea fica DE VERDADE, em pixels do conteúdo.
- *
- * Por que medir: com quebra automática, um parágrafo longo é UMA linha do
- * arquivo e vinte na tela. A conta antiga (proporção de linhas do arquivo)
- * caía centenas de pixels antes do alvo — medido: palavra no pixel 18034,
- * janela mostrando de 17094 a 17666. O espelho é um div invisível com a
- * mesma letra, a mesma largura e a mesma quebra; o navegador diagrama o
- * texto ali do mesmo jeito, e a posição do trecho é lida, não estimada.
- * Um retângulo por linha: a palavra pode quebrar no meio.
- */
-function medirTrecho(area: HTMLTextAreaElement, inicio: number, fim: number): Moldura[] {
+/** O div invisível que diagrama o texto como a caixa: mesma letra, largura e quebra. */
+function criarEspelho(area: HTMLTextAreaElement, ate: number): HTMLDivElement {
   const estilo = getComputedStyle(area)
   const espelho = document.createElement('div')
   for (const p of MOLDE) espelho.style.setProperty(p, estilo.getPropertyValue(p))
@@ -105,7 +95,43 @@ function medirTrecho(area: HTMLTextAreaElement, inicio: number, fim: number): Mo
     whiteSpace: area.wrap === 'off' ? 'pre' : 'pre-wrap',
     overflowWrap: 'break-word',
   })
-  espelho.textContent = area.value.slice(0, inicio)
+  espelho.textContent = area.value.slice(0, ate)
+  return espelho
+}
+
+/**
+ * A que altura do conteúdo fica o ponto `pos`, em pixels — o valor que,
+ * posto em `scrollTop`, deixa a linha dele no alto da caixa.
+ *
+ * É o mesmo espelho de medirTrecho, com uma marca de largura zero no lugar
+ * do trecho: o alvo aqui é um PONTO (o começo de uma linha, que pode estar
+ * vazia), e trecho vazio não tem retângulo para ler.
+ */
+export function topoDoPonto(area: HTMLTextAreaElement, pos: number): number {
+  const espelho = criarEspelho(area, pos)
+  const marca = document.createElement('span')
+  marca.textContent = '\u200b'
+  espelho.appendChild(marca)
+  document.body.appendChild(espelho)
+  const topo = marca.getBoundingClientRect().top - espelho.getBoundingClientRect().top
+  espelho.remove()
+  // O espelho copia o padding da caixa: descontado, a linha 1 dá zero.
+  return Math.max(0, topo - parseFloat(getComputedStyle(area).paddingTop))
+}
+
+/**
+ * Onde um trecho do textarea fica DE VERDADE, em pixels do conteúdo.
+ *
+ * Por que medir: com quebra automática, um parágrafo longo é UMA linha do
+ * arquivo e vinte na tela. A conta antiga (proporção de linhas do arquivo)
+ * caía centenas de pixels antes do alvo — medido: palavra no pixel 18034,
+ * janela mostrando de 17094 a 17666. O espelho é um div invisível com a
+ * mesma letra, a mesma largura e a mesma quebra; o navegador diagrama o
+ * texto ali do mesmo jeito, e a posição do trecho é lida, não estimada.
+ * Um retângulo por linha: a palavra pode quebrar no meio.
+ */
+function medirTrecho(area: HTMLTextAreaElement, inicio: number, fim: number): Moldura[] {
+  const espelho = criarEspelho(area, inicio)
   const trecho = document.createElement('span')
   trecho.textContent = area.value.slice(inicio, fim)
   espelho.appendChild(trecho)

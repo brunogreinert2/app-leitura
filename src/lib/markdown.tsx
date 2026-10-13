@@ -4,6 +4,7 @@ import type { ReactNode } from 'react'
 import type { Root as HastRoot } from 'hast'
 import type { Element as HastElement, ElementContent } from 'hast'
 import { splitFrontmatter, type BookMeta } from './frontmatter'
+import { collectHeadings, linhasAntesDoCorpo, type HeadingInfo } from './titulos'
 import { escritaDoCabecalho, type Escrita } from '../motor/idioma'
 import { criarProcessador, liftDeepHeadingMarkers, PREFIXO_NOTA_INLINE } from '../motor/processador'
 import { VFile } from 'vfile'
@@ -38,6 +39,12 @@ export interface ParsedBook {
    * o que o arquivo declara. Ver motor/idioma.ts.
    */
   escritaPadrao: Escrita
+  /**
+   * Quantas linhas o front matter ocupa no arquivo. `HeadingInfo.line` conta
+   * a partir do CORPO (é o que o motor enxerga); somando isto, vira a linha
+   * do arquivo — que é a que o editor mostra. Zero quando não há YAML.
+   */
+  linhaBase: number
 }
 
 export interface NameEntry {
@@ -45,77 +52,13 @@ export interface NameEntry {
   count: number
 }
 
-export interface HeadingInfo {
-  depth: number
-  text: string
-  id: string
-  /** Linha (1-based) do heading no markdown fonte. */
-  line?: number
-}
+// A lista de títulos mora em ./titulos (sem React, para rodar também fora
+// da linha principal). Reexportada aqui porque meio app importa deste arquivo.
+export type { HeadingInfo } from './titulos'
 
 // O formato inteiro vem do motor do ecossistema (src/motor, fonte em
 // C:\Claude\parser\motor). Aqui só o que é da tela: React, sumário, seções.
 const processor = criarProcessador()
-
-/** Texto plano de um nó hast (para títulos do sumário). */
-function hastText(node: unknown): string {
-  const n = node as { type?: string; value?: string; children?: unknown[] }
-  if (n.type === 'text') return n.value ?? ''
-  if (Array.isArray(n.children)) return n.children.map(hastText).join('')
-  return ''
-}
-
-function slugify(text: string, seen: Map<string, number>): string {
-  const base =
-    'h-' +
-    text
-      .toLowerCase()
-      .normalize('NFD')
-      .replace(/[̀-ͯ]/g, '')
-      .replace(/[^a-z0-9]+/g, '-')
-      .replace(/^-+|-+$/g, '')
-  const count = seen.get(base) ?? 0
-  seen.set(base, count + 1)
-  return count === 0 ? base : `${base}-${count}`
-}
-
-/**
- * Atribui ids aos headings (âncoras do sumário) e coleta a estrutura.
- * Ignora a seção de notas gerada pelo remark-rehype (id footnote-label).
- */
-function collectHeadings(tree: HastRoot): HeadingInfo[] {
-  const headings: HeadingInfo[] = []
-  const seen = new Map<string, number>()
-  for (const node of tree.children) {
-    // Sem teto de 6: CommonMark só permite até "######" na ATIX, mas
-    // remarkDeepHeadingDepth já reescreveu node.depth pra profundidade
-    // real antes daqui — "h7", "h12", "h48" chegam intactos.
-    if (node.type !== 'element' || !/^h[1-9]\d*$/.test(node.tagName)) continue
-    if (node.properties?.id === 'footnote-label') continue
-    const text = hastText(node)
-    const id = slugify(text, seen)
-    // .slice(1), não [1]: tagName[1] só pega 1 caractere e trunca
-    // profundidades de 2 dígitos ("h10" virava depth 1).
-    const depth = Number(node.tagName.slice(1))
-    const properties: Record<string, unknown> = {
-      ...node.properties,
-      id,
-      className: [...((node.properties?.className as string[]) ?? []), 'reading-heading'],
-    }
-    // HTML só tem h1-h6 de verdade; h7+ não existe e leitor de tela não
-    // reconhece como heading nenhum (CSS não depende do nome da tag,
-    // mas a árvore de acessibilidade depende). aria-level é o mecanismo
-    // ARIA pra sobrescrever o nível implícito — nestSections lê dali
-    // (não do tagName) pra manter a profundidade real no aninhamento.
-    if (depth > 6) {
-      node.tagName = 'h6'
-      properties.ariaLevel = depth
-    }
-    node.properties = properties as typeof node.properties
-    headings.push({ depth, text, id, line: node.position?.start.line })
-  }
-  return headings
-}
 
 /**
  * Agrupa o conteúdo em <section data-collapsible> aninhadas por heading
@@ -244,8 +187,29 @@ function collectNames(tree: HastRoot): NameEntry[] {
     .sort((a, b) => a.name.localeCompare(b.name, 'pt'))
 }
 
+/**
+ * Cada bloco do texto sabe em que linha do ARQUIVO nasceu (`data-linha`).
+ *
+ * É a ponte entre a leitura e a edição: a tela mostra parágrafos, o editor
+ * mostra linhas, e sem isto não havia como dizer ao editor "abra aqui, onde
+ * eu estava lendo" — ele abria no começo ou no fim, ao sabor do navegador.
+ * Só os blocos de primeiro nível: um parágrafo é precisão de sobra, e marcar
+ * cada palavra pesaria no DOM dos livros grandes sem ganho nenhum.
+ *
+ * Roda ANTES de nestSections, enquanto todo bloco ainda é filho da raiz.
+ */
+function marcarLinhas(tree: HastRoot, base: number): void {
+  for (const node of tree.children) {
+    if (node.type !== 'element') continue
+    const linha = node.position?.start.line
+    if (linha === undefined) continue
+    node.properties = { ...node.properties, dataLinha: linha + base }
+  }
+}
+
 export function parseBook(raw: string): ParsedBook {
   const { meta, content } = splitFrontmatter(raw)
+  const linhaBase = linhasAntesDoCorpo(raw, content)
   // O motor recebe o texto exato (a regra do cifrão olha o arquivo) e o
   // front matter (o {{img:id}} procura a imagem no `assets:`).
   const arquivo = new VFile({ value: liftDeepHeadingMarkers(content), data: { meta } })
@@ -254,6 +218,7 @@ export function parseBook(raw: string): ParsedBook {
   const headings = collectHeadings(hast)
   const names = collectNames(hast)
   labelFootnoteList(hast)
+  marcarLinhas(hast, linhaBase)
   nestSections(hast)
 
   const body = toJsxRuntime(hast, {
@@ -299,7 +264,7 @@ export function parseBook(raw: string): ParsedBook {
   })
 
   return { meta, body, headings, source: content, raw, names, bytes: new Blob([raw]).size,
-    escritaPadrao: escritaDoCabecalho(meta?.language) }
+    escritaPadrao: escritaDoCabecalho(meta?.language), linhaBase }
 }
 
 /**
@@ -309,13 +274,24 @@ export function parseBook(raw: string): ParsedBook {
  */
 export function parseTxt(raw: string): ParsedBook {
   const paragraphs = raw.split(/\r?\n\s*\r?\n/).filter((p) => p.trim())
+  // A linha de cada parágrafo, para o Editar abrir onde se lia (ver
+  // marcarLinhas). Os parágrafos são pedaços do próprio arquivo, em ordem:
+  // basta achar cada um a partir de onde o anterior terminou.
+  let cursor = 0
+  let linha = 1
+  const linhas = paragraphs.map((p) => {
+    const onde = raw.indexOf(p, cursor)
+    for (let i = raw.indexOf('\n', cursor); i !== -1 && i < onde; i = raw.indexOf('\n', i + 1)) linha++
+    cursor = onde
+    return linha
+  })
   const body = (
     <div className="txt-body">
       {paragraphs.map((p, i) => (
-        <p key={i}>{p}</p>
+        <p key={i} data-linha={linhas[i]}>{p}</p>
       ))}
     </div>
   )
   return { meta: null, body, headings: [], source: raw, raw, names: [], bytes: new Blob([raw]).size,
-    escritaPadrao: 'pt-BR' }
+    escritaPadrao: 'pt-BR', linhaBase: 0 }
 }

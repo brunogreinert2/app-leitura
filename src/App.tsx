@@ -39,6 +39,7 @@ import { useGuardarAparencia } from './lib/aparenciaInicial'
 import { useCicloDeRegioes } from './lib/useCicloDeRegioes'
 import { IdiomaContext } from './components/idiomaContext'
 import type { Catalog as CatalogData, CatalogEntry, PersonManifest } from './types'
+import type { HeadingInfo } from './lib/titulos'
 
 /** O app abre lendo: guia de boas-vindas como primeiro texto ativo. */
 /**
@@ -117,7 +118,13 @@ export function App() {
   const [localFiles, setLocalFiles] = useState<LocalFile[]>([])
   const [excluirAberto, setExcluirAberto] = useState(false)
   // Editor de textos próprios: null | novo | edição de um LocalFile
-  const [editor, setEditor] = useState<{ file: LocalFile | null } | null>(null)
+  const [editor, setEditor] = useState<{
+    file: LocalFile | null
+    linha?: number
+    titulos?: HeadingInfo[]
+  } | null>(null)
+  // Linha em que a leitura reabre depois de salvar no editor (consumida 1x)
+  const [linhaDeVolta, setLinhaDeVolta] = useState<number | undefined>(undefined)
   // Muda a key do Reader após salvar edição (re-parseia o conteúdo)
   const [bookVersion, setBookVersion] = useState(0)
   const { idioma, setIdioma, t } = useIdioma()
@@ -332,12 +339,14 @@ export function App() {
     window.setTimeout(() => setAvisoSoltura(null), 4000)
   })
 
-  const handleSaveText = (titulo: string, conteudo: string) => {
+  const handleSaveText = (titulo: string, conteudo: string, linha: number) => {
     const existingId = editor?.file?.id
     saveLocalText(titulo, conteudo, existingId)
       .then((file) => {
         if (existingId) invalidateBookCache(existingId)
         setEditor(null)
+        // Edição: a leitura volta ao ponto do cursor. Texto novo abre do começo.
+        setLinhaDeVolta(existingId ? linha : undefined)
         setBookVersion((v) => v + 1)
         // Abre o texto salvo para leitura imediata
         setStack([
@@ -349,10 +358,10 @@ export function App() {
       .catch(() => {})
   }
 
-  const handleEditLocal = () => {
+  const handleEditLocal = (linha?: number, titulos?: HeadingInfo[]) => {
     if (!book?.local) return
     getLocalFile(book.id).then((file) => {
-      if (file) setEditor({ file })
+      if (file) setEditor({ file, linha, titulos })
     })
   }
 
@@ -568,8 +577,12 @@ export function App() {
         fileId={editor?.file?.id ?? null}
         initialTitle={editor?.file?.titulo ?? ''}
         initialContent={editor?.file?.conteudo ?? ''}
+        linhaInicial={editor?.linha}
+        titulosIniciais={editor?.titulos}
         onSave={handleSaveText}
         onCancel={() => setEditor(null)}
+        sumarioFixo={sumarioFixo}
+        onAlternarSumarioFixo={telaLarga ? () => fixar('sumario') : undefined}
       />
       <ThemeDialog
         open={themeOpen}
@@ -596,6 +609,8 @@ export function App() {
           initialRef={book.id === stack[0]?.id && stack.length === 1 ? initialRef : undefined}
           trackAsLastBook={book.id !== WELCOME_ENTRY.id}
           onEditLocal={book.local ? handleEditLocal : undefined}
+          linhaInicial={linhaDeVolta}
+          onLinhaUsada={() => setLinhaDeVolta(undefined)}
           personRegistry={personRegistry}
           onBack={popBook}
           onOpenPerson={pushBook}

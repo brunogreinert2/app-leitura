@@ -1005,6 +1005,15 @@ button {
   opacity: 0.4;
 }
 
+/* O Ξ do editor é o mesmo da leitura, mas aqui quem dá a altura da barra é o
+   Salvar: com os 54px que tem lá, o Ξ engrossava esta barra em 8px. Fica com
+   os 44px do alvo de toque, e o respiro vertical vem da própria barra. */
+.editor-header .toc-button {
+  min-height: 2.75rem;
+  padding-top: 0;
+  padding-bottom: 0;
+}
+
 .editor-toolbar {
   padding: 0.5rem 0.75rem;
   border-bottom: 1px solid var(--color-border);
@@ -1227,6 +1236,12 @@ button {
     padding-right: min(20rem, 85vw);
   }
 
+  /* O editor cobre a tela inteira, e por isso não herda o padding do body:
+     com o sumário fixado, é ele mesmo que cede a faixa da direita. */
+  .editor-sumario-fixo {
+    right: min(20rem, 85vw);
+  }
+
   /* A barra do topo é sticky e vive no fluxo, então já anda com o padding do
      body. A caixa de nota inline é posicionada pelo .reader-body, que também
      andou. Nada mais precisa saber que o painel existe. */
@@ -1393,6 +1408,13 @@ button {
 
 .toc-title {
   padding: 0.25rem 0 0;
+}
+
+/* Sumário do editor num texto sem títulos: diz o que falta em vez de
+   mostrar um painel vazio. */
+.toc-vazio {
+  padding: 1rem 1.25rem;
+  color: var(--color-muted);
 }
 
 .toc-row {
@@ -2735,7 +2757,10 @@ button {
    apagar a letra por baixo. */
 .editor-localizar-moldura {
   position: fixed;
-  z-index: 71;
+  /* Dentro do editor, que já é uma camada própria: basta ficar acima do texto
+     e ABAIXO do sumário (véu 30, painel 40) — com 71 a moldura da palavra
+     achada aparecia desenhada por cima do sumário aberto. */
+  z-index: 20;
   pointer-events: none;
   outline: 2px solid var(--color-accent);
   outline-offset: 1px;

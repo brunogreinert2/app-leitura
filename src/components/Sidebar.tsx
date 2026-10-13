@@ -11,8 +11,11 @@ interface Props {
   names: NameEntry[]
   open: boolean
   onClose: () => void
-  onAppearance: () => void
-  onDetails: () => void
+  /** Ausentes no sumário do EDITOR, que só serve para andar pelo texto. */
+  onAppearance?: () => void
+  onDetails?: () => void
+  /** O que dizer quando o texto não tem título nenhum (só o editor usa). */
+  vazio?: string
   /** Fixar na bancada: só oferecido onde há espaço (ver useTelaLarga). */
   fixo?: boolean
   onAlternarFixo?: () => void
@@ -96,6 +99,7 @@ export function Sidebar({
   onEdit,
   onSelectName,
   secaoAtual,
+  vazio,
 }: Props) {
   /* Painel SOBREPOSTO se comporta como dialogo: o foco entra ao abrir, Esc
      fecha e o foco volta ao botao. Painel FIXADO nao: ali ele faz parte do
@@ -225,25 +229,29 @@ export function Sidebar({
           </button>
         </div>
 
-        <button className="appearance-button" onClick={onAppearance}>
-          <span aria-hidden="true">◐</span> {t('acao.aparencia')}
-        </button>
+        {onAppearance && (
+          <button className="appearance-button" onClick={onAppearance}>
+            <span aria-hidden="true">◐</span> {t('acao.aparencia')}
+          </button>
+        )}
 
         {/* UMA FAIXA POR PAR, e nao uma faixa com tudo dentro. Com os cinco
             botoes na mesma linha e `nowrap`, o sumario precisava de 547px num
             painel de 304px: a faixa rolava de lado e "COPIAR" saia cortado. */}
-        <div className="toc-actions">
-          {onCollapseAll && (
-            <button className="toc-action" onClick={onCollapseAll} aria-label={t('sumario.recolherTudo')}>
-              {t('acao.recolher')}
-            </button>
-          )}
-          {onExpandAll && (
-            <button className="toc-action" onClick={onExpandAll} aria-label={t('sumario.expandirTudo')}>
-              {t('acao.expandir')}
-            </button>
-          )}
-        </div>
+        {(onCollapseAll || onExpandAll) && (
+          <div className="toc-actions">
+            {onCollapseAll && (
+              <button className="toc-action" onClick={onCollapseAll} aria-label={t('sumario.recolherTudo')}>
+                {t('acao.recolher')}
+              </button>
+            )}
+            {onExpandAll && (
+              <button className="toc-action" onClick={onExpandAll} aria-label={t('sumario.expandirTudo')}>
+                {t('acao.expandir')}
+              </button>
+            )}
+          </div>
+        )}
 
         {(onCopy || onDownload) && (
           <div className="toc-actions">
@@ -260,15 +268,17 @@ export function Sidebar({
           </div>
         )}
 
-        <div className="toc-actions">
-          <button
-            className="toc-action toc-action-larga toc-action-destaque"
-            onClick={onDetails}
-            aria-label={t('sumario.detalhes')}
-          >
-            {t('acao.detalhes')}
-          </button>
-        </div>
+        {onDetails && (
+          <div className="toc-actions">
+            <button
+              className="toc-action toc-action-larga toc-action-destaque"
+              onClick={onDetails}
+              aria-label={t('sumario.detalhes')}
+            >
+              {t('acao.detalhes')}
+            </button>
+          </div>
+        )}
 
         {/* A faixa so existe quando ha o que editar. Vazia, ela continuava
             desenhando a propria borda de baixo, que somava com a da faixa do
@@ -286,6 +296,7 @@ export function Sidebar({
             do sumario a que pertence. Titulo e titulo: mora com os seus. */}
         <ul className="toc">
           {arvore.map(renderNo)}
+          {vazio && headings.length === 0 && <li className="toc-vazio">{vazio}</li>}
 
           {names.length > 0 && (
             <li>
