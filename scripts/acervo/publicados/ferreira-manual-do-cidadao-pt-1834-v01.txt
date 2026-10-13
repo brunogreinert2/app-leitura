@@ -333,6 +333,10 @@ nota-ref-98
 nota-ref-98-2
 nota-ref-99
 nota-ref-99-2
+nota-ref-pa1
+nota-ref-pa1-2
+nota-ref-pa2
+nota-ref-pa2-2
 parte:advertencia
 parte:notas-1
 parte:primeira-parte.decima-conferencia

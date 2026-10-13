@@ -58,9 +58,15 @@ POR SILVESTRE PINHEIRO FERREIRA.
 
 TOMO I. DIREITO CONSTITUCIONAL.
 
+Dr Bandeira de Mello [^pa1]
+
 PARIS. REY E GRAVIER, QUAI DES AUGUSTINS, N° 55. J. P. AILLAUD, QUAI VOLTAIRE, N° 11. 1834.
 
+V 341.2 P654 m 1834 [^pa2]
+
 <!-- pa:pagina 004 -->
+
+BIBLIOTECA DO SENADO FEDERAL Este volume acha-se registrado sob número 4.214 do ano de 1946
 
 <!-- pa:pagina 005 -->
 
@@ -4178,3 +4184,5 @@ FIM DO DIREITO CONSTITUCIONAL.
 [^164]: Droit publ., I, p. 413. — Proj. de l. organ., I, p. 16, art. 71-74; p. 137, art. 163, § 5; art. 974-1016; II, p. 452-470. — Proj. de ref., art. 1187-1192.
 [^165]: Droit publ., I, p. 222. — Proj. de l. organ., I, art. 442-450; II, p. 488. — Proj. de ref., art. 281 à 290, 1203-1282.
 [^166]: Droit publ., p. 28. — Proj. de l. organ., I, p. 29, art. 132-135; p. 1, art. 1-7; p. 75-81; p. 199, art. 338-365, 595 679; II, p. 101-109, 313-326, 316-388. — Proj. de ref., art. 121-127, 560-566, 798-831.
+[^pa1]: Assinatura a próprio punho.
+[^pa2]: Escrito a lápis no canto inferior direito `V 341.2 P654 m 1834`
