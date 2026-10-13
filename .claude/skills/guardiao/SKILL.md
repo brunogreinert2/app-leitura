@@ -61,7 +61,15 @@ divergência para que este arquivo seja corrigido.
   perfil e dado, não por clique. O que a bancada não souber fazer vira
   **proposta de capacidade nova** para ela (o remendo inevitável fica numerado no
   `CONTINUAR_AQUI` da bancada), nunca contorno calado. "A pé, uma hora dá poucos
-  quilômetros; de moto, a praia." Ver `C:\Claude\atelie\PROPOSTA_PILOTO.md`.
+  quilômetros; de moto, a praia."
+  **O ofício inteiro de pilotar é o `/piloto`, irmão deste**:
+  `C:\Claude\atelie\.claude\skills\piloto\SKILL.md`. A fronteira: este
+  arquivo cuida do ACERVO (TEI-XML, HTML, front matter, URN, licença, git,
+  site, Diário); o `/piloto` cuida do TRABALHO COM O TEXTO dentro do
+  ecossistema (converter, corrigir, projetar, compor, imprimir, encadernar).
+  Chame-o quando precisar de uma bancada; ele chama você quando o texto
+  preparado tiver de entrar no acervo. Ver também
+  `C:\Claude\atelie\PROPOSTA_PILOTO.md`.
 - **Trabalho alheio se respeita.** Um texto já bem estruturado por alguém (ex.:
   os "Fragmentos" cedidos por Bruno Palavro) entra com o front matter na norma e
   a forma dele intacta. Não se reescreve o que outra pessoa fez bem.
