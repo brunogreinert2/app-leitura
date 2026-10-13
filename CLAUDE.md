@@ -131,7 +131,8 @@ Os ◐ são pendentes conhecidos, cada um com o motivo no próprio caso.
   Corretor a escrevem, o Gerador a desenha como `[p. 01]`. Vem sozinha na linha,
   no meio do parágrafo ou colada na palavra (`pala<!-- pa:pagina 02 -->vra`): é o
   ponto exato da virada. O motor e o rolo não a mostram. É a única exceção da
-  regra C02; qualquer outro comentário ou tag continua barrado.
+  regra C02; qualquer outro comentário ou tag continua barrado. **N é a página
+  do fac-símile (PDF), contada da capa — nunca o fólio impresso** (NORMAS N80).
 - **Nunca** publicar texto das publicações das Testemunhas de Jeová (decisão do Διαφορεύς;
   a ficha antiga do personagem Davi foi retirada por isso em 2026-09-30).
 - **Marcador canônico:** `MARKER_RE` (src/motor/remarkMarkers.ts, cópia do motor cuja

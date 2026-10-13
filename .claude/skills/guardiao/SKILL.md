@@ -43,6 +43,24 @@ divergência para que este arquivo seja corrigido.
   URN. O que sai do texto ganha apelido em `public/livros/_apelidos/<id>.json`.
 - **O formato é generoso** (N7): `>`, `[[wikilink]]`, `![]()`, `{{img:id}}` são
   permitidos. Nunca "limpe" isso de um texto.
+- **A marca de página é do formato, e a página é a do PDF** (N80, 2026-10-13):
+  `<!-- pa:pagina N -->` é "justamente o nosso molde" — sozinha na linha, entre
+  duas palavras ou colada na palavra (`pala<!-- pa:pagina N -->vra`). N é a
+  página do fac-símile contada da capa (capa = 1), **nunca** o fólio impresso:
+  não renumere, não desconte a capa, não apague. O portão a aceita (única
+  exceção da C02); o Gerador a desenha como `[p. 01]`; o app e o rolo não a
+  mostram. O fólio impresso, se interessar, vai anotado (hoje no `processing`).
+  O sumário do impresso (`Capitulo 1 ..... 34`) não entra: o sumário se monta
+  sozinho dos cabeçalhos.
+- **OCR de edição antiga moderniza a grafia em silêncio** (2026-10-13, Manual
+  do Cidadão, Paris 1834): o olmOCR trocou `attribuições` por `atribuições`,
+  `serà` por `será`, inventou acentos de hoje. "Passou pelo Corretor" não quer
+  dizer fiel. O dono quer a ortografia do impresso, com o acento como no livro.
+  Antes do front matter, confira contra o scan: as ferramentas de cotejo
+  (segunda testemunha = a camada de texto do PDF; recorte do scan por palavra)
+  e o registro do método estão em `C:\Claude\guardiao\Silvestre\_conferencia\`
+  e `…\Silvestre\REVISAO.md`. O que o OCR estragou muito (índice em colunas,
+  tabela) fica para uma segunda leva, dito no campo `scope`.
 - **O leitor lê muito mais do que o acervo escreve** (2026-10-02): callout, tabela,
   realce, fórmula, HTML filtrado… Leia `C:\Claude\parser\CONTINUAR_AQUI.md`: o
   porquê das proibições antigas, o que o portão ainda barra (C02 HTML, C06 tabela,
@@ -240,6 +258,10 @@ arquivo). Regras:
   `public-domain`; eBooksBrasil → `LicenseRef-eBooksBrasil`; trabalho do próprio
   Pedra Angular → `CC-BY-SA-4.0` com `pa_exclusive: true`. Duvidosa: pergunte.
 - **Tags:** em inglês, minúsculas com hífen (`pre-socratics`, `rhetoric`).
+- **OCR (`ocr_engine`):** o modelo com que o dono faz o reconhecimento de texto
+  é `olmOCR-2-7B-1025-GGUF` — escreva o nome inteiro, assim (informado por ele
+  em 2026-10-13). Texto de OCR próprio leva `pa_exclusive: true`, o exemplar e
+  a digitalização em `physical_source`, e em `processing` quem fez o quê.
 - **Pergunte ao dono** só: autoria de tradução ou transcrição dele; licença
   duvidosa; texto que talvez não deva entrar; e a corrente, se ambígua.
 
