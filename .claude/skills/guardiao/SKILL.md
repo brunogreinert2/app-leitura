@@ -52,6 +52,10 @@ divergência para que este arquivo seja corrigido.
   mostram. O fólio impresso, se interessar, vai anotado (hoje no `processing`).
   O sumário do impresso (`Capitulo 1 ..... 34`) não entra: o sumário se monta
   sozinho dos cabeçalhos.
+- **Não crie cabeçalho só para agrupar notas** («Notas da Introdução», «Notas do
+  Tradutor»): o app e o rolo levam toda definição `[^n]:` para o fim da obra, e
+  o cabeçalho fica vazio no meio do texto e no sumário (Διαφορεύς, 2026-10-13,
+  Categorias de 1814). As definições vão juntas no fim do arquivo, sem título.
 - **A nota da IA é `[^7IA]`** (N81, 2026-10-13): número + `IA`, com
   `[^7IA]: texto` junto das outras definições. É para o que o modelo lembrou ou
   leu no fac-símile e vale dizer ao leitor; nunca dentro do texto do autor. Os

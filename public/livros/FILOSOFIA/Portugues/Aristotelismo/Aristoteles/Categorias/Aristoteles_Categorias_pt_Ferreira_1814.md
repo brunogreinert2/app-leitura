@@ -294,11 +294,7 @@ Porto Alegre, 13 de Outubro de 2026
 
 *Fim.*
 
-## Notas da Introdução
-
 [^intro1]: Seja-me desculpado o uso deste preterito do verbo jazer. Eu sei que os nossos bons Escriptores ou se servirão de jouverão, ou o evitarão. Mas o uso geral na conversação e trato da Corte, não menos do que a analogia, são bastante auctoridade em meu favor.
-
-## Notas da Traducção
 
 [^1]: Digo, que está em algum objecto, e que sem ser parte delle, não póde existir fóra delle.
 
@@ -307,10 +303,6 @@ Porto Alegre, 13 de Outubro de 2026
 [^3]: Isto he: as differenças especificas (V. Aph. 11.) ou os caracteres da especie. E he sempre neste sentido, que se deve tomar a palavra differença nas Obras de Aristoteles.
 
 [^4]: Isto he: a rasão do nome, ou o caracter da ordem, classe, genero, especie etc.
-
-## Explicações (notas de Ferreira)
-
-> Na edição original de 1814, estas explicações formavam uma "Segunda Parte" separada, e o leitor tinha de ir e vir fisicamente entre as duas seções. Aqui elas viram notas de rodapé: clique ou toque no número para ler a explicação sem sair do Aforismo.
 
 [^e1]: <!-- pa:pagina 019 --> Exemplo: Animal tanto o he o homem, como aquelle nome escripto. Entretanto não tem de commum senão o nome; mas a rasão desse nome he differente para cada hum delles. Porquanto se alguem houver de dar a rasão de se applicar o nome de animal a cada qual delles; para cada hum ha de dar huma rasão particular.
 
