@@ -52,6 +52,19 @@ divergência para que este arquivo seja corrigido.
   mostram. O fólio impresso, se interessar, vai anotado (hoje no `processing`).
   O sumário do impresso (`Capitulo 1 ..... 34`) não entra: o sumário se monta
   sozinho dos cabeçalhos.
+- **A nota da IA é `[^7IA]`** (N81, 2026-10-13): número + `IA`, com
+  `[^7IA]: texto` junto das outras definições. É para o que o modelo lembrou ou
+  leu no fac-símile e vale dizer ao leitor; nunca dentro do texto do autor. Os
+  outros escopos: `[^1]` (autor/tradutor da edição), `[^intro1]`, `[^ap1]`,
+  `[^pa1]` (Διαφορεύς / preparo do PA). **Nota `[^pa…]` num arquivo que o dono
+  entrega é dele — não se tira nem se reescreve** (erro cometido no Tomo I do
+  Manual do Cidadão: a assinatura, a cota a lápis e o carimbo foram lidos pelos
+  olhos dele). O que ele escreveu em português de hoje (nota, prefácio) fica
+  fora de qualquer restauro de ortografia.
+- **O padrão que não está escrito não existe para a próxima conversa.** O dono
+  carrega o contexto de todas; cada modelo, só o da sua. Marcação ou regra que
+  ele usa e você não reconhece: pergunte, e escreva na fonte (NORMAS, esta
+  skill) no mesmo dia.
 - **OCR de edição antiga moderniza a grafia em silêncio** (2026-10-13, Manual
   do Cidadão, Paris 1834): o olmOCR trocou `attribuições` por `atribuições`,
   `serà` por `será`, inventou acentos de hoje. "Passou pelo Corretor" não quer

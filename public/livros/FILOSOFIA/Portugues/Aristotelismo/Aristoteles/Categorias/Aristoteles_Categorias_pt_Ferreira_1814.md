@@ -31,7 +31,7 @@ urn: urn:cts:greekLit:tlg0086.tlg006.pa-por1
 source: 'Aristóteles. Categorias. Traduzidas do grego e ordenadas conforme a hum novo plano por Silvestre Pinheiro Ferreira. Rio de Janeiro: Impressão Régia, 1814. Biblioteca Nacional (Brasil), Divisão de Obras Raras, objeto digital or1379818, https://objdigital.bn.br/objdigital2/acervo_digital/div_obrasraras/or1379818/or1379818.pdf'
 license: public-domain
 pa_exclusive: true
-physical_source: 'Exemplar da Divisão de Obras Raras da Fundação Biblioteca Nacional (Rio de Janeiro), objeto digital or1379818: PDF de 65 páginas, digitalizado em 2014-01-21, baixado em 2026-05-03. O exemplar faz parte de um volume encadernado com outras obras (numeração manuscrita das folhas, 309 a 339).'
+physical_source: 'Exemplar da Divisão de Obras Raras da Fundação Biblioteca Nacional (Rio de Janeiro), objeto digital or1379818: PDF de 65 páginas, digitalizado em 2014-01-21, baixado em 2026-05-03. O exemplar faz parte de um volume encadernado com outras obras (numeração manuscrita das folhas, 308 a 339).'
 ocr_engine: olmOCR-2-7B-1025-GGUF
 processing: 'Transcrição, organização em notas e revisão: Διαφορεύς, com olmOCR-2-7B-1025-GGUF e modelos Claude. Conferência contra o scan e restauro da ortografia de 1814: Claude Opus 5.5, 2026-10-13 — o texto foi cotejado palavra a palavra com a camada de texto do PDF e as formas duvidosas lidas no scan. As Explicações, que no impresso formam a Segunda Parte, são aqui notas [^eN] que abrem no toque (o próprio tradutor diz tê-las separado «á maneira de Notas»). As erratas de 1814 estão aplicadas, e a lista fica no fim. O impresso repete o número (49) nos §§ 52 e 53: o § 52 remete à Explicação 48. Os itálicos do impresso não foram transcritos. <!-- pa:pagina N --> marca a página N do PDF, contada da capa (o fólio impresso é N − 6 na Primeira Parte e N − 18 na Segunda).'
 ---
@@ -50,7 +50,7 @@ Para uso das Prelecções Philosophicas do mesmo Traductor.
 RIO DE JANEIRO.
 NA IMPRESSÃO REGIA.
 ANNO DE M DCCC XIV.
-Com Licença de S. A. R.
+Com Licença de S. A. R.[^1IA]
 
 <!-- pa:pagina 002 -->
 
@@ -603,6 +603,8 @@ Em geral o contrario do movimento he a quietação. Mas cada huma das especies m
 [^e103]: Como: a medida a respeito de trigo: o vaso a respeito do vinho; porque da medida se diz que tem trigo: e do vaso, que tem vinho.
 
 [^e104]: Porque dizemos ter huma casa, ou hum campo. Tambem se diz de hum homem que elle tem huma mulher: e de huma mulher, que ella tem hum homem: caso este que parece offerecer hum sentido muito differente da palavra ter, do que os que ficão referidos; porque aqui não significa serão cohabitar.
+
+[^1IA]: Nota do Claude Opus 5.5, lendo o fac-símile: as folhas deste exemplar trazem, a lápis, no pé, uma numeração seguida que não é a do livro — 308 na página 3 do PDF, 309 na página 5, 310 na 7, e assim por diante, uma por folha, até 339 na página 65. É sinal de que o exemplar da Biblioteca Nacional está encadernado num volume com outras obras.
 
 ## Erratas
 
