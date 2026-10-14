@@ -7087,6 +7087,25 @@
       "autor": "Aristóteles",
       "arquivo": "FILOSOFIA/Portugues/Aristotelismo/Aristoteles/Categorias/Aristoteles_Categorias_pt_Ferreira_1814.md",
       "sistema_referencia": "capitulo-secao"
+    },
+    {
+      "id": "sexto-empirico-adversus-mathematicos-grc-mutschmann-mau-1954",
+      "titulo": "Adversus Mathematicos",
+      "autor": "Sexto Empírico",
+      "arquivo": "FILOSOFIA/Grego/Ceticismo/Sexto_Empirico/Adversus_Mathematicos/Sexto_Empirico_Adversus_Mathematicos_grc_Mutschmann-Mau_1954.md",
+      "sistema_referencia": "capitulo-secao"
+    },
+    {
+      "id": "simplicio-in-de-caelo-grc-heiberg-1894",
+      "titulo": "In Aristotelis De Caelo commentaria",
+      "autor": "Simplício",
+      "arquivo": "FILOSOFIA/Grego/Neoplatonismo_e_Tardia/Simplicio/In_De_Caelo/Simplicio_In_De_Caelo_grc_Heiberg_1894.md"
+    },
+    {
+      "id": "simplicio-in-physica-grc-diels-1895",
+      "titulo": "In Aristotelis Physicorum libros commentaria",
+      "autor": "Simplício",
+      "arquivo": "FILOSOFIA/Grego/Neoplatonismo_e_Tardia/Simplicio/In_Physica/Simplicio_In_Physica_grc_Diels_1895.md"
     }
   ],
   "redirecionamentos": {
