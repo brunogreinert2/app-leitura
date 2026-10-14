@@ -552,11 +552,18 @@ function abrirTudo(abrir){
 /* ---------- link permanente: abre o caminho até a âncora ---------- */
 function irParaAncora(hash){
   if(!hash||hash.length<2) return false;
-  const alvo=hash.slice(1);
+  let alvo=hash.slice(1);
+  try{alvo=decodeURIComponent(alvo);}catch(e){}
+  /* O marcador canônico (#marker-327a, #marker-116.25) é um <span> DENTRO do
+     parágrafo, não o parágrafo: procura-se também no interior do elemento.
+     A árvore guarda os elementos fora do documento até a seção abrir, por
+     isso getElementById não serve aqui — querySelector no próprio elemento sim. */
+  const sel='#'+CSS.escape(alvo);
+  const tem=(el)=>el.id===alvo||!!(el.querySelector&&el.querySelector(sel));
   const caminho=[];
   const achar=(no)=>{
     for(const f of (no.filhos||[])){
-      if(f.el && f.el.id===alvo){caminho.push(f);return true;}
+      if(f.el && tem(f.el)){caminho.push(f);return true;}
       if(f.tipo==='heading'){caminho.push(f); if(achar(f)) return true; caminho.pop();}
     }
     return false;
