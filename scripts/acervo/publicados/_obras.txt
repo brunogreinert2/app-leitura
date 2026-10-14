@@ -514,6 +514,7 @@ numeros-grc-lxx-swe
 obadias-grc-lxx-swe
 odes-grc-lxx-swe
 oseias-grc-lxx-swe
+parmenides-testemunhos-grc-diaphoreus-2026
 personagem-ailton-krenak
 personagem-aristoteles-estagira
 personagem-arthur-schopenhauer
