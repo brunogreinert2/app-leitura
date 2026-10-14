@@ -32,6 +32,7 @@ apuleio-de-deo-socratis-lat-latinlibrary-sd
 apuleio-de-dogmate-platonis-lat-latinlibrary-sd
 apuleio-de-mundo-lat-latinlibrary-sd
 apuleio-florida-lat-latinlibrary-sd
+aristoteles-categorias-pt-ferreira-1814
 aristoteles-economics-eng-george-cyril-armstrong-1935
 aristoteles-economics-grc-george-cyril-armstrong-1935
 aristoteles-etica-a-nicomaco-eng-harris-rackham-1926
