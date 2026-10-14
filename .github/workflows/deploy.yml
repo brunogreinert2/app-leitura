@@ -42,6 +42,16 @@ jobs:
       - run: npm ci
       # src/motor é cópia do motor do ecossistema (C:\Claude\parser): não se edita à mão
       - run: node scripts/conferir-motor.mjs
+      # Gancho sem bit de execução no git é IGNORADO calado num clone Linux/Mac:
+      # o commit passa sem portão e ninguém fica sabendo (visto em 2026-10-14).
+      # No Windows o bit não aparece (core.fileMode=false), por isso a guarda é aqui.
+      - run: |
+          ruins=$(git ls-files -s .githooks | awk '$1 != "100755" {print $4}')
+          if [ -n "$ruins" ]; then
+            echo "Gancho sem permissão de execução no git: $ruins"
+            echo "Conserto: git update-index --chmod=+x <arquivo>"
+            exit 1
+          fi
       - run: npx tsc -b
       # Domínio próprio (pedraangular.app.br) serve na RAIZ do site
       - run: npx vite build --base=/
