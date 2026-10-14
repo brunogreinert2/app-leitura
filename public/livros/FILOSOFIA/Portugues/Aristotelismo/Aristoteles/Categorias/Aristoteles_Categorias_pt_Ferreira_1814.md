@@ -23,6 +23,7 @@ tags:
 status: draft
 project: pedra_angular
 related:
+- aristoteles-categorias-grc-bekker-1837
 - ferreira-manual-do-cidadao-pt-1834-v01
 reference_system: chapter-section
 scope: 'Obra completa: Advertencia do tradutor, Primeira Parte (98 Aphorismos), as 104 Explicações da Segunda Parte como notas, e as notas do tradutor. Os aforismos seguem a numeração de Ferreira, não a de Bekker.'
