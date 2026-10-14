@@ -105,7 +105,9 @@ Os ◐ são pendentes conhecidos, cada um com o motivo no próprio caso.
   Campos e valores em inglês; campo desconhecido fica ausente, nunca `null`.
 - **Todo commit que toca `public/livros/` passa pelo portão**
   (`scripts/acervo/portao_acervo.py`, chamado pelo `.githooks/pre-commit`;
-  ativar uma vez por clone com `git config core.hooksPath .githooks`). O deploy
+  ativar uma vez por clone com `git config core.hooksPath .githooks`; o arquivo
+  precisa do bit de execução NO GIT — no Windows ele não aparece, mas num clone Linux sem
+  ele o git ignora o gancho calado; o deploy confere). O deploy
   roda o mesmo portão com `--completo` antes de construir.
 - **O que ele barra:** id publicado que some (LEI 6: obra, `anchor-…`,
   `marker-…`, registrados em `scripts/acervo/publicados/`); arquivo que piora
