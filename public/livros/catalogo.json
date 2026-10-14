@@ -7265,6 +7265,235 @@
       "titulo": "Ἑλένης ἐγκώμιον",
       "autor": "Górgias",
       "arquivo": "FILOSOFIA/Grego/Sofistica/Gorgias/Elogio_de_Helena/Gorgias_Elogio_de_Helena_grc_Blass_1908.md"
+    },
+    {
+      "id": "platao-definicoes-grc-burnet-1914",
+      "titulo": "Ὅροι",
+      "autor": "Platão",
+      "arquivo": "FILOSOFIA/Grego/Filosofia_Classica/Platao/Definicoes/Platao_Definicoes_grc_Burnet_1914.md",
+      "sistema_referencia": "stephanus"
+    },
+    {
+      "id": "xenofonte-apologia-de-socrates-grc-marchant-1921",
+      "titulo": "Ἀπολογία Σωκράτους",
+      "autor": "Xenofonte",
+      "arquivo": "FILOSOFIA/Grego/Filosofia_Classica/Xenofonte/Apologia_de_Socrates/Xenofonte_Apologia_de_Socrates_grc_Marchant_1921.md"
+    },
+    {
+      "id": "xenofonte-banquete-grc-marchant-1921",
+      "titulo": "Συμπόσιον",
+      "autor": "Xenofonte",
+      "arquivo": "FILOSOFIA/Grego/Filosofia_Classica/Xenofonte/Banquete/Xenofonte_Banquete_grc_Marchant_1921.md"
+    },
+    {
+      "id": "xenofonte-economico-grc-marchant-1921",
+      "titulo": "Οἰκονομικός",
+      "autor": "Xenofonte",
+      "arquivo": "FILOSOFIA/Grego/Filosofia_Classica/Xenofonte/Economico/Xenofonte_Economico_grc_Marchant_1921.md"
+    },
+    {
+      "id": "xenofonte-memoraveis-grc-marchant-1921",
+      "titulo": "Ἀπομνημονεύματα",
+      "autor": "Xenofonte",
+      "arquivo": "FILOSOFIA/Grego/Filosofia_Classica/Xenofonte/Memoraveis/Xenofonte_Memoraveis_grc_Marchant_1921.md"
+    },
+    {
+      "id": "cebes-tabula-grc-praechter-1893",
+      "titulo": "Κέβητος πίναξ",
+      "autor": "Cebes",
+      "arquivo": "FILOSOFIA/Grego/Moralistas/Cebes/Tabula/Cebes_Tabula_grc_Praechter_1893.md"
+    },
+    {
+      "id": "albino-introducao-a-platao-grc-hermann-1884",
+      "titulo": "Εἰσαγωγὴ εἰς τοὺς Πλάτωνος διαλόγους",
+      "autor": "Albino",
+      "arquivo": "FILOSOFIA/Grego/Platonismo_Medio/Albino/Introducao_a_Platao/Albino_Introducao_a_Platao_grc_Hermann_1884.md"
+    },
+    {
+      "id": "alcinoo-didaskalikos-grc-hermann-1884",
+      "titulo": "Διδασκαλικὸς τῶν Πλάτωνος δογμάτων",
+      "autor": "Alcínoo",
+      "arquivo": "FILOSOFIA/Grego/Platonismo_Medio/Alcinoo/Didaskalikos/Alcinoo_Didaskalikos_grc_Hermann_1884.md"
+    },
+    {
+      "id": "isocrates-a-demonico-grc-norlin-1928",
+      "titulo": "Πρὸς Δημόνικον",
+      "autor": "Isócrates",
+      "arquivo": "FILOSOFIA/Grego/Retorica/Isocrates/A_Demonico/Isocrates_A_Demonico_grc_Norlin_1928.md"
+    },
+    {
+      "id": "isocrates-a-filipe-grc-norlin-1928",
+      "titulo": "Φίλιππος",
+      "autor": "Isócrates",
+      "arquivo": "FILOSOFIA/Grego/Retorica/Isocrates/A_Filipe/Isocrates_A_Filipe_grc_Norlin_1928.md"
+    },
+    {
+      "id": "isocrates-a-nicocles-grc-norlin-1928",
+      "titulo": "Πρὸς Νικοκλέα",
+      "autor": "Isócrates",
+      "arquivo": "FILOSOFIA/Grego/Retorica/Isocrates/A_Nicocles/Isocrates_A_Nicocles_grc_Norlin_1928.md"
+    },
+    {
+      "id": "isocrates-antidose-grc-norlin-1929",
+      "titulo": "Περὶ ἀντιδόσεως",
+      "autor": "Isócrates",
+      "arquivo": "FILOSOFIA/Grego/Retorica/Isocrates/Antidose/Isocrates_Antidose_grc_Norlin_1929.md"
+    },
+    {
+      "id": "isocrates-areopagitico-grc-norlin-1929",
+      "titulo": "Ἀρεοπαγιτικός",
+      "autor": "Isócrates",
+      "arquivo": "FILOSOFIA/Grego/Retorica/Isocrates/Areopagitico/Isocrates_Areopagitico_grc_Norlin_1929.md"
+    },
+    {
+      "id": "isocrates-arquidamo-grc-norlin-1928",
+      "titulo": "Ἀρχίδαμος",
+      "autor": "Isócrates",
+      "arquivo": "FILOSOFIA/Grego/Retorica/Isocrates/Arquidamo/Isocrates_Arquidamo_grc_Norlin_1928.md"
+    },
+    {
+      "id": "isocrates-busiris-grc-van-hook-1945",
+      "titulo": "Βούσιρις",
+      "autor": "Isócrates",
+      "arquivo": "FILOSOFIA/Grego/Retorica/Isocrates/Busiris/Isocrates_Busiris_grc_Van-Hook_1945.md"
+    },
+    {
+      "id": "isocrates-carta-1-a-dionisio-grc-van-hook-1945",
+      "titulo": "Ἐπιστολὴ α΄ Διονυσίῳ",
+      "autor": "Isócrates",
+      "arquivo": "FILOSOFIA/Grego/Retorica/Isocrates/Carta_1_a_Dionisio/Isocrates_Carta_1_a_Dionisio_grc_Van-Hook_1945.md"
+    },
+    {
+      "id": "isocrates-carta-2-a-filipe-grc-van-hook-1945",
+      "titulo": "Ἐπιστολὴ β΄ Φιλίππῳ α΄",
+      "autor": "Isócrates",
+      "arquivo": "FILOSOFIA/Grego/Retorica/Isocrates/Carta_2_a_Filipe/Isocrates_Carta_2_a_Filipe_grc_Van-Hook_1945.md"
+    },
+    {
+      "id": "isocrates-carta-3-a-filipe-grc-van-hook-1945",
+      "titulo": "Ἐπιστολὴ γ΄ Φιλίππῳ β΄",
+      "autor": "Isócrates",
+      "arquivo": "FILOSOFIA/Grego/Retorica/Isocrates/Carta_3_a_Filipe/Isocrates_Carta_3_a_Filipe_grc_Van-Hook_1945.md"
+    },
+    {
+      "id": "isocrates-carta-4-a-antipatro-grc-van-hook-1945",
+      "titulo": "Ἐπιστολὴ δ΄ Ἀντιπάτρῳ",
+      "autor": "Isócrates",
+      "arquivo": "FILOSOFIA/Grego/Retorica/Isocrates/Carta_4_a_Antipatro/Isocrates_Carta_4_a_Antipatro_grc_Van-Hook_1945.md"
+    },
+    {
+      "id": "isocrates-carta-5-a-alexandre-grc-van-hook-1945",
+      "titulo": "Ἐπιστολὴ ε΄ Ἀλεξάνδρῳ",
+      "autor": "Isócrates",
+      "arquivo": "FILOSOFIA/Grego/Retorica/Isocrates/Carta_5_a_Alexandre/Isocrates_Carta_5_a_Alexandre_grc_Van-Hook_1945.md"
+    },
+    {
+      "id": "isocrates-carta-6-aos-filhos-de-jasao-grc-van-hook-1945",
+      "titulo": "Ἐπιστολὴ ϛ΄ Τοῖς Ἰάσονος παισίν",
+      "autor": "Isócrates",
+      "arquivo": "FILOSOFIA/Grego/Retorica/Isocrates/Carta_6_aos_Filhos_de_Jasao/Isocrates_Carta_6_aos_Filhos_de_Jasao_grc_Van-Hook_1945.md"
+    },
+    {
+      "id": "isocrates-carta-7-a-timoteo-grc-van-hook-1945",
+      "titulo": "Ἐπιστολὴ ζ΄ Τιμοθέῳ",
+      "autor": "Isócrates",
+      "arquivo": "FILOSOFIA/Grego/Retorica/Isocrates/Carta_7_a_Timoteo/Isocrates_Carta_7_a_Timoteo_grc_Van-Hook_1945.md"
+    },
+    {
+      "id": "isocrates-carta-8-aos-governantes-de-mitilene-grc-van-hook-1945",
+      "titulo": "Ἐπιστολὴ η΄ Τοῖς Μυτιληναίων ἄρχουσιν",
+      "autor": "Isócrates",
+      "arquivo": "FILOSOFIA/Grego/Retorica/Isocrates/Carta_8_aos_Governantes_de_Mitilene/Isocrates_Carta_8_aos_Governantes_de_Mitilene_grc_Van-Hook_1945.md"
+    },
+    {
+      "id": "isocrates-carta-9-a-arquidamo-grc-van-hook-1945",
+      "titulo": "Ἐπιστολὴ θ΄ Ἀρχιδάμῳ",
+      "autor": "Isócrates",
+      "arquivo": "FILOSOFIA/Grego/Retorica/Isocrates/Carta_9_a_Arquidamo/Isocrates_Carta_9_a_Arquidamo_grc_Van-Hook_1945.md"
+    },
+    {
+      "id": "isocrates-contra-calimaco-grc-van-hook-1945",
+      "titulo": "Παραγραφὴ πρὸς Καλλίμαχον",
+      "autor": "Isócrates",
+      "arquivo": "FILOSOFIA/Grego/Retorica/Isocrates/Contra_Calimaco/Isocrates_Contra_Calimaco_grc_Van-Hook_1945.md"
+    },
+    {
+      "id": "isocrates-contra-eutino-grc-van-hook-1945",
+      "titulo": "Πρὸς Εὐθύνους ἀμάρτυρος",
+      "autor": "Isócrates",
+      "arquivo": "FILOSOFIA/Grego/Retorica/Isocrates/Contra_Eutino/Isocrates_Contra_Eutino_grc_Van-Hook_1945.md"
+    },
+    {
+      "id": "isocrates-contra-loquites-grc-van-hook-1945",
+      "titulo": "Κατὰ Λοχίτου",
+      "autor": "Isócrates",
+      "arquivo": "FILOSOFIA/Grego/Retorica/Isocrates/Contra_Loquites/Isocrates_Contra_Loquites_grc_Van-Hook_1945.md"
+    },
+    {
+      "id": "isocrates-contra-os-sofistas-grc-norlin-1929",
+      "titulo": "Κατὰ τῶν σοφιστῶν",
+      "autor": "Isócrates",
+      "arquivo": "FILOSOFIA/Grego/Retorica/Isocrates/Contra_os_Sofistas/Isocrates_Contra_os_Sofistas_grc_Norlin_1929.md"
+    },
+    {
+      "id": "isocrates-eginetico-grc-van-hook-1945",
+      "titulo": "Αἰγινητικός",
+      "autor": "Isócrates",
+      "arquivo": "FILOSOFIA/Grego/Retorica/Isocrates/Eginetico/Isocrates_Eginetico_grc_Van-Hook_1945.md"
+    },
+    {
+      "id": "isocrates-elogio-de-helena-grc-van-hook-1945",
+      "titulo": "Ἑλένη",
+      "autor": "Isócrates",
+      "arquivo": "FILOSOFIA/Grego/Retorica/Isocrates/Elogio_de_Helena/Isocrates_Elogio_de_Helena_grc_Van-Hook_1945.md"
+    },
+    {
+      "id": "isocrates-evagoras-grc-van-hook-1945",
+      "titulo": "Εὐαγόρας",
+      "autor": "Isócrates",
+      "arquivo": "FILOSOFIA/Grego/Retorica/Isocrates/Evagoras/Isocrates_Evagoras_grc_Van-Hook_1945.md"
+    },
+    {
+      "id": "isocrates-nicocles-grc-norlin-1928",
+      "titulo": "Νικοκλῆς ἢ Κύπριοι",
+      "autor": "Isócrates",
+      "arquivo": "FILOSOFIA/Grego/Retorica/Isocrates/Nicocles/Isocrates_Nicocles_grc_Norlin_1928.md"
+    },
+    {
+      "id": "isocrates-panatenaico-grc-norlin-1929",
+      "titulo": "Παναθηναϊκός",
+      "autor": "Isócrates",
+      "arquivo": "FILOSOFIA/Grego/Retorica/Isocrates/Panatenaico/Isocrates_Panatenaico_grc_Norlin_1929.md"
+    },
+    {
+      "id": "isocrates-panegirico-grc-norlin-1928",
+      "titulo": "Πανηγυρικός",
+      "autor": "Isócrates",
+      "arquivo": "FILOSOFIA/Grego/Retorica/Isocrates/Panegirico/Isocrates_Panegirico_grc_Norlin_1928.md"
+    },
+    {
+      "id": "isocrates-plataico-grc-van-hook-1945",
+      "titulo": "Πλαταϊκός",
+      "autor": "Isócrates",
+      "arquivo": "FILOSOFIA/Grego/Retorica/Isocrates/Plataico/Isocrates_Plataico_grc_Van-Hook_1945.md"
+    },
+    {
+      "id": "isocrates-sobre-a-parelha-grc-van-hook-1945",
+      "titulo": "Περὶ τοῦ ζεύγους",
+      "autor": "Isócrates",
+      "arquivo": "FILOSOFIA/Grego/Retorica/Isocrates/Sobre_a_Parelha/Isocrates_Sobre_a_Parelha_grc_Van-Hook_1945.md"
+    },
+    {
+      "id": "isocrates-sobre-a-paz-grc-norlin-1929",
+      "titulo": "Περὶ εἰρήνης",
+      "autor": "Isócrates",
+      "arquivo": "FILOSOFIA/Grego/Retorica/Isocrates/Sobre_a_Paz/Isocrates_Sobre_a_Paz_grc_Norlin_1929.md"
+    },
+    {
+      "id": "isocrates-trapezitico-grc-van-hook-1945",
+      "titulo": "Τραπεζιτικός",
+      "autor": "Isócrates",
+      "arquivo": "FILOSOFIA/Grego/Retorica/Isocrates/Trapezitico/Isocrates_Trapezitico_grc_Van-Hook_1945.md"
     }
   ],
   "redirecionamentos": {
