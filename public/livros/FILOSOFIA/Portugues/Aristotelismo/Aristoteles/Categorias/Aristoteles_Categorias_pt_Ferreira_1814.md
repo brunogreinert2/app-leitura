@@ -25,7 +25,7 @@ project: pedra_angular
 related:
 - ferreira-manual-do-cidadao-pt-1834-v01
 reference_system: chapter-section
-scope: 'Obra completa: Advertencia do tradutor, Primeira Parte (98 Aphorismos), as 104 Explicações da Segunda Parte como notas, as notas do tradutor e as Erratas. Os aforismos seguem a numeração de Ferreira, não a de Bekker.'
+scope: 'Obra completa: Advertencia do tradutor, Primeira Parte (98 Aphorismos), as 104 Explicações da Segunda Parte como notas, e as notas do tradutor. Os aforismos seguem a numeração de Ferreira, não a de Bekker.'
 urn_work: urn:cts:greekLit:tlg0086.tlg006
 urn: urn:cts:greekLit:tlg0086.tlg006.pa-por1
 source: 'Aristóteles. Categorias. Traduzidas do grego e ordenadas conforme a hum novo plano por Silvestre Pinheiro Ferreira. Rio de Janeiro: Impressão Régia, 1814. Biblioteca Nacional (Brasil), Divisão de Obras Raras, objeto digital or1379818, https://objdigital.bn.br/objdigital2/acervo_digital/div_obrasraras/or1379818/or1379818.pdf'
@@ -33,7 +33,7 @@ license: public-domain
 pa_exclusive: true
 physical_source: 'Exemplar da Divisão de Obras Raras da Fundação Biblioteca Nacional (Rio de Janeiro), objeto digital or1379818: PDF de 65 páginas, digitalizado em 2014-01-21, baixado em 2026-05-03. O exemplar faz parte de um volume encadernado com outras obras (numeração manuscrita das folhas, 308 a 339).'
 ocr_engine: olmOCR-2-7B-1025-GGUF
-processing: 'Transcrição, organização em notas e revisão: Διαφορεύς, com olmOCR-2-7B-1025-GGUF e modelos Claude. Conferência contra o scan e restauro da ortografia de 1814: Claude Opus 5.5, 2026-10-13 — o texto foi cotejado palavra a palavra com a camada de texto do PDF e as formas duvidosas lidas no scan. As Explicações, que no impresso formam a Segunda Parte, são aqui notas [^eN] que abrem no toque (o próprio tradutor diz tê-las separado «á maneira de Notas»). As erratas de 1814 estão aplicadas, e a lista fica no fim. O impresso repete o número (49) nos §§ 52 e 53: o § 52 remete à Explicação 48. Os itálicos do impresso não foram transcritos. <!-- pa:pagina N --> marca a página N do PDF, contada da capa (o fólio impresso é N − 6 na Primeira Parte e N − 18 na Segunda).'
+processing: 'Transcrição, organização em notas e revisão: Διαφορεύς, com olmOCR-2-7B-1025-GGUF e modelos Claude. Conferência contra o scan e restauro da ortografia de 1814: Claude Opus 5.5, 2026-10-13 — o texto foi cotejado palavra a palavra com a camada de texto do PDF e as formas duvidosas lidas no scan. As Explicações, que no impresso formam a Segunda Parte, são aqui notas [^eN] que abrem no toque (o próprio tradutor diz tê-las separado «á maneira de Notas»). As erratas que o próprio livro traz no fim (páginas 64 e 65 do PDF) estão todas aplicadas ao texto; a lista não é reproduzida. O impresso repete o número (49) nos §§ 52 e 53: o § 52 remete à Explicação 48. Os itálicos do impresso não foram transcritos. <!-- pa:pagina N --> marca a página N do PDF, contada da capa (o fólio impresso é N − 6 na Primeira Parte e N − 18 na Segunda).'
 ---
 
 <!-- pa:pagina 001 -->
@@ -616,66 +616,6 @@ Em geral o contrario do movimento he a quietação. Mas cada huma das especies m
 
 [^6IA]: Nota do Claude Opus 5.5: assim no impresso de 1814, «serão cohabitar»; a frase pede «senão».
 
-## Erratas
-
-> Erratas impressas no fim da edição de 1814 (páginas 64 e 65 do PDF). Todas já estão aplicadas ao texto acima; ficam aqui como registro do que o livro trazia. Os números de parágrafo são os do impresso, antes da renumeração que a própria errata manda fazer.
-
 <!-- pa:pagina 064 -->
 
-**Primeira Parte.**
-
-Adv., pág. V: «mas tambem» — emenda: «como tambem».
-
-Adv., pág. V: «tornarião» — emenda: «tornaria».
-
-§. 5: «objecto (a)» — emenda: «objecto».
-
-§. 6: «objecto» — emenda: «objecto (a)».
-
-§. 15: «falsa» — emenda: «falsa (14)».
-
-§. 21: «nelles» — emenda: «nellas».
-
-§. 29: «especies» — emenda: «essencias».
-
-§. 42: «mudarem (39)» — emenda: «mudarem».
-
-§. 64: «quaes» — emenda: «taes».
-
-Todos os numeros que indicão Notas, desde (14) até (38), se devem augmentar de huma unidade: pondo-se (15), em vez de (14): (16), em vez de (15): e assim por diante até (38), em vez do qual se deve escrever (39); apagando-se este numero no §. 41, onde se acha erradamente.
-
-**Segunda Parte.**
-
-§. 4: «boi corre» — emenda: «homem corre».
-
-§. 13: «rocio» — emenda: «Lycéo».
-
-§. 19: «dizendo» — emenda: «dizendo-se».
-
-§. 29: «Synonymos» — emenda: «Univocos».
-
-Ibid.: «especies» — emenda: «as especies.»
-
-§. 39: «serem» — emenda: «ser».
-
-Todos os numeros dos §§. desde 14 até 38: e desde 69 até ao ultimo 103 se devem augmentar de huma unidade; porque faltou o §. que devia ser o 14º: e he o seguinte:
-
-14. Exemplo: Homem, Branco; corre, vence.
-
-O numero 39 deve-se apagar na pagina nona, onde se acha erradamente.
-
-Tambem se deve apagar o numero 41 na pagina undecima, pondo-o na pagina seguinte, onde por erro está 42.
-
-O §. 54 que não está marcado, he o que começa: Porque na pagina 22. o §. 69 começa na palavra Por quanto. que se acha na quinta regra da pagina 32.
-
-No §. 16 falta, depois da palavra Animal, o seguinte.
-
 <!-- pa:pagina 065 -->
-
-E por tanto he Categoria do objecto, não só quanto ao nome, mas tambem quanto á razão do nome.
-
-No §. 19 falta, depois da palavra vegetal o seguinte. Além disso as essencias primarias não se dizem principalmente essencias, se não porque são objectos de todas as outras cousas: e todas as outras cousas, são Categorias, em que ellas se contém.
-
-No §. 37 falta, depois da palavra semelhante o seguinte: Excepto se alguem disser, que muito he contrario a pouco, e grande a pequeno. Mas ás quantidades determinadas nada he contrario.
-
-No §. 41 deve-se apagar este numero, e pôr em seu lugar o principio, que falta, e he o seguinte. Além disso ha humas qualidades, que admittem situação: e outras, cujas partes não são susceptiveis delle. Exemplo, etc.
