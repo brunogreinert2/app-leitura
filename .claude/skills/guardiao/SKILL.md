@@ -295,6 +295,9 @@ arquivo). Regras:
 ### 5.6 Contar
 - **Diário** (`C:\Claude\portico\diario\AAAA-MM-DD-assunto.md`): rascunho curto,
   em linguagem de gente, datas ISO — **mostre ao dono antes de publicar**.
+  **Toda entrada termina com a assinatura dele, com o `>` na frente:**
+  `> Ὁ Διαφορεύς παρῆν` (2026-10-13: «o Pórtico é mais importante que esteja
+  minha assinatura do que qualquer outra coisa»). Ela já vai no rascunho.
   O Pórtico se refaz no deploy do app (ou `gh workflow run deploy.yml`).
 - **Ficha de andamento** (`C:\Claude\andamento\*.md`, ver `LEIA.md` lá): atualize
   a da frente que você tocou; depois `python C:\Claude\portico\gerar.py` e commit
