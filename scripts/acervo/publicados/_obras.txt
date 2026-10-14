@@ -27,6 +27,14 @@ ambrosio-de-mysteriis-lat-latinlibrary-sd
 ambrosio-epistula-ad-sororem-marcellinam-lat-latinlibrary-sd
 ambrosio-epistulae-variae-lat-latinlibrary-sd
 amos-grc-lxx-swe
+anonimo-de-jamblico-fragmentos-grc-diels-1922
+antifonte-contra-a-madrasta-grc-maidment-1941
+antifonte-fragmentos-grc-diels-1922
+antifonte-primeira-tetralogia-grc-maidment-1941
+antifonte-segunda-tetralogia-grc-maidment-1941
+antifonte-sobre-o-assassinato-de-herodes-grc-maidment-1941
+antifonte-sobre-o-coreuta-grc-maidment-1941
+antifonte-terceira-tetralogia-grc-maidment-1941
 apuleio-apologia-pro-se-de-magia-lat-latinlibrary-sd
 apuleio-de-deo-socratis-lat-latinlibrary-sd
 apuleio-de-dogmate-platonis-lat-latinlibrary-sd
@@ -53,6 +61,7 @@ aristoteles-the-art-of-rhetoric-grc-william-david-ross-1959
 aristoteles-tlg003-grc-frederic-g-kenyon-1920
 aristoteles-tlg045-grc-immanuel-bekker-1831
 arnobio-adversus-nationes-lat-latinlibrary-sd
+arquitas-fragmentos-grc-diels-1922
 barnabe-the-epistle-of-barnabas-eng-kirsopp-lake-1912
 barnabe-the-epistle-of-barnabas-grc-kirsopp-lake-1912
 baruc-grc-lxx-swe
@@ -349,6 +358,9 @@ cicero-de-senectute-lat-latinlibrary-sd
 cicero-paradoxa-stoicorum-lat-latinlibrary-sd
 cicero-topica-lat-latinlibrary-sd
 cicero-tusculanae-disputationes-lat-latinlibrary-sd
+clemente-de-alexandria-eclogae-propheticae-grc-stahlin-1909
+clemente-de-alexandria-excerpta-ex-theodoto-grc-stahlin-1909
+clemente-de-alexandria-pedagogo-grc-stahlin-1905
 clemente-de-alexandria-tlg001-grc-g-w-butterworth-1919
 clemente-de-alexandria-tlg004-grc-otto-stahlin-1906-1909
 clemente-de-alexandria-tlg006-grc-g-w-butterworth-1919
@@ -357,6 +369,7 @@ clemente-de-roma-the-first-epistle-of-clement-to-the-corinthians-eng-kirsopp-lak
 clemente-de-roma-the-second-epistle-of-clement-to-the-corinthians-eng-kirsopp-lake-1912
 daniel-grc-lxx-swe-og
 daniel-grc-lxx-swe-teod
+democrito-fragmentos-grc-diels-1922
 descartes-meditationes-de-prima-philosophia-lat-latinlibrary-sd
 deuteronomio-grc-lxx-swe
 diogenes-laercio-lives-of-eminent-philosophers-eng-r-d-hicks-1925
@@ -450,6 +463,7 @@ epicteto-fragments-eng-george-long-1890
 epicteto-fragments-eng-thomas-wentworth-higginson-1890
 epicteto-gnomologium-epicteteum-e-stobaei-libris-1-2-grc-heinrich-schenkl-1916
 epicteto-gnomologium-epicteteum-e-stobaei-libris-3-4-grc-heinrich-schenkl-1916
+espeusipo-fragmentos-grc-mullach-1881
 ester-grc-lxx-swe
 eusebio-de-cesareia-tlg002-grc-kirsopp-lake-1926-1932
 exodo-grc-lxx-swe
@@ -457,9 +471,14 @@ ezequiel-grc-lxx-swe
 ferreira-manual-do-cidadao-pt-1834-v01
 ferreira-manual-do-cidadao-pt-1834-v02
 ferreira-manual-do-cidadao-pt-1834-v03
+filolau-fragmentos-grc-diels-1922
 genesis-grc-lxx-swe
+gorgias-defesa-de-palamedes-grc-blass-1908
+gorgias-elogio-de-helena-grc-blass-1908
 habacuque-grc-lxx-swe
+heraclito-fragmentos-grc-diels-1922
 hermas-the-shepherd-of-hermas-eng-kirsopp-lake-1913
+hipolito-refutacao-de-todas-as-heresias-grc-wendland-1916
 hobbes-leviathan-latin-1668
 impressoes-app
 impressoes-app-2
@@ -515,6 +534,7 @@ numeros-grc-lxx-swe
 obadias-grc-lxx-swe
 odes-grc-lxx-swe
 oseias-grc-lxx-swe
+parmenides-fragmentos-grc-diels-1922
 parmenides-testemunhos-grc-diaphoreus-2026
 personagem-ailton-krenak
 personagem-aristoteles-estagira
@@ -538,6 +558,7 @@ personagem-socrates-de-atenas
 personagem-teodoro-de-cirene
 personagem-voltaire
 pico-della-mirandola-oratio-de-hominis-dignitate-lat-latinlibrary-sd
+pitagoras-cartas-grc-hercher-1873
 platao-a-republica-eng-paul-shorey-1935-37
 platao-a-republica-grc-john-burnet-1905
 platao-alcibiades-1-eng-walter-rangeley-maitland-lamb-1927
@@ -964,6 +985,7 @@ plutarco-whether-vice-be-sufficient-to-cause-unhappiness-eng-william-w-goodwin-1
 plutarco-whether-vice-be-sufficient-to-cause-unhappiness-grc-gr-gorios-n-vernardak-s-1891
 policarpo-the-epistle-to-the-philippians-of-saint-polycarp-eng-kirsopp-lake-1912
 proverbios-grc-lxx-swe
+pseudo-plutarco-placita-philosophorum-grc-vernardakis-1888
 rousseau-discurso-sobre-as-ciencias-e-as-artes-pt-anonimo-2001
 rute-grc-lxx-swe
 sabedoria-grc-lxx-swe
@@ -986,6 +1008,7 @@ seneca-thyestes-la-rudolf-peiper-1921
 seneca-thyestes-lat-rudolf-peiper-1921
 seneca-troades-lat-rudolf-peiper-1921
 sexto-empirico-adversus-mathematicos-grc-mutschmann-mau-1954
+sexto-empirico-hipotiposes-pirronicas-grc-mutschmann-1912
 simplicio-in-de-caelo-grc-heiberg-1894
 simplicio-in-physica-grc-diels-1895
 sobre-o-projeto
@@ -1167,4 +1190,5 @@ vulgata-clementina-tit-lat-tweedale-2005
 vulgata-clementina-tob-lat-tweedale-2005
 vulgata-clementina-zach-lat-tweedale-2005
 vygotsky-pensamento-e-linguagem-pt-anonimo-2001
+xenocrates-fragmentos-grc-mullach-1881
 zacarias-grc-lxx-swe

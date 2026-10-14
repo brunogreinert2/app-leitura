@@ -7119,6 +7119,152 @@
       "autor": "Aristóteles",
       "arquivo": "FILOSOFIA/Grego/Filosofia_Classica/Aristoteles/Categorias/Aristoteles_Categorias_grc_Bekker_1837.md",
       "sistema_referencia": "capitulo-secao"
+    },
+    {
+      "id": "sexto-empirico-hipotiposes-pirronicas-grc-mutschmann-1912",
+      "titulo": "Πυρρώνειοι ὑποτυπώσεις",
+      "autor": "Sexto Empírico",
+      "arquivo": "FILOSOFIA/Grego/Ceticismo/Sexto_Empirico/Hipotiposes_Pirronicas/Sexto_Empirico_Hipotiposes_Pirronicas_grc_Mutschmann_1912.md",
+      "sistema_referencia": "capitulo-secao"
+    },
+    {
+      "id": "pseudo-plutarco-placita-philosophorum-grc-vernardakis-1888",
+      "titulo": "Περὶ τῶν ἀρεσκόντων τοῖς φιλοσόφοις φυσικῶν δογμάτων",
+      "autor": "Pseudo-Plutarco",
+      "arquivo": "FILOSOFIA/Grego/Doxografia/Pseudo_Plutarco/Placita_Philosophorum/Pseudo-Plutarco_Placita_Philosophorum_grc_Vernardakis_1888.md",
+      "sistema_referencia": "stephanus"
+    },
+    {
+      "id": "espeusipo-fragmentos-grc-mullach-1881",
+      "titulo": "Fragmenta",
+      "autor": "Espeusipo",
+      "arquivo": "FILOSOFIA/Grego/Filosofia_Classica/Espeusipo/Fragmentos/Espeusipo_Fragmentos_grc_Mullach_1881.md"
+    },
+    {
+      "id": "xenocrates-fragmentos-grc-mullach-1881",
+      "titulo": "Fragmenta",
+      "autor": "Xenócrates",
+      "arquivo": "FILOSOFIA/Grego/Filosofia_Classica/Xenocrates/Fragmentos/Xenocrates_Fragmentos_grc_Mullach_1881.md"
+    },
+    {
+      "id": "clemente-de-alexandria-eclogae-propheticae-grc-stahlin-1909",
+      "titulo": "Ἐκ τῶν προφητικῶν ἐκλογαί",
+      "autor": "Clemente de Alexandria",
+      "arquivo": "FILOSOFIA/Grego/Patristica/Padres_Gregos/Clemente_de_Alexandria/Eclogae_Propheticae/Clemente_de_Alexandria_Eclogae_Propheticae_grc_Stahlin_1909.md"
+    },
+    {
+      "id": "clemente-de-alexandria-excerpta-ex-theodoto-grc-stahlin-1909",
+      "titulo": "Excerpta ex Theodoto",
+      "autor": "Clemente de Alexandria",
+      "arquivo": "FILOSOFIA/Grego/Patristica/Padres_Gregos/Clemente_de_Alexandria/Excerpta_ex_Theodoto/Clemente_de_Alexandria_Excerpta_ex_Theodoto_grc_Stahlin_1909.md"
+    },
+    {
+      "id": "clemente-de-alexandria-pedagogo-grc-stahlin-1905",
+      "titulo": "Παιδαγωγός",
+      "autor": "Clemente de Alexandria",
+      "arquivo": "FILOSOFIA/Grego/Patristica/Padres_Gregos/Clemente_de_Alexandria/Pedagogo/Clemente_de_Alexandria_Pedagogo_grc_Stahlin_1905.md"
+    },
+    {
+      "id": "hipolito-refutacao-de-todas-as-heresias-grc-wendland-1916",
+      "titulo": "Κατὰ πασῶν αἱρέσεων ἔλεγχος",
+      "autor": "Hipólito de Roma",
+      "arquivo": "FILOSOFIA/Grego/Patristica/Padres_Gregos/Hipolito/Refutacao_de_Todas_as_Heresias/Hipolito_Refutacao_de_Todas_as_Heresias_grc_Wendland_1916.md"
+    },
+    {
+      "id": "arquitas-fragmentos-grc-diels-1922",
+      "titulo": "Fragmenta",
+      "autor": "Arquitas",
+      "arquivo": "FILOSOFIA/Grego/Pre_Socraticos/Arquitas/Fragmentos/Arquitas_Fragmentos_grc_Diels_1922.md"
+    },
+    {
+      "id": "democrito-fragmentos-grc-diels-1922",
+      "titulo": "Fragmenta",
+      "autor": "Demócrito",
+      "arquivo": "FILOSOFIA/Grego/Pre_Socraticos/Democrito/Fragmentos/Democrito_Fragmentos_grc_Diels_1922.md"
+    },
+    {
+      "id": "filolau-fragmentos-grc-diels-1922",
+      "titulo": "Fragmenta",
+      "autor": "Filolau",
+      "arquivo": "FILOSOFIA/Grego/Pre_Socraticos/Filolau/Fragmentos/Filolau_Fragmentos_grc_Diels_1922.md"
+    },
+    {
+      "id": "heraclito-fragmentos-grc-diels-1922",
+      "titulo": "Fragmenta",
+      "autor": "Heráclito",
+      "arquivo": "FILOSOFIA/Grego/Pre_Socraticos/Heraclito/Fragmentos/Heraclito_Fragmentos_grc_Diels_1922.md"
+    },
+    {
+      "id": "parmenides-fragmentos-grc-diels-1922",
+      "titulo": "Fragmenta",
+      "autor": "Parmênides",
+      "arquivo": "FILOSOFIA/Grego/Pre_Socraticos/Parmenides/Fragmentos/Parmenides_Fragmentos_grc_Diels_1922.md"
+    },
+    {
+      "id": "pitagoras-cartas-grc-hercher-1873",
+      "titulo": "Epistulae",
+      "autor": "Pitágoras",
+      "arquivo": "FILOSOFIA/Grego/Pre_Socraticos/Pitagoras/Cartas/Pitagoras_Cartas_grc_Hercher_1873.md"
+    },
+    {
+      "id": "antifonte-contra-a-madrasta-grc-maidment-1941",
+      "titulo": "Φαρμακείας κατὰ τῆς μητρυιᾶς",
+      "autor": "Antifonte",
+      "arquivo": "FILOSOFIA/Grego/Retorica/Antifonte/Contra_a_Madrasta/Antifonte_Contra_a_Madrasta_grc_Maidment_1941.md"
+    },
+    {
+      "id": "antifonte-primeira-tetralogia-grc-maidment-1941",
+      "titulo": "Τετραλογία Α΄",
+      "autor": "Antifonte",
+      "arquivo": "FILOSOFIA/Grego/Retorica/Antifonte/Primeira_Tetralogia/Antifonte_Primeira_Tetralogia_grc_Maidment_1941.md"
+    },
+    {
+      "id": "antifonte-segunda-tetralogia-grc-maidment-1941",
+      "titulo": "Τετραλογία Β΄",
+      "autor": "Antifonte",
+      "arquivo": "FILOSOFIA/Grego/Retorica/Antifonte/Segunda_Tetralogia/Antifonte_Segunda_Tetralogia_grc_Maidment_1941.md"
+    },
+    {
+      "id": "antifonte-sobre-o-assassinato-de-herodes-grc-maidment-1941",
+      "titulo": "Περὶ τοῦ Ἡρῴδου φόνου",
+      "autor": "Antifonte",
+      "arquivo": "FILOSOFIA/Grego/Retorica/Antifonte/Sobre_o_Assassinato_de_Herodes/Antifonte_Sobre_o_Assassinato_de_Herodes_grc_Maidment_1941.md"
+    },
+    {
+      "id": "antifonte-sobre-o-coreuta-grc-maidment-1941",
+      "titulo": "Περὶ τοῦ χορευτοῦ",
+      "autor": "Antifonte",
+      "arquivo": "FILOSOFIA/Grego/Retorica/Antifonte/Sobre_o_Coreuta/Antifonte_Sobre_o_Coreuta_grc_Maidment_1941.md"
+    },
+    {
+      "id": "antifonte-terceira-tetralogia-grc-maidment-1941",
+      "titulo": "Τετραλογία Γ΄",
+      "autor": "Antifonte",
+      "arquivo": "FILOSOFIA/Grego/Retorica/Antifonte/Terceira_Tetralogia/Antifonte_Terceira_Tetralogia_grc_Maidment_1941.md"
+    },
+    {
+      "id": "anonimo-de-jamblico-fragmentos-grc-diels-1922",
+      "titulo": "Fragmenta",
+      "autor": "Anônimo de Jâmblico",
+      "arquivo": "FILOSOFIA/Grego/Sofistica/Anonimo_de_Jamblico/Fragmentos/Anonimo_de_Jamblico_Fragmentos_grc_Diels_1922.md"
+    },
+    {
+      "id": "antifonte-fragmentos-grc-diels-1922",
+      "titulo": "Fragmenta",
+      "autor": "Antifonte",
+      "arquivo": "FILOSOFIA/Grego/Sofistica/Antifonte/Fragmentos/Antifonte_Fragmentos_grc_Diels_1922.md"
+    },
+    {
+      "id": "gorgias-defesa-de-palamedes-grc-blass-1908",
+      "titulo": "Ὑπὲρ Παλαμήδους ἀπολογία",
+      "autor": "Górgias",
+      "arquivo": "FILOSOFIA/Grego/Sofistica/Gorgias/Defesa_de_Palamedes/Gorgias_Defesa_de_Palamedes_grc_Blass_1908.md"
+    },
+    {
+      "id": "gorgias-elogio-de-helena-grc-blass-1908",
+      "titulo": "Ἑλένης ἐγκώμιον",
+      "autor": "Górgias",
+      "arquivo": "FILOSOFIA/Grego/Sofistica/Gorgias/Elogio_de_Helena/Gorgias_Elogio_de_Helena_grc_Blass_1908.md"
     }
   ],
   "redirecionamentos": {
