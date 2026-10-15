@@ -78,6 +78,11 @@ REGRAS_LINHA = [
 ]
 RE_CODIGO = re.compile(r"`[^`\n]+`")
 IGNORA_CODIGO = {"C01-null", "C02-xml"}
+# Dentro de ```verso e ```interlinear o app e o rolo mostram o texto literal,
+# linha a linha: ali não há tabela nem realce possíveis, e a linha de papiro
+# que começa e termina com a barra da quebra do rolo (| νεμωκέα κόραν . . . |,
+# Crisipo, SVF II, PHerc. 307) não é tabela (Διαφορεύς, 2026-10-15).
+IGNORA_NA_CERCA = {"C06-tabela", "C07-realce"}
 RE_CERCA = re.compile(r"^\s*```(.*)$")
 CERCAS_PERMITIDAS = {"interlinear", "verso"}
 RE_NOTA_USO = re.compile(r"\[\^([^\]\s]+)\](?!:)")
@@ -152,6 +157,7 @@ def exportar_regras() -> dict:
         "etiquetas_idioma": sorted(ETIQUETAS_IDIOMA),
         "codigo": RE_CODIGO.pattern,
         "ignora_codigo": sorted(IGNORA_CODIGO),
+        "ignora_na_cerca": sorted(IGNORA_NA_CERCA),
         "descricao": DESCRICAO,
         "nivel": NIVEL,
         "como_consertar": COMO_CONSERTAR,
@@ -298,6 +304,8 @@ def validar_corpo(corpo: str, desloc: int, achados):
         # vazamento olham a linha sem ele; as outras, a linha inteira.
         sem_codigo = RE_CODIGO.sub("", linha)
         for cod, _, _, rx in REGRAS_LINHA:
+            if dentro_cerca is not None and cod in IGNORA_NA_CERCA:
+                continue
             alvo = sem_codigo if cod in IGNORA_CODIGO else linha
             mm = rx.search(alvo)
             if mm:
