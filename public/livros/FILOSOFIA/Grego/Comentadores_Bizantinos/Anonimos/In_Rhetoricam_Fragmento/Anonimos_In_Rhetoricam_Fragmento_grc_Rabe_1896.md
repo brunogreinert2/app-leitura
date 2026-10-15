@@ -22,7 +22,7 @@ source_repo: OpenGreekAndLatin/First1KGreek
 source_file: data/tlg4026/tlg002/tlg4026.tlg002.1st1K-grc1.xml
 source_commit: 03776b39
 license: CC-BY-SA-4.0
-processing: Saneamento/obra_nova_tei.py e conversor_tei.py (perfil divs-titulos), 2026-10-14; preparado por Διαφορεύς, Claude Opus 5.5.
+processing: Saneamento/obra_nova_tei.py e conversor_tei.py (perfil divs-titulos), 2026-10-14; preparado por Διαφορεύς com o Claude.
 ---
 
 # Fragmentum commentarii in Aristotelis rhetorica

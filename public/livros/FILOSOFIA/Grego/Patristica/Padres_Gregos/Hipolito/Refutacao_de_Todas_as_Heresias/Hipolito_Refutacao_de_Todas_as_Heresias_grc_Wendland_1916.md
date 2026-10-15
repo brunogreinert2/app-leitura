@@ -25,7 +25,7 @@ source_repo: OpenGreekAndLatin/First1KGreek
 source_file: data/tlg2115/tlg060/tlg2115.tlg060.opp-grc1.xml
 source_commit: 03776b39
 license: CC-BY-SA-4.0
-processing: Saneamento/obra_nova_tei.py e conversor_tei.py (perfil divs-versos-preambulo), 2026-10-14; preparado por Διαφορεύς, Claude Opus 5.5.
+processing: Saneamento/obra_nova_tei.py e conversor_tei.py (perfil divs-versos-preambulo), 2026-10-14; preparado por Διαφορεύς com o Claude.
 ---
 
 # Κατὰ πασῶν αἱρέσεων ἔλεγχος

@@ -25,7 +25,7 @@ source_repo: PerseusDL/canonical-greekLit
 source_file: data/tlg0074/tlg005/tlg0074.tlg005.perseus-grc2.xml
 source_commit: 0189b9c8
 license: CC-BY-SA-4.0
-processing: Saneamento/obra_nova_tei.py e conversor_tei.py (perfil divs-titulos), 2026-10-14; preparado por Διαφορεύς, Claude Opus 5.5.
+processing: Saneamento/obra_nova_tei.py e conversor_tei.py (perfil divs-titulos), 2026-10-14; preparado por Διαφορεύς com o Claude.
 ---
 
 # Τέχνη τακτική

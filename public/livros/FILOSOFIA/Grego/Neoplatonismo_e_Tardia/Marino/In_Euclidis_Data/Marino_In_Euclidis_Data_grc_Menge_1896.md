@@ -23,7 +23,7 @@ source_repo: OpenGreekAndLatin/First1KGreek
 source_file: data/tlg4075/tlg002/tlg4075.tlg002.1st1K-grc1.xml
 source_commit: 03776b39
 license: CC-BY-SA-4.0
-processing: Saneamento/obra_nova_tei.py e conversor_tei.py (perfil cag2), 2026-10-14; preparado por Διαφορεύς, Claude Opus 5.5.
+processing: Saneamento/obra_nova_tei.py e conversor_tei.py (perfil cag2), 2026-10-14; preparado por Διαφορεύς com o Claude.
 ---
 
 # Commentarium in Euclidis Data

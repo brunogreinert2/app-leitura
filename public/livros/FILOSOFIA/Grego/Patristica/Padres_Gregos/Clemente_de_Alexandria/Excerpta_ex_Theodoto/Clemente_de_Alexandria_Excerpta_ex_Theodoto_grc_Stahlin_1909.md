@@ -24,7 +24,7 @@ source_repo: OpenGreekAndLatin/First1KGreek
 source_file: data/tlg0555/tlg007/tlg0555.tlg007.1st1K-grc1.xml
 source_commit: 03776b39
 license: CC-BY-SA-4.0
-processing: Saneamento/obra_nova_tei.py e conversor_tei.py (perfil secao-subsecao), 2026-10-14; preparado por Διαφορεύς, Claude Opus 5.5.
+processing: Saneamento/obra_nova_tei.py e conversor_tei.py (perfil secao-subsecao), 2026-10-14; preparado por Διαφορεύς com o Claude.
 ---
 
 # Excerpta ex Theodoto
