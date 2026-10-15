@@ -7834,6 +7834,141 @@
       "titulo": "Ἱέρων",
       "autor": "Xenofonte",
       "arquivo": "FILOSOFIA/Grego/Filosofia_Classica/Xenofonte/Hierao/Xenofonte_Hierao_grc_Marchant_1920.md"
+    },
+    {
+      "id": "epicuro-carta-a-herodoto-grc-von-der-muhll-1922",
+      "titulo": "Ἐπίκουρος Ἡροδότῳ χαίρειν",
+      "autor": "Epicuro",
+      "arquivo": "FILOSOFIA/Grego/Epicurismo/Epicuro/Carta_a_Herodoto/Epicuro_Carta_a_Herodoto_grc_Von-der-Muhll_1922.md"
+    },
+    {
+      "id": "epicuro-carta-a-meneceu-grc-von-der-muhll-1922",
+      "titulo": "Ἐπίκουρος Μενοικεῖ χαίρειν",
+      "autor": "Epicuro",
+      "arquivo": "FILOSOFIA/Grego/Epicurismo/Epicuro/Carta_a_Meneceu/Epicuro_Carta_a_Meneceu_grc_Von-der-Muhll_1922.md"
+    },
+    {
+      "id": "epicuro-carta-a-pitocles-grc-von-der-muhll-1922",
+      "titulo": "Ἐπίκουρος Πυθοκλεῖ χαίρειν",
+      "autor": "Epicuro",
+      "arquivo": "FILOSOFIA/Grego/Epicurismo/Epicuro/Carta_a_Pitocles/Epicuro_Carta_a_Pitocles_grc_Von-der-Muhll_1922.md"
+    },
+    {
+      "id": "epicuro-maximas-principais-grc-von-der-muhll-1922",
+      "titulo": "Κύριαι δόξαι",
+      "autor": "Epicuro",
+      "arquivo": "FILOSOFIA/Grego/Epicurismo/Epicuro/Maximas_Principais/Epicuro_Maximas_Principais_grc_Von-der-Muhll_1922.md"
+    },
+    {
+      "id": "epicuro-sentencas-vaticanas-grc-von-der-muhll-1922",
+      "titulo": "Ἐπικούρου προσφώνησις",
+      "autor": "Epicuro",
+      "arquivo": "FILOSOFIA/Grego/Epicurismo/Epicuro/Sentencas_Vaticanas/Epicuro_Sentencas_Vaticanas_grc_Von-der-Muhll_1922.md"
+    },
+    {
+      "id": "arriano-carta-a-lucio-gelio-grc-roos-1910",
+      "titulo": "Ἀρριανὸς Λουκίῳ Γελλίῳ χαίρειν",
+      "autor": "Arriano",
+      "arquivo": "FILOSOFIA/Grego/Estoicismo/Arriano/Carta_a_Lucio_Gelio/Arriano_Carta_a_Lucio_Gelio_grc_Roos_1910.md"
+    },
+    {
+      "id": "cleantes-testemunhos-e-fragmentos-grc-von-arnim-1903",
+      "titulo": "Testimonia et fragmenta",
+      "autor": "Cleantes",
+      "arquivo": "FILOSOFIA/Grego/Estoicismo/Cleantes/Testemunhos_e_Fragmentos/Cleantes_Testemunhos_e_Fragmentos_grc_Von-Arnim_1903.md",
+      "sistema_referencia": "svf"
+    },
+    {
+      "id": "crisipo-fragmentos-homericos-grc-von-arnim-1903",
+      "titulo": "Fragmenta ad explicationem carminum Homericorum",
+      "autor": "Crisipo",
+      "arquivo": "FILOSOFIA/Grego/Estoicismo/Crisipo/Fragmentos_Homericos/Crisipo_Fragmentos_Homericos_grc_Von-Arnim_1903.md",
+      "sistema_referencia": "svf"
+    },
+    {
+      "id": "crisipo-fragmentos-morais-grc-von-arnim-1903",
+      "titulo": "Fragmenta moralia",
+      "autor": "Crisipo",
+      "arquivo": "FILOSOFIA/Grego/Estoicismo/Crisipo/Fragmentos_Morais/Crisipo_Fragmentos_Morais_grc_Von-Arnim_1903.md",
+      "sistema_referencia": "svf"
+    },
+    {
+      "id": "crisipo-fragmentos-por-livro-grc-von-arnim-1903",
+      "titulo": "Fragmenta ad singulos libros relata",
+      "autor": "Crisipo",
+      "arquivo": "FILOSOFIA/Grego/Estoicismo/Crisipo/Fragmentos_por_Livro/Crisipo_Fragmentos_por_Livro_grc_Von-Arnim_1903.md"
+    },
+    {
+      "id": "musonio-rufo-cartas-espurias-grc-hense-1905",
+      "titulo": "Ἐπιστολαί",
+      "autor": "Musônio Rufo",
+      "arquivo": "FILOSOFIA/Grego/Estoicismo/Musonio_Rufo/Cartas_Espurias/Musonio_Rufo_Cartas_Espurias_grc_Hense_1905.md"
+    },
+    {
+      "id": "musonio-rufo-diatribes-grc-hense-1905",
+      "titulo": "Μουσωνίου διατριβαί",
+      "autor": "Musônio Rufo",
+      "arquivo": "FILOSOFIA/Grego/Estoicismo/Musonio_Rufo/Diatribes/Musonio_Rufo_Diatribes_grc_Hense_1905.md"
+    },
+    {
+      "id": "musonio-rufo-fragmentos-grc-hense-1905",
+      "titulo": "Ἀποσπάσματα",
+      "autor": "Musônio Rufo",
+      "arquivo": "FILOSOFIA/Grego/Estoicismo/Musonio_Rufo/Fragmentos/Musonio_Rufo_Fragmentos_grc_Hense_1905.md"
+    },
+    {
+      "id": "xenofonte-agesilau-grc-marchant-1920",
+      "titulo": "Ἀγησίλαος",
+      "autor": "Xenofonte",
+      "arquivo": "FILOSOFIA/Grego/Filosofia_Classica/Xenofonte/Agesilau/Xenofonte_Agesilau_grc_Marchant_1920.md"
+    },
+    {
+      "id": "xenofonte-anabase-grc-marchant-1904",
+      "titulo": "Κύρου ἀνάβασις",
+      "autor": "Xenofonte",
+      "arquivo": "FILOSOFIA/Grego/Filosofia_Classica/Xenofonte/Anabase/Xenofonte_Anabase_grc_Marchant_1904.md"
+    },
+    {
+      "id": "xenofonte-cinegetico-grc-marchant-1920",
+      "titulo": "Κυνηγετικός",
+      "autor": "Xenofonte",
+      "arquivo": "FILOSOFIA/Grego/Filosofia_Classica/Xenofonte/Cinegetico/Xenofonte_Cinegetico_grc_Marchant_1920.md"
+    },
+    {
+      "id": "xenofonte-ciropedia-grc-marchant-1910",
+      "titulo": "Κύρου παιδεία",
+      "autor": "Xenofonte",
+      "arquivo": "FILOSOFIA/Grego/Filosofia_Classica/Xenofonte/Ciropedia/Xenofonte_Ciropedia_grc_Marchant_1910.md"
+    },
+    {
+      "id": "xenofonte-constituicao-dos-lacedemonios-grc-marchant-1920",
+      "titulo": "Λακεδαιμονίων πολιτεία",
+      "autor": "Xenofonte",
+      "arquivo": "FILOSOFIA/Grego/Filosofia_Classica/Xenofonte/Constituicao_dos_Lacedemonios/Xenofonte_Constituicao_dos_Lacedemonios_grc_Marchant_1920.md"
+    },
+    {
+      "id": "xenofonte-da-equitacao-grc-marchant-1920",
+      "titulo": "Περὶ ἱππικῆς",
+      "autor": "Xenofonte",
+      "arquivo": "FILOSOFIA/Grego/Filosofia_Classica/Xenofonte/Da_Equitacao/Xenofonte_Da_Equitacao_grc_Marchant_1920.md"
+    },
+    {
+      "id": "xenofonte-helenicas-grc-marchant-1900",
+      "titulo": "Ἑλληνικά",
+      "autor": "Xenofonte",
+      "arquivo": "FILOSOFIA/Grego/Filosofia_Classica/Xenofonte/Helenicas/Xenofonte_Helenicas_grc_Marchant_1900.md"
+    },
+    {
+      "id": "xenofonte-hiparquico-grc-marchant-1920",
+      "titulo": "Ἱππαρχικός",
+      "autor": "Xenofonte",
+      "arquivo": "FILOSOFIA/Grego/Filosofia_Classica/Xenofonte/Hiparquico/Xenofonte_Hiparquico_grc_Marchant_1920.md"
+    },
+    {
+      "id": "xenofonte-poroi-grc-marchant-1920",
+      "titulo": "Πόροι ἢ περὶ προσόδων",
+      "autor": "Xenofonte",
+      "arquivo": "FILOSOFIA/Grego/Filosofia_Classica/Xenofonte/Poroi/Xenofonte_Poroi_grc_Marchant_1920.md"
     }
   ],
   "redirecionamentos": {
