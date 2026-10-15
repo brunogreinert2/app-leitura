@@ -8564,6 +8564,24 @@
       "titulo": "Fragmenta",
       "autor": "Pródico",
       "arquivo": "FILOSOFIA/Grego/Sofistica/Prodico/Fragmentos/Prodico_Fragmentos_grc_Diels_1922.md"
+    },
+    {
+      "id": "epimenides-fragmentos-grc-diels-1922",
+      "titulo": "Fragmenta",
+      "autor": "Epimênides",
+      "arquivo": "FILOSOFIA/Grego/Pre_Socraticos/Epimenides/Fragmentos/Epimenides_Fragmentos_grc_Diels_1922.md"
+    },
+    {
+      "id": "hecateu-de-abdera-fragmentos-grc-diels-1922",
+      "titulo": "Fragmenta",
+      "autor": "Hecateu de Abdera",
+      "arquivo": "FILOSOFIA/Grego/Pre_Socraticos/Hecateu_de_Abdera/Fragmentos/Hecateu_de_Abdera_Fragmentos_grc_Diels_1922.md"
+    },
+    {
+      "id": "dissoi-logoi-grc-diels-1922",
+      "titulo": "Δισσοὶ λόγοι",
+      "autor": "Anônimo",
+      "arquivo": "FILOSOFIA/Grego/Sofistica/Dissoi_Logoi/Dissoi_Logoi_grc_Diels_1922.md"
     }
   ],
   "redirecionamentos": {
