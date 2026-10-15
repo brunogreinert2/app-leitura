@@ -7969,6 +7969,49 @@
       "titulo": "Πόροι ἢ περὶ προσόδων",
       "autor": "Xenofonte",
       "arquivo": "FILOSOFIA/Grego/Filosofia_Classica/Xenofonte/Poroi/Xenofonte_Poroi_grc_Marchant_1920.md"
+    },
+    {
+      "id": "arriano-anabase-de-alexandre-grc-roos-1907",
+      "titulo": "Ἀλεξάνδρου ἀνάβασις",
+      "autor": "Arriano",
+      "arquivo": "FILOSOFIA/Grego/Estoicismo/Arriano/Anabase_de_Alexandre/Arriano_Anabase_de_Alexandre_grc_Roos_1907.md"
+    },
+    {
+      "id": "arriano-cinegetico-grc-hercher-eberhard-1885",
+      "titulo": "Κυνηγετικός",
+      "autor": "Arriano",
+      "arquivo": "FILOSOFIA/Grego/Estoicismo/Arriano/Cinegetico/Arriano_Cinegetico_grc_Hercher-Eberhard_1885.md"
+    },
+    {
+      "id": "arriano-contra-os-alanos-grc-hercher-eberhard-1885",
+      "titulo": "Ἔκταξις κατὰ Ἀλανῶν",
+      "autor": "Arriano",
+      "arquivo": "FILOSOFIA/Grego/Estoicismo/Arriano/Contra_os_Alanos/Arriano_Contra_os_Alanos_grc_Hercher-Eberhard_1885.md"
+    },
+    {
+      "id": "arriano-indica-grc-hercher-eberhard-1885",
+      "titulo": "Ἰνδική",
+      "autor": "Arriano",
+      "arquivo": "FILOSOFIA/Grego/Estoicismo/Arriano/Indica/Arriano_Indica_grc_Hercher-Eberhard_1885.md"
+    },
+    {
+      "id": "arriano-periplo-do-ponto-euxino-grc-hercher-eberhard-1885",
+      "titulo": "Περίπλους τοῦ Εὐξείνου Πόντου",
+      "autor": "Arriano",
+      "arquivo": "FILOSOFIA/Grego/Estoicismo/Arriano/Periplo_do_Ponto_Euxino/Arriano_Periplo_do_Ponto_Euxino_grc_Hercher-Eberhard_1885.md"
+    },
+    {
+      "id": "arriano-tatica-grc-hercher-eberhard-1885",
+      "titulo": "Τέχνη τακτική",
+      "autor": "Arriano",
+      "arquivo": "FILOSOFIA/Grego/Estoicismo/Arriano/Tatica/Arriano_Tatica_grc_Hercher-Eberhard_1885.md"
+    },
+    {
+      "id": "crisipo-fragmentos-logicos-e-fisicos-grc-von-arnim-1903",
+      "titulo": "Fragmenta logica et physica",
+      "autor": "Crisipo",
+      "arquivo": "FILOSOFIA/Grego/Estoicismo/Crisipo/Fragmentos_Logicos_e_Fisicos/Crisipo_Fragmentos_Logicos_e_Fisicos_grc_Von-Arnim_1903.md",
+      "sistema_referencia": "svf"
     }
   ],
   "redirecionamentos": {

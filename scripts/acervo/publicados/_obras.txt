@@ -101,7 +101,13 @@ aristoteles-tlg045-grc-immanuel-bekker-1831
 aristoteles-topicos-grc-bekker-1837
 arnobio-adversus-nationes-lat-latinlibrary-sd
 arquitas-fragmentos-grc-diels-1922
+arriano-anabase-de-alexandre-grc-roos-1907
 arriano-carta-a-lucio-gelio-grc-roos-1910
+arriano-cinegetico-grc-hercher-eberhard-1885
+arriano-contra-os-alanos-grc-hercher-eberhard-1885
+arriano-indica-grc-hercher-eberhard-1885
+arriano-periplo-do-ponto-euxino-grc-hercher-eberhard-1885
+arriano-tatica-grc-hercher-eberhard-1885
 barnabe-the-epistle-of-barnabas-eng-kirsopp-lake-1912
 barnabe-the-epistle-of-barnabas-grc-kirsopp-lake-1912
 baruc-grc-lxx-swe
@@ -410,6 +416,7 @@ clemente-de-alexandria-tlg008-grc-g-w-butterworth-1919
 clemente-de-roma-the-first-epistle-of-clement-to-the-corinthians-eng-kirsopp-lake-1912
 clemente-de-roma-the-second-epistle-of-clement-to-the-corinthians-eng-kirsopp-lake-1912
 crisipo-fragmentos-homericos-grc-von-arnim-1903
+crisipo-fragmentos-logicos-e-fisicos-grc-von-arnim-1903
 crisipo-fragmentos-morais-grc-von-arnim-1903
 crisipo-fragmentos-por-livro-grc-von-arnim-1903
 daniel-grc-lxx-swe-og
