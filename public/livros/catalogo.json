@@ -8582,6 +8582,228 @@
       "titulo": "Δισσοὶ λόγοι",
       "autor": "Anônimo",
       "arquivo": "FILOSOFIA/Grego/Sofistica/Dissoi_Logoi/Dissoi_Logoi_grc_Diels_1922.md"
+    },
+    {
+      "id": "pseudo-plutarco-of-those-sentiments-concerning-nature-with-which-philosopher-eng-john-dowell-1874",
+      "titulo": "Of Those Sentiments Concerning Nature with which Philosophers were Delighted",
+      "autor": "Pseudo-Plutarch",
+      "arquivo": "FILOSOFIA/Ingles/Biografia_e_Doxografia/Pseudo_Plutarco/Placita_Philosophorum/Placita_Philosophorum_eng_john-dowell_1874.md"
+    },
+    {
+      "id": "sexto-empirico-outlines-of-pyrrhonism-eng-robert-gregg-bury-1933",
+      "titulo": "Outlines of Pyrrhonism",
+      "autor": "Sextus Empiricus",
+      "arquivo": "FILOSOFIA/Ingles/Ceticismo/Sexto_Empirico/Hipotiposes_Pirronicas/Hipotiposes_Pirronicas_eng_robert-gregg-bury_1933.md"
+    },
+    {
+      "id": "xenofonte-anabasis-eng-carleton-l-brownson-1921",
+      "titulo": "Anabasis",
+      "autor": "Xenophon",
+      "arquivo": "FILOSOFIA/Ingles/Filosofia_Classica/Xenofonte/Anabase/Anabase_eng_carleton-l-brownson_1921.md"
+    },
+    {
+      "id": "xenofonte-cyropaedia-eng-walter-miller-1914",
+      "titulo": "Cyropaedia",
+      "autor": "Xenophon",
+      "arquivo": "FILOSOFIA/Ingles/Filosofia_Classica/Xenofonte/Ciropedia/Ciropedia_eng_walter-miller_1914.md"
+    },
+    {
+      "id": "xenofonte-hellenica-eng-carleton-l-brownson-1918",
+      "titulo": "Hellenica",
+      "autor": "Xenophon",
+      "arquivo": "FILOSOFIA/Ingles/Filosofia_Classica/Xenofonte/Helenicas/Helenicas_eng_carleton-l-brownson_1918.md"
+    },
+    {
+      "id": "plutarco-conjugal-precepts-eng-john-philips-1874",
+      "titulo": "Conjugal Precepts",
+      "autor": "Plutarch",
+      "arquivo": "FILOSOFIA/Ingles/Moralistas/Plutarco/Advice_To_Bride_And_Groom/Advice_To_Bride_And_Groom_eng_john-philips_1874.md"
+    },
+    {
+      "id": "plutarco-of-the-word-ei-engraven-over-the-gate-of-apollo-s-temple-at-eng-r-kippax-1874",
+      "titulo": "Of the word ΕΙ engraven over the gate of Apollo's temple at Delphi.",
+      "autor": "Plutarch",
+      "arquivo": "FILOSOFIA/Ingles/Moralistas/Plutarco/The/The_eng_r-kippax_1874.md"
+    },
+    {
+      "id": "isocrates-to-demonicus-eng-george-norlin-1928",
+      "titulo": "To Demonicus",
+      "autor": "Isocrates",
+      "arquivo": "FILOSOFIA/Ingles/Retorica/Isocrates/A_Demonico/A_Demonico_eng_george-norlin_1928.md"
+    },
+    {
+      "id": "isocrates-to-philip-eng-george-norlin-1928",
+      "titulo": "To Philip",
+      "autor": "Isocrates",
+      "arquivo": "FILOSOFIA/Ingles/Retorica/Isocrates/A_Filipe/A_Filipe_eng_george-norlin_1928.md"
+    },
+    {
+      "id": "isocrates-to-nicocles-eng-george-norlin-1928",
+      "titulo": "To Nicocles",
+      "autor": "Isocrates",
+      "arquivo": "FILOSOFIA/Ingles/Retorica/Isocrates/A_Nicocles/A_Nicocles_eng_george-norlin_1928.md"
+    },
+    {
+      "id": "isocrates-antidosis-eng-george-norlin-1928",
+      "titulo": "Antidosis",
+      "autor": "Isocrates",
+      "arquivo": "FILOSOFIA/Ingles/Retorica/Isocrates/Antidose/Antidose_eng_george-norlin_1928.md"
+    },
+    {
+      "id": "isocrates-areopagiticus-eng-george-norlin-1928",
+      "titulo": "Areopagiticus",
+      "autor": "Isocrates",
+      "arquivo": "FILOSOFIA/Ingles/Retorica/Isocrates/Areopagitico/Areopagitico_eng_george-norlin_1928.md"
+    },
+    {
+      "id": "isocrates-archidamus-eng-george-norlin-1928",
+      "titulo": "Archidamus",
+      "autor": "Isocrates",
+      "arquivo": "FILOSOFIA/Ingles/Retorica/Isocrates/Arquidamo/Arquidamo_eng_george-norlin_1928.md"
+    },
+    {
+      "id": "isocrates-busiris-eng-larue-van-hook-1945",
+      "titulo": "Busiris",
+      "autor": "Isocrates",
+      "arquivo": "FILOSOFIA/Ingles/Retorica/Isocrates/Busiris/Busiris_eng_larue-van-hook_1945.md"
+    },
+    {
+      "id": "isocrates-letter-1-to-dionysius-eng-larue-van-hook-1945",
+      "titulo": "Letter 1. To Dionysius",
+      "autor": "Isocrates",
+      "arquivo": "FILOSOFIA/Ingles/Retorica/Isocrates/Carta_1_a_Dionisio/Carta_1_a_Dionisio_eng_larue-van-hook_1945.md"
+    },
+    {
+      "id": "isocrates-letter-2-to-philip-i-eng-larue-van-hook-1945",
+      "titulo": "Letter 2. To Philip, I",
+      "autor": "Isocrates",
+      "arquivo": "FILOSOFIA/Ingles/Retorica/Isocrates/Carta_2_a_Filipe/Carta_2_a_Filipe_eng_larue-van-hook_1945.md"
+    },
+    {
+      "id": "isocrates-letter-3-to-philip-ii-eng-larue-van-hook-1945",
+      "titulo": "Letter 3. To Philip, II",
+      "autor": "Isocrates",
+      "arquivo": "FILOSOFIA/Ingles/Retorica/Isocrates/Carta_3_a_Filipe/Carta_3_a_Filipe_eng_larue-van-hook_1945.md"
+    },
+    {
+      "id": "isocrates-letter-4-to-antipater-eng-larue-van-hook-1945",
+      "titulo": "Letter 4. To Antipater",
+      "autor": "Isocrates",
+      "arquivo": "FILOSOFIA/Ingles/Retorica/Isocrates/Carta_4_a_Antipatro/Carta_4_a_Antipatro_eng_larue-van-hook_1945.md"
+    },
+    {
+      "id": "isocrates-letter-5-to-alexander-eng-larue-van-hook-1945",
+      "titulo": "Letter 5. To Alexander",
+      "autor": "Isocrates",
+      "arquivo": "FILOSOFIA/Ingles/Retorica/Isocrates/Carta_5_a_Alexandre/Carta_5_a_Alexandre_eng_larue-van-hook_1945.md"
+    },
+    {
+      "id": "isocrates-letter-6-to-the-children-of-jason-eng-larue-van-hook-1945",
+      "titulo": "Letter 6. To the Children of Jason",
+      "autor": "Isocrates",
+      "arquivo": "FILOSOFIA/Ingles/Retorica/Isocrates/Carta_6_aos_Filhos_de_Jasao/Carta_6_aos_Filhos_de_Jasao_eng_larue-van-hook_1945.md"
+    },
+    {
+      "id": "isocrates-letter-7-to-timotheus-eng-larue-van-hook-1945",
+      "titulo": "Letter 7. To Timotheus",
+      "autor": "Isocrates",
+      "arquivo": "FILOSOFIA/Ingles/Retorica/Isocrates/Carta_7_a_Timoteo/Carta_7_a_Timoteo_eng_larue-van-hook_1945.md"
+    },
+    {
+      "id": "isocrates-letter-8-to-the-rulers-of-the-mytilenaeans-eng-larue-van-hook-1945",
+      "titulo": "Letter 8. To the Rulers of the Mytilenaeans",
+      "autor": "Isocrates",
+      "arquivo": "FILOSOFIA/Ingles/Retorica/Isocrates/Carta_8_aos_Governantes_de_Mitilene/Carta_8_aos_Governantes_de_Mitilene_eng_larue-van-hook_1945.md"
+    },
+    {
+      "id": "isocrates-letter-9-to-archidamus-eng-larue-van-hook-1945",
+      "titulo": "Letter 9. To Archidamus",
+      "autor": "Isocrates",
+      "arquivo": "FILOSOFIA/Ingles/Retorica/Isocrates/Carta_9_a_Arquidamo/Carta_9_a_Arquidamo_eng_larue-van-hook_1945.md"
+    },
+    {
+      "id": "isocrates-against-callimachus-eng-larue-van-hook-1945",
+      "titulo": "Against Callimachus",
+      "autor": "Isocrates",
+      "arquivo": "FILOSOFIA/Ingles/Retorica/Isocrates/Contra_Calimaco/Contra_Calimaco_eng_larue-van-hook_1945.md"
+    },
+    {
+      "id": "isocrates-against-euthynus-eng-larue-van-hook-1945",
+      "titulo": "Against Euthynus",
+      "autor": "Isocrates",
+      "arquivo": "FILOSOFIA/Ingles/Retorica/Isocrates/Contra_Eutino/Contra_Eutino_eng_larue-van-hook_1945.md"
+    },
+    {
+      "id": "isocrates-against-lochites-eng-larue-van-hook-1945",
+      "titulo": "Against Lochites",
+      "autor": "Isocrates",
+      "arquivo": "FILOSOFIA/Ingles/Retorica/Isocrates/Contra_Loquites/Contra_Loquites_eng_larue-van-hook_1945.md"
+    },
+    {
+      "id": "isocrates-against-the-sophists-eng-george-norlin-1928",
+      "titulo": "Against the Sophists",
+      "autor": "Isocrates",
+      "arquivo": "FILOSOFIA/Ingles/Retorica/Isocrates/Contra_os_Sofistas/Contra_os_Sofistas_eng_george-norlin_1928.md"
+    },
+    {
+      "id": "isocrates-aegineticus-eng-larue-van-hook-1945",
+      "titulo": "Aegineticus",
+      "autor": "Isocrates",
+      "arquivo": "FILOSOFIA/Ingles/Retorica/Isocrates/Eginetico/Eginetico_eng_larue-van-hook_1945.md"
+    },
+    {
+      "id": "isocrates-helen-eng-larue-van-hook-1945",
+      "titulo": "Helen",
+      "autor": "Isocrates",
+      "arquivo": "FILOSOFIA/Ingles/Retorica/Isocrates/Elogio_de_Helena/Elogio_de_Helena_eng_larue-van-hook_1945.md"
+    },
+    {
+      "id": "isocrates-evagoras-eng-larue-van-hook-1945",
+      "titulo": "Evagoras",
+      "autor": "Isocrates",
+      "arquivo": "FILOSOFIA/Ingles/Retorica/Isocrates/Evagoras/Evagoras_eng_larue-van-hook_1945.md"
+    },
+    {
+      "id": "isocrates-nicocles-or-the-cyprians-eng-george-norlin-1928",
+      "titulo": "Nicocles or the Cyprians",
+      "autor": "Isocrates",
+      "arquivo": "FILOSOFIA/Ingles/Retorica/Isocrates/Nicocles/Nicocles_eng_george-norlin_1928.md"
+    },
+    {
+      "id": "isocrates-panathenaicus-eng-george-norlin-1928",
+      "titulo": "Panathenaicus",
+      "autor": "Isocrates",
+      "arquivo": "FILOSOFIA/Ingles/Retorica/Isocrates/Panatenaico/Panatenaico_eng_george-norlin_1928.md"
+    },
+    {
+      "id": "isocrates-panegyricus-eng-george-norlin-1928",
+      "titulo": "Panegyricus",
+      "autor": "Isocrates",
+      "arquivo": "FILOSOFIA/Ingles/Retorica/Isocrates/Panegirico/Panegirico_eng_george-norlin_1928.md"
+    },
+    {
+      "id": "isocrates-plataicus-eng-larue-van-hook-1945",
+      "titulo": "Plataicus",
+      "autor": "Isocrates",
+      "arquivo": "FILOSOFIA/Ingles/Retorica/Isocrates/Plataico/Plataico_eng_larue-van-hook_1945.md"
+    },
+    {
+      "id": "isocrates-concerning-the-team-of-horses-eng-larue-van-hook-1945",
+      "titulo": "Concerning the Team of Horses",
+      "autor": "Isocrates",
+      "arquivo": "FILOSOFIA/Ingles/Retorica/Isocrates/Sobre_a_Parelha/Sobre_a_Parelha_eng_larue-van-hook_1945.md"
+    },
+    {
+      "id": "isocrates-on-the-peace-eng-george-norlin-1928",
+      "titulo": "On the Peace",
+      "autor": "Isocrates",
+      "arquivo": "FILOSOFIA/Ingles/Retorica/Isocrates/Sobre_a_Paz/Sobre_a_Paz_eng_george-norlin_1928.md"
+    },
+    {
+      "id": "isocrates-trapeziticus-eng-larue-van-hook-1945",
+      "titulo": "Trapeziticus",
+      "autor": "Isocrates",
+      "arquivo": "FILOSOFIA/Ingles/Retorica/Isocrates/Trapezitico/Trapezitico_eng_larue-van-hook_1945.md"
     }
   ],
   "redirecionamentos": {
