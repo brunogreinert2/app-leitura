@@ -8012,6 +8012,462 @@
       "autor": "Crisipo",
       "arquivo": "FILOSOFIA/Grego/Estoicismo/Crisipo/Fragmentos_Logicos_e_Fisicos/Crisipo_Fragmentos_Logicos_e_Fisicos_grc_Von-Arnim_1903.md",
       "sistema_referencia": "svf"
+    },
+    {
+      "id": "anonimos-in-analytica-posteriora-ii-grc-wallies-1909",
+      "titulo": "Anonymi in Analyticorum Posteriorum librum alterum commentarium",
+      "autor": "Anônimo",
+      "arquivo": "FILOSOFIA/Grego/Comentadores_Bizantinos/Anonimos/In_Analytica_Posteriora_II/Anonimos_In_Analytica_Posteriora_II_grc_Wallies_1909.md"
+    },
+    {
+      "id": "anonimos-in-rhetoricam-fragmento-grc-rabe-1896",
+      "titulo": "Fragmentum commentarii in Aristotelis rhetorica",
+      "autor": "Anônimo",
+      "arquivo": "FILOSOFIA/Grego/Comentadores_Bizantinos/Anonimos/In_Rhetoricam_Fragmento/Anonimos_In_Rhetoricam_Fragmento_grc_Rabe_1896.md"
+    },
+    {
+      "id": "anonimos-in-rhetoricam-grc-rabe-1896",
+      "titulo": "Anonymi in Aristotelis artem rhetoricam commentarium",
+      "autor": "Anônimo",
+      "arquivo": "FILOSOFIA/Grego/Comentadores_Bizantinos/Anonimos/In_Rhetoricam/Anonimos_In_Rhetoricam_grc_Rabe_1896.md"
+    },
+    {
+      "id": "anonimos-parafrase-da-etica-a-nicomaco-grc-heylbut-1889",
+      "titulo": "In Ethica Nicomachea paraphrasis",
+      "autor": "Anônimo",
+      "arquivo": "FILOSOFIA/Grego/Comentadores_Bizantinos/Anonimos/Parafrase_da_Etica_a_Nicomaco/Anonimos_Parafrase_da_Etica_a_Nicomaco_grc_Heylbut_1889.md"
+    },
+    {
+      "id": "anonimos-parafrase-da-retorica-fragmento-grc-rabe-1896",
+      "titulo": "Fragmentum paraphrasis in Aristotelis rhetorica",
+      "autor": "Anônimo",
+      "arquivo": "FILOSOFIA/Grego/Comentadores_Bizantinos/Anonimos/Parafrase_da_Retorica_Fragmento/Anonimos_Parafrase_da_Retorica_Fragmento_grc_Rabe_1896.md"
+    },
+    {
+      "id": "anonimos-parafrase-das-categorias-grc-hayduck-1883",
+      "titulo": "Anonymi in Aristotelis Categorias paraphrasis",
+      "autor": "Anônimo",
+      "arquivo": "FILOSOFIA/Grego/Comentadores_Bizantinos/Anonimos/Parafrase_das_Categorias/Anonimos_Parafrase_das_Categorias_grc_Hayduck_1883.md"
+    },
+    {
+      "id": "anonimos-parafrase-das-refutacoes-sofisticas-grc-hayduck-1884",
+      "titulo": "Anonymi in Aristotelis Sophisticos Elenchos paraphrasis",
+      "autor": "Anônimo",
+      "arquivo": "FILOSOFIA/Grego/Comentadores_Bizantinos/Anonimos/Parafrase_das_Refutacoes_Sofisticas/Anonimos_Parafrase_das_Refutacoes_Sofisticas_grc_Hayduck_1884.md"
+    },
+    {
+      "id": "eustracio-in-ethica-nicomachea-grc-heylbut-1892",
+      "titulo": "In Aristotelis Ethica Nicomachea commentaria",
+      "autor": "Eustrácio",
+      "arquivo": "FILOSOFIA/Grego/Comentadores_Bizantinos/Eustracio/In_Ethica_Nicomachea/Eustracio_In_Ethica_Nicomachea_grc_Heylbut_1892.md"
+    },
+    {
+      "id": "miguel-de-efeso-in-de-incessu-animalium-grc-hayduck-1904",
+      "titulo": "In librum De animalium incessu commentarium",
+      "autor": "Miguel de Éfeso",
+      "arquivo": "FILOSOFIA/Grego/Comentadores_Bizantinos/Miguel_de_Efeso/In_De_Incessu_Animalium/Miguel_de_Efeso_In_De_Incessu_Animalium_grc_Hayduck_1904.md"
+    },
+    {
+      "id": "miguel-de-efeso-in-de-motu-animalium-grc-hayduck-1904",
+      "titulo": "In libros De animalium motione commentarium",
+      "autor": "Miguel de Éfeso",
+      "arquivo": "FILOSOFIA/Grego/Comentadores_Bizantinos/Miguel_de_Efeso/In_De_Motu_Animalium/Miguel_de_Efeso_In_De_Motu_Animalium_grc_Hayduck_1904.md"
+    },
+    {
+      "id": "miguel-de-efeso-in-de-partibus-animalium-grc-hayduck-1904",
+      "titulo": "In libros De partibus animalium commentaria",
+      "autor": "Miguel de Éfeso",
+      "arquivo": "FILOSOFIA/Grego/Comentadores_Bizantinos/Miguel_de_Efeso/In_De_Partibus_Animalium/Miguel_de_Efeso_In_De_Partibus_Animalium_grc_Hayduck_1904.md"
+    },
+    {
+      "id": "miguel-de-efeso-in-ethica-nicomachea-v-grc-hayduck-1901",
+      "titulo": "In librum quintum Ethicorum Nicomacheorum commentarium",
+      "autor": "Miguel de Éfeso",
+      "arquivo": "FILOSOFIA/Grego/Comentadores_Bizantinos/Miguel_de_Efeso/In_Ethica_Nicomachea_V/Miguel_de_Efeso_In_Ethica_Nicomachea_V_grc_Hayduck_1901.md"
+    },
+    {
+      "id": "miguel-de-efeso-in-parva-naturalia-grc-wendland-1903",
+      "titulo": "In Parva naturalia commentaria",
+      "autor": "Miguel de Éfeso",
+      "arquivo": "FILOSOFIA/Grego/Comentadores_Bizantinos/Miguel_de_Efeso/In_Parva_Naturalia/Miguel_de_Efeso_In_Parva_Naturalia_grc_Wendland_1903.md"
+    },
+    {
+      "id": "sofonias-in-de-anima-grc-hayduck-1883",
+      "titulo": "In Aristotelis libros De anima paraphrasis",
+      "autor": "Sofonias",
+      "arquivo": "FILOSOFIA/Grego/Comentadores_Bizantinos/Sofonias/In_De_Anima/Sofonias_In_De_Anima_grc_Hayduck_1883.md"
+    },
+    {
+      "id": "sofonias-in-parva-naturalia-grc-wendland-1903",
+      "titulo": "In Parva naturalia commentarium",
+      "autor": "Sofonias",
+      "arquivo": "FILOSOFIA/Grego/Comentadores_Bizantinos/Sofonias/In_Parva_Naturalia/Sofonias_In_Parva_Naturalia_grc_Wendland_1903.md"
+    },
+    {
+      "id": "amonio-in-analytica-priora-grc-wallies-1899",
+      "titulo": "In Aristotelis Analyticorum Priorum librum I commentarium",
+      "autor": "Amônio",
+      "arquivo": "FILOSOFIA/Grego/Neoplatonismo_e_Tardia/Amonio/In_Analytica_Priora/Amonio_In_Analytica_Priora_grc_Wallies_1899.md"
+    },
+    {
+      "id": "amonio-in-categorias-grc-busse-1895",
+      "titulo": "In Aristotelis Categorias commentarius",
+      "autor": "Amônio",
+      "arquivo": "FILOSOFIA/Grego/Neoplatonismo_e_Tardia/Amonio/In_Categorias/Amonio_In_Categorias_grc_Busse_1895.md"
+    },
+    {
+      "id": "amonio-in-de-interpretatione-grc-busse-1897",
+      "titulo": "In Aristotelis librum De interpretatione commentarius",
+      "autor": "Amônio",
+      "arquivo": "FILOSOFIA/Grego/Neoplatonismo_e_Tardia/Amonio/In_De_Interpretatione/Amonio_In_De_Interpretatione_grc_Busse_1897.md"
+    },
+    {
+      "id": "amonio-in-isagogen-grc-busse-1891",
+      "titulo": "In Porphyrii Isagogen sive quinque voces",
+      "autor": "Amônio",
+      "arquivo": "FILOSOFIA/Grego/Neoplatonismo_e_Tardia/Amonio/In_Isagogen/Amonio_In_Isagogen_grc_Busse_1891.md"
+    },
+    {
+      "id": "amonio-sobre-os-silogismos-necessarios-grc-wallies-1899",
+      "titulo": "Εἰς τοὺς ἀναγκαίους συλλογισμούς",
+      "autor": "Amônio",
+      "arquivo": "FILOSOFIA/Grego/Neoplatonismo_e_Tardia/Amonio/Sobre_os_Silogismos_Necessarios/Amonio_Sobre_os_Silogismos_Necessarios_grc_Wallies_1899.md"
+    },
+    {
+      "id": "asclepio-in-metaphysica-grc-hayduck-1888",
+      "titulo": "In Aristotelis Metaphysicorum libros A–Z commentaria",
+      "autor": "Asclépio",
+      "arquivo": "FILOSOFIA/Grego/Neoplatonismo_e_Tardia/Asclepio/In_Metaphysica/Asclepio_In_Metaphysica_grc_Hayduck_1888.md"
+    },
+    {
+      "id": "davi-in-isagogen-grc-busse-1904",
+      "titulo": "In Porphyrii Isagogen commentarium",
+      "autor": "Davi, o Invencível",
+      "arquivo": "FILOSOFIA/Grego/Neoplatonismo_e_Tardia/Davi/In_Isagogen/Davi_In_Isagogen_grc_Busse_1904.md"
+    },
+    {
+      "id": "davi-prolegomenos-grc-busse-1904",
+      "titulo": "Prolegomena philosophiae",
+      "autor": "Davi, o Invencível",
+      "arquivo": "FILOSOFIA/Grego/Neoplatonismo_e_Tardia/Davi/Prolegomenos/Davi_Prolegomenos_grc_Busse_1904.md"
+    },
+    {
+      "id": "dexipo-in-categorias-grc-busse-1888",
+      "titulo": "In Aristotelis Categorias commentarium",
+      "autor": "Dexipo",
+      "arquivo": "FILOSOFIA/Grego/Neoplatonismo_e_Tardia/Dexipo/In_Categorias/Dexipo_In_Categorias_grc_Busse_1888.md"
+    },
+    {
+      "id": "elias-in-categorias-grc-busse-1900",
+      "titulo": "In Aristotelis Categorias commentarium",
+      "autor": "Elias",
+      "arquivo": "FILOSOFIA/Grego/Neoplatonismo_e_Tardia/Elias/In_Categorias/Elias_In_Categorias_grc_Busse_1900.md"
+    },
+    {
+      "id": "elias-in-isagogen-grc-busse-1900",
+      "titulo": "In Porphyrii Isagogen",
+      "autor": "Elias",
+      "arquivo": "FILOSOFIA/Grego/Neoplatonismo_e_Tardia/Elias/In_Isagogen/Elias_In_Isagogen_grc_Busse_1900.md"
+    },
+    {
+      "id": "estevao-de-alexandria-in-de-interpretatione-grc-hayduck-1885",
+      "titulo": "In Aristotelis librum De interpretatione commentarium",
+      "autor": "Estêvão de Alexandria",
+      "arquivo": "FILOSOFIA/Grego/Neoplatonismo_e_Tardia/Estevao_de_Alexandria/In_De_Interpretatione/Estevao_de_Alexandria_In_De_Interpretatione_grc_Hayduck_1885.md"
+    },
+    {
+      "id": "jamblico-de-communi-mathematica-scientia-grc-festa-1891",
+      "titulo": "Περὶ τῆς κοινῆς μαθηματικῆς ἐπιστήμης",
+      "autor": "Jâmblico",
+      "arquivo": "FILOSOFIA/Grego/Neoplatonismo_e_Tardia/Jamblico/De_Communi_Mathematica_Scientia/Jamblico_De_Communi_Mathematica_Scientia_grc_Festa_1891.md"
+    },
+    {
+      "id": "jamblico-de-mysteriis-grc-parthey-1857",
+      "titulo": "Περὶ μυστηρίων",
+      "autor": "Jâmblico",
+      "arquivo": "FILOSOFIA/Grego/Neoplatonismo_e_Tardia/Jamblico/De_Mysteriis/Jamblico_De_Mysteriis_grc_Parthey_1857.md"
+    },
+    {
+      "id": "jamblico-in-nicomachi-arithmeticam-grc-pistelli-1894",
+      "titulo": "Περὶ τῆς Νικομάχου ἀριθμητικῆς εἰσαγωγῆς",
+      "autor": "Jâmblico",
+      "arquivo": "FILOSOFIA/Grego/Neoplatonismo_e_Tardia/Jamblico/In_Nicomachi_Arithmeticam/Jamblico_In_Nicomachi_Arithmeticam_grc_Pistelli_1894.md"
+    },
+    {
+      "id": "jamblico-protreptico-grc-pistelli-1888",
+      "titulo": "Λόγος προτρεπτικὸς ἐπὶ φιλοσοφίαν",
+      "autor": "Jâmblico",
+      "arquivo": "FILOSOFIA/Grego/Neoplatonismo_e_Tardia/Jamblico/Protreptico/Jamblico_Protreptico_grc_Pistelli_1888.md"
+    },
+    {
+      "id": "jamblico-vida-pitagorica-grc-nauck-1884",
+      "titulo": "Περὶ τοῦ Πυθαγορικοῦ βίου",
+      "autor": "Jâmblico",
+      "arquivo": "FILOSOFIA/Grego/Neoplatonismo_e_Tardia/Jamblico/Vida_Pitagorica/Jamblico_Vida_Pitagorica_grc_Nauck_1884.md"
+    },
+    {
+      "id": "joao-filopono-in-analytica-posteriora-grc-wallies-1909",
+      "titulo": "In Aristotelis Analytica Posteriora commentaria",
+      "autor": "João Filópono",
+      "arquivo": "FILOSOFIA/Grego/Neoplatonismo_e_Tardia/Joao_Filopono/In_Analytica_Posteriora/Joao_Filopono_In_Analytica_Posteriora_grc_Wallies_1909.md"
+    },
+    {
+      "id": "joao-filopono-in-analytica-priora-grc-wallies-1905",
+      "titulo": "In Aristotelis Analytica Priora commentaria",
+      "autor": "João Filópono",
+      "arquivo": "FILOSOFIA/Grego/Neoplatonismo_e_Tardia/Joao_Filopono/In_Analytica_Priora/Joao_Filopono_In_Analytica_Priora_grc_Wallies_1905.md"
+    },
+    {
+      "id": "joao-filopono-in-categorias-grc-busse-1898",
+      "titulo": "In Aristotelis Categorias commentarium",
+      "autor": "João Filópono",
+      "arquivo": "FILOSOFIA/Grego/Neoplatonismo_e_Tardia/Joao_Filopono/In_Categorias/Joao_Filopono_In_Categorias_grc_Busse_1898.md"
+    },
+    {
+      "id": "joao-filopono-in-de-anima-grc-hayduck-1897",
+      "titulo": "In Aristotelis De anima libros commentaria",
+      "autor": "João Filópono",
+      "arquivo": "FILOSOFIA/Grego/Neoplatonismo_e_Tardia/Joao_Filopono/In_De_Anima/Joao_Filopono_In_De_Anima_grc_Hayduck_1897.md"
+    },
+    {
+      "id": "joao-filopono-in-de-generatione-animalium-grc-hayduck-1903",
+      "titulo": "In libros De generatione animalium commentaria",
+      "autor": "João Filópono",
+      "arquivo": "FILOSOFIA/Grego/Neoplatonismo_e_Tardia/Joao_Filopono/In_De_Generatione_Animalium/Joao_Filopono_In_De_Generatione_Animalium_grc_Hayduck_1903.md"
+    },
+    {
+      "id": "joao-filopono-in-de-generatione-et-corruptione-grc-vitelli-1897",
+      "titulo": "In Aristotelis libros De generatione et corruptione commentaria",
+      "autor": "João Filópono",
+      "arquivo": "FILOSOFIA/Grego/Neoplatonismo_e_Tardia/Joao_Filopono/In_De_Generatione_et_Corruptione/Joao_Filopono_In_De_Generatione_et_Corruptione_grc_Vitelli_1897.md"
+    },
+    {
+      "id": "joao-filopono-in-meteorologica-grc-hayduck-1901",
+      "titulo": "In Aristotelis Meteorologicorum librum primum commentarium",
+      "autor": "João Filópono",
+      "arquivo": "FILOSOFIA/Grego/Neoplatonismo_e_Tardia/Joao_Filopono/In_Meteorologica/Joao_Filopono_In_Meteorologica_grc_Hayduck_1901.md"
+    },
+    {
+      "id": "joao-filopono-in-physica-grc-vitelli-1888",
+      "titulo": "In Aristotelis Physicorum libros commentaria",
+      "autor": "João Filópono",
+      "arquivo": "FILOSOFIA/Grego/Neoplatonismo_e_Tardia/Joao_Filopono/In_Physica/Joao_Filopono_In_Physica_grc_Vitelli_1888.md"
+    },
+    {
+      "id": "marino-in-euclidis-data-grc-menge-1896",
+      "titulo": "Commentarium in Euclidis Data",
+      "autor": "Marino",
+      "arquivo": "FILOSOFIA/Grego/Neoplatonismo_e_Tardia/Marino/In_Euclidis_Data/Marino_In_Euclidis_Data_grc_Menge_1896.md"
+    },
+    {
+      "id": "olimpiodoro-in-categorias-grc-busse-1902",
+      "titulo": "In Categorias commentarium",
+      "autor": "Olimpiodoro",
+      "arquivo": "FILOSOFIA/Grego/Neoplatonismo_e_Tardia/Olimpiodoro/In_Categorias/Olimpiodoro_In_Categorias_grc_Busse_1902.md"
+    },
+    {
+      "id": "olimpiodoro-in-meteorologica-grc-stuve-1900",
+      "titulo": "In Aristotelis Meteora commentaria",
+      "autor": "Olimpiodoro",
+      "arquivo": "FILOSOFIA/Grego/Neoplatonismo_e_Tardia/Olimpiodoro/In_Meteorologica/Olimpiodoro_In_Meteorologica_grc_Stuve_1900.md"
+    },
+    {
+      "id": "olimpiodoro-prolegomenos-grc-busse-1902",
+      "titulo": "Prolegomena",
+      "autor": "Olimpiodoro",
+      "arquivo": "FILOSOFIA/Grego/Neoplatonismo_e_Tardia/Olimpiodoro/Prolegomenos/Olimpiodoro_Prolegomenos_grc_Busse_1902.md"
+    },
+    {
+      "id": "plotino-eneadas-grc-volkmann-1884",
+      "titulo": "Ἐννεάδες",
+      "autor": "Plotino",
+      "arquivo": "FILOSOFIA/Grego/Neoplatonismo_e_Tardia/Plotino/Eneadas/Plotino_Eneadas_grc_Volkmann_1884.md"
+    },
+    {
+      "id": "porfirio-a-marcela-grc-nauck-1860",
+      "titulo": "Πρὸς Μαρκέλλαν",
+      "autor": "Porfírio",
+      "arquivo": "FILOSOFIA/Grego/Neoplatonismo_e_Tardia/Porfirio/A_Marcela/Porfirio_A_Marcela_grc_Nauck_1860.md"
+    },
+    {
+      "id": "porfirio-de-abstinentia-grc-nauck-1860",
+      "titulo": "Περὶ ἀποχῆς ἐμψύχων",
+      "autor": "Porfírio",
+      "arquivo": "FILOSOFIA/Grego/Neoplatonismo_e_Tardia/Porfirio/De_Abstinentia/Porfirio_De_Abstinentia_grc_Nauck_1860.md"
+    },
+    {
+      "id": "porfirio-historia-da-filosofia-grc-nauck-1860",
+      "titulo": "Φιλόσοφος ἱστορία",
+      "autor": "Porfírio",
+      "arquivo": "FILOSOFIA/Grego/Neoplatonismo_e_Tardia/Porfirio/Historia_da_Filosofia/Porfirio_Historia_da_Filosofia_grc_Nauck_1860.md"
+    },
+    {
+      "id": "porfirio-in-categorias-grc-busse-1887",
+      "titulo": "In Aristotelis Categorias expositio per interrogationem et responsionem",
+      "autor": "Porfírio",
+      "arquivo": "FILOSOFIA/Grego/Neoplatonismo_e_Tardia/Porfirio/In_Categorias/Porfirio_In_Categorias_grc_Busse_1887.md"
+    },
+    {
+      "id": "porfirio-isagoge-grc-busse-1887",
+      "titulo": "Εἰσαγωγή",
+      "autor": "Porfírio",
+      "arquivo": "FILOSOFIA/Grego/Neoplatonismo_e_Tardia/Porfirio/Isagoge/Porfirio_Isagoge_grc_Busse_1887.md"
+    },
+    {
+      "id": "porfirio-questoes-homericas-grc-schrader-1882",
+      "titulo": "Ὁμηρικὰ ζητήματα",
+      "autor": "Porfírio",
+      "arquivo": "FILOSOFIA/Grego/Neoplatonismo_e_Tardia/Porfirio/Questoes_Homericas/Porfirio_Questoes_Homericas_grc_Schrader_1882.md"
+    },
+    {
+      "id": "porfirio-vida-de-pitagoras-grc-nauck-1860",
+      "titulo": "Πυθαγόρου βίος",
+      "autor": "Porfírio",
+      "arquivo": "FILOSOFIA/Grego/Neoplatonismo_e_Tardia/Porfirio/Vida_de_Pitagoras/Porfirio_Vida_de_Pitagoras_grc_Nauck_1860.md"
+    },
+    {
+      "id": "porfirio-zetemata-do-codice-vaticano-grc-schrader-1882",
+      "titulo": "Ζητήματα",
+      "autor": "Porfírio",
+      "arquivo": "FILOSOFIA/Grego/Neoplatonismo_e_Tardia/Porfirio/Zetemata_do_Codice_Vaticano/Porfirio_Zetemata_do_Codice_Vaticano_grc_Schrader_1882.md"
+    },
+    {
+      "id": "proclo-in-rempublicam-grc-kroll-1901",
+      "titulo": "Εἰς τὴν Πλάτωνος Πολιτείαν",
+      "autor": "Proclo",
+      "arquivo": "FILOSOFIA/Grego/Neoplatonismo_e_Tardia/Proclo/In_Rempublicam/Proclo_In_Rempublicam_grc_Kroll_1901.md"
+    },
+    {
+      "id": "salustio-sobre-os-deuses-e-o-mundo-grc-mullach-1881",
+      "titulo": "Περὶ θεῶν καὶ κόσμου",
+      "autor": "Salústio",
+      "arquivo": "FILOSOFIA/Grego/Neoplatonismo_e_Tardia/Salustio/Sobre_os_Deuses_e_o_Mundo/Salustio_Sobre_os_Deuses_e_o_Mundo_grc_Mullach_1881.md"
+    },
+    {
+      "id": "simplicio-in-categorias-grc-kalbfleisch-1907",
+      "titulo": "In Aristotelis Categorias commentarium",
+      "autor": "Simplício",
+      "arquivo": "FILOSOFIA/Grego/Neoplatonismo_e_Tardia/Simplicio/In_Categorias/Simplicio_In_Categorias_grc_Kalbfleisch_1907.md"
+    },
+    {
+      "id": "simplicio-in-de-anima-grc-hayduck-1882",
+      "titulo": "In Aristotelis libros De anima commentaria",
+      "autor": "Simplício",
+      "arquivo": "FILOSOFIA/Grego/Neoplatonismo_e_Tardia/Simplicio/In_De_Anima/Simplicio_In_De_Anima_grc_Hayduck_1882.md"
+    },
+    {
+      "id": "siriano-in-metaphysica-grc-kroll-1902",
+      "titulo": "In Aristotelis Metaphysica commentaria",
+      "autor": "Siriano",
+      "arquivo": "FILOSOFIA/Grego/Neoplatonismo_e_Tardia/Siriano/In_Metaphysica/Siriano_In_Metaphysica_grc_Kroll_1902.md"
+    },
+    {
+      "id": "temistio-in-analytica-posteriora-grc-wallies-1900",
+      "titulo": "Analyticorum Posteriorum paraphrasis",
+      "autor": "Temístio",
+      "arquivo": "FILOSOFIA/Grego/Neoplatonismo_e_Tardia/Temistio/In_Analytica_Posteriora/Temistio_In_Analytica_Posteriora_grc_Wallies_1900.md"
+    },
+    {
+      "id": "temistio-in-analytica-priora-grc-wallies-1884",
+      "titulo": "Quae fertur in Aristotelis Analyticorum Priorum librum I paraphrasis",
+      "autor": "Temístio",
+      "arquivo": "FILOSOFIA/Grego/Neoplatonismo_e_Tardia/Temistio/In_Analytica_Priora/Temistio_In_Analytica_Priora_grc_Wallies_1884.md"
+    },
+    {
+      "id": "temistio-in-de-anima-grc-heinze-1899",
+      "titulo": "In libros Aristotelis De anima paraphrasis",
+      "autor": "Temístio",
+      "arquivo": "FILOSOFIA/Grego/Neoplatonismo_e_Tardia/Temistio/In_De_Anima/Temistio_In_De_Anima_grc_Heinze_1899.md"
+    },
+    {
+      "id": "temistio-in-physica-grc-wallies-1900",
+      "titulo": "In Aristotelis Physica paraphrasis",
+      "autor": "Temístio",
+      "arquivo": "FILOSOFIA/Grego/Neoplatonismo_e_Tardia/Temistio/In_Physica/Temistio_In_Physica_grc_Wallies_1900.md"
+    },
+    {
+      "id": "alexandre-de-afrodisias-de-anima-grc-bruns-1887",
+      "titulo": "Περὶ ψυχῆς",
+      "autor": "Alexandre de Afrodísias",
+      "arquivo": "FILOSOFIA/Grego/Peripatetismo/Alexandre_de_Afrodisias/De_Anima/Alexandre_de_Afrodisias_De_Anima_grc_Bruns_1887.md"
+    },
+    {
+      "id": "alexandre-de-afrodisias-de-fato-grc-bruns-1892",
+      "titulo": "Περὶ εἱμαρμένης",
+      "autor": "Alexandre de Afrodísias",
+      "arquivo": "FILOSOFIA/Grego/Peripatetismo/Alexandre_de_Afrodisias/De_Fato/Alexandre_de_Afrodisias_De_Fato_grc_Bruns_1892.md"
+    },
+    {
+      "id": "alexandre-de-afrodisias-de-febribus-grc-ideler-1841",
+      "titulo": "Περὶ πυρετῶν",
+      "autor": "Alexandre de Afrodísias",
+      "arquivo": "FILOSOFIA/Grego/Peripatetismo/Alexandre_de_Afrodisias/De_Febribus/Alexandre_de_Afrodisias_De_Febribus_grc_Ideler_1841.md"
+    },
+    {
+      "id": "alexandre-de-afrodisias-de-mixtione-grc-bruns-1892",
+      "titulo": "Περὶ κράσεως καὶ αὐξήσεως",
+      "autor": "Alexandre de Afrodísias",
+      "arquivo": "FILOSOFIA/Grego/Peripatetismo/Alexandre_de_Afrodisias/De_Mixtione/Alexandre_de_Afrodisias_De_Mixtione_grc_Bruns_1892.md"
+    },
+    {
+      "id": "alexandre-de-afrodisias-in-analytica-priora-grc-wallies-1883",
+      "titulo": "In Aristotelis Analyticorum Priorum librum I commentarium",
+      "autor": "Alexandre de Afrodísias",
+      "arquivo": "FILOSOFIA/Grego/Peripatetismo/Alexandre_de_Afrodisias/In_Analytica_Priora/Alexandre_de_Afrodisias_In_Analytica_Priora_grc_Wallies_1883.md"
+    },
+    {
+      "id": "alexandre-de-afrodisias-in-de-sensu-grc-wendland-1901",
+      "titulo": "In librum De sensu commentarium",
+      "autor": "Alexandre de Afrodísias",
+      "arquivo": "FILOSOFIA/Grego/Peripatetismo/Alexandre_de_Afrodisias/In_De_Sensu/Alexandre_de_Afrodisias_In_De_Sensu_grc_Wendland_1901.md"
+    },
+    {
+      "id": "alexandre-de-afrodisias-in-metaphysica-grc-hayduck-1891",
+      "titulo": "In Aristotelis Metaphysica commentaria",
+      "autor": "Alexandre de Afrodísias",
+      "arquivo": "FILOSOFIA/Grego/Peripatetismo/Alexandre_de_Afrodisias/In_Metaphysica/Alexandre_de_Afrodisias_In_Metaphysica_grc_Hayduck_1891.md"
+    },
+    {
+      "id": "alexandre-de-afrodisias-in-meteorologica-grc-hayduck-1899",
+      "titulo": "In Aristotelis Meteorologicorum libros commentaria",
+      "autor": "Alexandre de Afrodísias",
+      "arquivo": "FILOSOFIA/Grego/Peripatetismo/Alexandre_de_Afrodisias/In_Meteorologica/Alexandre_de_Afrodisias_In_Meteorologica_grc_Hayduck_1899.md"
+    },
+    {
+      "id": "alexandre-de-afrodisias-in-sophisticos-elenchos-grc-wallies-1898",
+      "titulo": "In Aristotelis Sophisticos Elenchos commentarium",
+      "autor": "Alexandre de Afrodísias",
+      "arquivo": "FILOSOFIA/Grego/Peripatetismo/Alexandre_de_Afrodisias/In_Sophisticos_Elenchos/Alexandre_de_Afrodisias_In_Sophisticos_Elenchos_grc_Wallies_1898.md"
+    },
+    {
+      "id": "alexandre-de-afrodisias-in-topica-grc-wallies-1891",
+      "titulo": "In Aristotelis Topicorum libros octo commentaria",
+      "autor": "Alexandre de Afrodísias",
+      "arquivo": "FILOSOFIA/Grego/Peripatetismo/Alexandre_de_Afrodisias/In_Topica/Alexandre_de_Afrodisias_In_Topica_grc_Wallies_1891.md"
+    },
+    {
+      "id": "alexandre-de-afrodisias-mantissa-grc-bruns-1887",
+      "titulo": "De anima libri mantissa",
+      "autor": "Alexandre de Afrodísias",
+      "arquivo": "FILOSOFIA/Grego/Peripatetismo/Alexandre_de_Afrodisias/Mantissa/Alexandre_de_Afrodisias_Mantissa_grc_Bruns_1887.md"
+    },
+    {
+      "id": "alexandre-de-afrodisias-problemata-ethica-grc-bruns-1892",
+      "titulo": "Ἠθικὰ προβλήματα",
+      "autor": "Alexandre de Afrodísias",
+      "arquivo": "FILOSOFIA/Grego/Peripatetismo/Alexandre_de_Afrodisias/Problemata_Ethica/Alexandre_de_Afrodisias_Problemata_Ethica_grc_Bruns_1892.md"
+    },
+    {
+      "id": "alexandre-de-afrodisias-quaestiones-grc-bruns-1892",
+      "titulo": "Ἀπορίαι καὶ λύσεις",
+      "autor": "Alexandre de Afrodísias",
+      "arquivo": "FILOSOFIA/Grego/Peripatetismo/Alexandre_de_Afrodisias/Quaestiones/Alexandre_de_Afrodisias_Quaestiones_grc_Bruns_1892.md"
+    },
+    {
+      "id": "aspasio-in-ethica-nicomachea-grc-heylbut-1889",
+      "titulo": "In Ethica Nicomachea commentaria",
+      "autor": "Aspásio",
+      "arquivo": "FILOSOFIA/Grego/Peripatetismo/Aspasio/In_Ethica_Nicomachea/Aspasio_In_Ethica_Nicomachea_grc_Heylbut_1889.md"
     }
   ],
   "redirecionamentos": {
