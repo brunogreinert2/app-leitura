@@ -8468,6 +8468,102 @@
       "titulo": "In Ethica Nicomachea commentaria",
       "autor": "Aspásio",
       "arquivo": "FILOSOFIA/Grego/Peripatetismo/Aspasio/In_Ethica_Nicomachea/Aspasio_In_Ethica_Nicomachea_grc_Heylbut_1889.md"
+    },
+    {
+      "id": "antistenes-ajax-grc-blass-1908",
+      "titulo": "Αἴας",
+      "autor": "Antístenes",
+      "arquivo": "FILOSOFIA/Grego/Filosofia_Classica/Antistenes/Ajax/Antistenes_Ajax_grc_Blass_1908.md"
+    },
+    {
+      "id": "antistenes-odisseu-grc-blass-1908",
+      "titulo": "Ὀδυσσεύς",
+      "autor": "Antístenes",
+      "arquivo": "FILOSOFIA/Grego/Filosofia_Classica/Antistenes/Odisseu/Antistenes_Odisseu_grc_Blass_1908.md"
+    },
+    {
+      "id": "aristoteles-de-mundo-grc-bekker-1837",
+      "titulo": "Περὶ κόσμου",
+      "autor": "Aristóteles",
+      "arquivo": "FILOSOFIA/Grego/Filosofia_Classica/Aristoteles/De_Mundo/Aristoteles_De_Mundo_grc_Bekker_1837.md"
+    },
+    {
+      "id": "socrates-cartas-grc-hercher-1873",
+      "titulo": "Epistulae",
+      "autor": "Sócrates",
+      "arquivo": "FILOSOFIA/Grego/Filosofia_Classica/Socrates/Cartas/Socrates_Cartas_grc_Hercher_1873.md"
+    },
+    {
+      "id": "socraticos-cartas-grc-hercher-1873",
+      "titulo": "Epistulae",
+      "autor": "Socráticos",
+      "arquivo": "FILOSOFIA/Grego/Filosofia_Classica/Socraticos/Cartas/Socraticos_Cartas_grc_Hercher_1873.md"
+    },
+    {
+      "id": "diogenes-de-apolonia-fragmentos-grc-diels-1922",
+      "titulo": "Fragmenta",
+      "autor": "Diógenes de Apolônia",
+      "arquivo": "FILOSOFIA/Grego/Pre_Socraticos/Diogenes_de_Apolonia/Fragmentos/Diogenes_de_Apolonia_Fragmentos_grc_Diels_1922.md"
+    },
+    {
+      "id": "epicarmo-fragmentos-grc-diels-1922",
+      "titulo": "Fragmenta",
+      "autor": "Epicarmo",
+      "arquivo": "FILOSOFIA/Grego/Pre_Socraticos/Epicarmo/Fragmentos/Epicarmo_Fragmentos_grc_Diels_1922.md"
+    },
+    {
+      "id": "lisis-carta-a-hiparco-grc-hercher-1873",
+      "titulo": "Epistulae",
+      "autor": "Lísis",
+      "arquivo": "FILOSOFIA/Grego/Pre_Socraticos/Lisis/Carta_a_Hiparco/Lisis_Carta_a_Hiparco_grc_Hercher_1873.md"
+    },
+    {
+      "id": "museu-fragmentos-grc-diels-1922",
+      "titulo": "Fragmenta",
+      "autor": "Museu",
+      "arquivo": "FILOSOFIA/Grego/Pre_Socraticos/Museu/Fragmentos/Museu_Fragmentos_grc_Diels_1922.md"
+    },
+    {
+      "id": "orficos-fragmentos-grc-diels-1922",
+      "titulo": "Fragmenta",
+      "autor": "Orfeu",
+      "arquivo": "FILOSOFIA/Grego/Pre_Socraticos/Orficos/Fragmentos/Orficos_Fragmentos_grc_Diels_1922.md"
+    },
+    {
+      "id": "tales-cartas-grc-hercher-1873",
+      "titulo": "Epistulae",
+      "autor": "Tales",
+      "arquivo": "FILOSOFIA/Grego/Pre_Socraticos/Tales/Cartas/Tales_Cartas_grc_Hercher_1873.md"
+    },
+    {
+      "id": "alcidamas-odisseu-grc-blass-1892",
+      "titulo": "Ὀδυσσεύς",
+      "autor": "Alcidamas",
+      "arquivo": "FILOSOFIA/Grego/Sofistica/Alcidamas/Odisseu/Alcidamas_Odisseu_grc_Blass_1892.md"
+    },
+    {
+      "id": "alcidamas-sobre-os-sofistas-grc-blass-1892",
+      "titulo": "Περὶ σοφιστῶν",
+      "autor": "Alcidamas",
+      "arquivo": "FILOSOFIA/Grego/Sofistica/Alcidamas/Sobre_os_Sofistas/Alcidamas_Sobre_os_Sofistas_grc_Blass_1892.md"
+    },
+    {
+      "id": "critias-fragmentos-grc-diels-1922",
+      "titulo": "Fragmenta",
+      "autor": "Crítias",
+      "arquivo": "FILOSOFIA/Grego/Sofistica/Critias/Fragmentos/Critias_Fragmentos_grc_Diels_1922.md"
+    },
+    {
+      "id": "hipias-fragmentos-grc-diels-1922",
+      "titulo": "Fragmenta",
+      "autor": "Hípias",
+      "arquivo": "FILOSOFIA/Grego/Sofistica/Hipias/Fragmentos/Hipias_Fragmentos_grc_Diels_1922.md"
+    },
+    {
+      "id": "prodico-fragmentos-grc-diels-1922",
+      "titulo": "Fragmenta",
+      "autor": "Pródico",
+      "arquivo": "FILOSOFIA/Grego/Sofistica/Prodico/Fragmentos/Prodico_Fragmentos_grc_Diels_1922.md"
     }
   ],
   "redirecionamentos": {

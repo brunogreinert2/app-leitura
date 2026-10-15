@@ -24,6 +24,8 @@ agostinho-epistula-lat-latinlibrary-sd
 agostinho-regula-lat-latinlibrary-sd
 agostinho-sermones-lat-latinlibrary-sd
 albino-introducao-a-platao-grc-hermann-1884
+alcidamas-odisseu-grc-blass-1892
+alcidamas-sobre-os-sofistas-grc-blass-1892
 alcinoo-didaskalikos-grc-hermann-1884
 alexandre-de-afrodisias-de-anima-grc-bruns-1887
 alexandre-de-afrodisias-de-fato-grc-bruns-1892
@@ -62,6 +64,8 @@ antifonte-segunda-tetralogia-grc-maidment-1941
 antifonte-sobre-o-assassinato-de-herodes-grc-maidment-1941
 antifonte-sobre-o-coreuta-grc-maidment-1941
 antifonte-terceira-tetralogia-grc-maidment-1941
+antistenes-ajax-grc-blass-1908
+antistenes-odisseu-grc-blass-1908
 apuleio-apologia-pro-se-de-magia-lat-latinlibrary-sd
 apuleio-de-deo-socratis-lat-latinlibrary-sd
 apuleio-de-dogmate-platonis-lat-latinlibrary-sd
@@ -88,6 +92,7 @@ aristoteles-de-melisso-xenophane-gorgia-grc-bekker-1837
 aristoteles-de-memoria-grc-bekker-1837
 aristoteles-de-mirabilibus-auscultationibus-grc-bekker-1837
 aristoteles-de-motu-animalium-grc-jaeger-1913
+aristoteles-de-mundo-grc-bekker-1837
 aristoteles-de-partibus-animalium-grc-langkavel-1868
 aristoteles-de-respiratione-grc-bekker-1837
 aristoteles-de-sensu-grc-bekker-1837
@@ -446,6 +451,7 @@ crisipo-fragmentos-homericos-grc-von-arnim-1903
 crisipo-fragmentos-logicos-e-fisicos-grc-von-arnim-1903
 crisipo-fragmentos-morais-grc-von-arnim-1903
 crisipo-fragmentos-por-livro-grc-von-arnim-1903
+critias-fragmentos-grc-diels-1922
 daniel-grc-lxx-swe-og
 daniel-grc-lxx-swe-teod
 davi-in-isagogen-grc-busse-1904
@@ -454,6 +460,7 @@ democrito-fragmentos-grc-diels-1922
 descartes-meditationes-de-prima-philosophia-lat-latinlibrary-sd
 deuteronomio-grc-lxx-swe
 dexipo-in-categorias-grc-busse-1888
+diogenes-de-apolonia-fragmentos-grc-diels-1922
 diogenes-laercio-lives-of-eminent-philosophers-eng-r-d-hicks-1925
 diogenes-laercio-lives-of-eminent-philosophers-grc-r-d-hicks-1925
 dongomontoya-pensamento-e-linguagem-pt-2021
@@ -536,6 +543,7 @@ eclesiastes_interlinear_heb-pt-via-portugues
 eclesiastico-sirach-grc-lxx-swe
 elias-in-categorias-grc-busse-1900
 elias-in-isagogen-grc-busse-1900
+epicarmo-fragmentos-grc-diels-1922
 epicteto-diatribes-eng-george-long-1890
 epicteto-diatribes-eng-thomas-wentworth-higginson-1890
 epicteto-diatribes-grc-heinrich-schenkl-1916
@@ -569,6 +577,7 @@ gorgias-elogio-de-helena-grc-blass-1908
 habacuque-grc-lxx-swe
 heraclito-fragmentos-grc-diels-1922
 hermas-the-shepherd-of-hermas-eng-kirsopp-lake-1913
+hipias-fragmentos-grc-diels-1922
 hipolito-refutacao-de-todas-as-heresias-grc-wendland-1916
 hobbes-leviathan-latin-1668
 impressoes-app
@@ -650,6 +659,7 @@ lactancio-de-mortibus-persecutorum-lat-latinlibrary-sd
 lactancio-divinae-institutiones-lat-latinlibrary-sd
 lamentacoes-grc-lxx-swe
 levitico-grc-lxx-swe
+lisis-carta-a-hiparco-grc-hercher-1873
 lucrecio-de-rerum-natura-lat-perseus-sd
 machiavelli-o-principe-pt-anonimo-sd
 malaquias-grc-lxx-swe
@@ -668,6 +678,7 @@ miguel-de-efeso-in-ethica-nicomachea-v-grc-hayduck-1901
 miguel-de-efeso-in-parva-naturalia-grc-wendland-1903
 minucio-felix-octavius-lat-gerald-h-rendall-1931
 miqueias-grc-lxx-swe
+museu-fragmentos-grc-diels-1922
 musonio-rufo-cartas-espurias-grc-hense-1905
 musonio-rufo-diatribes-grc-hense-1905
 musonio-rufo-fragmentos-grc-hense-1905
@@ -679,6 +690,7 @@ odes-grc-lxx-swe
 olimpiodoro-in-categorias-grc-busse-1902
 olimpiodoro-in-meteorologica-grc-stuve-1900
 olimpiodoro-prolegomenos-grc-busse-1902
+orficos-fragmentos-grc-diels-1922
 oseias-grc-lxx-swe
 parmenides-fragmentos-grc-diels-1922
 parmenides-testemunhos-grc-diaphoreus-2026
@@ -1141,6 +1153,7 @@ porfirio-questoes-homericas-grc-schrader-1882
 porfirio-vida-de-pitagoras-grc-nauck-1860
 porfirio-zetemata-do-codice-vaticano-grc-schrader-1882
 proclo-in-rempublicam-grc-kroll-1901
+prodico-fragmentos-grc-diels-1922
 proverbios-grc-lxx-swe
 pseudo-plutarco-placita-philosophorum-grc-vernardakis-1888
 rousseau-discurso-sobre-as-ciencias-e-as-artes-pt-anonimo-2001
@@ -1174,6 +1187,8 @@ simplicio-in-physica-grc-diels-1895
 siriano-in-metaphysica-grc-kroll-1902
 sobre-o-projeto
 sobre-o-projeto-2
+socrates-cartas-grc-hercher-1873
+socraticos-cartas-grc-hercher-1873
 sofocles-antigone-pt-mellosouza-sd
 sofocles-rei-edipo-pt-mellosouza-sd
 sofonias-grc-lxx-swe
@@ -1182,6 +1197,7 @@ sofonias-in-parva-naturalia-grc-wendland-1903
 spinoza-ethics-en-elwes-1883
 susana-grc-lxx-swe-og
 susana-grc-lxx-swe-teod
+tales-cartas-grc-hercher-1873
 targum-escritos-melamed-22-cantico_dos_canticos
 targum-escritos-mg-08-rute
 targum-escritos-mg-17-ester
