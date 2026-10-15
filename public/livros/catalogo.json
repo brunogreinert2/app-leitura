@@ -7119,6 +7119,1469 @@
       "autor": "Aristóteles",
       "arquivo": "FILOSOFIA/Grego/Filosofia_Classica/Aristoteles/Categorias/Aristoteles_Categorias_grc_Bekker_1837.md",
       "sistema_referencia": "capitulo-secao"
+    },
+    {
+      "id": "sexto-empirico-hipotiposes-pirronicas-grc-mutschmann-1912",
+      "titulo": "Πυρρώνειοι ὑποτυπώσεις",
+      "autor": "Sexto Empírico",
+      "arquivo": "FILOSOFIA/Grego/Ceticismo/Sexto_Empirico/Hipotiposes_Pirronicas/Sexto_Empirico_Hipotiposes_Pirronicas_grc_Mutschmann_1912.md",
+      "sistema_referencia": "capitulo-secao"
+    },
+    {
+      "id": "pseudo-plutarco-placita-philosophorum-grc-vernardakis-1888",
+      "titulo": "Περὶ τῶν ἀρεσκόντων τοῖς φιλοσόφοις φυσικῶν δογμάτων",
+      "autor": "Pseudo-Plutarco",
+      "arquivo": "FILOSOFIA/Grego/Doxografia/Pseudo_Plutarco/Placita_Philosophorum/Pseudo-Plutarco_Placita_Philosophorum_grc_Vernardakis_1888.md",
+      "sistema_referencia": "stephanus"
+    },
+    {
+      "id": "espeusipo-fragmentos-grc-mullach-1881",
+      "titulo": "Fragmenta",
+      "autor": "Espeusipo",
+      "arquivo": "FILOSOFIA/Grego/Filosofia_Classica/Espeusipo/Fragmentos/Espeusipo_Fragmentos_grc_Mullach_1881.md"
+    },
+    {
+      "id": "xenocrates-fragmentos-grc-mullach-1881",
+      "titulo": "Fragmenta",
+      "autor": "Xenócrates",
+      "arquivo": "FILOSOFIA/Grego/Filosofia_Classica/Xenocrates/Fragmentos/Xenocrates_Fragmentos_grc_Mullach_1881.md"
+    },
+    {
+      "id": "clemente-de-alexandria-eclogae-propheticae-grc-stahlin-1909",
+      "titulo": "Ἐκ τῶν προφητικῶν ἐκλογαί",
+      "autor": "Clemente de Alexandria",
+      "arquivo": "FILOSOFIA/Grego/Patristica/Padres_Gregos/Clemente_de_Alexandria/Eclogae_Propheticae/Clemente_de_Alexandria_Eclogae_Propheticae_grc_Stahlin_1909.md"
+    },
+    {
+      "id": "clemente-de-alexandria-excerpta-ex-theodoto-grc-stahlin-1909",
+      "titulo": "Excerpta ex Theodoto",
+      "autor": "Clemente de Alexandria",
+      "arquivo": "FILOSOFIA/Grego/Patristica/Padres_Gregos/Clemente_de_Alexandria/Excerpta_ex_Theodoto/Clemente_de_Alexandria_Excerpta_ex_Theodoto_grc_Stahlin_1909.md"
+    },
+    {
+      "id": "clemente-de-alexandria-pedagogo-grc-stahlin-1905",
+      "titulo": "Παιδαγωγός",
+      "autor": "Clemente de Alexandria",
+      "arquivo": "FILOSOFIA/Grego/Patristica/Padres_Gregos/Clemente_de_Alexandria/Pedagogo/Clemente_de_Alexandria_Pedagogo_grc_Stahlin_1905.md"
+    },
+    {
+      "id": "hipolito-refutacao-de-todas-as-heresias-grc-wendland-1916",
+      "titulo": "Κατὰ πασῶν αἱρέσεων ἔλεγχος",
+      "autor": "Hipólito de Roma",
+      "arquivo": "FILOSOFIA/Grego/Patristica/Padres_Gregos/Hipolito/Refutacao_de_Todas_as_Heresias/Hipolito_Refutacao_de_Todas_as_Heresias_grc_Wendland_1916.md"
+    },
+    {
+      "id": "arquitas-fragmentos-grc-diels-1922",
+      "titulo": "Fragmenta",
+      "autor": "Arquitas",
+      "arquivo": "FILOSOFIA/Grego/Pre_Socraticos/Arquitas/Fragmentos/Arquitas_Fragmentos_grc_Diels_1922.md"
+    },
+    {
+      "id": "democrito-fragmentos-grc-diels-1922",
+      "titulo": "Fragmenta",
+      "autor": "Demócrito",
+      "arquivo": "FILOSOFIA/Grego/Pre_Socraticos/Democrito/Fragmentos/Democrito_Fragmentos_grc_Diels_1922.md"
+    },
+    {
+      "id": "filolau-fragmentos-grc-diels-1922",
+      "titulo": "Fragmenta",
+      "autor": "Filolau",
+      "arquivo": "FILOSOFIA/Grego/Pre_Socraticos/Filolau/Fragmentos/Filolau_Fragmentos_grc_Diels_1922.md"
+    },
+    {
+      "id": "heraclito-fragmentos-grc-diels-1922",
+      "titulo": "Fragmenta",
+      "autor": "Heráclito",
+      "arquivo": "FILOSOFIA/Grego/Pre_Socraticos/Heraclito/Fragmentos/Heraclito_Fragmentos_grc_Diels_1922.md"
+    },
+    {
+      "id": "parmenides-fragmentos-grc-diels-1922",
+      "titulo": "Fragmenta",
+      "autor": "Parmênides",
+      "arquivo": "FILOSOFIA/Grego/Pre_Socraticos/Parmenides/Fragmentos/Parmenides_Fragmentos_grc_Diels_1922.md"
+    },
+    {
+      "id": "pitagoras-cartas-grc-hercher-1873",
+      "titulo": "Epistulae",
+      "autor": "Pitágoras",
+      "arquivo": "FILOSOFIA/Grego/Pre_Socraticos/Pitagoras/Cartas/Pitagoras_Cartas_grc_Hercher_1873.md"
+    },
+    {
+      "id": "antifonte-contra-a-madrasta-grc-maidment-1941",
+      "titulo": "Φαρμακείας κατὰ τῆς μητρυιᾶς",
+      "autor": "Antifonte",
+      "arquivo": "FILOSOFIA/Grego/Retorica/Antifonte/Contra_a_Madrasta/Antifonte_Contra_a_Madrasta_grc_Maidment_1941.md"
+    },
+    {
+      "id": "antifonte-primeira-tetralogia-grc-maidment-1941",
+      "titulo": "Τετραλογία Α΄",
+      "autor": "Antifonte",
+      "arquivo": "FILOSOFIA/Grego/Retorica/Antifonte/Primeira_Tetralogia/Antifonte_Primeira_Tetralogia_grc_Maidment_1941.md"
+    },
+    {
+      "id": "antifonte-segunda-tetralogia-grc-maidment-1941",
+      "titulo": "Τετραλογία Β΄",
+      "autor": "Antifonte",
+      "arquivo": "FILOSOFIA/Grego/Retorica/Antifonte/Segunda_Tetralogia/Antifonte_Segunda_Tetralogia_grc_Maidment_1941.md"
+    },
+    {
+      "id": "antifonte-sobre-o-assassinato-de-herodes-grc-maidment-1941",
+      "titulo": "Περὶ τοῦ Ἡρῴδου φόνου",
+      "autor": "Antifonte",
+      "arquivo": "FILOSOFIA/Grego/Retorica/Antifonte/Sobre_o_Assassinato_de_Herodes/Antifonte_Sobre_o_Assassinato_de_Herodes_grc_Maidment_1941.md"
+    },
+    {
+      "id": "antifonte-sobre-o-coreuta-grc-maidment-1941",
+      "titulo": "Περὶ τοῦ χορευτοῦ",
+      "autor": "Antifonte",
+      "arquivo": "FILOSOFIA/Grego/Retorica/Antifonte/Sobre_o_Coreuta/Antifonte_Sobre_o_Coreuta_grc_Maidment_1941.md"
+    },
+    {
+      "id": "antifonte-terceira-tetralogia-grc-maidment-1941",
+      "titulo": "Τετραλογία Γ΄",
+      "autor": "Antifonte",
+      "arquivo": "FILOSOFIA/Grego/Retorica/Antifonte/Terceira_Tetralogia/Antifonte_Terceira_Tetralogia_grc_Maidment_1941.md"
+    },
+    {
+      "id": "anonimo-de-jamblico-fragmentos-grc-diels-1922",
+      "titulo": "Fragmenta",
+      "autor": "Anônimo de Jâmblico",
+      "arquivo": "FILOSOFIA/Grego/Sofistica/Anonimo_de_Jamblico/Fragmentos/Anonimo_de_Jamblico_Fragmentos_grc_Diels_1922.md"
+    },
+    {
+      "id": "antifonte-fragmentos-grc-diels-1922",
+      "titulo": "Fragmenta",
+      "autor": "Antifonte",
+      "arquivo": "FILOSOFIA/Grego/Sofistica/Antifonte/Fragmentos/Antifonte_Fragmentos_grc_Diels_1922.md"
+    },
+    {
+      "id": "gorgias-defesa-de-palamedes-grc-blass-1908",
+      "titulo": "Ὑπὲρ Παλαμήδους ἀπολογία",
+      "autor": "Górgias",
+      "arquivo": "FILOSOFIA/Grego/Sofistica/Gorgias/Defesa_de_Palamedes/Gorgias_Defesa_de_Palamedes_grc_Blass_1908.md"
+    },
+    {
+      "id": "gorgias-elogio-de-helena-grc-blass-1908",
+      "titulo": "Ἑλένης ἐγκώμιον",
+      "autor": "Górgias",
+      "arquivo": "FILOSOFIA/Grego/Sofistica/Gorgias/Elogio_de_Helena/Gorgias_Elogio_de_Helena_grc_Blass_1908.md"
+    },
+    {
+      "id": "platao-definicoes-grc-burnet-1914",
+      "titulo": "Ὅροι",
+      "autor": "Platão",
+      "arquivo": "FILOSOFIA/Grego/Filosofia_Classica/Platao/Definicoes/Platao_Definicoes_grc_Burnet_1914.md",
+      "sistema_referencia": "stephanus"
+    },
+    {
+      "id": "xenofonte-apologia-de-socrates-grc-marchant-1921",
+      "titulo": "Ἀπολογία Σωκράτους",
+      "autor": "Xenofonte",
+      "arquivo": "FILOSOFIA/Grego/Filosofia_Classica/Xenofonte/Apologia_de_Socrates/Xenofonte_Apologia_de_Socrates_grc_Marchant_1921.md"
+    },
+    {
+      "id": "xenofonte-banquete-grc-marchant-1921",
+      "titulo": "Συμπόσιον",
+      "autor": "Xenofonte",
+      "arquivo": "FILOSOFIA/Grego/Filosofia_Classica/Xenofonte/Banquete/Xenofonte_Banquete_grc_Marchant_1921.md"
+    },
+    {
+      "id": "xenofonte-economico-grc-marchant-1921",
+      "titulo": "Οἰκονομικός",
+      "autor": "Xenofonte",
+      "arquivo": "FILOSOFIA/Grego/Filosofia_Classica/Xenofonte/Economico/Xenofonte_Economico_grc_Marchant_1921.md"
+    },
+    {
+      "id": "xenofonte-memoraveis-grc-marchant-1921",
+      "titulo": "Ἀπομνημονεύματα",
+      "autor": "Xenofonte",
+      "arquivo": "FILOSOFIA/Grego/Filosofia_Classica/Xenofonte/Memoraveis/Xenofonte_Memoraveis_grc_Marchant_1921.md"
+    },
+    {
+      "id": "cebes-tabula-grc-praechter-1893",
+      "titulo": "Κέβητος πίναξ",
+      "autor": "Cebes",
+      "arquivo": "FILOSOFIA/Grego/Moralistas/Cebes/Tabula/Cebes_Tabula_grc_Praechter_1893.md"
+    },
+    {
+      "id": "albino-introducao-a-platao-grc-hermann-1884",
+      "titulo": "Εἰσαγωγὴ εἰς τοὺς Πλάτωνος διαλόγους",
+      "autor": "Albino",
+      "arquivo": "FILOSOFIA/Grego/Platonismo_Medio/Albino/Introducao_a_Platao/Albino_Introducao_a_Platao_grc_Hermann_1884.md"
+    },
+    {
+      "id": "alcinoo-didaskalikos-grc-hermann-1884",
+      "titulo": "Διδασκαλικὸς τῶν Πλάτωνος δογμάτων",
+      "autor": "Alcínoo",
+      "arquivo": "FILOSOFIA/Grego/Platonismo_Medio/Alcinoo/Didaskalikos/Alcinoo_Didaskalikos_grc_Hermann_1884.md"
+    },
+    {
+      "id": "isocrates-a-demonico-grc-norlin-1928",
+      "titulo": "Πρὸς Δημόνικον",
+      "autor": "Isócrates",
+      "arquivo": "FILOSOFIA/Grego/Retorica/Isocrates/A_Demonico/Isocrates_A_Demonico_grc_Norlin_1928.md"
+    },
+    {
+      "id": "isocrates-a-filipe-grc-norlin-1928",
+      "titulo": "Φίλιππος",
+      "autor": "Isócrates",
+      "arquivo": "FILOSOFIA/Grego/Retorica/Isocrates/A_Filipe/Isocrates_A_Filipe_grc_Norlin_1928.md"
+    },
+    {
+      "id": "isocrates-a-nicocles-grc-norlin-1928",
+      "titulo": "Πρὸς Νικοκλέα",
+      "autor": "Isócrates",
+      "arquivo": "FILOSOFIA/Grego/Retorica/Isocrates/A_Nicocles/Isocrates_A_Nicocles_grc_Norlin_1928.md"
+    },
+    {
+      "id": "isocrates-antidose-grc-norlin-1929",
+      "titulo": "Περὶ ἀντιδόσεως",
+      "autor": "Isócrates",
+      "arquivo": "FILOSOFIA/Grego/Retorica/Isocrates/Antidose/Isocrates_Antidose_grc_Norlin_1929.md"
+    },
+    {
+      "id": "isocrates-areopagitico-grc-norlin-1929",
+      "titulo": "Ἀρεοπαγιτικός",
+      "autor": "Isócrates",
+      "arquivo": "FILOSOFIA/Grego/Retorica/Isocrates/Areopagitico/Isocrates_Areopagitico_grc_Norlin_1929.md"
+    },
+    {
+      "id": "isocrates-arquidamo-grc-norlin-1928",
+      "titulo": "Ἀρχίδαμος",
+      "autor": "Isócrates",
+      "arquivo": "FILOSOFIA/Grego/Retorica/Isocrates/Arquidamo/Isocrates_Arquidamo_grc_Norlin_1928.md"
+    },
+    {
+      "id": "isocrates-busiris-grc-van-hook-1945",
+      "titulo": "Βούσιρις",
+      "autor": "Isócrates",
+      "arquivo": "FILOSOFIA/Grego/Retorica/Isocrates/Busiris/Isocrates_Busiris_grc_Van-Hook_1945.md"
+    },
+    {
+      "id": "isocrates-carta-1-a-dionisio-grc-van-hook-1945",
+      "titulo": "Ἐπιστολὴ α΄ Διονυσίῳ",
+      "autor": "Isócrates",
+      "arquivo": "FILOSOFIA/Grego/Retorica/Isocrates/Carta_1_a_Dionisio/Isocrates_Carta_1_a_Dionisio_grc_Van-Hook_1945.md"
+    },
+    {
+      "id": "isocrates-carta-2-a-filipe-grc-van-hook-1945",
+      "titulo": "Ἐπιστολὴ β΄ Φιλίππῳ α΄",
+      "autor": "Isócrates",
+      "arquivo": "FILOSOFIA/Grego/Retorica/Isocrates/Carta_2_a_Filipe/Isocrates_Carta_2_a_Filipe_grc_Van-Hook_1945.md"
+    },
+    {
+      "id": "isocrates-carta-3-a-filipe-grc-van-hook-1945",
+      "titulo": "Ἐπιστολὴ γ΄ Φιλίππῳ β΄",
+      "autor": "Isócrates",
+      "arquivo": "FILOSOFIA/Grego/Retorica/Isocrates/Carta_3_a_Filipe/Isocrates_Carta_3_a_Filipe_grc_Van-Hook_1945.md"
+    },
+    {
+      "id": "isocrates-carta-4-a-antipatro-grc-van-hook-1945",
+      "titulo": "Ἐπιστολὴ δ΄ Ἀντιπάτρῳ",
+      "autor": "Isócrates",
+      "arquivo": "FILOSOFIA/Grego/Retorica/Isocrates/Carta_4_a_Antipatro/Isocrates_Carta_4_a_Antipatro_grc_Van-Hook_1945.md"
+    },
+    {
+      "id": "isocrates-carta-5-a-alexandre-grc-van-hook-1945",
+      "titulo": "Ἐπιστολὴ ε΄ Ἀλεξάνδρῳ",
+      "autor": "Isócrates",
+      "arquivo": "FILOSOFIA/Grego/Retorica/Isocrates/Carta_5_a_Alexandre/Isocrates_Carta_5_a_Alexandre_grc_Van-Hook_1945.md"
+    },
+    {
+      "id": "isocrates-carta-6-aos-filhos-de-jasao-grc-van-hook-1945",
+      "titulo": "Ἐπιστολὴ ϛ΄ Τοῖς Ἰάσονος παισίν",
+      "autor": "Isócrates",
+      "arquivo": "FILOSOFIA/Grego/Retorica/Isocrates/Carta_6_aos_Filhos_de_Jasao/Isocrates_Carta_6_aos_Filhos_de_Jasao_grc_Van-Hook_1945.md"
+    },
+    {
+      "id": "isocrates-carta-7-a-timoteo-grc-van-hook-1945",
+      "titulo": "Ἐπιστολὴ ζ΄ Τιμοθέῳ",
+      "autor": "Isócrates",
+      "arquivo": "FILOSOFIA/Grego/Retorica/Isocrates/Carta_7_a_Timoteo/Isocrates_Carta_7_a_Timoteo_grc_Van-Hook_1945.md"
+    },
+    {
+      "id": "isocrates-carta-8-aos-governantes-de-mitilene-grc-van-hook-1945",
+      "titulo": "Ἐπιστολὴ η΄ Τοῖς Μυτιληναίων ἄρχουσιν",
+      "autor": "Isócrates",
+      "arquivo": "FILOSOFIA/Grego/Retorica/Isocrates/Carta_8_aos_Governantes_de_Mitilene/Isocrates_Carta_8_aos_Governantes_de_Mitilene_grc_Van-Hook_1945.md"
+    },
+    {
+      "id": "isocrates-carta-9-a-arquidamo-grc-van-hook-1945",
+      "titulo": "Ἐπιστολὴ θ΄ Ἀρχιδάμῳ",
+      "autor": "Isócrates",
+      "arquivo": "FILOSOFIA/Grego/Retorica/Isocrates/Carta_9_a_Arquidamo/Isocrates_Carta_9_a_Arquidamo_grc_Van-Hook_1945.md"
+    },
+    {
+      "id": "isocrates-contra-calimaco-grc-van-hook-1945",
+      "titulo": "Παραγραφὴ πρὸς Καλλίμαχον",
+      "autor": "Isócrates",
+      "arquivo": "FILOSOFIA/Grego/Retorica/Isocrates/Contra_Calimaco/Isocrates_Contra_Calimaco_grc_Van-Hook_1945.md"
+    },
+    {
+      "id": "isocrates-contra-eutino-grc-van-hook-1945",
+      "titulo": "Πρὸς Εὐθύνους ἀμάρτυρος",
+      "autor": "Isócrates",
+      "arquivo": "FILOSOFIA/Grego/Retorica/Isocrates/Contra_Eutino/Isocrates_Contra_Eutino_grc_Van-Hook_1945.md"
+    },
+    {
+      "id": "isocrates-contra-loquites-grc-van-hook-1945",
+      "titulo": "Κατὰ Λοχίτου",
+      "autor": "Isócrates",
+      "arquivo": "FILOSOFIA/Grego/Retorica/Isocrates/Contra_Loquites/Isocrates_Contra_Loquites_grc_Van-Hook_1945.md"
+    },
+    {
+      "id": "isocrates-contra-os-sofistas-grc-norlin-1929",
+      "titulo": "Κατὰ τῶν σοφιστῶν",
+      "autor": "Isócrates",
+      "arquivo": "FILOSOFIA/Grego/Retorica/Isocrates/Contra_os_Sofistas/Isocrates_Contra_os_Sofistas_grc_Norlin_1929.md"
+    },
+    {
+      "id": "isocrates-eginetico-grc-van-hook-1945",
+      "titulo": "Αἰγινητικός",
+      "autor": "Isócrates",
+      "arquivo": "FILOSOFIA/Grego/Retorica/Isocrates/Eginetico/Isocrates_Eginetico_grc_Van-Hook_1945.md"
+    },
+    {
+      "id": "isocrates-elogio-de-helena-grc-van-hook-1945",
+      "titulo": "Ἑλένη",
+      "autor": "Isócrates",
+      "arquivo": "FILOSOFIA/Grego/Retorica/Isocrates/Elogio_de_Helena/Isocrates_Elogio_de_Helena_grc_Van-Hook_1945.md"
+    },
+    {
+      "id": "isocrates-evagoras-grc-van-hook-1945",
+      "titulo": "Εὐαγόρας",
+      "autor": "Isócrates",
+      "arquivo": "FILOSOFIA/Grego/Retorica/Isocrates/Evagoras/Isocrates_Evagoras_grc_Van-Hook_1945.md"
+    },
+    {
+      "id": "isocrates-nicocles-grc-norlin-1928",
+      "titulo": "Νικοκλῆς ἢ Κύπριοι",
+      "autor": "Isócrates",
+      "arquivo": "FILOSOFIA/Grego/Retorica/Isocrates/Nicocles/Isocrates_Nicocles_grc_Norlin_1928.md"
+    },
+    {
+      "id": "isocrates-panatenaico-grc-norlin-1929",
+      "titulo": "Παναθηναϊκός",
+      "autor": "Isócrates",
+      "arquivo": "FILOSOFIA/Grego/Retorica/Isocrates/Panatenaico/Isocrates_Panatenaico_grc_Norlin_1929.md"
+    },
+    {
+      "id": "isocrates-panegirico-grc-norlin-1928",
+      "titulo": "Πανηγυρικός",
+      "autor": "Isócrates",
+      "arquivo": "FILOSOFIA/Grego/Retorica/Isocrates/Panegirico/Isocrates_Panegirico_grc_Norlin_1928.md"
+    },
+    {
+      "id": "isocrates-plataico-grc-van-hook-1945",
+      "titulo": "Πλαταϊκός",
+      "autor": "Isócrates",
+      "arquivo": "FILOSOFIA/Grego/Retorica/Isocrates/Plataico/Isocrates_Plataico_grc_Van-Hook_1945.md"
+    },
+    {
+      "id": "isocrates-sobre-a-parelha-grc-van-hook-1945",
+      "titulo": "Περὶ τοῦ ζεύγους",
+      "autor": "Isócrates",
+      "arquivo": "FILOSOFIA/Grego/Retorica/Isocrates/Sobre_a_Parelha/Isocrates_Sobre_a_Parelha_grc_Van-Hook_1945.md"
+    },
+    {
+      "id": "isocrates-sobre-a-paz-grc-norlin-1929",
+      "titulo": "Περὶ εἰρήνης",
+      "autor": "Isócrates",
+      "arquivo": "FILOSOFIA/Grego/Retorica/Isocrates/Sobre_a_Paz/Isocrates_Sobre_a_Paz_grc_Norlin_1929.md"
+    },
+    {
+      "id": "isocrates-trapezitico-grc-van-hook-1945",
+      "titulo": "Τραπεζιτικός",
+      "autor": "Isócrates",
+      "arquivo": "FILOSOFIA/Grego/Retorica/Isocrates/Trapezitico/Isocrates_Trapezitico_grc_Van-Hook_1945.md"
+    },
+    {
+      "id": "aristoteles-cartas-grc-hercher-1873",
+      "titulo": "Ἐπιστολαί",
+      "autor": "Aristóteles",
+      "arquivo": "FILOSOFIA/Grego/Filosofia_Classica/Aristoteles/Cartas/Aristoteles_Cartas_grc_Hercher_1873.md"
+    },
+    {
+      "id": "aristoteles-de-anima-recensao-do-codice-e-grc-ross-1956",
+      "titulo": "Περὶ ψυχῆς (codicis E fragmenta)",
+      "autor": "Aristóteles",
+      "arquivo": "FILOSOFIA/Grego/Filosofia_Classica/Aristoteles/De_Anima_Recensao_do_Codice_E/Aristoteles_De_Anima_Recensao_do_Codice_E_grc_Ross_1956.md",
+      "sistema_referencia": "bekker"
+    },
+    {
+      "id": "aristoteles-de-anima-grc-ross-1956",
+      "titulo": "Περὶ ψυχῆς",
+      "autor": "Aristóteles",
+      "arquivo": "FILOSOFIA/Grego/Filosofia_Classica/Aristoteles/De_Anima/Aristoteles_De_Anima_grc_Ross_1956.md",
+      "sistema_referencia": "bekker"
+    },
+    {
+      "id": "aristoteles-de-audibilibus-grc-bekker-1837",
+      "titulo": "Περὶ ἀκουστῶν",
+      "autor": "Aristóteles",
+      "arquivo": "FILOSOFIA/Grego/Filosofia_Classica/Aristoteles/De_Audibilibus/Aristoteles_De_Audibilibus_grc_Bekker_1837.md",
+      "sistema_referencia": "bekker"
+    },
+    {
+      "id": "aristoteles-de-caelo-grc-prantl-1881",
+      "titulo": "Περὶ οὐρανοῦ",
+      "autor": "Aristóteles",
+      "arquivo": "FILOSOFIA/Grego/Filosofia_Classica/Aristoteles/De_Caelo/Aristoteles_De_Caelo_grc_Prantl_1881.md",
+      "sistema_referencia": "bekker"
+    },
+    {
+      "id": "aristoteles-de-coloribus-grc-bekker-1837",
+      "titulo": "Περὶ χρωμάτων",
+      "autor": "Aristóteles",
+      "arquivo": "FILOSOFIA/Grego/Filosofia_Classica/Aristoteles/De_Coloribus/Aristoteles_De_Coloribus_grc_Bekker_1837.md",
+      "sistema_referencia": "bekker"
+    },
+    {
+      "id": "aristoteles-de-divinatione-per-somnum-grc-bekker-1837",
+      "titulo": "Περὶ τῆς καθ᾽ ὕπνον μαντικῆς",
+      "autor": "Aristóteles",
+      "arquivo": "FILOSOFIA/Grego/Filosofia_Classica/Aristoteles/De_Divinatione_per_Somnum/Aristoteles_De_Divinatione_per_Somnum_grc_Bekker_1837.md"
+    },
+    {
+      "id": "aristoteles-de-generatione-animalium-grc-bekker-1829",
+      "titulo": "Περὶ ζῴων γενέσεως",
+      "autor": "Aristóteles",
+      "arquivo": "FILOSOFIA/Grego/Filosofia_Classica/Aristoteles/De_Generatione_Animalium/Aristoteles_De_Generatione_Animalium_grc_Bekker_1829.md"
+    },
+    {
+      "id": "aristoteles-de-generatione-et-corruptione-grc-forster-1955",
+      "titulo": "Περὶ γενέσεως καὶ φθορᾶς",
+      "autor": "Aristóteles",
+      "arquivo": "FILOSOFIA/Grego/Filosofia_Classica/Aristoteles/De_Generatione_et_Corruptione/Aristoteles_De_Generatione_et_Corruptione_grc_Forster_1955.md",
+      "sistema_referencia": "bekker"
+    },
+    {
+      "id": "aristoteles-de-incessu-animalium-grc-jaeger-1913",
+      "titulo": "Περὶ πορείας ζῴων",
+      "autor": "Aristóteles",
+      "arquivo": "FILOSOFIA/Grego/Filosofia_Classica/Aristoteles/De_Incessu_Animalium/Aristoteles_De_Incessu_Animalium_grc_Jaeger_1913.md",
+      "sistema_referencia": "bekker"
+    },
+    {
+      "id": "aristoteles-de-insomniis-grc-bekker-1837",
+      "titulo": "Περὶ ἐνυπνίων",
+      "autor": "Aristóteles",
+      "arquivo": "FILOSOFIA/Grego/Filosofia_Classica/Aristoteles/De_Insomniis/Aristoteles_De_Insomniis_grc_Bekker_1837.md"
+    },
+    {
+      "id": "aristoteles-de-interpretatione-grc-bekker-1837",
+      "titulo": "Περὶ ἑρμηνείας",
+      "autor": "Aristóteles",
+      "arquivo": "FILOSOFIA/Grego/Filosofia_Classica/Aristoteles/De_Interpretatione/Aristoteles_De_Interpretatione_grc_Bekker_1837.md"
+    },
+    {
+      "id": "aristoteles-de-iuventute-et-senectute-grc-bekker-1837",
+      "titulo": "Περὶ νεότητος καὶ γήρως, περὶ ζωῆς καὶ θανάτου",
+      "autor": "Aristóteles",
+      "arquivo": "FILOSOFIA/Grego/Filosofia_Classica/Aristoteles/De_Iuventute_et_Senectute/Aristoteles_De_Iuventute_et_Senectute_grc_Bekker_1837.md"
+    },
+    {
+      "id": "aristoteles-de-lineis-insecabilibus-grc-bekker-1837",
+      "titulo": "Περὶ ἀτόμων γραμμῶν",
+      "autor": "Aristóteles",
+      "arquivo": "FILOSOFIA/Grego/Filosofia_Classica/Aristoteles/De_Lineis_Insecabilibus/Aristoteles_De_Lineis_Insecabilibus_grc_Bekker_1837.md",
+      "sistema_referencia": "bekker"
+    },
+    {
+      "id": "aristoteles-de-longitudine-vitae-grc-bekker-1837",
+      "titulo": "Περὶ μακροβιότητος καὶ βραχυβιότητος",
+      "autor": "Aristóteles",
+      "arquivo": "FILOSOFIA/Grego/Filosofia_Classica/Aristoteles/De_Longitudine_Vitae/Aristoteles_De_Longitudine_Vitae_grc_Bekker_1837.md"
+    },
+    {
+      "id": "aristoteles-de-melisso-xenophane-gorgia-grc-bekker-1837",
+      "titulo": "Περὶ Ξενοφάνους, περὶ Ζήνωνος, περὶ Γοργίου",
+      "autor": "Aristóteles",
+      "arquivo": "FILOSOFIA/Grego/Filosofia_Classica/Aristoteles/De_Melisso_Xenophane_Gorgia/Aristoteles_De_Melisso_Xenophane_Gorgia_grc_Bekker_1837.md",
+      "sistema_referencia": "bekker"
+    },
+    {
+      "id": "aristoteles-de-memoria-grc-bekker-1837",
+      "titulo": "Περὶ μνήμης καὶ ἀναμνήσεως",
+      "autor": "Aristóteles",
+      "arquivo": "FILOSOFIA/Grego/Filosofia_Classica/Aristoteles/De_Memoria/Aristoteles_De_Memoria_grc_Bekker_1837.md"
+    },
+    {
+      "id": "aristoteles-de-mirabilibus-auscultationibus-grc-bekker-1837",
+      "titulo": "Περὶ θαυμασίων ἀκουσμάτων",
+      "autor": "Aristóteles",
+      "arquivo": "FILOSOFIA/Grego/Filosofia_Classica/Aristoteles/De_Mirabilibus_Auscultationibus/Aristoteles_De_Mirabilibus_Auscultationibus_grc_Bekker_1837.md",
+      "sistema_referencia": "bekker"
+    },
+    {
+      "id": "aristoteles-de-motu-animalium-grc-jaeger-1913",
+      "titulo": "Περὶ ζῴων κινήσεως",
+      "autor": "Aristóteles",
+      "arquivo": "FILOSOFIA/Grego/Filosofia_Classica/Aristoteles/De_Motu_Animalium/Aristoteles_De_Motu_Animalium_grc_Jaeger_1913.md",
+      "sistema_referencia": "bekker"
+    },
+    {
+      "id": "aristoteles-de-partibus-animalium-grc-langkavel-1868",
+      "titulo": "Περὶ ζῴων μορίων",
+      "autor": "Aristóteles",
+      "arquivo": "FILOSOFIA/Grego/Filosofia_Classica/Aristoteles/De_Partibus_Animalium/Aristoteles_De_Partibus_Animalium_grc_Langkavel_1868.md",
+      "sistema_referencia": "bekker"
+    },
+    {
+      "id": "aristoteles-de-respiratione-grc-bekker-1837",
+      "titulo": "Περὶ ἀναπνοῆς",
+      "autor": "Aristóteles",
+      "arquivo": "FILOSOFIA/Grego/Filosofia_Classica/Aristoteles/De_Respiratione/Aristoteles_De_Respiratione_grc_Bekker_1837.md"
+    },
+    {
+      "id": "aristoteles-de-sensu-grc-bekker-1837",
+      "titulo": "Περὶ αἰσθήσεως καὶ αἰσθητῶν",
+      "autor": "Aristóteles",
+      "arquivo": "FILOSOFIA/Grego/Filosofia_Classica/Aristoteles/De_Sensu/Aristoteles_De_Sensu_grc_Bekker_1837.md"
+    },
+    {
+      "id": "aristoteles-de-somno-grc-bekker-1837",
+      "titulo": "Περὶ ὕπνου καὶ ἐγρηγόρσεως",
+      "autor": "Aristóteles",
+      "arquivo": "FILOSOFIA/Grego/Filosofia_Classica/Aristoteles/De_Somno/Aristoteles_De_Somno_grc_Bekker_1837.md"
+    },
+    {
+      "id": "aristoteles-de-spiritu-grc-jaeger-1913",
+      "titulo": "Περὶ πνεύματος",
+      "autor": "Aristóteles",
+      "arquivo": "FILOSOFIA/Grego/Filosofia_Classica/Aristoteles/De_Spiritu/Aristoteles_De_Spiritu_grc_Jaeger_1913.md",
+      "sistema_referencia": "bekker"
+    },
+    {
+      "id": "aristoteles-de-ventorum-situ-grc-bekker-1837",
+      "titulo": "Ἀνέμων θέσεις καὶ προσηγορίαι",
+      "autor": "Aristóteles",
+      "arquivo": "FILOSOFIA/Grego/Filosofia_Classica/Aristoteles/De_Ventorum_Situ/Aristoteles_De_Ventorum_Situ_grc_Bekker_1837.md",
+      "sistema_referencia": "bekker"
+    },
+    {
+      "id": "aristoteles-divisiones-grc-mutschmann-1906",
+      "titulo": "Διαιρέσεις",
+      "autor": "Aristóteles",
+      "arquivo": "FILOSOFIA/Grego/Filosofia_Classica/Aristoteles/Divisiones/Aristoteles_Divisiones_grc_Mutschmann_1906.md"
+    },
+    {
+      "id": "aristoteles-fisica-texto-alternativo-grc-ross-1960",
+      "titulo": "Φυσικὴ ἀκρόασις (textus alter)",
+      "autor": "Aristóteles",
+      "arquivo": "FILOSOFIA/Grego/Filosofia_Classica/Aristoteles/Fisica_Texto_Alternativo/Aristoteles_Fisica_Texto_Alternativo_grc_Ross_1960.md",
+      "sistema_referencia": "bekker"
+    },
+    {
+      "id": "aristoteles-fisica-grc-ross-1960",
+      "titulo": "Φυσικὴ ἀκρόασις",
+      "autor": "Aristóteles",
+      "arquivo": "FILOSOFIA/Grego/Filosofia_Classica/Aristoteles/Fisica/Aristoteles_Fisica_grc_Ross_1960.md",
+      "sistema_referencia": "bekker"
+    },
+    {
+      "id": "aristoteles-historia-animalium-grc-bekker-1837",
+      "titulo": "Τῶν περὶ τὰ ζῷα ἱστοριῶν",
+      "autor": "Aristóteles",
+      "arquivo": "FILOSOFIA/Grego/Filosofia_Classica/Aristoteles/Historia_Animalium/Aristoteles_Historia_Animalium_grc_Bekker_1837.md"
+    },
+    {
+      "id": "aristoteles-magna-moralia-grc-susemihl-1883",
+      "titulo": "Ἠθικὰ μεγάλα",
+      "autor": "Aristóteles",
+      "arquivo": "FILOSOFIA/Grego/Filosofia_Classica/Aristoteles/Magna_Moralia/Aristoteles_Magna_Moralia_grc_Susemihl_1883.md",
+      "sistema_referencia": "bekker"
+    },
+    {
+      "id": "aristoteles-mechanica-grc-bekker-1837",
+      "titulo": "Μηχανικά",
+      "autor": "Aristóteles",
+      "arquivo": "FILOSOFIA/Grego/Filosofia_Classica/Aristoteles/Mechanica/Aristoteles_Mechanica_grc_Bekker_1837.md",
+      "sistema_referencia": "bekker"
+    },
+    {
+      "id": "aristoteles-meteorologicos-grc-fobes-1919",
+      "titulo": "Μετεωρολογικά",
+      "autor": "Aristóteles",
+      "arquivo": "FILOSOFIA/Grego/Filosofia_Classica/Aristoteles/Meteorologicos/Aristoteles_Meteorologicos_grc_Fobes_1919.md",
+      "sistema_referencia": "bekker"
+    },
+    {
+      "id": "aristoteles-physiognomonica-grc-bekker-1837",
+      "titulo": "Φυσιογνωμονικά",
+      "autor": "Aristóteles",
+      "arquivo": "FILOSOFIA/Grego/Filosofia_Classica/Aristoteles/Physiognomonica/Aristoteles_Physiognomonica_grc_Bekker_1837.md",
+      "sistema_referencia": "bekker"
+    },
+    {
+      "id": "aristoteles-primeiros-analiticos-grc-ross-1964",
+      "titulo": "Ἀναλυτικὰ πρότερα",
+      "autor": "Aristóteles",
+      "arquivo": "FILOSOFIA/Grego/Filosofia_Classica/Aristoteles/Primeiros_Analiticos/Aristoteles_Primeiros_Analiticos_grc_Ross_1964.md",
+      "sistema_referencia": "bekker"
+    },
+    {
+      "id": "aristoteles-problemata-grc-ruelle-1922",
+      "titulo": "Φυσικὰ προβλήματα",
+      "autor": "Aristóteles",
+      "arquivo": "FILOSOFIA/Grego/Filosofia_Classica/Aristoteles/Problemata/Aristoteles_Problemata_grc_Ruelle_1922.md",
+      "sistema_referencia": "bekker"
+    },
+    {
+      "id": "aristoteles-refutacoes-sofisticas-grc-bekker-1837",
+      "titulo": "Περὶ σοφιστικῶν ἐλέγχων",
+      "autor": "Aristóteles",
+      "arquivo": "FILOSOFIA/Grego/Filosofia_Classica/Aristoteles/Refutacoes_Sofisticas/Aristoteles_Refutacoes_Sofisticas_grc_Bekker_1837.md"
+    },
+    {
+      "id": "aristoteles-topicos-grc-bekker-1837",
+      "titulo": "Τοπικά",
+      "autor": "Aristóteles",
+      "arquivo": "FILOSOFIA/Grego/Filosofia_Classica/Aristoteles/Topicos/Aristoteles_Topicos_grc_Bekker_1837.md"
+    },
+    {
+      "id": "teofrasto-de-animi-defectione-grc-wimmer-1866",
+      "titulo": "Περὶ λιποψυχίας",
+      "autor": "Teofrasto",
+      "arquivo": "FILOSOFIA/Grego/Filosofia_Classica/Teofrasto/De_Animi_Defectione/Teofrasto_De_Animi_Defectione_grc_Wimmer_1866.md"
+    },
+    {
+      "id": "teofrasto-de-causis-plantarum-grc-wimmer-1854",
+      "titulo": "Περὶ φυτῶν αἰτιῶν",
+      "autor": "Teofrasto",
+      "arquivo": "FILOSOFIA/Grego/Filosofia_Classica/Teofrasto/De_Causis_Plantarum/Teofrasto_De_Causis_Plantarum_grc_Wimmer_1854.md"
+    },
+    {
+      "id": "teofrasto-de-igne-grc-wimmer-1862",
+      "titulo": "Περὶ πυρός",
+      "autor": "Teofrasto",
+      "arquivo": "FILOSOFIA/Grego/Filosofia_Classica/Teofrasto/De_Igne/Teofrasto_De_Igne_grc_Wimmer_1862.md"
+    },
+    {
+      "id": "teofrasto-de-lapidibus-grc-wimmer-1862",
+      "titulo": "Περὶ λίθων",
+      "autor": "Teofrasto",
+      "arquivo": "FILOSOFIA/Grego/Filosofia_Classica/Teofrasto/De_Lapidibus/Teofrasto_De_Lapidibus_grc_Wimmer_1862.md"
+    },
+    {
+      "id": "teofrasto-de-lassitudine-grc-wimmer-1866",
+      "titulo": "Περὶ κόπων",
+      "autor": "Teofrasto",
+      "arquivo": "FILOSOFIA/Grego/Filosofia_Classica/Teofrasto/De_Lassitudine/Teofrasto_De_Lassitudine_grc_Wimmer_1866.md"
+    },
+    {
+      "id": "teofrasto-de-nervorum-resolutione-grc-wimmer-1866",
+      "titulo": "Περὶ παραλύσεως",
+      "autor": "Teofrasto",
+      "arquivo": "FILOSOFIA/Grego/Filosofia_Classica/Teofrasto/De_Nervorum_Resolutione/Teofrasto_De_Nervorum_Resolutione_grc_Wimmer_1866.md"
+    },
+    {
+      "id": "teofrasto-de-odoribus-grc-hort-1927",
+      "titulo": "Περὶ ὀσμῶν",
+      "autor": "Teofrasto",
+      "arquivo": "FILOSOFIA/Grego/Filosofia_Classica/Teofrasto/De_Odoribus/Teofrasto_De_Odoribus_grc_Hort_1927.md"
+    },
+    {
+      "id": "teofrasto-de-sensibus-grc-wimmer-1862",
+      "titulo": "Περὶ αἰσθήσεων",
+      "autor": "Teofrasto",
+      "arquivo": "FILOSOFIA/Grego/Filosofia_Classica/Teofrasto/De_Sensibus/Teofrasto_De_Sensibus_grc_Wimmer_1862.md"
+    },
+    {
+      "id": "teofrasto-de-signis-tempestatum-grc-hort-1927",
+      "titulo": "Περὶ σημείων",
+      "autor": "Teofrasto",
+      "arquivo": "FILOSOFIA/Grego/Filosofia_Classica/Teofrasto/De_Signis_Tempestatum/Teofrasto_De_Signis_Tempestatum_grc_Hort_1927.md"
+    },
+    {
+      "id": "teofrasto-de-sudore-grc-wimmer-1866",
+      "titulo": "Περὶ ἱδρώτων",
+      "autor": "Teofrasto",
+      "arquivo": "FILOSOFIA/Grego/Filosofia_Classica/Teofrasto/De_Sudore/Teofrasto_De_Sudore_grc_Wimmer_1866.md"
+    },
+    {
+      "id": "teofrasto-de-ventis-grc-wimmer-1866",
+      "titulo": "Περὶ ἀνέμων",
+      "autor": "Teofrasto",
+      "arquivo": "FILOSOFIA/Grego/Filosofia_Classica/Teofrasto/De_Ventis/Teofrasto_De_Ventis_grc_Wimmer_1866.md"
+    },
+    {
+      "id": "teofrasto-de-vertigine-grc-wimmer-1866",
+      "titulo": "Περὶ ἰλίγγων",
+      "autor": "Teofrasto",
+      "arquivo": "FILOSOFIA/Grego/Filosofia_Classica/Teofrasto/De_Vertigine/Teofrasto_De_Vertigine_grc_Wimmer_1866.md"
+    },
+    {
+      "id": "teofrasto-fragmentos-grc-wimmer-1866",
+      "titulo": "Ἀποσπάσματα",
+      "autor": "Teofrasto",
+      "arquivo": "FILOSOFIA/Grego/Filosofia_Classica/Teofrasto/Fragmentos/Teofrasto_Fragmentos_grc_Wimmer_1866.md"
+    },
+    {
+      "id": "teofrasto-historia-plantarum-grc-hort-1916",
+      "titulo": "Περὶ φυτῶν ἱστορίας",
+      "autor": "Teofrasto",
+      "arquivo": "FILOSOFIA/Grego/Filosofia_Classica/Teofrasto/Historia_Plantarum/Teofrasto_Historia_Plantarum_grc_Hort_1916.md"
+    },
+    {
+      "id": "teofrasto-metafisica-grc-wimmer-1862",
+      "titulo": "Ἐκ τῶν μετὰ τὰ φυσικά",
+      "autor": "Teofrasto",
+      "arquivo": "FILOSOFIA/Grego/Filosofia_Classica/Teofrasto/Metafisica/Teofrasto_Metafisica_grc_Wimmer_1862.md"
+    },
+    {
+      "id": "xenofonte-hierao-grc-marchant-1920",
+      "titulo": "Ἱέρων",
+      "autor": "Xenofonte",
+      "arquivo": "FILOSOFIA/Grego/Filosofia_Classica/Xenofonte/Hierao/Xenofonte_Hierao_grc_Marchant_1920.md"
+    },
+    {
+      "id": "epicuro-carta-a-herodoto-grc-von-der-muhll-1922",
+      "titulo": "Ἐπίκουρος Ἡροδότῳ χαίρειν",
+      "autor": "Epicuro",
+      "arquivo": "FILOSOFIA/Grego/Epicurismo/Epicuro/Carta_a_Herodoto/Epicuro_Carta_a_Herodoto_grc_Von-der-Muhll_1922.md"
+    },
+    {
+      "id": "epicuro-carta-a-meneceu-grc-von-der-muhll-1922",
+      "titulo": "Ἐπίκουρος Μενοικεῖ χαίρειν",
+      "autor": "Epicuro",
+      "arquivo": "FILOSOFIA/Grego/Epicurismo/Epicuro/Carta_a_Meneceu/Epicuro_Carta_a_Meneceu_grc_Von-der-Muhll_1922.md"
+    },
+    {
+      "id": "epicuro-carta-a-pitocles-grc-von-der-muhll-1922",
+      "titulo": "Ἐπίκουρος Πυθοκλεῖ χαίρειν",
+      "autor": "Epicuro",
+      "arquivo": "FILOSOFIA/Grego/Epicurismo/Epicuro/Carta_a_Pitocles/Epicuro_Carta_a_Pitocles_grc_Von-der-Muhll_1922.md"
+    },
+    {
+      "id": "epicuro-maximas-principais-grc-von-der-muhll-1922",
+      "titulo": "Κύριαι δόξαι",
+      "autor": "Epicuro",
+      "arquivo": "FILOSOFIA/Grego/Epicurismo/Epicuro/Maximas_Principais/Epicuro_Maximas_Principais_grc_Von-der-Muhll_1922.md"
+    },
+    {
+      "id": "epicuro-sentencas-vaticanas-grc-von-der-muhll-1922",
+      "titulo": "Ἐπικούρου προσφώνησις",
+      "autor": "Epicuro",
+      "arquivo": "FILOSOFIA/Grego/Epicurismo/Epicuro/Sentencas_Vaticanas/Epicuro_Sentencas_Vaticanas_grc_Von-der-Muhll_1922.md"
+    },
+    {
+      "id": "arriano-carta-a-lucio-gelio-grc-roos-1910",
+      "titulo": "Ἀρριανὸς Λουκίῳ Γελλίῳ χαίρειν",
+      "autor": "Arriano",
+      "arquivo": "FILOSOFIA/Grego/Estoicismo/Arriano/Carta_a_Lucio_Gelio/Arriano_Carta_a_Lucio_Gelio_grc_Roos_1910.md"
+    },
+    {
+      "id": "cleantes-testemunhos-e-fragmentos-grc-von-arnim-1903",
+      "titulo": "Testimonia et fragmenta",
+      "autor": "Cleantes",
+      "arquivo": "FILOSOFIA/Grego/Estoicismo/Cleantes/Testemunhos_e_Fragmentos/Cleantes_Testemunhos_e_Fragmentos_grc_Von-Arnim_1903.md",
+      "sistema_referencia": "svf"
+    },
+    {
+      "id": "crisipo-fragmentos-homericos-grc-von-arnim-1903",
+      "titulo": "Fragmenta ad explicationem carminum Homericorum",
+      "autor": "Crisipo",
+      "arquivo": "FILOSOFIA/Grego/Estoicismo/Crisipo/Fragmentos_Homericos/Crisipo_Fragmentos_Homericos_grc_Von-Arnim_1903.md",
+      "sistema_referencia": "svf"
+    },
+    {
+      "id": "crisipo-fragmentos-morais-grc-von-arnim-1903",
+      "titulo": "Fragmenta moralia",
+      "autor": "Crisipo",
+      "arquivo": "FILOSOFIA/Grego/Estoicismo/Crisipo/Fragmentos_Morais/Crisipo_Fragmentos_Morais_grc_Von-Arnim_1903.md",
+      "sistema_referencia": "svf"
+    },
+    {
+      "id": "crisipo-fragmentos-por-livro-grc-von-arnim-1903",
+      "titulo": "Fragmenta ad singulos libros relata",
+      "autor": "Crisipo",
+      "arquivo": "FILOSOFIA/Grego/Estoicismo/Crisipo/Fragmentos_por_Livro/Crisipo_Fragmentos_por_Livro_grc_Von-Arnim_1903.md"
+    },
+    {
+      "id": "musonio-rufo-cartas-espurias-grc-hense-1905",
+      "titulo": "Ἐπιστολαί",
+      "autor": "Musônio Rufo",
+      "arquivo": "FILOSOFIA/Grego/Estoicismo/Musonio_Rufo/Cartas_Espurias/Musonio_Rufo_Cartas_Espurias_grc_Hense_1905.md"
+    },
+    {
+      "id": "musonio-rufo-diatribes-grc-hense-1905",
+      "titulo": "Μουσωνίου διατριβαί",
+      "autor": "Musônio Rufo",
+      "arquivo": "FILOSOFIA/Grego/Estoicismo/Musonio_Rufo/Diatribes/Musonio_Rufo_Diatribes_grc_Hense_1905.md"
+    },
+    {
+      "id": "musonio-rufo-fragmentos-grc-hense-1905",
+      "titulo": "Ἀποσπάσματα",
+      "autor": "Musônio Rufo",
+      "arquivo": "FILOSOFIA/Grego/Estoicismo/Musonio_Rufo/Fragmentos/Musonio_Rufo_Fragmentos_grc_Hense_1905.md"
+    },
+    {
+      "id": "xenofonte-agesilau-grc-marchant-1920",
+      "titulo": "Ἀγησίλαος",
+      "autor": "Xenofonte",
+      "arquivo": "FILOSOFIA/Grego/Filosofia_Classica/Xenofonte/Agesilau/Xenofonte_Agesilau_grc_Marchant_1920.md"
+    },
+    {
+      "id": "xenofonte-anabase-grc-marchant-1904",
+      "titulo": "Κύρου ἀνάβασις",
+      "autor": "Xenofonte",
+      "arquivo": "FILOSOFIA/Grego/Filosofia_Classica/Xenofonte/Anabase/Xenofonte_Anabase_grc_Marchant_1904.md"
+    },
+    {
+      "id": "xenofonte-cinegetico-grc-marchant-1920",
+      "titulo": "Κυνηγετικός",
+      "autor": "Xenofonte",
+      "arquivo": "FILOSOFIA/Grego/Filosofia_Classica/Xenofonte/Cinegetico/Xenofonte_Cinegetico_grc_Marchant_1920.md"
+    },
+    {
+      "id": "xenofonte-ciropedia-grc-marchant-1910",
+      "titulo": "Κύρου παιδεία",
+      "autor": "Xenofonte",
+      "arquivo": "FILOSOFIA/Grego/Filosofia_Classica/Xenofonte/Ciropedia/Xenofonte_Ciropedia_grc_Marchant_1910.md"
+    },
+    {
+      "id": "xenofonte-constituicao-dos-lacedemonios-grc-marchant-1920",
+      "titulo": "Λακεδαιμονίων πολιτεία",
+      "autor": "Xenofonte",
+      "arquivo": "FILOSOFIA/Grego/Filosofia_Classica/Xenofonte/Constituicao_dos_Lacedemonios/Xenofonte_Constituicao_dos_Lacedemonios_grc_Marchant_1920.md"
+    },
+    {
+      "id": "xenofonte-da-equitacao-grc-marchant-1920",
+      "titulo": "Περὶ ἱππικῆς",
+      "autor": "Xenofonte",
+      "arquivo": "FILOSOFIA/Grego/Filosofia_Classica/Xenofonte/Da_Equitacao/Xenofonte_Da_Equitacao_grc_Marchant_1920.md"
+    },
+    {
+      "id": "xenofonte-helenicas-grc-marchant-1900",
+      "titulo": "Ἑλληνικά",
+      "autor": "Xenofonte",
+      "arquivo": "FILOSOFIA/Grego/Filosofia_Classica/Xenofonte/Helenicas/Xenofonte_Helenicas_grc_Marchant_1900.md"
+    },
+    {
+      "id": "xenofonte-hiparquico-grc-marchant-1920",
+      "titulo": "Ἱππαρχικός",
+      "autor": "Xenofonte",
+      "arquivo": "FILOSOFIA/Grego/Filosofia_Classica/Xenofonte/Hiparquico/Xenofonte_Hiparquico_grc_Marchant_1920.md"
+    },
+    {
+      "id": "xenofonte-poroi-grc-marchant-1920",
+      "titulo": "Πόροι ἢ περὶ προσόδων",
+      "autor": "Xenofonte",
+      "arquivo": "FILOSOFIA/Grego/Filosofia_Classica/Xenofonte/Poroi/Xenofonte_Poroi_grc_Marchant_1920.md"
+    },
+    {
+      "id": "arriano-anabase-de-alexandre-grc-roos-1907",
+      "titulo": "Ἀλεξάνδρου ἀνάβασις",
+      "autor": "Arriano",
+      "arquivo": "FILOSOFIA/Grego/Estoicismo/Arriano/Anabase_de_Alexandre/Arriano_Anabase_de_Alexandre_grc_Roos_1907.md"
+    },
+    {
+      "id": "arriano-cinegetico-grc-hercher-eberhard-1885",
+      "titulo": "Κυνηγετικός",
+      "autor": "Arriano",
+      "arquivo": "FILOSOFIA/Grego/Estoicismo/Arriano/Cinegetico/Arriano_Cinegetico_grc_Hercher-Eberhard_1885.md"
+    },
+    {
+      "id": "arriano-contra-os-alanos-grc-hercher-eberhard-1885",
+      "titulo": "Ἔκταξις κατὰ Ἀλανῶν",
+      "autor": "Arriano",
+      "arquivo": "FILOSOFIA/Grego/Estoicismo/Arriano/Contra_os_Alanos/Arriano_Contra_os_Alanos_grc_Hercher-Eberhard_1885.md"
+    },
+    {
+      "id": "arriano-indica-grc-hercher-eberhard-1885",
+      "titulo": "Ἰνδική",
+      "autor": "Arriano",
+      "arquivo": "FILOSOFIA/Grego/Estoicismo/Arriano/Indica/Arriano_Indica_grc_Hercher-Eberhard_1885.md"
+    },
+    {
+      "id": "arriano-periplo-do-ponto-euxino-grc-hercher-eberhard-1885",
+      "titulo": "Περίπλους τοῦ Εὐξείνου Πόντου",
+      "autor": "Arriano",
+      "arquivo": "FILOSOFIA/Grego/Estoicismo/Arriano/Periplo_do_Ponto_Euxino/Arriano_Periplo_do_Ponto_Euxino_grc_Hercher-Eberhard_1885.md"
+    },
+    {
+      "id": "arriano-tatica-grc-hercher-eberhard-1885",
+      "titulo": "Τέχνη τακτική",
+      "autor": "Arriano",
+      "arquivo": "FILOSOFIA/Grego/Estoicismo/Arriano/Tatica/Arriano_Tatica_grc_Hercher-Eberhard_1885.md"
+    },
+    {
+      "id": "crisipo-fragmentos-logicos-e-fisicos-grc-von-arnim-1903",
+      "titulo": "Fragmenta logica et physica",
+      "autor": "Crisipo",
+      "arquivo": "FILOSOFIA/Grego/Estoicismo/Crisipo/Fragmentos_Logicos_e_Fisicos/Crisipo_Fragmentos_Logicos_e_Fisicos_grc_Von-Arnim_1903.md",
+      "sistema_referencia": "svf"
+    },
+    {
+      "id": "anonimos-in-analytica-posteriora-ii-grc-wallies-1909",
+      "titulo": "Anonymi in Analyticorum Posteriorum librum alterum commentarium",
+      "autor": "Anônimo",
+      "arquivo": "FILOSOFIA/Grego/Comentadores_Bizantinos/Anonimos/In_Analytica_Posteriora_II/Anonimos_In_Analytica_Posteriora_II_grc_Wallies_1909.md"
+    },
+    {
+      "id": "anonimos-in-rhetoricam-fragmento-grc-rabe-1896",
+      "titulo": "Fragmentum commentarii in Aristotelis rhetorica",
+      "autor": "Anônimo",
+      "arquivo": "FILOSOFIA/Grego/Comentadores_Bizantinos/Anonimos/In_Rhetoricam_Fragmento/Anonimos_In_Rhetoricam_Fragmento_grc_Rabe_1896.md"
+    },
+    {
+      "id": "anonimos-in-rhetoricam-grc-rabe-1896",
+      "titulo": "Anonymi in Aristotelis artem rhetoricam commentarium",
+      "autor": "Anônimo",
+      "arquivo": "FILOSOFIA/Grego/Comentadores_Bizantinos/Anonimos/In_Rhetoricam/Anonimos_In_Rhetoricam_grc_Rabe_1896.md"
+    },
+    {
+      "id": "anonimos-parafrase-da-etica-a-nicomaco-grc-heylbut-1889",
+      "titulo": "In Ethica Nicomachea paraphrasis",
+      "autor": "Anônimo",
+      "arquivo": "FILOSOFIA/Grego/Comentadores_Bizantinos/Anonimos/Parafrase_da_Etica_a_Nicomaco/Anonimos_Parafrase_da_Etica_a_Nicomaco_grc_Heylbut_1889.md"
+    },
+    {
+      "id": "anonimos-parafrase-da-retorica-fragmento-grc-rabe-1896",
+      "titulo": "Fragmentum paraphrasis in Aristotelis rhetorica",
+      "autor": "Anônimo",
+      "arquivo": "FILOSOFIA/Grego/Comentadores_Bizantinos/Anonimos/Parafrase_da_Retorica_Fragmento/Anonimos_Parafrase_da_Retorica_Fragmento_grc_Rabe_1896.md"
+    },
+    {
+      "id": "anonimos-parafrase-das-categorias-grc-hayduck-1883",
+      "titulo": "Anonymi in Aristotelis Categorias paraphrasis",
+      "autor": "Anônimo",
+      "arquivo": "FILOSOFIA/Grego/Comentadores_Bizantinos/Anonimos/Parafrase_das_Categorias/Anonimos_Parafrase_das_Categorias_grc_Hayduck_1883.md"
+    },
+    {
+      "id": "anonimos-parafrase-das-refutacoes-sofisticas-grc-hayduck-1884",
+      "titulo": "Anonymi in Aristotelis Sophisticos Elenchos paraphrasis",
+      "autor": "Anônimo",
+      "arquivo": "FILOSOFIA/Grego/Comentadores_Bizantinos/Anonimos/Parafrase_das_Refutacoes_Sofisticas/Anonimos_Parafrase_das_Refutacoes_Sofisticas_grc_Hayduck_1884.md"
+    },
+    {
+      "id": "eustracio-in-ethica-nicomachea-grc-heylbut-1892",
+      "titulo": "In Aristotelis Ethica Nicomachea commentaria",
+      "autor": "Eustrácio",
+      "arquivo": "FILOSOFIA/Grego/Comentadores_Bizantinos/Eustracio/In_Ethica_Nicomachea/Eustracio_In_Ethica_Nicomachea_grc_Heylbut_1892.md"
+    },
+    {
+      "id": "miguel-de-efeso-in-de-incessu-animalium-grc-hayduck-1904",
+      "titulo": "In librum De animalium incessu commentarium",
+      "autor": "Miguel de Éfeso",
+      "arquivo": "FILOSOFIA/Grego/Comentadores_Bizantinos/Miguel_de_Efeso/In_De_Incessu_Animalium/Miguel_de_Efeso_In_De_Incessu_Animalium_grc_Hayduck_1904.md"
+    },
+    {
+      "id": "miguel-de-efeso-in-de-motu-animalium-grc-hayduck-1904",
+      "titulo": "In libros De animalium motione commentarium",
+      "autor": "Miguel de Éfeso",
+      "arquivo": "FILOSOFIA/Grego/Comentadores_Bizantinos/Miguel_de_Efeso/In_De_Motu_Animalium/Miguel_de_Efeso_In_De_Motu_Animalium_grc_Hayduck_1904.md"
+    },
+    {
+      "id": "miguel-de-efeso-in-de-partibus-animalium-grc-hayduck-1904",
+      "titulo": "In libros De partibus animalium commentaria",
+      "autor": "Miguel de Éfeso",
+      "arquivo": "FILOSOFIA/Grego/Comentadores_Bizantinos/Miguel_de_Efeso/In_De_Partibus_Animalium/Miguel_de_Efeso_In_De_Partibus_Animalium_grc_Hayduck_1904.md"
+    },
+    {
+      "id": "miguel-de-efeso-in-ethica-nicomachea-v-grc-hayduck-1901",
+      "titulo": "In librum quintum Ethicorum Nicomacheorum commentarium",
+      "autor": "Miguel de Éfeso",
+      "arquivo": "FILOSOFIA/Grego/Comentadores_Bizantinos/Miguel_de_Efeso/In_Ethica_Nicomachea_V/Miguel_de_Efeso_In_Ethica_Nicomachea_V_grc_Hayduck_1901.md"
+    },
+    {
+      "id": "miguel-de-efeso-in-parva-naturalia-grc-wendland-1903",
+      "titulo": "In Parva naturalia commentaria",
+      "autor": "Miguel de Éfeso",
+      "arquivo": "FILOSOFIA/Grego/Comentadores_Bizantinos/Miguel_de_Efeso/In_Parva_Naturalia/Miguel_de_Efeso_In_Parva_Naturalia_grc_Wendland_1903.md"
+    },
+    {
+      "id": "sofonias-in-de-anima-grc-hayduck-1883",
+      "titulo": "In Aristotelis libros De anima paraphrasis",
+      "autor": "Sofonias",
+      "arquivo": "FILOSOFIA/Grego/Comentadores_Bizantinos/Sofonias/In_De_Anima/Sofonias_In_De_Anima_grc_Hayduck_1883.md"
+    },
+    {
+      "id": "sofonias-in-parva-naturalia-grc-wendland-1903",
+      "titulo": "In Parva naturalia commentarium",
+      "autor": "Sofonias",
+      "arquivo": "FILOSOFIA/Grego/Comentadores_Bizantinos/Sofonias/In_Parva_Naturalia/Sofonias_In_Parva_Naturalia_grc_Wendland_1903.md"
+    },
+    {
+      "id": "amonio-in-analytica-priora-grc-wallies-1899",
+      "titulo": "In Aristotelis Analyticorum Priorum librum I commentarium",
+      "autor": "Amônio",
+      "arquivo": "FILOSOFIA/Grego/Neoplatonismo_e_Tardia/Amonio/In_Analytica_Priora/Amonio_In_Analytica_Priora_grc_Wallies_1899.md"
+    },
+    {
+      "id": "amonio-in-categorias-grc-busse-1895",
+      "titulo": "In Aristotelis Categorias commentarius",
+      "autor": "Amônio",
+      "arquivo": "FILOSOFIA/Grego/Neoplatonismo_e_Tardia/Amonio/In_Categorias/Amonio_In_Categorias_grc_Busse_1895.md"
+    },
+    {
+      "id": "amonio-in-de-interpretatione-grc-busse-1897",
+      "titulo": "In Aristotelis librum De interpretatione commentarius",
+      "autor": "Amônio",
+      "arquivo": "FILOSOFIA/Grego/Neoplatonismo_e_Tardia/Amonio/In_De_Interpretatione/Amonio_In_De_Interpretatione_grc_Busse_1897.md"
+    },
+    {
+      "id": "amonio-in-isagogen-grc-busse-1891",
+      "titulo": "In Porphyrii Isagogen sive quinque voces",
+      "autor": "Amônio",
+      "arquivo": "FILOSOFIA/Grego/Neoplatonismo_e_Tardia/Amonio/In_Isagogen/Amonio_In_Isagogen_grc_Busse_1891.md"
+    },
+    {
+      "id": "amonio-sobre-os-silogismos-necessarios-grc-wallies-1899",
+      "titulo": "Εἰς τοὺς ἀναγκαίους συλλογισμούς",
+      "autor": "Amônio",
+      "arquivo": "FILOSOFIA/Grego/Neoplatonismo_e_Tardia/Amonio/Sobre_os_Silogismos_Necessarios/Amonio_Sobre_os_Silogismos_Necessarios_grc_Wallies_1899.md"
+    },
+    {
+      "id": "asclepio-in-metaphysica-grc-hayduck-1888",
+      "titulo": "In Aristotelis Metaphysicorum libros A–Z commentaria",
+      "autor": "Asclépio",
+      "arquivo": "FILOSOFIA/Grego/Neoplatonismo_e_Tardia/Asclepio/In_Metaphysica/Asclepio_In_Metaphysica_grc_Hayduck_1888.md"
+    },
+    {
+      "id": "davi-in-isagogen-grc-busse-1904",
+      "titulo": "In Porphyrii Isagogen commentarium",
+      "autor": "Davi, o Invencível",
+      "arquivo": "FILOSOFIA/Grego/Neoplatonismo_e_Tardia/Davi/In_Isagogen/Davi_In_Isagogen_grc_Busse_1904.md"
+    },
+    {
+      "id": "davi-prolegomenos-grc-busse-1904",
+      "titulo": "Prolegomena philosophiae",
+      "autor": "Davi, o Invencível",
+      "arquivo": "FILOSOFIA/Grego/Neoplatonismo_e_Tardia/Davi/Prolegomenos/Davi_Prolegomenos_grc_Busse_1904.md"
+    },
+    {
+      "id": "dexipo-in-categorias-grc-busse-1888",
+      "titulo": "In Aristotelis Categorias commentarium",
+      "autor": "Dexipo",
+      "arquivo": "FILOSOFIA/Grego/Neoplatonismo_e_Tardia/Dexipo/In_Categorias/Dexipo_In_Categorias_grc_Busse_1888.md"
+    },
+    {
+      "id": "elias-in-categorias-grc-busse-1900",
+      "titulo": "In Aristotelis Categorias commentarium",
+      "autor": "Elias",
+      "arquivo": "FILOSOFIA/Grego/Neoplatonismo_e_Tardia/Elias/In_Categorias/Elias_In_Categorias_grc_Busse_1900.md"
+    },
+    {
+      "id": "elias-in-isagogen-grc-busse-1900",
+      "titulo": "In Porphyrii Isagogen",
+      "autor": "Elias",
+      "arquivo": "FILOSOFIA/Grego/Neoplatonismo_e_Tardia/Elias/In_Isagogen/Elias_In_Isagogen_grc_Busse_1900.md"
+    },
+    {
+      "id": "estevao-de-alexandria-in-de-interpretatione-grc-hayduck-1885",
+      "titulo": "In Aristotelis librum De interpretatione commentarium",
+      "autor": "Estêvão de Alexandria",
+      "arquivo": "FILOSOFIA/Grego/Neoplatonismo_e_Tardia/Estevao_de_Alexandria/In_De_Interpretatione/Estevao_de_Alexandria_In_De_Interpretatione_grc_Hayduck_1885.md"
+    },
+    {
+      "id": "jamblico-de-communi-mathematica-scientia-grc-festa-1891",
+      "titulo": "Περὶ τῆς κοινῆς μαθηματικῆς ἐπιστήμης",
+      "autor": "Jâmblico",
+      "arquivo": "FILOSOFIA/Grego/Neoplatonismo_e_Tardia/Jamblico/De_Communi_Mathematica_Scientia/Jamblico_De_Communi_Mathematica_Scientia_grc_Festa_1891.md"
+    },
+    {
+      "id": "jamblico-de-mysteriis-grc-parthey-1857",
+      "titulo": "Περὶ μυστηρίων",
+      "autor": "Jâmblico",
+      "arquivo": "FILOSOFIA/Grego/Neoplatonismo_e_Tardia/Jamblico/De_Mysteriis/Jamblico_De_Mysteriis_grc_Parthey_1857.md"
+    },
+    {
+      "id": "jamblico-in-nicomachi-arithmeticam-grc-pistelli-1894",
+      "titulo": "Περὶ τῆς Νικομάχου ἀριθμητικῆς εἰσαγωγῆς",
+      "autor": "Jâmblico",
+      "arquivo": "FILOSOFIA/Grego/Neoplatonismo_e_Tardia/Jamblico/In_Nicomachi_Arithmeticam/Jamblico_In_Nicomachi_Arithmeticam_grc_Pistelli_1894.md"
+    },
+    {
+      "id": "jamblico-protreptico-grc-pistelli-1888",
+      "titulo": "Λόγος προτρεπτικὸς ἐπὶ φιλοσοφίαν",
+      "autor": "Jâmblico",
+      "arquivo": "FILOSOFIA/Grego/Neoplatonismo_e_Tardia/Jamblico/Protreptico/Jamblico_Protreptico_grc_Pistelli_1888.md"
+    },
+    {
+      "id": "jamblico-vida-pitagorica-grc-nauck-1884",
+      "titulo": "Περὶ τοῦ Πυθαγορικοῦ βίου",
+      "autor": "Jâmblico",
+      "arquivo": "FILOSOFIA/Grego/Neoplatonismo_e_Tardia/Jamblico/Vida_Pitagorica/Jamblico_Vida_Pitagorica_grc_Nauck_1884.md"
+    },
+    {
+      "id": "joao-filopono-in-analytica-posteriora-grc-wallies-1909",
+      "titulo": "In Aristotelis Analytica Posteriora commentaria",
+      "autor": "João Filópono",
+      "arquivo": "FILOSOFIA/Grego/Neoplatonismo_e_Tardia/Joao_Filopono/In_Analytica_Posteriora/Joao_Filopono_In_Analytica_Posteriora_grc_Wallies_1909.md"
+    },
+    {
+      "id": "joao-filopono-in-analytica-priora-grc-wallies-1905",
+      "titulo": "In Aristotelis Analytica Priora commentaria",
+      "autor": "João Filópono",
+      "arquivo": "FILOSOFIA/Grego/Neoplatonismo_e_Tardia/Joao_Filopono/In_Analytica_Priora/Joao_Filopono_In_Analytica_Priora_grc_Wallies_1905.md"
+    },
+    {
+      "id": "joao-filopono-in-categorias-grc-busse-1898",
+      "titulo": "In Aristotelis Categorias commentarium",
+      "autor": "João Filópono",
+      "arquivo": "FILOSOFIA/Grego/Neoplatonismo_e_Tardia/Joao_Filopono/In_Categorias/Joao_Filopono_In_Categorias_grc_Busse_1898.md"
+    },
+    {
+      "id": "joao-filopono-in-de-anima-grc-hayduck-1897",
+      "titulo": "In Aristotelis De anima libros commentaria",
+      "autor": "João Filópono",
+      "arquivo": "FILOSOFIA/Grego/Neoplatonismo_e_Tardia/Joao_Filopono/In_De_Anima/Joao_Filopono_In_De_Anima_grc_Hayduck_1897.md"
+    },
+    {
+      "id": "joao-filopono-in-de-generatione-animalium-grc-hayduck-1903",
+      "titulo": "In libros De generatione animalium commentaria",
+      "autor": "João Filópono",
+      "arquivo": "FILOSOFIA/Grego/Neoplatonismo_e_Tardia/Joao_Filopono/In_De_Generatione_Animalium/Joao_Filopono_In_De_Generatione_Animalium_grc_Hayduck_1903.md"
+    },
+    {
+      "id": "joao-filopono-in-de-generatione-et-corruptione-grc-vitelli-1897",
+      "titulo": "In Aristotelis libros De generatione et corruptione commentaria",
+      "autor": "João Filópono",
+      "arquivo": "FILOSOFIA/Grego/Neoplatonismo_e_Tardia/Joao_Filopono/In_De_Generatione_et_Corruptione/Joao_Filopono_In_De_Generatione_et_Corruptione_grc_Vitelli_1897.md"
+    },
+    {
+      "id": "joao-filopono-in-meteorologica-grc-hayduck-1901",
+      "titulo": "In Aristotelis Meteorologicorum librum primum commentarium",
+      "autor": "João Filópono",
+      "arquivo": "FILOSOFIA/Grego/Neoplatonismo_e_Tardia/Joao_Filopono/In_Meteorologica/Joao_Filopono_In_Meteorologica_grc_Hayduck_1901.md"
+    },
+    {
+      "id": "joao-filopono-in-physica-grc-vitelli-1888",
+      "titulo": "In Aristotelis Physicorum libros commentaria",
+      "autor": "João Filópono",
+      "arquivo": "FILOSOFIA/Grego/Neoplatonismo_e_Tardia/Joao_Filopono/In_Physica/Joao_Filopono_In_Physica_grc_Vitelli_1888.md"
+    },
+    {
+      "id": "marino-in-euclidis-data-grc-menge-1896",
+      "titulo": "Commentarium in Euclidis Data",
+      "autor": "Marino",
+      "arquivo": "FILOSOFIA/Grego/Neoplatonismo_e_Tardia/Marino/In_Euclidis_Data/Marino_In_Euclidis_Data_grc_Menge_1896.md"
+    },
+    {
+      "id": "olimpiodoro-in-categorias-grc-busse-1902",
+      "titulo": "In Categorias commentarium",
+      "autor": "Olimpiodoro",
+      "arquivo": "FILOSOFIA/Grego/Neoplatonismo_e_Tardia/Olimpiodoro/In_Categorias/Olimpiodoro_In_Categorias_grc_Busse_1902.md"
+    },
+    {
+      "id": "olimpiodoro-in-meteorologica-grc-stuve-1900",
+      "titulo": "In Aristotelis Meteora commentaria",
+      "autor": "Olimpiodoro",
+      "arquivo": "FILOSOFIA/Grego/Neoplatonismo_e_Tardia/Olimpiodoro/In_Meteorologica/Olimpiodoro_In_Meteorologica_grc_Stuve_1900.md"
+    },
+    {
+      "id": "olimpiodoro-prolegomenos-grc-busse-1902",
+      "titulo": "Prolegomena",
+      "autor": "Olimpiodoro",
+      "arquivo": "FILOSOFIA/Grego/Neoplatonismo_e_Tardia/Olimpiodoro/Prolegomenos/Olimpiodoro_Prolegomenos_grc_Busse_1902.md"
+    },
+    {
+      "id": "plotino-eneadas-grc-volkmann-1884",
+      "titulo": "Ἐννεάδες",
+      "autor": "Plotino",
+      "arquivo": "FILOSOFIA/Grego/Neoplatonismo_e_Tardia/Plotino/Eneadas/Plotino_Eneadas_grc_Volkmann_1884.md"
+    },
+    {
+      "id": "porfirio-a-marcela-grc-nauck-1860",
+      "titulo": "Πρὸς Μαρκέλλαν",
+      "autor": "Porfírio",
+      "arquivo": "FILOSOFIA/Grego/Neoplatonismo_e_Tardia/Porfirio/A_Marcela/Porfirio_A_Marcela_grc_Nauck_1860.md"
+    },
+    {
+      "id": "porfirio-de-abstinentia-grc-nauck-1860",
+      "titulo": "Περὶ ἀποχῆς ἐμψύχων",
+      "autor": "Porfírio",
+      "arquivo": "FILOSOFIA/Grego/Neoplatonismo_e_Tardia/Porfirio/De_Abstinentia/Porfirio_De_Abstinentia_grc_Nauck_1860.md"
+    },
+    {
+      "id": "porfirio-historia-da-filosofia-grc-nauck-1860",
+      "titulo": "Φιλόσοφος ἱστορία",
+      "autor": "Porfírio",
+      "arquivo": "FILOSOFIA/Grego/Neoplatonismo_e_Tardia/Porfirio/Historia_da_Filosofia/Porfirio_Historia_da_Filosofia_grc_Nauck_1860.md"
+    },
+    {
+      "id": "porfirio-in-categorias-grc-busse-1887",
+      "titulo": "In Aristotelis Categorias expositio per interrogationem et responsionem",
+      "autor": "Porfírio",
+      "arquivo": "FILOSOFIA/Grego/Neoplatonismo_e_Tardia/Porfirio/In_Categorias/Porfirio_In_Categorias_grc_Busse_1887.md"
+    },
+    {
+      "id": "porfirio-isagoge-grc-busse-1887",
+      "titulo": "Εἰσαγωγή",
+      "autor": "Porfírio",
+      "arquivo": "FILOSOFIA/Grego/Neoplatonismo_e_Tardia/Porfirio/Isagoge/Porfirio_Isagoge_grc_Busse_1887.md"
+    },
+    {
+      "id": "porfirio-questoes-homericas-grc-schrader-1882",
+      "titulo": "Ὁμηρικὰ ζητήματα",
+      "autor": "Porfírio",
+      "arquivo": "FILOSOFIA/Grego/Neoplatonismo_e_Tardia/Porfirio/Questoes_Homericas/Porfirio_Questoes_Homericas_grc_Schrader_1882.md"
+    },
+    {
+      "id": "porfirio-vida-de-pitagoras-grc-nauck-1860",
+      "titulo": "Πυθαγόρου βίος",
+      "autor": "Porfírio",
+      "arquivo": "FILOSOFIA/Grego/Neoplatonismo_e_Tardia/Porfirio/Vida_de_Pitagoras/Porfirio_Vida_de_Pitagoras_grc_Nauck_1860.md"
+    },
+    {
+      "id": "porfirio-zetemata-do-codice-vaticano-grc-schrader-1882",
+      "titulo": "Ζητήματα",
+      "autor": "Porfírio",
+      "arquivo": "FILOSOFIA/Grego/Neoplatonismo_e_Tardia/Porfirio/Zetemata_do_Codice_Vaticano/Porfirio_Zetemata_do_Codice_Vaticano_grc_Schrader_1882.md"
+    },
+    {
+      "id": "proclo-in-rempublicam-grc-kroll-1901",
+      "titulo": "Εἰς τὴν Πλάτωνος Πολιτείαν",
+      "autor": "Proclo",
+      "arquivo": "FILOSOFIA/Grego/Neoplatonismo_e_Tardia/Proclo/In_Rempublicam/Proclo_In_Rempublicam_grc_Kroll_1901.md"
+    },
+    {
+      "id": "salustio-sobre-os-deuses-e-o-mundo-grc-mullach-1881",
+      "titulo": "Περὶ θεῶν καὶ κόσμου",
+      "autor": "Salústio",
+      "arquivo": "FILOSOFIA/Grego/Neoplatonismo_e_Tardia/Salustio/Sobre_os_Deuses_e_o_Mundo/Salustio_Sobre_os_Deuses_e_o_Mundo_grc_Mullach_1881.md"
+    },
+    {
+      "id": "simplicio-in-categorias-grc-kalbfleisch-1907",
+      "titulo": "In Aristotelis Categorias commentarium",
+      "autor": "Simplício",
+      "arquivo": "FILOSOFIA/Grego/Neoplatonismo_e_Tardia/Simplicio/In_Categorias/Simplicio_In_Categorias_grc_Kalbfleisch_1907.md"
+    },
+    {
+      "id": "simplicio-in-de-anima-grc-hayduck-1882",
+      "titulo": "In Aristotelis libros De anima commentaria",
+      "autor": "Simplício",
+      "arquivo": "FILOSOFIA/Grego/Neoplatonismo_e_Tardia/Simplicio/In_De_Anima/Simplicio_In_De_Anima_grc_Hayduck_1882.md"
+    },
+    {
+      "id": "siriano-in-metaphysica-grc-kroll-1902",
+      "titulo": "In Aristotelis Metaphysica commentaria",
+      "autor": "Siriano",
+      "arquivo": "FILOSOFIA/Grego/Neoplatonismo_e_Tardia/Siriano/In_Metaphysica/Siriano_In_Metaphysica_grc_Kroll_1902.md"
+    },
+    {
+      "id": "temistio-in-analytica-posteriora-grc-wallies-1900",
+      "titulo": "Analyticorum Posteriorum paraphrasis",
+      "autor": "Temístio",
+      "arquivo": "FILOSOFIA/Grego/Neoplatonismo_e_Tardia/Temistio/In_Analytica_Posteriora/Temistio_In_Analytica_Posteriora_grc_Wallies_1900.md"
+    },
+    {
+      "id": "temistio-in-analytica-priora-grc-wallies-1884",
+      "titulo": "Quae fertur in Aristotelis Analyticorum Priorum librum I paraphrasis",
+      "autor": "Temístio",
+      "arquivo": "FILOSOFIA/Grego/Neoplatonismo_e_Tardia/Temistio/In_Analytica_Priora/Temistio_In_Analytica_Priora_grc_Wallies_1884.md"
+    },
+    {
+      "id": "temistio-in-de-anima-grc-heinze-1899",
+      "titulo": "In libros Aristotelis De anima paraphrasis",
+      "autor": "Temístio",
+      "arquivo": "FILOSOFIA/Grego/Neoplatonismo_e_Tardia/Temistio/In_De_Anima/Temistio_In_De_Anima_grc_Heinze_1899.md"
+    },
+    {
+      "id": "temistio-in-physica-grc-wallies-1900",
+      "titulo": "In Aristotelis Physica paraphrasis",
+      "autor": "Temístio",
+      "arquivo": "FILOSOFIA/Grego/Neoplatonismo_e_Tardia/Temistio/In_Physica/Temistio_In_Physica_grc_Wallies_1900.md"
+    },
+    {
+      "id": "alexandre-de-afrodisias-de-anima-grc-bruns-1887",
+      "titulo": "Περὶ ψυχῆς",
+      "autor": "Alexandre de Afrodísias",
+      "arquivo": "FILOSOFIA/Grego/Peripatetismo/Alexandre_de_Afrodisias/De_Anima/Alexandre_de_Afrodisias_De_Anima_grc_Bruns_1887.md"
+    },
+    {
+      "id": "alexandre-de-afrodisias-de-fato-grc-bruns-1892",
+      "titulo": "Περὶ εἱμαρμένης",
+      "autor": "Alexandre de Afrodísias",
+      "arquivo": "FILOSOFIA/Grego/Peripatetismo/Alexandre_de_Afrodisias/De_Fato/Alexandre_de_Afrodisias_De_Fato_grc_Bruns_1892.md"
+    },
+    {
+      "id": "alexandre-de-afrodisias-de-febribus-grc-ideler-1841",
+      "titulo": "Περὶ πυρετῶν",
+      "autor": "Alexandre de Afrodísias",
+      "arquivo": "FILOSOFIA/Grego/Peripatetismo/Alexandre_de_Afrodisias/De_Febribus/Alexandre_de_Afrodisias_De_Febribus_grc_Ideler_1841.md"
+    },
+    {
+      "id": "alexandre-de-afrodisias-de-mixtione-grc-bruns-1892",
+      "titulo": "Περὶ κράσεως καὶ αὐξήσεως",
+      "autor": "Alexandre de Afrodísias",
+      "arquivo": "FILOSOFIA/Grego/Peripatetismo/Alexandre_de_Afrodisias/De_Mixtione/Alexandre_de_Afrodisias_De_Mixtione_grc_Bruns_1892.md"
+    },
+    {
+      "id": "alexandre-de-afrodisias-in-analytica-priora-grc-wallies-1883",
+      "titulo": "In Aristotelis Analyticorum Priorum librum I commentarium",
+      "autor": "Alexandre de Afrodísias",
+      "arquivo": "FILOSOFIA/Grego/Peripatetismo/Alexandre_de_Afrodisias/In_Analytica_Priora/Alexandre_de_Afrodisias_In_Analytica_Priora_grc_Wallies_1883.md"
+    },
+    {
+      "id": "alexandre-de-afrodisias-in-de-sensu-grc-wendland-1901",
+      "titulo": "In librum De sensu commentarium",
+      "autor": "Alexandre de Afrodísias",
+      "arquivo": "FILOSOFIA/Grego/Peripatetismo/Alexandre_de_Afrodisias/In_De_Sensu/Alexandre_de_Afrodisias_In_De_Sensu_grc_Wendland_1901.md"
+    },
+    {
+      "id": "alexandre-de-afrodisias-in-metaphysica-grc-hayduck-1891",
+      "titulo": "In Aristotelis Metaphysica commentaria",
+      "autor": "Alexandre de Afrodísias",
+      "arquivo": "FILOSOFIA/Grego/Peripatetismo/Alexandre_de_Afrodisias/In_Metaphysica/Alexandre_de_Afrodisias_In_Metaphysica_grc_Hayduck_1891.md"
+    },
+    {
+      "id": "alexandre-de-afrodisias-in-meteorologica-grc-hayduck-1899",
+      "titulo": "In Aristotelis Meteorologicorum libros commentaria",
+      "autor": "Alexandre de Afrodísias",
+      "arquivo": "FILOSOFIA/Grego/Peripatetismo/Alexandre_de_Afrodisias/In_Meteorologica/Alexandre_de_Afrodisias_In_Meteorologica_grc_Hayduck_1899.md"
+    },
+    {
+      "id": "alexandre-de-afrodisias-in-sophisticos-elenchos-grc-wallies-1898",
+      "titulo": "In Aristotelis Sophisticos Elenchos commentarium",
+      "autor": "Alexandre de Afrodísias",
+      "arquivo": "FILOSOFIA/Grego/Peripatetismo/Alexandre_de_Afrodisias/In_Sophisticos_Elenchos/Alexandre_de_Afrodisias_In_Sophisticos_Elenchos_grc_Wallies_1898.md"
+    },
+    {
+      "id": "alexandre-de-afrodisias-in-topica-grc-wallies-1891",
+      "titulo": "In Aristotelis Topicorum libros octo commentaria",
+      "autor": "Alexandre de Afrodísias",
+      "arquivo": "FILOSOFIA/Grego/Peripatetismo/Alexandre_de_Afrodisias/In_Topica/Alexandre_de_Afrodisias_In_Topica_grc_Wallies_1891.md"
+    },
+    {
+      "id": "alexandre-de-afrodisias-mantissa-grc-bruns-1887",
+      "titulo": "De anima libri mantissa",
+      "autor": "Alexandre de Afrodísias",
+      "arquivo": "FILOSOFIA/Grego/Peripatetismo/Alexandre_de_Afrodisias/Mantissa/Alexandre_de_Afrodisias_Mantissa_grc_Bruns_1887.md"
+    },
+    {
+      "id": "alexandre-de-afrodisias-problemata-ethica-grc-bruns-1892",
+      "titulo": "Ἠθικὰ προβλήματα",
+      "autor": "Alexandre de Afrodísias",
+      "arquivo": "FILOSOFIA/Grego/Peripatetismo/Alexandre_de_Afrodisias/Problemata_Ethica/Alexandre_de_Afrodisias_Problemata_Ethica_grc_Bruns_1892.md"
+    },
+    {
+      "id": "alexandre-de-afrodisias-quaestiones-grc-bruns-1892",
+      "titulo": "Ἀπορίαι καὶ λύσεις",
+      "autor": "Alexandre de Afrodísias",
+      "arquivo": "FILOSOFIA/Grego/Peripatetismo/Alexandre_de_Afrodisias/Quaestiones/Alexandre_de_Afrodisias_Quaestiones_grc_Bruns_1892.md"
+    },
+    {
+      "id": "aspasio-in-ethica-nicomachea-grc-heylbut-1889",
+      "titulo": "In Ethica Nicomachea commentaria",
+      "autor": "Aspásio",
+      "arquivo": "FILOSOFIA/Grego/Peripatetismo/Aspasio/In_Ethica_Nicomachea/Aspasio_In_Ethica_Nicomachea_grc_Heylbut_1889.md"
+    },
+    {
+      "id": "antistenes-ajax-grc-blass-1908",
+      "titulo": "Αἴας",
+      "autor": "Antístenes",
+      "arquivo": "FILOSOFIA/Grego/Filosofia_Classica/Antistenes/Ajax/Antistenes_Ajax_grc_Blass_1908.md"
+    },
+    {
+      "id": "antistenes-odisseu-grc-blass-1908",
+      "titulo": "Ὀδυσσεύς",
+      "autor": "Antístenes",
+      "arquivo": "FILOSOFIA/Grego/Filosofia_Classica/Antistenes/Odisseu/Antistenes_Odisseu_grc_Blass_1908.md"
+    },
+    {
+      "id": "aristoteles-de-mundo-grc-bekker-1837",
+      "titulo": "Περὶ κόσμου",
+      "autor": "Aristóteles",
+      "arquivo": "FILOSOFIA/Grego/Filosofia_Classica/Aristoteles/De_Mundo/Aristoteles_De_Mundo_grc_Bekker_1837.md"
+    },
+    {
+      "id": "socrates-cartas-grc-hercher-1873",
+      "titulo": "Epistulae",
+      "autor": "Sócrates",
+      "arquivo": "FILOSOFIA/Grego/Filosofia_Classica/Socrates/Cartas/Socrates_Cartas_grc_Hercher_1873.md"
+    },
+    {
+      "id": "socraticos-cartas-grc-hercher-1873",
+      "titulo": "Epistulae",
+      "autor": "Socráticos",
+      "arquivo": "FILOSOFIA/Grego/Filosofia_Classica/Socraticos/Cartas/Socraticos_Cartas_grc_Hercher_1873.md"
+    },
+    {
+      "id": "diogenes-de-apolonia-fragmentos-grc-diels-1922",
+      "titulo": "Fragmenta",
+      "autor": "Diógenes de Apolônia",
+      "arquivo": "FILOSOFIA/Grego/Pre_Socraticos/Diogenes_de_Apolonia/Fragmentos/Diogenes_de_Apolonia_Fragmentos_grc_Diels_1922.md"
+    },
+    {
+      "id": "epicarmo-fragmentos-grc-diels-1922",
+      "titulo": "Fragmenta",
+      "autor": "Epicarmo",
+      "arquivo": "FILOSOFIA/Grego/Pre_Socraticos/Epicarmo/Fragmentos/Epicarmo_Fragmentos_grc_Diels_1922.md"
+    },
+    {
+      "id": "lisis-carta-a-hiparco-grc-hercher-1873",
+      "titulo": "Epistulae",
+      "autor": "Lísis",
+      "arquivo": "FILOSOFIA/Grego/Pre_Socraticos/Lisis/Carta_a_Hiparco/Lisis_Carta_a_Hiparco_grc_Hercher_1873.md"
+    },
+    {
+      "id": "museu-fragmentos-grc-diels-1922",
+      "titulo": "Fragmenta",
+      "autor": "Museu",
+      "arquivo": "FILOSOFIA/Grego/Pre_Socraticos/Museu/Fragmentos/Museu_Fragmentos_grc_Diels_1922.md"
+    },
+    {
+      "id": "orficos-fragmentos-grc-diels-1922",
+      "titulo": "Fragmenta",
+      "autor": "Orfeu",
+      "arquivo": "FILOSOFIA/Grego/Pre_Socraticos/Orficos/Fragmentos/Orficos_Fragmentos_grc_Diels_1922.md"
+    },
+    {
+      "id": "tales-cartas-grc-hercher-1873",
+      "titulo": "Epistulae",
+      "autor": "Tales",
+      "arquivo": "FILOSOFIA/Grego/Pre_Socraticos/Tales/Cartas/Tales_Cartas_grc_Hercher_1873.md"
+    },
+    {
+      "id": "alcidamas-odisseu-grc-blass-1892",
+      "titulo": "Ὀδυσσεύς",
+      "autor": "Alcidamas",
+      "arquivo": "FILOSOFIA/Grego/Sofistica/Alcidamas/Odisseu/Alcidamas_Odisseu_grc_Blass_1892.md"
+    },
+    {
+      "id": "alcidamas-sobre-os-sofistas-grc-blass-1892",
+      "titulo": "Περὶ σοφιστῶν",
+      "autor": "Alcidamas",
+      "arquivo": "FILOSOFIA/Grego/Sofistica/Alcidamas/Sobre_os_Sofistas/Alcidamas_Sobre_os_Sofistas_grc_Blass_1892.md"
+    },
+    {
+      "id": "critias-fragmentos-grc-diels-1922",
+      "titulo": "Fragmenta",
+      "autor": "Crítias",
+      "arquivo": "FILOSOFIA/Grego/Sofistica/Critias/Fragmentos/Critias_Fragmentos_grc_Diels_1922.md"
+    },
+    {
+      "id": "hipias-fragmentos-grc-diels-1922",
+      "titulo": "Fragmenta",
+      "autor": "Hípias",
+      "arquivo": "FILOSOFIA/Grego/Sofistica/Hipias/Fragmentos/Hipias_Fragmentos_grc_Diels_1922.md"
+    },
+    {
+      "id": "prodico-fragmentos-grc-diels-1922",
+      "titulo": "Fragmenta",
+      "autor": "Pródico",
+      "arquivo": "FILOSOFIA/Grego/Sofistica/Prodico/Fragmentos/Prodico_Fragmentos_grc_Diels_1922.md"
+    },
+    {
+      "id": "epimenides-fragmentos-grc-diels-1922",
+      "titulo": "Fragmenta",
+      "autor": "Epimênides",
+      "arquivo": "FILOSOFIA/Grego/Pre_Socraticos/Epimenides/Fragmentos/Epimenides_Fragmentos_grc_Diels_1922.md"
+    },
+    {
+      "id": "hecateu-de-abdera-fragmentos-grc-diels-1922",
+      "titulo": "Fragmenta",
+      "autor": "Hecateu de Abdera",
+      "arquivo": "FILOSOFIA/Grego/Pre_Socraticos/Hecateu_de_Abdera/Fragmentos/Hecateu_de_Abdera_Fragmentos_grc_Diels_1922.md"
+    },
+    {
+      "id": "dissoi-logoi-grc-diels-1922",
+      "titulo": "Δισσοὶ λόγοι",
+      "autor": "Anônimo",
+      "arquivo": "FILOSOFIA/Grego/Sofistica/Dissoi_Logoi/Dissoi_Logoi_grc_Diels_1922.md"
     }
   ],
   "redirecionamentos": {
