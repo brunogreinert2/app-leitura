@@ -8804,6 +8804,60 @@
       "titulo": "Trapeziticus",
       "autor": "Isocrates",
       "arquivo": "FILOSOFIA/Ingles/Retorica/Isocrates/Trapezitico/Trapezitico_eng_larue-van-hook_1945.md"
+    },
+    {
+      "id": "empedocles-fragmentos-grc-pt-palavro-2025",
+      "titulo": "Fragmentos de Empédocles de Acragas (Grego–Português)",
+      "autor": "Empédocles",
+      "arquivo": "FILOSOFIA/Grego/Interlineares_Grego/Pre_Socraticos/Empedocles/Fragmentos/Empedocles_Fragmentos_grc-pt_Palavro_2025.md"
+    },
+    {
+      "id": "parmenides-fragmentos-grc-pt-palavro-2025",
+      "titulo": "Fragmentos de Parmênides de Eleia (Grego–Português)",
+      "autor": "Parmênides",
+      "arquivo": "FILOSOFIA/Grego/Interlineares_Grego/Pre_Socraticos/Parmenides/Fragmentos/Parmenides_Fragmentos_grc-pt_Palavro_2025.md"
+    },
+    {
+      "id": "xenofanes-fragmentos-grc-pt-palavro-2025",
+      "titulo": "Fragmentos de Xenófanes de Colofão (Grego–Português)",
+      "autor": "Xenófanes",
+      "arquivo": "FILOSOFIA/Grego/Interlineares_Grego/Pre_Socraticos/Xenofanes/Fragmentos/Xenofanes_Fragmentos_grc-pt_Palavro_2025.md"
+    },
+    {
+      "id": "empedocles-fragmentos-grc-palavro-2025",
+      "titulo": "Ἐμπεδοκλῆς: Ἀποσπάσματα",
+      "autor": "Empédocles",
+      "arquivo": "FILOSOFIA/Grego/Pre_Socraticos/Empedocles/Fragmentos/Empedocles_Fragmentos_grc_Palavro_2025.md"
+    },
+    {
+      "id": "parmenides-fragmentos-grc-palavro-2025",
+      "titulo": "Παρμενίδης: Ἀποσπάσματα",
+      "autor": "Parmênides",
+      "arquivo": "FILOSOFIA/Grego/Pre_Socraticos/Parmenides/Fragmentos/Parmenides_Fragmentos_grc_Palavro_2025.md"
+    },
+    {
+      "id": "xenofanes-fragmentos-grc-palavro-2025",
+      "titulo": "Ξενοφάνης: Ἀποσπάσματα",
+      "autor": "Xenófanes",
+      "arquivo": "FILOSOFIA/Grego/Pre_Socraticos/Xenofanes/Fragmentos/Xenofanes_Fragmentos_grc_Palavro_2025.md"
+    },
+    {
+      "id": "empedocles-fragmentos-pt-palavro-2025",
+      "titulo": "Fragmentos de Empédocles de Acragas",
+      "autor": "Empédocles",
+      "arquivo": "FILOSOFIA/Portugues/Pre_Socraticos/Empedocles/Fragmentos/Empedocles_Fragmentos_pt_Palavro_2025.md"
+    },
+    {
+      "id": "parmenides-fragmentos-pt-palavro-2025",
+      "titulo": "Fragmentos de Parmênides de Eleia",
+      "autor": "Parmênides",
+      "arquivo": "FILOSOFIA/Portugues/Pre_Socraticos/Parmenides/Fragmentos/Parmenides_Fragmentos_pt_Palavro_2025.md"
+    },
+    {
+      "id": "xenofanes-fragmentos-pt-palavro-2025",
+      "titulo": "Fragmentos de Xenófanes de Colofão",
+      "autor": "Xenófanes",
+      "arquivo": "FILOSOFIA/Portugues/Pre_Socraticos/Xenofanes/Fragmentos/Xenofanes_Fragmentos_pt_Palavro_2025.md"
     }
   ],
   "redirecionamentos": {

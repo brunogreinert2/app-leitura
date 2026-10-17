@@ -544,6 +544,9 @@ eclesiastes_interlinear_heb-pt-via-portugues
 eclesiastico-sirach-grc-lxx-swe
 elias-in-categorias-grc-busse-1900
 elias-in-isagogen-grc-busse-1900
+empedocles-fragmentos-grc-palavro-2025
+empedocles-fragmentos-grc-pt-palavro-2025
+empedocles-fragmentos-pt-palavro-2025
 epicarmo-fragmentos-grc-diels-1922
 epicteto-diatribes-eng-george-long-1890
 epicteto-diatribes-eng-thomas-wentworth-higginson-1890
@@ -726,6 +729,9 @@ olimpiodoro-prolegomenos-grc-busse-1902
 orficos-fragmentos-grc-diels-1922
 oseias-grc-lxx-swe
 parmenides-fragmentos-grc-diels-1922
+parmenides-fragmentos-grc-palavro-2025
+parmenides-fragmentos-grc-pt-palavro-2025
+parmenides-fragmentos-pt-palavro-2025
 parmenides-testemunhos-grc-diaphoreus-2026
 personagem-ailton-krenak
 personagem-aristoteles-estagira
@@ -1426,6 +1432,9 @@ vulgata-clementina-tob-lat-tweedale-2005
 vulgata-clementina-zach-lat-tweedale-2005
 vygotsky-pensamento-e-linguagem-pt-anonimo-2001
 xenocrates-fragmentos-grc-mullach-1881
+xenofanes-fragmentos-grc-palavro-2025
+xenofanes-fragmentos-grc-pt-palavro-2025
+xenofanes-fragmentos-pt-palavro-2025
 xenofonte-agesilau-grc-marchant-1920
 xenofonte-anabase-grc-marchant-1904
 xenofonte-anabasis-eng-carleton-l-brownson-1921
