@@ -198,6 +198,14 @@ RX_ANCORA = re.compile(r"\s*\^([A-Za-z0-9][A-Za-z0-9-]*)\s*$")
 RX_WIKILINK = re.compile(r"\[\[([^\]|]+?)(?:\|([^\]]+?))?\]\]")
 RX_VERSICULO = re.compile(r"\*\*(\d+[a-z]?)\*\*")
 RX_ROTULO = re.compile(r"\*\*([A-Za-zÀ-ÿ]{2,12}(?: \([^)]{1,24}\))?)\*\*")
+# O RÓTULO SÓ VALE SOZINHO NA LINHA: `**Grego**`, `**Português**`, `**ÉDIPO**`
+# em cima do texto que eles anunciam. No meio da frase, a mesma palavra curta
+# em negrito é ênfase do autor e sai <strong>, como no app (que não tem rótulo
+# nenhum). Até 2026-10-19 o rótulo pegava qualquer negrito de 2 a 12 letras, e
+# o «grifos nossos» do Isócrates de Lacerda (nota 12: **conhecimento**,
+# **opiniões**) e o `**Fedão** –` do Conversor saíam apagados, em letra de
+# máquina. Medido no acervo: 1208 rótulos sozinhos na linha (55 arquivos) e 290
+# negritos curtos no meio do texto (16), todos ênfase ou nome de quem fala.
 # A GUARDA `(?=[^*\s])` NAO E ZELO: e a lacuna de manuscrito. Sem ela,
 # `(*****)` do De Re Publica vira `(<strong>*</strong>)` — o aparato critico
 # some e nasce um asterisco em negrito. O motor (`parser/motor/`) e o Gerador
@@ -271,7 +279,8 @@ def inline(txt: str, marcadores: dict[str, int] | None = None) -> str:
 
     s = RX_NOTA_REF.sub(nota_ref, s)
     s = RX_VERSICULO.sub(lambda m: f'<span class="versiculo">{m.group(1)}</span>', s)
-    s = RX_ROTULO.sub(lambda m: f'<span class="idioma-tag">{m.group(1)}</span>', s)
+    if RX_ROTULO.fullmatch(txt.strip()):
+        s = RX_ROTULO.sub(lambda m: f'<span class="idioma-tag">{m.group(1)}</span>', s)
     s = RX_NEGRITO.sub(lambda m: f"<strong>{m.group(1)}</strong>", s)
     s = RX_ITALICO.sub(lambda m: f"<em>{m.group(1)}</em>", s)
     return s
