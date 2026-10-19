@@ -26,6 +26,8 @@ agostinho-sermones-lat-latinlibrary-sd
 albino-introducao-a-platao-grc-hermann-1884
 alcidamas-odisseu-grc-blass-1892
 alcidamas-sobre-os-sofistas-grc-blass-1892
+alcidamas-sobre-os-sofistas-grc-pt-reis-2020
+alcidamas-sobre-os-sofistas-pt-reis-2020
 alcinoo-didaskalikos-grc-hermann-1884
 alexandre-de-afrodisias-de-anima-grc-bruns-1887
 alexandre-de-afrodisias-de-fato-grc-bruns-1892
@@ -620,6 +622,8 @@ isocrates-contra-calimaco-grc-van-hook-1945
 isocrates-contra-eutino-grc-van-hook-1945
 isocrates-contra-loquites-grc-van-hook-1945
 isocrates-contra-os-sofistas-grc-norlin-1929
+isocrates-contra-os-sofistas-grc-pt-lacerda-2018
+isocrates-contra-os-sofistas-pt-lacerda-2018
 isocrates-eginetico-grc-van-hook-1945
 isocrates-elogio-de-helena-grc-van-hook-1945
 isocrates-evagoras-eng-larue-van-hook-1945
