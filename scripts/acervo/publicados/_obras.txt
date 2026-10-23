@@ -29,6 +29,8 @@ alcidamas-sobre-os-sofistas-grc-blass-1892
 alcidamas-sobre-os-sofistas-grc-pt-reis-2020
 alcidamas-sobre-os-sofistas-pt-reis-2020
 alcinoo-didaskalikos-grc-hermann-1884
+alcmeon-fragmentos-grc-diels-1922
+alcmeon-testemunhos-grc-diels-1922
 alexandre-de-afrodisias-de-anima-grc-bruns-1887
 alexandre-de-afrodisias-de-fato-grc-bruns-1892
 alexandre-de-afrodisias-de-febribus-grc-ideler-1841
@@ -51,6 +53,11 @@ amonio-in-de-interpretatione-grc-busse-1897
 amonio-in-isagogen-grc-busse-1891
 amonio-sobre-os-silogismos-necessarios-grc-wallies-1899
 amos-grc-lxx-swe
+anaxagoras-fragmentos-grc-diels-1922
+anaxagoras-testemunhos-grc-diels-1922
+anaximandro-testemunhos-grc-diels-1922
+anaximenes-fragmentos-grc-diels-1922
+anaximenes-testemunhos-grc-diels-1922
 anonimo-de-jamblico-fragmentos-grc-diels-1922
 anonimos-in-analytica-posteriora-ii-grc-wallies-1909
 anonimos-in-rhetoricam-fragmento-grc-rabe-1896
@@ -132,6 +139,8 @@ aristoteles-tlg003-grc-frederic-g-kenyon-1920
 aristoteles-tlg045-grc-immanuel-bekker-1831
 aristoteles-topicos-grc-bekker-1837
 arnobio-adversus-nationes-lat-latinlibrary-sd
+arquelau-fragmentos-grc-diels-1922
+arquelau-testemunhos-grc-diels-1922
 arquitas-fragmentos-grc-diels-1922
 arriano-anabase-de-alexandre-grc-roos-1907
 arriano-carta-a-lucio-gelio-grc-roos-1910
@@ -421,10 +430,12 @@ boecio-liber-de-persona-et-duabus-naturis-contra-eutychen-et-nestorium-lat-h-f-s
 boecio-quomodo-substantiae-in-eo-quod-sint-bonae-sint-cum-non-sint-substantialia-bona-lat-h-f-stewart-1918
 boecio-quomodo-trinitas-unus-deus-ac-non-tres-dii-de-trinitate-lat-h-f-stewart-1918
 boecio-utrum-pater-et-filius-ac-spiritus-sanctus-de-divinitate-substantialiter-praedicentur-liber-lat-h-f-stewart-1918
+brotino-testemunhos-grc-diels-1922
 cantico-dos-canticos-grc-lxx-swe
 carta-de-jeremias-grc-lxx-swe
 cassiodoro-institutiones-lat-mynors-1937
 cebes-tabula-grc-praechter-1893
+cercope-testemunhos-grc-diels-1922
 cicero-academica-lat-latinlibrary-sd
 cicero-de-amicitia-lat-latinlibrary-sd
 cicero-de-divinatione-lat-latinlibrary-sd
@@ -574,6 +585,8 @@ eusebio-de-cesareia-tlg002-grc-kirsopp-lake-1926-1932
 eustracio-in-ethica-nicomachea-grc-heylbut-1892
 exodo-grc-lxx-swe
 ezequiel-grc-lxx-swe
+ferecides-fragmentos-grc-diels-1922
+ferecides-testemunhos-grc-diels-1922
 ferreira-manual-do-cidadao-pt-1834-v01
 ferreira-manual-do-cidadao-pt-1834-v02
 ferreira-manual-do-cidadao-pt-1834-v03
@@ -581,16 +594,23 @@ filolau-fragmentos-grc-diels-1922
 genesis-grc-lxx-swe
 gorgias-defesa-de-palamedes-grc-blass-1908
 gorgias-elogio-de-helena-grc-blass-1908
+gorgias-fragmentos-grc-diels-1922
+gorgias-testemunhos-grc-diels-1922
 habacuque-grc-lxx-swe
 hecateu-de-abdera-fragmentos-grc-diels-1922
 heraclito-fragmentos-grc-diels-1922
 hermas-the-shepherd-of-hermas-eng-kirsopp-lake-1913
+hipaso-testemunhos-grc-diels-1922
 hipias-fragmentos-grc-diels-1922
 hipolito-refutacao-de-todas-as-heresias-grc-wendland-1916
+hipon-fragmentos-grc-diels-1922
+hipon-testemunhos-grc-diels-1922
 hobbes-leviathan-latin-1668
 impressoes-app
 impressoes-app-2
 inacio-de-antioquia-epistles-eng-kirsopp-lake-1912
+ion-fragmentos-grc-diels-1922
+ion-testemunhos-grc-diels-1922
 isaias-grc-lxx-swe
 isocrates-a-demonico-grc-norlin-1928
 isocrates-a-filipe-grc-norlin-1928
@@ -698,8 +718,11 @@ kant-critica-da-razao-pura-pt-merege-2001
 lactancio-de-mortibus-persecutorum-lat-latinlibrary-sd
 lactancio-divinae-institutiones-lat-latinlibrary-sd
 lamentacoes-grc-lxx-swe
+leucipo-fragmentos-grc-diels-1922
+leucipo-testemunhos-grc-diels-1922
 levitico-grc-lxx-swe
 lisis-carta-a-hiparco-grc-hercher-1873
+lisis-testemunhos-grc-diels-1922
 lucrecio-de-rerum-natura-lat-perseus-sd
 machiavelli-o-principe-pt-anonimo-sd
 malaquias-grc-lxx-swe
@@ -711,6 +734,8 @@ martinho-de-braga-de-ira-lat-latinlibrary-sd
 martinho-de-braga-de-pascha-lat-latinlibrary-sd
 martinho-de-braga-exhortatio-humilitatis-lat-latinlibrary-sd
 martinho-de-braga-formula-vitae-honestae-lat-latinlibrary-sd
+melisso-fragmentos-grc-diels-1922
+melisso-testemunhos-grc-diels-1922
 miguel-de-efeso-in-de-incessu-animalium-grc-hayduck-1904
 miguel-de-efeso-in-de-motu-animalium-grc-hayduck-1904
 miguel-de-efeso-in-de-partibus-animalium-grc-hayduck-1904
@@ -758,8 +783,10 @@ personagem-silvestre-pinheiro-ferreira
 personagem-socrates-de-atenas
 personagem-teodoro-de-cirene
 personagem-voltaire
+petron-testemunhos-grc-diels-1922
 pico-della-mirandola-oratio-de-hominis-dignitate-lat-latinlibrary-sd
 pitagoras-cartas-grc-hercher-1873
+pitagoras-testemunhos-grc-diels-1922
 platao-a-republica-eng-paul-shorey-1935-37
 platao-a-republica-grc-john-burnet-1905
 platao-alcibiades-1-eng-walter-rangeley-maitland-lamb-1927
@@ -1199,6 +1226,8 @@ porfirio-vida-de-pitagoras-grc-nauck-1860
 porfirio-zetemata-do-codice-vaticano-grc-schrader-1882
 proclo-in-rempublicam-grc-kroll-1901
 prodico-fragmentos-grc-diels-1922
+protagoras-fragmentos-grc-diels-1922
+protagoras-testemunhos-grc-diels-1922
 proverbios-grc-lxx-swe
 pseudo-plutarco-of-those-sentiments-concerning-nature-with-which-philosopher-eng-john-dowell-1874
 pseudo-plutarco-placita-philosophorum-grc-vernardakis-1888
@@ -1245,6 +1274,7 @@ spinoza-ethics-en-elwes-1883
 susana-grc-lxx-swe-og
 susana-grc-lxx-swe-teod
 tales-cartas-grc-hercher-1873
+tales-testemunhos-grc-diels-1922
 targum-escritos-melamed-22-cantico_dos_canticos
 targum-escritos-mg-08-rute
 targum-escritos-mg-17-ester
@@ -1351,6 +1381,8 @@ tomas-de-aquino-epistola-de-modo-studendi-lat-latinlibrary-sd
 tomas-de-aquino-expositio-in-orationem-dominicam-lat-latinlibrary-sd
 tomas-de-aquino-summa-theologica-prima-pars-lat-latinlibrary-sd
 tomas-de-kempis-de-imitatione-christi-lat-latinlibrary-sd
+trasimaco-fragmentos-grc-diels-1922
+trasimaco-testemunhos-grc-diels-1922
 voltaire-breves-contos-1-jahr
 voltaire-breves-contos-2-jahr
 voltaire-breves-contos-3-jahr
@@ -1435,6 +1467,7 @@ vulgata-clementina-tit-lat-tweedale-2005
 vulgata-clementina-tob-lat-tweedale-2005
 vulgata-clementina-zach-lat-tweedale-2005
 vygotsky-pensamento-e-linguagem-pt-anonimo-2001
+xeniades-testemunhos-grc-diels-1922
 xenocrates-fragmentos-grc-mullach-1881
 xenofanes-fragmentos-grc-palavro-2025
 xenofanes-fragmentos-grc-pt-palavro-2025
@@ -1457,3 +1490,5 @@ xenofonte-hiparquico-grc-marchant-1920
 xenofonte-memoraveis-grc-marchant-1921
 xenofonte-poroi-grc-marchant-1920
 zacarias-grc-lxx-swe
+zenao-fragmentos-grc-diels-1922
+zenao-testemunhos-grc-diels-1922
