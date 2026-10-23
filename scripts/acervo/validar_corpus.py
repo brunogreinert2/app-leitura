@@ -69,9 +69,12 @@ REGRAS_LINHA = [
      re.compile(r"<(?!!-- pa:pagina \d+ -->)[A-Za-z/!][^>\n]*>|&(?:[a-z]+|#\d+);")),
     ("C06-tabela", "erro", "tabela | (fora da sintaxe do acervo)", re.compile(r"^\s*\|.*\|\s*$")),
     ("C07-realce", "erro", "==realce== (fora da sintaxe do acervo)", re.compile(r"==[^=\n]+==")),
-    # [217] [217a] ou o mesmo marcador duas vezes seguidas: o defeito do Sofista de Fowler
+    # [217] [217a] ou o mesmo marcador duas vezes seguidas: o defeito do Sofista de Fowler.
+    # O colchete escapado (`\[2] [2]`, 2026-10-23) é texto, não marcador: o
+    # `(?<!(?<!\\)\\)` pula o `[` com UMA contrabarra antes (com duas, `\\[2]`, a
+    # contrabarra é que está escapada e o colchete é marcador).
     ("C08-marcador-duplo", "erro", "marcador canônico em dobro no mesmo ponto",
-     re.compile(r"\[(\d+)\]\s*\[\1[a-e]\]|(\[[^\]\s]{1,12}\])\s*\2")),
+     re.compile(r"(?<!(?<!\\)\\)\[(\d+)\]\s*\[\1[a-e]\]|(?<!(?<!\\)\\)(\[[^\]\s]{1,12}\])\s*\2")),
     # "verse:Never", "investigation.Parmenides": no colado sem espaco (Proposta §5)
     ("C09-colagem", "aviso", "suspeita de texto colado sem espaço",
      re.compile(r"[a-z\u03b1-\u03c9]{3,}[.:;,][A-Z\u0391-\u03a9][a-z\u03b1-\u03c9]{2,}")),

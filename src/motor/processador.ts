@@ -1,7 +1,7 @@
 // MOTOR DO ECOSSISTEMA — cópia gerada, NÃO EDITE AQUI.
 // Fonte: C:\Claude\parser\motor\processador.ts
 // Para mudar: edite a fonte e rode `npm run espalhar` em C:\Claude\parser.
-// sha256: 745bbcbc9aa58138c0aa4141c75b9129efdc4361281a90bf0b340811a9a563c7
+// sha256: 83de3c44d394f86a050376f807a2eb932f5c3abec399aa29b3480ee8854e1377
 import { unified } from 'unified'
 import remarkParse from 'remark-parse'
 import remarkGfm from 'remark-gfm'
@@ -17,7 +17,7 @@ import { remarkNotaInline } from './remarkNotaInline'
 import { remarkIdiomaAncora } from './remarkIdiomaAncora'
 import { remarkBlockAnchors } from './remarkBlockAnchors'
 import { remarkWikilinks } from './remarkWikilinks'
-import { remarkMarkers } from './remarkMarkers'
+import { remarkMarkers, remarkColcheteEscapado } from './remarkMarkers'
 import { remarkHighlight } from './remarkHighlight'
 import { remarkHebrew } from './remarkHebrew'
 import { remarkGrego } from './remarkGrego'
@@ -34,6 +34,8 @@ import { remarkMatematicaPandoc, rehypeMatematica } from './matematica'
  * aqui e só acrescenta o próprio fim (React, HTML em texto…).
  *
  * A ORDEM IMPORTA:
+ *   0. o colchete escapado (`\[582]`, remarkMarkers.ts), antes de tudo: só
+ *      enquanto nenhum nó de texto foi partido as posições batem com o arquivo;
  *   1. a regra do cifrão, primeiro: o $ … $ que não é fórmula volta a ser
  *      texto, e daí em diante é tratado como qualquer texto;
  *   2. cabeçalhos fundos (reescrevem a profundidade);
@@ -65,6 +67,7 @@ export function criarProcessador({
     .use(remarkParse)
     .use(remarkGfm)
     .use(remarkMath)
+    .use(remarkColcheteEscapado)
     .use(remarkMatematicaPandoc)
     .use(remarkDeepHeadingDepth)
     .use(remarkInterlinear)

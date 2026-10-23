@@ -227,6 +227,26 @@ RX_MARCADOR = re.compile(r"\[((?:\d+(?:[a-z]\d*)?|[A-Za-z][A-Za-z0-9_]*(?=\.\d))
 #   seção, Plutarco). Até 2026-09-29 era (?:…)? e o terceiro nível ficava
 #   texto solto, sem link. Mesma mudança no MARKER_RE do app.
 RX_NOTA_REF = re.compile(r"\[\^([A-Za-z0-9\-_]+)\]")
+# O COLCHETE QUE NÃO É ENDEREÇO (2026-10-23): `\[582]` no .md é «[582]» como
+# texto comum — a data do Diels, a numeração de editor antigo. O RX_MARCADOR
+# continua idêntico ao MARKER_RE; quem decide é o que vem ANTES do colchete,
+# como no motor (remarkColcheteEscapado em src/motor/remarkMarkers.ts): o `\[`
+# vira ESCAPE_DE_COLCHETE + «[», o marcador e a chamada de nota pulam quem tem
+# a marca, e a marca sai no fim. `\\[2]` é contrabarra + marcador (o `\\` é
+# consumido inteiro e fica como estava), e `\]` vira «]», como no CommonMark.
+# Dentro do <code> a contrabarra é literal e nada muda.
+ESCAPE_DE_COLCHETE = "\ue000"
+RX_ESCAPE_DE_COLCHETE = re.compile(r"(<code>.*?</code>|\\\\)|\\([\[\]])")
+
+
+def _escape_de_colchete(m: "re.Match[str]") -> str:
+    if m.group(1) is not None:
+        return m.group(1)
+    return ESCAPE_DE_COLCHETE + "[" if m.group(2) == "[" else "]"
+
+
+def _escapado(m: "re.Match[str]") -> bool:
+    return m.start() > 0 and m.string[m.start() - 1] == ESCAPE_DE_COLCHETE
 # Quebra dura do CommonMark: dois ou mais espaços no fim da linha. O remark do
 # app já a respeita — o versículo continua UM parágrafo e a âncora fica no lugar.
 # Aqui ela precisa ser lida antes de qualquer rstrip(), senão o sinal se perde e
@@ -246,6 +266,8 @@ def inline(txt: str, marcadores: dict[str, int] | None = None) -> str:
 
     def marcador(m: "re.Match[str]") -> str:
         literal = m.group(1)
+        if _escapado(m):
+            return m.group(0)
         if marcadores is None:
             return f'<span class="marcador">[{literal}]</span>'
         n = marcadores.get(literal, 0)
@@ -255,6 +277,7 @@ def inline(txt: str, marcadores: dict[str, int] | None = None) -> str:
 
     s = html.escape(txt, quote=False)
     s = RX_CODIGO.sub(lambda m: f"<code>{m.group(1)}</code>", s)
+    s = RX_ESCAPE_DE_COLCHETE.sub(_escape_de_colchete, s)
     s = RX_WIKILINK.sub(
         lambda m: '<a class="wikilink" href="#">{}</a>'.format(m.group(2) or m.group(1)), s
     )
@@ -269,6 +292,8 @@ def inline(txt: str, marcadores: dict[str, int] | None = None) -> str:
         # que o rótulo aparece — a linha da definição): é o alvo exato dos
         # marker-1 falsos de antes, que agora são apelidos dela.
         rotulo = m.group(1)
+        if _escapado(m):
+            return m.group(0)
         if marcadores is None:
             return f'<sup class="nota-ref">[{rotulo}]</sup>'
         chave = "^" + rotulo
@@ -283,7 +308,7 @@ def inline(txt: str, marcadores: dict[str, int] | None = None) -> str:
         s = RX_ROTULO.sub(lambda m: f'<span class="idioma-tag">{m.group(1)}</span>', s)
     s = RX_NEGRITO.sub(lambda m: f"<strong>{m.group(1)}</strong>", s)
     s = RX_ITALICO.sub(lambda m: f"<em>{m.group(1)}</em>", s)
-    return s
+    return s.replace(ESCAPE_DE_COLCHETE, "")
 
 def atributo(valor: str) -> str:
     return html.escape(valor, quote=True)

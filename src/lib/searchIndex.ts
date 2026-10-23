@@ -1,5 +1,5 @@
 import type { HeadingInfo } from './markdown'
-import { MARKER_RE } from '../motor/remarkMarkers'
+import { MARKER_RE, colcheteEscapado } from '../motor/remarkMarkers'
 import { semEtiquetaDeIdioma } from '../motor/remarkIdiomaAncora'
 
 /**
@@ -69,6 +69,8 @@ export function getBookIndex(bookId: string, source: string, headings: HeadingIn
     if (anchor && !anchorLines.has(anchor[1])) anchorLines.set(anchor[1], i + 1)
     MARKER_RE.lastIndex = 0
     for (const m of lines[i].matchAll(MARKER_RE)) {
+      // `\[582]` é texto, não endereço (o Diels): não pode tomar a linha do [582]
+      if (colcheteEscapado(lines[i], m.index)) continue
       if (!markerLines.has(m[1])) markerLines.set(m[1], i + 1)
     }
   }
