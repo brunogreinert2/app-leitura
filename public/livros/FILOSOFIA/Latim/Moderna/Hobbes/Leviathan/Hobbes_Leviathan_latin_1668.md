@@ -26,7 +26,7 @@ source: Hobbes, Thomas (1668)
 license: CC-BY-SA-4.0
 pa_exclusive: true
 physical_source: segundo volume da edição de 1668 da Opera Philosophica de Hobbes (Blaeu); exemplar do Getty Research Institute, Internet Archive leviathansivedem00hobb (Open Library OL25209583M, obra OL16514585W)
-ocr_engine: OLMocr-7B
+ocr_engine: olmOCR-2-7B-1025-GGUF
 processing: 'transcrição e revisão: Διαφορεύς, Claude Sonnet 4.6, Claude Sonnet 5'
 ---
 Link PDF: https://archive.org/details/leviathansivedem00hobb
