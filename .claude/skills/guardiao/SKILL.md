@@ -232,6 +232,13 @@ Para cada arquivo (PDF, imagem, `.md`, `.docx`…):
    imagem (escaneado) → OCR (`C:\Projetos\OFICINA`) e Corretor; já em `.md` →
    direto ao caminho da seção 5. Diga se o texto original (grego, latim, russo…)
    existe já livre noutra fonte melhor (Perseus, First1KGreek, Wikisource).
+   Tradução vinda de revista, tese ou livro universitário: consulte
+   `scripts/acervo/garimpo.tsv`, a base de onde procurar. Nela estão os periódicos,
+   os repositórios e as editoras, cada um com a licença conferida e a data.
+   A licença da base orienta, mas quem decide é a página do artigo, porque em
+   várias revistas a licença muda de artigo para artigo (`varia`). Quando uma obra
+   dessas entra, acrescente o `id` dela em `no_acervo`; quando aparecer uma fonte
+   nova, ganha uma linha.
 4. **Relate** numa tabela, no chat: arquivo · obra · tradutor/edição · veredito
    (**pode** / **não pode** / **precisa verificar**) · por quê · trabalho estimado.
    Termine com a recomendação: o que vale fazer primeiro.
