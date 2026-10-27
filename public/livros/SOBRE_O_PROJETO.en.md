@@ -11,7 +11,7 @@ license: CC-BY-SA-4.0
 
 # About this project
 
-This is a reader for classical texts, built to work with no internet, no account, no ads and no data collection. The library ships with the app: once installed, the books are on your device.
+This is a reader for classical texts, built to work with no internet, no account, no ads and no tracking. The library ships with the app: once installed, the books are on your device.
 
 It was made by an optician who does not see colour the way most people do, for an elderly father with low vision, and for two small children. Every setting here came from a real person failing to read something.
 
@@ -108,4 +108,4 @@ The texts are public domain, or translations made by this project. Every file de
 
 The corpus is multilingual — ancient Greek, Hebrew, Latin, Portuguese and English — and nothing is translated on screen: each work stays in the language it was written in. A translation, here, is a new work with its own address.
 
-The app collects nothing, asks for no account, and shows no ads. It is you and the text.
+The app asks for no account, shows no ads and tracks no one. It only counts visits, anonymously: how many times it was opened and which works were opened — no cookies, no record of your device's address, no idea who you are. The numbers are open to everyone on the [public dashboard](https://pedraangular.goatcounter.com). If your browser asks not to be tracked, the app does not count at all; and anyone who prefers to stay out of the count can open `pedraangular.app.br/?contar=nao` once on their device. It is you and the text.

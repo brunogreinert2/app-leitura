@@ -154,6 +154,6 @@ This reader is part of the **Pedra Angular** project: a corpus of classical text
 
 The collection is polyglot: each work stays in the language it was written or translated into, and the app never translates it on the fly. Only the interface follows your device's language.
 
-The embedded books are in the public domain or translated by the project itself. The app collects nothing, asks for no account, shows no advertising: it is just you and the text.
+The embedded books are in the public domain or translated by the project itself. The app asks for no account, shows no advertising and tracks no one; it only counts visits, anonymously and without cookies. It is just you and the text.
 
 > Ὁ Διαφορεύς παρῆν.

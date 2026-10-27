@@ -31,6 +31,7 @@ import {
 } from './lib/localFiles'
 import { loadLastBook } from './lib/bookState'
 import { useAppUpdate } from './lib/useAppUpdate'
+import { contarVisita } from './lib/contador'
 import { exportBackup, importBackup } from './lib/backup'
 import { useTelaLarga, useCabemDoisPaineis, usePaineisFixos } from './lib/useTelaLarga'
 import { useIdioma } from './lib/i18n'
@@ -447,6 +448,9 @@ export function App() {
   useEffect(() => {
     const hash = book && book.id !== WELCOME_ENTRY.id ? `#/livro/${encodeURIComponent(book.id)}` : '#/biblioteca'
     window.history.replaceState(null, '', hash)
+    // Contador anônimo (ver src/lib/contador.ts). Arquivo do próprio leitor
+    // não conta: o que é dele não sai do aparelho, nem o nome.
+    if (!book?.local) contarVisita(book && book.id !== WELCOME_ENTRY.id ? book : null)
   }, [book])
 
   /**

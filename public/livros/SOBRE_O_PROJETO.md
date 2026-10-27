@@ -11,7 +11,7 @@ license: CC-BY-SA-4.0
 
 # Sobre este projeto
 
-Este é um leitor de textos clássicos feito para funcionar sem internet, sem conta, sem anúncio e sem coletar nada. O acervo vem junto com o app: uma vez instalado, os livros estão no aparelho.
+Este é um leitor de textos clássicos feito para funcionar sem internet, sem conta, sem anúncio e sem rastrear ninguém. O acervo vem junto com o app: uma vez instalado, os livros estão no aparelho.
 
 Ele foi feito por um óptico que não enxerga cores como a maioria das pessoas, para um pai idoso com baixa visão e para dois filhos pequenos. Cada ajuste aqui nasceu de alguém real não conseguindo ler alguma coisa.
 
@@ -108,4 +108,4 @@ Os textos são de domínio público ou de tradução própria do projeto. Cada a
 
 O corpus é poliglota — grego antigo, hebraico, latim, português e inglês — e nada é traduzido na tela: cada obra fica no idioma em que foi escrita. Tradução, aqui, é obra nova com endereço próprio.
 
-O app não coleta nada, não pede conta e não mostra anúncio. É você e o texto.
+O app não pede conta, não mostra anúncio e não rastreia ninguém. Ele só conta visitas, de forma anônima: quantas vezes foi aberto e quais obras foram abertas — sem cookies, sem guardar o endereço do seu aparelho, sem saber quem você é. Os números ficam à vista de todos, no [painel público](https://pedraangular.goatcounter.com). Se o seu navegador pede para não ser rastreado, o app nem conta; e quem preferir ficar de fora da conta abre uma vez `pedraangular.app.br/?contar=nao` no aparelho. É você e o texto.
