@@ -65,6 +65,13 @@ divergência para que este arquivo seja corrigido.
   Manual do Cidadão: a assinatura, a cota a lápis e o carimbo foram lidos pelos
   olhos dele). O que ele escreveu em português de hoje (nota, prefácio) fica
   fora de qualquer restauro de ortografia.
+- **«Interlinear» é sempre o jeito dele** (N82, 2026-10-27): original e
+  tradução, cada um **inteiro**, unidade por unidade da edição (`## § 1`,
+  `## fr. 1 [112DK]`), `**Grego**` em cima e `**Português**` embaixo, cada um
+  como citação `>` com `^grc`/`^por` no fim. Nunca palavra por palavra, nunca a
+  tradução cortada frase a frase. Molde: `isocrates-contra-os-sofistas-grc-pt-lacerda-2018`
+  e `empedocles-fragmentos-grc-pt-palavro-2025`. Ao falar de licença ou de
+  trabalho, é ESTA interlinear que está em jogo — não presuma outra.
 - **O padrão que não está escrito não existe para a próxima conversa.** O dono
   carrega o contexto de todas; cada modelo, só o da sua. Marcação ou regra que
   ele usa e você não reconhece: pergunte, e escreva na fonte (NORMAS, esta
