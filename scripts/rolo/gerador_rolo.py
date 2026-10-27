@@ -232,17 +232,41 @@ RX_NOTA_REF = re.compile(r"\[\^([A-Za-z0-9\-_]+)\]")
 # continua idêntico ao MARKER_RE; quem decide é o que vem ANTES do colchete,
 # como no motor (remarkColcheteEscapado em src/motor/remarkMarkers.ts): o `\[`
 # vira ESCAPE_DE_COLCHETE + «[», o marcador e a chamada de nota pulam quem tem
-# a marca, e a marca sai no fim. `\\[2]` é contrabarra + marcador (o `\\` é
-# consumido inteiro e fica como estava), e `\]` vira «]», como no CommonMark.
-# Dentro do <code> a contrabarra é literal e nada muda.
+# a marca, e a marca sai no fim.
+#
+# O ESCAPE DO COMMONMARK (2026-10-27): a contrabarra antes de QUALQUER sinal
+# de pontuação ASCII faz dele texto comum — `\*`, `\<`, `\_`, `\#`, `\\`… O
+# motor do app é remark e sempre soube; o rolo só sabia o colchete, e o
+# `[FHG III 2\*]` do Diels saía «2*» no app e «2\*» aqui. O sinal escapado vira
+# um GUARDA (uso privado, U+E100 + o código do sinal) que nenhuma regra de
+# ênfase, marcador ou nota enxerga, e volta como texto no fim. `\\[2]` é UMA
+# contrabarra + marcador, como no motor. Dentro do <code> a contrabarra é
+# literal, e os sinais que as regras de ênfase, marcador e nota procuram
+# também ficam guardados — o itálico entrava no código. Aceite:
+# scripts/rolo/teste_escape.py.
 ESCAPE_DE_COLCHETE = "\ue000"
-RX_ESCAPE_DE_COLCHETE = re.compile(r"(<code>.*?</code>|\\\\)|\\([\[\]])")
+GUARDA_DO_ESCAPE = 0xE100
+RX_ESCAPE = re.compile(r"(<code>.*?</code>)|\\(&lt;|&gt;|&amp;|[!-/:-@\[-`{-~])")
+RX_SINAL_NO_CODIGO = re.compile(r"[*_\[\]^\\]")
+RX_GUARDA = re.compile("[\ue121-\ue17e]")
 
 
-def _escape_de_colchete(m: "re.Match[str]") -> str:
+def _guardar(sinal: str) -> str:
+    return chr(GUARDA_DO_ESCAPE + ord(sinal))
+
+
+def _escape(m: "re.Match[str]") -> str:
     if m.group(1) is not None:
-        return m.group(1)
-    return ESCAPE_DE_COLCHETE + "[" if m.group(2) == "[" else "]"
+        return RX_SINAL_NO_CODIGO.sub(lambda s: _guardar(s.group(0)), m.group(1))
+    sinal = html.unescape(m.group(2))
+    if sinal == "[":
+        return ESCAPE_DE_COLCHETE + "["
+    return _guardar(sinal)
+
+
+def _devolver(s: str) -> str:
+    return RX_GUARDA.sub(
+        lambda m: html.escape(chr(ord(m.group(0)) - GUARDA_DO_ESCAPE), quote=False), s)
 
 
 def _escapado(m: "re.Match[str]") -> bool:
@@ -277,7 +301,7 @@ def inline(txt: str, marcadores: dict[str, int] | None = None) -> str:
 
     s = html.escape(txt, quote=False)
     s = RX_CODIGO.sub(lambda m: f"<code>{m.group(1)}</code>", s)
-    s = RX_ESCAPE_DE_COLCHETE.sub(_escape_de_colchete, s)
+    s = RX_ESCAPE.sub(_escape, s)
     s = RX_WIKILINK.sub(
         lambda m: '<a class="wikilink" href="#">{}</a>'.format(m.group(2) or m.group(1)), s
     )
@@ -308,7 +332,7 @@ def inline(txt: str, marcadores: dict[str, int] | None = None) -> str:
         s = RX_ROTULO.sub(lambda m: f'<span class="idioma-tag">{m.group(1)}</span>', s)
     s = RX_NEGRITO.sub(lambda m: f"<strong>{m.group(1)}</strong>", s)
     s = RX_ITALICO.sub(lambda m: f"<em>{m.group(1)}</em>", s)
-    return s.replace(ESCAPE_DE_COLCHETE, "")
+    return _devolver(s.replace(ESCAPE_DE_COLCHETE, ""))
 
 def atributo(valor: str) -> str:
     return html.escape(valor, quote=True)

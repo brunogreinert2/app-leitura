@@ -65,8 +65,13 @@ REGRAS_LINHA = [
     # (Διαφορεύς, 2026-10-13): é o bilhete do extrator que o Conversor e o
     # Corretor escrevem, o Gerador desenha na margem e o rolo e o motor não
     # mostram. Sem ela a paginação da edição de origem se perde no acervo.
+    # O `<` e o `&` ESCAPADOS (`\<noção>`, `Tom \& Jerry`, 2026-10-27) são texto:
+    # a contrabarra é o escape do CommonMark (N7), e o motor e o rolo os
+    # desenham como sinal comum. Mesma guarda da C08: com UMA contrabarra antes
+    # o sinal é texto; com duas (`\\<b>`) a contrabarra é que está escapada.
     ("C02-xml", "erro", "tag ou entidade XML/HTML",
-     re.compile(r"<(?!!-- pa:pagina \d+ -->)[A-Za-z/!][^>\n]*>|&(?:[a-z]+|#\d+);")),
+     re.compile(r"(?<!(?<!\\)\\)<(?!!-- pa:pagina \d+ -->)[A-Za-z/!][^>\n]*>"
+                r"|(?<!(?<!\\)\\)&(?:[a-z]+|#\d+);")),
     ("C06-tabela", "erro", "tabela | (fora da sintaxe do acervo)", re.compile(r"^\s*\|.*\|\s*$")),
     ("C07-realce", "erro", "==realce== (fora da sintaxe do acervo)", re.compile(r"==[^=\n]+==")),
     # [217] [217a] ou o mesmo marcador duas vezes seguidas: o defeito do Sofista de Fowler.
