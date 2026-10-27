@@ -238,7 +238,9 @@ Para cada arquivo (PDF, imagem, `.md`, `.docx`…):
    A licença da base orienta, mas quem decide é a página do artigo, porque em
    várias revistas a licença muda de artigo para artigo (`varia`). Quando uma obra
    dessas entra, acrescente o `id` dela em `no_acervo`; quando aparecer uma fonte
-   nova, ganha uma linha.
+   nova, ganha uma linha. A revista levantada inteira ganha um arquivo próprio,
+   `garimpo_<revista>.tsv`, com uma linha por tradução e o veredito de cada uma
+   (o primeiro é `garimpo_archai.tsv`).
 4. **Relate** numa tabela, no chat: arquivo · obra · tradutor/edição · veredito
    (**pode** / **não pode** / **precisa verificar**) · por quê · trabalho estimado.
    Termine com a recomendação: o que vale fazer primeiro.
