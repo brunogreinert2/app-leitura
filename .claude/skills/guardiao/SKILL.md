@@ -318,6 +318,10 @@ arquivo). Regras:
   **Toda entrada termina com a assinatura dele, com o `>` na frente:**
   `> Ὁ Διαφορεύς παρῆν` (2026-10-13: «o Pórtico é mais importante que esteja
   minha assinatura do que qualquer outra coisa»). Ela já vai no rascunho.
+  **Numa leva (garimpo de uma revista, uma série), um post só, no fim do
+  trabalho — não um por obra** (decisão do dono, 2026-10-27, no garimpo da
+  Archai). Enquanto a leva anda, o que valeria contar vai para o rascunho do
+  post, guardado na ficha de andamento da frente.
   O Pórtico se refaz no deploy do app (ou `gh workflow run deploy.yml`).
 - **Ficha de andamento** (`C:\Claude\andamento\*.md`, ver `LEIA.md` lá): atualize
   a da frente que você tocou; depois `python C:\Claude\portico\gerar.py` e commit
