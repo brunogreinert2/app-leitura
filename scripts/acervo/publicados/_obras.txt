@@ -1489,6 +1489,7 @@ xenofonte-agesilau-grc-marchant-1920
 xenofonte-anabase-grc-marchant-1904
 xenofonte-anabasis-eng-carleton-l-brownson-1921
 xenofonte-apologia-de-socrates-grc-marchant-1921
+xenofonte-apologia-de-socrates-pt-guggenberger-2023
 xenofonte-banquete-grc-marchant-1921
 xenofonte-cinegetico-grc-marchant-1920
 xenofonte-ciropedia-grc-marchant-1910
