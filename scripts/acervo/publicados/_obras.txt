@@ -596,6 +596,7 @@ ferreira-manual-do-cidadao-pt-1834-v03
 filolau-fragmentos-grc-diels-1922
 genesis-grc-lxx-swe
 gorgias-defesa-de-palamedes-grc-blass-1908
+gorgias-defesa-de-palamedes-pt-cavalcante-2016
 gorgias-elogio-de-helena-grc-blass-1908
 gorgias-elogio-de-helena-pt-cavalcante-2018
 gorgias-fragmentos-grc-diels-1922
