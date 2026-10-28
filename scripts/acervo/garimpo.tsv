@@ -1,53 +1,106 @@
 tipo	nome	instituicao	area	url	licenca	conferida_em	como_conferida	no_acervo	nota
+
 periodico	Rónai – Revista de Estudos Clássicos e Tradutórios	UFJF, Faculdade de Letras (Juiz de Fora)	estudos clássicos; tradução	https://periodicos.ufjf.br/index.php/ronai	CC-BY-4.0	2026-10-28	página de cada artigo (garimpo_ronai.tsv)	isocrates-contra-os-sofistas-pt-lacerda-2018; isocrates-contra-os-sofistas-grc-pt-lacerda-2018; xenofonte-apologia-de-socrates-pt-guggenberger-2023	ISSN 2318-3446. Publica traduções. Censo 2026-10-28: 74 traduções de textos antigos levantadas inteiras em garimpo_ronai.tsv (73 pode, 1 precisa verificar), quase todas com CC BY 4.0 no próprio artigo (3 de 2021 com CC BY-NC-SA). A maior mina livre do garimpo: Cícero (Filípica I, Em defesa de Marcelo, Orador, De natura deorum, De finibus), Lactâncio, Basílio (Discurso aos jovens), Xenofonte (Apologia de Sócrates), Sexto (PH I 36-79), Proclo (Hinos), Cornuto, Longo (Dáfnis e Cloé I-II), Isócrates, Paixão de Perpétua, e duas traduções do séc. XIX em domínio público (Odorico Mendes, Eneida I; D. Pedro II, Prometeu).
+
 periodico	Belas Infiéis	UnB, POSTRAD / Instituto de Letras (Brasília)	tradução	https://periodicos.unb.br/index.php/belasinfieis	CC-BY-4.0	2026-10-28	página de cada artigo (garimpo_belasinfieis.tsv)	alcidamas-sobre-os-sofistas-pt-reis-2020; alcidamas-sobre-os-sofistas-grc-pt-reis-2020	e-ISSN 2316-6614. Publica traduções comentadas. Censo 2026-10-28: 14 traduções de textos antigos entre ~430 traduções (garimpo_belasinfieis.tsv), todas «pode»: CC BY 4.0 na política da revista repetida na página do artigo. Virgílio (Geórgicas II), Hesíodo (Teogonia 1-115), Catulo 64, Estácio, Plutarco, Filodemo, Fulgêncio (livros III e VI).
+
 periodico	Revista de Estudos Filosóficos e Históricos da Antiguidade (Cadernos de Pesquisa / CPA)	Unicamp, IFCH, Centro de Estudos do Pensamento Antigo (Campinas)	filosofia antiga	https://econtents.sbu.unicamp.br/inpec/index.php/cpa	varia	2026-10-27	página sobre e artigo 20954 mostram BY 4.0, BY-NC-ND 4.0 e BY-NC-SA 4.0 juntas	gorgias-elogio-de-helena-pt-cavalcante-2018	ISSN 2177-5850. A licença muda de artigo para artigo: vale a da página do artigo (o Elogio de Helena é BY-NC-ND 4.0, o rodapé do site diz BY). Censo 2026-10-28: além do Elogio de Helena, só Sófocles, Traquínias 1-5 (2012, CC BY-NC-ND no artigo), em garimpo_avulsas.tsv.
+
 livros	SciELO Livros (Editora Unesp e outras editoras universitárias)	SciELO / editoras universitárias	livros acadêmicos	https://books.scielo.org	varia	2026-09-30	página do livro	dongomontoya-pensamento-e-linguagem-pt-2021	A licença vem livro a livro; boa parte é CC BY 4.0 ou BY-NC-ND.
+
 repositorio	LUME – Repositório Digital da UFRGS	UFRGS, Biblioteca Central (Porto Alegre)	teses e dissertações	https://lume.ufrgs.br	CC-BY-NC-SA-2.5-BR	2026-10-27	item 10183/37535; a licença aparece item a item		A tese de Bruno Palavro (2025) entrou com CC BY-NC 4.0 dada pelo autor por e-mail, não pela licença do repositório. Conferir em cada item; tese só sai do LUME com autorização do autor.
+
 periodico	Archai – Revista de Estudos sobre as Origens do Pensamento Ocidental	UnB, Cátedra UNESCO Archai (Brasília)	filosofia antiga	https://periodicos.unb.br/index.php/archai	CC-BY-4.0	2026-10-27	página sobre; artigo 63878	platao-banquete-discurso-de-fedro-pt-pio-2024; sexto-empirico-hipotiposes-pirronicas-1-220-235-pt-huguenin-2019; sexto-empirico-hipotiposes-pirronicas-1-220-235-grc-pt-huguenin-2019; sexto-empirico-contra-os-gramaticos-1-169-247-pt-prezotto-2019; aristoteles-da-adivinhacao-durante-o-sono-pt-de-paoli-2022; aristoteles-da-adivinhacao-durante-o-sono-grc-pt-de-paoli-2022; platao-menexeno-pt-cerdas-2020; diogenes-laercio-vidas-livro-iv-pt-brito-2019; gorgias-defesa-de-palamedes-pt-cavalcante-2016	ISSN 1984-249X. Publica traduções. Levantada inteira em 2026-10-27 (38 números, 31 traduções): ver garimpo_archai.tsv. Até 2018 a licença não está no artigo nem no PDF da UnB; do nº 12 (2014) em diante ela está na página de cada artigo no portal de Coimbra (impactum-journals.uc.pt/archai), CC BY 4.0. Os nºs 8 a 11 (2012-2013) só estão na UnB e esperam confirmação da revista.
+
 periodico	Classica – Revista Brasileira de Estudos Clássicos	SBEC, Sociedade Brasileira de Estudos Clássicos	estudos clássicos	https://revista.classica.org.br/classica	CC-BY-4.0	2026-10-28	página de cada artigo e capturas antigas na Wayback (garimpo_classica.tsv)	antistenes-odisseu-polytropos-pt-dotto-2025; antistenes-odisseu-polytropos-grc-pt-dotto-2025	Censo 2026-10-28: 35 traduções de textos antigos, levantadas inteiras em garimpo_classica.tsv (34 pode, 1 a decidir). De 2021 em diante a licença do próprio artigo está na página; de 2012 a 2020, em capturas antigas da página do artigo na Wayback (10) ou na caixa «Licença» do artigo (4). Os PDFs não declaram licença.
+
 periodico	Cadernos de Tradução (UFSC)	UFSC, PGET (Florianópolis)	tradução	https://periodicos.ufsc.br/index.php/traducao	CC-BY-4.0	2026-10-27	página sobre; artigo 115179		Censo 2026-10-28: 82 números, 1147 itens; quase só estudos sobre tradução e textos modernos. De antigo, só uma ode de Horácio (1.28, artigo 91945). Pouco ouro para o acervo.
-periodico	CODEX – Revista de Estudos Clássicos	UFRJ, Faculdade de Letras (Rio de Janeiro)	estudos clássicos	https://revistas.ufrj.br/index.php/CODEX	CC-BY-NC-4.0	2026-10-27	página sobre; artigo 69824		Censo 2026-10-28: 25 traduções de textos antigos, todas com CC BY-NC 4.0 na página do artigo (2009-2026). As de mais peso: cinco tragédias inteiras de Eurípides por Jaa Torrano (Fenícias, Helena, Héracles, Alceste, Suplicantes), o Minos e o Hípias Menor de Platão, Plutarco (Da inveja e do ódio), Musônio (Diatribes 7 e 15) e a quinta parte do Contra os Gramáticos de Sexto (Prezotto, M 1.270-320). Tabela inteira em garimpo_codex.tsv (27 linhas, 2026-10-28).
+
+periodico	CODEX – Revista de Estudos Clássicos	UFRJ, Faculdade de Letras (Rio de Janeiro)	estudos clássicos	https://revistas.ufrj.br/index.php/CODEX	CC-BY-NC-4.0	2026-10-27	página sobre; artigo 69824	platao-minos-pt-silva-2022	Censo 2026-10-28: 25 traduções de textos antigos, todas com CC BY-NC 4.0 na página do artigo (2009-2026). As de mais peso: cinco tragédias inteiras de Eurípides por Jaa Torrano (Fenícias, Helena, Héracles, Alceste, Suplicantes), o Minos e o Hípias Menor de Platão, Plutarco (Da inveja e do ódio), Musônio (Diatribes 7 e 15) e a quinta parte do Contra os Gramáticos de Sexto (Prezotto, M 1.270-320). Tabela inteira em garimpo_codex.tsv (27 linhas, 2026-10-28).
+
 periodico	Letras Clássicas (nova série)	USP, FFLCH (São Paulo)	estudos clássicos	https://www.revistas.usp.br/letrasclassicas	CC-BY-NC-4.0	2026-10-27	artigo 162780		Censo 2026-10-28: 47 traduções de textos antigos (1997-2024), todas com CC BY-NC 4.0 na página do artigo, inclusive as antigas. A maioria são trechos curtos (odes, epigramas, cenas); inteiros: Ésquilo, Persas; o Certame de Homero e Hesíodo; Dionísio da Trácia, Arte; Donato, Arte menor; a Batracomiomaquia; o Tratado Coisliniano. Filosofia: Platão, Fedro 243e-257b, Íon 530b-536d e República 6.506d-7.515d (tradução linear); Sêneca, Cartas 1 e 41. Tabela inteira em garimpo_letrasclassicas.tsv (47 linhas, 2026-10-28): CC BY-NC 4.0 na página de cada artigo; 5 PDFs dos números 1-2 (1997-98) são só imagem e pedem OCR.
+
 periodico	Anais de Filosofia Clássica	UFRJ, PPGLM (Rio de Janeiro)	filosofia antiga	https://revistas.ufrj.br/index.php/FilosofiaClassica	CC-BY-NC-SA-4.0	2026-10-27	artigo 64569		Censo 2026-10-28: 20 traduções, a revista mais filosófica de todas (Empédocles, Zenão, Antístenes, Dissoi Logoi, Alcidamante, DL III, Física III e IV, Movimento dos animais, Epicteto, Musônio, Plutarco, Sexto CG M 1.97-168). Mas das 20 só uma (Menadismo, 2022) declara licença na página (BY-NC-SA 4.0); as outras, de 2008 a 2022, nada: precisa verificar. Tabela inteira em garimpo_anais.tsv (19 linhas, 2026-10-28): nenhuma página de artigo de 2008-2022 declara licença, nem nas capturas da Wayback, nem os PDFs; só os artigos de 2024 em diante têm CC BY-NC-SA no artigo. Um e-mail à revista resolve as 19 de uma vez. A mais filosófica: Discursos Duplos, Zenão, Empédocles, Antístenes (Ájax e Odisseu), Alcidamante, Epicteto, Musônio, Aristóteles (Física III e IV, Movimento dos animais), Diógenes Laércio III.
+
 periodico	Phaos – Revista de Estudos Clássicos	Unicamp, IEL (Campinas)	estudos clássicos	https://econtents.sbu.unicamp.br/inpec/index.php/phaos	CC-BY-NC-SA-4.0	2026-10-27	página sobre; artigo 21985		ISSN 1676-3076. Licença ainda fora do esquema do acervo. Censo 2026-10-28: 13 traduções, todas com BY-NC-SA 4.0 na página (Fílon, De aeternitate mundi 55-75; Sexto, M 1.1-40; Columela XII; Diógenes Laércio II, vida de Xenofonte). Tabela inteira em garimpo_phaos.tsv (13 linhas, 2026-10-28), todas CC BY-NC-SA 4.0 (no artigo ou no rodapé).
+
 periodico	Calíope – Presença Clássica	UFRJ, PPG Letras Clássicas (Rio de Janeiro)	estudos clássicos	https://revistas.ufrj.br/index.php/caliope	varia	2026-10-27	artigo 73439 mostra BY 3.0 e BY-NC-ND 4.0 juntas		Censo 2026-10-28: 21 traduções; 2013-2022 com CC BY 3.0 na página (fora do esquema ainda); 2023 em diante com BY 3.0 e BY-NC-ND 4.0 juntas (ambíguo). Xenofonte (Constituição dos Lacedemônios; Econômico VII), Musônio (Diatribes 2, 4, 11, 16, 19, 20), Luciano, Quinto de Esmirna I. Tabela inteira em garimpo_caliope.tsv (21 linhas, 2026-10-28): até 2022 só a política da revista (CC BY 3.0); de 2023 em diante CC BY-NC-ND 4.0 no próprio artigo.
+
 periodico	Scientia Traductionis	UFSC (Florianópolis)	tradução	https://periodicos.ufsc.br/index.php/scientia	CC-BY-NC-ND-4.0	2026-10-27	página sobre; artigo 45245		O último número no portal é de 2014. Censo 2026-10-28: nenhuma tradução de texto antigo.
+
 periodico	Nuntius Antiquus	UFMG, Faculdade de Letras (Belo Horizonte)	estudos clássicos	https://periodicos.letras.ufmg.br/index.php/nuntius_antiquus	a-conferir	2026-10-27	site não respondeu		Em 2026-10-28 o site também não respondeu (nem daqui, nem pelo navegador).
+
 periodico	Hypnos – Revista do Centro de Estudos da Antiguidade	PUC-SP (São Paulo)	filosofia antiga	https://revistas.pucsp.br/index.php/hypnos	a-conferir	2026-10-27	arquivo redireciona para login		Em 2026-10-28 o arquivo pede login (redireciona para /login): fechada para levantamento.
+
 periodico	Organon	UFRGS, Instituto de Letras (Porto Alegre)	letras; estudos da tradução	https://seer.ufrgs.br/index.php/organon	CC-BY-NC-SA-4.0	2026-10-27	página sobre; artigo 158727		Desde 1956; e-ISSN 2238-8915. Teve número sobre o mundo clássico (nº 27, 1999). Licença ainda fora do esquema. Censo 2026-10-28: uma tradução de texto antigo (Meleagro, AP 4.1, 2016), em garimpo_avulsas.tsv.
+
 periodico	Cadernos de Tradução (UFRGS)	UFRGS, Instituto de Letras (Porto Alegre)	tradução	https://seer.ufrgs.br/index.php/cadernosdetraducao	CC-BY-3.0	2026-10-27	declaração de direito autoral; artigo 152469		Desde 1997; ISSN 2594-9055. Publica traduções de textos ficcionais e não ficcionais. Autores mantêm os direitos. Licença ainda fora do esquema. Censo 2026-10-28: entre ~285 traduções, só a Epístola 57 de Jerônimo (estudo, conferir se traz a carta inteira), em garimpo_avulsas.tsv.
+
 periodico	PHILIA – Filosofia, Literatura & Arte	UFRGS, PPGs de Filosofia, Letras e Artes Visuais (Porto Alegre)	filosofia; literatura; arte	https://seer.ufrgs.br/index.php/philia	CC-BY-NC-SA-4.0	2026-10-27	artigo 156216 (as diretrizes só dizem «Creative Commons», sem versão)		Publica traduções integrais ou parciais de obras teóricas e literárias. Licença ainda fora do esquema. Censo 2026-10-28: nenhuma tradução de texto antigo.
+
 periodico	Cadernos do IL	UFRGS, Instituto de Letras (Porto Alegre)	letras	https://seer.ufrgs.br/index.php/cadernosdoil	varia	2026-10-27	artigo 156154 mostra BY-NC-SA 4.0 e BY 3.0 juntas		Conferir artigo por artigo. Censo 2026-10-28: nenhuma tradução de texto antigo.
+
 periodico	Nau Literária	UFRGS, PPG Letras (Porto Alegre)	literatura	https://seer.ufrgs.br/index.php/NauLiteraria	CC-BY-3.0	2026-10-27	artigo 154754		Licença ainda fora do esquema. Censo 2026-10-28: nenhuma tradução de texto antigo.
+
 periodico	Contingentia	UFRGS, Instituto de Letras (Porto Alegre)	letras	https://seer.ufrgs.br/index.php/contingentia	CC-BY-NC-ND-4.0	2026-10-27	página sobre (o artigo 155446 não mostra licença)		ISSN 1980-7589. Conferir no artigo. Censo 2026-10-28: nenhuma tradução de texto antigo.
+
 periodico	Anos 90	UFRGS, PPG História (Porto Alegre)	história	https://seer.ufrgs.br/index.php/anos90	a-conferir	2026-10-27	página sobre diz «CC-BY», sem versão; o artigo 141239 não mostra licença		Publica traduções e documentos históricos.
+
 periodico	Revista Conexão Letras	UFRGS, PPG Letras (Porto Alegre)	letras	https://seer.ufrgs.br/index.php/conexaoletras	sem-licenca-declarada	2026-10-27	página sobre, diretrizes e artigo 157222		Acesso aberto, mas nenhuma licença declarada: não é licença (ver o ofício do Guardião, seção 4). Teve número só de Letras Clássicas.
+
 periodico	Translatio	UFRGS, Instituto de Letras (Porto Alegre)	estudos da tradução; estudos clássicos	https://seer.ufrgs.br/index.php/translatio	CC-BY-3.0	2026-10-28	rodapé do site e caixa «Licença» do artigo (garimpo_translatio.tsv)		ISSN 2236-4013. Censo 2026-10-28: 38 traduções de textos antigos (garimpo_translatio.tsv), a maior mina depois da Letras Clássicas: Estrabão, Gregório Nazianzeno (Or. 27), Oráculos Caldeus, Demóstenes (Sobre a paz), Clemente de Alexandria, Lactâncio, Luciano (Venda de vidas, O pescador), Cícero (Do orador I em série, Defesa de Ligário, De finibus I), Píndaro, Hinos Órficos. Licença só da revista (CC BY 3.0, fora do esquema).
+
 periodico	Cadernos de Literatura em Tradução	USP, FFLCH (São Paulo)	tradução literária	https://www.revistas.usp.br/clt	CC-BY-4.0	2026-10-28	página de cada artigo		Censo 2026-10-28: 7 traduções de textos antigos, CC BY 4.0 no próprio artigo (garimpo_avulsas.tsv): Odisseia 6, Plutarco (Se a virtude pode ser ensinada), Teócrito 16 e 19, Plauto, Ovídio, Horácio.
+
 periodico	Journal of Ancient Philosophy (Revista de Filosofia Antiga)	USP, Departamento de Filosofia (São Paulo)	filosofia antiga	https://www.revistas.usp.br/filosofiaantiga	varia	2026-10-28	página de cada artigo		Censo 2026-10-28: 6 traduções (garimpo_avulsas.tsv): Aristóteles (De anima III 7, Metafísica VII 4, Primeiros Analíticos II 1-4 e 23-27), Hipócrates (De genitura), Epicteto 1.5. De 2024 em diante CC BY-NC 4.0 no artigo; antes, a política CC BY 4.0.
+
 periodico	Trans/Form/Ação – Revista de Filosofia	Unesp, Marília	filosofia	https://revistas.marilia.unesp.br/index.php/transformacao	CC-BY-4.0	2026-10-28	página de cada artigo	dissoi-logoi-pt-prezotto-2017	Censo 2026-10-28: 4 traduções (garimpo_avulsas.tsv), CC BY 4.0 no próprio artigo, até nos números antigos: Musônio (fragmentos menores), MXG (Górgias, Tratado do não-ser), Tomás de Aquino, e os Dissoi Logoi (Prezotto, 2017), achados pelo dono depois.
+
 periodico	Dois Pontos	UFPR / UFSCar (Curitiba, São Carlos)	filosofia	https://revistas.ufpr.br/doispontos	CC-BY-4.0	2026-10-28	página de cada artigo		Censo 2026-10-28: 2 traduções de Agostinho (Carta 1, Sermão 24), CC BY 4.0 no artigo (garimpo_avulsas.tsv).
+
 periodico	Romanitas – Revista de Estudos Grecolatinos	UFES (Vitória)	estudos clássicos; história antiga	https://periodicos.ufes.br/romanitas	CC-BY-NC-ND-4.0	2026-10-28	página de cada artigo		Censo 2026-10-28: 2 traduções (Suetônio, Vida de Terêncio; Fulgêncio VIII), CC BY-NC-ND 4.0 no artigo (garimpo_avulsas.tsv).
+
 periodico	Mare Nostrum	USP, LEIR (São Paulo)	história antiga	https://www.revistas.usp.br/marenostrum	varia	2026-10-28	página de cada artigo		Censo 2026-10-28: 1 tradução (Fulgêncio XI), CC BY 4.0 no artigo; a política diz CC BY-NC.
+
 periodico	Pólemos	UnB, Departamento de Filosofia (Brasília)	filosofia	https://periodicos.unb.br/index.php/polemos	CC-BY-NC-ND-4.0	2026-10-28	página de cada artigo		Censo 2026-10-28: 1 tradução de texto antigo (Hesíodo, Teogonia 1-115).
+
 periodico	O que nos faz pensar	PUC-Rio, Departamento de Filosofia	filosofia	https://oquenosfazpensar.fil.puc-rio.br/index.php/oqnfp	CC-BY-NC-4.0	2026-10-28	caixa de direitos do artigo (política)		Censo 2026-10-28: 2 traduções (Sófocles, Antígona 332-375, Torrano; Aristóteles, Sobre as Ideias).
+
 periodico	Cadernos de Letras da UFF	UFF (Niterói)	letras	https://periodicos.uff.br/cadernosdeletras	CC-BY-NC-4.0	2026-10-28	rodapé do site		Censo 2026-10-28: 2 traduções de Horácio (Sátiras 1.4, Odes 3.9).
+
 periodico	Revista Letras	UFPR (Curitiba)	letras	https://revistas.ufpr.br/letras	CC-BY-NC-ND-4.0	2026-10-28	rodapé do site		Censo 2026-10-28: 1 tradução (Sófocles, Édipo Rei, párodo).
+
 periodico	Graphos	UFPB (João Pessoa)	letras	https://periodicos.ufpb.br/index.php/graphos	CC-BY-NC-4.0	2026-10-28	rodapé do site		Censo 2026-10-28: 1 tradução (Plutarco, Antigos costumes dos lacedemônios).
+
 periodico	Veritas	PUCRS (Porto Alegre)	filosofia	https://revistaseletronicas.pucrs.br/index.php/veritas	varia	2026-10-28	página de cada artigo		Censo 2026-10-28: traduções medievais (Tomás de Aquino sobre o De hebdomadibus, CC BY 4.0 no artigo; Alcuíno e Boécio de Dácia, 1996, sem licença).
+
 periodico	Kalagatos	UECE (Fortaleza)	filosofia	https://revistas.uece.br/index.php/kalagatos	CC-BY-4.0	2026-10-28	página de cada artigo		Censo 2026-10-28: 1 tradução de Boécio (conferir qual obra).
+
 periodico	Heródoto	Unifesp (Guarulhos)	história antiga	https://periodicos.unifesp.br/index.php/herodoto	CC-BY-4.0	2026-10-28	sumários do arquivo		Censo 2026-10-28: a seção Traduções traduz estudos modernos, não textos antigos.
+
 periodico	Phoînix	UFRJ, LHIA (Rio de Janeiro)	história antiga	https://revistas.ufrj.br/index.php/phoinix	a-conferir	2026-10-28	sumários do arquivo		Censo 2026-10-28: nenhuma tradução de texto antigo (só resenhas).
+
 periodico	Princípios	UFRN (Natal)	filosofia	https://periodicos.ufrn.br/principios	a-conferir	2026-10-28	sumários do arquivo		Censo 2026-10-28: nenhuma tradução de texto antigo nas 58 traduções.
+
 periodico	Problemata	UFPB (João Pessoa)	filosofia	https://periodicos.ufpb.br/index.php/problemata	a-conferir	2026-10-28	sumários do arquivo		Censo 2026-10-28: nenhuma tradução de texto antigo.
+
 periodico	Philósophos	UFG (Goiânia)	filosofia	https://revistas.ufg.br/philosophos	a-conferir	2026-10-28	sumários do arquivo		Censo 2026-10-28: nenhuma tradução de texto antigo.
+
 periodico	Ítaca	UFRJ, PPGF (Rio de Janeiro)	filosofia	https://revistas.ufrj.br/index.php/Itaca	a-conferir	2026-10-28	sumários do arquivo		Censo 2026-10-28: nenhuma tradução de texto antigo.
+
 periodico	Sapere Aude	PUC Minas (Belo Horizonte)	filosofia	https://periodicos.pucminas.br/index.php/SapereAude	a-conferir	2026-10-28	sumários do arquivo		Censo 2026-10-28: nenhuma tradução de texto antigo.
+
 periodico	Educação e Filosofia	UFU (Uberlândia)	filosofia	https://seer.ufu.br/index.php/EducacaoFilosofia	a-conferir	2026-10-28	sumários do arquivo		Censo 2026-10-28: nenhuma tradução de texto antigo (só traduções de estudos).
+
 periodico	Kriterion	UFMG (Belo Horizonte)	filosofia	https://periodicos.ufmg.br/index.php/kriterion	a-conferir	2026-10-28	sumários do arquivo		Censo 2026-10-28: o arquivo do OJS só tem os números recentes; nenhuma tradução.
+
 periodico	TradTerm	USP, FFLCH (São Paulo)	tradução	https://www.revistas.usp.br/tradterm	a-conferir	2026-10-28	sumários do arquivo		Censo 2026-10-28: nenhuma tradução de texto antigo nas ~350 traduções.
+
 periodico	Mediaevalia	Universidade do Porto (Portugal)	estudos medievais	https://ojs.letras.up.pt/index.php/Mediaevalia	a-conferir	2026-10-28	sumários do arquivo		Censo 2026-10-28: as «traduções» achadas são recensões de livros; não levantada a fundo.
+
 periodico	Ágora – Estudos Clássicos em Debate	Universidade de Aveiro (Portugal)	estudos clássicos	https://proa.ua.pt/index.php/agora	a-conferir	2026-10-28	sumários do arquivo		Censo 2026-10-28: as «traduções» achadas são recensões de livros portugueses; não levantada a fundo.
+
 periodico	Signum	ABREM (Associação Brasileira de Estudos Medievais)	estudos medievais	https://www.abrem.org.br/revistas/index.php/signum	a-conferir	2026-10-28	sumários do arquivo		Censo 2026-10-28: site não respondeu.
+
 periodico	Prometeus – Filosofia em Revista	UFS (São Cristóvão)	filosofia	https://periodicos.ufs.br/prometeus	a-conferir	2026-10-28	sumários do arquivo		Censo 2026-10-28: site não respondeu.
+
