@@ -838,6 +838,7 @@ platao-lovers-eng-walter-rangeley-maitland-lamb-1927
 platao-lovers-grc-john-burnet-1910
 platao-lysis-eng-walter-rangeley-maitland-lamb-1925
 platao-lysis-grc-john-burnet-1903
+platao-menexeno-pt-cerdas-2020
 platao-menexenus-eng-robert-gregg-bury-1929
 platao-menexenus-grc-john-burnet-1903
 platao-meno-eng-walter-rangeley-maitland-lamb-1924
