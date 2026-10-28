@@ -75,6 +75,8 @@ antifonte-sobre-o-coreuta-grc-maidment-1941
 antifonte-terceira-tetralogia-grc-maidment-1941
 antistenes-ajax-grc-blass-1908
 antistenes-odisseu-grc-blass-1908
+antistenes-odisseu-polytropos-grc-pt-dotto-2025
+antistenes-odisseu-polytropos-pt-dotto-2025
 apuleio-apologia-pro-se-de-magia-lat-latinlibrary-sd
 apuleio-de-deo-socratis-lat-latinlibrary-sd
 apuleio-de-dogmate-platonis-lat-latinlibrary-sd
