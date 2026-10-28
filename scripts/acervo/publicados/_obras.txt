@@ -850,6 +850,7 @@ platao-meno-eng-walter-rangeley-maitland-lamb-1924
 platao-meno-grc-john-burnet-1903
 platao-minos-eng-walter-rangeley-maitland-lamb-1927
 platao-minos-grc-john-burnet-1915
+platao-minos-pt-silva-2022
 platao-o-banquete-eng-walter-rangeley-maitland-lamb-1925
 platao-o-banquete-grc-john-burnet-1910
 platao-o-sofista-odialetico
