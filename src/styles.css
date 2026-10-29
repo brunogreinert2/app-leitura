@@ -231,8 +231,11 @@
   /* Peso do traço. A Cardo é uma face filológica, mais leve que a Georgia que
      ela substituiu — medido: 111,7 contra 134,0 de tinta. O contorno devolve
      esse corpo sem trocar de fonte e sem pular para o negrito (Cardo Bold é
-     161,5, longe demais para texto corrido). Controlado pelo usuário. */
-  --reading-stroke: 0.019em;
+     161,5, longe demais para texto corrido). Controlado pelo usuário.
+     O valor daqui só vale no instante antes do React montar, e é o da letra
+     FINA, o padrão desde 2026-10-28: um fio invisível, que existe só para o
+     WebKit desenhar a letra pelo contorno (ver PESOS em ThemeDialog.tsx). */
+  --reading-stroke: 0.01px;
 
   /* Tema Sépia (padrão): leitura confortável, ~13:1 */
   /* PADRAO = PRETO SOBRE BRANCO, e o escuro entra pelo sistema (ver o script

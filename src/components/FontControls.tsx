@@ -2,6 +2,7 @@ import { useEffect, useState, type RefObject } from 'react'
 import { flushSync } from 'react-dom'
 import { useT } from './idiomaContext'
 import { IconeFonte } from './IconeFonte'
+import { useOutrasJanelas } from '../lib/outrasJanelas'
 
 const STORAGE_KEY = 'reading-font-px'
 const DEFAULT_PX = 18
@@ -157,6 +158,12 @@ export function useFontSize() {
     window.addEventListener('resize', refazer)
     return () => window.removeEventListener('resize', refazer)
   }, [px])
+
+  // A+/A- numa janela vale nas outras abertas (ver outrasJanelas.ts)
+  useOutrasJanelas(STORAGE_KEY, (v) => {
+    const n = Number(v)
+    if (n >= MIN_PX && n <= MAX_PX) setPx(n)
+  })
 
   return {
     px,

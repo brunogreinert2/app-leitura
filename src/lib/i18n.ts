@@ -1,4 +1,5 @@
 import { useEffect, useState } from 'react'
+import { useOutrasJanelas } from './outrasJanelas'
 
 /**
  * Idioma da INTERFACE — nunca do acervo.
@@ -135,8 +136,8 @@ const PT = {
   'fonte.georgia.dica': 'Desenho clássico de livro, com traço fino e grosso.',
   'fonte.atkinson.dica': 'Traço uniforme e letras bem diferentes entre si. Ajuda quando as letras parecem colar ou embaralhar.',
   'fonte.opendyslexic.dica': 'Base das letras mais pesada, contra a troca de b/d e p/q.',
-  'peso.fino.dica': 'Menos tinta. Boa com letra grande.',
-  'peso.medio.dica': 'O padrão.',
+  'peso.fino.dica': 'O padrão. O traço da letra como ela foi desenhada.',
+  'peso.medio.dica': 'Um pouco mais de tinta, para quem acha a Fina leve.',
   'peso.grosso.dica': 'Devolve o traço fino que some quando a vista borra.',
   'espacamento.normal.dica': 'Como a fonte foi desenhada.',
   'espacamento.amplo.dica': 'Descola as letras umas das outras.',
@@ -463,8 +464,8 @@ const EN: Record<Chave, string> = {
   'fonte.georgia.dica': 'Classic book letterform, with thick and thin strokes.',
   'fonte.atkinson.dica': 'Even strokes and letters that stay distinct. Helps when letters seem to run together.',
   'fonte.opendyslexic.dica': 'Heavier letter bottoms, against swapping b/d and p/q.',
-  'peso.fino.dica': 'Less ink. Good at large sizes.',
-  'peso.medio.dica': 'The default.',
+  'peso.fino.dica': 'The default. The letter as its designer drew it.',
+  'peso.medio.dica': 'A little more ink, if Light feels faint.',
   'peso.grosso.dica': 'Restores thin strokes that vanish when vision blurs.',
   'espacamento.normal.dica': 'As the typeface was drawn.',
   'espacamento.amplo.dica': 'Pulls the letters apart.',
@@ -774,6 +775,10 @@ export function useIdioma() {
     // páginas do /rolo, voltando pela porta da frente.
     document.documentElement.lang = idioma === 'pt' ? 'pt-BR' : 'en'
   }, [idioma])
+
+  useOutrasJanelas(CHAVE_GUARDADA, (v) => {
+    if (ehIdioma(v)) setIdioma(v)
+  })
 
   const t = (chave: Chave, params?: Record<string, string | number>) =>
     traduzir(idioma, chave, params)

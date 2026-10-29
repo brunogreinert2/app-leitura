@@ -1,5 +1,6 @@
 import { useEffect, useRef, useState } from 'react'
 import { useDialogoAcessivel } from '../lib/useDialogoAcessivel'
+import { useOutrasJanelas } from '../lib/outrasJanelas'
 import { definirEntrelinha } from './FontControls'
 import { useT, useIdiomaAtual } from './idiomaContext'
 import { IDIOMAS } from '../lib/i18n'
@@ -86,6 +87,10 @@ export function useTheme() {
     }
   }, [theme])
 
+  useOutrasJanelas(STORAGE_KEY, (v) => {
+    if (THEMES.some((t) => t.id === v)) definir(v as ThemeId)
+  })
+
   const setTheme = (id: ThemeId) => {
     localStorage.setItem(STORAGE_KEY, id)
     definir(id)
@@ -149,7 +154,9 @@ export const FONTS = [
  * 161,5 de tinta — negrito, não corpo de texto. O contorno preenche o vão sem
  * trocar de fonte e sem pular de degrau.
  *
- * `medio` é o padrão porque é o que devolve o peso que o app tinha antes.
+ * `fino` é o padrão desde 2026-10-28, a pedido do Bruno: a Cardo no traço
+ * dela, sem tinta acrescentada. Até então era `medio`, para devolver o peso
+ * que a Georgia tinha; quem sente falta dele escolhe Média e fica com ela.
  */
 /**
  * Peso do traço em PIXELS FÍSICOS do aparelho, não em `em`.
@@ -199,6 +206,38 @@ export const PESOS = [
 export type PesoId = (typeof PESOS)[number]['id']
 
 const PESO_STORAGE_KEY = 'app-peso-traco'
+const PESO_PADRAO: PesoId = 'fino'
+
+/**
+ * MIGRAÇÃO, uma vez por aparelho.
+ *
+ * Até 2026-10-28 o app gravava o peso já na PRIMEIRA abertura — o padrão,
+ * Média, ia para o armazenamento como se alguém o tivesse escolhido. Daí em
+ * diante, mudar o padrão no código não alcançava ninguém: todo aparelho que
+ * já tinha aberto o app estava "travado" em Média, inclusive os do Bruno que
+ * ele nunca tinha ajustado.
+ *
+ * Um "medio" gravado antes desta data é, quase sempre, esse padrão escrito
+ * sozinho, e por isso é apagado — o aparelho passa ao padrão novo. Quem
+ * tinha escolhido Média de verdade escolhe de novo, uma vez, e daí em diante
+ * a escolha fica: o peso agora só é gravado quando alguém toca nele.
+ */
+const PESO_MIGRADO = 'app-peso-traco-padrao-fino'
+
+function pesoSalvo(): PesoId | null {
+  try {
+    if (!localStorage.getItem(PESO_MIGRADO)) {
+      if (localStorage.getItem(PESO_STORAGE_KEY) === 'medio') localStorage.removeItem(PESO_STORAGE_KEY)
+      localStorage.setItem(PESO_MIGRADO, '1')
+    }
+    const s = localStorage.getItem(PESO_STORAGE_KEY)
+    return PESOS.some((p) => p.id === s) ? (s as PesoId) : null
+  } catch {
+    return null
+  }
+}
+
+const pixelsDoPeso = (id: PesoId) => (PESOS.find((p) => p.id === id) ?? PESOS[0]).pixels
 
 /** Traduz "quantos pixels do aparelho" para o valor em CSS daquela tela. */
 function aplicarPeso(pixels: number): void {
@@ -207,24 +246,34 @@ function aplicarPeso(pixels: number): void {
 }
 
 export function usePesoTraco() {
-  const [peso, setPeso] = useState<PesoId>(() => {
-    const saved = localStorage.getItem(PESO_STORAGE_KEY)
-    return PESOS.some((p) => p.id === saved) ? (saved as PesoId) : 'medio'
-  })
+  const [peso, definir] = useState<PesoId>(() => pesoSalvo() ?? PESO_PADRAO)
 
   useEffect(() => {
-    localStorage.setItem(PESO_STORAGE_KEY, peso)
-    const def = PESOS.find((p) => p.id === peso) ?? PESOS[1]
-    aplicarPeso(def.pixels)
+    aplicarPeso(pixelsDoPeso(peso))
   }, [peso])
 
   // Trocar de monitor ou mudar o zoom do navegador muda quantos pixels
   // físicos cabem num ponto — o traço precisa ser recalculado.
   useEffect(() => {
-    const refazer = () => aplicarPeso((PESOS.find((p) => p.id === peso) ?? PESOS[1]).pixels)
+    const refazer = () => aplicarPeso(pixelsDoPeso(peso))
     window.addEventListener('resize', refazer)
     return () => window.removeEventListener('resize', refazer)
   }, [peso])
+
+  useOutrasJanelas(PESO_STORAGE_KEY, (v) => {
+    if (PESOS.some((p) => p.id === v)) definir(v as PesoId)
+  })
+
+  // Grava SÓ na escolha, como o tema: o padrão lido não vira escolha de
+  // ninguém (ver PESO_MIGRADO), e um padrão novo alcança quem nunca mexeu.
+  const setPeso = (id: PesoId) => {
+    try {
+      localStorage.setItem(PESO_STORAGE_KEY, id)
+    } catch {
+      /* sem armazenamento: vale nesta sessão */
+    }
+    definir(id)
+  }
 
   return { peso, setPeso }
 }
@@ -264,6 +313,10 @@ export function useEspacamento() {
     raiz.setProperty('--reading-letter-spacing', `${def.letra}em`)
     raiz.setProperty('--reading-word-spacing', `${def.palavra}em`)
   }, [espacamento])
+
+  useOutrasJanelas(ESPACAMENTO_STORAGE_KEY, (v) => {
+    if (ESPACAMENTOS.some((e) => e.id === v)) setEspacamento(v as EspacamentoId)
+  })
 
   return { espacamento, setEspacamento }
 }
@@ -306,6 +359,10 @@ export function useEntrelinha(corpoAtual: number) {
     definirEntrelinha(def.mult, corpoAtual)
   }, [entrelinha, corpoAtual])
 
+  useOutrasJanelas(ENTRELINHA_STORAGE_KEY, (v) => {
+    if (ENTRELINHAS.some((e) => e.id === v)) setEntrelinha(v as EntrelinhaId)
+  })
+
   return { entrelinha, setEntrelinha }
 }
 
@@ -324,6 +381,10 @@ export function useFontFamily() {
     const def = FONTS.find((f) => f.id === fontFamily) ?? FONTS[0]
     document.documentElement.style.setProperty('--reading-font-family', def.stack)
   }, [fontFamily])
+
+  useOutrasJanelas(FONT_STORAGE_KEY, (v) => {
+    if (FONTS.some((f) => f.id === v)) setFontFamily(v as FontFamilyId)
+  })
 
   return { fontFamily, setFontFamily }
 }
