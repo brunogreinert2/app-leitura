@@ -126,6 +126,7 @@ aristoteles-magna-moralia-grc-susemihl-1883
 aristoteles-mechanica-grc-bekker-1837
 aristoteles-metafisica-eng-hugh-tredennick-1933-1935
 aristoteles-metafisica-grc-william-david-ross-1924
+aristoteles-metafisica-vii-4-pt-zillig-2025
 aristoteles-meteorologicos-grc-fobes-1919
 aristoteles-physiognomonica-grc-bekker-1837
 aristoteles-poetics-ara-abd-al-ra-m-n-badaw-1953
@@ -135,6 +136,11 @@ aristoteles-poetics-grc-rudolf-kassel-1965
 aristoteles-politica-eng-harris-rackham-1944
 aristoteles-politica-grc-william-david-ross-1957
 aristoteles-primeiros-analiticos-grc-ross-1964
+aristoteles-primeiros-analiticos-i-1-7-pt-almeida-2023
+aristoteles-primeiros-analiticos-ii-1-4-grc-pt-troster-2024
+aristoteles-primeiros-analiticos-ii-1-4-pt-troster-2024
+aristoteles-primeiros-analiticos-ii-23-27-grc-pt-troster-2024
+aristoteles-primeiros-analiticos-ii-23-27-pt-troster-2024
 aristoteles-problemata-grc-ruelle-1922
 aristoteles-refutacoes-sofisticas-grc-bekker-1837
 aristoteles-the-art-of-rhetoric-eng-john-henry-freese-1926
