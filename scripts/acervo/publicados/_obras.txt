@@ -1256,6 +1256,7 @@ seneca-apocoloquintose-pt-reis-2020
 seneca-de-beneficiis-lat-john-william-basore-1935
 seneca-de-clementia-lat-john-w-basore-1928
 seneca-epistulae-morales-lat-richard-m-gummere-1917-1925
+seneca-epistulas-a-lucilio-41-pt-braren-1999
 seneca-hercules-lat-rudolf-peiper-1921
 seneca-hercules-oetaeus-lat-rudolf-peiper-1921
 seneca-medea-lat-rudolf-peiper-1921
