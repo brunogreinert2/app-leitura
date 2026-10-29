@@ -299,9 +299,20 @@ export function App() {
    */
   const handleAddFiles = (files: File[]) => {
     addLocalFiles(files)
-      .then((ids) =>
+      .then(({ ids, aoLado }) =>
         listLocalFiles().then((lista) => {
           setLocalFiles(lista)
+          // Uma versão que ficou AO LADO de outra é dito em voz alta: quem
+          // abriu o arquivo precisa saber que há duas, e qual é qual.
+          if (aoLado.length) {
+            const [primeira] = aoLado
+            setAvisoSoltura(
+              aoLado.length === 1
+                ? t('soltar.aoLado', { existente: primeira.existente, nova: primeira.nova })
+                : t('soltar.aoLadoVarias', { n: aoLado.length }),
+            )
+            window.setTimeout(() => setAvisoSoltura(null), 9000)
+          }
           if (ids.length === 1) {
             const novo = lista.find((f) => f.id === ids[0])
             if (novo) {
@@ -316,7 +327,7 @@ export function App() {
                 },
               ])
             }
-          } else if (ids.length > 1) {
+          } else if (ids.length > 1 && !aoLado.length) {
             setAvisoSoltura(t('soltar.varios', { n: ids.length }))
             window.setTimeout(() => setAvisoSoltura(null), 4000)
           }

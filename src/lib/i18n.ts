@@ -266,6 +266,10 @@ const PT = {
   'soltar.titulo': 'Solte para adicionar a Meus arquivos',
   'soltar.formatos': 'Aceita .md e .txt',
   'soltar.varios': '{n} arquivos adicionados a Meus arquivos',
+  'soltar.aoLado':
+    'Já havia “{existente}” com outro conteúdo. Nada foi apagado: esta versão entrou como “{nova}”.',
+  'soltar.aoLadoVarias':
+    '{n} arquivos já existiam com outro conteúdo. Nada foi apagado: as versões novas entraram ao lado, com (2), (3)…',
   'soltar.recusados': '{n} arquivo ignorado: só entram .md e .txt',
   'soltar.recusadosPlural': '{n} arquivos ignorados: só entram .md e .txt',
   'arquivos.remover': 'Remover “{titulo}” dos seus arquivos?',
@@ -587,6 +591,10 @@ const EN: Record<Chave, string> = {
   'soltar.titulo': 'Drop to add to My files',
   'soltar.formatos': 'Accepts .md and .txt',
   'soltar.varios': '{n} files added to My files',
+  'soltar.aoLado':
+    '“{existente}” already existed with different content. Nothing was deleted: this version came in as “{nova}”.',
+  'soltar.aoLadoVarias':
+    '{n} files already existed with different content. Nothing was deleted: the new versions came in alongside, as (2), (3)…',
   'soltar.recusados': '{n} file ignored: only .md and .txt',
   'soltar.recusadosPlural': '{n} files ignored: only .md and .txt',
   'arquivos.remover': 'Remove “{titulo}” from your files?',

@@ -33,7 +33,8 @@ export async function exportBackup(): Promise<void> {
     version: VERSION,
     exportedAt: new Date().toISOString(),
     localStorage: snapshotLocalStorage(),
-    files: await listLocalFiles(),
+    // A alça do arquivo no disco não se escreve em JSON (sairia `{}`).
+    files: (await listLocalFiles()).map(({ alca: _alca, ...resto }) => (void _alca, resto)),
   }
   const blob = new Blob([JSON.stringify(backup, null, 2)], { type: 'application/json' })
   const url = URL.createObjectURL(blob)

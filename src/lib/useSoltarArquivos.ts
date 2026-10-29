@@ -1,3 +1,4 @@
+import { lembrarAlca } from './localFiles'
 import { useEffect, useRef, useState } from 'react'
 
 /** As mesmas extensões que o botão "+ Adicionar arquivos" aceita. */
@@ -108,7 +109,16 @@ export function useArquivosDoSistema(aoReceber: (arquivos: File[]) => void): voi
     if (!fila) return
     fila.setConsumer((params) => {
       if (!params.files?.length) return
-      Promise.all(params.files.map((h) => h.getFile()))
+      // A alça vai junto: é ela que diz se um arquivo reaberto é o MESMO do
+      // disco (ver "nunca apagar calado" em localFiles.ts).
+      Promise.all(
+        params.files.map((h) =>
+          h.getFile().then((arquivo) => {
+            lembrarAlca(arquivo, h)
+            return arquivo
+          }),
+        ),
+      )
         .then((arquivos) => arquivos.filter((f) => ACEITAS.test(f.name)))
         .then((bons) => {
           if (bons.length) receber.current(bons)
