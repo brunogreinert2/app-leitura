@@ -353,6 +353,7 @@ const PT = {
   'pasta.RENASCIMENTO': 'Renascimento',
   'pasta.INTERLINEARES GREGO': 'Interlineares Grego',
   'pasta.INTERLINEARES HEBRAICO': 'Interlineares Hebraico',
+  'pasta.INTERLINEARES LATIM': 'Interlineares Latim',
   'pasta.ANTIGO TESTAMENTO GREGO': 'Antigo Testamento Grego',
   'pasta.NOVO TESTAMENTO GREGO': 'Novo Testamento Grego',
 
@@ -664,6 +665,7 @@ const EN: Record<Chave, string> = {
   'pasta.RENASCIMENTO': 'Renaissance',
   'pasta.INTERLINEARES GREGO': 'Greek Interlinears',
   'pasta.INTERLINEARES HEBRAICO': 'Hebrew Interlinears',
+  'pasta.INTERLINEARES LATIM': 'Latin Interlinears',
   'pasta.ANTIGO TESTAMENTO GREGO': 'Greek Old Testament',
   'pasta.NOVO TESTAMENTO GREGO': 'Greek New Testament',
 

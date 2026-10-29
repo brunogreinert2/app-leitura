@@ -1368,6 +1368,7 @@ ROTULO_EN = {
     "Renascimento": "Renaissance",
     "Interlineares Grego": "Greek Interlinears",
     "Interlineares Hebraico": "Hebrew Interlinears",
+    "Interlineares Latim": "Latin Interlinears",
     "Antigo Testamento Grego": "Greek Old Testament",
     "Novo Testamento Grego": "Greek New Testament",
     # NAO ENTRAM AQUI as edicoes -- Almeida 1911, Vulgata Clementina,
