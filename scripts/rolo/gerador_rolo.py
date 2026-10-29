@@ -366,6 +366,33 @@ def blocos_logicos(md: str) -> list[list[str]]:
     return blocos
 
 
+RX_TAG_HTML = re.compile(r"<[^>]+>")
+RX_ACENTO_COMBINANTE = re.compile(r"[\u0300-\u036f]")
+
+
+def id_do_titulo(conteudo_html: str, vistos: dict[str, int]) -> str:
+    """O endereço de um título SEM âncora própria: `h-<texto>`, o MESMO que o
+    app calcula (slugify em src/lib/titulos.ts) — mesma regra, mesma contagem
+    de repetidos (h-x, h-x-1, h-x-2). É ele que o "Copiar link desta seção"
+    leva, do app e do rolo; sem ele, o link do título saía sem destino e abria
+    a obra no começo.
+
+    Conferido contra o app em todo o acervo (2026-10-29). Mexeu numa das duas
+    regras, mexa na outra — e rode a conferência de novo.
+
+    Fora da LEI 6 de propósito (o portão não o registra): o endereço muda se o
+    título muda, e trancar o texto dos títulos seria caro demais."""
+    texto = html.unescape(RX_TAG_HTML.sub("", conteudo_html))
+    base = "h-" + re.sub(
+        r"^-+|-+$",
+        "",
+        re.sub(r"[^a-z0-9]+", "-", RX_ACENTO_COMBINANTE.sub("", unicodedata.normalize("NFD", texto.lower()))),
+    )
+    n = vistos.get(base, 0)
+    vistos[base] = n + 1
+    return base if n == 0 else f"{base}-{n}"
+
+
 def corpo_html(md: str, prefixo_id: str = "", lang_doc: str = "") -> tuple[str, int]:
     """Emite uma sequência PLANA de elementos. A hierarquia fica em data-n —
     o motor a reconstrói. Plano no HTML significa que qualquer leitor ingênuo
@@ -373,6 +400,7 @@ def corpo_html(md: str, prefixo_id: str = "", lang_doc: str = "") -> tuple[str, 
     saida: list[str] = []
     usados: set[str] = set()
     marcadores: dict[str, int] = {}
+    titulos_vistos: dict[str, int] = {}
     n_headings = 0
 
     # ```verso (D3, 2026-09-29): a citação em verso fica UM bloco, com a quebra
@@ -440,6 +468,11 @@ def corpo_html(md: str, prefixo_id: str = "", lang_doc: str = "") -> tuple[str, 
             texto = mh.group(2).strip()
             n_headings += 1
             conteudo = inline(texto, marcadores)
+            # O id conta TODO título (como o app), mas só é usado no que não
+            # tem âncora — âncora é endereço publicado e não se troca.
+            id_titulo = id_do_titulo(conteudo, titulos_vistos)
+            if not attr_id:
+                attr_id = f' id="{atributo(id_titulo)}"'
             # Título também aceita etiqueta: é justamente onde a detecção falha,
             # porque título costuma ter duas ou três palavras.
             hl, hd = (lang_marcado, dir_marcado) if lang_marcado else idioma_da_linha(texto, lang_doc)

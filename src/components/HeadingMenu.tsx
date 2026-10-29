@@ -17,7 +17,7 @@ interface Props {
 export function HeadingMenu({ id, getTitle }: Props) {
   const t = useT()
   const [open, setOpen] = useState(false)
-  const { copySection, printSection } = useContext(HeadingActionsContext)
+  const { copySection, printSection, copyLink } = useContext(HeadingActionsContext)
   const ref = useRef<HTMLDivElement>(null)
 
   useEffect(() => {
@@ -59,6 +59,14 @@ export function HeadingMenu({ id, getTitle }: Props) {
               {t('titulo.copiarVisivel')}
             </button>
           </li>
+          {/* Mesma ordem do menu do rolo: os dois copiar, o link, os dois imprimir. */}
+          {copyLink && (
+            <li role="none">
+              <button role="menuitem" onClick={() => { setOpen(false); copyLink(id) }}>
+                {t('titulo.copiarLink')}
+              </button>
+            </li>
+          )}
           <li role="none">
             <button
               role="menuitem"

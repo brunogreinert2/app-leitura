@@ -5,6 +5,11 @@ export interface HeadingActions {
   copySection: (id: string, onlyVisible: boolean) => void
   /** Abre uma aba de impressão com este trecho — tudo ou só o visível. */
   printSection: (id: string, onlyVisible: boolean, title: string) => void
+  /**
+   * Copia o link do rolo até este título. Ausente em texto do aparelho, que
+   * não tem rolo publicado — e aí o item nem aparece no menu.
+   */
+  copyLink?: (id: string) => void
 }
 
 export const HeadingActionsContext = createContext<HeadingActions>({

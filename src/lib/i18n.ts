@@ -105,6 +105,10 @@ const PT = {
   'titulo.maisAcoes': 'Mais ações deste título',
   'titulo.copiarTudo': 'Copiar — tudo',
   'titulo.copiarVisivel': 'Copiar — só visível',
+  'titulo.copiarLink': 'Copiar link desta seção',
+  'titulo.linkCopiado': 'Link da seção copiado',
+  'leitura.linkDaPassagem': 'Link da passagem copiado',
+  'leitura.semRolo': 'Arquivo do aparelho: não tem rolo publicado',
   'titulo.imprimirTudo': 'Imprimir — tudo',
   'titulo.imprimirVisivel': 'Imprimir — só visível',
 
@@ -439,6 +443,10 @@ const EN: Record<Chave, string> = {
   'titulo.maisAcoes': 'More actions for this heading',
   'titulo.copiarTudo': 'Copy — everything',
   'titulo.copiarVisivel': 'Copy — visible only',
+  'titulo.copiarLink': 'Copy link to this section',
+  'titulo.linkCopiado': 'Section link copied',
+  'leitura.linkDaPassagem': 'Passage link copied',
+  'leitura.semRolo': 'File from this device: it has no published scroll',
   'titulo.imprimirTudo': 'Print — everything',
   'titulo.imprimirVisivel': 'Print — visible only',
 
