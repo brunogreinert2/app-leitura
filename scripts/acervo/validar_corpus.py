@@ -72,7 +72,11 @@ REGRAS_LINHA = [
     ("C02-xml", "erro", "tag ou entidade XML/HTML",
      re.compile(r"(?<!(?<!\\)\\)<(?!!-- pa:pagina \d+ -->)[A-Za-z/!][^>\n]*>"
                 r"|(?<!(?<!\\)\\)&(?:[a-z]+|#\d+);")),
-    ("C06-tabela", "erro", "tabela | (fora da sintaxe do acervo)", re.compile(r"^\s*\|.*\|\s*$")),
+    # A C06 (tabela `| assim |`) saiu em 2026-10-29: a tabela GFM entrou no
+    # formato (N7, versão 7), promovida do anel de Leitura quando a edição de
+    # Buzelli das Categorias pediu (as colunas «Erros · Emendas» das erratas de
+    # 1814). O app (remark-gfm) e o Gerador a desenham; o rolo ainda a mostra
+    # como texto, uma linha por parágrafo (trabalho a fazer, N7).
     ("C07-realce", "erro", "==realce== (fora da sintaxe do acervo)", re.compile(r"==[^=\n]+==")),
     # [217] [217a] ou o mesmo marcador duas vezes seguidas: o defeito do Sofista de Fowler.
     # O colchete escapado (`\[2] [2]`, 2026-10-23) é texto, não marcador: o
@@ -87,10 +91,10 @@ REGRAS_LINHA = [
 RE_CODIGO = re.compile(r"`[^`\n]+`")
 IGNORA_CODIGO = {"C01-null", "C02-xml"}
 # Dentro de ```verso e ```interlinear o app e o rolo mostram o texto literal,
-# linha a linha: ali não há tabela nem realce possíveis, e a linha de papiro
-# que começa e termina com a barra da quebra do rolo (| νεμωκέα κόραν . . . |,
-# Crisipo, SVF II, PHerc. 307) não é tabela (Διαφορεύς, 2026-10-15).
-IGNORA_NA_CERCA = {"C06-tabela", "C07-realce"}
+# linha a linha: ali não há realce possível (nem tabela: a linha de papiro que
+# começa e termina com a barra da quebra do rolo, | νεμωκέα κόραν . . . |,
+# Crisipo, SVF II, PHerc. 307, é texto; Διαφορεύς, 2026-10-15).
+IGNORA_NA_CERCA = {"C07-realce"}
 RE_CERCA = re.compile(r"^\s*```(.*)$")
 CERCAS_PERMITIDAS = {"interlinear", "verso"}
 RE_NOTA_USO = re.compile(r"\[\^([^\]\s]+)\](?!:)")
@@ -137,7 +141,6 @@ COMO_CONSERTAR = {
     "F32-valor-invalido": "use um valor da lista fechada do esquema (idioma: grc, lat, por, eng…; licença: public-domain, CC-BY-SA-4.0…).",
     "C01-null": "a palavra null vazou para o texto: é um campo vazio do conversor. Apague ou preencha.",
     "C02-xml": "sobrou marcação XML/HTML (<…>, &…;, <!-- -->). O acervo é texto puro.",
-    "C06-tabela": "tabela não existe no acervo.",
     "C07-realce": "==realce== não existe no acervo.",
     "C08-marcador-duplo": "o mesmo ponto tem dois marcadores ([217] [217a]): deixe só o da seção, [217a].",
     "C09-colagem": "parece texto colado sem espaço (\"verse:Never\"). Confira contra a fonte.",

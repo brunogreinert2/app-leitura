@@ -84,7 +84,9 @@ apuleio-de-mundo-lat-latinlibrary-sd
 apuleio-florida-lat-latinlibrary-sd
 aristoteles-cartas-grc-hercher-1873
 aristoteles-categorias-grc-bekker-1837
+aristoteles-categorias-grc-pt-ferreira-1814
 aristoteles-categorias-pt-ferreira-1814
+aristoteles-categorias-pt-ferreira-buzelli-2025
 aristoteles-da-adivinhacao-durante-o-sono-grc-pt-de-paoli-2022
 aristoteles-da-adivinhacao-durante-o-sono-pt-de-paoli-2022
 aristoteles-de-anima-grc-ross-1956

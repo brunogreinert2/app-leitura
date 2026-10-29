@@ -127,7 +127,8 @@ Os ◐ são pendentes conhecidos, cada um com o motivo no próprio caso.
   `[[wikilink]]` (personagens) e `![]()`, como manda o formato comum do
   ecossistema (NORMAS N7, versão 3, 2026-09-30). O app ainda não desenha imagem
   (`{{img:id}}`, `![]()`): é trabalho a fazer, não proibição.
-  Fora da norma: tabela, `==realce==`, HTML/XML, `null`.
+  Tabela GFM entrou na norma em 2026-10-29 (N7 v7; a C06 saiu do portão).
+  Fora da norma: `==realce==`, HTML/XML, `null`.
 - **A marca de página `<!-- pa:pagina N -->` passa no portão (2026-10-13):** é o
   molde do ecossistema para a página da edição de origem — o Conversor e o
   Corretor a escrevem, o Gerador a desenha como `[p. 01]`. Vem sozinha na linha,

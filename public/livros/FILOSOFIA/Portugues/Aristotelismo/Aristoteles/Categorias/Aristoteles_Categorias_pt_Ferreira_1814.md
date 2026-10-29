@@ -26,7 +26,7 @@ related:
 - aristoteles-categorias-grc-bekker-1837
 - ferreira-manual-do-cidadao-pt-1834-v01
 reference_system: chapter-section
-scope: 'Obra completa: Advertencia do tradutor, Primeira Parte (98 Aphorismos), as 104 Explicações da Segunda Parte como notas, e as notas do tradutor. Os aforismos seguem a numeração de Ferreira, não a de Bekker.'
+scope: 'Obra completa: Advertencia do tradutor, Primeira Parte (98 Aphorismos), as 104 Explicações da Segunda Parte como notas, e as notas do tradutor. Os aforismos seguem a numeração de Ferreira ([1] a [98]), e cada um traz também o endereço de Bekker do começo do trecho ([1a1]), segundo a edição de José Leonardo Sousa Buzelli (2025).'
 urn_work: urn:cts:greekLit:tlg0086.tlg006
 urn: urn:cts:greekLit:tlg0086.tlg006.pa-por1
 source: 'Aristóteles. Categorias. Traduzidas do grego e ordenadas conforme a hum novo plano por Silvestre Pinheiro Ferreira. Rio de Janeiro: Impressão Régia, 1814. Biblioteca Nacional (Brasil), Divisão de Obras Raras, objeto digital or1379818, https://objdigital.bn.br/objdigital2/acervo_digital/div_obrasraras/or1379818/or1379818.pdf'
@@ -34,7 +34,7 @@ license: public-domain
 pa_exclusive: true
 physical_source: 'Exemplar da Divisão de Obras Raras da Fundação Biblioteca Nacional (Rio de Janeiro), objeto digital or1379818: PDF de 65 páginas, digitalizado em 2014-01-21, baixado em 2026-05-03. O exemplar faz parte de um volume encadernado com outras obras (numeração manuscrita das folhas, 308 a 339).'
 ocr_engine: olmOCR-2-7B-1025-GGUF
-processing: 'Transcrição, organização em notas e revisão: Διαφορεύς, com olmOCR-2-7B-1025-GGUF e modelos Claude. Conferência contra o scan e restauro da ortografia de 1814: Claude Opus 5.5, 2026-10-13 — o texto foi cotejado palavra a palavra com a camada de texto do PDF e as formas duvidosas lidas no scan. As Explicações, que no impresso formam a Segunda Parte, são aqui notas [^eN] que abrem no toque (o próprio tradutor diz tê-las separado «á maneira de Notas»). As erratas que o próprio livro traz no fim (páginas 64 e 65 do PDF) estão todas aplicadas ao texto; a lista não é reproduzida. O impresso repete o número (49) nos §§ 52 e 53: o § 52 remete à Explicação 48. Os itálicos do impresso não foram transcritos. <!-- pa:pagina N --> marca a página N do PDF, contada da capa (o fólio impresso é N − 6 na Primeira Parte e N − 18 na Segunda).'
+processing: 'Transcrição, organização em notas e revisão: Διαφορεύς, com olmOCR-2-7B-1025-GGUF e modelos Claude. Conferência contra o scan e restauro da ortografia de 1814: Claude Opus 5.5, 2026-10-13 — o texto foi cotejado palavra a palavra com a camada de texto do PDF e as formas duvidosas lidas no scan. As Explicações, que no impresso formam a Segunda Parte, são aqui notas [^eN] que abrem no toque (o próprio tradutor diz tê-las separado «á maneira de Notas»). As erratas que o próprio livro traz no fim (páginas 64 e 65 do PDF) estão todas aplicadas ao texto; a lista não é reproduzida. O impresso repete o número (49) nos §§ 52 e 53: o § 52 remete à Explicação 48. Os itálicos do impresso não foram transcritos. <!-- pa:pagina N --> marca a página N do PDF, contada da capa (o fólio impresso é N − 6 na Primeira Parte e N − 18 na Segunda). Endereços de Bekker (2026-10-29): o endereço da linha de Bekker em que começa cada aforismo ([1] [1a1] … [98] [15b17]) foi tirado da edição semidiplomática de José Leonardo Sousa Buzelli (Revista de Estudos Filosóficos e Históricos da Antiguidade 42, 2025, e025002, DOI 10.53000/cpa.v42i00.20111), que os põe entre parênteses duplos seguindo a edição de Minio-Paluello (Oxford), e conferido aforismo por aforismo contra o texto daqui; dois erros de digitação dele lidos como ele quis (⦅2b 6ᵇ⦆ no 22, ⦅10sb 12⦆ no 68); o 53 vem renumerado pelas erratas ({43} ⟨53⟩). Os aforismos 59 e 60 começam os dois em 8b25, como nele. A grafia de 1814 e a numeração [1]-[98] não mudaram. Preparado por Διαφορεύς, Claude Opus 5.5. Gralhas do impresso que a errata não traz (2026-10-29), corrigidas no texto na grafia de 1814, como as corrige a edição de Buzelli: «cada humas» → «cada huma», «de mais mais» → «de mais», «nem o que branco» → «nem o que he branco», «hum delles; ha» → «hum delles ha», «sensiveis) Ora» → «sensiveis). Ora», «nem relação nem lugar» → «nem relação, nem lugar», «desse mesmo o ser cego» → «desse mesmo modo o ser cego», e dois «passão/passarem a serem» → «a ser» (a errata só emenda um dos quatro). A transcrição já trazia corrigidos «tetemos» → «temos», «daquelle Por» → «daquelle. Por», «mudança Mas» → «mudança. Mas» e o terceiro «serem». As quatro gralhas anotadas antes ([^2IA], [^4IA] a [^6IA]) ficam como estão: as chamadas de nota são endereço publicado.'
 ---
 
 <!-- pa:pagina 001 -->
@@ -97,201 +97,201 @@ Porto Alegre, 13 de Outubro de 2026
 
 ### Aphorismos
 
-[1] Equivocos dizem-se os que tem sómente o nome commum; mas a rasão desse nome differente [^e1].
+[1] [1a1] Equivocos dizem-se os que tem sómente o nome commum; mas a rasão desse nome differente [^e1].
 
-[2] Univocos porém dizem-se os que não sómente tem o nome commum; mas tambem a rasão desse nome identica [^e2].
+[2] [1a6] Univocos porém dizem-se os que não sómente tem o nome commum; mas tambem a rasão desse nome identica [^e2].
 
-[3] E cognominados dizem-se os que tendo a terminação differente, tem comtudo as attribuições, que esse nome designa, identicas [^e3].
+[3] [1a12] E cognominados dizem-se os que tendo a terminação differente, tem comtudo as attribuições, que esse nome designa, identicas [^e3].
 
-[4] Das Locuções, humas exprimem-se ligadas outras desligadas [^e4].
+[4] [1a16] Das Locuções, humas exprimem-se ligadas outras desligadas [^e4].
 
-[5] Das Coisas, humas dizem-se de algum objecto; mas não estão em nenhum objecto [^e5].
+[5] [1a20] Das Coisas, humas dizem-se de algum objecto; mas não estão em nenhum objecto [^e5].
 
-[6] Mas outras sim estão em algum objecto[^1][^2]; mas não se dizem de nenhum objecto [^e6].
+[6] [1a22] Mas outras sim estão em algum objecto[^1][^2]; mas não se dizem de nenhum objecto [^e6].
 
-[7] <!-- pa:pagina 008 --> E outras não só se dizem de algum objecto; mas tambem estão em algum objecto [^e7].
+[7] [1a29] <!-- pa:pagina 008 --> E outras não só se dizem de algum objecto; mas tambem estão em algum objecto [^e7].
 
-[8] Outras emfim nem estão em nenhum objecto; nem se dizem de nenhum objecto [^e8].
+[8] [1b3] Outras emfim nem estão em nenhum objecto; nem se dizem de nenhum objecto [^e8].
 
-[9] Em geral: Tudo o que he indivisivel, e hum em numero não se diz de nenhum objecto; mas nada obsta a que algumas coisas taes possão estar em algum objecto [^e9].
+[9] [1b6] Em geral: Tudo o que he indivisivel, e hum em numero não se diz de nenhum objecto; mas nada obsta a que algumas coisas taes possão estar em algum objecto [^e9].
 
-[10] Quando se diz de hum objecto: que elle he comprehendido em alguma Categoria; tudo o que se diz da Categoria, se ha de tambem dizer do objecto [^e10].
+[10] [1b10] Quando se diz de hum objecto: que elle he comprehendido em alguma Categoria; tudo o que se diz da Categoria, se ha de tambem dizer do objecto [^e10].
 
-[11] As coisas que são heterogeneas entre si, e humas não são especies das outras; tambem tem differenças especificas heterogeneas entre si [^e11].
+[11] [1b16] As coisas que são heterogeneas entre si, e humas não são especies das outras; tambem tem differenças especificas heterogeneas entre si [^e11].
 
-[12] Mas naquelles generos, que são subordinados huns aos outros, nada obsta a que tenhão as mesmas differenças [^e12].
+[12] [1b20] Mas naquelles generos, que são subordinados huns aos outros, nada obsta a que tenhão as mesmas differenças [^e12].
 
-[13] Assim que quantas forem as differenças da Categoria, tantas serão as do objecto.
+[13] [1b22] Assim que quantas forem as differenças da Categoria, tantas serão as do objecto.
 
-[14] As Locuções desligadas ou designão essencia; ou quantidade; ou qualidade; ou relação; ou lugar; ou tempo; ou estado; ou acção permanente; ou acção transeunte; ou paixão [^e13].
+[14] [1b25] As Locuções desligadas ou designão essencia; ou quantidade; ou qualidade; ou relação; ou lugar; ou tempo; ou estado; ou acção permanente; ou acção transeunte; ou paixão [^e13].
 
-[15] Cada Locução de per si não exprime, nem affirmação, nem negação. Porém mediante a ligação de humas com as outras, resulta affirmação ou negação; porque toda a affirmação ou negação he julgada verdadeira ou falsa. Mas das locuções desligadas nenhuma he verdadeira nem falsa [^e14].
+[15] [2a4] Cada Locução de per si não exprime, nem affirmação, nem negação. Porém mediante a ligação de humas com as outras, resulta affirmação ou negação; porque toda a affirmação ou negação he julgada verdadeira ou falsa. Mas das locuções desligadas nenhuma he verdadeira nem falsa [^e14].
 
-[16] Primitiva e principalmente chama-se essencia primaria aquella, que nem se diz de nenhum <!-- pa:pagina 009 --> objecto, nem está em nenhum objecto [^e15].
+[16] [2a11] Primitiva e principalmente chama-se essencia primaria aquella, que nem se diz de nenhum <!-- pa:pagina 009 --> objecto, nem está em nenhum objecto [^e15].
 
-[17] E chamão-se essencias secundarias, tanto as especies, a que pertencem as essencias primarias, como os generos dessas mesmas especies [^e16].
+[17] [2a14] E chamão-se essencias secundarias, tanto as especies, a que pertencem as essencias primarias, como os generos dessas mesmas especies [^e16].
 
-[18] Do que fica dito se segue, que tudo o que se diz de hum objecto, he necessariamente categoria delle; não só quanto ao nome; mas tambem quanto á rasão do nome [^e17].
+[18] [2a19] Do que fica dito se segue, que tudo o que se diz de hum objecto, he necessariamente categoria delle; não só quanto ao nome; mas tambem quanto á rasão do nome [^e17].
 
-[19] Mas as coisas, que estão em algum objecto, pela maior parte não são categorias do objecto; nem quanto ao nome, nem quanto á rasão do nome.
+[19] [2a27] Mas as coisas, que estão em algum objecto, pela maior parte não são categorias do objecto; nem quanto ao nome, nem quanto á rasão do nome.
 
-[20] Porém algumas podem-o talvez ser quanto ao nome; posto que jámais o podem ser quanto á rasão do nome [^e18].
+[20] [2a29] Porém algumas podem-o talvez ser quanto ao nome; posto que jámais o podem ser quanto á rasão do nome [^e18].
 
-[21] Todas as outras coisas ou se dizem das essencias primarias, como de outros tantos objectos; ou estão nellas, como em outros tantos objectos [^e19].
+[21] [2a34] Todas as outras coisas ou se dizem das essencias primarias, como de outros tantos objectos; ou estão nellas, como em outros tantos objectos [^e19].
 
-[22] De modo que não existindo as essencias primarias, seria impossivel existir nenhuma das outras.
+[22] [2b6] De modo que não existindo as essencias primarias, seria impossivel existir nenhuma das outras.
 
-[23] Ora das essencias secundarias a especie he mais essencia do que o genero [^e20].
+[23] [2b7] Ora das essencias secundarias a especie he mais essencia do que o genero [^e20].
 
-[24] O que as essencias primarias são a respeito de todas as outras coisas; isso mesmo he cada especie a respeito do genero [^e21].
+[24] [2b17] O que as essencias primarias são a respeito de todas as outras coisas; isso mesmo he cada especie a respeito do genero [^e21].
 
-[25] De duas especies, das quaes nenhuma he genero da outra; tambem nenhuma he mais essencia do que a outra [^e22].
+[25] [2b22] De duas especies, das quaes nenhuma he genero da outra; tambem nenhuma he mais essencia do que a outra [^e22].
 
-[26] O mesmo he das essencias primarias: que nenhuma dellas he mais essencia do que outra [^e23].
+[26] [2b26] O mesmo he das essencias primarias: que nenhuma dellas he mais essencia do que outra [^e23].
 
-[27] Com rasão pois entre todas as coisas, que não <!-- pa:pagina 010 --> são as essencias primarias, sómente os generos, e as especies se denominão essencias secundarias [^e24].
+[27] [2b29] Com rasão pois entre todas as coisas, que não <!-- pa:pagina 010 --> são as essencias primarias, sómente os generos, e as especies se denominão essencias secundarias [^e24].
 
-[28] O que as essencias primarias são a respeito de todas as outras coisas: isso mesmo são a respeito de tudo o mais os generos e as especies, a que as mesmas essencias primarias pertencem [^e25].
+[28] [3a1] O que as essencias primarias são a respeito de todas as outras coisas: isso mesmo são a respeito de tudo o mais os generos e as especies, a que as mesmas essencias primarias pertencem [^e25].
 
-[29] He commum a todas as essencias o não estarem em nenhum objecto [^e26].
+[29] [3a7] He commum a todas as essencias o não estarem em nenhum objecto [^e26].
 
-[30] Ora as essencias secundarias são categorias do objecto; não só quanto ao nome, mas tambem quanto á rasão do nome [^e27].
+[30] [3a17] Ora as essencias secundarias são categorias do objecto; não só quanto ao nome, mas tambem quanto á rasão do nome [^e27].
 
-[31] Mas isto não he particular ás essencias; porque tambem as differenças[^3] são do numero das coisas, que não estão em nenhum objecto [^e28].
+[31] [3a21] Mas isto não he particular ás essencias; porque tambem as differenças[^3] são do numero das coisas, que não estão em nenhum objecto [^e28].
 
-[32] E as differenças são categorias do objecto a que se referem: até mesmo quanto á rasão do nome [^e29].
+[32] [3a25] E as differenças são categorias do objecto a que se referem: até mesmo quanto á rasão do nome [^e29].
 
-[33] Nem nos faça confusão o estarem as partes das essencias nos todos a que pertencem: de modo que nos julguemos obrigados a dizer, que ellas não são essencias. Porquanto nós não dissemos que as coizas, que estão em algum objecto, existem em algum, como partes d'elle.
+[33] [3a29] Nem nos faça confusão o estarem as partes das essencias nos todos a que pertencem: de modo que nos julguemos obrigados a dizer, que ellas não são essencias. Porquanto nós não dissemos que as coizas, que estão em algum objecto, existem em algum, como partes d'elle.
 
-[34] Verifica-se pois tanto nas essencias, como nas differenças, que todas as outras coizas derivão dellas os seus nomes de huma maneira univoca [^e30].
+[34] [3a33] Verifica-se pois tanto nas essencias, como nas differenças, que todas as outras coizas derivão dellas os seus nomes de huma maneira univoca [^e30].
 
-[35] <!-- pa:pagina 011 --> Toda a essencia parece significar o que alguma coiza he: E quanto ás essencias primarias he verdade indubitavel, que significão o que alguma coiza he [^e31]. Quanto ás essencias secundarias sim parece pela forma do seu enunciado, que tambem significão o que alguma coiza he [^e32] : mas isto he mera apparencia; porque taes expressões denotão antes qual seja a coiza a que se referem; nem se applicão a hum só objecto, como as essencias primarias [^e33]. Comtudo não denotão huma simples qualidade [^e34].
+[35] [3b10] <!-- pa:pagina 011 --> Toda a essencia parece significar o que alguma coiza he: E quanto ás essencias primarias he verdade indubitavel, que significão o que alguma coiza he [^e31]. Quanto ás essencias secundarias sim parece pela forma do seu enunciado, que tambem significão o que alguma coiza he [^e32] : mas isto he mera apparencia; porque taes expressões denotão antes qual seja a coiza a que se referem; nem se applicão a hum só objecto, como as essencias primarias [^e33]. Comtudo não denotão huma simples qualidade [^e34].
 
-[36] Assim que, tanto a especie, como o genero, determinão as qualidades das essencias; porque determinão de huma dada essencia, qual ella seja.
+[36] [3b19] Assim que, tanto a especie, como o genero, determinão as qualidades das essencias; porque determinão de huma dada essencia, qual ella seja.
 
-[37] Mas esta determinação he mais ampla no genero do que na especie [^e35].
+[37] [3b21] Mas esta determinação he mais ampla no genero do que na especie [^e35].
 
-[38] Tambem se verifica nas essencias o não terem nada, que lhes seja contrario [^e36].
+[38] [3b24] Tambem se verifica nas essencias o não terem nada, que lhes seja contrario [^e36].
 
-[39] Mas isto não he particular ás essencias; mas tambem se verifica em muitas outras coizas, como nas quantidades [^e37].
+[39] [3b27] Mas isto não he particular ás essencias; mas tambem se verifica em muitas outras coizas, como nas quantidades [^e37].
 
-[40] Parece outrosim que as essencias não são susceptiveis de mais nem de menos [^e38].
+[40] [3b33] Parece outrosim que as essencias não são susceptiveis de mais nem de menos [^e38].
 
-[41] Porém o que principalmente parece ser particular ás essencias, he, que hum e o mesmo individuo he susceptivel de ser em hum tempo o contrario do que era em outro tempo [^e39].
+[41] [4a10] Porém o que principalmente parece ser particular ás essencias, he, que hum e o mesmo individuo he susceptivel de ser em hum tempo o contrario do que era em outro tempo [^e39].
 
-[42] De modo que he proprio das essencias o admittirem estados contrarios, vindo ellas mesmas a mudarem. Mas o que fica dito bastará a respeito das essencias.
+[42] [4b17] De modo que he proprio das essencias o admittirem estados contrarios, vindo ellas mesmas a mudarem. Mas o que fica dito bastará a respeito das essencias.
 
-[43] Das quantidades humas são discretas, outras <!-- pa:pagina 012 --> são continuas: humas constão de partes que tem certa situação entre si: e outras, cujas partes não são susceptiveis de situação entre si.
+[43] [4b20] Das quantidades humas são discretas, outras <!-- pa:pagina 012 --> são continuas: humas constão de partes que tem certa situação entre si: e outras, cujas partes não são susceptiveis de situação entre si.
 
-[44] He quantidade discreta qualquer numero: qualquer discurso: e continua a linha, a superficie, o corpo: e além destas, o lugar, e o tempo [^e40].
+[44] [4b22] He quantidade discreta qualquer numero: qualquer discurso: e continua a linha, a superficie, o corpo: e além destas, o lugar, e o tempo [^e40].
 
-[45] Absolutamente fallando só estas que temos nomeado, he que são quantidades: todas as outras só o são accidentalmente [^e41].
+[45] [5a38] Absolutamente fallando só estas que temos nomeado, he que são quantidades: todas as outras só o são accidentalmente [^e41].
 
-[46] Além disso á quantidade nada he contrario [^e42].
+[46] [5b11] Além disso á quantidade nada he contrario [^e42].
 
-[47] Nem tão pouco a quantidade determinada he susceptivel de mais nem de menos [^e43].
+[47] [6a19] Nem tão pouco a quantidade determinada he susceptivel de mais nem de menos [^e43].
 
-[48] O que he principalmente particular ás quantidades, he o dizerem-se iguaes ou desiguaes [^e44].
+[48] [6a26] O que he principalmente particular ás quantidades, he o dizerem-se iguaes ou desiguaes [^e44].
 
-[49] Chamão-se relativas aquellas coisas, que o que são, são-o de outras coisas: ou por outro algum modo o são relativamente a outras coizas [^e45].
+[49] [6a36] Chamão-se relativas aquellas coisas, que o que são, são-o de outras coisas: ou por outro algum modo o são relativamente a outras coizas [^e45].
 
-[50] Os relativos são susceptiveis de contrario [^e46].
+[50] [6b15] Os relativos são susceptiveis de contrario [^e46].
 
-[51] Mas nem todos os relativos são susceptiveis de contrario [^e47].
+[51] [6b17] Mas nem todos os relativos são susceptiveis de contrario [^e47].
 
-[52] Tambem parece serem os relativos susceptiveis de mais, e de menos [^e48][^3IA].
+[52] [6b19] Tambem parece serem os relativos susceptiveis de mais, e de menos [^e48][^3IA].
 
-[53] Mas nem todos os relativos são susceptiveis de mais, nem de menos [^e49].
+[53] [6b24] Mas nem todos os relativos são susceptiveis de mais, nem de menos [^e49].
 
-[54] Todos os relativos são reciprocos daquelles de quem se dizem [^e50].
+[54] [6b28] Todos os relativos são reciprocos daquelles de quem se dizem [^e50].
 
-[55] Comtudo ás vezes póde parecer, que não existe esta reciprocidade; a saber, quando o correlato se não exprime em termos proprios: e isto á proporção que o nome do relativo se afastar do do seu correlato [^e51].
+[55] [6b36] Comtudo ás vezes póde parecer, que não existe esta reciprocidade; a saber, quando o correlato se não exprime em termos proprios: e isto á proporção que o nome do relativo se afastar do do seu correlato [^e51].
 
-[56] <!-- pa:pagina 013 --> Igualmente parece ser da natureza dos correlatos o existir hum, sempre que existe o outro. E com effeito assim se verifica pela maior parte [^e52].
+[56] [7b15] <!-- pa:pagina 013 --> Igualmente parece ser da natureza dos correlatos o existir hum, sempre que existe o outro. E com effeito assim se verifica pela maior parte [^e52].
 
-[57] Mas não he da natureza de todos os correlatos o deverem sempre coexistir [^e53].
+[57] [7b22] Mas não he da natureza de todos os correlatos o deverem sempre coexistir [^e53].
 
-[58] Pode entrar em duvida, se ha alguma essencia, que seja do numero das coisas relativas; como com effeito parece não a haver: ou se isto só acontece com algumas das essencias secundarias; porque quanto ás primarias he certo ser assim [^e54].
+[58] [8a13] Pode entrar em duvida, se ha alguma essencia, que seja do numero das coisas relativas; como com effeito parece não a haver: ou se isto só acontece com algumas das essencias secundarias; porque quanto ás primarias he certo ser assim [^e54].
 
-[59] Eu chamo qualidade a aquillo por onde se designa, quaes sejão certos e determinados objectos.
+[59] [8b25] Eu chamo qualidade a aquillo por onde se designa, quaes sejão certos e determinados objectos.
 
-[60] Mas a qualidade he do numero daquellas palavras, que admittem muitos sentidos. Porquanto ha primeiramente huma especie de qualidades, que he a dos habitos e a das affecções [^e55].
+[60] [8b25] Mas a qualidade he do numero daquellas palavras, que admittem muitos sentidos. Porquanto ha primeiramente huma especie de qualidades, que he a dos habitos e a das affecções [^e55].
 
-[61] E ha huma segunda especie, que he aquella pela qual dizemos de algum, que elle he fraco ou que he forte no pugilado, ou na carreira, ou na saude: ou pela qual em geral affirmamos alguma coiza sobre a força ou a fraqueza propria da natureza de qualquer objecto [^e56].
+[61] [9a14] E ha huma segunda especie, que he aquella pela qual dizemos de algum, que elle he fraco ou que he forte no pugilado, ou na carreira, ou na saude: ou pela qual em geral affirmamos alguma coiza sobre a força ou a fraqueza propria da natureza de qualquer objecto [^e56].
 
-[62] Ha outra terceira especie de qualidades, que são as qualidades passivas ou as paixões [^e57].
+[62] [9a28] Ha outra terceira especie de qualidades, que são as qualidades passivas ou as paixões [^e57].
 
-[63] E ha em fim huma quarta especie de qualidades, que são a figura e as modificações de cada figura [^e58].
+[63] [10a11] E ha em fim huma quarta especie de qualidades, que são a figura e as modificações de cada figura [^e58].
 
-[64] Eis-aqui as que se chamão qualidades: e chamão-se taes os objectos que por cognominação se dizem a respeito dellas, ou por algum outro <!-- pa:pagina 014 --> modo trazem dellas o nome, pelo qual os designamos.
+[64] [10a27] Eis-aqui as que se chamão qualidades: e chamão-se taes os objectos que por cognominação se dizem a respeito dellas, ou por algum outro <!-- pa:pagina 014 --> modo trazem dellas o nome, pelo qual os designamos.
 
-[65] Da maior parte e de quasi todas ellas se derivão por cognominação aquelles nomes [^e59].
+[65] [10a29] Da maior parte e de quasi todas ellas se derivão por cognominação aquelles nomes [^e59].
 
-[66] Mas em algumas não póde ter lugar a cognominação; porque não existe nome para a respectiva qualidade [^e60].
+[66] [10a32] Mas em algumas não póde ter lugar a cognominação; porque não existe nome para a respectiva qualidade [^e60].
 
-[67] Em outros porém, posto que a qualidade tenha nome; o do objecto a que ella se refere, não se deriva delle por cognominação [^e61].
+[67] [10b5] Em outros porém, posto que a qualidade tenha nome; o do objecto a que ella se refere, não se deriva delle por cognominação [^e61].
 
-[68] As qualidades são susceptiveis de contrario [^e62].
+[68] [10b12] As qualidades são susceptiveis de contrario [^e62].
 
-[69] Mas isto não acontece a todas as qualidades [^e63].
+[69] [10b15] Mas isto não acontece a todas as qualidades [^e63].
 
-[70] Além disso, todas as vezes que hum de dois contrarios he qualidade, tambem o outro o he necessariamente [^e64].
+[70] [10b17] Além disso, todas as vezes que hum de dois contrarios he qualidade, tambem o outro o he necessariamente [^e64].
 
-[71] Tambem admittem as qualidades mais e menos [^e65].
+[71] [10b26] Tambem admittem as qualidades mais e menos [^e65].
 
-[72] Mas não todas, porém sim a maior parte [^e66].
+[72] [10b29] Mas não todas, porém sim a maior parte [^e66].
 
-[73] Comtudo nenhuma das sobreditas propriedades he particular ás qualidades. O que lhes he particular he a semelhança ou a dessemelhança [^e67].
+[73] [11a15] Comtudo nenhuma das sobreditas propriedades he particular ás qualidades. O que lhes he particular he a semelhança ou a dessemelhança [^e67].
 
-[74] Nem nos cauze confusão, se alguem nos observar, que tratando-se aqui das qualidades, enumeramos muitas cousas que pertencem aos relativos [^e68]. Porquanto he de notar, que de quasi todas essas coizas são os generos os que pertencem aos relativos; e os individuos ás qualidades [^e69]. Porém quando acontecesse encontrar-se huma mesma coiza entre os relativos e entre <!-- pa:pagina 015 --> as qualidades, não haveria nisso absurdo algum, porque póde muito bem huma mesma coisa pertencer a dois generos differentes.
+[74] [11a20] Nem nos cauze confusão, se alguem nos observar, que tratando-se aqui das qualidades, enumeramos muitas cousas que pertencem aos relativos [^e68]. Porquanto he de notar, que de quasi todas essas coizas são os generos os que pertencem aos relativos; e os individuos ás qualidades [^e69]. Porém quando acontecesse encontrar-se huma mesma coiza entre os relativos e entre <!-- pa:pagina 015 --> as qualidades, não haveria nisso absurdo algum, porque póde muito bem huma mesma coisa pertencer a dois generos differentes.
 
-[75] Tanto a acção, como a paixão são susceptiveis, não só de contrario, mas tambem de mais e de menos [^e70].
+[75] [11b1] Tanto a acção, como a paixão são susceptiveis, não só de contrario, mas tambem de mais e de menos [^e70].
 
-[76] Passando a tratar dos oppostos, e de quantos modos as coisas costumão ser oppostas entre si; he de saber, que ha quatro modos de opposição; que vem a ser: ou como relativos, ou como contrarios, ou como privação e effectividade, ou como affirmação e negação [^e71].
+[76] [11b17] Passando a tratar dos oppostos, e de quantos modos as coisas costumão ser oppostas entre si; he de saber, que ha quatro modos de opposição; que vem a ser: ou como relativos, ou como contrarios, ou como privação e effectividade, ou como affirmação e negação [^e71].
 
-[77] As coizas que são oppostas como relativas, isso que são, ou o são dos seus oppostos, ou delles se affirma por alguma outra maneira [^e72].
+[77] [11b24] As coizas que são oppostas como relativas, isso que são, ou o são dos seus oppostos, ou delles se affirma por alguma outra maneira [^e72].
 
-[78] E as que o são como contrarias, não se podem de nenhum modo affirmar humas das outras: mas sim que humas são contrarias das outras [^e73].
+[78] [11b32] E as que o são como contrarias, não se podem de nenhum modo affirmar humas das outras: mas sim que humas são contrarias das outras [^e73].
 
-[79] Aquelles contrarios, de que se verifica que necessariamente ha de existir hum delles nos objectos a que elles por natureza pertencem, ou de que elles são categorias, não admittem nenhum termo medio: bem como aquelles, dos quaes não he forçoso que exista hum delles, póde-se-lhes sempre assignar hum termo medio [^e74].
+[79] [12a1] Aquelles contrarios, de que se verifica que necessariamente ha de existir hum delles nos objectos a que elles por natureza pertencem, ou de que elles são categorias, não admittem nenhum termo medio: bem como aquelles, dos quaes não he forçoso que exista hum delles, póde-se-lhes sempre assignar hum termo medio [^e74].
 
-[80] Algumas vezes este termo medio tem hum nome [^e75] : mas outras vezes não he facil o designa-lo com hum nome particular; e então determina-se pela negativa de hum dos extremos [^e76].
+[80] [12a20] Algumas vezes este termo medio tem hum nome [^e75] : mas outras vezes não he facil o designa-lo com hum nome particular; e então determina-se pela negativa de hum dos extremos [^e76].
 
-[81] Tanto a privação, como a effectividade referem-se sempre a hum mesmo e determinado objecto [^e77].
+[81] [12a26] Tanto a privação, como a effectividade referem-se sempre a hum mesmo e determinado objecto [^e77].
 
-[82] <!-- pa:pagina 016 --> Quando se diz de alguma coiza, que ella está privada de qualquer effectividade, he nos casos, em que nella não existe o que nella por sua natureza devia existir, ao menos no momento de que se trata [^e78].
+[82] [12a29] <!-- pa:pagina 016 --> Quando se diz de alguma coiza, que ella está privada de qualquer effectividade, he nos casos, em que nella não existe o que nella por sua natureza devia existir, ao menos no momento de que se trata [^e78].
 
-[83] Mas estar privado, e ter a effectividade, não he o mesmo que a privação, e a effectividade [^e79].
+[83] [12a35] Mas estar privado, e ter a effectividade, não he o mesmo que a privação, e a effectividade [^e79].
 
-[84] Quanto á opposição entre o estar privado e o ter effectividade, parece ser a mesma que entre a privação e a effectividade; por isso que o modo da opposição he identico [^e80].
+[84] [12b2] Quanto á opposição entre o estar privado e o ter effectividade, parece ser a mesma que entre a privação e a effectividade; por isso que o modo da opposição he identico [^e80].
 
-[85] Pela mesma razão as coizas sobre que recahe a affirmação ou a negação, não são affirmação nem negação [^e81].
+[85] [12b5] Pela mesma razão as coizas sobre que recahe a affirmação ou a negação, não são affirmação nem negação [^e81].
 
-[86] Que a privação e a effectividade não são entre si oppostos como relativos, he evidente; pois que de nenhuma dellas se diz que o que ella he, o he da sua opposta [^e82].
+[86] [12b16] Que a privação e a effectividade não são entre si oppostos como relativos, he evidente; pois que de nenhuma dellas se diz que o que ella he, o he da sua opposta [^e82].
 
-[87] Do que fica dito se vê tambem, que a privação e effectividade não são entre si oppostas como os contrarios; [^e83]. Seguindo-se de quanto fica dito, que nem podem pertencer aos contrarios que admittem termo medio, nem a aquelles que o não admittem [^e84].
+[87] [12b26] Do que fica dito se vê tambem, que a privação e effectividade não são entre si oppostas como os contrarios; [^e83]. Seguindo-se de quanto fica dito, que nem podem pertencer aos contrarios que admittem termo medio, nem a aquelles que o não admittem [^e84].
 
-[88] As coizas que são entre si oppostas, como affirmação e negação, he evidente que o não podem ser por nenhum dos referidos modos; porque nellas sómente se verifica que de necessidade huma ha de ser verdadeira, e a outra falsa: entretanto que nem nos contrarios, nem nos relativos, nem na privação e effectividade se verifica, que <!-- pa:pagina 017 --> dos oppostos hum haja de ser necessariamente verdadeiro e o outro falso [^e85].
+[88] [13a37] As coizas que são entre si oppostas, como affirmação e negação, he evidente que o não podem ser por nenhum dos referidos modos; porque nellas sómente se verifica que de necessidade huma ha de ser verdadeira, e a outra falsa: entretanto que nem nos contrarios, nem nos relativos, nem na privação e effectividade se verifica, que <!-- pa:pagina 017 --> dos oppostos hum haja de ser necessariamente verdadeiro e o outro falso [^e85].
 
-[89] Ao bem he necessariamente contrario o mal [^e86]. Porem ao mal humas vezes he contrario o bem, outras vezes he o outro mal [^e87]. Comtudo este ultimo caso em poucos se verifica: pela maior parte o contrario do mal he o bem.
+[89] [13b36] Ao bem he necessariamente contrario o mal [^e86]. Porem ao mal humas vezes he contrario o bem, outras vezes he o outro mal [^e87]. Comtudo este ultimo caso em poucos se verifica: pela maior parte o contrario do mal he o bem.
 
-[90] He de notar, que de dois contrarios não he necessario que existindo hum, deva existir o outro [^e88].
+[90] [14a6] He de notar, que de dois contrarios não he necessario que existindo hum, deva existir o outro [^e88].
 
-[91] He facil de comprehender que os objectos de dois contrarios, devem ser identicos, tanto em genero, como em especie [^e89].
+[91] [14a15] He facil de comprehender que os objectos de dois contrarios, devem ser identicos, tanto em genero, como em especie [^e89].
 
-[92] E portanto he de necessidade, que dois contrarios ou se comprehendão em hum mesmo genero, ou em generos contrarios; ou que elles sejão generos por si mesmos [^e90].
+[92] [14a19] E portanto he de necessidade, que dois contrarios ou se comprehendão em hum mesmo genero, ou em generos contrarios; ou que elles sejão generos por si mesmos [^e90].
 
-[93] Quatro são os modos, porque huma coisa se diz ser primeira do que outra: o primeiro e o principal he em razão do tempo [^e91] : o segundo he quando, devendo-se concluir da existencia desta a daquella, não se póde concluir reciprocamente [^e92] : o terceiro he quando se diz primeiro em razão de alguma determinada ordem [^e93] : e além destes, que ficão ditos, parece ser primeiro por natureza, o que he melhor e mais estimado [^e94].
+[93] [14a26] Quatro são os modos, porque huma coisa se diz ser primeira do que outra: o primeiro e o principal he em razão do tempo [^e91] : o segundo he quando, devendo-se concluir da existencia desta a daquella, não se póde concluir reciprocamente [^e92] : o terceiro he quando se diz primeiro em razão de alguma determinada ordem [^e93] : e além destes, que ficão ditos, parece ser primeiro por natureza, o que he melhor e mais estimado [^e94].
 
-[94] Poderia lembrar, que além dos quatro referidos ainda existe outro quinto modo de prioridade; porque de duas coisas, das quaes dada a existencia de huma se conclue a da outra: e reciprocamente; aquella de entre ambas, que de algum modo he cauza de existencia da outra, com razão <!-- pa:pagina 018 --> se poderia chamar primeira por sua natureza [^e95]. E neste sentido poder-se-hia dizer, que são cinco os modos, porque huma coiza se póde denominar primeira do que outra.
+[94] [14b10] Poderia lembrar, que além dos quatro referidos ainda existe outro quinto modo de prioridade; porque de duas coisas, das quaes dada a existencia de huma se conclue a da outra: e reciprocamente; aquella de entre ambas, que de algum modo he cauza de existencia da outra, com razão <!-- pa:pagina 018 --> se poderia chamar primeira por sua natureza [^e95]. E neste sentido poder-se-hia dizer, que são cinco os modos, porque huma coiza se póde denominar primeira do que outra.
 
-[95] Chamão-se connexas as coizas, no sentido mais amplo, e principalmente, quando a sua formação he acontecida no mesmo tempo; de modo que huma não he anterior, nem a outra posterior: E chama-se-lhes simultaneas, ou conjunctas em tempo.
+[95] [14b24] Chamão-se connexas as coizas, no sentido mais amplo, e principalmente, quando a sua formação he acontecida no mesmo tempo; de modo que huma não he anterior, nem a outra posterior: E chama-se-lhes simultaneas, ou conjunctas em tempo.
 
-[96] Chamão-se porém connexas por natureza aquellas, cuja dependencia he tal; que dada a existencia de qualquer dellas, se póde seguramente concluir a da outra: sem que comtudo huma seja causa da existencia da outra [^e96].
+[96] [14b27] Chamão-se porém connexas por natureza aquellas, cuja dependencia he tal; que dada a existencia de qualquer dellas, se póde seguramente concluir a da outra: sem que comtudo huma seja causa da existencia da outra [^e96].
 
-[97] As especies, que ha de movimentos, são seis; a saber: formação, destruição, augmento, diminuição, transformação, e mudança de lugar [^e97].
+[97] [15a13] As especies, que ha de movimentos, são seis; a saber: formação, destruição, augmento, diminuição, transformação, e mudança de lugar [^e97].
 
-[98] Tambem são muitos os sentidos da palavra ter; porque se diz de qualquer effectividade ou disposição, ou em geral, de qualquer outra qualidade [^e98]. Diz-se das quantidades [^e99]. Diz-se dos accidentes externos ao corpo todo [^e100], ou a huma parte delle [^e101]. Diz-se das partes do corpo [^e102]. Diz-se das vasilhas [^e103]. Diz-se do que se possue [^e104]. Talvez se poderião ainda achar outros sentidos da palavra ter; mas os que se costumão usar, são pouco mais ou menos, os que são enumerados.
+[98] [15b17] Tambem são muitos os sentidos da palavra ter; porque se diz de qualquer effectividade ou disposição, ou em geral, de qualquer outra qualidade [^e98]. Diz-se das quantidades [^e99]. Diz-se dos accidentes externos ao corpo todo [^e100], ou a huma parte delle [^e101]. Diz-se das partes do corpo [^e102]. Diz-se das vasilhas [^e103]. Diz-se do que se possue [^e104]. Talvez se poderião ainda achar outros sentidos da palavra ter; mas os que se costumão usar, são pouco mais ou menos, os que são enumerados.
 
 *Fim.*
 
@@ -398,8 +398,8 @@ não se póde dizer que o he mais, nem menos. Por exemplo se a essencia de que s
 [^e39]: Que he o que jámais se póde verificar em nenhuma outra coisa, que não for essencia; porque apezar de ser huma em numero, nem por isso he susceptivel de contrario: por exemplo, huma determinada cor, apezar de ser huma em numero, não póde ser branca e preta: huma e a mesma acção, a pezar de ser huma em numero, não póde ser boa e má: e assim em todas as demais coisas que não são essencias. Porém as essencias, sendo cada qual dellas huma e a mesma em numero, são susceptiveis de estados contrarios. Por exemplo, hum determinado homem, sendo hum e o mesmo, ora he branco, ora denegrido: ora está
 <!-- pa:pagina 027 -->
 
-quente, ora frio: ora he mão, ora he bom. Porém nada disto parece verificar-se em nenhuma das outras coisas. Excepto se alguem quisesse insistir dizendo, que o discurso e a opinião são susceptiveis de contrariadade; porque parece, que hum mesmo e determinado discurso póde ser verdadeiro e falso. Por exemplo; se fosse verdade o dizer-se que alguem está sentado: logo que elle se levante este dito passa a ser falso. E o mesmo he de qualquer opinião; porque se alguem julgasse com verdade que outrem estava sentado: logo que este se levantasse, julgaria erradamente formando a respeito delle o mesmo juiso. Porém ainda admittindo isso, ha total differença quanto ao modo. Porque, quanto ás essencias, ellas não são susceptiveis de estados contrarios, senão quando mudão: como por exemplo, o que está frio, depois de ter estado quente, passou por huma mudança: o que está denegrido, depois de ter sido branco, varia: bem como o que he bom, depois de ter sido máo: E assim de todas as outras, que só admittem estados contrarios, quando experimentão mudança. Mas o discurso, e a opinião ficão absolutamente immudaveis: e passão a serem o contrario do que erão, quando muda o objecto, a que se referem: como o dito de que alguem está sentado fica sempre sendo o mesmo; e só pela mudança do subjeito he que ora he verdadeiro e depois falso. O mesmo se póde dizer da opinião. Donde se segue, que he particular ás essencias o admittirem pela sua propria mudança estados contrarios.
-Mas he de advertir, que quem admittisse, que <!-- pa:pagina 028 --> o discurso e a opinião são susceptiveis de contrariedade, admittiria hum erro; porque nem o discurso nem a opinião passão a ser o contrario do que erão, porque lhes sobreviesse alguma coisa, mas porque se applicão a outro cazo: pela simples existencia ou não existencia do facto, he que o discurso que a elle se refere se diz ser verdadeiro ou falso: e não porque o mesmo discurso em si admittisse estado contrario ao que era antes; porque em nada absolutamente se acha ter mudado, nem o discurso, nem a opinião. Ora não tendo elles recebido mudança alguma em contrario, não se podem dizer susceptiveis de passarem a serem o contrario do que erão. Ao contrario porém as essencias, que por isso que recebem modificações contrarias, he que se dizem susceptiveis de estados contrarios: como por exemplo; porque he susceptivel de doença ou de saude, de brancura ou de negridão; e assim do resto; he que se diz ser susceptivel de contrariedade. Logo he particular ás essencias, que sendo cada qual dellas huma e a mesma em numero, pela sua propria mudança passão a ser o contrario do que erão.
+quente, ora frio: ora he mão, ora he bom. Porém nada disto parece verificar-se em nenhuma das outras coisas. Excepto se alguem quisesse insistir dizendo, que o discurso e a opinião são susceptiveis de contrariadade; porque parece, que hum mesmo e determinado discurso póde ser verdadeiro e falso. Por exemplo; se fosse verdade o dizer-se que alguem está sentado: logo que elle se levante este dito passa a ser falso. E o mesmo he de qualquer opinião; porque se alguem julgasse com verdade que outrem estava sentado: logo que este se levantasse, julgaria erradamente formando a respeito delle o mesmo juiso. Porém ainda admittindo isso, ha total differença quanto ao modo. Porque, quanto ás essencias, ellas não são susceptiveis de estados contrarios, senão quando mudão: como por exemplo, o que está frio, depois de ter estado quente, passou por huma mudança: o que está denegrido, depois de ter sido branco, varia: bem como o que he bom, depois de ter sido máo: E assim de todas as outras, que só admittem estados contrarios, quando experimentão mudança. Mas o discurso, e a opinião ficão absolutamente immudaveis: e passão a ser o contrario do que erão, quando muda o objecto, a que se referem: como o dito de que alguem está sentado fica sempre sendo o mesmo; e só pela mudança do subjeito he que ora he verdadeiro e depois falso. O mesmo se póde dizer da opinião. Donde se segue, que he particular ás essencias o admittirem pela sua propria mudança estados contrarios.
+Mas he de advertir, que quem admittisse, que <!-- pa:pagina 028 --> o discurso e a opinião são susceptiveis de contrariedade, admittiria hum erro; porque nem o discurso nem a opinião passão a ser o contrario do que erão, porque lhes sobreviesse alguma coisa, mas porque se applicão a outro cazo: pela simples existencia ou não existencia do facto, he que o discurso que a elle se refere se diz ser verdadeiro ou falso: e não porque o mesmo discurso em si admittisse estado contrario ao que era antes; porque em nada absolutamente se acha ter mudado, nem o discurso, nem a opinião. Ora não tendo elles recebido mudança alguma em contrario, não se podem dizer susceptiveis de passarem a ser o contrario do que erão. Ao contrario porém as essencias, que por isso que recebem modificações contrarias, he que se dizem susceptiveis de estados contrarios: como por exemplo; porque he susceptivel de doença ou de saude, de brancura ou de negridão; e assim do resto; he que se diz ser susceptivel de contrariedade. Logo he particular ás essencias, que sendo cada qual dellas huma e a mesma em numero, pela sua propria mudança passão a ser o contrario do que erão.
 
 [^e40]: Porque as partes do numero não tem termo nenhum commum, em que as partes do mesmo numero se encontrem. Por exemplo cinco considerado como parte de dez, não tem hum termo commum em que se encontre com os outros cinco, mas são quantidades discretas. Do mesmo modo tres e septe não se encontrão em nenhum termo commum. E em geral he impossivel assignar hum termo commum, em que se encontrem as partes <!-- pa:pagina 029 --> de qualquer numero; mas sempre são discretas. De modo que o numero he huma das quantidades discretas. Do mesmo modo o discurso. Ser o discurso quantidade he evidente; porque se mede por syllabas longas e breves. Eu fallo do discurso pronunciado. Mas não ha termo, nenhum commum, em que as partes do discurso concorrão: pois que as syllabas não se encontrão em nenhum termo commum, mas antes ficão discretos entre si.
 
@@ -429,7 +429,7 @@ Mais depressa poderia parecer que o lugar considerado como quantidade, he suscep
 
 Tambem pertencem aos relativos expressões taes como habito, disposição, sciencia, situação; porque todas-ellas, isso que são, são-o de outras coisas, ou por algum modo relativamente a outras coisas: e sem isso nada significão; porquanto habito he habito de alguma coisa; e sciencia he sciencia de alguma coisa: a posição he posição de alguma coisa: e assim do resto. Logo isso que são, são-o relativamente a alguma outra coisa aquellas, que se dizem serem de outras: ou de algum <!-- pa:pagina 035 --> modo relativamente a outras; como por exemplo se diz de hum monte, que he grande relativamente a outro; porque só relativamente a outro he que se diz grande. Assim tambem o que se diz semelhante, he semelhante a outro. E he deste modo, que todas as outras coisas se chamão relativas. O estado de jazer, de estar em pé, de estar sentado são certas situações; mas jazer, estar em pé, estar sentado são expressões que se derivão daquellas situações.
 
-[^e46]: Exemplo: A virtude he o contrario do vicio: e cada humas destas expressões he relativa. Do mesmo modo a sciencia he o contrario da ignorancia.
+[^e46]: Exemplo: A virtude he o contrario do vicio: e cada huma destas expressões he relativa. Do mesmo modo a sciencia he o contrario da ignorancia.
 
 [^e47]: Porque a duplo não ha nada que seja contrario; nem a triplo; nem a nenhuma outra destas coisas.
 
@@ -454,7 +454,7 @@ E a rasão he que se não enunciarmos só a qualidade apropriada do correlato, d
 
 [^e53]: Porque parece que o objecto da sciencia deve existir antes da sciencia; sendo assim, que pela maior parte primeiro existem as coisas antes, que <!-- pa:pagina 039 --> nós dellas tenhamos conhecimentos: E serão poucos, ou nenhuns os casos, em que se verifique, que os objectos começão a existir juntamente com o conhecimento delles. Além disso não existindo o objecto do conhecimento, tambem este não póde ter lugar; mas nem por isso que não existe conhecimento, deixa de existir o objecto delle. Por exemplo: da quadratura do circulo não existe a sciencia, mas nem por isso deixa de existir o que sobre isto ha a saber, se he que se póde saber. Por outro lado, não existindo nenhum animal, tambem não ha sciencia, entretanto que nem por isso deixão de existir os muitos objectos de conhecimento. O mesmo acontece com a sensação; pois parece que os objectos sensiveis são anteriores á sensação; visto que suppondo-se não existir o objecto da sensação, tambem esta não póde existir; mas de não existir a sciencia não se segue que não existem os objectos della.
 
-Porquanto as sensações versão sobre corpos, e nos corpos; e na supposição de não existir o objecto sensivel, tambem não existem corpos (porque os corpos são do numero das coisas sensiveis) Ora não existindo corpos, tambem não póde existir sensação. E por conseguinte não existindo o objecto sensivel, não existe a sensação; de não existir a sensação, não se segue, que não exista o objecto sensivel; porque suppondo-se não existir nenhum animal, não existirá nenhuma sensação: e com tudo existem objectos sensiveis, como: os corpos quentes, doces, amargos, e todos os outros quantos são objectos da sensação. Ora a sensação começa <!-- pa:pagina 040 --> a existir com o ente que sente; porque a sensação começa a existir com o animal; e os objectos sensiveis são tão anteriores á sensação, como aos animaes; porque o fogo, a agoa, e mais elementos, de que o animal se compõe, existião antes de haver animaes nem sensação. Donde com razão parece que os objectos da sensação são anteriores á mesma sensação.
+Porquanto as sensações versão sobre corpos, e nos corpos; e na supposição de não existir o objecto sensivel, tambem não existem corpos (porque os corpos são do numero das coisas sensiveis). Ora não existindo corpos, tambem não póde existir sensação. E por conseguinte não existindo o objecto sensivel, não existe a sensação; de não existir a sensação, não se segue, que não exista o objecto sensivel; porque suppondo-se não existir nenhum animal, não existirá nenhuma sensação: e com tudo existem objectos sensiveis, como: os corpos quentes, doces, amargos, e todos os outros quantos são objectos da sensação. Ora a sensação começa <!-- pa:pagina 040 --> a existir com o ente que sente; porque a sensação começa a existir com o animal; e os objectos sensiveis são tão anteriores á sensação, como aos animaes; porque o fogo, a agoa, e mais elementos, de que o animal se compõe, existião antes de haver animaes nem sensação. Donde com razão parece que os objectos da sensação são anteriores á mesma sensação.
 
 [^e54]: Porque as partes de qualquer essencia primaria nem singular, nem collectivamente, se podem considerar como coisas relativas; porquanto hum certo homem não he certo homem de certo homem; nem hum certo boi he certo boi de certo boi. O mesmo he de cada huma das partes; pois se não diz = certa mão de certo homem; porém a mão de certo homem: nem certa cabeça de certo homem; mas a cabeça de certo homem. Assim tambem acontece com as essencias secundarias; quero dizer, pela maior parte; por exemplo: homem não se diz de certo homem: nem boi de certo boi: nem pão de certo pão: bem que qualquer destas coisas se possa chamar propriedade de de alguem. Destas he pois claro que não são relativas. Mas ha algumas outras essencias secundarias, sobre as quaes pode haver duvida; como por exemplo: a cabeça diz-se cabeça de alguem: a mão diz-se mão de alguem: e assim de cada huma das outras coisas semelhantes: de modo que estas com razão podem parecer ser do numero dos relativos. Se pois a definição que se tem dado de relativo he acertada, he muito difficil, ou impossivel o demonstrar, que nenhuma essencia ha do <!-- pa:pagina 041 --> numero dos relativos. Mas se aquella definição não he exacta: e se são relativas aquellas coisas de que se verifica ser o mesmo existirem, que existirem de algum modo a respeito de outra alguma coisa; então poder-se-ha talvez dizer que ha coisas correlatas destas essencias. A primeira daquellas definições sim se verifica em todos os relativos, mas não he o mesmo serem elles relativos, que serem de outra coisa, isso que elles são em si mesmos.
 
@@ -494,7 +494,7 @@ Tambem parecerá talvez haver mais alguma outra especie de qualidade. Mas as que
 
 [^e63]: Porque o purpureo, a amarello, e a quaesquer cores como estas, nada he contrario.
 
-[^e64]: Isto se conhece claramente discorrendo-se por cada huma das outras categorias. Porque se a justiça he contraria á injustiça, e a justiça he qualidade; tambem será qualidade a injustiça. Por quanto nenhuma das outras categorias quadra á injustiça; a saber: nem quantidade, nem relação nem lugar, nem nenhuma outra, senão qualidade. O mesmo se verifica em todos os outros contrarios relativamente ás qualidades.
+[^e64]: Isto se conhece claramente discorrendo-se por cada huma das outras categorias. Porque se a justiça he contraria á injustiça, e a justiça he qualidade; tambem será qualidade a injustiça. Por quanto nenhuma das outras categorias quadra á injustiça; a saber: nem quantidade, nem relação, nem lugar, nem nenhuma outra, senão qualidade. O mesmo se verifica em todos os outros contrarios relativamente ás qualidades.
 
 [^e65]: Porque de duas coisas brancas se diz ser huma mais ou menos branca de que outra: de duas acções justas diz-se ser huma mais ou menos justa do que a outra. E até mesmo cada huma dellas <!-- pa:pagina 049 --> de per si he susceptivel de augmento. Porque huma que he branca, póde vir a ser mais branca.
 
@@ -504,13 +504,13 @@ Tambem parecerá talvez haver mais alguma outra especie de qualidade. Mas as que
 
 [^e68]: Porque dissemos, que os habitos, e as affecções pertencião aos relativos. Porquanto a sciencia tomada em geral, isso que he, he o de alguma outra coisa; porque ha de ser a sciencia de alguma coisa. Mas tomada em particular, então isso que he, não o he de outra nenhuma coisa. Por exemplo: a Grammatica tomada individualmente não se diz Grammatica de alguma coisa; nem a Musica, Musica de alguma coisa. Tomadas porém genericamente, então pertencem tambem aos relativos; por exemplo: a Grammatica diz se nesse caso sciencia de alguma coisa; mas não Grammatica de alguma coisa: e a Musica, sciencia de alguma coisa; mas não Musica de alguma coisa: e portanto individualmente não são relativas. E segundo cada huma dellas em particular he que nós nos dizemos taes, por isso que só as possuimos em particular. Assim nos dizemos sabios, porque possuimos algumas das sciencias em particular. E portanto ellas só são qualidades tomadas em particular, e porque só conforme a ellas tomadas em particular he que nós nos dizemos taes. Mas então não são relativas.
 
-[^e69]: Porque aquecer he contrario de resfriar: e ter calor he contrario de ter frio: E estar satisfeito he contrario de estar triste. Pelo que são susceptiveis de contrariedade. Quanto a serem susceptiveis de mais e de menos, se vê; porque tanto aquecer, como refriar, como entristecer-se são susceptiveis <!-- pa:pagina 051 --> de mais mais e de menos. Donde se segue, que tanto a acção, como a paixão, são susceptiveis de mais e de menos. E he o que bastará a este respeito. Quanto aos estados, fica dito, quando se tratou dos relativos, que elles derivão por cognominação das situações. E quanto ás demais (isto he: ao tempo, ao lugar, e ás acções permanentes) são pontos tão faceis de si mesmos, que não diremos mais nada sobre ellas, do que o que ao principio fica exposto: que a acção permanente he como calçar-se, armar-se: O lugar he como: no Lyceo, na Praça. E assim do mais que sobre cada huma dellas fica dito. Pelo que bastará o que temos observado sobre cada huma das especies, que ficão mencionadas.
+[^e69]: Porque aquecer he contrario de resfriar: e ter calor he contrario de ter frio: E estar satisfeito he contrario de estar triste. Pelo que são susceptiveis de contrariedade. Quanto a serem susceptiveis de mais e de menos, se vê; porque tanto aquecer, como refriar, como entristecer-se são susceptiveis <!-- pa:pagina 051 --> de mais e de menos. Donde se segue, que tanto a acção, como a paixão, são susceptiveis de mais e de menos. E he o que bastará a este respeito. Quanto aos estados, fica dito, quando se tratou dos relativos, que elles derivão por cognominação das situações. E quanto ás demais (isto he: ao tempo, ao lugar, e ás acções permanentes) são pontos tão faceis de si mesmos, que não diremos mais nada sobre ellas, do que o que ao principio fica exposto: que a acção permanente he como calçar-se, armar-se: O lugar he como: no Lyceo, na Praça. E assim do mais que sobre cada huma dellas fica dito. Pelo que bastará o que temos observado sobre cada huma das especies, que ficão mencionadas.
 
 [^e70]: Com exemplos explicaremos o como são estas opposições. Os relativos são oppostos, como por exemplo: o duplo á sua metade. Os contrarios oppoem-se; como por exemplo: o mau ao bom. A effectividade á privação, como por exemplo: a cegueira e a vista. E quanto á affirmação e negação, como por exemplo: está sentado, não está sentado.
 
 [^e71]: Exemplo; o duplo de qualquer quantidade, que he metade della, o que he, diz-se de outra; porque ha de ser duplo de alguma outra coisa. E a sciencia oppõe-se ao sabido na maneira dos relativos; porque o que a sciencia he, diz-se daquillo que póde ser sabido; e o que he sabido affirma-se, tal qual elle he, do seu contraposto, a sciencia; porque o que he sabido, diz-se ser de alguma coisa; isto he: de alguma sciencia. De <!-- pa:pagina 052 --> modo que as coisas, que se contrapoem como relativos, isso que são, ou o são de seus contrapostos, ou se affirmão reciprocamente entre si em alguma maneira.
 
-[^e72]: Porque nem o que he bom se diz bom do que he máo; mas contrario a elle; nem o que branco, se diz branco do que he preto; mas contrario a elle. De sorte que são differentes as composições de humas e outras.
+[^e72]: Porque nem o que he bom se diz bom do que he máo; mas contrario a elle; nem o que he branco, se diz branco do que he preto; mas contrario a elle. De sorte que são differentes as composições de humas e outras.
 
 [^e73]: Exemplo: a doença e a saude são qualidades proprias do corpo animal: e he forçoso que huma dellas exista no corpo animal; ou doença ou saude. Par e impar são categorias de numero: e he forçoso que o numero seja par ou impar. Em nenhum destes exemplos ha meio termo: nem entre doença: nem entre par e impar. Porém quanto a aquellas, de que não he forçoso que exista huma dellas, essas tem termo medio. Por exemplo: he proprio do corpo animal o ser preto ou branco; mas não he forçoso o ser huma ou outra destas duas coisas; porque nem todos os corpos são brancos ou pretos. Bom e máo dizem-se do homem, assim como de muitas outras coisas; mas não he forçoso, que huma daquellas duas qualidades exista; porque essas coisas, de que se dizem, nem todas são boas, ou más. Em todos estes casos ha hum termo medio: por exemplo: entre preto e branco ha fusco, pallido, e todas as outras cores. Entre bom e máo, o que nem he bom, nem máo.
 
@@ -524,7 +524,7 @@ Tambem parecerá talvez haver mais alguma outra especie de qualidade. Mas as que
 
 [^e78]: Porque a vista he effectividade: a cegueira he privação. Mas o ter vista não he vista: nem o ser cego, cegueira. Porquanto a cegueira he huma privação: e o estar cego he estar privado, mas não he a privação. Porque se cegueira fosse o mesmo que ser cego, ambas estas expressões se poderião usar indifferentemente em qualquer dado caso. Mas de hum homem diz-se ser cego; e não se diz cegueira.
 
-[^e79]: Do mesmo modo que a cegueira se oppoe á vista; desse mesmo o ser cego se oppoe a ter vista.
+[^e79]: Do mesmo modo que a cegueira se oppoe á vista; desse mesmo modo o ser cego se oppoe a ter vista.
 
 [^e80]: Porque a affirmação he hum discurso affirmativo: e a negação he hum discurso negativo. Mas aquillo sobre que recahe a affirmação ou a negação, não he discurso, he hum facto. Comtudo diz-se que estes factos se oppoem entre si, assim como a affirmação e a negação; porque tambem aqui se verifica, que o modo da opposição he o mesmo. Assim como a affirmação se oppoe á
 <!-- pa:pagina 054 -->
@@ -547,7 +547,7 @@ Ora entre a privação e a effectividade não póde dar-se reciprocidade de muda
 
 Mas quanto a affirmação e negação, forçosamente ha de huma ser verdadeira e a outra falsa, quer o subjeito exista, quer não. Por quanto estar Socrates doente e não estar doente são expressões, das quaes, existindo elle, huma he evidentemente verdadeira e a outra falsa: e não existindo, he falso o estar doente; e he verdade não estar doente.
 
-De modo que são estes casos de affirmação e negação os unicos oppostos, de que he proprio que hum delles; ha de ser forçosamente verdadeiro ou falso.
+De modo que são estes casos de affirmação e negação os unicos oppostos, de que he proprio que hum delles ha de ser forçosamente verdadeiro ou falso.
 
 [^e85]: Isto se faz manifesto pela inducção de casos particulares; como: a doença á saude: a injustiça á justiça: semelhantemente a covardia ao valor: e assim nos demais casos.
 
