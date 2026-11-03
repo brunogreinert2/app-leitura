@@ -625,6 +625,7 @@ filon-de-confusione-linguarum-en-yonge-1854
 filon-de-confusione-linguarum-grc-wendland-1897
 filon-de-congressu-eruditionis-gratia-en-yonge-1854
 filon-de-congressu-eruditionis-gratia-grc-wendland-1898
+filon-de-decalogo-en-yonge-1855
 filon-de-decalogo-grc-cohn-1902
 filon-de-ebrietate-en-yonge-1854
 filon-de-ebrietate-grc-wendland-1897
@@ -651,7 +652,9 @@ filon-de-sobrietate-en-yonge-1854
 filon-de-sobrietate-grc-wendland-1897
 filon-de-somniis-en-yonge-1854
 filon-de-somniis-grc-wendland-1898
+filon-de-specialibus-legibus-en-yonge-1855
 filon-de-specialibus-legibus-grc-cohn-1906
+filon-de-virtutibus-en-yonge-1855
 filon-de-virtutibus-grc-cohn-1906
 filon-de-vita-contemplativa-grc-cohn-reiter-1915
 filon-de-vita-mosis-en-yonge-1855
