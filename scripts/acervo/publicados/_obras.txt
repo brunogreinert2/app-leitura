@@ -627,12 +627,14 @@ filon-de-congressu-eruditionis-gratia-grc-wendland-1898
 filon-de-decalogo-grc-cohn-1902
 filon-de-ebrietate-en-yonge-1854
 filon-de-ebrietate-grc-wendland-1897
+filon-de-fuga-et-inventione-en-yonge-1854
 filon-de-fuga-et-inventione-grc-wendland-1898
 filon-de-gigantibus-en-yonge-1854
 filon-de-gigantibus-grc-wendland-1897
 filon-de-josepho-grc-cohn-1902
 filon-de-migratione-abrahami-en-yonge-1854
 filon-de-migratione-abrahami-grc-wendland-1897
+filon-de-mutatione-nominum-en-yonge-1854
 filon-de-mutatione-nominum-grc-wendland-1898
 filon-de-opificio-mundi-en-yonge-1854
 filon-de-opificio-mundi-grc-cohn-1896
@@ -645,6 +647,7 @@ filon-de-sacrificiis-abelis-et-caini-en-yonge-1854
 filon-de-sacrificiis-abelis-et-caini-grc-cohn-1896
 filon-de-sobrietate-en-yonge-1854
 filon-de-sobrietate-grc-wendland-1897
+filon-de-somniis-en-yonge-1854
 filon-de-somniis-grc-wendland-1898
 filon-de-specialibus-legibus-grc-cohn-1906
 filon-de-virtutibus-grc-cohn-1906
