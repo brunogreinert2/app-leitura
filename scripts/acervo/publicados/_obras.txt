@@ -617,11 +617,14 @@ ferreira-manual-do-cidadao-pt-1834-v03
 filolau-fragmentos-grc-diels-1922
 filon-de-abrahamo-grc-cohn-1902
 filon-de-aeternitate-mundi-grc-cohn-reiter-1915
+filon-de-agricultura-grc-wendland-1897
 filon-de-cherubim-grc-cohn-1896
 filon-de-decalogo-grc-cohn-1902
+filon-de-ebrietate-grc-wendland-1897
 filon-de-gigantibus-grc-wendland-1897
 filon-de-josepho-grc-cohn-1902
 filon-de-opificio-mundi-grc-cohn-1896
+filon-de-plantatione-grc-wendland-1897
 filon-de-posteritate-caini-grc-wendland-1897
 filon-de-praemiis-et-poenis-grc-cohn-1906
 filon-de-sacrificiis-abelis-et-caini-grc-cohn-1896
