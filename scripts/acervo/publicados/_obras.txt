@@ -622,6 +622,7 @@ filon-de-agricultura-grc-wendland-1897
 filon-de-cherubim-grc-cohn-1896
 filon-de-confusione-linguarum-en-yonge-1854
 filon-de-confusione-linguarum-grc-wendland-1897
+filon-de-congressu-eruditionis-gratia-en-yonge-1854
 filon-de-congressu-eruditionis-gratia-grc-wendland-1898
 filon-de-decalogo-grc-cohn-1902
 filon-de-ebrietate-en-yonge-1854
@@ -630,6 +631,7 @@ filon-de-fuga-et-inventione-grc-wendland-1898
 filon-de-gigantibus-en-yonge-1854
 filon-de-gigantibus-grc-wendland-1897
 filon-de-josepho-grc-cohn-1902
+filon-de-migratione-abrahami-en-yonge-1854
 filon-de-migratione-abrahami-grc-wendland-1897
 filon-de-mutatione-nominum-grc-wendland-1898
 filon-de-opificio-mundi-en-yonge-1854
@@ -652,6 +654,7 @@ filon-in-flaccum-grc-cohn-reiter-1915
 filon-legatio-ad-gaium-grc-cohn-reiter-1915
 filon-legum-allegoriae-en-yonge-1854
 filon-legum-allegoriae-grc-cohn-1896
+filon-quis-rerum-divinarum-heres-sit-en-yonge-1854
 filon-quis-rerum-divinarum-heres-sit-grc-wendland-1898
 filon-quod-deterius-potiori-insidiari-soleat-en-yonge-1854
 filon-quod-deterius-potiori-insidiari-soleat-grc-cohn-1896
