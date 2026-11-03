@@ -9333,6 +9333,27 @@
       "autor": "Philo of Alexandria",
       "arquivo": "FILOSOFIA/Grego/Platonismo_Medio/Filon/De_Opificio_Mundi/Filon_De_Opificio_Mundi_grc_Cohn_1896.md",
       "sistema_referencia": "capitulo-secao"
+    },
+    {
+      "id": "filon-de-vita-contemplativa-grc-cohn-reiter-1915",
+      "titulo": "De vita contemplativa",
+      "autor": "Philo of Alexandria",
+      "arquivo": "FILOSOFIA/Grego/Platonismo_Medio/Filon/De_Vita_Contemplativa/Filon_De_Vita_Contemplativa_grc_Cohn-Reiter_1915.md",
+      "sistema_referencia": "capitulo-secao"
+    },
+    {
+      "id": "filon-legum-allegoriae-grc-cohn-1896",
+      "titulo": "Legum allegoriae I–III",
+      "autor": "Philo of Alexandria",
+      "arquivo": "FILOSOFIA/Grego/Platonismo_Medio/Filon/Legum_Allegoriae/Filon_Legum_Allegoriae_grc_Cohn_1896.md",
+      "sistema_referencia": "capitulo-secao"
+    },
+    {
+      "id": "filon-quod-omnis-probus-liber-sit-grc-cohn-reiter-1915",
+      "titulo": "Quod omnis probus liber sit",
+      "autor": "Philo of Alexandria",
+      "arquivo": "FILOSOFIA/Grego/Platonismo_Medio/Filon/Quod_Omnis_Probus_Liber_Sit/Filon_Quod_Omnis_Probus_Liber_Sit_grc_Cohn-Reiter_1915.md",
+      "sistema_referencia": "capitulo-secao"
     }
   ],
   "redirecionamentos": {

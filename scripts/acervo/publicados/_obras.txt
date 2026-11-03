@@ -616,6 +616,9 @@ ferreira-manual-do-cidadao-pt-1834-v02
 ferreira-manual-do-cidadao-pt-1834-v03
 filolau-fragmentos-grc-diels-1922
 filon-de-opificio-mundi-grc-cohn-1896
+filon-de-vita-contemplativa-grc-cohn-reiter-1915
+filon-legum-allegoriae-grc-cohn-1896
+filon-quod-omnis-probus-liber-sit-grc-cohn-reiter-1915
 genesis-grc-lxx-swe
 gorgias-defesa-de-palamedes-grc-blass-1908
 gorgias-defesa-de-palamedes-pt-cavalcante-2016
