@@ -620,9 +620,11 @@ filon-de-aeternitate-mundi-grc-cohn-reiter-1915
 filon-de-agricultura-en-yonge-1854
 filon-de-agricultura-grc-wendland-1897
 filon-de-cherubim-grc-cohn-1896
+filon-de-confusione-linguarum-en-yonge-1854
 filon-de-confusione-linguarum-grc-wendland-1897
 filon-de-congressu-eruditionis-gratia-grc-wendland-1898
 filon-de-decalogo-grc-cohn-1902
+filon-de-ebrietate-en-yonge-1854
 filon-de-ebrietate-grc-wendland-1897
 filon-de-fuga-et-inventione-grc-wendland-1898
 filon-de-gigantibus-en-yonge-1854
@@ -639,6 +641,7 @@ filon-de-posteritate-caini-grc-wendland-1897
 filon-de-praemiis-et-poenis-grc-cohn-1906
 filon-de-sacrificiis-abelis-et-caini-en-yonge-1854
 filon-de-sacrificiis-abelis-et-caini-grc-cohn-1896
+filon-de-sobrietate-en-yonge-1854
 filon-de-sobrietate-grc-wendland-1897
 filon-de-somniis-grc-wendland-1898
 filon-de-specialibus-legibus-grc-cohn-1906
