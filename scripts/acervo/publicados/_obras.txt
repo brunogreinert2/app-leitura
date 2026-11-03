@@ -595,6 +595,16 @@ epimenides-fragmentos-grc-diels-1922
 espeusipo-fragmentos-grc-mullach-1881
 ester-grc-lxx-swe
 estevao-de-alexandria-in-de-interpretatione-grc-hayduck-1885
+euripides-alceste-grc-murray-1902
+euripides-alceste-pt-torrano-2018
+euripides-as-fenicias-grc-murray-1913
+euripides-as-fenicias-pt-torrano-2016
+euripides-as-suplicantes-grc-murray-1913
+euripides-as-suplicantes-pt-torrano-2019
+euripides-helena-grc-murray-1913
+euripides-helena-pt-torrano-2017
+euripides-heracles-grc-murray-1913
+euripides-heracles-pt-torrano-2018
 eusebio-de-cesareia-tlg002-grc-kirsopp-lake-1926-1932
 eustracio-in-ethica-nicomachea-grc-heylbut-1892
 exodo-grc-lxx-swe
@@ -1291,6 +1301,9 @@ sobre-o-projeto-2
 socrates-cartas-grc-hercher-1873
 socraticos-cartas-grc-hercher-1873
 sofocles-antigone-pt-mellosouza-sd
+sofocles-as-traquinias-prologo-e-parodo-grc-lloyd-jones-wilson-1990
+sofocles-as-traquinias-prologo-e-parodo-grc-pt-oliveira-2024
+sofocles-as-traquinias-prologo-e-parodo-pt-oliveira-2024
 sofocles-rei-edipo-pt-mellosouza-sd
 sofonias-grc-lxx-swe
 sofonias-in-de-anima-grc-hayduck-1883
