@@ -58,9 +58,9 @@
       "$ref": "#/$defs/texto"
     },
     "dk": {
-      "description": "Capítulo e seção na numeração de Diels-Kranz (5ª ed. em diante, a que se cita hoje), quando o arquivo segue outra (a 4ª ed. de Diels, 1922, numera os capítulos de outro jeito: Anaxágoras é o 46 lá e o 59 aqui). O rolo mostra o número na ficha e o resolvedor aceita «DK 59 B 12» (/urn/?DK 59 B 12). Ex.: \"59 B\".",
+      "description": "Capítulo e seção na numeração de Diels-Kranz (5ª ed. em diante, a que se cita hoje), quando o arquivo segue outra (a 4ª ed. de Diels, 1922, numera os capítulos de outro jeito: Anaxágoras é o 46 lá e o 59 aqui). O rolo mostra o número na ficha e o resolvedor aceita «DK 59 B 12» (/urn/?DK 59 B 12). Ex.: \"59 B\". Capítulo que Kranz não divide em A/B (Pitágoras, os capítulos de um testemunho só, o Anônimo de Jâmblico, os Dissoi Logoi) leva só o número: \"14\".",
       "type": "string",
-      "pattern": "^[1-9][0-9]? [ABC]$"
+      "pattern": "^[1-9][0-9]?( [ABC])?$"
     },
     "publisher": { "$ref": "#/$defs/texto" },
     "year_original": {

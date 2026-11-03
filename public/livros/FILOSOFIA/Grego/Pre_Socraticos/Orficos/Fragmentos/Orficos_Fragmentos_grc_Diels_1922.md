@@ -6,6 +6,8 @@ subtitle: Os fragmentos órficos que Diels põe no começo da poesia cosmológic
 author: Orfeu
 editor: Hermann Diels
 base_edition: 'Die Fragmente der Vorsokratiker, vol. 2, ed. Hermann Diels (Berlim: Weidmann, 1922)'
+cite_in: 'DIELS, Hermann (ed.). Die Fragmente der Vorsokratiker. 4. ed. Berlim: Weidmann, 1922, v. 2'
+dk: 1 B
 year_original: séc. VI a.C. em diante
 publication_year: 1922
 language: grc

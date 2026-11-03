@@ -6,6 +6,8 @@ subtitle: Os fragmentos do poema Περὶ φύσεως, com o contexto das font
 author: Parmênides
 editor: Hermann Diels
 base_edition: 'Die Fragmente der Vorsokratiker, vol. 1, ed. Hermann Diels (Berlim: Weidmann, 1922)'
+cite_in: 'DIELS, Hermann (ed.). Die Fragmente der Vorsokratiker. 4. ed. Berlim: Weidmann, 1922, v. 1'
+dk: 28 B
 year_original: séc. V a.C.
 publication_year: 1922
 language: grc

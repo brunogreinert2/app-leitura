@@ -1579,13 +1579,14 @@ RESOLVEDOR_URN = r"""<script>
   var q = decodeURIComponent((location.search || location.hash).replace(/^[?#]/, '').replace(/\+/g, ' ')).trim();
   /* "DK 59 B 12": a numeração de Kranz, a que se cita hoje. Leva ao arquivo
      que declara `dk: 59 B`, mesmo quando ele segue a numeração de 1922. */
-  var dk = q.match(/^DK\s*(\d{1,2})\s*([ABC])\s*(\d+[a-z]?)?$/i);
+  var dk = q.match(/^DK\s*(\d{1,2})[\s,.]*(?:([ABC])\s*)?(\d+[a-z]?)?$/i);
   if (!dk && !/^urn:cts:/.test(q)) return;
   var saida = document.getElementById('resolvendo');
   saida.hidden = false;
   if (dk) {
     fetch('dk.json').then(function (r) { return r.json(); }).then(function (mapa) {
-      var obras = mapa[+dk[1] + ' ' + dk[2].toUpperCase()] || [];
+      /* Capítulo sem divisão A/B ("14") atende "DK 14, 8" e também "DK 14 A 8". */
+      var obras = (dk[2] && mapa[+dk[1] + ' ' + dk[2].toUpperCase()]) || mapa[String(+dk[1])] || [];
       var pass = dk[3] ? '#marker-' + dk[3].toLowerCase() : '';
       if (!obras.length) { saida.textContent = 'Este número de Diels-Kranz ainda não está no acervo: ' + q; return; }
       if (obras.length === 1) { location.replace('/rolo/' + obras[0][0] + '.html' + pass); return; }

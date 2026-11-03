@@ -18,7 +18,7 @@ que um texto perfeito que não sobe. Preciosismo não; descuido também não.
 
 As regras mudam, e as cópias envelhecem. Leia na fonte, a cada sessão:
 
-1. **`C:\Claude\portico\NORMAS.md`** — a norma do ecossistema (9 leis + N1–N79).
+1. **`C:\Claude\portico\NORMAS.md`** — a norma do ecossistema (9 leis + N1–N83).
    O **N7** define o formato dos arquivos; o **Anexo B**, o que nunca se viola.
    O NORMAS.md não é publicado: https://pedraangular.app.br/portico/normas.md
    traz só as nove leis, escritas para quem lê. Sem o disco, o formato está no
@@ -94,6 +94,11 @@ divergência para que este arquivo seja corrigido.
   o projeto, o site inteiro) e outras línguas depois. Todo texto de interface nasce
   em todas as línguas que o app já tiver (`src/lib/i18n.ts`), e nada de interface
   se escreve de um jeito que só caiba em duas.
+- **Onde existe padrão, segue-se o padrão** (N83, 2026-11-03): língua ISO 639-3,
+  escrita ISO 15924, data ISO 8601, hora em UTC, licença SPDX, citação ABNT,
+  pré-socrático em Diels-Kranz. A tabela inteira está na N83. Nunca enumere à
+  mão o que um padrão já enumera (a etiqueta de idioma é qualquer código da
+  ISO 639-3, N76). AEC/EC só no que o dono escrever.
 - **Datas no padrão ISO** (2026-09-30), inclusive no Diário.
 - **Nada depende só de cor** (N29).
 - **AI FIRST: você é o piloto da máquina** (2026-09-30). Antes de fazer "do seu
@@ -285,6 +290,13 @@ pergunta ao dono. Referência: `C:\Claude\Saneamento\migrar_front_matter.py`.
 ### 5.4 O front matter: você preenche, o dono confirma
 Preencha tudo que as fontes dizem (cabeçalho do TEI, catálogo CTS, o próprio
 arquivo). Regras:
+- **Tudo em inglês, inclusive a prosa** (decisão do dono, 2026-11-03, «quesito
+  universalidade»): nome de campo, vocabulário e também os campos escritos em
+  frase — `scope`, `processing`, `subtitle`, `physical_source`, `language_also`.
+  Vale para arquivo **novo**; os antigos ficam como estão (se ele quiser
+  convertê-los, abre uma frente própria). Fica na língua da obra só o que é
+  dado da edição: `title` e `cite_in` (a referência ABNT). A interface traduz o
+  resto para o leitor.
 - **URN:** obra de catálogo CTS (greekLit, latinLit, First1K) usa a URN de lá,
   com a edição de lá (`…perseus-grc2`, `…1st1K-grc1`) se o texto é essa edição,
   ou `…pa-<idioma>N` se é uma edição/tradução do Pedra Angular. Fora de catálogo:

@@ -6,6 +6,8 @@ subtitle: 'Protágoras de Abdera nos testemunhos antigos, vida e doutrina: a se�
 author: Protágoras
 editor: Hermann Diels
 base_edition: 'Die Fragmente der Vorsokratiker, 4ª ed., vol. 2, ed. Hermann Diels (Berlim: Weidmann, 1922)'
+cite_in: 'DIELS, Hermann (ed.). Die Fragmente der Vorsokratiker. 4. ed. Berlim: Weidmann, 1922, v. 2'
+dk: 80 A
 year_original: séc. V a.C.
 publication_year: 1922
 language: grc
