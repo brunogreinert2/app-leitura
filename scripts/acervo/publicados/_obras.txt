@@ -645,6 +645,7 @@ filon-de-plantatione-en-yonge-1854
 filon-de-plantatione-grc-wendland-1897
 filon-de-posteritate-caini-en-yonge-1854
 filon-de-posteritate-caini-grc-wendland-1897
+filon-de-praemiis-et-poenis-en-yonge-1855
 filon-de-praemiis-et-poenis-grc-cohn-1906
 filon-de-sacrificiis-abelis-et-caini-en-yonge-1854
 filon-de-sacrificiis-abelis-et-caini-grc-cohn-1896
@@ -656,6 +657,7 @@ filon-de-specialibus-legibus-en-yonge-1855
 filon-de-specialibus-legibus-grc-cohn-1906
 filon-de-virtutibus-en-yonge-1855
 filon-de-virtutibus-grc-cohn-1906
+filon-de-vita-contemplativa-en-yonge-1855
 filon-de-vita-contemplativa-grc-cohn-reiter-1915
 filon-de-vita-mosis-en-yonge-1855
 filon-de-vita-mosis-grc-cohn-1902
@@ -669,6 +671,7 @@ filon-quod-deterius-potiori-insidiari-soleat-en-yonge-1854
 filon-quod-deterius-potiori-insidiari-soleat-grc-cohn-1896
 filon-quod-deus-sit-immutabilis-en-yonge-1854
 filon-quod-deus-sit-immutabilis-grc-wendland-1897
+filon-quod-omnis-probus-liber-sit-en-yonge-1855
 filon-quod-omnis-probus-liber-sit-grc-cohn-reiter-1915
 genesis-grc-lxx-swe
 gorgias-defesa-de-palamedes-grc-blass-1908
