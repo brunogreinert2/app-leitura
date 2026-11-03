@@ -615,6 +615,7 @@ ferreira-manual-do-cidadao-pt-1834-v01
 ferreira-manual-do-cidadao-pt-1834-v02
 ferreira-manual-do-cidadao-pt-1834-v03
 filolau-fragmentos-grc-diels-1922
+filon-de-opificio-mundi-grc-cohn-1896
 genesis-grc-lxx-swe
 gorgias-defesa-de-palamedes-grc-blass-1908
 gorgias-defesa-de-palamedes-pt-cavalcante-2016
