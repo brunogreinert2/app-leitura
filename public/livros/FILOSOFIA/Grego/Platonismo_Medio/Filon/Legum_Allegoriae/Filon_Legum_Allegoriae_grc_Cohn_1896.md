@@ -22,7 +22,7 @@ project: pedra_angular
 related:
 - filon-legum-allegoriae-en-yonge-1854
 reference_system: chapter-section
-scope: Books and sections as numbered in the Cohn–Wendland edition, cited book.section (II 1 = [2.1]); the editor's apparatus and the Mangey page references of the margin become notes
+scope: Books and sections as numbered in the Cohn–Wendland edition, cited book.section (II 1 = [2.1]); the editor's apparatus and the marginal Mangey references become notes. This conversion does not yet carry the old chapter numbering (TEI altref) or Mangey's pages (TEI altpage1/altpage2), for lack of a converter profile for a second numbering
 urn_work: urn:cts:greekLit:tlg0018.tlg002
 urn: urn:cts:greekLit:tlg0018.tlg002.1st1K-grc1
 source: https://github.com/OpenGreekAndLatin/First1KGreek/tree/master/data/tlg0018/tlg002

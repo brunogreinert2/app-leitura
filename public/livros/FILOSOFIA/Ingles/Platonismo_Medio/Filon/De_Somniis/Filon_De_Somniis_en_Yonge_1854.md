@@ -24,7 +24,7 @@ project: pedra_angular
 related:
 - filon-de-somniis-grc-wendland-1898
 reference_system: chapter-section
-scope: English translation of filon-de-somniis-grc-wendland-1898, sections as numbered in the TEI of the translation, cited book.section ([2.1]); Yonge's numbering can differ from Cohn–Wendland's
+scope: English translation of filon-de-somniis-grc-wendland-1898, sections as numbered in the TEI of the translation, cited book.section ([2.1]); Yonge's numbering can differ from Cohn–Wendland's. This conversion does not yet carry Yonge's chapter numbers (TEI milestone chapter), for lack of a converter profile for a second numbering
 urn_work: urn:cts:greekLit:tlg0018.tlg019
 urn: urn:cts:greekLit:tlg0018.tlg019.1st1K-eng1
 source: https://github.com/OpenGreekAndLatin/First1KGreek/tree/master/data/tlg0018/tlg019
