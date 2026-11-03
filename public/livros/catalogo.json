@@ -9501,6 +9501,27 @@
       "autor": "Philo of Alexandria",
       "arquivo": "FILOSOFIA/Grego/Platonismo_Medio/Filon/De_Plantatione/Filon_De_Plantatione_grc_Wendland_1897.md",
       "sistema_referencia": "capitulo-secao"
+    },
+    {
+      "id": "filon-de-confusione-linguarum-grc-wendland-1897",
+      "titulo": "De confusione linguarum",
+      "autor": "Philo of Alexandria",
+      "arquivo": "FILOSOFIA/Grego/Platonismo_Medio/Filon/De_Confusione_Linguarum/Filon_De_Confusione_Linguarum_grc_Wendland_1897.md",
+      "sistema_referencia": "capitulo-secao"
+    },
+    {
+      "id": "filon-de-migratione-abrahami-grc-wendland-1897",
+      "titulo": "De migratione Abrahami",
+      "autor": "Philo of Alexandria",
+      "arquivo": "FILOSOFIA/Grego/Platonismo_Medio/Filon/De_Migratione_Abrahami/Filon_De_Migratione_Abrahami_grc_Wendland_1897.md",
+      "sistema_referencia": "capitulo-secao"
+    },
+    {
+      "id": "filon-de-sobrietate-grc-wendland-1897",
+      "titulo": "De sobrietate",
+      "autor": "Philo of Alexandria",
+      "arquivo": "FILOSOFIA/Grego/Platonismo_Medio/Filon/De_Sobrietate/Filon_De_Sobrietate_grc_Wendland_1897.md",
+      "sistema_referencia": "capitulo-secao"
     }
   ],
   "redirecionamentos": {
