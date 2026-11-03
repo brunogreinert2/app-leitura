@@ -617,7 +617,10 @@ ferreira-manual-do-cidadao-pt-1834-v03
 filolau-fragmentos-grc-diels-1922
 filon-de-abrahamo-grc-cohn-1902
 filon-de-decalogo-grc-cohn-1902
+filon-de-josepho-grc-cohn-1902
 filon-de-opificio-mundi-grc-cohn-1896
+filon-de-specialibus-legibus-grc-cohn-1906
+filon-de-virtutibus-grc-cohn-1906
 filon-de-vita-contemplativa-grc-cohn-reiter-1915
 filon-de-vita-mosis-grc-cohn-1902
 filon-legum-allegoriae-grc-cohn-1896

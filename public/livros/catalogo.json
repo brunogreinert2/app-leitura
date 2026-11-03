@@ -9375,6 +9375,27 @@
       "autor": "Philo of Alexandria",
       "arquivo": "FILOSOFIA/Grego/Platonismo_Medio/Filon/De_Vita_Mosis/Filon_De_Vita_Mosis_grc_Cohn_1902.md",
       "sistema_referencia": "capitulo-secao"
+    },
+    {
+      "id": "filon-de-josepho-grc-cohn-1902",
+      "titulo": "De Iosepho",
+      "autor": "Philo of Alexandria",
+      "arquivo": "FILOSOFIA/Grego/Platonismo_Medio/Filon/De_Josepho/Filon_De_Josepho_grc_Cohn_1902.md",
+      "sistema_referencia": "capitulo-secao"
+    },
+    {
+      "id": "filon-de-specialibus-legibus-grc-cohn-1906",
+      "titulo": "De specialibus legibus I–IV",
+      "autor": "Philo of Alexandria",
+      "arquivo": "FILOSOFIA/Grego/Platonismo_Medio/Filon/De_Specialibus_Legibus/Filon_De_Specialibus_Legibus_grc_Cohn_1906.md",
+      "sistema_referencia": "capitulo-secao"
+    },
+    {
+      "id": "filon-de-virtutibus-grc-cohn-1906",
+      "titulo": "De virtutibus",
+      "autor": "Philo of Alexandria",
+      "arquivo": "FILOSOFIA/Grego/Platonismo_Medio/Filon/De_Virtutibus/Filon_De_Virtutibus_grc_Cohn_1906.md",
+      "sistema_referencia": "capitulo-secao"
     }
   ],
   "redirecionamentos": {
