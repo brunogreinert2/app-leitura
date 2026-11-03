@@ -22,6 +22,8 @@ tags:
 - century-1-ce
 status: draft
 project: pedra_angular
+related:
+- filon-legatio-ad-gaium-en-yonge-1855
 reference_system: chapter-section
 scope: Sections as numbered in the Cohn–Wendland edition, cited by section (§ 1 = [1]); the editor's apparatus and the Mangey page references of the margin become notes
 urn_work: urn:cts:greekLit:tlg0018.tlg031
