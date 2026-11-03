@@ -19,6 +19,8 @@ tags:
 - century-1-ce
 status: draft
 project: pedra_angular
+related:
+- filon-legum-allegoriae-en-yonge-1854
 reference_system: chapter-section
 scope: Books and sections as numbered in the Cohn–Wendland edition, cited book.section (II 1 = [2.1]); the editor's apparatus and the Mangey page references of the margin become notes
 urn_work: urn:cts:greekLit:tlg0018.tlg002

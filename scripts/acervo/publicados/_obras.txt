@@ -628,10 +628,12 @@ filon-de-gigantibus-grc-wendland-1897
 filon-de-josepho-grc-cohn-1902
 filon-de-migratione-abrahami-grc-wendland-1897
 filon-de-mutatione-nominum-grc-wendland-1898
+filon-de-opificio-mundi-en-yonge-1854
 filon-de-opificio-mundi-grc-cohn-1896
 filon-de-plantatione-grc-wendland-1897
 filon-de-posteritate-caini-grc-wendland-1897
 filon-de-praemiis-et-poenis-grc-cohn-1906
+filon-de-sacrificiis-abelis-et-caini-en-yonge-1854
 filon-de-sacrificiis-abelis-et-caini-grc-cohn-1896
 filon-de-sobrietate-grc-wendland-1897
 filon-de-somniis-grc-wendland-1898
@@ -641,6 +643,7 @@ filon-de-vita-contemplativa-grc-cohn-reiter-1915
 filon-de-vita-mosis-grc-cohn-1902
 filon-in-flaccum-grc-cohn-reiter-1915
 filon-legatio-ad-gaium-grc-cohn-reiter-1915
+filon-legum-allegoriae-en-yonge-1854
 filon-legum-allegoriae-grc-cohn-1896
 filon-quis-rerum-divinarum-heres-sit-grc-wendland-1898
 filon-quod-deterius-potiori-insidiari-soleat-grc-cohn-1896

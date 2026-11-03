@@ -9543,6 +9543,27 @@
       "autor": "Philo of Alexandria",
       "arquivo": "FILOSOFIA/Grego/Platonismo_Medio/Filon/De_Mutatione_Nominum/Filon_De_Mutatione_Nominum_grc_Wendland_1898.md",
       "sistema_referencia": "capitulo-secao"
+    },
+    {
+      "id": "filon-de-opificio-mundi-en-yonge-1854",
+      "titulo": "On the Creation of the World",
+      "autor": "Philo of Alexandria",
+      "arquivo": "FILOSOFIA/Ingles/Platonismo_Medio/Filon/De_Opificio_Mundi/Filon_De_Opificio_Mundi_en_Yonge_1854.md",
+      "sistema_referencia": "capitulo-secao"
+    },
+    {
+      "id": "filon-de-sacrificiis-abelis-et-caini-en-yonge-1854",
+      "titulo": "On the Sacrifice of Abel and Cain",
+      "autor": "Philo of Alexandria",
+      "arquivo": "FILOSOFIA/Ingles/Platonismo_Medio/Filon/De_Sacrificiis_Abelis_et_Caini/Filon_De_Sacrificiis_Abelis_et_Caini_en_Yonge_1854.md",
+      "sistema_referencia": "capitulo-secao"
+    },
+    {
+      "id": "filon-legum-allegoriae-en-yonge-1854",
+      "titulo": "On the Allegories of the Sacred Laws",
+      "autor": "Philo of Alexandria",
+      "arquivo": "FILOSOFIA/Ingles/Platonismo_Medio/Filon/Legum_Allegoriae/Filon_Legum_Allegoriae_en_Yonge_1854.md",
+      "sistema_referencia": "capitulo-secao"
     }
   ],
   "redirecionamentos": {
