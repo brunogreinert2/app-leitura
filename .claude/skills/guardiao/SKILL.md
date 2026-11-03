@@ -154,8 +154,13 @@ de chegar a você (cada uma tem o seu `CLAUDE.md`):
 public/livros/<ACERVO>/<Idioma>/<Corrente>/<Autor>/<Obra>/<Obra>_<idioma>_<editor>_<ano>.md
 ```
 
-- **ACERVO:** `FILOSOFIA`, `BIBLIAS`, `PERSONAGENS` (personagens não têm subpasta).
-  Acervo novo só com o "sim" do dono (ver Corrente, abaixo).
+- **ACERVO:** `FILOSOFIA`, `LITERATURA`, `PSICOLOGIA`, `BIBLIAS`, `PERSONAGENS`
+  (personagens não têm subpasta). Acervo novo só com o "sim" do dono (ver
+  Corrente, abaixo). **`LITERATURA`** (2026-11-03, decisão do dono para receber
+  Homero e Hesíodo): tragédia, comédia, épica, lírica. Ali o terceiro nível é o
+  **gênero** (`Tragedia_Grega`, `Epica_Grega`), não a escola do autor. Obra de
+  filósofo continua em `FILOSOFIA` mesmo quando é ficção (o Cândido de
+  Voltaire), salvo decisão dele.
 - **Idioma** (do texto, não do autor): `Grego`, `Latim`, `Hebraico`, `Portugues`,
   `Ingles`, `Arabe`. Interlinear: `Interlineares_Grego`, `Interlineares_Hebraico`.
   O dono decidiu que a separação principal é por idioma.

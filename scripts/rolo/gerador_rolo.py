@@ -1384,6 +1384,7 @@ ROTULO_EN = {
     "BIBLIAS": "Bibles",
     "FILOSOFIA": "Philosophy",
     "PSICOLOGIA": "Psychology",
+    "LITERATURA": "Literature",
     "PERSONAGENS": "Figures",
     "GERAL": "General",
     # idioma (o segundo nível de todo acervo)
@@ -1405,6 +1406,9 @@ ROTULO_EN = {
     "Filosofia Republicana": "Republican Philosophy",
     "Epistemologia Genetica": "Genetic Epistemology",
     "Historico Cultural": "Cultural-Historical",
+    # LITERATURA: o terceiro nível é o gênero, não a escola
+    "Tragedia Grega": "Greek Tragedy",
+    "Epica Grega": "Greek Epic",
     "Iluminismo": "Enlightenment",
     "Moderna": "Modern",
     "Moralistas": "Moralia",
