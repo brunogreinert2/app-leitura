@@ -620,11 +620,14 @@ filon-de-aeternitate-mundi-grc-cohn-reiter-1915
 filon-de-agricultura-grc-wendland-1897
 filon-de-cherubim-grc-cohn-1896
 filon-de-confusione-linguarum-grc-wendland-1897
+filon-de-congressu-eruditionis-gratia-grc-wendland-1898
 filon-de-decalogo-grc-cohn-1902
 filon-de-ebrietate-grc-wendland-1897
+filon-de-fuga-et-inventione-grc-wendland-1898
 filon-de-gigantibus-grc-wendland-1897
 filon-de-josepho-grc-cohn-1902
 filon-de-migratione-abrahami-grc-wendland-1897
+filon-de-mutatione-nominum-grc-wendland-1898
 filon-de-opificio-mundi-grc-cohn-1896
 filon-de-plantatione-grc-wendland-1897
 filon-de-posteritate-caini-grc-wendland-1897
