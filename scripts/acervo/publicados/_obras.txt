@@ -617,10 +617,12 @@ ferreira-manual-do-cidadao-pt-1834-v03
 filolau-fragmentos-grc-diels-1922
 filon-de-abrahamo-grc-cohn-1902
 filon-de-aeternitate-mundi-grc-cohn-reiter-1915
+filon-de-cherubim-grc-cohn-1896
 filon-de-decalogo-grc-cohn-1902
 filon-de-josepho-grc-cohn-1902
 filon-de-opificio-mundi-grc-cohn-1896
 filon-de-praemiis-et-poenis-grc-cohn-1906
+filon-de-sacrificiis-abelis-et-caini-grc-cohn-1896
 filon-de-somniis-grc-wendland-1898
 filon-de-specialibus-legibus-grc-cohn-1906
 filon-de-virtutibus-grc-cohn-1906
@@ -630,6 +632,7 @@ filon-in-flaccum-grc-cohn-reiter-1915
 filon-legatio-ad-gaium-grc-cohn-reiter-1915
 filon-legum-allegoriae-grc-cohn-1896
 filon-quis-rerum-divinarum-heres-sit-grc-wendland-1898
+filon-quod-deterius-potiori-insidiari-soleat-grc-cohn-1896
 filon-quod-omnis-probus-liber-sit-grc-cohn-reiter-1915
 genesis-grc-lxx-swe
 gorgias-defesa-de-palamedes-grc-blass-1908
