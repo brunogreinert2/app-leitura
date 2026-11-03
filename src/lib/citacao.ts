@@ -42,7 +42,9 @@ export function comoCitar(
   const urn = meta.urn ? String(meta.urn) : ''
   const resp: string[] = []
   if (meta.translator) resp.push(`${w.traducao} ${nomes(meta.translator)}`)
-  if (meta.editor) resp.push(`${w.edicao} ${nomes(meta.editor)}`)
+  // cite_in: a obra maior (ABNT) já traz o editor dentro; vence o «Edição de».
+  if (meta.cite_in) resp.push(`In: ${String(meta.cite_in).replace(/[.\s]+$/, '')}`)
+  else if (meta.editor) resp.push(`${w.edicao} ${nomes(meta.editor)}`)
   const versao = VERSAO_ACERVO ? `, ${w.versao} ${VERSAO_ACERVO}` : ''
   const texto =
     (autor ? `${autor.toUpperCase()}. ` : '') +

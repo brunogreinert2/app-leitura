@@ -16,7 +16,7 @@ import type { Persistencia } from '../lib/usePersistencia'
  */
 const META_LABELS = [
   'title', 'subtitle', 'original_title', 'author', 'translator', 'translation',
-  'editor', 'base_edition', 'year_original', 'publisher', 'publication_year',
+  'editor', 'base_edition', 'cite_in', 'dk', 'year_original', 'publisher', 'publication_year',
   'language', 'area', 'era', 'born', 'died', 'nationality', 'source', 'tags',
   'coautoria', 'status', 'type', 'project',
   // identidade e proveniência (esquema do acervo, Saneamento 2026-09-29)

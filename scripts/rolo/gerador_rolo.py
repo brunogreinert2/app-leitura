@@ -62,6 +62,7 @@ ETIQUETAS_IDIOMA = {
     "heb": "he", "he": "he",
     "arc": "arc",
     "rus": "ru", "ru": "ru",
+    "deu": "de", "ger": "de", "de": "de",
 }
 RX_ETIQUETA_IDIOMA = re.compile(r"\s*\^([A-Za-z-]{2,6})\s*$")
 
@@ -529,6 +530,7 @@ ROTULOS = [
     ("translation", "Tradutor"),              # nome antigo; sai na migração (Saneamento)
     ("editor", "Editor"),
     ("base_edition", "Edição de base"),
+    ("dk", "Diels-Kranz (5ª ed. em diante)"),
     ("language", "Idioma"),
     # TRECHOS NOUTRA LINGUA. Um livro pode estar quase todo numa lingua e
     # trazer capitulos inteiros noutra: Daniel 2:4b-7:28 e Esdras 4:8-6:18 e
@@ -588,7 +590,11 @@ def como_citar(meta: dict, slug: str, site: str) -> tuple[str, str]:
     resp = []
     if meta.get("translator"):
         resp.append(f"Tradução de {_nomes(meta['translator'])}")
-    if meta.get("editor"):
+    # cite_in: a obra maior (ABNT) já traz o editor dentro; vence o «Edição de».
+    # Sem ela a citação perde a edição ao sair da página (Διαφορεύς, 2026-11-02).
+    if meta.get("cite_in"):
+        resp.append(f"In: {str(meta['cite_in']).rstrip('. ')}")
+    elif meta.get("editor"):
         resp.append(f"Edição de {_nomes(meta['editor'])}")
     versao = f", versão {VERSAO_ACERVO}" if VERSAO_ACERVO else ""
     partes = [f"{autor.upper()}. " if autor else "", f"{titulo}. ",
@@ -621,6 +627,12 @@ def ficha_html(meta: dict, slug: str, md_href: str, site: str = "https://pedraan
         pelo_urn = f"{site}/urn/?{meta['urn']}"
         itens.append(f'        <dt>Endereço por URN</dt><dd style="overflow-wrap:anywhere"><a href="{atributo(pelo_urn)}">{html.escape(pelo_urn)}</a>'
                      f' <span class=n>(uma passagem: acrescente <code>:216a</code>, <code>:1.1</code>…)</span></dd>')
+    if meta.get("dk"):
+        dk = str(meta["dk"])
+        pelo_dk = f"{site}/urn/?DK%20{dk.replace(' ', '%20')}"
+        itens.append(f'        <dt>Endereço por Diels-Kranz</dt><dd style="overflow-wrap:anywhere"><a href="{atributo(pelo_dk)}">'
+                     f'{html.escape(site)}/urn/?DK {html.escape(dk)}</a>'
+                     f' <span class=n>(um fragmento: acrescente o número, <code>DK {html.escape(dk)} 12</code>)</span></dd>')
     texto, bib = como_citar(meta, slug, site)
     # endereço e BibTeX são compridos: quebram na tela do celular, sem rolagem lateral
     quebra = "overflow-wrap:anywhere"
@@ -1087,6 +1099,8 @@ def gerar_obra(entrada: dict, raiz_corpus: Path, template: str, saida: Path, css
         "partes": len(partes),
         "partes_grandes": grandes,
         "urn": str(meta.get("urn") or ""),
+        # capítulo e seção de Diels-Kranz ("59 B"), para /urn/?DK 59 B 12
+        "dk": str(meta.get("dk") or ""),
         # o prefixo das âncoras de versículo desta obra (anchor-gn-1-1 -> "gn"),
         # para o resolvedor de URN levar "bible.Gen.alm-por1:1.1" ao versículo
         "ancora": (re.search(r'id="anchor-([a-z0-9]+)-\d+-\d+"', corpo) or [None, ""])[1],
@@ -1558,10 +1572,25 @@ RESOLVEDOR_URN = r"""<script>
 /* /urn/?<urn>[:<passagem>] -> a obra no rolo, na passagem. Sem JavaScript, a
    lista abaixo faz o mesmo trabalho à mão. */
 (function () {
-  var q = decodeURIComponent((location.search || location.hash).replace(/^[?#]/, ''));
-  if (!/^urn:cts:/.test(q)) return;
+  var q = decodeURIComponent((location.search || location.hash).replace(/^[?#]/, '').replace(/\+/g, ' ')).trim();
+  /* "DK 59 B 12": a numeração de Kranz, a que se cita hoje. Leva ao arquivo
+     que declara `dk: 59 B`, mesmo quando ele segue a numeração de 1922. */
+  var dk = q.match(/^DK\s*(\d{1,2})\s*([ABC])\s*(\d+[a-z]?)?$/i);
+  if (!dk && !/^urn:cts:/.test(q)) return;
   var saida = document.getElementById('resolvendo');
   saida.hidden = false;
+  if (dk) {
+    fetch('dk.json').then(function (r) { return r.json(); }).then(function (mapa) {
+      var obras = mapa[+dk[1] + ' ' + dk[2].toUpperCase()] || [];
+      var pass = dk[3] ? '#marker-' + dk[3].toLowerCase() : '';
+      if (!obras.length) { saida.textContent = 'Este número de Diels-Kranz ainda não está no acervo: ' + q; return; }
+      if (obras.length === 1) { location.replace('/rolo/' + obras[0][0] + '.html' + pass); return; }
+      saida.innerHTML = q + ' está em ' + obras.length + ' edições do acervo:<ul>' + obras.map(function (o) {
+        return '<li><a href="/rolo/' + o[0] + '.html' + pass + '">' + o[1] + '</a></li>';
+      }).join('') + '</ul>';
+    });
+    return;
+  }
   fetch('mapa.json').then(function (r) { return r.json(); }).then(function (mapa) {
     var p = q.split(':');                       // urn cts ns obra [passagem]
     var obra = p.slice(0, 4).join(':'), pass = p.slice(4).join(':');
@@ -1597,6 +1626,12 @@ def gerar_urn(fichas: list[dict], saida: Path, site: str) -> int:
     com_urn = sorted((f for f in fichas if f.get("urn")), key=lambda f: f["urn"])
     mapa = {f["urn"]: [f["slug"], f.get("ancora", ""), f["titulo"]] for f in com_urn}
     (pasta / "mapa.json").write_text(json.dumps(mapa, ensure_ascii=False, separators=(",", ":")), encoding="utf-8")
+    # "59 B" -> [[slug, título], …]: o resolvedor aceita "DK 59 B 12"
+    mapa_dk: dict[str, list] = {}
+    for f in sorted(fichas, key=lambda f: f["slug"]):
+        if f.get("dk"):
+            mapa_dk.setdefault(f["dk"], []).append([f["slug"], f["titulo"]])
+    (pasta / "dk.json").write_text(json.dumps(mapa_dk, ensure_ascii=False, separators=(",", ":")), encoding="utf-8")
 
     grupos: dict[str, list[dict]] = {}
     for f in com_urn:
@@ -1636,6 +1671,11 @@ def gerar_urn(fichas: list[dict], saida: Path, site: str) -> int:
         "<code>capítulo.versículo</code>).</p><ul>",
         *[f'<li><a href="{atributo(site + "/urn/?" + u)}">{html.escape(site)}/urn/?{html.escape(u)}</a> '
           f'<span class=n>— {html.escape(r)}</span></li>' for u, r in ex],
+        "</ul><p>Os pré-socráticos também se acham pelo número de Diels-Kranz, na numeração de "
+        "Kranz (5ª ed. em diante), mesmo quando a edição do acervo é a de 1922, que numera os "
+        "capítulos de outro jeito:</p><ul>",
+        f'<li><a href="{atributo(site + "/urn/?DK%2059%20B%2012")}">{html.escape(site)}/urn/?DK 59 B 12</a> '
+        '<span class=n>— Anaxágoras, B 12 (no Diels de 1922, o capítulo 46)</span></li>',
         "</ul><h2>Todas as URNs (sem JavaScript)</h2><ul>",
         *[f'<li><a href="{atributo(n)}.html">{html.escape(site)}/urn/{html.escape(n)}.html</a> '
           f'<span class=n>— {q} obras</span></li>' for n, q in listas],

@@ -53,6 +53,15 @@
       "$ref": "#/$defs/texto",
       "x-antes": ["edition", "edicao_base"]
     },
+    "cite_in": {
+      "description": "A obra maior em que o texto está, já na forma da referência (ABNT), sem o «In:» e sem ponto final. Entra no «Como citar» e no note do BibTeX como «In: …», no lugar do «Edição de <editor>»: a citação sai da página levando a edição consigo. Ex.: \"DIELS, Hermann (ed.). Die Fragmente der Vorsokratiker. 4. ed. Berlim: Weidmann, 1922, v. 1\".",
+      "$ref": "#/$defs/texto"
+    },
+    "dk": {
+      "description": "Capítulo e seção na numeração de Diels-Kranz (5ª ed. em diante, a que se cita hoje), quando o arquivo segue outra (a 4ª ed. de Diels, 1922, numera os capítulos de outro jeito: Anaxágoras é o 46 lá e o 59 aqui). O rolo mostra o número na ficha e o resolvedor aceita «DK 59 B 12» (/urn/?DK 59 B 12). Ex.: \"59 B\".",
+      "type": "string",
+      "pattern": "^[1-9][0-9]? [ABC]$"
+    },
     "publisher": { "$ref": "#/$defs/texto" },
     "year_original": {
       "description": "Data da obra original, se conhecida. Texto livre: \"c. 360 a.C.\" vale.",
