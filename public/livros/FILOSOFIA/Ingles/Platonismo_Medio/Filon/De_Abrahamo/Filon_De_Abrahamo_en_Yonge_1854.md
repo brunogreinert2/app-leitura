@@ -588,6 +588,8 @@ processing: Saneamento/obra_nova_tei.py and conversor_tei.py (profile divs), 202
 
 [276] Such is the life of the first author and founder of our nation; a man according to the law, as some persons think, but, as my argument has shown, one who is himself the unwritten law and justice of God. [^41] [^42]
 
+> Ὁ Διαφορεύς παρῆν
+
 [^1]: Genesis iv. 26.
 [^2]: Genesis v. 1.
 [^3]: Genesis iv. 26.

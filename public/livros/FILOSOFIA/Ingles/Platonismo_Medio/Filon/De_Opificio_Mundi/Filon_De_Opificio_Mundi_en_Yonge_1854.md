@@ -435,6 +435,8 @@ The fifth lesson that Moses teaches us is, that God exerts his providence for th
 
 [172] For it follows of necessity that the Creator must always care for that which he has created, just as parents do also care for their children. And he who has learnt this not more by hearing it than by his own understanding, and has impressed on his own soul these marvellous facts which are the subject of so much contention—namely, that God has a being and existence, and that he who so exists is really one, and that he has created the world, and that he has created it one as has been stated, having made it like to himself in singleness; and that he exercises a continual care for that which he has created will live a happy and blessed life, stamped with the doctrines of piety and holiness.
 
+> Ὁ Διαφορεύς παρῆν
+
 [^1]: This is in accordance with the description of him in the Bible, where he is represented as being learned in all the wisdom of the Egyptians.
 [^2]: Philo means that οὐρανος was derived either from ὅρος, a boundary, or from ὁράω, to see, ὁρατὸς, visible.
 [^3]: By addition, that is: 1 + 2 + 3 + 4 = 10.

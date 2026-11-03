@@ -419,6 +419,8 @@ processing: Saneamento/obra_nova_tei.py and conversor_tei.py (profile divs), 202
 
 [191] Such was the end of Flaccus, who suffered thus, being made the most manifest evidence that the nation of the Jews is not left destitute of the providential assistance of God.
 
+> Ὁ Διαφορεύς παρῆν
+
 [^1]: She was the sister of the emperor, and at her death her brother ordered that divine honours should be raid to her.
 [^2]: She was the sister of the emperor, and at her death her brother ordered that divine honours should be raid to her.
 [^3]: This was a common place of banishment for criminals. Juvenal says — Aude aliquid brevibus Gyaris, et carcere dignum, Si vis esse aliquis.- i. 72.

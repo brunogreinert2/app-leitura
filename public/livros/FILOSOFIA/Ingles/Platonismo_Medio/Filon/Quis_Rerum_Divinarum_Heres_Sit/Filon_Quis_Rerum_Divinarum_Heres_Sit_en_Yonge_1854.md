@@ -668,6 +668,8 @@ processing: Saneamento/obra_nova_tei.py and conversor_tei.py (profile divs), 202
 
 [316] For he has not described the country as reaching from the river Euphrates to the river of Egypt (for he would never have brought over virtue towards the passions of the body), but on the contrary, he has said from the river of Egypt to the river Euphrates. For the migrations are from mortal things to things incorruptible. [^200]
 
+> Ὁ Διαφορεύς παρῆν
+
 [^1]: Genesis xv. 1.
 [^2]: Exodus iv. 10.
 [^3]: Genesis xv. 1.

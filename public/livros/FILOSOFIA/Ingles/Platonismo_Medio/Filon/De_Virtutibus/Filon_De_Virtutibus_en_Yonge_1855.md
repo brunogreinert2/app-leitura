@@ -494,6 +494,8 @@ But even those men who have been their ancestors were only animals, subject to d
 
 [227] Than which I do not know that there can possibly be a more mischievous doctrine, if there is no avenging punishment to follow those who being descended of virtuous parents have made themselves, and if on the contrary no honour is to be assigned to those who have become good though born of wicked parents, though the law judges each man by himself, and does not praise or blame any one with reference to the virtues or vices of his ancestors.
 
+> Ὁ Διαφορεύς παρῆν
+
 [^1]: This seems to be an imitation of what Plato says in the Protagoras. "We must not look upon all bold (θαρραλέους) men as courageous (ἀνδρείους), for boldness is derived from human skill, or from anger, or from madness; but courage arises only from nature, and from a good disposition of the soul."—P. 350.
 [^2]: This seems to be an imitation of what Plato says in the Protagoras. "We must not look upon all bold (θαρραλέους) men as courageous (ἀνδρείους), for boldness is derived from human skill, or from anger, or from madness; but courage arises only from nature, and from a good disposition of the soul."—P. 350.
 [^3]: The Greek word is σωφροσύνη, from σώζω, "to preserve," and φρήν, "the mind," or as Philo says, from σωτηρία, "salvation," τῷ φρονοῦντι, "to our thinking part."

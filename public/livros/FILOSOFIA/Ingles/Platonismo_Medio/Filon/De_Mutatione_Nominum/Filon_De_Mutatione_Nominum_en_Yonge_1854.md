@@ -580,6 +580,8 @@ But, also, this same person is God, inasmuch as he is wise, and as on this accou
 
 [270] And the words, "He finished speaking to him," [^189] are equivalent to saying, he made his hearer perfect, though he was devoid of wisdom before, and he filled him with immortal lessons. But when his disciple became perfect, the Lord went up and departed from Abraham, showing, not that he separated himself from him; for the wise man is naturally an attendant of God, not wishing to represent the spontaneous inclination of the disciple in order that as he had learnt while his teacher was no longer standing by him, and without any necessity urging him, giving of his own accord a specimen of himself, and displaying a voluntary and spontaneous eagerness to learn, he might for the future exert his energies by himself; for the teacher assigns a model to him who has learnt by [^190] [^191] [^192] voluntary study without any suggestions from other quarters, stamping on him a most durable species of indelible recollection.
 
+> Ὁ Διαφορεύς παρῆν
+
 [^1]: Genesis xvn. 1.
 [^2]: Numbers xviii. 26.
 [^3]: Genesis xvn. 1.

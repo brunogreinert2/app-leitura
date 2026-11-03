@@ -432,6 +432,8 @@ processing: Saneamento/obra_nova_tei.py and conversor_tei.py (profile divs), 202
 
 [198] So that it is proper that the harmony of the virtues should be arranged and cherished by God, and that he should dissolve [^122] and destroy wickedness; and confusion is a name most appropriate to wickedness, of which every foolish man is a visible proof, having all his words, and intentions, and actions, incapable of standing an examination and destitute of steadiness.
 
+> Ὁ Διαφορεύς παρῆν
+
 [^1]: Genesis xi 1.
 [^2]: Genesis xi 1.
 [^3]: Genesis xiv. 3.

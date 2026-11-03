@@ -392,6 +392,8 @@ processing: Saneamento/obra_nova_tei.py and conversor_tei.py (profile divs), 202
 
 [178] Or may we not suppose that this mark was set upon Cain to prevent his being slain, as a token that he would never be destroyed? For he has never once mentioned his death in the whole of the law, showing enigmatically that, like that fabulous monster Scylla, so also folly is an undying evil, which never entirely perishes, and yet which as to its capability of dying receives all time, and is never wholly free from death. And I would that the opposite event might happen, that all evils might be utterly eradicated, and might endure total destruction; but as it is they are constantly budding forth, and inflict an incurable disease on all who are once infected by them.
 
+> Ὁ Διαφορεύς παρῆν
+
 [^1]: Genesis iv. 8.
 [^2]: Genesis xxxi. 4.
 [^3]: Genesis iv. 8.

@@ -402,6 +402,8 @@ processing: Saneamento/obra_nova_tei.py and conversor_tei.py (profile divs), 202
 
 [183] On this account he who is not persuaded by, and who shows no respect to, conviction, when it thus opposes him, will, in his turn, incur destruction with the wounded, [^91] whom the passions have wounded and overthrown; and his calamity will be a most sufficient lesson for all those who are not utterly impure, to endeavour to keep the judge, that is within them, favourable to them, and he will be so if they do not reverse what has been rightly decided by him. [^92]
 
+> Ὁ Διαφορεύς παρῆν
+
 [^1]: Genesis vi. 2.
 [^2]: Genesis xxii. 2,
 [^3]: Genesis xxii. 9.

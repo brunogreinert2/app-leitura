@@ -578,6 +578,8 @@ And after these years there will come a period of seven years entirely contrary 
 
 [270] Of these hundred and ten years he spent seventeen, till the expiration of his boyhood, in his father’s house; and thirteen he passed amid unforeseen events, being plotted against, and sold, and becoming a slave, and having false accusations brought against him, and being thrown into prison; and the remaining eighty years he spent in authority and in all manner of prosperity, being the most excellent manager and administrator both of scarcity and plenty, and the most competent of all men to manage affairs under either complexion of circumstances. END OF VOL. II. HADDON, BROTHERS, AND CO., PRINTERS, CASTLE STREET. FINSEURY.
 
+> Ὁ Διαφορεύς παρῆν
+
 [^1]: Genesis xxxvii. 7.
 [^2]: Genesis xxxvii. 7.
 [^3]: Genesis xlii. 1.

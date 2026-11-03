@@ -174,6 +174,8 @@ processing: Saneamento/obra_nova_tei.py and conversor_tei.py (profile divs), 202
 
 [69] And very appropriately has he assigned the fool to be a slave to those who cultivate virtue, that, either by passing under a better government he may live a better life, or if he continue in evil doing he may easily be punished by the independent authority of his masters. [^34] END OF VOL. I. HADDON, BROTHERS, AND CO., PRINTERS, CASTLE STREET, FINSBURY.
 
+> Ὁ Διαφορεύς παρῆν
+
 [^1]: Genesis ix. 23.
 [^2]: Genesis ix. 23.
 [^3]: Genesis xxi. 14.

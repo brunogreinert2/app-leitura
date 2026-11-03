@@ -400,6 +400,8 @@ The serpent, then, which appeared to the woman, that is to life depending on the
 
 [181] These things then are here said about beginning and end, because of the instance of the just Noah, who, after he had acquired the first and elementary principles of the knowledge of husbandry, was unable to reach its furthest limits. For it is said that "he began to be a husbandman," not that he arrived at the extreme end of complete knowledge: but what is said about his planting we will discuss subsequently.
 
+> Ὁ Διαφορεύς παρῆν
+
 [^1]: Genesis ix. 20.
 [^2]: Genesis ix. 20.
 [^3]: Deuteronomy xx. 20.

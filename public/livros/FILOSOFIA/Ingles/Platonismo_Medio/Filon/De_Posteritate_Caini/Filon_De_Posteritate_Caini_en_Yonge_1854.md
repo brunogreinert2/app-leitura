@@ -406,6 +406,8 @@ processing: Saneamento/obra_nova_tei.py and conversor_tei.py (profile divs), 202
 
 [185] Rightly therefore have cities established a custom, that before they turn arms and engines of destruction against one another to lead to slavery and utter destruction, they should seek to persuade all the citizens to put an [^159] end to the great and formidable and unceasing factions which exist in themselves, for faction [^160] [^161] [^162] and sedition, if we must speak the truth, is the archetypal model of wars, and if that be destroyed, there will no longer be any wars which are made in imitation of it; but the race of mankind will attain to the blessing and enjoyment of profound peace, being taught by the law of nature, that is, by virtue, to honour God, and to cleave to the employment of serving him, for this is the source of happiness and length of life,
 
+> Ὁ Διαφορεύς παρῆν
+
 [^1]: Genesis iv. 16.
 [^2]: Genesis iv. 16.
 [^3]: Deuteronomy xxx. 20.

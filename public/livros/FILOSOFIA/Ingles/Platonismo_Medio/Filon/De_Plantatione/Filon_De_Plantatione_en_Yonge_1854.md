@@ -390,6 +390,8 @@ processing: Saneamento/obra_nova_tei.py and conversor_tei.py (profile divs), 202
 
 [177] Some one then will say in opposition that, according to the argument that has been advanced, the wise man must never have a bilious attack, and never go to sleep, and above all must never die. But he to whom some of these things happens is either an inanimate being or a divine one; but beyond all question he is not a man at all. Imitating this perversion of the arguments, one may apply it equally to a bilious man, or to a sleeping man, or to a dying man; for no one in his senses would tell a secret to a man in any of these conditions, but it would be reasonable for him to tell it to a wise man, for the wise man is never bilious, never goes to sleep, and never dies.
 
+> Ὁ Διαφορεύς παρῆν
+
 [^1]: Genesis ix. 20.
 [^2]: Οὐρανὸς, "heaven;" as if derived from ὅρος or οὖρος, "a boundary."
 [^3]: Genesis ix. 20.

@@ -577,6 +577,8 @@ processing: Saneamento/obra_nova_tei.py and conversor_tei.py (profile divs), 202
 
 [^74]
 
+> Ὁ Διαφορεύς παρῆν
+
 [^1]: p. 578 M.
 [^2]: περὶ— μετονομάζονται Α, τοῦ αὐτοῦ Φίλωνος Ἰουδαίου περὶ . . . . 1 Ἁβραὰμ per totum librum ΑΒ ἐννενήκοντα codd., item lin. 3 2 ὁ θεός σου Β: θεὸς σός Α et .sic § 18. 27. 29. 31, sed ὁ θεός σου LXX et Philo vol. II p. 54,9 et vol. II p. 180,29 Mang. 5 καὶ #x003E; coni. Mang. 7 ἀπάρχονται ἑτέρας Β ἑκατοστόν Mang.: ἑκατὸν codd. 7. S ante προκοπῆς ras. 3 litt. in Β, καὶ ex Coisl. 43 add. Mang. 13 prius τὸ Β: τὸν Α 14 μὲν οἱ scripsi: μόνοι codd.
 [^3]: 1 post φ ras. in Β 8 νοήσῃς τὸ ὄν, ὅπερ πρὸς Hoeschel 9 ὄργανον Mang.: ὁρᾶν codd. 10 φαντασιωθῆναι Cohn: φαντασιασθῆναι codd. 11 γὰρ ex Coisl. 43 et codice Oxon. Coll. Novi 143 Mang.: οὑν ΑΒ ἔστιν] ἦν Hoesch. νοῦν scripsi: ἰσχύν codd. Μωσῆς codd. 12 καὶ θεόπτης secl. Cohn, καὶ θεοπρόπος coniciebam αὐτόν φασιν Β 13 θεῖοι D: om. codd. καὶ ἀσώματον D: om. codd. 15 ἀγαθὸν D: om. codd. 16 τῶν ἐλπιζομένων Hoesch. 18 γνωστῶς] εἰ s. s. Β, ἵνα add. Richter ὅμως D: ὁμοίως codd. 19 θνητῶν Mang.: θνητῷ codd. 20 τῶν addidi

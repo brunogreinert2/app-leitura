@@ -396,6 +396,8 @@ processing: Saneamento/obra_nova_tei.py and conversor_tei.py (profile divs), 202
 
 [180] When, therefore, you hear that Hagar was afflicted by Sarah, you must not suppose that any of those things befell her, which arise from rivalry and quarrels among women; for the question is not here about woman, but about minds; the one being practised in the branches of elementary instruction, and the other being devoted to the labours of virtue.
 
+> Ὁ Διαφορεύς παρῆν
+
 [^1]: Genesis xvi. 1.
 [^2]: Genesis xvi. 1.
 [^3]: Genesis xxix. 31.

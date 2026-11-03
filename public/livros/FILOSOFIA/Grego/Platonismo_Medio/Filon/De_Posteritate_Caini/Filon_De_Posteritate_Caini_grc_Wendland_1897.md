@@ -411,6 +411,8 @@ processing: Saneamento/obra_nova_tei.py and conversor_tei.py (profile divs), 202
 
 [^72]
 
+> Ὁ Διαφορεύς παρῆν
+
 [^1]: p. 226 M.
 [^2]: Titulus idem exstat. in indice codicis V (γίγνεται V, γίνεται U), v. Prolegomena vol. p. XXXVI. λόγος ζ΄ mg. U 2 Ναίδυ Mang. 3 Μωυσέως λεχθέντων coni. Cohn 4 ἀποδεούσης Mang. 10 χεῖρας καὶ βάσεις, ἔτι δ’ αὖ καὶ τὰ Holwerda: χεῖρας, ἔτι δ’ αὐγαστέρα (sic) βάσεις καὶ τὰ U 14 τὰ ὅλα male Tisch. 15 ὥστε μηδὲ Mang.
 [^3]: 5 sqq. ὅ Aristobulum apud Eus. Praep. ev. VIII 10. Origenes De principtis IV 16 p. 175 (= Philocalia p. 24 Robinson): ἀλλὰ καὶ Κάιν ἐξερχόμενος ἀπὸ προσώπου τοῦ θεοῦ σαφῶς τοῖς ἐπιστήσασι φαίνεται κινεῖν τὸν ἐντυγχάνοντα ζητεῖν πρόσωπον θεοῦ καὶ ἐξέρχεσθαί τινα ἀπ᾿ αὐτοῦ (τί πρόσωπον θεοῦ καὶ τί coni. Philonis opera vol. II 1

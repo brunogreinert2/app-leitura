@@ -321,6 +321,8 @@ processing: Saneamento/obra_nova_tei.py and conversor_tei.py (profile divs), 202
 
 [^107]
 
+> Ὁ Διαφορεύς παρῆν
+
 [^1]: 1. p. 163 Μ.
 [^2]: ΦΙΛωΝΟC ΠΕΡΙ ΓΕΝΕCΕωC ΑΒΕΛ ΚΑΙ ωΝ ΑΥΤΟC ΤΕ ΚΑΙ o ΑΔΕΛΦΟC ΙΕΡΟΥΡΓΟΥCI Pap, περὶ γενέσεως ἄβελ καὶ ὧν αὐτὸς καὶ ὁ ἀδελφὸς αὐτοῦ Κάιν ἱερουργοῦσιν UF, φίλωνος περὶ ὧν ἱερουργοῦσιν ἔ τε καὶ κάϊν M, φίλωνος ἰουδαίου περὶ ὧν ἱερουργοῦσιν ἄβελ τὲ καὶ κάϊν Α, περὶ ὧν ἱερουργοῦσιν ἄβελ τε καὶ κάϊν GHP 1 τὸν Ἄβελ add. Pap F : τὸν om. U, τὸν Ἄβελ om. ceteri 3 δὴ] δεῖ Α φατὲ MPL 4 τὸν om. Mang., Κάιν om. Α ἶνα μηδὲ ’P, αἰνὰ δὲ μηδὲ 5 ἐπισκοπὴ Pap 5. 6 πειρασόμεθα ὡς ἄν οἶόν τε ἦ transp. F6 πειρασώμεθα Α 6. 7 καὶ μαχομένας] διαμαχομενος Pap 7 ἀλλήλας P τῷ] τῶν U πάντ’ UF ἐπιγράφουσαν Pap UF: ἐπιτρέπουσαν MA, ἐπιγράφουσαν ἐπιτρέπουσαν P, ἐπιγράφειν ἐπιτρέπουσαν G, ἐπιγράφεσθαι ἐπιτρέπουσαν H
 [^3]: 1 — 4 Ambros. de Cain et Abel 1 1,3 Et adiecit parere Abel. Cum adiicitur aliquid, quod prius erat tollitur; idque colligitur ex arithmeticae portionibus aut animac cogitationibus: addito enim numero fit alius numerus, aboietur superior, et cogitatio accedens nova excludit superiorem. ergo cum adiicitur Abel, aufertur Oain. sqq. ibid. § 4 Duae itaque sectae sunt sub duorum fratrum nomine compugnantes invicem et contrariae sibi: una quae totum menti suae deputat tamquam principali et quasi cuidam cogitationis et sensus et motus omnis auctori, boc est quae omnes inventiones bumano ascribit ingenio; altera quae tamquam operatori et creatori omnium Deo defert et eius tamquam parentis atque rectoris subdit oinnia gubernaculo. illa prior Cain significatur, liaec posterior Abel dicitur.

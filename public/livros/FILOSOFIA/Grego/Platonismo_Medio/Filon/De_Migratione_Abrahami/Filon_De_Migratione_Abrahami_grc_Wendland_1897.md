@@ -491,6 +491,8 @@ processing: Saneamento/obra_nova_tei.py and conversor_tei.py (profile divs), 202
 
 [^66]
 
+> Ὁ Διαφορεύς παρῆν
+
 [^1]: p.436 M.
 [^2]: φίλωνος περὶ ἀποικίας MA: τοῦ αὐτοῦ περὶ ἀποικίας P, περὶ ἀποικίας H1H2 (usque ad p. 271,3 Η2 significat exordiuin huiiis libri iteruin fol. 375 traditum : v. Prolegomena) 1 ἁβραάμ AH1H2P ἄπελθε] πορεύου MA 5 σε] σου Η2 7 καθῆραι M, ex corr. Η1, H2P: καθαρᾶι Α 8 τῶν τριῶν Η2 post αἰσθήσεως postea add. καὶ H1
 [^3]: 9 sqq. Ambrosius De Abraham lib. 111,2: ideoque dicitur ei: exi de terra tua, id est de corpore tuo .... et de coguatione, inquit, tua. cognati sunt animae nostrae corporis sensus. dividitur euim in duo anima nostra, in id quod est rationabile et in id quod est irrationabile. in eo autem quod est irrationabile sensus sunt: ergo cognati sunt partis rationabilis, hoc est mentis. et de domo tua, inquit, exi. domus mentis prolativum est verbum. sicut enim pater familias habitat in domo sua et in potestate habet quemadmoduin regat domum suam, ita etiam mens in sermonibus nostris habitat et gubernat verba nostra, et vis eius ac disciplina in sermone elucet. ut bonus pater famiiias a primo vestibu10 domus aestimatur, ita etiam de sermonibus nostris mens nostra perpenditur. deuique etiam modulis vocis pulsat et revocat. lib. I 2,4: consideremus, ne forte hoc sit „exire de terra sua“ de huius terrae, hoc est de 10rporis nostri quadam commoratione egredi . . . . et de illecebris et delectationibus corporalibus, quas velut cognatas animae nostrae dixit. . . .

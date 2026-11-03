@@ -785,6 +785,8 @@ On this account he began, he, this hater of the citizens, this devourer of the p
 
 [373] We have now related in a concise and summary manner the cause of the hatred of Caius to the whole nation of the Jews; we must now proceed to make our palinode to Caius.
 
+> Ὁ Διαφορεύς παρῆν
+
 [^1]: There seems some corruptiou in the text here.
 [^2]: There seems some corruptiou in the text here.
 [^3]: The golden age was said to have existed during the reign of Saturn upon earth. So Tibullus says— Quam bene vivebant Saturno rege, priusquam Tellus in longas est patefacta vias. And Virgil— Aureus hand vitam in terris Saturnus agebat.

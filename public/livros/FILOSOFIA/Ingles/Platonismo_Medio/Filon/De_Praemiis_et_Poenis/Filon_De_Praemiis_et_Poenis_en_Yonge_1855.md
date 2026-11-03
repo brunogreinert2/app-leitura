@@ -384,6 +384,8 @@ And the most excellent of all, having taken the post of leader as if in a chorus
 
 [172] For as, when the trunk of a tree is cut down, if the roots are not taken away, new shoots spring up, by which the old trunk is again restored to life as it were; in the very same manner, if there be only left in the soul ever so small a seed of virtue, when everything else is destroyed, still, nevertheless, from that little seed there spring up the most honourable and beautiful qualities among men; by means of which, cities, which were formerly populous and flourishing, are again inhabited, and nations are led to become wealthy and powerful.
 
+> Ὁ Διαφορεύς παρῆν
+
 [^1]: Genesis v. 24.
 [^2]: Genesis v. 24.
 [^3]: Genesis iv. 14.

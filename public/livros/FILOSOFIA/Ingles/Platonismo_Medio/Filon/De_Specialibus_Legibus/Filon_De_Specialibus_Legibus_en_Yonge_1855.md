@@ -2041,6 +2041,8 @@ For all these men are hastening to the same end, even though they are not all in
 
 [4.238] For, on the contrary, inequality is the cause of diseases and wickednesses; and the existence of the longest lived man of the human race would fail, if he were to attempt to enumerate all the praiseworthy qualities of equality, and of its offspring, justice. In consequence of which it seems to me to be best to be satisfied with what has already been said, which may be sufficient to rouse up the recollection of those persons who are fond of learning, and to leave the remaining circumstances unwritten in their souls, as divine images in a most sacred place.
 
+> Ὁ Διαφορεύς παρῆν
+
 [^1]: in Yonge, this is "A TREATISE ON CIRCUMCISION."
 [^2]: The Greek word is ἄνθραξ, which also signifies a coal. The Latin, from which our carbuncle is derived, carbunculus, a diminutive of carbo, which also means a coal.
 [^3]: The Greek word is ἄνθραξ, which also signifies a coal. The Latin, from which our carbuncle is derived, carbunculus, a diminutive of carbo, which also means a coal.

@@ -1299,6 +1299,8 @@ I am not ignorant that the man who desires to be an excellent and perfect lawgiv
 
 [2.292] Such was the life and such was the death of the king, and lawgiver, and high priest, and prophet, Moses, as it is recorded in the sacred scriptures.
 
+> Ὁ Διαφορεύς παρῆν
+
 [^1]: The similitude of this passage to Sir William Jones’ Ode is very remarkable; "What constitutes a state."
 [^2]: The similitude of this passage to Sir William Jones’ Ode is very remarkable; "What constitutes a state."
 [^3]: The text here is very corrupt.

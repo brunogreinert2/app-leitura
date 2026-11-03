@@ -170,6 +170,8 @@ processing: Saneamento/obra_nova_tei.py and conversor_tei.py (profile divs), 202
 
 [67] and it would be consistent in the truth to say that, according to the most holy Moses, the bad man, as being one destitute of a home and of a city, without any settled habitation, and a fugitive, is naturally a deserter also; but the good man is the firmest of allies. Having said thus much at present, and dwelt sufficiently on the subject of the giants, we will now proceed to what comes next in our subject, which is this. [^33] [^34]
 
+> Ὁ Διαφορεύς παρῆν
+
 [^1]: Genesis vL 1.
 [^2]: Genesis vL 1.
 [^3]: Genesis vi. 2.

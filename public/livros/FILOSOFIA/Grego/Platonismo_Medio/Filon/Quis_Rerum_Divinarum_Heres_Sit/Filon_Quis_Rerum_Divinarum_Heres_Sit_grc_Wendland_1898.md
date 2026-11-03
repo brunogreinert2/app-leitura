@@ -675,6 +675,8 @@ processing: Saneamento/obra_nova_tei.py and conversor_tei.py (profile divs), 202
 
 [^106]
 
+> Ὁ Διαφορεύς παρῆν
+
 [^1]: p.473 M.
 [^2]: φίλωνος Pap: φίλωνος ἰουδαίου ΑΒ, τοῦ αὐτοῦ P, om. OGH ἐστιν Pap Eus: πραγμάτων codd. καὶ περὶ—τομῆς om. OP καὶ] ἡ Pap Eus εἰς τὰ ἴσα Pap Eus: ἴσα codd. 1 συνταξει Pap: βίβλῳ codd. τὰ πέρι Pap: περὶ codd. 2 νυν Pap ζητεῖν om. Pap 3. 4 θεσπισθεντος ὁ add. ex codd.) σοφὸς ἤκουσε λογίου Pap: θεσπισθέντος λογίου τοιούτου ὁ σοφὸς ἤκουσεν codd. ἤκουεν Α 4 έσται Pap: om. codd. 5 δέσποτα τι μοι Pap: τί μοι, δέσποτα codd. ἀπολύομαι Pap: ἀπελεύσομαι codd. ὁ Μασεκ Pap (Mang.): μου ὀ ἐκ codd. οἰκογενοῦς Pap: ἱκέτιδος O, οἰκέτιδος ceteri μου om. Α κληρονομήσει (κληρονομήσειέ Ο) με add. post μου codd., om. Pap 7 om. Pap (probat Cohn) 9 εἰ καὶ OAB 10 αἱ om. OAB 11 αἱ Pap N: om. ceteri Μωσῆς codd. N 11. 12 καὶ βραδύγλωσσος ὁμολογεῖ transpos. codd. N
 [^3]: 8—2,4 καίτοι—φιλοσοφοῦντα N fol. 165r.

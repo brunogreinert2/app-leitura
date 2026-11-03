@@ -488,6 +488,8 @@ processing: Saneamento/obra_nova_tei.py and conversor_tei.py (profile divs), 202
 
 For justice hates the wicked, and is implacable, and a relentless avenger of all unrighteous actions, overthrowing the ranks of those who defile virtue, and when they are overthrown, then [^209] [^210] again the soul, which before appeared to be defiled, changes and returns to its virgin state. I say, which appeared to be defiled, because, in fact, it never was defiled; for of involuntary accidents that which affects the patient is not in reality his suffering, just as what is done by a person who does wrong unintentionally, the wrong is not really his action.
 
+> Ὁ Διαφορεύς παρῆν
+
 [^1]: Genesis XII. 1.
 [^2]: Genesis iii. 19.
 [^3]: Genesis XII. 1.

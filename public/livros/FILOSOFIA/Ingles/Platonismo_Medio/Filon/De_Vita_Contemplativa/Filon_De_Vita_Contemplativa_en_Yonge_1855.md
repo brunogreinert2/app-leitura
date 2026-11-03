@@ -220,6 +220,8 @@ Then, when they are thoroughly sated both with the sight and with the scent, the
 
 [90] This then is what I have to say of those who are called therapeutae, who have devoted themselves to the contemplation of nature, and who have lived in it and in the soul alone, being citizens of heaven and of the world, and very acceptable to the Father and Creator of the universe because of their virtue, which has procured them his love as their most appropriate reward, which far surpasses all the gifts of fortune, and conducts them to the very summit and perfection of happiness.
 
+> Ὁ Διαφορεύς παρῆν
+
 [^1]: From θεραπεύω, " to heal."
 [^2]: From θεραπεύω, " to heal."
 [^3]: The Greek is ἔξαψις, as if "Ηφαιστος were also derived from ἅπτομαι, being akin to ἁφὴ.

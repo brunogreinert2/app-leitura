@@ -484,6 +484,8 @@ processing: Saneamento/obra_nova_tei.py and conversor_tei.py (profile divs), 202
 
 [224] For which wounds, however, we pray that a relief may be found by propitiating the all-merciful God, in order that he may destroy this wild vine, and may condemn the eunuchs and all persons who are barren of virtue to everlasting punishment; and that, instead of them he may implant in our souls the valuable trees of right instruction, and may bestow upon us noble and masculine reason as its fruit, such as is able to bear within it good actions by way of seed, and is able to increase the virtues, and is calculated to maintain and preserve for ever the entire connection and system of happiness.
 
+> Ὁ Διαφορεύς παρῆν
+
 [^1]: Genesis xxvii. 30.
 [^2]: Genesis xxvii. 30.
 [^3]: Deuteronomy xxi. 18.

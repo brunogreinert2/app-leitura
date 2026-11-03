@@ -468,6 +468,8 @@ And the most ancient word of the living God is clothed with the word as with a g
 
 [213] But O, thou soul! advancing in wisdom and plunging deep into the knowledge of the elementary parts of encyclical instruction, thou wast not able to see the cause of thy knowledge in instruction as in a mirror. But the most appropriate place for such a well is in the midst, between Caddes and Barad; and the name Barad, being interpreted, means "in common," and Caddes means "holy;" for the person who is in a state of imprisonment is on the confines between what is holy and what is profane, fleeing from what is wicked, and being not yet able to live in the company of what is perfectly good.
 
+> Ὁ Διαφορεύς παρῆν
+
 [^1]: Genesis xvi. 8.
 [^2]: Genesis xvi. 8.
 [^3]: Genesis xvi. 8.

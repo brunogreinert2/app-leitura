@@ -316,6 +316,8 @@ processing: Saneamento/obra_nova_tei.py and conversor_tei.py (profile divs), 202
 
 [139] and this is why the dominant part is kept away from sacrifices, but if it is subjected to examination, then, when all its parts have been purified, it will be consecrated as [^106] a burnt offering, free from all stain, and from all pollution. For this is the law respecting whole burnt offerings, that with the exception of the refuse of the food, and of the skin which are tokens of the weakness of the body and not of wickedness, nothing else should be left to the creature, but that all the other parts which exhibit the soul perfect in all its parts, should be presented as a whole burnt offering to God.
 
+> Ὁ Διαφορεύς παρῆν
+
 [^1]: Genesis iv. 2.
 [^2]: Genesis xxv. 24.
 [^3]: Genesis iv. 2.

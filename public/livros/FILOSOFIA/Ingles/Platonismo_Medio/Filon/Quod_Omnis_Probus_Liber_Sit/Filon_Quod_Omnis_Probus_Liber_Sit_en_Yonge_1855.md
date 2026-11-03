@@ -365,6 +365,8 @@ CALANUS TO ALEXANDER, GREETING
 
 [160] And all the souls which are not as yet partakers of either of these two classes, neither of that which is enslaved, nor of that by which prudence is confirmed, but which are still naked like those of completely infant children; those we must nurse and cherish carefully, prescribing for them at first tender food instead of milk, namely, instruction in the encyclical sciences, and after that stronger food, such as is prepared by philosophy, by which they will be strengthened so as to become manly, and in good condition, and conducted on to a favourable end, not more that recommended by you than enjoined by the oracle, / "To live in conformity to nature."
 
+> Ὁ Διαφορεύς παρῆν
+
 [^1]: Compare Moore—"You may break, you may shatter the vase if you will,But the scent of the roses will hang round it still."
 [^2]: Compare Moore—"You may break, you may shatter the vase if you will,But the scent of the roses will hang round it still."
 [^3]: It is not known from what play this line comes; it is placed among the Incerta Fragmenta, No 89, by Brunck.

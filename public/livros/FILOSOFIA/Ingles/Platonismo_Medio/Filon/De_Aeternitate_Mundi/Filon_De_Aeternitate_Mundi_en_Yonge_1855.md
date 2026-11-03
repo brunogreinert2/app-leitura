@@ -337,6 +337,8 @@ processing: Saneamento/obra_nova_tei.py and conversor_tei.py (profile divs), 202
 
 [150] I have now then set forth to the best of my ability what I have been able to learn or to understand concerning the indestructibility of the world, and in the subsequent treatises I shall proceed to show what may be said against each of the arguments here stated.
 
+> Ὁ Διαφορεύς παρῆν
+
 [^1]: This is similar to Lucretius’s doctrine- Nil igitur fieri de nihilo posse putandum est.
 [^2]: From the Chrysippus of Euripides.
 [^3]: This is similar to Lucretius’s doctrine- Nil igitur fieri de nihilo posse putandum est.

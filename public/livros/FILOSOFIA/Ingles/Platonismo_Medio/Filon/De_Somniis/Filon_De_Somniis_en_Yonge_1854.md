@@ -1157,6 +1157,8 @@ processing: Saneamento/obra_nova_tei.py and conversor_tei.py (profile divs), 202
 
 [2.302] For our present discussion is not about the history of rivers but about ways of life, which are compared to the streams of rivers, running in opposite directions to one another. For the life of the good man consists in actions; but that of the wicked man is seen to consist only in words. And speech in the tongue, and mouth, and lips, and [^261] [^262]
 
+> Ὁ Διαφορεύς παρῆν
+
 [^1]: Genesis xxviii. 12.
 [^2]: Genesis xxvi. 33.
 [^3]: Genesis xxviii. 12.

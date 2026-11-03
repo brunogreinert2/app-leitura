@@ -440,6 +440,8 @@ Of the second table, the first commandment is that against adulterers, under whi
 
 [178] For it is proper for all the ministers and lieutenants of God, just as for generals in war, to put in practise severe punishments against those deserters, who forsake the ranks of the just one; but it becomes the great King, that general safety should be ascribed to him, as preserving the universe in peace, and giving at all times, to all people, in all riches and abundance, all the blessings of peace: for, in truth, God is the president of peace, but his subordinate ministers are the chiefs of war.
 
+> Ὁ Διαφορεύς παρῆν
+
 [^1]: Liddell and Scott explain this as meaning such even numbers as become odd when divided, as 2, 6, 10, 14, etc.
 [^2]: Liddell and Scott explain this as meaning such even numbers as become odd when divided, as 2, 6, 10, 14, etc.
 [^3]: Exodus xx. 13.

@@ -982,6 +982,8 @@ But the better way of understanding this passage is the following: God is alone:
 
 [3.253] On which account, God adds that, “Dust thou art, and unto dust shalt thou return.” And this is equivalent to what has been said before. Moreover this sentence also signifies, the beginning and the end are one and the same thing. For there hadst thou beginning in the perishable bodies of the earth; and again, thou shalt end in them, during the interval of your life, between its beginning and its end, passing along a road which is not plain and easy, but rough, full of briars and thorns, the nature of which is to tear and wound thee.
 
+> Ὁ Διαφορεύς παρῆν
+
 [^1]: Genesis ii. 1.
 [^2]: i. e. Minerva
 [^3]: Genesis ii. 2..

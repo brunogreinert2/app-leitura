@@ -426,6 +426,8 @@ processing: Saneamento/obra_nova_tei.py and conversor_tei.py (profile divs), 202
 
 [^52]
 
+> Ὁ Διαφορεύς παρῆν
+
 [^1]: II p. 517 M.
 [^2]: 1. 2 Φίλωνος εἰς φλάκκον M, εἰς φλάκκον Η: φλάκκος ψεγόμενος G (= Phot. Bibl. cod. 105), Φίλωνος ἱστορία πάνυ ὠφέλιμος καὶ tw βίω χρήσιμος τὰ κατά τόν φλάκκον ἤτοι περὶ προνοίας Α Libelli partem, qua exponebatur Seiani acerbitas adversus ludaeos eiusque exitium (cf. p. 154, 7 καί), deperisse recte animadvertit Massebieau 4 ἀούλλιος G, ϊούλιος Α 6 ἄντικρυς oui. Turn. 8 ἐπιὼν G: ἐπὶ ceteri (v) τοὺς om. G 9 ἁπανταχοῦ M πάντας G: om. ceteri (v) 9. 10 ἰσχὺς 06 πρόσεστι CMGA (Anton. Mel.): ἰ. ἐστιν οὐδαμῶς Η (Turn.) ; οὐ πρόσεστιν ἰσχὺς Mang. 10 ἐπιβολὰς coni. Mang. 11 οὑν Α: om. ceteri (v) ἐν]ἐπὶ G 12 Ἱβήρου scripsi (cf. Dio C. LVIII 19, 6 et Dessau, Prosopogr. imp. Rom. II 143): βήρου G, σεβήρου celeri (v) #x003E; Αἴγυπτον coni. Cohn 15 προχειρότατα L (Turn.) 16. 17 παντάπασι γοῦν G 18 δὲ M τοῖς] τοῖς] τῆς M
 [^3]: 9—11 C fol. 123v ἐκ τοῦ περὶ Φλάλκου λόγου DR fol. 247v τοῦ II 86 Col. 1208 Φίλωνος: οἷς ἰσχὺς — κατορθοῦσιν.
