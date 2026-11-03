@@ -615,6 +615,7 @@ ferreira-manual-do-cidadao-pt-1834-v01
 ferreira-manual-do-cidadao-pt-1834-v02
 ferreira-manual-do-cidadao-pt-1834-v03
 filolau-fragmentos-grc-diels-1922
+filon-de-abrahamo-en-yonge-1854
 filon-de-abrahamo-grc-cohn-1902
 filon-de-aeternitate-mundi-grc-cohn-reiter-1915
 filon-de-agricultura-en-yonge-1854
@@ -631,6 +632,7 @@ filon-de-fuga-et-inventione-en-yonge-1854
 filon-de-fuga-et-inventione-grc-wendland-1898
 filon-de-gigantibus-en-yonge-1854
 filon-de-gigantibus-grc-wendland-1897
+filon-de-josepho-en-yonge-1854
 filon-de-josepho-grc-cohn-1902
 filon-de-migratione-abrahami-en-yonge-1854
 filon-de-migratione-abrahami-grc-wendland-1897
@@ -652,6 +654,7 @@ filon-de-somniis-grc-wendland-1898
 filon-de-specialibus-legibus-grc-cohn-1906
 filon-de-virtutibus-grc-cohn-1906
 filon-de-vita-contemplativa-grc-cohn-reiter-1915
+filon-de-vita-mosis-en-yonge-1855
 filon-de-vita-mosis-grc-cohn-1902
 filon-in-flaccum-grc-cohn-reiter-1915
 filon-legatio-ad-gaium-grc-cohn-reiter-1915

@@ -9669,6 +9669,27 @@
       "autor": "Philo of Alexandria",
       "arquivo": "FILOSOFIA/Ingles/Platonismo_Medio/Filon/De_Somniis/Filon_De_Somniis_en_Yonge_1854.md",
       "sistema_referencia": "capitulo-secao"
+    },
+    {
+      "id": "filon-de-abrahamo-en-yonge-1854",
+      "titulo": "On Abraham",
+      "autor": "Philo of Alexandria",
+      "arquivo": "FILOSOFIA/Ingles/Platonismo_Medio/Filon/De_Abrahamo/Filon_De_Abrahamo_en_Yonge_1854.md",
+      "sistema_referencia": "capitulo-secao"
+    },
+    {
+      "id": "filon-de-josepho-en-yonge-1854",
+      "titulo": "On Joseph",
+      "autor": "Philo of Alexandria",
+      "arquivo": "FILOSOFIA/Ingles/Platonismo_Medio/Filon/De_Josepho/Filon_De_Josepho_en_Yonge_1854.md",
+      "sistema_referencia": "capitulo-secao"
+    },
+    {
+      "id": "filon-de-vita-mosis-en-yonge-1855",
+      "titulo": "On the Life of Moses",
+      "autor": "Philo of Alexandria",
+      "arquivo": "FILOSOFIA/Ingles/Platonismo_Medio/Filon/De_Vita_Mosis/Filon_De_Vita_Mosis_en_Yonge_1855.md",
+      "sistema_referencia": "capitulo-secao"
     }
   ],
   "redirecionamentos": {
