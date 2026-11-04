@@ -1,7 +1,7 @@
 // MOTOR DO ECOSSISTEMA — cópia gerada, NÃO EDITE AQUI.
 // Fonte: C:\Claude\parser\motor\remarkMarkers.ts
 // Para mudar: edite a fonte e rode `npm run espalhar` em C:\Claude\parser.
-// sha256: d4e2fd4e0fef4ca0252af56a31a1aa9743c5f1b4017aa9235a67c22228ef3702
+// sha256: 119d782bbbc085c39fd19026849c91642a805c9b25ee155acd64767d314fa457
 import { visit } from 'unist-util-visit'
 import type { Root, Text, PhrasingContent } from 'mdast'
 import type { VFile } from 'vfile'
@@ -21,7 +21,11 @@ import type { VFile } from 'vfile'
  */
 // D26 (2026-09-29): o primeiro nível pode ser um nome seguido de nível numérico
 // ([Agis.1.1], [frag_1.1]); colchete editorial ([sic]) continua fora.
-export const MARKER_RE = /\[((?:\d+(?:[a-z]\d*)?|[A-Za-z][A-Za-z0-9_]*(?=\.\d))(?:\.[0-9a-z]+)*)\]/g
+// 2026-11-04 (Διαφορεύς, Cícero): o «_» também nos níveis seguintes, para a
+// carta que o editor juntou a outra e numera com as duas — Ad Atticum XIII
+// 14+15, n="14_15" no TEI: [13.14_15.2], e não [13.14.15.2], que se leria
+// livro 13, carta 14, seção 15.2. Só acrescenta: nenhum marcador do acervo muda.
+export const MARKER_RE = /\[((?:\d+(?:[a-z]\d*)?|[A-Za-z][A-Za-z0-9_]*(?=\.\d))(?:\.[0-9a-z_]+)*)\]/g
 
 interface MarkerNode {
   type: 'canonicalMarker'
