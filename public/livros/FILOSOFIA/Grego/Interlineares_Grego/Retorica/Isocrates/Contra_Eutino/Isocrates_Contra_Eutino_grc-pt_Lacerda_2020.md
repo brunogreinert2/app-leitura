@@ -2,7 +2,7 @@
 id: isocrates-contra-eutino-grc-pt-lacerda-2020
 type: interlinear
 title: Contra Eutino (sem testemunhas) (Grego–Português)
-author: Isócrates
+author: Isocrates
 language:
 - grc
 - por

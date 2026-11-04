@@ -2,7 +2,7 @@
 id: evagrio-pontico-sobre-as-oposicoes-de-virtudes-e-vicios-grc-pt-pinheiro-2022
 type: interlinear
 title: Sobre as oposições de virtudes e vícios (Grego–Português)
-author: Evágrio Pôntico
+author: Evagrius Ponticus
 language:
 - grc
 - por

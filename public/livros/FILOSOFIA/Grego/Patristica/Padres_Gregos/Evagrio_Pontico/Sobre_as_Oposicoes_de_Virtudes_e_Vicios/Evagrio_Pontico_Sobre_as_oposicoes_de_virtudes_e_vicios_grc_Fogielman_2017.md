@@ -2,7 +2,7 @@
 id: evagrio-pontico-sobre-as-oposicoes-de-virtudes-e-vicios-grc-fogielman-2017
 type: primary_text
 title: Περὶ τὰς ἀντιζύγους τῶν ἀρετῶν κακίας
-author: Evágrio Pôntico
+author: Evagrius Ponticus
 language: grc
 related:
 - evagrio-pontico-sobre-as-oposicoes-de-virtudes-e-vicios-pt-pinheiro-2022

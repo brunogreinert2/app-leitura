@@ -2,7 +2,7 @@
 id: isocrates-contra-eutino-grc-marzi-1991
 type: primary_text
 title: ΠΡΟΣ ΕΥΘΥΝΟΥΝ (ἀμάρτυρος)
-author: Isócrates
+author: Isocrates
 language: grc
 related:
 - isocrates-contra-eutino-pt-lacerda-2020

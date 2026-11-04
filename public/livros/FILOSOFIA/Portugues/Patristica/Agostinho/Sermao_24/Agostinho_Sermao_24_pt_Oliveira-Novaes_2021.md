@@ -1,5 +1,5 @@
 ---
-id: agostinho-sermao-24-por-oliveira-novaes-2021
+id: agostinho-sermao-24-pt-oliveira-novaes-2021
 type: translation
 title: Sermão 24 — Deus, quem é semelhante a ti?
 author: Augustine of Hippo

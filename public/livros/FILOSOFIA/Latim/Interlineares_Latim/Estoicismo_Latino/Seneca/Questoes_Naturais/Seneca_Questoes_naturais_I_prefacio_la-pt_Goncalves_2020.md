@@ -1,5 +1,5 @@
 ---
-id: seneca-questoes-naturais-i-prefacio-lat-pt-goncalves-2020
+id: seneca-questoes-naturais-i-prefacio-la-pt-goncalves-2020
 type: interlinear
 title: Questões naturais — Prefácio do livro I (Latim–Português)
 author: Seneca
@@ -9,7 +9,7 @@ language:
 project: pedra_angular
 status: draft
 related:
-- seneca-questoes-naturais-i-prefacio-lat-hine-1996
+- seneca-questoes-naturais-i-prefacio-la-hine-1996
 - seneca-questoes-naturais-i-prefacio-pt-goncalves-2020
 scope: Book I, preface, sections 1–17.
 base_edition: Harry Hine (ed.), 1996. Gonçalves reproduces the Latin text on pp. 403–405 and identifies the edition in note 10.

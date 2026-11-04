@@ -14,8 +14,8 @@ project: pedra_angular
 scope: All 42 items of Instituta Laconica, Moralia 236F–240B.
 processing: Prepared by Διαφορεύς with Codex (GPT-6) using the Pedra Angular Conversor. The source is the bilingual journal edition. The ancient Greek text is reproduced under the journal article’s CC-BY-NC-4.0 license, without the modern editor’s critical apparatus.
 related:
-- plutarco-antigos-habitos-dos-lacedemonios-por-silva-2020
-- plutarco-antigos-habitos-dos-lacedemonios-grc-por-silva-2020
+- plutarco-antigos-habitos-dos-lacedemonios-pt-silva-2020
+- plutarco-antigos-habitos-dos-lacedemonios-grc-pt-silva-2020
 urn_work: urn:cts:greekLit:tlg0007.tlg082a
 editor: Wilhelm Nachstädt
 urn: urn:cts:greekLit:tlg0007.tlg082a.pa-grc1

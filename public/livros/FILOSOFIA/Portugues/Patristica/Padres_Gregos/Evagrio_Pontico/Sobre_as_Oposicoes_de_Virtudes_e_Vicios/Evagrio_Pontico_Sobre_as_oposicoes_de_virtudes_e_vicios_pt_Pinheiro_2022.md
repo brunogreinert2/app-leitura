@@ -2,7 +2,7 @@
 id: evagrio-pontico-sobre-as-oposicoes-de-virtudes-e-vicios-pt-pinheiro-2022
 type: translation
 title: Sobre as oposições de virtudes e vícios
-author: Evágrio Pôntico
+author: Evagrius Ponticus
 language: por
 related:
 - evagrio-pontico-sobre-as-oposicoes-de-virtudes-e-vicios-grc-fogielman-2017

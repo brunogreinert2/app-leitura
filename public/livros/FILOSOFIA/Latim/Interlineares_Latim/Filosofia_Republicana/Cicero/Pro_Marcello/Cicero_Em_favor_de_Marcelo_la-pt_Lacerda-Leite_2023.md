@@ -1,5 +1,5 @@
 ---
-id: cicero-em-favor-de-marcelo-lat-por-lacerda-leite-2023
+id: cicero-em-favor-de-marcelo-la-pt-lacerda-leite-2023
 type: interlinear
 title: Em favor de Marcelo (Latim–Português)
 author: Marcus Tullius Cicero
@@ -19,8 +19,8 @@ translator:
 - Bruno Amaro Lacerda
 - Leni Ribeiro Leite
 related:
-- cicero-em-favor-de-marcelo-por-lacerda-leite-2023
-- cicero-em-favor-de-marcelo-lat-clark-1978
+- cicero-em-favor-de-marcelo-pt-lacerda-leite-2023
+- cicero-em-favor-de-marcelo-la-clark-1978
 urn_work: urn:cts:latinLit:phi0474.phi032
 editor: Albert Curtis Clark
 urn: urn:cts:latinLit:phi0474.phi032.pa-por2

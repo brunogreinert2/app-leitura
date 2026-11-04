@@ -7,8 +7,8 @@ language: por
 project: pedra_angular
 status: draft
 related:
-- seneca-questoes-naturais-i-prefacio-lat-hine-1996
-- seneca-questoes-naturais-i-prefacio-lat-pt-goncalves-2020
+- seneca-questoes-naturais-i-prefacio-la-hine-1996
+- seneca-questoes-naturais-i-prefacio-la-pt-goncalves-2020
 scope: Book I, preface, sections 1–17.
 base_edition: Harry Hine (ed.), 1996. Gonçalves reproduces the Latin text on pp. 403–405 and identifies the edition in note 10.
 source: https://doi.org/10.34019/2318-3446.2020.v8.31784

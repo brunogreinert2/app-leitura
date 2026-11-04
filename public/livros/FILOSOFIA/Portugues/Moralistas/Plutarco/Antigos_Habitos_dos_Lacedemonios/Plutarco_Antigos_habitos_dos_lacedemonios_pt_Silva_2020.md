@@ -1,5 +1,5 @@
 ---
-id: plutarco-antigos-habitos-dos-lacedemonios-por-silva-2020
+id: plutarco-antigos-habitos-dos-lacedemonios-pt-silva-2020
 type: translation
 title: Antigos hábitos dos lacedemônios
 author: Plutarch
@@ -17,7 +17,7 @@ translator:
 - Maria Aparecida de Oliveira Silva
 related:
 - plutarco-antigos-habitos-dos-lacedemonios-grc-nachstadt-1971
-- plutarco-antigos-habitos-dos-lacedemonios-grc-por-silva-2020
+- plutarco-antigos-habitos-dos-lacedemonios-grc-pt-silva-2020
 urn_work: urn:cts:greekLit:tlg0007.tlg082a
 urn: urn:cts:greekLit:tlg0007.tlg082a.pa-por1
 ---

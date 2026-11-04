@@ -2,7 +2,7 @@
 id: plutarco-da-inveja-e-do-odio-grc-pt-silva-2025
 type: interlinear
 title: Da inveja e do ódio (Grego–Português)
-author: Plutarco
+author: Plutarch
 language:
 - grc
 - por

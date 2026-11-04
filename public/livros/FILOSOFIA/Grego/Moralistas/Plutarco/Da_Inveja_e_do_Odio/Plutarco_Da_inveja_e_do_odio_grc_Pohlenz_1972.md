@@ -2,7 +2,7 @@
 id: plutarco-da-inveja-e-do-odio-grc-pohlenz-1972
 type: primary_text
 title: Περὶ φθόνου καὶ μίσους
-author: Plutarco
+author: Plutarch
 language: grc
 related:
 - plutarco-da-inveja-e-do-odio-pt-silva-2025

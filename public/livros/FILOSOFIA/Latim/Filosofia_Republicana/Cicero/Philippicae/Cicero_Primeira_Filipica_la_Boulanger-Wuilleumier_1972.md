@@ -1,12 +1,12 @@
 ---
-id: cicero-primeira-filipica-lat-boulanger-wuilleumier-1972
+id: cicero-primeira-filipica-la-boulanger-wuilleumier-1972
 type: primary_text
 title: Oratio Philippica prima
-author: Marco Túlio Cícero
+author: Marcus Tullius Cicero
 language: lat
 related:
 - cicero-primeira-filipica-pt-abreu-2016
-- cicero-primeira-filipica-lat-pt-abreu-2016
+- cicero-primeira-filipica-la-pt-abreu-2016
 base_edition: André Boulanger and Pierre Wuilleumier (eds.), Discours, vol. XIX, Philippiques I à IV, Paris, Les Belles Lettres, 1972. Abreu also collated John T. Ramsey (2003).
 publication_year: 2016
 source: https://periodicos.ufjf.br/index.php/ronai/article/view/23136

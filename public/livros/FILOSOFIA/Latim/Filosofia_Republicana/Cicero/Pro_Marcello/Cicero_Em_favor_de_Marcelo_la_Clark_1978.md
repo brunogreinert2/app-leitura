@@ -1,5 +1,5 @@
 ---
-id: cicero-em-favor-de-marcelo-lat-clark-1978
+id: cicero-em-favor-de-marcelo-la-clark-1978
 type: primary_text
 title: Pro Marcello
 author: Marcus Tullius Cicero
@@ -14,8 +14,8 @@ project: pedra_angular
 scope: The complete speech Pro Marcello, sections 1–34.
 processing: Prepared by Διαφορεύς with Codex (GPT-6) using the Pedra Angular Conversor. The source is the bilingual journal edition. The ancient Latin text is reproduced under the journal article’s CC-BY-4.0 license, without the modern editor’s critical apparatus.
 related:
-- cicero-em-favor-de-marcelo-por-lacerda-leite-2023
-- cicero-em-favor-de-marcelo-lat-por-lacerda-leite-2023
+- cicero-em-favor-de-marcelo-pt-lacerda-leite-2023
+- cicero-em-favor-de-marcelo-la-pt-lacerda-leite-2023
 urn_work: urn:cts:latinLit:phi0474.phi032
 editor: Albert Curtis Clark
 urn: urn:cts:latinLit:phi0474.phi032.pa-lat1

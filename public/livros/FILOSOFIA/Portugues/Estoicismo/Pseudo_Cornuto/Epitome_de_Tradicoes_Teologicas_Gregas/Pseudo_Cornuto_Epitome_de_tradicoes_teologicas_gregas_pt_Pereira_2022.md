@@ -1,5 +1,5 @@
 ---
-id: pseudo-cornuto-epitome-de-tradicoes-teologicas-gregas-por-pereira-2022
+id: pseudo-cornuto-epitome-de-tradicoes-teologicas-gregas-pt-pereira-2022
 type: translation
 title: Epítome de tradições teológicas gregas
 author: Pseudo-Cornutus

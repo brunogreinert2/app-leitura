@@ -2,7 +2,7 @@
 id: plutarco-da-inveja-e-do-odio-pt-silva-2025
 type: translation
 title: Da inveja e do ódio
-author: Plutarco
+author: Plutarch
 language: por
 related:
 - plutarco-da-inveja-e-do-odio-grc-pohlenz-1972

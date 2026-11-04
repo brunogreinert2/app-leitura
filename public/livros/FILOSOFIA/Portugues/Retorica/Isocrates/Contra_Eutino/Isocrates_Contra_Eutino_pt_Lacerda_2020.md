@@ -2,7 +2,7 @@
 id: isocrates-contra-eutino-pt-lacerda-2020
 type: translation
 title: Contra Eutino (sem testemunhas)
-author: Isócrates
+author: Isocrates
 language: por
 related:
 - isocrates-contra-eutino-grc-marzi-1991

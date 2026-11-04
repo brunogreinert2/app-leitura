@@ -1,5 +1,5 @@
 ---
-id: hermes-trismegisto-a-cratera-ou-a-monada-por-cesar-2023
+id: hermes-trismegisto-a-cratera-ou-a-monada-pt-cesar-2023
 type: translation
 title: 'De Hermes para Tat: a cratera ou a mônada'
 author: Hermes Trismegistus

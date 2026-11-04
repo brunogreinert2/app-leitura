@@ -1,5 +1,5 @@
 ---
-id: quion-de-heracleia-epistolas-por-pereira-2023
+id: quion-de-heracleia-epistolas-pt-pereira-2023
 type: translation
 title: Epístolas
 author: Pseudo-Chion of Heraclea
