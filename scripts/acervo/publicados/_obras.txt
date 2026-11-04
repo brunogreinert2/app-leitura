@@ -468,6 +468,7 @@ cicero-de-natura-deorum-lat-latinlibrary-sd
 cicero-de-officiis-lat-latinlibrary-sd
 cicero-de-optimo-genere-oratorum-la-wilkins-1902
 cicero-de-oratore-la-wilkins-1902
+cicero-de-provinciis-consularibus-en-yonge-1891
 cicero-de-provinciis-consularibus-la-peterson-1909
 cicero-de-re-publica-lat-latinlibrary-sd
 cicero-de-re-publica-pt-anonimo-sd
@@ -496,9 +497,11 @@ cicero-post-reditum-in-senatu-en-yonge-1856
 cicero-post-reditum-in-senatu-la-peterson-1909
 cicero-pro-archia-en-yonge-1856
 cicero-pro-archia-la-clark-1911
+cicero-pro-balbo-en-yonge-1891
 cicero-pro-balbo-la-peterson-1909
 cicero-pro-caecina-en-yonge-1856
 cicero-pro-caecina-la-clark-1909
+cicero-pro-caelio-en-yonge-1891
 cicero-pro-caelio-la-clark-1908
 cicero-pro-cluentio-en-yonge-1856
 cicero-pro-cluentio-la-clark-1908
