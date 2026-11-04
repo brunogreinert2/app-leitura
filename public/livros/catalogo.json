@@ -9879,6 +9879,20 @@
       "autor": "Marcus Tullius Cicero",
       "arquivo": "FILOSOFIA/Ingles/Filosofia_Republicana/Cicero/Epistulae_ad_Quintum_Fratrem/Cicero_Epistulae_ad_Quintum_Fratrem_en_Shuckburgh_1908.md",
       "sistema_referencia": "capitulo-secao"
+    },
+    {
+      "id": "cicero-epistulae-ad-atticum-en-shuckburgh-1908",
+      "titulo": "Letters to Atticus",
+      "autor": "Marcus Tullius Cicero",
+      "arquivo": "FILOSOFIA/Ingles/Filosofia_Republicana/Cicero/Epistulae_ad_Atticum/Cicero_Epistulae_ad_Atticum_en_Shuckburgh_1908.md",
+      "sistema_referencia": "capitulo-secao"
+    },
+    {
+      "id": "cicero-pro-roscio-amerino-en-yonge-1856",
+      "titulo": "For Sextus Roscius of Ameria",
+      "autor": "Marcus Tullius Cicero",
+      "arquivo": "FILOSOFIA/Ingles/Filosofia_Republicana/Cicero/Pro_Roscio_Amerino/Cicero_Pro_Roscio_Amerino_en_Yonge_1856.md",
+      "sistema_referencia": "capitulo-secao"
     }
   ],
   "redirecionamentos": {

@@ -475,6 +475,7 @@ cicero-de-re-publica-pt-anonimo-sd
 cicero-de-senectute-lat-latinlibrary-sd
 cicero-divinatio-in-caecilium-en-yonge-1856
 cicero-divinatio-in-caecilium-la-peterson-1917
+cicero-epistulae-ad-atticum-en-shuckburgh-1908
 cicero-epistulae-ad-atticum-la-purser-1903
 cicero-epistulae-ad-brutum-en-shuckburgh-1908
 cicero-epistulae-ad-brutum-la-purser-1903
@@ -529,6 +530,7 @@ cicero-pro-rabirio-postumo-en-yonge-1891
 cicero-pro-rabirio-postumo-la-clark-1909
 cicero-pro-rege-deiotaro-en-yonge-1891
 cicero-pro-rege-deiotaro-la-clark-1918
+cicero-pro-roscio-amerino-en-yonge-1856
 cicero-pro-roscio-amerino-la-clark-1908
 cicero-pro-roscio-comoedo-en-yonge-1856
 cicero-pro-roscio-comoedo-la-clark-1909

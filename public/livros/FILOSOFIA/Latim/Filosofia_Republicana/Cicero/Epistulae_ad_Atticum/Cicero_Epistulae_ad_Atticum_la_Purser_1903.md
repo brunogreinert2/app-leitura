@@ -19,6 +19,8 @@ tags:
 - century-1-bce
 status: draft
 project: pedra_angular
+related:
+- cicero-epistulae-ad-atticum-en-shuckburgh-1908
 reference_system: chapter-section
 scope: Sections as numbered in Purser's edition (Perseus TEI), cited book.letter.section ([2.2.1]); the vulgate numbering of the letters (TEI vulgate-letter) as [vulg.13.14], and the letter the editor joined to the one before (TEI alt_letter) as [alt.13.15].
 urn_work: urn:cts:latinLit:phi0474.phi057
