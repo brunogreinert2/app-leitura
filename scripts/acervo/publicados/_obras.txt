@@ -489,6 +489,7 @@ cicero-philippicae-en-yonge-1903
 cicero-philippicae-la-clark-1918
 cicero-post-reditum-ad-quirites-la-peterson-1911
 cicero-post-reditum-in-senatu-la-peterson-1909
+cicero-pro-archia-en-yonge-1856
 cicero-pro-archia-la-clark-1911
 cicero-pro-balbo-la-peterson-1909
 cicero-pro-caecina-en-yonge-1856
@@ -501,6 +502,7 @@ cicero-pro-fonteio-la-clark-1911
 cicero-pro-ligario-la-clark-1918
 cicero-pro-marcello-la-clark-1918
 cicero-pro-milone-la-clark-1918
+cicero-pro-murena-en-yonge-1856
 cicero-pro-murena-la-clark-1908
 cicero-pro-plancio-la-clark-1911
 cicero-pro-quinctio-en-yonge-1856
@@ -513,6 +515,7 @@ cicero-pro-roscio-amerino-la-clark-1908
 cicero-pro-roscio-comoedo-en-yonge-1856
 cicero-pro-roscio-comoedo-la-clark-1909
 cicero-pro-sestio-la-peterson-1909
+cicero-pro-sulla-en-yonge-1856
 cicero-pro-sulla-la-clark-1911
 cicero-pro-tullio-en-yonge-1856
 cicero-pro-tullio-la-clark-1911
