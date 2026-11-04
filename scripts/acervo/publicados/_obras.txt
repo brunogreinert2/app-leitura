@@ -453,6 +453,7 @@ cicero-de-amicitia-lat-latinlibrary-sd
 cicero-de-divinatione-lat-latinlibrary-sd
 cicero-de-fato-lat-latinlibrary-sd
 cicero-de-finibus-bonorum-et-malorum-lat-latinlibrary-sd
+cicero-de-imperio-cn-pompei-la-clark-1908
 cicero-de-inventione-la-stroebel-1915
 cicero-de-legibus-lat-latinlibrary-sd
 cicero-de-natura-deorum-lat-latinlibrary-sd
@@ -470,6 +471,8 @@ cicero-pro-archia-la-clark-1911
 cicero-pro-caelio-la-clark-1908
 cicero-pro-milone-la-clark-1918
 cicero-pro-murena-la-clark-1908
+cicero-pro-quinctio-la-clark-1909
+cicero-pro-roscio-amerino-la-clark-1908
 cicero-timaeus-la-mueller-1898
 cicero-topica-lat-latinlibrary-sd
 cicero-tusculanae-disputationes-lat-latinlibrary-sd

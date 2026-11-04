@@ -9403,6 +9403,27 @@
       "autor": "Marcus Tullius Cicero",
       "arquivo": "FILOSOFIA/Latim/Filosofia_Republicana/Cicero/Pro_Murena/Cicero_Pro_Murena_la_Clark_1908.md",
       "sistema_referencia": "capitulo-secao"
+    },
+    {
+      "id": "cicero-de-imperio-cn-pompei-la-clark-1908",
+      "titulo": "De imperio Cn. Pompei",
+      "autor": "Marcus Tullius Cicero",
+      "arquivo": "FILOSOFIA/Latim/Filosofia_Republicana/Cicero/De_Imperio_Cn_Pompei/Cicero_De_Imperio_Cn_Pompei_la_Clark_1908.md",
+      "sistema_referencia": "capitulo-secao"
+    },
+    {
+      "id": "cicero-pro-quinctio-la-clark-1909",
+      "titulo": "Pro P. Quinctio",
+      "autor": "Marcus Tullius Cicero",
+      "arquivo": "FILOSOFIA/Latim/Filosofia_Republicana/Cicero/Pro_Quinctio/Cicero_Pro_Quinctio_la_Clark_1909.md",
+      "sistema_referencia": "capitulo-secao"
+    },
+    {
+      "id": "cicero-pro-roscio-amerino-la-clark-1908",
+      "titulo": "Pro Sex. Roscio Amerino",
+      "autor": "Marcus Tullius Cicero",
+      "arquivo": "FILOSOFIA/Latim/Filosofia_Republicana/Cicero/Pro_Roscio_Amerino/Cicero_Pro_Roscio_Amerino_la_Clark_1908.md",
+      "sistema_referencia": "capitulo-secao"
     }
   ],
   "redirecionamentos": {
