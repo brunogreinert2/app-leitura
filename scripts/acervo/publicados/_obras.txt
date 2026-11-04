@@ -462,8 +462,11 @@ cicero-de-oratore-la-wilkins-1902
 cicero-de-re-publica-lat-latinlibrary-sd
 cicero-de-re-publica-pt-anonimo-sd
 cicero-de-senectute-lat-latinlibrary-sd
+cicero-in-catilinam-la-clark-1908
 cicero-orator-la-wilkins-1902
 cicero-paradoxa-stoicorum-lat-latinlibrary-sd
+cicero-pro-archia-la-clark-1911
+cicero-pro-milone-la-clark-1918
 cicero-timaeus-la-mueller-1898
 cicero-topica-lat-latinlibrary-sd
 cicero-tusculanae-disputationes-lat-latinlibrary-sd
