@@ -9613,6 +9613,20 @@
       "autor": "Marcus Tullius Cicero",
       "arquivo": "FILOSOFIA/Latim/Filosofia_Republicana/Cicero/Epistulae_ad_Quintum_Fratrem/Cicero_Epistulae_ad_Quintum_Fratrem_la_Purser_1903.md",
       "sistema_referencia": "capitulo-secao"
+    },
+    {
+      "id": "cicero-brutus-la-wilkins-1902",
+      "titulo": "Brutus",
+      "autor": "Marcus Tullius Cicero",
+      "arquivo": "FILOSOFIA/Latim/Filosofia_Republicana/Cicero/Brutus/Cicero_Brutus_la_Wilkins_1902.md",
+      "sistema_referencia": "capitulo-secao"
+    },
+    {
+      "id": "cicero-partitiones-oratoriae-la-wilkins-1902",
+      "titulo": "Partitiones oratoriae",
+      "autor": "Marcus Tullius Cicero",
+      "arquivo": "FILOSOFIA/Latim/Filosofia_Republicana/Cicero/Partitiones_Oratoriae/Cicero_Partitiones_Oratoriae_la_Wilkins_1902.md",
+      "sistema_referencia": "capitulo-secao"
     }
   ],
   "redirecionamentos": {

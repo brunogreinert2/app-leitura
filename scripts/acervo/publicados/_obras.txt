@@ -449,6 +449,7 @@ cassiodoro-institutiones-lat-mynors-1937
 cebes-tabula-grc-praechter-1893
 cercope-testemunhos-grc-diels-1922
 cicero-academica-lat-latinlibrary-sd
+cicero-brutus-la-wilkins-1902
 cicero-de-amicitia-lat-latinlibrary-sd
 cicero-de-divinatione-lat-latinlibrary-sd
 cicero-de-domo-sua-la-peterson-1909
@@ -477,6 +478,7 @@ cicero-in-vatinium-la-peterson-1909
 cicero-in-verrem-la-peterson-1917
 cicero-orator-la-wilkins-1902
 cicero-paradoxa-stoicorum-lat-latinlibrary-sd
+cicero-partitiones-oratoriae-la-wilkins-1902
 cicero-philippicae-la-clark-1918
 cicero-post-reditum-ad-quirites-la-peterson-1911
 cicero-post-reditum-in-senatu-la-peterson-1909
