@@ -27,13 +27,36 @@ jobs:
       # nenhum arquivo do acervo piorou contra a norma. Falhou aqui, não publica.
       # O mesmo portão roda no commit (.githooks/pre-commit); este pega quem
       # commitou sem o gancho ativado.
+      #
+      # O portão confere um commit. O mesmo commit já conferido não precisa de
+      # outra volta (2026-11-04): o post novo do Diário dispara este deploy do
+      # mesmo commit do app, que já passou. A marca «passou» fica no cache do
+      # Actions, pela SHA do commit; commit novo, ou cache vencido, confere tudo.
       - uses: actions/setup-python@v5
         with:
           python-version: '3.12'
+      - name: O portão já passou neste commit?
+        id: portao-visto
+        uses: actions/cache/restore@v4
+        with:
+          path: .portao-ok
+          key: portao-ok-${{ github.sha }}
+          lookup-only: true
       - name: Portão do acervo
+        if: steps.portao-visto.outputs.cache-hit != 'true'
         run: |
           pip install -r scripts/acervo/requirements.txt
           python scripts/acervo/portao_acervo.py --completo
+          echo "${{ github.sha }}" > .portao-ok
+      - name: Guardar que o portão passou neste commit
+        if: steps.portao-visto.outputs.cache-hit != 'true'
+        uses: actions/cache/save@v4
+        with:
+          path: .portao-ok
+          key: portao-ok-${{ github.sha }}
+      - name: Portão pulado
+        if: steps.portao-visto.outputs.cache-hit == 'true'
+        run: echo "Este commit (${{ github.sha }}) já passou no portão num deploy anterior."
 
       - uses: actions/setup-node@v4
         with:
@@ -68,7 +91,19 @@ jobs:
       #
       # --sem-gemeo-md porque o corpus já é servido em /livros/ — copiá-lo para
       # dentro de /rolo/ duplicaria 98 MB no site sem ganhar nada.
+      #
+      # Os rolos só dependem das obras (public/livros), do gerador (scripts/rolo)
+      # e do CITATION.cff: se nenhum mudou, saem iguais, e vêm do cache
+      # (2026-11-04, o deploy do Diário). O carimbo «Gerado em … commit …» fica
+      # o da geração de verdade.
+      - name: Rolos já gerados deste acervo?
+        id: rolos-vistos
+        uses: actions/cache/restore@v4
+        with:
+          path: dist/rolo
+          key: rolos-${{ hashFiles('public/livros/**', 'scripts/rolo/**', 'CITATION.cff') }}
       - name: Gerar rolos estáticos em /rolo/
+        if: steps.rolos-vistos.outputs.cache-hit != 'true'
         run: |
           python scripts/rolo/gerador_rolo.py --tudo --sem-gemeo-md \
             --corpus public/livros \
@@ -76,6 +111,16 @@ jobs:
             --fontes scripts/rolo/fontes \
             --saida dist/rolo
           echo "rolos gerados: $(ls dist/rolo/*.html | wc -l) · $(du -sh dist/rolo | cut -f1)"
+      - name: Guardar os rolos
+        if: steps.rolos-vistos.outputs.cache-hit != 'true'
+        uses: actions/cache/save@v4
+        with:
+          path: dist/rolo
+          key: ${{ steps.rolos-vistos.outputs.cache-primary-key }}
+      - name: Rolos do cache
+        if: steps.rolos-vistos.outputs.cache-hit == 'true'
+        run: |
+          echo "rolos do cache (acervo igual): $(ls dist/rolo/*.html | wc -l) · $(du -sh dist/rolo | cut -f1)"
 
       # ---- o Pórtico em /portico/ (2026-09-29) ----
       # A norma, o andamento público, o diário e o conferidor de .md. As fontes

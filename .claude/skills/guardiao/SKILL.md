@@ -345,7 +345,12 @@ arquivo). Regras:
   trabalho — não um por obra** (decisão do dono, 2026-10-27, no garimpo da
   Archai). Enquanto a leva anda, o que valeria contar vai para o rascunho do
   post, guardado na ficha de andamento da frente.
-  O Pórtico se refaz no deploy do app (ou `gh workflow run deploy.yml`).
+  Publicar = commit e push no repositório `portico`: o workflow dele
+  (`.github/workflows/publicar.yml`) confere o post e dispara o deploy do app,
+  que, com o acervo igual, pula o portão e reaproveita os rolos (3 a 4 minutos,
+  2026-11-04). O dono pode escrever direto no site do GitHub. Se o deploy não
+  disparar (a chave `DEPLOY_APP_LEITURA` venceu?): `gh workflow run deploy.yml`
+  no app, e avise o dono.
 - **Ficha de andamento** (`C:\Claude\andamento\*.md`, ver `LEIA.md` lá): atualize
   a da frente que você tocou; depois `python C:\Claude\portico\gerar.py` e commit
   do `andamento_publico.json` no repositório `portico`.
