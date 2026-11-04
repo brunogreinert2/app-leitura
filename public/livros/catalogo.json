@@ -9445,6 +9445,27 @@
       "autor": "Marcus Tullius Cicero",
       "arquivo": "FILOSOFIA/Latim/Filosofia_Republicana/Cicero/Pro_Roscio_Comoedo/Cicero_Pro_Roscio_Comoedo_la_Clark_1909.md",
       "sistema_referencia": "capitulo-secao"
+    },
+    {
+      "id": "cicero-pro-caecina-la-clark-1909",
+      "titulo": "Pro A. Caecina",
+      "autor": "Marcus Tullius Cicero",
+      "arquivo": "FILOSOFIA/Latim/Filosofia_Republicana/Cicero/Pro_Caecina/Cicero_Pro_Caecina_la_Clark_1909.md",
+      "sistema_referencia": "capitulo-secao"
+    },
+    {
+      "id": "cicero-pro-fonteio-la-clark-1911",
+      "titulo": "Pro M. Fonteio",
+      "autor": "Marcus Tullius Cicero",
+      "arquivo": "FILOSOFIA/Latim/Filosofia_Republicana/Cicero/Pro_Fonteio/Cicero_Pro_Fonteio_la_Clark_1911.md",
+      "sistema_referencia": "capitulo-secao"
+    },
+    {
+      "id": "cicero-pro-tullio-la-clark-1911",
+      "titulo": "Pro M. Tullio",
+      "autor": "Marcus Tullius Cicero",
+      "arquivo": "FILOSOFIA/Latim/Filosofia_Republicana/Cicero/Pro_Tullio/Cicero_Pro_Tullio_la_Clark_1911.md",
+      "sistema_referencia": "capitulo-secao"
     }
   ],
   "redirecionamentos": {
