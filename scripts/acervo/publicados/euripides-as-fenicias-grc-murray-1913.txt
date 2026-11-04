@@ -1809,5 +1809,8 @@ anchor-v-996
 anchor-v-997
 anchor-v-998
 anchor-v-999
+nota-ref-1
+nota-ref-1-2
 parte:0
+parte:notas-1
 urn:cts:greekLit:tlg0006.tlg015.perseus-grc2

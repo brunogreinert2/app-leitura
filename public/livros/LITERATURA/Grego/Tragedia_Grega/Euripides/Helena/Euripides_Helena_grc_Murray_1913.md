@@ -23,9 +23,9 @@ urn: urn:cts:greekLit:tlg0006.tlg014.perseus-grc2
 source: https://github.com/PerseusDL/canonical-greekLit/tree/master/data/tlg0006/tlg014
 source_repo: PerseusDL/canonical-greekLit
 source_file: data/tlg0006/tlg014/tlg0006.tlg014.perseus-grc2.xml
-source_commit: e37eed2e8
+source_commit: 282e6f5a
 license: CC-BY-SA-4.0
-processing: Saneamento/obra_nova_tei.py e conversor_tei.py (perfil tragedia), 2026-11-03; preparado por Διαφορεύς, Claude Opus 5.5.
+processing: 'Saneamento/obra_nova_tei.py e conversor_tei.py (perfil tragedia), 2026-11-03; preparado por Διαφορεύς, Claude Opus 5.5. Reconvertido em 2026-11-04 do commit 282e6f5a do Perseus (a primeira versão saiu de e37eed2e8): os versos são os mesmos.'
 ---
 
 # Ἑλένη
@@ -4480,3 +4480,5 @@ processing: Saneamento/obra_nova_tei.py e conversor_tei.py (perfil tragedia), 20
 **1691** τῶν δʼ ἀδοκήτων πόρον ηὗρε θεός. ^v-1691
 
 **1692** τοιόνδʼ ἀπέβη τόδε πρᾶγμα. ^v-1692
+
+> Ὁ Διαφορεύς παρῆν

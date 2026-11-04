@@ -10531,6 +10531,466 @@
       "titulo": "Epístolas",
       "autor": "Pseudo-Chion of Heraclea",
       "arquivo": "FILOSOFIA/Portugues/Retorica/Quion_de_Heracleia/Epistolas/Quion_de_Heracleia_Epistolas_pt_Pereira_2023.md"
+    },
+    {
+      "id": "hesiodo-escudo-de-heracles-grc-evelyn-white-1914",
+      "titulo": "Ἀσπὶς Ἡρακλέους",
+      "autor": "Hesiod",
+      "arquivo": "LITERATURA/Grego/Epica_Grega/Hesiodo/Escudo_de_Heracles/Hesiodo_Escudo_de_Heracles_grc_Evelyn-White_1914.md"
+    },
+    {
+      "id": "hesiodo-teogonia-grc-evelyn-white-1914",
+      "titulo": "Θεογονία",
+      "autor": "Hesiod",
+      "arquivo": "LITERATURA/Grego/Epica_Grega/Hesiodo/Teogonia/Hesiodo_Teogonia_grc_Evelyn-White_1914.md"
+    },
+    {
+      "id": "hesiodo-trabalhos-e-dias-grc-evelyn-white-1914",
+      "titulo": "Ἔργα καὶ Ἡμέραι",
+      "autor": "Hesiod",
+      "arquivo": "LITERATURA/Grego/Epica_Grega/Hesiodo/Trabalhos_e_Dias/Hesiodo_Trabalhos_e_Dias_grc_Evelyn-White_1914.md"
+    },
+    {
+      "id": "hinos-homericos-hino-01-a-dioniso-grc-evelyn-white-1914",
+      "titulo": "Εἲς Διώνυσον",
+      "autor": "Anonymous",
+      "arquivo": "LITERATURA/Grego/Epica_Grega/Hinos_Homericos/Hino_01_a_Dioniso/Hinos_Homericos_Hino_01_a_Dioniso_grc_Evelyn-White_1914.md"
+    },
+    {
+      "id": "hinos-homericos-hino-02-a-demeter-grc-evelyn-white-1914",
+      "titulo": "Εἲς Δημήτραν",
+      "autor": "Anonymous",
+      "arquivo": "LITERATURA/Grego/Epica_Grega/Hinos_Homericos/Hino_02_a_Demeter/Hinos_Homericos_Hino_02_a_Demeter_grc_Evelyn-White_1914.md"
+    },
+    {
+      "id": "hinos-homericos-hino-03-a-apolo-grc-evelyn-white-1914",
+      "titulo": "Εἲς Ἀπόλλωνα [Δήλιον]",
+      "autor": "Anonymous",
+      "arquivo": "LITERATURA/Grego/Epica_Grega/Hinos_Homericos/Hino_03_a_Apolo/Hinos_Homericos_Hino_03_a_Apolo_grc_Evelyn-White_1914.md"
+    },
+    {
+      "id": "hinos-homericos-hino-04-a-hermes-grc-evelyn-white-1914",
+      "titulo": "Εἲς Ἑρμῆν",
+      "autor": "Anonymous",
+      "arquivo": "LITERATURA/Grego/Epica_Grega/Hinos_Homericos/Hino_04_a_Hermes/Hinos_Homericos_Hino_04_a_Hermes_grc_Evelyn-White_1914.md"
+    },
+    {
+      "id": "hinos-homericos-hino-05-a-afrodite-grc-evelyn-white-1914",
+      "titulo": "Εἲς Ἀφροδίτην",
+      "autor": "Anonymous",
+      "arquivo": "LITERATURA/Grego/Epica_Grega/Hinos_Homericos/Hino_05_a_Afrodite/Hinos_Homericos_Hino_05_a_Afrodite_grc_Evelyn-White_1914.md"
+    },
+    {
+      "id": "hinos-homericos-hino-06-a-afrodite-grc-evelyn-white-1914",
+      "titulo": "Εἲς Ἀφροδίτην",
+      "autor": "Anonymous",
+      "arquivo": "LITERATURA/Grego/Epica_Grega/Hinos_Homericos/Hino_06_a_Afrodite/Hinos_Homericos_Hino_06_a_Afrodite_grc_Evelyn-White_1914.md"
+    },
+    {
+      "id": "hinos-homericos-hino-07-a-dioniso-grc-evelyn-white-1914",
+      "titulo": "Εἲς Διώνυσον",
+      "autor": "Anonymous",
+      "arquivo": "LITERATURA/Grego/Epica_Grega/Hinos_Homericos/Hino_07_a_Dioniso/Hinos_Homericos_Hino_07_a_Dioniso_grc_Evelyn-White_1914.md"
+    },
+    {
+      "id": "hinos-homericos-hino-08-a-ares-grc-evelyn-white-1914",
+      "titulo": "Εἲς Ἄρεα",
+      "autor": "Anonymous",
+      "arquivo": "LITERATURA/Grego/Epica_Grega/Hinos_Homericos/Hino_08_a_Ares/Hinos_Homericos_Hino_08_a_Ares_grc_Evelyn-White_1914.md"
+    },
+    {
+      "id": "hinos-homericos-hino-09-a-artemis-grc-evelyn-white-1914",
+      "titulo": "Εἲς Ἄρτεμιν",
+      "autor": "Anonymous",
+      "arquivo": "LITERATURA/Grego/Epica_Grega/Hinos_Homericos/Hino_09_a_Artemis/Hinos_Homericos_Hino_09_a_Artemis_grc_Evelyn-White_1914.md"
+    },
+    {
+      "id": "hinos-homericos-hino-10-a-afrodite-grc-evelyn-white-1914",
+      "titulo": "Εἲς Ἀφροδίτην",
+      "autor": "Anonymous",
+      "arquivo": "LITERATURA/Grego/Epica_Grega/Hinos_Homericos/Hino_10_a_Afrodite/Hinos_Homericos_Hino_10_a_Afrodite_grc_Evelyn-White_1914.md"
+    },
+    {
+      "id": "hinos-homericos-hino-11-a-atena-grc-evelyn-white-1914",
+      "titulo": "Εἲς Ἀθήναν",
+      "autor": "Anonymous",
+      "arquivo": "LITERATURA/Grego/Epica_Grega/Hinos_Homericos/Hino_11_a_Atena/Hinos_Homericos_Hino_11_a_Atena_grc_Evelyn-White_1914.md"
+    },
+    {
+      "id": "hinos-homericos-hino-12-a-hera-grc-evelyn-white-1914",
+      "titulo": "Εἲς Ἥραν",
+      "autor": "Anonymous",
+      "arquivo": "LITERATURA/Grego/Epica_Grega/Hinos_Homericos/Hino_12_a_Hera/Hinos_Homericos_Hino_12_a_Hera_grc_Evelyn-White_1914.md"
+    },
+    {
+      "id": "hinos-homericos-hino-13-a-demeter-grc-evelyn-white-1914",
+      "titulo": "Εἲς Δημήτραν",
+      "autor": "Anonymous",
+      "arquivo": "LITERATURA/Grego/Epica_Grega/Hinos_Homericos/Hino_13_a_Demeter/Hinos_Homericos_Hino_13_a_Demeter_grc_Evelyn-White_1914.md"
+    },
+    {
+      "id": "hinos-homericos-hino-14-a-mae-dos-deuses-grc-evelyn-white-1914",
+      "titulo": "Εἲς Μητέρα Θεῶν",
+      "autor": "Anonymous",
+      "arquivo": "LITERATURA/Grego/Epica_Grega/Hinos_Homericos/Hino_14_a_Mae_dos_Deuses/Hinos_Homericos_Hino_14_a_Mae_dos_Deuses_grc_Evelyn-White_1914.md"
+    },
+    {
+      "id": "hinos-homericos-hino-15-a-heracles-grc-evelyn-white-1914",
+      "titulo": "Εἲς Ἡρακλέα Λεοντόθυμον",
+      "autor": "Anonymous",
+      "arquivo": "LITERATURA/Grego/Epica_Grega/Hinos_Homericos/Hino_15_a_Heracles/Hinos_Homericos_Hino_15_a_Heracles_grc_Evelyn-White_1914.md"
+    },
+    {
+      "id": "hinos-homericos-hino-16-a-asclepio-grc-evelyn-white-1914",
+      "titulo": "Εἲς Ἀσκληπιόν",
+      "autor": "Anonymous",
+      "arquivo": "LITERATURA/Grego/Epica_Grega/Hinos_Homericos/Hino_16_a_Asclepio/Hinos_Homericos_Hino_16_a_Asclepio_grc_Evelyn-White_1914.md"
+    },
+    {
+      "id": "hinos-homericos-hino-17-aos-dioscuros-grc-evelyn-white-1914",
+      "titulo": "Εἲς Διοσκούρους",
+      "autor": "Anonymous",
+      "arquivo": "LITERATURA/Grego/Epica_Grega/Hinos_Homericos/Hino_17_aos_Dioscuros/Hinos_Homericos_Hino_17_aos_Dioscuros_grc_Evelyn-White_1914.md"
+    },
+    {
+      "id": "hinos-homericos-hino-18-a-hermes-grc-evelyn-white-1914",
+      "titulo": "Εἲς Ἑρμῆν",
+      "autor": "Anonymous",
+      "arquivo": "LITERATURA/Grego/Epica_Grega/Hinos_Homericos/Hino_18_a_Hermes/Hinos_Homericos_Hino_18_a_Hermes_grc_Evelyn-White_1914.md"
+    },
+    {
+      "id": "hinos-homericos-hino-19-a-pa-grc-evelyn-white-1914",
+      "titulo": "Εἲς Πᾶνα",
+      "autor": "Anonymous",
+      "arquivo": "LITERATURA/Grego/Epica_Grega/Hinos_Homericos/Hino_19_a_Pa/Hinos_Homericos_Hino_19_a_Pa_grc_Evelyn-White_1914.md"
+    },
+    {
+      "id": "hinos-homericos-hino-20-a-hefesto-grc-evelyn-white-1914",
+      "titulo": "Εἲς Ἥφαιστον",
+      "autor": "Anonymous",
+      "arquivo": "LITERATURA/Grego/Epica_Grega/Hinos_Homericos/Hino_20_a_Hefesto/Hinos_Homericos_Hino_20_a_Hefesto_grc_Evelyn-White_1914.md"
+    },
+    {
+      "id": "hinos-homericos-hino-21-a-apolo-grc-evelyn-white-1914",
+      "titulo": "Εἲς Ἀπόλλωνα",
+      "autor": "Anonymous",
+      "arquivo": "LITERATURA/Grego/Epica_Grega/Hinos_Homericos/Hino_21_a_Apolo/Hinos_Homericos_Hino_21_a_Apolo_grc_Evelyn-White_1914.md"
+    },
+    {
+      "id": "hinos-homericos-hino-22-a-poseidon-grc-evelyn-white-1914",
+      "titulo": "Εἲς Ποσειδῶνα",
+      "autor": "Anonymous",
+      "arquivo": "LITERATURA/Grego/Epica_Grega/Hinos_Homericos/Hino_22_a_Poseidon/Hinos_Homericos_Hino_22_a_Poseidon_grc_Evelyn-White_1914.md"
+    },
+    {
+      "id": "hinos-homericos-hino-23-a-zeus-grc-evelyn-white-1914",
+      "titulo": "Εἲς Ὕπατον Κρονίδην",
+      "autor": "Anonymous",
+      "arquivo": "LITERATURA/Grego/Epica_Grega/Hinos_Homericos/Hino_23_a_Zeus/Hinos_Homericos_Hino_23_a_Zeus_grc_Evelyn-White_1914.md"
+    },
+    {
+      "id": "hinos-homericos-hino-24-a-hestia-grc-evelyn-white-1914",
+      "titulo": "Εἲς Ἑστίαν",
+      "autor": "Anonymous",
+      "arquivo": "LITERATURA/Grego/Epica_Grega/Hinos_Homericos/Hino_24_a_Hestia/Hinos_Homericos_Hino_24_a_Hestia_grc_Evelyn-White_1914.md"
+    },
+    {
+      "id": "hinos-homericos-hino-25-as-musas-e-a-apolo-grc-evelyn-white-1914",
+      "titulo": "Εἲς Μούσας Καὶ Ἀπόλλωνα",
+      "autor": "Anonymous",
+      "arquivo": "LITERATURA/Grego/Epica_Grega/Hinos_Homericos/Hino_25_as_Musas_e_a_Apolo/Hinos_Homericos_Hino_25_as_Musas_e_a_Apolo_grc_Evelyn-White_1914.md"
+    },
+    {
+      "id": "hinos-homericos-hino-26-a-dioniso-grc-evelyn-white-1914",
+      "titulo": "Εἲς Διόνυσον",
+      "autor": "Anonymous",
+      "arquivo": "LITERATURA/Grego/Epica_Grega/Hinos_Homericos/Hino_26_a_Dioniso/Hinos_Homericos_Hino_26_a_Dioniso_grc_Evelyn-White_1914.md"
+    },
+    {
+      "id": "hinos-homericos-hino-27-a-artemis-grc-evelyn-white-1914",
+      "titulo": "Εἲς Ἄρτεμιν",
+      "autor": "Anonymous",
+      "arquivo": "LITERATURA/Grego/Epica_Grega/Hinos_Homericos/Hino_27_a_Artemis/Hinos_Homericos_Hino_27_a_Artemis_grc_Evelyn-White_1914.md"
+    },
+    {
+      "id": "hinos-homericos-hino-28-a-atena-grc-evelyn-white-1914",
+      "titulo": "Εἲς Ἀθήναν",
+      "autor": "Anonymous",
+      "arquivo": "LITERATURA/Grego/Epica_Grega/Hinos_Homericos/Hino_28_a_Atena/Hinos_Homericos_Hino_28_a_Atena_grc_Evelyn-White_1914.md"
+    },
+    {
+      "id": "hinos-homericos-hino-29-a-hestia-grc-evelyn-white-1914",
+      "titulo": "Εἲς Ἑστίαν",
+      "autor": "Anonymous",
+      "arquivo": "LITERATURA/Grego/Epica_Grega/Hinos_Homericos/Hino_29_a_Hestia/Hinos_Homericos_Hino_29_a_Hestia_grc_Evelyn-White_1914.md"
+    },
+    {
+      "id": "hinos-homericos-hino-30-a-terra-grc-evelyn-white-1914",
+      "titulo": "Εἲς Γῆν Μητέρα Πάντων",
+      "autor": "Anonymous",
+      "arquivo": "LITERATURA/Grego/Epica_Grega/Hinos_Homericos/Hino_30_a_Terra/Hinos_Homericos_Hino_30_a_Terra_grc_Evelyn-White_1914.md"
+    },
+    {
+      "id": "hinos-homericos-hino-31-a-helio-grc-evelyn-white-1914",
+      "titulo": "Εἲς Ἥλιον",
+      "autor": "Anonymous",
+      "arquivo": "LITERATURA/Grego/Epica_Grega/Hinos_Homericos/Hino_31_a_Helio/Hinos_Homericos_Hino_31_a_Helio_grc_Evelyn-White_1914.md"
+    },
+    {
+      "id": "hinos-homericos-hino-32-a-selene-grc-evelyn-white-1914",
+      "titulo": "Εἲς Σελήνην",
+      "autor": "Anonymous",
+      "arquivo": "LITERATURA/Grego/Epica_Grega/Hinos_Homericos/Hino_32_a_Selene/Hinos_Homericos_Hino_32_a_Selene_grc_Evelyn-White_1914.md"
+    },
+    {
+      "id": "hinos-homericos-hino-33-aos-dioscuros-grc-evelyn-white-1914",
+      "titulo": "Εἲς Διοσκούρους",
+      "autor": "Anonymous",
+      "arquivo": "LITERATURA/Grego/Epica_Grega/Hinos_Homericos/Hino_33_aos_Dioscuros/Hinos_Homericos_Hino_33_aos_Dioscuros_grc_Evelyn-White_1914.md"
+    },
+    {
+      "id": "homero-iliada-grc-monro-allen-1920",
+      "titulo": "Ἰλιάς",
+      "autor": "Homer",
+      "arquivo": "LITERATURA/Grego/Epica_Grega/Homero/Iliada/Homero_Iliada_grc_Monro-Allen_1920.md",
+      "sistema_referencia": "livro-verso"
+    },
+    {
+      "id": "homero-odisseia-grc-murray-1919",
+      "titulo": "Ὀδύσσεια",
+      "autor": "Homer",
+      "arquivo": "LITERATURA/Grego/Epica_Grega/Homero/Odisseia/Homero_Odisseia_grc_Murray_1919.md",
+      "sistema_referencia": "livro-verso"
+    },
+    {
+      "id": "hesiodo-escudo-de-heracles-en-evelyn-white-1914",
+      "titulo": "The Shield of Heracles",
+      "autor": "Hesiod",
+      "arquivo": "LITERATURA/Ingles/Epica_Grega/Hesiodo/Escudo_de_Heracles/Hesiodo_Escudo_de_Heracles_en_Evelyn-White_1914.md"
+    },
+    {
+      "id": "hesiodo-teogonia-en-evelyn-white-1914",
+      "titulo": "Theogony",
+      "autor": "Hesiod",
+      "arquivo": "LITERATURA/Ingles/Epica_Grega/Hesiodo/Teogonia/Hesiodo_Teogonia_en_Evelyn-White_1914.md"
+    },
+    {
+      "id": "hesiodo-trabalhos-e-dias-en-evelyn-white-1914",
+      "titulo": "Works and Days",
+      "autor": "Hesiod",
+      "arquivo": "LITERATURA/Ingles/Epica_Grega/Hesiodo/Trabalhos_e_Dias/Hesiodo_Trabalhos_e_Dias_en_Evelyn-White_1914.md"
+    },
+    {
+      "id": "hinos-homericos-hino-01-a-dioniso-en-evelyn-white-1914",
+      "titulo": "Homeric Hymn 1: To Dionysus",
+      "autor": "Anonymous",
+      "arquivo": "LITERATURA/Ingles/Epica_Grega/Hinos_Homericos/Hino_01_a_Dioniso/Hinos_Homericos_Hino_01_a_Dioniso_en_Evelyn-White_1914.md"
+    },
+    {
+      "id": "hinos-homericos-hino-02-a-demeter-en-evelyn-white-1914",
+      "titulo": "Homeric Hymn 2: To Demeter",
+      "autor": "Anonymous",
+      "arquivo": "LITERATURA/Ingles/Epica_Grega/Hinos_Homericos/Hino_02_a_Demeter/Hinos_Homericos_Hino_02_a_Demeter_en_Evelyn-White_1914.md"
+    },
+    {
+      "id": "hinos-homericos-hino-03-a-apolo-en-evelyn-white-1914",
+      "titulo": "Homeric Hymn 3: To Delian and Pythian Apollo",
+      "autor": "Anonymous",
+      "arquivo": "LITERATURA/Ingles/Epica_Grega/Hinos_Homericos/Hino_03_a_Apolo/Hinos_Homericos_Hino_03_a_Apolo_en_Evelyn-White_1914.md"
+    },
+    {
+      "id": "hinos-homericos-hino-04-a-hermes-en-evelyn-white-1914",
+      "titulo": "Homeric Hymn 4: To Hermes",
+      "autor": "Anonymous",
+      "arquivo": "LITERATURA/Ingles/Epica_Grega/Hinos_Homericos/Hino_04_a_Hermes/Hinos_Homericos_Hino_04_a_Hermes_en_Evelyn-White_1914.md"
+    },
+    {
+      "id": "hinos-homericos-hino-05-a-afrodite-en-evelyn-white-1914",
+      "titulo": "Homeric Hymn 5: To Aphrodite",
+      "autor": "Anonymous",
+      "arquivo": "LITERATURA/Ingles/Epica_Grega/Hinos_Homericos/Hino_05_a_Afrodite/Hinos_Homericos_Hino_05_a_Afrodite_en_Evelyn-White_1914.md"
+    },
+    {
+      "id": "hinos-homericos-hino-06-a-afrodite-en-evelyn-white-1914",
+      "titulo": "Homeric Hymn 6: To Aphrodite",
+      "autor": "Anonymous",
+      "arquivo": "LITERATURA/Ingles/Epica_Grega/Hinos_Homericos/Hino_06_a_Afrodite/Hinos_Homericos_Hino_06_a_Afrodite_en_Evelyn-White_1914.md"
+    },
+    {
+      "id": "hinos-homericos-hino-07-a-dioniso-en-evelyn-white-1914",
+      "titulo": "Homeric Hymn 7: To Dionysus",
+      "autor": "Anonymous",
+      "arquivo": "LITERATURA/Ingles/Epica_Grega/Hinos_Homericos/Hino_07_a_Dioniso/Hinos_Homericos_Hino_07_a_Dioniso_en_Evelyn-White_1914.md"
+    },
+    {
+      "id": "hinos-homericos-hino-08-a-ares-en-evelyn-white-1914",
+      "titulo": "Homeric Hymn 8: To Ares",
+      "autor": "Anonymous",
+      "arquivo": "LITERATURA/Ingles/Epica_Grega/Hinos_Homericos/Hino_08_a_Ares/Hinos_Homericos_Hino_08_a_Ares_en_Evelyn-White_1914.md"
+    },
+    {
+      "id": "hinos-homericos-hino-09-a-artemis-en-evelyn-white-1914",
+      "titulo": "Homeric Hymn 9: To Artemis",
+      "autor": "Anonymous",
+      "arquivo": "LITERATURA/Ingles/Epica_Grega/Hinos_Homericos/Hino_09_a_Artemis/Hinos_Homericos_Hino_09_a_Artemis_en_Evelyn-White_1914.md"
+    },
+    {
+      "id": "hinos-homericos-hino-10-a-afrodite-en-evelyn-white-1914",
+      "titulo": "Homeric Hymn 10: To Aphrodite",
+      "autor": "Anonymous",
+      "arquivo": "LITERATURA/Ingles/Epica_Grega/Hinos_Homericos/Hino_10_a_Afrodite/Hinos_Homericos_Hino_10_a_Afrodite_en_Evelyn-White_1914.md"
+    },
+    {
+      "id": "hinos-homericos-hino-11-a-atena-en-evelyn-white-1914",
+      "titulo": "Homeric Hymn 11: To Athena",
+      "autor": "Anonymous",
+      "arquivo": "LITERATURA/Ingles/Epica_Grega/Hinos_Homericos/Hino_11_a_Atena/Hinos_Homericos_Hino_11_a_Atena_en_Evelyn-White_1914.md"
+    },
+    {
+      "id": "hinos-homericos-hino-12-a-hera-en-evelyn-white-1914",
+      "titulo": "Homeric Hymn 12: To Hera",
+      "autor": "Anonymous",
+      "arquivo": "LITERATURA/Ingles/Epica_Grega/Hinos_Homericos/Hino_12_a_Hera/Hinos_Homericos_Hino_12_a_Hera_en_Evelyn-White_1914.md"
+    },
+    {
+      "id": "hinos-homericos-hino-13-a-demeter-en-evelyn-white-1914",
+      "titulo": "Homeric Hymn 13: To Demeter",
+      "autor": "Anonymous",
+      "arquivo": "LITERATURA/Ingles/Epica_Grega/Hinos_Homericos/Hino_13_a_Demeter/Hinos_Homericos_Hino_13_a_Demeter_en_Evelyn-White_1914.md"
+    },
+    {
+      "id": "hinos-homericos-hino-14-a-mae-dos-deuses-en-evelyn-white-1914",
+      "titulo": "Homeric Hymn 14: To the Mother of the Gods",
+      "autor": "Anonymous",
+      "arquivo": "LITERATURA/Ingles/Epica_Grega/Hinos_Homericos/Hino_14_a_Mae_dos_Deuses/Hinos_Homericos_Hino_14_a_Mae_dos_Deuses_en_Evelyn-White_1914.md"
+    },
+    {
+      "id": "hinos-homericos-hino-15-a-heracles-en-evelyn-white-1914",
+      "titulo": "Homeric Hymn 15: To Heracles the Lion-Hearted",
+      "autor": "Anonymous",
+      "arquivo": "LITERATURA/Ingles/Epica_Grega/Hinos_Homericos/Hino_15_a_Heracles/Hinos_Homericos_Hino_15_a_Heracles_en_Evelyn-White_1914.md"
+    },
+    {
+      "id": "hinos-homericos-hino-16-a-asclepio-en-evelyn-white-1914",
+      "titulo": "Homeric Hymn 16: To Asclepius",
+      "autor": "Anonymous",
+      "arquivo": "LITERATURA/Ingles/Epica_Grega/Hinos_Homericos/Hino_16_a_Asclepio/Hinos_Homericos_Hino_16_a_Asclepio_en_Evelyn-White_1914.md"
+    },
+    {
+      "id": "hinos-homericos-hino-17-aos-dioscuros-en-evelyn-white-1914",
+      "titulo": "Homeric Hymn 17: To the Dioscuri",
+      "autor": "Anonymous",
+      "arquivo": "LITERATURA/Ingles/Epica_Grega/Hinos_Homericos/Hino_17_aos_Dioscuros/Hinos_Homericos_Hino_17_aos_Dioscuros_en_Evelyn-White_1914.md"
+    },
+    {
+      "id": "hinos-homericos-hino-18-a-hermes-en-evelyn-white-1914",
+      "titulo": "Homeric Hymn 18: To Hermes",
+      "autor": "Anonymous",
+      "arquivo": "LITERATURA/Ingles/Epica_Grega/Hinos_Homericos/Hino_18_a_Hermes/Hinos_Homericos_Hino_18_a_Hermes_en_Evelyn-White_1914.md"
+    },
+    {
+      "id": "hinos-homericos-hino-19-a-pa-en-evelyn-white-1914",
+      "titulo": "Homeric Hymn 19: To Pan",
+      "autor": "Anonymous",
+      "arquivo": "LITERATURA/Ingles/Epica_Grega/Hinos_Homericos/Hino_19_a_Pa/Hinos_Homericos_Hino_19_a_Pa_en_Evelyn-White_1914.md"
+    },
+    {
+      "id": "hinos-homericos-hino-20-a-hefesto-en-evelyn-white-1914",
+      "titulo": "Homeric Hymn 20: To Hephaestus",
+      "autor": "Anonymous",
+      "arquivo": "LITERATURA/Ingles/Epica_Grega/Hinos_Homericos/Hino_20_a_Hefesto/Hinos_Homericos_Hino_20_a_Hefesto_en_Evelyn-White_1914.md"
+    },
+    {
+      "id": "hinos-homericos-hino-21-a-apolo-en-evelyn-white-1914",
+      "titulo": "Homeric Hymn 21: To Apollo",
+      "autor": "Anonymous",
+      "arquivo": "LITERATURA/Ingles/Epica_Grega/Hinos_Homericos/Hino_21_a_Apolo/Hinos_Homericos_Hino_21_a_Apolo_en_Evelyn-White_1914.md"
+    },
+    {
+      "id": "hinos-homericos-hino-22-a-poseidon-en-evelyn-white-1914",
+      "titulo": "Homeric Hymn 22: To Poseidon",
+      "autor": "Anonymous",
+      "arquivo": "LITERATURA/Ingles/Epica_Grega/Hinos_Homericos/Hino_22_a_Poseidon/Hinos_Homericos_Hino_22_a_Poseidon_en_Evelyn-White_1914.md"
+    },
+    {
+      "id": "hinos-homericos-hino-23-a-zeus-en-evelyn-white-1914",
+      "titulo": "Homeric Hymn 23: To the Most High Son of Cronos (Zeus)",
+      "autor": "Anonymous",
+      "arquivo": "LITERATURA/Ingles/Epica_Grega/Hinos_Homericos/Hino_23_a_Zeus/Hinos_Homericos_Hino_23_a_Zeus_en_Evelyn-White_1914.md"
+    },
+    {
+      "id": "hinos-homericos-hino-24-a-hestia-en-evelyn-white-1914",
+      "titulo": "Homeric Hymn 24: To Hestia",
+      "autor": "Anonymous",
+      "arquivo": "LITERATURA/Ingles/Epica_Grega/Hinos_Homericos/Hino_24_a_Hestia/Hinos_Homericos_Hino_24_a_Hestia_en_Evelyn-White_1914.md"
+    },
+    {
+      "id": "hinos-homericos-hino-25-as-musas-e-a-apolo-en-evelyn-white-1914",
+      "titulo": "Homeric Hymn 25: To the Muses and Apollo",
+      "autor": "Anonymous",
+      "arquivo": "LITERATURA/Ingles/Epica_Grega/Hinos_Homericos/Hino_25_as_Musas_e_a_Apolo/Hinos_Homericos_Hino_25_as_Musas_e_a_Apolo_en_Evelyn-White_1914.md"
+    },
+    {
+      "id": "hinos-homericos-hino-26-a-dioniso-en-evelyn-white-1914",
+      "titulo": "Homeric Hymn 26: To Dionysus",
+      "autor": "Anonymous",
+      "arquivo": "LITERATURA/Ingles/Epica_Grega/Hinos_Homericos/Hino_26_a_Dioniso/Hinos_Homericos_Hino_26_a_Dioniso_en_Evelyn-White_1914.md"
+    },
+    {
+      "id": "hinos-homericos-hino-27-a-artemis-en-evelyn-white-1914",
+      "titulo": "Homeric Hymn 27: To Artemis",
+      "autor": "Anonymous",
+      "arquivo": "LITERATURA/Ingles/Epica_Grega/Hinos_Homericos/Hino_27_a_Artemis/Hinos_Homericos_Hino_27_a_Artemis_en_Evelyn-White_1914.md"
+    },
+    {
+      "id": "hinos-homericos-hino-28-a-atena-en-evelyn-white-1914",
+      "titulo": "Homeric Hymn 28: To Athena",
+      "autor": "Anonymous",
+      "arquivo": "LITERATURA/Ingles/Epica_Grega/Hinos_Homericos/Hino_28_a_Atena/Hinos_Homericos_Hino_28_a_Atena_en_Evelyn-White_1914.md"
+    },
+    {
+      "id": "hinos-homericos-hino-29-a-hestia-en-evelyn-white-1914",
+      "titulo": "Homeric Hymn 29: To Hestia",
+      "autor": "Anonymous",
+      "arquivo": "LITERATURA/Ingles/Epica_Grega/Hinos_Homericos/Hino_29_a_Hestia/Hinos_Homericos_Hino_29_a_Hestia_en_Evelyn-White_1914.md"
+    },
+    {
+      "id": "hinos-homericos-hino-30-a-terra-en-evelyn-white-1914",
+      "titulo": "Homeric Hymn 30: To Earth, Mother of All",
+      "autor": "Anonymous",
+      "arquivo": "LITERATURA/Ingles/Epica_Grega/Hinos_Homericos/Hino_30_a_Terra/Hinos_Homericos_Hino_30_a_Terra_en_Evelyn-White_1914.md"
+    },
+    {
+      "id": "hinos-homericos-hino-31-a-helio-en-evelyn-white-1914",
+      "titulo": "Homeric Hymn 31: To Helios",
+      "autor": "Anonymous",
+      "arquivo": "LITERATURA/Ingles/Epica_Grega/Hinos_Homericos/Hino_31_a_Helio/Hinos_Homericos_Hino_31_a_Helio_en_Evelyn-White_1914.md"
+    },
+    {
+      "id": "hinos-homericos-hino-32-a-selene-en-evelyn-white-1914",
+      "titulo": "Homeric Hymn 32: To Selene",
+      "autor": "Anonymous",
+      "arquivo": "LITERATURA/Ingles/Epica_Grega/Hinos_Homericos/Hino_32_a_Selene/Hinos_Homericos_Hino_32_a_Selene_en_Evelyn-White_1914.md"
+    },
+    {
+      "id": "hinos-homericos-hino-33-aos-dioscuros-en-evelyn-white-1914",
+      "titulo": "Homeric Hymn 33: To the Dioscuri",
+      "autor": "Anonymous",
+      "arquivo": "LITERATURA/Ingles/Epica_Grega/Hinos_Homericos/Hino_33_aos_Dioscuros/Hinos_Homericos_Hino_33_aos_Dioscuros_en_Evelyn-White_1914.md"
+    },
+    {
+      "id": "homero-iliada-en-murray-1924",
+      "titulo": "The Iliad",
+      "autor": "Homer",
+      "arquivo": "LITERATURA/Ingles/Epica_Grega/Homero/Iliada/Homero_Iliada_en_Murray_1924.md",
+      "sistema_referencia": "livro-verso"
+    },
+    {
+      "id": "homero-odisseia-en-murray-1919",
+      "titulo": "The Odyssey",
+      "autor": "Homer",
+      "arquivo": "LITERATURA/Ingles/Epica_Grega/Homero/Odisseia/Homero_Odisseia_en_Murray_1919.md",
+      "sistema_referencia": "livro-verso"
     }
   ],
   "redirecionamentos": {

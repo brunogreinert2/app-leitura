@@ -23,9 +23,9 @@ urn: urn:cts:greekLit:tlg0006.tlg009.perseus-grc2
 source: https://github.com/PerseusDL/canonical-greekLit/tree/master/data/tlg0006/tlg009
 source_repo: PerseusDL/canonical-greekLit
 source_file: data/tlg0006/tlg009/tlg0006.tlg009.perseus-grc2.xml
-source_commit: e37eed2e8
+source_commit: 282e6f5a
 license: CC-BY-SA-4.0
-processing: Saneamento/obra_nova_tei.py e conversor_tei.py (perfil tragedia), 2026-11-03; preparado por Διαφορεύς, Claude Opus 5.5.
+processing: 'Saneamento/obra_nova_tei.py e conversor_tei.py (perfil tragedia), 2026-11-03; preparado por Διαφορεύς, Claude Opus 5.5. Reconvertido em 2026-11-04 do commit 282e6f5a do Perseus (a primeira versão saiu de e37eed2e8): os versos são os mesmos.'
 ---
 
 # Ἡρακλῆς
@@ -3543,3 +3543,5 @@ processing: Saneamento/obra_nova_tei.py e conversor_tei.py (perfil tragedia), 20
 **1427** στείχομεν οἰκτροὶ καὶ πολύκλαυτοι, ^v-1427
 
 **1428** τὰ μέγιστα φίλων ὀλέσαντες. ^v-1428
+
+> Ὁ Διαφορεύς παρῆν
