@@ -23,7 +23,7 @@ project: pedra_angular
 related:
 - filon-legum-allegoriae-grc-cohn-1896
 reference_system: chapter-section
-scope: English translation of filon-legum-allegoriae-grc-cohn-1896, sections as numbered in the TEI of the translation, cited book.section ([2.1]); Yonge's numbering can differ from Cohn–Wendland's. This conversion does not yet carry Yonge's chapter numbers (TEI milestone chapter), for lack of a converter profile for a second numbering
+scope: English translation of filon-legum-allegoriae-grc-cohn-1896, sections as numbered in the TEI of the translation, cited book.section ([2.1]); Yonge's numbering can differ from Cohn–Wendland's. Alongside, Yonge's chapters (TEI milestone chapter, the same old chapters as in the Greek) as [cap.N].
 urn_work: urn:cts:greekLit:tlg0018.tlg002
 urn: urn:cts:greekLit:tlg0018.tlg002.1st1K-eng1
 source: https://github.com/OpenGreekAndLatin/First1KGreek/tree/master/data/tlg0018/tlg002
@@ -31,14 +31,18 @@ source_repo: OpenGreekAndLatin/First1KGreek
 source_file: data/tlg0018/tlg002/tlg0018.tlg002.1st1K-eng1.xml
 source_commit: ed91552c
 license: CC-BY-SA-4.0
-processing: Saneamento/obra_nova_tei.py and conversor_tei.py (profile divs), 2026-11-03; prepared by Διαφορεύς, Claude Opus 5.5.
+processing: Saneamento/obra_nova_tei.py and conversor_tei.py (profile divs-capitulos-yonge), 2026-11-03; prepared by Διαφορεύς, Claude Opus 5.5.
 ---
 
 # On the Allegories of the Sacred Laws
 
+## On the Alegories of the Sacred Laws
+
 ### Livro 1
 
-[1.1] “And the heaven and the earth and all their world was completed.”[^1] Having previously related the creation of the mind and of sense, Moses now proceeds to describe the perfection which was brought about by them both. And he says that neither the indivisible mind nor the particular sensations received perfection, but only ideas, one the idea of the mind, the other of sensation. And, speaking symbolically, he calls the mind heaven, since the natures which can only be comprehended by the intellect are in heaven. And sensation he calls earth, because it is sensation which has obtained a corporeal and somewhat earthy constitution. The ornaments of the mind are all the incorporeal things, which are perceptible only by the intellect. Those of sensation are the corporeal things, and everything in short which is perceptible by the external senses.
+#### THE FIRST BOOK OF THE TREATISE ON THE ALLEGORIES OF THE SACRED LAWS, AFTER THE WORK OF THE SIX DAYS OF CREATION
+
+[1.1] [cap.1.1] “And the heaven and the earth and all their world was completed.”[^1] Having previously related the creation of the mind and of sense, Moses now proceeds to describe the perfection which was brought about by them both. And he says that neither the indivisible mind nor the particular sensations received perfection, but only ideas, one the idea of the mind, the other of sensation. And, speaking symbolically, he calls the mind heaven, since the natures which can only be comprehended by the intellect are in heaven. And sensation he calls earth, because it is sensation which has obtained a corporeal and somewhat earthy constitution. The ornaments of the mind are all the incorporeal things, which are perceptible only by the intellect. Those of sensation are the corporeal things, and everything in short which is perceptible by the external senses.
 
 [1.2] “And on the sixth day God finished his work which he had made.” It would be a sign of great simplicity to think that the world was created in six days, or indeed at all in time; because all time is only the space of days and nights, and these things the motion of the sun as he passes over the earth and under the earth does necessarily make. But the sun is a portion of heaven, so that one must confess that time is a thing posterior to the world. Therefore it would be correctly said that the world was not created in time, but that time had its existence in consequence of the world. For it is the motion of the heaven that has displayed the nature of time.
 
@@ -256,7 +260,9 @@ processing: Saneamento/obra_nova_tei.py and conversor_tei.py (profile divs), 202
 
 ### Livro 2
 
-[2.1] “And the Lord God said, It is not good for man to be alone: let us make him a help meet for him.” Why, O prophet, is it not good for man to be alone? Because, says he, it is good, that he who is alone should be alone. But God is alone, and by himself, being one; and there is nothing like unto God. So that, since it is good that he who only has a real existence should be alone (for that which is about itself alone is good), it cannot be good for man to be alone.
+#### THE SECOND BOOK OF THE TREATISE ON THE ALLEGORIES OF THE SACRED LAWS, AFTER THE WORK OF THE SIX DAYS OF CREATION
+
+[2.1] [cap.2.2] “And the Lord God said, It is not good for man to be alone: let us make him a help meet for him.” Why, O prophet, is it not good for man to be alone? Because, says he, it is good, that he who is alone should be alone. But God is alone, and by himself, being one; and there is nothing like unto God. So that, since it is good that he who only has a real existence should be alone (for that which is about itself alone is good), it cannot be good for man to be alone.
 
 [2.2] But the fact of God being alone one may receive in this sense; that neither before the creation was there anything with God, nor, since the world has been created, is anything placed in the same rank with him; for he is in need of absolutely nothing whatever.
 
@@ -476,7 +482,9 @@ But the better way of understanding this passage is the following: God is alone:
 
 ### Livro 3
 
-[3.1] “And Adam and his wife hid themselves from the face of the Lord God in the midst of the trees of the Paradise.”[^55] A doctrine is introduced here which teaches us that the wicked man is inclined to run away. For the proper city of wise men is virtue, and he who is incapable of becoming a partaker in that is driven from his city; and no bad man is capable of becoming a partaker of it; therefore the bad man alone is driven away and becomes a banished man. But he who is banished from virtue is at once concealed from the face of God, for if the wise men are visible to God, inasmuch as they are dear to him, it follows plainly that the wicked are all concealed from him, and enveloped in darkness, as being enemies and adversaries to right reason.
+#### THE THIRD BOOK OF THE TREATISE ON THE ALLEGORIES OF THE SACRED LAWS, AFTER THE WORK OF THE SIX DAYS OF THE CREATION
+
+[3.1] [cap.3.3] “And Adam and his wife hid themselves from the face of the Lord God in the midst of the trees of the Paradise.”[^55] A doctrine is introduced here which teaches us that the wicked man is inclined to run away. For the proper city of wise men is virtue, and he who is incapable of becoming a partaker in that is driven from his city; and no bad man is capable of becoming a partaker of it; therefore the bad man alone is driven away and becomes a banished man. But he who is banished from virtue is at once concealed from the face of God, for if the wise men are visible to God, inasmuch as they are dear to him, it follows plainly that the wicked are all concealed from him, and enveloped in darkness, as being enemies and adversaries to right reason.
 
 [3.2] Now that the wicked man is destitute of a city and destitute of a home, Moses testifies in speaking of that hairy man who was also a man of varied wickedness, Esau, when he says, “But Esau was skilful in hunting, and a rude man.”[^56] For it is not natural for vice which is inclined to be subservient to the passions to inhabit the city of virtue, inasmuch as it is devoted to the pursuit of rudeness and ignorance, with great folly. But Jacob, who is full of wisdom, is both a citizen and one who dwells in a house, that is to say, in virtue. Accordingly Moses says of him, “But Jacob is a man without guile, dwelling in a house;”
 

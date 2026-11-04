@@ -467,6 +467,9 @@ marker-3.96
 marker-3.97
 marker-3.98
 marker-3.99
+marker-cap.1.1
+marker-cap.2.2
+marker-cap.3.3
 nota-ref-1
 nota-ref-1-2
 nota-ref-10

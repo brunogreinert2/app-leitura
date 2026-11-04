@@ -23,7 +23,7 @@ project: pedra_angular
 related:
 - filon-de-gigantibus-grc-wendland-1897
 reference_system: chapter-section
-scope: English translation of filon-de-gigantibus-grc-wendland-1897, sections as numbered in the TEI of the translation, cited by section ([1]); Yonge's numbering can differ from Cohn–Wendland's. This conversion does not yet carry Yonge's chapter numbers (TEI milestone chapter), for lack of a converter profile for a second numbering
+scope: English translation of filon-de-gigantibus-grc-wendland-1897, sections as numbered in the TEI of the translation, cited by section ([1]); Yonge's numbering can differ from Cohn–Wendland's. Alongside, Yonge's chapters (TEI milestone chapter, the same old chapters as in the Greek) as [cap.N].
 urn_work: urn:cts:greekLit:tlg0018.tlg007
 urn: urn:cts:greekLit:tlg0018.tlg007.1st1K-eng1
 source: https://github.com/OpenGreekAndLatin/First1KGreek/tree/master/data/tlg0018/tlg007
@@ -31,12 +31,14 @@ source_repo: OpenGreekAndLatin/First1KGreek
 source_file: data/tlg0018/tlg007/tlg0018.tlg007.1st1K-eng1.xml
 source_commit: ed91552c
 license: CC-BY-SA-4.0
-processing: Saneamento/obra_nova_tei.py and conversor_tei.py (profile divs), 2026-11-03; prepared by Διαφορεύς, Claude Opus 5.5.
+processing: Saneamento/obra_nova_tei.py and conversor_tei.py (profile divs-capitulos-yonge), 2026-11-03; prepared by Διαφορεύς, Claude Opus 5.5.
 ---
 
 # On the Giants
 
-[1] "And it came to pass when there began to be many men upon the earth, that daughters also were born to them." [^1] I think it here worth while to raise the question why, after the birth of Noah and his sons, our race increased to a degree of great populousness. But, perhaps, it is not difficult to explain the cause of this; for it always happens if anything appears to be rare that its contrary is found exceedingly numerous.
+## A TREATISE ON THE GIANTS
+
+[1] [cap.1] "And it came to pass when there began to be many men upon the earth, that daughters also were born to them." [^1] I think it here worth while to raise the question why, after the birth of Noah and his sons, our race increased to a degree of great populousness. But, perhaps, it is not difficult to explain the cause of this; for it always happens if anything appears to be rare that its contrary is found exceedingly numerous.
 
 [2] Therefore, the good disposition of one displays the evil disposition of myriads, and the fact of those things which are done in accordance with art, and science, and virtue, and beauty, being few, shows how incalculable a number of things devoid of art, and of science, and of justice, and, in short, utterly worthless, lie concealed beneath.
 
@@ -46,7 +48,7 @@ processing: Saneamento/obra_nova_tei.py and conversor_tei.py (profile divs), 202
 
 [5] On account of which fact these men are said to have become the fathers of daughters, and that no one of them is said to and sedition, if we must speak the truth, is the archetypal model [^2] have begotten a son; for since the just Noah had male children, as being a man who followed reason, perfect, and upright, and masculine, so by this very fact the injustice of the multitude is proved to be altogether the parent of female children. For it is impossible that the same things should be born of opposite parents; but they must necessarily have an opposite offspring.
 
-[6] "And when the angels of God saw the daughters of men that they were beautiful, they took unto themselves wives of all of them whom they chose." [^3] Those beings, whom other philosophers call demons, Moses usually calls angels; and they are souls hovering in the air.
+[6] [cap.2] "And when the angels of God saw the daughters of men that they were beautiful, they took unto themselves wives of all of them whom they chose." [^3] Those beings, whom other philosophers call demons, Moses usually calls angels; and they are souls hovering in the air.
 
 [7] And let no one suppose, that what is here stated is a fable, for it is necessarily true that the universe must be filled with living things in all its parts, since every one of its primary and elementary portions contains its appropriate animals and such as are consistent with its nature; —the earth containing terrestrial animals, the sea and the rivers containing aquatic animals, and the fire such as are born in the fire (but it is said, that such as these last are found chiefly in Macedonia), and the heaven containing the stars:
 
@@ -58,7 +60,7 @@ processing: Saneamento/obra_nova_tei.py and conversor_tei.py (profile divs), 202
 
 [11] It is then natural that that medium by which all other animals, whether [^4] aquatic or terrestrial, are vivified should itself be empty and destitute of souls? On the contrary, even if all other animals were barren, the air by itself would be bound to be productive of life, having received from the great Creator the seeds of vitality by his especial favour.
 
-[12] Some souls, therefore, have descended into bodies, and others have not thought worthy to approach any one of the portions of the earth; and these, when hallowed and surrounded by the ministrations of the father, the Creator has been accustomed to employ, as hand-maidens and servants in the administration of mortal affairs.
+[12] [cap.3] Some souls, therefore, have descended into bodies, and others have not thought worthy to approach any one of the portions of the earth; and these, when hallowed and surrounded by the ministrations of the father, the Creator has been accustomed to employ, as hand-maidens and servants in the administration of mortal affairs.
 
 [13] And they having descended into the body as into a river, at one time are carried away and swallowed up by the voracity of a most violent whirlpool; and, at another time, striving with all their power to resist its impetuosity, they at first swim on the top of it, and afterwards fly back to the place from which they started.
 
@@ -66,13 +68,13 @@ processing: Saneamento/obra_nova_tei.py and conversor_tei.py (profile divs), 202
 
 [15] But those, which are swallowed up in the whirlpool, are the souls of those other men who have disregarded wisdom, giving themselves up to the pursuit of unstable things regulated by fortune alone, not one of which is referred to the most excellent portion of us, the soul or the mind; but all rather to the dead corpse connected with us, that is to the body, or to things which are even more lifeless than that, such as glory, and money, and offices, and honours, and all other things which, by those who do not keep their eyes fixed on what is really beautiful, are fashioned and endowed with apparent vitality by the deceit of vain opinion.
 
-[16] If, therefore, you consider that souls, and demons, and angels are things differing indeed in name, but one and identical in reality, you will then be able to discard that most heavy burden, superstition. But as men in general speak of good and evil demons, and in like manner of good and evil souls, so also do they speak of angels, looking upon some as worthy of a good appellation, and calling them ambassadors of man to God, and of God to man, and sacred and holy on account of this blameless and most excellent office; others, again, you will not err if you look upon as unholy and unworthy of any address.
+[16] [cap.4] If, therefore, you consider that souls, and demons, and angels are things differing indeed in name, but one and identical in reality, you will then be able to discard that most heavy burden, superstition. But as men in general speak of good and evil demons, and in like manner of good and evil souls, so also do they speak of angels, looking upon some as worthy of a good appellation, and calling them ambassadors of man to God, and of God to man, and sacred and holy on account of this blameless and most excellent office; others, again, you will not err if you look upon as unholy and unworthy of any address.
 
 [17] And the expression used by the writer of the psalms, in the following verse, testifies to the truth of my assertion, for he says, "He sent upon them the fury of His wrath, anger, and rage, and affliction, and he sent evil angels among them." [^5] These are the wicked who, assuming the name of angels, not being acquainted with the daughters of right reason, that is with the sciences and the virtues, but which pursue the mortal descendants of mortal men, that is the pleasures, which can confer no genuine beauty, which is perceived by the intellect alone, but only a bastard sort of elegance of form, by means of which the outward sense is beguiled;
 
 [18] and they do not all take all the daughters in marriage, but some of them have selected some of that innumerable company to be their wives; some choosing them by the sight, and others by the ear, others again being influenced by the sense of taste, or by the belly, and some even by the pleasures below the belly; many also have laid hold of those the abode of which is fixed at a great distance, putting in action various desires among one another. For, of necessity, the choices of all the various pleasures are various, since different pleasures are established in different places.
 
-[19] And, in all such matters, it is impossible for the spirit of God to remain and to pass all its time, as the law-giver himself shows. "For," says Moses, "the Lord said, My spirit shall not remain among men for ever, because they are flesh." [^6]
+[19] [cap.5] And, in all such matters, it is impossible for the spirit of God to remain and to pass all its time, as the law-giver himself shows. "For," says Moses, "the Lord said, My spirit shall not remain among men for ever, because they are flesh." [^6]
 
 [20] For, at times, it does remain; but it does not remain for ever and ever among the greater part of us; for who is so destitute of reason or so lifeless as never, either voluntarily or involuntarily, to conceive a notion of the all good God. For, very often, even over the most polluted and accursed beings, there hovers a sudden appearance of the good, but they are unable to take firm hold of it and to keep it among them;
 
@@ -82,7 +84,7 @@ processing: Saneamento/obra_nova_tei.py and conversor_tei.py (profile divs), 202
 
 [23] And Moses shows us this, when speaking of the creator and maker of the holy work of the creation, in these words: "And God summoned Bezaleel, and filled him with his Holy Spirit, and with wisdom, and understanding, and knowledge, to be able to devise every work." [^10] So that, what the spirit of God is, is very definitively described in these words.
 
-[24] Such also is the spirit of Moses, which came upon the seventy elders, for the sake of making them differ from, and be superior to the rest of the Israelites, who could not possibly be elders in real truth, unless they had partaken of that allwise spirit. For it is said, "I will take of my spirit which is upon thee, and I will pour it upon the seventy elders." [^11]
+[24] [cap.6] Such also is the spirit of Moses, which came upon the seventy elders, for the sake of making them differ from, and be superior to the rest of the Israelites, who could not possibly be elders in real truth, unless they had partaken of that allwise spirit. For it is said, "I will take of my spirit which is upon thee, and I will pour it upon the seventy elders." [^11]
 
 [25] But think not that thus this taking away, could be by means of cutting off or separation; but it is here, as is the case in an operation effected by fire, which can light ten thousand torches, without itself being diminished the least atom, or ceasing to remain as it was before. Something like this also is the nature of knowledge. For though it has made all its pupils, and all who have become acquainted with it, learned, still it is in no degree diminished itself, but very often it even becomes improved, just as, they say, that fountains sometimes are by being drained dry; for, it is said, that they sometimes become sweeter by such a process.
 
@@ -90,7 +92,7 @@ processing: Saneamento/obra_nova_tei.py and conversor_tei.py (profile divs), 202
 
 [27] But now, the spirit which is upon him is the wise, the divine, the indivisible, the undistributable, the good spirit, the spirit which is everywhere diffused, so as to fill the universe, which, while it benefits others, is not injured by having a participation in it given to another, and if added [^12] [^13] [^14] to something else, either as to its understanding, or its knowledge, or its wisdom.
 
-[28] On which account, it is possible that the spirit of God may remain in the soul, but that it should remain for ever is impossible, as we have said. And why need we wonder? since there is no other thing whatever, the possession of which, is stable and lasting; but mortal affairs are continually wavering in the scale, and inclining first to one side, and then to the other, and liable at different times to different changes.
+[28] [cap.7] On which account, it is possible that the spirit of God may remain in the soul, but that it should remain for ever is impossible, as we have said. And why need we wonder? since there is no other thing whatever, the possession of which, is stable and lasting; but mortal affairs are continually wavering in the scale, and inclining first to one side, and then to the other, and liable at different times to different changes.
 
 [29] And the greatest cause of our ignorance is the flesh, and our inseparable connection with the flesh. And this, Moses represents God as admitting, where he says that, "Because they are flesh," the spirit of God cannot abide in them. And yet marriage and the rearing of children, and the furnishing of necessary things, and ingloriousness conjoined with a want of money and business, both private and public, and a countless number of other things cause wisdom to waste away, before it begins to flourish vigorously.
 
@@ -98,7 +100,7 @@ processing: Saneamento/obra_nova_tei.py and conversor_tei.py (profile divs), 202
 
 [31] For those souls which are devoid of flesh and of the body, remaining undisturbed in the theatre of the universe, occupied in seeing and hearing divine things, of which an insatiable desire has seized them, enjoy a pleasure to which no one offers any interruption. But those which bear the heavy burden of the flesh, being weighed down and oppressed by it, are unable to look upwards to the revolutions of the heaven, but being dragged downwards, have their necks forcibly pressed to the ground like so many quadrupeds.
 
-[32] In reference to which fact, the lawgiver having determined to put an end to all illegal and illegitimate associations and unions, begins his denunciations in the following manner: "Man shall not come near to any one who is akin to his own flesh, to uncover his nakedness: I am the Lord." [^15] How could any one more forcibly exhort man to despise the flesh and what is akin to the flesh than in this way?
+[32] [cap.8] In reference to which fact, the lawgiver having determined to put an end to all illegal and illegitimate associations and unions, begins his denunciations in the following manner: "Man shall not come near to any one who is akin to his own flesh, to uncover his nakedness: I am the Lord." [^15] How could any one more forcibly exhort man to despise the flesh and what is akin to the flesh than in this way?
 
 [33] And indeed he does not only exhort us to abandon such things, but he shows positively that he who is really a man will never [^16] come of his own accord to those pleasures which are dear to and connected with the body, but will always be meditating to alienate himself from them entirely.
 
@@ -106,7 +108,7 @@ processing: Saneamento/obra_nova_tei.py and conversor_tei.py (profile divs), 202
 
 [35] Let not then our appetites rush eagerly in pursuit of all the things that are pleasant to the flesh, for the pleasures are often untameable, when like dogs they fawn upon us, and all of a sudden, change and bite us, inflicting incurable wounds. So that by cleaving to frugality, which is a friend to virtue, in preference to the pleasures akin to the body, we shall defeat the numerous and infinite multitude of irreconcilable enemies. And if any occasion should seek to compel us to take more than what is moderate or sufficient, let us not yield; for the scripture saith, "He shall come near to him to uncover his nakedness."
 
-[36] And what is meant by this, it is worth while to explain. It has often happened, that some who have not been themselves providers of wealth, have nevertheless had unlimited abundance. And others, who have not been eager in the pursuit of glory have been thought worthy of public praises and honours. Others again, who have not expected to acquire even a little strength, have arrived at the greatest vigour and activity.
+[36] [cap.9] And what is meant by this, it is worth while to explain. It has often happened, that some who have not been themselves providers of wealth, have nevertheless had unlimited abundance. And others, who have not been eager in the pursuit of glory have been thought worthy of public praises and honours. Others again, who have not expected to acquire even a little strength, have arrived at the greatest vigour and activity.
 
 [37] Now, let all these men learn not to cleave in their minds to any one of these qualities; that is to say, not to admire them and grasp at them in an immoderate degree, looking upon them all, that is to say on riches, on glory, and on bodily strength, not only not as intrinsically good, but as the greatest of evils. For to misers, the pursuit of money is appropriate, and the pursuit of glory is so to ambitious men, and the acquisition of bodily strength is so to men fond of athletic and of gymnastic exercises. For that which is the better part of them, namely, the soul, they have abandoned as a slave to those things which are inferior to themselves, namely, to inanimate things.
 
@@ -114,7 +116,7 @@ processing: Saneamento/obra_nova_tei.py and conversor_tei.py (profile divs), 202
 
 [39] But he who pursues it eagerly and follows upon its track, fills philosophy with base opinions; on which account he is said to uncover its nakedness, for how can there be any concealment or ignorance of the reproaches to which those men are justly exposed, who profess indeed to be wise men, but who make a traffic of wisdom, and bargain for the sale of it, as they say men do in the market, who put up their wares for sale, sometimes for a slight gain, sometimes for sweet and caressing speeches, and sometimes for insecure hopes, founded on no sure ground, and sometimes even for promises which are in no respect better than dreams.
 
-[40] And the sentence which follows, "I am the Lord," is uttered with great beauty and with most excessive propriety, "for," says the Lord, "oppose, my good man, the good of the flesh to that of the soul, and of the whole man;" therefore the pleasure of the flesh is irrational, but the pleasure of the soul and of the whole man is the mind of the universe, namely God;
+[40] [cap.10] And the sentence which follows, "I am the Lord," is uttered with great beauty and with most excessive propriety, "for," says the Lord, "oppose, my good man, the good of the flesh to that of the soul, and of the whole man;" therefore the pleasure of the flesh is irrational, but the pleasure of the soul and of the whole man is the mind of the universe, namely God;
 
 [41] and the comparison is an admirable one, and one difficult to be instituted, so as for any one to be deceived by the close similitude, unless any one will say that living things are in reality the same as lifeless things, rational things the same as irrational things; well adapted the same as those ill adapted; odd numbers identical with even ones; light with darkness, and day with night; and in short every thing that is contrary the same as its contrary.
 
@@ -124,7 +126,7 @@ processing: Saneamento/obra_nova_tei.py and conversor_tei.py (profile divs), 202
 
 [44] If therefore, O my soul, any one of the temptations of pleasure invites you, turn yourself away, and directing your views towards another point, look at the genuine beauty of virtue, and having surveyed it, remain, until a desire for it has sunk into you, and draws you to it, like a magnet, and immediately leads you and attaches you to that which has become the object of your desire.
 
-[45] And the expression, "I am the Lord," must be listened to, not only as if it were equivalent to, "I am the perfect, and incorruptible, and true good," with which if any one is surrounded he will reject all that is imperfect, and corruptible, and attached to the flesh; but also as equivalent to, "I am the ruler, and the king, and the master."
+[45] [cap.11] And the expression, "I am the Lord," must be listened to, not only as if it were equivalent to, "I am the perfect, and incorruptible, and true good," with which if any one is surrounded he will reject all that is imperfect, and corruptible, and attached to the flesh; but also as equivalent to, "I am the ruler, and the king, and the master."
 
 [46] And it is not safe for subjects to do wrong in the presence of their rulers, nor for slaves to err before their masters; for when the punishers are near, those whose nature is not quick at submitting to admonitions are held in restraint and order by fear;
 
@@ -140,7 +142,7 @@ processing: Saneamento/obra_nova_tei.py and conversor_tei.py (profile divs), 202
 
 [52] You see that even the high priest, that is to say, reason, who might at all times remain and reside in the holy dwelling of God, has not free permission to approach them at all times, but only once in each year; for whatever is associated with reason by utterance is not firm, because it is of a twofold nature. But the safest conduct is to contemplate the living God by the soul alone, without utterance of any voice, because he exists according to the indivisible unit.
 
-[53] As, therefore, among men in general, that is to say, among those who propose to themselves many objects in life, the divine spirit does not remain, even though it may abide among them for a very short time, but it remains among one species of men alone, namely, among those who, having put off all the things of creation, and the inmost veil and covering [^20] [^21] [^22] of false opinion, come to God in their unconcealed and naked. minds.
+[53] [cap.12] As, therefore, among men in general, that is to say, among those who propose to themselves many objects in life, the divine spirit does not remain, even though it may abide among them for a very short time, but it remains among one species of men alone, namely, among those who, having put off all the things of creation, and the inmost veil and covering [^20] [^21] [^22] of false opinion, come to God in their unconcealed and naked. minds.
 
 [54] Thus also Moses, having fixed his tent outside of the tabernacle and outside of all the corporeal army, [^23] that is to say, having established his mind so that it should not move, begins to worship God, and having entered into the darkness, that invisible country, remains there, performing the most sacred mysteries; and he becomes, not merely an initiated man, but also an hierophant of mysteries and a teacher of divine things, which he will explain to those whose ears are purified;
 
@@ -150,7 +152,7 @@ processing: Saneamento/obra_nova_tei.py and conversor_tei.py (profile divs), 202
 
 [57] And we shall hereafter institute a more exact discussion of this period of a hundred and twenty years, which we will however postpone, till we come to an examination of the whole life of the prophet, when we have become fit to be initiated in it, but at present we will discuss what comes next in order.
 
-[58] "And there were giants on the earth in those days." [^25] Perhaps some one may here think, that the lawgiver is speaking enigmatically and alluding to the fables handed down by the poets about giants, though he is a man as far removed as possible from any invention of fables, and one who thinks fit only to walk in the paths of truth itself;
+[58] [cap.13] "And there were giants on the earth in those days." [^25] Perhaps some one may here think, that the lawgiver is speaking enigmatically and alluding to the fables handed down by the poets about giants, though he is a man as far removed as possible from any invention of fables, and one who thinks fit only to walk in the paths of truth itself;
 
 [59] in consequence of which principle, he has banished from the constitution, which he has established, those celebrated and beautiful arts of statuary and painting, because they, falsely imitating the nature of the truth, contrive deceits and snares, in order, through the medium of the eyes, to beguile the souls which are liable to be easily won over. [^26] [^27] [^28]
 
@@ -158,13 +160,13 @@ processing: Saneamento/obra_nova_tei.py and conversor_tei.py (profile divs), 202
 
 [61] Lastly, those who are born of God are priests and prophets, who have not thought fit to mix themselves up in the constitutions of this world, and to become cosmopolites, but who having raised themselves above all the objects of the mere outward senses, have departed and fixed their views on that world which is perceptible only by the intellect, and have settled there, being inscribed in the state of incorruptible incorporeal ideas.
 
-[62] Accordingly, Abraham, as long as he was abiding in the land of the Chaldaeans, that is to say, in opinion, before he received his new name, and while he was still called Abram, was a man born of heaven, investigating the sublime nature of things on high, and all that took place in these regions, and the causes of them, and studying everything of that kind in the true spirit of philosophy; on which account he received an appellation corresponding to the pursuits to which he devoted himself: for the name Abram, being interpreted, signifies the sublime father, and is a name very fitting for the paternal mind, which in every direction contemplates sublime and heavenly things: for the mind is the father of our composite being, reaching as high as the sky and even farther.
+[62] [cap.14] Accordingly, Abraham, as long as he was abiding in the land of the Chaldaeans, that is to say, in opinion, before he received his new name, and while he was still called Abram, was a man born of heaven, investigating the sublime nature of things on high, and all that took place in these regions, and the causes of them, and studying everything of that kind in the true spirit of philosophy; on which account he received an appellation corresponding to the pursuits to which he devoted himself: for the name Abram, being interpreted, signifies the sublime father, and is a name very fitting for the paternal mind, which in every direction contemplates sublime and heavenly things: for the mind is the father of our composite being, reaching as high as the sky and even farther.
 
 [63] But when he became improved, and was about to have his name changed, he then became a man born of God, according to the oracle which was delivered to him, "I am thy God, take care that thou art approved before me, and be thou blameless." [^29]
 
 [64] But if the God of the world, being the only God, is also by especial favour the peculiar God of this individual man, then [^30] of necessity the man must also be a man of God; for the name Abraham, being interpreted, signifies, "the elect father of sound," the reason of the good man: for he is chosen out of all, and purified, and the father of the voice by which we speak; and being such a character as this, he is assigned to the one only God, whose minister he becomes, and so makes the path of his whole life straight, using in real truth the royal road, the road of the only king who governs all things, turning aside and deviating neither to the left hand nor to the right.
 
-[65] But the sons of earth removing their minds from contemplation, and becoming deserters so as to fly to the lifeless and immovable nature of the flesh, "for they two became one flesh," [^31] as the lawgiver says, adulterated the excellent coinage, and abandoned the better rank which had been allotted to them as their own, and deserted to the worse rank, which was contrary to their original nature, Nimrod being the first to set the example of this desertion;
+[65] [cap.15] But the sons of earth removing their minds from contemplation, and becoming deserters so as to fly to the lifeless and immovable nature of the flesh, "for they two became one flesh," [^31] as the lawgiver says, adulterated the excellent coinage, and abandoned the better rank which had been allotted to them as their own, and deserted to the worse rank, which was contrary to their original nature, Nimrod being the first to set the example of this desertion;
 
 [66] for the lawgiver says, "that this man began to be a giant upon the earth:" [^32] and the name Nimrod, being interpreted, means, desertion; for it was not enough for the thoroughly miserable soul to stand on neither side, but having gone over to its enemies, it took up arms against its friends, and resisted them, and made open war upon them; in reference to which fact it is that, Moses calls the seat of Nimrod’s kingdom Babylon, and the interpretation of the word Babylon is "change;" a thing nearly akin to desertion, the name, too, being akin to the name, and the one action to the other; for the first step of every deserter is a change and alteration of mind,
 
