@@ -469,6 +469,7 @@ cicero-de-re-publica-pt-anonimo-sd
 cicero-de-senectute-lat-latinlibrary-sd
 cicero-divinatio-in-caecilium-la-peterson-1917
 cicero-in-catilinam-la-clark-1908
+cicero-in-pisonem-la-clark-1909
 cicero-in-vatinium-la-peterson-1909
 cicero-in-verrem-la-peterson-1917
 cicero-orator-la-wilkins-1902
@@ -484,8 +485,10 @@ cicero-pro-cluentio-la-clark-1908
 cicero-pro-fonteio-la-clark-1911
 cicero-pro-milone-la-clark-1918
 cicero-pro-murena-la-clark-1908
+cicero-pro-plancio-la-clark-1911
 cicero-pro-quinctio-la-clark-1909
 cicero-pro-rabirio-perduellionis-reo-la-clark-1909
+cicero-pro-rabirio-postumo-la-clark-1909
 cicero-pro-roscio-amerino-la-clark-1908
 cicero-pro-roscio-comoedo-la-clark-1909
 cicero-pro-sestio-la-peterson-1909
