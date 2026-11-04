@@ -457,12 +457,14 @@ cicero-de-inventione-la-stroebel-1915
 cicero-de-legibus-lat-latinlibrary-sd
 cicero-de-natura-deorum-lat-latinlibrary-sd
 cicero-de-officiis-lat-latinlibrary-sd
+cicero-de-optimo-genere-oratorum-la-wilkins-1902
 cicero-de-oratore-la-wilkins-1902
 cicero-de-re-publica-lat-latinlibrary-sd
 cicero-de-re-publica-pt-anonimo-sd
 cicero-de-senectute-lat-latinlibrary-sd
 cicero-orator-la-wilkins-1902
 cicero-paradoxa-stoicorum-lat-latinlibrary-sd
+cicero-timaeus-la-mueller-1898
 cicero-topica-lat-latinlibrary-sd
 cicero-tusculanae-disputationes-lat-latinlibrary-sd
 cleantes-testemunhos-e-fragmentos-grc-von-arnim-1903

@@ -9347,6 +9347,20 @@
       "autor": "Marcus Tullius Cicero",
       "arquivo": "FILOSOFIA/Latim/Filosofia_Republicana/Cicero/Orator/Cicero_Orator_la_Wilkins_1902.md",
       "sistema_referencia": "capitulo-secao"
+    },
+    {
+      "id": "cicero-de-optimo-genere-oratorum-la-wilkins-1902",
+      "titulo": "De optimo genere oratorum",
+      "autor": "Marcus Tullius Cicero",
+      "arquivo": "FILOSOFIA/Latim/Filosofia_Republicana/Cicero/De_Optimo_Genere_Oratorum/Cicero_De_Optimo_Genere_Oratorum_la_Wilkins_1902.md",
+      "sistema_referencia": "capitulo-secao"
+    },
+    {
+      "id": "cicero-timaeus-la-mueller-1898",
+      "titulo": "Timaeus",
+      "autor": "Marcus Tullius Cicero",
+      "arquivo": "FILOSOFIA/Latim/Filosofia_Republicana/Cicero/Timaeus/Cicero_Timaeus_la_Mueller_1898.md",
+      "sistema_referencia": "capitulo-secao"
     }
   ],
   "redirecionamentos": {
