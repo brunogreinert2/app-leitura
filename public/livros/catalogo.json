@@ -9326,6 +9326,440 @@
       "titulo": "As mulheres de Tráquis",
       "autor": "Sófocles",
       "arquivo": "LITERATURA/Portugues/Tragedia_Grega/Sofocles/As_Traquinias/Sofocles_As_Traquinias_Prologo_e_Parodo_pt_Oliveira_2024.md"
+    },
+    {
+      "id": "filon-de-opificio-mundi-grc-cohn-1896",
+      "titulo": "De opificio mundi",
+      "autor": "Philo of Alexandria",
+      "arquivo": "FILOSOFIA/Grego/Platonismo_Medio/Filon/De_Opificio_Mundi/Filon_De_Opificio_Mundi_grc_Cohn_1896.md",
+      "sistema_referencia": "capitulo-secao"
+    },
+    {
+      "id": "filon-de-vita-contemplativa-grc-cohn-reiter-1915",
+      "titulo": "De vita contemplativa",
+      "autor": "Philo of Alexandria",
+      "arquivo": "FILOSOFIA/Grego/Platonismo_Medio/Filon/De_Vita_Contemplativa/Filon_De_Vita_Contemplativa_grc_Cohn-Reiter_1915.md",
+      "sistema_referencia": "capitulo-secao"
+    },
+    {
+      "id": "filon-legum-allegoriae-grc-cohn-1896",
+      "titulo": "Legum allegoriae I–III",
+      "autor": "Philo of Alexandria",
+      "arquivo": "FILOSOFIA/Grego/Platonismo_Medio/Filon/Legum_Allegoriae/Filon_Legum_Allegoriae_grc_Cohn_1896.md",
+      "sistema_referencia": "capitulo-secao"
+    },
+    {
+      "id": "filon-quod-omnis-probus-liber-sit-grc-cohn-reiter-1915",
+      "titulo": "Quod omnis probus liber sit",
+      "autor": "Philo of Alexandria",
+      "arquivo": "FILOSOFIA/Grego/Platonismo_Medio/Filon/Quod_Omnis_Probus_Liber_Sit/Filon_Quod_Omnis_Probus_Liber_Sit_grc_Cohn-Reiter_1915.md",
+      "sistema_referencia": "capitulo-secao"
+    },
+    {
+      "id": "filon-de-abrahamo-grc-cohn-1902",
+      "titulo": "De Abrahamo",
+      "autor": "Philo of Alexandria",
+      "arquivo": "FILOSOFIA/Grego/Platonismo_Medio/Filon/De_Abrahamo/Filon_De_Abrahamo_grc_Cohn_1902.md",
+      "sistema_referencia": "capitulo-secao"
+    },
+    {
+      "id": "filon-de-decalogo-grc-cohn-1902",
+      "titulo": "De decalogo",
+      "autor": "Philo of Alexandria",
+      "arquivo": "FILOSOFIA/Grego/Platonismo_Medio/Filon/De_Decalogo/Filon_De_Decalogo_grc_Cohn_1902.md",
+      "sistema_referencia": "capitulo-secao"
+    },
+    {
+      "id": "filon-de-vita-mosis-grc-cohn-1902",
+      "titulo": "De vita Mosis I–II",
+      "autor": "Philo of Alexandria",
+      "arquivo": "FILOSOFIA/Grego/Platonismo_Medio/Filon/De_Vita_Mosis/Filon_De_Vita_Mosis_grc_Cohn_1902.md",
+      "sistema_referencia": "capitulo-secao"
+    },
+    {
+      "id": "filon-de-josepho-grc-cohn-1902",
+      "titulo": "De Iosepho",
+      "autor": "Philo of Alexandria",
+      "arquivo": "FILOSOFIA/Grego/Platonismo_Medio/Filon/De_Josepho/Filon_De_Josepho_grc_Cohn_1902.md",
+      "sistema_referencia": "capitulo-secao"
+    },
+    {
+      "id": "filon-de-specialibus-legibus-grc-cohn-1906",
+      "titulo": "De specialibus legibus I–IV",
+      "autor": "Philo of Alexandria",
+      "arquivo": "FILOSOFIA/Grego/Platonismo_Medio/Filon/De_Specialibus_Legibus/Filon_De_Specialibus_Legibus_grc_Cohn_1906.md",
+      "sistema_referencia": "capitulo-secao"
+    },
+    {
+      "id": "filon-de-virtutibus-grc-cohn-1906",
+      "titulo": "De virtutibus",
+      "autor": "Philo of Alexandria",
+      "arquivo": "FILOSOFIA/Grego/Platonismo_Medio/Filon/De_Virtutibus/Filon_De_Virtutibus_grc_Cohn_1906.md",
+      "sistema_referencia": "capitulo-secao"
+    },
+    {
+      "id": "filon-de-aeternitate-mundi-grc-cohn-reiter-1915",
+      "titulo": "De aeternitate mundi",
+      "autor": "Philo of Alexandria",
+      "arquivo": "FILOSOFIA/Grego/Platonismo_Medio/Filon/De_Aeternitate_Mundi/Filon_De_Aeternitate_Mundi_grc_Cohn-Reiter_1915.md",
+      "sistema_referencia": "capitulo-secao"
+    },
+    {
+      "id": "filon-de-praemiis-et-poenis-grc-cohn-1906",
+      "titulo": "De praemiis et poenis. De exsecrationibus",
+      "autor": "Philo of Alexandria",
+      "arquivo": "FILOSOFIA/Grego/Platonismo_Medio/Filon/De_Praemiis_et_Poenis/Filon_De_Praemiis_et_Poenis_grc_Cohn_1906.md",
+      "sistema_referencia": "capitulo-secao"
+    },
+    {
+      "id": "filon-in-flaccum-grc-cohn-reiter-1915",
+      "titulo": "In Flaccum",
+      "autor": "Philo of Alexandria",
+      "arquivo": "FILOSOFIA/Grego/Platonismo_Medio/Filon/In_Flaccum/Filon_In_Flaccum_grc_Cohn-Reiter_1915.md",
+      "sistema_referencia": "capitulo-secao"
+    },
+    {
+      "id": "filon-de-somniis-grc-wendland-1898",
+      "titulo": "De somniis I–II",
+      "autor": "Philo of Alexandria",
+      "arquivo": "FILOSOFIA/Grego/Platonismo_Medio/Filon/De_Somniis/Filon_De_Somniis_grc_Wendland_1898.md",
+      "sistema_referencia": "capitulo-secao"
+    },
+    {
+      "id": "filon-legatio-ad-gaium-grc-cohn-reiter-1915",
+      "titulo": "Legatio ad Gaium",
+      "autor": "Philo of Alexandria",
+      "arquivo": "FILOSOFIA/Grego/Platonismo_Medio/Filon/Legatio_ad_Gaium/Filon_Legatio_ad_Gaium_grc_Cohn-Reiter_1915.md",
+      "sistema_referencia": "capitulo-secao"
+    },
+    {
+      "id": "filon-quis-rerum-divinarum-heres-sit-grc-wendland-1898",
+      "titulo": "Quis rerum divinarum heres sit",
+      "autor": "Philo of Alexandria",
+      "arquivo": "FILOSOFIA/Grego/Platonismo_Medio/Filon/Quis_Rerum_Divinarum_Heres_Sit/Filon_Quis_Rerum_Divinarum_Heres_Sit_grc_Wendland_1898.md",
+      "sistema_referencia": "capitulo-secao"
+    },
+    {
+      "id": "filon-de-cherubim-grc-cohn-1896",
+      "titulo": "De cherubim",
+      "autor": "Philo of Alexandria",
+      "arquivo": "FILOSOFIA/Grego/Platonismo_Medio/Filon/De_Cherubim/Filon_De_Cherubim_grc_Cohn_1896.md",
+      "sistema_referencia": "capitulo-secao"
+    },
+    {
+      "id": "filon-de-sacrificiis-abelis-et-caini-grc-cohn-1896",
+      "titulo": "De sacrificiis Abelis et Caini",
+      "autor": "Philo of Alexandria",
+      "arquivo": "FILOSOFIA/Grego/Platonismo_Medio/Filon/De_Sacrificiis_Abelis_et_Caini/Filon_De_Sacrificiis_Abelis_et_Caini_grc_Cohn_1896.md",
+      "sistema_referencia": "capitulo-secao"
+    },
+    {
+      "id": "filon-quod-deterius-potiori-insidiari-soleat-grc-cohn-1896",
+      "titulo": "Quod deterius potiori insidiari soleat",
+      "autor": "Philo of Alexandria",
+      "arquivo": "FILOSOFIA/Grego/Platonismo_Medio/Filon/Quod_Deterius_Potiori_Insidiari_Soleat/Filon_Quod_Deterius_Potiori_Insidiari_Soleat_grc_Cohn_1896.md",
+      "sistema_referencia": "capitulo-secao"
+    },
+    {
+      "id": "filon-de-gigantibus-grc-wendland-1897",
+      "titulo": "De gigantibus",
+      "autor": "Philo of Alexandria",
+      "arquivo": "FILOSOFIA/Grego/Platonismo_Medio/Filon/De_Gigantibus/Filon_De_Gigantibus_grc_Wendland_1897.md",
+      "sistema_referencia": "capitulo-secao"
+    },
+    {
+      "id": "filon-de-posteritate-caini-grc-wendland-1897",
+      "titulo": "De posteritate Caini",
+      "autor": "Philo of Alexandria",
+      "arquivo": "FILOSOFIA/Grego/Platonismo_Medio/Filon/De_Posteritate_Caini/Filon_De_Posteritate_Caini_grc_Wendland_1897.md",
+      "sistema_referencia": "capitulo-secao"
+    },
+    {
+      "id": "filon-quod-deus-sit-immutabilis-grc-wendland-1897",
+      "titulo": "Quod Deus sit immutabilis",
+      "autor": "Philo of Alexandria",
+      "arquivo": "FILOSOFIA/Grego/Platonismo_Medio/Filon/Quod_Deus_Sit_Immutabilis/Filon_Quod_Deus_Sit_Immutabilis_grc_Wendland_1897.md",
+      "sistema_referencia": "capitulo-secao"
+    },
+    {
+      "id": "filon-de-agricultura-grc-wendland-1897",
+      "titulo": "De agricultura",
+      "autor": "Philo of Alexandria",
+      "arquivo": "FILOSOFIA/Grego/Platonismo_Medio/Filon/De_Agricultura/Filon_De_Agricultura_grc_Wendland_1897.md",
+      "sistema_referencia": "capitulo-secao"
+    },
+    {
+      "id": "filon-de-ebrietate-grc-wendland-1897",
+      "titulo": "De ebrietate",
+      "autor": "Philo of Alexandria",
+      "arquivo": "FILOSOFIA/Grego/Platonismo_Medio/Filon/De_Ebrietate/Filon_De_Ebrietate_grc_Wendland_1897.md",
+      "sistema_referencia": "capitulo-secao"
+    },
+    {
+      "id": "filon-de-plantatione-grc-wendland-1897",
+      "titulo": "De plantatione",
+      "autor": "Philo of Alexandria",
+      "arquivo": "FILOSOFIA/Grego/Platonismo_Medio/Filon/De_Plantatione/Filon_De_Plantatione_grc_Wendland_1897.md",
+      "sistema_referencia": "capitulo-secao"
+    },
+    {
+      "id": "filon-de-confusione-linguarum-grc-wendland-1897",
+      "titulo": "De confusione linguarum",
+      "autor": "Philo of Alexandria",
+      "arquivo": "FILOSOFIA/Grego/Platonismo_Medio/Filon/De_Confusione_Linguarum/Filon_De_Confusione_Linguarum_grc_Wendland_1897.md",
+      "sistema_referencia": "capitulo-secao"
+    },
+    {
+      "id": "filon-de-migratione-abrahami-grc-wendland-1897",
+      "titulo": "De migratione Abrahami",
+      "autor": "Philo of Alexandria",
+      "arquivo": "FILOSOFIA/Grego/Platonismo_Medio/Filon/De_Migratione_Abrahami/Filon_De_Migratione_Abrahami_grc_Wendland_1897.md",
+      "sistema_referencia": "capitulo-secao"
+    },
+    {
+      "id": "filon-de-sobrietate-grc-wendland-1897",
+      "titulo": "De sobrietate",
+      "autor": "Philo of Alexandria",
+      "arquivo": "FILOSOFIA/Grego/Platonismo_Medio/Filon/De_Sobrietate/Filon_De_Sobrietate_grc_Wendland_1897.md",
+      "sistema_referencia": "capitulo-secao"
+    },
+    {
+      "id": "filon-de-congressu-eruditionis-gratia-grc-wendland-1898",
+      "titulo": "De congressu eruditionis gratia",
+      "autor": "Philo of Alexandria",
+      "arquivo": "FILOSOFIA/Grego/Platonismo_Medio/Filon/De_Congressu_Eruditionis_Gratia/Filon_De_Congressu_Eruditionis_Gratia_grc_Wendland_1898.md",
+      "sistema_referencia": "capitulo-secao"
+    },
+    {
+      "id": "filon-de-fuga-et-inventione-grc-wendland-1898",
+      "titulo": "De fuga et inventione",
+      "autor": "Philo of Alexandria",
+      "arquivo": "FILOSOFIA/Grego/Platonismo_Medio/Filon/De_Fuga_et_Inventione/Filon_De_Fuga_et_Inventione_grc_Wendland_1898.md",
+      "sistema_referencia": "capitulo-secao"
+    },
+    {
+      "id": "filon-de-mutatione-nominum-grc-wendland-1898",
+      "titulo": "De mutatione nominum",
+      "autor": "Philo of Alexandria",
+      "arquivo": "FILOSOFIA/Grego/Platonismo_Medio/Filon/De_Mutatione_Nominum/Filon_De_Mutatione_Nominum_grc_Wendland_1898.md",
+      "sistema_referencia": "capitulo-secao"
+    },
+    {
+      "id": "filon-de-opificio-mundi-en-yonge-1854",
+      "titulo": "On the Creation of the World",
+      "autor": "Philo of Alexandria",
+      "arquivo": "FILOSOFIA/Ingles/Platonismo_Medio/Filon/De_Opificio_Mundi/Filon_De_Opificio_Mundi_en_Yonge_1854.md",
+      "sistema_referencia": "capitulo-secao"
+    },
+    {
+      "id": "filon-de-sacrificiis-abelis-et-caini-en-yonge-1854",
+      "titulo": "On the Sacrifice of Abel and Cain",
+      "autor": "Philo of Alexandria",
+      "arquivo": "FILOSOFIA/Ingles/Platonismo_Medio/Filon/De_Sacrificiis_Abelis_et_Caini/Filon_De_Sacrificiis_Abelis_et_Caini_en_Yonge_1854.md",
+      "sistema_referencia": "capitulo-secao"
+    },
+    {
+      "id": "filon-legum-allegoriae-en-yonge-1854",
+      "titulo": "On the Allegories of the Sacred Laws",
+      "autor": "Philo of Alexandria",
+      "arquivo": "FILOSOFIA/Ingles/Platonismo_Medio/Filon/Legum_Allegoriae/Filon_Legum_Allegoriae_en_Yonge_1854.md",
+      "sistema_referencia": "capitulo-secao"
+    },
+    {
+      "id": "filon-de-gigantibus-en-yonge-1854",
+      "titulo": "On the Giants",
+      "autor": "Philo of Alexandria",
+      "arquivo": "FILOSOFIA/Ingles/Platonismo_Medio/Filon/De_Gigantibus/Filon_De_Gigantibus_en_Yonge_1854.md",
+      "sistema_referencia": "capitulo-secao"
+    },
+    {
+      "id": "filon-de-posteritate-caini-en-yonge-1854",
+      "titulo": "On the Posterity of Cain",
+      "autor": "Philo of Alexandria",
+      "arquivo": "FILOSOFIA/Ingles/Platonismo_Medio/Filon/De_Posteritate_Caini/Filon_De_Posteritate_Caini_en_Yonge_1854.md",
+      "sistema_referencia": "capitulo-secao"
+    },
+    {
+      "id": "filon-quod-deterius-potiori-insidiari-soleat-en-yonge-1854",
+      "titulo": "On the Principle that the Worse is accustomed to be always plotting against the Better",
+      "autor": "Philo of Alexandria",
+      "arquivo": "FILOSOFIA/Ingles/Platonismo_Medio/Filon/Quod_Deterius_Potiori_Insidiari_Soleat/Filon_Quod_Deterius_Potiori_Insidiari_Soleat_en_Yonge_1854.md",
+      "sistema_referencia": "capitulo-secao"
+    },
+    {
+      "id": "filon-de-agricultura-en-yonge-1854",
+      "titulo": "On the Tilling of the Earth by Noah",
+      "autor": "Philo of Alexandria",
+      "arquivo": "FILOSOFIA/Ingles/Platonismo_Medio/Filon/De_Agricultura/Filon_De_Agricultura_en_Yonge_1854.md",
+      "sistema_referencia": "capitulo-secao"
+    },
+    {
+      "id": "filon-de-plantatione-en-yonge-1854",
+      "titulo": "About the Planting of Noah",
+      "autor": "Philo of Alexandria",
+      "arquivo": "FILOSOFIA/Ingles/Platonismo_Medio/Filon/De_Plantatione/Filon_De_Plantatione_en_Yonge_1854.md",
+      "sistema_referencia": "capitulo-secao"
+    },
+    {
+      "id": "filon-quod-deus-sit-immutabilis-en-yonge-1854",
+      "titulo": "On the Unchangeableness of God",
+      "autor": "Philo of Alexandria",
+      "arquivo": "FILOSOFIA/Ingles/Platonismo_Medio/Filon/Quod_Deus_Sit_Immutabilis/Filon_Quod_Deus_Sit_Immutabilis_en_Yonge_1854.md",
+      "sistema_referencia": "capitulo-secao"
+    },
+    {
+      "id": "filon-de-confusione-linguarum-en-yonge-1854",
+      "titulo": "On the Confusion of Languages",
+      "autor": "Philo of Alexandria",
+      "arquivo": "FILOSOFIA/Ingles/Platonismo_Medio/Filon/De_Confusione_Linguarum/Filon_De_Confusione_Linguarum_en_Yonge_1854.md",
+      "sistema_referencia": "capitulo-secao"
+    },
+    {
+      "id": "filon-de-ebrietate-en-yonge-1854",
+      "titulo": "On Drunkenness",
+      "autor": "Philo of Alexandria",
+      "arquivo": "FILOSOFIA/Ingles/Platonismo_Medio/Filon/De_Ebrietate/Filon_De_Ebrietate_en_Yonge_1854.md",
+      "sistema_referencia": "capitulo-secao"
+    },
+    {
+      "id": "filon-de-sobrietate-en-yonge-1854",
+      "titulo": "On Sobriety",
+      "autor": "Philo of Alexandria",
+      "arquivo": "FILOSOFIA/Ingles/Platonismo_Medio/Filon/De_Sobrietate/Filon_De_Sobrietate_en_Yonge_1854.md",
+      "sistema_referencia": "capitulo-secao"
+    },
+    {
+      "id": "filon-de-congressu-eruditionis-gratia-en-yonge-1854",
+      "titulo": "On the Meeting for the sake of seeking Instruction",
+      "autor": "Philo of Alexandria",
+      "arquivo": "FILOSOFIA/Ingles/Platonismo_Medio/Filon/De_Congressu_Eruditionis_Gratia/Filon_De_Congressu_Eruditionis_Gratia_en_Yonge_1854.md",
+      "sistema_referencia": "capitulo-secao"
+    },
+    {
+      "id": "filon-de-migratione-abrahami-en-yonge-1854",
+      "titulo": "On the Migration of Abraham",
+      "autor": "Philo of Alexandria",
+      "arquivo": "FILOSOFIA/Ingles/Platonismo_Medio/Filon/De_Migratione_Abrahami/Filon_De_Migratione_Abrahami_en_Yonge_1854.md",
+      "sistema_referencia": "capitulo-secao"
+    },
+    {
+      "id": "filon-quis-rerum-divinarum-heres-sit-en-yonge-1854",
+      "titulo": "On the question, Who is the Heir of Divine Things",
+      "autor": "Philo of Alexandria",
+      "arquivo": "FILOSOFIA/Ingles/Platonismo_Medio/Filon/Quis_Rerum_Divinarum_Heres_Sit/Filon_Quis_Rerum_Divinarum_Heres_Sit_en_Yonge_1854.md",
+      "sistema_referencia": "capitulo-secao"
+    },
+    {
+      "id": "filon-de-fuga-et-inventione-en-yonge-1854",
+      "titulo": "On Fugitives",
+      "autor": "Philo of Alexandria",
+      "arquivo": "FILOSOFIA/Ingles/Platonismo_Medio/Filon/De_Fuga_et_Inventione/Filon_De_Fuga_et_Inventione_en_Yonge_1854.md",
+      "sistema_referencia": "capitulo-secao"
+    },
+    {
+      "id": "filon-de-mutatione-nominum-en-yonge-1854",
+      "titulo": "On the question why certain Names in the Holy Scriptures are changed",
+      "autor": "Philo of Alexandria",
+      "arquivo": "FILOSOFIA/Ingles/Platonismo_Medio/Filon/De_Mutatione_Nominum/Filon_De_Mutatione_Nominum_en_Yonge_1854.md",
+      "sistema_referencia": "capitulo-secao"
+    },
+    {
+      "id": "filon-de-somniis-en-yonge-1854",
+      "titulo": "On the doctrine that Dreams are sent from God",
+      "autor": "Philo of Alexandria",
+      "arquivo": "FILOSOFIA/Ingles/Platonismo_Medio/Filon/De_Somniis/Filon_De_Somniis_en_Yonge_1854.md",
+      "sistema_referencia": "capitulo-secao"
+    },
+    {
+      "id": "filon-de-abrahamo-en-yonge-1854",
+      "titulo": "On Abraham",
+      "autor": "Philo of Alexandria",
+      "arquivo": "FILOSOFIA/Ingles/Platonismo_Medio/Filon/De_Abrahamo/Filon_De_Abrahamo_en_Yonge_1854.md",
+      "sistema_referencia": "capitulo-secao"
+    },
+    {
+      "id": "filon-de-josepho-en-yonge-1854",
+      "titulo": "On Joseph",
+      "autor": "Philo of Alexandria",
+      "arquivo": "FILOSOFIA/Ingles/Platonismo_Medio/Filon/De_Josepho/Filon_De_Josepho_en_Yonge_1854.md",
+      "sistema_referencia": "capitulo-secao"
+    },
+    {
+      "id": "filon-de-vita-mosis-en-yonge-1855",
+      "titulo": "On the Life of Moses",
+      "autor": "Philo of Alexandria",
+      "arquivo": "FILOSOFIA/Ingles/Platonismo_Medio/Filon/De_Vita_Mosis/Filon_De_Vita_Mosis_en_Yonge_1855.md",
+      "sistema_referencia": "capitulo-secao"
+    },
+    {
+      "id": "filon-de-decalogo-en-yonge-1855",
+      "titulo": "Concerning the Ten Commandments",
+      "autor": "Philo of Alexandria",
+      "arquivo": "FILOSOFIA/Ingles/Platonismo_Medio/Filon/De_Decalogo/Filon_De_Decalogo_en_Yonge_1855.md",
+      "sistema_referencia": "capitulo-secao"
+    },
+    {
+      "id": "filon-de-specialibus-legibus-en-yonge-1855",
+      "titulo": "On the Special Laws",
+      "autor": "Philo of Alexandria",
+      "arquivo": "FILOSOFIA/Ingles/Platonismo_Medio/Filon/De_Specialibus_Legibus/Filon_De_Specialibus_Legibus_en_Yonge_1855.md",
+      "sistema_referencia": "capitulo-secao"
+    },
+    {
+      "id": "filon-de-virtutibus-en-yonge-1855",
+      "titulo": "On the Virtues: Courage, Humanity, and Repentance",
+      "autor": "Philo of Alexandria",
+      "arquivo": "FILOSOFIA/Ingles/Platonismo_Medio/Filon/De_Virtutibus/Filon_De_Virtutibus_en_Yonge_1855.md",
+      "sistema_referencia": "capitulo-secao"
+    },
+    {
+      "id": "filon-de-praemiis-et-poenis-en-yonge-1855",
+      "titulo": "On Rewards and Punishments",
+      "autor": "Philo of Alexandria",
+      "arquivo": "FILOSOFIA/Ingles/Platonismo_Medio/Filon/De_Praemiis_et_Poenis/Filon_De_Praemiis_et_Poenis_en_Yonge_1855.md",
+      "sistema_referencia": "capitulo-secao"
+    },
+    {
+      "id": "filon-de-vita-contemplativa-en-yonge-1855",
+      "titulo": "On the Contemplative Life",
+      "autor": "Philo of Alexandria",
+      "arquivo": "FILOSOFIA/Ingles/Platonismo_Medio/Filon/De_Vita_Contemplativa/Filon_De_Vita_Contemplativa_en_Yonge_1855.md",
+      "sistema_referencia": "capitulo-secao"
+    },
+    {
+      "id": "filon-quod-omnis-probus-liber-sit-en-yonge-1855",
+      "titulo": "That Every Good Man is Free",
+      "autor": "Philo of Alexandria",
+      "arquivo": "FILOSOFIA/Ingles/Platonismo_Medio/Filon/Quod_Omnis_Probus_Liber_Sit/Filon_Quod_Omnis_Probus_Liber_Sit_en_Yonge_1855.md",
+      "sistema_referencia": "capitulo-secao"
+    },
+    {
+      "id": "filon-de-aeternitate-mundi-en-yonge-1855",
+      "titulo": "On the Eternity of the World",
+      "autor": "Philo of Alexandria",
+      "arquivo": "FILOSOFIA/Ingles/Platonismo_Medio/Filon/De_Aeternitate_Mundi/Filon_De_Aeternitate_Mundi_en_Yonge_1855.md",
+      "sistema_referencia": "capitulo-secao"
+    },
+    {
+      "id": "filon-in-flaccum-en-yonge-1855",
+      "titulo": "Against Flaccus",
+      "autor": "Philo of Alexandria",
+      "arquivo": "FILOSOFIA/Ingles/Platonismo_Medio/Filon/In_Flaccum/Filon_In_Flaccum_en_Yonge_1855.md",
+      "sistema_referencia": "capitulo-secao"
+    },
+    {
+      "id": "filon-legatio-ad-gaium-en-yonge-1855",
+      "titulo": "On the Embassy to Gaius",
+      "autor": "Philo of Alexandria",
+      "arquivo": "FILOSOFIA/Ingles/Platonismo_Medio/Filon/Legatio_ad_Gaium/Filon_Legatio_ad_Gaium_en_Yonge_1855.md",
+      "sistema_referencia": "capitulo-secao"
+    },
+    {
+      "id": "filon-de-cherubim-en-yonge-1854",
+      "titulo": "On the Cherubim",
+      "autor": "Philo of Alexandria",
+      "arquivo": "FILOSOFIA/Ingles/Platonismo_Medio/Filon/De_Cherubim/Filon_De_Cherubim_en_Yonge_1854.md",
+      "sistema_referencia": "capitulo-secao"
     }
   ],
   "redirecionamentos": {
