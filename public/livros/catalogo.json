@@ -9424,6 +9424,27 @@
       "autor": "Marcus Tullius Cicero",
       "arquivo": "FILOSOFIA/Latim/Filosofia_Republicana/Cicero/Pro_Roscio_Amerino/Cicero_Pro_Roscio_Amerino_la_Clark_1908.md",
       "sistema_referencia": "capitulo-secao"
+    },
+    {
+      "id": "cicero-divinatio-in-caecilium-la-peterson-1917",
+      "titulo": "Divinatio in Q. Caecilium",
+      "autor": "Marcus Tullius Cicero",
+      "arquivo": "FILOSOFIA/Latim/Filosofia_Republicana/Cicero/Divinatio_in_Caecilium/Cicero_Divinatio_in_Caecilium_la_Peterson_1917.md",
+      "sistema_referencia": "capitulo-secao"
+    },
+    {
+      "id": "cicero-in-verrem-la-peterson-1917",
+      "titulo": "In C. Verrem",
+      "autor": "Marcus Tullius Cicero",
+      "arquivo": "FILOSOFIA/Latim/Filosofia_Republicana/Cicero/In_Verrem/Cicero_In_Verrem_la_Peterson_1917.md",
+      "sistema_referencia": "capitulo-secao"
+    },
+    {
+      "id": "cicero-pro-roscio-comoedo-la-clark-1909",
+      "titulo": "Pro Q. Roscio comoedo",
+      "autor": "Marcus Tullius Cicero",
+      "arquivo": "FILOSOFIA/Latim/Filosofia_Republicana/Cicero/Pro_Roscio_Comoedo/Cicero_Pro_Roscio_Comoedo_la_Clark_1909.md",
+      "sistema_referencia": "capitulo-secao"
     }
   ],
   "redirecionamentos": {
