@@ -1,0 +1,6 @@
+anchor-v-1
+anchor-v-10
+anchor-v-15
+anchor-v-15a
+anchor-v-5
+urn:cts:greekLit:tlg0013.tlg031.perseus-eng2

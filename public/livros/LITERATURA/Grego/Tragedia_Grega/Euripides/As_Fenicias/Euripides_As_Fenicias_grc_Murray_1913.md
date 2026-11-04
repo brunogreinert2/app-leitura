@@ -23,9 +23,9 @@ urn: urn:cts:greekLit:tlg0006.tlg015.perseus-grc2
 source: https://github.com/PerseusDL/canonical-greekLit/tree/master/data/tlg0006/tlg015
 source_repo: PerseusDL/canonical-greekLit
 source_file: data/tlg0006/tlg015/tlg0006.tlg015.perseus-grc2.xml
-source_commit: e37eed2e8
+source_commit: 282e6f5a
 license: CC-BY-SA-4.0
-processing: Saneamento/obra_nova_tei.py e conversor_tei.py (perfil tragedia), 2026-11-03; preparado por Διαφορεύς, Claude Opus 5.5.
+processing: 'Saneamento/obra_nova_tei.py e conversor_tei.py (perfil tragedia), 2026-11-03; preparado por Διαφορεύς, Claude Opus 5.5. Reconvertido em 2026-11-04 do commit 282e6f5a do Perseus (a primeira versão saiu de e37eed2e8): os versos são os mesmos.'
 ---
 
 # Φοίνισσαι
@@ -3429,6 +3429,8 @@ processing: Saneamento/obra_nova_tei.py e conversor_tei.py (perfil tragedia), 20
 
 *Ἄγγελος*
 
+[^1]
+
 **1335** ὦ τάλας ἐγώ, τίνʼ εἴπω μῦθον ἢ τίνας γόους; ^v-1335
 
 *Κρέων*
@@ -4512,3 +4514,7 @@ processing: Saneamento/obra_nova_tei.py e conversor_tei.py (perfil tragedia), 20
 **1765** βίοτον κατέχοις ^v-1765
 
 **1766** καὶ μὴ λήγοις στεφανοῦσα. ^v-1766
+
+> Ὁ Διαφορεύς παρῆν
+
+[^1]: From 1335 to end, all Messenger speeches are best attributed to the second Messenger (Ἕτερος Ἄγγελος) listed in the Dramatis Personae.

@@ -1,0 +1,41 @@
+---
+id: hinos-homericos-hino-09-a-artemis-en-evelyn-white-1914
+type: translation
+title: 'Homeric Hymn 9: To Artemis'
+original_title: Εἲς Ἄρτεμιν
+author: Anonymous
+translator:
+- Hugh G. Evelyn-White
+base_edition: 'Hesiod, the Homeric Hymns and Homerica, with an English translation by Hugh G. Evelyn-White (London: William Heinemann; New York: The Macmillan Co., 1914), Loeb Classical Library'
+cite_in: 'EVELYN-WHITE, Hugh G. (trad.). Hesiod, the Homeric Hymns and Homerica. Londres: William Heinemann; Nova York: The Macmillan Co., 1914'
+publisher: William Heinemann
+publication_year: 1914
+language: eng
+tags:
+- greek-epic
+- homeric-hymns
+- hexameter
+- hymn
+- greek-religion
+status: draft
+project: pedra_angular
+related:
+- hinos-homericos-hino-09-a-artemis-grc-evelyn-white-1914
+scope: 'English translation of the Greek text in related, in prose, divided as in the TEI by the Greek line where each passage begins: the number in bold (**1**) and the anchor ^v-1, the same as in the Greek; the translator''s notes become notes'
+urn_work: urn:cts:greekLit:tlg0013.tlg009
+urn: urn:cts:greekLit:tlg0013.tlg009.perseus-eng2
+source: https://github.com/PerseusDL/canonical-greekLit/tree/master/data/tlg0013/tlg009
+source_repo: PerseusDL/canonical-greekLit
+source_file: data/tlg0013/tlg009/tlg0013.tlg009.perseus-eng2.xml
+source_commit: 282e6f5a
+license: CC-BY-SA-4.0
+processing: Saneamento/obra_nova_tei.py and conversor_tei.py (profile epica), 2026-11-04; prepared by Διαφορεύς, Claude Opus 5.5.
+---
+
+# Homeric Hymn 9: To Artemis
+
+**1** Muse, sing of Artemis, sister of the Far-shooter, the virgin who delights in arrows, who was fostered with Apollo. She waters her horses from Meles deep in reeds, and swiftly drives her all-golden chariot through Smyrna ^v-1
+
+**5** to vine-clad Claros where Apollo, god of the silver bow, sits waiting for the far-shooting goddess who delights in arrows. And so hail to you, Artemis, in my song and to all goddesses as well. Of you first I sing and with you I begin; now that I have begun with you, I will turn to another song. ^v-5
+
+> Ὁ Διαφορεύς παρῆν
