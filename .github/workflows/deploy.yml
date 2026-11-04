@@ -42,10 +42,12 @@ jobs:
           path: .portao-ok
           key: portao-ok-${{ github.sha }}
           lookup-only: true
+      # sempre: o Pórtico também usa (gerar.py importa o validar_corpus)
+      - name: Pacotes Python do acervo
+        run: pip install -r scripts/acervo/requirements.txt
       - name: Portão do acervo
         if: steps.portao-visto.outputs.cache-hit != 'true'
         run: |
-          pip install -r scripts/acervo/requirements.txt
           python scripts/acervo/portao_acervo.py --completo
           echo "${{ github.sha }}" > .portao-ok
       - name: Guardar que o portão passou neste commit
