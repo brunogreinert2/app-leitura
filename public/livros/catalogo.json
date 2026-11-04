@@ -9487,6 +9487,27 @@
       "autor": "Marcus Tullius Cicero",
       "arquivo": "FILOSOFIA/Latim/Filosofia_Republicana/Cicero/Pro_Rabirio_Perduellionis_Reo/Cicero_Pro_Rabirio_Perduellionis_Reo_la_Clark_1909.md",
       "sistema_referencia": "capitulo-secao"
+    },
+    {
+      "id": "cicero-post-reditum-ad-quirites-la-peterson-1911",
+      "titulo": "Post reditum ad Quirites",
+      "autor": "Marcus Tullius Cicero",
+      "arquivo": "FILOSOFIA/Latim/Filosofia_Republicana/Cicero/Post_Reditum_ad_Quirites/Cicero_Post_Reditum_ad_Quirites_la_Peterson_1911.md",
+      "sistema_referencia": "capitulo-secao"
+    },
+    {
+      "id": "cicero-post-reditum-in-senatu-la-peterson-1909",
+      "titulo": "Post reditum in senatu",
+      "autor": "Marcus Tullius Cicero",
+      "arquivo": "FILOSOFIA/Latim/Filosofia_Republicana/Cicero/Post_Reditum_in_Senatu/Cicero_Post_Reditum_in_Senatu_la_Peterson_1909.md",
+      "sistema_referencia": "capitulo-secao"
+    },
+    {
+      "id": "cicero-pro-sulla-la-clark-1911",
+      "titulo": "Pro P. Sulla",
+      "autor": "Marcus Tullius Cicero",
+      "arquivo": "FILOSOFIA/Latim/Filosofia_Republicana/Cicero/Pro_Sulla/Cicero_Pro_Sulla_la_Clark_1911.md",
+      "sistema_referencia": "capitulo-secao"
     }
   ],
   "redirecionamentos": {

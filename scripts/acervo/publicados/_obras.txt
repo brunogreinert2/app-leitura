@@ -470,6 +470,8 @@ cicero-in-verrem-la-peterson-1917
 cicero-orator-la-wilkins-1902
 cicero-paradoxa-stoicorum-lat-latinlibrary-sd
 cicero-philippicae-la-clark-1918
+cicero-post-reditum-ad-quirites-la-peterson-1911
+cicero-post-reditum-in-senatu-la-peterson-1909
 cicero-pro-archia-la-clark-1911
 cicero-pro-caecina-la-clark-1909
 cicero-pro-caelio-la-clark-1908
@@ -481,6 +483,7 @@ cicero-pro-quinctio-la-clark-1909
 cicero-pro-rabirio-perduellionis-reo-la-clark-1909
 cicero-pro-roscio-amerino-la-clark-1908
 cicero-pro-roscio-comoedo-la-clark-1909
+cicero-pro-sulla-la-clark-1911
 cicero-pro-tullio-la-clark-1911
 cicero-timaeus-la-mueller-1898
 cicero-topica-lat-latinlibrary-sd
