@@ -9592,6 +9592,27 @@
       "autor": "Marcus Tullius Cicero",
       "arquivo": "FILOSOFIA/Latim/Filosofia_Republicana/Cicero/Pro_Rege_Deiotaro/Cicero_Pro_Rege_Deiotaro_la_Clark_1918.md",
       "sistema_referencia": "capitulo-secao"
+    },
+    {
+      "id": "cicero-epistulae-ad-brutum-la-purser-1903",
+      "titulo": "Epistulae ad Brutum",
+      "autor": "Marcus Tullius Cicero",
+      "arquivo": "FILOSOFIA/Latim/Filosofia_Republicana/Cicero/Epistulae_ad_Brutum/Cicero_Epistulae_ad_Brutum_la_Purser_1903.md",
+      "sistema_referencia": "capitulo-secao"
+    },
+    {
+      "id": "cicero-epistulae-ad-familiares-la-purser-1901",
+      "titulo": "Epistulae ad familiares",
+      "autor": "Marcus Tullius Cicero",
+      "arquivo": "FILOSOFIA/Latim/Filosofia_Republicana/Cicero/Epistulae_ad_Familiares/Cicero_Epistulae_ad_Familiares_la_Purser_1901.md",
+      "sistema_referencia": "capitulo-secao"
+    },
+    {
+      "id": "cicero-epistulae-ad-quintum-fratrem-la-purser-1903",
+      "titulo": "Epistulae ad Quintum fratrem",
+      "autor": "Marcus Tullius Cicero",
+      "arquivo": "FILOSOFIA/Latim/Filosofia_Republicana/Cicero/Epistulae_ad_Quintum_Fratrem/Cicero_Epistulae_ad_Quintum_Fratrem_la_Purser_1903.md",
+      "sistema_referencia": "capitulo-secao"
     }
   ],
   "redirecionamentos": {

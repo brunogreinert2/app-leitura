@@ -468,6 +468,9 @@ cicero-de-re-publica-lat-latinlibrary-sd
 cicero-de-re-publica-pt-anonimo-sd
 cicero-de-senectute-lat-latinlibrary-sd
 cicero-divinatio-in-caecilium-la-peterson-1917
+cicero-epistulae-ad-brutum-la-purser-1903
+cicero-epistulae-ad-familiares-la-purser-1901
+cicero-epistulae-ad-quintum-fratrem-la-purser-1903
 cicero-in-catilinam-la-clark-1908
 cicero-in-pisonem-la-clark-1909
 cicero-in-vatinium-la-peterson-1909
