@@ -9328,311 +9328,451 @@
       "arquivo": "LITERATURA/Portugues/Tragedia_Grega/Sofocles/As_Traquinias/Sofocles_As_Traquinias_Prologo_e_Parodo_pt_Oliveira_2024.md"
     },
     {
-      "id": "cicero-de-inventione-la-stroebel-1915",
-      "titulo": "De inventione",
-      "autor": "Marcus Tullius Cicero",
-      "arquivo": "FILOSOFIA/Latim/Filosofia_Republicana/Cicero/De_Inventione/Cicero_De_Inventione_la_Stroebel_1915.md",
+      "id": "filon-de-opificio-mundi-grc-cohn-1896",
+      "titulo": "De opificio mundi",
+      "autor": "Philo of Alexandria",
+      "arquivo": "FILOSOFIA/Grego/Platonismo_Medio/Filon/De_Opificio_Mundi/Filon_De_Opificio_Mundi_grc_Cohn_1896.md",
       "sistema_referencia": "capitulo-secao"
     },
     {
-      "id": "cicero-de-oratore-la-wilkins-1902",
-      "titulo": "De oratore",
-      "autor": "Marcus Tullius Cicero",
-      "arquivo": "FILOSOFIA/Latim/Filosofia_Republicana/Cicero/De_Oratore/Cicero_De_Oratore_la_Wilkins_1902.md",
+      "id": "filon-de-vita-contemplativa-grc-cohn-reiter-1915",
+      "titulo": "De vita contemplativa",
+      "autor": "Philo of Alexandria",
+      "arquivo": "FILOSOFIA/Grego/Platonismo_Medio/Filon/De_Vita_Contemplativa/Filon_De_Vita_Contemplativa_grc_Cohn-Reiter_1915.md",
       "sistema_referencia": "capitulo-secao"
     },
     {
-      "id": "cicero-orator-la-wilkins-1902",
-      "titulo": "Orator",
-      "autor": "Marcus Tullius Cicero",
-      "arquivo": "FILOSOFIA/Latim/Filosofia_Republicana/Cicero/Orator/Cicero_Orator_la_Wilkins_1902.md",
+      "id": "filon-legum-allegoriae-grc-cohn-1896",
+      "titulo": "Legum allegoriae I–III",
+      "autor": "Philo of Alexandria",
+      "arquivo": "FILOSOFIA/Grego/Platonismo_Medio/Filon/Legum_Allegoriae/Filon_Legum_Allegoriae_grc_Cohn_1896.md",
       "sistema_referencia": "capitulo-secao"
     },
     {
-      "id": "cicero-de-optimo-genere-oratorum-la-wilkins-1902",
-      "titulo": "De optimo genere oratorum",
-      "autor": "Marcus Tullius Cicero",
-      "arquivo": "FILOSOFIA/Latim/Filosofia_Republicana/Cicero/De_Optimo_Genere_Oratorum/Cicero_De_Optimo_Genere_Oratorum_la_Wilkins_1902.md",
+      "id": "filon-quod-omnis-probus-liber-sit-grc-cohn-reiter-1915",
+      "titulo": "Quod omnis probus liber sit",
+      "autor": "Philo of Alexandria",
+      "arquivo": "FILOSOFIA/Grego/Platonismo_Medio/Filon/Quod_Omnis_Probus_Liber_Sit/Filon_Quod_Omnis_Probus_Liber_Sit_grc_Cohn-Reiter_1915.md",
       "sistema_referencia": "capitulo-secao"
     },
     {
-      "id": "cicero-timaeus-la-mueller-1898",
-      "titulo": "Timaeus",
-      "autor": "Marcus Tullius Cicero",
-      "arquivo": "FILOSOFIA/Latim/Filosofia_Republicana/Cicero/Timaeus/Cicero_Timaeus_la_Mueller_1898.md",
+      "id": "filon-de-abrahamo-grc-cohn-1902",
+      "titulo": "De Abrahamo",
+      "autor": "Philo of Alexandria",
+      "arquivo": "FILOSOFIA/Grego/Platonismo_Medio/Filon/De_Abrahamo/Filon_De_Abrahamo_grc_Cohn_1902.md",
       "sistema_referencia": "capitulo-secao"
     },
     {
-      "id": "cicero-in-catilinam-la-clark-1908",
-      "titulo": "In Catilinam",
-      "autor": "Marcus Tullius Cicero",
-      "arquivo": "FILOSOFIA/Latim/Filosofia_Republicana/Cicero/In_Catilinam/Cicero_In_Catilinam_la_Clark_1908.md",
+      "id": "filon-de-decalogo-grc-cohn-1902",
+      "titulo": "De decalogo",
+      "autor": "Philo of Alexandria",
+      "arquivo": "FILOSOFIA/Grego/Platonismo_Medio/Filon/De_Decalogo/Filon_De_Decalogo_grc_Cohn_1902.md",
       "sistema_referencia": "capitulo-secao"
     },
     {
-      "id": "cicero-pro-archia-la-clark-1911",
-      "titulo": "Pro A. Licinio Archia poeta",
-      "autor": "Marcus Tullius Cicero",
-      "arquivo": "FILOSOFIA/Latim/Filosofia_Republicana/Cicero/Pro_Archia/Cicero_Pro_Archia_la_Clark_1911.md",
+      "id": "filon-de-vita-mosis-grc-cohn-1902",
+      "titulo": "De vita Mosis I–II",
+      "autor": "Philo of Alexandria",
+      "arquivo": "FILOSOFIA/Grego/Platonismo_Medio/Filon/De_Vita_Mosis/Filon_De_Vita_Mosis_grc_Cohn_1902.md",
       "sistema_referencia": "capitulo-secao"
     },
     {
-      "id": "cicero-pro-milone-la-clark-1918",
-      "titulo": "Pro T. Annio Milone",
-      "autor": "Marcus Tullius Cicero",
-      "arquivo": "FILOSOFIA/Latim/Filosofia_Republicana/Cicero/Pro_Milone/Cicero_Pro_Milone_la_Clark_1918.md",
+      "id": "filon-de-josepho-grc-cohn-1902",
+      "titulo": "De Iosepho",
+      "autor": "Philo of Alexandria",
+      "arquivo": "FILOSOFIA/Grego/Platonismo_Medio/Filon/De_Josepho/Filon_De_Josepho_grc_Cohn_1902.md",
       "sistema_referencia": "capitulo-secao"
     },
     {
-      "id": "cicero-philippicae-la-clark-1918",
-      "titulo": "Philippicae",
-      "autor": "Marcus Tullius Cicero",
-      "arquivo": "FILOSOFIA/Latim/Filosofia_Republicana/Cicero/Philippicae/Cicero_Philippicae_la_Clark_1918.md",
+      "id": "filon-de-specialibus-legibus-grc-cohn-1906",
+      "titulo": "De specialibus legibus I–IV",
+      "autor": "Philo of Alexandria",
+      "arquivo": "FILOSOFIA/Grego/Platonismo_Medio/Filon/De_Specialibus_Legibus/Filon_De_Specialibus_Legibus_grc_Cohn_1906.md",
       "sistema_referencia": "capitulo-secao"
     },
     {
-      "id": "cicero-pro-caelio-la-clark-1908",
-      "titulo": "Pro M. Caelio",
-      "autor": "Marcus Tullius Cicero",
-      "arquivo": "FILOSOFIA/Latim/Filosofia_Republicana/Cicero/Pro_Caelio/Cicero_Pro_Caelio_la_Clark_1908.md",
+      "id": "filon-de-virtutibus-grc-cohn-1906",
+      "titulo": "De virtutibus",
+      "autor": "Philo of Alexandria",
+      "arquivo": "FILOSOFIA/Grego/Platonismo_Medio/Filon/De_Virtutibus/Filon_De_Virtutibus_grc_Cohn_1906.md",
       "sistema_referencia": "capitulo-secao"
     },
     {
-      "id": "cicero-pro-murena-la-clark-1908",
-      "titulo": "Pro L. Murena",
-      "autor": "Marcus Tullius Cicero",
-      "arquivo": "FILOSOFIA/Latim/Filosofia_Republicana/Cicero/Pro_Murena/Cicero_Pro_Murena_la_Clark_1908.md",
+      "id": "filon-de-aeternitate-mundi-grc-cohn-reiter-1915",
+      "titulo": "De aeternitate mundi",
+      "autor": "Philo of Alexandria",
+      "arquivo": "FILOSOFIA/Grego/Platonismo_Medio/Filon/De_Aeternitate_Mundi/Filon_De_Aeternitate_Mundi_grc_Cohn-Reiter_1915.md",
       "sistema_referencia": "capitulo-secao"
     },
     {
-      "id": "cicero-de-imperio-cn-pompei-la-clark-1908",
-      "titulo": "De imperio Cn. Pompei",
-      "autor": "Marcus Tullius Cicero",
-      "arquivo": "FILOSOFIA/Latim/Filosofia_Republicana/Cicero/De_Imperio_Cn_Pompei/Cicero_De_Imperio_Cn_Pompei_la_Clark_1908.md",
+      "id": "filon-de-praemiis-et-poenis-grc-cohn-1906",
+      "titulo": "De praemiis et poenis. De exsecrationibus",
+      "autor": "Philo of Alexandria",
+      "arquivo": "FILOSOFIA/Grego/Platonismo_Medio/Filon/De_Praemiis_et_Poenis/Filon_De_Praemiis_et_Poenis_grc_Cohn_1906.md",
       "sistema_referencia": "capitulo-secao"
     },
     {
-      "id": "cicero-pro-quinctio-la-clark-1909",
-      "titulo": "Pro P. Quinctio",
-      "autor": "Marcus Tullius Cicero",
-      "arquivo": "FILOSOFIA/Latim/Filosofia_Republicana/Cicero/Pro_Quinctio/Cicero_Pro_Quinctio_la_Clark_1909.md",
+      "id": "filon-in-flaccum-grc-cohn-reiter-1915",
+      "titulo": "In Flaccum",
+      "autor": "Philo of Alexandria",
+      "arquivo": "FILOSOFIA/Grego/Platonismo_Medio/Filon/In_Flaccum/Filon_In_Flaccum_grc_Cohn-Reiter_1915.md",
       "sistema_referencia": "capitulo-secao"
     },
     {
-      "id": "cicero-pro-roscio-amerino-la-clark-1908",
-      "titulo": "Pro Sex. Roscio Amerino",
-      "autor": "Marcus Tullius Cicero",
-      "arquivo": "FILOSOFIA/Latim/Filosofia_Republicana/Cicero/Pro_Roscio_Amerino/Cicero_Pro_Roscio_Amerino_la_Clark_1908.md",
+      "id": "filon-de-somniis-grc-wendland-1898",
+      "titulo": "De somniis I–II",
+      "autor": "Philo of Alexandria",
+      "arquivo": "FILOSOFIA/Grego/Platonismo_Medio/Filon/De_Somniis/Filon_De_Somniis_grc_Wendland_1898.md",
       "sistema_referencia": "capitulo-secao"
     },
     {
-      "id": "cicero-divinatio-in-caecilium-la-peterson-1917",
-      "titulo": "Divinatio in Q. Caecilium",
-      "autor": "Marcus Tullius Cicero",
-      "arquivo": "FILOSOFIA/Latim/Filosofia_Republicana/Cicero/Divinatio_in_Caecilium/Cicero_Divinatio_in_Caecilium_la_Peterson_1917.md",
+      "id": "filon-legatio-ad-gaium-grc-cohn-reiter-1915",
+      "titulo": "Legatio ad Gaium",
+      "autor": "Philo of Alexandria",
+      "arquivo": "FILOSOFIA/Grego/Platonismo_Medio/Filon/Legatio_ad_Gaium/Filon_Legatio_ad_Gaium_grc_Cohn-Reiter_1915.md",
       "sistema_referencia": "capitulo-secao"
     },
     {
-      "id": "cicero-in-verrem-la-peterson-1917",
-      "titulo": "In C. Verrem",
-      "autor": "Marcus Tullius Cicero",
-      "arquivo": "FILOSOFIA/Latim/Filosofia_Republicana/Cicero/In_Verrem/Cicero_In_Verrem_la_Peterson_1917.md",
+      "id": "filon-quis-rerum-divinarum-heres-sit-grc-wendland-1898",
+      "titulo": "Quis rerum divinarum heres sit",
+      "autor": "Philo of Alexandria",
+      "arquivo": "FILOSOFIA/Grego/Platonismo_Medio/Filon/Quis_Rerum_Divinarum_Heres_Sit/Filon_Quis_Rerum_Divinarum_Heres_Sit_grc_Wendland_1898.md",
       "sistema_referencia": "capitulo-secao"
     },
     {
-      "id": "cicero-pro-roscio-comoedo-la-clark-1909",
-      "titulo": "Pro Q. Roscio comoedo",
-      "autor": "Marcus Tullius Cicero",
-      "arquivo": "FILOSOFIA/Latim/Filosofia_Republicana/Cicero/Pro_Roscio_Comoedo/Cicero_Pro_Roscio_Comoedo_la_Clark_1909.md",
+      "id": "filon-de-cherubim-grc-cohn-1896",
+      "titulo": "De cherubim",
+      "autor": "Philo of Alexandria",
+      "arquivo": "FILOSOFIA/Grego/Platonismo_Medio/Filon/De_Cherubim/Filon_De_Cherubim_grc_Cohn_1896.md",
       "sistema_referencia": "capitulo-secao"
     },
     {
-      "id": "cicero-pro-caecina-la-clark-1909",
-      "titulo": "Pro A. Caecina",
-      "autor": "Marcus Tullius Cicero",
-      "arquivo": "FILOSOFIA/Latim/Filosofia_Republicana/Cicero/Pro_Caecina/Cicero_Pro_Caecina_la_Clark_1909.md",
+      "id": "filon-de-sacrificiis-abelis-et-caini-grc-cohn-1896",
+      "titulo": "De sacrificiis Abelis et Caini",
+      "autor": "Philo of Alexandria",
+      "arquivo": "FILOSOFIA/Grego/Platonismo_Medio/Filon/De_Sacrificiis_Abelis_et_Caini/Filon_De_Sacrificiis_Abelis_et_Caini_grc_Cohn_1896.md",
       "sistema_referencia": "capitulo-secao"
     },
     {
-      "id": "cicero-pro-fonteio-la-clark-1911",
-      "titulo": "Pro M. Fonteio",
-      "autor": "Marcus Tullius Cicero",
-      "arquivo": "FILOSOFIA/Latim/Filosofia_Republicana/Cicero/Pro_Fonteio/Cicero_Pro_Fonteio_la_Clark_1911.md",
+      "id": "filon-quod-deterius-potiori-insidiari-soleat-grc-cohn-1896",
+      "titulo": "Quod deterius potiori insidiari soleat",
+      "autor": "Philo of Alexandria",
+      "arquivo": "FILOSOFIA/Grego/Platonismo_Medio/Filon/Quod_Deterius_Potiori_Insidiari_Soleat/Filon_Quod_Deterius_Potiori_Insidiari_Soleat_grc_Cohn_1896.md",
       "sistema_referencia": "capitulo-secao"
     },
     {
-      "id": "cicero-pro-tullio-la-clark-1911",
-      "titulo": "Pro M. Tullio",
-      "autor": "Marcus Tullius Cicero",
-      "arquivo": "FILOSOFIA/Latim/Filosofia_Republicana/Cicero/Pro_Tullio/Cicero_Pro_Tullio_la_Clark_1911.md",
+      "id": "filon-de-gigantibus-grc-wendland-1897",
+      "titulo": "De gigantibus",
+      "autor": "Philo of Alexandria",
+      "arquivo": "FILOSOFIA/Grego/Platonismo_Medio/Filon/De_Gigantibus/Filon_De_Gigantibus_grc_Wendland_1897.md",
       "sistema_referencia": "capitulo-secao"
     },
     {
-      "id": "cicero-de-lege-agraria-la-clark-1909",
-      "titulo": "De lege agraria",
-      "autor": "Marcus Tullius Cicero",
-      "arquivo": "FILOSOFIA/Latim/Filosofia_Republicana/Cicero/De_Lege_Agraria/Cicero_De_Lege_Agraria_la_Clark_1909.md",
+      "id": "filon-de-posteritate-caini-grc-wendland-1897",
+      "titulo": "De posteritate Caini",
+      "autor": "Philo of Alexandria",
+      "arquivo": "FILOSOFIA/Grego/Platonismo_Medio/Filon/De_Posteritate_Caini/Filon_De_Posteritate_Caini_grc_Wendland_1897.md",
       "sistema_referencia": "capitulo-secao"
     },
     {
-      "id": "cicero-pro-cluentio-la-clark-1908",
-      "titulo": "Pro A. Cluentio",
-      "autor": "Marcus Tullius Cicero",
-      "arquivo": "FILOSOFIA/Latim/Filosofia_Republicana/Cicero/Pro_Cluentio/Cicero_Pro_Cluentio_la_Clark_1908.md",
+      "id": "filon-quod-deus-sit-immutabilis-grc-wendland-1897",
+      "titulo": "Quod Deus sit immutabilis",
+      "autor": "Philo of Alexandria",
+      "arquivo": "FILOSOFIA/Grego/Platonismo_Medio/Filon/Quod_Deus_Sit_Immutabilis/Filon_Quod_Deus_Sit_Immutabilis_grc_Wendland_1897.md",
       "sistema_referencia": "capitulo-secao"
     },
     {
-      "id": "cicero-pro-rabirio-perduellionis-reo-la-clark-1909",
-      "titulo": "Pro C. Rabirio perduellionis reo",
-      "autor": "Marcus Tullius Cicero",
-      "arquivo": "FILOSOFIA/Latim/Filosofia_Republicana/Cicero/Pro_Rabirio_Perduellionis_Reo/Cicero_Pro_Rabirio_Perduellionis_Reo_la_Clark_1909.md",
+      "id": "filon-de-agricultura-grc-wendland-1897",
+      "titulo": "De agricultura",
+      "autor": "Philo of Alexandria",
+      "arquivo": "FILOSOFIA/Grego/Platonismo_Medio/Filon/De_Agricultura/Filon_De_Agricultura_grc_Wendland_1897.md",
       "sistema_referencia": "capitulo-secao"
     },
     {
-      "id": "cicero-post-reditum-ad-quirites-la-peterson-1911",
-      "titulo": "Post reditum ad Quirites",
-      "autor": "Marcus Tullius Cicero",
-      "arquivo": "FILOSOFIA/Latim/Filosofia_Republicana/Cicero/Post_Reditum_ad_Quirites/Cicero_Post_Reditum_ad_Quirites_la_Peterson_1911.md",
+      "id": "filon-de-ebrietate-grc-wendland-1897",
+      "titulo": "De ebrietate",
+      "autor": "Philo of Alexandria",
+      "arquivo": "FILOSOFIA/Grego/Platonismo_Medio/Filon/De_Ebrietate/Filon_De_Ebrietate_grc_Wendland_1897.md",
       "sistema_referencia": "capitulo-secao"
     },
     {
-      "id": "cicero-post-reditum-in-senatu-la-peterson-1909",
-      "titulo": "Post reditum in senatu",
-      "autor": "Marcus Tullius Cicero",
-      "arquivo": "FILOSOFIA/Latim/Filosofia_Republicana/Cicero/Post_Reditum_in_Senatu/Cicero_Post_Reditum_in_Senatu_la_Peterson_1909.md",
+      "id": "filon-de-plantatione-grc-wendland-1897",
+      "titulo": "De plantatione",
+      "autor": "Philo of Alexandria",
+      "arquivo": "FILOSOFIA/Grego/Platonismo_Medio/Filon/De_Plantatione/Filon_De_Plantatione_grc_Wendland_1897.md",
       "sistema_referencia": "capitulo-secao"
     },
     {
-      "id": "cicero-pro-sulla-la-clark-1911",
-      "titulo": "Pro P. Sulla",
-      "autor": "Marcus Tullius Cicero",
-      "arquivo": "FILOSOFIA/Latim/Filosofia_Republicana/Cicero/Pro_Sulla/Cicero_Pro_Sulla_la_Clark_1911.md",
+      "id": "filon-de-confusione-linguarum-grc-wendland-1897",
+      "titulo": "De confusione linguarum",
+      "autor": "Philo of Alexandria",
+      "arquivo": "FILOSOFIA/Grego/Platonismo_Medio/Filon/De_Confusione_Linguarum/Filon_De_Confusione_Linguarum_grc_Wendland_1897.md",
       "sistema_referencia": "capitulo-secao"
     },
     {
-      "id": "cicero-de-domo-sua-la-peterson-1909",
-      "titulo": "De domo sua",
-      "autor": "Marcus Tullius Cicero",
-      "arquivo": "FILOSOFIA/Latim/Filosofia_Republicana/Cicero/De_Domo_Sua/Cicero_De_Domo_Sua_la_Peterson_1909.md",
+      "id": "filon-de-migratione-abrahami-grc-wendland-1897",
+      "titulo": "De migratione Abrahami",
+      "autor": "Philo of Alexandria",
+      "arquivo": "FILOSOFIA/Grego/Platonismo_Medio/Filon/De_Migratione_Abrahami/Filon_De_Migratione_Abrahami_grc_Wendland_1897.md",
       "sistema_referencia": "capitulo-secao"
     },
     {
-      "id": "cicero-de-haruspicum-responso-la-peterson-1909",
-      "titulo": "De haruspicum responso",
-      "autor": "Marcus Tullius Cicero",
-      "arquivo": "FILOSOFIA/Latim/Filosofia_Republicana/Cicero/De_Haruspicum_Responso/Cicero_De_Haruspicum_Responso_la_Peterson_1909.md",
+      "id": "filon-de-sobrietate-grc-wendland-1897",
+      "titulo": "De sobrietate",
+      "autor": "Philo of Alexandria",
+      "arquivo": "FILOSOFIA/Grego/Platonismo_Medio/Filon/De_Sobrietate/Filon_De_Sobrietate_grc_Wendland_1897.md",
       "sistema_referencia": "capitulo-secao"
     },
     {
-      "id": "cicero-pro-sestio-la-peterson-1909",
-      "titulo": "Pro P. Sestio",
-      "autor": "Marcus Tullius Cicero",
-      "arquivo": "FILOSOFIA/Latim/Filosofia_Republicana/Cicero/Pro_Sestio/Cicero_Pro_Sestio_la_Peterson_1909.md",
+      "id": "filon-de-congressu-eruditionis-gratia-grc-wendland-1898",
+      "titulo": "De congressu eruditionis gratia",
+      "autor": "Philo of Alexandria",
+      "arquivo": "FILOSOFIA/Grego/Platonismo_Medio/Filon/De_Congressu_Eruditionis_Gratia/Filon_De_Congressu_Eruditionis_Gratia_grc_Wendland_1898.md",
       "sistema_referencia": "capitulo-secao"
     },
     {
-      "id": "cicero-de-provinciis-consularibus-la-peterson-1909",
-      "titulo": "De provinciis consularibus",
-      "autor": "Marcus Tullius Cicero",
-      "arquivo": "FILOSOFIA/Latim/Filosofia_Republicana/Cicero/De_Provinciis_Consularibus/Cicero_De_Provinciis_Consularibus_la_Peterson_1909.md",
+      "id": "filon-de-fuga-et-inventione-grc-wendland-1898",
+      "titulo": "De fuga et inventione",
+      "autor": "Philo of Alexandria",
+      "arquivo": "FILOSOFIA/Grego/Platonismo_Medio/Filon/De_Fuga_et_Inventione/Filon_De_Fuga_et_Inventione_grc_Wendland_1898.md",
       "sistema_referencia": "capitulo-secao"
     },
     {
-      "id": "cicero-in-vatinium-la-peterson-1909",
-      "titulo": "In P. Vatinium testem interrogatio",
-      "autor": "Marcus Tullius Cicero",
-      "arquivo": "FILOSOFIA/Latim/Filosofia_Republicana/Cicero/In_Vatinium/Cicero_In_Vatinium_la_Peterson_1909.md",
+      "id": "filon-de-mutatione-nominum-grc-wendland-1898",
+      "titulo": "De mutatione nominum",
+      "autor": "Philo of Alexandria",
+      "arquivo": "FILOSOFIA/Grego/Platonismo_Medio/Filon/De_Mutatione_Nominum/Filon_De_Mutatione_Nominum_grc_Wendland_1898.md",
       "sistema_referencia": "capitulo-secao"
     },
     {
-      "id": "cicero-pro-balbo-la-peterson-1909",
-      "titulo": "Pro L. Cornelio Balbo",
-      "autor": "Marcus Tullius Cicero",
-      "arquivo": "FILOSOFIA/Latim/Filosofia_Republicana/Cicero/Pro_Balbo/Cicero_Pro_Balbo_la_Peterson_1909.md",
+      "id": "filon-de-opificio-mundi-en-yonge-1854",
+      "titulo": "On the Creation of the World",
+      "autor": "Philo of Alexandria",
+      "arquivo": "FILOSOFIA/Ingles/Platonismo_Medio/Filon/De_Opificio_Mundi/Filon_De_Opificio_Mundi_en_Yonge_1854.md",
       "sistema_referencia": "capitulo-secao"
     },
     {
-      "id": "cicero-in-pisonem-la-clark-1909",
-      "titulo": "In L. Calpurnium Pisonem",
-      "autor": "Marcus Tullius Cicero",
-      "arquivo": "FILOSOFIA/Latim/Filosofia_Republicana/Cicero/In_Pisonem/Cicero_In_Pisonem_la_Clark_1909.md",
+      "id": "filon-de-sacrificiis-abelis-et-caini-en-yonge-1854",
+      "titulo": "On the Sacrifice of Abel and Cain",
+      "autor": "Philo of Alexandria",
+      "arquivo": "FILOSOFIA/Ingles/Platonismo_Medio/Filon/De_Sacrificiis_Abelis_et_Caini/Filon_De_Sacrificiis_Abelis_et_Caini_en_Yonge_1854.md",
       "sistema_referencia": "capitulo-secao"
     },
     {
-      "id": "cicero-pro-plancio-la-clark-1911",
-      "titulo": "Pro Cn. Plancio",
-      "autor": "Marcus Tullius Cicero",
-      "arquivo": "FILOSOFIA/Latim/Filosofia_Republicana/Cicero/Pro_Plancio/Cicero_Pro_Plancio_la_Clark_1911.md",
+      "id": "filon-legum-allegoriae-en-yonge-1854",
+      "titulo": "On the Allegories of the Sacred Laws",
+      "autor": "Philo of Alexandria",
+      "arquivo": "FILOSOFIA/Ingles/Platonismo_Medio/Filon/Legum_Allegoriae/Filon_Legum_Allegoriae_en_Yonge_1854.md",
       "sistema_referencia": "capitulo-secao"
     },
     {
-      "id": "cicero-pro-rabirio-postumo-la-clark-1909",
-      "titulo": "Pro C. Rabirio Postumo",
-      "autor": "Marcus Tullius Cicero",
-      "arquivo": "FILOSOFIA/Latim/Filosofia_Republicana/Cicero/Pro_Rabirio_Postumo/Cicero_Pro_Rabirio_Postumo_la_Clark_1909.md",
+      "id": "filon-de-gigantibus-en-yonge-1854",
+      "titulo": "On the Giants",
+      "autor": "Philo of Alexandria",
+      "arquivo": "FILOSOFIA/Ingles/Platonismo_Medio/Filon/De_Gigantibus/Filon_De_Gigantibus_en_Yonge_1854.md",
       "sistema_referencia": "capitulo-secao"
     },
     {
-      "id": "cicero-pro-ligario-la-clark-1918",
-      "titulo": "Pro Q. Ligario",
-      "autor": "Marcus Tullius Cicero",
-      "arquivo": "FILOSOFIA/Latim/Filosofia_Republicana/Cicero/Pro_Ligario/Cicero_Pro_Ligario_la_Clark_1918.md",
+      "id": "filon-de-posteritate-caini-en-yonge-1854",
+      "titulo": "On the Posterity of Cain",
+      "autor": "Philo of Alexandria",
+      "arquivo": "FILOSOFIA/Ingles/Platonismo_Medio/Filon/De_Posteritate_Caini/Filon_De_Posteritate_Caini_en_Yonge_1854.md",
       "sistema_referencia": "capitulo-secao"
     },
     {
-      "id": "cicero-pro-marcello-la-clark-1918",
-      "titulo": "Pro M. Marcello",
-      "autor": "Marcus Tullius Cicero",
-      "arquivo": "FILOSOFIA/Latim/Filosofia_Republicana/Cicero/Pro_Marcello/Cicero_Pro_Marcello_la_Clark_1918.md",
+      "id": "filon-quod-deterius-potiori-insidiari-soleat-en-yonge-1854",
+      "titulo": "On the Principle that the Worse is accustomed to be always plotting against the Better",
+      "autor": "Philo of Alexandria",
+      "arquivo": "FILOSOFIA/Ingles/Platonismo_Medio/Filon/Quod_Deterius_Potiori_Insidiari_Soleat/Filon_Quod_Deterius_Potiori_Insidiari_Soleat_en_Yonge_1854.md",
       "sistema_referencia": "capitulo-secao"
     },
     {
-      "id": "cicero-pro-rege-deiotaro-la-clark-1918",
-      "titulo": "Pro rege Deiotaro",
-      "autor": "Marcus Tullius Cicero",
-      "arquivo": "FILOSOFIA/Latim/Filosofia_Republicana/Cicero/Pro_Rege_Deiotaro/Cicero_Pro_Rege_Deiotaro_la_Clark_1918.md",
+      "id": "filon-de-agricultura-en-yonge-1854",
+      "titulo": "On the Tilling of the Earth by Noah",
+      "autor": "Philo of Alexandria",
+      "arquivo": "FILOSOFIA/Ingles/Platonismo_Medio/Filon/De_Agricultura/Filon_De_Agricultura_en_Yonge_1854.md",
       "sistema_referencia": "capitulo-secao"
     },
     {
-      "id": "cicero-epistulae-ad-brutum-la-purser-1903",
-      "titulo": "Epistulae ad Brutum",
-      "autor": "Marcus Tullius Cicero",
-      "arquivo": "FILOSOFIA/Latim/Filosofia_Republicana/Cicero/Epistulae_ad_Brutum/Cicero_Epistulae_ad_Brutum_la_Purser_1903.md",
+      "id": "filon-de-plantatione-en-yonge-1854",
+      "titulo": "About the Planting of Noah",
+      "autor": "Philo of Alexandria",
+      "arquivo": "FILOSOFIA/Ingles/Platonismo_Medio/Filon/De_Plantatione/Filon_De_Plantatione_en_Yonge_1854.md",
       "sistema_referencia": "capitulo-secao"
     },
     {
-      "id": "cicero-epistulae-ad-familiares-la-purser-1901",
-      "titulo": "Epistulae ad familiares",
-      "autor": "Marcus Tullius Cicero",
-      "arquivo": "FILOSOFIA/Latim/Filosofia_Republicana/Cicero/Epistulae_ad_Familiares/Cicero_Epistulae_ad_Familiares_la_Purser_1901.md",
+      "id": "filon-quod-deus-sit-immutabilis-en-yonge-1854",
+      "titulo": "On the Unchangeableness of God",
+      "autor": "Philo of Alexandria",
+      "arquivo": "FILOSOFIA/Ingles/Platonismo_Medio/Filon/Quod_Deus_Sit_Immutabilis/Filon_Quod_Deus_Sit_Immutabilis_en_Yonge_1854.md",
       "sistema_referencia": "capitulo-secao"
     },
     {
-      "id": "cicero-epistulae-ad-quintum-fratrem-la-purser-1903",
-      "titulo": "Epistulae ad Quintum fratrem",
-      "autor": "Marcus Tullius Cicero",
-      "arquivo": "FILOSOFIA/Latim/Filosofia_Republicana/Cicero/Epistulae_ad_Quintum_Fratrem/Cicero_Epistulae_ad_Quintum_Fratrem_la_Purser_1903.md",
+      "id": "filon-de-confusione-linguarum-en-yonge-1854",
+      "titulo": "On the Confusion of Languages",
+      "autor": "Philo of Alexandria",
+      "arquivo": "FILOSOFIA/Ingles/Platonismo_Medio/Filon/De_Confusione_Linguarum/Filon_De_Confusione_Linguarum_en_Yonge_1854.md",
       "sistema_referencia": "capitulo-secao"
     },
     {
-      "id": "cicero-brutus-la-wilkins-1902",
-      "titulo": "Brutus",
-      "autor": "Marcus Tullius Cicero",
-      "arquivo": "FILOSOFIA/Latim/Filosofia_Republicana/Cicero/Brutus/Cicero_Brutus_la_Wilkins_1902.md",
+      "id": "filon-de-ebrietate-en-yonge-1854",
+      "titulo": "On Drunkenness",
+      "autor": "Philo of Alexandria",
+      "arquivo": "FILOSOFIA/Ingles/Platonismo_Medio/Filon/De_Ebrietate/Filon_De_Ebrietate_en_Yonge_1854.md",
       "sistema_referencia": "capitulo-secao"
     },
     {
-      "id": "cicero-partitiones-oratoriae-la-wilkins-1902",
-      "titulo": "Partitiones oratoriae",
-      "autor": "Marcus Tullius Cicero",
-      "arquivo": "FILOSOFIA/Latim/Filosofia_Republicana/Cicero/Partitiones_Oratoriae/Cicero_Partitiones_Oratoriae_la_Wilkins_1902.md",
+      "id": "filon-de-sobrietate-en-yonge-1854",
+      "titulo": "On Sobriety",
+      "autor": "Philo of Alexandria",
+      "arquivo": "FILOSOFIA/Ingles/Platonismo_Medio/Filon/De_Sobrietate/Filon_De_Sobrietate_en_Yonge_1854.md",
       "sistema_referencia": "capitulo-secao"
     },
     {
-      "id": "cicero-epistulae-ad-atticum-la-purser-1903",
-      "titulo": "Epistulae ad Atticum",
+      "id": "filon-de-congressu-eruditionis-gratia-en-yonge-1854",
+      "titulo": "On the Meeting for the sake of seeking Instruction",
+      "autor": "Philo of Alexandria",
+      "arquivo": "FILOSOFIA/Ingles/Platonismo_Medio/Filon/De_Congressu_Eruditionis_Gratia/Filon_De_Congressu_Eruditionis_Gratia_en_Yonge_1854.md",
+      "sistema_referencia": "capitulo-secao"
+    },
+    {
+      "id": "filon-de-migratione-abrahami-en-yonge-1854",
+      "titulo": "On the Migration of Abraham",
+      "autor": "Philo of Alexandria",
+      "arquivo": "FILOSOFIA/Ingles/Platonismo_Medio/Filon/De_Migratione_Abrahami/Filon_De_Migratione_Abrahami_en_Yonge_1854.md",
+      "sistema_referencia": "capitulo-secao"
+    },
+    {
+      "id": "filon-quis-rerum-divinarum-heres-sit-en-yonge-1854",
+      "titulo": "On the question, Who is the Heir of Divine Things",
+      "autor": "Philo of Alexandria",
+      "arquivo": "FILOSOFIA/Ingles/Platonismo_Medio/Filon/Quis_Rerum_Divinarum_Heres_Sit/Filon_Quis_Rerum_Divinarum_Heres_Sit_en_Yonge_1854.md",
+      "sistema_referencia": "capitulo-secao"
+    },
+    {
+      "id": "filon-de-fuga-et-inventione-en-yonge-1854",
+      "titulo": "On Fugitives",
+      "autor": "Philo of Alexandria",
+      "arquivo": "FILOSOFIA/Ingles/Platonismo_Medio/Filon/De_Fuga_et_Inventione/Filon_De_Fuga_et_Inventione_en_Yonge_1854.md",
+      "sistema_referencia": "capitulo-secao"
+    },
+    {
+      "id": "filon-de-mutatione-nominum-en-yonge-1854",
+      "titulo": "On the question why certain Names in the Holy Scriptures are changed",
+      "autor": "Philo of Alexandria",
+      "arquivo": "FILOSOFIA/Ingles/Platonismo_Medio/Filon/De_Mutatione_Nominum/Filon_De_Mutatione_Nominum_en_Yonge_1854.md",
+      "sistema_referencia": "capitulo-secao"
+    },
+    {
+      "id": "filon-de-somniis-en-yonge-1854",
+      "titulo": "On the doctrine that Dreams are sent from God",
+      "autor": "Philo of Alexandria",
+      "arquivo": "FILOSOFIA/Ingles/Platonismo_Medio/Filon/De_Somniis/Filon_De_Somniis_en_Yonge_1854.md",
+      "sistema_referencia": "capitulo-secao"
+    },
+    {
+      "id": "filon-de-abrahamo-en-yonge-1854",
+      "titulo": "On Abraham",
+      "autor": "Philo of Alexandria",
+      "arquivo": "FILOSOFIA/Ingles/Platonismo_Medio/Filon/De_Abrahamo/Filon_De_Abrahamo_en_Yonge_1854.md",
+      "sistema_referencia": "capitulo-secao"
+    },
+    {
+      "id": "filon-de-josepho-en-yonge-1854",
+      "titulo": "On Joseph",
+      "autor": "Philo of Alexandria",
+      "arquivo": "FILOSOFIA/Ingles/Platonismo_Medio/Filon/De_Josepho/Filon_De_Josepho_en_Yonge_1854.md",
+      "sistema_referencia": "capitulo-secao"
+    },
+    {
+      "id": "filon-de-vita-mosis-en-yonge-1855",
+      "titulo": "On the Life of Moses",
+      "autor": "Philo of Alexandria",
+      "arquivo": "FILOSOFIA/Ingles/Platonismo_Medio/Filon/De_Vita_Mosis/Filon_De_Vita_Mosis_en_Yonge_1855.md",
+      "sistema_referencia": "capitulo-secao"
+    },
+    {
+      "id": "filon-de-decalogo-en-yonge-1855",
+      "titulo": "Concerning the Ten Commandments",
+      "autor": "Philo of Alexandria",
+      "arquivo": "FILOSOFIA/Ingles/Platonismo_Medio/Filon/De_Decalogo/Filon_De_Decalogo_en_Yonge_1855.md",
+      "sistema_referencia": "capitulo-secao"
+    },
+    {
+      "id": "filon-de-specialibus-legibus-en-yonge-1855",
+      "titulo": "On the Special Laws",
+      "autor": "Philo of Alexandria",
+      "arquivo": "FILOSOFIA/Ingles/Platonismo_Medio/Filon/De_Specialibus_Legibus/Filon_De_Specialibus_Legibus_en_Yonge_1855.md",
+      "sistema_referencia": "capitulo-secao"
+    },
+    {
+      "id": "filon-de-virtutibus-en-yonge-1855",
+      "titulo": "On the Virtues: Courage, Humanity, and Repentance",
+      "autor": "Philo of Alexandria",
+      "arquivo": "FILOSOFIA/Ingles/Platonismo_Medio/Filon/De_Virtutibus/Filon_De_Virtutibus_en_Yonge_1855.md",
+      "sistema_referencia": "capitulo-secao"
+    },
+    {
+      "id": "filon-de-praemiis-et-poenis-en-yonge-1855",
+      "titulo": "On Rewards and Punishments",
+      "autor": "Philo of Alexandria",
+      "arquivo": "FILOSOFIA/Ingles/Platonismo_Medio/Filon/De_Praemiis_et_Poenis/Filon_De_Praemiis_et_Poenis_en_Yonge_1855.md",
+      "sistema_referencia": "capitulo-secao"
+    },
+    {
+      "id": "filon-de-vita-contemplativa-en-yonge-1855",
+      "titulo": "On the Contemplative Life",
+      "autor": "Philo of Alexandria",
+      "arquivo": "FILOSOFIA/Ingles/Platonismo_Medio/Filon/De_Vita_Contemplativa/Filon_De_Vita_Contemplativa_en_Yonge_1855.md",
+      "sistema_referencia": "capitulo-secao"
+    },
+    {
+      "id": "filon-quod-omnis-probus-liber-sit-en-yonge-1855",
+      "titulo": "That Every Good Man is Free",
+      "autor": "Philo of Alexandria",
+      "arquivo": "FILOSOFIA/Ingles/Platonismo_Medio/Filon/Quod_Omnis_Probus_Liber_Sit/Filon_Quod_Omnis_Probus_Liber_Sit_en_Yonge_1855.md",
+      "sistema_referencia": "capitulo-secao"
+    },
+    {
+      "id": "filon-de-aeternitate-mundi-en-yonge-1855",
+      "titulo": "On the Eternity of the World",
+      "autor": "Philo of Alexandria",
+      "arquivo": "FILOSOFIA/Ingles/Platonismo_Medio/Filon/De_Aeternitate_Mundi/Filon_De_Aeternitate_Mundi_en_Yonge_1855.md",
+      "sistema_referencia": "capitulo-secao"
+    },
+    {
+      "id": "filon-in-flaccum-en-yonge-1855",
+      "titulo": "Against Flaccus",
+      "autor": "Philo of Alexandria",
+      "arquivo": "FILOSOFIA/Ingles/Platonismo_Medio/Filon/In_Flaccum/Filon_In_Flaccum_en_Yonge_1855.md",
+      "sistema_referencia": "capitulo-secao"
+    },
+    {
+      "id": "filon-legatio-ad-gaium-en-yonge-1855",
+      "titulo": "On the Embassy to Gaius",
+      "autor": "Philo of Alexandria",
+      "arquivo": "FILOSOFIA/Ingles/Platonismo_Medio/Filon/Legatio_ad_Gaium/Filon_Legatio_ad_Gaium_en_Yonge_1855.md",
+      "sistema_referencia": "capitulo-secao"
+    },
+    {
+      "id": "filon-de-cherubim-en-yonge-1854",
+      "titulo": "On the Cherubim",
+      "autor": "Philo of Alexandria",
+      "arquivo": "FILOSOFIA/Ingles/Platonismo_Medio/Filon/De_Cherubim/Filon_De_Cherubim_en_Yonge_1854.md",
+      "sistema_referencia": "capitulo-secao"
+    },
+    {
+      "id": "cicero-de-domo-sua-en-yonge-1891",
+      "titulo": "On his House",
       "autor": "Marcus Tullius Cicero",
-      "arquivo": "FILOSOFIA/Latim/Filosofia_Republicana/Cicero/Epistulae_ad_Atticum/Cicero_Epistulae_ad_Atticum_la_Purser_1903.md",
+      "arquivo": "FILOSOFIA/Ingles/Filosofia_Republicana/Cicero/De_Domo_Sua/Cicero_De_Domo_Sua_en_Yonge_1891.md",
+      "sistema_referencia": "capitulo-secao"
+    },
+    {
+      "id": "cicero-de-haruspicum-responso-en-yonge-1891",
+      "titulo": "On the Responses of the Haruspices",
+      "autor": "Marcus Tullius Cicero",
+      "arquivo": "FILOSOFIA/Ingles/Filosofia_Republicana/Cicero/De_Haruspicum_Responso/Cicero_De_Haruspicum_Responso_en_Yonge_1891.md",
       "sistema_referencia": "capitulo-secao"
     },
     {
@@ -9640,6 +9780,76 @@
       "titulo": "On the Command of Gnaeus Pompey",
       "autor": "Marcus Tullius Cicero",
       "arquivo": "FILOSOFIA/Ingles/Filosofia_Republicana/Cicero/De_Imperio_Cn_Pompei/Cicero_De_Imperio_Cn_Pompei_en_Yonge_1856.md",
+      "sistema_referencia": "capitulo-secao"
+    },
+    {
+      "id": "cicero-de-lege-agraria-en-yonge-1856",
+      "titulo": "On the Agrarian Law",
+      "autor": "Marcus Tullius Cicero",
+      "arquivo": "FILOSOFIA/Ingles/Filosofia_Republicana/Cicero/De_Lege_Agraria/Cicero_De_Lege_Agraria_en_Yonge_1856.md",
+      "sistema_referencia": "capitulo-secao"
+    },
+    {
+      "id": "cicero-de-provinciis-consularibus-en-yonge-1891",
+      "titulo": "On the Consular Provinces",
+      "autor": "Marcus Tullius Cicero",
+      "arquivo": "FILOSOFIA/Ingles/Filosofia_Republicana/Cicero/De_Provinciis_Consularibus/Cicero_De_Provinciis_Consularibus_en_Yonge_1891.md",
+      "sistema_referencia": "capitulo-secao"
+    },
+    {
+      "id": "cicero-divinatio-in-caecilium-en-yonge-1856",
+      "titulo": "Against Quintus Caecilius",
+      "autor": "Marcus Tullius Cicero",
+      "arquivo": "FILOSOFIA/Ingles/Filosofia_Republicana/Cicero/Divinatio_in_Caecilium/Cicero_Divinatio_in_Caecilium_en_Yonge_1856.md",
+      "sistema_referencia": "capitulo-secao"
+    },
+    {
+      "id": "cicero-epistulae-ad-atticum-en-shuckburgh-1908",
+      "titulo": "Letters to Atticus",
+      "autor": "Marcus Tullius Cicero",
+      "arquivo": "FILOSOFIA/Ingles/Filosofia_Republicana/Cicero/Epistulae_ad_Atticum/Cicero_Epistulae_ad_Atticum_en_Shuckburgh_1908.md",
+      "sistema_referencia": "capitulo-secao"
+    },
+    {
+      "id": "cicero-epistulae-ad-brutum-en-shuckburgh-1908",
+      "titulo": "Letters to Brutus",
+      "autor": "Marcus Tullius Cicero",
+      "arquivo": "FILOSOFIA/Ingles/Filosofia_Republicana/Cicero/Epistulae_ad_Brutum/Cicero_Epistulae_ad_Brutum_en_Shuckburgh_1908.md",
+      "sistema_referencia": "capitulo-secao"
+    },
+    {
+      "id": "cicero-epistulae-ad-familiares-en-shuckburgh-1908",
+      "titulo": "Letters to Friends",
+      "autor": "Marcus Tullius Cicero",
+      "arquivo": "FILOSOFIA/Ingles/Filosofia_Republicana/Cicero/Epistulae_ad_Familiares/Cicero_Epistulae_ad_Familiares_en_Shuckburgh_1908.md",
+      "sistema_referencia": "capitulo-secao"
+    },
+    {
+      "id": "cicero-epistulae-ad-quintum-fratrem-en-shuckburgh-1908",
+      "titulo": "Letters to his Brother Quintus",
+      "autor": "Marcus Tullius Cicero",
+      "arquivo": "FILOSOFIA/Ingles/Filosofia_Republicana/Cicero/Epistulae_ad_Quintum_Fratrem/Cicero_Epistulae_ad_Quintum_Fratrem_en_Shuckburgh_1908.md",
+      "sistema_referencia": "capitulo-secao"
+    },
+    {
+      "id": "cicero-in-catilinam-en-yonge-1856",
+      "titulo": "Against Catiline",
+      "autor": "Marcus Tullius Cicero",
+      "arquivo": "FILOSOFIA/Ingles/Filosofia_Republicana/Cicero/In_Catilinam/Cicero_In_Catilinam_en_Yonge_1856.md",
+      "sistema_referencia": "capitulo-secao"
+    },
+    {
+      "id": "cicero-in-pisonem-en-yonge-1891",
+      "titulo": "Against Lucius Calpurnius Piso",
+      "autor": "Marcus Tullius Cicero",
+      "arquivo": "FILOSOFIA/Ingles/Filosofia_Republicana/Cicero/In_Pisonem/Cicero_In_Pisonem_en_Yonge_1891.md",
+      "sistema_referencia": "capitulo-secao"
+    },
+    {
+      "id": "cicero-in-vatinium-en-yonge-1891",
+      "titulo": "Against Vatinius",
+      "autor": "Marcus Tullius Cicero",
+      "arquivo": "FILOSOFIA/Ingles/Filosofia_Republicana/Cicero/In_Vatinium/Cicero_In_Vatinium_en_Yonge_1891.md",
       "sistema_referencia": "capitulo-secao"
     },
     {
@@ -9657,104 +9867,6 @@
       "sistema_referencia": "capitulo-secao"
     },
     {
-      "id": "cicero-pro-caecina-en-yonge-1856",
-      "titulo": "For Aulus Caecina",
-      "autor": "Marcus Tullius Cicero",
-      "arquivo": "FILOSOFIA/Ingles/Filosofia_Republicana/Cicero/Pro_Caecina/Cicero_Pro_Caecina_en_Yonge_1856.md",
-      "sistema_referencia": "capitulo-secao"
-    },
-    {
-      "id": "cicero-pro-cluentio-en-yonge-1856",
-      "titulo": "For Aulus Cluentius",
-      "autor": "Marcus Tullius Cicero",
-      "arquivo": "FILOSOFIA/Ingles/Filosofia_Republicana/Cicero/Pro_Cluentio/Cicero_Pro_Cluentio_en_Yonge_1856.md",
-      "sistema_referencia": "capitulo-secao"
-    },
-    {
-      "id": "cicero-pro-fonteio-en-yonge-1856",
-      "titulo": "For Marcus Fonteius",
-      "autor": "Marcus Tullius Cicero",
-      "arquivo": "FILOSOFIA/Ingles/Filosofia_Republicana/Cicero/Pro_Fonteio/Cicero_Pro_Fonteio_en_Yonge_1856.md",
-      "sistema_referencia": "capitulo-secao"
-    },
-    {
-      "id": "cicero-pro-tullio-en-yonge-1856",
-      "titulo": "For Marcus Tullius",
-      "autor": "Marcus Tullius Cicero",
-      "arquivo": "FILOSOFIA/Ingles/Filosofia_Republicana/Cicero/Pro_Tullio/Cicero_Pro_Tullio_en_Yonge_1856.md",
-      "sistema_referencia": "capitulo-secao"
-    },
-    {
-      "id": "cicero-divinatio-in-caecilium-en-yonge-1856",
-      "titulo": "Against Quintus Caecilius",
-      "autor": "Marcus Tullius Cicero",
-      "arquivo": "FILOSOFIA/Ingles/Filosofia_Republicana/Cicero/Divinatio_in_Caecilium/Cicero_Divinatio_in_Caecilium_en_Yonge_1856.md",
-      "sistema_referencia": "capitulo-secao"
-    },
-    {
-      "id": "cicero-pro-quinctio-en-yonge-1856",
-      "titulo": "For Publius Quinctius",
-      "autor": "Marcus Tullius Cicero",
-      "arquivo": "FILOSOFIA/Ingles/Filosofia_Republicana/Cicero/Pro_Quinctio/Cicero_Pro_Quinctio_en_Yonge_1856.md",
-      "sistema_referencia": "capitulo-secao"
-    },
-    {
-      "id": "cicero-pro-roscio-comoedo-en-yonge-1856",
-      "titulo": "For Quintus Roscius the Actor",
-      "autor": "Marcus Tullius Cicero",
-      "arquivo": "FILOSOFIA/Ingles/Filosofia_Republicana/Cicero/Pro_Roscio_Comoedo/Cicero_Pro_Roscio_Comoedo_en_Yonge_1856.md",
-      "sistema_referencia": "capitulo-secao"
-    },
-    {
-      "id": "cicero-de-lege-agraria-en-yonge-1856",
-      "titulo": "On the Agrarian Law",
-      "autor": "Marcus Tullius Cicero",
-      "arquivo": "FILOSOFIA/Ingles/Filosofia_Republicana/Cicero/De_Lege_Agraria/Cicero_De_Lege_Agraria_en_Yonge_1856.md",
-      "sistema_referencia": "capitulo-secao"
-    },
-    {
-      "id": "cicero-in-catilinam-en-yonge-1856",
-      "titulo": "Against Catiline",
-      "autor": "Marcus Tullius Cicero",
-      "arquivo": "FILOSOFIA/Ingles/Filosofia_Republicana/Cicero/In_Catilinam/Cicero_In_Catilinam_en_Yonge_1856.md",
-      "sistema_referencia": "capitulo-secao"
-    },
-    {
-      "id": "cicero-pro-rabirio-perduellionis-reo-en-yonge-1856",
-      "titulo": "For Gaius Rabirius on a Charge of Treason",
-      "autor": "Marcus Tullius Cicero",
-      "arquivo": "FILOSOFIA/Ingles/Filosofia_Republicana/Cicero/Pro_Rabirio_Perduellionis_Reo/Cicero_Pro_Rabirio_Perduellionis_Reo_en_Yonge_1856.md",
-      "sistema_referencia": "capitulo-secao"
-    },
-    {
-      "id": "cicero-pro-archia-en-yonge-1856",
-      "titulo": "For the Poet Archias",
-      "autor": "Marcus Tullius Cicero",
-      "arquivo": "FILOSOFIA/Ingles/Filosofia_Republicana/Cicero/Pro_Archia/Cicero_Pro_Archia_en_Yonge_1856.md",
-      "sistema_referencia": "capitulo-secao"
-    },
-    {
-      "id": "cicero-pro-murena-en-yonge-1856",
-      "titulo": "For Lucius Murena",
-      "autor": "Marcus Tullius Cicero",
-      "arquivo": "FILOSOFIA/Ingles/Filosofia_Republicana/Cicero/Pro_Murena/Cicero_Pro_Murena_en_Yonge_1856.md",
-      "sistema_referencia": "capitulo-secao"
-    },
-    {
-      "id": "cicero-pro-sulla-en-yonge-1856",
-      "titulo": "For Publius Sulla",
-      "autor": "Marcus Tullius Cicero",
-      "arquivo": "FILOSOFIA/Ingles/Filosofia_Republicana/Cicero/Pro_Sulla/Cicero_Pro_Sulla_en_Yonge_1856.md",
-      "sistema_referencia": "capitulo-secao"
-    },
-    {
-      "id": "cicero-de-domo-sua-en-yonge-1891",
-      "titulo": "On his House",
-      "autor": "Marcus Tullius Cicero",
-      "arquivo": "FILOSOFIA/Ingles/Filosofia_Republicana/Cicero/De_Domo_Sua/Cicero_De_Domo_Sua_en_Yonge_1891.md",
-      "sistema_referencia": "capitulo-secao"
-    },
-    {
       "id": "cicero-post-reditum-ad-quirites-en-yonge-1856",
       "titulo": "To the People after his Return",
       "autor": "Marcus Tullius Cicero",
@@ -9769,31 +9881,10 @@
       "sistema_referencia": "capitulo-secao"
     },
     {
-      "id": "cicero-de-haruspicum-responso-en-yonge-1891",
-      "titulo": "On the Responses of the Haruspices",
+      "id": "cicero-pro-archia-en-yonge-1856",
+      "titulo": "For the Poet Archias",
       "autor": "Marcus Tullius Cicero",
-      "arquivo": "FILOSOFIA/Ingles/Filosofia_Republicana/Cicero/De_Haruspicum_Responso/Cicero_De_Haruspicum_Responso_en_Yonge_1891.md",
-      "sistema_referencia": "capitulo-secao"
-    },
-    {
-      "id": "cicero-in-vatinium-en-yonge-1891",
-      "titulo": "Against Vatinius",
-      "autor": "Marcus Tullius Cicero",
-      "arquivo": "FILOSOFIA/Ingles/Filosofia_Republicana/Cicero/In_Vatinium/Cicero_In_Vatinium_en_Yonge_1891.md",
-      "sistema_referencia": "capitulo-secao"
-    },
-    {
-      "id": "cicero-pro-sestio-en-yonge-1891",
-      "titulo": "For Publius Sestius",
-      "autor": "Marcus Tullius Cicero",
-      "arquivo": "FILOSOFIA/Ingles/Filosofia_Republicana/Cicero/Pro_Sestio/Cicero_Pro_Sestio_en_Yonge_1891.md",
-      "sistema_referencia": "capitulo-secao"
-    },
-    {
-      "id": "cicero-de-provinciis-consularibus-en-yonge-1891",
-      "titulo": "On the Consular Provinces",
-      "autor": "Marcus Tullius Cicero",
-      "arquivo": "FILOSOFIA/Ingles/Filosofia_Republicana/Cicero/De_Provinciis_Consularibus/Cicero_De_Provinciis_Consularibus_en_Yonge_1891.md",
+      "arquivo": "FILOSOFIA/Ingles/Filosofia_Republicana/Cicero/Pro_Archia/Cicero_Pro_Archia_en_Yonge_1856.md",
       "sistema_referencia": "capitulo-secao"
     },
     {
@@ -9804,6 +9895,13 @@
       "sistema_referencia": "capitulo-secao"
     },
     {
+      "id": "cicero-pro-caecina-en-yonge-1856",
+      "titulo": "For Aulus Caecina",
+      "autor": "Marcus Tullius Cicero",
+      "arquivo": "FILOSOFIA/Ingles/Filosofia_Republicana/Cicero/Pro_Caecina/Cicero_Pro_Caecina_en_Yonge_1856.md",
+      "sistema_referencia": "capitulo-secao"
+    },
+    {
       "id": "cicero-pro-caelio-en-yonge-1891",
       "titulo": "For Marcus Caelius",
       "autor": "Marcus Tullius Cicero",
@@ -9811,24 +9909,17 @@
       "sistema_referencia": "capitulo-secao"
     },
     {
-      "id": "cicero-in-pisonem-en-yonge-1891",
-      "titulo": "Against Lucius Calpurnius Piso",
+      "id": "cicero-pro-cluentio-en-yonge-1856",
+      "titulo": "For Aulus Cluentius",
       "autor": "Marcus Tullius Cicero",
-      "arquivo": "FILOSOFIA/Ingles/Filosofia_Republicana/Cicero/In_Pisonem/Cicero_In_Pisonem_en_Yonge_1891.md",
+      "arquivo": "FILOSOFIA/Ingles/Filosofia_Republicana/Cicero/Pro_Cluentio/Cicero_Pro_Cluentio_en_Yonge_1856.md",
       "sistema_referencia": "capitulo-secao"
     },
     {
-      "id": "cicero-pro-plancio-en-yonge-1891",
-      "titulo": "For Gnaeus Plancius",
+      "id": "cicero-pro-fonteio-en-yonge-1856",
+      "titulo": "For Marcus Fonteius",
       "autor": "Marcus Tullius Cicero",
-      "arquivo": "FILOSOFIA/Ingles/Filosofia_Republicana/Cicero/Pro_Plancio/Cicero_Pro_Plancio_en_Yonge_1891.md",
-      "sistema_referencia": "capitulo-secao"
-    },
-    {
-      "id": "cicero-pro-rabirio-postumo-en-yonge-1891",
-      "titulo": "For Gaius Rabirius Postumus",
-      "autor": "Marcus Tullius Cicero",
-      "arquivo": "FILOSOFIA/Ingles/Filosofia_Republicana/Cicero/Pro_Rabirio_Postumo/Cicero_Pro_Rabirio_Postumo_en_Yonge_1891.md",
+      "arquivo": "FILOSOFIA/Ingles/Filosofia_Republicana/Cicero/Pro_Fonteio/Cicero_Pro_Fonteio_en_Yonge_1856.md",
       "sistema_referencia": "capitulo-secao"
     },
     {
@@ -9853,10 +9944,38 @@
       "sistema_referencia": "capitulo-secao"
     },
     {
-      "id": "cicero-epistulae-ad-familiares-en-shuckburgh-1908",
-      "titulo": "Letters to Friends",
+      "id": "cicero-pro-murena-en-yonge-1856",
+      "titulo": "For Lucius Murena",
       "autor": "Marcus Tullius Cicero",
-      "arquivo": "FILOSOFIA/Ingles/Filosofia_Republicana/Cicero/Epistulae_ad_Familiares/Cicero_Epistulae_ad_Familiares_en_Shuckburgh_1908.md",
+      "arquivo": "FILOSOFIA/Ingles/Filosofia_Republicana/Cicero/Pro_Murena/Cicero_Pro_Murena_en_Yonge_1856.md",
+      "sistema_referencia": "capitulo-secao"
+    },
+    {
+      "id": "cicero-pro-plancio-en-yonge-1891",
+      "titulo": "For Gnaeus Plancius",
+      "autor": "Marcus Tullius Cicero",
+      "arquivo": "FILOSOFIA/Ingles/Filosofia_Republicana/Cicero/Pro_Plancio/Cicero_Pro_Plancio_en_Yonge_1891.md",
+      "sistema_referencia": "capitulo-secao"
+    },
+    {
+      "id": "cicero-pro-quinctio-en-yonge-1856",
+      "titulo": "For Publius Quinctius",
+      "autor": "Marcus Tullius Cicero",
+      "arquivo": "FILOSOFIA/Ingles/Filosofia_Republicana/Cicero/Pro_Quinctio/Cicero_Pro_Quinctio_en_Yonge_1856.md",
+      "sistema_referencia": "capitulo-secao"
+    },
+    {
+      "id": "cicero-pro-rabirio-perduellionis-reo-en-yonge-1856",
+      "titulo": "For Gaius Rabirius on a Charge of Treason",
+      "autor": "Marcus Tullius Cicero",
+      "arquivo": "FILOSOFIA/Ingles/Filosofia_Republicana/Cicero/Pro_Rabirio_Perduellionis_Reo/Cicero_Pro_Rabirio_Perduellionis_Reo_en_Yonge_1856.md",
+      "sistema_referencia": "capitulo-secao"
+    },
+    {
+      "id": "cicero-pro-rabirio-postumo-en-yonge-1891",
+      "titulo": "For Gaius Rabirius Postumus",
+      "autor": "Marcus Tullius Cicero",
+      "arquivo": "FILOSOFIA/Ingles/Filosofia_Republicana/Cicero/Pro_Rabirio_Postumo/Cicero_Pro_Rabirio_Postumo_en_Yonge_1891.md",
       "sistema_referencia": "capitulo-secao"
     },
     {
@@ -9867,31 +9986,346 @@
       "sistema_referencia": "capitulo-secao"
     },
     {
-      "id": "cicero-epistulae-ad-brutum-en-shuckburgh-1908",
-      "titulo": "Letters to Brutus",
-      "autor": "Marcus Tullius Cicero",
-      "arquivo": "FILOSOFIA/Ingles/Filosofia_Republicana/Cicero/Epistulae_ad_Brutum/Cicero_Epistulae_ad_Brutum_en_Shuckburgh_1908.md",
-      "sistema_referencia": "capitulo-secao"
-    },
-    {
-      "id": "cicero-epistulae-ad-quintum-fratrem-en-shuckburgh-1908",
-      "titulo": "Letters to his Brother Quintus",
-      "autor": "Marcus Tullius Cicero",
-      "arquivo": "FILOSOFIA/Ingles/Filosofia_Republicana/Cicero/Epistulae_ad_Quintum_Fratrem/Cicero_Epistulae_ad_Quintum_Fratrem_en_Shuckburgh_1908.md",
-      "sistema_referencia": "capitulo-secao"
-    },
-    {
-      "id": "cicero-epistulae-ad-atticum-en-shuckburgh-1908",
-      "titulo": "Letters to Atticus",
-      "autor": "Marcus Tullius Cicero",
-      "arquivo": "FILOSOFIA/Ingles/Filosofia_Republicana/Cicero/Epistulae_ad_Atticum/Cicero_Epistulae_ad_Atticum_en_Shuckburgh_1908.md",
-      "sistema_referencia": "capitulo-secao"
-    },
-    {
       "id": "cicero-pro-roscio-amerino-en-yonge-1856",
       "titulo": "For Sextus Roscius of Ameria",
       "autor": "Marcus Tullius Cicero",
       "arquivo": "FILOSOFIA/Ingles/Filosofia_Republicana/Cicero/Pro_Roscio_Amerino/Cicero_Pro_Roscio_Amerino_en_Yonge_1856.md",
+      "sistema_referencia": "capitulo-secao"
+    },
+    {
+      "id": "cicero-pro-roscio-comoedo-en-yonge-1856",
+      "titulo": "For Quintus Roscius the Actor",
+      "autor": "Marcus Tullius Cicero",
+      "arquivo": "FILOSOFIA/Ingles/Filosofia_Republicana/Cicero/Pro_Roscio_Comoedo/Cicero_Pro_Roscio_Comoedo_en_Yonge_1856.md",
+      "sistema_referencia": "capitulo-secao"
+    },
+    {
+      "id": "cicero-pro-sestio-en-yonge-1891",
+      "titulo": "For Publius Sestius",
+      "autor": "Marcus Tullius Cicero",
+      "arquivo": "FILOSOFIA/Ingles/Filosofia_Republicana/Cicero/Pro_Sestio/Cicero_Pro_Sestio_en_Yonge_1891.md",
+      "sistema_referencia": "capitulo-secao"
+    },
+    {
+      "id": "cicero-pro-sulla-en-yonge-1856",
+      "titulo": "For Publius Sulla",
+      "autor": "Marcus Tullius Cicero",
+      "arquivo": "FILOSOFIA/Ingles/Filosofia_Republicana/Cicero/Pro_Sulla/Cicero_Pro_Sulla_en_Yonge_1856.md",
+      "sistema_referencia": "capitulo-secao"
+    },
+    {
+      "id": "cicero-pro-tullio-en-yonge-1856",
+      "titulo": "For Marcus Tullius",
+      "autor": "Marcus Tullius Cicero",
+      "arquivo": "FILOSOFIA/Ingles/Filosofia_Republicana/Cicero/Pro_Tullio/Cicero_Pro_Tullio_en_Yonge_1856.md",
+      "sistema_referencia": "capitulo-secao"
+    },
+    {
+      "id": "cicero-brutus-la-wilkins-1902",
+      "titulo": "Brutus",
+      "autor": "Marcus Tullius Cicero",
+      "arquivo": "FILOSOFIA/Latim/Filosofia_Republicana/Cicero/Brutus/Cicero_Brutus_la_Wilkins_1902.md",
+      "sistema_referencia": "capitulo-secao"
+    },
+    {
+      "id": "cicero-de-domo-sua-la-peterson-1909",
+      "titulo": "De domo sua",
+      "autor": "Marcus Tullius Cicero",
+      "arquivo": "FILOSOFIA/Latim/Filosofia_Republicana/Cicero/De_Domo_Sua/Cicero_De_Domo_Sua_la_Peterson_1909.md",
+      "sistema_referencia": "capitulo-secao"
+    },
+    {
+      "id": "cicero-de-haruspicum-responso-la-peterson-1909",
+      "titulo": "De haruspicum responso",
+      "autor": "Marcus Tullius Cicero",
+      "arquivo": "FILOSOFIA/Latim/Filosofia_Republicana/Cicero/De_Haruspicum_Responso/Cicero_De_Haruspicum_Responso_la_Peterson_1909.md",
+      "sistema_referencia": "capitulo-secao"
+    },
+    {
+      "id": "cicero-de-imperio-cn-pompei-la-clark-1908",
+      "titulo": "De imperio Cn. Pompei",
+      "autor": "Marcus Tullius Cicero",
+      "arquivo": "FILOSOFIA/Latim/Filosofia_Republicana/Cicero/De_Imperio_Cn_Pompei/Cicero_De_Imperio_Cn_Pompei_la_Clark_1908.md",
+      "sistema_referencia": "capitulo-secao"
+    },
+    {
+      "id": "cicero-de-inventione-la-stroebel-1915",
+      "titulo": "De inventione",
+      "autor": "Marcus Tullius Cicero",
+      "arquivo": "FILOSOFIA/Latim/Filosofia_Republicana/Cicero/De_Inventione/Cicero_De_Inventione_la_Stroebel_1915.md",
+      "sistema_referencia": "capitulo-secao"
+    },
+    {
+      "id": "cicero-de-lege-agraria-la-clark-1909",
+      "titulo": "De lege agraria",
+      "autor": "Marcus Tullius Cicero",
+      "arquivo": "FILOSOFIA/Latim/Filosofia_Republicana/Cicero/De_Lege_Agraria/Cicero_De_Lege_Agraria_la_Clark_1909.md",
+      "sistema_referencia": "capitulo-secao"
+    },
+    {
+      "id": "cicero-de-optimo-genere-oratorum-la-wilkins-1902",
+      "titulo": "De optimo genere oratorum",
+      "autor": "Marcus Tullius Cicero",
+      "arquivo": "FILOSOFIA/Latim/Filosofia_Republicana/Cicero/De_Optimo_Genere_Oratorum/Cicero_De_Optimo_Genere_Oratorum_la_Wilkins_1902.md",
+      "sistema_referencia": "capitulo-secao"
+    },
+    {
+      "id": "cicero-de-oratore-la-wilkins-1902",
+      "titulo": "De oratore",
+      "autor": "Marcus Tullius Cicero",
+      "arquivo": "FILOSOFIA/Latim/Filosofia_Republicana/Cicero/De_Oratore/Cicero_De_Oratore_la_Wilkins_1902.md",
+      "sistema_referencia": "capitulo-secao"
+    },
+    {
+      "id": "cicero-de-provinciis-consularibus-la-peterson-1909",
+      "titulo": "De provinciis consularibus",
+      "autor": "Marcus Tullius Cicero",
+      "arquivo": "FILOSOFIA/Latim/Filosofia_Republicana/Cicero/De_Provinciis_Consularibus/Cicero_De_Provinciis_Consularibus_la_Peterson_1909.md",
+      "sistema_referencia": "capitulo-secao"
+    },
+    {
+      "id": "cicero-divinatio-in-caecilium-la-peterson-1917",
+      "titulo": "Divinatio in Q. Caecilium",
+      "autor": "Marcus Tullius Cicero",
+      "arquivo": "FILOSOFIA/Latim/Filosofia_Republicana/Cicero/Divinatio_in_Caecilium/Cicero_Divinatio_in_Caecilium_la_Peterson_1917.md",
+      "sistema_referencia": "capitulo-secao"
+    },
+    {
+      "id": "cicero-epistulae-ad-atticum-la-purser-1903",
+      "titulo": "Epistulae ad Atticum",
+      "autor": "Marcus Tullius Cicero",
+      "arquivo": "FILOSOFIA/Latim/Filosofia_Republicana/Cicero/Epistulae_ad_Atticum/Cicero_Epistulae_ad_Atticum_la_Purser_1903.md",
+      "sistema_referencia": "capitulo-secao"
+    },
+    {
+      "id": "cicero-epistulae-ad-brutum-la-purser-1903",
+      "titulo": "Epistulae ad Brutum",
+      "autor": "Marcus Tullius Cicero",
+      "arquivo": "FILOSOFIA/Latim/Filosofia_Republicana/Cicero/Epistulae_ad_Brutum/Cicero_Epistulae_ad_Brutum_la_Purser_1903.md",
+      "sistema_referencia": "capitulo-secao"
+    },
+    {
+      "id": "cicero-epistulae-ad-familiares-la-purser-1901",
+      "titulo": "Epistulae ad familiares",
+      "autor": "Marcus Tullius Cicero",
+      "arquivo": "FILOSOFIA/Latim/Filosofia_Republicana/Cicero/Epistulae_ad_Familiares/Cicero_Epistulae_ad_Familiares_la_Purser_1901.md",
+      "sistema_referencia": "capitulo-secao"
+    },
+    {
+      "id": "cicero-epistulae-ad-quintum-fratrem-la-purser-1903",
+      "titulo": "Epistulae ad Quintum fratrem",
+      "autor": "Marcus Tullius Cicero",
+      "arquivo": "FILOSOFIA/Latim/Filosofia_Republicana/Cicero/Epistulae_ad_Quintum_Fratrem/Cicero_Epistulae_ad_Quintum_Fratrem_la_Purser_1903.md",
+      "sistema_referencia": "capitulo-secao"
+    },
+    {
+      "id": "cicero-in-catilinam-la-clark-1908",
+      "titulo": "In Catilinam",
+      "autor": "Marcus Tullius Cicero",
+      "arquivo": "FILOSOFIA/Latim/Filosofia_Republicana/Cicero/In_Catilinam/Cicero_In_Catilinam_la_Clark_1908.md",
+      "sistema_referencia": "capitulo-secao"
+    },
+    {
+      "id": "cicero-in-pisonem-la-clark-1909",
+      "titulo": "In L. Calpurnium Pisonem",
+      "autor": "Marcus Tullius Cicero",
+      "arquivo": "FILOSOFIA/Latim/Filosofia_Republicana/Cicero/In_Pisonem/Cicero_In_Pisonem_la_Clark_1909.md",
+      "sistema_referencia": "capitulo-secao"
+    },
+    {
+      "id": "cicero-in-vatinium-la-peterson-1909",
+      "titulo": "In P. Vatinium testem interrogatio",
+      "autor": "Marcus Tullius Cicero",
+      "arquivo": "FILOSOFIA/Latim/Filosofia_Republicana/Cicero/In_Vatinium/Cicero_In_Vatinium_la_Peterson_1909.md",
+      "sistema_referencia": "capitulo-secao"
+    },
+    {
+      "id": "cicero-in-verrem-la-peterson-1917",
+      "titulo": "In C. Verrem",
+      "autor": "Marcus Tullius Cicero",
+      "arquivo": "FILOSOFIA/Latim/Filosofia_Republicana/Cicero/In_Verrem/Cicero_In_Verrem_la_Peterson_1917.md",
+      "sistema_referencia": "capitulo-secao"
+    },
+    {
+      "id": "cicero-orator-la-wilkins-1902",
+      "titulo": "Orator",
+      "autor": "Marcus Tullius Cicero",
+      "arquivo": "FILOSOFIA/Latim/Filosofia_Republicana/Cicero/Orator/Cicero_Orator_la_Wilkins_1902.md",
+      "sistema_referencia": "capitulo-secao"
+    },
+    {
+      "id": "cicero-partitiones-oratoriae-la-wilkins-1902",
+      "titulo": "Partitiones oratoriae",
+      "autor": "Marcus Tullius Cicero",
+      "arquivo": "FILOSOFIA/Latim/Filosofia_Republicana/Cicero/Partitiones_Oratoriae/Cicero_Partitiones_Oratoriae_la_Wilkins_1902.md",
+      "sistema_referencia": "capitulo-secao"
+    },
+    {
+      "id": "cicero-philippicae-la-clark-1918",
+      "titulo": "Philippicae",
+      "autor": "Marcus Tullius Cicero",
+      "arquivo": "FILOSOFIA/Latim/Filosofia_Republicana/Cicero/Philippicae/Cicero_Philippicae_la_Clark_1918.md",
+      "sistema_referencia": "capitulo-secao"
+    },
+    {
+      "id": "cicero-post-reditum-ad-quirites-la-peterson-1911",
+      "titulo": "Post reditum ad Quirites",
+      "autor": "Marcus Tullius Cicero",
+      "arquivo": "FILOSOFIA/Latim/Filosofia_Republicana/Cicero/Post_Reditum_ad_Quirites/Cicero_Post_Reditum_ad_Quirites_la_Peterson_1911.md",
+      "sistema_referencia": "capitulo-secao"
+    },
+    {
+      "id": "cicero-post-reditum-in-senatu-la-peterson-1909",
+      "titulo": "Post reditum in senatu",
+      "autor": "Marcus Tullius Cicero",
+      "arquivo": "FILOSOFIA/Latim/Filosofia_Republicana/Cicero/Post_Reditum_in_Senatu/Cicero_Post_Reditum_in_Senatu_la_Peterson_1909.md",
+      "sistema_referencia": "capitulo-secao"
+    },
+    {
+      "id": "cicero-pro-archia-la-clark-1911",
+      "titulo": "Pro A. Licinio Archia poeta",
+      "autor": "Marcus Tullius Cicero",
+      "arquivo": "FILOSOFIA/Latim/Filosofia_Republicana/Cicero/Pro_Archia/Cicero_Pro_Archia_la_Clark_1911.md",
+      "sistema_referencia": "capitulo-secao"
+    },
+    {
+      "id": "cicero-pro-balbo-la-peterson-1909",
+      "titulo": "Pro L. Cornelio Balbo",
+      "autor": "Marcus Tullius Cicero",
+      "arquivo": "FILOSOFIA/Latim/Filosofia_Republicana/Cicero/Pro_Balbo/Cicero_Pro_Balbo_la_Peterson_1909.md",
+      "sistema_referencia": "capitulo-secao"
+    },
+    {
+      "id": "cicero-pro-caecina-la-clark-1909",
+      "titulo": "Pro A. Caecina",
+      "autor": "Marcus Tullius Cicero",
+      "arquivo": "FILOSOFIA/Latim/Filosofia_Republicana/Cicero/Pro_Caecina/Cicero_Pro_Caecina_la_Clark_1909.md",
+      "sistema_referencia": "capitulo-secao"
+    },
+    {
+      "id": "cicero-pro-caelio-la-clark-1908",
+      "titulo": "Pro M. Caelio",
+      "autor": "Marcus Tullius Cicero",
+      "arquivo": "FILOSOFIA/Latim/Filosofia_Republicana/Cicero/Pro_Caelio/Cicero_Pro_Caelio_la_Clark_1908.md",
+      "sistema_referencia": "capitulo-secao"
+    },
+    {
+      "id": "cicero-pro-cluentio-la-clark-1908",
+      "titulo": "Pro A. Cluentio",
+      "autor": "Marcus Tullius Cicero",
+      "arquivo": "FILOSOFIA/Latim/Filosofia_Republicana/Cicero/Pro_Cluentio/Cicero_Pro_Cluentio_la_Clark_1908.md",
+      "sistema_referencia": "capitulo-secao"
+    },
+    {
+      "id": "cicero-pro-fonteio-la-clark-1911",
+      "titulo": "Pro M. Fonteio",
+      "autor": "Marcus Tullius Cicero",
+      "arquivo": "FILOSOFIA/Latim/Filosofia_Republicana/Cicero/Pro_Fonteio/Cicero_Pro_Fonteio_la_Clark_1911.md",
+      "sistema_referencia": "capitulo-secao"
+    },
+    {
+      "id": "cicero-pro-ligario-la-clark-1918",
+      "titulo": "Pro Q. Ligario",
+      "autor": "Marcus Tullius Cicero",
+      "arquivo": "FILOSOFIA/Latim/Filosofia_Republicana/Cicero/Pro_Ligario/Cicero_Pro_Ligario_la_Clark_1918.md",
+      "sistema_referencia": "capitulo-secao"
+    },
+    {
+      "id": "cicero-pro-marcello-la-clark-1918",
+      "titulo": "Pro M. Marcello",
+      "autor": "Marcus Tullius Cicero",
+      "arquivo": "FILOSOFIA/Latim/Filosofia_Republicana/Cicero/Pro_Marcello/Cicero_Pro_Marcello_la_Clark_1918.md",
+      "sistema_referencia": "capitulo-secao"
+    },
+    {
+      "id": "cicero-pro-milone-la-clark-1918",
+      "titulo": "Pro T. Annio Milone",
+      "autor": "Marcus Tullius Cicero",
+      "arquivo": "FILOSOFIA/Latim/Filosofia_Republicana/Cicero/Pro_Milone/Cicero_Pro_Milone_la_Clark_1918.md",
+      "sistema_referencia": "capitulo-secao"
+    },
+    {
+      "id": "cicero-pro-murena-la-clark-1908",
+      "titulo": "Pro L. Murena",
+      "autor": "Marcus Tullius Cicero",
+      "arquivo": "FILOSOFIA/Latim/Filosofia_Republicana/Cicero/Pro_Murena/Cicero_Pro_Murena_la_Clark_1908.md",
+      "sistema_referencia": "capitulo-secao"
+    },
+    {
+      "id": "cicero-pro-plancio-la-clark-1911",
+      "titulo": "Pro Cn. Plancio",
+      "autor": "Marcus Tullius Cicero",
+      "arquivo": "FILOSOFIA/Latim/Filosofia_Republicana/Cicero/Pro_Plancio/Cicero_Pro_Plancio_la_Clark_1911.md",
+      "sistema_referencia": "capitulo-secao"
+    },
+    {
+      "id": "cicero-pro-quinctio-la-clark-1909",
+      "titulo": "Pro P. Quinctio",
+      "autor": "Marcus Tullius Cicero",
+      "arquivo": "FILOSOFIA/Latim/Filosofia_Republicana/Cicero/Pro_Quinctio/Cicero_Pro_Quinctio_la_Clark_1909.md",
+      "sistema_referencia": "capitulo-secao"
+    },
+    {
+      "id": "cicero-pro-rabirio-perduellionis-reo-la-clark-1909",
+      "titulo": "Pro C. Rabirio perduellionis reo",
+      "autor": "Marcus Tullius Cicero",
+      "arquivo": "FILOSOFIA/Latim/Filosofia_Republicana/Cicero/Pro_Rabirio_Perduellionis_Reo/Cicero_Pro_Rabirio_Perduellionis_Reo_la_Clark_1909.md",
+      "sistema_referencia": "capitulo-secao"
+    },
+    {
+      "id": "cicero-pro-rabirio-postumo-la-clark-1909",
+      "titulo": "Pro C. Rabirio Postumo",
+      "autor": "Marcus Tullius Cicero",
+      "arquivo": "FILOSOFIA/Latim/Filosofia_Republicana/Cicero/Pro_Rabirio_Postumo/Cicero_Pro_Rabirio_Postumo_la_Clark_1909.md",
+      "sistema_referencia": "capitulo-secao"
+    },
+    {
+      "id": "cicero-pro-rege-deiotaro-la-clark-1918",
+      "titulo": "Pro rege Deiotaro",
+      "autor": "Marcus Tullius Cicero",
+      "arquivo": "FILOSOFIA/Latim/Filosofia_Republicana/Cicero/Pro_Rege_Deiotaro/Cicero_Pro_Rege_Deiotaro_la_Clark_1918.md",
+      "sistema_referencia": "capitulo-secao"
+    },
+    {
+      "id": "cicero-pro-roscio-amerino-la-clark-1908",
+      "titulo": "Pro Sex. Roscio Amerino",
+      "autor": "Marcus Tullius Cicero",
+      "arquivo": "FILOSOFIA/Latim/Filosofia_Republicana/Cicero/Pro_Roscio_Amerino/Cicero_Pro_Roscio_Amerino_la_Clark_1908.md",
+      "sistema_referencia": "capitulo-secao"
+    },
+    {
+      "id": "cicero-pro-roscio-comoedo-la-clark-1909",
+      "titulo": "Pro Q. Roscio comoedo",
+      "autor": "Marcus Tullius Cicero",
+      "arquivo": "FILOSOFIA/Latim/Filosofia_Republicana/Cicero/Pro_Roscio_Comoedo/Cicero_Pro_Roscio_Comoedo_la_Clark_1909.md",
+      "sistema_referencia": "capitulo-secao"
+    },
+    {
+      "id": "cicero-pro-sestio-la-peterson-1909",
+      "titulo": "Pro P. Sestio",
+      "autor": "Marcus Tullius Cicero",
+      "arquivo": "FILOSOFIA/Latim/Filosofia_Republicana/Cicero/Pro_Sestio/Cicero_Pro_Sestio_la_Peterson_1909.md",
+      "sistema_referencia": "capitulo-secao"
+    },
+    {
+      "id": "cicero-pro-sulla-la-clark-1911",
+      "titulo": "Pro P. Sulla",
+      "autor": "Marcus Tullius Cicero",
+      "arquivo": "FILOSOFIA/Latim/Filosofia_Republicana/Cicero/Pro_Sulla/Cicero_Pro_Sulla_la_Clark_1911.md",
+      "sistema_referencia": "capitulo-secao"
+    },
+    {
+      "id": "cicero-pro-tullio-la-clark-1911",
+      "titulo": "Pro M. Tullio",
+      "autor": "Marcus Tullius Cicero",
+      "arquivo": "FILOSOFIA/Latim/Filosofia_Republicana/Cicero/Pro_Tullio/Cicero_Pro_Tullio_la_Clark_1911.md",
+      "sistema_referencia": "capitulo-secao"
+    },
+    {
+      "id": "cicero-timaeus-la-mueller-1898",
+      "titulo": "Timaeus",
+      "autor": "Marcus Tullius Cicero",
+      "arquivo": "FILOSOFIA/Latim/Filosofia_Republicana/Cicero/Timaeus/Cicero_Timaeus_la_Mueller_1898.md",
       "sistema_referencia": "capitulo-secao"
     }
   ],
