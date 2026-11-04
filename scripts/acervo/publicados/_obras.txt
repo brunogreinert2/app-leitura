@@ -483,12 +483,15 @@ cicero-pro-caecina-la-clark-1909
 cicero-pro-caelio-la-clark-1908
 cicero-pro-cluentio-la-clark-1908
 cicero-pro-fonteio-la-clark-1911
+cicero-pro-ligario-la-clark-1918
+cicero-pro-marcello-la-clark-1918
 cicero-pro-milone-la-clark-1918
 cicero-pro-murena-la-clark-1908
 cicero-pro-plancio-la-clark-1911
 cicero-pro-quinctio-la-clark-1909
 cicero-pro-rabirio-perduellionis-reo-la-clark-1909
 cicero-pro-rabirio-postumo-la-clark-1909
+cicero-pro-rege-deiotaro-la-clark-1918
 cicero-pro-roscio-amerino-la-clark-1908
 cicero-pro-roscio-comoedo-la-clark-1909
 cicero-pro-sestio-la-peterson-1909
