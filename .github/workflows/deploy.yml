@@ -19,6 +19,10 @@ concurrency:
 jobs:
   build:
     runs-on: ubuntu-latest
+    env:
+      # o portão importa o gerador_rolo: sem isto, o __pycache__ (com a hora)
+      # nasceria em scripts/rolo e mudaria a chave do cache dos rolos
+      PYTHONDONTWRITEBYTECODE: '1'
     steps:
       - uses: actions/checkout@v4
 
@@ -103,7 +107,7 @@ jobs:
         uses: actions/cache/restore@v4
         with:
           path: dist/rolo
-          key: rolos-${{ hashFiles('public/livros/**', 'scripts/rolo/**', 'CITATION.cff') }}
+          key: rolos-${{ hashFiles('public/livros/**', 'scripts/rolo/**', '!scripts/rolo/__pycache__/**', 'CITATION.cff') }}
       - name: Gerar rolos estáticos em /rolo/
         if: steps.rolos-vistos.outputs.cache-hit != 'true'
         run: |
