@@ -9529,6 +9529,27 @@
       "autor": "Marcus Tullius Cicero",
       "arquivo": "FILOSOFIA/Latim/Filosofia_Republicana/Cicero/Pro_Sestio/Cicero_Pro_Sestio_la_Peterson_1909.md",
       "sistema_referencia": "capitulo-secao"
+    },
+    {
+      "id": "cicero-de-provinciis-consularibus-la-peterson-1909",
+      "titulo": "De provinciis consularibus",
+      "autor": "Marcus Tullius Cicero",
+      "arquivo": "FILOSOFIA/Latim/Filosofia_Republicana/Cicero/De_Provinciis_Consularibus/Cicero_De_Provinciis_Consularibus_la_Peterson_1909.md",
+      "sistema_referencia": "capitulo-secao"
+    },
+    {
+      "id": "cicero-in-vatinium-la-peterson-1909",
+      "titulo": "In P. Vatinium testem interrogatio",
+      "autor": "Marcus Tullius Cicero",
+      "arquivo": "FILOSOFIA/Latim/Filosofia_Republicana/Cicero/In_Vatinium/Cicero_In_Vatinium_la_Peterson_1909.md",
+      "sistema_referencia": "capitulo-secao"
+    },
+    {
+      "id": "cicero-pro-balbo-la-peterson-1909",
+      "titulo": "Pro L. Cornelio Balbo",
+      "autor": "Marcus Tullius Cicero",
+      "arquivo": "FILOSOFIA/Latim/Filosofia_Republicana/Cicero/Pro_Balbo/Cicero_Pro_Balbo_la_Peterson_1909.md",
+      "sistema_referencia": "capitulo-secao"
     }
   ],
   "redirecionamentos": {

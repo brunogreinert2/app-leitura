@@ -463,11 +463,13 @@ cicero-de-natura-deorum-lat-latinlibrary-sd
 cicero-de-officiis-lat-latinlibrary-sd
 cicero-de-optimo-genere-oratorum-la-wilkins-1902
 cicero-de-oratore-la-wilkins-1902
+cicero-de-provinciis-consularibus-la-peterson-1909
 cicero-de-re-publica-lat-latinlibrary-sd
 cicero-de-re-publica-pt-anonimo-sd
 cicero-de-senectute-lat-latinlibrary-sd
 cicero-divinatio-in-caecilium-la-peterson-1917
 cicero-in-catilinam-la-clark-1908
+cicero-in-vatinium-la-peterson-1909
 cicero-in-verrem-la-peterson-1917
 cicero-orator-la-wilkins-1902
 cicero-paradoxa-stoicorum-lat-latinlibrary-sd
@@ -475,6 +477,7 @@ cicero-philippicae-la-clark-1918
 cicero-post-reditum-ad-quirites-la-peterson-1911
 cicero-post-reditum-in-senatu-la-peterson-1909
 cicero-pro-archia-la-clark-1911
+cicero-pro-balbo-la-peterson-1909
 cicero-pro-caecina-la-clark-1909
 cicero-pro-caelio-la-clark-1908
 cicero-pro-cluentio-la-clark-1908
