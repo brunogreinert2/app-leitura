@@ -19,6 +19,8 @@ status: draft
 project: pedra_angular
 related:
 - hinos-homericos-hino-31-a-helio-en-evelyn-white-1914
+- hinos-homericos-hino-31-a-helio-pt-antunes-2015
+- hinos-homericos-hino-31-a-helio-grc-pt-antunes-2015
 scope: 'The whole hymn, line by line, cited by line (**1**): the line number in bold (**1**) and the anchor ^v-1. Speeches (TEI <q>) open with “ on their first line and close with ” on their last; lines the editor marks as spurious stay in the text between [ ], and his supplements go between ⟨ ⟩'
 urn_work: urn:cts:greekLit:tlg0013.tlg031
 urn: urn:cts:greekLit:tlg0013.tlg031.perseus-grc2
