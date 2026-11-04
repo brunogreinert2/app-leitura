@@ -453,12 +453,15 @@ cicero-de-amicitia-lat-latinlibrary-sd
 cicero-de-divinatione-lat-latinlibrary-sd
 cicero-de-fato-lat-latinlibrary-sd
 cicero-de-finibus-bonorum-et-malorum-lat-latinlibrary-sd
+cicero-de-inventione-la-stroebel-1915
 cicero-de-legibus-lat-latinlibrary-sd
 cicero-de-natura-deorum-lat-latinlibrary-sd
 cicero-de-officiis-lat-latinlibrary-sd
+cicero-de-oratore-la-wilkins-1902
 cicero-de-re-publica-lat-latinlibrary-sd
 cicero-de-re-publica-pt-anonimo-sd
 cicero-de-senectute-lat-latinlibrary-sd
+cicero-orator-la-wilkins-1902
 cicero-paradoxa-stoicorum-lat-latinlibrary-sd
 cicero-topica-lat-latinlibrary-sd
 cicero-tusculanae-disputationes-lat-latinlibrary-sd

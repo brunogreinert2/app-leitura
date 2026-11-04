@@ -9326,6 +9326,27 @@
       "titulo": "As mulheres de Tráquis",
       "autor": "Sófocles",
       "arquivo": "LITERATURA/Portugues/Tragedia_Grega/Sofocles/As_Traquinias/Sofocles_As_Traquinias_Prologo_e_Parodo_pt_Oliveira_2024.md"
+    },
+    {
+      "id": "cicero-de-inventione-la-stroebel-1915",
+      "titulo": "De inventione",
+      "autor": "Marcus Tullius Cicero",
+      "arquivo": "FILOSOFIA/Latim/Filosofia_Republicana/Cicero/De_Inventione/Cicero_De_Inventione_la_Stroebel_1915.md",
+      "sistema_referencia": "capitulo-secao"
+    },
+    {
+      "id": "cicero-de-oratore-la-wilkins-1902",
+      "titulo": "De oratore",
+      "autor": "Marcus Tullius Cicero",
+      "arquivo": "FILOSOFIA/Latim/Filosofia_Republicana/Cicero/De_Oratore/Cicero_De_Oratore_la_Wilkins_1902.md",
+      "sistema_referencia": "capitulo-secao"
+    },
+    {
+      "id": "cicero-orator-la-wilkins-1902",
+      "titulo": "Orator",
+      "autor": "Marcus Tullius Cicero",
+      "arquivo": "FILOSOFIA/Latim/Filosofia_Republicana/Cicero/Orator/Cicero_Orator_la_Wilkins_1902.md",
+      "sistema_referencia": "capitulo-secao"
     }
   ],
   "redirecionamentos": {
