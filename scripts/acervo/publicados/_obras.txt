@@ -508,8 +508,11 @@ cicero-pro-cluentio-en-yonge-1856
 cicero-pro-cluentio-la-clark-1908
 cicero-pro-fonteio-en-yonge-1856
 cicero-pro-fonteio-la-clark-1911
+cicero-pro-ligario-en-yonge-1891
 cicero-pro-ligario-la-clark-1918
+cicero-pro-marcello-en-yonge-1891
 cicero-pro-marcello-la-clark-1918
+cicero-pro-milone-en-yonge-1891
 cicero-pro-milone-la-clark-1918
 cicero-pro-murena-en-yonge-1856
 cicero-pro-murena-la-clark-1908
