@@ -20,6 +20,8 @@ tags:
 - century-1-bce
 status: draft
 project: pedra_angular
+related:
+- cicero-de-lege-agraria-en-yonge-1856
 reference_system: chapter-section
 scope: Sections as numbered in Clark's edition (Perseus TEI), cited speech.section ([2.1]); alongside, the chapters, which the TEI gives inside the sections, as [cap.N], restarting with each speech ([cap.2.3]).
 urn_work: urn:cts:latinLit:phi0474.phi011
