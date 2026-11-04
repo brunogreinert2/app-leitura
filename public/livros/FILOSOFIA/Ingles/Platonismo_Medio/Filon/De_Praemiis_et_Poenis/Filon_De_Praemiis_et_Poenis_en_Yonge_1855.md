@@ -23,7 +23,7 @@ project: pedra_angular
 related:
 - filon-de-praemiis-et-poenis-grc-cohn-1906
 reference_system: chapter-section
-scope: English translation of filon-de-praemiis-et-poenis-grc-cohn-1906, sections as numbered in the TEI of the translation, cited by section ([1]); Yonge's numbering can differ from Cohn–Wendland's. Alongside, Yonge's chapters (TEI milestone chapter, the same old chapters as in the Greek) as [cap.N]; where Yonge printed a treatise of his own, his own chapter number is kept as plain text («Yonge. 1»). Alongside, Yonge's chapters (TEI milestone chapter, the same old chapters as in the Greek) as [cap.N]; where Yonge printed a treatise of his own, his own chapter number is kept as plain text («Yonge. 1»).
+scope: English translation of filon-de-praemiis-et-poenis-grc-cohn-1906, sections as numbered in the TEI of the translation, cited by section ([1]); Yonge's numbering can differ from Cohn–Wendland's. Alongside, Yonge's chapters (TEI milestone chapter, the same old chapters as in the Greek) as [cap.N]; where Yonge printed a treatise of his own, his own chapter number is kept as plain text («Yonge. 1»).
 urn_work: urn:cts:greekLit:tlg0018.tlg026
 urn: urn:cts:greekLit:tlg0018.tlg026.1st1K-eng1
 source: https://github.com/OpenGreekAndLatin/First1KGreek/tree/master/data/tlg0018/tlg026

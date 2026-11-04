@@ -24,7 +24,7 @@ project: pedra_angular
 related:
 - filon-in-flaccum-grc-cohn-reiter-1915
 reference_system: chapter-section
-scope: English translation of filon-in-flaccum-grc-cohn-reiter-1915, sections as numbered in the TEI of the translation, cited by section ([1]); Yonge's numbering can differ from Cohn–Wendland's. Alongside, Yonge's chapters (TEI milestone chapter, the same old chapters as in the Greek) as [cap.N]. Alongside, Yonge's chapters (TEI milestone chapter, the same old chapters as in the Greek) as [cap.N].
+scope: English translation of filon-in-flaccum-grc-cohn-reiter-1915, sections as numbered in the TEI of the translation, cited by section ([1]); Yonge's numbering can differ from Cohn–Wendland's. Alongside, Yonge's chapters (TEI milestone chapter, the same old chapters as in the Greek) as [cap.N].
 urn_work: urn:cts:greekLit:tlg0018.tlg030
 urn: urn:cts:greekLit:tlg0018.tlg030.1st1K-eng1
 source: https://github.com/OpenGreekAndLatin/First1KGreek/tree/master/data/tlg0018/tlg030
