@@ -22,6 +22,9 @@ status: draft
 project: pedra_angular
 related:
 - cicero-philippicae-la-clark-1918
+- cicero-primeira-filipica-la-boulanger-wuilleumier-1972
+- cicero-primeira-filipica-pt-abreu-2016
+- cicero-primeira-filipica-la-pt-abreu-2016
 reference_system: chapter-section
 scope: English translation of cicero-philippicae-la-clark-1918, sections as numbered in the TEI of the translation, cited speech.section ([2.1]); alongside, the chapters, which the TEI gives inside the sections, as [cap.N], restarting with each speech ([cap.2.3]).
 urn_work: urn:cts:latinLit:phi0474.phi035

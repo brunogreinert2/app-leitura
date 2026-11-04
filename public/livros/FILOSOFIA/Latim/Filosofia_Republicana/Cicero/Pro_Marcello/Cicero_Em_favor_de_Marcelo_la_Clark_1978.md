@@ -1,0 +1,164 @@
+---
+id: cicero-em-favor-de-marcelo-la-clark-1978
+type: primary_text
+title: Pro Marcello
+author: Marcus Tullius Cicero
+language: lat
+publication_year: 2023
+base_edition: Albert Curtis Clark (ed.), Oxford University Press, 1978, as cited by the translators.
+source: https://periodicos.ufjf.br/index.php/ronai/article/view/39811
+cite_in: LACERDA, Bruno Amaro; LEITE, Leni Ribeiro. Pro Marcello, de Cícero. Rónai, Juiz de Fora, v. 11, n. 1, p. 57–81, 2023.
+license: CC-BY-4.0
+status: draft
+project: pedra_angular
+scope: The complete speech Pro Marcello, sections 1–34.
+processing: Prepared by Διαφορεύς with Codex (GPT-6) using the Pedra Angular Conversor. The source is the bilingual journal edition. The ancient Latin text is reproduced under the journal article’s CC-BY-4.0 license, without the modern editor’s critical apparatus.
+related:
+- cicero-em-favor-de-marcelo-pt-lacerda-leite-2023
+- cicero-em-favor-de-marcelo-la-pt-lacerda-leite-2023
+- cicero-pro-marcello-la-clark-1918
+- cicero-pro-marcello-en-yonge-1891
+urn_work: urn:cts:latinLit:phi0474.phi032
+editor: Albert Curtis Clark
+urn: urn:cts:latinLit:phi0474.phi032.pa-lat1
+---
+
+# Pro Marcello
+
+## § 1
+
+[1] <!-- pa:pagina 8 --> Diuturni silenti, patres conscripti, quo eram his temporibus usus, non timore aliquo, sed partim dolore, partim uerecundia, finem hodiernus dies attulit, idemque initium quae uellem quaeque sentirem meo pristino more dicendi. Tantam enim mansuetudinem, tam inusitatam inauditamque clementiam, tantum in summa potestate rerum omnium modum, tam denique incredibilem sapientiam ac paene diuinam tacitus praeterire nullo modo possum.
+
+## § 2
+
+[2] M. enim Marcello uobis, patres conscripti, reique publicae reddito non illius solum sed etiam meam uocem et auctoritatem uobis et rei publicae conseruatam ac restitutam puto. Dolebam enim, patres conscripti, et uehementer angebar, cum uiderem uirum talem, cum in eadem causa in qua ego fuisset, non in eadem esse fortuna, nec mihi persuadere poteram nec fas esse ducebam uersari me in nostro uetere curriculo illo aemulo atque imitatore studiorum ac laborum meorum quasi quodam socio a me et comite distracto. Ergo et mihi meae pristinae uitae consuetudinem, C. Caesar, interclusam aperuisti et his omnibus ad bene de re publica sperandum quasi signum aliquod sustulisti.
+
+## § 3
+
+[3] <!-- pa:pagina 9 --> Intellectum est enim mihi quidem in multis et maxime in me ipso, sed paulo ante omnibus, cum M. Marcellum senatui reique publicae concessisti, commemoratis praesertim offensionibus, te auctoritatem huius ordinis dignitatemque rei publicae tuis uel doloribus uel suspicionibus anteferre. Ille quidem fructum omnis ante actae uitae hodierno die maximum cepit, cum summo consensu senatus tum iudicio tuo grauissimo et maximo. Ex quo profecto intellegis quanta in dato beneficio sit laus, cum in accepto sit tanta gloria.
+
+## § 4
+
+[4] Est uero fortunatus cuius ex salute non minor paene ad omnis quam ad illum uentura sit laetitia peruenerit: quod quidem merito atque optimo iure contigit. Quis enim est illo aut nobilitate aut probitate aut optimarum artium studio aut innocentia aut ullo in laudis genere praestantior? Nullius tantum flumen est ingeni, nulla dicendi aut scribendi tanta uis, tantaque copia quae non dicam exornare, sed enarrare, C. Caesar, res tuas gestas possit. Tamen hoc adfirmo et pace dicam tua, nullam in his esse laudem ampliorem quam eam quam hodierno die consecutus es.
+
+## § 5
+
+[5] <!-- pa:pagina 10 --> Soleo saepe ante oculos ponere idque libenter crebris usurpare sermonibus, omnis nostrorum imperatorum, omnis exterarum gentium potentissimorumque populorum, omnis regum clarissimorum res gestas cum tuis nec contentionum magnitudine nec numero proeliorum nec uarietate regionum nec celeritate conficiendi nec dissimilitude bellorum posse conferri, nec uero disiunctissimas terras citius passibus cuiusquam potuisse peragrari quam tuis non dicam cursibus, sed uictoriis lustratae sunt.
+
+## § 6
+
+[6] Quae quidem ego nisi ita magna esse fatear ut ea uix cuiusquam mens aut cogitatio capere possit, amens sim; sed tamen sunt alia maiora. Nam bellicas laudes solent quidam extenuare uerbis easque detrahere ducibus, communicare cum multis, ne propriae sint imperatorum. Et certe in armis militum uirtus, locorum opportunitas, auxilia sociorum, classes, commeatus multum iuuant, maximam uero partem quasi suo iure Fortuna sibi uindicat et, quicquid est prospere gestum, id paene omne ducit suum.
+
+## § 7
+
+[7] <!-- pa:pagina 11 --> At uero huius gloriae, C. Caesar, quam es paulo ante adeptus socium habes neminem: totum hoc quantumcumque est, quod certe maximum est, totum est, inquam, tuum. Nihil sibi ex ista laude centurio, nihil praefectus, nihil cohors, nihil turma decerpit; quin etiam illa ipsa rerum humanarum domina, Fortuna, in istius se societatem gloriae non offert: tibi cedit, tuam esse totam et propriam fatetur. Numquam enim temeritas cum sapientia commiscetur nec ad consilium casus admittitur.
+
+## § 8
+
+[8] Domuisti gentis immanitate barbaras, multitude innumerabilis, locis infinitas, omni copiarum genere abundantis: ea tamen uicisti quae et naturam et condicionem ut uinci possent habebant. Nulla est enim tanta uis quae non ferro et uiribus debilitari fragique possit. Animum uincere, iracundiam cohibere, uicto temperare, aduersarium nobilitate, ingenio, uirtute praestantem non modo extollere iacentem sed etiam amplificare eius pristinam dignitatem, haec qui facit, non ego eum cum summis uiris comparo, sed simillimum deo iudico.
+
+## § 9
+
+[9] Itaque, C. Caesar, bellicae tuae laudes celebrabuntur illae quidem non solum nostris sed paene omnium gentium litteris atque linguis, neque ulla umquam aetas de tuis laudibus <!-- pa:pagina 12 --> conticescet; sed tamen eius modi res nescio quo modo, etiam cum leguntur, obstrepi clamore militum uidentur et tubarum sono. At uero cum aliquid clementer, mansuete, iuste, moderate, sapienter factum, in iracundia praesertim quae est inimica consilio, et in uictoria quae natura insolens et superba est, audimus aut legimus, quo studio incendimur, non modo in gestis rebus sed etiam in fictis ut eos saepe quos numquam uidimus diligamus!
+
+## § 10
+
+[10] Te uero quem presentem intuemur, cuius mentem sensusque et os cernimus, ut, quicquid belli fortuna reliquum rei publicae fecerit, id esse saluum uelis, quibus laudibus efferemus, quibus studiis prosequemur, qua beneuolentia complectemur? Parietes, me dius fidius, ut mihi uidetur, huius curiae tibi gratias agere gestiunt, quod breui tempore futura sit illa auctoritas in his maiorum suorum et suis sedibus. Equidem cum C. Marcelli, uiri optimi et commemorabili pietate praediti lacrimas modo uobiscum uiderem, omnium Marcellorum meum pectus memoria offudit, quibus tu etiam mortuis M. Marcello conseruato dignitatem suam reddidisti nobilissimamque familiam iam ad paucos redactam paene ab interitu uindicasti.
+
+## § 11
+
+[11] <!-- pa:pagina 13 --> Hunc tu diem tuis maximis et innumerabilibus gratulationibus iure anteponis. Haec enim res unius est propria C. Caesaris; ceterae duce te gestae magnae illae quidem, sed tamen multo magnoque comitatu. Huius autem rei tu idem dux es et comes: quae quidem tanta est ut tropaeis et monumentis tuis adlatura finem sit aetas – nihil est enim opere et manu factum quod non conficiat et consumat uetustas –
+
+## § 12
+
+[12] at haec tua iustitia et lenitas florescet cotidie magis. Ita quantum operibus tuis diuturnitas detrahet, tantum adferet laudibus. Et ceteros quidem omnis uictores bellorum ciuilium iam antea aequitate et misericordia uiceras: hodierno uero die te ipse uicisti. Vereor ut hoc quod dicam perinde intellegi possit auditu atque ipse cogitans sentio: ipsam uictoriam uicisse uideris, cum ea quae erant adempta uictis remisisti. Nam cum ipsius uictoriae iure omnes uicti occidissemus, clementiae tuae iudicio conseruati sumus. Recte igitur unus inuictus es a quo etiam ipsius uictoriae condicio uisque deuicta est.
+
+## § 13
+
+[13] <!-- pa:pagina 14 --> Atque hoc C. Caesaris iudicium, patres conscripti, quam late pateat attendite. Omnes enim qui ad illa arma fato sumus nescio quo rei publicae misero funestoque compulsi, etsi aliqua culpa tenemur erroris humani, ab scelere certe liberati sumus. Nam cum M. Marcellum deprecantibus uobis rei publicae conseruauit, me et mihi et item rei publicae, nullo deprecante, reliquos amplissimos uiros et sibi ipsos et patriae reddidit, quorum et frequentiam et dignitatem hoc ipso in consessu uidetis, non ille hostis induxit in curiam, sed iudicauit a plerisque ignoratione potius et falso atque inani metu quam cupiditate aut crudelitate bellum esse susceptum.
+
+## § 14
+
+[14] Quo quidem in bello semper de pace audiendum putaui semperque dolui non modo pacem sed etiam orationem ciuium pacem flagitantium repudiari. Neque enim ego illa nec ulla umquam secutus sum arma ciuilia semperque mea consilia pacis et togae socia, non belli atque armorum fuerunt. Hominem sum secutus priuato officio, non publico, tantumque apud me grati animi fidelis memoria ualuit ut nulla non modo cupiditate sed ne spe quidem prudens et sciens tamquam ad interitum ruerem uoluntarium.
+
+## § 15
+
+[15] <!-- pa:pagina 15 --> Quod quidem meum consilium minime obscurum fuit. Nam et in hoc ordine integra re multa de pace dixi et in ipso bello eadem etiam cum capitis mei periculo sensi. Ex quo nemo erit tam iniustus rerum existimator qui dubitet quae Caesaris de bello uoluntas fuerit, cum pacis auctores conseruandos statim censuerit, ceteris fuerit iratior. Atque id minus mirum fortasse tum cum esset incertus exitus et anceps fortuna belli: qui uero uictor pacis auctores diligit, is profecto declarat maluisse se non dimicare quam uincere.
+
+## § 16
+
+[16] Atque huius quidem rei M. Marcello sum testis. Nostri enim sensus ut in pace semper, sic tum etiam in bello congruebant. Quotiens ego eum et quanto cum dolore uidi, cum insolentiam certorum hominum tum etiam ipsius uictoriae ferocitatem extimescentem! Quo gratior tua liberalitas, C. Caesar, nobis, qui illa uidimus debet esse. Non enim iam causae sunt inter se, sed uictoriae comparandae.
+
+## § 17
+
+[17] <!-- pa:pagina 16 --> Vidimus tuam uictoriam proeliorum exitu terminatam: gladium uagina uacuum in urbe non uidimus. Quos amisimus ciuis, eos uis Martis perculit, non ira uictoriae, ut dubitare debeat nemo quin multos, si posset, C. Caesar ab inferis excitaret, quoniam ex eadem acie conseruat quos potest. Alterius uero partis nihil amplius dico quam id quod omnes uerebamur, nimis iracundam futuram fuisse uictoriam.
+
+## § 18
+
+[18] Quidam enim non modo armatis sed interdum etiam otiosis minabantur, nec quid quisque sensisset, sed ubi fuisset cogitandum esse dicebant; ut mihi quidem uideantur di immortales, etiam si poenas a populo Romano ob aliquod delictum expetiuerunt, qui ciuile bellum tantum et tam luctuosum excitauerunt, uel placati iam uel satiati aliquando omnem spem salutis ad clementiam uictoris et sapientiam contulisse.
+
+## § 19
+
+[19] Qua re gaude tuo isto tam excellenti bono et fruere cum fortuna et gloria tum etiam natura et moribus tuis; ex quo quidem maximus est fructus iucunditasque sapienti. Cetera cum tua recordabere, etsi persaepe uirtuti, tamen plerumque felicitati tuae gratulabere: de nobis quos in re publica tecum simul esse uoluisti quotiens cogitabis, totiens de maximis <!-- pa:pagina 17 --> tuis beneficiis, totiens de incredibili liberalitate, totiens de singulari sapientia cogitabis: quae non modo summa bona sed nimirum audebo uel sola dicere. Tantus est enim splendor in laude uera, tanta in magnitudine animi et consili dignitas ut haec a uirtute donata, cetera a fortuna commodata esse uideantur.
+
+## § 20
+
+[20] Noli igitur in conseruandis uiris bonis defetigari, non cupiditate praesertim aliqua aut prauitate lapsis, sed opinione offici stulta fortasse, certe non improba, et specie quadam rei publicae. Non enim tua ulla culpa est, si te aliqui timuerunt, contraque summa laus, quod minime timendum fuisse senserunt.
+
+## § 21
+
+[21] Nunc uenio ad grauissimam querelam et atrocissimam suspicionem tuam, quae non tibi ipsi magis quam cum omnibus ciuibus, tum maxime nobis qui a te conseruati sumus prouidenda est: quam etsi spero falsam esse, numquam tamen extenuabo, tua enim cautio nostra cautio est. Quod si in alterutro peccandum sit, malim uideri nimis timidus quam parum prudens. Sed quisnam est iste tam demens? de tuisne?– tametsi qui magis sunt tui quam quibus tu salutem insperantibus reddidisti?– anne ex eo <!-- pa:pagina 18 --> numero qui una tecum fuerunt? Non est credibilis tantus in ullo furor ut quo duce omnia summa sit adeptus, huius uitam non anteponat suae. An si nihil tui cogitant sceleris, cauendum est ne quid inimici? Qui? omnes enim qui fuerunt aut sua pertinacia uitam amiserunt aut tua misericordia retinuerunt, ut aut nulli supersint de inimicis aut qui fuerunt sint amicissimi.
+
+## § 22
+
+[22] Sed tamen cum in animis hominum tantae latebrae sint et tanti recessus, augeamus sane suspicionem tuam: simul enim augebimus diligentiam. Nam quis est omnium tam ignarus rerum, tam rudis in re publica, tam nihil umquam nec de sua nec de communi salute cogitans, qui non intellegat tua salute contineri suam et ex unius tua uita pendere omnium? Equidem de te dies noctesque, ut debeo, cogitans casus dumtaxat humanos et incertos euentus ualetudinis et naturae communis fragilitatem extimesco, doleoque, cum res publica immortalis esse debeat, eam in unius mortalis anima consistere.
+
+## § 23
+
+[23] Si uero ad humanos casus incertosque motus ualetudinis sceleris <!-- pa:pagina 19 --> etiam accedit insidiarumque consensio, quem deus, si cupiat, posse opitulari rei publicae credimus? Omnia sunt excitanda tibi, C. Caesar, uni quae iacere sentis belli ipsius impetu, quod necesse fuit, perculsa atque prostata: constituenda iudicia, reuocanda fides, comprimendae libidines, propaganda suboles, omnia quae dilapsa iam diffluxuerunt seueris legibus uincienda sunt.
+
+## § 24
+
+[24] Non fuit recusandum in tanto ciuili bello, tanto animorum ardore et armorum quin quassata res publica, quicumque belli euentus fuisset, multa perderet et ornamenta dignitatis et praesidia stabilitatis suae, multaque uterque dux faceret armatus quae idem togatus fieri prohibuisset. Quae quidem tibi nunc omnia belli uolnera sananda sunt, quibus praeter te mederi nemo potest.
+
+## § 25
+
+[25] Itaque illam tuam praeclarissimam et sapientissimam uocem inuitus audiui: ‘Satis diu uel naturae uixi uel gloriae.’ Satis, si ita uis, fortasse naturae, addam etiam, si placet, gloriae: at, quod maximum est, patriae certe parum. Qua re omitte, quaeso, istam doctorum hominum in contemnenda morte prudentiam: noli nostro periculo esse sapiens. Saepe enim uenit ad meas auris te idem istud <!-- pa:pagina 20 --> nimis crebro dicere, satis te tibi uixisse. Credo, sed tum id audirem, si tibi soli uiueres aut si tibi etiam soli natus esses. Omnium salutem ciuium cunctamque rem publicam res tuae gestae complexae sunt; tantum abes a perfectione maximorum operum ut fundamenta nondum quae cogitas ieceris. Hic tu modum uitae tuae non salute rei publicae, sed aequitate animi definies? Quid, si istud ne gloriae quidem satis est? cuius te esse auidissimum, quamuis sis sapiens, non negabis.
+
+## § 26
+
+[26] Parumne, inquies, magna relinquemus? Immo uero aliis quamuis multis satis, tibi uni parum. Quicquid est enim, quamuis amplum sit, id est parum tum cum est aliquid amplius. Quod si rerum tuarum immortalium, C. Caesar, hic exitus futurus fuit ut deuictis aduersariis rem publicam in eo statu relinqueres in quo nunc est, uide, quaeso, ne tua diuina uirtus admirationis plus sit habitura quam gloriae; si quidem gloria est inlustris et peruagata magnorum uel in suos ciuis uel in patriam uel in omne genus hominum fama meritorum.
+
+## § 27
+
+[27] <!-- pa:pagina 21 --> Haec igitur tibi reliqua pars; hic restat actus, in hoc elaborandum est ut rem publicam constituas, eaque tu in primis summa tranquillitate et otio perfruare: tum te, si uoles, cum et patriae quod debes solueris et naturam ipsam expleueris satietate uiuendi, satis diu uixisse dicito. Quid enim est omnino hoc ipsum diu in quo est aliquid extremum? Quod cum uenit, omnis uoluptas praeterita pro nihilo est, quia postea nulla est futura. Quamquam iste tuus animus numquam his angustiis quas natura nobis ad uiuendum dedit contentus fuit, semper immortalitatis amore flagrauit.
+
+## § 28
+
+[28] Nec uero haec tua uita ducenda est quae corpore et spiritu continetur: illa, inquam, illa uita est tua quae uigebit memoria saeculorum omnium, quam posteritas alet, quam ipsa aeternitas semper tuebitur. Huic tu inseruias, huic te ostentes oportet, quae quidem quae miretur iam pridem multa habet; nunc etiam quae laudet exspectat. Obstupescent posteri certe imperia, prouincias, Rhenum, Oceanum, Nilum, pugnas innumerabilis, incredibilis uictorias, monumenta, munera, triumphos audientes et legentes tuos.
+
+## § 29
+
+[29] <!-- pa:pagina 22 --> Sed nisi haec urbs stabilita tuis consiliis et institutis erit, uagabitur modo tuum nomen longe atque late, sedem stabilem et domicilium certum non habebit. Erit inter eos etiam qui nascentur, sicut inter nos fuit, magna dissensio, cum alii laudibus ad caelum res tuas gestas efferent, alii fortasse aliquid requirent, idque uel maximum, nisi belli ciuilis incendium salute patriae restinxeris, ut illud fati fuisse uideatur, hoc consili. Serui igitur eis iudicibus qui multis post saeculis de te iudicabunt et quidem haud scio an incorruptius quam nos; nam et sine amore et sine cupiditate et rursus sine odio et sine inuidia iudicabunt.
+
+## § 30
+
+[30] Id autem etiam si tum ad te, ut quidam falso putant, non pertinebit, nunc certe pertinet esse te talem ut tuas laudes obscuratura nulla umquam sit obliuio. Diuersae uoluntates ciuium fuerunt distractaeque sententiae. Non enim consiliis solum et studiis sed armis etiam et castris dissidebamus. Erat obscuritas quaedam, erat certamen inter clarissimos duces; multi dubitabant quid optimum esset, multi quid sibi expediret, multi quid deceret, non nulli etiam quid liceret.
+
+## § 31
+
+[31] <!-- pa:pagina 23 --> Perfuncta res publica est hoc misero fatalique bello: uicit is qui non fortuna inflammaret odium suum, sed bonitate leniret; neque omnis quibus iratus esset eosdem etiam exsilio aut morte dignos iudicaret. Arma ab aliis posita, ab aliis erepta sunt. Ingratus est iniustusque ciuis qui armorum periculo liberatus animum tamen retinet armatum, ut etiam ille melior sit qui in acie cecidit, qui in causa animam profudit. Quae enim pertinacia quibusdam, eadem aliis constantia uideri potest.
+
+## § 32
+
+[32] Sed iam omnis fracta dissensio est armis, exstincta aequitate uictoris: restat ut omnes unum uelint qui habent aliquid non sapientiae modo sed etiam sanitatis. Nisi te, C. Caesar, saluo et in ista sententia qua cum antea tum hodie maxime usus es manente salui esse non possumus. Qua re omnes te qui haec salua esse uolumus et hortamus et obsecramus ut uitae, ut saluti tuae consulas, omnesque tibi, ut pro aliis etiam loquar quod de me ipso sentio, quoniam subesse aliquid putas quod cauendum sit, non modo excubias et custodias sed etiam laterum nostrorum oppositus et corporum pollicemur.
+
+## § 33
+
+[33] <!-- pa:pagina 24 --> Sed ut, unde est orsa, in eodem terminetur oratio, maximas tibi omnes gratias agimus, C. Caesar, maiores etiam habemus. Nam omnes idem sentiunt, quod ex omnium precibus et lacrimis sentire potuisti. Sed quia non est omnibus stantibus necesse dicere, a me certe dici uolunt, cui necesse est quodam modo, et quod fieri decet M. Marcello a te huic ordini populoque Romano et rei publicae reddito, fieri id intellego. Nam laetari omnis non ut de unius solum sed ut de omnium salute sentio.
+
+## § 34
+
+[34] Quod autem summae beneuolentiae est, quae mea erga illum omnibus nota semper fuit, ut uix C. Marcello, optimo e amantissimo fratri, praeter eum quidem cederem nemini, cum id sollicitudine, cura, labore tam diu praestiterem quam diu est de illius salute dubitatum, certe hoc tempore magnis curis, molestiis, doloribus liberatus praestare debeo. Itaque, C. Caesar, sic tibi gratias ago ut me omnibus rebus a te non conseruato solum sed etiam ornato, tamen ad tua in me unum innumerabilia merita, quod fieri iam posse non arbitrabar, magnus hoc tuo facto cumulus accesserit.
+
+> Ὁ Διαφορεύς παρῆν

@@ -22,6 +22,9 @@ status: draft
 project: pedra_angular
 related:
 - cicero-philippicae-en-yonge-1903
+- cicero-primeira-filipica-la-boulanger-wuilleumier-1972
+- cicero-primeira-filipica-pt-abreu-2016
+- cicero-primeira-filipica-la-pt-abreu-2016
 reference_system: chapter-section
 scope: Sections as numbered in Clark's edition (Perseus TEI), cited speech.section ([2.1]); alongside, the chapters, which the TEI gives inside the sections, as [cap.N], restarting with each speech ([cap.2.3]).
 urn_work: urn:cts:latinLit:phi0474.phi035

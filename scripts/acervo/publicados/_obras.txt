@@ -22,6 +22,7 @@ agostinho-de-fide-et-symbolo-lat-latinlibrary-sd
 agostinho-de-trinitate-lat-latinlibrary-sd
 agostinho-epistula-lat-latinlibrary-sd
 agostinho-regula-lat-latinlibrary-sd
+agostinho-sermao-24-pt-oliveira-novaes-2021
 agostinho-sermones-lat-latinlibrary-sd
 albino-introducao-a-platao-grc-hermann-1884
 alcidamas-odisseu-grc-blass-1892
@@ -166,6 +167,9 @@ aspasio-in-ethica-nicomachea-grc-heylbut-1889
 barnabe-the-epistle-of-barnabas-eng-kirsopp-lake-1912
 barnabe-the-epistle-of-barnabas-grc-kirsopp-lake-1912
 baruc-grc-lxx-swe
+basilio-de-cesareia-discurso-aos-jovens-grc-boulenger-1935
+basilio-de-cesareia-discurso-aos-jovens-grc-pt-gripp-2019
+basilio-de-cesareia-discurso-aos-jovens-pt-gripp-2019
 basilio-de-cesareia-epistulae-grc-roy-j-deferrari-1926-1934
 basilio-de-cesareia-tlg002-grc-roy-j-deferrari-1934
 bel-e-o-dragao-grc-lxx-swe-og
@@ -475,6 +479,9 @@ cicero-de-re-publica-pt-anonimo-sd
 cicero-de-senectute-lat-latinlibrary-sd
 cicero-divinatio-in-caecilium-en-yonge-1856
 cicero-divinatio-in-caecilium-la-peterson-1917
+cicero-em-favor-de-marcelo-la-clark-1978
+cicero-em-favor-de-marcelo-la-pt-lacerda-leite-2023
+cicero-em-favor-de-marcelo-pt-lacerda-leite-2023
 cicero-epistulae-ad-atticum-en-shuckburgh-1908
 cicero-epistulae-ad-atticum-la-purser-1903
 cicero-epistulae-ad-brutum-en-shuckburgh-1908
@@ -500,6 +507,9 @@ cicero-post-reditum-ad-quirites-en-yonge-1856
 cicero-post-reditum-ad-quirites-la-peterson-1911
 cicero-post-reditum-in-senatu-en-yonge-1856
 cicero-post-reditum-in-senatu-la-peterson-1909
+cicero-primeira-filipica-la-boulanger-wuilleumier-1972
+cicero-primeira-filipica-la-pt-abreu-2016
+cicero-primeira-filipica-pt-abreu-2016
 cicero-pro-archia-en-yonge-1856
 cicero-pro-archia-la-clark-1911
 cicero-pro-balbo-en-yonge-1891
@@ -688,6 +698,9 @@ euripides-heracles-grc-murray-1913
 euripides-heracles-pt-torrano-2018
 eusebio-de-cesareia-tlg002-grc-kirsopp-lake-1926-1932
 eustracio-in-ethica-nicomachea-grc-heylbut-1892
+evagrio-pontico-sobre-as-oposicoes-de-virtudes-e-vicios-grc-fogielman-2017
+evagrio-pontico-sobre-as-oposicoes-de-virtudes-e-vicios-grc-pt-pinheiro-2022
+evagrio-pontico-sobre-as-oposicoes-de-virtudes-e-vicios-pt-pinheiro-2022
 exodo-grc-lxx-swe
 ezequiel-grc-lxx-swe
 ferecides-fragmentos-grc-diels-1922
@@ -769,6 +782,7 @@ habacuque-grc-lxx-swe
 hecateu-de-abdera-fragmentos-grc-diels-1922
 heraclito-fragmentos-grc-diels-1922
 hermas-the-shepherd-of-hermas-eng-kirsopp-lake-1913
+hermes-trismegisto-a-cratera-ou-a-monada-pt-cesar-2023
 hipaso-testemunhos-grc-diels-1922
 hipias-fragmentos-grc-diels-1922
 hipolito-refutacao-de-todas-as-heresias-grc-wendland-1916
@@ -808,7 +822,10 @@ isocrates-carta-8-aos-governantes-de-mitilene-grc-van-hook-1945
 isocrates-carta-9-a-arquidamo-grc-van-hook-1945
 isocrates-concerning-the-team-of-horses-eng-larue-van-hook-1945
 isocrates-contra-calimaco-grc-van-hook-1945
+isocrates-contra-eutino-grc-marzi-1991
+isocrates-contra-eutino-grc-pt-lacerda-2020
 isocrates-contra-eutino-grc-van-hook-1945
+isocrates-contra-eutino-pt-lacerda-2020
 isocrates-contra-loquites-grc-van-hook-1945
 isocrates-contra-os-sofistas-grc-norlin-1929
 isocrates-contra-os-sofistas-grc-pt-lacerda-2018
@@ -1061,6 +1078,9 @@ plutarco-alcibiades-eng-bernadotte-perrin-1916
 plutarco-alcibiades-grc-bernadotte-perrin-1916
 plutarco-alexander-eng-bernadotte-perrin-1919
 plutarco-alexander-grc-bernadotte-perrin-1919
+plutarco-antigos-habitos-dos-lacedemonios-grc-nachstadt-1971
+plutarco-antigos-habitos-dos-lacedemonios-grc-pt-silva-2020
+plutarco-antigos-habitos-dos-lacedemonios-pt-silva-2020
 plutarco-antony-eng-bernadotte-perrin-1920
 plutarco-antony-grc-bernadotte-perrin-1920
 plutarco-aratus-eng-bernadotte-perrin-1926
@@ -1147,6 +1167,9 @@ plutarco-concerning-the-procreation-of-the-soul-as-discoursed-in-timaeus-grc-gr-
 plutarco-conjugal-precepts-eng-john-philips-1874
 plutarco-crassus-eng-bernadotte-perrin-1916
 plutarco-crassus-grc-bernadotte-perrin-1916
+plutarco-da-inveja-e-do-odio-grc-pohlenz-1972
+plutarco-da-inveja-e-do-odio-grc-pt-silva-2025
+plutarco-da-inveja-e-do-odio-pt-silva-2025
 plutarco-demetrius-eng-bernadotte-perrin-1920
 plutarco-demetrius-grc-bernadotte-perrin-1920
 plutarco-demosthenes-eng-bernadotte-perrin-1919
@@ -1299,6 +1322,9 @@ plutarco-sayings-of-spartans-eng-frank-cole-babbitt-1931
 plutarco-sayings-of-spartans-eng-william-w-goodwin-1874
 plutarco-sayings-of-spartans-grc-frank-cole-babbitt-1931
 plutarco-sayings-of-spartans-grc-gr-gorios-n-vernardak-s-1889
+plutarco-se-a-virtude-pode-ser-ensinada-grc-pohlenz-1972
+plutarco-se-a-virtude-pode-ser-ensinada-grc-pt-silva-2025
+plutarco-se-a-virtude-pode-ser-ensinada-pt-silva-2025
 plutarco-sertorius-eng-bernadotte-perrin-1919
 plutarco-sertorius-grc-bernadotte-perrin-1919
 plutarco-solon-eng-bernadotte-perrin-1914
@@ -1396,13 +1422,18 @@ porfirio-isagoge-grc-busse-1887
 porfirio-questoes-homericas-grc-schrader-1882
 porfirio-vida-de-pitagoras-grc-nauck-1860
 porfirio-zetemata-do-codice-vaticano-grc-schrader-1882
+proclo-hinos-grc-pt-barbieri-2017
+proclo-hinos-grc-vogt-1957
+proclo-hinos-pt-barbieri-2017
 proclo-in-rempublicam-grc-kroll-1901
 prodico-fragmentos-grc-diels-1922
 protagoras-fragmentos-grc-diels-1922
 protagoras-testemunhos-grc-diels-1922
 proverbios-grc-lxx-swe
+pseudo-cornuto-epitome-de-tradicoes-teologicas-gregas-pt-pereira-2022
 pseudo-plutarco-of-those-sentiments-concerning-nature-with-which-philosopher-eng-john-dowell-1874
 pseudo-plutarco-placita-philosophorum-grc-vernardakis-1888
+quion-de-heracleia-epistolas-pt-pereira-2023
 rousseau-discurso-sobre-as-ciencias-e-as-artes-pt-anonimo-2001
 rute-grc-lxx-swe
 sabedoria-grc-lxx-swe
@@ -1425,6 +1456,9 @@ seneca-octavia-lat-rudolf-peiper-1921
 seneca-oedipus-lat-rudolf-peiper-1921
 seneca-phaedra-lat-rudolf-peiper-1921
 seneca-phoenissae-lat-rudolf-peiper-1921
+seneca-questoes-naturais-i-prefacio-la-hine-1996
+seneca-questoes-naturais-i-prefacio-la-pt-goncalves-2020
+seneca-questoes-naturais-i-prefacio-pt-goncalves-2020
 seneca-thyestes-la-rudolf-peiper-1921
 seneca-thyestes-lat-rudolf-peiper-1921
 seneca-troades-lat-rudolf-peiper-1921

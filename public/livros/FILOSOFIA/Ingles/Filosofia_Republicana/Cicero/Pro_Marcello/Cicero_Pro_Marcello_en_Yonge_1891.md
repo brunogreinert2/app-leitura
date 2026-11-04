@@ -22,6 +22,9 @@ status: draft
 project: pedra_angular
 related:
 - cicero-pro-marcello-la-clark-1918
+- cicero-em-favor-de-marcelo-la-clark-1978
+- cicero-em-favor-de-marcelo-pt-lacerda-leite-2023
+- cicero-em-favor-de-marcelo-la-pt-lacerda-leite-2023
 reference_system: chapter-section
 scope: English translation of cicero-pro-marcello-la-clark-1918, sections as numbered in the TEI of the translation, cited by section ([1]); alongside, the chapters, which the TEI gives inside the sections, as [cap.N].
 urn_work: urn:cts:latinLit:phi0474.phi032

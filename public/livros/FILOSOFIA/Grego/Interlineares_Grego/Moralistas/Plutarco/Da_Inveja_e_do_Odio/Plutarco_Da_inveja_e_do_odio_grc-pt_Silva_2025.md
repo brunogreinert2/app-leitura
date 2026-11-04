@@ -1,0 +1,206 @@
+---
+id: plutarco-da-inveja-e-do-odio-grc-pt-silva-2025
+type: interlinear
+title: Da inveja e do ódio (Grego–Português)
+author: Plutarch
+language:
+- grc
+- por
+related:
+- plutarco-da-inveja-e-do-odio-grc-pohlenz-1972
+- plutarco-da-inveja-e-do-odio-pt-silva-2025
+base_edition: Max Pohlenz (ed.), Plutarchi Moralia, vol. III, Leipzig, Teubner, 1972, pp. 365–371.
+publication_year: 2025
+source: https://revistas.ufrj.br/index.php/CODEX/article/view/68023
+cite_in: SILVA, Maria Aparecida de Oliveira. Plutarco. Da inveja e do ódio. CODEX – Revista de Estudos Clássicos, v. 13, n. 2, e1322505, 2025. DOI 10.25187/codex.v13i1.68023
+license: CC-BY-NC-4.0
+project: pedra_angular
+status: draft
+urn_work: urn:cts:greekLit:tlg0007.tlg105
+scope: All eight surviving chapters, Moralia 536E–538E. The beginning is incomplete. The lacuna in chapter 8 is retained.
+processing: Prepared by Διαφορεύς with Codex (GPT-6) using the Pedra Angular Conversor. The source article is licensed for noncommercial use (https://creativecommons.org/licenses/by-nc/4.0/). Notes 12–46 retain their original numbering. The printed chapter divisions and canonical references are preserved. The ancient Greek text is reproduced under the journal article’s CC-BY-NC-4.0 license, without the modern editor’s critical apparatus.
+translator:
+- Maria Aparecida de Oliveira Silva
+editor: Max Pohlenz
+urn: urn:cts:greekLit:tlg0007.tlg105.pa-por2
+---
+
+# Da inveja e do ódio (Grego–Português)
+
+Tradução de Maria Aparecida de Oliveira Silva. Texto grego estabelecido por Max Pohlenz.[^12]
+
+## § 1
+
+**Grego**
+
+> [1] <!-- pa:pagina 4 --> [536e] Οὕτω δὴ καὶ δοκεῖ μηθὲν τοῦ μίσους διαφέρειν ἀλλ' ὁ αὐτὸς εἶναι. καθόλου μὲν γὰρ ὥσπερ πολυάγκιστρον ἡ κακία τοῖς ἐξηρτημένοις αὐτῆς πάθεσι κινουμένη δεῦρο κἀκεῖσε πολλὰς πρὸς ἄλληλα συναφὰς καὶ περιπλοκὰς ἐνδίδωσι, ταῦτα δ' ὥσπερ νοσήματα συμπαθεῖ ταῖς ἀλλήλων φλεγμοναῖς. ὁ γὰρ εὐτυχῶν ὁμοίως καὶ τὸν μισοῦντα λυπεῖ καὶ τὸν φθονοῦντα. διὸ καὶ <!-- pa:pagina 5 --> τὴν εὔνοιαν ἀμφοτέροις νομίζομεν ἀντικεῖσθαι, βούλησιν οὖσαν ἀγαθῶν τοῖς πλησίον, [536f] καὶ τὸ μισεῖν τῷ φθονεῖν ταὐτὸν εἶναι, ὅτι τὴν ἐναντίαν τῷ φιλεῖν ἔχει προαίρεσιν. ἐπεὶ δ' οὐχ οὕτω ταὐτὸν αἱ ὁμοιότητες ὡς ἕτερον αἱ διαφοραὶ ποιοῦσι, κατὰ ταύτας τὸ ζητούμενον μεταδιώξωμεν, ἀπὸ τῆς γενέσεως ἀρξάμενοι τῶν παθῶν.
+^grc
+
+**Português**
+
+> [1] <!-- pa:pagina 4 --> [536e] Assim então[^13], parece[^14] que em nada difere[^15] do ódio, mas que é o mesmo[^16]. Em geral, tal como uma pesqueira[^17], o vício move-se aqui e ali com as paixões[^18] penduradas nele e cria muitos pontos de contato e entrelaçamentos entre elas; enquanto essas, tal como doenças, são atingidas por inflamações umas das outras. Quem tem boa sorte causa incômodo tanto a quem tem ódio como a quem tem inveja. Por esse motivo, consideramos <!-- pa:pagina 5 --> que a benevolência[^19] coloca-se contrária a ambos, porque é o desejo do bem aos que são próximos[^20], [536f] e o ódio é o mesmo que a inveja, porque tem motivação contrária à da amizade, porque as semelhanças não as tornam a mesma coisa, como as diferenças as tornam outra coisa; conforme elas, iremos no encalço de nossa investigação e começaremos pela origem dessas paixões.
+^por
+
+## § 2
+
+**Grego**
+
+> [2] <!-- pa:pagina 6 --> [537a] Γεννᾶται τοίνυν τὸ μῖσος ἐκ φαντασίας τοῦ ὅτι πονηρὸς ἢ κοινῶς ἢ πρὸς αὐτόν ἐστιν ὁ μισούμενος (καὶ γὰρ ἀδικεῖσθαι δόξαντες αὐτοὶ πεφύκασι μισεῖν καὶ τοὺς ἄλλως ἀδικητικοὺς ἢ πονηροὺς προβάλλονται καὶ δυσχεραίνουσι)· φθονοῦσι δ' ἁπλῶς τοῖς εὖ πράττειν δοκοῦσιν. ὅθεν ἔοικεν ὁ μὲν φθόνος ἀόριστος εἶναι, καθάπερ ὀφθαλμία πρὸς ἅπαν τὸ λαμπρὸν ἐκταρασσόμενος, τὸ δὲ μῖσος ὥρισται, καθ' ὑποκειμένων ἀεί τινων ἀπερειδόμενον προσώπων.
+^grc
+
+**Português**
+
+> [2] <!-- pa:pagina 6 --> [537a] Assim, o ódio nasce da ideia de que o odiado é perverso, quer de modo coletivo quer particular[^21] (pois os que pensam que sofrem injustiças sentem ódio por natureza, acusam e não toleram os propensos à injustiça e os perversos)[^22]. E invejam simplesmente os que lhes parecem ter boa sorte[^23]. Por isso, a inveja parece que é ilimitada, como uma inflamação no olho que é perturbada por qualquer tipo de claridade[^24], enquanto o ódio tem limite e sempre se fundamenta em certos assuntos particulares.
+^por
+
+## § 3
+
+**Grego**
+
+> [3] <!-- pa:pagina 7 --> Δεύτερον δὲ τὸ μισεῖν γίνεται καὶ πρὸς ἄλογα ζῷα (καὶ γὰρ γαλᾶς καὶ κανθαρίδας ἔνιοι μισοῦσι καὶ φρύνους καὶ ὄφεις· Γερμανικὸς δ' ἀλεκτρυόνος οὔτε φωνὴν οὔτ' ὄψιν ὑπέμεινεν· οἱ δὲ Περσῶν μάγοι τοὺς μῦς [537b] ἀπεκτίννυσαν, ὡς αὐτοί τε μισοῦντες καὶ τοῦ θεοῦ δυσχεραίνοντος τὸ ζῷον· ὁμοῦ τι <!-- pa:pagina 8 --> γὰρ πάντες Ἄραβες καὶ Αἰθίοπες μυσάττονται)· τὸ μέντοι φθονεῖν πρὸς μόνον ἄνθρωπον ἀνθρώπῳ γίνεται.
+^grc
+
+**Português**
+
+> [3] <!-- pa:pagina 7 --> Em segundo lugar, o ódio nasce também contra animais irracionais (pois alguns odeiam doninhas, besouros, sapos e serpentes; Germânico[^25] não suportou nem ver nem ouvir o canto de um galo; os magos[^26] persas[^27] [537b] matavam os ratos[^28], como eles os odiavam, a vida deles também seria desagradável aos deuses; <!-- pa:pagina 8 --> quase todos os árabes e etíopes os odeiam); contudo, a inveja nasce somente de um ser humano por outro ser humano.
+^por
+
+## § 4
+
+**Grego**
+
+> [4] Ἐν τοῖς θηρίοις φθόνον μὲν οὐκ εἰκὸς ἐγγίνεσθαι πρὸς ἄλληλα (τοῦ γὰρ εὖ πράττειν ἢ κακῶς ἕτερον φαντασίαν οὐ λαμβάνουσιν, οὐδ' ἅπτεται τὸ ἔνδοξον ἢ ἄδοξον αὐτῶν, οἷς ὁ φθόνος ἐκτραχύνεται μάλιστα)· μισοῦσι δ' ἄλληλα καὶ ἀπεχθάνονται καὶ πολεμοῦσιν ὥσπερ ἀσπείστους τινὰς πολέμους ἀετοὶ καὶ δράκοντες, κορῶναι καὶ γλαῦκες, αἰγιθαλλοὶ καὶ ἀκανθυλλίδες, ὥστε τούτων γέ φασι μηδὲ τὸ αἷμα κίρνασθαι σφαττομένων, ἀλλὰ κἂν [537c] μίξῃς, ἰδίᾳ πάλιν ἀπορρεῖν διακρινόμενον. εἰκὸς δὲ καὶ τῷ λέοντι πρὸς τὸν ἀλεκτρυόνα καὶ τῷ ἐλέφαντι πρὸς τὴν ὗν μῖσος ἰσχυρὸν γεγεννηκέναι τὸν φόβον· ὃ γὰρ δεδίασι, καὶ μισεῖν πεφύκασιν. ὥστε καὶ ταύτῃ φαίνεσθαι διαφέροντα τοῦ μίσους τὸν φθόνον, τὸ μὲν δεχομένης τῆς τῶν θηρίων φύσεως τὸν δὲ μὴ δεχομένης.
+^grc
+
+**Português**
+
+> [4] Entres os animais selvagens não é possível que nasça a inveja uns dos outros[^29] (pois não apreendem pela imaginação se o outro passa bem ou passa mal, nem se atinge a glória ou a falta de glória entre eles, que são as situações com que a inveja mais se irrita). Mas são seres que odeiam uns aos outros[^30], detestam-se e guerreiam entre si, tal como águias e cobras, gralhas e corujas, abelheiros[^31] e pintassilgos, de modo que contam que nem mesmo o sangue deles se mistura quando são degolados, mas caso [537c] se mescle, novamente se divide para correr em separado. É provável que o medo tenha gerado um forte ódio no leão contra o galo e no elefante contra o javali. Pois eles odeiam por natureza aquele que temem. De modo que também nisso a inveja se mostra diferente do ódio, este é acolhido pela natureza dos animais selvagens, enquanto aquela não é acolhida pela deles.
+^por
+
+## § 5
+
+**Grego**
+
+> [5] <!-- pa:pagina 9 --> Ἔτι τοίνυν τὸ μὲν φθονεῖν πρὸς οὐδένα γίνεται δικαίως (οὐδεὶς γὰρ ἀδικεῖ τῷ εὐτυχεῖν, ἐπὶ τούτῳ δὲ φθονοῦνται)· μισοῦνται δὲ πολλοὶ δικαίως, ὡς οὓς ἀξιομισήτους καλοῦμεν, ὥστε καὶ τοῖς ἄλλοις ἐγκαλοῦμεν, ἂν μὴ φεύγωσι τοὺς τοιούτους μηδὲ βδελύττωνται [537d] καὶ δυσχεραίνωσι. μέγα δὲ τούτου τεκμήριον, ὅτι μισεῖν μὲν πολλοὺς ὁμολογοῦσιν ἔνιοι, φθονεῖν δ' οὐδενὶ λέγουσι. καὶ γὰρ ἡ μισοπονηρία τῶν ἐπαινουμένων ἐστί· καὶ τὸν ἀδελφιδοῦν τοῦ Λυκούργου Χάριλλον, βασιλεύοντα τῆς Σπάρτης ἐπιεικῆ δ' ὄντα καὶ πρᾶον, ἐπαινούντων τινῶν ὁ συνάρχων ‘καὶ πῶς’ ἔφη ‘χρηστός ἐστι Χάριλλος, ὃς οὐδὲ τοῖς πονηροῖς χαλεπός ἐστι;’ καὶ τοῦ Θερσίτου ὁ ποιητὴς τὴν μὲν τοῦ σώματος κακίαν πολυμερῶς καὶ περιωδευμένως ἐξεμόρφησε, τὴν δὲ τοῦ ἤθους μοχθηρίαν συντομώτατα καὶ δι' ἑνὸς ἔφρασεν· 
+>
+> <!-- pa:pagina 10 --> ‘ἔχθιστος δ' Ἀχιλῆι μάλιστ' ἦν ἠδ' Ὀδυσῆι’.
+>
+> [537e] ὑπερβολὴ γάρ τις φαυλότητος τὸ τοῖς κρατίστοις ἐχθρὸν εἶναι. καὶ φθονεῖν δ' ἀρνοῦνται· κἂν ἐλέγχωνται, μυρίας σκήψεις προΐσχονται, ὀργίζεσθαι λέγοντες ἢ φοβεῖσθαι τὸν ἄνθρωπον ἢ μισεῖν ἢ ὅ τι ἂν τύχωσιν ἄλλο τῷ φθόνῳ τοῦ πάθους ὄνομα περιβάλλοντες καὶ καλύπτοντες ὡς μόνον τοῦτο τῶν τῆς ψυχῆς νοσημάτων ἀπόρρητον.
+^grc
+
+**Português**
+
+> [5] <!-- pa:pagina 9 --> Além disso, a inveja não nasce com justiça contra ninguém (pois ninguém comete injustiça contra quem tem boa sorte, é por isso que sentem inveja); mas muitos são odiados com justiça, como os que chamamos dignos de ódio, de modo que também censuramos os demais[^32], se não fugirem de tais seres, nem lhes tiverem aversão, [537d] nem fiquem desgostosos com eles. E uma grande prova disso é que alguns concordam que odeiam a muitos, mas dizem que não invejam ninguém. De fato, o ódio à perversidade está entre os sentimentos que são elogiados. Enquanto uns elogiavam o sobrinho de Licurgo, Carilo, que reinava em Esparta, porque era comedido e dócil, um companheiro de comando seu disse: “e como Carilo é bom[^33], que nem é severo com os perversos?”[^34] E o poeta representou um defeito do corpo de Tersites de diversos modos e difusamente, mas expôs com poucas palavras a perversidade de seu caráter, por meio de um único verso: 
+>
+> <!-- pa:pagina 10 --> *Era muito hostil sobretudo com Aquiles e Odisseu.*[^35]
+>
+> [537e] Pois ter a inimizade dos melhores é o extremo da baixeza. Mas negam que sentem inveja; se são refutados, alegam incontáveis pretextos, afirmam que estão irritados, temem ou odeiam o homem ou encobrem a inveja com qualquer outro nome de paixão que lhes vem ao acaso, escondem-na como se fosse a única das doenças da alma que é inominável.
+^por
+
+## § 6
+
+**Grego**
+
+> [6] Ἀνάγκη τοίνυν τὰ πάθη ταῦτα τοῖς αὐτοῖς ὥσπερ τὰ φυτὰ καὶ τρέφεσθαι καὶ αὔξεσθαι, ὅθεν καὶ ἐπιτείνεσθαι πέφυκεν ἀλλήλοις. μισοῦμέν γε μᾶλλον τοὺς μᾶλλον εἰς πονηρίαν ἐπιδιδόντας, φθονοῦσι δὲ μᾶλλον τοῖς μᾶλλον ἐπ' ἀρετῇ προϊέναι δοκοῦσι. διὸ καὶ [537f] Θεμιστοκλῆς ἔτι μειράκιον ὢν οὐδὲν ἔφη πράττειν λαμπρόν· οὔπω γὰρ φθονεῖσθαι. καθάπερ γὰρ αἱ κανθαρίδες ἐμφύονται μάλιστα τῷ ἀκμάζοντι σίτῳ καὶ τοῖς εὐθαλέσι ῥόδοις, οὕτως ὁ φθόνος ἅπτεται μάλιστα τῶν χρηστῶν καὶ αὐξομένων πρὸς ἀρετὴν καὶ δόξαν ἠθῶν καὶ προσώπων. καὶ τοὐναντίον αὖ πάλιν αἱ μὲν ἄκρατοι πονηρίαι συνεπιτείνουσι τὸ μῖσος. τοὺς γοῦν Σωκράτη συκοφαντήσαντας <!-- pa:pagina 11 --> [538a] ὡς εἰς ἔσχατον κακίας ἐληλακότας οὕτως ἐμίσησαν οἱ πολῖται καὶ ἀπεστράφησαν, ὡς μήτε πῦρ αὔειν μήτ' ἀποκρίνεσθαι πυνθανομένοις, μὴ λουομένοις κοινωνεῖν ὕδατος, ἀλλ' ἀναγκάζειν ἐκχεῖν ἐκεῖνο τοὺς παραχύτας ὡς μεμιασμένον, ἕως ἀπήγξαντο μὴ φέροντες τὸ μῖσος. αἱ δὲ τῶν εὐτυχημάτων ὑπεροχαὶ καὶ λαμπρότητες πολλάκις τὸν φθόνον κατασβεννύουσιν. οὐ γὰρ εἰκὸς Ἀλεξάνδρῳ τινὰ φθονεῖν οὐδὲ Κύρῳ, κρατήσασι καὶ γενομένοις κυρίοις ἁπάντων. ἀλλ' ὥσπερ ὁ ἥλιος, ὧν ἂν ὑπὲρ κορυφῆς γένηται, καταχεόμενος τὸ φῶς ἢ παντάπασι τὴν [538b] σκιὰν ἀνεῖλεν ἢ μικρὰν ἐποίησεν, οὕτως πολὺ τῶν εὐτυχημάτων ὕψος λαβόντων καὶ γενομένων κατὰ κεφαλῆς τοῦ φθόνου συστέλλεται καὶ ἀναχωρεῖ καταλαμπόμενος· τὸ μέντοι μῖσος οὐκ ἀνίησιν ἡ τῶν ἐχθρῶν ὑπεροχὴ καὶ δύναμις. ὁ γοῦν Ἀλέξανδρος φθονοῦντα μὲν οὐδέν' εἶχε, μισοῦντας δὲ πολλούς, ὑφ' ὧν τέλος ἐπιβουλευθεὶς <!-- pa:pagina 12 --> ἀπέθανεν. ὁμοίως τοίνυν καὶ τὰ δυστυχήματα τοὺς μὲν φθονοῦντας παύει τὰς δ' αὖ ἔχθρας οὐκ ἀναιρεῖ. μισοῦσι γὰρ καὶ ταπεινοὺς τοὺς ἐχθροὺς γενομένους, φθονεῖ δ' οὐδεὶς τῷ δυστυχοῦντι, ἀλλὰ καὶ τὸ ῥηθὲν ὑπό τινος τῶν καθ' ἡμᾶς σοφιστῶν, ὅτι ἥδισθ' οἱ φθονοῦντες ἐλεοῦσιν, ἀληθές ἐστιν. [538c] ὥστε καὶ ταύτῃ μεγάλην εἶναι τῶν παθῶν διαφοράν, ὡς τὸ μὲν μῖσος οὔτ' εὐτυχούντων οὔτε δυστυχούντων ἀφίστασθαι πέφυκεν, ὁ δὲ φθόνος πρὸς τὴν ἀμφοῖν ὑπερβολὴν ἀπαγορεύει.
+^grc
+
+**Português**
+
+> [6] Assim, essas paixões necessitam, tal como as plantas, nutrirem-se e crescerem com os mesmos elementos, por isso é natural que tornem umas às outras mais intensas. Certamente, por um lado, odiamos mais os que se entregam à perversidade; mas por outro, eles invejam mais os que pensam que progridem mais na virtude[^36]. Por isso também, [537f] Temístocles, quando ainda era jovem, afirmava que não havia feito nada de brilhante; porque ainda não era invejado. Como os besouros crescem sobretudo com o trigo em pleno vigor e as roseiras bem floridas, assim a inveja atinge mais os caracteres e as personalidades dos que são bons e desenvolvidos em virtude e glória. E o contrário, por sua vez, as perversidades excessivas tornam seu ódio mais intenso. Nessas condições, os caluniadores de Sócrates <!-- pa:pagina 11 --> [538a] foram ao extremo da maldade, seus concidadãos os odiaram e os repeliram tanto que não lhes davam fogo, nem respondiam ao que lhes perguntavam, nem se banhavam compartilhando a mesma água, mas obrigavam os que traziam água para o banho a vertê-la neles como se estivessem com uma mancha, até que se sentissem sufocados e não suportassem seu ódio[^37]. E a grandiosidade e o brilho dos que têm boa sorte muitas vezes extinguem a inveja[^38]. Pois é improvável que ninguém tenha invejado Alexandre nem Ciro, quando se apoderaram e se tornaram chefes de todos os territórios. Mas, tal como o Sol, quando está em cima de sua cabeça e verte sua luz, ou retira [538b] a sombra de todas as partes, ou a reduz; do mesmo modo, quando os que têm boa sorte atingem muita altura e ficam acima da cabeça da inveja, ela é reduzida e se retira iluminada[^39]; contudo, o ódio não se rende à superioridade e ao poder dos inimigos. Sem dúvida, Alexandre não tinha ninguém que o invejasse, mas muitos o odiavam e no fim morreu em um complô planejado <!-- pa:pagina 12 --> por eles[^40]. Assim, do mesmo modo, as circunstâncias infelizes paralisam os invejosos, contudo, não anulam suas hostilidades. Pois eles também odeiam os inimigos quando são humilhados; ninguém inveja o infeliz, mas é verdade o dito por um sofista de nosso tempo “que os invejosos se apiedam com muito prazer.” [538c] De modo que também nisso há uma grande diferença entre essas paixões, que por natureza o ódio não se afasta da felicidade nem da infelicidade, enquanto a inveja impede o excesso de ambas.
+^por
+
+## § 7
+
+**Grego**
+
+> [7] ἔτι τοίνυν μᾶλλον ἢ οὕτως ἀπὸ τῶν ἐναντίων τὸ αὐτὸ σκοπῶμεν. λύουσι γὰρ ἔχθρας καὶ μῖσος ἢ πεισθέντες μηδὲν ἀδικεῖσθαι ἢ δόξαν ὡς χρηστῶν, οὓς ἐμίσουν ὡς πονηρούς, λαβόντες ἢ τρίτον εὖ παθόντες· ‘ἡ γὰρ τελευταία χάρις’, ὡς Θουκυδίδης φησί, ‘κἂν ἐλάττων ᾖ, καιρὸν ἔχουσα δύναται μεῖζον ἔγκλημα λῦσαι.’ τούτων δὲ τὸ μὲν πρῶτον οὐ λύει τὸν φθόνον (πεπεισμένοι γὰρ ἐξ ἀρχῆς μηδὲν ἀδικεῖσθαι φθονοῦσι), <!-- pa:pagina 13 --> [538d] τὰ δὲ λοιπὰ καὶ παροξύνει· τοῖς τε γὰρ δοκοῦσι χρηστοῖς βασκαίνουσι μᾶλλον ὡς δὴ τὸ μέγιστον ἀγαθὸν τὴν ἀρετὴν ἔχουσι, κἂν εὖ πάσχωσιν ὑπὸ τῶν εὐτυχούντων, ἀνιῶνται φθονοῦντες αὐτοῖς καὶ τῆς προαιρέσεως καὶ τῆς δυνάμεως· τὸ μὲν γὰρ ἀρετῆς ἐστι τὸ δ' εὐτυχίας, ἀγαθὰ δ' ἀμφότερα. διὸ παντελῶς ἕτερόν ἐστι τοῦ μίσους πάθος ὁ φθόνος, εἰ, δι' ὧν ἐκεῖνο πραΰνεται, τοῦτο λυπεῖται καὶ παροξύνεται.
+^grc
+
+**Português**
+
+> [7] Além disso, devemos examinar mais este mesmo argumento a partir de seus contrários. Pois eles desfazem inimizades e o ódio, ou quando são persuadidos de que não sofreram nenhuma injustiça, ou entregam a glória para os bons, aos que costumavam odiar por serem perversos, ou porque são bem tratados; pois “o último favor”, como Tucídides afirma, “ainda que menor, se acontecer no momento oportuno, pode pôr fim a uma querela maior.”[^41] Mas a primeira dessas causas não põe fim à inveja (pois sentem inveja, mesmo persuadidos de que não sofreram nenhuma injustiça), <!-- pa:pagina 13 --> [538d] os restantes também se irritam; pois invejam mais os que lhes parecem bons, porque eles têm o bem maior que é a virtude; ainda que sejam bem tratados pelos que têm boa sorte, ficam perturbados, com inveja de sua motivação e de seu poder; pois uma é característica da virtude e a outra é da boa sorte, e ambas são boas. Por isso, a inveja é uma paixão completamente diferente do ódio, se, por elas[^42], uma agrada e outra causa dor e irrita.
+^por
+
+## § 8
+
+**Grego**
+
+> [8] Ἤδη τοίνυν καὶ τὴν προαίρεσιν αὐτὴν ἑκατέρου πάθους σκοπῶμεν. ἔστι δὲ μισοῦντος μὲν προαίρεσις [538e] κακῶς ποιῆσαι κατὰ δύναμιν (\*\*\* οὕτως ὁρίζονται, διάθεσίν τινα καὶ προαίρεσιν ἐπιτηρητικὴν τοῦ κακῶς ποιῆσαι), τῷ φθόνῳ δὲ τοῦτο γοῦν ἄπεστι. πολλοὺς γὰρ οἱ <!-- pa:pagina 14 --> φθονοῦντες τῶν συνήθων καὶ οἰκείων ἀπολέσθαι μὲν οὐκ ἂν ἐθέλοιεν οὐδὲ δυστυχῆσαι, βαρύνονται δ' εὐτυχοῦντας· καὶ κολούουσι μέν, εἰ δύνανται, τὴν δόξαν αὐτῶν καὶ λαμπρότητα, συμφορὰς δ' ἀνηκέστους οὐκ ἂν προσβάλοιεν, ἀλλ' ὥσπερ οἰκίας ὑπερεχούσης τὸ ἐπισκοτοῦν αὐτοῖς καθελόντες ἀρκοῦνται.
+^grc
+
+**Português**
+
+> [8] Além disso, também devemos logo examinar a própria motivação de cada uma dessas duas paixões. [538e] Fazer o mal conforme o poder (\*\*\*[^43] desse modo, é definido como disposição[^44] e motivação de fazer o mal de olho na oportunidade)[^45]. Portanto, isso está longe da inveja. Pois os invejosos não <!-- pa:pagina 14 --> desejariam arruinar muitos amigos e conhecidos, nem os colocar em desgraça, suportam com dificuldade os que têm boa sorte[^46]; também impedem, se puderem, a glória e o brilhantismo deles, mas não contribuiriam para infortúnios irreparáveis; ao contrário, tal como uma casa que está com o telhado mais alto, ficam satisfeitos em eliminar o que lhes faz sombra.
+^por
+
+> Ὁ Διαφορεύς παρῆν
+
+[^12]: Texto estabelecido por M. Pohlenz, *in*: Plutarchi. De invidia et odio. *Moralia*, v. 3. Leipzig: Teubner, 1972, pp. 365–371.
+
+[^13]: O uso do advérbio οὕτω no início deste tratado fomenta o debate sobre a incompletude deste manuscrito, uma vez que esse advérbio tem o significado de “como se pode constatar” ou “retomando a ideia precedente”, conforme lemos na primeira nota da tradução de Vernière e Klaeer (1974, p. 8). Outra peculiaridade que denota a existência de um argumento anterior é o uso da partícula enfática δή, que reforça o sentido da palavra precedente (Denniston, 1954, p. 203).
+
+[^14]: Note-se o expediente retórico utilizado com o emprego do verbo δοκέω, que nos remete ao plano da opinião; algo que se pensa possível, mas sem nenhuma comprovação, dado que se confirma com a discordância de Plutarco sobre essa assertiva a partir do parágrafo 536F: “E uma vez que as semelhanças não as tornam a mesma coisa, como as diferenças se tornam outra coisa;” (ἐπεὶ δ' οὐχ οὕτω ταὐτὸν αἱ ὁμοιότητες ὡς ἕτερον αἱ διαφοραὶ ποιοῦσι). Doravante, as traduções citadas são de nossa autoria.
+
+[^15]: Isto é, o mesmo sentimento que o da inveja.
+
+[^16]: A descontinuidade do argumento demonstra que houve um debate anterior sobre a inveja e que, a partir deste momento, Plutarco inicia sua reflexão sobre se inveja e ódio são o mesmo sentimento ou não.
+
+[^17]: Linha de pesca com muitos anzóis.
+
+[^18]: Plutarco, em suas reflexões sobre as paixões, apoia-se na seguinte definição aristotélica: “E digo que as paixões são desejo, ira, medo, audácia, inveja, alegria, amizade, ódio, saudade, ciúme, compaixão, em geral, as que o prazer ou a dor acompanha” (λέγω δὲ πάθη μὲν ἐπιθυμίαν ὀργὴν φόβον θάρσος φθόνον χαρὰν φιλίαν μῖσος πόθον ζῆλον ἔλεον, ὅλως οἷς ἕπεται ἡδονὴ ἢ λύπη·) (Aristóteles, *Ética a Nicômaco*, 1105b21–23).
+
+[^19]: Aristóteles afirma que “a benevolência parece amigável, mas não é amizade de fato;” (Ἡ δ' εὔνοια φιλικῷ μὲν ἔοικεν, οὐ μὴν ἔστι γε φιλία·) (1166b30). No entanto, a benevolência é importante para que a amizade exista, como afirma o filósofo: “Assim não poderiam tornar-se amigos se não fossem benevolentes, mas os benevolentes não se afeiçoam mais em nada; pois querem somente o bem para os que são benevolentes, mas não tomam participação em nenhum assunto, nem se perturbam por eles. Por isso, metaforicamente, alguém diria que é uma amizade inativa que, com o passar do tempo e o alcance do hábito, torna-se amizade, mas não amizade por utilidade nem por prazer; pois a benevolência não está neles” (οὕτω δὴ καὶ φίλους οὐχ οἷόν τ' εἶναι μὴ εὔνους γενομένους, οἱ δ' εὖνοι οὐδὲν μᾶλλον φιλοῦσιν· βούλονται γὰρ μόνον τἀγαθὰ οἷς εἰσὶν εὖνοι, συμπράξαιεν δ' ἂν οὐδέν, οὐδ' ὀχληθεῖεν ὑπὲρ αὐτῶν. διὸ μεταφέρων φαίη τις ἂν αὐτὴν ἀργὴν εἶναι φιλίαν, χρονιζομένην δὲ καὶ εἰς συνήθειαν ἀφικνουμένην γίνεσθαι φιλίαν, οὐ τὴν διὰ τὸ χρήσιμον οὐδὲ τὴν διὰ τὸ ἡδύ· οὐδὲ γὰρ εὔνοια ἐπὶ τούτοις γίνεται.) (1167a8–14).
+
+[^20]: A relação entre benevolência (εὔνοια) e amizade (φιλία) estabelecida por Plutarco remete-nos a este pensamento proposto por Aristóteles: “E dizem que se deve desejar o bem ao amigo por ele próprio. E afirmam que os que desejam assim o bem são benevolentes, ainda que não aconteça o mesmo do outro lado; pois benevolência em caso de reciprocidade é amizade. Ou devem acrescentar: “e se não for vista?\*) Pois muitos são benevolentes com aqueles que não viram, mas com os que suspeitam que são bons ou úteis; e um deles poderia ter o mesmo sentimento para com ele\*\*. Então, eles se mostram benevolentes uns com os outros” (τῷ δὲ φίλῳ φασὶ δεῖν βούλεσθαι τἀγαθὰ ἐκείνου ἕνεκα. τοὺς δὲ βουλομένους οὕτω τἀγαθὰ εὔνους λέγουσιν, ἂν μὴ ταὐτὸ καὶ παρ' ἐκείνου γίνηται· εὔνοιαν γὰρ ἐν ἀντιπεπονθόσι φιλίαν εἶναι. ἢ προσθετέον μὴ λανθάνουσαν; πολλοὶ γάρ εἰσιν εὖνοι οἷς οὐχ ἑωράκασιν, ὑπολαμβάνουσι δὲ ἐπιεικεῖς εἶναι ἢ χρησίμους· τοῦτο δὲ τὸ αὐτὸ κἂν ἐκείνων τις πάθοι πρὸς τοῦτον. εὖνοι μὲν οὖν οὗτοι φαίνονται ἀλλήλοις·) (Aristóteles, *Ética a Nicômaco*, 1155b31–1156a1). \*A benevolência. \*\*Isto é, de reciprocidade. No entanto, se não houver empatia, a falta de convivência ou de hábito impede a construção de uma amizade, conforme lemos a seguir: “pois não se tornam amigos se não se alegram com sua companhia; do mesmo modo, nem dos que são austeros. Mas os benevolentes são assim entre si; pois querem o bem para todos em suas necessidades; mas não são muito porque não passam o dia juntos nem se alegram uns com os outros, que especialmente parecem ser atos de amizade. (οὐ γὰρ γίνονται φίλοι οἷς ἂν μὴ χαίρωσιν· ὁμοίως δ' οὐδ' οἱ στρυφνοί. ἀλλ' οἱ τοιοῦτοι εὖνοι μέν εἰσιν ἀλλήλοις· βούλονται γὰρ τἀγαθὰ καὶ ἀπαντῶσιν εἰς τὰς χρείας· φίλοι δ' οὐ πάνυ εἰσὶ διὰ τὸ μὴ συνημερεύειν μηδὲ χαίρειν ἀλλήλοις, ἃ δὴ μάλιστ' εἶναι δοκεῖ φιλικά.) (1158a6–11).
+
+[^21]: Plutarco retoma o pensamento aristotélico sobre o caráter particular e coletivo do ódio, porém não considera que o ódio gere outros sentimentos, conforme lemos a seguir: “a cólera, a difamação e a calúnia têm a capacidade de produzir inimizades. Portanto, a cólera advém das ações que se voltam para um particular, mas a inimizade se a ação é voltada para um particular; pois se supomos que é assim, nós o odiamos. Também a cólera sempre é sobre as ações de um em particular, como por exemplo, Cálias ou Sócrates, enquanto o ódio também se volta para os grupos;” (ποιητικὰ δὲ ἔχθρας ὀργή, ἐπηρεασμός, διαβολή. ὀργὴ μὲν οὖν ἐστιν ἐκ τῶν πρὸς αὑτόν, ἔχθρα δὲ καὶ ἄνευ τοῦ πρὸς αὑτόν· ἂν γὰρ ὑπολαμβάνωμεν εἶναι τοιόνδε, μισοῦμεν. καὶ ἡ μὲν ὀργὴ ἀεὶ περὶ τὰ καθ' ἕκαστα, οἷον Καλλίᾳ ἢ Σωκράτει, τὸ δὲ μῖσος καὶ πρὸς τὰ γένη·) (Aristóteles, *Retórica*, 1382a2–5).
+
+[^22]: Aristóteles relativiza o sentimento de ódio ao afirmar que: “se é com um amigo não é julgado por isso, ou ele não comete injustiça ou se dá pouca importância quando comete; e ocorre o contrário com quem se odeia; com quem deseja e tem esperança, é claro que isso acontecerá e será um bem, mas com quem é indiferente ou infeliz, acontece o contrário.) (τῷ μὲν γὰρ φιλοῦντι περὶ οὗ ποιεῖται τὴν κρίσιν ἢ οὐκ ἀδικεῖν ἢ μικρὰ δοκεῖ ἀδικεῖν, τῷ δὲ μισοῦντι τοὐναντίον· καὶ τῷ μὲν ἐπιθυμοῦντι καὶ εὐέλπιδι ὄντι, ἐὰν ᾖ τὸ ἐσόμενον ἡδύ, καὶ ἔσεσθαι καὶ ἀγαθὸν ἔσεσθαι φαίνεται, τῷ δ' ἀπαθεῖ ἢ καὶ δυσχεραίνοντι τοὐναντίον.) (Aristóteles, *Retórica*, 1378a1–5).
+
+[^23]: A assertiva plutarquiana remete-nos à expressa por Aristóteles: “E a indignação está entre a inveja e a malignidade\*, e elas são o sofrimento e o prazer relacionados ao que acontece com os que são próximos; pois o indignado sofre com os desmerecedores que passam bem, enquanto o invejoso sofre em excesso por isso e em qualquer situação, enquanto o maligno deseja sofrimento tamanho que ele se alegre com isso” (νέμεσις δὲ μεσότης φθόνου καὶ ἐπιχαιρεκακίας, εἰσὶ δὲ περὶ λύπην καὶ ἡδονὴν τὰς ἐπὶ τοῖς συμβαίνουσι τοῖς πέλας γινομένας· ὁ μὲν γὰρ νεμεσητικὸς λυπεῖται ἐπὶ τοῖς ἀναξίως εὖ πράττουσιν, ὁ δὲ φθονερὸς ὑπερβάλλων τοῦτον ἐπὶ πᾶσι λυπεῖται, ὁ δ' ἐπιχαιρέκακος τοσοῦτον ἐλλείπει τοῦ λυπεῖσθαι ὥστε καὶ χαίρειν.) (Aristóteles, *Ética a Nicômaco*, 1108b1–5). \*No sentido de alguém que se alegra com o mal alheio.
+
+[^24]: Segundo Plutarco, a inveja não prejudica apenas a visão, mas também a audição, conforme lemos nesta reflexão: “Assim, a inveja acompanhada de difamação e má vontade não é boa para qualquer ação, mas é um empecilho para todas as belas ações e é o pior assistente e conselheiro para o ouvinte, porque torna as palavras proveitosas em inoportunas, desagradáveis e inadmissíveis porque os invejosos em nada se alegram com o que está bem-dito. Porém, aquele que se incomoda com a riqueza, a fama e a beleza encontradas nos outros é simplesmente um invejoso; pois se incomoda com os outros porque têm boa sorte; mas, por outro lado, quando alguém fica irritado com um discurso bem-feito, aflige-se com o que é bom para si mesmo. Pois, como a luz para os que a olham, a palavra é um bem para os que a ouvem, se quiserem aceitá-la.” (Φθόνος τοίνυν μετὰ βασκανίας καὶ δυσμενείας οὐδενὶ μὲν ἔργῳ παρὼν ἀγαθόν, ἀλλὰ πᾶσιν ἐμπόδιος τοῖς καλοῖς, κάκιστος δ' ἀκροωμένῳ πάρεδρος καὶ σύμβουλος, ἀνιαρὰ καὶ ἀηδῆ καὶ δυσπρόσδεκτα ποιῶν τὰ ὠφέλιμα διὰ τὸ πᾶσι μᾶλλον ἥδεσθαι τοὺς φθονοῦντας ἢ τοῖς εὖ λεγομένοις. καίτοι πλοῦτος μὲν ὅντινα δάκνει καὶ δόξα καὶ κάλλος, ἑτέροις ὑπάρχοντα, φθονερός ἐστι μόνον· ἄχθεται γὰρ ἄλλων εὐτυχούντων· ὁ δὲ λόγῳ καλῶς λεγομένῳ δυσχεραίνων ὑπὸ τῶν ἰδίων ἀγαθῶν ἀνιᾶται. ὡς γὰρ τὸ φῶς τῶν βλεπόντων, καὶ ὁ λόγος τῶν ἀκουόντων ἀγαθόν ἐστιν, ἂν βούλωνται δέχεσθαι.) (Plutarco, *Da audição*, 39D–E).
+
+[^25]: Germânico nasceu em Roma em 15 a.C. e morreu precocemente em uma batalha na cidade de Antioquia em 19 d.C., aos 33 anos. Pertencia à dinastia Júlio-Claudiana, pois era filho de Druso e Antônia Maior, assim era sobrinho de Tibério, casado com Agripina Maior, neta do Imperador Augusto.
+
+[^26]: Sobre a origem desses magos, Plutarco conta que “uns consideram que existem dois deuses, como se fossem rivais, um artífice dos bens e o outro dos males; outros chamam o melhor 'deus' e o outro 'dêmon', como Zoroastro, o mago, que concluíram em suas investigações que ele nasceu cinco mil anos antes da guerra de Troia. Portanto, este chamava a um Horomazes e a outro Arimânio; e declarava que um se parecia mais com a luz do sensível, e o outro, ao contrário, com a escuridão e a ignorância, e que, no meio de ambos, estava Mitra; por isso, também, os persas dão o nome Mesites a Mitra; e ensina a realizar a um sacrifícios, preces e ações de graças, ao outro, apotropaicos e melancólicos. Pois maceram em um morteiro um tipo de erva chamada amomo, invocam Hades e as trevas, depois eles a misturam com sangue de lobo degolado e a levam para um lugar sem a luz do sol e lá a derramam.” (νομίζουσι γὰρ οἱ μὲν θεοὺς εἶναι δύο καθάπερ ἀντιτέχνους, τὸν μὲν ἀγαθῶν, τὸν δὲ φαύλων δημιουργόν· οἱ δὲ τὸν μὲν γὰρ ἀμείνονα θεόν, τὸν δ' ἕτερον δαίμονα καλοῦσιν, ὥσπερ Ζωροάστρης ὁ μάγος, ὃν πεντακισχιλίοις ἔτεσι τῶν Τρωικῶν γεγονέναι πρεσβύτερον ἱστοροῦσιν. οὗτος οὖν ἐκάλει τὸν μὲν Ὡρομάζην, τὸν δ' Ἀρειμάνιον· καὶ προσαπεφαίνετο τὸν μὲν ἐοικέναι φωτὶ μάλιστα τῶν αἰσθητῶν, τὸν δ' ἔμπαλιν σκότῳ καὶ ἀγνοίᾳ, μέσον δ' ἀμφοῖν τὸν Μίθρην εἶναι· διὸ καὶ Μίθρην Πέρσαι τὸν μεσίτην ὀνομάζουσιν· ἐδίδαξε δὲ τῷ μὲν εὐκταῖα θύειν καὶ χαριστήρια, τῷ δ' ἀποτρόπαια καὶ σκυθρωπά. πόαν γάρ τινα κόπτοντες ὄμωμι καλουμένην ἐν ὅλμῳ τὸν Ἅιδην ἀνακαλοῦνται καὶ τὸν σκότον, εἶτα μίξαντες αἵματι λύκου σφαγέντος εἰς τόπον ἀνήλιον ἐκφέρουσι καὶ ῥίπτουσι.) (Plutarco, *De Ísis e Osíris*, 369D–E).
+
+[^27]: Parece que não era um costume comum a todos os magos, mas restrito aos zoroastristas, conforme lemos neste relato: “E como alguém poderia acusar os egípcios de tamanha irracionalidade, quando contam por meio de suas investigações que os Pitagóricos também cultuavam o galo branco, e dentre os marinhos, especialmente a tainha vermelha e o mexilhão. De seu lado, os magos de Zoroastro honravam especialmente o ouriço terrestre, mas odiavam os ratos d’água e consideravam bem-aventurado quem matou a maior parte deles?” (καὶ τί ἄν τις Αἰγυπτίους αἰτιῷτο τῆς τοσαύτης ἀλογίας, ὅπου καὶ τοὺς Πυθαγορικοὺς ἱστοροῦσιν καὶ ἀλεκτρυόνα λευκὸν σέβεσθαι καὶ τῶν θαλαττίων μάλιστα τρίγλης καὶ ἀκαλήφης ἀπέχεσθαι, τοὺς δ' ἀπὸ Ζωροάστρου μάγους τιμᾶν μὲν ἐν τοῖς μάλιστα τὸν χερσαῖον ἐχῖνον, ἐχθαίρειν δὲ τοὺς ἐνύδρους μῦς καὶ τὸν ἀποκτείνοντα πλείστους θεοφιλῆ καὶ μακάριον νομίζειν;) (Plutarco, *Assuntos de banquete*, 670C–D).
+
+[^28]: Em outro tratado, Plutarco conta que: “Pois acreditam que, dentre as plantas, umas são próprias do deus bom, e outras, do dêmon mau; e dentre os animais, como cães, aves e ouriços da terra, são próprios do bom, enquanto o rato d’água é do mau; por isso também, eles consideram feliz quem mata uma grande quantidade deles.” (καὶ γὰρ τῶν φυτῶν νομίζουσι τὰ μὲν τοῦ ἀγαθοῦ θεοῦ, τὰ δὲ τοῦ κακοῦ δαίμονος εἶναι, καὶ τῶν ζῴων ὥσπερ κύνας καὶ ὄρνιθας καὶ χερσαίους ἐχίνους τοῦ ἀγαθοῦ, τοῦ δὲ φαύλου μῦς ἐνύδρους εἶναι· διὸ καὶ τὸν κτείναντα πλείστους εὐδαιμονίζουσιν.) (Plutarco, *De Ísis e Osíris*, 369E–F). Conforme o testemunho de Heródoto, os magos podiam matar diversas espécies de animais: “E os magos em muito se distinguem dos demais homens e dos sacerdotes do Egito; pois eles consideram um ato de pureza não matar nenhum ser vivo, a não ser os que são oferendas para sacrifícios. Os magos matam todos com suas próprias mãos, exceto cães e homens, igualmente formigas, cobras e demais rastejantes e voadores.” (Μάγοι δὲ κεχωρίδαται πολλὸν τῶν τε ἄλλων ἀνθρώπων καὶ τῶν ἐν Αἰγύπτῳ ἱρέων· οἱ μὲν γὰρ ἁγνεύουσι ἔμψυχον μηδὲν κτείνειν, εἰ μὴ ὅσα θύουσι· οἱ δὲ δὴ μάγοι αὐτοχειρίῃ πάντα πλὴν κυνὸς καὶ ἀνθρώπου κτείνουσι, καὶ ἀγώνισμα μέγα τοῦτο ποιεῦνται, κτείνοντες ὁμοίως μύρμηκάς τε καὶ ὄφις καὶ τἆλλα ἑρπετὰ καὶ πετεινά.) (Heródoto, *Histórias*, I.139–140).
+
+[^29]: É provável que Plutarco tenha repensado essa questão, uma vez que encontramos outro tratado em que escreveu sobre as paixões humanas também se manifestarem nos animais: “Mas como concordam que todas as paixões são, em geral, 'falsos julgamentos e opiniões', é estranho que não percebam nos animais ações e movimentos que denotam raiva ou do medo, por Zeus, até mesmo ciúme e inveja;” (τὰ δὲ πάθη σύμπαντα κοινῶς ‘κρίσεις φαύλας καὶ δόξας’ ὁμολογοῦντες εἶναι, θαυμαστὸν ὅτι δὴ παρορῶσιν ἐν τοῖς θηρίοις ἔργα καὶ κινήματα πολλὰ μὲν θυμῶν πολλὰ δὲ φόβων καὶ ναὶ μὰ Δία φθόνων καὶ ζηλοτυπιῶν) (Plutarco, *Se os terrestres ou os marinhos são os mais inteligentes dos animais*, 961D).
+
+[^30]: A despeito de Plutarco destacar a rivalidade entre animais predadores e suas presas, fora dessa cadeia alimentar é possível haver amizade entre os animais, dado que Aristóteles afirma que: “a amizade nasce naturalmente […] não somente entre os seres humanos, mas também entre as aves e a maioria dos animais” (φύσει τ' ἐνυπάρχειν […] οὐ μόνον ἐν ἀνθρώποις ἀλλὰ καὶ ἐν ὄρνισι καὶ τοῖς πλείστοις τῶν ζῴων) (Aristóteles, *Ética a Nicômaco*, 1155a17 e 20).
+
+[^31]: Uma espécie de pássaro.
+
+[^32]: Embora o tema inicial deste tratado remonte-nos ao pensamento aristotélico, como de costume, Plutarco também faz referência ao pensamento platônico. Assim, nesse parágrafo, o dito remete-nos ao diálogo *Filebo* em que Protarco concorda com seu mestre após Sócrates perguntar: “Portanto, alegrar-se com os males dos inimigos não é nem injusto nem sinal de inveja?” ({ΣΩ.} Οὐκοῦν ἐπὶ μὲν τοῖς τῶν ἐχθρῶν κακοῖς οὔτ' ἄδικον οὔτε φθονερόν ἐστι τὸ χαίρειν;) (Platão, *Filebo*, 49d).
+
+[^33]: χρηστός (*khrēstós*) também significa “cidadão útil”, que entendo ser a melhor compreensão para este termo, de onde a ideia de ser um “bom cidadão”.
+
+[^34]: Essa anedota é contada por Plutarco também na biografia de Licurgo. No entanto, há pequenas variações na grafia, o que demonstra que ele dispunha não apenas de anotações, mas ainda utilizava citações de memória. Nesta anedota, por exemplo, grafa Carilo (Χάριλλος), enquanto grafa Carilau (Χαρίλαος) na biografia do legislador espartano, conforme lemos a seguir: “Como Carilau seria um homem bom, que nem é severo com os malvados?” (“Πῶς δ' ἂν εἴη Χαρίλαος ἀνὴρ ἀγαθός, ὃς οὐδὲ τοῖς πονηροῖς χαλεπός ἐστι;”) (Plutarco, *Vida de Licurgo*, v. 5).
+
+[^35]: Homero, *Ilíada*, II, v. 220.
+
+[^36]: Plutarco escreveu um tratado intitulado *Como perceber o próprio progresso na virtude*.
+
+[^37]: Diógenes Laércio conta que os atenienses se arrependeram de condená-lo à morte. Como resposta a essa situação, os atenienses baniram Lisipo e seus acusadores, condenaram Meleto à morte e erigiram uma estátua em honra dele. (Diógenes Laércio, *Vidas e doutrinas dos filósofos ilustres*, II.43).
+
+[^38]: Ressaltamos que Plutarco dialoga com este pensamento aristotélico: “Quanto àqueles que pensam por si mesmos ou pelos outros que eles os deixem para trás ou que os superem em muito, do mesmo modo, tanto no que se refere aos outros como às coisas” (οὐδ' ὧν πολὺ οἴονται παρ' αὐτοῖς ἢ παρὰ τοῖς ἄλλοις λείπεσθαι, οὐδ' ὧν πολὺ ὑπερέχειν, ὡσαύτως καὶ πρὸς τούτους καὶ περὶ τὰ τοιαῦτα.) (Aristóteles, *Retórica*, 1382a12–14).
+
+[^39]: A ideia de “iluminada” é porque o Sol tudo ilumina e torna claro aos olhos humanos. Desse modo, a inveja quando “se retira iluminada”, revela que foi retirada da sombra e já pode ser vista por todos.
+
+[^40]: Em um relato que Plutarco afirma ter retirado “a maior parte dos fatos, palavra por palavra, do modo que estava escrito nas Efemérides.” (Τούτων τὰ πλεῖστα κατὰ λέξιν ἐν ταῖς ἐφημερίσιν οὕτως γέγραπται.), ele conta que ninguém havia suspeitado de envenenamento na morte de Alexandre, mas que cinco anos após sua morte, sua mãe Olímpia recebeu a denúncia de que o rei havia sido envenenado. Então, a rainha ordenou que os acusados fossem executados. A despeito desse registro, Plutarco afirma que “a maioria pensa que essa história do envenenamento foi forjada” (οἱ δὲ πλεῖστοι τὸν λόγον ὅλως οἴονται πεπλάσθαι τὸν περὶ τῆς φαρμακείας). (*Vida de Alexandre*, 77.1 e 5).
+
+[^41]: Tucídides, *História da guerra do Peloponeso*, I.42.3.
+
+[^42]: As duas paixões: inveja e ódio.
+
+[^43]: Pequena lacuna do manuscrito.
+
+[^44]: Sobre essa disposição, em outro tratado, Plutarco escreve: “Em primeiro lugar, portanto, parece-me que o que é mais prejudicial da inimizade pode se tornar o mais vantajoso para aqueles que se dedicam a isso. O que é isso então? O inimigo sempre está vigilante, põe-se à espreita das tuas ações, procura um pretexto de toda parte, patrulha a tua vida, não somente olhando através do carvalho, como Linceu, nem através das pedras e dos cacos, mas através do teu amigo, do teu escravo e de todo aquele que te for familiar; tanto quanto possível, está descobrindo as tuas ações e as que desejas, cavando-as e as procurando com cuidado.” (Πρῶτον μὲν οὖν δοκεῖ μοι τῆς ἔχθρας τὸ βλαβερώτατον ὠφελιμώτατον ἂν γενέσθαι τοῖς προσέχουσιν. τί δὲ τοῦτ' ἐστίν; ἐφεδρεύει σου τοῖς πράγμασιν ἐγρηγορὼς ὁ ἐχθρὸς ἀεὶ καὶ λαβὴν ζητῶν πανταχόθεν περιοδεύει τὸν βίον, οὐ διὰ δρυὸς μόνον ὁρῶν ὡς ὁ Λυγκεὺς οὐδὲ διὰ λίθων καὶ ὀστράκων, ἀλλὰ καὶ διὰ φίλου καὶ οἰκέτου καὶ διὰ συνήθους παντὸς ὡς ἀνυστόν ἐστι φωρῶν τὰ πραττόμενα καὶ τὰ βουλευόμενα διορύττων καὶ διερευνώμενος.) (Plutarco, *Como tirar proveito dos seus inimigos*, 87B–C).
+
+[^45]: A noção de oportunidade como ocasião para uma ação injusta já aparece em Aristóteles, que conclui: “pois sempre aguardam a oportunidade. Os injustos também, quando têm essa possibilidade, são medrosos, temem a antipatia.” (ἀεὶ γὰρ τηροῦσι καιρόν. καὶ οἱ ἠδικηκότες, ἂν δύναμιν ἔχωσι, φοβεροί, δεδιότες τὸ ἀντιπαθεῖν· ὑπέκειτο γὰρ τὸ τοιοῦτο φοβερόν.) (Aristóteles, *Retórica*, 11382b10–12).
+
+[^46]: Plutarco retoma duas falas centrais de Sócrates sobre o prazer de ver os amigos em situações infelizes que a inveja desperta, consultar: Platão, *Filebo*, 48b11 e 50a2–3.

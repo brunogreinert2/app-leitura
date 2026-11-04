@@ -22,6 +22,9 @@ status: draft
 project: pedra_angular
 related:
 - cicero-pro-marcello-en-yonge-1891
+- cicero-em-favor-de-marcelo-la-clark-1978
+- cicero-em-favor-de-marcelo-pt-lacerda-leite-2023
+- cicero-em-favor-de-marcelo-la-pt-lacerda-leite-2023
 reference_system: chapter-section
 scope: Sections as numbered in Clark's edition (Perseus TEI), cited by section ([1]); alongside, the chapters, which the TEI gives inside the sections, as [cap.N].
 urn_work: urn:cts:latinLit:phi0474.phi032
