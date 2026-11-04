@@ -9382,6 +9382,27 @@
       "autor": "Marcus Tullius Cicero",
       "arquivo": "FILOSOFIA/Latim/Filosofia_Republicana/Cicero/Pro_Milone/Cicero_Pro_Milone_la_Clark_1918.md",
       "sistema_referencia": "capitulo-secao"
+    },
+    {
+      "id": "cicero-philippicae-la-clark-1918",
+      "titulo": "Philippicae",
+      "autor": "Marcus Tullius Cicero",
+      "arquivo": "FILOSOFIA/Latim/Filosofia_Republicana/Cicero/Philippicae/Cicero_Philippicae_la_Clark_1918.md",
+      "sistema_referencia": "capitulo-secao"
+    },
+    {
+      "id": "cicero-pro-caelio-la-clark-1908",
+      "titulo": "Pro M. Caelio",
+      "autor": "Marcus Tullius Cicero",
+      "arquivo": "FILOSOFIA/Latim/Filosofia_Republicana/Cicero/Pro_Caelio/Cicero_Pro_Caelio_la_Clark_1908.md",
+      "sistema_referencia": "capitulo-secao"
+    },
+    {
+      "id": "cicero-pro-murena-la-clark-1908",
+      "titulo": "Pro L. Murena",
+      "autor": "Marcus Tullius Cicero",
+      "arquivo": "FILOSOFIA/Latim/Filosofia_Republicana/Cicero/Pro_Murena/Cicero_Pro_Murena_la_Clark_1908.md",
+      "sistema_referencia": "capitulo-secao"
     }
   ],
   "redirecionamentos": {
