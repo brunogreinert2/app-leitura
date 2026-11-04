@@ -452,6 +452,7 @@ cicero-academica-lat-latinlibrary-sd
 cicero-brutus-la-wilkins-1902
 cicero-de-amicitia-lat-latinlibrary-sd
 cicero-de-divinatione-lat-latinlibrary-sd
+cicero-de-domo-sua-en-yonge-1891
 cicero-de-domo-sua-la-peterson-1909
 cicero-de-fato-lat-latinlibrary-sd
 cicero-de-finibus-bonorum-et-malorum-lat-latinlibrary-sd
@@ -487,7 +488,9 @@ cicero-paradoxa-stoicorum-lat-latinlibrary-sd
 cicero-partitiones-oratoriae-la-wilkins-1902
 cicero-philippicae-en-yonge-1903
 cicero-philippicae-la-clark-1918
+cicero-post-reditum-ad-quirites-en-yonge-1856
 cicero-post-reditum-ad-quirites-la-peterson-1911
+cicero-post-reditum-in-senatu-en-yonge-1856
 cicero-post-reditum-in-senatu-la-peterson-1909
 cicero-pro-archia-en-yonge-1856
 cicero-pro-archia-la-clark-1911
