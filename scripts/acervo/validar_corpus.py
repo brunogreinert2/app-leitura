@@ -59,8 +59,12 @@ RE_FM = re.compile(r"\A---[ \t]*\r?\n(.*?)\r?\n---[ \t]*(?:\r?\n|\Z)", re.S)
 # Os códigos não se reaproveitam.
 REGRAS_LINHA = [
     # "null[ificamine]" e suplemento de editor em latim, nao vazamento; "null and
-    # void" e a expressao inglesa (Plutarco de Perrin, Leis de Bury)
-    ("C01-null", "erro", "literal null no texto", re.compile(r"\bnull\b(?!\[)(?!\s+and\s+void)")),
+    # void" e a expressao inglesa (Plutarco de Perrin, Leis de Bury). A palavra
+    # inglesa depois de outra palavra tambem e texto: "rendered null by a mistake"
+    # (Shuckburgh, cartas a Atico; Διαφορεύς, 2026-11-04). O vazamento e o null
+    # sozinho, no comeco da linha ou depois de sinal.
+    ("C01-null", "erro", "literal null no texto",
+     re.compile(r"(?<![A-Za-z] )\bnull\b(?!\[)(?!\s+and\s+void)")),
     # A marca de página `<!-- pa:pagina N -->` é a única marcação que passa
     # (Διαφορεύς, 2026-10-13): é o bilhete do extrator que o Conversor e o
     # Corretor escrevem, o Gerador desenha na margem e o rolo e o motor não
@@ -82,8 +86,12 @@ REGRAS_LINHA = [
     # O colchete escapado (`\[2] [2]`, 2026-10-23) é texto, não marcador: o
     # `(?<!(?<!\\)\\)` pula o `[` com UMA contrabarra antes (com duas, `\\[2]`, a
     # contrabarra é que está escapada e o colchete é marcador).
+    # Só conta o que começa por letra, número ou ^ (marcador ou chamada de nota):
+    # a lacuna «[…] […]» do tradutor é texto, não marcador (Yonge, Pro Roscio
+    # Amerino; Διαφορεύς, 2026-11-04).
     ("C08-marcador-duplo", "erro", "marcador canônico em dobro no mesmo ponto",
-     re.compile(r"(?<!(?<!\\)\\)\[(\d+)\]\s*\[\1[a-e]\]|(?<!(?<!\\)\\)(\[[^\]\s]{1,12}\])\s*\2")),
+     re.compile(r"(?<!(?<!\\)\\)\[(\d+)\]\s*\[\1[a-e]\]"
+                r"|(?<!(?<!\\)\\)(\[[0-9A-Za-z^][^\]\s]{0,11}\])\s*\2")),
     # "verse:Never", "investigation.Parmenides": no colado sem espaco (Proposta §5)
     ("C09-colagem", "aviso", "suspeita de texto colado sem espaço",
      re.compile(r"[a-z\u03b1-\u03c9]{3,}[.:;,][A-Z\u0391-\u03a9][a-z\u03b1-\u03c9]{2,}")),

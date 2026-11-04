@@ -16,6 +16,8 @@ processing: Prepared by Διαφορεύς with Codex (GPT-6) using the Pedra An
 related:
 - cicero-em-favor-de-marcelo-pt-lacerda-leite-2023
 - cicero-em-favor-de-marcelo-la-pt-lacerda-leite-2023
+- cicero-pro-marcello-la-clark-1918
+- cicero-pro-marcello-en-yonge-1891
 urn_work: urn:cts:latinLit:phi0474.phi032
 editor: Albert Curtis Clark
 urn: urn:cts:latinLit:phi0474.phi032.pa-lat1
