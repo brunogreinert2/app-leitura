@@ -456,6 +456,7 @@ cicero-de-domo-sua-en-yonge-1891
 cicero-de-domo-sua-la-peterson-1909
 cicero-de-fato-lat-latinlibrary-sd
 cicero-de-finibus-bonorum-et-malorum-lat-latinlibrary-sd
+cicero-de-haruspicum-responso-en-yonge-1891
 cicero-de-haruspicum-responso-la-peterson-1909
 cicero-de-imperio-cn-pompei-en-yonge-1856
 cicero-de-imperio-cn-pompei-la-clark-1908
@@ -480,6 +481,7 @@ cicero-epistulae-ad-quintum-fratrem-la-purser-1903
 cicero-in-catilinam-en-yonge-1856
 cicero-in-catilinam-la-clark-1908
 cicero-in-pisonem-la-clark-1909
+cicero-in-vatinium-en-yonge-1891
 cicero-in-vatinium-la-peterson-1909
 cicero-in-verrem-en-yonge-1856
 cicero-in-verrem-la-peterson-1917
@@ -517,6 +519,7 @@ cicero-pro-rege-deiotaro-la-clark-1918
 cicero-pro-roscio-amerino-la-clark-1908
 cicero-pro-roscio-comoedo-en-yonge-1856
 cicero-pro-roscio-comoedo-la-clark-1909
+cicero-pro-sestio-en-yonge-1891
 cicero-pro-sestio-la-peterson-1909
 cicero-pro-sulla-en-yonge-1856
 cicero-pro-sulla-la-clark-1911
