@@ -9634,6 +9634,55 @@
       "autor": "Marcus Tullius Cicero",
       "arquivo": "FILOSOFIA/Latim/Filosofia_Republicana/Cicero/Epistulae_ad_Atticum/Cicero_Epistulae_ad_Atticum_la_Purser_1903.md",
       "sistema_referencia": "capitulo-secao"
+    },
+    {
+      "id": "cicero-de-imperio-cn-pompei-en-yonge-1856",
+      "titulo": "On the Command of Gnaeus Pompey",
+      "autor": "Marcus Tullius Cicero",
+      "arquivo": "FILOSOFIA/Ingles/Filosofia_Republicana/Cicero/De_Imperio_Cn_Pompei/Cicero_De_Imperio_Cn_Pompei_en_Yonge_1856.md",
+      "sistema_referencia": "capitulo-secao"
+    },
+    {
+      "id": "cicero-in-verrem-en-yonge-1856",
+      "titulo": "Against Verres",
+      "autor": "Marcus Tullius Cicero",
+      "arquivo": "FILOSOFIA/Ingles/Filosofia_Republicana/Cicero/In_Verrem/Cicero_In_Verrem_en_Yonge_1856.md",
+      "sistema_referencia": "capitulo-secao"
+    },
+    {
+      "id": "cicero-philippicae-en-yonge-1903",
+      "titulo": "Philippics",
+      "autor": "Marcus Tullius Cicero",
+      "arquivo": "FILOSOFIA/Ingles/Filosofia_Republicana/Cicero/Philippicae/Cicero_Philippicae_en_Yonge_1903.md",
+      "sistema_referencia": "capitulo-secao"
+    },
+    {
+      "id": "cicero-pro-caecina-en-yonge-1856",
+      "titulo": "For Aulus Caecina",
+      "autor": "Marcus Tullius Cicero",
+      "arquivo": "FILOSOFIA/Ingles/Filosofia_Republicana/Cicero/Pro_Caecina/Cicero_Pro_Caecina_en_Yonge_1856.md",
+      "sistema_referencia": "capitulo-secao"
+    },
+    {
+      "id": "cicero-pro-cluentio-en-yonge-1856",
+      "titulo": "For Aulus Cluentius",
+      "autor": "Marcus Tullius Cicero",
+      "arquivo": "FILOSOFIA/Ingles/Filosofia_Republicana/Cicero/Pro_Cluentio/Cicero_Pro_Cluentio_en_Yonge_1856.md",
+      "sistema_referencia": "capitulo-secao"
+    },
+    {
+      "id": "cicero-pro-fonteio-en-yonge-1856",
+      "titulo": "For Marcus Fonteius",
+      "autor": "Marcus Tullius Cicero",
+      "arquivo": "FILOSOFIA/Ingles/Filosofia_Republicana/Cicero/Pro_Fonteio/Cicero_Pro_Fonteio_en_Yonge_1856.md",
+      "sistema_referencia": "capitulo-secao"
+    },
+    {
+      "id": "cicero-pro-tullio-en-yonge-1856",
+      "titulo": "For Marcus Tullius",
+      "autor": "Marcus Tullius Cicero",
+      "arquivo": "FILOSOFIA/Ingles/Filosofia_Republicana/Cicero/Pro_Tullio/Cicero_Pro_Tullio_en_Yonge_1856.md",
+      "sistema_referencia": "capitulo-secao"
     }
   ],
   "redirecionamentos": {

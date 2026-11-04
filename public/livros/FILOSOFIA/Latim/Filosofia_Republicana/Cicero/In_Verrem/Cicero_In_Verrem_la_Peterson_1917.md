@@ -20,6 +20,8 @@ tags:
 - century-1-bce
 status: draft
 project: pedra_angular
+related:
+- cicero-in-verrem-en-yonge-1856
 reference_system: chapter-section
 scope: Sections as numbered in Peterson's edition (Perseus TEI), cited actio.book.section ([2.2.1]); alongside, the chapters, which the TEI gives inside the sections, as [cap.N], restarting with each actio and book ([cap.2.3]).
 urn_work: urn:cts:latinLit:phi0474.phi005
