@@ -38,9 +38,9 @@ processing: Saneamento/obra_nova_tei.py and conversor_tei.py (profile divs-capit
 
 ## THE FRAGMENTS WHICH REMAIN OF THE SPEECH OF M. T. CICERO ON BEHALF OF MARCUS TULLIUS
 
-[^1]
-
 #### THE ARGUMENT
+
+[^1]
 
 Marcus Tullius had a farm, and a man of the name of Publius Fabius had bought another farm bordering on it. On the farm of Tullius there was a large field which Fabius coveted greatly, and as he could not obtain it by bargain, or by any legal process, (though he does seem to have tried this latter expedient,) he arms a gang of slaves, and sends them to take possession of the land, they murder Tullius's slaves, and demolish and burn the villa which he had there. After all this, Tullius prosecutes Fabius for the damage done. So that, as it seems, this speech ought rather to be called a speech against Publius Fabius than a speech on behalf of Marcus Tullius.
 
