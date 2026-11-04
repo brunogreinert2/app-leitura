@@ -476,9 +476,11 @@ cicero-de-senectute-lat-latinlibrary-sd
 cicero-divinatio-in-caecilium-en-yonge-1856
 cicero-divinatio-in-caecilium-la-peterson-1917
 cicero-epistulae-ad-atticum-la-purser-1903
+cicero-epistulae-ad-brutum-en-shuckburgh-1908
 cicero-epistulae-ad-brutum-la-purser-1903
 cicero-epistulae-ad-familiares-en-shuckburgh-1908
 cicero-epistulae-ad-familiares-la-purser-1901
+cicero-epistulae-ad-quintum-fratrem-en-shuckburgh-1908
 cicero-epistulae-ad-quintum-fratrem-la-purser-1903
 cicero-in-catilinam-en-yonge-1856
 cicero-in-catilinam-la-clark-1908

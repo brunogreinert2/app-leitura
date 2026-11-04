@@ -19,6 +19,8 @@ tags:
 - century-1-bce
 status: draft
 project: pedra_angular
+related:
+- cicero-epistulae-ad-quintum-fratrem-en-shuckburgh-1908
 reference_system: chapter-section
 scope: Sections as numbered in Purser's edition (Perseus TEI), cited book.letter.section ([2.2.1]); alongside, the chapters, which the TEI gives inside the sections, as [cap.N], restarting with each book and letter ([cap.2.3]).
 urn_work: urn:cts:latinLit:phi0474.phi058
