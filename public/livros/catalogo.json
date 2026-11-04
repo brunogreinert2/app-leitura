@@ -9809,6 +9809,27 @@
       "autor": "Marcus Tullius Cicero",
       "arquivo": "FILOSOFIA/Ingles/Filosofia_Republicana/Cicero/Pro_Caelio/Cicero_Pro_Caelio_en_Yonge_1891.md",
       "sistema_referencia": "capitulo-secao"
+    },
+    {
+      "id": "cicero-in-pisonem-en-yonge-1891",
+      "titulo": "Against Lucius Calpurnius Piso",
+      "autor": "Marcus Tullius Cicero",
+      "arquivo": "FILOSOFIA/Ingles/Filosofia_Republicana/Cicero/In_Pisonem/Cicero_In_Pisonem_en_Yonge_1891.md",
+      "sistema_referencia": "capitulo-secao"
+    },
+    {
+      "id": "cicero-pro-plancio-en-yonge-1891",
+      "titulo": "For Gnaeus Plancius",
+      "autor": "Marcus Tullius Cicero",
+      "arquivo": "FILOSOFIA/Ingles/Filosofia_Republicana/Cicero/Pro_Plancio/Cicero_Pro_Plancio_en_Yonge_1891.md",
+      "sistema_referencia": "capitulo-secao"
+    },
+    {
+      "id": "cicero-pro-rabirio-postumo-en-yonge-1891",
+      "titulo": "For Gaius Rabirius Postumus",
+      "autor": "Marcus Tullius Cicero",
+      "arquivo": "FILOSOFIA/Ingles/Filosofia_Republicana/Cicero/Pro_Rabirio_Postumo/Cicero_Pro_Rabirio_Postumo_en_Yonge_1891.md",
+      "sistema_referencia": "capitulo-secao"
     }
   ],
   "redirecionamentos": {

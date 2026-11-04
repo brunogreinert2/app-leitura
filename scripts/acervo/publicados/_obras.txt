@@ -481,6 +481,7 @@ cicero-epistulae-ad-familiares-la-purser-1901
 cicero-epistulae-ad-quintum-fratrem-la-purser-1903
 cicero-in-catilinam-en-yonge-1856
 cicero-in-catilinam-la-clark-1908
+cicero-in-pisonem-en-yonge-1891
 cicero-in-pisonem-la-clark-1909
 cicero-in-vatinium-en-yonge-1891
 cicero-in-vatinium-la-peterson-1909
@@ -512,11 +513,13 @@ cicero-pro-marcello-la-clark-1918
 cicero-pro-milone-la-clark-1918
 cicero-pro-murena-en-yonge-1856
 cicero-pro-murena-la-clark-1908
+cicero-pro-plancio-en-yonge-1891
 cicero-pro-plancio-la-clark-1911
 cicero-pro-quinctio-en-yonge-1856
 cicero-pro-quinctio-la-clark-1909
 cicero-pro-rabirio-perduellionis-reo-en-yonge-1856
 cicero-pro-rabirio-perduellionis-reo-la-clark-1909
+cicero-pro-rabirio-postumo-en-yonge-1891
 cicero-pro-rabirio-postumo-la-clark-1909
 cicero-pro-rege-deiotaro-la-clark-1918
 cicero-pro-roscio-amerino-la-clark-1908
