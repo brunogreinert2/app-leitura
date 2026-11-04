@@ -9683,6 +9683,27 @@
       "autor": "Marcus Tullius Cicero",
       "arquivo": "FILOSOFIA/Ingles/Filosofia_Republicana/Cicero/Pro_Tullio/Cicero_Pro_Tullio_en_Yonge_1856.md",
       "sistema_referencia": "capitulo-secao"
+    },
+    {
+      "id": "cicero-divinatio-in-caecilium-en-yonge-1856",
+      "titulo": "Against Quintus Caecilius",
+      "autor": "Marcus Tullius Cicero",
+      "arquivo": "FILOSOFIA/Ingles/Filosofia_Republicana/Cicero/Divinatio_in_Caecilium/Cicero_Divinatio_in_Caecilium_en_Yonge_1856.md",
+      "sistema_referencia": "capitulo-secao"
+    },
+    {
+      "id": "cicero-pro-quinctio-en-yonge-1856",
+      "titulo": "For Publius Quinctius",
+      "autor": "Marcus Tullius Cicero",
+      "arquivo": "FILOSOFIA/Ingles/Filosofia_Republicana/Cicero/Pro_Quinctio/Cicero_Pro_Quinctio_en_Yonge_1856.md",
+      "sistema_referencia": "capitulo-secao"
+    },
+    {
+      "id": "cicero-pro-roscio-comoedo-en-yonge-1856",
+      "titulo": "For Quintus Roscius the Actor",
+      "autor": "Marcus Tullius Cicero",
+      "arquivo": "FILOSOFIA/Ingles/Filosofia_Republicana/Cicero/Pro_Roscio_Comoedo/Cicero_Pro_Roscio_Comoedo_en_Yonge_1856.md",
+      "sistema_referencia": "capitulo-secao"
     }
   ],
   "redirecionamentos": {

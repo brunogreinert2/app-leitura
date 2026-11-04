@@ -469,6 +469,7 @@ cicero-de-provinciis-consularibus-la-peterson-1909
 cicero-de-re-publica-lat-latinlibrary-sd
 cicero-de-re-publica-pt-anonimo-sd
 cicero-de-senectute-lat-latinlibrary-sd
+cicero-divinatio-in-caecilium-en-yonge-1856
 cicero-divinatio-in-caecilium-la-peterson-1917
 cicero-epistulae-ad-atticum-la-purser-1903
 cicero-epistulae-ad-brutum-la-purser-1903
@@ -500,11 +501,13 @@ cicero-pro-marcello-la-clark-1918
 cicero-pro-milone-la-clark-1918
 cicero-pro-murena-la-clark-1908
 cicero-pro-plancio-la-clark-1911
+cicero-pro-quinctio-en-yonge-1856
 cicero-pro-quinctio-la-clark-1909
 cicero-pro-rabirio-perduellionis-reo-la-clark-1909
 cicero-pro-rabirio-postumo-la-clark-1909
 cicero-pro-rege-deiotaro-la-clark-1918
 cicero-pro-roscio-amerino-la-clark-1908
+cicero-pro-roscio-comoedo-en-yonge-1856
 cicero-pro-roscio-comoedo-la-clark-1909
 cicero-pro-sestio-la-peterson-1909
 cicero-pro-sulla-la-clark-1911
