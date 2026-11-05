@@ -13,21 +13,19 @@ license: CC-BY-SA-4.0
 
 Este é um leitor de textos clássicos feito para funcionar sem internet, sem conta, sem anúncio e sem rastrear ninguém. O acervo vem junto com o app: uma vez instalado, os livros estão no aparelho.
 
-Ele foi feito por um óptico que não enxerga cores como a maioria das pessoas, para um pai idoso com baixa visão e para dois filhos pequenos. Cada ajuste aqui nasceu de alguém real não conseguindo ler alguma coisa.
+Ele foi feito por um técnico em óptica que estuda Filosofia. Os ajustes abaixo vêm do balcão: de gente que afastava o papel, apertava os olhos ou via a letra dobrada.
 
 # Qual ajuste é melhor para mim
 
-Esta é a parte mais útil desta página.
-
 Nenhuma condição de visão tem uma receita única, e o que segue são **pontos de partida**, não prescrição. O certo é o que você achar confortável depois de experimentar — e experimentar é barato: nada aqui é permanente e nada estraga o texto.
 
-Todos os ajustes ficam no botão **Ξ**, em **APARÊNCIA**.
+Todos os ajustes ficam no botão **Ξ**, em **APARÊNCIA**. O tamanho da letra fica à mão, nos botões **+** e **−** da barra de cima.
 
 ## Se você tem baixa visão
 
-O corpo da letra não tem teto tímido: dá para chegar a uma ou duas palavras por tela, se for isso que ajuda.
+A letra cresce sem teto: dá para chegar a uma ou duas palavras por tela, se for isso que ajuda.
 
-- **Corpo da letra**: aumente com o **+** da barra de cima até a linha ficar confortável, sem medo do exagero
+- **Tamanho da letra**: aumente com o **+** até a linha ficar confortável, sem medo do exagero
 - **Cores**: comece por *Preto sobre branco* ou *Branco sobre preto* — são os dois de contraste máximo
 - **Peso da letra**: Grossa
 - **Espaço entre linhas**: Ampla
@@ -36,17 +34,17 @@ Se o branco parecer forte demais, *Amarelo sobre preto* costuma ser o próximo a
 
 ## Se você tem presbiopia (a "vista cansada")
 
-É a dificuldade de focar de perto que aparece a partir dos quarenta e poucos. O texto está nítido, mas exige distância.
+É a dificuldade de focar de perto que aparece a partir dos quarenta e poucos. A letra até fica nítida, mas só de longe — o braço parece ter ficado curto.
 
-- **Corpo da letra**: um ou dois toques no **+** da barra de cima costumam bastar
+- **Tamanho da letra**: um ou dois toques no **+** costumam bastar
 - **Cores**: *Sépia* cansa menos em leitura longa que o branco puro
 - **Peso da letra**: Média
 
 ## Se você é míope
 
-A vista de perto costuma ser excelente. Muita gente míope lê melhor com letra pequena e o aparelho próximo do rosto — e quer é caber mais texto na tela.
+Sem os óculos, a vista de perto costuma ser excelente. Muita gente míope prefere ler sem eles, com letra pequena e o aparelho perto do rosto — e quer é caber mais texto na tela.
 
-- **Corpo da letra**: diminua com o **−** da barra de cima à vontade
+- **Tamanho da letra**: diminua com o **−** à vontade
 - **Espaço entre linhas**: Mínima
 - **Peso da letra**: Fina
 
@@ -88,7 +86,7 @@ Vale a honestidade: a evidência científica de ganho objetivo de velocidade com
 
 # O que este app não faz
 
-Ele não examina, não diagnostica e não substitui consulta. Se ler ficou difícil e você não sabe por quê, isso é assunto para um oftalmologista — e vale principalmente quando a dificuldade apareceu de repente.
+Ele não examina, não diagnostica e não substitui consulta. Se ler ficou difícil e você não sabe por quê, isso é assunto para um oftalmologista — e não espere se a dificuldade apareceu de repente, mesmo que num olho só.
 
 O que ele faz é não atrapalhar: quem já sabe o que precisa encontra os ajustes, e quem não sabe tem por onde começar.
 
@@ -96,16 +94,18 @@ O que ele faz é não atrapalhar: quem já sabe o que precisa encontra os ajuste
 
 Não é opinião de quem desenhou.
 
-O contraste de cada esquema de cores é **medido por um programa** que lê as cores do arquivo publicado — não de uma cópia digitada — e calcula. Todos passam em 7:1, que é o nível mais alto da norma internacional de acessibilidade, e não o 4,5:1 que a maioria dos sites usa.
+O contraste de cada esquema de cores é **medido por um programa** que lê as cores do arquivo publicado — não de uma cópia digitada — e calcula. Os nove esquemas passam em 7:1, o nível mais alto da WCAG, a norma internacional de acessibilidade — e não só nos 4,5:1 do nível comum.
 
 O mesmo programa simula as três formas de daltonismo e mede se duas cores continuam distinguíveis entre si, e não só contra o fundo. Foi assim que se descobriu que o amarelo do destaque de busca colapsava com o outro destaque sob tritanopia. Trocado por laranja.
-
-As fontes foram escolhidas contando os caracteres de cada arquivo, não lendo a documentação. Foi assim que se descobriu que a fonte então usada no livro do alfabeto grego **não tinha nenhuma letra grega**: justamente as letras que o livro existe para ensinar apareciam numa fonte qualquer do aparelho.
 
 # Sobre o acervo
 
 Os textos são de domínio público ou de tradução própria do projeto. Cada arquivo declara autor, idioma de origem, tradutor, licença e procedência.
 
-O corpus é poliglota — grego antigo, hebraico, latim, português e inglês — e nada é traduzido na tela: cada obra fica no idioma em que foi escrita. Tradução, aqui, é obra nova com endereço próprio.
+O corpus é poliglota — grego antigo, hebraico, latim, português, inglês e mais — e nada é traduzido na tela: cada obra fica no idioma em que foi escrita. Tradução, aqui, é obra nova com endereço próprio.
 
-O app não pede conta, não mostra anúncio e não rastreia ninguém. Ele só conta visitas, de forma anônima: quantas vezes foi aberto e quais obras foram abertas — sem cookies, sem guardar o endereço do seu aparelho, sem saber quem você é. Os números ficam à vista de todos, no [painel público](https://pedraangular.goatcounter.com). Se o seu navegador pede para não ser rastreado, o app nem conta; e quem preferir ficar de fora da conta abre uma vez `pedraangular.app.br/?contar=nao` no aparelho. É você e o texto.
+# O que o app sabe de você
+
+Quase nada. Ele não pede conta, não mostra anúncio e não segue ninguém. Só conta visitas, de forma anônima: quantas vezes foi aberto e quais obras foram abertas — sem cookies, sem guardar o endereço do seu aparelho, sem saber quem você é. Os números ficam à vista de todos, no [painel público](https://pedraangular.goatcounter.com). Se o seu navegador pede para não ser rastreado, o app nem conta; e quem preferir ficar de fora da conta abre uma vez `pedraangular.app.br/?contar=nao` no aparelho.
+
+No mais, é você e o texto.
