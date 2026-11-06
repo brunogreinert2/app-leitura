@@ -267,6 +267,8 @@ const PT = {
   // — voz —
   'voz.ouvir': 'Leitura em voz alta',
   'voz.parar': 'Parar leitura',
+  'voz.silencioso':
+    '🔇 Sem som? Confira se o aparelho não está no modo silencioso (chave ou botão de ação, na lateral).',
 
   // — arquivos do usuário —
   'soltar.titulo': 'Solte para adicionar a Meus arquivos',
@@ -602,6 +604,7 @@ const EN: Record<Chave, string> = {
 
   'voz.ouvir': 'Read aloud',
   'voz.parar': 'Stop reading',
+  'voz.silencioso': '🔇 No sound? Check that the device is not in silent mode (switch or Action button, on the side).',
 
   'soltar.titulo': 'Drop to add to My files',
   'soltar.formatos': 'Accepts .md and .txt',

@@ -30,6 +30,28 @@ interface Props {
 
 type Status = 'idle' | 'speaking' | 'paused'
 
+/** iPhone, iPad e iPod — o iPad novo se apresenta como Mac, mas tem toque. */
+function ehAparelhoApple(): boolean {
+  const ua = navigator.userAgent
+  return /iPad|iPhone|iPod/.test(ua) || (/Macintosh/.test(ua) && navigator.maxTouchPoints > 1)
+}
+
+/**
+ * A sessão de áudio do Safari (iOS 17+), quando existe.
+ *
+ * 'playback' é o tipo "mídia": em tese é o que faz o som sair com a chave de
+ * silencioso ligada e ir para a caixa Bluetooth pelo caminho de música (A2DP),
+ * e não pelo de ligação (HFP). Visto na SAFIL 2026: no iPhone em silencioso a
+ * leitura não tocava nada. NÃO CONFIRMADO para a voz sintética — a documentação
+ * fala de áudio em geral, e speechSynthesis pode seguir outra regra. Por isso o
+ * aviso de silencioso continua aparecendo, até o teste num iPhone de verdade
+ * dizer se ele já pode sair. Onde a API não existe (todo o resto), nada muda.
+ */
+type SessaoDeAudio = { type: string }
+function sessaoDeAudio(): SessaoDeAudio | null {
+  return (navigator as unknown as { audioSession?: SessaoDeAudio }).audioSession ?? null
+}
+
 interface SpeechItem {
   /** Escrita do trecho — decide a VOZ. Ver lib/idioma.ts. */
   escrita: Escrita
@@ -147,6 +169,16 @@ export function TtsControl({ bodyRef, escritaPadrao }: Props) {
     speechSynthesis.cancel()
     clearHighlight()
     setStatus('idle')
+    // Devolve o aparelho ao comportamento normal: fora da leitura, a página
+    // não tem por que reter o áudio como mídia.
+    const sessao = sessaoDeAudio()
+    if (sessao) {
+      try {
+        sessao.type = 'auto'
+      } catch {
+        /* tipo recusado: fica como estava */
+      }
+    }
   }
 
   // Livro trocou / componente saiu: silêncio
@@ -228,7 +260,19 @@ export function TtsControl({ bodyRef, escritaPadrao }: Props) {
     speechSynthesis.cancel()
     stoppedRef.current = false
     avisadosRef.current.clear()
-    setAviso('')
+    const sessao = sessaoDeAudio()
+    if (sessao) {
+      try {
+        sessao.type = 'playback'
+      } catch {
+        /* tipo recusado: segue sem */
+      }
+    }
+    /* Uma página não consegue saber se a chave de silencioso do iPhone está
+       ligada — e com ela ligada a leitura pode não tocar nada, sem erro
+       nenhum. Quem aperta Ouvir e não ouve acha que o app quebrou. O aviso
+       diz onde olhar: ícone e palavra, nunca só cor. */
+    setAviso(ehAparelhoApple() ? t('voz.silencioso') : '')
     queueRef.current = collectItems(bodyRef.current, escritaPadrao)
     indexRef.current = 0
     if (!queueRef.current.length) return

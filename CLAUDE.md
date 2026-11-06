@@ -143,6 +143,36 @@ Os ◐ são pendentes conhecidos, cada um com o motivo no próprio caso.
   a tradição tiver (`[1.1.1]`). Mexeu num, mexa no outro.
 - Plano e decisões: `C:\Claude\Saneamento\` (Proposta, FASE0_NORMAS, CONTINUAR_AQUI).
 
+## Botões flutuantes e painéis fixos (SAFIL 2026)
+
+- **Nada fixo no canto de um painel fixado.** O botão de voz (`.tts`) mora no
+  canto direito, que é o canto do Sumário fixado (camada 40 contra 25): com o
+  Sumário fixado ele anda para a beira do texto (`body[data-fixo-dir] .tts`).
+  Visto ao vivo na SAFIL 2026: o botão estava lá, por baixo do painel.
+- **Dois painéis só onde cabem dois** (70rem). O alfinete já impedia; o estado
+  guardado não: fixados num monitor largo e abertos numa janela menor, os dois
+  apareciam e a barra transbordava (o Ξ ia para baixo do Sumário). Agora, onde
+  só cabe um, o Sumário fica e a Biblioteca cede, sem perder o alfinete.
+- **Conferência**: em 375, 768, 820, 1024, 1130 e 1440 px, letra padrão e 48 px,
+  com os dois painéis guardados como fixados, Φ · A− · A+ · Ξ e o botão de voz
+  respondem ao clique (`elementFromPoint` no centro de cada um) e a página não
+  rola para o lado. Mexeu em painel, barra ou botão flutuante: refaça.
+
+## Leitura em voz alta no iPhone (decidido em 2026-11-06)
+
+- Uma página não sabe se a chave de silencioso do iPhone está ligada, e com ela
+  ligada a leitura pode não tocar nada, sem erro. **Decisão:** em iPhone/iPad,
+  ao tocar Ouvir, o painel de voz mostra "🔇 Sem som? Confira se o aparelho não
+  está no modo silencioso" (ícone e palavra, nunca só cor).
+- Onde existe `navigator.audioSession` (Safari 17+), a leitura pede o tipo
+  `playback` ao começar e devolve `auto` ao parar. Em tese isso faz tocar no
+  silencioso e manda o som à caixa Bluetooth pelo caminho de música (A2DP), não
+  pelo de ligação (HFP). **Falta confirmar num iPhone de verdade** se vale para
+  a voz sintética (`speechSynthesis`): se valer, o aviso pode sair; se não,
+  fica e isto vira limitação registrada do iOS.
+- O app não usa microfone (`getUserMedia`) em lugar nenhum: essa causa do
+  "som de telefone" no Bluetooth está descartada.
+
 ## Documentos
 
 - `docs/SPEC.md` — especificação consolidada (fonte: briefs do vault + decisões de 2026-07-02)
