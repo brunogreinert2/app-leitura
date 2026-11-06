@@ -348,6 +348,7 @@ const PT = {
   'pasta.HEBRAICO': 'Hebraico',
   'pasta.ARAMAICO': 'Aramaico',
   'pasta.ARABE': 'Árabe',
+  'pasta.FRANCES': 'Francês',
   // — escola e categoria (terceiro nível) —
   'pasta.ARISTOTELISMO': 'Aristotelismo',
   'pasta.BIOGRAFIA E DOXOGRAFIA': 'Biografia e Doxografia',
@@ -372,6 +373,7 @@ const PT = {
   'pasta.INTERLINEARES GREGO': 'Interlineares Grego',
   'pasta.INTERLINEARES HEBRAICO': 'Interlineares Hebraico',
   'pasta.INTERLINEARES LATIM': 'Interlineares Latim',
+  'pasta.INTERLINEARES FRANCES': 'Interlineares Francês',
   'pasta.ANTIGO TESTAMENTO GREGO': 'Antigo Testamento Grego',
   'pasta.NOVO TESTAMENTO GREGO': 'Novo Testamento Grego',
 
@@ -676,6 +678,7 @@ const EN: Record<Chave, string> = {
   'pasta.HEBRAICO': 'Hebrew',
   'pasta.ARAMAICO': 'Aramaic',
   'pasta.ARABE': 'Arabic',
+  'pasta.FRANCES': 'French',
   // — escola e categoria (terceiro nível) —
   'pasta.ARISTOTELISMO': 'Aristotelianism',
   'pasta.BIOGRAFIA E DOXOGRAFIA': 'Biography and Doxography',
@@ -700,6 +703,7 @@ const EN: Record<Chave, string> = {
   'pasta.INTERLINEARES GREGO': 'Greek Interlinears',
   'pasta.INTERLINEARES HEBRAICO': 'Hebrew Interlinears',
   'pasta.INTERLINEARES LATIM': 'Latin Interlinears',
+  'pasta.INTERLINEARES FRANCES': 'French Interlinears',
   'pasta.ANTIGO TESTAMENTO GREGO': 'Greek Old Testament',
   'pasta.NOVO TESTAMENTO GREGO': 'Greek New Testament',
 

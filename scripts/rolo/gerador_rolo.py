@@ -63,6 +63,7 @@ ETIQUETAS_IDIOMA = {
     "arc": "arc",
     "rus": "ru", "ru": "ru",
     "deu": "de", "ger": "de", "de": "de",
+    "fra": "fr", "fre": "fr", "fr": "fr",
 }
 RX_ETIQUETA_IDIOMA = re.compile(r"\s*\^([A-Za-z-]{2,6})\s*$")
 
@@ -1395,6 +1396,7 @@ ROTULO_EN = {
     "Hebraico": "Hebrew",
     "Aramaico": "Aramaic",
     "Arabe": "Arabic",
+    "Frances": "French",
     # escola e categoria (terceiro nível): substantivos comuns, traduzem limpo
     "Aristotelismo": "Aristotelianism",
     "Biografia e Doxografia": "Biography and Doxography",
@@ -1420,6 +1422,7 @@ ROTULO_EN = {
     "Interlineares Grego": "Greek Interlinears",
     "Interlineares Hebraico": "Hebrew Interlinears",
     "Interlineares Latim": "Latin Interlinears",
+    "Interlineares Frances": "French Interlinears",
     "Antigo Testamento Grego": "Greek Old Testament",
     "Novo Testamento Grego": "Greek New Testament",
     # NAO ENTRAM AQUI as edicoes -- Almeida 1911, Vulgata Clementina,
