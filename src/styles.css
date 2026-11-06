@@ -1239,6 +1239,16 @@ button {
     padding-right: min(20rem, 85vw);
   }
 
+  /* O BOTÃO DE VOZ mora no canto direito — o mesmo canto do Sumário fixado,
+     que fica numa camada acima dele (40 contra 25). Visto ao vivo na SAFIL
+     2026: com os painéis fixados, o botão estava lá, mas debaixo do Sumário.
+     Ele não sobe de camada (aí cobriria a lista do Sumário); muda de lugar,
+     para a beira do texto: largura do painel + filete duplo (7px) + a margem
+     de sempre. */
+  body[data-fixo-dir='1'] .tts {
+    right: calc(min(20rem, 85vw) + 7px + 1rem);
+  }
+
   /* O editor cobre a tela inteira, e por isso não herda o padding do body:
      com o sumário fixado, é ele mesmo que cede a faixa da direita. */
   .editor-sumario-fixo {
@@ -1880,6 +1890,12 @@ button {
    nome de tag, sem enumerar h1..h6. */
 .section-heading > *:last-child {
   flex: 1;
+  /* Sem isto o título não encolhe abaixo da sua MAIOR PALAVRA: item de flex
+     tem largura mínima = conteúdo. Com letra de 48px num celular, "Metafísica"
+     sozinha passava da tela e a página ganhava rolagem para o lado (medido:
+     461px numa tela de 375). Com 0, vale a regra da prosa: a palavra hifeniza
+     ou quebra, e nunca estoura a tela. */
+  min-width: 0;
   display: block;
   /* Proporcional a --reading-font-size (não rem fixo): senão o título
      fica surdo ao A+/A- e ao pinça de zoom — só o corpo do texto cresce. */

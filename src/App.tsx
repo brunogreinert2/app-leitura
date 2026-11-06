@@ -164,7 +164,16 @@ export function App() {
     }
     alternarFixo(qual)
   }
-  const bibliotecaFixa = telaLarga && fixos.biblioteca
+  /* OS DOIS FIXADOS ONDE SÓ CABE UM. O alfinete já não deixa chegar a isso,
+     mas o estado guardado chega: fixados num monitor largo, abertos depois
+     numa janela menor (o projetor da sala, na SAFIL 2026), os dois painéis
+     apareciam e a coluna do meio ficava estreita demais para a própria barra
+     — o Ξ transbordava para baixo do Sumário. Aqui o Sumário fica e a
+     Biblioteca cede, SEM esquecer que estava fixada: a janela alargou, os
+     dois voltam. Fica o Sumário porque ele é do texto aberto; a Biblioteca é
+     para trocar de texto e abre num toque no Φ. */
+  const bibliotecaCede = !cabemDois && fixos.sumario
+  const bibliotecaFixa = telaLarga && fixos.biblioteca && !bibliotecaCede
   const sumarioFixo = telaLarga && fixos.sumario
   const [acervoDetailsOpen, setAcervoDetailsOpen] = useState(false)
   // Alvo do link permanente com que o app foi aberto (consumido 1x)
@@ -212,6 +221,13 @@ export function App() {
   useEffect(() => {
     if (bibliotecaFixa) setLibraryOpen(true)
   }, [bibliotecaFixa])
+
+  // Cedeu por falta de espaço: fecha, em vez de virar sobreposição aberta
+  // por cima do texto que a pessoa estava lendo.
+  const bibliotecaCedeuAgora = telaLarga && fixos.biblioteca && bibliotecaCede
+  useEffect(() => {
+    if (bibliotecaCedeuAgora) setLibraryOpen(false)
+  }, [bibliotecaCedeuAgora])
 
   // Compartilhado de outro app (ex.: chat de IA): salva como texto
   // próprio e abre direto na leitura — nenhuma rede envolvida.
