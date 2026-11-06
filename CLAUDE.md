@@ -172,9 +172,12 @@ Os ◐ são pendentes conhecidos, cada um com o motivo no próprio caso.
 - Bluetooth, mesmo dia: no iPhone, fone com microfone recebeu a voz. No
   notebook Windows com caixa Bluetooth ligada, a voz saiu pelos alto-falantes
   do PC. Uma página não escolhe para onde vai a voz sintética (não há
-  `setSinkId` para `speechSynthesis`): quem decide é o sistema. Conserto é do
-  lado do Windows (dispositivo de saída padrão / saída do navegador no
-  mixer de volume), não do app.
+  `setSinkId` para `speechSynthesis`): quem decide é o sistema.
+  **Confirmado no mesmo dia:** a mesma leitura com uma voz "(online)" saiu na
+  caixa. As vozes online tocam pelo navegador (mesma saída do vídeo); as
+  instaladas no Windows tocam pelo serviço de fala do sistema, que tem saída
+  própria — Painel de Controle → Fala → Conversão de Texto em Fala → Saída de
+  Áudio. O conserto para as vozes instaladas é lá, não no app.
 - O app não usa microfone (`getUserMedia`) em lugar nenhum: essa causa do
   "som de telefone" no Bluetooth está descartada.
 
