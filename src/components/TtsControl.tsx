@@ -39,13 +39,14 @@ function ehAparelhoApple(): boolean {
 /**
  * A sessão de áudio do Safari (iOS 17+), quando existe.
  *
- * 'playback' é o tipo "mídia": em tese é o que faz o som sair com a chave de
- * silencioso ligada e ir para a caixa Bluetooth pelo caminho de música (A2DP),
- * e não pelo de ligação (HFP). Visto na SAFIL 2026: no iPhone em silencioso a
- * leitura não tocava nada. NÃO CONFIRMADO para a voz sintética — a documentação
- * fala de áudio em geral, e speechSynthesis pode seguir outra regra. Por isso o
- * aviso de silencioso continua aparecendo, até o teste num iPhone de verdade
- * dizer se ele já pode sair. Onde a API não existe (todo o resto), nada muda.
+ * 'playback' é o tipo "mídia": para áudio comum, é o que faz o som sair com a
+ * chave de silencioso ligada e ir à caixa Bluetooth pelo caminho de música.
+ *
+ * TESTADO NUM IPHONE (2026-11-06): para a voz sintética NÃO adianta. Com a
+ * chave ligada a leitura continua muda, e volta a falar no instante em que a
+ * chave é desligada — o speechSynthesis do iOS segue a chave por conta própria.
+ * Por isso o aviso de silencioso é a resposta, e fica. Isto ficou porque não
+ * atrapalha, e o teste com fone Bluetooth (som saiu no fone) foi feito com ele.
  */
 type SessaoDeAudio = { type: string }
 function sessaoDeAudio(): SessaoDeAudio | null {

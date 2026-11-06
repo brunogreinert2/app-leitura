@@ -165,11 +165,16 @@ Os ◐ são pendentes conhecidos, cada um com o motivo no próprio caso.
   ao tocar Ouvir, o painel de voz mostra "🔇 Sem som? Confira se o aparelho não
   está no modo silencioso" (ícone e palavra, nunca só cor).
 - Onde existe `navigator.audioSession` (Safari 17+), a leitura pede o tipo
-  `playback` ao começar e devolve `auto` ao parar. Em tese isso faz tocar no
-  silencioso e manda o som à caixa Bluetooth pelo caminho de música (A2DP), não
-  pelo de ligação (HFP). **Falta confirmar num iPhone de verdade** se vale para
-  a voz sintética (`speechSynthesis`): se valer, o aviso pode sair; se não,
-  fica e isto vira limitação registrada do iOS.
+  `playback` ao começar e devolve `auto` ao parar. **Testado no iPhone do Bruno
+  em 2026-11-06: não faz a voz sintética tocar no silencioso** — muda com a
+  chave ligada, fala no instante em que ela é desligada. É limitação do iOS
+  (`speechSynthesis` segue a chave por conta própria): o aviso fica.
+- Bluetooth, mesmo dia: no iPhone, fone com microfone recebeu a voz. No
+  notebook Windows com caixa Bluetooth ligada, a voz saiu pelos alto-falantes
+  do PC. Uma página não escolhe para onde vai a voz sintética (não há
+  `setSinkId` para `speechSynthesis`): quem decide é o sistema. Conserto é do
+  lado do Windows (dispositivo de saída padrão / saída do navegador no
+  mixer de volume), não do app.
 - O app não usa microfone (`getUserMedia`) em lugar nenhum: essa causa do
   "som de telefone" no Bluetooth está descartada.
 
