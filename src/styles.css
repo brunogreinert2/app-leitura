@@ -2504,6 +2504,14 @@ button {
   font-size: 0.85em;
 }
 
+/* Dica de uso, não alerta: sem a barra vermelha do .tts-aviso. */
+.tts-dica {
+  margin: -0.2rem 0 0;
+  color: var(--color-muted);
+  font-size: 0.8em;
+  line-height: 1.4;
+}
+
 .tts-current {
   background: var(--hl-bg);
   color: var(--hl-fg);

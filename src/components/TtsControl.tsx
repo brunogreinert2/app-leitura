@@ -37,6 +37,18 @@ function ehAparelhoApple(): boolean {
 }
 
 /**
+ * No Windows, as vozes instaladas não tocam pelo navegador: tocam pelo serviço
+ * de fala do sistema, que tem saída de áudio PRÓPRIA. Visto em 2026-11-06: com
+ * caixa Bluetooth ligada, o vídeo saía na caixa e a leitura no notebook — como
+ * numa chamada de vídeo. As vozes "(online)" tocam pelo navegador e iam para a
+ * caixa. Uma página não escolhe a saída da voz; o que ela pode é dizer onde
+ * mexer. A dica aparece só no Windows, o único sistema em que isso foi visto.
+ */
+function ehWindows(): boolean {
+  return /Windows/.test(navigator.userAgent)
+}
+
+/**
  * A sessão de áudio do Safari (iOS 17+), quando existe.
  *
  * 'playback' é o tipo "mídia": para áudio comum, é o que faz o som sair com a
@@ -338,6 +350,7 @@ export function TtsControl({ bodyRef, escritaPadrao }: Props) {
               ))}
             </select>
           </label>
+          {ehWindows() && <p className="tts-dica">{t('voz.dicaWindows')}</p>}
           <label className="tts-field">
             Velocidade {rate.toFixed(2).replace('.', ',')}×
             <input

@@ -267,6 +267,8 @@ const PT = {
   // — voz —
   'voz.ouvir': 'Leitura em voz alta',
   'voz.parar': 'Parar leitura',
+  'voz.dicaWindows':
+    'Sem som na caixa Bluetooth? As vozes (online) saem pelo navegador; as instaladas seguem a saída de fala do Windows (Painel de Controle → Fala → Saída de Áudio).',
   'voz.silencioso':
     '🔇 Sem som? Confira se o aparelho não está no modo silencioso (chave ou botão de ação, na lateral).',
 
@@ -604,6 +606,8 @@ const EN: Record<Chave, string> = {
 
   'voz.ouvir': 'Read aloud',
   'voz.parar': 'Stop reading',
+  'voz.dicaWindows':
+    "No sound on the Bluetooth speaker? (online) voices play through the browser; installed ones follow Windows' speech output (Control Panel → Speech → Audio Output).",
   'voz.silencioso': '🔇 No sound? Check that the device is not in silent mode (switch or Action button, on the side).',
 
   'soltar.titulo': 'Drop to add to My files',
