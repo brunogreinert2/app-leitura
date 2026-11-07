@@ -101,8 +101,12 @@ export default defineConfig({
         // acrescenta um ouvinte. A fundação do offline fica intocada.
         importScripts: ['compartilhar.js'],
 
-        // Pré-cacheia o app e os livros embarcados (offline completo)
-        globPatterns: ['**/*.{js,css,html,svg,png,md,json,woff2}'],
+        // Pré-cacheia o app e os livros embarcados (offline completo).
+        // O `woff` (sem o 2) entra por causa da OpenDyslexic: as quatro faces
+        // principais dela são .woff, e sem ele ficavam fora do pacote offline —
+        // sem internet, o texto caía na fonte reserva (visto no Windows em
+        // 2026-11-07). O suplemento dela, em .woff2, sempre entrou.
+        globPatterns: ['**/*.{js,css,html,svg,png,md,json,woff,woff2}'],
         // O rolo da Bíblia (4,4 MB) passa do limite padrão de 2 MiB
         maximumFileSizeToCacheInBytes: 8 * 1024 * 1024,
 
