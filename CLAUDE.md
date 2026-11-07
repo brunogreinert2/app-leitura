@@ -180,6 +180,17 @@ Os ◐ são pendentes conhecidos, cada um com o motivo no próprio caso.
   Áudio. O conserto para as vozes instaladas é lá, não no app.
 - O app não usa microfone (`getUserMedia`) em lugar nenhum: essa causa do
   "som de telefone" no Bluetooth está descartada.
+- **Edge offline não fala (visto em 2026-11-07).** No app instalado pelo Edge,
+  no Windows, sem internet, nem as vozes instaladas (Maria, Daniel) falam: o
+  Edge dá cada trecho por terminado na hora, sem disparar `start` nem `error`.
+  Desde então o `TtsControl` conta como falha um `end` sem `start` em menos de
+  150 ms; três seguidas param a leitura e o painel diz qual voz falhou. Falta
+  saber se o Chrome, offline, fala com as mesmas vozes (teste pendente).
+- **Ideia registrada (2026-11-07): motor de voz próprio, offline.** Embutir no
+  app um sintetizador que não dependa do navegador (ex.: eSpeak-ng em WASM).
+  Voz mais robótica que as do sistema e alguns MB a mais, mas fala sem
+  internet em qualquer navegador e tem vozes de grego antigo e latim, que hoje
+  são puladas ou lidas com fonética emprestada. Decisão de projeto, não feita.
 
 ## Documentos
 
