@@ -49,6 +49,16 @@ function ehWindows(): boolean {
 }
 
 /**
+ * Edge (Chromium). Testado em 2026-11-07, no Windows, sem internet: o Edge não
+ * fala nem com as vozes instaladas (Maria, Daniel), e o Chrome, no mesmo
+ * notebook e offline, fala com elas. Quando a voz falha no Edge, o aviso
+ * aponta o Chrome — a falha é do navegador, não da voz nem do app.
+ */
+function ehEdge(): boolean {
+  return /\bEdg\//.test(navigator.userAgent)
+}
+
+/**
  * A sessão de áudio do Safari (iOS 17+), quando existe.
  *
  * 'playback' é o tipo "mídia": para áudio comum, é o que faz o som sair com a
@@ -278,7 +288,12 @@ export function TtsControl({ bodyRef, escritaPadrao }: Props) {
       errosSeguidosRef.current++
       if (errosSeguidosRef.current < 3) return false
       stop()
-      setAviso(`A voz ${voice.name} não conseguiu falar (${motivo}). Tente outra voz da lista.`)
+      setAviso(
+        `A voz ${voice.name} não conseguiu falar (${motivo}). ` +
+          (ehEdge() && !navigator.onLine
+            ? 'Sem internet, o Edge não fala nem com as vozes instaladas; no Chrome, offline, elas falam.'
+            : 'Tente outra voz da lista.'),
+      )
       return true
     }
     utter.onstart = () => {

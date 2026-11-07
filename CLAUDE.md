@@ -184,8 +184,10 @@ Os ◐ são pendentes conhecidos, cada um com o motivo no próprio caso.
   no Windows, sem internet, nem as vozes instaladas (Maria, Daniel) falam: o
   Edge dá cada trecho por terminado na hora, sem disparar `start` nem `error`.
   Desde então o `TtsControl` conta como falha um `end` sem `start` em menos de
-  150 ms; três seguidas param a leitura e o painel diz qual voz falhou. Falta
-  saber se o Chrome, offline, fala com as mesmas vozes (teste pendente).
+  150 ms; três seguidas param a leitura e o painel diz qual voz falhou.
+  **Confirmado no mesmo dia:** no mesmo notebook, offline, o Chrome fala com
+  essas vozes. A falha é do Edge, não do app nem das vozes; por isso, no Edge
+  sem internet, o aviso de falha aponta o Chrome (`ehEdge()` + `navigator.onLine`).
 - **Ideia registrada (2026-11-07): motor de voz próprio, offline.** Embutir no
   app um sintetizador que não dependa do navegador (ex.: eSpeak-ng em WASM).
   Voz mais robótica que as do sistema e alguns MB a mais, mas fala sem
