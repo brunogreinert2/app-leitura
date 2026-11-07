@@ -259,29 +259,44 @@ export function TtsControl({ bodyRef, escritaPadrao }: Props) {
       return
     }
     utter.rate = rate
+    /* Um trecho que falha é pulado — mas o MOTOR que falha não pode virar
+       silêncio. Visto em 2026-11-07, no app instalado pelo Edge, offline: com
+       Maria e Daniel (vozes do Windows) o destaque corria o texto inteiro em
+       um segundo, sem som e sem pista. Três falhas seguidas param a leitura e
+       dizem qual voz falhou.
+
+       A falha tem duas caras. Uma é o `error`. A outra, a que o Edge deu, é
+       um `end` sem nunca ter havido `start`: o motor dá o trecho por lido sem
+       ter dito nada. Conta como falha só se, além de não começar, terminar
+       quase na hora — uma voz de verdade leva mais que isso para qualquer
+       trecho, então um navegador que não dispare `start` mas fale de fato
+       não é barrado. "interrupted"/"canceled" são o nosso próprio cancel(),
+       não falha da voz. */
+    let comecou = false
+    const pedidoEm = performance.now()
+    const falhou = (motivo: string): boolean => {
+      errosSeguidosRef.current++
+      if (errosSeguidosRef.current < 3) return false
+      stop()
+      setAviso(`A voz ${voice.name} não conseguiu falar (${motivo}). Tente outra voz da lista.`)
+      return true
+    }
+    utter.onstart = () => {
+      comecou = true
+    }
     utter.onend = () => {
-      errosSeguidosRef.current = 0
+      const mudo = !comecou && performance.now() - pedidoEm < 150
+      if (mudo) {
+        if (falhou('terminou sem começar')) return
+      } else {
+        errosSeguidosRef.current = 0
+      }
       indexRef.current++
       speakNext()
     }
-    /* Um trecho que falha é pulado — mas o MOTOR que falha não pode virar
-       silêncio. Visto em 2026-11-07, no app instalado pelo Edge, offline: com
-       Maria e Daniel (vozes do Windows) cada trecho dava erro na hora, e o
-       destaque corria o texto inteiro em um segundo, sem nenhuma pista do
-       motivo. Três falhas seguidas param a leitura e dizem qual voz falhou e
-       com que erro. "interrupted"/"canceled" são o nosso próprio cancel(),
-       não falha da voz. */
     utter.onerror = (e) => {
       if (e.error !== 'interrupted' && e.error !== 'canceled') {
-        errosSeguidosRef.current++
-        if (errosSeguidosRef.current >= 3) {
-          stop()
-          setAviso(
-            `A voz ${voice.name} não conseguiu falar (erro: ${e.error}). ` +
-              'Tente outra voz da lista.',
-          )
-          return
-        }
+        if (falhou(`erro: ${e.error}`)) return
       }
       indexRef.current++
       speakNext()
