@@ -147,6 +147,8 @@ export function TtsControl({ bodyRef, escritaPadrao }: Props) {
   const stoppedRef = useRef(false)
   /** Escritas já avisadas como sem voz — o aviso aparece uma vez por leitura. */
   const avisadosRef = useRef<Set<Escrita>>(new Set())
+  /** Falhas seguidas do motor de voz — ver o onerror em speakNext. */
+  const errosSeguidosRef = useRef(0)
   const [aviso, setAviso] = useState('')
 
   const supported = typeof window !== 'undefined' && 'speechSynthesis' in window
@@ -258,10 +260,29 @@ export function TtsControl({ bodyRef, escritaPadrao }: Props) {
     }
     utter.rate = rate
     utter.onend = () => {
+      errosSeguidosRef.current = 0
       indexRef.current++
       speakNext()
     }
-    utter.onerror = () => {
+    /* Um trecho que falha é pulado — mas o MOTOR que falha não pode virar
+       silêncio. Visto em 2026-11-07, no app instalado pelo Edge, offline: com
+       Maria e Daniel (vozes do Windows) cada trecho dava erro na hora, e o
+       destaque corria o texto inteiro em um segundo, sem nenhuma pista do
+       motivo. Três falhas seguidas param a leitura e dizem qual voz falhou e
+       com que erro. "interrupted"/"canceled" são o nosso próprio cancel(),
+       não falha da voz. */
+    utter.onerror = (e) => {
+      if (e.error !== 'interrupted' && e.error !== 'canceled') {
+        errosSeguidosRef.current++
+        if (errosSeguidosRef.current >= 3) {
+          stop()
+          setAviso(
+            `A voz ${voice.name} não conseguiu falar (erro: ${e.error}). ` +
+              'Tente outra voz da lista.',
+          )
+          return
+        }
+      }
       indexRef.current++
       speakNext()
     }
@@ -273,6 +294,7 @@ export function TtsControl({ bodyRef, escritaPadrao }: Props) {
     speechSynthesis.cancel()
     stoppedRef.current = false
     avisadosRef.current.clear()
+    errosSeguidosRef.current = 0
     const sessao = sessaoDeAudio()
     if (sessao) {
       try {
