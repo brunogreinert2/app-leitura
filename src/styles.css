@@ -968,6 +968,12 @@ button {
   background: var(--color-bg);
 }
 
+.camada-excluir-arquivos {
+  position: fixed;
+  inset: 0;
+  z-index: 50;
+}
+
 .editor-header {
   display: flex;
   align-items: center;
@@ -1011,7 +1017,7 @@ button {
 /* O Ξ do editor é o mesmo da leitura, mas aqui quem dá a altura da barra é o
    Salvar: com os 54px que tem lá, o Ξ engrossava esta barra em 8px. Fica com
    os 44px do alvo de toque, e o respiro vertical vem da própria barra. */
-.editor-header .toc-button {
+.editor-header .phi-button {
   min-height: 2.75rem;
   padding-top: 0;
   padding-bottom: 0;
@@ -1250,8 +1256,12 @@ button {
   }
 
   /* O editor cobre a tela inteira, e por isso não herda o padding do body:
-     com o sumário fixado, é ele mesmo que cede a faixa da direita. */
-  .editor-sumario-fixo {
+     ele mesmo cede a faixa de cada painel fixado. */
+  body[data-fixo-esq='1'] .editor-overlay {
+    left: min(20rem, 85vw);
+  }
+
+  body[data-fixo-dir='1'] .editor-overlay {
     right: min(20rem, 85vw);
   }
 

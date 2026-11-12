@@ -24,6 +24,8 @@ import { useEffect, useRef, type RefObject } from 'react'
 const FOCAVEIS =
   'button:not([disabled]), a[href], input:not([disabled]), select:not([disabled]), textarea:not([disabled]), [tabindex]:not([tabindex="-1"])'
 
+const dialogosAbertos = new Set<HTMLElement>()
+
 export function useDialogoAcessivel(
   aberto: boolean,
   aoFechar: () => void,
@@ -60,7 +62,12 @@ export function useDialogoAcessivel(
     // O primeiro item, não a caixa: quem chega quer agir, não ouvir o rótulo.
     focaveis()[0]?.focus()
 
+    dialogosAbertos.add(caixa)
     const aoTeclar = (e: KeyboardEvent) => {
+      // Um painel sobreposto dentro do editor cuida do próprio Tab e Esc.
+      for (const dialogo of dialogosAbertos) {
+        if (dialogo !== caixa && caixa.contains(dialogo)) return
+      }
       if (e.key === 'Escape') {
         e.preventDefault()
         fecharRef.current()
@@ -88,6 +95,7 @@ export function useDialogoAcessivel(
 
     document.addEventListener('keydown', aoTeclar)
     return () => {
+      dialogosAbertos.delete(caixa)
       document.removeEventListener('keydown', aoTeclar)
       // Só devolve se o foco ainda estiver no diálogo que está saindo: se o
       // usuário já clicou noutro lugar, roubar o foco de volta seria pior.

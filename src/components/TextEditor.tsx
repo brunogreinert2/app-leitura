@@ -1,4 +1,4 @@
-import { useEffect, useMemo, useRef, useState, type KeyboardEvent } from 'react'
+import { useEffect, useImperativeHandle, useMemo, useRef, useState, type KeyboardEvent, type ReactNode, type Ref } from 'react'
 import { useDialogoAcessivel } from '../lib/useDialogoAcessivel'
 import type { HeadingInfo } from '../lib/titulos'
 import { pedirTitulos, dispensarTitulos } from '../lib/pedirTitulos'
@@ -6,8 +6,16 @@ import { useT } from './idiomaContext'
 import { EditorLocalizar, topoDoPonto } from './EditorLocalizar'
 import { Sidebar } from './Sidebar'
 
+export interface TextEditorHandle {
+  descartarEdicao: () => boolean
+}
+
 interface Props {
-  open: boolean
+  sessaoEdicao: object | null
+  ref: Ref<TextEditorHandle>
+  children: ReactNode
+  onOpenLibrary: () => void
+  bibliotecaAberta: boolean
   /** null = texto novo; id do arquivo quando é edição — separa o rascunho de cada alvo. */
   fileId: string | null
   /** Título inicial (edição) ou vazio (texto novo). */
@@ -108,7 +116,11 @@ const LIST_RE = /^(\s*)([-*+]|\d+\.)(\s+)(\[[ xX]\]\s+)?(.*)$/
  * recém-digitado aparece nele antes de salvar.
  */
 export function TextEditor({
-  open,
+  sessaoEdicao,
+  ref,
+  children,
+  onOpenLibrary,
+  bibliotecaAberta,
   fileId,
   initialTitle,
   initialContent,
@@ -120,9 +132,9 @@ export function TextEditor({
   sumarioFixo,
   onAlternarSumarioFixo,
 }: Props) {
+  const open = sessaoEdicao !== null
   const t = useT()
   const caixaRef = useRef<HTMLDivElement>(null)
-  useDialogoAcessivel(open, onCancel, caixaRef)
   const [titulo, setTitulo] = useState(initialTitle)
   const [conteudo, setConteudo] = useState(initialContent)
   const areaRef = useRef<HTMLTextAreaElement>(null)
@@ -187,9 +199,10 @@ export function TextEditor({
         titulosDe.current = initialContent
       }
     }
-    window.setTimeout(() => irParaLinha(linhaInicial ?? 1), 100)
+    const frame = requestAnimationFrame(() => irParaLinha(linhaInicial ?? 1))
+    return () => cancelAnimationFrame(frame)
     // eslint-disable-next-line react-hooks/exhaustive-deps
-  }, [open, initialTitle, initialContent, fileId])
+  }, [sessaoEdicao, initialTitle, initialContent, fileId])
 
   /**
    * Os títulos do sumário, tirados do texto em edição.
@@ -280,15 +293,21 @@ export function TextEditor({
     return () => window.clearTimeout(draftTimer.current)
   }, [open, titulo, conteudo])
 
-  if (!open) return null
-
   const dirty = conteudo !== initialContent || titulo !== initialTitle
 
-  const cancel = () => {
-    if (dirty && !window.confirm(t('editor.descartar'))) return
+  const descartarEdicao = () => {
+    if (dirty && !window.confirm(t('editor.descartar'))) return false
+    window.clearTimeout(draftTimer.current)
     clearDraft()
-    onCancel()
+    return true
   }
+  const cancel = () => {
+    if (descartarEdicao()) onCancel()
+  }
+  useImperativeHandle(ref, () => ({ descartarEdicao }))
+  useDialogoAcessivel(open, cancel, caixaRef)
+
+  if (!open) return <div><div>{children}</div></div>
 
   const save = () => {
     const nome =
@@ -407,13 +426,22 @@ export function TextEditor({
 
   return (
     <div
-      className={`editor-overlay${sumarioFixo ? ' editor-sumario-fixo' : ''}`}
+      className="editor-overlay"
       role="dialog"
       aria-modal="true"
       aria-label={t('editor')}
       ref={caixaRef}
     >
+      <div>{children}</div>
       <header className="editor-header">
+        <button
+          className="library-button phi-button"
+          onClick={onOpenLibrary}
+          aria-label={t('biblioteca.abrir')}
+          aria-expanded={bibliotecaAberta}
+        >
+          Φ
+        </button>
         <button className="editor-cancel" onClick={cancel} aria-label={t('editor.cancelar')}>
           ✕
         </button>
@@ -483,7 +511,10 @@ export function TextEditor({
           vazio={t(titulosDe.current === null ? 'detalhes.carregando' : 'editor.semTitulos')}
           open={sumarioVisivel}
           fixo={sumarioFixo}
-          onAlternarFixo={onAlternarSumarioFixo}
+          onAlternarFixo={onAlternarSumarioFixo && (() => {
+            setSumarioAberto(!!sumarioFixo)
+            onAlternarSumarioFixo()
+          })}
           onClose={() => {
             if (sumarioFixo) onAlternarSumarioFixo?.()
             setSumarioAberto(false)

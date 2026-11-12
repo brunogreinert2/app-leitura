@@ -6,7 +6,7 @@ import {
   useArquivosDoSistema,
   useArquivosCompartilhados,
 } from './lib/useSoltarArquivos'
-import { TextEditor } from './components/TextEditor'
+import { TextEditor, type TextEditorHandle } from './components/TextEditor'
 import { LibraryDrawer } from './components/LibraryDrawer'
 import {
   ThemeDialog,
@@ -119,6 +119,7 @@ export function App() {
   const [localFiles, setLocalFiles] = useState<LocalFile[]>([])
   const [excluirAberto, setExcluirAberto] = useState(false)
   // Editor de textos próprios: null | novo | edição de um LocalFile
+  const editorRef = useRef<TextEditorHandle>(null)
   const [editor, setEditor] = useState<{
     file: LocalFile | null
     linha?: number
@@ -160,8 +161,12 @@ export function App() {
   const fixar = (qual: 'biblioteca' | 'sumario') => {
     if (!cabemDois) {
       const outro = qual === 'biblioteca' ? 'sumario' : 'biblioteca'
-      if (fixos[outro]) soltarPainel(outro)
+      if (fixos[outro]) {
+        soltarPainel(outro)
+        if (outro === 'biblioteca') setLibraryOpen(false)
+      }
     }
+    if (qual === 'biblioteca' && fixos.biblioteca && bibliotecaCede) return
     alternarFixo(qual)
   }
   /* OS DOIS FIXADOS ONDE SÓ CABE UM. O alfinete já não deixa chegar a isso,
@@ -215,12 +220,6 @@ export function App() {
     if (sumarioFixo) b.dataset.fixoDir = '1'
     else delete b.dataset.fixoDir
   }, [bibliotecaFixa, sumarioFixo])
-
-  // Painel fixo esta sempre visivel: fixar sem abrir seria reservar espaco
-  // para o vazio.
-  useEffect(() => {
-    if (bibliotecaFixa) setLibraryOpen(true)
-  }, [bibliotecaFixa])
 
   // Cedeu por falta de espaço: fecha, em vez de virar sobreposição aberta
   // por cima do texto que a pessoa estava lendo.
@@ -570,41 +569,12 @@ export function App() {
               : t('atualizacao.emDia')}
         </div>
       )}
-      <LibraryDrawer
-        catalog={libraryCatalog}
-        ativo={book?.id}
-        open={libraryOpen}
-        // Fechar tambem solta o alfinete: senao o painel reabriria sozinho no
-        // efeito acima, e o X pareceria nao funcionar.
-        onClose={() => {
-          soltarPainel('biblioteca')
-          setLibraryOpen(false)
-        }}
-        fixo={bibliotecaFixa}
-        onAlternarFixo={telaLarga ? () => fixar('biblioteca') : undefined}
-        onSelect={openBook}
-        onAddFiles={handleAddFiles}
-        onRemoveLocal={handleRemoveLocal}
-        onNewText={() => {
-          setLibraryOpen(false)
-          setEditor({ file: null })
-        }}
-        onExportData={handleExportData}
-        onImportData={handleImportData}
-        onCheckUpdate={checkNow}
-        totalLocais={localFiles.length}
-        onExcluirTudo={() => setExcluirAberto(true)}
-      />
-      <ExcluirTudoDialog
-        open={excluirAberto}
-        total={localFiles.length}
-        onClose={() => setExcluirAberto(false)}
-        onBackup={() => exportBackup().catch(() => window.alert(t('arquivos.exportarFalhou')))}
-        onApagar={handleExcluirTudo}
-      />
       <TextEditor
+        ref={editorRef}
+        onOpenLibrary={() => setLibraryOpen(true)}
+        bibliotecaAberta={libraryOpen || bibliotecaFixa}
         sugerirTitulo={sugerirTitulo}
-        open={editor !== null}
+        sessaoEdicao={editor}
         fileId={editor?.file?.id ?? null}
         initialTitle={editor?.file?.titulo ?? ''}
         initialContent={editor?.file?.conteudo ?? ''}
@@ -614,7 +584,53 @@ export function App() {
         onCancel={() => setEditor(null)}
         sumarioFixo={sumarioFixo}
         onAlternarSumarioFixo={telaLarga ? () => fixar('sumario') : undefined}
-      />
+      >
+        <LibraryDrawer
+          catalog={libraryCatalog}
+          ativo={book?.id}
+          open={libraryOpen || bibliotecaFixa}
+          // Fechar tambem solta o alfinete: senao o painel reabriria sozinho no
+          // efeito acima, e o X pareceria nao funcionar.
+          onClose={() => {
+            soltarPainel('biblioteca')
+            setLibraryOpen(false)
+          }}
+          fixo={bibliotecaFixa}
+          onAlternarFixo={telaLarga ? () => {
+            setLibraryOpen(bibliotecaFixa)
+            fixar('biblioteca')
+          } : undefined}
+          onSelect={(entry) => {
+            if (editor && !editorRef.current?.descartarEdicao()) return
+            setEditor(null)
+            openBook(entry)
+          }}
+          onAddFiles={handleAddFiles}
+          onRemoveLocal={handleRemoveLocal}
+          onNewText={() => {
+            if (editor && !editorRef.current?.descartarEdicao()) return
+            if (!bibliotecaFixa) setLibraryOpen(false)
+            setEditor({ file: null })
+          }}
+          onExportData={handleExportData}
+          onImportData={handleImportData}
+          onCheckUpdate={checkNow}
+          totalLocais={localFiles.length}
+          onExcluirTudo={() => {
+            if (!bibliotecaFixa) setLibraryOpen(false)
+            setExcluirAberto(true)
+          }}
+        />
+        <div className={excluirAberto ? 'camada-excluir-arquivos' : undefined}>
+          <ExcluirTudoDialog
+            open={excluirAberto}
+            total={localFiles.length}
+            onClose={() => setExcluirAberto(false)}
+            onBackup={() => exportBackup().catch(() => window.alert(t('arquivos.exportarFalhou')))}
+            onApagar={handleExcluirTudo}
+          />
+        </div>
+      </TextEditor>
       <ThemeDialog
         open={themeOpen}
         theme={theme}
@@ -633,66 +649,68 @@ export function App() {
         }}
         onClose={() => setThemeOpen(false)}
       />
-      {book ? (
-        <Reader
-          key={`${book.id}:${book.arquivo}:${stack.length}:${bookVersion}`}
-          entry={book}
-          initialRef={book.id === stack[0]?.id && stack.length === 1 ? initialRef : undefined}
-          trackAsLastBook={book.id !== WELCOME_ENTRY.id}
-          onEditLocal={book.local ? handleEditLocal : undefined}
-          linhaInicial={linhaDeVolta}
-          onLinhaUsada={() => setLinhaDeVolta(undefined)}
-          personRegistry={personRegistry}
-          onBack={popBook}
-          onOpenPerson={pushBook}
-          onOpenLibrary={() => setLibraryOpen(true)}
-          onOpenAppearance={() => setThemeOpen(true)}
-          sumarioFixo={sumarioFixo}
-          onAlternarSumarioFixo={telaLarga ? () => fixar('sumario') : undefined}
-        />
-      ) : (
-        <>
-          <Catalog
-            catalog={libraryCatalog}
-            error={error}
-            onSelect={openBook}
+      <div inert={editor !== null}>
+        {book ? (
+          <Reader
+            key={`${book.id}:${book.arquivo}:${stack.length}:${bookVersion}`}
+            entry={book}
+            initialRef={book.id === stack[0]?.id && stack.length === 1 ? initialRef : undefined}
+            trackAsLastBook={book.id !== WELCOME_ENTRY.id}
+            onEditLocal={book.local ? handleEditLocal : undefined}
+            linhaInicial={linhaDeVolta}
+            onLinhaUsada={() => setLinhaDeVolta(undefined)}
+            personRegistry={personRegistry}
+            onBack={popBook}
+            onOpenPerson={pushBook}
             onOpenLibrary={() => setLibraryOpen(true)}
-            onOpenMenu={() => setMenuOpen(true)}
-            decreaseFont={decreaseFont}
-            increaseFont={increaseFont}
+            onOpenAppearance={() => setThemeOpen(true)}
+            sumarioFixo={sumarioFixo}
+            onAlternarSumarioFixo={telaLarga ? () => fixar('sumario') : undefined}
           />
-          {/* O mesmo Ξ da leitura. Sem livro aberto ele não tem sumário para
-              mostrar, então abriga o que continua fazendo sentido: aparência e
-              a ficha do acervo. */}
-          <Sidebar
-            headings={[]}
-            names={[]}
-            open={menuOpen || sumarioFixo}
-            fixo={sumarioFixo}
-            onAlternarFixo={telaLarga ? () => fixar('sumario') : undefined}
-            onClose={() => {
-              soltarPainel('sumario')
-              setMenuOpen(false)
-            }}
-            onAppearance={() => {
-              setMenuOpen(false)
-              setThemeOpen(true)
-            }}
-            onDetails={() => {
-              setMenuOpen(false)
-              setAcervoDetailsOpen(true)
-            }}
-          />
-          <DetailsDialog
-            open={acervoDetailsOpen}
-            onClose={() => setAcervoDetailsOpen(false)}
-            entry={null}
-            parsed={null}
-            catalog={libraryCatalog}
-            persistencia={persistencia}
-          />
-        </>
-      )}
+        ) : (
+          <>
+            <Catalog
+              catalog={libraryCatalog}
+              error={error}
+              onSelect={openBook}
+              onOpenLibrary={() => setLibraryOpen(true)}
+              onOpenMenu={() => setMenuOpen(true)}
+              decreaseFont={decreaseFont}
+              increaseFont={increaseFont}
+            />
+            {/* O mesmo Ξ da leitura. Sem livro aberto ele não tem sumário para
+                mostrar, então abriga o que continua fazendo sentido: aparência e
+                a ficha do acervo. */}
+            <Sidebar
+              headings={[]}
+              names={[]}
+              open={menuOpen || sumarioFixo}
+              fixo={sumarioFixo}
+              onAlternarFixo={telaLarga ? () => fixar('sumario') : undefined}
+              onClose={() => {
+                soltarPainel('sumario')
+                setMenuOpen(false)
+              }}
+              onAppearance={() => {
+                setMenuOpen(false)
+                setThemeOpen(true)
+              }}
+              onDetails={() => {
+                setMenuOpen(false)
+                setAcervoDetailsOpen(true)
+              }}
+            />
+            <DetailsDialog
+              open={acervoDetailsOpen}
+              onClose={() => setAcervoDetailsOpen(false)}
+              entry={null}
+              parsed={null}
+              catalog={libraryCatalog}
+              persistencia={persistencia}
+            />
+          </>
+        )}
+      </div>
     </IdiomaContext.Provider>
   )
 }
