@@ -99,10 +99,20 @@
     "related": { "description": "Ids de outras obras do acervo.", "$ref": "#/$defs/lista_de_texto" },
 
     "reference_system": {
-      "description": "Sistema de referência canônica; informa a busca por endereço no app.",
-      "enum": ["verse", "chapter-section", "book-line", "stephanus", "bekker", "svf"],
+      "description": "Sistema de referência canônica; informa a busca por endereço no app. lexml (2026-11-13, prateleira ALICERCES): texto jurídico citado por dispositivo pelos endereços do LexML Brasil, Parte 3, tabela 3 — art5_cpt, art5_par1, art5_cpt_inc2, art3_par1_inc9_ali1, art8-1_par1 (parágrafo único do art. 8º-A), preambulo, ementa, epigrafe —, cada um como âncora ^ no fim do parágrafo do dispositivo (NORMAS N84).",
+      "enum": ["verse", "chapter-section", "book-line", "stephanus", "bekker", "svf", "lexml"],
       "x-antes": ["sistema_referencia"],
       "x-valores-antes": { "versiculo": "verse", "capitulo-secao": "chapter-section", "livro-verso": "book-line" }
+    },
+    "text_version": {
+      "description": "Que versão do texto jurídico é esta (2026-11-13, NORMAS N84). original: o texto como foi publicado ou adotado (a lei no Diário Oficial, a declaração na resolução da ONU). compiled: o texto compilado, com as alterações posteriores já incorporadas — o vigente; é o «texto compilado» do Planalto (planalto.gov.br). O compilado muda quando a lei muda: por isso vem junto com accessed.",
+      "enum": ["original", "compiled"]
+    },
+    "accessed": {
+      "description": "Data da consulta à fonte, em ISO 8601 (AAAA-MM-DD; NORMAS N83 e N84): o dia em que o texto foi lido ou baixado da fonte citada em source. Indispensável no texto compilado (text_version: compiled), que muda com a lei; é também a «Acesso em:» da referência ABNT de documento on-line.",
+      "type": "string",
+      "format": "date",
+      "pattern": "^[0-9]{4}-[0-9]{2}-[0-9]{2}$"
     },
     "abbrev": { "description": "Abreviatura da obra para âncoras (Bíblias).", "$ref": "#/$defs/texto", "x-antes": ["abrev"] },
     "book_number": { "type": "integer", "minimum": 1, "x-antes": ["livro_numero"] },

@@ -1,6 +1,7 @@
 import type { HeadingInfo } from './markdown'
 import { MARKER_RE, colcheteEscapado } from '../motor/remarkMarkers'
 import { semEtiquetaDeIdioma } from '../motor/remarkIdiomaAncora'
+import { ANCHOR_RE } from '../motor/remarkBlockAnchors'
 
 /**
  * Índice de busca por livro, construído sobre o MARKDOWN FONTE — a busca
@@ -33,7 +34,9 @@ export interface SourceMatch {
 
 // N79: faixa Unicode com \u, nunca com o caractere literal
 const MARKS_RE = /[̀-ͯ]/g
-const ANCHOR_LINE_RE = /\^([A-Za-z0-9][A-Za-z0-9-]*)\s*$/
+// A âncora no fim da linha é a MESMA do motor (ANCHOR_RE): até 2026-11-13 havia
+// aqui uma cópia à mão, que não aceitaria o `_` dos endereços LexML
+// (`^art5_cpt_inc2`) e deixaria o dispositivo de lei sem linha no índice.
 const VERSE_ANCHOR_RE = /^([a-z0-9]+?)-(\d+)-(\d+)$/
 
 export function normalizeText(text: string): string {
@@ -65,7 +68,7 @@ export function getBookIndex(bookId: string, source: string, headings: HeadingIn
 
   for (let i = 0; i < lines.length; i++) {
     // `texto ^dn-2-5 ^arc`: a etiqueta de idioma (N76) vem depois do endereço
-    const anchor = ANCHOR_LINE_RE.exec(semEtiquetaDeIdioma(lines[i]))
+    const anchor = ANCHOR_RE.exec(semEtiquetaDeIdioma(lines[i]))
     if (anchor && !anchorLines.has(anchor[1])) anchorLines.set(anchor[1], i + 1)
     MARKER_RE.lastIndex = 0
     for (const m of lines[i].matchAll(MARKER_RE)) {
@@ -152,6 +155,14 @@ export interface ResolvedRef {
  * (âncoras de versículo) e "5.4" (marcadores capítulo-seção).
  */
 export function resolveReference(index: BookIndex, input: string): ResolvedRef | null {
+  // O endereço escrito como está no arquivo (`art5_cpt_inc2`, `preambulo`,
+  // `gn-1-1`, também com `^` ou `anchor-` na frente): é o que se cita de um
+  // texto jurídico pelo LexML, e o que o link #/livro/<id>/<ref> carrega.
+  // Só acrescenta: antes, um nome de âncora sozinho não resolvia nada.
+  const bruto = input.trim().replace(/^\^/, '').replace(/^anchor-/, '')
+  const direta = index.anchorLines.get(bruto)
+  if (direta !== undefined) return { elementId: `anchor-${bruto}`, line: direta }
+
   const s = normalizeText(input.trim())
 
   // Capítulo-seção: "5.4" → [5.4] (id marker-5.4)

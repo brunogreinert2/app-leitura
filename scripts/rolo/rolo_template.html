@@ -626,7 +626,7 @@ function parar(){lendo=false;if('speechSynthesis'in window)speechSynthesis.cance
 function alvoDaPassagem(el){
   if(!el||!el.closest) return null;
   const m=el.closest('.marcador[id]'); if(m) return m.id;
-  const v=el.closest('.versiculo'); const p=v&&v.closest('[id^="anchor-"]');
+  const v=el.closest('.versiculo, .dispositivo'); const p=v&&v.closest('[id^="anchor-"]'); /* .dispositivo: o rótulo de lei (**Art. 5º**, **§ 1º**), 2026-11-13 */
   return p?p.id:null;
 }
 async function copiarLinkDaPassagem(id){
@@ -635,7 +635,7 @@ async function copiarLinkDaPassagem(id){
 }
 function tornarCopiaveis(el){
   if(!el||!el.querySelectorAll) return;
-  el.querySelectorAll('.marcador[id], .versiculo').forEach(x=>{
+  el.querySelectorAll('.marcador[id], .versiculo, .dispositivo').forEach(x=>{
     if(!alvoDaPassagem(x)) return;
     x.dataset.copiaLink='1';x.setAttribute('role','button');x.tabIndex=0;
     x.title='Copiar link desta passagem';

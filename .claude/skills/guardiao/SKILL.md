@@ -123,6 +123,11 @@ divergência para que este arquivo seja corrigido.
   Chame-o quando precisar de uma bancada; ele chama você quando o texto
   preparado tiver de entrar no acervo. Ver também
   `C:\Claude\atelie\PROPOSTA_PILOTO.md`.
+- **O texto que pede mudança no app abre tarefa paralela** (2026-11-13, «regra
+  geral nossa»): enquanto você arruma os textos, a mudança do app, do motor ou do
+  esquema vai para uma sessão própria, aberta no mesmo turno, sem commit. O texto
+  espera fora do acervo até ela voltar. Exemplo: a âncora LexML `^art2_par1` da
+  DUDH, que pediu `_` na âncora.
 - **Trabalho alheio se respeita.** Um texto já bem estruturado por alguém (ex.:
   os "Fragmentos" cedidos por Bruno Palavro) entra com o front matter na norma e
   a forma dele intacta. Não se reescreve o que outra pessoa fez bem.

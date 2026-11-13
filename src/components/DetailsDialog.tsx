@@ -22,6 +22,8 @@ const META_LABELS = [
   // identidade e proveniência (esquema do acervo, Saneamento 2026-09-29)
   'urn_work', 'urn', 'license', 'source_repo', 'source_file', 'source_commit',
   'pa_exclusive', 'reference_system', 'abbrev', 'colophon',
+  // texto jurídico (ALICERCES, NORMAS N84, 2026-11-13)
+  'text_version', 'accessed',
 ] as const
 
 function formatValue(value: unknown): string | null {

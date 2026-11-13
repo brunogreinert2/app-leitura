@@ -234,6 +234,8 @@ const PT = {
   'campo.source_commit': 'Versão de origem (commit)',
   'campo.pa_exclusive': 'Exclusivo do Pedra Angular',
   'campo.reference_system': 'Sistema de referência',
+  'campo.text_version': 'Versão do texto',
+  'campo.accessed': 'Consultado em',
   'campo.abbrev': 'Abreviatura',
   'campo.colophon': 'Colofão',
 
@@ -578,6 +580,8 @@ const EN: Record<Chave, string> = {
   'campo.source_commit': 'Source version (commit)',
   'campo.pa_exclusive': 'Pedra Angular exclusive',
   'campo.reference_system': 'Reference system',
+  'campo.text_version': 'Text version',
+  'campo.accessed': 'Accessed',
   'campo.abbrev': 'Abbreviation',
   'campo.colophon': 'Colophon',
 

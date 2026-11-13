@@ -196,7 +196,28 @@ def separar_yaml(texto: str) -> tuple[dict, str]:
 # que sejam iguais: é o que garante que o id que o app calcula para um versículo
 # seja exatamente o id que existe no rolo. Se um dia divergirem, os links do app
 # passam a apontar para o nada — silenciosamente.
-RX_ANCORA = re.compile(r"\s*\^([A-Za-z0-9][A-Za-z0-9-]*)\s*$")
+# O `_` entrou em 2026-11-13 para os endereços LexML dos textos jurídicos
+# (`^art5_cpt_inc2`, `^art8-1_par1`), junto com o ANCHOR_RE do motor. Só se
+# acrescentou um sinal: toda âncora que já valia vale igual (LEI 6).
+RX_ANCORA = re.compile(r"\s*\^([A-Za-z0-9][A-Za-z0-9_-]*)\s*$")
+# O rótulo do dispositivo de lei em negrito, abrindo o parágrafo que tem âncora:
+# `**Art. 5º**`, `**Art. 12-B**`, `**Artigo 1**`, `**§ 1º**`, `**Parágrafo
+# único.**`, `**II –**` / `**II -**`, `**a)**`, `**1.**`. É o `**5**` do
+# versículo na forma do texto jurídico, e ganha o mesmo gesto: um toque copia o
+# link da passagem. Mesmo padrão que ROTULO_DISPOSITIVO_RE no motor
+# (remarkBlockAnchors.ts); o número puro continua com o RX_VERSICULO, e a Bíblia
+# sai byte a byte como saía. O romano é só maiúsculo, para «mix» não ser inciso.
+# Sinais fora do ASCII com \u (N79).
+RX_ROTULO_DISPOSITIVO = re.compile(
+    r"\*\*("
+    r"(?:Art\.|ART\.|Artigo|ARTIGO)\s?[0-9]+(?:\.?[º°o])?(?:-[A-Z])?\.?"
+    r"|§\s?[0-9]+(?:\.?[º°o])?(?:-[A-Z])?\.?"
+    r"|(?:Parágrafo único|PARÁGRAFO ÚNICO)\.?"
+    r"|[IVXLCDM]+(?:-[A-Z])?\s?[–—-]"
+    r"|[a-z]\)"
+    r"|[0-9]+\."
+    r")\*\*"
+)
 RX_WIKILINK = re.compile(r"\[\[([^\]|]+?)(?:\|([^\]]+?))?\]\]")
 RX_VERSICULO = re.compile(r"\*\*(\d+[a-z]?)\*\*")
 RX_ROTULO = re.compile(r"\*\*([A-Za-zÀ-ÿ]{2,12}(?: \([^)]{1,24}\))?)\*\*")
@@ -501,6 +522,19 @@ def corpo_html(md: str, prefixo_id: str = "", lang_doc: str = "") -> tuple[str, 
         elif re.match(r"^\s*\d+[.)]\s+", corpo):
             classes.append("item")
 
+        def miolo_de(texto: str) -> str:
+            # O rótulo do dispositivo de lei (`**Art. 5º**`, `**§ 1º**`, `**II –**`)
+            # só vira tocável no parágrafo que tem âncora e não é citação nem
+            # verso — as mesmas condições do motor, que marca o <strong> do
+            # parágrafo direto. Sai <strong class="dispositivo">: o negrito do
+            # impresso fica, e o rolo_template sabe copiar o link a partir dele.
+            if ancora and "citacao" not in classes and "verso" not in classes:
+                mr = RX_ROTULO_DISPOSITIVO.match(texto)
+                if mr:
+                    rotulo = html.escape(mr.group(1), quote=False)
+                    return f'<strong class="dispositivo">{rotulo}</strong>' + inline(texto[mr.end():], marcadores)
+            return inline(texto, marcadores)
+
         if len(segmentos) > 1:
             # Bloco ligado por quebra dura: UM parágrafo, <br> entre as linhas.
             # O primeiro segmento já perdeu o prefixo de citação/lista acima.
@@ -509,7 +543,9 @@ def corpo_html(md: str, prefixo_id: str = "", lang_doc: str = "") -> tuple[str, 
             lang, direcao = (lang_marcado, dir_marcado) if lang_marcado else idioma_da_linha(" ".join(partes), lang_doc)
             attr_lang = f' lang="{lang}"' if lang else ""
             attr_dir = ' dir="rtl"' if direcao == "rtl" else ""
-            miolo = "<br>".join(inline(p, marcadores) for p in partes if p)
+            miolo = "<br>".join(
+                (miolo_de(p) if k == 0 else inline(p, marcadores)) for k, p in enumerate(partes) if p
+            )
             saida.append(
                 f'<p class="{" ".join(classes)}"{attr_lang}{attr_dir}{attr_id}>{miolo}</p>'
             )
@@ -519,7 +555,7 @@ def corpo_html(md: str, prefixo_id: str = "", lang_doc: str = "") -> tuple[str, 
         attr_lang = f' lang="{lang}"' if lang else ""
         attr_dir = ' dir="rtl"' if direcao == "rtl" else ""
         saida.append(
-            f'<p class="{" ".join(classes)}"{attr_lang}{attr_dir}{attr_id}>{inline(corpo, marcadores)}</p>'
+            f'<p class="{" ".join(classes)}"{attr_lang}{attr_dir}{attr_id}>{miolo_de(corpo)}</p>'
         )
 
     return "\n".join(saida), n_headings
@@ -543,6 +579,8 @@ ROTULOS = [
     ("publisher", "Editora"),
     ("reference_system", "Sistema de referência"),
     ("sistema_referencia", "Sistema de referência"),   # nome antigo
+    ("text_version", "Versão do texto"),       # texto jurídico: original | compiled (N84)
+    ("accessed", "Consultado em"),             # data ISO da consulta à fonte (N84)
     ("abbrev", "Abreviatura"),
     ("abrev", "Abreviatura"),                 # nome antigo
     ("urn", "URN"),
