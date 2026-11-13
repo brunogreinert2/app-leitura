@@ -391,6 +391,8 @@ def blocos_logicos(md: str) -> list[list[str]]:
 
 RX_TAG_HTML = re.compile(r"<[^>]+>")
 RX_ACENTO_COMBINANTE = re.compile(r"[\u0300-\u036f]")
+# A chamada de nota que inline() põe no título (`<sup class="nota-ref">[1IA]</sup>`).
+RX_SUP_NOTA = re.compile(r'<sup class="nota-ref"[^>]*>.*?</sup>')
 
 
 def id_do_titulo(conteudo_html: str, vistos: dict[str, int]) -> str:
@@ -404,8 +406,13 @@ def id_do_titulo(conteudo_html: str, vistos: dict[str, int]) -> str:
     regras, mexa na outra — e rode a conferência de novo.
 
     Fora da LEI 6 de propósito (o portão não o registra): o endereço muda se o
-    título muda, e trancar o texto dos títulos seria caro demais."""
-    texto = html.unescape(RX_TAG_HTML.sub("", conteudo_html))
+    título muda, e trancar o texto dos títulos seria caro demais.
+
+    A chamada de nota fica de fora (2026-11-13, decisão do dono): `## Tradução[^6]`
+    é `h-traducao`, não `h-traducao-6`. Antes o rolo usava o rótulo da nota e o
+    app o número de ordem dela, e os dois discordavam; os ids antigos dos 29
+    títulos de então ficaram como apelido (livros/_apelidos/)."""
+    texto = html.unescape(RX_TAG_HTML.sub("", RX_SUP_NOTA.sub("", conteudo_html)))
     base = "h-" + re.sub(
         r"^-+|-+$",
         "",
@@ -889,7 +896,8 @@ def partes_da_obra(corpo: str) -> list[tuple[str, list[str]]]:
 def com_apelidos(corpo: str, raiz_corpus: Path, slug: str) -> str:
     """LEI 6. Um id publicado que saiu do texto (o [216] de página, o marker-1
     falso das notas) continua existindo: um <span> vazio com o id antigo,
-    imediatamente antes do elemento que marca o mesmo ponto hoje. A tabela
+    imediatamente antes do elemento que marca o mesmo ponto hoje (no título,
+    logo depois da tag de abertura: veja inserir). A tabela
     mora em livros/_apelidos/<id>.json e é lida também pelo app e pelo portão."""
     arq = raiz_corpus / "_apelidos" / f"{slug}.json"
     if not arq.exists():
@@ -904,9 +912,15 @@ def com_apelidos(corpo: str, raiz_corpus: Path, slug: str) -> str:
     def inserir(m: "re.Match[str]") -> str:
         antigos = por_alvo.get(m.group(2), [])
         spans = "".join(f'<span id="{atributo(a)}" class="apelido"></span>' for a in antigos)
+        # Título: o apelido vai DENTRO, logo depois da tag de abertura. Antes
+        # dela, viraria a última linha da seção ANTERIOR (o rolo agrupa por
+        # data-n), e o link antigo abriria a seção errada. Dentro, o
+        # irParaAncora do rolo_template acha o título e abre a seção dele.
+        if re.fullmatch(r"h\d", m.group(1)) or 'role="heading"' in m.group(0):
+            return m.group(0) + spans
         return spans + m.group(0)
 
-    novo_corpo = re.sub(r'<(\w+)[^>]*?\sid="([^"]+)"', inserir, corpo)
+    novo_corpo = re.sub(r'<(\w+)[^>]*?\sid="([^"]+)"[^>]*>', inserir, corpo)
     faltam = set(por_alvo) - set(re.findall(r'\sid="([^"]+)"', corpo))
     if faltam:
         print(f"  ! {slug}: apelido aponta para id que não existe: {sorted(faltam)[:3]}", file=sys.stderr)

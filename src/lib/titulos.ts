@@ -22,11 +22,23 @@ export interface HeadingInfo {
   line?: number
 }
 
-/** Texto plano de um nó hast (para títulos do sumário). */
-function hastText(node: unknown): string {
-  const n = node as { type?: string; value?: string; children?: unknown[] }
+/**
+ * Texto plano de um nó hast. Com `semChamadas`, deixa de fora a chamada de
+ * nota (o <a data-footnote-ref> que o remark-gfm põe num <sup>): é o texto do
+ * sumário. Sem isso, `### Título[^1IA]` aparecia no sumário como «Título2» —
+ * o 2 é o número de ordem que o gfm dá à nota, não parte do título.
+ */
+function hastText(node: unknown, semChamadas = false): string {
+  const n = node as {
+    type?: string
+    value?: string
+    children?: unknown[]
+    properties?: Record<string, unknown>
+  }
   if (n.type === 'text') return n.value ?? ''
-  if (Array.isArray(n.children)) return n.children.map(hastText).join('')
+  // `!== undefined`, não verdade: o atributo chega VAZIO (dataFootnoteRef: '').
+  if (semChamadas && n.properties?.dataFootnoteRef !== undefined) return ''
+  if (Array.isArray(n.children)) return n.children.map((c) => hastText(c, semChamadas)).join('')
   return ''
 }
 
@@ -57,7 +69,13 @@ export function collectHeadings(tree: HastRoot): HeadingInfo[] {
     // real antes daqui — "h7", "h12", "h48" chegam intactos.
     if (node.type !== 'element' || !/^h[1-9]\d*$/.test(node.tagName)) continue
     if (node.properties?.id === 'footnote-label') continue
-    const text = hastText(node)
+    // Sumário e id saem do texto SEM a chamada de nota (decisão do dono,
+    // 2026-11-13). Antes o id levava o número de ordem que o gfm dá à nota
+    // (`h-traducao4`), e o rolo o rótulo da fonte (`h-traducao-6`): o link de
+    // título copiado no app não achava nada no rolo. Os ids antigos dos dois
+    // valem pelo apelido (livros/_apelidos/<id>.json, LEI 6). Mesma regra em
+    // id_do_titulo, no gerador do rolo.
+    const text = hastText(node, true).trim()
     const id = slugify(text, seen)
     // .slice(1), não [1]: tagName[1] só pega 1 caractere e trunca
     // profundidades de 2 dígitos ("h10" virava depth 1).

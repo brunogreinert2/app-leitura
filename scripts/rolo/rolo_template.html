@@ -574,7 +574,11 @@ function irParaAncora(hash){
   };
   if(!achar(arvore)) return false;
   for(const no of caminho){ if(no._secao) toggle(no._secao,true); else if(no.pai&&no.pai._secao) toggle(no.pai._secao,true); }
-  const el=document.getElementById(alvo);
+  /* Alvo DENTRO de um título (o apelido de um id de título antigo, a chamada de
+     nota no título): o elemento do título não entra na página, só o id dele
+     passa à seção — então vai-se à seção do título. */
+  const ult=caminho[caminho.length-1];
+  const el=(ult&&ult.tipo==='heading'&&ult.el.id!==alvo&&ult._secao)?ult._secao:document.getElementById(alvo);
   /* Seção (link de título, #h-…) alinha pelo TOPO e acende só a linha do título:
      centralizada, uma seção mais alta que a tela deixava o próprio título acima
      dela, e o destaque pintava o capítulo inteiro. Passagem continua no centro. */
