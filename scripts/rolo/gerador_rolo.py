@@ -1424,6 +1424,7 @@ ROTULO_EN = {
     "FILOSOFIA": "Philosophy",
     "PSICOLOGIA": "Psychology",
     "LITERATURA": "Literature",
+    "ALICERCES": "Foundations",
     "PERSONAGENS": "Figures",
     "GERAL": "General",
     # idioma (o segundo nível de todo acervo)
@@ -1449,6 +1450,8 @@ ROTULO_EN = {
     # LITERATURA: o terceiro nível é o gênero, não a escola
     "Tragedia Grega": "Greek Tragedy",
     "Epica Grega": "Greek Epic",
+    # ALICERCES: o terceiro nível é a esfera de quem emitiu o texto
+    "Internacional": "International",
     "Iluminismo": "Enlightenment",
     "Moderna": "Modern",
     "Moralistas": "Moralia",
