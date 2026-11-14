@@ -17,6 +17,9 @@ tags:
 - century-20-ce
 status: draft
 project: pedra_angular
+related:
+- onu-universal-declaration-of-human-rights-en-1948
+- onu-declaration-universelle-des-droits-de-l-homme-fr-1948
 scope: 'Preamble and articles I to XXX, as adopted by resolution 217 A (III) of the United Nations General Assembly, Paris, 1948-12-10. Left out: the introduction by Silvia Rucks, UN Resident Coordinator in Brazil, which opens the 2025 booklet and is not part of the Declaration.'
 urn_work: urn:cts:pedraAngular:pa0054.pa001
 urn: urn:cts:pedraAngular:pa0054.pa001.pa-por1

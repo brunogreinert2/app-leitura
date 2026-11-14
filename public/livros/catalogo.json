@@ -11328,6 +11328,76 @@
       "autor": "United Nations General Assembly",
       "arquivo": "ALICERCES/Portugues/Internacional/ONU/Declaracao_Universal_dos_Direitos_Humanos/ONU_Declaracao_Universal_dos_Direitos_Humanos_pt_UNICRio_2025.md",
       "sistema_referencia": "lexml"
+    },
+    {
+      "id": "onu-declaration-universelle-des-droits-de-l-homme-fr-1948",
+      "titulo": "Déclaration universelle des droits de l'homme",
+      "autor": "United Nations General Assembly",
+      "arquivo": "ALICERCES/Frances/Internacional/ONU/Declaracao_Universal_dos_Direitos_Humanos/ONU_Declaration_universelle_des_droits_de_l_homme_fr_1948.md",
+      "sistema_referencia": "lexml"
+    },
+    {
+      "id": "onu-universal-declaration-of-human-rights-en-1948",
+      "titulo": "Universal Declaration of Human Rights",
+      "autor": "United Nations General Assembly",
+      "arquivo": "ALICERCES/Ingles/Internacional/ONU/Declaracao_Universal_dos_Direitos_Humanos/ONU_Universal_Declaration_of_Human_Rights_en_1948.md",
+      "sistema_referencia": "lexml"
+    },
+    {
+      "id": "brasil-decreto-12686-2025-compilado",
+      "titulo": "Decreto nº 12.686, de 20 de outubro de 2025",
+      "autor": "Presidência da República (Brasil)",
+      "arquivo": "ALICERCES/Portugues/Brasil/Federal/Decreto_12686_2025/Brasil_Decreto_12686_2025_compilado.md",
+      "sistema_referencia": "lexml"
+    },
+    {
+      "id": "brasil-decreto-12773-2025",
+      "titulo": "Decreto nº 12.773, de 8 de dezembro de 2025",
+      "autor": "Presidência da República (Brasil)",
+      "arquivo": "ALICERCES/Portugues/Brasil/Federal/Decreto_12773_2025/Brasil_Decreto_12773_2025.md",
+      "sistema_referencia": "lexml"
+    },
+    {
+      "id": "brasil-lei-13146-2015-lbi-compilado",
+      "titulo": "Lei nº 13.146, de 6 de julho de 2015",
+      "autor": "Congresso Nacional (Brasil)",
+      "arquivo": "ALICERCES/Portugues/Brasil/Federal/LBI/Brasil_Lei_13146_2015_LBI_compilado.md",
+      "sistema_referencia": "lexml"
+    },
+    {
+      "id": "ompi-tratado-de-marraqueche-pt-2018",
+      "titulo": "Tratado de Marraqueche",
+      "autor": "World Intellectual Property Organization (Diplomatic Conference, Marrakesh 2013)",
+      "arquivo": "ALICERCES/Portugues/Internacional/OMPI/Tratado_de_Marraqueche/OMPI_Tratado_de_Marraqueche_pt_2018.md",
+      "sistema_referencia": "lexml"
+    },
+    {
+      "id": "onu-convencao-sobre-os-direitos-da-crianca-pt-1990",
+      "titulo": "Convenção sobre os Direitos da Criança",
+      "autor": "United Nations General Assembly",
+      "arquivo": "ALICERCES/Portugues/Internacional/ONU/Convencao_Direitos_da_Crianca/ONU_Convencao_sobre_os_Direitos_da_Crianca_pt_1990.md",
+      "sistema_referencia": "lexml"
+    },
+    {
+      "id": "onu-convencao-sobre-os-direitos-das-pessoas-com-deficiencia-pt-2009",
+      "titulo": "Convenção sobre os Direitos das Pessoas com Deficiência",
+      "autor": "United Nations General Assembly",
+      "arquivo": "ALICERCES/Portugues/Internacional/ONU/Convencao_Direitos_Pessoas_com_Deficiencia/ONU_Convencao_sobre_os_Direitos_das_Pessoas_com_Deficiencia_pt_2009.md",
+      "sistema_referencia": "lexml"
+    },
+    {
+      "id": "onu-protocolo-facultativo-crpd-pt-2009",
+      "titulo": "Protocolo Facultativo à Convenção sobre os Direitos das Pessoas com Deficiência",
+      "autor": "United Nations General Assembly",
+      "arquivo": "ALICERCES/Portugues/Internacional/ONU/Protocolo_Facultativo_CRPD/ONU_Protocolo_Facultativo_CRPD_pt_2009.md",
+      "sistema_referencia": "lexml"
+    },
+    {
+      "id": "unesco-declaracao-de-salamanca-pt-sd",
+      "titulo": "Declaração de Salamanca",
+      "autor": "World Conference on Special Needs Education: Access and Quality (UNESCO and the Government of Spain)",
+      "arquivo": "ALICERCES/Portugues/Internacional/UNESCO/Declaracao_de_Salamanca/UNESCO_Declaracao_de_Salamanca_pt_sd.md",
+      "sistema_referencia": "lexml"
     }
   ],
   "redirecionamentos": {

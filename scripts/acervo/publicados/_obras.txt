@@ -446,6 +446,9 @@ boecio-liber-de-persona-et-duabus-naturis-contra-eutychen-et-nestorium-lat-h-f-s
 boecio-quomodo-substantiae-in-eo-quod-sint-bonae-sint-cum-non-sint-substantialia-bona-lat-h-f-stewart-1918
 boecio-quomodo-trinitas-unus-deus-ac-non-tres-dii-de-trinitate-lat-h-f-stewart-1918
 boecio-utrum-pater-et-filius-ac-spiritus-sanctus-de-divinitate-substantialiter-praedicentur-liber-lat-h-f-stewart-1918
+brasil-decreto-12686-2025-compilado
+brasil-decreto-12773-2025
+brasil-lei-13146-2015-lbi-compilado
 brotino-testemunhos-grc-diels-1922
 cantico-dos-canticos-grc-lxx-swe
 carta-de-jeremias-grc-lxx-swe
@@ -1069,7 +1072,13 @@ odes-grc-lxx-swe
 olimpiodoro-in-categorias-grc-busse-1902
 olimpiodoro-in-meteorologica-grc-stuve-1900
 olimpiodoro-prolegomenos-grc-busse-1902
+ompi-tratado-de-marraqueche-pt-2018
+onu-convencao-sobre-os-direitos-da-crianca-pt-1990
+onu-convencao-sobre-os-direitos-das-pessoas-com-deficiencia-pt-2009
 onu-declaracao-universal-dos-direitos-humanos-pt-unicrio-2025
+onu-declaration-universelle-des-droits-de-l-homme-fr-1948
+onu-protocolo-facultativo-crpd-pt-2009
+onu-universal-declaration-of-human-rights-en-1948
 orficos-fragmentos-grc-diels-1922
 oseias-grc-lxx-swe
 parmenides-fragmentos-grc-diels-1922
@@ -1730,6 +1739,7 @@ tomas-de-aquino-summa-theologica-prima-pars-lat-latinlibrary-sd
 tomas-de-kempis-de-imitatione-christi-lat-latinlibrary-sd
 trasimaco-fragmentos-grc-diels-1922
 trasimaco-testemunhos-grc-diels-1922
+unesco-declaracao-de-salamanca-pt-sd
 voltaire-breves-contos-1-jahr
 voltaire-breves-contos-2-jahr
 voltaire-breves-contos-3-jahr
