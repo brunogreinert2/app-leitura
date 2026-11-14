@@ -1,7 +1,7 @@
 // MOTOR DO ECOSSISTEMA — cópia gerada, NÃO EDITE AQUI.
 // Fonte: C:\Claude\parser\motor\remarkBlockAnchors.ts
 // Para mudar: edite a fonte e rode `npm run espalhar` em C:\Claude\parser.
-// sha256: 52e5f8579c6a1f929eeba6d7a45ef75803f6d07b988d3fce8863f65d4d31e83a
+// sha256: 1a99af1d96cd22e20c49dfefdd9df7cb919a5a72731ea9635eaf0a231def918a
 import { visit } from 'unist-util-visit'
 import type { Root, Text } from 'mdast'
 
@@ -39,8 +39,15 @@ export const ANCHOR_RE = /\s*\^([A-Za-z0-9][A-Za-z0-9_-]*)\s*$/
  * acrescido (`12-B`, `8º-A`); `§` + número, idem; `Parágrafo único`; romano
  * com meia-risca, travessão ou hífen (`II –`, `II -`); letra com parêntese
  * (`a)`); número com ponto (`1.`). Ponto final opcional; `ART.`, `ARTIGO` e
- * `PARÁGRAFO ÚNICO` em caixa alta também. O romano é só maiúsculo, para que
- * uma palavra como «mix» não passe por número.
+ * `PARÁGRAFO ÚNICO` em caixa alta também. O romano com traço é só maiúsculo,
+ * para que uma palavra como «mix» não passe por número.
+ * Os tratados (Marraqueche, a CDPD, a Convenção sobre os Direitos da Criança)
+ * numeram de outro jeito, e o rótulo deles também é endereço: letra entre
+ * parênteses (`(a)`), romano minúsculo entre parênteses (`(ii)`) ou só com o
+ * de fechar (`iii)`), romano maiúsculo com parêntese (`VII)`, art. 40 da
+ * Convenção sobre os Direitos da Criança) e número entre parênteses (`(12)`).
+ * O romano com parêntese é só de i, v e x, até cinco letras: palavra comum
+ * não passa.
  * O número puro (`**5**`) NÃO está aqui: é o versículo, testado à parte, e a
  * Bíblia fica exatamente como era. Mesmo padrão que RX_ROTULO_DISPOSITIVO no
  * gerador_rolo.py. Sinais fora do ASCII escritos com \u (N79).
@@ -54,6 +61,10 @@ export const ROTULO_DISPOSITIVO_RE = new RegExp(
       '[IVXLCDM]+(?:-[A-Z])?\\s?[\\u2013\\u2014-]', // II – · II - · IV-A —
       '[a-z]\\)', // a)
       '\\d+\\.', // 1.
+      '\\((?:[a-z]|[ivx]{2,5})\\)', // (a) · (ii) · (iv)
+      '[ivx]{2,5}\\)', // ii) · iii) · iv)
+      '[IVX]{1,5}\\)', // I) · II) · VII)
+      '\\(\\d+\\)', // (1) · (12)
     ].join('|') +
     ')$',
   'u',

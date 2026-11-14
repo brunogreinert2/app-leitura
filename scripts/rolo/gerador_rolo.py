@@ -206,7 +206,10 @@ RX_ANCORA = re.compile(r"\s*\^([A-Za-z0-9][A-Za-z0-9_-]*)\s*$")
 # versículo na forma do texto jurídico, e ganha o mesmo gesto: um toque copia o
 # link da passagem. Mesmo padrão que ROTULO_DISPOSITIVO_RE no motor
 # (remarkBlockAnchors.ts); o número puro continua com o RX_VERSICULO, e a Bíblia
-# sai byte a byte como saía. O romano é só maiúsculo, para «mix» não ser inciso.
+# sai byte a byte como saía. O romano com traço é só maiúsculo, para «mix» não
+# ser inciso. Os tratados (Marraqueche, a CDPD, a Convenção sobre os Direitos da
+# Criança) trazem também `**(a)**`, `**(ii)**`, `**iii)**`, `**VII)**` e
+# `**(12)**`; o romano com parêntese é só de i, v e x, até cinco letras.
 # Sinais fora do ASCII com \u (N79).
 RX_ROTULO_DISPOSITIVO = re.compile(
     r"\*\*("
@@ -216,6 +219,10 @@ RX_ROTULO_DISPOSITIVO = re.compile(
     r"|[IVXLCDM]+(?:-[A-Z])?\s?[–—-]"
     r"|[a-z]\)"
     r"|[0-9]+\."
+    r"|\((?:[a-z]|[ivx]{2,5})\)"  # (a) · (ii) · (iv)
+    r"|[ivx]{2,5}\)"  # ii) · iii) · iv)
+    r"|[IVX]{1,5}\)"  # I) · II) · VII)
+    r"|\([0-9]+\)"  # (1) · (12)
     r")\*\*"
 )
 RX_WIKILINK = re.compile(r"\[\[([^\]|]+?)(?:\|([^\]]+?))?\]\]")
